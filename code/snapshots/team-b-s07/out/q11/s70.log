@@ -1,0 +1,51 @@
+# Part 3: blend/identity test of HCN excess over k*HCO+ ; velocities relative to VSYS=2780 km/s (HCN-frame 2375-2575 = -405..-205; k fitted on 2575-2875 = -205..+95), aperture r=1.0", Xb4d at 1.05" and Xb4b at 1.05".
+## Xb4d@1.05"
+  Soutflow k=0.534 (R_Tb 0.540); window -405..-205: HCN +0.368 HCO+ +0.199  excess E=HCN-k*HCO+ = +0.262+-0.057 Jy km/s (+4.6 sigma; 71% of HCN window flux; E/HCN_core(|v|<100)=+0.3547)
+  N        k=0.726 (R_Tb 0.736); window -405..-205: HCN -0.009 HCO+ +0.006  excess E=HCN-k*HCO+ = -0.014+-0.055 Jy km/s (-0.3 sigma; nan% of HCN window flux; E/HCN_core(|v|<100)=-0.0014)
+  Bridge   k=0.440 (R_Tb 0.446); window -405..-205: HCN -0.027 HCO+ +0.024  excess E=HCN-k*HCO+ = -0.037+-0.047 Jy km/s (-0.8 sigma; nan% of HCN window flux; E/HCN_core(|v|<100)=-0.0135)
+  S        k=0.369 (R_Tb 0.373); window -405..-205: HCN +0.086 HCO+ +0.080  excess E=HCN-k*HCO+ = +0.056+-0.046 Jy km/s (+1.2 sigma; 65% of HCN window flux; E/HCN_core(|v|<100)=+0.0208)
+    residual HCN-k*HCO+ (Jy km/s per 50 km/s) Soutflow: -525:+0.000(+0s) -475:+0.018(+1s) -425:+0.035(+3s) -375:+0.047(+2s) -325:+0.076(+4s) -275:+0.061(+3s) -225:+0.088(+5s) -175:+0.064(+3s) -125:-0.005(-0s) -75:+0.012(+0s) -25:-0.042(-1s) +25:-0.043(-1s) +75:+0.004(+0s)
+    residual HCN-k*HCO+ (Jy km/s per 50 km/s) N: -525:+0.013(+1s) -475:+0.002(+0s) -425:-0.006(-0s) -375:-0.005(-0s) -325:-0.005(-0s) -275:-0.001(-0s) -225:-0.007(-0s) -175:+0.043(+2s) -125:+0.012(+0s) -75:-0.088(-2s) -25:-0.075(-1s) +25:-0.051(-1s) +75:+0.115(+2s)
+    residual HCN-k*HCO+ (Jy km/s per 50 km/s) S: -525:-0.022(-2s) -475:-0.023(-2s) -425:-0.018(-2s) -375:+0.021(+1s) -325:+0.005(+0s) -275:+0.003(+0s) -225:+0.026(+2s) -175:+0.024(+1s) -125:-0.019(-1s) -75:-0.017(-1s) -25:+0.013(+1s) +25:-0.032(-2s) +75:+0.001(+0s)
+    Gaussian (centre bounded to -500..-150, fit range -520..-120) to Soutflow residual spectrum: peak 3.22+-0.20 mJy, centre -150+-40, FWHM 427+-69 km/s (channel rms ~0.78 mJy); HDO 2(2,0)-3(1,3) 266.161 GHz expected at -307, c-C3H -323/-355, CH3CHO 12(6,6)-13(5,8) -365
+## Xb4b@1.05"
+  Soutflow k=0.637 (R_Tb 0.645); window -405..-205: HCN +0.214 HCO+ +0.214  excess E=HCN-k*HCO+ = +0.078+-0.103 Jy km/s (+0.8 sigma; 36% of HCN window flux; E/HCN_core(|v|<100)=+0.0867)
+  N        k=0.712 (R_Tb 0.721); window -405..-205: HCN +0.013 HCO+ +0.111  excess E=HCN-k*HCO+ = -0.066+-0.097 Jy km/s (-0.7 sigma; -519% of HCN window flux; E/HCN_core(|v|<100)=-0.0070)
+  Bridge   k=0.436 (R_Tb 0.441); window -405..-205: HCN +0.032 HCO+ -0.041  excess E=HCN-k*HCO+ = +0.050+-0.084 Jy km/s (+0.6 sigma; 155% of HCN window flux; E/HCN_core(|v|<100)=+0.0209)
+  S        k=0.364 (R_Tb 0.369); window -405..-205: HCN -0.004 HCO+ +0.041  excess E=HCN-k*HCO+ = -0.019+-0.080 Jy km/s (-0.2 sigma; nan% of HCN window flux; E/HCN_core(|v|<100)=-0.0080)
+    residual HCN-k*HCO+ (Jy km/s per 50 km/s) Soutflow: -525:-0.019(-1s) -475:+0.020(+1s) -425:+0.020(+1s) -375:-0.012(-0s) -325:-0.019(-1s) -275:+0.072(+2s) -225:+0.034(+1s) -175:+0.003(+0s) -125:+0.020(+1s) -75:+0.009(+0s) -25:-0.001(-0s) +25:-0.032(-1s) +75:+0.011(+0s)
+    residual HCN-k*HCO+ (Jy km/s per 50 km/s) N: -525:+0.016(+1s) -475:+0.058(+2s) -425:-0.008(-0s) -375:-0.003(-0s) -325:-0.062(-2s) -275:+0.003(+0s) -225:+0.007(+0s) -175:+0.004(+0s) -125:+0.005(+0s) -75:-0.108(-2s) -25:-0.020(-0s) +25:-0.034(-0s) +75:+0.170(+2s)
+    residual HCN-k*HCO+ (Jy km/s per 50 km/s) S: -525:-0.020(-1s) -475:+0.024(+1s) -425:+0.014(+1s) -375:+0.008(+0s) -325:-0.041(-1s) -275:+0.033(+1s) -225:-0.023(-1s) -175:+0.048(+2s) -125:-0.009(-0s) -75:-0.003(-0s) -25:-0.054(-1s) +25:-0.011(-0s) +75:+0.015(+0s)
+    Gaussian (centre bounded to -500..-150, fit range -520..-120) to Soutflow residual spectrum: peak 2.14+-0.36 mJy, centre -150+-49, FWHM 214+-89 km/s (channel rms ~1.18 mJy); HDO 2(2,0)-3(1,3) 266.161 GHz expected at -307, c-C3H -323/-355, CH3CHO 12(6,6)-13(5,8) -365
+
+## catalogue lines (out/linelist.csv, Q0) falling at -405..-205 km/s of the HCN 3-2 frame, Eup<400 K, logA>-6 (galaxy-frame; a line of velocity u about systemic is observed at f*(1-VSYS/c))
+   u=-365 CH3CHO v = 0, 1 & 2 12( 6, 6)-13( 5, 8) E, vt=0 f=266.2133 Eup=153K A=1.09e-05
+   u=-329 l-C3H v4 = 1 2&Sigma;&mu; N=19-20,  J=39/2-41/2,  F=20-21 f=266.1805 Eup=244K A=1.27e-05
+   u=-316 l-C3H v4 = 1 2&Sigma;&mu; N=19-20,  J=39/2-41/2,  F=19-20 f=266.1692 Eup=244K A=1.27e-05
+   u=-307 HDO  2( 2, 0)- 3( 1, 3) f=266.1611 Eup=157K A=1.75e-05
+
+## LTE column a blend would need to carry the Soutflow Xb4d excess E=0.262+-0.057 Jy km/s (aperture r=1", source assumed to fill it: N scales as 1/filling); thin; compared with the thin-LTE HCO+ column for the HCO+ flux in the same window (a lower limit: HCO+ 3-2 is likely thick) 0.199 Jy km/s (same assumptions)
+ HDO 2(2,0)-3(1,3): nu=266.16107 GHz Eup=157 K logA=-4.75649  g_u from catalogue S mu^2 = 5.0
+    T= 30 K: W_exc=1.633 K km/s (filling aperture)  N_tot(req) = 2.21e+15 cm-2 ; thin N(HCO+) for the HCO+ window flux = 5.66e+11; N_req/N(HCO+)_thin = 3906.8
+    T= 60 K: W_exc=1.633 K km/s (filling aperture)  N_tot(req) = 4.56e+14 cm-2 ; thin N(HCO+) for the HCO+ window flux = 7.30e+11; N_req/N(HCO+)_thin = 624.4
+    T=100 K: W_exc=1.633 K km/s (filling aperture)  N_tot(req) = 3.44e+14 cm-2 ; thin N(HCO+) for the HCO+ window flux = 1.02e+12; N_req/N(HCO+)_thin = 337.0
+    T=200 K: W_exc=1.633 K km/s (filling aperture)  N_tot(req) = 4.43e+14 cm-2 ; thin N(HCO+) for the HCO+ window flux = 1.79e+12; N_req/N(HCO+)_thin = 247.8
+ CH3CHO 12(6,6)-13(5,8) E: nu=266.2132629 GHz Eup=153 K logA=-4.96295  g_u from catalogue S mu^2 = 50.0
+    T= 30 K: W_exc=1.633 K km/s (filling aperture)  N_tot(req) = 2.63e+16 cm-2 ; thin N(HCO+) for the HCO+ window flux = 5.66e+11; N_req/N(HCO+)_thin = 46435.4
+    T= 60 K: W_exc=1.633 K km/s (filling aperture)  N_tot(req) = 5.77e+15 cm-2 ; thin N(HCO+) for the HCO+ window flux = 7.30e+11; N_req/N(HCO+)_thin = 7915.7
+    T=100 K: W_exc=1.633 K km/s (filling aperture)  N_tot(req) = 4.47e+15 cm-2 ; thin N(HCO+) for the HCO+ window flux = 1.02e+12; N_req/N(HCO+)_thin = 4384.1
+    T=200 K: W_exc=1.633 K km/s (filling aperture)  N_tot(req) = 5.87e+15 cm-2 ; thin N(HCO+) for the HCO+ window flux = 1.79e+12; N_req/N(HCO+)_thin = 3286.6
+
+# Part 4: dense-gas wing limits at N (aperture r=1.0", Xb4d at 1.05"), 3 sigma from random-aperture scatter of the same window; fractions of the line core flux (|v-v_loc|<225). Baselines: blue 225-350 from A (-900..-450); blue 350-750 and red 350-700 from (-1000..-780 U 500..700 for blue; -900..-450 for red).
+  Xb4d HCN   blue225_350: flux -0.013+-0.033 Jy km/s (-0.4 sigma), 3-sigma limit 0.099 = 0.9% of core (|v|<225) flux 10.62
+  Xb4d HCN   blue350_750: flux -0.036+-0.064 Jy km/s (-0.6 sigma), 3-sigma limit 0.192 = 1.8% of core (|v|<225) flux 10.62
+  Xb4d HCN   red350_700: flux +0.026+-0.042 Jy km/s (+0.6 sigma), 3-sigma limit 0.127 = 1.2% of core (|v|<225) flux 10.62
+  Xb4d HCO+  blue225_350: flux -0.003+-0.026 Jy km/s (-0.1 sigma), 3-sigma limit 0.077 = 0.5% of core (|v|<225) flux 14.38
+  Xb4d HCO+  blue350_750: flux -0.305+-0.100 Jy km/s (-3.0 sigma), 3-sigma limit 0.301 = 2.1% of core (|v|<225) flux 14.38
+  Xb4d HCO+  red350_700: flux +0.055+-0.028 Jy km/s (+1.9 sigma), 3-sigma limit 0.085 = 0.6% of core (|v|<225) flux 14.38
+  Xb4b HCN   blue225_350: flux -0.009+-0.057 Jy km/s (-0.2 sigma), 3-sigma limit 0.171 = 1.6% of core (|v|<225) flux 10.55
+  Xb4b HCN   blue350_750: flux -0.030+-0.100 Jy km/s (-0.3 sigma), 3-sigma limit 0.299 = 2.8% of core (|v|<225) flux 10.55
+  Xb4b HCN   red350_700: flux +0.020+-0.067 Jy km/s (+0.3 sigma), 3-sigma limit 0.202 = 1.9% of core (|v|<225) flux 10.55
+  Xb4b HCO+  blue225_350: flux +0.061+-0.043 Jy km/s (+1.4 sigma), 3-sigma limit 0.129 = 0.9% of core (|v|<225) flux 14.42
+  Xb4b HCO+  blue350_750: flux -0.242+-0.111 Jy km/s (-2.2 sigma), 3-sigma limit 0.333 = 2.3% of core (|v|<225) flux 14.42
+  Xb4b HCO+  red350_700: flux +0.046+-0.049 Jy km/s (+0.9 sigma), 3-sigma limit 0.148 = 1.0% of core (|v|<225) flux 14.42

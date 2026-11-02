@@ -1,0 +1,18 @@
+/workspace/scripts/q26_uvana.py:32: RuntimeWarning: Mean of empty slice
+  return dict(re=g('re'),im=g('im'),err=1/np.sqrt(w.sum()),eb_spread=sp,amp=g('amp'),null=np.nanmean([x['null'] for x in s]),n=sum(x['n'] for x in s)),s
+truth=noFall fwTrue=10 6-8      R21=0.609 R32=0.555 R32/R21=0.912+-0.027
+truth=noFall fwTrue=10 8-10     R21=0.614 R32=0.561 R32/R21=0.914+-0.036
+truth=noFall fwTrue=10 10-14    R21=0.629 R32=0.562 R32/R21=0.893+-0.029
+truth=noFall fwTrue=10 14-20    R21=0.658 R32=0.567 R32/R21=0.863+-0.040
+truth=noFall fwTrue=10 20-30    R21=0.958 R32=0.634 R32/R21=0.817+-0.445
+truth=noFall fwTrue=10 fit6     R21=0.521 R32=0.544 R32/R21=1.053+-0.142
+truth=noFall fwTrue=10 fit10    R21=0.539 R32=0.545 R32/R21=1.014+-0.081
+truth=noFall fwTrue=10 fit15    R21=0.537 R32=0.541 R32/R21=1.010+-0.088
+truth=fall15 fwTrue=10 6-8      R21=0.612 R32=0.514 R32/R21=0.839+-0.025
+truth=fall15 fwTrue=10 8-10     R21=0.611 R32=0.524 R32/R21=0.859+-0.038
+truth=fall15 fwTrue=10 10-14    R21=0.625 R32=0.531 R32/R21=0.850+-0.029
+truth=fall15 fwTrue=10 14-20    R21=0.660 R32=0.549 R32/R21=0.833+-0.039
+truth=fall15 fwTrue=10 20-30    R21=0.886 R32=0.661 R32/R21=1.298+-2.094
+truth=fall15 fwTrue=10 fit6     R21=0.523 R32=0.480 R32/R21=0.927+-0.130
+truth=fall15 fwTrue=10 fit10    R21=0.530 R32=0.471 R32/R21=0.892+-0.084
+truth=fall15 fwTrue=10 fit15    R21=0.529 R32=0.467 R32/R21=0.887+-0.102

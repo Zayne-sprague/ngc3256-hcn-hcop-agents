@@ -1,0 +1,41 @@
+== (1) direct opacity from isotopologue ratios, 2.2" beam ==
+N      HCO+/H13CO+ (template integral)              R=  43.3 (x/ 1.16) | X=40: tau=0.00 [0.00,0.14] | X=70: tau=1.07 [0.72,1.45] | X=100: tau=2.03 [1.61,2.48] 
+N      HCO+/H13CO+ (+-150 aperture)                 R=  36.9 (x/ 1.18) | X=40: tau=0.17 [0.00,0.53] | X=70: tau=1.48 [1.06,1.95] | X=100: tau=2.53 [2.01,3.10] 
+N      HCO+/H13CO+ (+-150 peak pixel of 2.2" map)   R=  26.9 (x/ 1.18) | X=40: tau=0.88 [0.50,1.29] | X=70: tau=2.41 [1.91,2.97] | X=100: tau=3.69 [3.06,4.42] 
+N      HCN/H13CN (+-150 aperture)                   R=  45.5 (x/ 1.21) | X=40: tau=0.00 [0.00,0.13] | X=70: tau=0.95 [0.52,1.43] | X=100: tau=1.88 [1.37,2.46] 
+N      HCN/H13CN (+-150 peak pixel)                 R=  33.1 (x/ 1.19) | X=40: tau=0.40 [0.02,0.80] | X=70: tau=1.78 [1.30,2.31] | X=100: tau=2.89 [2.30,3.56] 
+S      HCO+/H13CO+ (template integral)              R=  54.5 (x/ 1.23) | X=40: tau=0.00 [0.00,0.00] | X=70: tau=0.53 [0.09,1.02] | X=100: tau=1.39 [0.87,1.96] 
+S      HCO+/H13CO+ (+-150 aperture)                 R=  66.8 (x/ 1.31) | X=40: tau=0.00 [0.00,0.00] | X=70: tau=0.10 [0.00,0.68] | X=100: tau=0.88 [0.27,1.57] 
+S      HCO+/H13CO+ (+-150 peak pixel of 2.2" map)   R=  70.8 (x/ 1.62) | X=40: tau=0.00 [0.00,0.00] | X=70: tau=0.00 [0.00,1.05] | X=100: tau=0.75 [0.00,2.01] 
+S      HCN/H13CN (+-150 aperture)                   R= 209.3 (x/ 2.45) | X=40: tau=0.00 [0.00,0.00] | X=70: tau=0.00 [0.00,0.00] | X=100: tau=0.00 [0.00,0.33] 
+S      HCN/H13CN (+-150 peak pixel)                 R=   inf (x/ 818928342.34) | X=40: tau=0.00 [0.00,0.00] | X=70: tau=0.00 [0.00,0.00] | X=100: tau=0.00 [0.00,0.00] 
+Bridge HCO+/H13CO+ (template integral)              R=  54.1 (x/ 1.20) | X=40: tau=0.00 [0.00,0.00] | X=70: tau=0.55 [0.16,0.97] | X=100: tau=1.40 [0.95,1.90] 
+Bridge HCO+/H13CO+ (+-150 aperture)                 R=  54.9 (x/ 1.25) | X=40: tau=0.00 [0.00,0.00] | X=70: tau=0.51 [0.04,1.03] | X=100: tau=1.36 [0.82,1.98] 
+Bridge HCO+/H13CO+ (+-150 peak pixel of 2.2" map)   R=  45.0 (x/ 1.39) | X=40: tau=0.00 [0.00,0.45] | X=70: tau=0.98 [0.23,1.85] | X=100: tau=1.91 [1.04,2.98] 
+Bridge HCN/H13CN (+-150 aperture)                   R=  42.7 (x/ 1.25) | X=40: tau=0.00 [0.00,0.32] | X=70: tau=1.10 [0.58,1.68] | X=100: tau=2.06 [1.45,2.77] 
+Bridge HCN/H13CN (+-150 peak pixel)                 R=  37.8 (x/ 1.44) | X=40: tau=0.12 [0.00,0.94] | X=70: tau=1.42 [0.54,2.49] | X=100: tau=2.45 [1.39,3.80] 
+
+== (2) thin-line RADEX flux per unit column K(Tk,n) [K km/s per cm^-2, x1e-12 -> K km/s for N=1e12], tau at 1e12 ==
+Tk= 25 n=1e4: H13COp 0.324 (tau 4.5e-03)  H13CN 0.0567 (tau 3.0e-03)  SiO 0.152 (tau 1.7e-03)  HC3N 0.0548 (tau 1.1e-04)  
+Tk= 25 n=1e5: H13COp 1.14 (tau 1.0e-03)  H13CN 0.403 (tau 1.8e-03)  SiO 0.564 (tau 6.3e-04)  HC3N 0.241 (tau 1.2e-04)  
+Tk= 25 n=1e6: H13COp 0.805 (tau 3.7e-05)  H13CN 0.753 (tau -3.3e-06)  SiO 0.452 (tau 1.2e-04)  HC3N 0.248 (tau 7.5e-05)  
+Tk= 50 n=1e4: H13COp 0.415 (tau 4.1e-03)  H13CN 0.0855 (tau 2.9e-03)  SiO 0.199 (tau 1.6e-03)  HC3N 0.106 (tau 1.4e-04)  
+Tk= 50 n=1e5: H13COp 1.19 (tau 3.9e-04)  H13CN 0.529 (tau 1.4e-03)  SiO 0.606 (tau 3.6e-04)  HC3N 0.29 (tau 7.1e-05)  
+Tk= 50 n=1e6: H13COp 0.584 (tau -1.1e-04)  H13CN 0.657 (tau -1.7e-04)  SiO 0.351 (tau 2.9e-05)  HC3N 0.223 (tau 3.1e-05)  
+Tk=100 n=1e4: H13COp 0.492 (tau 3.8e-03)  H13CN 0.112 (tau 2.8e-03)  SiO 0.254 (tau 1.5e-03)  HC3N 0.165 (tau 1.6e-04)  
+Tk=100 n=1e5: H13COp 1.18 (tau 1.4e-05)  H13CN 0.614 (tau 1.0e-03)  SiO 0.606 (tau 1.6e-04)  HC3N 0.271 (tau 2.9e-05)  
+Tk=100 n=1e6: H13COp 0.41 (tau -1.3e-04)  H13CN 0.564 (tau -2.3e-04)  SiO 0.261 (tau -1.1e-08)  HC3N 0.163 (tau 1.1e-05)  
+
+== column densities and abundance ratios relative to HCO+ (N(HCO+)=X N(H13CO+), X=40-100), spans over Tk 25-100 K, n 1e4-1e6 ==
+N      X(SiO)/X(HCO+) = 11.46-38.91 x1e-3 (median-model & X=70: 20.25) ; line 1.82+-0.40 (4.5 sig marg); thin-model spread of N(l)/N(H13CO+): 1.15-1.56
+N      X(HC3N)/X(HCO+) = 48.56-284.99 x1e-3 (median-model & X=70: 107.24) ; line 4.80+-0.29 (16.3 sig DET); thin-model spread of N(l)/N(H13CO+): 4.86-11.40
+N      N(HCN)/N(HCO+) = N(H13CN)/N(H13CO+)  [X13 cancels if the same]: 0.55-4.32 median 1.70 (line 6.0 sig DET; 3sig lim 0.94 K km/s -> ratio lim 0.85)
+S      X(SiO)/X(HCO+) = 22.86-77.64 x1e-3 (median-model & X=70: 40.40) ; line 2.41+-0.33 (7.3 sig DET); thin-model spread of N(l)/N(H13CO+): 2.29-3.11
+S      X(HC3N)/X(HCO+) = 54.41-319.31 x1e-3 (median-model & X=70: 120.15) ; line 3.57+-0.32 (11.2 sig DET); thin-model spread of N(l)/N(H13CO+): 5.44-12.77
+S      N(HCN)/N(HCO+) = N(H13CN)/N(H13CO+)  [X13 cancels if the same]: 0.14-1.06 median 0.42 (line 1.0 sig lim; 3sig lim 0.95 K km/s -> ratio lim 1.29)
+Bridge X(SiO)/X(HCO+) = 18.97-64.45 x1e-3 (median-model & X=70: 33.53) ; line 2.32+-0.33 (7.0 sig DET); thin-model spread of N(l)/N(H13CO+): 1.90-2.58
+Bridge X(HC3N)/X(HCO+) = 61.05-358.29 x1e-3 (median-model & X=70: 134.82) ; line 4.65+-0.30 (15.3 sig DET); thin-model spread of N(l)/N(H13CO+): 6.11-14.33
+Bridge N(HCN)/N(HCO+) = N(H13CN)/N(H13CO+)  [X13 cancels if the same]: 0.68-5.36 median 2.11 (line 5.3 sig DET; 3sig lim 1.01 K km/s -> ratio lim 1.19)
+N      N(H13CO+) = 2.09e+12-7.69e+12 cm-2 (beam-avg., 2.2" aperture, +-RJ); N(HCO+) = 8.4e+13-7.7e+14
+S      N(H13CO+) = 1.39e+12-5.11e+12 cm-2 (beam-avg., 2.2" aperture, +-RJ); N(HCO+) = 5.6e+13-5.1e+14
+Bridge N(H13CO+) = 1.61e+12-5.92e+12 cm-2 (beam-avg., 2.2" aperture, +-RJ); N(HCO+) = 6.4e+13-5.9e+14

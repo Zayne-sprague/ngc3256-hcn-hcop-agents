@@ -1,0 +1,211 @@
+## common beam b86
+ N    Harada: 0.832+-0.017  Michiyama: 0.793+-0.003  Xb55: 0.703+-0.013  Xb4f: 0.560+-0.008  Xb4d: 0.538+-0.006
+ S    Harada: 0.565+-0.012  Michiyama: 0.593+-0.006  Xb55: 0.542+-0.010  Xb4f: 0.414+-0.005  Xb4d: 0.328+-0.002
+ N+S  Harada: 0.700+-0.011  Michiyama: 0.695+-0.003  Xb55: 0.625+-0.008  Xb4f: 0.489+-0.004  Xb4d: 0.441+-0.003
+ E1   Harada: 0.360+-0.092  Michiyama: 0.533+-0.011  Xb55: 0.399+-0.016  Xb4f: 0.155+-0.014  Xb4d: 0.121+-0.021
+ E2   Harada: nan+-nan  Michiyama: 0.245+-0.027  Xb55: 0.348+-0.063  Xb4f: nan+-nan  Xb4d: nan+-nan
+ W    Harada: 0.532+-0.037  Michiyama: 0.449+-0.012  Xb55: 0.464+-0.013  Xb4f: 0.273+-0.009  Xb4d: 0.195+-0.014
+ E1/(N+S): Harada: 0.51  Michiyama: 0.77  Xb55: 0.64  Xb4f: 0.32  Xb4d: 0.27
+ W/(N+S): Harada: 0.76  Michiyama: 0.65  Xb55: 0.74  Xb4f: 0.56  Xb4d: 0.44
+## common beam c10
+ N    Harada: 0.848+-0.028  Michiyama: 0.789+-0.004  Xb55: 0.680+-0.011  Xb4f: 0.544+-0.006  Xb4d: 0.504+-0.002
+ S    Harada: 0.513+-0.035  Michiyama: 0.613+-0.010  Xb55: 0.551+-0.013  Xb4f: 0.432+-0.007  Xb4d: 0.304+-0.005
+ N+S  Harada: 0.694+-0.023  Michiyama: 0.710+-0.005  Xb55: 0.621+-0.008  Xb4f: 0.492+-0.005  Xb4d: 0.419+-0.003
+ E1   Harada: 0.316+-0.074  Michiyama: 0.541+-0.008  Xb55: 0.403+-0.020  Xb4f: 0.118+-0.012  Xb4d: 0.137+-0.012
+ E2   Harada: nan+-nan  Michiyama: 0.178+-0.018  Xb55: 0.307+-0.062  Xb4f: nan+-nan  Xb4d: nan+-nan
+ W    Harada: 0.576+-0.053  Michiyama: 0.427+-0.014  Xb55: 0.445+-0.013  Xb4f: 0.227+-0.015  Xb4d: 0.214+-0.021
+ E1/(N+S): Harada: 0.46  Michiyama: 0.76  Xb55: 0.65  Xb4f: 0.24  Xb4d: 0.33
+ W/(N+S): Harada: 0.83  Michiyama: 0.60  Xb55: 0.72  Xb4f: 0.46  Xb4d: 0.51
+## shift|E1|1,0
+ N+S  Harada: 0.697+-nan  Michiyama: 0.693+-nan  Xb55: 0.622+-nan  Xb4f: 0.486+-nan  Xb4d: 0.437+-nan
+ E1   Harada: 0.367+-nan  Michiyama: 0.524+-nan  Xb55: 0.396+-nan  Xb4f: 0.131+-nan  Xb4d: 0.150+-nan
+ W    Harada: 0.529+-nan  Michiyama: 0.449+-nan  Xb55: 0.463+-nan  Xb4f: 0.266+-nan  Xb4d: 0.199+-nan
+ E1/(N+S): Harada: 0.53  Michiyama: 0.76  Xb55: 0.64  Xb4f: 0.27  Xb4d: 0.34
+ W/(N+S): Harada: 0.76  Michiyama: 0.65  Xb55: 0.74  Xb4f: 0.55  Xb4d: 0.45
+## shift|E1|-1,0
+ N+S  Harada: 0.706+-nan  Michiyama: 0.697+-nan  Xb55: 0.629+-nan  Xb4f: 0.492+-nan  Xb4d: 0.445+-nan
+ E1   Harada: 0.350+-nan  Michiyama: 0.543+-nan  Xb55: 0.400+-nan  Xb4f: 0.174+-nan  Xb4d: 0.084+-nan
+ W    Harada: 0.536+-nan  Michiyama: 0.448+-nan  Xb55: 0.465+-nan  Xb4f: 0.279+-nan  Xb4d: 0.192+-nan
+ E1/(N+S): Harada: 0.50  Michiyama: 0.78  Xb55: 0.64  Xb4f: 0.35  Xb4d: 0.19
+ W/(N+S): Harada: 0.76  Michiyama: 0.64  Xb55: 0.74  Xb4f: 0.57  Xb4d: 0.43
+## shift|E1|0,1
+ N+S  Harada: 0.701+-nan  Michiyama: 0.694+-nan  Xb55: 0.624+-nan  Xb4f: 0.488+-nan  Xb4d: 0.438+-nan
+ E1   Harada: 0.373+-nan  Michiyama: 0.559+-nan  Xb55: 0.404+-nan  Xb4f: 0.170+-nan  Xb4d: 0.088+-nan
+ W    Harada: 0.522+-nan  Michiyama: 0.452+-nan  Xb55: 0.464+-nan  Xb4f: 0.264+-nan  Xb4d: 0.192+-nan
+ E1/(N+S): Harada: 0.53  Michiyama: 0.81  Xb55: 0.65  Xb4f: 0.35  Xb4d: 0.20
+ W/(N+S): Harada: 0.74  Michiyama: 0.65  Xb55: 0.74  Xb4f: 0.54  Xb4d: 0.44
+## shift|E1|0,-1
+ N+S  Harada: 0.698+-nan  Michiyama: 0.696+-nan  Xb55: 0.626+-nan  Xb4f: 0.488+-nan  Xb4d: 0.443+-nan
+ E1   Harada: 0.337+-nan  Michiyama: 0.515+-nan  Xb55: 0.396+-nan  Xb4f: 0.135+-nan  Xb4d: 0.150+-nan
+ W    Harada: 0.547+-nan  Michiyama: 0.447+-nan  Xb55: 0.466+-nan  Xb4f: 0.284+-nan  Xb4d: 0.198+-nan
+ E1/(N+S): Harada: 0.48  Michiyama: 0.74  Xb55: 0.63  Xb4f: 0.28  Xb4d: 0.34
+ W/(N+S): Harada: 0.78  Michiyama: 0.64  Xb55: 0.74  Xb4f: 0.58  Xb4d: 0.45
+## shift|E2|1,0
+ N+S  Harada: 0.699+-nan  Michiyama: 0.690+-nan  Xb55: 0.622+-nan  Xb4f: 0.487+-nan  Xb4d: 0.441+-nan
+ E1   Harada: 0.360+-nan  Michiyama: 0.533+-nan  Xb55: 0.398+-nan  Xb4f: 0.155+-nan  Xb4d: 0.121+-nan
+ W    Harada: 0.531+-nan  Michiyama: 0.451+-nan  Xb55: 0.466+-nan  Xb4f: 0.273+-nan  Xb4d: 0.195+-nan
+ E1/(N+S): Harada: 0.52  Michiyama: 0.77  Xb55: 0.64  Xb4f: 0.32  Xb4d: 0.27
+ W/(N+S): Harada: 0.76  Michiyama: 0.65  Xb55: 0.75  Xb4f: 0.56  Xb4d: 0.44
+## shift|E2|-1,0
+ N+S  Harada: 0.700+-nan  Michiyama: 0.701+-nan  Xb55: 0.629+-nan  Xb4f: 0.490+-nan  Xb4d: 0.441+-nan
+ E1   Harada: 0.359+-nan  Michiyama: 0.534+-nan  Xb55: 0.399+-nan  Xb4f: 0.154+-nan  Xb4d: 0.121+-nan
+ W    Harada: 0.537+-nan  Michiyama: 0.447+-nan  Xb55: 0.463+-nan  Xb4f: 0.276+-nan  Xb4d: 0.195+-nan
+ E1/(N+S): Harada: 0.51  Michiyama: 0.76  Xb55: 0.63  Xb4f: 0.31  Xb4d: 0.27
+ W/(N+S): Harada: 0.77  Michiyama: 0.64  Xb55: 0.74  Xb4f: 0.56  Xb4d: 0.44
+## shift|E2|0,1
+ N+S  Harada: 0.709+-nan  Michiyama: 0.698+-nan  Xb55: 0.628+-nan  Xb4f: 0.492+-nan  Xb4d: 0.443+-nan
+ E1   Harada: 0.375+-nan  Michiyama: 0.549+-nan  Xb55: 0.401+-nan  Xb4f: 0.162+-nan  Xb4d: 0.123+-nan
+ W    Harada: 0.515+-nan  Michiyama: 0.453+-nan  Xb55: 0.465+-nan  Xb4f: 0.266+-nan  Xb4d: 0.186+-nan
+ E1/(N+S): Harada: 0.53  Michiyama: 0.79  Xb55: 0.64  Xb4f: 0.33  Xb4d: 0.28
+ W/(N+S): Harada: 0.73  Michiyama: 0.65  Xb55: 0.74  Xb4f: 0.54  Xb4d: 0.42
+## shift|E2|0,-1
+ N+S  Harada: 0.694+-nan  Michiyama: 0.690+-nan  Xb55: 0.621+-nan  Xb4f: 0.485+-nan  Xb4d: 0.441+-nan
+ E1   Harada: 0.358+-nan  Michiyama: 0.523+-nan  Xb55: 0.397+-nan  Xb4f: 0.152+-nan  Xb4d: 0.121+-nan
+ W    Harada: 0.552+-nan  Michiyama: 0.448+-nan  Xb55: 0.468+-nan  Xb4f: 0.288+-nan  Xb4d: 0.195+-nan
+ E1/(N+S): Harada: 0.52  Michiyama: 0.76  Xb55: 0.64  Xb4f: 0.31  Xb4d: 0.27
+ W/(N+S): Harada: 0.80  Michiyama: 0.65  Xb55: 0.75  Xb4f: 0.59  Xb4d: 0.44
+## shift|W|1,0
+ N+S  Harada: 0.706+-nan  Michiyama: 0.702+-nan  Xb55: 0.629+-nan  Xb4f: 0.491+-nan  Xb4d: 0.443+-nan
+ E1   Harada: 0.358+-nan  Michiyama: 0.537+-nan  Xb55: 0.398+-nan  Xb4f: 0.157+-nan  Xb4d: 0.112+-nan
+ W    Harada: 0.532+-nan  Michiyama: 0.455+-nan  Xb55: 0.470+-nan  Xb4f: 0.302+-nan  Xb4d: 0.076+-nan
+ E1/(N+S): Harada: 0.51  Michiyama: 0.76  Xb55: 0.63  Xb4f: 0.32  Xb4d: 0.25
+ W/(N+S): Harada: 0.75  Michiyama: 0.65  Xb55: 0.75  Xb4f: 0.62  Xb4d: 0.17
+## shift|W|-1,0
+ N+S  Harada: 0.694+-nan  Michiyama: 0.688+-nan  Xb55: 0.622+-nan  Xb4f: 0.486+-nan  Xb4d: 0.439+-nan
+ E1   Harada: 0.359+-nan  Michiyama: 0.531+-nan  Xb55: 0.398+-nan  Xb4f: 0.151+-nan  Xb4d: 0.130+-nan
+ W    Harada: 0.532+-nan  Michiyama: 0.442+-nan  Xb55: 0.457+-nan  Xb4f: 0.240+-nan  Xb4d: 0.266+-nan
+ E1/(N+S): Harada: 0.52  Michiyama: 0.77  Xb55: 0.64  Xb4f: 0.31  Xb4d: 0.30
+ W/(N+S): Harada: 0.77  Michiyama: 0.64  Xb55: 0.74  Xb4f: 0.49  Xb4d: 0.61
+## shift|W|0,1
+ N+S  Harada: 0.707+-nan  Michiyama: 0.703+-nan  Xb55: 0.630+-nan  Xb4f: 0.493+-nan  Xb4d: 0.443+-nan
+ E1   Harada: 0.364+-nan  Michiyama: 0.533+-nan  Xb55: 0.399+-nan  Xb4f: 0.152+-nan  Xb4d: 0.129+-nan
+ W    Harada: 0.531+-nan  Michiyama: 0.453+-nan  Xb55: 0.460+-nan  Xb4f: 0.239+-nan  Xb4d: 0.243+-nan
+ E1/(N+S): Harada: 0.52  Michiyama: 0.76  Xb55: 0.63  Xb4f: 0.31  Xb4d: 0.29
+ W/(N+S): Harada: 0.75  Michiyama: 0.64  Xb55: 0.73  Xb4f: 0.48  Xb4d: 0.55
+## shift|W|0,-1
+ N+S  Harada: 0.692+-nan  Michiyama: 0.687+-nan  Xb55: 0.621+-nan  Xb4f: 0.485+-nan  Xb4d: 0.439+-nan
+ E1   Harada: 0.355+-nan  Michiyama: 0.533+-nan  Xb55: 0.399+-nan  Xb4f: 0.156+-nan  Xb4d: 0.113+-nan
+ W    Harada: 0.539+-nan  Michiyama: 0.444+-nan  Xb55: 0.470+-nan  Xb4f: 0.312+-nan  Xb4d: 0.081+-nan
+ E1/(N+S): Harada: 0.51  Michiyama: 0.78  Xb55: 0.64  Xb4f: 0.32  Xb4d: 0.26
+ W/(N+S): Harada: 0.78  Michiyama: 0.65  Xb55: 0.76  Xb4f: 0.64  Xb4d: 0.18
+## shift|clumps|1,0
+ N+S  Harada: 0.699+-nan  Michiyama: 0.695+-nan  Xb55: 0.622+-nan  Xb4f: 0.486+-nan  Xb4d: 0.440+-nan
+ E1   Harada: 0.366+-nan  Michiyama: 0.527+-nan  Xb55: 0.395+-nan  Xb4f: 0.134+-nan  Xb4d: 0.142+-nan
+ W    Harada: 0.530+-nan  Michiyama: 0.457+-nan  Xb55: 0.471+-nan  Xb4f: 0.298+-nan  Xb4d: 0.084+-nan
+ E1/(N+S): Harada: 0.52  Michiyama: 0.76  Xb55: 0.64  Xb4f: 0.28  Xb4d: 0.32
+ W/(N+S): Harada: 0.76  Michiyama: 0.66  Xb55: 0.76  Xb4f: 0.61  Xb4d: 0.19
+## shift|clumps|-1,0
+ N+S  Harada: 0.697+-nan  Michiyama: 0.695+-nan  Xb55: 0.629+-nan  Xb4f: 0.490+-nan  Xb4d: 0.443+-nan
+ E1   Harada: 0.348+-nan  Michiyama: 0.541+-nan  Xb55: 0.400+-nan  Xb4f: 0.169+-nan  Xb4d: 0.094+-nan
+ W    Harada: 0.542+-nan  Michiyama: 0.439+-nan  Xb55: 0.457+-nan  Xb4f: 0.251+-nan  Xb4d: 0.265+-nan
+ E1/(N+S): Harada: 0.50  Michiyama: 0.78  Xb55: 0.64  Xb4f: 0.35  Xb4d: 0.21
+ W/(N+S): Harada: 0.78  Michiyama: 0.63  Xb55: 0.73  Xb4f: 0.51  Xb4d: 0.60
+## shift|clumps|0,1
+ N+S  Harada: 0.717+-nan  Michiyama: 0.707+-nan  Xb55: 0.632+-nan  Xb4f: 0.498+-nan  Xb4d: 0.450+-nan
+ E1   Harada: 0.383+-nan  Michiyama: 0.572+-nan  Xb55: 0.406+-nan  Xb4f: 0.172+-nan  Xb4d: 0.098+-nan
+ W    Harada: 0.512+-nan  Michiyama: 0.460+-nan  Xb55: 0.459+-nan  Xb4f: 0.222+-nan  Xb4d: 0.209+-nan
+ E1/(N+S): Harada: 0.53  Michiyama: 0.81  Xb55: 0.64  Xb4f: 0.35  Xb4d: 0.22
+ W/(N+S): Harada: 0.71  Michiyama: 0.65  Xb55: 0.73  Xb4f: 0.45  Xb4d: 0.46
+## shift|clumps|0,-1
+ N+S  Harada: 0.695+-nan  Michiyama: 0.681+-nan  Xb55: 0.619+-nan  Xb4f: 0.483+-nan  Xb4d: 0.441+-nan
+ E1   Harada: 0.332+-nan  Michiyama: 0.497+-nan  Xb55: 0.393+-nan  Xb4f: 0.133+-nan  Xb4d: 0.142+-nan
+ W    Harada: 0.539+-nan  Michiyama: 0.455+-nan  Xb55: 0.474+-nan  Xb4f: 0.334+-nan  Xb4d: 0.091+-nan
+ E1/(N+S): Harada: 0.48  Michiyama: 0.73  Xb55: 0.63  Xb4f: 0.27  Xb4d: 0.32
+ W/(N+S): Harada: 0.78  Michiyama: 0.67  Xb55: 0.77  Xb4f: 0.69  Xb4d: 0.21
+best shift E1: (+0.0,-0.5) arcsec  sum rel rms^2 5.87 (zero shift: 6.00, 3 sets x 2 lines)
+best shift W: (+1.0,+1.0) arcsec  sum rel rms^2 5.35 (zero shift: 6.00, 3 sets x 2 lines)
+## size|clump0|nuc0
+ N    Harada: 0.832+-0.017  Michiyama: 0.793+-0.003  Xb55: 0.703+-0.013  Xb4f: 0.560+-0.008  Xb4d: 0.538+-0.006
+ S    Harada: 0.565+-0.012  Michiyama: 0.593+-0.006  Xb55: 0.542+-0.010  Xb4f: 0.414+-0.005  Xb4d: 0.328+-0.002
+ N+S  Harada: 0.700+-0.011  Michiyama: 0.695+-0.003  Xb55: 0.625+-0.008  Xb4f: 0.489+-0.004  Xb4d: 0.441+-0.003
+ E1   Harada: 0.360+-0.092  Michiyama: 0.533+-0.011  Xb55: 0.399+-0.016  Xb4f: 0.155+-0.014  Xb4d: 0.121+-0.021
+ W    Harada: 0.532+-0.037  Michiyama: 0.449+-0.012  Xb55: 0.464+-0.013  Xb4f: 0.273+-0.009  Xb4d: 0.195+-0.014
+ E1/(N+S): Harada: 0.51  Michiyama: 0.77  Xb55: 0.64  Xb4f: 0.32  Xb4d: 0.27
+ W/(N+S): Harada: 0.76  Michiyama: 0.65  Xb55: 0.74  Xb4f: 0.56  Xb4d: 0.44
+   rms(HCN,HCO+) per set: Harada:0.419,0.660  Michiyama:0.405,0.741  Xb55:0.728,1.432  Xb4f:0.761,1.402  Xb4d:1.673,2.746
+## size|clump0|nuc3
+ N    Harada: 0.851+-0.020  Michiyama: 0.804+-0.002  Xb55: 0.709+-0.013  Xb4f: 0.567+-0.008  Xb4d: 0.543+-0.006
+ S    Harada: 0.539+-0.014  Michiyama: 0.581+-0.007  Xb55: 0.536+-0.011  Xb4f: 0.400+-0.005  Xb4d: 0.313+-0.002
+ N+S  Harada: 0.695+-0.012  Michiyama: 0.693+-0.004  Xb55: 0.624+-0.008  Xb4f: 0.485+-0.004  Xb4d: 0.438+-0.003
+ E1   Harada: 0.317+-0.094  Michiyama: 0.511+-0.011  Xb55: 0.378+-0.017  Xb4f: 0.118+-0.015  Xb4d: 0.083+-0.023
+ W    Harada: 0.559+-0.043  Michiyama: 0.448+-0.012  Xb55: 0.462+-0.015  Xb4f: 0.284+-0.010  Xb4d: 0.207+-0.015
+ E1/(N+S): Harada: 0.46  Michiyama: 0.74  Xb55: 0.61  Xb4f: 0.24  Xb4d: 0.19
+ W/(N+S): Harada: 0.80  Michiyama: 0.65  Xb55: 0.74  Xb4f: 0.59  Xb4d: 0.47
+   rms(HCN,HCO+) per set: Harada:0.356,0.574  Michiyama:0.302,0.629  Xb55:0.527,1.125  Xb4f:0.746,1.178  Xb4d:1.820,3.001
+## size|clump2|nuc0
+ N    Harada: 0.834+-0.017  Michiyama: 0.793+-0.003  Xb55: 0.703+-0.013  Xb4f: 0.561+-0.008  Xb4d: 0.539+-0.006
+ S    Harada: 0.566+-0.012  Michiyama: 0.596+-0.006  Xb55: 0.543+-0.011  Xb4f: 0.414+-0.005  Xb4d: 0.328+-0.003
+ N+S  Harada: 0.701+-0.011  Michiyama: 0.697+-0.003  Xb55: 0.626+-0.008  Xb4f: 0.489+-0.004  Xb4d: 0.441+-0.003
+ E1   Harada: 0.362+-0.092  Michiyama: 0.535+-0.011  Xb55: 0.400+-0.016  Xb4f: 0.154+-0.014  Xb4d: 0.122+-0.020
+ W    Harada: 0.531+-0.038  Michiyama: 0.447+-0.012  Xb55: 0.464+-0.013  Xb4f: 0.270+-0.009  Xb4d: 0.191+-0.013
+ E1/(N+S): Harada: 0.52  Michiyama: 0.77  Xb55: 0.64  Xb4f: 0.31  Xb4d: 0.28
+ W/(N+S): Harada: 0.76  Michiyama: 0.64  Xb55: 0.74  Xb4f: 0.55  Xb4d: 0.43
+   rms(HCN,HCO+) per set: Harada:0.412,0.639  Michiyama:0.395,0.712  Xb55:0.707,1.380  Xb4f:0.762,1.387  Xb4d:1.673,2.741
+## size|clump2|nuc3
+ N    Harada: 0.852+-0.019  Michiyama: 0.804+-0.002  Xb55: 0.710+-0.013  Xb4f: 0.569+-0.008  Xb4d: 0.543+-0.006
+ S    Harada: 0.538+-0.014  Michiyama: 0.584+-0.006  Xb55: 0.536+-0.011  Xb4f: 0.400+-0.005  Xb4d: 0.314+-0.002
+ N+S  Harada: 0.696+-0.012  Michiyama: 0.695+-0.003  Xb55: 0.625+-0.008  Xb4f: 0.485+-0.004  Xb4d: 0.438+-0.003
+ E1   Harada: 0.318+-0.093  Michiyama: 0.513+-0.011  Xb55: 0.379+-0.017  Xb4f: 0.116+-0.014  Xb4d: 0.083+-0.022
+ W    Harada: 0.557+-0.044  Michiyama: 0.445+-0.012  Xb55: 0.461+-0.015  Xb4f: 0.280+-0.011  Xb4d: 0.203+-0.015
+ E1/(N+S): Harada: 0.46  Michiyama: 0.74  Xb55: 0.61  Xb4f: 0.24  Xb4d: 0.19
+ W/(N+S): Harada: 0.80  Michiyama: 0.64  Xb55: 0.74  Xb4f: 0.58  Xb4d: 0.46
+   rms(HCN,HCO+) per set: Harada:0.350,0.555  Michiyama:0.293,0.601  Xb55:0.507,1.076  Xb4f:0.748,1.170  Xb4d:1.820,2.998
+## size|clump4|nuc0
+ N    Harada: 0.839+-0.017  Michiyama: 0.795+-0.003  Xb55: 0.706+-0.013  Xb4f: 0.565+-0.008  Xb4d: 0.541+-0.006
+ S    Harada: 0.564+-0.012  Michiyama: 0.604+-0.005  Xb55: 0.544+-0.011  Xb4f: 0.415+-0.005  Xb4d: 0.330+-0.003
+ N+S  Harada: 0.703+-0.010  Michiyama: 0.702+-0.003  Xb55: 0.628+-0.008  Xb4f: 0.491+-0.004  Xb4d: 0.443+-0.003
+ E1   Harada: 0.366+-0.091  Michiyama: 0.538+-0.011  Xb55: 0.404+-0.017  Xb4f: 0.150+-0.013  Xb4d: 0.123+-0.019
+ W    Harada: 0.529+-0.039  Michiyama: 0.442+-0.012  Xb55: 0.463+-0.013  Xb4f: 0.264+-0.010  Xb4d: 0.180+-0.013
+ E1/(N+S): Harada: 0.52  Michiyama: 0.77  Xb55: 0.64  Xb4f: 0.31  Xb4d: 0.28
+ W/(N+S): Harada: 0.75  Michiyama: 0.63  Xb55: 0.74  Xb4f: 0.54  Xb4d: 0.41
+   rms(HCN,HCO+) per set: Harada:0.401,0.598  Michiyama:0.379,0.653  Xb55:0.670,1.288  Xb4f:0.769,1.374  Xb4d:1.673,2.734
+## size|clump4|nuc3
+ N    Harada: 0.858+-0.020  Michiyama: 0.805+-0.003  Xb55: 0.712+-0.013  Xb4f: 0.573+-0.008  Xb4d: 0.545+-0.006
+ S    Harada: 0.535+-0.014  Michiyama: 0.592+-0.006  Xb55: 0.537+-0.012  Xb4f: 0.399+-0.005  Xb4d: 0.315+-0.002
+ N+S  Harada: 0.697+-0.012  Michiyama: 0.701+-0.003  Xb55: 0.627+-0.008  Xb4f: 0.487+-0.004  Xb4d: 0.440+-0.003
+ E1   Harada: 0.321+-0.092  Michiyama: 0.516+-0.011  Xb55: 0.383+-0.017  Xb4f: 0.109+-0.014  Xb4d: 0.085+-0.020
+ W    Harada: 0.555+-0.047  Michiyama: 0.439+-0.012  Xb55: 0.460+-0.015  Xb4f: 0.273+-0.013  Xb4d: 0.189+-0.014
+ E1/(N+S): Harada: 0.46  Michiyama: 0.74  Xb55: 0.61  Xb4f: 0.22  Xb4d: 0.19
+ W/(N+S): Harada: 0.80  Michiyama: 0.63  Xb55: 0.73  Xb4f: 0.56  Xb4d: 0.43
+   rms(HCN,HCO+) per set: Harada:0.341,0.518  Michiyama:0.277,0.545  Xb55:0.473,0.993  Xb4f:0.756,1.169  Xb4d:1.821,2.995
+## size|clump6|nuc0
+ N    Harada: 0.848+-0.017  Michiyama: 0.802+-0.003  Xb55: 0.712+-0.013  Xb4f: 0.570+-0.008  Xb4d: 0.544+-0.006
+ S    Harada: 0.559+-0.013  Michiyama: 0.612+-0.005  Xb55: 0.546+-0.012  Xb4f: 0.414+-0.005  Xb4d: 0.333+-0.003
+ N+S  Harada: 0.704+-0.010  Michiyama: 0.710+-0.003  Xb55: 0.632+-0.009  Xb4f: 0.493+-0.005  Xb4d: 0.446+-0.003
+ E1   Harada: 0.372+-0.087  Michiyama: 0.540+-0.010  Xb55: 0.409+-0.017  Xb4f: 0.146+-0.013  Xb4d: 0.120+-0.016
+ W    Harada: 0.529+-0.042  Michiyama: 0.437+-0.013  Xb55: 0.461+-0.012  Xb4f: 0.257+-0.012  Xb4d: 0.161+-0.013
+ E1/(N+S): Harada: 0.53  Michiyama: 0.76  Xb55: 0.65  Xb4f: 0.30  Xb4d: 0.27
+ W/(N+S): Harada: 0.75  Michiyama: 0.62  Xb55: 0.73  Xb4f: 0.52  Xb4d: 0.36
+   rms(HCN,HCO+) per set: Harada:0.399,0.580  Michiyama:0.374,0.618  Xb55:0.659,1.262  Xb4f:0.780,1.403  Xb4d:1.675,2.743
+## size|clump6|nuc3
+ N    Harada: 0.865+-0.020  Michiyama: 0.811+-0.003  Xb55: 0.718+-0.013  Xb4f: 0.579+-0.008  Xb4d: 0.548+-0.006
+ S    Harada: 0.537+-0.016  Michiyama: 0.601+-0.005  Xb55: 0.537+-0.012  Xb4f: 0.397+-0.005  Xb4d: 0.318+-0.003
+ N+S  Harada: 0.701+-0.013  Michiyama: 0.708+-0.003  Xb55: 0.630+-0.009  Xb4f: 0.488+-0.005  Xb4d: 0.443+-0.003
+ E1   Harada: 0.330+-0.089  Michiyama: 0.519+-0.010  Xb55: 0.388+-0.018  Xb4f: 0.102+-0.014  Xb4d: 0.083+-0.018
+ W    Harada: 0.544+-0.050  Michiyama: 0.432+-0.013  Xb55: 0.458+-0.014  Xb4f: 0.263+-0.015  Xb4d: 0.167+-0.015
+ E1/(N+S): Harada: 0.47  Michiyama: 0.73  Xb55: 0.62  Xb4f: 0.21  Xb4d: 0.19
+ W/(N+S): Harada: 0.78  Michiyama: 0.61  Xb55: 0.73  Xb4f: 0.54  Xb4d: 0.38
+   rms(HCN,HCO+) per set: Harada:0.345,0.505  Michiyama:0.276,0.515  Xb55:0.469,0.985  Xb4f:0.768,1.206  Xb4d:1.822,3.004
+## size|clump8|nuc0
+ N    Harada: 0.859+-0.017  Michiyama: 0.816+-0.003  Xb55: 0.720+-0.014  Xb4f: 0.577+-0.009  Xb4d: 0.548+-0.006
+ S    Harada: 0.559+-0.015  Michiyama: 0.617+-0.005  Xb55: 0.547+-0.011  Xb4f: 0.413+-0.005  Xb4d: 0.337+-0.003
+ N+S  Harada: 0.708+-0.011  Michiyama: 0.718+-0.003  Xb55: 0.636+-0.009  Xb4f: 0.496+-0.005  Xb4d: 0.450+-0.003
+ E1   Harada: 0.379+-0.082  Michiyama: 0.539+-0.008  Xb55: 0.415+-0.016  Xb4f: 0.141+-0.012  Xb4d: 0.105+-0.014
+ W    Harada: 0.523+-0.046  Michiyama: 0.435+-0.013  Xb55: 0.458+-0.010  Xb4f: 0.247+-0.013  Xb4d: 0.126+-0.015
+ E1/(N+S): Harada: 0.54  Michiyama: 0.75  Xb55: 0.65  Xb4f: 0.28  Xb4d: 0.23
+ W/(N+S): Harada: 0.74  Michiyama: 0.61  Xb55: 0.72  Xb4f: 0.50  Xb4d: 0.28
+   rms(HCN,HCO+) per set: Harada:0.413,0.600  Michiyama:0.385,0.631  Xb55:0.682,1.323  Xb4f:0.795,1.466  Xb4d:1.679,2.776
+## size|clump8|nuc3
+ N    Harada: 0.873+-0.019  Michiyama: 0.826+-0.002  Xb55: 0.727+-0.014  Xb4f: 0.585+-0.009  Xb4d: 0.551+-0.006
+ S    Harada: 0.541+-0.018  Michiyama: 0.600+-0.008  Xb55: 0.538+-0.012  Xb4f: 0.398+-0.005  Xb4d: 0.323+-0.003
+ N+S  Harada: 0.707+-0.013  Michiyama: 0.714+-0.004  Xb55: 0.634+-0.009  Xb4f: 0.491+-0.005  Xb4d: 0.447+-0.003
+ E1   Harada: 0.342+-0.086  Michiyama: 0.514+-0.007  Xb55: 0.393+-0.017  Xb4f: 0.094+-0.013  Xb4d: 0.068+-0.016
+ W    Harada: 0.530+-0.051  Michiyama: 0.432+-0.011  Xb55: 0.455+-0.012  Xb4f: 0.242+-0.017  Xb4d: 0.127+-0.017
+ E1/(N+S): Harada: 0.48  Michiyama: 0.72  Xb55: 0.62  Xb4f: 0.19  Xb4d: 0.15
+ W/(N+S): Harada: 0.75  Michiyama: 0.60  Xb55: 0.72  Xb4f: 0.49  Xb4d: 0.28
+   rms(HCN,HCO+) per set: Harada:0.364,0.537  Michiyama:0.294,0.537  Xb55:0.508,1.072  Xb4f:0.782,1.274  Xb4d:1.825,3.032
+## injection-recovery (b86): E1/(N+S), W/(N+S) true (input) -> recovered with the unresolved model
+ s_true=0: E1/(N+S) recov/true: Harada:0.51/0.51 Michiyama:0.77/0.77 Xb55:0.64/0.64 Xb4f:0.32/0.32 Xb4d:0.27/0.27 | W/(N+S) recov/true: Harada:0.76/0.76 Michiyama:0.65/0.65 Xb55:0.74/0.74 Xb4f:0.56/0.56 Xb4d:0.44/0.44
+ s_true=3: E1/(N+S) recov/true: Harada:0.51/0.51 Michiyama:0.77/0.77 Xb55:0.64/0.64 Xb4f:0.31/0.32 Xb4d:0.27/0.27 | W/(N+S) recov/true: Harada:0.77/0.76 Michiyama:0.65/0.65 Xb55:0.75/0.74 Xb4f:0.56/0.56 Xb4d:0.45/0.44
+ s_true=5: E1/(N+S) recov/true: Harada:0.49/0.51 Michiyama:0.77/0.77 Xb55:0.63/0.64 Xb4f:0.30/0.32 Xb4d:0.27/0.27 | W/(N+S) recov/true: Harada:0.78/0.76 Michiyama:0.65/0.65 Xb55:0.75/0.74 Xb4f:0.58/0.56 Xb4d:0.46/0.44
+ s_true=8: E1/(N+S) recov/true: Harada:0.45/0.51 Michiyama:0.78/0.77 Xb55:0.62/0.64 Xb4f:0.28/0.32 Xb4d:0.26/0.27 | W/(N+S) recov/true: Harada:0.80/0.76 Michiyama:0.66/0.65 Xb55:0.77/0.74 Xb4f:0.60/0.56 Xb4d:0.50/0.44

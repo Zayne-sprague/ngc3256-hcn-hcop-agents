@@ -1,0 +1,33 @@
+3-component decomposition: S98 = ff + sync + dust fractions; ratio S258/S98 = f_ff q^-0.1 + f_s q^a_s + f_d q^a_d, q=2.629; a_d~U(3.5,4.0) (beta 1.5-2), a_s~U(-0.9,-0.5); f_ff98 constant over annuli (assumption); flux ratio error: 5% scale each band + stat
+
+--- scenario f_ff98 from H40a(ours, Te 5000-12000 K, r<1")
+ N: f_ff98 prior median 0.49 [0.17,0.89]
+  N 0-0.5": S98=1.79 S258=4.36 mJy/b  f_s98=0.52  at 258: f_dust=0.73 [0.68,0.78] f_ff=0.16 f_sync=0.11  dust SB(1.1mm)=3.18 [2.95,3.41] mJy/b  rejected 0.13
+  N 0.5-1": S98=1.05 S258=2.94 mJy/b  f_s98=0.51  at 258: f_dust=0.76 [0.71,0.81] f_ff=0.14 f_sync=0.09  dust SB(1.1mm)=2.24 [2.10,2.38] mJy/b  rejected 0.13
+  N 1-1.5": S98=0.39 S258=1.47 mJy/b  f_s98=0.49  at 258: f_dust=0.83 [0.78,0.87] f_ff=0.10 f_sync=0.07  dust SB(1.1mm)=1.22 [1.14,1.28] mJy/b  rejected 0.14
+  N 1.5-2": S98=0.11 S258=0.70 mJy/b  f_s98=0.43  at 258: f_dust=0.91 [0.80,0.95] f_ff=0.05 f_sync=0.03  dust SB(1.1mm)=0.64 [0.56,0.67] mJy/b  rejected 0.26
+ S: f_ff98 prior median 0.58 [0.31,0.94]
+  S 0-0.5": S98=2.89 S258=3.78 mJy/b  f_s98=0.46  at 258: f_dust=0.45 [0.36,0.54] f_ff=0.37 f_sync=0.18  dust SB(1.1mm)=1.70 [1.36,2.04] mJy/b  rejected 0.13
+  S 0.5-1": S98=1.18 S258=1.81 mJy/b  f_s98=0.45  at 258: f_dust=0.54 [0.45,0.61] f_ff=0.31 f_sync=0.15  dust SB(1.1mm)=0.97 [0.81,1.11] mJy/b  rejected 0.13
+  S 1-1.5": S98=0.28 S258=0.67 mJy/b  f_s98=0.43  at 258: f_dust=0.71 [0.58,0.79] f_ff=0.20 f_sync=0.09  dust SB(1.1mm)=0.48 [0.39,0.53] mJy/b  rejected 0.16
+  S 1.5-2": S98=0.07 S258=0.36 mJy/b  f_s98=0.34  at 258: f_dust=0.90 [0.74,0.95] f_ff=0.07 f_sync=0.03  dust SB(1.1mm)=0.33 [0.27,0.34] mJy/b  rejected 0.40
+
+--- scenario f_ff98 from Michiyama+2020 f_ff (N 0.76, S 0.90, +-0.12)
+ N: f_ff98 prior median 0.76 [0.64,0.88]
+  N 0-0.5": S98=1.79 S258=4.36 mJy/b  f_s98=0.20  at 258: f_dust=0.68 [0.64,0.71] f_ff=0.28 f_sync=0.04  dust SB(1.1mm)=2.96 [2.80,3.09] mJy/b  rejected 0.05
+  N 0.5-1": S98=1.05 S258=2.94 mJy/b  f_s98=0.19  at 258: f_dust=0.72 [0.68,0.75] f_ff=0.24 f_sync=0.04  dust SB(1.1mm)=2.11 [2.00,2.20] mJy/b  rejected 0.06
+  N 1-1.5": S98=0.39 S258=1.47 mJy/b  f_s98=0.17  at 258: f_dust=0.79 [0.74,0.83] f_ff=0.18 f_sync=0.02  dust SB(1.1mm)=1.17 [1.09,1.22] mJy/b  rejected 0.09
+  N 1.5-2": S98=0.11 S258=0.70 mJy/b  f_s98=0.14  at 258: f_dust=0.87 [0.73,0.92] f_ff=0.12 f_sync=0.01  dust SB(1.1mm)=0.61 [0.51,0.65] mJy/b  rejected 0.36
+ S: f_ff98 prior median 0.90 [0.78,1.00]
+  S 0-0.5": S98=2.89 S258=3.78 mJy/b  f_s98=0.12  at 258: f_dust=0.35 [0.29,0.41] f_ff=0.60 f_sync=0.05  dust SB(1.1mm)=1.33 [1.10,1.55] mJy/b  rejected 0.23
+  S 0.5-1": S98=1.18 S258=1.81 mJy/b  f_s98=0.12  at 258: f_dust=0.45 [0.38,0.51] f_ff=0.50 f_sync=0.04  dust SB(1.1mm)=0.82 [0.69,0.93] mJy/b  rejected 0.25
+  S 1-1.5": S98=0.28 S258=0.67 mJy/b  f_s98=0.11  at 258: f_dust=0.65 [0.50,0.74] f_ff=0.32 f_sync=0.02  dust SB(1.1mm)=0.43 [0.34,0.49] mJy/b  rejected 0.33
+  S 1.5-2": S98=0.07 S258=0.36 mJy/b  f_s98=0.08  at 258: f_dust=0.80 [0.56,0.90] f_ff=0.18 f_sync=0.01  dust SB(1.1mm)=0.29 [0.20,0.32] mJy/b  rejected 0.73
+
+--- R vs 1.1 mm continuum SB and vs dust SB (annulus level; the 4 annuli are not independent: descriptive)
+ ours N: R=[0.805, 0.726, 0.599, 0.474]  total 1.1mm SB=[4.36, 2.94, 1.47, 0.7]  dust SB=[3.18, 2.24, 1.22, 0.64]  dR/dSB_tot=+0.088, dR/dSB_dust=+0.127 per mJy/b
+ ours S: R=[0.39, 0.364, 0.358, 0.39]  total 1.1mm SB=[3.78, 1.81, 0.67, 0.36]  dust SB=[1.7, 0.97, 0.48, 0.33]  dR/dSB_tot=+0.004, dR/dSB_dust=+0.009 per mJy/b
+ ours: dust SB overlap N 0.64-3.18 vs S 0.33-1.70 mJy/b; R(N) interpolated at S core dust SB 1.70: 0.66 vs R(S core) 0.39
+ mich N: R=[0.805, 0.726, 0.599, 0.474]  total 1.1mm SB=[4.36, 2.94, 1.47, 0.7]  dust SB=[2.96, 2.11, 1.17, 0.61]  dR/dSB_tot=+0.088, dR/dSB_dust=+0.138 per mJy/b
+ mich S: R=[0.39, 0.364, 0.358, 0.39]  total 1.1mm SB=[3.78, 1.81, 0.67, 0.36]  dust SB=[1.33, 0.82, 0.43, 0.29]  dR/dSB_tot=+0.004, dR/dSB_dust=+0.010 per mJy/b
+ mich: dust SB overlap N 0.61-2.96 vs S 0.29-1.33 mJy/b; R(N) interpolated at S core dust SB 1.33: 0.62 vs R(S core) 0.39

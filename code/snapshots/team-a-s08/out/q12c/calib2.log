@@ -1,0 +1,9 @@
+M1 truth fit to real N data: ovM1_1z_N_r7_tbg2.73_s1 chi2prof 4.36 dof 3 p 0.226 logZ -14.66 Tc 12 [11,37] g 1.00 h 1.00 [ 1.38 -0.59 -0.08 -1.44 -0.   -0.07 -0.05  0.13
+dumped [0.423 0.362 0.423 0.384 0.753 0.958 0.341 0.434]
+M2 truth fit to real N data: ovM2_1z_N_r7_tbg2.73_s1 chi2prof 28.51 dof 3 p 0.000 logZ -28.46 Tc 18 [15,22] g 1.28 h 1.00 [ 2.82 -0.84  3.15 -1.03 -0.    0.24 -1.5  -0.5
+dumped [0.498 0.348 0.624 0.412 0.709 0.973 0.236 0.324]
+M3 truth fit to real N data: ovM3_2cT_N_r7_tbg2.73_s1 chi2prof 0.19 dof -1 p nan logZ -16.38 Tc 25 [13,59] g 1.01 h 1.13 [ 0.    0.02  0.05 -0.02 -0.    0.04 -0.12 -0.07
+dumped [0.35  0.396 0.431 0.481 0.762 0.972 0.313 0.399]
+M4 truth fit to real N data: ovM4_2cT_N_r7_tbg2.73_s1 chi2prof 0.00 dof -1 p nan logZ -15.69 Tc 48 [24,93] g 1.00 h 1.00 [-0.01 -0.02  0.03  0.03  0.    0.    0.01 -0.01
+dumped [0.35  0.394 0.43  0.484 0.765 0.961 0.342 0.43 ]
+3200 calibration-2 jobs done

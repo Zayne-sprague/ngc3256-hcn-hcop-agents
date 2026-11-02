@@ -1,0 +1,27 @@
+{
+ "team": "team-a",
+ "item": "Q53",
+ "files": [
+  "scripts/q53_context.py",
+  "scripts/q53b_matched32.py",
+  "scripts/q53c_radex_ratio.py",
+  "scripts/q53d_matched43.py",
+  "scripts/q53e_fixedwin43.py",
+  "scripts/q53f_plotspec.py",
+  "scripts/q53g_fixedwin_all.py",
+  "scripts/q53h_mc.py",
+  "scripts/q53i_report.py",
+  "out/q53/fixedwin43.csv",
+  "out/q53/fixedwin_all.csv",
+  "out/q53/lit_table.csv",
+  "out/q53/matched32.csv",
+  "out/q53/matched43.csv",
+  "out/q53/mc.json",
+  "out/q53/posoff43.csv",
+  "out/q53/radex_ratio.json",
+  "out/q53/ratio_vs_class.png",
+  "out/q53/spec43_overlay.png",
+  "out/q53/summary.json",
+  "TEAM_REPORT.json"
+ ]
+}

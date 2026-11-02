@@ -1,0 +1,1138 @@
+arXiv:1810.04821v2  [astro-ph.GA]  12 Oct 2018
+Draft version October 15, 2018
+Typeset using LATEX twocolumn style in AASTeX61
+ALMA OBSER V ATIONS OF HCN AND HCO+ OUTFLOWS IN THE MERGING GALAXY NGC 3256
+Tomonari Michiyama, 1, 2 Daisuke Iono, 1, 2 Kazimierz Sliw a,3 Alberto Bolatto,4 Kouichiro Nakanishi, 1, 2
+Junko Ueda, 2, 5 Toshiki Saito, 3 Misaki Ando, 1, 2 Takuji Yamashita,6 and Min Yun 7
+1Department of Astronomical Science, SOKENDAI (The Graduat e University of Advanced Studies), 2-21-1 Osawa, Mitaka, To kyo
+181-8588
+2National Astronomical Observatory of Japan, National Inst itutes of Natural Sciences, 2-21-1 Osawa, Mitaka, Tokyo, 18 1-8588
+3Max-Planck-Institut f¨ ur Astronomie, K¨ onigstuhl 17, 69117 Heidelberg, Germany
+4Department of Astronomy and Laboratory for Millimeter-Wav e Astronomy, University of Maryland, College Park, MD 20742 , USA
+5Harvard-Smithsonian Center for Astrophysics, 60 Garden St reet, Cambridge, MA 02138, USA
+6Research Center for Space and Cosmic Evolution, Ehime Unive rsity, 2-5 Bunkyo-cho, Matsuyama, Ehime 790-8577, Japan
+7Department of Astronomy, University of Massachusetts, Amh erst, MA 01003, USA
+(Accepted October 10, 2018)
+Submitted to ApJ
+ABSTRACT
+We report ∼ 2′′ resolution Atacama Large Millimeter/submillimeter Array observation s of the HCN (1–0), HCO + (1–
+0), CO (1–0), CO (2–1), and CO (3–2) lines towards the nearby mer ging double-nucleus galaxy NGC 3256. We ﬁnd that
+the high density gas outﬂow traced in HCN (1–0) and HCO + (1–0) emission is co-located with the diﬀuse molecular
+outﬂow emanating from the southern nucleus, where a low-luminosit y active galactic nucleus (AGN) is believed to be
+the dominant source of the far-infrared luminosity. On the other h and, the same lines were undetected in the outﬂow
+region associated with the northern nucleus, whose primary heatin g source is likely related to starburst activity without
+obvious signs of AGN. Both HCO + (1–0)/CO (1–0) line ratio (i.e. dense gas fraction) and the CO (3–2) /CO (1–0) line
+ratio are larger in the southern outﬂow (0.20 ±0.04 and 1.3 ±0.2, respectively) than in the southern nucleus (0.08 ±0.01,
+0.7±0.1, respectively). By investigating these line ratios for each velocit y component in the southern outﬂow, we ﬁnd
+that the dense gas fraction increases and the CO (3–2)/CO (1–0) line ratio decreases towards the largest velocity
+oﬀset. This suggests the existence of a two-phase (diﬀuse and clu mpy) outﬂow. One possible scenario to produce
+such a two-phase outﬂow is an interaction between the jet and the interstellar medium, which possibly triggers shocks
+and/or star formation associated with the outﬂow.
+Keywords: galaxies: individual (NGC 3256) — galaxies: interactions — galaxies: irr egular — galaxies:
+starburst — ISM: jets and outﬂows –submillimeter
+Corresponding author: Tomonari Michiyama
+t.michiyama@nao.ac.jp
+2 Michiyama et al.
+1. INTRODUCTION
+1.1. Galactic-scale molecular gas outﬂow
+Active galactic nucleus (AGN) and supernovae feed-
+back both play an important role in the galaxy evo-
+lution scenario (e.g., Springel et al. 2005 ). The feed-
+back occurs in the form of galactic scale outﬂows which
+can remove the material for future star formation by
+expelling gas from the nuclear region and/or heating
+the interstellar gas to high temperatures in the halo
+(“negative feedback”). In contrast, recent optical spec-
+troscopic observations have found the evidence of star
+formation in the outﬂow ( Maiolino et al. 2017 ), sug-
+gesting that outﬂows can not only regulate star for-
+mation in the disk but simultaneously enhance the
+formation of new massive stars (“positive feedback”).
+Numerical simulations suggest the formation of dense
+molecular gas clumps in the outﬂow by the interac-
+tions between the jet and the impinging interstellar
+medium (ISM) (e.g., Zubovas & King 2014 ; Costa et al.
+2015; Ferrara & Scannapieco 2016 ; Zubovas & Bourne
+2017), leading to the formation of new massive stars
+(e.g., Dugan et al. 2014 ; Wagner et al. 2016 ). While
+outﬂowing molecular clouds may be destroyed before
+they reach high velocities, it is shown that molecu-
+lar clouds are continuously formed inside the outﬂow
+(Richings & Faucher-Gigu` ere 2018). Therefore, in both
+positive and negative feedback scenarios, the molecular
+outﬂow plays an important role in galaxy evolution.
+Large collections of both supernova explosions and
+massive stellar winds as well as radiation and jets
+emanating from AGNs can be the sources of galac-
+tic scale molecular outﬂows (e.g., Veilleux et al. 2005 ;
+Fabian et al. 2009 ; Faucher-Gigu` ere & Quataert 2012;
+Zubovas & King 2012 ). Since both starbursts and
+AGNs can be triggered during mergers (e.g., Hopkins et al.
+2006; Narayanan et al. 2008 ; Debuhr et al. 2012 ;
+Hayward et al. 2014 ; Michiyama et al. 2016 ), nearby
+merging galaxies are ideal laboratories to observation-
+ally investigate these phenomena (e.g., Feruglio et al.
+2010; Cicone et al. 2014 ; Fiore et al. 2017 ; Pereira-Santaella et al.
+2018). Molecular outﬂows have been detected in sev-
+eral merging galaxies, such as Mrk 231 ( Feruglio et al.
+2010; Cicone et al. 2012 ; Gonz´ alez-Alfonso et al. 2014;
+Aalto et al. 2015 ; Feruglio et al. 2015 ; Lindberg et al.
+2016), NGC 6240 ( Feruglio et al. 2013a ,b; Saito et al.
+2018; Cicone et al. 2018 ), Arp 220 ( Sakamoto et al.
+2009; Barcos-Mu˜ noz et al. 2017 ), and NGC 1614
+(Garc ´ ıa-Burillo et al. 2015; Saito et al. 2016 ).
+Up to the present, most of the molecular outﬂow stud-
+ies have focused on the CO emission. While CO can be
+an excellent tracer of the diﬀuse and extended gas in
+the outﬂow, it does not trace the densest parts of the
+molecular clouds where star formation occurs. A multi-
+line observation is necessary to investigate the densest
+parts and to derive the physical properties of the outﬂow
+(e.g., Aalto et al. 2012 , 2015). HCN and HCO + are of-
+ten used as dense gas tracers since their critical densities
+are roughly three orders of magnitude higher than CO
+for a given J. However, the ﬂux of HCN and HCO +
+are generally more than ten times weaker than CO
+(e.g., Papadopoulos 2007 ; Walter et al. 2017 ). The At-
+acama Large Millimeter/submillimeter Array (ALMA)
+provides high enough sensitivity to map the extreme ve-
+locity components of faint lines.
+1.2. A case study: NGC 3256
+NGC 3256 is a merging luminous infrared galaxy
+(LIRG) with a far infrared (FIR) luminosity of LFIR =
+1011.43 L⊙, and the luminosity distance of DL = 35 Mpc
+(Sanders et al. 2003 ). This galaxy has two nuclei sepa-
+rated by 5 ′′(∼ 850 pc). NGC 3256 is closer than the well
+studied merging ULIRGs; Arp 220 ( DL = 70 Mpc) and
+NGC 6240 ( DL = 100 Mpc). Sakamoto et al. (2014)
+found extreme velocity components of CO (1–0) and
+CO (3–2) around the two nuclei and they interpret the
+components as outﬂows of cold gas from both the north-
+ern and southern nuclei. The characteristics of each out-
+ﬂow are summarized as follows;
+[Northern outﬂow]
+Ohyama et al. (2015) argue that the northern galaxy
+(NGC 3256N) is a starburst galaxy. Sakamoto et al.
+(2014) suggest the presence of an uncollimated bipolar
+outﬂow from the northern nucleus with the maximum
+outﬂow velocity of ∼ 750 km s −1 and outﬂow mass of
+∼ 6 × 107 M⊙ (hereafter “northern outﬂow”). They
+conclude that the northern outﬂow can be driven by the
+starburst around the northern nucleus.
+[Southern outﬂow]
+Unlike the northern nucleus, Ohyama et al. (2015)
+show that the IRAC color and silicate absorption fea-
+ture are AGN-like at the nucleus of southern galaxy
+(NGC 3256S). X-ray observations show absorption-
+corrected AGN luminosity in the 2-10 keV band
+of (1 .2 − 2.9)×1040 erg s −1 (Ohyama et al. 2015 ;
+Lehmer et al. 2015 ), which is in the range for low-
+luminosity AGN. Sakamoto et al. (2014) suggest the
+presence of a collimated bipolar CO outﬂow from the
+southern nucleus with the maximum outﬂow velocity of
+∼ 2600 km s −1 and outﬂow mass of ∼ 2.5 × 107 M⊙
+(hereafter “southern outﬂow”) associated with the ra-
+dio jet detected by the Very Large Array ( Neﬀ et al.
+2003), which is possibly triggered by a weak or recently
+dimmed AGN in the southern nucleus. A broad near
+NGC 3256 dense gas outflow + Overleaf template article 3
+infrared (near-IR) H 2 emission line is detected from the
+southern outﬂow ( Emonts et al. 2014 ), suggesting that
+the outﬂowing gas is heated to ∼ 2000 K by shocks or
+X-rays. This is possibly due to the interaction between
+the southern jet and the ISM. In addition, the optical
+IFU observations show that the shock is enhanced in
+NGC 3256 ( Rich et al. 2011 ), and ALMA line survey
+observation suggests the presence of shock enhancement
+by an outﬂow ( Harada et al. 2018 ).
+NGC 3256 is an ideal laboratory to compare the prop-
+erties of two diﬀerent types of outﬂows, AGN driven
+and starburst driven. In order to quantify the physical
+properties of the outﬂowing gas in NGC 3256, observa-
+tions of the outﬂow in diﬀerent molecules and transitions
+are necessary. The main motivation of this work is to
+identify the dense gas in the molecular gas outﬂows in
+NGC 3256, and to investigate how the outﬂows impact
+the surrounding ISM. We present the ALMA Cycle 3
+observations of HCN (1-0), HCO +(1-0), and CO (2-1)
+emission towards NGC 3256. We compare the intensity
+and spatial distribution of dense gas outﬂows with the
+previously detected CO outﬂows. Furthermore, we es-
+timate the physical properties of outﬂows under the as-
+sumption of non local thermodynamic equilibrium (non-
+LTE) by using Bayesian likelihood statistical analysis.
+The ALMA imaging results are presented in Sec-
+tion 2. We identify outﬂows in Section 3.1. Sec-
+tion 4 presents the RADEX modeling and Bayesian like-
+lihood analysis. Properties of the northern and south-
+ern outﬂows are discussed in Section 5. We summa-
+rize our results in Section 6. Here, the line ratios (in
+unit of brightness temperature) are deﬁned by the sym-
+bol “ R” as follows; R21/10 = CO (2–1) / CO (1–0),
+R32/10 = CO (3–2) / CO (1–0), RHCN/CO = HCN (1–
+0) / CO (1–0), RHCO+/CO = HCO + (1–0) / CO (1–
+0), and RHCN/HCO+ = HCN (1–0) / HCO + (1–0). We
+adopt H0 = 73 km s −1 Mpc−1, Ω M = 0.27, and Ω Λ =
+0.73 for all of the analysis throughout this paper.
+2. ALMA DATA
+The HCN (1–0) and HCO + (1–0) observations to-
+wards NGC 3256 were carried out on 2016, March 7
+and 8 using 45 twelve meter antennas with the Band 3
+receiver (ALMA Project ID: 2015.1.00993.S). The range
+of unprojected baseline length is from 15 m to 460 m.
+The system temperature varied from 40 K to 100 K,
+and the total observation time is ∼ two hours includ-
+ing overhead for calibration (the on source time is ∼ 33
+minutes). We used the calibrated visibility data, and
+subtracted the continuum by using the uvcontsub task
+in CASA (McMullin et al. 2007 ). We made data cubes
+with a velocity resolution of 30 km s −1 using tclean
+task in CASA (version 4.7.0, Briggs weighting, robust
+= 0.5) with automatically masking loop as described
+in the CASA Guides 1. The r.m.s noise level is ∼ 0.2
+mJy beam −1 for the velocity resolution of 30 km s −1
+and the achieved beam size is 2 .′′1 × 1.′′7 (360 × 460 pc).
+Channel maps are shown in Figures 1 and 2. We de-
+ﬁne North-Nucleus and South-Nucleus (stars in Fig-
+ures) as the peaks of the radio emission ( Neﬀ et al.
+2003). We made beam-matched (2 .′′1 ∼ 360 pc) and
+uv-clipped ( > 18 k λ) images so that their largest an-
+gular scales are consistent with those of the archival
+CO data. The absolute ﬂux density is calibrated us-
+ing Ganymede, and the nominal calibration error is 5%.
+The long term ﬂux variation of the bandpass calibrator
+is 6 %. Hence, we adopt 10 % as a conservative over-
+all photometric error. In addition, we use the archival
+CO (2–1) data that was obtained during Cycle 3 (ALMA
+Project ID: 2015.1.00714.S). We made beam-matched
+and uv-clipped images by using clean task in CASA (ver-
+sion 4.7.0, Briggs weighting, robust = 0.5) with auto-
+matically masking loop. Channel maps are shown in
+Figures A-2. The CO (1–0) and CO (3–2) observa-
+tions were conducted during Cycle 0 ( Sakamoto et al.
+2014)(ALMA Project ID: 2011.0.00525.S). We used the
+calibrated archival data and combined the visibility data
+from the compact (15–269 m) and the extended (16–374
+m) conﬁgurations. These channel maps are shown in
+Figures A-1 and A-3.
+3. IDENTIFICATION AND PROPERTIES OF
+MOLECULAR OUTFLOWS
+3.1. Outﬂow Identiﬁcation
+The main goals of this paper are to investigate the
+properties of the molecular outﬂows using dense gas
+tracers and to derive the physical parameters from
+multi-line analysis. As a ﬁrst step, we use the HCN (1-
+0) and HCO + (1–0) maps to identify the emission as-
+sociated with outﬂow. In general, the kinematics of
+the outﬂowing gas should be distinct from the system-
+atic rotation of the galaxy. Therefore, a natural sim-
+pliﬁcation method to isolate the gas associated with
+the outﬂow is to extract the emission at the extreme
+(i.e. largest and smallest) velocities in the channel map.
+We deﬁne the emission in v = [240 , 360] km s −1 and
+v = [ −360, −180] km s −1 as the red-shifted and blue-
+shifted outﬂow gas, respectively. The moment 0 maps
+generated using these velocity range are shown in Fig-
+ure 3. The ﬂux of HCN (1–0) is 0.16 and 0.12 Jy km s −1
+whereas HCO + (1–0) is 0.16 and 0.20 Jy km s −1 for the
+1 https://casaguides.nrao.edu/index.php/M100_Band3_Combine_4.3
+4 Michiyama et al.
+Figure 1. HCN (1–0) channel map. The size of each map is 20 ′′(3.4 kpc) square centered on RA . = 10 h27m51.s18,
+Dec. = 43 ◦54′17.′′85. The black contours are at n σ (n = 3, 9, 27, 81 and σ = 0.2 mJy beam −1). The stars, circles, and a triangle
+are corresponding to the coordinates shown in Table 1. The stars represent the positions of the northern and south ern nuclei.
+The blue circle and triangle are the positions of the blue-sh ifted components, and the red circle is the positions of red- shifted
+components identiﬁed in section 3.1. We obtain the blue and red wing maps by integrating the emiss ion in the velocity range
+[-360,-180] km s −1 and [240,360] km s −1.
+NGC 3256 dense gas outflow + Overleaf template article 5
+Table 1. The coordinates of symbols in ﬁgures
+region RA. (J2000) DEC. (J2000) symbol
+North-OF-Blue 10 h27m51.s02 −43◦54′13.′′12 blue triangle
+North-Nucleus 10 h27m51.s23 −43◦54′14.′′00 star
+OF-Red 10 h27m51.s20 −43◦54′15.′′64 red circle
+South-Nucleus 10 h27m51.s22 −43◦54′19.′′20 star
+South-OF-Blue 10 h27m51.s17 −43◦54′21.′′43 blue circle
+6 Michiyama et al.
+Figure 2. HCO+ (1–0) channel map. The size of each map is 20 ′′(3.4 kpc) square centered on RA . = 10 h27m51.s18,
+Dec. = 43 ◦54′17.′′85. The black contours are at n σ(n = 3, 9, 27, 81 and σ = 0.2 mJy beam −1). The stars, circles, and a triangle
+are corresponding to the coordinates shown in Table 1. The stars represent the positions of the northern and south ern nuclei.
+The blue circle and triangle are the positions of the blue-sh ifted components, and the red circle is the positions of red- shifted
+components identiﬁed in section 3.1. We obtain the blue and red wing maps by integrating the emiss ion in the velocity range
+[-360,-180] km s −1 and [240,360] km s −1.
+NGC 3256 dense gas outflow + Overleaf template article 7
+red- and blue-shifted emission, respectively. In addition,
+we integrate the same velocity range of the CO (1–0),
+CO (2–1), and CO (3–2) emission line (Figure 3 bot-
+tom).
+We deﬁne the blue-shifted component which is located
+at south of South-Nucleus as “South-OF-Blue”, and the
+red-shifted component which is located between North-
+and South-Nucleus as “OF-Red”. Furthermore, we de-
+ﬁne the peak of the blue-shifted CO (1–0) emission lo-
+cated ∼2.′′4 north-west of the North-Nucleus as “North-
+OF-Blue”. The coordinates of North-OF-Blue, North-
+Nucleus, OF-Red, South-Nucleus and South-OF-Blue
+are shown in Table 1. The three outﬂow components
+identiﬁed here support the existence of two bi-polar out-
+ﬂows ( Sakamoto et al. 2014 ), and a schematic is shown
+in Figure 3 (upper right). We use the term “north-
+ern outﬂow” to refer to the outﬂows from the northern
+nucleus, and “southern outﬂow” from the southern nu-
+cleus.
+There are several key diﬀerences between the distribu-
+tion of dense gas tracers (i.e. HCN (1–0) and HCO + (1–
+0)) and the relatively diﬀuse gas traced in the CO lines.
+The clear diﬀerence is that the dense gas tracers are only
+detected at OF-Red and South-OF-Blue, whereas they
+are undetected at North-OF-Blue to a sensitivity of 0.02
+Jy beam −1 km s −1 (Figure 3). We ﬁnd that the CO (1–
+0) ﬂuxes in Figure 3 are 5.3, 1.9 and 2.2 Jy km s −1 for
+red-shifted emission around OF-Red, blue-shifted emis-
+sion around North-OF-Blue, and blue-shifted emission
+around South-OF-Blue, respectively. 2 The CO (1–
+0) ﬂux at OF-Red is likely intermixed with the outﬂow
+gas from both the northern and southern nuclei, and
+disentangling the exact fractional contribution is non-
+trivial. For simplicity, we assume that the ﬂux ratio
+between the two blue shifted components (at North-OF-
+Blue and South-OF-Blue) is the fractional contribution
+of the southern outﬂow at OF-Red, which means that
+2 W e note that the CO (1–0) ﬂuxes in Sakamoto et al. (2014)
+are 8.9, 3.2, and 1.2 Jy km s −1 for red-shifted emission around
+OF-Red, blue-shifted emission around North-OF-Blue, and b lue-
+shifted emission around South-OF-Blue, respectively. The se val-
+ues are diﬀerent from our measurements. The diﬀerence be-
+tween our CO (1–0) image and that of Sakamoto et al. (2014)
+is the uv-coverage, imaging parameters, and integrated vel oc-
+ity range. For OF-Red and North-OF-Blue, the ﬂuxes mea-
+sured in Sakamoto et al. (2014) are larger than our measurements.
+Since the data set used in Sakamoto et al. (2014) has compact
+uv-coverage than ours, these diﬀerences are due to spatiall y ex-
+tended northern outﬂow. For South-OF-Blue, the ﬂux measure d
+in Sakamoto et al. (2014) is smaller than our measurements. This
+is due to the integrated velocity range. When we use the veloc ity
+range of [-360,-240] for the blue-shifted components, the C O (1–0)
+ﬂux is ∼ 1.1 Jy km s −1, and our measurement is consistent with
+Sakamoto et al. (2014).
+the CO (1–0) line ﬂux associated with the southern out-
+ﬂow is ∼ 5 Jy km s −1.
+3.2. Outﬂow Properties
+We derive the dense gas mass ( Mdense) and molecular
+gas mass ( Mmol) associated with the outﬂows, assum-
+ing the luminosity to mass conversion factor αHCN and
+αCO [M⊙ (K km s −1 pc2)−1];
+Mdense
+[M⊙] = αHCN
+LHCN(1−0)
+[K km s −1 pc2] (1)
+Mmol
+[M⊙] = αCO
+LCO(1−0)
+[K km s −1 pc2] (2)
+where LHCN(1−0) and LCO(1−0) are the luminosi-
+ties of the outﬂow derived from the line ﬂux de-
+rived in 3.1. The systematic error is estimated us-
+ing the range of commonly adopted conversion factors;
+αHCN = [0 .24, 10.0] and αCO = [0 .8, 4.6] ( Bolatto et al.
+2013; Barcos-Mu˜ noz et al. 2017). We estimate the age
+(Age), outﬂow rate ( ˙M ), and kinetic energy ( Pkin,OF)
+from the following equations.
+Age
+Myr =
+( lOF
+pc
+)( VOF
+km s −1
+)−1
+(3)
+˙M
+M⊙ yr−1 = 10 6
+( Mdense or Mmol
+M⊙
+)( Age
+Myr
+)−1
+(4)
+Pkin,OF
+erg s −1 = (3 × 1035)
+( ˙M
+M⊙ yr−1
+)( VOF
+km s −1
+)2
+(5)
+where the VOF is the representative velocity of the south-
+ern outﬂow, lOF is the distance from the nucleus to
+the outﬂow. The representative velocity of the south-
+ern outﬂow is derived from the central value of the in-
+tegrated range of blue-shifted components (Figure 1),
+which corresponds to the de-projected outﬂow velocity
+(VOF) of ∼ 1600 km s −1 3 assuming an inclination of 80 ◦
+(Sakamoto et al. 2014 ). The distances from the nucleus
+to the outﬂow ( lOF) are measured using the coordinates
+shown in Table 1. The results are shown in Table 2.
+In addition, in order to investigate whether supernovae
+explosions can explain these outﬂow, we calculate the
+kinetic power injected by supernovae, by using the rela-
+tionship derived by Veilleux et al. (2005);
+Pkin,SF
+erg s −1 = 7 × 1041 SF RM⊙ yr−1 (6)
+3 W e note that the maximum velocity of the southern outﬂow
+can be as long as VOF ∼ 2800 km s −1 since the highest blue-shifted
+velocity is 480 km s −1 for CO (2–1) (Figures A-2).
+8 Michiyama et al.
+Blue [-360,-180] km s-1, Red [240,360] km s-1
+20” ~ 3.4 kpc
+Figure 3. The spatial distribution of the extreme velocity component s. The beams are restored by 2 .′′1. The size of these
+images are 10 ′′× 20 ′′(1.7 × 3.4 kpc) rectangle centered on RA . = 10 h27m51.s18, Dec . = 43 ◦54′17.′′85. Blue- and red-shifted
+gas are shown by blue and red contour respectively. The stars and circles correspond to the coordinates shown in Table 1. The
+contours are 0 .02 × (3, 4, 5, 6) [Jy beam −1 km s −1] for HCN (1–0), 0 .02 × (3, 4, 5, 6, 8) [Jy beam −1 km s −1] for HCO + (1–0),
+0.1 × (3, 6, 9, 12, 15, 18, 21) [Jy beam −1 km s −1] for CO (1–0), 0 .07 × (3, 9, 27, 54, 81) [Jy beam −1 km s −1] for CO (2–1), and
+0.2×(3, 9, 18, 27, 36, 54) [Jy beam −1 km s−1] for CO (3–2). At top right panel, we show the schematic view o f the outﬂows. These
+outﬂows are predicted by Sakamoto et al. (2014) based on CO observations. There are two bi-polar outﬂows (n orthern outﬂow
+and southern outﬂow), and we assume that red- and blue-shift ed extreme velocity components of HCN (1–0) and HCO + (1–0)
+is associated with southern outﬂow.
+NGC 3256 dense gas outflow + Overleaf template article 9
+We adopt SFR of ∼ 6 M ⊙ yr−1 4 for the ∼ 3.′′0 region
+around the southern nucleus, which is derived from in-
+frared SED ﬁtting ( Lira et al. 2008 ).
+We ﬁnd that Pkin,OF/Pkin,SF is > 20% and > 100% us-
+ing Mdense and Mmol, respectively. For both cases, the
+Pkin,OF/Pkin,SF is larger than the nominal ratio for pure
+starburst driven outﬂow ( ∼ 1%: Cicone et al. (2014);
+Pereira-Santaella et al. (2018)), suggesting that another
+source of energy such as an AGN is needed to account
+for the observed high value of Pkin,OF. This is consistent
+with the earlier claim based on CO outﬂow parameters
+and geometry by Sakamoto et al. (2014) that the south-
+ern outﬂow is most likely entrained by a radio jet from a
+weak or recently dimmed AGN in the southern nucleus.
+3.3. Line Ratio
+The line ﬂux associated with outﬂow must be quan-
+tiﬁed in a consistent manner before the line ratios are
+evaluated. For the two nuclei, we integrate the emis-
+sion in all of the channels where the emission is de-
+tected with signal to noise ratio of > 3, whereas we
+integrate only the extreme velocity channels deﬁned in
+Section 3.1 (Figure 3) for the outﬂows. For the latter,
+the velocity-integrated intensities for each line may not
+include the entire outﬂowing gas, since it excludes the
+channels closer to the systemic velocity which may con-
+tain the gas entrained in the outﬂow at lower velocity.
+Nonetheless, the line ratios of two lines derived from the
+extreme velocity is a good representation of the physi-
+cal condition in the gas associated with the outﬂow. In
+the case of non-detection, we use the three sigma upper
+limit.
+We show the results in Table 3. Finally we calculate
+the line ratios, R21/10, R32/10, RHCN/CO, RHCO+/CO,
+and RHCN/HCO+ (Table 4). The RHCO+/CO (i.e. dense
+gas fraction) and the R32/10 are both larger in the south-
+ern outﬂow (0.20 ±0.04 and 1.3 ±0.2, respectively) than
+in the southern nucleus (0.08 ±0.01, 0.7 ±0.1, respec-
+tively). This trend is not seen in the case of the northern
+outﬂow.
+4. RADIATIVE TRANSFER MODELING
+4.1. RADEX and Bayesian analysis
+The physical properties (e.g., temperature and den-
+sity) of the outﬂow can be substantially diﬀerent from
+the conditions seen in the ambient ISM. Thefore, a ra-
+diative transfer treatment is necessary to investigate
+the physical properties. We use the non local thermo-
+4 W e note that this value is higher than the SFR derived by
+infrared SED ﬁtting ( ∼2 M ⊙ yr−1) conducted by Sakamoto et al.
+(2014) based on the method introduced in Murphy et al. (2011).
+dynamic equilibrium (non-LTE) radiative transfer code
+RADEX (van der Tak et al. 2007 ) to estimate the physical
+properties from the measured ﬂuxes of CO (1–0), CO (2–
+1), CO (3–2), HCN (1–0), and HCO +(1–0) for North-
+Nucleus, South-Nucleus, and South-OF-Blue. We as-
+sume a background temperature of Tbg = 2 .73 K. We
+adopt a line width of 150 km s −1 (full width half max-
+imum, FWHM) as a typical value since the FWHM of
+CO (2–1) emission at North-Nuclei and South-Nuclei
+are 160 and 112 km s −1, respectively. We adopt the
+CO and H 2 abundance ratio of [CO/H 2] =1 .0 × 10−4
+assuming 15 % of C is in the form of CO with a cos-
+mic value of (C/H)= 3 × 10−4 (Omont 2007 ). We
+assume the same FWHM = 150 km s −1 between the
+outﬂow and nuclei. In order to check how the value
+of FWHM aﬀects the results, we conducted the same
+calculation assuming 300 km s −1 and 50 km s −1. We
+ﬁnd that the results are consistent to within one sigma
+range. Under these assumptions, we can estimate the
+expected line intensities from the kinetic temperature
+(Tkin), H 2 volume density ( nH2), CO column density
+(NCO), beam ﬁlling factor (FF), and the abundance
+ratio ( NHCN/NCO and N +HCO/NCO) using RADEX. We
+search the best parameters within a range of Tkin =
+5 − 6300 K, nH2 = 10 1 − 107 cm−3, NCO = 10 12 − 1022
+cm−2, F F = 10 −5 − 100, N HCN/NCO=10−7 − 10−3,
+and N HCO+ /NCO=10−7 − 10−3. In order to constrain
+the free parameters ( Tkin, nH2, NH2, F F, NHCN/NCO
+and N +HCO/NCO), we conducted Bayesian likelihood
+statistical analysis, following the method described in
+Kamenetzky et al. (2012). We use the diameter of the
+photometric beam size ( ∼ 400 pc ∼ 2.1′′) as the up-
+per limit to the length of the column. Similarly, we use
+the virial mass ( Mdyn = 1040 R σ v 2; FWHM = 2 .35σv ,
+R ∼200 pc) ( Wilson & Scoville 1990 ) as the upper limit
+to the total mass.
+4.2. Results
+We show the results of the Bayesian likelihood sta-
+tistical analysis in Table 5, and the relative probability
+function for the free parameters ( nH2 , Tkin, NCO, F F,
+NHCN/NCO and N +HCO/NCO) at South-Nucleus (black)
+and South-OF-Blue (blue) in Figure 4. Except for the
+NCO and F F, the diﬀerence between South-OF-Blue
+and South-Nucleus are smaller than one sigma range 5.
+(Table 5), and therefore the apparent oﬀset in the peaks
+seen in Figure 4 is mostly insigniﬁcant. The critical is-
+sue of this modeling is that four lines are used as input
+parameters to estimate ﬁve parameters, resulting in the
+5 The one sigma range is estimated with the same manner con-
+ducted by Kamenetzky et al. (2012)
+10 Michiyama et al.
+Table 2. Southern outﬂow properties derived from HCN (1–0) and
+CO (1–0) observations.
+Southern Outﬂow
+Properties HCN (1–0) CO (1–0)
+αCO or αHCN [M⊙ (K km s −1 pc2)−1] 0.24–10 0.8–2.1
+Mdense or Mmol [105 M⊙] 2.8–120 100–260
+VOF [km s −1] 1600
+lOF [pc] 400
+Age [Myr] 0.25
+˙M [M⊙ yr−1] 1–48 40–104
+log(Pkin,OF) [erg s −1] 42.0–43.6 43.5–43.9
+Table 3. Measured line ﬂux in each region
+region velocity range CO CO CO HCN HCO +
+J=1–0 J=2–1 J=3–2 J=1–0 J=1–0
+km s −1 Jy km s −1
+North-OF-Blue [-360,-180] 0.5 ± 0.1 1.0 ± 0.1 <0.6 <0.06 <0.06
+North-Nucleus [-390,390] 36 ± 4 139 ± 14 280 ± 28 2.6 ± 0.3 2.8 ± 0.3
+OF-Red [240,360] 1.5 ± 0.2 5.3 ± 0.5 9.5 ± 1 0.08 ± 0.02 0.08 ± 0.02
+South-Nucleus [-390,390] 39 ± 4 142 ± 14 250 ± 25 1.1 ± 0.1 1.9 ± 0.2
+South-OF-Blue [-360,-180] 0.8 ± 0.08 4.1 ± 0.4 9.9 ± 1.0 0.07 ± 0.02 0.10 ± 0.02
+Note—The line ﬂuxes are measured at inner 2 .′′1 region in Figure 3 for the extreme velocity com-
+ponents.
+Table 4. Line ratios in each region
+region R21/10 R32/10 RHCN/CO RHCO+/CO RHCN/HCO+
+North-Nucleus 1.0 ±0.1 0.9 ±0.1 0.12 ±0.02 0.13 ±0.02 0.94 ±0.13
+North-OF-Blue 0.5 ±0.1 <0.1 <0.20 <0.20 -
+OF-Red 0.9 ±0.1 0.7 ±0.1 0.09 ±0.02 0.09 ±0.02 0.99 ±0.34
+South-Nucleus 0.9 ±0.1 0.7 ±0.1 0.05 ±0.01 0.08 ±0.01 0.60 ±0.08
+South-OF-Blue 1.2 ±0.2 1.3 ±0.2 0.13 ±0.04 0.20 ±0.04 0.68 ±0.24
+NGC 3256 dense gas outflow + Overleaf template article 11
+broad probability functions. In addition, the assump-
+tion of a single phase ISM is not appropriate, if the ISM
+is composed of multiple phases (e.g., warm and cold).
+Sliwa et al. (2014) and Saito et al. (2015) performed
+similar analyses using RADEX to investigate spatially
+resolved physical properties of the merging galaxies,
+NGC 1614 and VV 114. Sliwa et al. (2014) show that
+the cold molecular gas component ( < 100 K) is domi-
+nant in NGC 1614. In contrast, our estimated one sigma
+range of T kin is warmer than 100 K. While our one sigma
+range is larger than those derived by Sliwa et al. (2014)
+and Saito et al. (2015), South-OF-blue shows warmer
+Tkin and smaller N CO than every region in NGC 1614.
+In order to estimate the physical properties at a higher
+accuracy, optically thin lines such as 13CO and/or high-
+J lines are essential (Sliwa et al. 2014 ; Saito et al. 2015 ).
+While there are some uncertainties, this analysis is an
+important ﬁrst step to quantify the physical properties
+of extra-galactic molecular outﬂow.
+5. DISCUSSION
+The diﬀuse gas traced in the commonly observed
+CO line allows us to study the overall properties of
+the gas outﬂow such as the mass and kinematics. As
+shown in this study, a multi-line analysis including the
+dense gas tracers allows us to derive important new
+information pertaining to the physical and chemical
+properties of the outﬂow. Assuming that the HCN
+and HCO + are collisionally excited, the RHCN/CO
+and RHCO+/CO trace the dense gas fraction (e.g.,
+Gao & Solomon 2004 ; Lada et al. 2012 ; Bigiel et al.
+2015; Jim´ enez-Donaire et al. 2017). Although we in-
+terpret these ratios as dense gas fraction, we note
+that the HCN and HCO + emission can be enhanced
+due to turbulence (e.g., Krumholz & McKee 2005 ;
+Usero et al. 2015 ). In the following, we compare the
+ratios ( RHCN/CO, RHCO+/CO, R21/10, and R32/10) be-
+tween the nucleus and outﬂow components for both the
+northern and southern galaxy, and investigate them in
+the context of the nuclear activity. We discuss each out-
+ﬂow component (i.e. South-OF-Blue, North-OF-Blue,
+OF-Red) separately in the following subsections.
+5.1. South-OF-Blue
+Dense gas traced in both HCN (1–0) and HCO + (1–0)
+are clearly detected at South-OF-Blue (Figure 3). We
+ﬁnd that the dense gas fraction traced in RHCO+/CO at
+the South-OF-Blue ( RHCO+/CO = 0 .20 ± 0.04) is larger
+than the South-Nucleus ( RHCO+/CO = 0.08±0.01) by at
+least a factor of ∼ 2 (Table 4 and Figure 5). The same
+trend is also seen in RHCN/CO. In addition, we ﬁnd that
+R21/10 = 1.2 ± 0.2 and R32/10 = 1.3 ± 0.2 at South-OF-
+Blue is larger than at South-Nucleus ( R21/10 = 0.9 ± 0.1
+Figure 4. The results of RADEX modeling. We show the
+probability functions for each parameter measured by CO,
+HCN, and HCO + ﬂux. The black lines show the relative
+probability function for each parameter at South-Nucleus.
+The blue lines show the relative probability function for ea ch
+parameter at South-OF-Blue.
+and R32/10 = 0 .7 ± 0.1) by a factor of ∼ 2. These re-
+sults suggest larger dense gas fraction and higher excita-
+tion condition in the South-OF-Blue than in the South-
+Nucleus. While the one sigma range is large, the higher
+Tkin and nH2 (Figure 4) in South-OF-Blue compared to
+South-Nucleus further support the notion that the phys-
+ical conditions of the ISM are signiﬁcantly altered due
+to the energy input from the powerful outﬂow.
+In order to further characterize the variation in the
+line ratio as a function of velocity, we derive the same
+line ratios using the channel map presented in Figure
+A-4 and A-5. Figure 6 shows the line ratios plotted
+against the absolute value of velocity oﬀset at OF-Red
+and South-OF-Blue. At South-OF-Blue, we ﬁnd that
+12 Michiyama et al.
+Table 5. The results of RADEX modeling
+region Tkin nH2 NCO FF N HCN/NCO NHCO+/NCO
+K cm −3 cm−2
+South-Nucleus 17 - 259 10 3.6 - 10 6.0 1018.4 - 10 19.4 0.01 - 0.21 10 −5.9 - 10 −4.1 10−5.3 - 10 −3.5
+South-OF-Blue 33 - 254 10 4.3 - 10 6.2 1016.6 - 10 17.7 0.0006 - 0.0055 10 −4.9 - 10 −3.8 10−4.7 - 10 −3.3
+Note—The ranges are estimated by the one sigma range in the same ma nner as Kamenetzky et al. (2012).
+HCN/CO
+0.00 0.10 0.20 0.30 0.40
+HCO+/CO
+0.00 0.10 0.20 0.30 0.40
+HCN/HCO+
+0.00 0.50 1.00 1.50
+Line ratio normalized 
+with CO(1-0)
+0.0
+1.0
+2.0
+Line ratio normalized 
+with CO(1-0)
+0.0
+0.5
+1.0
+1.5
+2.0
+Line ratio normalized 
+with CO(1-0)
+0.0
+1.0
+2.0
+North-OF-Blue
+North-Nucleus
+OF-Red
+South-OF-Blue
+South-Nucleus
+CO(2-1) CO(3-2)
+(A) (B) (C)
+(D)
+(E)
+(F)
+North-Nucleus
+North-OF-Blue
+OF-Red
+South-Nucleus
+South-OF-Blue
+Figure 5. (A)-(C) Line ratios for each region. The panels show the (A) RHCN/CO, (B) RHCO+/CO, and (C) RHCN/HCO+. The
+dense gas fraction traced by RHCN/CO and RHCO+/CO is similar or smaller at North-OF-blue and larger at South-O F-blue than
+the nucleus. (D)-(F) CO spectral line energy distribution u p to J=3 for each region; (D) North-OF-Blue and North-Nucleus,
+(E) OF-Red, (F) South-OF-Blue and South-Nucleus. A decreas ing trend is seen at North-OF-Blue, and an increasing trend i s
+seen at South-OF-Blue. The values are shown in Table 4.
+the dense gas fraction increases towards the largest ve-
+locity oﬀset (e.g., RHCN/CO = 0.22±0.03 at -240 km s −1
+and 0 .32 ± 0.05 at -300 km s −1 )(Figure 6). In contrast,
+the R32/10 and R21/10 decrease towards the largest ve-
+locity oﬀset (e.g., R32/10 = 2.3 ± 0.2 at -240 km s −1 and
+1.4 ± 0.2 at -360 km s −1 ).
+If HCN (1–0), HCO +(1–0), CO (2–1) and CO (3–2)
+trace the same gas, we can not explain such diﬀerence.
+One possible explanation is a two-phase gas in the out-
+ﬂow; i.e., dense clumps are traced by HCN (1–0) and
+HCO+ (1–0) and diﬀuse gas are traced by CO lines.
+We show the schematic view for the blue-shifted part of
+southern outﬂow in Figure 7. In such a case, it is pos-
+sible that the gas with the largest velocity oﬀset is eﬃ-
+ciently compressed into dense gas clumps while diﬀuse
+gas outﬂow is outspread. This may explain the reason
+why the error bars in Bayessian estimation for the Tkin
+and nH2 are large, as we assumed that the gas in the
+outﬂow consists of a single phase.
+Numerical simulations suggest that multi-phase out-
+ﬂows occur due to the jet and ISM interaction (e.g.,
+Zubovas & King 2014 ; Costa et al. 2015 ; Ferrara & Scannapieco
+2016). This scenario is also supported by the detection
+of near-IR H 2 emission lines that trace gas heated by
+X-ray or shock in the southern outﬂow ( Emonts et al.
+2014) and a collimated structure detected by the VLA
+(Neﬀ et al. 2003 ) whose spatial distribution is consistent
+with the outﬂow detected in CO ( Sakamoto et al. 2014 )
+and dense gas tracers.
+The characteristics of the southern outﬂow is simi-
+lar to the strong radio jet seen in IC 5063 and M51.
+IC 5063 ( Morganti et al. 2013 ; Tadhunter et al. 2014 ;
+NGC 3256 dense gas outflow + Overleaf template article 13
+Figure 6. The relation between absolute value of velocity oﬀset and th e line ratios; (a) R21/10, (b) R32/10, (c) RHCN/CO,
+(d)RHCO+/CO, and (e) RHCN/HCO+. The blue shifted components (blue) are for South-OF-Blue, and red shifted components
+(red) are for OF-Red. At South-OF-Blue, low- J CO ratio decreases towards the largest velocity oﬀset, on th e other hand, dense
+gas fraction increases. This diﬀerence is probably due to tw o-phase ISM in the outﬂow. In addition, RHCN/HCO+ increases
+towards the largest velocity oﬀset, and one possible explan ation is that shock is dominant in the outﬂow.
+Dasyra et al. 2015 ; Morganti et al. 2015 ; Dasyra et al.
+2016) is a massive radio loud elliptical galaxy hosting a
+Seyfert 2 nucleus. Tadhunter et al. (2014) suggest that
+the radio jet expansion drives the fast shock into the
+ISM from the observation of near-IR H 2 lines. In addi-
+tion, the CO (4–3) / CO (2–1) in IC 5063 is over unity
+(in brightness temperature unit) at the gas associated
+with wind while the total CO (4–3) / CO (2–1) is ∼ 0.4
+(Dasyra et al. 2016 ). This suggests high excitation con-
+dition in the jet driven outﬂows assuming optically thick
+gas. In the case of M51, the outﬂow associated with the
+AGN jet shows large RHCN/CO > 1 from a map ob-
+tained at ∼ 34 pc resolution at the Submillimeter Array
+(SMA) ( Matsushita et al. 2015 ). They suggest that the
+HCN is enhanced in shocks. If the dense gas is only
+associated with the shock front of the jet-ISM interac-
+tion in NGC 3256, the beam ﬁlling factor of HCN can
+be smaller than CO. In such case, if the outﬂow is ob-
+14 Michiyama et al.
+Diffuse outflow 
+traced by low-J CO 
+(high excitation)
+Clumpy outflow 
+traced by HCN and HCO+
+Jet
+ISM
+Dusty disk 
+(Southern Nucleus)
+~ 1 kpc
+Figure 7. A schematic view of expected feature of the blue-
+shifted components of southern outﬂow in NGC 3256 (South-
+OF-Blue). There are clumpy and diﬀuse gas outﬂow. The
+gas with the largest velocity oﬀset is eﬃciently compressed
+into dense gas clumps due to a jet-ISM interaction. Such
+clumps possibly lead future star formation.
+served at 30 pc resolution in HCN, the dense gas fraction
+possibly increases ( > 1) at the edge of the outﬂow.
+The characteristics of the southern outﬂow are dif-
+ferent from the outﬂow seen in Mrk 231, which has a
+molecular outﬂow associated with AGN. In Mrk 231,
+broad wings have lower excitation condition than the
+core ( R21/10 ∼ 0.8 in the core but < 0.8 in the outﬂow)
+(Cicone et al. 2012 ). In order to explain the lower exci-
+tation conditions in the outﬂow in Mrk 231, Cicone et al.
+(2012) suggest acceleration by radiation pressure on the
+dust in molecular clouds ( Fabian et al. 2009 ) without
+the interaction of a radiation pressure driven jet with
+the ISM of the host galaxy. In addition, RHCN/CO in
+the outﬂow of Mrk 231 is higher ( ∼ 0.6) ( Aalto et al.
+2012) than the same quantity found in NGC 3256, al-
+though the reason is not clear. The major diﬀerence
+between NGC 3256S and Mrk 231 is that NGC 3256S
+is not in a QSO phase as in Mrk 231, but it is a low
+luminosity AGN.
+In summary our observations suggest that the south-
+ern molecular outﬂow has higher excitation condition
+and larger dense gas fraction than in the southern nu-
+cleus. In addition, the southern molecular outﬂow
+is possibly represented by two-phases (dense clumps
+traced by HCN and HCO + and diﬀuse components
+traced by low- J CO). According to numerical sim-
+ulations by Ferrara & Scannapieco (2016), dense gas
+clumps represent only a transient phase ( < 30 Myr) dur-
+ing the outﬂow evolution. The next question is whether
+such dense clumps lead to star formation. Numerical
+simulations show that jet-ISM interaction can lead to
+the formation of new massive stars (e.g., Dugan et al.
+2014; Wagner et al. 2016 ). Assuming the relation be-
+tween SF R and dense gas mass (SFR [M ⊙ yr−1] ∼
+10−7.93 × M1.02dense [M⊙]), we estimate SF R = 0.003-
+0.14 [M ⊙ yr−1] from dense gas mass associated with
+outﬂow ( Mdense = (2 .8 − 120) × 105 [M⊙]). A more
+direct observational evidence of positive feedback re-
+quires high resolution observations that trace the star
+formation. Possible choices include optical and infrared
+emission lines ( Maiolino et al. 2017 ) and the hydrogen
+recombination lines seen in sub/millimeter wavelength
+(e.g., H42 α).
+5.2. North-OF-Blue
+Dense gas outﬂow traced in HCN (1–0) and HCO + (1–
+0) is not detected at North-OF-Blue. Our observa-
+tion sensitivity is insuﬃcient to derive a meaningful
+upper limit, making it diﬃcult to compare the dense
+gas fraction between the northern nucleus and the out-
+ﬂow. R32/10 and R21/10 are lower ( R21/10 = 0 .5 ± 0.1,
+R32/10 < 0.1) at North-OF-Blue (dotted blue line in Fig-
+ure 5 (D)) than the North-Nucleus ( R21/10 = 1.0 ± 0.1,
+R32/10 = 0.9±0.1) (solid line in Figure 5 (D)). Assuming
+that all CO lines are optically thick at North-Nucleus,
+a possible explanation is that the outﬂow has lower or
+similar excitation condition compared to the northern
+nucleus. This trend is similar to the starburst galaxy
+M82 that has R32/10 = 1 .1 ± 0.2 around the nucleus
+and 0 .4 ± 0.2 in the outﬂow ( Weiß et al. 2005 ). Both
+the lower excitation and the smaller or similar dense gas
+fraction seen at the northern outﬂow in NGC 3256 sug-
+gest that the gas is expelled from the nucleus with little
+interaction between the outﬂow and the ISM.
+Alternatively, the V-like shape in the moment 0 map
+of the blue-shifted CO (2–1) component around North-
+Nucleus and North-OF-Blue (Figure 3) suggests that it
+may arise from two diﬀerent outﬂows, since the direc-
+tions of the CO (1–0) and CO (3–2) outﬂow are dif-
+ferent and faint CO (3–2) is detected around North-
+OF-Blue (Figure 3). Such V-like shape outﬂow is re-
+ported at diﬀerent scales: e.g., AGN jet in Circinus
+(Marconi et al. 1994 ) and outﬂow cavity from low mass
+protostars ( Zhang et al. 2016 ). Further high resolution
+and sensitivity CO observations are necessary to test
+this idea.
+5.3. OF-Red
+Dense gas outﬂow traced in HCN (1–0) and HCO + (1–
+0) is detected at OF-Red (Figures 1-3). At OF-Red,
+both the southern and northern outﬂow can contribute
+NGC 3256 dense gas outflow + Overleaf template article 15
+to the red-shifted extreme gas components. For CO ob-
+servations, we assume 54% and 46% of the red-shifted
+components arise from the southern and northern nu-
+cleus, respectively ( Sakamoto et al. 2014 ). On the other
+hand, since the dense gas tracers are not detected at
+North-OF-Blue, we assume that 100% of the red-shifted
+components arise from the southern nucleus in the case
+of HCN and HCO +. This indicates that the outﬂow
+emanating from the southern nucleus is denser than the
+northern outﬂow (Figure 3). We ﬁnd that the dense gas
+fraction at OF-Red is a factor of a few smaller than at a
+South-OF-Blue at given absolute velocity oﬀset (Figure
+6). If we assume 54% of the CO red-shifted compo-
+nents arise from the southern outﬂow, then the dense
+gas fraction increases by a factor of two. In such case, a
+symmetric bi-polar southern outﬂow between red- and
+blue-shifted components can be explained in terms of
+the dense gas fraction. Furthermore, dense gas fractions
+increase at the largest velocity oﬀset (Figure 6). For
+example, RHCN/CO is 0 .08 ± 0.01 at +240 km s −1 and
+0.20 ± 0.04 at +360 km s −1. This trend is also seen at
+South-OF-Blue and suggests that the gas is eﬃciently
+compressed into dense clumps with the largest velocity
+oﬀset.
+5.4. Shock in the outﬂow
+We showed that the HCN and HCO + outﬂow detected
+in South-OF-Blue can be tracing dense clumps that are
+formed due to the jet-ISM interaction. This possibly
+suggests the existence of shocks ( Goldsmith & Pittard
+2017), as suggested by Emonts et al. (2014) who show
+the possibility for the shock heated outﬂow from their
+near-IR H 2 observation. We investigate the diﬀerence
+between HCN (1–0) and HCO + (1–0) outﬂows in terms
+of chemistry in the outﬂow in this section.
+Shocks reduce the abundance of HCO + while leaving
+the HCN abundance unperturbed ( Iglesias & Silk 1978 ;
+Elitzur 1983 ; Mitchell & Deveau 1983 ; Harada et al.
+2015). Strong UV radiation produced at the shock
+front can photo-dissociate CO, and make C available
+for further reaction networks leading to HCN formation
+(Neufeld & Dalgarno 1989 ). In the case of protostellar
+outﬂow, Burkhardt et al. (2016) show that the HCN
+and shocked gas tracers (e.g., CH 3OH, HNCO) can
+be seen at the edge of the outﬂow but HCO + is not.
+Papadopoulos (2007) suggest that the HCO + abun-
+dance can be reduced in the star forming and highly
+turbulent molecular gas found in LIRGs (Shocks are
+expected to be frequent in the highly supersonic tur-
+bulent molecular gas.). In addition, PdBI observations
+towards Mrk 231 suggest that the HCN/HCO + ratio is
+enhanced in the outﬂow ( Lindberg et al. 2016 ). In the
+case of NGC 3256, RHCN/HCO+ increases towards the
+largest velocity oﬀset, i.e., RHCN/HCO+ is 0 .34 ± 0.06 at
+-240 km s −1 and 1.27±0.20 at -360 km s −1 at South-OF-
+Blue. On the other hand, there is no clear enhancement
+of RHCN/HCO+ towards the largest velocity oﬀset at OF-
+Red in contrast to South-OF-Blue. This is possibly due
+to the orientation of the two galaxies, i.e., a coexistence
+of the ISM belonging to the NGC 3256N and NGC 3256S
+toward the direction of OF-Red. This means that en-
+hancements of RHCN/HCO+ can be seen over the entire
+extreme velocity components (from low to high velocity)
+at OF-Red. We note that the red-shifted HNC wing is
+also detected at OF-Red ( Harada et al. 2018 ), and HNC
+emission is expected in shock and/or dense warm gas
+(e.g., Aalto et al. 2002 ).
+It is diﬃcult to explain the origin of the large
+HCN/HCO+ ratio seen in the outﬂows by shocks alone.
+For example, Ziurys et al. (1989) and Mitchell & Deveau
+(1983) predict an increase in the HCO + abundance
+behind a shock front in a diﬀuse cloud ( ∼ 3 × 104
+cm−3) through reaction of C + and O. The HCN and
+HCO+ line emission alone are insuﬃcient to draw a
+conclusion and observations of shocked gas tracers (e.g.,
+CH3OH, SiO, HNCO) in the outﬂow oﬀer additional
+clues. We simultaneously observed these molecules in
+the same data set presented here. The ﬂux is more
+than 10 times lower than HCN (1–0) and HCO + (1–0),
+and the sensitivity was not enough to detect the ex-
+treme velocity components of these lines. Harada et al.
+(2018) suggest the shock enhancement in the outﬂow
+based on the spatial distribution of these shock gas
+tracers. Another way to identify the enhancement
+of shocks is to search for H 2O line in the outﬂow
+since H 2O is the most abundant molecule in the grain
+mantle ( Yamamoto 1985 ) and H 2O abundance is en-
+hanced if the grain mantels are progressively eroded
+by shock ( Flower & Pineau Des Forˆ ets 2010). In ad-
+dition, Hershel observations show that the brightness
+of H 2O is comparable to high- J CO ( Yang et al. 2013 ;
+Falstad et al. 2015 ). Recent ALMA detections of H 2O
+lines ( K¨ onig et al. 2017; Pereira-Santaella et al. 2017 )
+in LIRGs are promising, and future high resolution and
+sensitivity H 2O observations are the keys to investigate
+the shocks in extragalactic outﬂows.
+6. SUMMARY
+We present ALMA Cycle 3 observations of HCN (1–0),
+HCO+(1–0), and CO (2–1) in NGC 3256. We have de-
+tected the extreme velocity components showing outﬂow
+in all lines. By comparing these data with the CO (1–0)
+and CO (3–2) ALMA Cycle 0 data, we measure line
+ﬂuxes for the northern nucleus (North-Nucleus), the
+16 Michiyama et al.
+southern nucleus (South-Nucleus), the northern blue-
+shifted gas (North-OF-Blue), the southern blue-shifted
+gas (South-OF-Blue), and red-shifted gas (OF-Red).
+We investigate the line ratios ( RHCN/CO, RHCO+/CO,
+R21/10, and R32/10) for each position. In addition we
+conduct RADEX modeling for South-Nucleus and South-
+OF-Blue. Our ﬁndings are as follow,
+(1) For the northern outﬂow, which is presumably
+triggered by starbursts, HCN (1–0) and HCO + (1–
+0) are not detected at North-OF-Blue. R21/10
+and R32/10 ratio are comparable between the out-
+ﬂow and the nucleus. One possible explanation
+is that the gas is expelled from the starburst re-
+gion without experiencing large physical or chem-
+ical changes.
+(2) For the southern outﬂow emanating from the low-
+luminosity AGN in the southern nucleus, HCN (1–
+0) and HCO + (1–0) are detected. Both the dense
+gas fraction and R32/10 ratios are larger in the
+outﬂow than in the nucleus. This suggests that
+the molecular outﬂow is warm, and gas becomes
+denser in the outﬂow.
+(3) By investigating line ratios for each velocity com-
+ponent in the southern blue-shifted outﬂow (at
+South-OF-Blue), we ﬁnd that the dense gas frac-
+tion increases and R32/10 decreases towards the
+largest velocity oﬀset. This suggests the existence
+of a two-phase (diﬀuse and clumpy) outﬂow. One
+possible scenario to produce such a two-phase out-
+ﬂow is a jet-ISM interaction, which may trigger the
+shock and/or star formation in the outﬂow.
+(4) Shock is possibly enhanced in the outﬂow due to a
+jet-ISM interaction. However, we need additional
+multi-molecule detections in the outﬂow to inves-
+tigate chemical properties inside the outﬂow.
+The authors thank the anonymous referee for care-
+fully reviewing the manuscript. We thank S.Aalto and
+E. Schinnerer. They hosted TM for one month in On-
+sala observatory, Sweden and Max Planck Institute
+for Astronomy, Germany. Authors thank S.Veilleux
+and R.Levy for useful discussion at the University of
+Maryland. This work was supported in part by the
+Center for the Promotion of Integrated Sciences (CPIS)
+of SOKENDAI. This paper makes use of the follow-
+ing ALMA data: ADS/JAO.ALMA #2011.0.00525.S,
+2015.1.00993.S, and 2015.1.00714.S. ALMA is a part-
+nership of ESO (representing its member states),
+NSF (USA) and NINS (Japan), together with NRC
+(Canada), MOST and ASIAA (Taiwan), and KASI
+(Republic of Korea), in cooperation with the Republic
+of Chile. The Joint ALMA Observatory is operated by
+ESO, AUI/NRAO and NAOJ. This research has made
+use of the NASA/IPAC Extragalactic Database (NED)
+which is operated by the Jet Propulsion Laboratory,
+California Institute of Technology, under contract with
+the National Aeronautics and Space Administration.
+This research has made use of NASA’s Astrophysics
+Data System.
+APPENDIX
+A. APPENDIX INFORMATION
+REFERENCES
+Aalto, S., Garcia-Burillo, S., Muller, S., et al. 2015, A&A,
+574, A85
+Aalto, S., Garcia-Burillo, S., Muller, S., et al. 2012, A&A,
+537, A44
+Aalto, S., Polatidis, A. G., H¨ uttemeister, S., & Curran,
+S. J. 2002, A&A, 381, 783
+Barcos-Mu˜ noz, L., Aalto, S., Thompson, T. A., et al. 2017,
+arXiv:1712.06381
+Bolatto, A. D., Wolﬁre, M., & Leroy, A. K. 2013, ARA&A,
+51, 207
+Bigiel, F., Leroy, A. K., Blitz, L., et al. 2015, ApJ, 815, 103
+Burkhardt, A. M., Dollhopf, N. M., Corby, J. F., et al.
+2016, ApJ, 827, 21
+Cicone, C., Feruglio, C., Maiolino, R., et al. 2012, A&A,
+543, A99
+Cicone, C., Maiolino, R., Sturm, E., et al. 2014, A&A, 562,
+A21
+Cicone, C., Severgnini, P., Papadopoulos, P. P., et al. 2018 ,
+arXiv:1807.06015
+Costa, T., Sijacki, D., & Haehnelt, M. G. 2015, MNRAS,
+448, L30
+Dasyra, K. M., Bostrom, A. C., Combes, F., & Vlahakis, N.
+2015, ApJ, 815, 34
+NGC 3256 dense gas outflow + Overleaf template article 17
+Figure A-1. CO (1–0) channel map. The size of each map is 20 ′′(3.4 kpc)
+square centered on RA . = 10 h27m51.s18, Dec . = 43 ◦54′17.′′85. The black contours are at n σ(n = 3, 9, 27, 81 and
+σ = 3 mJy beam −1). The stars, circles, and a triangle are corresponding to th e coordinates shown in Table 1.
+18 Michiyama et al.
+Figure A-2. CO (2–1) channel map. The size of each map is 20 ′′(3.4 kpc)
+square centered on RA . = 10 h27m51.s18, Dec . = 43 ◦54′17.′′85. The black contours are at n σ(n = 3, 9, 27, 81 and
+σ = 2 mJy beam −1). The stars, circles, and a triangle are corresponding to th e coordinates shown in Table 1.
+NGC 3256 dense gas outflow + Overleaf template article 19
+Figure A-3. CO (3–2) channel map. The size of each map is 20 ′′(3.4 kpc)
+square centered on RA . = 10 h27m51.s18, Dec . = 43 ◦54′17.′′85. The black contours are at n σ(n = 3, 9, 27, 81 and
+σ = 9 mJy beam −1). The stars, circles, and a triangle are corresponding to th e coordinates shown in Table 1.
+20 Michiyama et al.
+Figure A-4. Line ratios for blue-shifted components. Symbols are the sa me as Figure 1. The size of each map is 20 ′′(3.4 kpc)
+square centered on RA . = 10 h27m51.s18, Dec . = 43 ◦54′17.′′85.
+NGC 3256 dense gas outflow + Overleaf template article 21
+Figure A-5. Line ratios for red-shifted components. Symbols are the sam e as Figure 1. The size of each map is 20 ′′(3.4 kpc)
+square centered on RA . = 10 h27m51.s18, Dec . = 43 ◦54′17.′′85.
+22 Michiyama et al.
+Dasyra, K. M., Combes, F., Oosterloo, T., et al. 2016,
+A&A, 595, L7
+Debuhr, J., Quataert, E., & Ma, C.-P. 2012, MNRAS, 420,
+2221
+Dugan, Z., Bryan, S., Gaibler, V., Silk, J., & Haas, M.
+2014, ApJ, 796, 113
+Elitzur, M. 1983, ApJ, 267, 174
+Emonts, B. H. C., Piqueras-L´ opez, J., Colina, L., et al.
+2014, A&A, 572, A40
+Fabian, A. C., Vasudevan, R. V., Mushotzky, R. F., Winter,
+L. M., & Reynolds, C. S. 2009, MNRAS, 394, L89
+Falstad, N., Gonz´ alez-Alfonso, E., Aalto, S., et al. 2015,
+A&A, 580, A52
+Faucher-Gigu` ere, C.-A., & Quataert, E. 2012, MNRAS,
+425, 605
+Ferrara, A., & Scannapieco, E. 2016, ApJ, 833, 46
+Feruglio, C., Fiore, F., Carniani, S., et al. 2015, A&A, 583,
+A99
+Feruglio, C., Fiore, F., Piconcelli, E., et al. 2013, A&A, 55 8,
+A87
+Feruglio, C., Fiore, F., Maiolino, R., et al. 2013, A&A, 549,
+A51
+Feruglio, C., Maiolino, R., Piconcelli, E., et al. 2010, A&A ,
+518, L155
+Fiore, F., Feruglio, C., Shankar, F., et al. 2017, A&A, 601,
+A143
+Flower, D. R., & Pineau Des Forˆ ets, G. 2010, MNRAS, 406,
+1745
+Gaibler, V., Khochfar, S., Krause, M., & Silk, J. 2012,
+MNRAS, 425, 438
+Gao, Y., & Solomon, P. M. 2004, ApJ, 606, 271
+Garc ´ ıa-Burillo, S., Combes, F., Usero, A., et al. 2015, A&A ,
+580, A35
+Goldsmith, K. J. A., & Pittard, J. M. 2017, MNRAS, 470,
+2427
+Gonz´ alez-Alfonso, E., Fischer, J., Graci´ a-Carpio, J., et al.
+2014, A&A, 561, A27
+Harada, N., Sakamoto, K., Mart ´ ın, S., et al. 2018, ApJ,
+855, 49
+Harada, N., Riquelme, D., Viti, S., et al. 2015, A&A, 584,
+A102
+Hayward, C. C., Torrey, P., Springel, V., Hernquist, L., &
+Vogelsberger, M. 2014, MNRAS, 442, 1992
+Hopkins, P. F., Somerville, R. S., Hernquist, L., et al. 2006 ,
+ApJ, 652, 864
+Iglesias, E. R., & Silk, J. 1978, ApJ, 226, 851
+Ishibashi, W., Fabian, A. C., & Canning, R. E. A. 2013,
+MNRAS, 431, 2350
+Jim´ enez-Donaire, M. J., Bigiel, F., Leroy, A. K., et al. 201 7,
+MNRAS, 466, 49
+Kamenetzky, J., Glenn, J., Rangwala, N., et al. 2012, ApJ,
+753, 70
+K¨ onig, S., Mart ´ ın, S., Muller, S., et al. 2017, A&A, 602, A42
+Krumholz, M. R., & McKee, C. F. 2005, ApJ, 630, 250
+Lada, C. J., Forbrich, J., Lombardi, M., & Alves, J. F.
+2012, ApJ, 745, 190
+Lehmer, B. D., Tyler, J. B., Hornschemeier, A. E., et al.
+2015, ApJ, 806, 126
+Lira, P., Gonzalez-Corvalan, V., Ward, M., & Hoyer, S.
+2008, MNRAS, 384, 316
+Lindberg, J. E., Aalto, S., Muller, S., et al. 2016, A&A,
+587, A15
+Maiolino, R., Russell, H. R., Fabian, A. C., et al. 2017,
+Nature, 544, 202
+Marconi, A., Moorwood, A. F. M., Origlia, L., & Oliva, E.
+1994, The Messenger, 78, 20
+Matsushita, S., Trung, D.-V.-, Boone, F., et al. 2015, ApJ,
+799, 26
+McMullin, J. P., Waters, B., Schiebel, D., Young, W., &
+Golap, K. 2007, Astronomical Data Analysis Software
+and Systems XVI, 376, 127
+Michiyama, T., Iono, D., Nakanishi, K., et al. 2016, PASJ,
+68, 96
+Mitchell, G. F., & Deveau, T. J. 1983, ApJ, 266, 646
+Morganti, R., Frieswijk, W., Oonk, R. J. B., Oosterloo, T.,
+& Tadhunter, C. 2013, A&A, 552, L4
+Morganti, R., Oosterloo, T., Oonk, J. B. R., Frieswijk, W.,
+& Tadhunter, C. 2015, A&A, 580, A1
+Murphy, E. J., Condon, J. J., Schinnerer, E., et al. 2011,
+ApJ, 737, 67
+Narayanan, D., Cox, T. J., Kelly, B., et al. 2008, ApJS,
+176, 331-354
+Neﬀ, S. G., Ulvestad, J. S., & Campion, S. D. 2003, ApJ,
+599, 1043
+Neufeld, D. A., & Dalgarno, A. 1989, ApJ, 340, 869
+Ohyama, Y., Terashima, Y., & Sakamoto, K. 2015, ApJ,
+805, 162
+Omont, A. 2007, Reports on Progress in Physics, 70, 1099
+Papadopoulos, P. P. 2007, ApJ, 656, 792
+Pereira-Santaella, M., Gonz´ alez-Alfonso, E., Usero, A., et
+al. 2017, A&A, 601, L3
+Pereira-Santaella, M., Colina, L., Garcia-Burillo, S., et al.
+2018, arXiv:1805.03667
+Rich, J. A., Kewley, L. J., & Dopita, M. A. 2011, ApJ, 734,
+87
+Richings, A. J., & Faucher-Gigu` ere, C.-A. 2018, MNRAS,
+474, 3673
+Saito, T., Iono, D., Yun, M. S., et al. 2015, ApJ, 803, 60
+Saito, T., Iono, D., Xu, C. K., et al. 2016, PASJ, 68, 20
+Saito, T., Iono, D., Ueda, J., et al. 2018, MNRAS, 475, L52
+NGC 3256 dense gas outflow + Overleaf template article 23
+Sanders, D. B., Mazzarella, J. M., Kim, D.-C., Surace,
+J. A., & Soifer, B. T. 2003, AJ, 126, 1607
+Sakamoto, K., Aalto, S., Combes, F., Evans, A., & Peck, A.
+2014, ApJ, 797, 90
+Sakamoto, K., Aalto, S., Wilner, D. J., et al. 2009, ApJL,
+700, L104
+Sliwa, K., Wilson, C. D., Iono, D., Peck, A., & Matsushita,
+S. 2014, ApJL, 796, L15
+Springel, V., Di Matteo, T., & Hernquist, L. 2005,
+MNRAS, 361, 776
+Tadhunter, C., Morganti, R., Rose, M., Oonk, J. B. R., &
+Oosterloo, T. 2014, Nature, 511, 440
+Usero, A., Leroy, A. K., Walter, F., et al. 2015, AJ, 150, 115
+van der Tak, F. F. S., Black, J. H., Sch¨ oier, F. L., Jansen,
+D. J., & van Dishoeck, E. F. 2007, A&A, 468, 627
+Veilleux, S., Cecil, G., & Bland-Hawthorn, J. 2005,
+ARA&A, 43, 769
+Wagner, A. Y., Bicknell, G. V., Umemura, M., Sutherland,
+R. S., & Silk, J. 2016, Astronomische Nachrichten, 337,
+167
+Walter, F., Bolatto, A. D., Leroy, A. K., et al. 2017, ApJ,
+835, 265
+Weiß, A., Walter, F., & Scoville, N. Z. 2005, A&A, 438, 533
+Wilson, C. D., & Scoville, N. 1990, ApJ, 363, 435
+Yamamoto, T. 1985, A&A, 142, 31
+Yang, C., Gao, Y., Omont, A., et al. 2013, ApJL, 771, L24
+Zhang, Y., Arce, H. G., Mardones, D., et al. 2016, ApJ,
+832, 158
+Ziurys, L. M., Snell, R. L., & Dickman, R. L. 1989, ApJ,
+341, 857
+Zubovas, K., & Bourne, M. A. 2017, MNRAS, 468, 4956
+Zubovas, K., & King, A. 2012, ApJL, 745, L34
+Zubovas, K., & King, A. R. 2014, MNRAS, 439, 400

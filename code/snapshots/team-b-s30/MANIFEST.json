@@ -1,0 +1,16 @@
+{
+ "team": "team-b",
+ "item": "Q52",
+ "files": [
+  "scripts/s320_q52_chem_ratios.py",
+  "scripts/s321_q52_ratios.py",
+  "scripts/s322_q52_cont_ref.py",
+  "scripts/s323_update_report_q52.py",
+  "out/q52/s320.json",
+  "out/q52/s320.txt",
+  "out/q52/s321.json",
+  "out/q52/s321.txt",
+  "out/q52/s322.txt",
+  "TEAM_REPORT.json"
+ ]
+}

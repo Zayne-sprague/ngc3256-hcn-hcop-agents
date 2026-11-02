@@ -1,0 +1,347 @@
+apertures (arcsec offsets from phase centre): {'N': (0.0, 2.55), 'S': (-0.15, -2.55), 'Bridge': (0.3, 0.15), 'Soutflow (wing peak, selected)': (-0.15, -4.5), 'Soutflow (line-integrated centroid)': (-0.72, -4.79), 'M18 South-OF-Blue': (-0.65, -4.83), 'mirror of Soutflow N of S': (-0.09, -0.62)}
+== velocity-resolved ratio (Xb4d smoothed to 1.05", 2" diameter aperture, 100 km/s bins relative to the local centroid; Tb ratio; MC 68% interval)
+local centroids (km/s): {'N': 2777, 'S': 2764, 'Bridge': 2784, 'Soutflow (wing peak, selected)': 2691, 'Soutflow (line-integrated centroid)': 2711, 'M18 South-OF-Blue': 2708, 'mirror of Soutflow N of S': 2763}
+-- N (centroid 2777)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi                    kind
+-500.0 -400.0 -0.008  0.011  -0.014   0.008   NaN   NaN   NaN                HCN<3sig
+-400.0 -300.0 -0.003  0.010  -0.011   0.008   NaN   NaN   NaN                HCN<3sig
+-300.0 -200.0 -0.010  0.010  -0.013   0.008   NaN   NaN   NaN                HCN<3sig
+-200.0 -100.0  0.100  0.011   0.101   0.008 1.004 0.876 1.142                   value
+-100.0    0.0  1.902  0.010   2.687   0.008 0.717 0.712 0.721                   value
+   0.0  100.0  2.031  0.010   2.710   0.008 0.759 0.755 0.763                   value
+ 100.0  200.0  0.188  0.010   0.160   0.008 1.192 1.109 1.283                   value
+ 200.0  300.0  0.034  0.011   0.003   0.008   NaN 2.367   NaN lower limit (HCO+<3sig)
+ 300.0  400.0  0.003  0.010  -0.017   0.008   NaN   NaN   NaN                HCN<3sig
+ 400.0  500.0  0.009  0.010  -0.017   0.008   NaN   NaN   NaN                HCN<3sig
+-- S (centroid 2764)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi     kind
+-500.0 -400.0 -0.021  0.007   0.009   0.003   NaN   NaN   NaN HCN<3sig
+-400.0 -300.0  0.001  0.007  -0.006   0.004   NaN   NaN   NaN HCN<3sig
+-300.0 -200.0  0.017  0.007   0.028   0.003   NaN   NaN   NaN HCN<3sig
+-200.0 -100.0  0.077  0.007   0.188   0.003 0.415 0.378 0.451    value
+-100.0    0.0  0.639  0.007   1.770   0.003 0.365 0.361 0.369    value
+   0.0  100.0  0.469  0.007   1.294   0.003 0.367 0.362 0.372    value
+ 100.0  200.0  0.143  0.007   0.345   0.003 0.421 0.401 0.442    value
+ 200.0  300.0  0.008  0.007   0.009   0.004   NaN   NaN   NaN HCN<3sig
+ 300.0  400.0 -0.011  0.007  -0.004   0.003   NaN   NaN   NaN HCN<3sig
+ 400.0  500.0 -0.010  0.007   0.005   0.003   NaN   NaN   NaN HCN<3sig
+-- Bridge (centroid 2784)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi                    kind
+-500.0 -400.0  0.015  0.008   0.013   0.006   NaN   NaN   NaN                HCN<3sig
+-400.0 -300.0  0.007  0.008   0.005   0.006   NaN   NaN   NaN                HCN<3sig
+-300.0 -200.0  0.014  0.007   0.009   0.006   NaN   NaN   NaN                HCN<3sig
+-200.0 -100.0  0.056  0.008   0.045   0.006 1.252 1.036 1.509                   value
+-100.0    0.0  0.587  0.008   1.366   0.006 0.435 0.429 0.441                   value
+   0.0  100.0  0.573  0.007   1.203   0.006 0.482 0.475 0.489                   value
+ 100.0  200.0  0.096  0.008   0.060   0.006 1.614 1.426 1.823                   value
+ 200.0  300.0  0.089  0.008   0.047   0.006 1.893 1.639 2.204                   value
+ 300.0  400.0  0.066  0.007   0.007   0.006   NaN 5.106   NaN lower limit (HCO+<3sig)
+ 400.0  500.0  0.040  0.008   0.015   0.006   NaN 1.806   NaN lower limit (HCO+<3sig)
+-- Soutflow (wing peak, selected) (centroid 2691)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi     kind
+-500.0 -400.0  0.014  0.004   0.010   0.002 1.386 0.895 2.025    value
+-400.0 -300.0  0.043  0.005   0.025   0.002 1.759 1.517 2.028    value
+-300.0 -200.0  0.072  0.004   0.029   0.002 2.529 2.292 2.796    value
+-200.0 -100.0  0.115  0.004   0.083   0.002 1.410 1.349 1.472    value
+-100.0    0.0  0.125  0.005   0.185   0.002 0.685 0.657 0.712    value
+   0.0  100.0  0.132  0.004   0.249   0.002 0.537 0.519 0.555    value
+ 100.0  200.0  0.116  0.004   0.220   0.002 0.536 0.515 0.556    value
+ 200.0  300.0  0.004  0.004   0.002   0.002   NaN   NaN   NaN HCN<3sig
+ 300.0  400.0  0.015  0.005   0.011   0.002 1.448 0.946 2.088    value
+ 400.0  500.0  0.012  0.004   0.004   0.002   NaN   NaN   NaN HCN<3sig
+-- Soutflow (line-integrated centroid) (centroid 2711)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi     kind
+-500.0 -400.0  0.011  0.007   0.026   0.004   NaN   NaN   NaN HCN<3sig
+-400.0 -300.0  0.037  0.007   0.018   0.004 2.039 1.551 2.714    value
+-300.0 -200.0  0.063  0.007   0.041   0.004 1.552 1.345 1.782    value
+-200.0 -100.0  0.114  0.006   0.116   0.004 1.002 0.940 1.066    value
+-100.0    0.0  0.170  0.007   0.259   0.004 0.663 0.635 0.691    value
+   0.0  100.0  0.218  0.007   0.398   0.004 0.556 0.538 0.574    value
+ 100.0  200.0  0.085  0.006   0.161   0.004 0.535 0.494 0.576    value
+ 200.0  300.0  0.011  0.007   0.015   0.004   NaN   NaN   NaN HCN<3sig
+ 300.0  400.0  0.020  0.007   0.026   0.004   NaN   NaN   NaN HCN<3sig
+ 400.0  500.0  0.015  0.006   0.021   0.004   NaN   NaN   NaN HCN<3sig
+-- M18 South-OF-Blue (centroid 2708)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi     kind
+-500.0 -400.0  0.009  0.006   0.027   0.004   NaN   NaN   NaN HCN<3sig
+-400.0 -300.0  0.042  0.006   0.018   0.004 2.406 1.879 3.150    value
+-300.0 -200.0  0.069  0.006   0.041   0.003 1.701 1.501 1.921    value
+-200.0 -100.0  0.125  0.006   0.112   0.004 1.132 1.065 1.202    value
+-100.0    0.0  0.166  0.006   0.251   0.004 0.671 0.646 0.696    value
+   0.0  100.0  0.209  0.006   0.371   0.004 0.569 0.551 0.588    value
+ 100.0  200.0  0.098  0.006   0.180   0.004 0.549 0.512 0.586    value
+ 200.0  300.0  0.015  0.006   0.012   0.004   NaN   NaN   NaN HCN<3sig
+ 300.0  400.0  0.019  0.006   0.025   0.004   NaN   NaN   NaN HCN<3sig
+ 400.0  500.0  0.018  0.006   0.019   0.003   NaN   NaN   NaN HCN<3sig
+-- mirror of Soutflow N of S (centroid 2763)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi                    kind
+-500.0 -400.0  0.005  0.005   0.006   0.008   NaN   NaN   NaN                HCN<3sig
+-400.0 -300.0 -0.001  0.005  -0.006   0.008   NaN   NaN   NaN                HCN<3sig
+-300.0 -200.0 -0.007  0.005  -0.004   0.008   NaN   NaN   NaN                HCN<3sig
+-200.0 -100.0  0.035  0.005   0.037   0.008 0.947 0.744 1.233                   value
+-100.0    0.0  0.442  0.005   1.071   0.008 0.418 0.412 0.424                   value
+   0.0  100.0  0.481  0.005   1.119   0.008 0.435 0.430 0.441                   value
+ 100.0  200.0  0.056  0.005   0.063   0.008 0.904 0.779 1.055                   value
+ 200.0  300.0  0.057  0.005   0.023   0.008   NaN 1.864   NaN lower limit (HCO+<3sig)
+ 300.0  400.0  0.062  0.005   0.013   0.008   NaN 2.966   NaN lower limit (HCO+<3sig)
+ 400.0  500.0  0.024  0.005  -0.001   0.008   NaN 2.227   NaN lower limit (HCO+<3sig)
+== windows (Xb4d)
+                                 ap          window     vloc  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi     kind
+                                  N       blue half 2777.336  0.086  0.007   0.077   0.004 1.132 1.031 1.236    value
+                                  N            core 2777.336  3.933  0.008   5.397   0.003 0.738 0.736 0.739    value
+                                  N        red half 2777.336  0.225  0.007   0.146   0.004 1.560 1.501 1.623    value
+                                  N blue -300..-100 2777.336  0.090  0.007   0.088   0.004 1.031 0.938 1.127    value
+                                  N      whole line 2777.336  4.245    NaN   5.589     NaN   NaN   NaN   NaN HCN<3sig
+                                  S       blue half 2763.717  0.095  0.004   0.210   0.007 0.456 0.433 0.481    value
+                                  S            core 2763.717  1.108  0.005   3.064   0.005 0.366 0.364 0.368    value
+                                  S        red half 2763.717  0.141  0.004   0.350   0.007 0.409 0.396 0.423    value
+                                  S blue -300..-100 2763.717  0.094  0.005   0.216   0.005 0.438 0.412 0.466    value
+                                  S      whole line 2763.717  1.313    NaN   3.639     NaN   NaN   NaN   NaN HCN<3sig
+                             Bridge       blue half 2784.270  0.077  0.004   0.059   0.005 1.322 1.203 1.455    value
+                             Bridge            core 2784.270  1.159  0.006   2.569   0.002 0.457 0.454 0.459    value
+                             Bridge        red half 2784.270  0.250  0.004   0.114   0.005 2.216 2.122 2.315    value
+                             Bridge blue -300..-100 2784.270  0.070  0.006   0.054   0.002 1.321 1.190 1.454    value
+                             Bridge      whole line 2784.270  1.542    NaN   2.771     NaN   NaN   NaN   NaN HCN<3sig
+     Soutflow (wing peak, selected)       blue half 2690.779  0.230  0.011   0.136   0.004 1.708 1.616 1.803    value
+     Soutflow (wing peak, selected)            core 2690.779  0.257  0.009   0.434   0.003 0.601 0.579 0.622    value
+     Soutflow (wing peak, selected)        red half 2690.779  0.135  0.011   0.233   0.004 0.588 0.541 0.636    value
+     Soutflow (wing peak, selected) blue -300..-100 2690.779  0.187  0.009   0.112   0.003 1.696 1.605 1.792    value
+     Soutflow (wing peak, selected)      whole line 2690.779  0.648    NaN   0.817     NaN   NaN   NaN   NaN HCN<3sig
+Soutflow (line-integrated centroid)       blue half 2710.713  0.215  0.010   0.175   0.002 1.240 1.181 1.298    value
+Soutflow (line-integrated centroid)            core 2710.713  0.388  0.009   0.657   0.004 0.598 0.584 0.612    value
+Soutflow (line-integrated centroid)        red half 2710.713  0.116  0.010   0.202   0.001 0.580 0.530 0.630    value
+Soutflow (line-integrated centroid) blue -300..-100 2710.713  0.178  0.009   0.157   0.004 1.147 1.084 1.210    value
+Soutflow (line-integrated centroid)      whole line 2710.713  0.745    NaN   1.081     NaN   NaN   NaN   NaN HCN<3sig
+                  M18 South-OF-Blue       blue half 2707.593  0.236  0.010   0.170   0.002 1.403 1.341 1.464    value
+                  M18 South-OF-Blue            core 2707.593  0.375  0.009   0.622   0.004 0.610 0.595 0.626    value
+                  M18 South-OF-Blue        red half 2707.593  0.132  0.010   0.218   0.002 0.614 0.566 0.662    value
+                  M18 South-OF-Blue blue -300..-100 2707.593  0.194  0.009   0.153   0.004 1.285 1.215 1.357    value
+                  M18 South-OF-Blue      whole line 2707.593  0.770    NaN   1.057     NaN   NaN   NaN   NaN HCN<3sig
+          mirror of Soutflow N of S       blue half 2763.390  0.027  0.006   0.028   0.002 0.960 0.727 1.202    value
+          mirror of Soutflow N of S            core 2763.390  0.923  0.007   2.190   0.005 0.427 0.423 0.430    value
+          mirror of Soutflow N of S        red half 2763.390  0.175  0.006   0.099   0.002 1.801 1.725 1.877    value
+          mirror of Soutflow N of S blue -300..-100 2763.390  0.028  0.007   0.034   0.005 0.846 0.619 1.109    value
+          mirror of Soutflow N of S      whole line 2763.390  1.155    NaN   2.322     NaN   NaN   NaN   NaN HCN<3sig
+== significance of ratio differences (ln R, MC sigma) Xb4d
+blue half        Soutflow (line-integrated centroid)    R=1.24 vs N       R=1.13: ln-difference +0.09, z=+0.5
+blue half        Soutflow (line-integrated centroid)    R=1.24 vs S       R=0.46: ln-difference +1.00, z=+6.3
+blue half        Soutflow (line-integrated centroid)    R=1.24 vs Bridge  R=1.32: ln-difference -0.06, z=-0.4
+blue half        M18 South-OF-Blue                      R=1.40 vs N       R=1.13: ln-difference +0.21, z=+1.2
+blue half        M18 South-OF-Blue                      R=1.40 vs S       R=0.46: ln-difference +1.12, z=+7.2
+blue half        M18 South-OF-Blue                      R=1.40 vs Bridge  R=1.32: ln-difference +0.06, z=+0.3
+blue half        Soutflow (wing peak, selected)         R=1.71 vs N       R=1.13: ln-difference +0.41, z=+2.3
+blue half        Soutflow (wing peak, selected)         R=1.71 vs S       R=0.46: ln-difference +1.32, z=+8.2
+blue half        Soutflow (wing peak, selected)         R=1.71 vs Bridge  R=1.32: ln-difference +0.26, z=+1.4
+core             Soutflow (line-integrated centroid)    R=0.60 vs N       R=0.74: ln-difference -0.21, z=-1.5
+core             Soutflow (line-integrated centroid)    R=0.60 vs S       R=0.37: ln-difference +0.49, z=+3.4
+core             Soutflow (line-integrated centroid)    R=0.60 vs Bridge  R=0.46: ln-difference +0.27, z=+1.9
+core             M18 South-OF-Blue                      R=0.61 vs N       R=0.74: ln-difference -0.19, z=-1.3
+core             M18 South-OF-Blue                      R=0.61 vs S       R=0.37: ln-difference +0.51, z=+3.6
+core             M18 South-OF-Blue                      R=0.61 vs Bridge  R=0.46: ln-difference +0.29, z=+2.0
+core             Soutflow (wing peak, selected)         R=0.60 vs N       R=0.74: ln-difference -0.21, z=-1.4
+core             Soutflow (wing peak, selected)         R=0.60 vs S       R=0.37: ln-difference +0.50, z=+3.4
+core             Soutflow (wing peak, selected)         R=0.60 vs Bridge  R=0.46: ln-difference +0.27, z=+1.9
+red half         Soutflow (line-integrated centroid)    R=0.58 vs N       R=1.56: ln-difference -0.99, z=-5.8
+red half         Soutflow (line-integrated centroid)    R=0.58 vs S       R=0.41: ln-difference +0.35, z=+2.1
+red half         Soutflow (line-integrated centroid)    R=0.58 vs Bridge  R=2.22: ln-difference -1.34, z=-7.8
+red half         M18 South-OF-Blue                      R=0.61 vs N       R=1.56: ln-difference -0.93, z=-5.6
+red half         M18 South-OF-Blue                      R=0.61 vs S       R=0.41: ln-difference +0.41, z=+2.5
+red half         M18 South-OF-Blue                      R=0.61 vs Bridge  R=2.22: ln-difference -1.28, z=-7.7
+red half         Soutflow (wing peak, selected)         R=0.59 vs N       R=1.56: ln-difference -0.98, z=-5.8
+red half         Soutflow (wing peak, selected)         R=0.59 vs S       R=0.41: ln-difference +0.36, z=+2.2
+red half         Soutflow (wing peak, selected)         R=0.59 vs Bridge  R=2.22: ln-difference -1.33, z=-7.9
+blue -300..-100  Soutflow (line-integrated centroid)    R=1.15 vs N       R=1.03: ln-difference +0.11, z=+0.6
+blue -300..-100  Soutflow (line-integrated centroid)    R=1.15 vs S       R=0.44: ln-difference +0.96, z=+5.9
+blue -300..-100  Soutflow (line-integrated centroid)    R=1.15 vs Bridge  R=1.32: ln-difference -0.14, z=-0.8
+blue -300..-100  M18 South-OF-Blue                      R=1.28 vs N       R=1.03: ln-difference +0.22, z=+1.2
+blue -300..-100  M18 South-OF-Blue                      R=1.28 vs S       R=0.44: ln-difference +1.07, z=+6.6
+blue -300..-100  M18 South-OF-Blue                      R=1.28 vs Bridge  R=1.32: ln-difference -0.03, z=-0.2
+blue -300..-100  Soutflow (wing peak, selected)         R=1.70 vs N       R=1.03: ln-difference +0.50, z=+2.8
+blue -300..-100  Soutflow (wing peak, selected)         R=1.70 vs S       R=0.44: ln-difference +1.35, z=+8.3
+blue -300..-100  Soutflow (wing peak, selected)         R=1.70 vs Bridge  R=1.32: ln-difference +0.25, z=+1.4
+whole line       Soutflow (line-integrated centroid)    vs N: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       Soutflow (line-integrated centroid)    vs S: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       Soutflow (line-integrated centroid)    vs Bridge: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       M18 South-OF-Blue                      vs N: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       M18 South-OF-Blue                      vs S: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       M18 South-OF-Blue                      vs Bridge: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       Soutflow (wing peak, selected)         vs N: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       Soutflow (wing peak, selected)         vs S: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       Soutflow (wing peak, selected)         vs Bridge: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+== velocity-resolved ratio (Xb4b smoothed to 1.05", 2" diameter aperture, 100 km/s bins relative to the local centroid; Tb ratio; MC 68% interval)
+local centroids (km/s): {'N': 2779, 'S': 2763, 'Bridge': 2786, 'Soutflow (wing peak, selected)': 2715, 'Soutflow (line-integrated centroid)': 2712, 'M18 South-OF-Blue': 2711, 'mirror of Soutflow N of S': 2766}
+-- N (centroid 2779)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi                    kind
+-500.0 -400.0  0.030   0.01  -0.017   0.014   NaN   NaN   NaN                HCN<3sig
+-400.0 -300.0 -0.001   0.01   0.002   0.014   NaN   NaN   NaN                HCN<3sig
+-300.0 -200.0  0.040   0.01   0.003   0.014   NaN 1.788   NaN lower limit (HCO+<3sig)
+-200.0 -100.0  0.168   0.01   0.180   0.014 0.946 0.857 1.044                   value
+-100.0    0.0  1.858   0.01   2.506   0.015 0.751 0.745 0.757                   value
+   0.0  100.0  1.960   0.01   2.736   0.014 0.725 0.720 0.730                   value
+ 100.0  200.0  0.275   0.01   0.190   0.014 1.467 1.354 1.597                   value
+ 200.0  300.0  0.053   0.01  -0.012   0.014   NaN 3.671   NaN lower limit (HCO+<3sig)
+ 300.0  400.0  0.023   0.01  -0.019   0.014   NaN   NaN   NaN                HCN<3sig
+ 400.0  500.0  0.032   0.01  -0.026   0.014   NaN 2.525   NaN lower limit (HCO+<3sig)
+-- S (centroid 2763)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi     kind
+-500.0 -400.0 -0.010  0.005   0.005   0.018   NaN   NaN   NaN HCN<3sig
+-400.0 -300.0 -0.019  0.005   0.021   0.017   NaN   NaN   NaN HCN<3sig
+-300.0 -200.0 -0.012  0.005   0.031   0.017   NaN   NaN   NaN HCN<3sig
+-200.0 -100.0  0.073  0.005   0.218   0.017 0.337 0.304 0.374    value
+-100.0    0.0  0.523  0.005   1.588   0.017 0.334 0.329 0.338    value
+   0.0  100.0  0.412  0.005   1.187   0.017 0.351 0.345 0.358    value
+ 100.0  200.0  0.085  0.005   0.332   0.018 0.259 0.239 0.281    value
+ 200.0  300.0 -0.028  0.005   0.032   0.017   NaN   NaN   NaN HCN<3sig
+ 300.0  400.0 -0.017  0.005   0.026   0.017   NaN   NaN   NaN HCN<3sig
+ 400.0  500.0 -0.039  0.005   0.028   0.017   NaN   NaN   NaN HCN<3sig
+-- Bridge (centroid 2786)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi     kind
+-500.0 -400.0 -0.005   0.01   0.000    0.01   NaN   NaN   NaN HCN<3sig
+-400.0 -300.0  0.019   0.01  -0.006    0.01   NaN   NaN   NaN HCN<3sig
+-300.0 -200.0  0.007   0.01  -0.007    0.01   NaN   NaN   NaN HCN<3sig
+-200.0 -100.0  0.026   0.01   0.028    0.01   NaN   NaN   NaN HCN<3sig
+-100.0    0.0  0.458   0.01   1.128    0.01 0.412 0.402 0.421    value
+   0.0  100.0  0.516   0.01   1.108    0.01 0.472 0.462 0.482    value
+ 100.0  200.0  0.045   0.01   0.062    0.01 0.738 0.554 0.960    value
+ 200.0  300.0  0.061   0.01   0.040    0.01 1.533 1.157 2.100    value
+ 300.0  400.0  0.015   0.01   0.013    0.01   NaN   NaN   NaN HCN<3sig
+ 400.0  500.0  0.012   0.01  -0.008    0.01   NaN   NaN   NaN HCN<3sig
+-- Soutflow (wing peak, selected) (centroid 2715)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi     kind
+-500.0 -400.0 -0.001  0.005   0.002   0.007   NaN   NaN   NaN HCN<3sig
+-400.0 -300.0  0.025  0.005   0.023   0.007 1.093 0.766 1.647    value
+-300.0 -200.0  0.040  0.005   0.053   0.007 0.758 0.626 0.915    value
+-200.0 -100.0  0.081  0.006   0.092   0.007 0.890 0.802 0.989    value
+-100.0    0.0  0.162  0.005   0.235   0.007 0.699 0.668 0.731    value
+   0.0  100.0  0.158  0.005   0.231   0.007 0.691 0.660 0.723    value
+ 100.0  200.0  0.086  0.006   0.148   0.007 0.586 0.539 0.634    value
+ 200.0  300.0 -0.002  0.005   0.005   0.007   NaN   NaN   NaN HCN<3sig
+ 300.0  400.0  0.036  0.005   0.030   0.007 1.224 0.935 1.644    value
+ 400.0  500.0  0.001  0.006   0.024   0.007   NaN   NaN   NaN HCN<3sig
+-- Soutflow (line-integrated centroid) (centroid 2712)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi     kind
+-500.0 -400.0 -0.003  0.007   0.009   0.007   NaN   NaN   NaN HCN<3sig
+-400.0 -300.0  0.015  0.007   0.016   0.006   NaN   NaN   NaN HCN<3sig
+-300.0 -200.0  0.032  0.007   0.039   0.007 0.838 0.621 1.107    value
+-200.0 -100.0  0.108  0.007   0.103   0.007 1.069 0.974 1.172    value
+-100.0    0.0  0.204  0.007   0.275   0.007 0.751 0.718 0.784    value
+   0.0  100.0  0.229  0.007   0.337   0.007 0.686 0.661 0.712    value
+ 100.0  200.0  0.093  0.007   0.149   0.007 0.631 0.576 0.688    value
+ 200.0  300.0  0.006  0.007   0.007   0.006   NaN   NaN   NaN HCN<3sig
+ 300.0  400.0  0.029  0.007   0.021   0.007 1.390 0.940 2.140    value
+ 400.0  500.0  0.011  0.007   0.020   0.007   NaN   NaN   NaN HCN<3sig
+-- M18 South-OF-Blue (centroid 2711)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi                    kind
+-500.0 -400.0 -0.003  0.007   0.009   0.008   NaN   NaN   NaN                HCN<3sig
+-400.0 -300.0  0.019  0.007   0.018   0.006   NaN   NaN   NaN                HCN<3sig
+-300.0 -200.0  0.036  0.007   0.041   0.008 0.899 0.680 1.186                   value
+-200.0 -100.0  0.111  0.007   0.103   0.008 1.088 0.987 1.202                   value
+-100.0    0.0  0.207  0.007   0.273   0.008 0.767 0.734 0.803                   value
+   0.0  100.0  0.225  0.007   0.319   0.008 0.715 0.687 0.744                   value
+ 100.0  200.0  0.096  0.007   0.153   0.008 0.639 0.583 0.699                   value
+ 200.0  300.0  0.010  0.007   0.008   0.006   NaN   NaN   NaN                HCN<3sig
+ 300.0  400.0  0.033  0.007   0.022   0.008   NaN 1.015   NaN lower limit (HCO+<3sig)
+ 400.0  500.0  0.012  0.007   0.020   0.008   NaN   NaN   NaN                HCN<3sig
+-- mirror of Soutflow N of S (centroid 2766)
+ dv_lo  dv_hi  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi     kind
+-500.0 -400.0  0.007   0.01   0.028   0.008   NaN   NaN   NaN HCN<3sig
+-400.0 -300.0  0.012   0.01   0.003   0.008   NaN   NaN   NaN HCN<3sig
+-300.0 -200.0 -0.006   0.01   0.017   0.008   NaN   NaN   NaN HCN<3sig
+-200.0 -100.0  0.022   0.01   0.058   0.008   NaN   NaN   NaN HCN<3sig
+-100.0    0.0  0.339   0.01   0.841   0.008 0.408 0.395 0.421    value
+   0.0  100.0  0.354   0.01   0.957   0.008 0.375 0.363 0.386    value
+ 100.0  200.0  0.030   0.01   0.071   0.008   NaN   NaN   NaN HCN<3sig
+ 200.0  300.0  0.025   0.01   0.048   0.008   NaN   NaN   NaN HCN<3sig
+ 300.0  400.0  0.030   0.01   0.045   0.008   NaN   NaN   NaN HCN<3sig
+ 400.0  500.0  0.025   0.01   0.015   0.008   NaN   NaN   NaN HCN<3sig
+== windows (Xb4b)
+                                 ap          window     vloc  I_HCN  e_HCN  I_HCO+  e_HCO+     R    lo    hi                    kind
+                                  N       blue half 2779.123  0.208  0.012   0.185   0.005 1.135 1.062 1.208                   value
+                                  N            core 2779.123  3.818  0.017   5.242   0.010 0.738 0.734 0.741                   value
+                                  N        red half 2779.123  0.351  0.012   0.158   0.005 2.250 2.149 2.354                   value
+                                  N blue -300..-100 2779.123  0.208  0.018   0.183   0.011 1.155 1.039 1.277                   value
+                                  N      whole line 2779.123  4.439    NaN   5.542     NaN   NaN   NaN   NaN                HCN<3sig
+                                  S       blue half 2763.305  0.041  0.005   0.270   0.005 0.153 0.133 0.174                   value
+                                  S            core 2763.305  0.935  0.005   2.775   0.011 0.341 0.339 0.343                   value
+                                  S        red half 2763.305  0.040  0.005   0.391   0.004 0.105 0.091 0.119                   value
+                                  S blue -300..-100 2763.305  0.060  0.005   0.250   0.011 0.244 0.222 0.267                   value
+                                  S      whole line 2763.305  0.968    NaN   3.470     NaN   NaN   NaN   NaN                HCN<3sig
+                             Bridge       blue half 2786.473  0.052  0.004   0.015   0.013   NaN 1.758   NaN lower limit (HCO+<3sig)
+                             Bridge            core 2786.473  0.975  0.010   2.236   0.013 0.442 0.436 0.447                   value
+                             Bridge        red half 2786.473  0.121  0.004   0.115   0.013 1.067 0.951 1.209                   value
+                             Bridge blue -300..-100 2786.473  0.033  0.010   0.021   0.013   NaN 0.858   NaN lower limit (HCO+<3sig)
+                             Bridge      whole line 2786.473  1.154    NaN   2.358     NaN   NaN   NaN   NaN                HCN<3sig
+     Soutflow (wing peak, selected)       blue half 2714.916  0.145  0.007   0.168   0.005 0.876 0.826 0.928                   value
+     Soutflow (wing peak, selected)            core 2714.916  0.320  0.013   0.466   0.007 0.695 0.665 0.724                   value
+     Soutflow (wing peak, selected)        red half 2714.916  0.119  0.007   0.183   0.005 0.661 0.617 0.706                   value
+     Soutflow (wing peak, selected) blue -300..-100 2714.916  0.121  0.011   0.145   0.007 0.842 0.756 0.931                   value
+     Soutflow (wing peak, selected)      whole line 2714.916  0.584    NaN   0.843     NaN   NaN   NaN   NaN                HCN<3sig
+Soutflow (line-integrated centroid)       blue half 2711.776  0.155  0.007   0.157   0.007 1.000 0.938 1.066                   value
+Soutflow (line-integrated centroid)            core 2711.776  0.432  0.009   0.612   0.007 0.715 0.697 0.733                   value
+Soutflow (line-integrated centroid)        red half 2711.776  0.128  0.007   0.178   0.007 0.730 0.683 0.781                   value
+Soutflow (line-integrated centroid) blue -300..-100 2711.776  0.140  0.009   0.141   0.007 1.005 0.927 1.089                   value
+Soutflow (line-integrated centroid)      whole line 2711.776  0.723    NaN   0.976     NaN   NaN   NaN   NaN                HCN<3sig
+                  M18 South-OF-Blue       blue half 2711.482  0.167  0.007   0.162   0.007 1.042 0.981 1.108                   value
+                  M18 South-OF-Blue            core 2711.482  0.433  0.009   0.593   0.007 0.739 0.721 0.757                   value
+                  M18 South-OF-Blue        red half 2711.482  0.139  0.007   0.182   0.007 0.772 0.725 0.821                   value
+                  M18 South-OF-Blue blue -300..-100 2711.482  0.147  0.010   0.144   0.007 1.035 0.953 1.122                   value
+                  M18 South-OF-Blue      whole line 2711.482  0.748    NaN   0.966     NaN   NaN   NaN   NaN                HCN<3sig
+          mirror of Soutflow N of S       blue half 2766.242  0.028  0.004   0.077   0.007 0.368 0.305 0.437                   value
+          mirror of Soutflow N of S            core 2766.242  0.693  0.012   1.798   0.009 0.390 0.383 0.397                   value
+          mirror of Soutflow N of S        red half 2766.242  0.084  0.004   0.163   0.007 0.521 0.488 0.557                   value
+          mirror of Soutflow N of S blue -300..-100 2766.242  0.016  0.011   0.074   0.007   NaN   NaN   NaN                HCN<3sig
+          mirror of Soutflow N of S      whole line 2766.242  0.837    NaN   2.081     NaN   NaN   NaN   NaN                HCN<3sig
+== significance of ratio differences (ln R, MC sigma) Xb4b
+blue half        Soutflow (line-integrated centroid)    R=1.00 vs N       R=1.13: ln-difference -0.13, z=-0.8
+blue half        Soutflow (line-integrated centroid)    R=1.00 vs S       R=0.15: ln-difference +1.88, z=+9.2
+blue half        Soutflow (line-integrated centroid)    vs Bridge: value / lower limit (HCO+<3sig)  (R_ref lo=0.94)
+blue half        M18 South-OF-Blue                      R=1.04 vs N       R=1.13: ln-difference -0.09, z=-0.5
+blue half        M18 South-OF-Blue                      R=1.04 vs S       R=0.15: ln-difference +1.92, z=+9.4
+blue half        M18 South-OF-Blue                      vs Bridge: value / lower limit (HCO+<3sig)  (R_ref lo=0.98)
+blue half        Soutflow (wing peak, selected)         R=0.88 vs N       R=1.13: ln-difference -0.26, z=-1.6
+blue half        Soutflow (wing peak, selected)         R=0.88 vs S       R=0.15: ln-difference +1.74, z=+8.6
+blue half        Soutflow (wing peak, selected)         vs Bridge: value / lower limit (HCO+<3sig)  (R_ref lo=0.83)
+core             Soutflow (line-integrated centroid)    R=0.72 vs N       R=0.74: ln-difference -0.03, z=-0.2
+core             Soutflow (line-integrated centroid)    R=0.72 vs S       R=0.34: ln-difference +0.74, z=+5.1
+core             Soutflow (line-integrated centroid)    R=0.72 vs Bridge  R=0.44: ln-difference +0.48, z=+3.3
+core             M18 South-OF-Blue                      R=0.74 vs N       R=0.74: ln-difference +0.00, z=+0.0
+core             M18 South-OF-Blue                      R=0.74 vs S       R=0.34: ln-difference +0.77, z=+5.4
+core             M18 South-OF-Blue                      R=0.74 vs Bridge  R=0.44: ln-difference +0.52, z=+3.6
+core             Soutflow (wing peak, selected)         R=0.69 vs N       R=0.74: ln-difference -0.06, z=-0.4
+core             Soutflow (wing peak, selected)         R=0.69 vs S       R=0.34: ln-difference +0.71, z=+4.8
+core             Soutflow (wing peak, selected)         R=0.69 vs Bridge  R=0.44: ln-difference +0.45, z=+3.1
+red half         Soutflow (line-integrated centroid)    R=0.73 vs N       R=2.25: ln-difference -1.13, z=-6.9
+red half         Soutflow (line-integrated centroid)    R=0.73 vs S       R=0.10: ln-difference +1.94, z=+9.5
+red half         Soutflow (line-integrated centroid)    R=0.73 vs Bridge  R=1.07: ln-difference -0.38, z=-1.9
+red half         M18 South-OF-Blue                      R=0.77 vs N       R=2.25: ln-difference -1.07, z=-6.6
+red half         M18 South-OF-Blue                      R=0.77 vs S       R=0.10: ln-difference +2.00, z=+9.8
+red half         M18 South-OF-Blue                      R=0.77 vs Bridge  R=1.07: ln-difference -0.32, z=-1.7
+red half         Soutflow (wing peak, selected)         R=0.66 vs N       R=2.25: ln-difference -1.22, z=-7.5
+red half         Soutflow (wing peak, selected)         R=0.66 vs S       R=0.10: ln-difference +1.84, z=+9.0
+red half         Soutflow (wing peak, selected)         R=0.66 vs Bridge  R=1.07: ln-difference -0.48, z=-2.4
+blue -300..-100  Soutflow (line-integrated centroid)    R=1.00 vs N       R=1.15: ln-difference -0.14, z=-0.7
+blue -300..-100  Soutflow (line-integrated centroid)    R=1.00 vs S       R=0.24: ln-difference +1.42, z=+7.6
+blue -300..-100  Soutflow (line-integrated centroid)    vs Bridge: value / lower limit (HCO+<3sig)  (R_ref lo=0.93)
+blue -300..-100  M18 South-OF-Blue                      R=1.04 vs N       R=1.15: ln-difference -0.11, z=-0.6
+blue -300..-100  M18 South-OF-Blue                      R=1.04 vs S       R=0.24: ln-difference +1.45, z=+7.7
+blue -300..-100  M18 South-OF-Blue                      vs Bridge: value / lower limit (HCO+<3sig)  (R_ref lo=0.95)
+blue -300..-100  Soutflow (wing peak, selected)         R=0.84 vs N       R=1.15: ln-difference -0.32, z=-1.6
+blue -300..-100  Soutflow (wing peak, selected)         R=0.84 vs S       R=0.24: ln-difference +1.24, z=+6.2
+blue -300..-100  Soutflow (wing peak, selected)         vs Bridge: value / lower limit (HCO+<3sig)  (R_ref lo=0.76)
+whole line       Soutflow (line-integrated centroid)    vs N: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       Soutflow (line-integrated centroid)    vs S: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       Soutflow (line-integrated centroid)    vs Bridge: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       M18 South-OF-Blue                      vs N: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       M18 South-OF-Blue                      vs S: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       M18 South-OF-Blue                      vs Bridge: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       Soutflow (wing peak, selected)         vs N: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       Soutflow (wing peak, selected)         vs S: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+whole line       Soutflow (wing peak, selected)         vs Bridge: HCN<3sig / HCN<3sig  (R_ref lo=nan)
+== injection test: 33 HCN and 36 HCO+ line-free window maps (150 km/s)
+ R_true  pix_median  pix_16  pix_84  ap2_median  ap2_16  ap2_84  frac_HCO_nonpos  peak_snr_med
+    0.6       0.665   0.550   0.815       0.613   0.508   0.712            0.000         7.349
+    0.9       0.989   0.798   1.325       0.918   0.757   1.091            0.000         7.349
+    1.2       1.313   1.002   1.886       1.221   0.994   1.449            0.000         7.349
+    1.7       1.882   1.335   3.142       1.738   1.371   2.121            0.000         7.349
+    2.5       2.680   1.725   6.653       2.572   1.981   3.375            0.019         7.349
+injection reading: bias = median(measured at the selected peak pixel)/R_true; 2" aperture = same but averaged in a 2" diameter aperture about the selected peak

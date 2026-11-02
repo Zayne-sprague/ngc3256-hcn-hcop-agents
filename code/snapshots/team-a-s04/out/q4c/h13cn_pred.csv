@@ -1,0 +1,19 @@
+region,cls,X,ratio_med,ratio_lo95,ratio_hi95,limit_to_beat,frac_consistent_with_limit,frac_valid,alpha_flux_med
+N,"A both thick, kappa=1",30,20.618,17.057,21.536,8.3,1.0,1.0,0.046
+N,"A both thick, kappa=1",50,33.996,28.3,35.492,8.3,1.0,1.0,0.028
+N,"A both thick, kappa=1",90,61.471,51.366,64.128,8.3,1.0,1.0,0.015
+N,"B both thick, same Tex (0.8-1.25), kappa free",30,18.181,17.369,21.577,8.3,1.0,1.0,0.052
+N,"B both thick, same Tex (0.8-1.25), kappa free",50,30.388,28.914,35.559,8.3,1.0,1.0,0.031
+N,"B both thick, same Tex (0.8-1.25), kappa free",90,55.941,52.791,64.248,8.3,1.0,1.0,0.017
+N,"F2 separate n, kappa=1, both thick",30,19.607,17.776,22.926,8.3,1.0,1.0,0.048
+N,"F2 separate n, kappa=1, both thick",50,32.372,29.431,37.771,8.3,1.0,1.0,0.029
+N,"F2 separate n, kappa=1, both thick",90,58.598,53.353,68.248,8.3,1.0,1.0,0.016
+S,"A both thick, kappa=1",30,18.522,16.963,19.663,4.0,1.0,1.0,0.051
+S,"A both thick, kappa=1",50,31.076,28.165,32.692,4.0,1.0,1.0,0.031
+S,"A both thick, kappa=1",90,57.003,51.038,59.562,4.0,1.0,1.0,0.017
+S,"B both thick, same Tex (0.8-1.25), kappa free",30,18.412,18.21,19.519,4.0,1.0,1.0,0.052
+S,"B both thick, same Tex (0.8-1.25), kappa free",50,30.714,30.554,32.444,4.0,1.0,1.0,0.031
+S,"B both thick, same Tex (0.8-1.25), kappa free",90,56.03,55.998,59.035,4.0,1.0,1.0,0.017
+S,"F2 separate n, kappa=1, both thick",30,18.617,16.963,19.803,4.0,1.0,1.0,0.051
+S,"F2 separate n, kappa=1, both thick",50,31.18,28.165,32.833,4.0,1.0,1.0,0.03
+S,"F2 separate n, kappa=1, both thick",90,56.994,51.141,59.619,4.0,1.0,1.0,0.017

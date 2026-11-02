@@ -1,0 +1,14 @@
+Xb4b N       HCN   1.244+-0.019 HCO+   1.203+-0.023 Jy/b km/s  R_Jy=1.03+-0.03 (stat; +5% cal)  S/N HCN 64
+Xb4b S       HCN   0.479+-0.019 HCO+   0.990+-0.024 Jy/b km/s  R_Jy=0.48+-0.02 (stat; +5% cal)  S/N HCN 25
+Xb4b Bridge  HCN   0.309+-0.019 HCO+   0.551+-0.022 Jy/b km/s  R_Jy=0.56+-0.04 (stat; +5% cal)  S/N HCN 16
+Xb4b E1      HCN   0.119+-0.025 HCO+   0.469+-0.028 Jy/b km/s  R_Jy=0.25+-0.06 (stat; +5% cal)  S/N HCN 5
+Xb4b E2      HCN   0.168+-0.023 HCO+   0.347+-0.026 Jy/b km/s  R_Jy=0.48+-0.08 (stat; +5% cal)  S/N HCN 7
+Xb4b W       HCN   0.058+-0.026 HCO+   0.200+-0.030 Jy/b km/s  R_Jy=0.29+-0.14 (stat; +5% cal)  S/N HCN 2
+Xb4b Sblue   HCN   0.164+-0.022 HCO+   0.213+-0.024 Jy/b km/s  R_Jy=0.77+-0.14 (stat; +5% cal)  S/N HCN 7
+Xb4d N       HCN   5.425+-0.037 HCO+   6.165+-0.049 Jy/b km/s  R_Jy=0.88+-0.01 (stat; +5% cal)  S/N HCN 147
+Xb4d S       HCN   1.914+-0.036 HCO+   4.772+-0.045 Jy/b km/s  R_Jy=0.40+-0.01 (stat; +5% cal)  S/N HCN 54
+Xb4d Bridge  HCN   1.604+-0.035 HCO+   3.360+-0.041 Jy/b km/s  R_Jy=0.48+-0.01 (stat; +5% cal)  S/N HCN 46
+Xb4d E1      HCN   0.786+-0.049 HCO+   2.620+-0.046 Jy/b km/s  R_Jy=0.30+-0.02 (stat; +5% cal)  S/N HCN 16
+Xb4d E2      HCN   0.619+-0.044 HCO+   1.566+-0.052 Jy/b km/s  R_Jy=0.40+-0.03 (stat; +5% cal)  S/N HCN 14
+Xb4d W       HCN   0.311+-0.047 HCO+   0.954+-0.055 Jy/b km/s  R_Jy=0.33+-0.05 (stat; +5% cal)  S/N HCN 7
+Xb4d Sblue   HCN   0.891+-0.041 HCO+   1.260+-0.049 Jy/b km/s  R_Jy=0.71+-0.04 (stat; +5% cal)  S/N HCN 22

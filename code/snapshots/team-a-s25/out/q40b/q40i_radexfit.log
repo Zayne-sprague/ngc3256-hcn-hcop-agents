@@ -1,0 +1,37 @@
+R10, R21, R32 used (value, total sigma):
+  N: 0.818+-0.047; 0.714+-0.041; 0.576+-0.034
+  S: 0.584+-0.031; 0.534+-0.029; 0.424+-0.024
+  N+S: 0.698+-0.037; 0.624+-0.033; 0.500+-0.028
+  E1: 0.504+-0.031; 0.373+-0.032; 0.236+-0.050
+  W: 0.492+-0.035; 0.469+-0.029; 0.313+-0.032
+
+## per region: allowed set chi2<=chi2min+4 and chi2<=7.8 (3 data, 4 params: underdetermined, so ranges not best fit)
+ N: chi2min 0.19; allowed cells 188; log X (HCN/HCO+ column) [16,50,84%] [np.float64(-0.25), np.float64(0.5), np.float64(0.75)] range -1.00..+0.75; log n [np.float64(3.75), np.float64(5.0), np.float64(6.0)] range 3.00..7.00; T [np.float64(20.0), np.float64(30.0), np.float64(50.0)]; log N(HCN)(dv150) [np.float64(15.75), np.float64(16.75), np.float64(17.25)] range 13.00..17.50; tau32(HCN) median 26.9 range 0.0-326.1
+ S: chi2min 0.17; allowed cells 118; log X (HCN/HCO+ column) [16,50,84%] [np.float64(-0.25), np.float64(0.5), np.float64(0.75)] range -0.25..+0.75; log n [np.float64(3.5), np.float64(4.5), np.float64(6.5)] range 3.00..6.75; T [np.float64(30.0), np.float64(50.0), np.float64(80.0)]; log N(HCN)(dv150) [np.float64(15.25), np.float64(16.25), np.float64(17.0)] range 13.00..17.50; tau32(HCN) median 16.5 range 0.0-321.8
+ N+S: chi2min 0.04; allowed cells 156; log X (HCN/HCO+ column) [16,50,84%] [np.float64(-0.25), np.float64(0.5), np.float64(0.75)] range -1.00..+0.75; log n [np.float64(3.5), np.float64(4.5), np.float64(6.0)] range 3.00..7.25; T [np.float64(30.0), np.float64(30.0), np.float64(150.0)]; log N(HCN)(dv150) [np.float64(15.25), np.float64(16.5), np.float64(17.25)] range 13.00..17.50; tau32(HCN) median 16.3 range 0.0-321.0
+ E1: chi2min 0.04; allowed cells 256; log X (HCN/HCO+ column) [16,50,84%] [np.float64(-0.5), np.float64(0.25), np.float64(0.5)] range -1.00..+0.50; log n [np.float64(3.75), np.float64(4.5), np.float64(5.5)] range 3.00..6.75; T [np.float64(20.0), np.float64(30.0), np.float64(50.0)]; log N(HCN)(dv150) [np.float64(14.5), np.float64(16.25), np.float64(17.0)] range 13.00..17.50; tau32(HCN) median 8.8 range 0.0-326.1
+ W: chi2min 0.15; allowed cells 188; log X (HCN/HCO+ column) [16,50,84%] [np.float64(-0.25), np.float64(0.5), np.float64(0.5)] range -1.00..+0.50; log n [np.float64(3.25), np.float64(4.0), np.float64(5.25)] range 3.00..7.00; T [np.float64(30.0), np.float64(50.0), np.float64(80.0)]; log N(HCN)(dv150) [np.float64(13.75), np.float64(16.0), np.float64(17.0)] range 13.00..17.50; tau32(HCN) median 2.5 range 0.0-321.8
+
+## pair test: min joint chi2 (6 data; E1 incl. R43 limit) when sharing everything (H0) or letting one parameter differ; larger = worse
+ N vs E1: H0 all shared: 115.3; T differs: 11.2; n differs: 0.5; N differs: 0.7; X differs: 1.0; H_X best dlogX(E1-N) = -0.50 at T=30 log n=3.50 logN=17.50
+ S vs E1: H0 all shared: 33.9; T differs: 3.0; n differs: 2.9; N differs: 1.8; X differs: 3.2; H_X best dlogX(E1-S) = -1.25 at T=30 log n=5.50 logN=16.25
+ N+S vs E1: H0 all shared: 75.5; T differs: 1.3; n differs: 1.8; N differs: 0.8; X differs: 1.6; H_X best dlogX(E1-N+S) = -1.50 at T=30 log n=5.50 logN=16.25
+ N vs W: H0 all shared: 86.1; T differs: 9.0; n differs: 1.9; N differs: 3.0; X differs: 3.3; H_X best dlogX(W-N) = -0.25 at T=50 log n=3.00 logN=16.75
+ S vs W: H0 all shared: 14.5; T differs: 1.0; n differs: 1.1; N differs: 2.0; X differs: 3.8; H_X best dlogX(W-S) = -0.25 at T=30 log n=4.50 logN=17.25
+ N+S vs W: H0 all shared: 48.5; T differs: 3.7; n differs: 0.9; N differs: 1.2; X differs: 2.1; H_X best dlogX(W-N+S) = -0.50 at T=30 log n=4.25 logN=17.50
+ N: allowed cells with tau32(HCN)>1: 0.90, >3: 0.84, >10: 0.73; N(HCN)/dv range log 10.82..15.32 (cm-2 / km/s)
+ S: allowed cells with tau32(HCN)>1: 0.72, >3: 0.65, >10: 0.57; N(HCN)/dv range log 10.82..15.32 (cm-2 / km/s)
+ E1: allowed cells with tau32(HCN)>1: 0.72, >3: 0.64, >10: 0.47; N(HCN)/dv range log 10.82..15.32 (cm-2 / km/s)
+ W: allowed cells with tau32(HCN)>1: 0.56, >3: 0.49, >10: 0.36; N(HCN)/dv range log 10.82..15.32 (cm-2 / km/s)
+
+## opacity limit from H13CN (nuclei only; no clump H13CN limit exists): see report entries; tau(HCN 4-3)<=3-10 (N), looser (S).
+## a thin (tau32<0.3) model: allowed? chi2min over cells with tau32(HCN)<0.3: N: 1.5; S: 0.8; N+S: 1.5; E1: 0.0; W: 1.5
+## a thick (tau32>3) model: chi2min over cells with tau32(HCN)>3: N: 0.3; S: 0.2; N+S: 0.0; E1: 0.2; W: 0.7
+
+## required offset (clump minus reference) when exactly one parameter differs; range over the allowed shared family (joint chi2<=min+4); median in brackets
+ E1 - N: dlogX -1.25..-0.50 [-0.50]; dlogn -2.50..-0.75 [-1.00]; dlogN -3.00..-0.75 [-0.75]
+ E1 - S: dlogX -1.25..-0.25 [-0.25]; dlogn -1.75..-0.50 [-0.75]; dlogN -4.00..-0.50 [-0.75]
+ E1 - N+S: dlogX -1.50..-0.25 [-0.88]; dlogn -2.00..-0.50 [-0.62]; dlogN -4.50..-0.50 [-0.50]
+ W - N: dlogX -0.50..-0.25 [-0.25]; dlogn -2.00..-0.75 [-0.75]; dlogN -1.50..-0.50 [-0.75]
+ W - S: dlogX -1.00..-0.25 [-0.25]; dlogn -1.50..-0.25 [-0.50]; dlogN -3.50..-0.25 [-0.75]
+ W - N+S: dlogX -0.50..-0.25 [-0.25]; dlogn -2.25..-0.50 [-0.75]; dlogN -4.25..-0.50 [-0.75]

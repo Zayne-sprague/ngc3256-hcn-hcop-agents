@@ -1,0 +1,30 @@
+{
+ "team": "team-b",
+ "item": "Q29",
+ "files": [
+  "scripts/s180_q29_load.py",
+  "scripts/s181_q29_explore.py",
+  "scripts/s182_q29_measure.py",
+  "scripts/s183_q29_fluxscale.py",
+  "scripts/s184_q29_tables.py",
+  "scripts/s185_q29_weaklines.py",
+  "scripts/s186_q29_radex_evidence.py",
+  "scripts/s187_q29_radex_h13.py",
+  "scripts/s187b_q29_radex_recovery.py",
+  "scripts/s188_q29_abundances.py",
+  "scripts/s189_q29_contrast_budget.py",
+  "out/q29/s184_tables.txt",
+  "out/q29/s185.txt",
+  "out/q29/s185.json",
+  "out/q29/s186.txt",
+  "out/q29/s187.txt",
+  "out/q29/s187b.txt",
+  "out/q29/s188.txt",
+  "out/q29/s188.json",
+  "out/q29/s189.txt",
+  "out/q29/s189.json",
+  "out/q29/s183.log",
+  "out/q19/s102.txt",
+  "TEAM_REPORT.json"
+ ]
+}

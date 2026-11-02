@@ -1,0 +1,6 @@
+done ('N', 'cmb', 100.0, 1.0)
+done ('N', 'nominal', 100.0, 1.0)
+done ('N', 'high', 100.0, 1.0)
+done ('S', 'cmb', 100.0, 1.0)
+done ('S', 'nominal', 100.0, 1.0)
+done ('S', 'high', 100.0, 1.0)

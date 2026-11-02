@@ -1,0 +1,12 @@
+[aper] N      data [0.419 0.45  0.523 0.565]  Tk 16/50/84 = 40/65/100 K (2.5-97.5%: 25-150)  log n(H,O mean) 16/50/84 = 4.50/4.75/5.25  P(T>=80K)=0.40  P(T<=30K)=0.12
+[aper] S      data [0.377 0.357 0.498 0.486]  Tk 16/50/84 = 25/40/65 K (2.5-97.5%: 20-100)  log n(H,O mean) 16/50/84 = 4.50/4.75/5.25  P(T>=80K)=0.10  P(T<=30K)=0.32
+[aper] Bridge data [0.402 0.362 0.521 0.494]  Tk 16/50/84 = 30/50/80 K (2.5-97.5%: 20-100)  log n(H,O mean) 16/50/84 = 4.38/4.75/5.12  P(T>=80K)=0.23  P(T<=30K)=0.19
+[aper] N/S: Tk ratio 16/50/84 = 0.80/1.60/2.67; P(Tk_N>Tk_S)=0.67; P(ratio>1.4)=0.53   n ratio 16/50/84 = 0.32/1.00/3.16; P(n_N>n_S)=0.45; P(n ratio>2)=0.27; P(either Tk or n higher by >1.4/2)=0.75; P(Tk ratio>1 and n ratio<1)=0.39
+[aper] N/Bridge: Tk ratio 16/50/84 = 0.62/1.25/2.31; P(Tk_N>Tk_Bridge)=0.55; P(ratio>1.4)=0.41   n ratio 16/50/84 = 0.42/1.33/4.22; P(n_N>n_Bridge)=0.52; P(n ratio>2)=0.33; P(either Tk or n higher by >1.4/2)=0.70; P(Tk ratio>1 and n ratio<1)=0.31
+[aper] S/Bridge: Tk ratio 16/50/84 = 0.46/0.80/1.60; P(Tk_S>Tk_Bridge)=0.30; P(ratio>1.4)=0.18   n ratio 16/50/84 = 0.32/1.33/4.22; P(n_S>n_Bridge)=0.52; P(n ratio>2)=0.34; P(either Tk or n higher by >1.4/2)=0.51; P(Tk ratio>1 and n ratio<1)=0.22
+[rec] N      data [0.465 0.482 0.581 0.605]  Tk 16/50/84 = 40/80/100 K (2.5-97.5%: 25-150)  log n(H,O mean) 16/50/84 = 4.50/4.88/5.25  P(T>=80K)=0.53  P(T<=30K)=0.09
+[rec] S      data [0.419 0.382 0.553 0.52 ]  Tk 16/50/84 = 30/50/80 K (2.5-97.5%: 20-150)  log n(H,O mean) 16/50/84 = 4.50/4.88/5.25  P(T>=80K)=0.26  P(T<=30K)=0.20
+[rec] Bridge data [0.446 0.387 0.578 0.528]  Tk 16/50/84 = 30/65/100 K (2.5-97.5%: 20-150)  log n(H,O mean) 16/50/84 = 4.38/4.75/5.25  P(T>=80K)=0.37  P(T<=30K)=0.16
+[rec] N/S: Tk ratio 16/50/84 = 0.65/1.33/2.67; P(Tk_N>Tk_S)=0.62; P(ratio>1.4)=0.49   n ratio 16/50/84 = 0.32/1.00/4.22; P(n_N>n_S)=0.49; P(n ratio>2)=0.31; P(either Tk or n higher by >1.4/2)=0.74; P(Tk ratio>1 and n ratio<1)=0.35
+[rec] N/Bridge: Tk ratio 16/50/84 = 0.62/1.25/2.50; P(Tk_N>Tk_Bridge)=0.55; P(ratio>1.4)=0.43   n ratio 16/50/84 = 0.32/1.33/4.22; P(n_N>n_Bridge)=0.52; P(n ratio>2)=0.34; P(either Tk or n higher by >1.4/2)=0.71; P(Tk ratio>1 and n ratio<1)=0.31
+[rec] S/Bridge: Tk ratio 16/50/84 = 0.46/0.83/1.67; P(Tk_S>Tk_Bridge)=0.36; P(ratio>1.4)=0.25   n ratio 16/50/84 = 0.32/1.00/4.22; P(n_S>n_Bridge)=0.48; P(n ratio>2)=0.31; P(either Tk or n higher by >1.4/2)=0.54; P(Tk ratio>1 and n ratio<1)=0.26

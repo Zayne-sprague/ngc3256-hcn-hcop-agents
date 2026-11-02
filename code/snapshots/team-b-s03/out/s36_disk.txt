@@ -1,0 +1,50 @@
+## HCN/HCO+ (Jy km/s ratio; x1.0126 for K) in annuli about the N-S midpoint, 10" beam. Flux in Jy km/s (sum/beam area). PBrms = 1/(rms/rms_centre) from line-free channels; PBg = Gaussian 12-m model
+## Xb55_J2: map half-width 63" ; Gaussian PB FWHM 32.8"
+   0- 4" PBrms 1.00 PBg 0.99  HCN    15.39+-0.05 HCO+    26.78+-0.07  bowl(HCN,HCO+)   0.18,  0.36+-0.11,0.14  R=0.575+-0.002  R(bowl-corr)=0.576+-0.006  GO
+   4- 8" PBrms 1.04 PBg 0.91  HCN    23.52+-0.07 HCO+    42.43+-0.09  bowl(HCN,HCO+)   0.50,  1.01+-0.30,0.38  R=0.554+-0.002  R(bowl-corr)=0.556+-0.009  GO
+   8-12" PBrms 0.99 PBg 0.77  HCN    11.19+-0.08 HCO+    22.88+-0.09  bowl(HCN,HCO+)   0.85,  1.69+-0.50,0.65  R=0.489+-0.004  R(bowl-corr)=0.488+-0.028  GO
+  12-17" PBrms 0.89 PBg 0.58  HCN    -1.65+-0.13 HCO+     1.11+-0.15  bowl(HCN,HCO+)   1.55,  3.10+-0.91,1.18  R=-1.488+-nan  R(bowl-corr)=nan+-nan  NO-GO
+  17-24" PBrms 0.73 PBg 0.34  HCN   -10.26+-0.28 HCO+   -17.45+-0.32  bowl(HCN,HCO+)   3.05,  6.09+-1.79,2.33  R=0.588+-nan  R(bowl-corr)=nan+-nan  NO-GO
+  far-field zero level (30-45") mean m0 [Jy/beam km/s]: HCN 0.386+-0.227 (pix rms 1.26, npix 2434), HCO+ 0.769+-0.294 (pix rms 1.63)
+  sector N 6-14": HCN    6.43 HCO+   11.10 R=0.579
+  sector E 6-14": HCN    6.18 HCO+   13.44 R=0.460
+  sector S 6-14": HCN    6.23 HCO+   12.58 R=0.496
+  sector W 6-14": HCN    5.31 HCO+   11.30 R=0.470
+## Xb4f_J3: map half-width 46" ; Gaussian PB FWHM 21.9"
+   0- 4" PBrms 0.99 PBg 0.98  HCN    11.91+-0.04 HCO+    26.95+-0.06  bowl(HCN,HCO+)   0.36,  0.44+-0.21,0.27  R=0.442+-0.002  R(bowl-corr)=0.436+-0.009  GO
+   4- 8" PBrms 0.90 PBg 0.81  HCN    17.60+-0.06 HCO+    44.20+-0.07  bowl(HCN,HCO+)   1.13,  1.38+-0.65,0.86  R=0.398+-0.002  R(bowl-corr)=0.385+-0.017  GO
+   8-12" PBrms 0.79 PBg 0.56  HCN     3.01+-0.08 HCO+    16.02+-0.10  bowl(HCN,HCO+)   1.85,  2.27+-1.07,1.41  R=0.188+-0.005  R(bowl-corr)=0.084+-0.079  NO-GO
+  12-17" PBrms 0.64 PBg 0.30  HCN    -7.72+-0.20 HCO+    -7.52+-0.25  bowl(HCN,HCO+)   3.35,  4.09+-1.93,2.55  R=1.028+-nan  R(bowl-corr)=nan+-nan  NO-GO
+  17-24" PBrms 0.40 PBg 0.09  HCN    -0.15+-0.38 HCO+    -2.40+-0.38  bowl(HCN,HCO+)   6.61,  8.09+-3.82,5.04  R=0.062+-nan  R(bowl-corr)=nan+-nan  NO-GO
+  far-field zero level (26-40") mean m0 [Jy/beam km/s]: HCN 0.831+-0.480 (pix rms 1.96, npix 3855), HCO+ 1.017+-0.633 (pix rms 2.58)
+  sector N 6-14": HCN    4.06 HCO+   10.58 R=0.384
+  sector E 6-14": HCN    0.52 HCO+    9.07 R=0.058
+  sector S 6-14": HCN    2.73 HCO+    9.03 R=0.303
+  sector W 6-14": HCN    0.56 HCO+    5.93 R=0.095
+## Xb4d_J3: map half-width 28" ; Gaussian PB FWHM 21.9"
+   0- 4" PBrms 0.97 PBg 0.98  HCN     7.97+-0.02 HCO+    19.21+-0.02  bowl(HCN,HCO+)   0.90,  1.16+-0.32,0.56  R=0.415+-0.001  R(bowl-corr)=0.391+-0.021  GO
+   4- 8" PBrms 0.73 PBg 0.81  HCN     9.19+-0.03 HCO+    26.33+-0.04  bowl(HCN,HCO+)   2.71,  3.46+-0.95,1.69  R=0.349+-0.001  R(bowl-corr)=0.284+-0.046  GO
+   8-12" PBrms 0.30 PBg 0.56  HCN     2.03+-0.14 HCO+     9.00+-0.16  bowl(HCN,HCO+)   4.52,  5.78+-1.58,2.81  R=0.225+-0.016  R(bowl-corr)=nan+-nan  NO-GO
+  12-17" PBrms 0.17 PBg 0.30  HCN     7.60+-0.43 HCO+    10.16+-0.44  bowl(HCN,HCO+)   8.19, 10.47+-2.86,5.10  R=0.748+-0.053  R(bowl-corr)=nan+-nan  NO-GO
+  17-24" PBrms 0.27 PBg 0.09  HCN     7.72+-0.38 HCO+    10.34+-0.36  bowl(HCN,HCO+)  10.93, 13.98+-3.82,6.81  R=0.747+-0.045  R(bowl-corr)=nan+-nan  NO-GO
+  far-field zero level (17-19") mean m0 [Jy/beam km/s]: HCN 2.037+-0.711 (pix rms 1.01, npix 10063), HCO+ 2.604+-1.268 (pix rms 1.79)
+  sector N 6-14": HCN    2.20 HCO+    5.20 R=0.423
+  sector E 6-14": HCN    2.60 HCO+    7.92 R=0.329
+  sector S 6-14": HCN    1.11 HCO+    4.64 R=0.240
+  sector W 6-14": HCN    1.58 HCO+    5.45 R=0.290
+## Xb47_J4: map half-width 35" ; Gaussian PB FWHM 16.4"
+   0- 4" PBrms 1.01 PBg 0.96  HCN     6.86+-0.05 HCO+    21.22+-0.06  bowl(HCN,HCO+)   0.57,  0.74+-0.27,0.43  R=0.323+-0.003  R(bowl-corr)=0.307+-0.015  GO
+   4- 8" PBrms 0.87 PBg 0.69  HCN     7.52+-0.03 HCO+    28.30+-0.04  bowl(HCN,HCO+)   1.71,  2.20+-0.79,1.27  R=0.266+-0.001  R(bowl-corr)=0.223+-0.032  GO
+   8-12" PBrms 0.70 PBg 0.36  HCN    -1.26+-0.17 HCO+     4.58+-0.22  bowl(HCN,HCO+)   2.84,  3.66+-1.32,2.12  R=-0.276+-nan  R(bowl-corr)=nan+-nan  NO-GO
+  12-17" PBrms 0.40 PBg 0.12  HCN    -0.44+-0.31 HCO+    -1.00+-0.38  bowl(HCN,HCO+)   5.16,  6.65+-2.40,3.86  R=0.445+-nan  R(bowl-corr)=nan+-nan  NO-GO
+  17-24" PBrms 0.28 PBg 0.01  HCN    10.24+-0.98 HCO+    13.19+-1.00  bowl(HCN,HCO+)  10.24, 13.19+-4.77,7.65  R=0.776+-0.095  R(bowl-corr)=nan+-nan  NO-GO
+  far-field zero level (17-24") mean m0 [Jy/beam km/s]: HCN 1.284+-0.598 (pix rms 1.69, npix 3216), HCO+ 1.655+-0.959 (pix rms 2.71)
+  sector N 6-14": HCN    1.46 HCO+    5.60 R=0.261
+  sector E 6-14": HCN   -0.60 HCO+    3.28 R=-0.184
+  sector S 6-14": HCN   -0.02 HCO+    3.58 R=-0.007
+  sector W 6-14": HCN   -0.69 HCO+    2.05 R=-0.337
+## continuum (spw*.cont pbcor, 10" beam): annulus flux / (r<8" flux)  [line: HCO+ same ratio printed above via fluxes]
+  Xb55 cont: 0-4": 0.372  4-8": 0.628  8-12": 0.408  12-17": 0.105
+  Xb4f cont: 0-4": 0.369  4-8": 0.631  8-12": 0.271  12-17": -0.134
+  Xb4d cont: 0-4": 0.395  4-8": 0.605  8-12": 0.268  12-17": 0.146
+  Xb47 cont: 0-4": 0.408  4-8": 0.592  8-12": 0.140  12-17": -0.097

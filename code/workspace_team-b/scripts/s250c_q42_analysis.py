@@ -1,0 +1,79 @@
+# Q42 analysis of s250b fits (+ s235 baseline 'H' for N): per variant/position/band-prior:
+#  lnZ(X); posterior of X=12C/13C (flat in log X on 22-100, and LN(45,0.2dex)); branch posteriors P(Tk<=30), P(30-100), P(>=100); BF hot:cold (prior-mass corrected);
+#  N(HCN)/N(HCO+) marginal; dchi2(cold-hot) at fixed X; and the X contrast S/N from the 'T' variants.
+# usage: python3 -I s250c_q42_analysis.py -> out/q42/analysis.txt, analysis.json
+import sys,os,json,numpy as np
+sys.path.insert(0,'/workspace/scripts'); sys.argv=['x']
+import s235_q40r2_Xmarg as S
+m=S.s.m; TK=m.TK; LOGX=S.LOGX; SIGS=S.SIGS
+OQ='/workspace/out/q42/'; O40='/workspace/out/q40r2/'
+L=[]
+def P(x=''): print(x); L.append(x)
+def path(pos,var,k,lx):
+    if var=='H0': return O40+f'fit_{pos}_H_s{k}_lX{int(round(lx*100))}.npz'
+    if var=='A2': return O40+f'fit_{pos}_A2_s{k}_lX{int(round(lx*100))}.npz'
+    return OQ+f'fit_{pos}_{var}_s{k}_lX{int(round(lx*100))}.npz'
+LOGXE=np.round(np.arange(1.35,2.2501,0.05),2)
+def loadset(pos,var,k,xmax=2.0001):
+    R={}
+    for lx in LOGXE[LOGXE<=xmax]:
+        f=path(pos,var,k,lx)
+        if os.path.exists(f): R[lx]=np.load(f)
+    return R
+def lnZ(r): return -1.5*r['chibest']+np.log(r['Wc'].sum())
+ST=0.05; lag=np.arange(-20,29)
+def quant(h,qs=(0.16,0.5,0.84),lg=lag):
+    x=np.concatenate([[lg[0]-0.5],lg+0.5])*ST; c=np.concatenate([[0],np.cumsum(h)/h.sum()]); return [10**float(np.interp(q,c,x)) for q in qs]
+PRI={'flat logX':None,'LN(45,0.2dex)':(np.log10(45),0.2)}
+OUT={}
+def analyse(pos,var,k,xmax=2.0001):
+    R=loadset(pos,var,k,xmax)
+    if len(R)<7: return None
+    lxs=np.array(sorted(R)); lz=np.array([lnZ(R[a]) for a in lxs]); res={'lnZ':dict(zip([f'{10**a:.0f}' for a in lxs],lz.round(2).tolist()))}
+    for nm,pr in PRI.items():
+        dx=np.gradient(lxs)                      # trapezoid weights: the X grid is 0.05 or 0.1 dex and not always uniform
+        lp=np.log(dx)+(0 if pr is None else -0.5*((lxs-pr[0])/pr[1])**2)
+        w=np.exp(lz+lp-(lz+lp).max()); w/=w.sum(); c=np.cumsum(w)
+        xq=[10**float(np.interp(q,c,lxs)) for q in (0.16,0.5,0.84)]
+        Zb=np.array([R[a]['Wc'].sum(1)*np.exp(-1.5*R[a]['chibest']-lz.max()) for a in lxs]); pw=np.exp(lp)[:,None]*Zb; tot=pw.sum()
+        br={'cold<=30':pw[:,TK<=30].sum()/tot,'30-100':pw[:,(TK>30)&(TK<100)].sum()/tot,'>=100':pw[:,TK>=100].sum()/tot,'<=150':pw[:,TK<=150].sum()/tot}
+        bf=br['>=100']/br['cold<=30']*(np.sum(TK<=30)/np.sum(TK>=100))
+        hs=np.array([R[a]['h_A']/R[a]['h_A'].sum() for a in lxs]); hA=(w[:,None]*hs).sum(0); q=quant(hA)
+        res[nm]=dict(X=xq,branch=br,BF_hot_cold=bf,A=q,w=w.tolist(),lxs=lxs.tolist())
+    # fixed-X dchi2
+    res['dchi2_cold_hot']={f'{10**a:.0f}':float(R[a]['chimin'][TK<=30].min()-R[a]['chimin'][TK>=100].min()) for a in lxs[::3]}
+    res['chi2min_bestX']=float(min(R[a]['chibest'] for a in lxs))
+    return res
+def show(pos,var,k,r):
+    for nm in PRI:
+        d=r[nm]; b=d['branch']
+        P(f'  {pos:2s} {var:5s} bandprior {SIGS[k]} Xprior {nm:14s}: X={d["X"][1]:.0f} [{d["X"][0]:.0f},{d["X"][2]:.0f}]  P(Tk<=30)={b["cold<=30"]:.4f} P(30-100)={b["30-100"]:.3f} P(>=100)={b["≥100" if False else ">=100"]:.3f} P(<=150)={b["<=150"]:.2f}  BF(hot:cold)={d["BF_hot_cold"]:.0f}  N(HCN)/N(HCO+)={d["A"][1]:.2f} [{d["A"][0]:.2f},{d["A"][2]:.2f}]')
+    P('      dchi2(cold-hot) at X: '+' '.join(f'{x}:{v:.1f}' for x,v in r['dchi2_cold_hot'].items())+f'; chi2min(best X) {r["chi2min_bestX"]:.2f}')
+jobs=[('N','H0'),('N','H4c'),('N','H4g'),('N','H4d'),('N','T'),('N','Tp'),('N','T150'),('N','T32'),('N','T432'),
+      ('S','T'),('S','Tp'),('S','T150'),('S','T432'),('C','T'),('C','Tp'),('C','T150'),('C','T432'),('S','A2'),('N','A2')]
+for pos,var in jobs:
+    ks=[0,1,2] if var in('H0','H4c') else [0,1]
+    for k in ks:
+        r=analyse(pos,var,k)
+        if r is None: continue
+        OUT[f'{pos}_{var}_{k}']=r; show(pos,var,k,r)
+        if var.startswith('T'):
+            re=analyse(pos,var,k,2.2501)
+            if re is not None and len(re['lnZ'])>len(r['lnZ']):
+                OUT[f'{pos}_{var}_{k}_ext']=re; P('   [X grid extended to 178]'); show(pos,var,k,re)
+# X contrast S vs N (and C vs N) for each T variant and band prior: distribution of log10(X_S/X_N) from the per-position lnZ(X) (flat logX prior)
+P('\nX contrast at common taper (posterior of X_pos from lnZ(X), flat in log X; independent positions):')
+for var,sfx in [(v,s_) for v in ('T','Tp','T150','T32','T432') for s_ in ('','_ext')]:
+    for k in (0,1):
+        a,b=OUT.get(f'N_{var}_{k}{sfx}'),OUT.get(f'S_{var if var!="T32" else "T"}_{k}{sfx}')
+        if a is None or b is None: continue
+        wN=np.array(a['flat logX']['w']); wS=np.array(b['flat logX']['w']); lx=np.array(a['flat logX']['lxs'])
+        dd={}
+        for i in range(len(lx)):
+            for j in range(len(lx)):
+                key=round(lx[j]-lx[i],2); dd[key]=dd.get(key,0)+wN[i]*wS[j]
+        ks_=np.array(sorted(dd)); pp=np.array([dd[x] for x in ks_]); c=np.cumsum(pp)/pp.sum()
+        med=10**np.interp(.5,c,ks_); lo=10**np.interp(.16,c,ks_); hi=10**np.interp(.84,c,ks_); pg=pp[ks_>0].sum()+0.5*pp[ks_==0].sum()
+        P(f'  {var:5s}{sfx:4s} band prior {SIGS[k]}: X_S/X_N = {med:.2f} [{lo:.2f},{hi:.2f}], P(X_S>X_N)={pg:.2f}; X_N {a["flat logX"]["X"][1]:.0f} [{a["flat logX"]["X"][0]:.0f},{a["flat logX"]["X"][2]:.0f}], X_S {b["flat logX"]["X"][1]:.0f} [{b["flat logX"]["X"][0]:.0f},{b["flat logX"]["X"][2]:.0f}]')
+        OUT[f'contrast_{var}_{k}{sfx}']=dict(med=med,lo=lo,hi=hi,Pgt1=pg)
+open(OQ+'analysis.txt','w').write('\n'.join(L)); json.dump(OUT,open(OQ+'analysis.json','w'),default=float)

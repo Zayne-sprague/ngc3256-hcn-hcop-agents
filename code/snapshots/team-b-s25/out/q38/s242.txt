@@ -1,0 +1,36 @@
+
+### sky no extended; truth ladder flat: clump R {2: 0.5, 3: 0.5, 4: 0.5}, nucleus R {2: 0.8, 3: 0.8, 4: 0.8}
+ E1        recovered R21 0.504 R32 0.504 R43 0.463 | truth 0.50 0.50 0.50 | R32/R21 rec 1.001 truth 1.000; R43/R21 rec 0.920 truth 1.000 | HCO+ flux rec/true J3: 1.02
+ E2        recovered R21 0.521 R32 0.531 R43 0.212 | truth 0.50 0.50 0.50 | R32/R21 rec 1.018 truth 1.000; R43/R21 rec 0.406 truth 1.000 | HCO+ flux rec/true J3: 1.07
+ W         recovered R21 0.508 R32 0.506 R43 0.464 | truth 0.50 0.50 0.50 | R32/R21 rec 0.996 truth 1.000; R43/R21 rec 0.914 truth 1.000 | HCO+ flux rec/true J3: 1.03
+ nuc_total recovered R21 0.801 R32 0.801 R43 0.806 | truth 0.80 0.80 0.80 | R32/R21 rec 1.000 truth 1.000; R43/R21 rec 1.006 truth 1.000 | HCO+ flux rec/true J3: 0.92
+
+### sky no extended; truth ladder decline: clump R {2: 0.5, 3: 0.35, 4: 0.2}, nucleus R {2: 0.8, 3: 0.65, 4: 0.5}
+ E1        recovered R21 0.504 R32 0.354 R43 0.166 | truth 0.50 0.35 0.20 | R32/R21 rec 0.703 truth 0.700; R43/R21 rec 0.329 truth 0.400 | HCO+ flux rec/true J3: 1.02
+ E2        recovered R21 0.521 R32 0.386 R43 0.000 | truth 0.50 0.35 0.20 | R32/R21 rec 0.740 truth 0.700; R43/R21 rec 0.000 truth 0.400 | HCO+ flux rec/true J3: 1.07
+ W         recovered R21 0.508 R32 0.357 R43 0.167 | truth 0.50 0.35 0.20 | R32/R21 rec 0.703 truth 0.700; R43/R21 rec 0.329 truth 0.400 | HCO+ flux rec/true J3: 1.03
+ nuc_total recovered R21 0.801 R32 0.652 R43 0.507 | truth 0.80 0.65 0.50 | R32/R21 rec 0.813 truth 0.812; R43/R21 rec 0.632 truth 0.625 | HCO+ flux rec/true J3: 0.92
+
+### sky ext 25" f=0.3; truth ladder flat: clump R {2: 0.5, 3: 0.5, 4: 0.5}, nucleus R {2: 0.8, 3: 0.8, 4: 0.8}
+ E1        recovered R21 0.502 R32 0.511 R43 0.466 | truth 0.50 0.50 0.50 | R32/R21 rec 1.019 truth 1.000; R43/R21 rec 0.929 truth 1.000 | HCO+ flux rec/true J3: 1.04
+ E2        recovered R21 0.502 R32 0.562 R43 0.245 | truth 0.50 0.50 0.50 | R32/R21 rec 1.119 truth 1.000; R43/R21 rec 0.488 truth 1.000 | HCO+ flux rec/true J3: 1.19
+ W         recovered R21 0.501 R32 0.515 R43 0.466 | truth 0.50 0.50 0.50 | R32/R21 rec 1.027 truth 1.000; R43/R21 rec 0.931 truth 1.000 | HCO+ flux rec/true J3: 1.06
+ nuc_total recovered R21 0.801 R32 0.801 R43 0.806 | truth 0.80 0.80 0.80 | R32/R21 rec 1.001 truth 1.000; R43/R21 rec 1.007 truth 1.000 | HCO+ flux rec/true J3: 0.93
+
+### sky ext 25" f=0.3; truth ladder decline: clump R {2: 0.5, 3: 0.35, 4: 0.2}, nucleus R {2: 0.8, 3: 0.65, 4: 0.5}
+ E1        recovered R21 0.502 R32 0.361 R43 0.166 | truth 0.50 0.35 0.20 | R32/R21 rec 0.720 truth 0.700; R43/R21 rec 0.331 truth 0.400 | HCO+ flux rec/true J3: 1.04
+ E2        recovered R21 0.502 R32 0.411 R43 0.000 | truth 0.50 0.35 0.20 | R32/R21 rec 0.818 truth 0.700; R43/R21 rec 0.000 truth 0.400 | HCO+ flux rec/true J3: 1.19
+ W         recovered R21 0.501 R32 0.365 R43 0.168 | truth 0.50 0.35 0.20 | R32/R21 rec 0.728 truth 0.700; R43/R21 rec 0.334 truth 0.400 | HCO+ flux rec/true J3: 1.06
+ nuc_total recovered R21 0.801 R32 0.651 R43 0.506 | truth 0.80 0.65 0.50 | R32/R21 rec 0.814 truth 0.812; R43/R21 rec 0.632 truth 0.625 | HCO+ flux rec/true J3: 0.93
+
+### sky ext 40" f=0.5; truth ladder flat: clump R {2: 0.5, 3: 0.5, 4: 0.5}, nucleus R {2: 0.8, 3: 0.8, 4: 0.8}
+ E1        recovered R21 0.504 R32 0.505 R43 0.466 | truth 0.50 0.50 0.50 | R32/R21 rec 1.000 truth 1.000; R43/R21 rec 0.923 truth 1.000 | HCO+ flux rec/true J3: 1.02
+ E2        recovered R21 0.515 R32 0.535 R43 0.229 | truth 0.50 0.50 0.50 | R32/R21 rec 1.039 truth 1.000; R43/R21 rec 0.444 truth 1.000 | HCO+ flux rec/true J3: 1.09
+ W         recovered R21 0.505 R32 0.507 R43 0.466 | truth 0.50 0.50 0.50 | R32/R21 rec 1.004 truth 1.000; R43/R21 rec 0.924 truth 1.000 | HCO+ flux rec/true J3: 1.03
+ nuc_total recovered R21 0.801 R32 0.801 R43 0.806 | truth 0.80 0.80 0.80 | R32/R21 rec 1.001 truth 1.000; R43/R21 rec 1.007 truth 1.000 | HCO+ flux rec/true J3: 0.93
+
+### sky ext 40" f=0.5; truth ladder decline: clump R {2: 0.5, 3: 0.35, 4: 0.2}, nucleus R {2: 0.8, 3: 0.65, 4: 0.5}
+ E1        recovered R21 0.504 R32 0.356 R43 0.165 | truth 0.50 0.35 0.20 | R32/R21 rec 0.705 truth 0.700; R43/R21 rec 0.328 truth 0.400 | HCO+ flux rec/true J3: 1.02
+ E2        recovered R21 0.515 R32 0.390 R43 0.000 | truth 0.50 0.35 0.20 | R32/R21 rec 0.756 truth 0.700; R43/R21 rec 0.000 truth 0.400 | HCO+ flux rec/true J3: 1.09
+ W         recovered R21 0.505 R32 0.359 R43 0.167 | truth 0.50 0.35 0.20 | R32/R21 rec 0.711 truth 0.700; R43/R21 rec 0.330 truth 0.400 | HCO+ flux rec/true J3: 1.03
+ nuc_total recovered R21 0.801 R32 0.651 R43 0.507 | truth 0.80 0.65 0.50 | R32/R21 rec 0.814 truth 0.812; R43/R21 rec 0.633 truth 0.625 | HCO+ flux rec/true J3: 0.93

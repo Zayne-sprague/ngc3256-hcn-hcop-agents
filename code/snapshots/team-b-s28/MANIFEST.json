@@ -1,0 +1,9 @@
+{
+ "team": "team-b",
+ "item": "Q46",
+ "files": [
+  "scripts/s300_q46_lit_context.py",
+  "out/q46/s300.txt",
+  "TEAM_REPORT.json"
+ ]
+}

@@ -1,0 +1,215 @@
+
+########## N: 10" ladder HCN/HCO+ 2-1,3-2,4-3 (K km/s) = [12.38, 4.81, 1.62, 20.27, 10.04, 4.51]
+--- A: floor sensitivity (shared eta flat ln [1e-3,1]); T_R,peak=I/(1.0645 w); require model T_R(3-2, both) >= f x T_b
+  [logT300] no floor: Tk 141 [56,223] (5%: 28) P(Tk>50)=0.88 P(Tk<=30)=0.054 log n 4.50 [3.62,5.00] tau32 5.9 [0.2,56.7] tau43 1.0 lnZ -11.4 
+ floor 49pc: T_b HCN/HCO+ 3-2 = 2.65/2.75 K
+  [logT300] 49pc w=100 f=0.7: Tk 100 [45,178] (5%: 25) P(Tk>50)=0.81 P(Tk<=30)=0.076 log n 4.12 [3.38,4.88] tau32 17.9 [4.7,121.4] tau43 4.4 lnZ -12.0 eta 0.013 [0.009,0.020]
+  [logT300] 49pc w=100 f=0.85: Tk 89 [40,178] (5%: 25) P(Tk>50)=0.78 P(Tk<=30)=0.084 log n 4.12 [3.38,4.88] tau32 19.6 [5.8,151.3] tau43 5.6 lnZ -12.1 eta 0.012 [0.008,0.017]
+  [logT300] 49pc w=100 f=1.0: Tk 79 [35,158] (5%: 25) P(Tk>50)=0.75 P(Tk<=30)=0.095 log n 4.12 [3.25,4.88] tau32 24.2 [7.2,155.9] tau43 7.4 lnZ -12.3 eta 0.012 [0.008,0.015]
+  [logT300] 49pc w=150 f=0.7: Tk 79 [35,158] (5%: 25) P(Tk>50)=0.74 P(Tk<=30)=0.099 log n 4.12 [3.25,4.88] tau32 29.3 [7.5,189.5] tau43 8.2 lnZ -12.3 eta 0.011 [0.008,0.015]
+  [logT300] 49pc w=150 f=0.85: Tk 71 [32,141] (5%: 22) P(Tk>50)=0.68 P(Tk<=30)=0.124 log n 4.00 [3.25,4.88] tau32 38.3 [9.7,236.2] tau43 12.8 lnZ -12.6 eta 0.010 [0.008,0.013]
+  [logT300] 49pc w=150 f=1.0: Tk 56 [32,126] (5%: 22) P(Tk>50)=0.61 P(Tk<=30)=0.158 log n 4.00 [3.25,5.00] tau32 59.2 [10.2,296.4] tau43 20.0 lnZ -12.8 eta 0.009 [0.007,0.011]
+  [logT300] 49pc w=200 f=0.7: Tk 63 [32,141] (5%: 22) P(Tk>50)=0.65 P(Tk<=30)=0.141 log n 4.00 [3.25,4.88] tau32 47.9 [9.9,244.7] tau43 16.3 lnZ -12.7 eta 0.010 [0.008,0.012]
+  [logT300] 49pc w=200 f=0.85: Tk 50 [28,100] (5%: 22) P(Tk>50)=0.55 P(Tk<=30)=0.190 log n 3.88 [3.25,5.00] tau32 63.9 [12.2,314.3] tau43 25.9 lnZ -13.1 eta 0.009 [0.007,0.010]
+  [logT300] 49pc w=200 f=1.0: Tk 45 [25,79] (5%: 20) P(Tk>50)=0.43 P(Tk<=30)=0.245 log n 3.88 [3.25,5.00] tau32 96.6 [15.2,393.6] tau43 39.2 lnZ -13.6 eta 0.008 [0.007,0.009]
+  [logT300] 49pc w=250 f=0.7: Tk 50 [28,100] (5%: 22) P(Tk>50)=0.53 P(Tk<=30)=0.200 log n 3.88 [3.25,5.00] tau32 75.3 [12.4,372.0] tau43 28.0 lnZ -13.2 eta 0.009 [0.007,0.010]
+  [logT300] 49pc w=250 f=0.85: Tk 40 [25,71] (5%: 22) P(Tk>50)=0.40 P(Tk<=30)=0.264 log n 3.88 [3.25,4.88] tau32 98.0 [15.5,477.3] tau43 44.5 lnZ -13.8 eta 0.008 [0.007,0.009]
+  [logT300] 49pc w=250 f=1.0: Tk 35 [25,63] (5%: 22) P(Tk>50)=0.29 P(Tk<=30)=0.294 log n 4.00 [3.25,5.00] tau32 119.0 [18.8,574.7] tau43 55.5 lnZ -14.6 eta 0.007 [0.006,0.008]
+ floor 250pc: T_b HCN/HCO+ 3-2 = 0.50/0.69 K
+  [logT300] 250pc w=100 f=0.7: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.059 log n 4.38 [3.50,4.88] tau32 9.4 [1.0,75.2] tau43 1.9 lnZ -11.6 eta 0.017 [0.010,0.041]
+  [logT300] 250pc w=100 f=0.85: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.059 log n 4.38 [3.50,4.88] tau32 9.7 [1.2,75.3] tau43 2.0 lnZ -11.6 eta 0.017 [0.010,0.037]
+  [logT300] 250pc w=100 f=1.0: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.060 log n 4.38 [3.50,4.88] tau32 9.9 [1.4,76.2] tau43 2.1 lnZ -11.7 eta 0.017 [0.009,0.035]
+  [logT300] 250pc w=150 f=0.7: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.060 log n 4.38 [3.50,4.88] tau32 9.9 [1.4,76.5] tau43 2.1 lnZ -11.7 eta 0.016 [0.009,0.035]
+  [logT300] 250pc w=150 f=0.85: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.85 P(Tk<=30)=0.061 log n 4.25 [3.50,4.88] tau32 10.4 [1.7,77.0] tau43 2.2 lnZ -11.7 eta 0.016 [0.009,0.032]
+  [logT300] 250pc w=150 f=1.0: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.85 P(Tk<=30)=0.062 log n 4.25 [3.50,4.88] tau32 11.3 [1.9,78.7] tau43 2.4 lnZ -11.7 eta 0.016 [0.009,0.031]
+  [logT300] 250pc w=200 f=0.7: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.85 P(Tk<=30)=0.062 log n 4.25 [3.50,4.88] tau32 11.0 [1.8,77.8] tau43 2.3 lnZ -11.7 eta 0.016 [0.009,0.031]
+  [logT300] 250pc w=200 f=0.85: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.85 P(Tk<=30)=0.063 log n 4.25 [3.50,4.88] tau32 11.8 [2.2,93.5] tau43 2.5 lnZ -11.7 eta 0.016 [0.009,0.029]
+  [logT300] 250pc w=200 f=1.0: Tk 112 [50,199] (5%: 28) P(Tk>50)=0.84 P(Tk<=30)=0.064 log n 4.25 [3.38,4.88] tau32 12.1 [2.5,95.2] tau43 2.7 lnZ -11.8 eta 0.015 [0.009,0.027]
+  [logT300] 250pc w=250 f=0.7: Tk 112 [50,199] (5%: 28) P(Tk>50)=0.85 P(Tk<=30)=0.063 log n 4.25 [3.50,4.88] tau32 11.8 [2.2,94.0] tau43 2.6 lnZ -11.7 eta 0.015 [0.009,0.029]
+  [logT300] 250pc w=250 f=0.85: Tk 112 [50,199] (5%: 28) P(Tk>50)=0.84 P(Tk<=30)=0.065 log n 4.25 [3.38,4.88] tau32 12.2 [2.7,96.1] tau43 2.8 lnZ -11.8 eta 0.015 [0.009,0.026]
+  [logT300] 250pc w=250 f=1.0: Tk 112 [45,199] (5%: 28) P(Tk>50)=0.84 P(Tk<=30)=0.067 log n 4.25 [3.38,4.88] tau32 13.3 [3.1,97.2] tau43 3.1 lnZ -11.8 eta 0.015 [0.009,0.025]
+--- B: separate eta_HCN, eta_HCO+ (flat ln each [1e-3,1]) vs shared; X(HCN/H13CN) -> tau43(HCN) < X*0.128
+  [logT300] shared eta: Tk 141 [56,223] (5%: 28) P(Tk>50)=0.88 P(Tk<=30)=0.054 log n 4.50 [3.62,5.00] tau32 5.9 [0.2,56.7] tau43 1.0 lnZ -11.4 
+  [logT300] separate eta, flat box: Tk 158 [71,251] (5%: 20) P(Tk>50)=0.89 P(Tk<=30)=0.073 log n 4.75 [4.00,5.12] tau32 0.8 [0.1,14.1] tau43 0.1 lnZ -12.6 
+  [logT300] separate eta, |ln q|<=ln10: Tk 158 [63,251] (5%: 20) P(Tk>50)=0.88 P(Tk<=30)=0.075 log n 4.75 [4.00,5.12] tau32 0.9 [0.1,15.2] tau43 0.1 lnZ -12.7 
+  [logT300] shared eta + H13CN X=30 (tau43<3.8): Tk 158 [89,223] (5%: 45) P(Tk>50)=0.95 P(Tk<=30)=0.028 log n 4.75 [4.12,5.00] tau32 1.7 [0.1,9.4] tau43 0.2 lnZ -11.8 
+  [logT300] separate eta, flat box + H13CN X=30 (tau43<3.8): Tk 178 [100,251] (5%: 35) P(Tk>50)=0.93 P(Tk<=30)=0.045 log n 4.88 [4.38,5.12] tau32 0.5 [0.0,3.9] tau43 0.1 lnZ -12.8 
+  [logT300] separate eta, |ln q|<=ln10 + H13CN X=30 (tau43<3.8): Tk 178 [100,251] (5%: 35) P(Tk>50)=0.93 P(Tk<=30)=0.045 log n 4.88 [4.38,5.12] tau32 0.5 [0.1,4.1] tau43 0.1 lnZ -12.8 
+  [logT300] shared eta + H13CN X=50 (tau43<6.4): Tk 158 [79,223] (5%: 40) P(Tk>50)=0.93 P(Tk<=30)=0.033 log n 4.75 [4.12,5.00] tau32 2.4 [0.1,12.2] tau43 0.4 lnZ -11.7 
+  [logT300] separate eta, flat box + H13CN X=50 (tau43<6.4): Tk 178 [89,251] (5%: 32) P(Tk>50)=0.93 P(Tk<=30)=0.049 log n 4.88 [4.25,5.12] tau32 0.5 [0.1,4.9] tau43 0.1 lnZ -12.7 
+  [logT300] separate eta, |ln q|<=ln10 + H13CN X=50 (tau43<6.4): Tk 178 [89,251] (5%: 32) P(Tk>50)=0.93 P(Tk<=30)=0.049 log n 4.88 [4.25,5.12] tau32 0.6 [0.1,5.1] tau43 0.1 lnZ -12.8 
+  [logT300] shared eta + H13CN X=100 (tau43<12.8): Tk 158 [79,223] (5%: 35) P(Tk>50)=0.93 P(Tk<=30)=0.035 log n 4.62 [4.00,5.00] tau32 3.2 [0.1,15.7] tau43 0.5 lnZ -11.6 
+  [logT300] separate eta, flat box + H13CN X=100 (tau43<12.8): Tk 178 [89,251] (5%: 28) P(Tk>50)=0.92 P(Tk<=30)=0.051 log n 4.88 [4.25,5.12] tau32 0.6 [0.1,6.3] tau43 0.1 lnZ -12.7 
+  [logT300] separate eta, |ln q|<=ln10 + H13CN X=100 (tau43<12.8): Tk 178 [89,251] (5%: 28) P(Tk>50)=0.92 P(Tk<=30)=0.052 log n 4.88 [4.25,5.12] tau32 0.7 [0.1,7.0] tau43 0.1 lnZ -12.8 
+  [logT300] separate eta + 250pc floor + H13CN X=50: Tk 141 [56,223] (5%: 20) P(Tk>50)=0.87 P(Tk<=30)=0.074 log n 4.75 [4.00,5.25] tau32 3.1 [0.9,11.3] tau43 0.6 lnZ -13.6 
+  [logT300] shared eta + 250pc floor + H13CN X=50: Tk 141 [71,223] (5%: 35) P(Tk>50)=0.92 P(Tk<=30)=0.035 log n 4.50 [3.88,5.00] tau32 5.5 [1.1,15.0] tau43 1.0 lnZ -12.1 
+--- C: cold (p0012 S-like 20-30 K) gas in the 10" aperture
+  shared eta [1e-3,1]: P(Tk<=30)=0.0536 (prior 0.420); Bayes factor cold/warm = 0.078
+  separate eta: P(Tk<=30)=0.0735 (prior 0.420); Bayes factor cold/warm = 0.109
+  eta=1 fixed: P(Tk<=30)=0.0321 (prior 0.420); Bayes factor cold/warm = 0.046
+  chi2(best eta in [0.001,1]): all-T min 0.11 (Tk 178); Tk=25 K min 3.39 (n 5.25, tau32 12.5, eta_best 0.010); Tk<=30 min 2.34
+  chi2(best eta in [0.05,1]): all-T min 0.40 (Tk 178); Tk=25 K min 40.90 (n 5.62, tau32 0.8, eta_best 0.050); Tk<=30 min 4.28
+  chi2(best eta in [0.3,1]): all-T min 0.62 (Tk 178); Tk=25 K min 50.18 (n 6.50, tau32 0.0, eta_best 0.341); Tk<=30 min 4.45
+--- D: column / mass of posterior branches (X(HCO+) 1e-9..1e-8; mu=2.8 per H2; D=40 Mpc; 10" beam area 4.26e+06 pc2)
+   baseline X=1e-09: eta 0.020; Sigma_beam 895 [307,6696] Msun/pc2; M(10") 3.8e+09 [1.3e+09,2.9e+10] Msun; P(Sigma>3e3)=0.28; P(>1e3)=0.47
+   baseline X=3e-09: eta 0.020; Sigma_beam 298 [102,2232] Msun/pc2; M(10") 1.3e+09 [4.4e+08,9.5e+09] Msun; P(Sigma>3e3)=0.12; P(>1e3)=0.28
+   baseline X=1e-08: eta 0.020; Sigma_beam 89 [31,670] Msun/pc2; M(10") 3.8e+08 [1.3e+08,2.9e+09] Msun; P(Sigma>3e3)=0.02; P(>1e3)=0.11
+   +H13CN X=50 X=1e-09: eta 0.028; Sigma_beam 568 [279,1999] Msun/pc2; M(10") 2.4e+09 [1.2e+09,8.5e+09] Msun; P(Sigma>3e3)=0.09; P(>1e3)=0.31
+   +H13CN X=50 X=3e-09: eta 0.028; Sigma_beam 189 [93,666] Msun/pc2; M(10") 8.1e+08 [4.0e+08,2.8e+09] Msun; P(Sigma>3e3)=0.01; P(>1e3)=0.09
+   +H13CN X=50 X=1e-08: eta 0.028; Sigma_beam 57 [28,200] Msun/pc2; M(10") 2.4e+08 [1.2e+08,8.5e+08] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.01
+   250pc floor X=1e-09: eta 0.016; Sigma_beam 1418 [429,8571] Msun/pc2; M(10") 6.0e+09 [1.8e+09,3.7e+10] Msun; P(Sigma>3e3)=0.35; P(>1e3)=0.59
+   250pc floor X=3e-09: eta 0.016; Sigma_beam 473 [143,2857] Msun/pc2; M(10") 2.0e+09 [6.1e+08,1.2e+10] Msun; P(Sigma>3e3)=0.15; P(>1e3)=0.35
+   250pc floor X=1e-08: eta 0.016; Sigma_beam 142 [43,857] Msun/pc2; M(10") 6.0e+08 [1.8e+08,3.7e+09] Msun; P(Sigma>3e3)=0.02; P(>1e3)=0.14
+   49pc floor X=1e-09: eta 0.010; Sigma_beam 3575 [655,16160] Msun/pc2; M(10") 1.5e+10 [2.8e+09,6.9e+10] Msun; P(Sigma>3e3)=0.53; P(>1e3)=0.72
+   49pc floor X=3e-09: eta 0.010; Sigma_beam 1192 [218,5387] Msun/pc2; M(10") 5.1e+09 [9.3e+08,2.3e+10] Msun; P(Sigma>3e3)=0.30; P(>1e3)=0.53
+   49pc floor X=1e-08: eta 0.010; Sigma_beam 357 [65,1616] Msun/pc2; M(10") 1.5e+09 [2.8e+08,6.9e+09] Msun; P(Sigma>3e3)=0.05; P(>1e3)=0.27
+   eta=1 X=1e-09: eta 1.000; Sigma_beam 283 [224,448] Msun/pc2; M(10") 1.2e+09 [9.6e+08,1.9e+09] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.03
+   eta=1 X=3e-09: eta 1.000; Sigma_beam 94 [75,149] Msun/pc2; M(10") 4.0e+08 [3.2e+08,6.4e+08] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.00
+   eta=1 X=1e-08: eta 1.000; Sigma_beam 28 [22,45] Msun/pc2; M(10") 1.2e+08 [9.6e+07,1.9e+08] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.00
+
+########## S: 10" ladder HCN/HCO+ 2-1,3-2,4-3 (K km/s) = [11.66, 4.26, 1.35, 20.89, 9.95, 4.28]
+--- A: floor sensitivity (shared eta flat ln [1e-3,1]); T_R,peak=I/(1.0645 w); require model T_R(3-2, both) >= f x T_b
+  [logT300] no floor: Tk 141 [71,223] (5%: 40) P(Tk>50)=0.92 P(Tk<=30)=0.029 log n 4.50 [3.62,5.00] tau32 3.4 [0.1,28.7] tau43 0.4 lnZ -11.5 
+ floor 49pc: T_b HCN/HCO+ 3-2 = 1.18/2.81 K
+  [logT300] 49pc w=100 f=0.7: Tk 126 [56,223] (5%: 35) P(Tk>50)=0.89 P(Tk<=30)=0.035 log n 4.25 [3.38,4.75] tau32 9.6 [2.0,47.8] tau43 1.6 lnZ -11.9 eta 0.019 [0.011,0.031]
+  [logT300] 49pc w=100 f=0.85: Tk 126 [56,223] (5%: 32) P(Tk>50)=0.89 P(Tk<=30)=0.037 log n 4.12 [3.38,4.75] tau32 10.4 [2.4,53.9] tau43 1.8 lnZ -12.0 eta 0.018 [0.011,0.028]
+  [logT300] 49pc w=100 f=1.0: Tk 126 [56,223] (5%: 32) P(Tk>50)=0.88 P(Tk<=30)=0.039 log n 4.12 [3.38,4.75] tau32 11.7 [2.9,58.5] tau43 2.1 lnZ -12.0 eta 0.017 [0.011,0.026]
+  [logT300] 49pc w=150 f=0.7: Tk 112 [56,223] (5%: 32) P(Tk>50)=0.88 P(Tk<=30)=0.040 log n 4.12 [3.38,4.75] tau32 12.1 [3.1,59.5] tau43 2.2 lnZ -12.1 eta 0.017 [0.011,0.025]
+  [logT300] 49pc w=150 f=0.85: Tk 112 [50,199] (5%: 32) P(Tk>50)=0.86 P(Tk<=30)=0.043 log n 4.12 [3.38,4.75] tau32 14.2 [3.8,72.2] tau43 2.8 lnZ -12.2 eta 0.015 [0.010,0.022]
+  [logT300] 49pc w=150 f=1.0: Tk 100 [50,199] (5%: 32) P(Tk>50)=0.84 P(Tk<=30)=0.048 log n 4.12 [3.25,4.75] tau32 15.6 [4.6,78.4] tau43 3.5 lnZ -12.4 eta 0.014 [0.010,0.019]
+  [logT300] 49pc w=200 f=0.7: Tk 112 [50,199] (5%: 32) P(Tk>50)=0.85 P(Tk<=30)=0.047 log n 4.12 [3.25,4.75] tau32 15.3 [4.4,75.2] tau43 3.3 lnZ -12.3 eta 0.015 [0.010,0.020]
+  [logT300] 49pc w=200 f=0.85: Tk 100 [45,199] (5%: 28) P(Tk>50)=0.82 P(Tk<=30)=0.055 log n 4.12 [3.25,4.75] tau32 19.0 [5.7,97.2] tau43 4.3 lnZ -12.5 eta 0.013 [0.010,0.018]
+  [logT300] 49pc w=200 f=1.0: Tk 79 [40,178] (5%: 28) P(Tk>50)=0.77 P(Tk<=30)=0.068 log n 4.00 [3.25,4.88] tau32 23.1 [6.4,122.6] tau43 5.6 lnZ -12.7 eta 0.012 [0.009,0.015]
+  [logT300] 49pc w=250 f=0.7: Tk 100 [45,199] (5%: 28) P(Tk>50)=0.81 P(Tk<=30)=0.056 log n 4.12 [3.25,4.88] tau32 19.5 [5.8,98.7] tau43 4.5 lnZ -12.5 eta 0.013 [0.010,0.017]
+  [logT300] 49pc w=250 f=0.85: Tk 79 [40,178] (5%: 28) P(Tk>50)=0.76 P(Tk<=30)=0.074 log n 4.00 [3.25,4.88] tau32 24.2 [7.4,151.3] tau43 6.6 lnZ -12.8 eta 0.012 [0.009,0.015]
+  [logT300] 49pc w=250 f=1.0: Tk 63 [35,126] (5%: 25) P(Tk>50)=0.67 P(Tk<=30)=0.101 log n 4.00 [3.25,4.88] tau32 31.5 [7.9,194.0] tau43 9.2 lnZ -13.2 eta 0.011 [0.008,0.013]
+ floor 250pc: T_b HCN/HCO+ 3-2 = 0.19/0.49 K
+  [logT300] 250pc w=100 f=0.7: Tk 141 [71,223] (5%: 35) P(Tk>50)=0.92 P(Tk<=30)=0.031 log n 4.38 [3.50,4.88] tau32 5.1 [0.3,34.5] tau43 0.7 lnZ -11.6 eta 0.023 [0.012,0.073]
+  [logT300] 250pc w=100 f=0.85: Tk 141 [71,223] (5%: 35) P(Tk>50)=0.92 P(Tk<=30)=0.031 log n 4.38 [3.50,4.88] tau32 5.5 [0.4,35.4] tau43 0.8 lnZ -11.6 eta 0.023 [0.012,0.065]
+  [logT300] 250pc w=100 f=1.0: Tk 141 [71,223] (5%: 35) P(Tk>50)=0.91 P(Tk<=30)=0.031 log n 4.38 [3.50,4.88] tau32 5.8 [0.5,36.3] tau43 0.8 lnZ -11.7 eta 0.023 [0.012,0.059]
+  [logT300] 250pc w=150 f=0.7: Tk 141 [71,223] (5%: 35) P(Tk>50)=0.91 P(Tk<=30)=0.031 log n 4.38 [3.50,4.88] tau32 5.8 [0.5,36.5] tau43 0.8 lnZ -11.7 eta 0.022 [0.012,0.059]
+  [logT300] 250pc w=150 f=0.85: Tk 141 [63,223] (5%: 35) P(Tk>50)=0.91 P(Tk<=30)=0.031 log n 4.38 [3.50,4.88] tau32 6.2 [0.6,37.3] tau43 0.9 lnZ -11.7 eta 0.022 [0.012,0.054]
+  [logT300] 250pc w=150 f=1.0: Tk 141 [63,223] (5%: 35) P(Tk>50)=0.91 P(Tk<=30)=0.032 log n 4.38 [3.50,4.88] tau32 6.5 [0.7,38.0] tau43 1.0 lnZ -11.7 eta 0.022 [0.012,0.049]
+  [logT300] 250pc w=200 f=0.7: Tk 141 [63,223] (5%: 35) P(Tk>50)=0.91 P(Tk<=30)=0.032 log n 4.38 [3.50,4.88] tau32 6.3 [0.6,37.4] tau43 0.9 lnZ -11.7 eta 0.022 [0.012,0.050]
+  [logT300] 250pc w=200 f=0.85: Tk 141 [63,223] (5%: 35) P(Tk>50)=0.91 P(Tk<=30)=0.032 log n 4.38 [3.50,4.88] tau32 6.8 [0.8,38.2] tau43 1.0 lnZ -11.7 eta 0.021 [0.012,0.047]
+  [logT300] 250pc w=200 f=1.0: Tk 141 [63,223] (5%: 35) P(Tk>50)=0.91 P(Tk<=30)=0.032 log n 4.25 [3.50,4.88] tau32 7.3 [0.9,39.1] tau43 1.1 lnZ -11.7 eta 0.021 [0.012,0.044]
+  [logT300] 250pc w=250 f=0.7: Tk 141 [63,223] (5%: 35) P(Tk>50)=0.91 P(Tk<=30)=0.032 log n 4.25 [3.50,4.88] tau32 6.8 [0.8,38.3] tau43 1.0 lnZ -11.7 eta 0.021 [0.012,0.046]
+  [logT300] 250pc w=250 f=0.85: Tk 141 [63,223] (5%: 35) P(Tk>50)=0.91 P(Tk<=30)=0.032 log n 4.25 [3.50,4.88] tau32 7.3 [1.0,39.6] tau43 1.1 lnZ -11.7 eta 0.021 [0.012,0.043]
+  [logT300] 250pc w=250 f=1.0: Tk 126 [63,223] (5%: 35) P(Tk>50)=0.90 P(Tk<=30)=0.033 log n 4.25 [3.38,4.88] tau32 7.7 [1.2,42.6] tau43 1.2 lnZ -11.8 eta 0.020 [0.012,0.039]
+--- B: separate eta_HCN, eta_HCO+ (flat ln each [1e-3,1]) vs shared; X(HCN/H13CN) -> tau43(HCN) < X*0.128
+  [logT300] shared eta: Tk 141 [71,223] (5%: 40) P(Tk>50)=0.92 P(Tk<=30)=0.029 log n 4.50 [3.62,5.00] tau32 3.4 [0.1,28.7] tau43 0.4 lnZ -11.5 
+  [logT300] separate eta, flat box: Tk 158 [79,223] (5%: 28) P(Tk>50)=0.91 P(Tk<=30)=0.056 log n 4.75 [3.88,5.00] tau32 0.6 [0.1,9.7] tau43 0.1 lnZ -12.6 
+  [logT300] separate eta, |ln q|<=ln10: Tk 158 [79,223] (5%: 25) P(Tk>50)=0.91 P(Tk<=30)=0.058 log n 4.75 [3.88,5.00] tau32 0.7 [0.1,10.5] tau43 0.1 lnZ -12.6 
+  [logT300] shared eta + H13CN X=30 (tau43<3.8): Tk 158 [89,223] (5%: 56) P(Tk>50)=0.96 P(Tk<=30)=0.018 log n 4.62 [4.00,5.00] tau32 1.5 [0.1,9.5] tau43 0.2 lnZ -11.7 
+  [logT300] separate eta, flat box + H13CN X=30 (tau43<3.8): Tk 158 [100,223] (5%: 45) P(Tk>50)=0.94 P(Tk<=30)=0.035 log n 4.75 [4.12,5.12] tau32 0.4 [0.0,3.8] tau43 0.0 lnZ -12.7 
+  [logT300] separate eta, |ln q|<=ln10 + H13CN X=30 (tau43<3.8): Tk 158 [100,223] (5%: 40) P(Tk>50)=0.94 P(Tk<=30)=0.035 log n 4.75 [4.12,5.12] tau32 0.5 [0.1,3.9] tau43 0.1 lnZ -12.7 
+  [logT300] shared eta + H13CN X=50 (tau43<6.4): Tk 158 [89,223] (5%: 50) P(Tk>50)=0.95 P(Tk<=30)=0.020 log n 4.62 [3.88,5.00] tau32 1.9 [0.1,12.1] tau43 0.2 lnZ -11.6 
+  [logT300] separate eta, flat box + H13CN X=50 (tau43<6.4): Tk 158 [89,223] (5%: 40) P(Tk>50)=0.94 P(Tk<=30)=0.038 log n 4.75 [4.12,5.12] tau32 0.4 [0.0,4.6] tau43 0.1 lnZ -12.6 
+  [logT300] separate eta, |ln q|<=ln10 + H13CN X=50 (tau43<6.4): Tk 158 [89,223] (5%: 40) P(Tk>50)=0.94 P(Tk<=30)=0.038 log n 4.75 [4.12,5.12] tau32 0.5 [0.1,4.9] tau43 0.1 lnZ -12.7 
+  [logT300] shared eta + H13CN X=100 (tau43<12.8): Tk 141 [89,223] (5%: 50) P(Tk>50)=0.95 P(Tk<=30)=0.021 log n 4.62 [3.75,5.00] tau32 2.4 [0.1,15.7] tau43 0.3 lnZ -11.6 
+  [logT300] separate eta, flat box + H13CN X=100 (tau43<12.8): Tk 158 [89,223] (5%: 35) P(Tk>50)=0.93 P(Tk<=30)=0.040 log n 4.75 [4.00,5.12] tau32 0.5 [0.0,5.7] tau43 0.1 lnZ -12.6 
+  [logT300] separate eta, |ln q|<=ln10 + H13CN X=100 (tau43<12.8): Tk 158 [89,223] (5%: 35) P(Tk>50)=0.93 P(Tk<=30)=0.040 log n 4.75 [4.00,5.12] tau32 0.6 [0.1,6.2] tau43 0.1 lnZ -12.7 
+  [logT300] separate eta + 250pc floor + H13CN X=50: Tk 141 [71,223] (5%: 28) P(Tk>50)=0.90 P(Tk<=30)=0.055 log n 4.62 [3.88,5.12] tau32 2.1 [0.4,9.6] tau43 0.3 lnZ -13.3 
+  [logT300] shared eta + 250pc floor + H13CN X=50: Tk 141 [79,223] (5%: 45) P(Tk>50)=0.94 P(Tk<=30)=0.021 log n 4.50 [3.75,4.88] tau32 3.9 [0.5,14.7] tau43 0.5 lnZ -11.9 
+--- C: cold (p0012 S-like 20-30 K) gas in the 10" aperture
+  shared eta [1e-3,1]: P(Tk<=30)=0.0288 (prior 0.420); Bayes factor cold/warm = 0.041
+  separate eta: P(Tk<=30)=0.0564 (prior 0.420); Bayes factor cold/warm = 0.082
+  eta=1 fixed: P(Tk<=30)=0.0204 (prior 0.420); Bayes factor cold/warm = 0.029
+  chi2(best eta in [0.001,1]): all-T min 0.09 (Tk 141); Tk=25 K min 3.52 (n 5.25, tau32 10.2, eta_best 0.010); Tk<=30 min 3.19
+  chi2(best eta in [0.05,1]): all-T min 0.48 (Tk 141); Tk=25 K min 36.53 (n 5.75, tau32 0.5, eta_best 0.050); Tk<=30 min 4.98
+  chi2(best eta in [0.3,1]): all-T min 0.61 (Tk 141); Tk=25 K min 48.90 (n 6.38, tau32 0.0, eta_best 0.363); Tk<=30 min 5.28
+--- D: column / mass of posterior branches (X(HCO+) 1e-9..1e-8; mu=2.8 per H2; D=40 Mpc; 10" beam area 4.26e+06 pc2)
+   baseline X=1e-09: eta 0.027; Sigma_beam 855 [321,5770] Msun/pc2; M(10") 3.6e+09 [1.4e+09,2.5e+10] Msun; P(Sigma>3e3)=0.26; P(>1e3)=0.46
+   baseline X=3e-09: eta 0.027; Sigma_beam 285 [107,1923] Msun/pc2; M(10") 1.2e+09 [4.6e+08,8.2e+09] Msun; P(Sigma>3e3)=0.10; P(>1e3)=0.26
+   baseline X=1e-08: eta 0.027; Sigma_beam 86 [32,577] Msun/pc2; M(10") 3.6e+08 [1.4e+08,2.5e+09] Msun; P(Sigma>3e3)=0.01; P(>1e3)=0.09
+   +H13CN X=50 X=1e-09: eta 0.034; Sigma_beam 651 [303,2797] Msun/pc2; M(10") 2.8e+09 [1.3e+09,1.2e+10] Msun; P(Sigma>3e3)=0.15; P(>1e3)=0.37
+   +H13CN X=50 X=3e-09: eta 0.034; Sigma_beam 217 [101,932] Msun/pc2; M(10") 9.3e+08 [4.3e+08,4.0e+09] Msun; P(Sigma>3e3)=0.02; P(>1e3)=0.15
+   +H13CN X=50 X=1e-08: eta 0.034; Sigma_beam 65 [30,280] Msun/pc2; M(10") 2.8e+08 [1.3e+08,1.2e+09] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.01
+   250pc floor X=1e-09: eta 0.022; Sigma_beam 1213 [397,7003] Msun/pc2; M(10") 5.2e+09 [1.7e+09,3.0e+10] Msun; P(Sigma>3e3)=0.32; P(>1e3)=0.55
+   250pc floor X=3e-09: eta 0.022; Sigma_beam 404 [132,2334] Msun/pc2; M(10") 1.7e+09 [5.6e+08,1.0e+10] Msun; P(Sigma>3e3)=0.12; P(>1e3)=0.32
+   250pc floor X=1e-08: eta 0.022; Sigma_beam 121 [40,700] Msun/pc2; M(10") 5.2e+08 [1.7e+08,3.0e+09] Msun; P(Sigma>3e3)=0.01; P(>1e3)=0.10
+   49pc floor X=1e-09: eta 0.015; Sigma_beam 2000 [591,10092] Msun/pc2; M(10") 8.5e+09 [2.5e+09,4.3e+10] Msun; P(Sigma>3e3)=0.42; P(>1e3)=0.68
+   49pc floor X=3e-09: eta 0.015; Sigma_beam 667 [197,3364] Msun/pc2; M(10") 2.8e+09 [8.4e+08,1.4e+10] Msun; P(Sigma>3e3)=0.18; P(>1e3)=0.42
+   49pc floor X=1e-08: eta 0.015; Sigma_beam 200 [59,1009] Msun/pc2; M(10") 8.5e+08 [2.5e+08,4.3e+09] Msun; P(Sigma>3e3)=0.02; P(>1e3)=0.16
+   eta=1 X=1e-09: eta 1.000; Sigma_beam 356 [224,564] Msun/pc2; M(10") 1.5e+09 [9.6e+08,2.4e+09] Msun; P(Sigma>3e3)=0.01; P(>1e3)=0.04
+   eta=1 X=3e-09: eta 1.000; Sigma_beam 119 [75,188] Msun/pc2; M(10") 5.1e+08 [3.2e+08,8.0e+08] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.01
+   eta=1 X=1e-08: eta 1.000; Sigma_beam 36 [22,56] Msun/pc2; M(10") 1.5e+08 [9.6e+07,2.4e+08] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.00
+
+########## Bridge: 10" ladder HCN/HCO+ 2-1,3-2,4-3 (K km/s) = [13.4, 5.12, 1.68, 22.73, 11.21, 5.01]
+--- A: floor sensitivity (shared eta flat ln [1e-3,1]); T_R,peak=I/(1.0645 w); require model T_R(3-2, both) >= f x T_b
+  [logT300] no floor: Tk 141 [56,223] (5%: 32) P(Tk>50)=0.88 P(Tk<=30)=0.049 log n 4.50 [3.50,5.00] tau32 5.7 [0.1,48.7] tau43 0.9 lnZ -11.5 
+ floor 49pc: T_b HCN/HCO+ 3-2 = 1.13/1.87 K
+  [logT300] 49pc w=100 f=0.7: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.85 P(Tk<=30)=0.058 log n 4.25 [3.38,4.88] tau32 11.4 [2.0,77.0] tau43 2.3 lnZ -11.7 eta 0.018 [0.011,0.033]
+  [logT300] 49pc w=100 f=0.85: Tk 112 [50,199] (5%: 28) P(Tk>50)=0.85 P(Tk<=30)=0.059 log n 4.25 [3.38,4.88] tau32 12.1 [2.3,78.8] tau43 2.6 lnZ -11.8 eta 0.017 [0.011,0.030]
+  [logT300] 49pc w=100 f=1.0: Tk 112 [45,199] (5%: 28) P(Tk>50)=0.84 P(Tk<=30)=0.061 log n 4.25 [3.38,4.88] tau32 12.5 [2.8,94.7] tau43 2.8 lnZ -11.8 eta 0.017 [0.010,0.028]
+  [logT300] 49pc w=150 f=0.7: Tk 112 [45,199] (5%: 28) P(Tk>50)=0.84 P(Tk<=30)=0.061 log n 4.25 [3.38,4.88] tau32 12.7 [2.9,95.2] tau43 2.9 lnZ -11.8 eta 0.017 [0.010,0.027]
+  [logT300] 49pc w=150 f=0.85: Tk 100 [45,199] (5%: 28) P(Tk>50)=0.83 P(Tk<=30)=0.064 log n 4.25 [3.38,4.88] tau32 15.0 [3.6,98.0] tau43 3.3 lnZ -11.9 eta 0.016 [0.010,0.025]
+  [logT300] 49pc w=150 f=1.0: Tk 100 [45,178] (5%: 28) P(Tk>50)=0.82 P(Tk<=30)=0.068 log n 4.12 [3.38,4.88] tau32 15.7 [4.2,117.6] tau43 3.9 lnZ -12.0 eta 0.015 [0.010,0.023]
+  [logT300] 49pc w=200 f=0.7: Tk 100 [45,178] (5%: 28) P(Tk>50)=0.82 P(Tk<=30)=0.066 log n 4.12 [3.38,4.88] tau32 15.4 [3.9,99.7] tau43 3.7 lnZ -11.9 eta 0.015 [0.010,0.023]
+  [logT300] 49pc w=200 f=0.85: Tk 89 [40,178] (5%: 28) P(Tk>50)=0.80 P(Tk<=30)=0.072 log n 4.12 [3.38,4.88] tau32 18.7 [4.8,121.4] tau43 4.5 lnZ -12.1 eta 0.014 [0.010,0.021]
+  [logT300] 49pc w=200 f=1.0: Tk 89 [40,178] (5%: 25) P(Tk>50)=0.78 P(Tk<=30)=0.080 log n 4.12 [3.25,4.88] tau32 20.0 [5.8,151.1] tau43 5.6 lnZ -12.2 eta 0.014 [0.010,0.019]
+  [logT300] 49pc w=250 f=0.7: Tk 89 [40,178] (5%: 25) P(Tk>50)=0.80 P(Tk<=30)=0.073 log n 4.12 [3.38,4.88] tau32 18.9 [4.9,121.9] tau43 4.6 lnZ -12.1 eta 0.014 [0.010,0.021]
+  [logT300] 49pc w=250 f=0.85: Tk 79 [40,158] (5%: 25) P(Tk>50)=0.77 P(Tk<=30)=0.084 log n 4.12 [3.25,4.88] tau32 23.3 [6.1,152.5] tau43 6.2 lnZ -12.2 eta 0.013 [0.010,0.018]
+  [logT300] 49pc w=250 f=1.0: Tk 71 [35,158] (5%: 25) P(Tk>50)=0.73 P(Tk<=30)=0.098 log n 4.00 [3.25,4.88] tau32 29.9 [7.6,192.5] tau43 8.3 lnZ -12.4 eta 0.012 [0.009,0.016]
+ floor 250pc: T_b HCN/HCO+ 3-2 = 0.28/0.56 K
+  [logT300] 250pc w=100 f=0.7: Tk 126 [56,223] (5%: 28) P(Tk>50)=0.87 P(Tk<=30)=0.053 log n 4.38 [3.50,5.00] tau32 7.8 [0.5,60.8] tau43 1.5 lnZ -11.6 eta 0.020 [0.011,0.057]
+  [logT300] 250pc w=100 f=0.85: Tk 126 [56,223] (5%: 28) P(Tk>50)=0.87 P(Tk<=30)=0.053 log n 4.38 [3.50,5.00] tau32 8.0 [0.6,61.2] tau43 1.5 lnZ -11.6 eta 0.020 [0.011,0.052]
+  [logT300] 250pc w=100 f=1.0: Tk 126 [50,223] (5%: 28) P(Tk>50)=0.87 P(Tk<=30)=0.054 log n 4.38 [3.50,4.88] tau32 8.5 [0.8,62.2] tau43 1.6 lnZ -11.6 eta 0.020 [0.011,0.048]
+  [logT300] 250pc w=150 f=0.7: Tk 126 [50,223] (5%: 28) P(Tk>50)=0.87 P(Tk<=30)=0.054 log n 4.38 [3.50,4.88] tau32 8.7 [0.8,62.5] tau43 1.6 lnZ -11.6 eta 0.019 [0.011,0.048]
+  [logT300] 250pc w=150 f=0.85: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.054 log n 4.38 [3.50,4.88] tau32 9.2 [0.9,71.2] tau43 1.8 lnZ -11.6 eta 0.019 [0.011,0.043]
+  [logT300] 250pc w=150 f=1.0: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.055 log n 4.38 [3.50,4.88] tau32 9.6 [1.1,73.1] tau43 1.8 lnZ -11.7 eta 0.019 [0.011,0.042]
+  [logT300] 250pc w=200 f=0.7: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.055 log n 4.38 [3.50,4.88] tau32 9.4 [1.0,72.2] tau43 1.8 lnZ -11.6 eta 0.019 [0.011,0.042]
+  [logT300] 250pc w=200 f=0.85: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.055 log n 4.38 [3.50,4.88] tau32 9.7 [1.2,73.9] tau43 1.9 lnZ -11.7 eta 0.019 [0.011,0.039]
+  [logT300] 250pc w=200 f=1.0: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.056 log n 4.25 [3.50,4.88] tau32 10.0 [1.4,75.0] tau43 2.0 lnZ -11.7 eta 0.018 [0.011,0.037]
+  [logT300] 250pc w=250 f=0.7: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.055 log n 4.38 [3.50,4.88] tau32 9.8 [1.3,74.3] tau43 1.9 lnZ -11.7 eta 0.019 [0.011,0.038]
+  [logT300] 250pc w=250 f=0.85: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.86 P(Tk<=30)=0.056 log n 4.25 [3.50,4.88] tau32 10.0 [1.5,75.2] tau43 2.1 lnZ -11.7 eta 0.018 [0.011,0.036]
+  [logT300] 250pc w=250 f=1.0: Tk 126 [50,199] (5%: 28) P(Tk>50)=0.85 P(Tk<=30)=0.057 log n 4.25 [3.38,4.88] tau32 10.7 [1.7,75.6] tau43 2.2 lnZ -11.7 eta 0.018 [0.011,0.034]
+--- B: separate eta_HCN, eta_HCO+ (flat ln each [1e-3,1]) vs shared; X(HCN/H13CN) -> tau43(HCN) < X*0.128
+  [logT300] shared eta: Tk 141 [56,223] (5%: 32) P(Tk>50)=0.88 P(Tk<=30)=0.049 log n 4.50 [3.50,5.00] tau32 5.7 [0.1,48.7] tau43 0.9 lnZ -11.5 
+  [logT300] separate eta, flat box: Tk 158 [71,251] (5%: 20) P(Tk>50)=0.89 P(Tk<=30)=0.073 log n 4.75 [4.00,5.12] tau32 0.8 [0.1,13.1] tau43 0.1 lnZ -12.6 
+  [logT300] separate eta, |ln q|<=ln10: Tk 158 [63,223] (5%: 20) P(Tk>50)=0.88 P(Tk<=30)=0.074 log n 4.75 [4.00,5.12] tau32 0.9 [0.1,14.8] tau43 0.1 lnZ -12.7 
+  [logT300] shared eta + H13CN X=30 (tau43<3.8): Tk 158 [89,223] (5%: 45) P(Tk>50)=0.95 P(Tk<=30)=0.027 log n 4.75 [4.12,5.00] tau32 1.7 [0.1,9.5] tau43 0.2 lnZ -11.8 
+  [logT300] separate eta, flat box + H13CN X=30 (tau43<3.8): Tk 178 [89,251] (5%: 35) P(Tk>50)=0.93 P(Tk<=30)=0.045 log n 4.88 [4.38,5.12] tau32 0.5 [0.1,3.9] tau43 0.1 lnZ -12.8 
+  [logT300] separate eta, |ln q|<=ln10 + H13CN X=30 (tau43<3.8): Tk 158 [89,251] (5%: 32) P(Tk>50)=0.93 P(Tk<=30)=0.046 log n 4.88 [4.25,5.12] tau32 0.5 [0.1,4.1] tau43 0.1 lnZ -12.8 
+  [logT300] shared eta + H13CN X=50 (tau43<6.4): Tk 158 [79,223] (5%: 40) P(Tk>50)=0.94 P(Tk<=30)=0.031 log n 4.75 [4.00,5.00] tau32 2.3 [0.1,12.2] tau43 0.3 lnZ -11.7 
+  [logT300] separate eta, flat box + H13CN X=50 (tau43<6.4): Tk 158 [89,251] (5%: 32) P(Tk>50)=0.93 P(Tk<=30)=0.049 log n 4.88 [4.25,5.12] tau32 0.5 [0.1,4.9] tau43 0.1 lnZ -12.7 
+  [logT300] separate eta, |ln q|<=ln10 + H13CN X=50 (tau43<6.4): Tk 158 [89,251] (5%: 32) P(Tk>50)=0.92 P(Tk<=30)=0.049 log n 4.88 [4.25,5.12] tau32 0.6 [0.1,5.1] tau43 0.1 lnZ -12.8 
+  [logT300] shared eta + H13CN X=100 (tau43<12.8): Tk 158 [79,223] (5%: 40) P(Tk>50)=0.93 P(Tk<=30)=0.032 log n 4.62 [3.88,5.00] tau32 3.1 [0.1,16.9] tau43 0.5 lnZ -11.6 
+  [logT300] separate eta, flat box + H13CN X=100 (tau43<12.8): Tk 158 [89,251] (5%: 28) P(Tk>50)=0.92 P(Tk<=30)=0.051 log n 4.88 [4.12,5.12] tau32 0.6 [0.1,6.3] tau43 0.1 lnZ -12.7 
+  [logT300] separate eta, |ln q|<=ln10 + H13CN X=100 (tau43<12.8): Tk 158 [79,251] (5%: 28) P(Tk>50)=0.92 P(Tk<=30)=0.052 log n 4.88 [4.12,5.12] tau32 0.7 [0.1,6.9] tau43 0.1 lnZ -12.8 
+  [logT300] separate eta + 250pc floor + H13CN X=50: Tk 141 [63,223] (5%: 22) P(Tk>50)=0.88 P(Tk<=30)=0.069 log n 4.75 [4.00,5.12] tau32 2.4 [0.5,9.8] tau43 0.4 lnZ -13.4 
+  [logT300] shared eta + 250pc floor + H13CN X=50: Tk 141 [71,223] (5%: 35) P(Tk>50)=0.92 P(Tk<=30)=0.033 log n 4.62 [4.00,5.00] tau32 4.6 [0.6,14.7] tau43 0.7 lnZ -12.0 
+--- C: cold (p0012 S-like 20-30 K) gas in the 10" aperture
+  shared eta [1e-3,1]: P(Tk<=30)=0.0493 (prior 0.420); Bayes factor cold/warm = 0.071
+  separate eta: P(Tk<=30)=0.0727 (prior 0.420); Bayes factor cold/warm = 0.108
+  eta=1 fixed: P(Tk<=30)=0.0250 (prior 0.420); Bayes factor cold/warm = 0.035
+  chi2(best eta in [0.001,1]): all-T min 0.11 (Tk 158); Tk=25 K min 3.06 (n 5.25, tau32 12.5, eta_best 0.010); Tk<=30 min 2.85
+  chi2(best eta in [0.05,1]): all-T min 0.53 (Tk 158); Tk=25 K min 36.12 (n 5.75, tau32 0.7, eta_best 0.050); Tk<=30 min 4.35
+  chi2(best eta in [0.3,1]): all-T min 0.68 (Tk 158); Tk=25 K min 48.54 (n 6.25, tau32 0.0, eta_best 0.341); Tk<=30 min 4.48
+--- D: column / mass of posterior branches (X(HCO+) 1e-9..1e-8; mu=2.8 per H2; D=40 Mpc; 10" beam area 4.26e+06 pc2)
+   baseline X=1e-09: eta 0.023; Sigma_beam 961 [335,7548] Msun/pc2; M(10") 4.1e+09 [1.4e+09,3.2e+10] Msun; P(Sigma>3e3)=0.30; P(>1e3)=0.49
+   baseline X=3e-09: eta 0.023; Sigma_beam 320 [112,2516] Msun/pc2; M(10") 1.4e+09 [4.8e+08,1.1e+10] Msun; P(Sigma>3e3)=0.14; P(>1e3)=0.30
+   baseline X=1e-08: eta 0.023; Sigma_beam 96 [33,755] Msun/pc2; M(10") 4.1e+08 [1.4e+08,3.2e+09] Msun; P(Sigma>3e3)=0.02; P(>1e3)=0.12
+   +H13CN X=50 X=1e-09: eta 0.031; Sigma_beam 630 [309,2333] Msun/pc2; M(10") 2.7e+09 [1.3e+09,1.0e+10] Msun; P(Sigma>3e3)=0.12; P(>1e3)=0.34
+   +H13CN X=50 X=3e-09: eta 0.031; Sigma_beam 210 [103,778] Msun/pc2; M(10") 9.0e+08 [4.4e+08,3.3e+09] Msun; P(Sigma>3e3)=0.01; P(>1e3)=0.12
+   +H13CN X=50 X=1e-08: eta 0.031; Sigma_beam 63 [31,233] Msun/pc2; M(10") 2.7e+08 [1.3e+08,1.0e+09] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.01
+   250pc floor X=1e-09: eta 0.019; Sigma_beam 1427 [430,9241] Msun/pc2; M(10") 6.1e+09 [1.8e+09,3.9e+10] Msun; P(Sigma>3e3)=0.36; P(>1e3)=0.58
+   250pc floor X=3e-09: eta 0.019; Sigma_beam 476 [143,3080] Msun/pc2; M(10") 2.0e+09 [6.1e+08,1.3e+10] Msun; P(Sigma>3e3)=0.16; P(>1e3)=0.36
+   250pc floor X=1e-08: eta 0.019; Sigma_beam 143 [43,924] Msun/pc2; M(10") 6.1e+08 [1.8e+08,3.9e+09] Msun; P(Sigma>3e3)=0.03; P(>1e3)=0.15
+   49pc floor X=1e-09: eta 0.016; Sigma_beam 2149 [593,11884] Msun/pc2; M(10") 9.2e+09 [2.5e+09,5.1e+10] Msun; P(Sigma>3e3)=0.43; P(>1e3)=0.69
+   49pc floor X=3e-09: eta 0.016; Sigma_beam 716 [198,3961] Msun/pc2; M(10") 3.1e+09 [8.4e+08,1.7e+10] Msun; P(Sigma>3e3)=0.21; P(>1e3)=0.43
+   49pc floor X=1e-08: eta 0.016; Sigma_beam 215 [59,1188] Msun/pc2; M(10") 9.2e+08 [2.5e+08,5.1e+09] Msun; P(Sigma>3e3)=0.04; P(>1e3)=0.19
+   eta=1 X=1e-09: eta 1.000; Sigma_beam 356 [224,448] Msun/pc2; M(10") 1.5e+09 [9.6e+08,1.9e+09] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.03
+   eta=1 X=3e-09: eta 1.000; Sigma_beam 119 [75,149] Msun/pc2; M(10") 5.1e+08 [3.2e+08,6.4e+08] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.00
+   eta=1 X=1e-08: eta 1.000; Sigma_beam 36 [22,45] Msun/pc2; M(10") 1.5e+08 [9.6e+07,1.9e+08] Msun; P(Sigma>3e3)=0.00; P(>1e3)=0.00
+
+########## dust: Xb47 346.5 GHz continuum smoothed to 10" (all continuum = dust => upper bound; kappa_gas=0.1(nu/1THz)^1.5 cm2/g, factor 3)
+  N Td=30: Tb(10")=0.007 K tau=0.0003 Sigma_dust<=75 Msun/pc2 M(10")<=3.2e+08 Msun
+  N Td=50: Tb(10")=0.007 K tau=0.0002 Sigma_dust<=40 Msun/pc2 M(10")<=1.7e+08 Msun
+  N Td=100: Tb(10")=0.007 K tau=0.0001 Sigma_dust<=18 Msun/pc2 M(10")<=7.8e+07 Msun
+  S Td=30: Tb(10")=0.006 K tau=0.0003 Sigma_dust<=59 Msun/pc2 M(10")<=2.5e+08 Msun
+  S Td=50: Tb(10")=0.006 K tau=0.0001 Sigma_dust<=31 Msun/pc2 M(10")<=1.3e+08 Msun
+  S Td=100: Tb(10")=0.006 K tau=0.0001 Sigma_dust<=14 Msun/pc2 M(10")<=6.1e+07 Msun
+  Bridge Td=30: Tb(10")=0.007 K tau=0.0003 Sigma_dust<=77 Msun/pc2 M(10")<=3.3e+08 Msun
+  Bridge Td=50: Tb(10")=0.007 K tau=0.0002 Sigma_dust<=41 Msun/pc2 M(10")<=1.7e+08 Msun
+  Bridge Td=100: Tb(10")=0.007 K tau=0.0001 Sigma_dust<=19 Msun/pc2 M(10")<=8.0e+07 Msun

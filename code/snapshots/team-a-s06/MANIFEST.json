@@ -1,0 +1,31 @@
+{
+ "team": "team-a",
+ "item": "Q9",
+ "files": [
+  "scripts/q9b_lib.py",
+  "scripts/q9b_windows.py",
+  "scripts/q9b_beam.py",
+  "scripts/q9b_ladder.py",
+  "scripts/q9b_radex.py",
+  "scripts/q9b_tb.py",
+  "scripts/build_report_q9b.py",
+  "out/q9b/beam.log",
+  "out/q9b/beam_slopes.csv",
+  "out/q9b/centroids.csv",
+  "out/q9b/injection.csv",
+  "out/q9b/centre_shift.csv",
+  "out/q9b/ladder.log",
+  "out/q9b/ladder_bins.csv",
+  "out/q9b/ladder_fit.csv",
+  "out/q9b/radex.log",
+  "out/q9b/radex_allowed.csv",
+  "out/q9b/radex_grid_ratios.csv",
+  "out/q9b/tb.log",
+  "out/q9b/tb_peaks.csv",
+  "out/q9b/tb_scatter.png",
+  "out/q9b/windows.csv",
+  "out/q9b/windows.log",
+  "out/inband_lines_curated.csv",
+  "TEAM_REPORT.json"
+ ]
+}

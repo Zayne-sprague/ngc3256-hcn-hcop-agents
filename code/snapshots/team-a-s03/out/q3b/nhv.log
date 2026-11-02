@@ -1,0 +1,52 @@
+== N high-velocity windows (LOS velocity relative to v_N=2777; baseline: linear fit to line-free channels; sigma = robust scatter of the same absolute-velocity window over off-source apertures)
+                      ap line side     win   v_lo      v_hi  I_JybeamKms  offsrc_mean  offsrc_sigma  n_off     snr  lim3_JybeamKms  lim3_over_core
+                N (r=1")  HCN blue 225-350 2427.0 2552.0000      -0.0317      -0.0002        0.0266     27 -1.1851          0.0797          0.0195
+                N (r=1")  HCN blue 350-750 2027.0 2427.0000      -0.0818       0.0002        0.0485     27 -1.6898          0.1455          0.0356
+                N (r=1")  HCN  red 225-350 3002.0 3127.0000      -0.0230      -0.0065        0.0227     27 -0.7260          0.0680          0.0166
+                N (r=1")  HCN  red 350-750 3127.0 3470.6495      -0.1309      -0.0046        0.0812     27 -1.5560          0.2435          0.0595
+                N (r=1") HCO+ blue 225-350 2427.0 2552.0000      -0.0236       0.0011        0.0205     27 -1.2036          0.0615          0.0109
+                N (r=1") HCO+ blue 350-750 2027.0 2427.0000      -0.0457      -0.0025        0.0555     27 -0.7769          0.1666          0.0296
+                N (r=1") HCO+  red 225-350 3002.0 3127.0000      -0.0116       0.0009        0.0441     27 -0.2846          0.1324          0.0235
+                N (r=1") HCO+  red 350-750 3127.0 3352.6948      -0.0661       0.0006        0.0891     27 -0.7476          0.2674          0.0475
+              N (r=1.5")  HCN blue 225-350 2427.0 2552.0000      -0.0170      -0.0013        0.0183     15 -0.8621          0.0548          0.0207
+              N (r=1.5")  HCN blue 350-750 2027.0 2427.0000      -0.0435      -0.0040        0.0343     15 -1.1541          0.1028          0.0388
+              N (r=1.5")  HCN  red 225-350 3002.0 3127.0000      -0.0039      -0.0063        0.0263     15  0.0910          0.0790          0.0298
+              N (r=1.5")  HCN  red 350-750 3127.0 3470.6495      -0.0788      -0.0112        0.0957     15 -0.7071          0.2870          0.1083
+              N (r=1.5") HCO+ blue 225-350 2427.0 2552.0000      -0.0218       0.0012        0.0174     15 -1.3240          0.0521          0.0132
+              N (r=1.5") HCO+ blue 350-750 2027.0 2427.0000      -0.0344      -0.0085        0.0240     15 -1.0787          0.0720          0.0182
+              N (r=1.5") HCO+  red 225-350 3002.0 3127.0000      -0.0116      -0.0008        0.0169     15 -0.6431          0.0506          0.0128
+              N (r=1.5") HCO+  red 350-750 3127.0 3352.6948      -0.0641      -0.0022        0.0264     15 -2.3417          0.0793          0.0201
+M18 North-OF-Blue (r=1")  HCN blue 225-350 2427.0 2552.0000       0.0549      -0.0002        0.0266     27  2.0761          0.0797          0.5144
+M18 North-OF-Blue (r=1")  HCN blue 350-750 2027.0 2427.0000       0.0893       0.0002        0.0485     27  1.8387          0.1455          0.9397
+M18 North-OF-Blue (r=1")  HCN  red 225-350 3002.0 3127.0000       0.0689      -0.0065        0.0227     27  3.3278          0.0680          0.4391
+M18 North-OF-Blue (r=1")  HCN  red 350-750 3127.0 3470.6495       0.2212      -0.0046        0.0812     27  2.7810          0.2435          1.5726
+M18 North-OF-Blue (r=1") HCO+ blue 225-350 2427.0 2552.0000       0.0327       0.0011        0.0205     27  1.5428          0.0615          0.2359
+M18 North-OF-Blue (r=1") HCO+ blue 350-750 2027.0 2427.0000       0.0158      -0.0025        0.0555     27  0.3309          0.1666          0.6388
+M18 North-OF-Blue (r=1") HCO+  red 225-350 3002.0 3127.0000       0.0415       0.0009        0.0441     27  0.9206          0.1324          0.5075
+M18 North-OF-Blue (r=1") HCO+  red 350-750 3127.0 3352.6948       0.0840       0.0006        0.0891     27  0.9355          0.2674          1.0253
+== stack of N(r=1") and M18 North-OF-Blue (r=1")
+line side     win  mean_corr  sigma     snr   lim3
+ HCN blue 225-350     0.0118 0.0188  0.6300 0.0563
+ HCN blue 350-750     0.0036 0.0343  0.1053 0.1029
+ HCN  red 225-350     0.0295 0.0160  1.8397 0.0481
+ HCN  red 350-750     0.0497 0.0574  0.8662 0.1722
+HCO+ blue 225-350     0.0035 0.0145  0.2398 0.0435
+HCO+ blue 350-750    -0.0124 0.0393 -0.3154 0.1178
+HCO+  red 225-350     0.0140 0.0312  0.4497 0.0936
+HCO+  red 350-750     0.0084 0.0630  0.1329 0.1891
+== dense-gas mass limits at N (3 sigma, HCN 3-2, r=1.5", 350-750 km/s windows; blue and red separately)
+HCN blue 350-750: S<0.582 Jy km/s, L'(3-2)<4.24e+05 K km/s pc2; M_dense < 1.3e+06 (alpha=3, r31=1) .. 1.4e+07 Msun (alpha=10, r31=0.3); fraction of CO HV mass 6e7*X20 (X20=1): 0.02..0.24; with X20=0.5: 0.04..0.47; wing/core flux <0.039
+HCN red 350-750: S<1.624 Jy km/s, L'(3-2)<1.18e+06 K km/s pc2; M_dense < 3.6e+06 (alpha=3, r31=1) .. 3.9e+07 Msun (alpha=10, r31=0.3); fraction of CO HV mass 6e7*X20 (X20=1): 0.06..0.66; with X20=0.5: 0.12..1.31; wing/core flux <0.108
+
+== Soutflow blue lobe dense-gas luminosity and mass (HCN, HCO+; box -1.7<dRA<1.3, -6.0<dDec<-3.3; blue half = v_loc-400..v_loc-100 with v_loc=2711; also the 200-450 km/s blue range of the earlier analysis)
+                       win line  S_Jykms     eS        Lp32
+blue half (vloc-400..-100)  HCN   0.7790 0.0301 567737.6444
+blue half (vloc-400..-100) HCO+   0.4372 0.0150 314680.1093
+       2300-2575 (earlier)  HCN   0.6033 0.0357 439634.7431
+       2300-2575 (earlier) HCO+   0.2976 0.0099 214196.9543
+
+Dense mass ranges for the blue lobe, alpha 3-10 Msun/(K km/s pc2) (Gao & Solomon 2004: 10 for virialised cores; 3 as outflow-like lower value, cf. Garcia-Burillo+2012), two routes:
+HCN: L'(1-0)(M18)=4.59e+05+-1.3e+05; L'(3-2) blue half=5.68e+05; implied r31=1.24 (2.1" M18 beam vs our box: differing apertures, M18 zero velocity unknown -> +-50%); M_dense route A (M18 1-0 x alpha 3..10) = 1.4e+06..4.6e+06; route B (3-2 only, r31 0.3..1) = 1.7e+06..1.9e+07 Msun
+HCO+: L'(1-0)(M18)=6.48e+05+-1.3e+05; L'(3-2) blue half=3.15e+05; implied r31=0.49 (2.1" M18 beam vs our box: differing apertures, M18 zero velocity unknown -> +-50%); M_dense route A (M18 1-0 x alpha 3..10) = 1.9e+06..6.5e+06; route B (3-2 only, r31 0.3..1) = 9.4e+05..1.0e+07 Msun
+dense/CO fraction vs S outflow HV CO mass 2.5e7 X20, X20=1: HCN route A 0.06..0.18; route B 0.07..0.76. NB the CO mass is for the whole S outflow (both lobes, all velocities, >~ 260 km/s deprojected) while the HCN lobe is only the blue half within the box, so these fractions are only indicative (velocity-window/aperture factor ~2).
+dense/CO fraction vs with alpha_CO halved (Pereira-Santaella+2024, X20=0.5): HCN route A 0.11..0.37; route B 0.14..1.51. NB the CO mass is for the whole S outflow (both lobes, all velocities, >~ 260 km/s deprojected) while the HCN lobe is only the blue half within the box, so these fractions are only indicative (velocity-window/aperture factor ~2).

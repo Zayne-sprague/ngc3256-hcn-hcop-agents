@@ -1,0 +1,1 @@
+S gen=2p nrep=24: chi2_2p mean 8.8 [4.0,15.0] (obs 5.7; frac sims with chi2_2p>=obs 0.75); chi2_1s mean 35.0 (obs 40.0); Dchi2=1s-2p mean 26.3 95% 40.0 max 41.0 (obs 34.3; P(sim>=obs) 0.167)

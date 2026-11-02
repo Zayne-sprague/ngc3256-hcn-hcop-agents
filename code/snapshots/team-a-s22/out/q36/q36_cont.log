@@ -1,0 +1,14 @@
+ 10.5" B5    170.7 GHz N:   20.92 mJy/beam  Tb_RJ=    7.96 mK
+ 10.5" B5    170.7 GHz S:   18.74 mJy/beam  Tb_RJ=    7.13 mK
+ 10.5" B6f   257.7 GHz N:   37.54 mJy/beam  Tb_RJ=    6.27 mK
+ 10.5" B6f   257.7 GHz S:   31.61 mJy/beam  Tb_RJ=    5.28 mK
+ 10.5" B7    346.5 GHz N:   72.37 mJy/beam  Tb_RJ=    6.68 mK
+ 10.5" B7    346.5 GHz S:   57.94 mJy/beam  Tb_RJ=    5.35 mK
+  6.5" B6f   257.7 GHz N:   25.60 mJy/beam  Tb_RJ=   11.15 mK
+  6.5" B6f   257.7 GHz S:   19.79 mJy/beam  Tb_RJ=    8.62 mK
+  6.5" B7    346.5 GHz N:   55.91 mJy/beam  Tb_RJ=   13.47 mK
+  6.5" B7    346.5 GHz S:   38.21 mJy/beam  Tb_RJ=    9.21 mK
+native B6b 0.24x0.23" N: peak 0.561 mJy/beam Tb_RJ=0.179 K
+native B6b 0.24x0.23" S: peak 1.853 mJy/beam Tb_RJ=0.593 K
+native B6d 0.94x0.74" N: peak 3.594 mJy/beam Tb_RJ=0.094 K
+native B6d 0.94x0.74" S: peak 4.257 mJy/beam Tb_RJ=0.112 K

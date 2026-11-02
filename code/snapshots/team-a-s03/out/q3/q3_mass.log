@@ -1,0 +1,11 @@
+   line   S_Jykms        eS    Lprime_3to2            eL    r31     e_r31    Lprime_1to0   Mdense_Msun      e_M_stat                             note         I         e      core  lim3_over_core
+0   HCN  0.485153  0.066576  353534.387621  48514.703934  0.602  0.229404  587266.424620  5.872664e+06  2.378579e+06                              NaN       NaN       NaN       NaN             NaN
+1   HCN       NaN       NaN            NaN           NaN    NaN       NaN            NaN           NaN           NaN  N wing blue 200-350 native Xb4d  0.004446  0.017536  5.296966        0.009932
+2   HCN       NaN       NaN            NaN           NaN    NaN       NaN            NaN           NaN           NaN   N wing red 200-350 native Xb4d  0.026567  0.017536  5.296966        0.009932
+3  HCO+  0.261327  0.085243  188059.773940  61343.902134  0.308  0.147597  610583.681624  6.105837e+06  3.539526e+06                              NaN       NaN       NaN       NaN             NaN
+4  HCO+       NaN       NaN            NaN           NaN    NaN       NaN            NaN           NaN           NaN  N wing blue 200-350 native Xb4d -0.036064  0.042731  6.120423        0.020945
+5  HCO+       NaN       NaN            NaN           NaN    NaN       NaN            NaN           NaN           NaN   N wing red 200-350 native Xb4d  0.041641  0.042731  6.120423        0.020945
+M18 South-OF-Blue [np.float64(-0.65), -4.83]
+M18 OF-Red [np.float64(-0.33), 0.96]
+M18 North-OF-Blue [np.float64(-2.27), 3.48]
+Soutflow [-0.21, -4.48]

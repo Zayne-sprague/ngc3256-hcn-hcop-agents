@@ -1,0 +1,75 @@
+== N-S cut at x=-0.2" (1" wide), per 0.45" step: centroid, dispersion (flux-weighted, 3sigma-clipped, 30 km/s smoothed), red edge (25% of peak), blue edge, peak velocity
+                  sd        vblue25              vm           vpeak          vred25        
+line             HCN   HCO+     HCN    HCO+     HCN    HCO+     HCN    HCO+     HCN    HCO+
+y                                                                                          
+-6.750000e+00   10.0    NaN     NaN     NaN  3051.0     NaN     NaN     NaN     NaN     NaN
+-6.300000e+00   13.0    NaN     NaN     NaN  3058.0     NaN     NaN     NaN     NaN     NaN
+-5.850000e+00   99.0    NaN  2607.0     NaN  2607.0     NaN  2673.0     NaN  2739.0     NaN
+-5.400000e+00  130.0   98.0  2435.0  2757.0  2655.0  2664.0  2572.0  2814.0  2858.0  2841.0
+-4.950000e+00  143.0  149.0  2347.0  2508.0  2629.0  2696.0  2810.0  2819.0  2872.0  2867.0
+-4.500000e+00  147.0  135.0  2352.0  2499.0  2629.0  2683.0  2801.0  2819.0  2872.0  2867.0
+-4.050000e+00  135.0  101.0  2418.0  2569.0  2654.0  2714.0  2801.0  2810.0  2867.0  2862.0
+-3.600000e+00  107.0   78.0  2603.0  2652.0  2720.0  2754.0  2810.0  2819.0  2872.0  2871.0
+-3.150000e+00  109.0   72.0  2643.0  2648.0  2748.0  2764.0  2726.0  2827.0  2885.0  2880.0
+-2.700000e+00   80.0   73.0  2647.0  2648.0  2754.0  2758.0  2722.0  2722.0  2876.0  2880.0
+-2.250000e+00   72.0   72.0  2656.0  2652.0  2756.0  2753.0  2717.0  2718.0  2867.0  2871.0
+-1.800000e+00   71.0   69.0  2660.0  2657.0  2765.0  2755.0  2717.0  2718.0  2872.0  2867.0
+-1.350000e+00   67.0   55.0  2665.0  2665.0  2763.0  2754.0  2722.0  2727.0  2850.0  2845.0
+-9.000000e-01  127.0   43.0  2665.0  2670.0  2798.0  2751.0  2761.0  2753.0  2819.0  2823.0
+-4.500000e-01  114.0   48.0  2687.0  2692.0  2799.0  2762.0  2766.0  2766.0  2823.0  2823.0
+ 2.664535e-15   97.0   47.0  2717.0  2714.0  2797.0  2772.0  2779.0  2775.0  2832.0  2832.0
+ 4.500000e-01  100.0   43.0  2731.0  2727.0  2820.0  2782.0  2779.0  2779.0  2836.0  2836.0
+ 9.000000e-01  119.0   64.0  2713.0  2718.0  2845.0  2788.0  2770.0  2775.0  2841.0  2832.0
+ 1.350000e+00  101.0   50.0  2682.0  2692.0  2791.0  2762.0  2753.0  2753.0  2832.0  2827.0
+ 1.800000e+00   80.0   47.0  2673.0  2679.0  2780.0  2760.0  2739.0  2740.0  2867.0  2849.0
+ 2.250000e+00   75.0   56.0  2669.0  2670.0  2778.0  2768.0  2731.0  2727.0  2885.0  2871.0
+ 2.700000e+00   64.0   60.0  2669.0  2670.0  2777.0  2773.0  2722.0  2722.0  2889.0  2880.0
+== E-W cuts (HCN): centroid / dispersion / peak velocity vs x (E positive)
+         sd                          vm                        vpeak                     
+cut   S dec Soutflow dec    mid   S dec Soutflow dec     mid   S dec Soutflow dec     mid
+x                                                                                        
+-7.0    NaN          9.0    NaN     NaN       2773.0     NaN     NaN          NaN     NaN
+-6.5    NaN         23.0    NaN     NaN       2778.0     NaN     NaN       2770.0     NaN
+-6.0  145.0         71.0  337.0  2931.0       2760.0  2664.0  3184.0       2770.0  2889.0
+-5.5  191.0         58.0  295.0  2967.0       2766.0  2754.0  3198.0       2779.0  3008.0
+-5.0    NaN         17.0  294.0     NaN       2778.0  2828.0     NaN       2779.0     NaN
+-4.5  170.0         23.0  199.0  2720.0       2776.0  2705.0  2731.0       2779.0  2770.0
+-4.0   71.0         24.0   24.0  2740.0       2771.0  2760.0  2753.0       2766.0  2766.0
+-3.5   83.0         24.0  101.0  2738.0       2766.0  2737.0  2757.0       2766.0  2757.0
+-3.0   94.0         20.0   43.0  2793.0       2764.0  2773.0  2761.0       2757.0  2766.0
+-2.5   66.0        162.0   98.0  2782.0       2771.0  2786.0  2766.0       2770.0  2775.0
+-2.0   27.0          NaN   19.0  2771.0          NaN  2771.0  2766.0          NaN  2775.0
+-1.5   26.0          NaN   43.0  2767.0          NaN  2764.0  2766.0          NaN  2770.0
+-1.0   36.0        113.0   72.0  2750.0       2702.0  2744.0  2744.0       2691.0  2761.0
+-0.5   62.0        126.0   83.0  2740.0       2663.0  2725.0  2726.0       2801.0  2726.0
+ 0.0   84.0        154.0  119.0  2758.0       2614.0  2731.0  2722.0       2801.0  2828.0
+ 0.5   76.0        153.0  101.0  2818.0       2576.0  2817.0  2841.0          NaN  2836.0
+ 1.0   37.0          NaN   29.0  2865.0          NaN  2857.0  2850.0          NaN  2845.0
+ 1.5   32.0          NaN   24.0  2871.0          NaN  2861.0  2858.0          NaN  2858.0
+ 2.0   31.0          NaN  122.0  2883.0          NaN  2819.0  2880.0          NaN  2880.0
+ 2.5   97.0          2.0    NaN  2905.0       2447.0     NaN  2880.0          NaN     NaN
+ 3.0    9.0          NaN    NaN  2891.0          NaN     NaN  2889.0          NaN     NaN
+ 4.0   13.0          NaN    NaN  2850.0          NaN     NaN  2845.0          NaN     NaN
+ 4.5  119.0          NaN   21.0  2845.0          NaN  2869.0  2867.0          NaN  2872.0
+ 5.0  159.0        304.0   78.0  2866.0       2746.0  2853.0  2867.0          NaN  2854.0
+ 5.5  153.0          4.0  116.0  2859.0       2449.0  2834.0  2858.0          NaN  2858.0
+ 6.0   67.0          NaN   10.0  2859.0          NaN  2852.0  2845.0          NaN  2850.0
+ 6.5    NaN          NaN  356.0     NaN          NaN  2634.0     NaN          NaN     NaN
+ 7.0    NaN          NaN  341.0     NaN          NaN  2750.0     NaN          NaN  3087.0
+rotation gradient at the S dec (HCN peak velocity, |x|<=2"): 35 km/s/arcsec, v(x=0)=2795 km/s
+   HCO+: 37 km/s/arcsec, v(0)=2795
+beam smearing of that gradient over the 1.05" beam adds sigma ~ 16 km/s in quadrature to the intrinsic ~60 km/s: expected sigma 62 km/s at Soutflow if it were disk gas on the minor axis; observed sigma 140-150 km/s (HCN, N-S cut table)
+HCN   Soutflow centroid-ap (-0.7,-4.8)   centroid 2668 sd 129 peak v 2810 red25 2867 blue25 2484  (rotation-curve value at that x: 2769)
+HCN   Soutflow peak (-0.15,-4.5)         centroid 2642 sd 150 peak v 2810 red25 2867 blue25 2405  (rotation-curve value at that x: 2789)
+HCN   S nucleus                          centroid 2767 sd 76 peak v 2722 red25 2889 blue25 2656  (rotation-curve value at that x: 2789)
+HCN   W control (-4.4,-4.5)              centroid 2773 sd 24 peak v 2766 red25 2819 blue25 2726  (rotation-curve value at that x: 2639)
+HCN   E control (+4.0,-4.5)              centroid nan sd nan peak v nan red25 nan blue25 nan  (rotation-curve value at that x: 2936)
+HCN   mirror N of S                      centroid 2797 sd 104 peak v 2775 red25 2832 blue25 2682  (rotation-curve value at that x: 2792)
+HCO+  Soutflow centroid-ap (-0.7,-4.8)   centroid 2708 sd 112 peak v 2806 red25 2862 blue25 2574  (rotation-curve value at that x: 2769)
+HCO+  Soutflow peak (-0.15,-4.5)         centroid 2708 sd 114 peak v 2814 red25 2862 blue25 2569  (rotation-curve value at that x: 2789)
+HCO+  S nucleus                          centroid 2765 sd 73 peak v 2727 red25 2889 blue25 2652  (rotation-curve value at that x: 2789)
+HCO+  W control (-4.4,-4.5)              centroid 2776 sd 28 peak v 2775 red25 2827 blue25 2722  (rotation-curve value at that x: 2639)
+HCO+  E control (+4.0,-4.5)              centroid nan sd nan peak v nan red25 nan blue25 nan  (rotation-curve value at that x: 2936)
+HCO+  mirror N of S                      centroid 2766 sd 49 peak v 2766 red25 2836 blue25 2683  (rotation-curve value at that x: 2792)
+Xb4b HCN 0.5" beam, S-lobe pixels (>5sigma in 2300-2900 m0, 3467 px = 7.7 arcsec^2): dV/dDec = 44.4+-5.0 km/s/arcsec (r=0.15); dV/dRA(E+) = 15.3+-3.7 km/s/arcsec (r=0.07); mean V 2704, rms scatter 262 km/s
+Xb4b HCO+ 0.5" beam, S-lobe pixels (>5sigma in 2300-2900 m0, 2707 px = 6.0 arcsec^2): dV/dDec = 26.9+-2.4 km/s/arcsec (r=0.21); dV/dRA(E+) = -27.6+-1.9 km/s/arcsec (r=-0.26); mean V 2727, rms scatter 113 km/s

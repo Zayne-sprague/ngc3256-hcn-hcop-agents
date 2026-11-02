@@ -1,0 +1,78 @@
+
+=== Xb4b@0.30: beam 0.3", noise HCN 33.0 HCO+ 38.9 mJy/b km/s, cont 0.021 mJy/b; beam-spaced step 6 px; r<2.0"
+ pooled pixels per grid offset n=85 (N 62, S 27 at offset 0), 36 offsets
+  model R ~ logSc                   : <R^2>=0.03, standardised coeffs (const, ...) = [0.612, 0.033]
+  model R ~ logHCO+                 : <R^2>=0.01, standardised coeffs (const, ...) = [0.612, 0.007]
+  model R ~ r                       : <R^2>=0.04, standardised coeffs (const, ...) = [0.612, -0.039]
+  model R ~ logSc+logHCO++r         : <R^2>=0.10, standardised coeffs (const, ...) = [0.612, 0.079, -0.08, -0.034]
+  model R ~ logSc+logHCO++r+Snuc    : <R^2>=0.23, standardised coeffs (const, ...) = [0.612, 0.063, -0.088, -0.056, -0.156]
+  model R ~ Snuc only               : <R^2>=0.11, standardised coeffs (const, ...) = [0.612, -0.139]
+  bootstrap (offset 0, 1000) of R ~ logSc+logHCO++r+Snuc [std. coeff 16/50/84]: const +0.596/+0.617/+0.641; logSc +0.016/+0.052/+0.092; logHCO+ -0.155/-0.102/-0.052; r -0.089/-0.064/-0.041; Snuc -0.192/-0.136/-0.081
+  NULL (continuum map shifted by 3-8 beams, n=292): std. coeff of logSc in 3-term model -0.002+-0.043; in 4-term model (with S-nucleus indicator) -0.004+-0.048; observed 3-term +0.079, 4-term +0.063
+  N-only (n=62): std. slope of R on logSc +0.081 [+0.059,+0.101], on logHCO+ +0.039, on r -0.113; partial logSc coeff (with logHCO+, r) +0.132 [+0.090,+0.184]; shifted-continuum null for the logSc slope -0.011+-0.041
+  S-only (n=27): std. slope of R on logSc -0.114 [-0.157,-0.065], on logHCO+ -0.166, on r +0.095; partial logSc coeff (with logHCO+, r) +0.043 [-0.030,+0.102]; shifted-continuum null for the logSc slope -0.011+-0.065
+  equal-brightness comparison (all pixels r<2.0" with HCN,HCO+ >3sigma, no continuum cut; mean R +-sem; beam-spaced offset-0 grid):
+   HCO+ Jy/b km/s 0.10-0.20:  N n= 5 R=0.74+-0.07;  S n= 5 R=0.97+-0.15;
+   HCO+ Jy/b km/s 0.20-0.40:  N n=22 R=0.60+-0.04;  S n=16 R=0.56+-0.04;
+   HCO+ Jy/b km/s 0.40-0.80:  N n=26 R=0.63+-0.04;  S n= 9 R=0.43+-0.04;
+   HCO+ Jy/b km/s 0.80-1.60:  N n=10 R=0.78+-0.05;  S n= 3 R=0.43+-0.01;
+   Sc mJy/b 0.05-0.15:  N n=19 R=0.61+-0.04;  S n=12 R=0.70+-0.09;
+   Sc mJy/b 0.15-0.30:  N n=22 R=0.56+-0.04;  S n= 9 R=0.49+-0.03;
+   Sc mJy/b 0.30-0.60:  N n=21 R=0.77+-0.03;  S n= 4 R=0.33+-0.05;
+   Sc mJy/b 0.60-1.20:  N n= 1 R=0.99+-nan;  S n= 1 R=0.44+-nan;
+   Sc mJy/b 1.20-2.50:  N n= 0 R=nan+-nan;  S n= 2 R=0.43+-0.02;
+  radial profiles normalised to the core value (r<0.15"): HCN, HCO+, continuum, R
+   N: r-edges [0, 0.15, 0.25, 0.5, 1, 1.5, 2]
+     HCN/core [1.0, 0.73, 0.459, 0.217, 0.066, 0.027]
+     HCO+/core [1.0, 0.753, 0.522, 0.332, 0.145, 0.063]
+     cont/core [1.0, 0.796, 0.649, 0.407, 0.148, 0.068]
+     abs core: HCN 1.353, HCO+ 1.375 Jy/b km/s, cont 0.635 mJy/b; HCN/cont [2.13, 1.95, 1.51, 1.14, 0.95, 0.84] HCO+/cont [2.16, 2.05, 1.74, 1.77, 2.12, 1.99]
+   S: r-edges [0, 0.15, 0.25, 0.5, 1, 1.5, 2]
+     HCN/core [1.0, 0.747, 0.398, 0.131, 0.049, 0.038]
+     HCO+/core [1.0, 0.767, 0.42, 0.155, 0.063, 0.043]
+     cont/core [1.0, 0.579, 0.189, 0.047, 0.024, 0.006]
+     abs core: HCN 0.514, HCO+ 1.217 Jy/b km/s, cont 1.631 mJy/b; HCN/cont [0.32, 0.41, 0.66, 0.87, 0.66, 2.13] HCO+/cont [0.75, 0.99, 1.66, 2.44, 2.01, 5.82]
+  velocity-resolved R=HCN/HCO+ in r<0.25" of each nucleus (Xb4b smoothed to 0.30"), bins of 8 channels (~35 km/s), v rel. VSYS:
+      peak velocity (rel. VSYS): HCN +48, HCO+ +61 km/s; channel width HCN 4.4 HCO+ 4.4 km/s
+   N: bin noise HCN 0.06, HCO+ 0.07 mJy/b; -120:0.9/1.0=0.91 -80:3.0/3.2=0.95 -40:4.2/4.1=1.03 +0:5.4/5.4=0.99 +40:7.2/7.6=0.95 +80:5.6/6.1=0.93 +120:1.6/1.5=1.02 +160:0.5/0.2=2.24
+      blue 40-200  : HCN 1.58+-0.03 HCO+ 1.56+-0.04 mJy/b  R=1.01+-0.03
+      core +-40    : HCN 5.63+-0.05 HCO+ 5.59+-0.05 mJy/b  R=1.01+-0.01
+      red 40-200   : HCN 2.84+-0.03 HCO+ 2.92+-0.04 mJy/b  R=0.97+-0.02
+      blue 200-350 : HCN 0.04+-0.03 HCO+ 0.03+-0.04 mJy/b  R=1.12+-1.55
+      red 200-350  : HCN -0.14+-0.03 HCO+ 0.01+-0.04 mJy/b  R=-14.47+--57.09
+      peak velocity (rel. VSYS): HCN -58, HCO+ -66 km/s; channel width HCN 4.4 HCO+ 4.4 km/s
+   S: bin noise HCN 0.07, HCO+ 0.07 mJy/b; -240:0.0/0.3=0.07 -200:0.1/0.3=0.57 -160:0.5/1.0=0.50 -120:1.9/4.4=0.42 -80:3.3/7.8=0.42 -40:2.7/6.3=0.43 +0:0.9/2.2=0.42 +40:1.0/2.6=0.39 +80:0.3/1.2=0.25 +120:0.2/0.3=0.67
+      blue 40-200  : HCN 1.84+-0.03 HCO+ 4.24+-0.04 mJy/b  R=0.43+-0.01
+      core +-40    : HCN 1.18+-0.05 HCO+ 3.05+-0.05 mJy/b  R=0.39+-0.02
+      red 40-200   : HCN 0.26+-0.03 HCO+ 0.72+-0.04 mJy/b  R=0.36+-0.05
+      blue 200-350 : HCN 0.03+-0.04 HCO+ 0.09+-0.04 mJy/b  R=0.28+-0.39
+      red 200-350  : HCN -0.00+-0.04 HCO+ 0.01+-0.04 mJy/b  R=-0.02+--2.49
+
+=== Xb4d@1.05: beam 1.05", noise HCN 66.4 HCO+ 70.3 mJy/b km/s, cont 0.141 mJy/b; beam-spaced step 7 px; r<3.0"
+ pooled pixels per grid offset n=23 (N 12, S 10 at offset 0), 49 offsets
+  model R ~ logSc                   : <R^2>=0.32, standardised coeffs (const, ...) = [0.477, 0.081]
+  model R ~ logHCO+                 : <R^2>=0.27, standardised coeffs (const, ...) = [0.477, 0.074]
+  model R ~ r                       : <R^2>=0.16, standardised coeffs (const, ...) = [0.477, -0.057]
+  model R ~ logSc+logHCO++r         : <R^2>=0.34, standardised coeffs (const, ...) = [0.477, 0.084, 0.01, 0.014]
+  model R ~ logSc+logHCO++r+Snuc    : <R^2>=0.70, standardised coeffs (const, ...) = [0.477, -0.023, 0.075, -0.024, -0.195]
+  model R ~ Snuc only               : <R^2>=0.45, standardised coeffs (const, ...) = [0.477, -0.194]
+  bootstrap (offset 0, 1000) of R ~ logSc+logHCO++r+Snuc [std. coeff 16/50/84]: const +0.465/+0.491/+0.522; logSc -0.054/+0.016/+0.061; logHCO+ -0.014/+0.023/+0.070; r -0.057/-0.014/+0.013; Snuc -0.222/-0.180/-0.132
+  NULL (continuum map shifted by 3-8 beams, n=3): std. coeff of logSc in 3-term model -0.015+-0.023; in 4-term model (with S-nucleus indicator) -0.001+-0.030; observed 3-term +0.084, 4-term -0.023
+  N-only (n=12): std. slope of R on logSc +0.097 [+0.071,+0.112], on logHCO+ +0.080, on r -0.098; partial logSc coeff (with logHCO+, r) +0.019 [-0.028,+0.058]; shifted-continuum null for the logSc slope -0.007+-0.040
+  S-only (n=10): std. slope of R on logSc -0.004 [-0.028,+0.022], on logHCO+ -0.001, on r +0.001; partial logSc coeff (with logHCO+, r) -0.038 [-0.152,+0.103]; shifted-continuum null for the logSc slope +0.005+-0.046
+  equal-brightness comparison (all pixels r<3.0" with HCN,HCO+ >3sigma, no continuum cut; mean R +-sem; beam-spaced offset-0 grid):
+   HCO+ Jy/b km/s 0.30-0.60:  N n= 2 R=0.48+-0.04;  S n= 0 R=nan+-nan;
+   HCO+ Jy/b km/s 0.60-1.20:  N n= 0 R=nan+-nan;  S n= 1 R=0.50+-nan;
+   HCO+ Jy/b km/s 1.20-2.40:  N n= 7 R=0.54+-0.03;  S n= 7 R=0.42+-0.05;
+   HCO+ Jy/b km/s 2.40-5.00:  N n= 3 R=0.56+-0.04;  S n= 4 R=0.40+-0.03;
+   Sc mJy/b 0.20-0.50:  N n= 1 R=0.45+-nan;  S n= 4 R=0.45+-0.06;
+   Sc mJy/b 0.50-1.00:  N n= 4 R=0.52+-0.04;  S n= 5 R=0.37+-0.03;
+   Sc mJy/b 1.00-2.00:  N n= 5 R=0.55+-0.02;  S n= 1 R=0.33+-nan;
+   Sc mJy/b 2.00-4.00:  N n= 2 R=0.70+-0.06;  S n= 2 R=0.40+-0.05;
+   Sc mJy/b 4.00-8.00:  N n= 1 R=0.79+-nan;  S n= 0 R=nan+-nan;
+
+=== uv-coverage check of the 98/258 GHz continuum (image-plane): flux in r<3" of the field centre, all smoothed to 6x6"
+ Xb4b 0.24" (258)           beam 0.24x0.23: total flux r<3.0" = 19.49 mJy; centre value after smoothing to 6" = 16.15 mJy/6"-beam
+ Xb4d 0.9" (258)            beam 0.94x0.74: total flux r<3.0" = 21.21 mJy; centre value after smoothing to 6" = 19.21 mJy/6"-beam
+ Xb4f 5.8x3.5" (258)        beam 5.84x3.52: total flux r<3.0" = 16.38 mJy; centre value after smoothing to 6" = 22.02 mJy/6"-beam
+ 2016.1.00965 Band3 (98)    beam 0.67x0.55: total flux r<3.0" = 7.92 mJy; centre value after smoothing to 6" = 5.77 mJy/6"-beam

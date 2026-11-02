@@ -1,0 +1,157 @@
+## Harada J=1-0: sigma(HCN,HCO+) Jy/beam km/s at 10" = 0.161,0.160; far-field mean (HCN,HCO+) = 0.462,0.728
+   N    HCN   15.57  HCO+   22.22
+   S    HCN   13.93  HCO+   22.89
+   mid  HCN   16.54  HCO+   25.18
+   E1   HCN    4.38  HCO+    8.40
+   E2   HCN    5.20  HCO+   10.22
+   W    HCN    5.94  HCO+   11.06
+## Michiyama J=1-0: sigma(HCN,HCO+) Jy/beam km/s at 10" = 0.060,0.051; far-field mean (HCN,HCO+) = -0.107,-0.106
+   N    HCN   16.42  HCO+   23.68
+   S    HCN   15.31  HCO+   25.07
+   mid  HCN   17.61  HCO+   26.90
+   E1   HCN    6.55  HCO+   10.65
+   E2   HCN    7.59  HCO+   13.35
+   W    HCN    7.38  HCO+   13.97
+## Xb55 J=2-1: sigma(HCN,HCO+) Jy/beam km/s at 10" = 0.102,0.193; far-field mean (HCN,HCO+) = 0.412,0.808
+   N    HCN   35.36  HCO+   57.76
+   S    HCN   33.08  HCO+   59.49
+   mid  HCN   38.06  HCO+   64.89
+   E1   HCN   12.65  HCO+   24.64
+   E2   HCN   16.20  HCO+   31.49
+   W    HCN   14.25  HCO+   28.40
+## Xb4f J=3-2: sigma(HCN,HCO+) Jy/beam km/s at 10" = 0.105,0.221; far-field mean (HCN,HCO+) = 0.692,0.884
+   N    HCN   30.48  HCO+   64.53
+   S    HCN   27.13  HCO+   64.01
+   mid  HCN   32.47  HCO+   72.11
+   E1   HCN    7.09  HCO+   22.95
+   E2   HCN   10.23  HCO+   30.48
+   W    HCN    7.76  HCO+   23.66
+## Xb4d J=3-2: sigma(HCN,HCO+) Jy/beam km/s at 10" = 0.087,0.168; far-field mean (HCN,HCO+) = 1.967,2.829
+   N    HCN   21.20  HCO+   46.75
+   S    HCN   16.67  HCO+   43.67
+   mid  HCN   22.43  HCO+   52.46
+   E1   HCN    4.55  HCO+   14.83
+   E2   HCN    4.75  HCO+   16.72
+   W    HCN    3.66  HCO+   14.31
+
+## R_K = HCN/HCO+ (K scale) at 10", zero-level offset f x far-field mean (f=-1,0,+1) for each set; err = stat
+  Harada    N    R=0.709+-0.009  (f=-1,0,+1: 0.707 0.709 0.712)
+  Harada    S    R=0.616+-0.008  (f=-1,0,+1: 0.617 0.616 0.615)
+  Harada    mid  R=0.665+-0.008  (f=-1,0,+1: 0.664 0.665 0.666)
+  Harada    E1   R=0.528+-0.022  (f=-1,0,+1: 0.537 0.528 0.517)
+  Harada    E2   R=0.516+-0.018  (f=-1,0,+1: 0.524 0.516 0.506)
+  Harada    W    R=0.544+-0.017  (f=-1,0,+1: 0.550 0.544 0.537)
+  Michiyama N    R=0.702+-0.003  (f=-1,0,+1: 0.701 0.702 0.704)
+  Michiyama S    R=0.618+-0.003  (f=-1,0,+1: 0.617 0.618 0.620)
+  Michiyama mid  R=0.663+-0.003  (f=-1,0,+1: 0.661 0.663 0.664)
+  Michiyama E1   R=0.623+-0.006  (f=-1,0,+1: 0.618 0.623 0.626)
+  Michiyama E2   R=0.576+-0.005  (f=-1,0,+1: 0.572 0.576 0.579)
+  Michiyama W    R=0.535+-0.005  (f=-1,0,+1: 0.531 0.535 0.539)
+  Xb55      N    R=0.620+-0.003  (f=-1,0,+1: 0.619 0.620 0.621)
+  Xb55      S    R=0.563+-0.003  (f=-1,0,+1: 0.562 0.563 0.564)
+  Xb55      mid  R=0.594+-0.002  (f=-1,0,+1: 0.593 0.594 0.595)
+  Xb55      E1   R=0.520+-0.006  (f=-1,0,+1: 0.520 0.520 0.520)
+  Xb55      E2   R=0.521+-0.005  (f=-1,0,+1: 0.521 0.521 0.521)
+  Xb55      W    R=0.508+-0.005  (f=-1,0,+1: 0.508 0.508 0.508)
+  Xb4f      N    R=0.478+-0.002  (f=-1,0,+1: 0.483 0.478 0.474)
+  Xb4f      S    R=0.429+-0.002  (f=-1,0,+1: 0.434 0.429 0.424)
+  Xb4f      mid  R=0.456+-0.002  (f=-1,0,+1: 0.460 0.456 0.452)
+  Xb4f      E1   R=0.313+-0.006  (f=-1,0,+1: 0.330 0.313 0.293)
+  Xb4f      E2   R=0.340+-0.004  (f=-1,0,+1: 0.353 0.340 0.326)
+  Xb4f      W    R=0.332+-0.005  (f=-1,0,+1: 0.349 0.332 0.314)
+  Xb4d      N    R=0.459+-0.003  (f=-1,0,+1: 0.473 0.459 0.444)
+  Xb4d      S    R=0.387+-0.003  (f=-1,0,+1: 0.406 0.387 0.365)
+  Xb4d      mid  R=0.433+-0.002  (f=-1,0,+1: 0.447 0.433 0.418)
+  Xb4d      E1   R=0.311+-0.007  (f=-1,0,+1: 0.374 0.311 0.218)
+  Xb4d      E2   R=0.287+-0.006  (f=-1,0,+1: 0.348 0.287 0.203)
+  Xb4d      W    R=0.259+-0.007  (f=-1,0,+1: 0.332 0.259 0.149)
+
+## PB-width test (12 m, Gaussian PB, FWHM=1.13 lambda/D): fractional bias of R at x0.7 / x1 / x1.4 PB width
+  Harada N    r= 2.6": +0.0% / +0.0% / -0.0%
+  Harada S    r= 2.6": +0.0% / +0.0% / -0.0%
+  Harada mid  r= 0.3": +0.0% / +0.0% / -0.0%
+  Harada E1   r= 7.8": +0.1% / +0.0% / -0.0%
+  Harada E2   r= 6.0": +0.0% / +0.0% / -0.0%
+  Harada W    r= 7.6": +0.0% / +0.0% / -0.0%
+  Xb55   N    r= 2.6": +0.0% / +0.0% / -0.0%
+  Xb55   S    r= 2.6": +0.0% / +0.0% / -0.0%
+  Xb55   mid  r= 0.3": +0.0% / +0.0% / -0.0%
+  Xb55   E1   r= 7.8": +0.2% / +0.0% / -0.1%
+  Xb55   E2   r= 6.0": +0.1% / +0.0% / -0.1%
+  Xb55   W    r= 7.6": +0.2% / +0.0% / -0.1%
+  Xb4f   N    r= 2.6": +0.0% / +0.0% / -0.0%
+  Xb4f   S    r= 2.6": +0.0% / +0.0% / -0.0%
+  Xb4f   mid  r= 0.3": +0.0% / +0.0% / -0.0%
+  Xb4f   E1   r= 7.8": +0.5% / +0.0% / -0.2%
+  Xb4f   E2   r= 6.0": +0.3% / +0.0% / -0.1%
+  Xb4f   W    r= 7.6": +0.4% / +0.0% / -0.2%
+
+## Ladders and double ratios (stat errors; cal = extra 5% per line per band added in quadrature to double ratios -> 10% per ratio of two bands)
+ N: R10=0.702+-0.003  R10h=0.709+-0.009  R21=0.620+-0.003  R32f=0.478+-0.002  R32d=0.459+-0.003
+     R32f/R21   0.771 +- 0.005 (stat) +- 0.077 (stat+cal)
+     R32d/R21   0.741 +- 0.005 (stat) +- 0.074 (stat+cal)
+     R21/R10M   0.883 +- 0.005 (stat) +- 0.088 (stat+cal)
+     R21/R10H   0.874 +- 0.012 (stat) +- 0.088 (stat+cal)
+     R10M/R10H  0.990 +- 0.013 (stat) +- 0.100 (stat+cal)
+     R32f/R32d  1.041 +- 0.008 (stat) +- 0.104 (stat+cal)
+ S: R10=0.618+-0.003  R10h=0.616+-0.008  R21=0.563+-0.003  R32f=0.429+-0.002  R32d=0.387+-0.003
+     R32f/R21   0.762 +- 0.005 (stat) +- 0.076 (stat+cal)
+     R32d/R21   0.687 +- 0.005 (stat) +- 0.069 (stat+cal)
+     R21/R10M   0.911 +- 0.006 (stat) +- 0.091 (stat+cal)
+     R21/R10H   0.914 +- 0.013 (stat) +- 0.092 (stat+cal)
+     R10M/R10H  1.003 +- 0.014 (stat) +- 0.101 (stat+cal)
+     R32f/R32d  1.110 +- 0.009 (stat) +- 0.111 (stat+cal)
+ mid: R10=0.663+-0.003  R10h=0.665+-0.008  R21=0.594+-0.002  R32f=0.456+-0.002  R32d=0.433+-0.002
+     R32f/R21   0.768 +- 0.005 (stat) +- 0.077 (stat+cal)
+     R32d/R21   0.729 +- 0.005 (stat) +- 0.073 (stat+cal)
+     R21/R10M   0.896 +- 0.005 (stat) +- 0.090 (stat+cal)
+     R21/R10H   0.893 +- 0.011 (stat) +- 0.090 (stat+cal)
+     R10M/R10H  0.997 +- 0.012 (stat) +- 0.100 (stat+cal)
+     R32f/R32d  1.053 +- 0.007 (stat) +- 0.106 (stat+cal)
+ E1: R10=0.623+-0.006  R10h=0.528+-0.022  R21=0.520+-0.006  R32f=0.313+-0.006  R32d=0.311+-0.007
+     R32f/R21   0.602 +- 0.013 (stat) +- 0.061 (stat+cal)
+     R32d/R21   0.598 +- 0.015 (stat) +- 0.062 (stat+cal)
+     R21/R10M   0.835 +- 0.013 (stat) +- 0.084 (stat+cal)
+     R21/R10H   0.985 +- 0.042 (stat) +- 0.107 (stat+cal)
+     R10M/R10H  1.180 +- 0.050 (stat) +- 0.128 (stat+cal)
+     R32f/R32d  1.006 +- 0.029 (stat) +- 0.105 (stat+cal)
+ E2: R10=0.576+-0.005  R10h=0.516+-0.018  R21=0.521+-0.005  R32f=0.340+-0.004  R32d=0.287+-0.006
+     R32f/R21   0.652 +- 0.010 (stat) +- 0.066 (stat+cal)
+     R32d/R21   0.552 +- 0.013 (stat) +- 0.057 (stat+cal)
+     R21/R10M   0.905 +- 0.011 (stat) +- 0.091 (stat+cal)
+     R21/R10H   1.010 +- 0.036 (stat) +- 0.107 (stat+cal)
+     R10M/R10H  1.116 +- 0.040 (stat) +- 0.119 (stat+cal)
+     R32f/R32d  1.182 +- 0.029 (stat) +- 0.122 (stat+cal)
+ W: R10=0.535+-0.005  R10h=0.544+-0.017  R21=0.508+-0.005  R32f=0.332+-0.005  R32d=0.259+-0.007
+     R32f/R21   0.654 +- 0.013 (stat) +- 0.067 (stat+cal)
+     R32d/R21   0.510 +- 0.014 (stat) +- 0.053 (stat+cal)
+     R21/R10M   0.950 +- 0.013 (stat) +- 0.096 (stat+cal)
+     R21/R10H   0.934 +- 0.030 (stat) +- 0.098 (stat+cal)
+     R10M/R10H  0.983 +- 0.031 (stat) +- 0.103 (stat+cal)
+     R32f/R32d  1.283 +- 0.040 (stat) +- 0.134 (stat+cal)
+
+## Clump / nuclear complex double ratios (value >1 = clump higher ratio / shallower decline); nucleus = N and mid
+  E1/N R32f/R21  0.78+-0.11 (-2.0 sigma from 1)
+  E1/N R21/R10M  0.95+-0.13 (-0.4 sigma from 1)
+  E1/N R21/R10H  1.13+-0.17 (+0.8 sigma from 1)
+  E2/N R32f/R21  0.85+-0.12 (-1.3 sigma from 1)
+  E2/N R21/R10M  1.02+-0.15 (+0.2 sigma from 1)
+  E2/N R21/R10H  1.16+-0.17 (+0.9 sigma from 1)
+  W/N R32f/R21  0.85+-0.12 (-1.3 sigma from 1)
+  W/N R21/R10M  1.08+-0.15 (+0.5 sigma from 1)
+  W/N R21/R10H  1.07+-0.16 (+0.4 sigma from 1)
+  E1/mid R32f/R21  0.78+-0.11 (-1.9 sigma from 1)
+  E1/mid R21/R10M  0.93+-0.13 (-0.5 sigma from 1)
+  E1/mid R21/R10H  1.10+-0.16 (+0.6 sigma from 1)
+  E2/mid R32f/R21  0.85+-0.12 (-1.2 sigma from 1)
+  E2/mid R21/R10M  1.01+-0.14 (+0.1 sigma from 1)
+  E2/mid R21/R10H  1.13+-0.17 (+0.8 sigma from 1)
+  W/mid R32f/R21  0.85+-0.12 (-1.2 sigma from 1)
+  W/mid R21/R10M  1.06+-0.15 (+0.4 sigma from 1)
+  W/mid R21/R10H  1.05+-0.15 (+0.3 sigma from 1)
+
+## R(clump)/R(nucleus) per J (stat only)
+  E1/N: Michiyama 0.89+-0.01; Harada 0.74+-0.03; Xb55 0.84+-0.01; Xb4f 0.65+-0.01; Xb4d 0.68+-0.02
+  W/N: Michiyama 0.76+-0.01; Harada 0.77+-0.03; Xb55 0.82+-0.01; Xb4f 0.69+-0.01; Xb4d 0.56+-0.02
+  E1/mid: Michiyama 0.94+-0.01; Harada 0.79+-0.03; Xb55 0.87+-0.01; Xb4f 0.69+-0.01; Xb4d 0.72+-0.02
+  W/mid: Michiyama 0.81+-0.01; Harada 0.82+-0.03; Xb55 0.86+-0.01; Xb4f 0.73+-0.01; Xb4d 0.60+-0.02

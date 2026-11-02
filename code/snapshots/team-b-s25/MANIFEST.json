@@ -1,0 +1,21 @@
+{
+ "team": "team-b",
+ "item": "Q38",
+ "files": [
+  "scripts/s240_q38_disk_clumps.py",
+  "scripts/s242_q38_injection.py",
+  "scripts/s243_q38_radex_E1.py",
+  "scripts/s244_q38_clump_vs_nucleus.py",
+  "scripts/s245_update_report_q38r2.py",
+  "scripts/s58f_simulate.py",
+  "out/q38/s240.json",
+  "out/q38/s240.txt",
+  "out/q38/s242.json",
+  "out/q38/s242.txt",
+  "out/q38/s243.json",
+  "out/q38/s243.txt",
+  "out/q38/s244.json",
+  "out/q38/s244.txt",
+  "TEAM_REPORT.json"
+ ]
+}

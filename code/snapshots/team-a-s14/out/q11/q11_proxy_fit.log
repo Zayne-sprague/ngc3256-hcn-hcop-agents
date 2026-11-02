@@ -1,0 +1,7 @@
+observed 3-2 R {'Xb4f': array([0.442, 0.4  , 0.193]), 'Xb4d': array([0.413, 0.351, 0.231])}  observed 2-1 R [0.579 0.554 0.492]
+Xb4f PB37 (7m-like)    B f free [0.05-0.4]          chi2min   0.0 at f=0.275 eps=+0.15; eps 1sig [+0.10,+0.20] 2sig [+0.05,+0.25]  (obs HCO+ F8-12/F4-8 0.365)
+Xb4f PB37 (7m-like)    A f from HCO+ flux profile   chi2min   1.5 at f=0.225 eps=+0.20; eps 1sig [+0.15,+0.20] 2sig [+0.10,+0.30]  (obs HCO+ F8-12/F4-8 0.365)
+Xb4f PB22 (12m-like)   B f free [0.05-0.4]          chi2min   0.0 at f=0.225 eps=+0.15; eps 1sig [+0.10,+0.20] 2sig [+0.05,+0.25]  (obs HCO+ F8-12/F4-8 0.365)
+Xb4f PB22 (12m-like)   A f from HCO+ flux profile   chi2min   1.5 at f=0.175 eps=+0.20; eps 1sig [+0.15,+0.25] 2sig [+0.10,+0.30]  (obs HCO+ F8-12/F4-8 0.365)
+Xb4d PB22              B f free [0.05-0.4]          chi2min   0.0 at f=0.075 eps=+0.35; eps 1sig [+0.25,+0.40] 2sig [+0.20,+0.45]  (obs HCO+ F8-12/F4-8 0.345)
+Xb4d PB22              A f from HCO+ flux profile   chi2min   0.6 at f=0.175 eps=+0.30; eps 1sig [+0.25,+0.35] 2sig [+0.20,+0.40]  (obs HCO+ F8-12/F4-8 0.345)

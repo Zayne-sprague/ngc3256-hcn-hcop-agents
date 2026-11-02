@@ -1,0 +1,36 @@
+ous,ap,vloc,window,lo,hi,I_HCN,e_HCN,I_HCO+,e_HCO+,R,kind,lnsig
+Xb4d,N,2777.336,blue half,1.031,1.236,0.086,0.007,0.077,0.004,1.132,value,0.091
+Xb4d,N,2777.336,core,0.736,0.739,3.933,0.008,5.397,0.003,0.738,value,0.002
+Xb4d,N,2777.336,red half,1.501,1.623,0.225,0.007,0.146,0.004,1.56,value,0.039
+Xb4d,N,2777.336,blue -300..-100,0.938,1.127,0.09,0.007,0.088,0.004,1.031,value,0.092
+Xb4d,N,2777.336,whole line,,,4.245,,5.589,,,HCN<3sig,
+Xb4d,S,2763.717,blue half,0.433,0.481,0.095,0.004,0.21,0.007,0.456,value,0.052
+Xb4d,S,2763.717,core,0.364,0.368,1.108,0.005,3.064,0.005,0.366,value,0.005
+Xb4d,S,2763.717,red half,0.396,0.423,0.141,0.004,0.35,0.007,0.409,value,0.033
+Xb4d,S,2763.717,blue -300..-100,0.412,0.466,0.094,0.005,0.216,0.005,0.438,value,0.061
+Xb4d,S,2763.717,whole line,,,1.313,,3.639,,,HCN<3sig,
+Xb4d,Bridge,2784.27,blue half,1.203,1.455,0.077,0.004,0.059,0.005,1.322,value,0.095
+Xb4d,Bridge,2784.27,core,0.454,0.459,1.159,0.006,2.569,0.002,0.457,value,0.006
+Xb4d,Bridge,2784.27,red half,2.122,2.315,0.25,0.004,0.114,0.005,2.216,value,0.044
+Xb4d,Bridge,2784.27,blue -300..-100,1.19,1.454,0.07,0.006,0.054,0.002,1.321,value,0.1
+Xb4d,Bridge,2784.27,whole line,,,1.542,,2.771,,,HCN<3sig,
+Xb4d,"Soutflow (wing peak, selected)",2690.779,blue half,1.616,1.803,0.23,0.011,0.136,0.004,1.708,value,0.055
+Xb4d,"Soutflow (wing peak, selected)",2690.779,core,0.579,0.622,0.257,0.009,0.434,0.003,0.601,value,0.036
+Xb4d,"Soutflow (wing peak, selected)",2690.779,red half,0.541,0.636,0.135,0.011,0.233,0.004,0.588,value,0.081
+Xb4d,"Soutflow (wing peak, selected)",2690.779,blue -300..-100,1.605,1.792,0.187,0.009,0.112,0.003,1.696,value,0.055
+Xb4d,"Soutflow (wing peak, selected)",2690.779,whole line,,,0.648,,0.817,,,HCN<3sig,
+Xb4d,Soutflow (line-integrated centroid),2710.713,blue half,1.181,1.298,0.215,0.01,0.175,0.002,1.24,value,0.047
+Xb4d,Soutflow (line-integrated centroid),2710.713,core,0.584,0.612,0.388,0.009,0.657,0.004,0.598,value,0.024
+Xb4d,Soutflow (line-integrated centroid),2710.713,red half,0.53,0.63,0.116,0.01,0.202,0.001,0.58,value,0.087
+Xb4d,Soutflow (line-integrated centroid),2710.713,blue -300..-100,1.084,1.21,0.178,0.009,0.157,0.004,1.147,value,0.055
+Xb4d,Soutflow (line-integrated centroid),2710.713,whole line,,,0.745,,1.081,,,HCN<3sig,
+Xb4d,M18 South-OF-Blue,2707.593,blue half,1.341,1.464,0.236,0.01,0.17,0.002,1.403,value,0.044
+Xb4d,M18 South-OF-Blue,2707.593,core,0.595,0.626,0.375,0.009,0.622,0.004,0.61,value,0.026
+Xb4d,M18 South-OF-Blue,2707.593,red half,0.566,0.662,0.132,0.01,0.218,0.002,0.614,value,0.079
+Xb4d,M18 South-OF-Blue,2707.593,blue -300..-100,1.215,1.357,0.194,0.009,0.153,0.004,1.285,value,0.055
+Xb4d,M18 South-OF-Blue,2707.593,whole line,,,0.77,,1.057,,,HCN<3sig,
+Xb4d,mirror of Soutflow N of S,2763.39,blue half,0.727,1.202,0.027,0.006,0.028,0.002,0.96,value,0.252
+Xb4d,mirror of Soutflow N of S,2763.39,core,0.423,0.43,0.923,0.007,2.19,0.005,0.427,value,0.008
+Xb4d,mirror of Soutflow N of S,2763.39,red half,1.725,1.877,0.175,0.006,0.099,0.002,1.801,value,0.042
+Xb4d,mirror of Soutflow N of S,2763.39,blue -300..-100,0.619,1.109,0.028,0.007,0.034,0.005,0.846,value,0.292
+Xb4d,mirror of Soutflow N of S,2763.39,whole line,,,1.155,,2.322,,,HCN<3sig,

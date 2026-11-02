@@ -1,0 +1,30 @@
+{
+ "team": "team-a",
+ "item": "Q32",
+ "files": [
+  "scripts/q32_maps.py",
+  "scripts/q32_models.py",
+  "scripts/q32_tk2.py",
+  "scripts/q32_map_fit.py",
+  "scripts/q32_radial.py",
+  "scripts/q32_resolved.py",
+  "scripts/q32_tk.py",
+  "scripts/build_report_q32r2.py",
+  "out/q32/models.json",
+  "out/q32/models.log",
+  "out/q32/models_full.log",
+  "out/q32/tk2.json",
+  "out/q32/tk2.log",
+  "out/q32/tk_ff.json",
+  "out/q32/tk_ff.log",
+  "out/q32/map_fit.json",
+  "out/q32/map_fit.log",
+  "out/q32/curve_fit.json",
+  "out/q32/curve_fit.log",
+  "out/q32/radial.json",
+  "out/q32/radial.log",
+  "out/q32/radial.png",
+  "out/q32/maps.png",
+  "TEAM_REPORT.json"
+ ]
+}

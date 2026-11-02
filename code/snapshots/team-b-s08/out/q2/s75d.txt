@@ -1,0 +1,8 @@
+S|Xb4d_1.05|ap|HCN: rms 0.66 mJy/ch; 2 narrow (c -61,56; FWHM 88,93) chi2=741/323; +broad: A=7.73+-0.64 mJy c=6+-4 FWHM=230+-7 chi2=518/320, dchi2=222; broad flux 1.888+-0.167 (Jy or Jy/b)*km/s = 55.3% of fitted line
+S|Xb4d_1.05|ap|HCO+: rms 0.82 mJy/ch; 2 narrow (c -62,52; FWHM 87,94) chi2=747/308; +broad: A=16.28+-1.91 mJy c=58+-7 FWHM=141+-7 chi2=431/305, dchi2=315; broad flux 2.449+-0.313 (Jy or Jy/b)*km/s = 27.7% of fitted line
+S|Xb4b_0.5|peak|HCN: rms 0.41 mJy/ch; 2 narrow (c -70,46; FWHM 93,57) chi2=473/323; +broad: A=1.05+-0.30 mJy c=-42+-12 FWHM=305+-44 chi2=423/320, dchi2=50; broad flux 0.342+-0.108 (Jy or Jy/b)*km/s = 29.0% of fitted line
+S|Xb4b_0.5|peak|HCO+: rms 0.50 mJy/ch; 2 narrow (c -70,47; FWHM 91,56) chi2=376/308; +broad: A=1.22+-0.52 mJy c=-48+-15 FWHM=287+-55 chi2=341/305, dchi2=35; broad flux 0.371+-0.175 (Jy or Jy/b)*km/s = 14.1% of fitted line
+N|Xb4d_1.05|ap|HCN: rms 0.75 mJy/ch; 2 narrow (c -58,38; FWHM 73,94) chi2=697/323; +broad: A=1.54+-0.19 mJy c=199+-12 FWHM=141+-30 chi2=604/320, dchi2=92; broad flux 0.231+-0.057 (Jy or Jy/b)*km/s = 2.2% of fitted line
+N|Xb4d_1.05|ap|HCO+: rms 0.86 mJy/ch; 2 narrow (c -58,35; FWHM 69,92) chi2=628/308; +broad: A=1.10+-0.22 mJy c=226+-14 FWHM=141+-37 chi2=588/305, dchi2=39; broad flux 0.166+-0.054 (Jy or Jy/b)*km/s = 1.1% of fitted line
+N|Xb4b_0.5|peak|HCN: rms 0.42 mJy/ch; 2 narrow (c -56,45; FWHM 89,100) chi2=509/323; +broad: A=1.85+-0.72 mJy c=15+-10 FWHM=265+-38 chi2=449/320, dchi2=60; broad flux 0.522+-0.215 (Jy or Jy/b)*km/s = 17.4% of fitted line
+N|Xb4b_0.5|peak|HCO+: rms 0.51 mJy/ch; 2 narrow (c -55,48; FWHM 88,91) chi2=296/308; +broad: A=0.40+-0.18 mJy c=8+-47 FWHM=485+-149 chi2=281/305, dchi2=16; broad flux 0.205+-0.114 (Jy or Jy/b)*km/s = 6.6% of fitted line

@@ -1,0 +1,198 @@
+
+== A_full  X13 shared
+  all shared                             lnZ  -143.62  lnBF vs best -120.64
+  T differs                              lnZ   -31.16  lnBF vs best   -8.19
+  n differs                              lnZ   -30.74  lnBF vs best   -7.77
+  N(HCN) differs                         lnZ   -27.10  lnBF vs best   -4.13
+  HCN/HCO+ column ratio X differs        lnZ   -37.48  lnBF vs best  -14.51
+  T,n differ (excitation)                lnZ   -30.77  lnBF vs best   -7.79
+  N(HCN),X differ (column+abundance)     lnZ   -22.97  lnBF vs best    0.00
+  T,n,N(HCN) differ                      lnZ   -26.79  lnBF vs best   -3.82
+  all four differ                        lnZ   -24.34  lnBF vs best   -1.37
+
+== A_full  X13 free per nucleus
+  all shared                             lnZ  -143.78  lnBF vs best -120.10
+  T differs                              lnZ   -31.78  lnBF vs best   -8.10
+  n differs                              lnZ   -30.73  lnBF vs best   -7.05
+  N(HCN) differs                         lnZ   -27.99  lnBF vs best   -4.31
+  HCN/HCO+ column ratio X differs        lnZ   -38.57  lnBF vs best  -14.89
+  T,n differ (excitation)                lnZ   -30.55  lnBF vs best   -6.87
+  N(HCN),X differ (column+abundance)     lnZ   -23.68  lnBF vs best    0.00
+  T,n,N(HCN) differ                      lnZ   -27.65  lnBF vs best   -3.97
+  all four differ                        lnZ   -24.71  lnBF vs best   -1.02
+
+== A_no43  X13 shared
+  all shared                             lnZ   -62.67  lnBF vs best  -46.96
+  T differs                              lnZ   -19.12  lnBF vs best   -3.41
+  n differs                              lnZ   -21.21  lnBF vs best   -5.50
+  N(HCN) differs                         lnZ   -20.43  lnBF vs best   -4.73
+  HCN/HCO+ column ratio X differs        lnZ   -15.71  lnBF vs best   -0.01
+  T,n differ (excitation)                lnZ   -19.73  lnBF vs best   -4.03
+  N(HCN),X differ (column+abundance)     lnZ   -15.71  lnBF vs best    0.00
+  T,n,N(HCN) differ                      lnZ   -20.15  lnBF vs best   -4.45
+  all four differ                        lnZ   -17.28  lnBF vs best   -1.57
+
+== A_no43  X13 free per nucleus
+  all shared                             lnZ   -62.74  lnBF vs best  -46.90
+  T differs                              lnZ   -20.03  lnBF vs best   -4.19
+  n differs                              lnZ   -21.05  lnBF vs best   -5.21
+  N(HCN) differs                         lnZ   -21.43  lnBF vs best   -5.59
+  HCN/HCO+ column ratio X differs        lnZ   -15.84  lnBF vs best    0.00
+  T,n differ (excitation)                lnZ   -20.43  lnBF vs best   -4.59
+  N(HCN),X differ (column+abundance)     lnZ   -16.15  lnBF vs best   -0.32
+  T,n,N(HCN) differ                      lnZ   -20.83  lnBF vs best   -4.99
+  all four differ                        lnZ   -17.71  lnBF vs best   -1.87
+
+== A_no13  X13 shared
+  all shared                             lnZ  -138.91  lnBF vs best -123.25
+  T differs                              lnZ   -27.03  lnBF vs best  -11.37
+  n differs                              lnZ   -16.89  lnBF vs best   -1.23
+  N(HCN) differs                         lnZ   -17.19  lnBF vs best   -1.53
+  HCN/HCO+ column ratio X differs        lnZ   -15.65  lnBF vs best    0.00
+  T,n differ (excitation)                lnZ   -16.34  lnBF vs best   -0.69
+  N(HCN),X differ (column+abundance)     lnZ   -16.22  lnBF vs best   -0.57
+  T,n,N(HCN) differ                      lnZ   -17.12  lnBF vs best   -1.46
+  all four differ                        lnZ   -16.56  lnBF vs best   -0.91
+
+== A_R10R32  X13 shared
+  all shared                             lnZ   -57.89  lnBF vs best  -47.19
+  T differs                              lnZ   -11.68  lnBF vs best   -0.98
+  n differs                              lnZ   -10.80  lnBF vs best   -0.10
+  N(HCN) differs                         lnZ   -11.43  lnBF vs best   -0.73
+  HCN/HCO+ column ratio X differs        lnZ   -11.14  lnBF vs best   -0.44
+  T,n differ (excitation)                lnZ   -10.70  lnBF vs best    0.00
+  N(HCN),X differ (column+abundance)     lnZ   -11.15  lnBF vs best   -0.45
+  T,n,N(HCN) differ                      lnZ   -11.39  lnBF vs best   -0.69
+  all four differ                        lnZ   -11.36  lnBF vs best   -0.66
+
+== A_43wide  X13 shared
+  all shared                             lnZ  -143.88  lnBF vs best -120.66
+  T differs                              lnZ   -35.51  lnBF vs best  -12.30
+  n differs                              lnZ   -30.88  lnBF vs best   -7.67
+  N(HCN) differs                         lnZ   -28.08  lnBF vs best   -4.87
+  HCN/HCO+ column ratio X differs        lnZ   -37.84  lnBF vs best  -14.63
+  T,n differ (excitation)                lnZ   -30.96  lnBF vs best   -7.75
+  N(HCN),X differ (column+abundance)     lnZ   -23.21  lnBF vs best    0.00
+  T,n,N(HCN) differ                      lnZ   -26.93  lnBF vs best   -3.71
+  all four differ                        lnZ   -25.16  lnBF vs best   -1.94
+
+== A_43wide  X13 free per nucleus
+  all shared                             lnZ  -144.17  lnBF vs best -120.28
+  T differs                              lnZ   -35.00  lnBF vs best  -11.11
+  n differs                              lnZ   -31.04  lnBF vs best   -7.15
+  N(HCN) differs                         lnZ   -29.01  lnBF vs best   -5.12
+  HCN/HCO+ column ratio X differs        lnZ   -38.94  lnBF vs best  -15.05
+  T,n differ (excitation)                lnZ   -30.68  lnBF vs best   -6.79
+  N(HCN),X differ (column+abundance)     lnZ   -23.89  lnBF vs best    0.00
+  T,n,N(HCN) differ                      lnZ   -27.78  lnBF vs best   -3.89
+  all four differ                        lnZ   -25.42  lnBF vs best   -1.53
+
+== A_43Xb47  X13 shared
+  all shared                             lnZ   -82.73  lnBF vs best  -64.79
+  T differs                              lnZ   -27.62  lnBF vs best   -9.68
+  n differs                              lnZ   -24.14  lnBF vs best   -6.20
+  N(HCN) differs                         lnZ   -27.80  lnBF vs best   -9.86
+  HCN/HCO+ column ratio X differs        lnZ   -17.94  lnBF vs best    0.00
+  T,n differ (excitation)                lnZ   -22.90  lnBF vs best   -4.96
+  N(HCN),X differ (column+abundance)     lnZ   -19.03  lnBF vs best   -1.09
+  T,n,N(HCN) differ                      lnZ   -23.61  lnBF vs best   -5.67
+  all four differ                        lnZ   -20.90  lnBF vs best   -2.96
+
+== A_43Xb47  X13 free per nucleus
+  all shared                             lnZ   -82.85  lnBF vs best  -64.88
+  T differs                              lnZ   -27.51  lnBF vs best   -9.54
+  n differs                              lnZ   -23.85  lnBF vs best   -5.88
+  N(HCN) differs                         lnZ   -28.86  lnBF vs best  -10.89
+  HCN/HCO+ column ratio X differs        lnZ   -17.97  lnBF vs best    0.00
+  T,n differ (excitation)                lnZ   -23.72  lnBF vs best   -5.75
+  N(HCN),X differ (column+abundance)     lnZ   -19.16  lnBF vs best   -1.19
+  T,n,N(HCN) differ                      lnZ   -24.00  lnBF vs best   -6.03
+  all four differ                        lnZ   -21.21  lnBF vs best   -3.23
+
+== B_core3  X13 shared
+  all shared                             lnZ  -143.93  lnBF vs best -131.06
+  T differs                              lnZ   -26.62  lnBF vs best  -13.75
+  n differs                              lnZ   -12.87  lnBF vs best    0.00
+  N(HCN) differs                         lnZ   -13.16  lnBF vs best   -0.29
+  HCN/HCO+ column ratio X differs        lnZ   -14.07  lnBF vs best   -1.20
+  T,n differ (excitation)                lnZ   -13.34  lnBF vs best   -0.47
+  N(HCN),X differ (column+abundance)     lnZ   -12.95  lnBF vs best   -0.08
+  T,n,N(HCN) differ                      lnZ   -13.82  lnBF vs best   -0.95
+  all four differ                        lnZ   -13.80  lnBF vs best   -0.93
+
+== B_core3_no43  X13 shared
+  all shared                             lnZ   -58.30  lnBF vs best  -48.62
+  T differs                              lnZ   -12.68  lnBF vs best   -3.00
+  n differs                              lnZ    -9.68  lnBF vs best    0.00
+  N(HCN) differs                         lnZ   -10.17  lnBF vs best   -0.50
+  HCN/HCO+ column ratio X differs        lnZ   -10.90  lnBF vs best   -1.22
+  T,n differ (excitation)                lnZ    -9.91  lnBF vs best   -0.23
+  N(HCN),X differ (column+abundance)     lnZ    -9.88  lnBF vs best   -0.20
+  T,n,N(HCN) differ                      lnZ   -10.30  lnBF vs best   -0.62
+  all four differ                        lnZ   -10.25  lnBF vs best   -0.57
+
+== B_core3_13C  X13 shared
+  all shared                             lnZ  -148.43  lnBF vs best -127.86
+  T differs                              lnZ   -29.81  lnBF vs best   -9.25
+  n differs                              lnZ   -22.36  lnBF vs best   -1.80
+  N(HCN) differs                         lnZ   -22.49  lnBF vs best   -1.92
+  HCN/HCO+ column ratio X differs        lnZ   -28.72  lnBF vs best   -8.15
+  T,n differ (excitation)                lnZ   -22.26  lnBF vs best   -1.70
+  N(HCN),X differ (column+abundance)     lnZ   -20.66  lnBF vs best   -0.10
+  T,n,N(HCN) differ                      lnZ   -21.47  lnBF vs best   -0.91
+  all four differ                        lnZ   -20.56  lnBF vs best    0.00
+
+== B_core3_13C  X13 free per nucleus
+  all shared                             lnZ  -148.44  lnBF vs best -127.34
+  T differs                              lnZ   -29.21  lnBF vs best   -8.12
+  n differs                              lnZ   -22.57  lnBF vs best   -1.47
+  N(HCN) differs                         lnZ   -23.32  lnBF vs best   -2.22
+  HCN/HCO+ column ratio X differs        lnZ   -29.65  lnBF vs best   -8.56
+  T,n differ (excitation)                lnZ   -21.68  lnBF vs best   -0.58
+  N(HCN),X differ (column+abundance)     lnZ   -21.50  lnBF vs best   -0.40
+  T,n,N(HCN) differ                      lnZ   -21.68  lnBF vs best   -0.58
+  all four differ                        lnZ   -21.10  lnBF vs best    0.00
+
+== B_core3_no43_13C  X13 shared
+  all shared                             lnZ   -62.43  lnBF vs best  -46.35
+  T differs                              lnZ   -17.03  lnBF vs best   -0.94
+  n differs                              lnZ   -18.43  lnBF vs best   -2.35
+  N(HCN) differs                         lnZ   -17.18  lnBF vs best   -1.10
+  HCN/HCO+ column ratio X differs        lnZ   -19.80  lnBF vs best   -3.71
+  T,n differ (excitation)                lnZ   -16.61  lnBF vs best   -0.52
+  N(HCN),X differ (column+abundance)     lnZ   -16.09  lnBF vs best    0.00
+  T,n,N(HCN) differ                      lnZ   -17.16  lnBF vs best   -1.07
+  all four differ                        lnZ   -16.19  lnBF vs best   -0.11
+
+== B_core3_no43_13C  X13 free per nucleus
+  all shared                             lnZ   -62.36  lnBF vs best  -45.89
+  T differs                              lnZ   -16.63  lnBF vs best   -0.15
+  n differs                              lnZ   -18.03  lnBF vs best   -1.56
+  N(HCN) differs                         lnZ   -18.04  lnBF vs best   -1.57
+  HCN/HCO+ column ratio X differs        lnZ   -19.67  lnBF vs best   -3.19
+  T,n differ (excitation)                lnZ   -16.47  lnBF vs best    0.00
+  N(HCN),X differ (column+abundance)     lnZ   -16.90  lnBF vs best   -0.42
+  T,n,N(HCN) differ                      lnZ   -17.14  lnBF vs best   -0.66
+  all four differ                        lnZ   -16.67  lnBF vs best   -0.19
+
+== B_core  X13 shared
+  all shared                             lnZ  -138.56  lnBF vs best -128.32
+  T differs                              lnZ   -15.90  lnBF vs best   -5.65
+  n differs                              lnZ   -10.99  lnBF vs best   -0.75
+  N(HCN) differs                         lnZ   -10.40  lnBF vs best   -0.15
+  HCN/HCO+ column ratio X differs        lnZ   -12.13  lnBF vs best   -1.89
+  T,n differ (excitation)                lnZ   -10.96  lnBF vs best   -0.72
+  N(HCN),X differ (column+abundance)     lnZ   -10.25  lnBF vs best    0.00
+  T,n,N(HCN) differ                      lnZ   -10.78  lnBF vs best   -0.54
+  all four differ                        lnZ   -10.84  lnBF vs best   -0.59
+
+== B_core32  X13 shared
+  all shared                             lnZ   -53.07  lnBF vs best  -46.12
+  T differs                              lnZ    -8.28  lnBF vs best   -1.33
+  n differs                              lnZ    -7.09  lnBF vs best   -0.14
+  N(HCN) differs                         lnZ    -7.16  lnBF vs best   -0.22
+  HCN/HCO+ column ratio X differs        lnZ    -7.63  lnBF vs best   -0.68
+  T,n differ (excitation)                lnZ    -7.05  lnBF vs best   -0.10
+  N(HCN),X differ (column+abundance)     lnZ    -6.95  lnBF vs best    0.00
+  T,n,N(HCN) differ                      lnZ    -7.26  lnBF vs best   -0.31
+  all four differ                        lnZ    -7.24  lnBF vs best   -0.30

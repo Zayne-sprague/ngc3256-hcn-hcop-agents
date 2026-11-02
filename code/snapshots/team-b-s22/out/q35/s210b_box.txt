@@ -1,0 +1,48 @@
+  [ideal] single ratio N CS/HCN (K km/s): median 0.157 [0.130,0.189] (frac 19%)
+  [ideal] single ratio N CS/HCO+ (K km/s): median 0.088 [0.072,0.104] (frac 18%)
+  [ideal] single ratio N HCN/HCO+ (K km/s): median 0.552 [0.484,0.634] (frac 14%)
+  [ideal] single ratio S CS/HCN (K km/s): median 0.179 [0.121,0.248] (frac 35%)
+  [ideal] single ratio S CS/HCO+ (K km/s): median 0.059 [0.041,0.081] (frac 33%)
+  [ideal] single ratio S HCN/HCO+ (K km/s): median 0.331 [0.265,0.423] (frac 24%)
+  [ideal] single ratio Bridge CS/HCN (K km/s): median 0.222 [0.129,0.383] (frac 57%)
+  [ideal] single ratio Bridge CS/HCO+ (K km/s): median 0.083 [0.050,0.123] (frac 44%)
+  [ideal] single ratio Bridge HCN/HCO+ (K km/s): median 0.371 [0.241,0.499] (frac 35%)
+  [ideal, N+S+Bridge fit] CS 7-6: amplitude scatter N 0.376 S 0.397 Bridge 0.389; analytic (s98) err {'N': 0.182, 'S': 0.179, 'Bridge': 0.185}
+  [ideal, N+S+Bridge fit] HCN 4-3: amplitude scatter N 1.5 S 1.6 Bridge 1.4; analytic (s98) err {'N': 0.716, 'S': 0.701, 'Bridge': 0.725}
+  [ideal, N+S+Bridge fit] HCO+ 4-3: amplitude scatter N 2.43 S 2.33 Bridge 2.19; analytic (s98) err {'N': 1.084, 'S': 1.062, 'Bridge': 1.098}
+  [ideal, N+S+Bridge fit] cont: amplitude scatter N 0.00185 S 0.0018 Bridge 0.00175; analytic (s98) err {'N': 0.0018, 'S': 0.0018, 'Bridge': 0.0018}
+  N+S-only fit to a truth that has a Bridge component: HCN/CS 1.12 [0.77,1.57]; HCO+/CS 0.71 [0.50,0.97]; HCN/HCO+ 1.59 [1.21,2.01]; HCN/cont 1.08 [0.86,1.37]; HCO+/cont 0.69 [0.60,0.80]; CS/cont 0.95 [0.73,1.39]
+
+== scenario ideal: recovered N/S double ratios (median, 16-84%, bias=median/input-1) vs input; N=600
+  HCN/CS     input 1.10  recovered 1.13 [0.72,1.67]  bias +2%  frac.scatter 42%
+  HCO+/CS    input 0.68  recovered 0.68 [0.45,0.96]  bias +0%  frac.scatter 38%
+  HCN/HCO+   input 1.62  recovered 1.66 [1.23,2.15]  bias +2%  frac.scatter 28%
+  HCN/cont   input 1.09  recovered 1.09 [0.85,1.42]  bias -0%  frac.scatter 26%
+  HCO+/cont  input 0.67  recovered 0.66 [0.56,0.78]  bias -2%  frac.scatter 16%
+  CS/cont    input 0.99  recovered 0.95 [0.70,1.45]  bias -4%  frac.scatter 39%
+
+== scenario resolved: recovered N/S double ratios (median, 16-84%, bias=median/input-1) vs input; N=600
+  HCN/CS     input 1.10  recovered 1.09 [0.67,1.71]  bias -1%  frac.scatter 47%
+  HCO+/CS    input 0.68  recovered 0.67 [0.42,1.00]  bias -2%  frac.scatter 44%
+  HCN/HCO+   input 1.62  recovered 1.61 [1.26,2.16]  bias -0%  frac.scatter 28%
+  HCN/cont   input 1.09  recovered 1.12 [0.86,1.45]  bias +2%  frac.scatter 26%
+  HCO+/cont  input 0.67  recovered 0.68 [0.57,0.81]  bias +1%  frac.scatter 17%
+  CS/cont    input 0.99  recovered 1.01 [0.67,1.61]  bias +2%  frac.scatter 46%
+
+== scenario shifted: recovered N/S double ratios (median, 16-84%, bias=median/input-1) vs input; N=600
+  HCN/CS     input 1.10  recovered 1.10 [0.72,1.69]  bias -1%  frac.scatter 44%
+  HCO+/CS    input 0.68  recovered 0.69 [0.46,0.96]  bias +1%  frac.scatter 37%
+  HCN/HCO+   input 1.62  recovered 1.61 [1.27,2.07]  bias -1%  frac.scatter 25%
+  HCN/cont   input 1.09  recovered 1.10 [0.87,1.43]  bias +1%  frac.scatter 26%
+  HCO+/cont  input 0.67  recovered 0.68 [0.58,0.79]  bias +1%  frac.scatter 16%
+  CS/cont    input 0.99  recovered 0.99 [0.72,1.44]  bias +0%  frac.scatter 36%
+
+== scenario fourth: recovered N/S double ratios (median, 16-84%, bias=median/input-1) vs input; N=600
+  HCN/CS     input 1.10  recovered 1.11 [0.75,1.56]  bias +0%  frac.scatter 37%
+  HCO+/CS    input 0.68  recovered 0.70 [0.47,0.99]  bias +3%  frac.scatter 37%
+  HCN/HCO+   input 1.62  recovered 1.56 [1.22,1.99]  bias -4%  frac.scatter 24%
+  HCN/cont   input 1.09  recovered 1.08 [0.87,1.36]  bias -1%  frac.scatter 23%
+  HCO+/cont  input 0.67  recovered 0.70 [0.59,0.82]  bias +4%  frac.scatter 16%
+  CS/cont    input 0.99  recovered 0.99 [0.71,1.47]  bias -1%  frac.scatter 39%
+
+Analytic sqrt(8)-inflated errors (s200, include +-5% systematic): HCN/CS N/S 1.10+-0.21 (19%); HCO+/CS N/S 0.68+-0.12 (17%); HCN/HCO+ N/S 1.62+-0.20 (12%); CS/cont N/S 0.99+-0.19 (19%); HCN/cont N/S 1.09+-0.16 (14%); HCO+/cont N/S 0.67+-0.08 (12%)

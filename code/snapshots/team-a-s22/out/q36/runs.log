@@ -1,0 +1,72 @@
+q36_sh_q36cmb_s3 chi2prof 11.4 (N 4.9 S 6.6; 10arcsec N 1.6 S 0.9) k 17 logZ -51.65 BIC 70.3 Te 76 P(Te>=50) 0.87
+q36_sh_q36cmb_s2 chi2prof 11.8 (N 4.9 S 6.9; 10arcsec N 1.4 S 0.9) k 17 logZ -52.52 BIC 70.7 Te 44 P(Te>=50) 0.13
+q36_sh_q36cmb_s1 chi2prof 16.5 (N 10.5 S 6.0; 10arcsec N 2.7 S 2.1) k 17 logZ -53.43 BIC 75.4 Te 48 P(Te>=50) 0.46
+q36_sep_q36cmb_s2 chi2prof 12.7 (N 7.9 S 4.8; 10arcsec N 2.3 S 2.2) k 22 logZ -60.45 BIC 89.0 
+q36_sep_q36cmb_s1 chi2prof 20.7 (N 11.4 S 9.3; 10arcsec N 2.5 S 2.9) k 22 logZ -62.58 BIC 97.0 
+q36_sep_q36cmb_s3 chi2prof 17.4 (N 10.1 S 7.3; 10arcsec N 3.2 S 1.4) k 22 logZ -60.69 BIC 93.7 
+q36_sh_q36cmb_s5 chi2prof 15.9 (N 8.0 S 7.8; 10arcsec N 2.4 S 2.0) k 17 logZ -53.25 BIC 74.8 Te 43 P(Te>=50) 0.33
+q36_sh_q36cmb_s4 chi2prof 15.4 (N 7.9 S 7.5; 10arcsec N 1.7 S 1.0) k 17 logZ -52.39 BIC 74.3 Te 47 P(Te>=50) 0.44
+q36_sh_q36cmb_s6 chi2prof 16.4 (N 9.0 S 7.4; 10arcsec N 1.5 S 1.4) k 17 logZ -55.26 BIC 75.3 Te 44 P(Te>=50) 0.37
+q36_sep_q36cmb_s4 chi2prof 15.7 (N 11.0 S 4.7; 10arcsec N 3.0 S 0.3) k 22 logZ -61.54 BIC 92.0 
+q36_sep_q36cmb_s5 chi2prof 15.0 (N 10.0 S 5.0; 10arcsec N 5.1 S 1.1) k 22 logZ -62.11 BIC 91.3 
+q36_sep_q36cmb_s6 chi2prof 15.3 (N 11.5 S 3.8; 10arcsec N 5.8 S 0.8) k 22 logZ -59.97 BIC 91.6 
+q36_sh_q36nominal_s1 chi2prof 17.1 (N 9.3 S 7.8; 10arcsec N 3.5 S 2.2) k 17 logZ -55.44 BIC 76.0 Te 38 P(Te>=50) 0.20
+q36_sep_q36nominal_s1 chi2prof 15.4 (N 7.8 S 7.6; 10arcsec N 4.7 S 2.7) k 22 logZ -60.92 BIC 91.6 
+q36_sh_q36nominal_s2 chi2prof 14.0 (N 8.6 S 5.4; 10arcsec N 1.8 S 1.0) k 17 logZ -53.57 BIC 72.9 Te 49 P(Te>=50) 0.46
+q36_sh_q36nominal_s3 chi2prof 11.9 (N 6.5 S 5.4; 10arcsec N 3.0 S 1.8) k 17 logZ -51.16 BIC 70.8 Te 57 P(Te>=50) 0.66
+q36_sep_q36nominal_s2 chi2prof 14.9 (N 10.6 S 4.2; 10arcsec N 3.0 S 0.7) k 22 logZ -60.43 BIC 91.1 
+q36_sep_q36nominal_s3 chi2prof 9.2 (N 5.6 S 3.5; 10arcsec N 0.5 S 0.7) k 22 logZ -56.50 BIC 85.4 
+q36_sh_q36nominal_s4 chi2prof 11.3 (N 6.7 S 4.7; 10arcsec N 3.4 S 2.8) k 17 logZ -52.27 BIC 70.3 Te 47 P(Te>=50) 0.43
+q36_sh_q36nominal_s5 chi2prof 9.8 (N 4.2 S 5.6; 10arcsec N 0.7 S 1.5) k 17 logZ -46.57 BIC 68.7 Te 45 P(Te>=50) 0.37
+q36_sep_q36nominal_s4 chi2prof 17.4 (N 11.5 S 6.0; 10arcsec N 7.8 S 1.4) k 22 logZ -64.97 BIC 93.7 
+q36_sh_q36nominal_s6 chi2prof 11.9 (N 5.2 S 6.7; 10arcsec N 1.5 S 3.3) k 17 logZ -52.54 BIC 70.8 Te 47 P(Te>=50) 0.41
+q36_sep_q36nominal_s5 chi2prof 10.9 (N 5.0 S 5.9; 10arcsec N 1.8 S 1.6) k 22 logZ -57.11 BIC 87.1 
+q36_sep_q36nominal_s6 chi2prof 14.4 (N 9.6 S 4.8; 10arcsec N 3.5 S 2.0) k 22 logZ -60.91 BIC 90.7 
+q36_sh_q36dusty_s1 chi2prof 16.9 (N 8.1 S 8.8; 10arcsec N 3.4 S 5.5) k 17 logZ -53.79 BIC 75.8 Te 46 P(Te>=50) 0.39
+q36_sep_q36dusty_s1 chi2prof 13.6 (N 9.4 S 4.2; 10arcsec N 0.6 S 0.6) k 22 logZ -58.80 BIC 89.8 
+q36_sh_q36dusty_s2 chi2prof 16.7 (N 9.6 S 7.1; 10arcsec N 1.5 S 1.1) k 17 logZ -53.10 BIC 75.6 Te 47 P(Te>=50) 0.43
+q36_sh_q36dusty_s3 chi2prof 16.6 (N 7.9 S 8.7; 10arcsec N 3.0 S 2.2) k 17 logZ -52.72 BIC 75.5 Te 46 P(Te>=50) 0.36
+q36_sep_q36dusty_s2 chi2prof 14.8 (N 9.8 S 5.0; 10arcsec N 4.0 S 1.0) k 22 logZ -60.73 BIC 91.0 
+q36_sep_q36dusty_s3 chi2prof 16.9 (N 10.7 S 6.2; 10arcsec N 5.5 S 1.4) k 22 logZ -61.78 BIC 93.2 
+q36_sh_q36dusty_s4 chi2prof 11.7 (N 7.8 S 4.0; 10arcsec N 1.3 S 0.7) k 17 logZ -55.51 BIC 70.7 Te 40 P(Te>=50) 0.31
+q36_sh_q36dusty_s5 chi2prof 14.0 (N 7.9 S 6.1; 10arcsec N 4.2 S 3.3) k 17 logZ -53.54 BIC 72.9 Te 49 P(Te>=50) 0.48
+q36_sep_q36dusty_s4 chi2prof 16.4 (N 13.1 S 3.3; 10arcsec N 5.4 S 1.2) k 22 logZ -61.22 BIC 92.6 
+q36_sh_q36dusty_s6 chi2prof 11.5 (N 5.9 S 5.7; 10arcsec N 1.1 S 0.8) k 17 logZ -49.21 BIC 70.5 Te 41 P(Te>=50) 0.11
+q36_sep_q36dusty_s5 chi2prof 11.6 (N 6.7 S 4.9; 10arcsec N 3.5 S 0.8) k 22 logZ -54.56 BIC 87.9 
+q36_sep_q36dusty_s6 chi2prof 14.7 (N 10.2 S 4.6; 10arcsec N 2.8 S 0.4) k 22 logZ -61.84 BIC 91.0 
+q36_sh_q36high_s1 chi2prof 11.7 (N 7.7 S 4.0; 10arcsec N 1.8 S 1.2) k 17 logZ -51.09 BIC 70.6 Te 49 P(Te>=50) 0.48
+q36_sh_q36high_s2 chi2prof 11.3 (N 6.6 S 4.7; 10arcsec N 1.3 S 1.3) k 17 logZ -50.65 BIC 70.3 Te 66 P(Te>=50) 0.79
+q36_sep_q36high_s1 chi2prof 14.8 (N 8.4 S 6.4; 10arcsec N 2.0 S 2.5) k 22 logZ -60.55 BIC 91.1 
+q36_sh_q36high_s3 chi2prof 11.8 (N 6.2 S 5.6; 10arcsec N 1.9 S 1.2) k 17 logZ -52.75 BIC 70.7 Te 64 P(Te>=50) 0.70
+q36_sep_q36high_s2 chi2prof 15.3 (N 11.9 S 3.4; 10arcsec N 5.2 S 0.4) k 22 logZ -57.63 BIC 91.5 
+q36_sep_q36high_s3 chi2prof 17.5 (N 10.0 S 7.5; 10arcsec N 1.7 S 1.7) k 22 logZ -59.89 BIC 93.7 
+q36_sh_q36high_s4 chi2prof 13.5 (N 7.9 S 5.6; 10arcsec N 1.4 S 0.7) k 17 logZ -50.83 BIC 72.4 Te 52 P(Te>=50) 0.62
+q36_sh_q36high_s5 chi2prof 11.5 (N 6.3 S 5.1; 10arcsec N 0.3 S 1.7) k 17 logZ -50.72 BIC 70.4 Te 52 P(Te>=50) 0.53
+q36_sep_q36high_s4 chi2prof 15.0 (N 10.0 S 5.0; 10arcsec N 0.4 S 1.6) k 22 logZ -60.03 BIC 91.3 
+q36_sh_q36high_s6 chi2prof 15.2 (N 9.0 S 6.2; 10arcsec N 3.5 S 2.9) k 17 logZ -52.85 BIC 74.1 Te 40 P(Te>=50) 0.22
+q36_sep_q36high_s5 chi2prof 11.7 (N 8.3 S 3.4; 10arcsec N 3.1 S 0.8) k 22 logZ -57.98 BIC 87.9 
+q36_sh__tbg5_s1 chi2prof 11.2 (N 7.0 S 4.2; 10arcsec N 1.3 S 0.8) k 17 logZ -52.82 BIC 70.1 Te 34 P(Te>=50) 0.12
+q36_sep_q36high_s6 chi2prof 13.2 (N 10.1 S 3.1; 10arcsec N 2.8 S 0.4) k 22 logZ -58.19 BIC 89.5 
+q36_sh__tbg5_s2 chi2prof 15.6 (N 11.1 S 4.4; 10arcsec N 1.3 S 0.7) k 17 logZ -55.25 BIC 74.5 Te 42 P(Te>=50) 0.38
+q36_sep__tbg5_s1 chi2prof 23.2 (N 17.2 S 6.0; 10arcsec N 7.9 S 3.2) k 22 logZ -64.30 BIC 99.5 
+q36_sh__tbg5_s3 chi2prof 15.2 (N 11.1 S 4.0; 10arcsec N 1.8 S 1.1) k 17 logZ -57.39 BIC 74.1 Te 29 P(Te>=50) 0.04
+q36_sep__tbg5_s2 chi2prof 17.9 (N 11.8 S 6.1; 10arcsec N 1.9 S 2.2) k 22 logZ -62.54 BIC 94.2 
+q36_sh__tbg5_s4 chi2prof 12.6 (N 7.9 S 4.8; 10arcsec N 1.6 S 0.8) k 17 logZ -53.40 BIC 71.6 Te 37 P(Te>=50) 0.18
+q36_sep__tbg5_s3 chi2prof 13.7 (N 8.7 S 5.0; 10arcsec N 3.6 S 1.0) k 22 logZ -61.72 BIC 90.0 
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+q36_sh__tbg5_s5 chi2prof 14.0 (N 9.9 S 4.1; 10arcsec N 2.4 S 1.4) k 17 logZ -55.98 BIC 72.9 Te 29 P(Te>=50) 0.02
+q36_sep__tbg5_s4 chi2prof 23.4 (N 19.5 S 3.9; 10arcsec N 10.8 S 1.1) k 22 logZ -61.94 BIC 99.7 
+q36_sh__tbg5_s6 chi2prof 12.2 (N 7.7 S 4.4; 10arcsec N 0.7 S 0.5) k 17 logZ -53.75 BIC 71.1 Te 31 P(Te>=50) 0.04
+q36_sep__tbg5_s5 chi2prof 12.7 (N 7.1 S 5.6; 10arcsec N 2.3 S 3.0) k 22 logZ -62.58 BIC 88.9 
+q36_sep__tbg5_s6 chi2prof 17.2 (N 13.0 S 4.2; 10arcsec N 4.2 S 1.1) k 22 logZ -65.94 BIC 93.5 

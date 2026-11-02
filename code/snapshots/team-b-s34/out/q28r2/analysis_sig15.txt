@@ -1,0 +1,51 @@
+######## variant sig15: taumax 3.0 cap None dropped [] sig (0.15, 0.2, 0.2, 0.25)
+ N: min chi2 two-phase (own E) 7.79; lnZ -20.03
+ S: min chi2 two-phase (own E) 2.91; lnZ -17.91
+ joint shared-E: min chi2 11.76 (N 7.79, S 3.97); lnZ shared -31.72 vs separate-E -37.94
+ N: one-state two-size: min chi2 22.66 lnZ -23.03; best Tk 100 n 4.0 N 15.5 A 0.5 theta 0.8 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 2.99
+ S: one-state two-size: min chi2 18.64 lnZ -21.19; best Tk 100 n 4.0 N 15.5 A 0.5 theta 0.5 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 3.28
+ joint ln BF shared two-phase / (one-state N x one-state S) = 12.50
+ time 145s
+ shared-E posterior (joint N+S), 16/50/84%: Tk_E 112 [79.4,133]; log n_E 4.12 [3.62,4.5]; log N(HCO+)_E 14 [13.8,14.5]; log A_E 0.5 [0.5,0.5]; f_E 1 [0.3,1]
+  P(Tk_E>50)=0.995  P(Tk_E>100)=0.578  P(n_E<1e5)=0.964  best-fit E: Tk 133 log n 3.875 logN 14.0 A 0.5 fE 1.0
+ profile chi2_joint(Tk_E)-min (min over n_E,N_E,A_E,f_E and both compact phases):
+   10:44.7 12:39.5 14:30.1 17:25.7 20:18.4 24:15.7 28:12.0 33:9.9 40:8.0 47:5.6 56:4.8 67:3.5 79:0.4 94:1.2 112:0.4 133:0.0 158:3.4 188:3.8 224:7.6 266:12.7 316:13.3
+  Tk_E allowed at dchi2<4: 67-188 K; excluded dchi2>4 below 67 K
+ profile chi2_joint(log n_E)-min: 3.50:1.8 3.75:0.5 4.00:0.4 4.25:1.5 4.50:1.6 4.75:1.2 5.00:2.6 5.25:4.8 5.50:8.4 5.75:12.1 6.00:18.4
+  log n_E allowed at dchi2<4: 3.50-5.12
+  chi2(Tk_E) at fixed log n_E=4.0: 10:126.1 14:50.6 20:55.7 28:30.3 40:22.8 56:17.9 79:0.4 112:9.3 158:9.7 224:8.4 316:25.2
+  chi2(Tk_E) at fixed log n_E=4.5: 10:58.9 14:52.6 20:39.7 28:32.4 40:13.3 56:20.9 79:4.2 112:4.4 158:11.8 224:9.2 316:26.4
+  chi2(Tk_E) at fixed log n_E=5.0: 10:59.2 14:51.9 20:29.1 28:31.4 40:11.8 56:11.2 79:6.7 112:2.6 158:24.3 224:21.8 316:32.8
+  chi2(Tk_E) at fixed log n_E=5.5: 10:46.0 14:35.6 20:35.9 28:12.0 40:18.8 56:8.4 79:25.5 112:26.0 158:46.1 224:53.5 316:52.3
+ N compact posterior: Tk_C 15.8 [10,251]; log n_C 6 [5,7]; log N(HCO+)_C 15.5 [15,16]; log A_C 0.5 [-0.5,0.5]; theta" 0.5 [0.5,0.5]; f_C 1 [0.3,1]
+   P(Tk_C<=30)=0.582 (prior 0.304)  P(30<Tk<=100)=0.108  P(Tk_C>100)=0.309
+   P(theta<=0.3")=0.00  P(f_C<1)=0.30
+   N(HCN)/N(HCO+) compact: 3.16 [0.32,3.16]
+ S compact posterior: Tk_C 39.8 [15.8,158]; log n_C 5.5 [4.5,6.5]; log N(HCO+)_C 16 [15.5,16]; log A_C 0 [-0.5,0.5]; theta" 0.5 [0.5,0.5]; f_C 0.3 [0.1,1]
+   P(Tk_C<=30)=0.461 (prior 0.304)  P(30<Tk<=100)=0.357  P(Tk_C>100)=0.182
+   P(theta<=0.3")=0.01  P(f_C<1)=0.70
+   N(HCN)/N(HCO+) compact: 1.00 [0.32,3.16]
+ N cold Tk_C<=30: P(branch)=0.582; best chi2 7.8; C: Tk 10 log n 7.00 logN 15.5 A 0.0 theta 0.5" fC 1.0; E: Tk 133 log n 3.88 logN 14.00 A 0.5 fE 1.0
+    predicted 0.24" T_b HCN/HCO+ = 2.87/3.85 K (observed 2.65/2.75); 1.29" 0.48/0.65 (obs 0.50/0.69); chi2 contributions of the 0.24" pair 2.7
+    HCN 3-2/1-0 T_b ratio at 0.5": 0.542 [0.4,0.614]; HCN 4-3 T_b at 0.5": 0.539 [0.276,0.649] K; 4-3/3-2: 0.343 [0.23,0.343]; H13CN/HCN 4-3 flux ratio in 2.7" (X=50): 0.0413 [0.03,0.0613] (limit 0.12); HCN v2=1 LTE-collisional exp(-1050K/Tk) 5.5e-20 (limit 0.02-0.03)
+    compact gas mass M(X=1e-9/3e-9/1e-8) = 8.4e+08 Msun / 2.8e+08 Msun / 8.4e+07 Msun; n_H2 3.2e+06 cm-3, size 102 pc FWHM; n x size (cm-3 pc) 3.2e+08
+ N mid 30-100: P(branch)=0.108; best chi2 9.0; C: Tk 100 log n 5.00 logN 15.0 A 0.5 theta 0.5" fC 1.0; E: Tk 158 log n 4.12 logN 13.75 A 0.5 fE 1.0
+    predicted 0.24" T_b HCN/HCO+ = 1.91/3.58 K (observed 2.65/2.75); 1.29" 0.32/0.61 (obs 0.50/0.69); chi2 contributions of the 0.24" pair 2.7
+    HCN 3-2/1-0 T_b ratio at 0.5": 0.347 [0.321,0.608]; HCN 4-3 T_b at 0.5": 0.438 [0.408,0.608] K; 4-3/3-2: 0.363 [0.345,0.445]; H13CN/HCN 4-3 flux ratio in 2.7" (X=50): 0.0447 [0.0263,0.0604] (limit 0.12); HCN v2=1 LTE-collisional exp(-1050K/Tk) 1.8e-05 (limit 0.02-0.03)
+    compact gas mass M(X=1e-9/3e-9/1e-8) = 2.7e+08 Msun / 8.9e+07 Msun / 2.7e+07 Msun; n_H2 1e+05 cm-3, size 102 pc FWHM; n x size (cm-3 pc) 1e+07
+ N warm Tk_C>100: P(branch)=0.309; best chi2 8.6; C: Tk 251 log n 5.00 logN 15.5 A 0.5 theta 0.5" fC 0.3; E: Tk 112 log n 3.62 logN 14.25 A 0.5 fE 1.0
+    predicted 0.24" T_b HCN/HCO+ = 2.62/3.61 K (observed 2.65/2.75); 1.29" 0.43/0.61 (obs 0.50/0.69); chi2 contributions of the 0.24" pair 1.6
+    HCN 3-2/1-0 T_b ratio at 0.5": 0.453 [0.43,0.632]; HCN 4-3 T_b at 0.5": 0.667 [0.474,0.979] K; 4-3/3-2: 0.51 [0.409,0.604]; H13CN/HCN 4-3 flux ratio in 2.7" (X=50): 0.0741 [0.0296,0.102] (limit 0.12); HCN v2=1 LTE-collisional exp(-1050K/Tk) 1.5e-02 (limit 0.02-0.03)
+    compact gas mass M(X=1e-9/3e-9/1e-8) = 2.5e+08 Msun / 8.4e+07 Msun / 2.5e+07 Msun; n_H2 1e+05 cm-3, size 102 pc FWHM; n x size (cm-3 pc) 1e+07
+ S cold Tk_C<=30: P(branch)=0.461; best chi2 3.8; C: Tk 16 log n 6.50 logN 16.0 A -0.5 theta 0.5" fC 0.3; E: Tk 133 log n 3.62 logN 14.25 A 0.5 fE 1.0
+    predicted 0.24" T_b HCN/HCO+ = 1.22/2.48 K (observed 1.18/2.81); 1.29" 0.21/0.43 (obs 0.19/0.49); chi2 contributions of the 0.24" pair 0.2
+    HCN 3-2/1-0 T_b ratio at 0.5": 0.47 [0.232,0.614]; HCN 4-3 T_b at 0.5": 0.244 [0.0829,0.285] K; 4-3/3-2: 0.341 [0.143,0.359]; H13CN/HCN 4-3 flux ratio in 2.7" (X=50): 0.0322 [0.0233,0.0728] (limit 0.12); HCN v2=1 LTE-collisional exp(-1050K/Tk) 1.6e-19 (limit 0.02-0.03)
+    compact gas mass M(X=1e-9/3e-9/1e-8) = 8e+08 Msun / 2.7e+08 Msun / 8e+07 Msun; n_H2 1e+06 cm-3, size 102 pc FWHM; n x size (cm-3 pc) 1e+08
+ S mid 30-100: P(branch)=0.357; best chi2 2.9; C: Tk 40 log n 4.00 logN 16.0 A 0.5 theta 0.5" fC 1.0; E: Tk 94 log n 4.75 logN 14.25 A 0.5 fE 0.1
+    predicted 0.24" T_b HCN/HCO+ = 1.08/2.57 K (observed 1.18/2.81); 1.29" 0.19/0.45 (obs 0.19/0.49); chi2 contributions of the 0.24" pair 0.2
+    HCN 3-2/1-0 T_b ratio at 0.5": 0.386 [0.238,0.702]; HCN 4-3 T_b at 0.5": 0.271 [0.14,0.424] K; 4-3/3-2: 0.394 [0.208,0.599]; H13CN/HCN 4-3 flux ratio in 2.7" (X=50): 0.0665 [0.0269,0.0984] (limit 0.12); HCN v2=1 LTE-collisional exp(-1050K/Tk) 3.0e-06 (limit 0.02-0.03)
+    compact gas mass M(X=1e-9/3e-9/1e-8) = 2.7e+08 Msun / 8.9e+07 Msun / 2.7e+07 Msun; n_H2 3.2e+05 cm-3, size 102 pc FWHM; n x size (cm-3 pc) 3.2e+07
+ S warm Tk_C>100: P(branch)=0.182; best chi2 4.3; C: Tk 302 log n 5.00 logN 16.0 A 0.0 theta 0.5" fC 0.1; E: Tk 133 log n 3.62 logN 14.25 A 0.5 fE 1.0
+    predicted 0.24" T_b HCN/HCO+ = 0.97/2.67 K (observed 1.18/2.81); 1.29" 0.17/0.46 (obs 0.19/0.49); chi2 contributions of the 0.24" pair 0.5
+    HCN 3-2/1-0 T_b ratio at 0.5": 0.56 [0.358,0.719]; HCN 4-3 T_b at 0.5": 0.325 [0.221,0.377] K; 4-3/3-2: 0.506 [0.407,0.621]; H13CN/HCN 4-3 flux ratio in 2.7" (X=50): 0.0505 [0.0238,0.0897] (limit 0.12); HCN v2=1 LTE-collisional exp(-1050K/Tk) 1.8e-02 (limit 0.02-0.03)
+    compact gas mass M(X=1e-9/3e-9/1e-8) = 2.7e+08 Msun / 8.9e+07 Msun / 2.7e+07 Msun; n_H2 1e+05 cm-3, size 102 pc FWHM; n x size (cm-3 pc) 1e+07

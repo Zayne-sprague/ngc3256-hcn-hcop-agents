@@ -1,0 +1,22 @@
+{
+ "team": "team-b",
+ "item": "Q8",
+ "files": [
+  "scripts/s26_flux_recovery.py",
+  "scripts/s27_ch3oh_recovery.py",
+  "scripts/s28_manual_tapered.py",
+  "scripts/s15_crossous.py",
+  "scripts/common.py",
+  "scripts/regions.py",
+  "out/s26_recovery.json",
+  "out/s26_recovery.txt",
+  "out/s26_spectra_HCO+.npz",
+  "out/s26_spectra_HCN.npz",
+  "out/s27_ch3oh_recovery.json",
+  "out/s28_manual_tapered.json",
+  "out/s28_manual_tapered.txt",
+  "out/s15_crossous.txt",
+  "out/s15_crossous.json",
+  "TEAM_REPORT.json"
+ ]
+}

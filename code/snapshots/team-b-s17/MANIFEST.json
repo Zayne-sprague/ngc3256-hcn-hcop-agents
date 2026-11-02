@@ -1,0 +1,16 @@
+{
+ "team": "team-b",
+ "item": "Q19",
+ "files": [
+  "scripts/s100_q19_NS_recovery.py",
+  "scripts/s101_q19_cont_anchor_bridge.py",
+  "scripts/s102_q19_xb4d_vs_xb4f_32.py",
+  "scripts/s103_update_report_q19r2.py",
+  "out/q19/s100.txt",
+  "out/q19/s100.json",
+  "out/q19/s101.txt",
+  "out/q19/s101.json",
+  "out/q19/s102.txt",
+  "TEAM_REPORT.json"
+ ]
+}

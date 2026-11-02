@@ -1,0 +1,35 @@
+HCN 3-2 @1.05": red = 0.0095*core-0.000, resid sd 0.025
+HCN 3-2 @1.05": blue = 0.0032*core-0.005, resid sd 0.028
+  template excess at 1.05" at ridge pixel (red) 0.173, lobe pixel (blue) 0.259 Jy/beam km/s
+HCO+ 3-2 @1.05": red = 0.0077*core-0.005, resid sd 0.025
+HCO+ 3-2 @1.05": blue = 0.0018*core-0.002, resid sd 0.025
+  template excess at 1.05" at ridge pixel (red) 0.128, lobe pixel (blue) 0.125 Jy/beam km/s
+E1 HCN32    red  ridge: : s = +1.18 +- 0.36(OLS) / null sd 0.29 (mean -0.07, N=70) -> s = +1.18 +- 0.36, flux at template peak +0.308 +- 0.093 Jy/beam km/s | core coeff a=+0.0109, resid sd 0.045
+E1 HCN32    blue lobe : : s = +0.88 +- 0.18(OLS) / null sd 0.16 (mean -0.09, N=53) -> s = +0.88 +- 0.18, flux at template peak +0.355 +- 0.072 Jy/beam km/s | core coeff a=+0.0033, resid sd 0.050
+E2 HCN32    red-blue ridge: : s = +1.35 +- 0.49(OLS) / null sd 0.30 (mean -0.05, N=70) -> s = +1.35 +- 0.49, flux at template peak +0.353 +- 0.127 Jy/beam km/s | a=+0.0077, resid sd 0.062
+E2 HCN32    red-blue lobe : : s = +1.00 +- 0.23(OLS) / null sd 0.20 (mean -0.06, N=53) -> s = +1.00 +- 0.23, flux at template peak +0.400 +- 0.091 Jy/beam km/s | a=+0.0077, resid sd 0.062
+E1 HCO+32   red  ridge: : s = +1.52 +- 0.48(OLS) / null sd 0.52 (mean -0.04, N=67) -> s = +1.52 +- 0.52, flux at template peak +0.259 +- 0.089 Jy/beam km/s | core coeff a=+0.0041, resid sd 0.040
+E1 HCO+32   blue lobe : : s = +1.20 +- 0.17(OLS) / null sd 0.21 (mean -0.14, N=52) -> s = +1.20 +- 0.21, flux at template peak +0.352 +- 0.061 Jy/beam km/s | core coeff a=-0.0014, resid sd 0.033
+E2 HCO+32   red-blue ridge: : s = +1.41 +- 0.72(OLS) / null sd 0.74 (mean -0.00, N=67) -> s = +1.41 +- 0.74, flux at template peak +0.240 +- 0.126 Jy/beam km/s | a=+0.0053, resid sd 0.060
+E2 HCO+32   red-blue lobe : : s = +1.27 +- 0.31(OLS) / null sd 0.33 (mean -0.25, N=52) -> s = +1.27 +- 0.33, flux at template peak +0.372 +- 0.098 Jy/beam km/s | a=+0.0053, resid sd 0.060
+E1 HCN43    red  ridge: : s = +1.35 +- 0.64(OLS) / null sd 0.51 (mean -0.07, N=70) -> s = +1.35 +- 0.64, flux at template peak +0.352 +- 0.168 Jy/beam km/s | core coeff a=-0.0249, resid sd 0.084
+E1 HCN43    blue lobe : : s = +1.23 +- 0.37(OLS) / null sd 0.34 (mean -0.24, N=53) -> s = +1.23 +- 0.37, flux at template peak +0.497 +- 0.149 Jy/beam km/s | core coeff a=+0.0017, resid sd 0.099
+E2 HCN43    red-blue ridge: : s = +1.88 +- 0.87(OLS) / null sd 0.50 (mean -0.10, N=70) -> s = +1.88 +- 0.87, flux at template peak +0.489 +- 0.226 Jy/beam km/s | a=-0.0267, resid sd 0.114
+E2 HCN43    red-blue lobe : : s = +1.09 +- 0.42(OLS) / null sd 0.41 (mean -0.18, N=53) -> s = +1.09 +- 0.42, flux at template peak +0.439 +- 0.170 Jy/beam km/s | a=-0.0267, resid sd 0.114
+E1 HCO+43   red  ridge: : s = +2.88 +- 1.09(OLS) / null sd 0.81 (mean -0.11, N=67) -> s = +2.88 +- 1.09, flux at template peak +0.491 +- 0.185 Jy/beam km/s | core coeff a=-0.0022, resid sd 0.093
+E1 HCO+43   blue lobe : : s = +0.99 +- 0.44(OLS) / null sd 0.24 (mean -0.14, N=52) -> s = +0.99 +- 0.44, flux at template peak +0.289 +- 0.130 Jy/beam km/s | core coeff a=+0.0049, resid sd 0.084
+E2 HCO+43   red-blue ridge: : s = +2.88 +- 1.44(OLS) / null sd 0.97 (mean +0.01, N=67) -> s = +2.88 +- 1.44, flux at template peak +0.491 +- 0.246 Jy/beam km/s | a=-0.0069, resid sd 0.124
+E2 HCO+43   red-blue lobe : : s = +1.02 +- 0.66(OLS) / null sd 0.39 (mean -0.12, N=52) -> s = +1.02 +- 0.66, flux at template peak +0.300 +- 0.193 Jy/beam km/s | a=-0.0069, resid sd 0.124
+E1 CS76     red  ridge: : s = +0.11 +- 0.84(OLS) / null sd 0.56 (mean +0.03, N=70) -> s = +0.11 +- 0.84, flux at template peak +0.028 +- 0.218 Jy/beam km/s | core coeff a=+0.0030, resid sd 0.114
+E1 CS76     blue lobe : : s = +0.16 +- 0.31(OLS) / null sd 0.32 (mean -0.02, N=53) -> s = +0.16 +- 0.32, flux at template peak +0.064 +- 0.129 Jy/beam km/s | core coeff a=+0.0251, resid sd 0.082
+E2 CS76     red-blue ridge: : s = +0.30 +- 0.95(OLS) / null sd 0.67 (mean -0.03, N=70) -> s = +0.30 +- 0.95, flux at template peak +0.078 +- 0.246 Jy/beam km/s | a=-0.0221, resid sd 0.129
+E2 CS76     red-blue lobe : : s = +0.02 +- 0.49(OLS) / null sd 0.41 (mean +0.12, N=53) -> s = +0.02 +- 0.49, flux at template peak +0.009 +- 0.198 Jy/beam km/s | a=-0.0221, resid sd 0.129
+E1 SO65     red  ridge: : s = -0.02 +- 0.21(OLS) / null sd 0.16 (mean +0.00, N=70) -> s = -0.02 +- 0.21, flux at template peak -0.006 +- 0.054 Jy/beam km/s | core coeff a=+0.2507, resid sd 0.033
+E1 SO65     blue lobe : : s = -0.12 +- 0.14(OLS) / null sd 0.19 (mean -0.04, N=53) -> s = -0.12 +- 0.19, flux at template peak -0.047 +- 0.076 Jy/beam km/s | core coeff a=+0.2535, resid sd 0.038
+E2 SO65     red-blue ridge: : s = +0.29 +- 0.22(OLS) / null sd 0.17 (mean -0.03, N=70) -> s = +0.29 +- 0.22, flux at template peak +0.076 +- 0.057 Jy/beam km/s | a=-0.0026, resid sd 0.035
+E2 SO65     red-blue lobe : : s = +0.02 +- 0.13(OLS) / null sd 0.13 (mean -0.01, N=53) -> s = +0.02 +- 0.13, flux at template peak +0.007 +- 0.053 Jy/beam km/s | a=-0.0026, resid sd 0.035
+E1 H13CN43  red  ridge: : s = -3.01 +- 2.01(OLS) / null sd 0.44 (mean -0.05, N=70) -> s = -3.01 +- 2.01, flux at template peak -0.785 +- 0.522 Jy/beam km/s | core coeff a=+0.0498, resid sd 0.131
+bins HCN ridge (red) Jy/beam km/s @4.5x3.0: 120-160: 3-2 +0.026+-0.166, 4-3 -0.127+-0.149 | 160-200: 3-2 +0.091+-0.048, 4-3 +0.074+-0.081 | 200-240: 3-2 +0.109+-0.050, 4-3 +0.164+-0.080 | 240-280: 3-2 +0.073+-0.036, 4-3 +0.083+-0.071 | 280-320: 3-2 +0.078+-0.046, 4-3 +0.088+-0.094 | 320-360: 3-2 +0.072+-0.029, 4-3 +0.022+-0.101 | 360-400: 3-2 +0.010+-0.043, 4-3 -0.098+-0.086
+bins HCN lobe (blue) Jy/beam km/s @4.5x3.0: 120-160: 3-2 +0.200+-0.068, 4-3 +0.295+-0.099 | 160-200: 3-2 +0.133+-0.030, 4-3 +0.194+-0.073 | 200-240: 3-2 +0.144+-0.028, 4-3 +0.128+-0.074 | 240-280: 3-2 +0.088+-0.035, 4-3 +0.196+-0.071 | 280-320: 3-2 +0.065+-0.031, 4-3 +0.125+-0.071 | 320-360: 3-2 +0.052+-0.034, 4-3 -0.040+-0.076 | 360-400: 3-2 +0.023+-0.047, 4-3 -0.034+-0.073
+bins HCO+ ridge (red) Jy/beam km/s @4.5x3.0: 120-160: 3-2 -0.716+-0.496, 4-3 -0.823+-0.488 | 160-200: 3-2 -0.152+-0.107, 4-3 -0.063+-0.133 | 200-240: 3-2 +0.065+-0.042, 4-3 +0.175+-0.094 | 240-280: 3-2 +0.116+-0.043, 4-3 +0.112+-0.072 | 280-320: 3-2 +0.134+-0.045, 4-3 +0.226+-0.101 | 320-360: 3-2 -0.023+-0.047, 4-3 +0.125+-0.089 | 360-400: 3-2 -0.023+-0.044, 4-3 -0.125+-0.100
+bins HCO+ lobe (blue) Jy/beam km/s @4.5x3.0: 120-160: 3-2 +0.292+-0.106, 4-3 +0.335+-0.125 | 160-200: 3-2 +0.212+-0.031, 4-3 +0.259+-0.062 | 200-240: 3-2 +0.101+-0.045, 4-3 +0.141+-0.071 | 240-280: 3-2 +0.110+-0.035, 4-3 +0.052+-0.070 | 280-320: 3-2 +0.038+-0.025, 4-3 -0.019+-0.066 | 320-360: 3-2 +0.004+-0.045, 4-3 -0.067+-0.069 | 360-400: 3-2 +0.022+-0.034, 4-3 -0.075+-0.073

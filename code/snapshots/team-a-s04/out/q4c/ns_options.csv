@@ -1,0 +1,49 @@
+mode,family,option,chi2,npar,ndata_total,dchi2_vs_nothing,BIC,dof
+all,both thick,nothing changes (4 par),121.766,4.0,16.0,0.0,132.856,12.0
+all,both thick,kappa(S) differs (5),52.05,5.0,16.0,69.716,65.913,11.0
+all,both thick,N(HCN) differs (5),43.853,5.0,16.0,77.913,57.716,11.0
+all,both thick,N(HCO+) differs (5),44.063,5.0,16.0,77.703,57.926,11.0
+all,both thick,both columns differ (6),43.853,6.0,16.0,77.913,60.489,10.0
+all,both thick,n differs (5),107.089,5.0,16.0,14.676,120.952,11.0
+all,both thick,Tkin differs (5),90.783,5.0,16.0,30.983,104.646,11.0
+all,both thick,"Tkin and n differ, columns common (6)",90.783,6.0,16.0,30.983,107.419,10.0
+all,both thick,independent (8),33.141,8.0,16.0,88.625,55.322,8.0
+all,both thick,"  best N(HCN) option: T,logn,logNO,logNH_N,logNH_S = 65 4.25 16.00 16.75 16.50",,,,,,
+all,both thick,"  best kappa option: T,logn,logNH,logNO,kappaS = 50 5.00 16.00 15.25 0.750",,,,,,
+all,both thick,"  best common: T,logn,logNH,logNO = 40 5.25 16.00 15.50",,,,,,
+all,any tau (diag),nothing changes (4 par),121.766,4.0,16.0,0.0,132.856,12.0
+all,any tau (diag),kappa(S) differs (5),52.05,5.0,16.0,69.716,65.913,11.0
+all,any tau (diag),N(HCN) differs (5),43.853,5.0,16.0,77.913,57.716,11.0
+all,any tau (diag),N(HCO+) differs (5),44.063,5.0,16.0,77.703,57.926,11.0
+all,any tau (diag),both columns differ (6),43.853,6.0,16.0,77.913,60.489,10.0
+all,any tau (diag),n differs (5),107.089,5.0,16.0,14.676,120.952,11.0
+all,any tau (diag),Tkin differs (5),90.783,5.0,16.0,30.983,104.646,11.0
+all,any tau (diag),"Tkin and n differ, columns common (6)",90.783,6.0,16.0,30.983,107.419,10.0
+all,any tau (diag),independent (8),33.141,8.0,16.0,88.625,55.322,8.0
+all,any tau (diag),"  best N(HCN) option: T,logn,logNO,logNH_N,logNH_S = 65 4.25 16.00 16.75 16.50",,,,,,
+all,any tau (diag),"  best kappa option: T,logn,logNH,logNO,kappaS = 50 5.00 16.00 15.25 0.750",,,,,,
+all,any tau (diag),"  best common: T,logn,logNH,logNO = 40 5.25 16.00 15.50",,,,,,
+all_no21,both thick,nothing changes (4 par),97.653,4.0,12.0,0.0,107.593,8.0
+all_no21,both thick,kappa(S) differs (5),36.23,5.0,12.0,61.423,48.655,7.0
+all_no21,both thick,N(HCN) differs (5),27.494,5.0,12.0,70.159,39.919,7.0
+all_no21,both thick,N(HCO+) differs (5),30.735,5.0,12.0,66.919,43.159,7.0
+all_no21,both thick,both columns differ (6),27.494,6.0,12.0,70.159,42.403,6.0
+all_no21,both thick,n differs (5),74.835,5.0,12.0,22.819,87.259,7.0
+all_no21,both thick,Tkin differs (5),56.836,5.0,12.0,40.818,69.26,7.0
+all_no21,both thick,"Tkin and n differ, columns common (6)",51.424,6.0,12.0,46.229,66.334,6.0
+all_no21,both thick,independent (8),15.79,8.0,12.0,81.863,35.669,4.0
+all_no21,both thick,"  best N(HCN) option: T,logn,logNO,logNH_N,logNH_S = 30 5.25 15.50 16.25 16.00",,,,,,
+all_no21,both thick,"  best kappa option: T,logn,logNH,logNO,kappaS = 30 5.25 16.25 15.50 0.750",,,,,,
+all_no21,both thick,"  best common: T,logn,logNH,logNO = 40 5.25 16.00 15.50",,,,,,
+all_no21,any tau (diag),nothing changes (4 par),97.653,4.0,12.0,0.0,107.593,8.0
+all_no21,any tau (diag),kappa(S) differs (5),36.23,5.0,12.0,61.423,48.655,7.0
+all_no21,any tau (diag),N(HCN) differs (5),27.494,5.0,12.0,70.159,39.919,7.0
+all_no21,any tau (diag),N(HCO+) differs (5),30.735,5.0,12.0,66.919,43.159,7.0
+all_no21,any tau (diag),both columns differ (6),27.494,6.0,12.0,70.159,42.403,6.0
+all_no21,any tau (diag),n differs (5),74.835,5.0,12.0,22.819,87.259,7.0
+all_no21,any tau (diag),Tkin differs (5),56.836,5.0,12.0,40.818,69.26,7.0
+all_no21,any tau (diag),"Tkin and n differ, columns common (6)",51.424,6.0,12.0,46.229,66.334,6.0
+all_no21,any tau (diag),independent (8),15.79,8.0,12.0,81.863,35.669,4.0
+all_no21,any tau (diag),"  best N(HCN) option: T,logn,logNO,logNH_N,logNH_S = 30 5.25 15.50 16.25 16.00",,,,,,
+all_no21,any tau (diag),"  best kappa option: T,logn,logNH,logNO,kappaS = 30 5.25 16.25 15.50 0.750",,,,,,
+all_no21,any tau (diag),"  best common: T,logn,logNH,logNO = 40 5.25 16.00 15.50",,,,,,

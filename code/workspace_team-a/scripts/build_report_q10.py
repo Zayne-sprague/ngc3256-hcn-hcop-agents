@@ -1,0 +1,29 @@
+# Q10 report patch (idempotent): python3 -I build_report_q10.py
+import json
+p='/output/report.json'; r=json.load(open(p))
+r['results']=[x for x in r['results'] if not x['quantity'].startswith('Q10')]
+A=lambda n,v:{"name":n,"value":v}
+com=[A("data","Xb4b/Xb4d Band 6 HCN/HCO+ 3-2 cubes (pbcor) and line-free 258 GHz continuum; 2016.1.00965.S spw29 Band 3 cube+mfs (0.67x0.56\" PA 66, 98.05 GHz continuum; H40a at 98.11 GHz)"),
+     A("convention","moment-0 +-350 km/s about 2780 km/s, linear baseline from |v|>520 km/s; all comparisons convolved to a matched circular beam (0.30\" or 1.05\"); annuli about the HCO+ peak of each nucleus (N ~(0,+2.6\"), S ~(-0.15,-2.6\")); noise from null windows / far field (>6\"); +5% flux-scale error on continuum"),
+     A("H40a","rest 99.02295 GHz, optical velocity, window +-350 km/s, baseline |v|>700 km/s; channel rms 0.14-0.21 mJy/beam (24 km/s) at native resolution")]
+def add(q,t,v,u,un,c,e): r['results'].append({"quantity":q,"target":t,"value":v,"uncertainty":un,"unit":u,"confidence":c,"evidence":e,"assumptions":com})
+add("Q10a: the N inward rise of HCN/HCO+ 3-2 follows the 1.1 mm continuum radially, but pixel-level the correlation is not separable from the line brightness/radius; S is flat",
+ "N and S nuclei, 0.30\" and 1.05\"",
+ "0.30\" N annuli (r=0-0.15/0.25-0.5/1-1.5/2-3\"): <Sc>=0.635/0.412/0.094/0.006 mJy/b, R=0.98/0.87/0.45/0.30. Per-pixel (beam-spaced, r<1.5\"): Spearman(Sc,R)=+0.42 [boot +0.29,+0.54] at 0.30\", +0.86 at 1.05\" (n=7 only) and +0.75 [+0.41,+1.00] (Xb4d). Partial correlation of R with Sc controlling for HCO+ and radius: +0.26 (0.30\"), +0.06 (Xb4b@1.05\"), +0.57 (Xb4d@1.05\", n=7): not significant. => R tracks continuum, HCO+ brightness and radius together; no independent link to the continuum is demonstrated. S: R=0.42/0.41/0.40/0.36/0.33/0.37/0.47 (0.30\" annuli) while the continuum falls 1.6->0.01 mJy/b: flat to +-0.05 over a factor 100 in continuum (0.30\"), per-pixel Spearman -0.49 [-0.65,-0.29] (n=25, driven by noisy low-brightness pixels, partial corr +0.2). Xb4d 1.05\" N: R=0.805/0.726/0.599/0.474/0.399, S: 0.390/0.364/0.358/0.390/0.385.",
+ "ratio (Jy, 3-2)","R stat ~0.02 per annulus (0.30\"); correlation coefficients bootstrap 16-84% quoted; annuli not independent, pixels n=7-67","medium",
+ "scripts/q10_corr.py -> out/q10/q10_corr.log, q10_corr.json")
+add("Q10b: continuum-subtraction and HCN v2=1 do not drive the N rise or the S flatness",
+ "N and S cores, 0.30\"",
+ "Core r<0.15\" N: R=0.984 (linear baseline), 0.976 (constant), 0.978 (no baseline/continuum left in); S: 0.423 / 0.426 / 0.697 (continuum not removed, 2.4 vs 1.2 Jy/b km/s HCO+; ruled out since the baseline-free cubes are line-free outside). Leftover baseline <=1% (N) / <=2% (S) of the continuum (0.64/1.63 mJy/b). HCN v2=1f 3-2 (+401 km/s in the HCO+ cube, 351-451): N -5.8+-14.7 mJy/b km/s, S -2.8+-14.7, i.e. <0.4% (3 sigma <~3%) of HCN v=0 at the cores; 300-500 km/s: -15.8+-20.8 (N), +4.6 (S). => no vibrationally-excited HCN contamination of HCO+ or evidence for IR pumping signature at the 3% level.",
+ "ratio","3-sigma <=3% of HCN v=0 (v2=1f)","medium","scripts/q10_corr.py -> out/q10/q10_corr.log")
+add("Q10c: H40a (98.11 GHz) is not detected in either nucleus at 1.05\" (and native 0.65\") and cannot test the starburst reading; expected free-free H40a is ~10-50x below the sensitivity",
+ "N and S nuclei, 2016.1.00965.S",
+ "1.05\" H40a integral (+-350 km/s) +-1 sigma (mJy/b km/s): N r<0.5\": 30+-47; S: 89+-47 (1.9 sigma); native 0.67x0.56 apertures r<0.5\": N 14+-19 (0.7 sigma), S 51+-19 (2.6 sigma); 5-channel spectra flat (<0.25 mJy). Line/continuum (km/s): N 17+-26, S 31+-16 (core); pure free-free gives ~3.3 km/s (Te=1e4 K, scaling Gordon & Sorochenko 2002 at 98 GHz) x f_ff~1, i.e. a 3-sigma limit of L/C<~80 (N) / <~50 (S) km/s is 15-25x above the expectation. The S ~2 sigma hint would imply L/C~10x the free-free value and is considered noise. Per-pixel Spearman(H40a,R) is +0.1-0.2 (N) / -0.5 (S) but based on noise.",
+ "mJy/beam km/s","1 sigma 47 mJy/b km/s at 1.05\"; 3-sigma L/C 50-80 km/s","high","scripts/q10_h40a.py -> out/q10/q10_h40a.log")
+add("Q10d: 98-258 GHz continuum spectral index separates the nuclei: N is dust-dominated at 1.1 mm and steepens outward (alpha 0.9->1.9), S is flat (alpha 0.3-0.4) as expected for free-free/synchrotron/AGN",
+ "N and S nuclei, 1.05\" matched",
+ "alpha(98-258 GHz) N annuli 0-0.5/0.5-1/1-1.5/1.5-2\": 0.92+-0.09/1.06+-0.09/1.36+-0.13/1.91+-0.30; S: 0.28+-0.08/0.44+-0.10/0.91+-0.19/1.76+-0.50. Two-component (free-free alpha=-0.1 + dust alpha=3.5) decomposition: non-dust fraction at 98 GHz 0.95-0.81 (N), 0.99-0.84 (S); at 258 GHz N core 35% (0-0.5\"), 30%, 22%, 12%; S core 69%, 58%, 36%, 14%. Hence the 1.1 mm continuum in the N core is ~65% dust but in the S core only ~31% dust: R rises with continuum in N where the 1.1 mm light is star-formation dust, and stays flat in S where the continuum is flat-spectrum (free-free/AGN/synchrotron, cannot be separated with two bands; synchrotron would give the same decomposition label 'non-dust'). Note S and N 3 mm 1.05\" core fluxes are 2.9 and 1.8 mJy/b, 1.1 mm 3.8 and 4.4.",
+ "spectral index","alpha stat 0.08-0.5 (+5% flux scale each); decomposition model dependent (dust beta 1.5-2 -> f_ff98 shifts <=0.03)","medium",
+ "scripts/q10_h40a.py -> out/q10/q10_h40a.log, q10_alpha.json; Xb4d 1.1 mm mfs and 2016.1.00965.S mfs (different uv coverage; MRS of Xb4d ~ several arcsec, large-scale continuum may be missed)")
+r['datasets'].append({'files':['member.uid___A001_X879_X94a.NGC_3256_sci.spw29.cube.I.pbcor.fits','member.uid___A001_X879_X94a.NGC_3256_sci.spw29.mfs.I.pbcor.fits'],'content':'2016.1.00965.S Band 3 98 GHz cube+continuum, 0.67x0.56"','role':'Q10 H40a and 3 mm continuum'})
+json.dump(r,open(p,'w'),indent=1)

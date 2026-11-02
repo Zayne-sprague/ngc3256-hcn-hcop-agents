@@ -1,0 +1,22 @@
+{
+ "team": "team-b",
+ "item": "Q56",
+ "files": [
+  "scripts/s341_q56_casa_image.py",
+  "scripts/s341_q56_casa_image.log",
+  "scripts/s344_q56_systematics.py",
+  "scripts/s345_q56_summary.py",
+  "scripts/s346_q56_radex_bound.py",
+  "scripts/s347_update_report_q56r2.py",
+  "out/q56/s340.json",
+  "out/q56/s340.txt",
+  "out/q56/s342.json",
+  "out/q56/s342.txt",
+  "out/q56/s344.json",
+  "out/q56/s345.json",
+  "out/q56/s345.txt",
+  "out/q56/s345_budget.json",
+  "out/q56/s346.txt",
+  "TEAM_REPORT.json"
+ ]
+}

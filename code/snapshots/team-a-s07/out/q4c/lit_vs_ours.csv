@@ -1,0 +1,21 @@
+region,quantity,value,err_stat
+N,H R10 (K km/s),0.9609,0.0065
+N,H R32 (K km/s),0.7796,0.0087
+N,"ours R32 (K km/s, 1.7"")",0.7478,0.003
+N,H R10 (peak),0.9472,
+N,H R32 (peak),0.7579,
+N,"ours R32 (peak, 1.7"")",0.7266,
+N,H HCN 3-2/1-0 (K km/s),0.3619,0.0036
+N,ours3-2/H1-0 HCN (K km/s),0.3225,0.0019
+N,H HCO+ 3-2/1-0 (K km/s),0.4461,0.0037
+N,ours3-2/H1-0 HCO+ (K km/s),0.4144,0.0022
+S,H R10 (K km/s),0.645,0.013
+S,H R32 (K km/s),0.4056,0.0155
+S,"ours R32 (K km/s, 1.7"")",0.3776,0.0037
+S,H R10 (peak),0.6604,
+S,H R32 (peak),0.3761,
+S,"ours R32 (peak, 1.7"")",0.3949,
+S,H HCN 3-2/1-0 (K km/s),0.3126,0.0123
+S,ours3-2/H1-0 HCN (K km/s),0.3579,0.0069
+S,H HCO+ 3-2/1-0 (K km/s),0.4972,0.0089
+S,ours3-2/H1-0 HCO+ (K km/s),0.6114,0.0069

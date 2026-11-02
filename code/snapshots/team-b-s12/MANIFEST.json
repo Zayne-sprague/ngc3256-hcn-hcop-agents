@@ -1,0 +1,23 @@
+{
+ "team": "team-b",
+ "item": "Q20",
+ "files": [
+  "scripts/s110a_q20_spectra.py",
+  "scripts/s110b_q20_maps.py",
+  "scripts/s110c_q20_templatefit.py",
+  "scripts/s110d_q20_so_hc3n_1arcsec.py",
+  "scripts/s110e_q20_summary.py",
+  "scripts/s111_update_report_q20.py",
+  "out/q20/s110a.txt",
+  "out/q20/s110a_spectra.png",
+  "out/q20/s110b.txt",
+  "out/q20/s110c.txt",
+  "out/q20/s110c.json",
+  "out/q20/s110c_sig2.5.txt",
+  "out/q20/s110c_sig2.5.json",
+  "out/q20/s110d.txt",
+  "out/q20/s110d.json",
+  "out/q20/s110e.txt",
+  "TEAM_REPORT.json"
+ ]
+}

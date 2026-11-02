@@ -1,0 +1,101 @@
+opacity broadening factor FWHM/FWHM_thin at tau0 = 0.1,1,3,10,30,100,300: [1.018, 1.182, 1.49, 1.962, 2.332, 2.678, 2.959]
+
+===== N core: T_b ratio HCN/HCO+ = 0.939 (+-15% window); allowed cells 2022 of 6925 (29.2%)
+br        HCN thick, HCO+ thin/mid  HCO+ thick, HCN thin/mid  both thick (tau>=3)  both thin  intermediate
+cells                        84.00                     20.00              1808.00      51.00         59.00
+A_min                         1.78                      0.32                 0.32       1.00          1.00
+A_med                         5.62                      0.56                 3.16       1.78          1.78
+A_max                        17.78                      1.00                17.78       5.62          5.62
+eta_min                       0.01                      0.01                 0.01       0.02          0.01
+eta_med                       0.09                      0.03                 0.07       0.33          0.08
+eta_max                       0.72                      0.11                 0.75       0.99          0.95
+TexO_min                      7.42                     19.99                 6.71      12.78          9.21
+TexO_med                     27.79                     59.88                30.00      44.90         44.54
+TexO_max                    147.95                    149.87               150.00     441.86        178.02
+tauH_min                      3.04                      1.75                 3.08       0.02          1.02
+tauH_max                     30.71                      2.94              5652.00       1.00          2.96
+tauO_min                      0.83                      3.10                 3.01       0.01          0.25
+tauO_max                      2.98                     12.12              9218.00       0.92          2.91
+wr_min                        1.01                      0.68                 0.70       1.00          0.89
+wr_med                        1.37                      0.77                 1.03       1.03          1.10
+wr_max                        1.58                      0.96                 1.56       1.14          1.32
+log N(HCN)[cm-2 per 150 km/s] range per branch:
+                            min  median    max
+br                                            
+HCN thick, HCO+ thin/mid  15.50   16.25  17.75
+HCO+ thick, HCN thin/mid  15.50   16.25  17.00
+both thick (tau>=3)       15.75   17.75  19.00
+both thin                 14.25   15.00  16.50
+intermediate              15.00   15.75  17.00
+Tkin / n of allowed cells per branch (min-max):
+                          Tk_min  Tk_max       n_min        n_max
+br                                                               
+HCN thick, HCO+ thin/mid      20     150    100000.0  100000000.0
+HCO+ thick, HCN thin/mid      20     150  10000000.0  100000000.0
+both thick (tau>=3)           20     150     10000.0  100000000.0
+both thin                     20     150    300000.0  100000000.0
+intermediate                  20     150    100000.0  100000000.0
+
+===== S core: T_b ratio HCN/HCO+ = 0.424 (+-15% window); allowed cells 306 of 6925 (4.4%)
+br        HCN thick, HCO+ thin/mid  HCO+ thick, HCN thin/mid  both thick (tau>=3)  both thin  intermediate
+cells                        17.00                     12.00               145.00      83.00         49.00
+A_min                         0.56                      0.32                 0.32       0.32          0.32
+A_med                         1.78                      0.32                 1.00       0.56          1.00
+A_max                         3.16                      0.56                 3.16       3.16          3.16
+eta_min                       0.02                      0.02                 0.01       0.02          0.01
+eta_med                       0.11                      0.07                 0.08       0.27          0.07
+eta_max                       0.57                      0.14                 0.81       1.00          0.95
+TexO_min                      9.12                     19.63                 7.00      10.77          8.09
+TexO_med                     23.69                     37.19                30.40      60.22         43.83
+TexO_max                    116.51                     89.91               137.09    1533.00        151.77
+tauH_min                      3.05                      0.63                 3.71       0.01          0.36
+tauH_max                      6.46                      2.71               387.60       0.99          2.96
+tauO_min                      1.58                      3.10                 3.01       0.00          0.46
+tauO_max                      2.98                      9.44              1054.00       1.00          2.91
+wr_min                        1.07                      0.74                 0.80       0.90          0.75
+wr_med                        1.15                      0.78                 1.05       1.00          1.05
+wr_max                        1.23                      0.89                 1.21       1.07          1.18
+log N(HCN)[cm-2 per 150 km/s] range per branch:
+                            min  median    max
+br                                            
+HCN thick, HCO+ thin/mid  15.50   15.75  16.25
+HCO+ thick, HCN thin/mid  15.25   15.50  16.00
+both thick (tau>=3)       15.75   16.50  18.00
+both thin                 14.00   14.75  16.00
+intermediate              15.00   15.50  16.25
+Tkin / n of allowed cells per branch (min-max):
+                          Tk_min  Tk_max      n_min        n_max
+br                                                              
+HCN thick, HCO+ thin/mid      20     150   100000.0    1000000.0
+HCO+ thick, HCN thin/mid      20      90  3000000.0  100000000.0
+both thick (tau>=3)           20     150    10000.0    1000000.0
+both thin                     20     150   300000.0  100000000.0
+intermediate                  20     150   100000.0  100000000.0
+N core allowed fraction of grid 0.292
+S core allowed fraction of grid 0.044
+
+Thin-branch A: N core median 1.78 (1.00-5.62) vs S median 0.56 (0.32-3.16)
+
+Single-Tex slab: T_b ratio HCN/HCO+ vs tau(HCO+)=tauO for tauH=r*tauO  (same Tex, Delta v) -> ratio = (1-exp(-tauH))/(1-exp(-tauO)); gives 0.94 for tauH/tauO(thin)=r:
+  tauO=  0.1 tauH=  0.1: ratio 1.000;  tauO=  0.1 tauH=  0.2: ratio 1.905;  tauO=  0.1 tauH=  0.3: ratio 2.724;
+  tauO=  0.5 tauH=  0.5: ratio 1.000;  tauO=  0.5 tauH=  1.0: ratio 1.607;  tauO=  0.5 tauH=  1.5: ratio 1.974;
+  tauO=  1.0 tauH=  1.0: ratio 1.000;  tauO=  1.0 tauH=  2.0: ratio 1.368;  tauO=  1.0 tauH=  3.0: ratio 1.503;
+  tauO=  2.0 tauH=  2.0: ratio 1.000;  tauO=  2.0 tauH=  4.0: ratio 1.135;  tauO=  2.0 tauH=  6.0: ratio 1.154;
+  tauO=  3.0 tauH=  3.0: ratio 1.000;  tauO=  3.0 tauH=  6.0: ratio 1.050;  tauO=  3.0 tauH=  9.0: ratio 1.052;
+  tauO=  5.0 tauH=  5.0: ratio 1.000;  tauO=  5.0 tauH= 10.0: ratio 1.007;  tauO=  5.0 tauH= 15.0: ratio 1.007;
+  tauO= 10.0 tauH= 10.0: ratio 1.000;  tauO= 10.0 tauH= 20.0: ratio 1.000;  tauO= 10.0 tauH= 30.0: ratio 1.000;
+  tauO= 30.0 tauH= 30.0: ratio 1.000;  tauO= 30.0 tauH= 60.0: ratio 1.000;  tauO= 30.0 tauH= 90.0: ratio 1.000;
+
+[N core] fraction of allowed cells per branch: {'both thick (tau>=3)': 0.89, 'HCN thick, HCO+ thin/mid': 0.04, 'intermediate': 0.03, 'both thin': 0.03, 'HCO+ thick, HCN thin/mid': 0.01}
+  HCN thick, HCO+ thin/mid     TexH/TexO median 0.87 (16-84%: 0.75-0.95); TexH median 23 K; A<1 fraction 0.00; A>=3 fraction 0.96
+  HCO+ thick, HCN thin/mid     TexH/TexO median 0.98 (16-84%: 0.98-0.98); TexH median 55 K; A<1 fraction 0.65; A>=3 fraction 0.00
+  both thick (tau>=3)          TexH/TexO median 1.00 (16-84%: 0.93-1.00); TexH median 30 K; A<1 fraction 0.22; A>=3 fraction 0.52
+  both thin                    TexH/TexO median 0.54 (16-84%: 0.35-0.96); TexH median 23 K; A<1 fraction 0.00; A>=3 fraction 0.20
+  intermediate                 TexH/TexO median 0.72 (16-84%: 0.55-0.98); TexH median 32 K; A<1 fraction 0.00; A>=3 fraction 0.41
+
+[S core] fraction of allowed cells per branch: {'both thick (tau>=3)': 0.47, 'both thin': 0.27, 'intermediate': 0.16, 'HCN thick, HCO+ thin/mid': 0.06, 'HCO+ thick, HCN thin/mid': 0.04}
+  HCN thick, HCO+ thin/mid     TexH/TexO median 0.56 (16-84%: 0.46-0.63); TexH median 12 K; A<1 fraction 0.06; A>=3 fraction 0.35
+  HCO+ thick, HCN thin/mid     TexH/TexO median 0.63 (16-84%: 0.55-0.97); TexH median 27 K; A<1 fraction 1.00; A>=3 fraction 0.00
+  both thick (tau>=3)          TexH/TexO median 0.53 (16-84%: 0.46-0.59); TexH median 17 K; A<1 fraction 0.37; A>=3 fraction 0.12
+  both thin                    TexH/TexO median 0.55 (16-84%: 0.33-0.99); TexH median 34 K; A<1 fraction 0.69; A>=3 fraction 0.01
+  intermediate                 TexH/TexO median 0.52 (16-84%: 0.42-0.72); TexH median 21 K; A<1 fraction 0.49; A>=3 fraction 0.12

@@ -1,0 +1,14 @@
+{
+ "team": "team-b",
+ "item": "Q51",
+ "files": [
+  "scripts/s310_q51_con_like.py",
+  "scripts/s311_update_report_q51.py",
+  "scripts/s42_hcn_vib.py",
+  "out/q51/s310.txt",
+  "out/q51/falstad_table3.csv",
+  "out/q51/nishimura_split.csv",
+  "out/s42_hcn_vib.csv",
+  "TEAM_REPORT.json"
+ ]
+}

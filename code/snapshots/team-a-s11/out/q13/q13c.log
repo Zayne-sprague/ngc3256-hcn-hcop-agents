@@ -1,0 +1,41 @@
+HCN32: v range 1369..3471, dv 4.40 km/s, beam (4.5, 4.5, 0)
+HCO32: v range 1265..3353, dv 4.38 km/s, beam (4.5, 4.5, 0)
+HCN43: v range 1761..3284, dv 3.30 km/s, beam (4.5, 4.5, 0)
+HCO43: v range 2147..3660, dv 3.28 km/s, beam (4.5, 4.5, 0)
+HCN32: channels in blue window 45, in red 45
+HCO32: channels in blue window 46, in red 46
+HCN43: channels in blue window 61, in red 60
+HCO43: channels in blue window 61, in red 61
+     pos   J  k_core  HCN_core  HCN_blue  sHCN_blue  snrE_blue  E_blue  sE_blue  HCO_blue  sHCO_blue  E_blueB  sE_blueB  E_red  sE_red
+Soutflow 3-2   0.369     4.054     0.375      0.134      1.977   0.284    0.144     0.246      0.074    0.327     0.163  0.038   0.156
+Soutflow 4-3   0.344     4.897     0.384      0.118      1.296   0.312    0.240     0.210      0.712    0.419     0.308  0.019   0.167
+       S 3-2   0.376     7.908     0.171      0.134      1.138   0.164    0.144     0.018      0.074    0.178     0.162  0.187   0.158
+       S 4-3   0.329     7.595     0.207      0.118      2.260   0.524    0.232    -0.962      0.712    0.726     0.300  0.110   0.166
+       N 3-2   0.588    16.379    -0.014      0.134      0.304   0.046    0.152    -0.103      0.074    0.097     0.167  0.401   0.158
+       N 4-3   0.508    16.002     0.071      0.118      0.861   0.306    0.355    -0.463      0.712    0.430     0.464  0.156   0.185
+  Bridge 3-2   0.491    13.262    -0.023      0.134      0.434   0.065    0.150    -0.180      0.074    0.122     0.168  0.585   0.161
+  Bridge 4-3   0.431    12.443    -0.037      0.118      1.797   0.565    0.314    -1.398      0.712    0.765     0.382  0.234   0.172
+Soutflow  HCN   core  : S32=4.054+-0.762 S43=4.897+-0.617 Jy/b km/s -> Tb r43/32=0.68+-0.15
+Soutflow  HCN   blue  : S32=0.375+-0.134 S43=0.384+-0.118 Jy/b km/s -> Tb r43/32=0.58+-0.27
+Soutflow  HCN   blueB : S32=0.429+-0.161 S43=0.510+-0.164 Jy/b km/s -> Tb r43/32=0.67+-0.33
+Soutflow  HCO+  core  : S32=10.995+-1.578 S43=14.248+-2.022 Jy/b km/s -> Tb r43/32=0.73+-0.15
+Soutflow  HCO+  blue  : S32=0.246+-0.074 S43=0.210+-0.712 Jy/b km/s -> Tb r43/32=0.48+-1.63
+Soutflow  HCO+  blueB : S32=0.276+-0.092 S43=0.265+-1.049 Jy/b km/s -> Tb r43/32=0.54+-2.15
+S         HCN   core  : S32=7.908+-0.762 S43=7.595+-0.617 Jy/b km/s -> Tb r43/32=0.54+-0.07
+S         HCN   blue  : S32=0.171+-0.134 S43=0.207+-0.118 Jy/b km/s -> Tb r43/32=0.68+-0.66
+S         HCN   blueB : S32=0.183+-0.161 S43=0.228+-0.164 Jy/b km/s -> Tb r43/32=0.70+-0.80
+S         HCO+  core  : S32=21.012+-1.578 S43=23.067+-2.022 Jy/b km/s -> Tb r43/32=0.62+-0.07
+S         HCO+  blue  : S32=0.018+-0.074 S43=-0.962+-0.712 Jy/b km/s -> Tb r43/32=-30.00+-nan
+S         HCO+  blueB : S32=0.013+-0.092 S43=-1.511+-1.049 Jy/b km/s -> Tb r43/32=-65.39+-nan
+N         HCN   core  : S32=16.379+-0.762 S43=16.002+-0.617 Jy/b km/s -> Tb r43/32=0.55+-0.03
+N         HCN   blue  : S32=-0.014+-0.134 S43=0.071+-0.118 Jy/b km/s -> Tb r43/32=nan+-nan
+N         HCN   blueB : S32=0.001+-0.161 S43=0.056+-0.164 Jy/b km/s -> Tb r43/32=23.97+-2917.16
+N         HCO+  core  : S32=27.837+-1.578 S43=31.488+-2.022 Jy/b km/s -> Tb r43/32=0.64+-0.05
+N         HCO+  blue  : S32=-0.103+-0.074 S43=-0.463+-0.712 Jy/b km/s -> Tb r43/32=nan+-nan
+N         HCO+  blueB : S32=-0.163+-0.092 S43=-0.736+-1.049 Jy/b km/s -> Tb r43/32=nan+-nan
+Bridge    HCN   core  : S32=13.262+-0.762 S43=12.443+-0.617 Jy/b km/s -> Tb r43/32=0.53+-0.04
+Bridge    HCN   blue  : S32=-0.023+-0.134 S43=-0.037+-0.118 Jy/b km/s -> Tb r43/32=nan+-nan
+Bridge    HCN   blueB : S32=0.009+-0.161 S43=-0.139+-0.164 Jy/b km/s -> Tb r43/32=-8.95+-nan
+Bridge    HCO+  core  : S32=27.021+-1.578 S43=28.878+-2.022 Jy/b km/s -> Tb r43/32=0.60+-0.05
+Bridge    HCO+  blue  : S32=-0.180+-0.074 S43=-1.398+-0.712 Jy/b km/s -> Tb r43/32=nan+-nan
+Bridge    HCO+  blueB : S32=-0.231+-0.092 S43=-2.100+-1.049 Jy/b km/s -> Tb r43/32=nan+-nan

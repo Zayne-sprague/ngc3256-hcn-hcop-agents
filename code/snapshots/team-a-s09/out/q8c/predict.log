@@ -1,0 +1,260 @@
+taper_phys done
+taper_raw_phys done
+sharp_phys done
+taper done
+taper_raw done
+sharp done
+           variant                                                                   param     p16     p50     p84
+0       taper_phys  alpha-bound weight: fraction of draws with 1.5<alpha<4.5 at N,S,Bridge   0.630     NaN     NaN
+1       taper_phys                                                                      Lf   7.790   8.020   8.149
+2       taper_phys                                                                      Ld   6.012   6.258   6.478
+3       taper_phys                                                                      Lb   5.448   5.690   5.918
+4       taper_phys                                                                      gd   1.308   1.361   1.421
+5       taper_phys                                                                      gb   1.254   1.319   1.390
+6       taper_phys                                                                    rB47   1.020   1.146   1.360
+7       taper_phys                                                                    rB55   1.001   1.130   1.336
+8       taper_phys                                                           L47 (derived)   4.394   5.220   5.873
+9       taper_phys                                                        chi2_min / ndata  65.521  70.000     NaN
+10  taper_raw_phys  alpha-bound weight: fraction of draws with 1.5<alpha<4.5 at N,S,Bridge   0.543     NaN     NaN
+11  taper_raw_phys                                                                      Lf   7.058   7.605   8.005
+12  taper_raw_phys                                                                      Ld   5.285   5.724   6.086
+13  taper_raw_phys                                                                      Lb   4.735   5.155   5.510
+14  taper_raw_phys                                                                      gd   1.064   1.116   1.178
+15  taper_raw_phys                                                                      gb   1.022   1.088   1.166
+16  taper_raw_phys                                                                    rB47   0.980   1.116   1.327
+17  taper_raw_phys                                                                    rB55   0.961   1.102   1.317
+18  taper_raw_phys                                                           L47 (derived)   4.246   5.084   5.800
+19  taper_raw_phys                                                        chi2_min / ndata  55.254  70.000     NaN
+20      sharp_phys  alpha-bound weight: fraction of draws with 1.5<alpha<4.5 at N,S,Bridge   0.000     NaN     NaN
+21      sharp_phys                                                                      Lf   7.896   8.069   8.164
+22      sharp_phys                                                                      Ld   7.410   7.553   7.649
+23      sharp_phys                                                                      Lb   7.287   7.426   7.527
+24      sharp_phys                                                                      gd   1.243   1.271   1.302
+25      sharp_phys                                                                      gb   1.104   1.133   1.165
+26      sharp_phys                                                                    rB47   1.026   1.150   1.352
+27      sharp_phys                                                                    rB55   1.005   1.132   1.340
+28      sharp_phys                                                           L47 (derived)   4.461   5.243   5.877
+29      sharp_phys                                                        chi2_min / ndata  65.939  70.000     NaN
+30           taper  alpha-bound weight: fraction of draws with 1.5<alpha<4.5 at N,S,Bridge   1.000     NaN     NaN
+31           taper                                                                      Lf  23.905  35.743  50.562
+32           taper                                                                      Ld  13.358  15.500  17.114
+33           taper                                                                      Lb  11.796  13.434  14.718
+34           taper                                                                      gd   0.938   0.965   1.001
+35           taper                                                                      gb   0.839   0.869   0.908
+36           taper                                                                    rB47   0.801   1.004   1.258
+37           taper                                                                    rB55   0.796   1.002   1.260
+38           taper                                                           L47 (derived)  16.882  26.457  39.357
+39           taper                                                        chi2_min / ndata  52.005  70.000     NaN
+40       taper_raw  alpha-bound weight: fraction of draws with 1.5<alpha<4.5 at N,S,Bridge   0.992     NaN     NaN
+41       taper_raw                                                                      Lf  21.137  34.952  49.559
+42       taper_raw                                                                      Ld  12.547  15.328  17.007
+43       taper_raw                                                                      Lb  11.201  13.334  14.677
+44       taper_raw                                                                      gd   0.928   0.952   0.980
+45       taper_raw                                                                      gb   0.827   0.854   0.887
+46       taper_raw                                                                    rB47   0.790   0.997   1.253
+47       taper_raw                                                                    rB55   0.796   1.006   1.257
+48       taper_raw                                                           L47 (derived)  15.023  25.755  39.251
+49       taper_raw                                                        chi2_min / ndata  54.064  70.000     NaN
+50           sharp  alpha-bound weight: fraction of draws with 1.5<alpha<4.5 at N,S,Bridge   0.996     NaN     NaN
+51           sharp                                                                      Lf  25.674  38.600  51.880
+52           sharp                                                                      Ld  15.762  17.675  19.027
+53           sharp                                                                      Lb  14.563  16.018  17.141
+54           sharp                                                                      gd   0.920   0.939   0.963
+55           sharp                                                                      gb   0.807   0.827   0.850
+56           sharp                                                                    rB47   0.794   0.999   1.260
+57           sharp                                                                    rB55   0.793   0.997   1.257
+58           sharp                                                           L47 (derived)  18.219  28.381  41.663
+59           sharp                                                        chi2_min / ndata  55.718  70.000     NaN
+            variant  region       line                                               quantity    p16    p50     p84
+2        taper_phys       N        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.678  0.741   0.782
+3        taper_phys       N        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.663  0.727   0.772
+4        taper_phys       N        HCN                              rec Xb4f (3-2 peak, abs.)  0.845  0.871   0.890
+7        taper_phys       N       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.666  0.730   0.775
+8        taper_phys       N       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.657  0.722   0.768
+9        taper_phys       N       HCO+                              rec Xb4f (3-2 peak, abs.)  0.830  0.852   0.870
+12       taper_phys       S        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.451  0.541   0.616
+13       taper_phys       S        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.408  0.498   0.573
+14       taper_phys       S        HCN                              rec Xb4f (3-2 peak, abs.)  0.152  0.224   0.298
+17       taper_phys       S       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.511  0.599   0.668
+18       taper_phys       S       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.482  0.571   0.641
+19       taper_phys       S       HCO+                              rec Xb4f (3-2 peak, abs.)  0.437  0.492   0.541
+22       taper_phys  Bridge        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.573  0.654   0.714
+23       taper_phys  Bridge        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.549  0.632   0.693
+24       taper_phys  Bridge        HCN                              rec Xb4f (3-2 peak, abs.)  0.616  0.663   0.710
+27       taper_phys  Bridge       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.605  0.683   0.738
+28       taper_phys  Bridge       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.585  0.663   0.720
+29       taper_phys  Bridge       HCO+                              rec Xb4f (3-2 peak, abs.)  0.694  0.738   0.783
+30       taper_phys       N  continuum                              rec Xb47/rec Xb4f (cont.)  0.638  0.704   0.752
+31       taper_phys       N  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  3.765  3.986   4.320
+32       taper_phys       S  continuum                              rec Xb47/rec Xb4f (cont.)  0.548  0.626   0.685
+33       taper_phys       S  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  3.469  3.773   4.226
+34       taper_phys  Bridge  continuum                              rec Xb47/rec Xb4f (cont.)  0.513  0.603   0.673
+35       taper_phys  Bridge  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  3.960  4.333   4.878
+38   taper_raw_phys       N        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.560  0.693   0.796
+39   taper_raw_phys       N        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.547  0.680   0.784
+40   taper_raw_phys       N        HCN                              rec Xb4f (3-2 peak, abs.)  0.579  0.621   0.654
+43   taper_raw_phys       N       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.551  0.685   0.790
+44   taper_raw_phys       N       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.544  0.677   0.783
+45   taper_raw_phys       N       HCO+                              rec Xb4f (3-2 peak, abs.)  0.570  0.610   0.640
+48   taper_raw_phys       S        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.389  0.526   0.656
+49   taper_raw_phys       S        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.357  0.490   0.617
+50   taper_raw_phys       S        HCN                              rec Xb4f (3-2 peak, abs.)  0.109  0.171   0.234
+53   taper_raw_phys       S       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.435  0.576   0.699
+54   taper_raw_phys       S       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.412  0.552   0.675
+55   taper_raw_phys       S       HCO+                              rec Xb4f (3-2 peak, abs.)  0.300  0.352   0.401
+58   taper_raw_phys  Bridge        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.479  0.620   0.740
+59   taper_raw_phys  Bridge        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.460  0.600   0.720
+60   taper_raw_phys  Bridge        HCN                              rec Xb4f (3-2 peak, abs.)  0.420  0.472   0.516
+63   taper_raw_phys  Bridge       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.504  0.643   0.757
+64   taper_raw_phys  Bridge       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.486  0.624   0.739
+65   taper_raw_phys  Bridge       HCO+                              rec Xb4f (3-2 peak, abs.)  0.473  0.521   0.562
+66   taper_raw_phys       N  continuum                              rec Xb47/rec Xb4f (cont.)  0.529  0.660   0.767
+67   taper_raw_phys       N  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  3.697  4.202   4.953
+68   taper_raw_phys       S  continuum                              rec Xb47/rec Xb4f (cont.)  0.469  0.602   0.714
+69   taper_raw_phys       S  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  3.329  3.908   4.749
+70   taper_raw_phys  Bridge  continuum                              rec Xb47/rec Xb4f (cont.)  0.447  0.588   0.710
+71   taper_raw_phys  Bridge  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  3.782  4.417   5.346
+74       sharp_phys       N        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.370  0.523   0.622
+75       sharp_phys       N        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.341  0.497   0.600
+76       sharp_phys       N        HCN                              rec Xb4f (3-2 peak, abs.)  0.739  0.791   0.830
+79       sharp_phys       N       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.341  0.498   0.602
+80       sharp_phys       N       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.324  0.482   0.589
+81       sharp_phys       N       HCO+                              rec Xb4f (3-2 peak, abs.)  0.722  0.763   0.798
+84       sharp_phys       S        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.077  0.149   0.248
+85       sharp_phys       S        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.047  0.113   0.211
+86       sharp_phys       S        HCN                              rec Xb4f (3-2 peak, abs.)  0.181  0.218   0.257
+89       sharp_phys       S       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.102  0.210   0.330
+90       sharp_phys       S       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.074  0.179   0.298
+91       sharp_phys       S       HCO+                              rec Xb4f (3-2 peak, abs.)  0.302  0.348   0.394
+94       sharp_phys  Bridge        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.178  0.325   0.452
+95       sharp_phys  Bridge        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.150  0.295   0.425
+96       sharp_phys  Bridge        HCN                              rec Xb4f (3-2 peak, abs.)  0.466  0.524   0.582
+99       sharp_phys  Bridge       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.235  0.390   0.511
+100      sharp_phys  Bridge       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.208  0.363   0.485
+101      sharp_phys  Bridge       HCO+                              rec Xb4f (3-2 peak, abs.)  0.554  0.615   0.679
+102      sharp_phys       N  continuum                              rec Xb47/rec Xb4f (cont.)  0.293  0.479   0.611
+103      sharp_phys       N  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  4.468  5.286   6.942
+104      sharp_phys       S  continuum                              rec Xb47/rec Xb4f (cont.)  0.104  0.255   0.385
+105      sharp_phys       S  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  5.412  6.807   9.841
+106      sharp_phys  Bridge  continuum                              rec Xb47/rec Xb4f (cont.)  0.084  0.212   0.341
+107      sharp_phys  Bridge  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  6.260  7.864  10.994
+110           taper       N        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.956  0.983   0.993
+111           taper       N        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.953  0.982   0.992
+112           taper       N        HCN                              rec Xb4f (3-2 peak, abs.)  0.986  0.994   0.997
+115           taper       N       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.953  0.982   0.993
+116           taper       N       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.951  0.981   0.992
+117           taper       N       HCO+                              rec Xb4f (3-2 peak, abs.)  0.983  0.993   0.996
+120           taper       S        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.860  0.948   0.987
+121           taper       S        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.843  0.939   0.982
+122           taper       S        HCN                              rec Xb4f (3-2 peak, abs.)  0.871  0.941   0.970
+125           taper       S       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.895  0.961   0.989
+126           taper       S       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.885  0.956   0.986
+127           taper       S       HCO+                              rec Xb4f (3-2 peak, abs.)  0.917  0.962   0.981
+130           taper  Bridge        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.922  0.971   0.991
+131           taper  Bridge        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.915  0.968   0.989
+132           taper  Bridge        HCN                              rec Xb4f (3-2 peak, abs.)  0.949  0.978   0.989
+135           taper  Bridge       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.934  0.976   0.992
+136           taper  Bridge       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.928  0.973   0.990
+137           taper  Bridge       HCO+                              rec Xb4f (3-2 peak, abs.)  0.962  0.984   0.992
+138           taper       N  continuum                              rec Xb47/rec Xb4f (cont.)  0.937  0.976   0.992
+139           taper       N  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  2.829  2.882   3.022
+140           taper       S  continuum                              rec Xb47/rec Xb4f (cont.)  0.895  0.962   0.989
+141           taper       S  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  2.229  2.323   2.566
+142           taper  Bridge  continuum                              rec Xb47/rec Xb4f (cont.)  0.905  0.965   0.990
+143           taper  Bridge  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  2.660  2.744   2.960
+146       taper_raw       N        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.940  0.984   0.998
+147       taper_raw       N        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.937  0.983   0.998
+148       taper_raw       N        HCN                              rec Xb4f (3-2 peak, abs.)  0.939  0.977   0.989
+151       taper_raw       N       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.937  0.983   0.998
+152       taper_raw       N       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.935  0.982   0.998
+153       taper_raw       N       HCO+                              rec Xb4f (3-2 peak, abs.)  0.935  0.975   0.988
+156       taper_raw       S        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.837  0.949   0.993
+157       taper_raw       S        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.816  0.940   0.989
+158       taper_raw       S        HCN                              rec Xb4f (3-2 peak, abs.)  0.807  0.924   0.962
+161       taper_raw       S       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.872  0.962   0.995
+162       taper_raw       S       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.861  0.958   0.992
+163       taper_raw       S       HCO+                              rec Xb4f (3-2 peak, abs.)  0.860  0.944   0.972
+166       taper_raw  Bridge        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.903  0.973   0.997
+167       taper_raw  Bridge        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.895  0.970   0.995
+168       taper_raw  Bridge        HCN                              rec Xb4f (3-2 peak, abs.)  0.895  0.961   0.980
+171       taper_raw  Bridge       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.917  0.977   0.997
+172       taper_raw  Bridge       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.910  0.975   0.996
+173       taper_raw  Bridge       HCO+                              rec Xb4f (3-2 peak, abs.)  0.912  0.967   0.984
+174       taper_raw       N  continuum                              rec Xb47/rec Xb4f (cont.)  0.918  0.977   0.997
+175       taper_raw       N  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  2.812  2.879   3.091
+176       taper_raw       S  continuum                              rec Xb47/rec Xb4f (cont.)  0.875  0.963   0.995
+177       taper_raw       S  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  2.210  2.320   2.644
+178       taper_raw  Bridge  continuum                              rec Xb47/rec Xb4f (cont.)  0.883  0.966   0.995
+179       taper_raw  Bridge  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  2.640  2.740   3.044
+182           sharp       N        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.960  0.985   0.994
+183           sharp       N        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.958  0.984   0.993
+184           sharp       N        HCN                              rec Xb4f (3-2 peak, abs.)  0.989  0.995   0.997
+187           sharp       N       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.957  0.984   0.993
+188           sharp       N       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.955  0.983   0.993
+189           sharp       N       HCO+                              rec Xb4f (3-2 peak, abs.)  0.986  0.994   0.997
+192           sharp       S        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.865  0.954   0.989
+193           sharp       S        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.848  0.946   0.985
+194           sharp       S        HCN                              rec Xb4f (3-2 peak, abs.)  0.893  0.953   0.974
+197           sharp       S       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.897  0.965   0.991
+198           sharp       S       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.887  0.961   0.988
+199           sharp       S       HCO+                              rec Xb4f (3-2 peak, abs.)  0.927  0.968   0.982
+202           sharp  Bridge        HCN                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.927  0.975   0.992
+203           sharp  Bridge        HCN                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.920  0.972   0.991
+204           sharp  Bridge        HCN                              rec Xb4f (3-2 peak, abs.)  0.957  0.982   0.990
+207           sharp  Bridge       HCO+                      rec Xb47(4-3,q=1.0)/rec Xb4f(3-2)  0.941  0.979   0.993
+208           sharp  Bridge       HCO+                      rec Xb47(4-3,q=0.7)/rec Xb4f(3-2)  0.936  0.977   0.992
+209           sharp  Bridge       HCO+                              rec Xb4f (3-2 peak, abs.)  0.970  0.987   0.993
+210           sharp       N  continuum                              rec Xb47/rec Xb4f (cont.)  0.943  0.979   0.993
+211           sharp       N  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  2.825  2.871   3.001
+212           sharp       S  continuum                              rec Xb47/rec Xb4f (cont.)  0.898  0.965   0.991
+213           sharp       S  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  2.223  2.312   2.557
+214           sharp  Bridge  continuum                              rec Xb47/rec Xb4f (cont.)  0.909  0.969   0.991
+215           sharp  Bridge  continuum  implied spectral index alpha (Xb47/Xb4f, 258-347 GHz)  2.655  2.732   2.948
+           variant  line  q43                      mode  C_NS_p16  C_NS_p50  C_NS_p84  C_NS_p2_5  C_NS_p97_5    c_N    c_S    c_B  obs_NS  corr_NS_p16  corr_NS_p50  corr_NS_p84  frac_valid  alpha_ok_frac  corr_NS_p2_5  corr_NS_p97_5  reN_p16  reN_p50  reN_p84  reS_p16  reS_p50  reS_p84  trueN_p50  trueS_p50  rc_p50
+0       taper_phys   HCN  1.0                   r_c=r_e     0.663     0.732     0.788      0.605       0.827  1.350  1.850  1.530   1.332        0.883        0.975        1.050         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+1       taper_phys   HCN  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        0.872        0.997        1.112       1.000          0.630         0.764          1.207    0.498    0.552    0.624    0.478    0.569    0.716      0.569      0.572   0.693
+2       taper_phys   HCN  0.7                   r_c=r_e     0.613     0.686     0.746      0.550       0.790  1.375  2.007  1.583   1.332        0.817        0.914        0.993         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+3       taper_phys   HCN  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        0.808        0.919        1.012       0.999          0.631         0.706          1.079    0.579    0.623    0.690    0.552    0.644    0.805      0.582      0.636   0.709
+4       taper_phys  HCO+  1.0                   r_c=r_e     0.765     0.821     0.864      0.711       0.891  1.370  1.668  1.465   1.133        0.866        0.929        0.979         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+5       taper_phys  HCO+  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        0.843        0.918        0.979       0.990          0.637         0.774          1.019    0.704    0.755    0.834    0.726    0.824    0.988      0.750      0.818   0.703
+6       taper_phys  HCO+  0.7                   r_c=r_e     0.730     0.790     0.838      0.670       0.868  1.386  1.752  1.509   1.133        0.827        0.895        0.949         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+7       taper_phys  HCO+  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        0.817        0.890        0.947       0.978          0.645         0.758          0.985    0.742    0.790    0.869    0.779    0.879    1.045      0.757      0.851   0.704
+8   taper_raw_phys   HCN  1.0                   r_c=r_e     0.693     0.763     0.827      0.633       0.885  1.444  1.902  1.612   1.332        0.923        1.016        1.102         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+9   taper_raw_phys   HCN  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        0.910        1.042        1.172       0.975          0.557         0.813          1.297    0.494    0.593    0.756    0.445    0.580    0.822      0.606      0.583   0.700
+10  taper_raw_phys   HCN  0.7                   r_c=r_e     0.650     0.725     0.792      0.584       0.854  1.471  2.041  1.666   1.332        0.866        0.966        1.055         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+11  taper_raw_phys   HCN  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        0.866        0.975        1.080       0.966          0.563         0.776          1.171    0.567    0.662    0.821    0.508    0.649    0.894      0.620      0.640   0.710
+12  taper_raw_phys  HCO+  1.0                   r_c=r_e     0.787     0.842     0.889      0.738       0.928  1.459  1.737  1.554   1.133        0.891        0.953        1.007         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+13  taper_raw_phys  HCO+  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        0.887        0.952        1.015       0.896          0.606         0.837          1.068    0.684    0.787    0.942    0.679    0.828    1.062      0.782      0.823   0.707
+14  taper_raw_phys  HCO+  0.7                   r_c=r_e     0.756     0.815     0.867      0.702       0.910  1.477  1.813  1.602   1.133        0.856        0.923        0.981         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+15  taper_raw_phys  HCO+  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        0.869        0.929        0.986       0.872          0.623         0.820          1.034    0.719    0.820    0.967    0.727    0.874    1.100      0.786      0.849   0.702
+16      sharp_phys   HCN  1.0                   r_c=r_e     0.212     0.287     0.404      0.172       0.481  1.911  6.716  3.080   1.332        0.282        0.383        0.538         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+17      sharp_phys   HCN  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        0.523        0.559        0.618       0.074          0.000         0.497          0.677    0.577    0.626    0.684    1.054    1.180    1.257      0.642      1.167   0.776
+18      sharp_phys   HCN  0.7                   r_c=r_e     0.138     0.228     0.355      0.102       0.439  2.011  8.837  3.387   1.332        0.184        0.304        0.473         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+19      sharp_phys   HCN  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        0.532        0.563        0.608       0.036          0.000         0.505          0.659    0.677    0.715    0.761    1.115    1.205    1.275      0.663      1.179   0.735
+20      sharp_phys  HCO+  1.0                   r_c=r_e     0.301     0.426     0.555      0.238       0.641  2.008  4.767  2.563   1.133        0.341        0.483        0.628         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+21      sharp_phys  HCO+  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        0.679        0.704        0.739       0.018          0.000         0.661          0.757    0.832    0.868    0.899    1.192    1.240    1.284      0.856      1.225   0.768
+22      sharp_phys  HCO+  0.7                   r_c=r_e     0.228     0.375     0.516      0.155       0.608  2.073  5.575  2.757   1.133        0.258        0.425        0.585         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+23           taper   HCN  1.0                   r_c=r_e     0.901     0.965     0.994      0.793       1.017  1.018  1.055  1.029   1.332        1.200        1.286        1.325         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+24           taper   HCN  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        1.243        1.311        1.343       1.000          1.000         1.103          1.385    0.304    0.369    0.421    0.223    0.271    0.318      0.432      0.329   0.695
+25           taper   HCN  0.7                   r_c=r_e     0.886     0.957     0.990      0.767       1.013  1.019  1.065  1.033   1.332        1.180        1.275        1.319         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+26           taper   HCN  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        1.198        1.288        1.327       1.000          1.000         1.036          1.357    0.432    0.461    0.493    0.311    0.340    0.380      0.433      0.336   0.697
+27           taper  HCO+  1.0                   r_c=r_e     0.940     0.980     0.997      0.866       1.010  1.019  1.040  1.025   1.133        1.064        1.110        1.129         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+28           taper  HCO+  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        1.071        1.114        1.132       1.000          1.000         0.984          1.147    0.513    0.543    0.573    0.433    0.474    0.524      0.557      0.500   0.699
+29           taper  HCO+  0.7                   r_c=r_e     0.930     0.976     0.994      0.849       1.007  1.020  1.046  1.027   1.133        1.054        1.105        1.126         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+30           taper  HCO+  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        1.057        1.106        1.127       1.000          1.000         0.963          1.142    0.572    0.589    0.614    0.507    0.534    0.578      0.558      0.504   0.699
+31       taper_raw   HCN  1.0                   r_c=r_e     0.890     0.965     0.995      0.743       1.019  1.016  1.054  1.028   1.332        1.186        1.285        1.326         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+32       taper_raw   HCN  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        1.234        1.312        1.345       1.000          0.992         1.023          1.399    0.308    0.370    0.426    0.219    0.271    0.327      0.431      0.329   0.702
+33       taper_raw   HCN  0.7                   r_c=r_e     0.872     0.957     0.991      0.707       1.013  1.017  1.064  1.031   1.332        1.162        1.275        1.320         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+34       taper_raw   HCN  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        1.183        1.287        1.328       0.999          0.993         0.947          1.363    0.430    0.460    0.499    0.309    0.338    0.396      0.432      0.336   0.702
+35       taper_raw  HCO+  1.0                   r_c=r_e     0.932     0.980     0.997      0.830       1.011  1.018  1.039  1.023   1.133        1.055        1.109        1.130         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+36       taper_raw  HCO+  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        1.064        1.114        1.133       0.999          0.993         0.942          1.151    0.512    0.545    0.579    0.429    0.475    0.536      0.556      0.500   0.702
+37       taper_raw  HCO+  0.7                   r_c=r_e     0.922     0.975     0.995      0.804       1.008  1.018  1.044  1.026   1.133        1.044        1.104        1.127         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+38       taper_raw  HCO+  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        1.047        1.106        1.128       0.998          0.993         0.912          1.143    0.568    0.588    0.622    0.504    0.534    0.594      0.557      0.504   0.713
+39           sharp   HCN  1.0                   r_c=r_e     0.900     0.968     0.996      0.744       1.016  1.015  1.049  1.026   1.332        1.199        1.289        1.327         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+40           sharp   HCN  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        1.239        1.311        1.341       1.000          0.996         1.030          1.376    0.305    0.366    0.420    0.221    0.267    0.316      0.431      0.329   0.702
+41           sharp   HCN  0.7                   r_c=r_e     0.885     0.961     0.992      0.712       1.011  1.016  1.057  1.029   1.332        1.179        1.281        1.322         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+42           sharp   HCN  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.332        1.195        1.291        1.328       1.000          0.996         0.967          1.354    0.431    0.458    0.490    0.310    0.338    0.379      0.432      0.334   0.700
+43           sharp  HCO+  1.0                   r_c=r_e     0.937     0.981     0.998      0.840       1.009  1.016  1.037  1.022   1.133        1.061        1.111        1.130         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+44           sharp  HCO+  1.0  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        1.069        1.115        1.132       1.000          0.996         0.959          1.146    0.513    0.542    0.571    0.430    0.473    0.521      0.556      0.499   0.700
+45           sharp  HCO+  0.7                   r_c=r_e     0.928     0.977     0.996      0.822       1.007  1.017  1.041  1.024   1.133        1.051        1.106        1.127         NaN            NaN           NaN            NaN      NaN      NaN      NaN      NaN      NaN      NaN        NaN        NaN     NaN
+46           sharp  HCO+  0.7  r_c~U(0.4,1), r_e solved       NaN       NaN       NaN        NaN         NaN    NaN    NaN    NaN   1.133        1.054        1.108        1.129       0.998          0.997         0.930          1.141    0.570    0.586    0.610    0.507    0.532    0.577      0.556      0.502   0.701

@@ -1,0 +1,708 @@
+{
+  "datasets": [
+    {
+      "files": [
+        "member.uid___A001_X1273_Xb4b.ngc_3256_sci.spw25.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb4b.ngc_3256_sci.spw27.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb4b.ngc_3256_sci.spw29.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb4b.ngc_3256_sci.spw31.cube.I.pbcor.fits"
+      ],
+      "content": "Band 6, 0.24\" cubes, 3.9 MHz channels, 4 spw covering 249-266 GHz",
+      "role": "line inventory and tables at 0.25\" (nuclear peak-pixel spectra, moment-0 maps)"
+    },
+    {
+      "files": [
+        "member.uid___A001_X1273_Xb4d.ngc_3256_sci.spw25.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb4d.ngc_3256_sci.spw27.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb4d.ngc_3256_sci.spw29.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb4d.ngc_3256_sci.spw31.cube.I.pbcor.fits"
+      ],
+      "content": "Band 6, 0.95\" cubes (same tuning)",
+      "role": "region definition (moment-0 peaks), wing maps, line table"
+    },
+    {
+      "files": [
+        "member.uid___A001_X1273_Xb4f.ngc_3256_sci.spw16.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb4f.ngc_3256_sci.spw18.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb4f.ngc_3256_sci.spw20.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb4f.ngc_3256_sci.spw22.cube.I.pbcor.fits"
+      ],
+      "content": "Band 6, 5.7x3.5\" cubes",
+      "role": "line table; N and S separable along beam minor axis"
+    },
+    {
+      "files": [
+        "member.uid___A001_X1273_Xb47.ngc_3256_sci.spw16.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb47.ngc_3256_sci.spw18.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb47.ngc_3256_sci.spw20.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb47.ngc_3256_sci.spw22.cube.I.pbcor.fits"
+      ],
+      "content": "Band 7, 4.1x2.7\" cubes: HCN/HCO+ 4-3, CS 7-6, H13CN/CO 3-2 region",
+      "role": "line table, blend tests (CS/H2CS, H13CN/CO wing)"
+    },
+    {
+      "files": [
+        "member.uid___A001_X1273_Xb55.ngc_3256_sci.spw16.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb55.ngc_3256_sci.spw18.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb55.ngc_3256_sci.spw20.cube.I.pbcor.fits",
+        "member.uid___A001_X1273_Xb55.ngc_3256_sci.spw22.cube.I.pbcor.fits"
+      ],
+      "content": "Band 5, 8.6x5.9\" cubes: HCN/HCO+ 2-1, HOC+ 2-1, SO 4_5-3_4",
+      "role": "line table (N+S merged)"
+    },
+    {
+      "files": [
+        "all *cont*.pbcor.fits and *mfs.I.pbcor.fits (every OUS, including tapered Xb4d)"
+      ],
+      "content": "continuum and per-spw mfs images",
+      "role": "continuum source inventory; line contamination test"
+    },
+    {
+      "files": [
+        "Splatalogue CDMS+JPL line lists (queried over the web via astroquery)"
+      ],
+      "content": "rest frequencies, Eu, Aij",
+      "role": "line identification (external input)"
+    }
+  ],
+  "recipe": [
+    {
+      "order": 1,
+      "stage": "data_selection",
+      "description": "Header/beam inventory and continuum peak search in all 2D images (>5 sigma local maxima, MAD noise)",
+      "software": "astropy, scipy",
+      "scripts": [
+        "/workspace/scripts/cont_survey.py"
+      ],
+      "parameters": [
+        {
+          "name": "noise",
+          "value": "1.4826*MAD, outer region"
+        },
+        {
+          "name": "peak threshold",
+          "value": "5 sigma"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "stage": "preprocessing",
+      "description": "Extract spectra at the N/S positions from every cube (peak pixel; 1\" mean for Xb4b); cubes read via memmap",
+      "software": "astropy.io.fits",
+      "scripts": [
+        "/workspace/scripts/spectra.py",
+        "/workspace/scripts/spectra_xb4b.py"
+      ],
+      "parameters": [
+        {
+          "name": "N",
+          "value": "156.96345,-43.90389"
+        },
+        {
+          "name": "S",
+          "value": "156.96340,-43.90533"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "stage": "measurement",
+      "description": "Blind line search: boxcar matched filter (150 km/s), robust MAD noise, 4 sigma at nuclei; later 5 sigma, widths 100/200/300 km/s in all region spectra, excluding 30 MHz at spw edges; candidate assignment from Splatalogue within +-120 km/s of 2780 km/s",
+      "software": "numpy, astroquery.splatalogue",
+      "scripts": [
+        "/workspace/scripts/blind_search.py",
+        "/workspace/scripts/blind_all.py",
+        "/workspace/scripts/fetch_catalog.py",
+        "/workspace/scripts/catalog.py",
+        "/workspace/scripts/curated.py",
+        "/workspace/scripts/inband_lines.py"
+      ],
+      "parameters": [
+        {
+          "name": "threshold",
+          "value": "5 sigma"
+        },
+        {
+          "name": "edge exclusion",
+          "value": "30 MHz"
+        },
+        {
+          "name": "Eu cut",
+          "value": "<250-300 K"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "stage": "measurement",
+      "description": "Systemic velocity: moment-1 of HCO+/HCN spectra at N and S peak pixels, radio convention",
+      "scripts": [
+        "/workspace/scripts/sysvel.py"
+      ],
+      "parameters": [
+        {
+          "name": "vsys",
+          "value": "2780 km/s"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "stage": "measurement",
+      "description": "Moment-0 maps (vsys+-350 km/s; +-450..150 wing windows) for HCO+/HCN in every OUS; peaks per tracer (S/N>8, within primary beam FWHM); objective region list from Xb4d",
+      "scripts": [
+        "/workspace/scripts/moments.py",
+        "/workspace/scripts/xb4b_moments.py",
+        "/workspace/scripts/regions.py",
+        "/workspace/scripts/wing_maps.py",
+        "/workspace/scripts/peaks_table.py",
+        "/workspace/scripts/plot_maps.py"
+      ],
+      "parameters": [
+        {
+          "name": "window",
+          "value": "vsys +-350 km/s"
+        },
+        {
+          "name": "blue wing",
+          "value": "-450..-150 km/s"
+        },
+        {
+          "name": "red wing",
+          "value": "+150..+450 km/s"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "stage": "measurement",
+      "description": "Standard line table: for each target line, region, cube: peak-pixel and 1.5\" aperture spectra (pbcor), local polynomial baseline from line-free channels (order 1; 2 for H13CN), integrated intensity over fixed window, peak, rms per channel, W50, single Gaussian fit, empirical null noise from emission-free pixels (300 per cube); status detected (>=5 sigma and peak>=3 sigma), marginal (3-5), limit (3 sigma); edge-flagged within 100 MHz of spw edges",
+      "software": "numpy, scipy.optimize",
+      "scripts": [
+        "/workspace/scripts/lineset.py",
+        "/workspace/scripts/measure_lines.py",
+        "/workspace/scripts/make_tables.py"
+      ],
+      "parameters": [
+        {
+          "name": "peak pixel",
+          "value": "argmax of same-OUS HCO+ moment-0 within max(1\",0.3 bmaj) of region"
+        },
+        {
+          "name": "aperture",
+          "value": "1.5 arcsec radius"
+        },
+        {
+          "name": "windows",
+          "value": "+-150..350 km/s per line (lineset.py)"
+        },
+        {
+          "name": "K conversion",
+          "value": "1.222e6 S/(nu^2 bmaj bmin)"
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "stage": "modelling",
+      "description": "Blend tests: CS 7-6 + H2CS two-line template fit; H13CN 4-3 template fit on the CO-free side of the CO 3-2 wing; beam response of each cube at the other nucleus",
+      "software": "scipy.optimize.least_squares",
+      "scripts": [
+        "/workspace/scripts/blend_fits.py",
+        "/workspace/scripts/beam_overlap.py"
+      ],
+      "parameters": [
+        {
+          "name": "templates",
+          "value": "HCN 4-3 and HCO+ 4-3 profiles from the same pixel"
+        },
+        {
+          "name": "H2CS offset",
+          "value": "-53.2 km/s in the CS frame"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "stage": "measurement",
+      "description": "Continuum: peaks and 2D Gaussian fits (deconvolved with the beam) at six source positions in all continuum/mfs images; contamination = mfs - line-free cont vs whole-spw line average",
+      "scripts": [
+        "/workspace/scripts/continuum.py",
+        "/workspace/scripts/contam.py"
+      ],
+      "parameters": [
+        {
+          "name": "fit box",
+          "value": "max(1.5\",1.2 bmaj)"
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "stage": "other",
+      "description": "Driver for re-running everything",
+      "scripts": [
+        "/workspace/scripts/run_all.sh"
+      ],
+      "parameters": []
+    },
+    {
+      "order": 10,
+      "stage": "measurement",
+      "description": "Line identification rebuilt: local-velocity matching against the full Splatalogue dump (no Aij cut), LTE-ranked, species-prior tier; re-assignment of all blind detections; unit tests",
+      "software": "pandas, numpy",
+      "scripts": [
+        "/workspace/scripts/ident.py",
+        "/workspace/scripts/ident_blind.py",
+        "/workspace/scripts/test_pipeline.py"
+      ],
+      "parameters": [
+        {
+          "name": "tolerance",
+          "value": "+-max(80,FWHM/2) km/s"
+        },
+        {
+          "name": "Eu cut",
+          "value": "<200 K"
+        },
+        {
+          "name": "rank",
+          "value": "nu*S*mu2*exp(-Eu/30 K)"
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "stage": "modelling",
+      "description": "CH3OH: free-amplitude line/blend fits (all regions, OUS), matched-beam (9.36x6.28\") convolution of Band-6 cubes, LTE profile fit in Trot, RADEX (LAMDA e-ch3oh) grid, centroid test NS vs CH3OH",
+      "software": "scipy, RADEX 30nov2011",
+      "scripts": [
+        "/workspace/scripts/ch3oh.py",
+        "/workspace/scripts/ch3oh_lines.py",
+        "/workspace/scripts/ch3oh_matched.py",
+        "/workspace/scripts/ch3oh_ltefit.py",
+        "/workspace/scripts/ch3oh_radex.py",
+        "/workspace/scripts/line251.py",
+        "/workspace/scripts/matched.py",
+        "/workspace/scripts/make_table_v2.py"
+      ],
+      "parameters": [
+        {
+          "name": "Trot grid",
+          "value": "3-100 K"
+        },
+        {
+          "name": "RADEX n",
+          "value": "1e2-1e8 cm-3"
+        },
+        {
+          "name": "RADEX Tkin",
+          "value": "10-200 K"
+        },
+        {
+          "name": "calibration error",
+          "value": "10%"
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "stage": "measurement",
+      "description": "Region definitions and astrometry: moment-0 peaks of HCO+/HCN/CH3OH/continuum at Xb4d and Xb4b with 2-D Gaussian centroid errors; extended disk mask and stacks; Soutflow null test; H13CN with explicit CO wing",
+      "software": "scipy.optimize.curve_fit, scipy.ndimage",
+      "scripts": [
+        "/workspace/scripts/regions2.py",
+        "/workspace/scripts/wclump.py",
+        "/workspace/scripts/disk.py",
+        "/workspace/scripts/disk2.py",
+        "/workspace/scripts/disk_stack.py",
+        "/workspace/scripts/wing_null.py",
+        "/workspace/scripts/h13cn.py"
+      ],
+      "parameters": [
+        {
+          "name": "peak threshold",
+          "value": "8 sigma (HCO+/HCN/cont), 4 sigma (CH3OH)"
+        },
+        {
+          "name": "disk radius",
+          "value": ">8 arcsec, S/N>5"
+        },
+        {
+          "name": "pointing floor",
+          "value": "10% of beam"
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "quantity": "Systemic velocity (radio, LSRK) from HCO+ 3-2 moment-1 at nuclear positions",
+      "value": "2780",
+      "confidence": "high",
+      "evidence": "scripts/sysvel.py; out/ (Xb4f spw16: N 2780.2, S 2780.1 km/s; other lines 2774-2790)",
+      "target": "NGC 3256 (N and S nuclei)",
+      "uncertainty": "+-5",
+      "unit": "km/s",
+      "assumptions": [
+        {
+          "name": "convention",
+          "value": "radio velocity, LSRK, rest frequency 267.557626 GHz"
+        }
+      ]
+    },
+    {
+      "quantity": "Nuclear peak velocities at 0.25\" (Gaussian centroid of HCO+ 3-2 / HCN 3-2 at the peak pixel)",
+      "value": "N: 2817 / 2811; S: 2710 / 2712",
+      "confidence": "medium",
+      "evidence": "out/line_table.csv (Xb4b rows, kind=peakpix)",
+      "target": "N and S nuclei",
+      "uncertainty": "+-3 (statistical; profiles are non-Gaussian, moment-1: N 2794/2799, S 2717/2718)",
+      "unit": "km/s",
+      "assumptions": [
+        {
+          "name": "v_sys",
+          "value": "2780 km/s radio, LSRK"
+        }
+      ]
+    },
+    {
+      "quantity": "Beam response at the other nucleus (N-S separation 5.10\")",
+      "value": "Xb4b 0; Xb4d 0; Xb47 1e-4; Xb4f 3.5e-3; Xb55 0.126 (beam minor axis points along N-S for Xb47 and Xb4f; FWHM along separation 2.71\" (Xb47), 3.57\" (Xb4f), 5.91\" (Xb55))",
+      "confidence": "high",
+      "evidence": "scripts/beam_overlap.py -> out/beam_overlap.csv; correction to the agenda note: N and S ARE separable in Xb47 and Xb4f, only Band 5 (Xb55) merges them. In Xb55 the HCO+/HCN 2-1 peak is a single pixel for N, S and Bridge."
+    },
+    {
+      "quantity": "Leakage of the Bridge clump (2.4\" from each nucleus) into the nuclear beams",
+      "value": "Xb4f: ~29% of Bridge intensity at each nucleus; Xb47: ~11%; Xb4d/Xb4b: 0",
+      "confidence": "medium",
+      "evidence": "scripts/beam_overlap.py (Gaussian beam at 2.4\" along N-S); Bridge peak HCO+ 3-2 in Xb4d = 3.4 Jy/b km/s vs N 6.2, S 4.8",
+      "assumptions": [
+        {
+          "name": "geometry",
+          "value": "Bridge 2.4 arcsec from each nucleus along N-S"
+        }
+      ]
+    },
+    {
+      "quantity": "HCN and HCO+ J=2-1, 3-2, 4-3 integrated intensity at nuclear peak pixel, native beam, +-350 km/s, pbcor",
+      "value": "HCO+ 3-2 Xb4f: N 34.7, S 30.8; Xb4d: N 6.27, S 4.77; Xb4b: N 1.20, S 0.97. HCN 3-2 Xb4f: N 21.3, S 12.0; Xb4d: N 5.52, S 1.92; Xb4b: N 1.25, S 0.48. HCO+ 4-3 Xb47: N 28.9, S 21.1; HCN 4-3 Xb47: N 15.3, S 6.0. HCO+ 2-1 Xb55 47.5 (N+S+Bridge merged), HCN 2-1 28.3 (merged)",
+      "confidence": "high",
+      "evidence": "out/line_table.csv, scripts/measure_lines.py",
+      "target": "N and S nuclei",
+      "uncertainty": "statistical 0.04-1.6 (see table; noise from emission-free pixels of the same cube)",
+      "unit": "Jy/beam km/s"
+    },
+    {
+      "quantity": "Raw integrated-intensity ratio HCN/HCO+ (3-2) at the peak pixel, NOT beam matched (HCN and HCO+ beams differ by up to 6%, but resolution changes between OUS): preliminary, to be redone in Q1",
+      "value": "N: 0.61 (Xb4f 5.7x3.5\"), 0.88 (Xb4d 0.93\"), 1.04 (Xb4b 0.25\"); S: 0.39, 0.40, 0.49; Bridge 0.58/0.48/0.58; NEclump 0.28; Eclump 0.26-0.47",
+      "confidence": "low",
+      "evidence": "out/region_summary_B6.csv",
+      "target": "N and S",
+      "uncertainty": "~0.03-0.1 (propagated statistical only)",
+      "assumptions": [
+        {
+          "name": "beams",
+          "value": "each ratio uses cubes of the same OUS with nearly identical beams; windows +-350 km/s"
+        }
+      ]
+    },
+    {
+      "quantity": "HOC+ J=2-1 (178.972 GHz) and J=3-2 (268.451 GHz)",
+      "value": "Band 5 (N+S+Bridge merged): I=1.6+-0.5 Jy/b km/s (3.7 sigma conservative, blind 8-9 sigma), Band 6 Xb4f N: 1.0+-0.4 (3.1 sigma conservative; blind matched filter 11 sigma at 265.955 GHz, peak 14 mJy/beam), ratio to HCO+ ~3% (3-2) and 3.4% (2-1); not detected at S in Xb4f (<1.1)",
+      "confidence": "tentative",
+      "evidence": "scripts/measure_lines.py, scripts/blind_all.py (out/blind_detections_all.csv); two independent bands at the expected frequency/velocity (2756-2787 km/s) support the identification",
+      "target": "N (Band 6); N+S+Bridge (Band 5)",
+      "uncertainty": "see value",
+      "unit": "Jy/beam km/s",
+      "assumptions": [
+        {
+          "name": "rest frequencies",
+          "value": "CDMS/JPL via Splatalogue: 178.972051, 268.451094 GHz"
+        }
+      ]
+    },
+    {
+      "quantity": "SO N_J=4_5-3_4 (178.605 GHz, Eu=24 K) in Band 5",
+      "value": "I=1.25+-0.17 Jy/b km/s (8.4 sigma), FWHM ~186 km/s, Gaussian centroid 2786 km/s; N+S+Bridge are unresolved in Xb55; SO/HCO+(2-1) ~ 2.6%",
+      "confidence": "medium",
+      "evidence": "scripts/measure_lines.py; also blind 12 sigma at 176.96-176.98 GHz",
+      "target": "N+S+Bridge merged",
+      "uncertainty": "+-0.2",
+      "unit": "Jy/beam km/s",
+      "assumptions": [
+        {
+          "name": "rest frequency",
+          "value": "178.605403 GHz CDMS"
+        }
+      ]
+    },
+    {
+      "quantity": "CS 7-6 (342.883 GHz, Band 7)",
+      "value": "N: I=2.24+-0.29 Jy/b km/s (8.5 sigma, 2.06 K km/s); S: 0.95+-0.29 (4.1 sigma, marginal); CS/HCO+(4-3) = 0.08 (N), 0.045 (S) in the same 4.1x2.7\" beam",
+      "confidence": "medium",
+      "evidence": "out/line_table.csv; scripts/blend_fits.py",
+      "target": "N and S",
+      "uncertainty": "+-0.29",
+      "unit": "Jy/beam km/s"
+    },
+    {
+      "quantity": "Blend of CS 7-6 with H2CS 10(0,10)-9(0,9) (342.944 GHz, 54 km/s bluer-appearing) tested by two-line template fit using HCN/HCO+ 4-3 profiles",
+      "value": "H2CS < 0.34 Jy/b km/s (3 sigma, N), < 0.32 (S); CS-only model already fits (chi2 297/293 at N). The naive \"H2CS\" window integral (2.3 at N) is just the CS line itself",
+      "confidence": "medium",
+      "evidence": "scripts/blend_fits.py -> out/blend_fits.json",
+      "target": "N, S",
+      "uncertainty": "3 sigma upper limit",
+      "unit": "Jy/beam km/s",
+      "assumptions": [
+        {
+          "name": "template",
+          "value": "HCN 4-3 or HCO+ 4-3 profile from the same pixel as line shape"
+        }
+      ]
+    },
+    {
+      "quantity": "Continuum 1.1 mm (257.7 GHz) source inventory, Xb4b 0.24\" (rms 27 uJy/beam): S nucleus",
+      "value": "peak 1.85 mJy/beam (57 sigma), 2D Gaussian S_int=3.6 mJy, deconvolved 0.28x0.25\" (54x48 pc); N nucleus peak 0.56 mJy/beam (17 sigma) but resolved: S_int=10.9 mJy, 1.59x1.10\" (310x210 pc); Xb4d (0.94\") N 3.59, S 4.26 mJy/beam, S_int N 11.6, S 6.7 mJy (S: compact 3.6 + extended)",
+      "confidence": "high",
+      "evidence": "scripts/continuum.py -> out/continuum_table.csv",
+      "target": "N, S",
+      "uncertainty": "peak +-0.03 (stat); absolute flux scale ~10%",
+      "unit": "mJy",
+      "assumptions": [
+        {
+          "name": "distance",
+          "value": "40 Mpc (Pereira-Santaella+2024, A&A 681, A117); 1 arcsec = 194 pc"
+        }
+      ]
+    },
+    {
+      "quantity": "Other continuum sources at 1.1 mm (Xb4b / Xb4d peak, mJy/beam)",
+      "value": "NEclump 0.39 / 1.49 (S_int 2.0 mJy, 0.77x0.46\"); Eclump 0.28 / 0.72; Bridge 0.19 / 0.90; SEcont at (+8.8\",-5.1\") 0.12 (3.7 sigma) / 0.58 (7 sigma) with no HCN/HCO+ counterpart; N/S/NE/E/Bridge also in 0.9 mm (Xb47, 346.5 GHz): N 36.5, S 22.0, NE 10.9 mJy/beam at 4.2x2.7\"",
+      "confidence": "high",
+      "evidence": "out/continuum_table.csv",
+      "target": "NE, E, Bridge, SE",
+      "uncertainty": "see value",
+      "unit": "mJy/beam"
+    },
+    {
+      "quantity": "Continuum peak flux density vs band/beam (mJy/beam) in the line-free all-spw continuum images",
+      "value": "Band 5 (170.7 GHz, 8.9x6.0\"): 14.95 (N+S merged, peak between nuclei); Xb4f (257.7 GHz, 5.8x3.5\"): N 19.4, S 13.9; Xb47 (346.5 GHz, 4.2x2.7\"): N 36.5, S 22.0",
+      "confidence": "high",
+      "evidence": "out/continuum_table.csv",
+      "uncertainty": "rms 0.5/1.0/1.4 mJy/beam",
+      "unit": "mJy/beam"
+    },
+    {
+      "quantity": "Line contamination of continuum images: (mfs - line-free cont) at N,S peak in spws with strong lines",
+      "value": "+0.2 mJy/beam (Xb4d spw25/27, 5-10% of whole-spw line average), +1.2 to +1.7 mJy/beam (Xb4f spw16/18, 9-13%), +1.0 to +2.2 (Xb47 spw16/18); all < 1.4 sigma. Line-free spw (e.g. spw20/22) show 0+-1 sigma. The line-free cont images are therefore line-clean to within the noise (<~3% of continuum at N); the per-spw mfs images retain ~5-15% of the HCN/HCO+ line flux averaged over the spw",
+      "confidence": "medium",
+      "evidence": "scripts/contam.py -> out/continuum_line_contamination.csv",
+      "uncertainty": "noise of difference 0.07-2.2 mJy/beam"
+    },
+    {
+      "quantity": "Cubes are continuum-subtracted; baselines are flat",
+      "value": "median offsets of the line-free spectrum -0.3..+0.1 mJy/beam (null_mean in line table)",
+      "confidence": "high",
+      "evidence": "out/line_table.csv null_mean column"
+    },
+    {
+      "quantity": "Empirical noise vs statistical noise of integrated intensities",
+      "value": "empirical (spatial null from emission-free pixels at 6-11\") is 1.5-3x larger than sqrt(N) channel noise for +-350 km/s windows in Bands 6/7 (e.g. Xb4f HOC+ N: 0.47 vs 0.15 Jy/b km/s), because of correlated spectral structure; line table quotes max(stat, empirical)",
+      "confidence": "medium",
+      "evidence": "scripts/measure_lines.py (analyse)",
+      "assumptions": [
+        {
+          "name": "channels",
+          "value": "adjacent channels assumed independent in statistical term"
+        }
+      ]
+    },
+    {
+      "quantity": "Per-channel rms (pbcor, line-free channels at nuclear pixels), mJy/beam",
+      "value": "Xb55 2.1-3.3; Xb47 2.9-4.2; Xb4f 2.3-3.0; Xb4d 0.6-0.8 (nuclei, spw25/27: up to 0.8); Xb4b 0.34-0.45 (channel width 3.9 MHz = 4.4 km/s Band 6, 3.3 km/s Band 7, 1.95 MHz = 3.3 km/s Band 5)",
+      "confidence": "high",
+      "evidence": "out/line_table.csv rms_mJy",
+      "unit": "mJy/beam"
+    },
+    {
+      "quantity": "Regions (RA,Dec in out/regions.csv): from Xb4d/Xb4b HCO+, HCN 3-2, CH3OH 2(0)-1(-1)E and 1.1mm continuum peaks (out/peaks_astrometry.csv)",
+      "value": "N (0,+2.55\"), S (-0.15,-2.55\"), Bridge (+0.30,+0.15\"), NEclump (+6.75,+3.90\"), Eclump (+5.25,-2.85\"), SWarm (-3.75,-4.50\"), Sext (-1.05,-5.40\"), Soutflow (-0.2,-4.5\"; blue-shifted component), Wclump (-1.8,-2.4\"; HCN-only + CH3OH peak), Disk (mask). Offsets from phase centre 156.96346,-43.90461. Xb4b resolves N into >=5 HCO+ sub-clumps (S/N 14-45) within 1.5\" of the Xb4d N peak; S is a single compact peak (HCO+, HCN, 1.1 mm all within 0.05\")",
+      "confidence": "high",
+      "evidence": "scripts/regions.py, regions2.py, peaks_table.py -> out/regions.csv, out/peaks_astrometry.csv, out/xb4d_peaks.json",
+      "target": "N, S, Bridge, clumps",
+      "uncertainty": "centroid error per peak in out/peaks_astrometry.csv (e_fit 0.01-0.2\"; theta/(2 S/N) 0.003-0.06\"); adopted error = quadrature with a 10% of beam pointing/phase floor: 0.08\" (Xb4d), 0.02\" (Xb4b)"
+    },
+    {
+      "quantity": "Astrometric consistency of tracers at Xb4d (0.93\") N, S, Bridge: HCO+ 3-2 vs HCN 3-2 vs 1.1mm continuum centroids",
+      "value": "N: HCO+ (-0.09,2.45) HCN (-0.07,2.53) cont (-0.04,2.50); S: HCO+ (-0.20,-2.57) HCN (-0.09,-2.61) cont (-0.15,-2.60); Bridge: HCO+ (0.32,0.13) HCN (0.40,0.17) cont (0.24,0.10); all pairwise offsets <=0.12\" (<=0.13 beam), i.e. within the 0.08\" floor + fit errors. Xb4b: S nucleus HCO+ (-0.18,-2.60) HCN (-0.19,-2.59) cont (-0.14,-2.60): within 0.05\"",
+      "confidence": "high",
+      "evidence": "out/peaks_astrometry.csv (scripts/regions2.py)",
+      "target": "N, S, Bridge",
+      "uncertainty": "0.05-0.12\"",
+      "unit": "arcsec"
+    },
+    {
+      "quantity": "Extended disk region definition (objective)",
+      "value": "Pixels with S/N>5 (after subtracting the r=14-22\" ring zero level, -1.26 Jy/b km/s, noise 0.59) in the Xb55 HCO+ 2-1 (9.4x6.3\") moment-0 map at r>8\" (beyond all compact N/S/Bridge/NE/E peaks, max 7.8\"): 136 pixels, 196 arcsec^2 (7.4 kpc^2), r=8-16\". Stacked: HCO+ 2-1 6.3+-0.3 Jy/b km/s (24 sigma, zero-level corrected), HCN 2-1 3.2+-0.1 (37 sigma), HCN/HCO+(2-1)=0.51+-0.02 (matched Xb55 beam). Not detected beyond 8\" in Xb4f HCO+ 3-2 (0.7+-0.6), HCN 3-2, Xb47 4-3, nor CH3OH (Q J=1-3 <0.07 Jy/b km/s; 2(0)-1(-1) <0.07 in Xb4f). Beam-matched test: Xb55 HCO+ 2-1 exceeds the Xb4f HCO+ 3-2 map (convolved to 9.4x6.3\" and scaled at r<6\") by 3.0+-0.4 Jy/b km/s at r=10-12\" (2-1 more extended than 3-2, or 3-2 missing flux: Xb4f has a -0.5 Jy/b km/s zero-level bowl) - cannot separate the two",
+      "confidence": "medium",
+      "evidence": "scripts/disk.py, disk2.py, disk_stack.py -> out/disk_islands.csv, out/disk_stack.csv, out/disk_mask_Xb55.npz",
+      "target": "extended disk (r>8\")",
+      "uncertainty": "statistical + empirical null (random same-size masks at r>16\"); zero-level uncertainty ~0.3 Jy/b km/s",
+      "unit": "Jy/beam km/s",
+      "assumptions": [
+        {
+          "name": "beam",
+          "value": "Xb55 9.4x6.3\" for 2-1; 5.7x3.5\" Xb4f for 3-2: the disk/nucleus ratio of 2-1 includes beam wings of the nuclear emission (beam model in disk2.py)"
+        }
+      ]
+    },
+    {
+      "quantity": "Southern blue-shifted component (\"Soutflow\") 1.9\" S of the S nucleus: significance test",
+      "value": "HCO+ 3-2 / HCN 3-2 wing (windows v_S-450..v_S-150 with v_S=2722 km/s): peak S/N 9 / 12 (formal), 7 / 12 after dividing by the empirical S/N scatter of line-free windows (1.29 / 0.79); 583 independent beams in r<12\". Null test: the same 300 km/s windows at 4 (HCO+) and 3 (HCN) line-free velocity windows give 0 peaks with S/N>8 (max 7.7 HCO+, in a window that contains tentative HOC+; none above 5 for HCN). Position: HCO+ (-0.25+-0.02,-4.46+-0.015)\", HCN (-0.17+-0.01,-4.51+-0.01)\", beam/(2 S/N)=0.05\"/0.04\", adopted error 0.10\" (10% beam floor), offset from S 1.9\" = 370 pc. Wing flux (v_S-450..v_S-150) 0.18+-0.02 (HCO+), 0.33+-0.03 (HCN) Jy/b km/s; wing/core(+-150 km/s about v_S) at the position 0.27 (HCO+), 0.67 (HCN) vs 0.011/0.012 at the S nucleus; red wing none (-0.06+-0.02, -0.10+-0.03). Spectrum is a separate broad (FWHM 300-400 km/s) component centred at 2645 (HCO+) / 2564 (HCN) km/s (moment-1) vs 2740 km/s at S; NOT a PSF-sidelobe copy of S (sidelobe-copy prediction 0.008 / 0.006 Jy/b km/s vs observed 0.18 / 0.33). HCN/HCO+ (3-2, same wing windows, same beam within 6%) = 1.8+-0.3 at this position vs 0.40 at S. Neighbouring-line check: windows contain only CH3CHO 15(0,15)-14(1,14) (Eu 109 K) and CH3NH2 for HCO+, CH2NH 4(1,3)-3(1,2) (Eu 40 K, not detected at nuclei) for HCN; the spectrum is flat-topped, not narrow",
+      "confidence": "medium",
+      "evidence": "scripts/wing_null.py -> out/wing_null.csv, out/wing_spec_spw25/27.npz [Original confidence note: medium-high; reported here conservatively as medium.]",
+      "target": "Soutflow",
+      "uncertainty": "see value; position error 0.10\"",
+      "unit": "Jy/beam km/s",
+      "assumptions": [
+        {
+          "name": "window centre",
+          "value": "v_S=2722 km/s (HCO+ Gaussian centre of S in Xb4d), not vsys 2780"
+        },
+        {
+          "name": "noise",
+          "value": "per-pixel line-free rms x empirical S/N scatter"
+        }
+      ]
+    },
+    {
+      "quantity": "CH3OH is DETECTED (replaces \"unidentified 163.54 GHz\" and \"CH3OH not detected\"): Band 5 Q-branch 165 GHz series (-1,J)-(0,J) E, J=1,2,3 blend at 163.52-163.57 GHz sky",
+      "value": "Xb55 peak pixel (N+S+Bridge merged, 9.4x6.3\"): I=2.23+-0.08 Jy/b km/s = 1.73 K km/s (27 sigma), centre 2767-2777 km/s, FWHM ~150-160 km/s (blend of three lines 20-70 km/s apart; expected width). Same line detected at all Xb55 regions defined by the merged beam. J=4 (163.659), 5 (163.836), 6, 7, 8 NOT detected: K km/s -0.06+-0.10, -0.28+-0.06, -0.09+-0.06, -0.16+-0.07, +0.05+-0.05, i.e. <~0.3 K km/s (3 sigma incl. ~0.2 baseline systematic) vs 0.9 K km/s predicted for J=4 at 30 K LTE",
+      "confidence": "high",
+      "evidence": "scripts/ident.py, ch3oh.py, ch3oh_lines.py, ch3oh_matched.py -> out/ch3oh_table.csv, out/ch3oh_matched.csv",
+      "target": "N+S+Bridge merged (Xb55)",
+      "uncertainty": "+-0.08",
+      "unit": "Jy/beam km/s",
+      "assumptions": [
+        {
+          "name": "rest frequencies",
+          "value": "165.050175, 165.061130, 165.099240 GHz (CDMS); weights nu*S*mu2*exp(-Eu/10K) inside the blend"
+        },
+        {
+          "name": "v,FWHM",
+          "value": "common, fixed to HCO+ 2-1 of the region"
+        }
+      ]
+    },
+    {
+      "quantity": "CH3OH 2(0)-1(-1) E (254.0154 GHz, Eu=20 K): the 251.66 GHz feature (replaces \"unidentified 251.66 GHz\")",
+      "value": "Xb4f (5.7x3.5\"): S 0.72+-0.07 (10.6 sigma), Soutflow 0.65+-0.08 (8.6), Bridge 0.35+-0.08 (4.6), N 0.23+-0.07 (3.2, marginal), Eclump 0.24+-0.06 (3.9); Xb4d (0.93\"): Bridge 0.172+-0.016 (10.8 sigma), Wclump 0.113+-0.020 (5.8), N -0.001+-0.027, S 0.024+-0.018 (limits <0.08, <0.05); Xb4b (0.25\"): Bridge 0.033+-0.007 (4.5 sigma, marginal), N,S <0.03. CH3OH/HCO+(3-2) in Xb4d = 0.051+-0.005 (Bridge), 0.051+-0.010 (Wclump), < 0.013 (N), < 0.017 (S); the emission sits on the Bridge and W clump, not on the nuclei. Identification test: line centroid vs HCO+ velocity of the same region: CH3OH requires dv=-3.5..+10.7 km/s (Xb4f S, Bridge, SWarm; Xb4d Bridge, SWarm; errors 3-17 km/s), NS 11/2-9/2 f would need -44..-58 km/s in every region (and its e partner at 253.570 is absent) -> NS rejected; SiS (+72 km/s) rejected",
+      "confidence": "medium",
+      "evidence": "scripts/line251.py -> out/line251_centroids.csv; out/ch3oh_table.csv; scripts/wclump.py -> out/wclump.csv [Original confidence note: high (identification) / medium (fluxes); reported here conservatively as medium.]",
+      "target": "S, Soutflow, Bridge, Wclump (Xb4f/Xb4d)",
+      "uncertainty": "see value",
+      "unit": "Jy/beam km/s",
+      "assumptions": [
+        {
+          "name": "rest frequency",
+          "value": "254.015377 GHz CDMS"
+        },
+        {
+          "name": "window",
+          "value": "template fit, v and FWHM from HCO+ of the region; beams of spw29/20 vs spw25 differ by <=7%"
+        }
+      ]
+    },
+    {
+      "quantity": "Matched-beam CH3OH comparison at the Band-5 peak pixel (all data convolved to 9.36x6.28\" PA -88): extended vs compact, and excitation",
+      "value": "Q J=1-3: 1.71+-0.06 K km/s; 2(0)-1(-1) E: Xb4f 0.263+-0.028, Xb4d 0.146+-0.016 K km/s (Xb4d recovers only 55+-8% of the Xb4f flux: CH3OH is extended/resolved out at 0.9\"); 5(-2,4)-4(-1,3) E (Eu 57 K): 0.035+-0.032 (Xb4f), 0.018+-0.015 (Xb4d), J=4..8 Q-branch <0.3. LTE (A, Trot) fit: Trot=9 K (1 sigma 8-9, 3 sigma 7-10 K) but chi2=53 for 6 dof: LTE is not a good description (Q J=1-3 under-predicted by 1.6x). RADEX (LAMDA e-ch3oh, n 1e2-1e8, Tkin 10-200 K, eta free) also fails (chi2min 55 for 5 dof; best Tkin=10 K, n>=1e7, N/eta degenerate). Conclusion: CH3OH rotational excitation is LOW (Trot<~15 K; Eu>45 K lines absent) or non-LTE; no useful density/column constraint; beam-averaged N_u(2_0, Eu=20 K)=1.7e12 cm-2 over 9.4x6.3\" (N(E-CH3OH) of order 1e13-1e14 cm-2 for Trot~10 K, uncertain by >1 dex). Q-branch/2(0)-1(-1) ratio is the discriminator",
+      "confidence": "medium",
+      "evidence": "scripts/ch3oh_matched.py, ch3oh_ltefit.py, ch3oh_radex.py -> out/ch3oh_matched.csv, ch3oh_ltefit_profile.csv, ch3oh_radex_grid.csv",
+      "target": "Band-5 beam centred on phase centre",
+      "uncertainty": "see value",
+      "unit": "K km/s",
+      "assumptions": [
+        {
+          "name": "10% flux calibration",
+          "value": "added in quadrature in the LTE fit"
+        },
+        {
+          "name": "baseline systematics",
+          "value": "negative J=5 value (-4 sigma) shows unmodelled ripple ~0.2 K km/s"
+        }
+      ]
+    },
+    {
+      "quantity": "Other in-band CH3OH lines",
+      "value": "A-type J_3-J_2 cluster (249.31-249.59 GHz sky), blended with SO 6_5-5_4 (249.489): Xb4f S 0.29+-0.08 (3.6 sigma, marginal, attribution between SO and CH3OH impossible at Trot~10 K, where the Eu 60-115 K cluster is predicted ~0); 5(-2,4)-4(-1,3) E (264.364, Eu 57 K) not detected (Xb4f S 0.055+-0.082, Xb4d N 0.064+-0.020 (3.1 sigma marginal), others <2 sigma); 6(-1,5)-5(-2,4) E (262.83) within 6 MHz of the spw18/27 edge: not usable; 9(0)-8(1) E (264.92, Eu 117 K) lies on the HCO+ wing (the 16 sigma \"line\" at Xb4d S is the red wing of HCO+, not CH3OH): not usable; no CH3OH line with Eu<120 K and log Aij>-5 in Band 7 spws (13CH3OH only)",
+      "confidence": "medium",
+      "evidence": "out/ch3oh_table.csv; out/line_table_v2.csv",
+      "target": "N, S, Bridge, clumps",
+      "uncertainty": "1 sigma in table",
+      "unit": "Jy/beam km/s"
+    },
+    {
+      "quantity": "Line identification re-done (ident.py): all blind detections re-assigned, 132 rows in out/blind_detections_reassigned.csv",
+      "value": "Matching on sky frequency at the LOCAL region velocity (HCO+ Gaussian centre of the same OUS) +-max(80, FWHM/2) km/s, ALL species Eu<200 K with NO Aij cut, ranked by nu*S*mu2*exp(-Eu/30K) within the species expected in LIRGs, exotic species only as fallback. Previous failure: logAij>-3.9 cut (CH3OH logA=-4.63) and species labels with electronic-state text (\"SO 3Sigma v=0\") not matched. Results: 163.54 = CH3OH; 251.66-251.68 = CH3OH 2(0)-1(-1); 176.95-176.98 = SO 5(4)-4(3) (178.605); 177.33 = HOC+ 2-1 (tentative); 265.96 = HOC+ 3-2 (tentative); 249.58 (5 sigma, Xb4f Soutflow) = CH3OH A-cluster/SO; Band-7 detections at 338.906, 350.65, 352.37-352.41 GHz are spw-edge artefacts (not reproduced in the overlapping spw); 341.928 (5.6 sigma, N), 176.011 (8.3 sigma, Band 5 merged; nearest CH3SH 7(1,6)-6(1,5) E dv=-58, CH3CHO 11(2,10)-11(1,11) dv=+36 km/s) remain unassigned. Unit test scripts/test_pipeline.py recovers HCO+/HCN/CS/SO and the CH3OH lines (all pass)",
+      "confidence": "high",
+      "evidence": "scripts/ident.py, ident_blind.py, test_pipeline.py",
+      "target": "all spectra",
+      "uncertainty": "tolerance +-80-100 km/s"
+    },
+    {
+      "quantity": "Lines not detected at the nuclei (3-sigma integrated limits per +-200-250 km/s window, Xb4f / Xb4d / Xb4b), v2",
+      "value": "HCN v2=1f 3-2 <0.97/<0.27/<0.12 (N); HC3N 28-27 <0.65/<0.28/<0.16; 34SO 6(6)-5(5), H2COH+, CH2NH, NH2CHO, H2C18O, CH3CN 9-8 K=0 (Band 5 <0.36), CCS 13-12, HCN v2=1f 4-3 (<1.4, Xb47), HC15N 4-3, SO 8_8-7_7, CO+ 3-2 (all in out/line_table_v2.csv); SO 6_5-5_4 (251.826): <0.67 (Xb4f), <0.23 (Xb4d), <0.10 (Xb4b) Jy/b km/s at the nuclei, but this window overlaps the CH3OH A-cluster (blend, limit applies to SO+CH3OH together)",
+      "confidence": "medium",
+      "evidence": "out/line_table_v2.csv",
+      "target": "N and S",
+      "uncertainty": "3 sigma",
+      "unit": "Jy/beam km/s"
+    },
+    {
+      "quantity": "H13CN 4-3 (345.340 GHz) upper limit with an explicit CO 3-2 wing model (Xb47 spw20 upper edge)",
+      "value": "Template = HCN 4-3 profile of the region; CO wing fitted simultaneously (exponential, log-quadratic, log-cubic, power-law, Lorentzian; range 341.80-342.20 GHz; models with chi2/dof>1.3 rejected: Lorentzian, and the zero-CO case is excluded by chi2=695-1456 for 102 points). Accepted models: 3-sigma upper limit H13CN/HCN(4-3) < 0.09-0.11 (N), < 0.135-0.15 (S; log-quadratic/cubic only), < 0.075-0.15 (Bridge) i.e. HCN/H13CN > 9 (N), > 6.7 (S, Bridge); N best-fit alpha=0.015-0.045+-0.015 (<=3 sigma). Earlier zero-CO limits (0.15/0.45/0.24 from the half-profile) were looser but unmodelled. The limit is conditional on the wing family; with a free CO wing a real H13CN signal of this size is degenerate with the wing, so the limit is the minimum defensible; extending the fit to 342.28 GHz (CO core) gives similar numbers only for log-quadratic/cubic models",
+      "confidence": "medium",
+      "evidence": "scripts/h13cn.py -> out/h13cn_limits.csv, out/h13cn_fits.png",
+      "target": "N, S, Bridge",
+      "uncertainty": "3 sigma profile-likelihood (delta chi2=9)",
+      "assumptions": [
+        {
+          "name": "template",
+          "value": "HCN 4-3 profile of same region, v fixed"
+        }
+      ]
+    },
+    {
+      "quantity": "Cross-check with the literature (Harada+2018 ApJ 855, 49, ALMA Band 3 line survey of NGC 3256; Sato+2022 A&A, APEX/NOEMA)",
+      "value": "Agreements: CH3OH, SO, HOC+ and HCN/HCO+ detected there too; Harada+ report the largest chemical variation in CH3OH (and SiO), and CH3OH emission at the two nuclei \"not dominant\", more visible in tidal arms/outflow positions - consistent with our CH3OH peaking on the Bridge and W clump and being undetected at the N and S nuclei (<1.7% of HCO+) in Xb4d. HOC+ remains tentative here (3 sigma conservative) whereas Harada+ detect it at the central position (low-excitation lines). Not checked: SiO (not covered), H2CS (blended with CS 7-6 here, limit <0.34). Cross-check made from the published abstracts/summary only (tables not reproduced); status: partial",
+      "confidence": "low",
+      "evidence": "web: iopscience.iop.org/article/10.3847/1538-4357/aaaa70 ; arxiv.org/abs/2203.05851 [Original confidence note: low-medium; reported here conservatively as low.]"
+    },
+    {
+      "quantity": "Which lines are in matched windows/apertures for any ratio in this report",
+      "value": "CH3OH 2(0)-1(-1)/HCO+ 3-2: same OUS (Xb4d), same pixel, spw29/spw25 beams 0.98x0.77\" vs 0.93x0.74\" (<=7% area difference), HCO+ +-350 km/s and CH3OH LTE template; Q-branch/2(0)-1(-1): both convolved to 9.36x6.28\" (matched.py); HCN/HCO+ 2-1 in the disk: Xb55 spw16/spw18 beams 8.6x6.0 vs 8.6x5.9\" (identical stack mask); HCN/HCO+ 3-2 in the Soutflow wing: Xb4d spw27/25 beams 0.93x0.74\" (same pixel, same windows). The raw ratio entry of the previous turn (peak-pixel HCN/HCO+) remains not beam matched across OUS",
+      "confidence": "high",
+      "evidence": "see scripts named in the entries"
+    }
+  ],
+  "interpretation": "Line inventory (corrected): besides HCN and HCO+ (J=2-1,3-2,4-3) and CS 7-6, CH3OH is detected (Band 5 165 GHz Q-branch J=1-3 at 27 sigma; 2(0)-1(-1) E at 254.015 GHz at 10 sigma), SO 5(4)-4(3) (Band 5, 8 sigma) is detected, HOC+ is tentative; everything else is a limit, blended or an edge artefact. CH3OH is cold/subthermal (Q-branch J>=4 and Eu>45 K lines absent; LTE Trot~9 K, but LTE and RADEX fits are poor) and extended: the Xb4d (0.9\") CH3OH flux is only ~55% of the 9\"-beam value, and in Xb4d it peaks on the Bridge and a W clump, not on the N and S nuclei (CH3OH/HCO+ 0.05 there vs <0.015 at the nuclei) - a shock/low-excitation tracer signature that agrees qualitatively with Harada+2018. The extended disk is defined (Xb55 HCO+ 2-1 S/N>5 at r>8\", HCN/HCO+(2-1)=0.51) but is not detected in the 3-2/4-3 data with the available sensitivity/zero-level. The southern blue-shifted component 1.9\" south of S is statistically solid (7-12 sigma after null calibration, 0 null peaks above 8 sigma in 583 beams), has no red counterpart, is not a PSF-sidelobe copy of S, and has HCN/HCO+(3-2)~1.8 versus 0.4 at S; it is a separate broad component at ~2560-2650 km/s. The N and S nuclei are separable in Xb4b, Xb4d, Xb4f, Xb47 (not in Band 5). The opacity test (H13CN) can only give HCN/H13CN>7-9 (conditional on the CO-wing model). Raw HCN/HCO+ (3-2) peak ratios (N 0.6-1.0, S 0.4-0.5) are preliminary and not beam matched across OUS (Q1).",
+  "caveats": [
+    "Peak-pixel intensities use different native beams per OUS; no cross-OUS ratio in this item is beam matched (Q1/Q6).",
+    "Systemic velocity 2780 km/s is a single adopted value; nuclear peak velocities differ by ~100 km/s at 0.25\" (N 2811-2817, S 2710), so +-350 km/s windows are not centred on each nucleus; the HCN/HCO+ integrals use the same fixed window for both lines.",
+    "Line identifications rest on Splatalogue CDMS/JPL rest frequencies at v=2780 km/s; HOC+, SO 4_5-3_4 and both unidentified features need independent confirmation (e.g. matching J transitions at matched beam).",
+    "The Band-5 cubes do not separate N, S, Bridge (13% leakage at the nuclear separation, single HCO+ 2-1 peak pixel).",
+    "Empirical noise comes from emission-free pixels at 6-11\" (primary-beam-corrected noise there is 1.2-1.6x the central value), which makes limits conservative by up to ~1.5x.",
+    "Xb4b nuclear emission is clumpy: peak-pixel values depend on the exact pixel chosen (search radius 1\"); spectra are non-Gaussian (double-horned), Gaussian FWHM are indicative only.",
+    "No source of data for line-free-channel continuum from cubes exists (cubes are continuum-subtracted); the contamination check relies on mfs vs cont images, which have 1-2 sigma noise.",
+    "The 'aperture' (1.5\" radius) rows of the line table use statistical noise only (no empirical null).",
+    "The conversion to K km/s uses the Rayleigh-Jeans formula with the beam of each cube; distance 40 Mpc is only used for pc sizes.",
+    "CH3OH LTE/RADEX fits have chi2/dof ~9-11: the numbers Trot=9 K and n>=1e7 are formal; the robust statement is 'Q-branch J>=4 absent: low excitation'. Baseline ripple of ~0.2 K km/s is visible in Band 5 (J=5 at -4 sigma).",
+    "Local-velocity matching (not 2780 km/s) is essential for identifications at S (2710-2740 km/s): at vsys the 251.66 feature would favour NS; at local velocity it clearly favours CH3OH.",
+    "The zero level of Xb4f/Xb55 moment-0 maps at r>8\" is biased by about -0.5 / -1.3 Jy/b km/s (negative bowl, missing short spacings); disk fluxes are zero-level-corrected with the r=14-22\" ring and carry >=0.3 Jy/b km/s systematic.",
+    "Soutflow position error is dominated by the assumed 10% beam pointing floor (0.10\"), not by the fit (0.01-0.02\"); wing definition relative to v_S=2722; comparison with the CO outflow geometry (Sakamoto+2014, Michiyama+2018) has not been made quantitatively.",
+    "H13CN limit conditional on the CO-wing family; log-quadratic/cubic wings can absorb a genuine H13CN signal.",
+    "Literature cross-check is from abstracts/summaries (Harada+2018, Sato+2022), not their tables."
+  ]
+}

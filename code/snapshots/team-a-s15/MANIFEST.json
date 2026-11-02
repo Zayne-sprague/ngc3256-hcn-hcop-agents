@@ -1,0 +1,25 @@
+{
+ "team": "team-a",
+ "item": "Q25",
+ "files": [
+  "scripts/q25_ratio10.py",
+  "scripts/q25_growth.py",
+  "scripts/q25_uvtest.py",
+  "scripts/q25_systematics.py",
+  "scripts/q25_radex.py",
+  "scripts/q25_radexfit.py",
+  "scripts/build_report_q25.py",
+  "scripts/build_report_q25_fix.py",
+  "team/checks/q25_bowl_estimate.py",
+  "out/q25/q25_ratio10.json",
+  "out/q25/q25_ratio10.log",
+  "out/q25/q25_growth.log",
+  "out/q25/q25_uvtest.log",
+  "out/q25/q25_systematics.log",
+  "out/q25/q25_radex.log",
+  "out/q25/q25_radexfit.log",
+  "team/work_summary.md",
+  "team/review.json",
+  "TEAM_REPORT.json"
+ ]
+}

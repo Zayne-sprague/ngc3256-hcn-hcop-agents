@@ -1,0 +1,20 @@
+{
+ "team": "team-b",
+ "item": "Q26",
+ "files": [
+  "scripts/s170_q26_ratios.py",
+  "scripts/s171_q26_analysis.py",
+  "scripts/s172_update_report_q26.py",
+  "scripts/regions.py",
+  "team/checks/chk_q26.py",
+  "team/review.json",
+  "team/work_summary.md",
+  "out/q26/s171_summary.txt",
+  "out/q26/s170_Xb4b.json",
+  "out/q26/s170_Xb4d.json",
+  "out/q26/s170_Xb4f.json",
+  "out/q26/s170_Xb4b_blueonly.json",
+  "out/q26/q26_ratio_figure.png",
+  "TEAM_REPORT.json"
+ ]
+}

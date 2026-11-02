@@ -1,0 +1,153 @@
+base_shH_tbg2.73_s1 chi2prof 15.0 (N 11.6 S 3.4; 10arcsec N 2.2 S 0.9) k 17 logZ -49.42 BIC 73.9 Te 64 P(Te>=50) 1.00
+base_sh_tbg2.73_s1 chi2prof 16.9 (N 10.1 S 6.9; 10arcsec N 3.6 S 2.5) k 17 logZ -52.72 BIC 75.8 Te 50 P(Te>=50) 0.50
+base_shH_tbg2.73_s3 chi2prof 14.2 (N 9.2 S 5.0; 10arcsec N 1.8 S 1.3) k 17 logZ -49.87 BIC 73.2 Te 84 P(Te>=50) 1.00
+base_shH_tbg2.73_s2 chi2prof 14.6 (N 8.7 S 5.9; 10arcsec N 3.6 S 2.0) k 17 logZ -50.97 BIC 73.5 Te 68 P(Te>=50) 1.00
+base_same_tbg2.73_s2 chi2prof 62.9 (N 52.3 S 10.6; 10arcsec N 11.7 S 2.5) k 14 logZ -76.92 BIC 111.5 
+base_same_tbg2.73_s3 chi2prof 63.1 (N 53.2 S 9.9; 10arcsec N 14.3 S 2.8) k 14 logZ -78.33 BIC 111.7 
+base_sh_tbg2.73_s4 chi2prof 12.0 (N 7.7 S 4.3; 10arcsec N 2.1 S 0.5) k 17 logZ -52.30 BIC 70.9 Te 75 P(Te>=50) 0.78
+base_sh_tbg2.73_s3 chi2prof 16.3 (N 9.6 S 6.7; 10arcsec N 0.5 S 1.4) k 17 logZ -53.23 BIC 75.3 Te 52 P(Te>=50) 0.54
+base_sh_tbg2.73_s2 chi2prof 11.0 (N 5.9 S 5.1; 10arcsec N 1.7 S 0.5) k 17 logZ -51.57 BIC 69.9 Te 42 P(Te>=50) 0.38
+base_same_tbg2.73_s4 chi2prof 61.6 (N 51.3 S 10.4; 10arcsec N 13.0 S 1.5) k 14 logZ -77.04 BIC 110.2 
+base_same_tbg2.73_s1 chi2prof 62.6 (N 52.5 S 10.0; 10arcsec N 17.4 S 3.4) k 14 logZ -77.00 BIC 111.1 
+base_sep_tbg2.73_s3 chi2prof 15.6 (N 11.0 S 4.6; 10arcsec N 4.6 S 0.3) k 22 logZ -60.55 BIC 91.8 
+base_sep_tbg2.73_s1 chi2prof 18.0 (N 12.5 S 5.5; 10arcsec N 4.1 S 2.3) k 22 logZ -61.79 BIC 94.2 
+base_sep_tbg2.73_s2 chi2prof 14.7 (N 10.9 S 3.8; 10arcsec N 5.3 S 1.3) k 22 logZ -61.84 BIC 91.0 
+base_sep_tbg2.73_s4 chi2prof 12.3 (N 8.5 S 3.8; 10arcsec N 2.8 S 0.9) k 22 logZ -59.55 BIC 88.5 
+base_shH_tbg2.73_s4 chi2prof 12.3 (N 7.7 S 4.6; 10arcsec N 2.4 S 1.6) k 17 logZ -49.20 BIC 71.2 Te 65 P(Te>=50) 1.00
+base_none_tbg2.73_s1 chi2prof 132.6 (N 72.7 S 59.9; 10arcsec N 24.1 S 29.9) k 12 logZ -117.09 BIC 174.2 
+base_shf_tbg2.73_s1 chi2prof 17.3 (N 10.4 S 6.9; 10arcsec N 1.9 S 1.4) k 18 logZ -53.00 BIC 79.7 Te 42 P(Te>=50) 0.19
+base_shf_tbg2.73_s2 chi2prof 14.6 (N 11.2 S 3.5; 10arcsec N 5.6 S 0.5) k 18 logZ -55.08 BIC 77.0 Te 36 P(Te>=50) 0.09
+base_none_tbg2.73_s3 chi2prof 132.7 (N 71.0 S 61.7; 10arcsec N 22.3 S 27.6) k 12 logZ -118.00 BIC 174.3 
+base_none_tbg2.73_s2 chi2prof 132.9 (N 71.6 S 61.4; 10arcsec N 24.0 S 28.7) k 12 logZ -118.94 BIC 174.5 
+base_shf_tbg2.73_s4 chi2prof 16.3 (N 11.7 S 4.6; 10arcsec N 6.5 S 2.0) k 18 logZ -54.21 BIC 78.7 Te 45 P(Te>=50) 0.38
+base_shf_tbg2.73_s3 chi2prof 14.5 (N 8.8 S 5.7; 10arcsec N 2.4 S 1.8) k 18 logZ -55.43 BIC 76.8 Te 24 P(Te>=50) 0.09
+base_none_tbg2.73_s4 chi2prof 132.4 (N 67.3 S 65.2; 10arcsec N 24.9 S 26.3) k 12 logZ -119.01 BIC 174.0 
+base_sh__tbg5_s1 chi2prof 11.2 (N 7.0 S 4.2; 10arcsec N 1.3 S 0.8) k 17 logZ -52.82 BIC 70.1 Te 34 P(Te>=50) 0.12
+base_sh__tbg5_s2 chi2prof 15.6 (N 11.1 S 4.4; 10arcsec N 1.3 S 0.7) k 17 logZ -55.25 BIC 74.5 Te 42 P(Te>=50) 0.38
+base_sh__tbg5_s3 chi2prof 15.2 (N 11.1 S 4.0; 10arcsec N 1.8 S 1.1) k 17 logZ -57.39 BIC 74.1 Te 29 P(Te>=50) 0.04
+base_sh__tbg5_s4 chi2prof 12.6 (N 7.9 S 4.8; 10arcsec N 1.6 S 0.8) k 17 logZ -53.40 BIC 71.6 Te 37 P(Te>=50) 0.18
+base_sep__tbg5_s1 chi2prof 23.2 (N 17.2 S 6.0; 10arcsec N 7.9 S 3.2) k 22 logZ -64.30 BIC 99.5 
+base_sep__tbg5_s2 chi2prof 17.9 (N 11.8 S 6.1; 10arcsec N 1.9 S 2.2) k 22 logZ -62.54 BIC 94.2 
+sg30_sh_tbg2.73_s1 chi2prof 10.8 (N 6.5 S 4.3; 10arcsec N 3.6 S 1.7) k 17 logZ -47.74 BIC 69.8 Te 34 P(Te>=50) 0.32
+base_shH__tbg5_s1 chi2prof 15.9 (N 12.1 S 3.8; 10arcsec N 2.6 S 0.7) k 17 logZ -56.49 BIC 74.8 Te 66 P(Te>=50) 1.00
+base_shH__tbg5_s2 chi2prof 13.7 (N 8.5 S 5.3; 10arcsec N 0.7 S 0.2) k 17 logZ -56.48 BIC 72.7 Te 56 P(Te>=50) 1.00
+base_shH__tbg5_s3 chi2prof 14.4 (N 10.7 S 3.8; 10arcsec N 2.8 S 0.7) k 17 logZ -55.91 BIC 73.4 Te 76 P(Te>=50) 1.00
+x1_sh_tbg2.73_s1 chi2prof 19.0 (N 10.5 S 8.5; 10arcsec N 3.3 S 3.5) k 17 logZ -52.68 BIC 78.0 Te 34 P(Te>=50) 0.08
+drop21_sh_tbg2.73_s1 chi2prof 11.7 (N 5.5 S 6.2; 10arcsec N 0.9 S 1.2) k 17 logZ -47.44 BIC 68.3 Te 36 P(Te>=50) 0.12
+base_sep__tbg5_s3 chi2prof 13.7 (N 8.7 S 5.0; 10arcsec N 3.6 S 1.0) k 22 logZ -61.72 BIC 90.0 
+base_shH__tbg5_s4 chi2prof 13.7 (N 8.2 S 5.5; 10arcsec N 0.9 S 1.1) k 17 logZ -50.60 BIC 72.6 Te 58 P(Te>=50) 1.00
+dropHCN_sh_tbg2.73_s1 chi2prof 10.3 (N 5.0 S 5.3; 10arcsec N 1.6 S 0.8) k 17 logZ -45.01 BIC 65.7 Te 35 P(Te>=50) 0.14
+drop43_sh_tbg2.73_s1 chi2prof 11.3 (N 6.3 S 5.0; 10arcsec N 2.2 S 1.5) k 17 logZ -48.26 BIC 68.0 Te 23 P(Te>=50) 0.01
+x0_sh_tbg2.73_s1 chi2prof 14.5 (N 9.5 S 5.0; 10arcsec N 2.9 S 2.3) k 17 logZ -52.83 BIC 73.4 Te 67 P(Te>=50) 0.87
+base_sep__tbg5_s4 chi2prof 23.4 (N 19.5 S 3.9; 10arcsec N 10.8 S 1.1) k 22 logZ -61.94 BIC 99.7 
+dropHCO_sh_tbg2.73_s1 chi2prof 7.9 (N 5.2 S 2.8; 10arcsec N 0.4 S 0.2) k 17 logZ -45.76 BIC 63.3 Te 62 P(Te>=50) 0.76
+lol1_sh_tbg2.73_s1 chi2prof 13.4 (N 7.7 S 5.8; 10arcsec N 3.3 S 2.6) k 17 logZ -51.08 BIC 71.2 Te 44 P(Te>=50) 0.32
+lol0_sh_tbg2.73_s1 chi2prof 11.6 (N 7.9 S 3.7; 10arcsec N 1.8 S 0.7) k 17 logZ -53.24 BIC 69.5 Te 39 P(Te>=50) 0.21
+lol2_sh_tbg2.73_s1 chi2prof 13.9 (N 6.7 S 7.2; 10arcsec N 1.7 S 2.0) k 17 logZ -52.10 BIC 71.7 Te 55 P(Te>=50) 0.60
+lol3_sh_tbg2.73_s1 chi2prof 11.1 (N 6.2 S 4.9; 10arcsec N 1.6 S 1.2) k 17 logZ -49.01 BIC 68.9 Te 71 P(Te>=50) 0.82
+lol4_sh_tbg2.73_s1 chi2prof 12.8 (N 7.7 S 5.1; 10arcsec N 2.1 S 1.1) k 17 logZ -49.03 BIC 70.6 Te 44 P(Te>=50) 0.32
+lol5_sh_tbg2.73_s1 chi2prof 13.3 (N 9.3 S 4.1; 10arcsec N 3.7 S 2.1) k 17 logZ -52.58 BIC 71.2 Te 43 P(Te>=50) 0.32
+dropHCN_sh_tbg2.73_s2 chi2prof 12.2 (N 4.8 S 7.5; 10arcsec N 2.2 S 1.2) k 17 logZ -46.25 BIC 67.6 Te 31 P(Te>=50) 0.08
+sg30_sh_tbg2.73_s2 chi2prof 11.1 (N 5.7 S 5.3; 10arcsec N 1.4 S 0.7) k 17 logZ -46.89 BIC 70.0 Te 25 P(Te>=50) 0.19
+x1_sh_tbg2.73_s2 chi2prof 15.2 (N 8.9 S 6.2; 10arcsec N 2.5 S 2.0) k 17 logZ -52.84 BIC 74.1 Te 42 P(Te>=50) 0.20
+drop43_sh_tbg2.73_s2 chi2prof 9.5 (N 6.5 S 2.9; 10arcsec N 2.7 S 0.8) k 17 logZ -49.09 BIC 66.1 Te 36 P(Te>=50) 0.18
+drop21_sh_tbg2.73_s2 chi2prof 11.5 (N 6.7 S 4.8; 10arcsec N 1.0 S 2.9) k 17 logZ -48.72 BIC 68.1 Te 23 P(Te>=50) 0.00
+dropHCO_sh_tbg2.73_s2 chi2prof 9.9 (N 7.2 S 2.7; 10arcsec N 1.1 S 0.3) k 17 logZ -48.23 BIC 65.3 Te 40 P(Te>=50) 0.26
+lol1_sh_tbg2.73_s2 chi2prof 11.8 (N 7.7 S 4.1; 10arcsec N 1.0 S 0.8) k 17 logZ -51.14 BIC 69.7 Te 41 P(Te>=50) 0.27
+x0_sh_tbg2.73_s2 chi2prof 17.6 (N 13.0 S 4.6; 10arcsec N 2.8 S 1.5) k 17 logZ -57.00 BIC 76.5 Te 73 P(Te>=50) 0.84
+lol0_sh_tbg2.73_s2 chi2prof 15.8 (N 9.7 S 6.1; 10arcsec N 2.1 S 2.2) k 17 logZ -51.50 BIC 73.6 Te 37 P(Te>=50) 0.15
+lol2_sh_tbg2.73_s2 chi2prof 11.3 (N 6.2 S 5.0; 10arcsec N 0.8 S 0.8) k 17 logZ -50.91 BIC 69.1 Te 47 P(Te>=50) 0.45
+lol3_sh_tbg2.73_s2 chi2prof 14.5 (N 6.5 S 8.0; 10arcsec N 1.9 S 2.7) k 17 logZ -50.83 BIC 72.4 Te 41 P(Te>=50) 0.17
+lol4_sh_tbg2.73_s2 chi2prof 16.4 (N 11.2 S 5.3; 10arcsec N 3.0 S 1.9) k 17 logZ -50.75 BIC 74.3 Te 49 P(Te>=50) 0.48
+sg30_sh_tbg2.73_s3 chi2prof 12.6 (N 5.4 S 7.2; 10arcsec N 1.4 S 2.9) k 17 logZ -46.44 BIC 71.5 Te 24 P(Te>=50) 0.01
+lol5_sh_tbg2.73_s2 chi2prof 15.4 (N 9.9 S 5.5; 10arcsec N 2.6 S 1.0) k 17 logZ -51.53 BIC 73.2 Te 47 P(Te>=50) 0.43
+dropHCN_sh_tbg2.73_s3 chi2prof 11.1 (N 4.5 S 6.6; 10arcsec N 1.8 S 1.0) k 17 logZ -45.24 BIC 66.5 Te 35 P(Te>=50) 0.11
+dropHCO_sh_tbg2.73_s3 chi2prof 13.9 (N 7.9 S 6.0; 10arcsec N 1.0 S 1.3) k 17 logZ -47.82 BIC 69.3 Te 32 P(Te>=50) 0.12
+drop43_sh_tbg2.73_s3 chi2prof 11.9 (N 8.3 S 3.6; 10arcsec N 1.4 S 1.1) k 17 logZ -50.22 BIC 68.5 Te 32 P(Te>=50) 0.07
+x1_sh_tbg2.73_s3 chi2prof 19.9 (N 13.2 S 6.7; 10arcsec N 4.2 S 3.7) k 17 logZ -54.79 BIC 78.9 Te 32 P(Te>=50) 0.15
+drop21_sh_tbg2.73_s3 chi2prof 11.9 (N 8.7 S 3.2; 10arcsec N 1.1 S 2.1) k 17 logZ -48.58 BIC 68.5 Te 28 P(Te>=50) 0.27
+x0_sh_tbg2.73_s3 chi2prof 16.0 (N 9.0 S 6.9; 10arcsec N 2.9 S 2.0) k 17 logZ -55.48 BIC 74.9 Te 68 P(Te>=50) 0.70
+lol2_sh_tbg2.73_s3 chi2prof 15.2 (N 9.8 S 5.4; 10arcsec N 1.7 S 1.5) k 17 logZ -51.92 BIC 73.0 Te 38 P(Te>=50) 0.21
+lol1_sh_tbg2.73_s3 chi2prof 14.1 (N 9.1 S 4.9; 10arcsec N 1.7 S 0.6) k 17 logZ -51.71 BIC 71.9 Te 43 P(Te>=50) 0.34
+lol3_sh_tbg2.73_s3 chi2prof 16.6 (N 9.4 S 7.2; 10arcsec N 2.8 S 2.8) k 17 logZ -52.42 BIC 74.4 Te 34 P(Te>=50) 0.10
+lol0_sh_tbg2.73_s3 chi2prof 14.6 (N 8.7 S 5.9; 10arcsec N 1.5 S 1.1) k 17 logZ -51.76 BIC 72.4 Te 38 P(Te>=50) 0.27
+lol4_sh_tbg2.73_s3 chi2prof 11.4 (N 7.4 S 4.0; 10arcsec N 3.0 S 1.5) k 17 logZ -49.96 BIC 69.2 Te 57 P(Te>=50) 0.65
+lol5_sh_tbg2.73_s3 chi2prof 17.1 (N 9.6 S 7.5; 10arcsec N 2.4 S 1.7) k 17 logZ -51.32 BIC 74.9 Te 36 P(Te>=50) 0.09
+sg30_sep_tbg2.73_s1 chi2prof 10.3 (N 6.7 S 3.6; 10arcsec N 2.8 S 1.2) k 22 logZ -55.08 BIC 86.6 
+dropHCN_sep_tbg2.73_s1 chi2prof 10.0 (N 7.2 S 2.8; 10arcsec N 1.6 S 0.2) k 22 logZ -50.37 BIC 81.7 
+dropHCO_sep_tbg2.73_s1 chi2prof 12.0 (N 7.6 S 4.4; 10arcsec N 3.3 S 1.2) k 22 logZ -53.09 BIC 83.7 
+drop21_sep_tbg2.73_s1 chi2prof 12.7 (N 8.7 S 4.0; 10arcsec N 5.0 S 1.2) k 22 logZ -56.88 BIC 86.1 
+x0_sep_tbg2.73_s1 chi2prof 18.3 (N 10.1 S 8.1; 10arcsec N 3.2 S 3.2) k 22 logZ -63.29 BIC 94.5 
+x1_sep_tbg2.73_s1 chi2prof 11.5 (N 5.5 S 6.0; 10arcsec N 2.3 S 2.6) k 22 logZ -58.87 BIC 87.8 
+drop43_sep_tbg2.73_s1 chi2prof 11.9 (N 8.0 S 3.9; 10arcsec N 2.8 S 1.5) k 22 logZ -57.87 BIC 85.2 
+lol1_sep_tbg2.73_s1 chi2prof 17.2 (N 11.7 S 5.4; 10arcsec N 7.1 S 0.4) k 22 logZ -58.66 BIC 92.0 
+lol0_sep_tbg2.73_s1 chi2prof 16.0 (N 9.0 S 7.1; 10arcsec N 1.6 S 3.5) k 22 logZ -61.28 BIC 90.9 
+lol4_sep_tbg2.73_s1 chi2prof 15.0 (N 11.3 S 3.7; 10arcsec N 5.1 S 2.0) k 22 logZ -58.35 BIC 89.9 
+lol5_sep_tbg2.73_s1 chi2prof 14.9 (N 11.2 S 3.6; 10arcsec N 3.5 S 0.7) k 22 logZ -62.13 BIC 89.7 
+lol2_sep_tbg2.73_s1 chi2prof 11.3 (N 8.4 S 2.9; 10arcsec N 3.4 S 0.5) k 22 logZ -56.92 BIC 86.1 
+lol3_sep_tbg2.73_s1 chi2prof 13.4 (N 8.4 S 5.0; 10arcsec N 2.2 S 1.0) k 22 logZ -62.51 BIC 88.3 
+sg30_sep_tbg2.73_s2 chi2prof 9.0 (N 6.0 S 3.0; 10arcsec N 2.2 S 1.0) k 22 logZ -56.70 BIC 85.3 
+x0_sep_tbg2.73_s2 chi2prof 16.5 (N 11.2 S 5.3; 10arcsec N 3.6 S 1.1) k 22 logZ -64.33 BIC 92.8 
+drop43_sep_tbg2.73_s2 chi2prof 12.1 (N 7.5 S 4.6; 10arcsec N 4.0 S 1.8) k 22 logZ -58.75 BIC 85.4 
+dropHCN_sep_tbg2.73_s2 chi2prof 10.1 (N 6.7 S 3.5; 10arcsec N 1.0 S 0.2) k 22 logZ -51.65 BIC 81.8 
+dropHCO_sep_tbg2.73_s2 chi2prof 11.3 (N 9.2 S 2.1; 10arcsec N 4.7 S 0.2) k 22 logZ -52.92 BIC 82.9 
+x1_sep_tbg2.73_s2 chi2prof 15.0 (N 10.9 S 4.1; 10arcsec N 5.5 S 1.9) k 22 logZ -64.56 BIC 91.3 
+drop21_sep_tbg2.73_s2 chi2prof 7.8 (N 5.3 S 2.5; 10arcsec N 3.5 S 0.5) k 22 logZ -56.41 BIC 81.1 
+lol1_sep_tbg2.73_s2 chi2prof 13.9 (N 7.9 S 6.0; 10arcsec N 3.2 S 1.3) k 22 logZ -59.21 BIC 88.7 
+lol0_sep_tbg2.73_s2 chi2prof 14.0 (N 8.8 S 5.1; 10arcsec N 4.3 S 1.8) k 22 logZ -59.12 BIC 88.8 
+lol2_sep_tbg2.73_s2 chi2prof 16.4 (N 11.2 S 5.2; 10arcsec N 4.8 S 1.7) k 22 logZ -61.47 BIC 91.2 
+lol4_sep_tbg2.73_s2 chi2prof 17.2 (N 11.2 S 6.0; 10arcsec N 5.1 S 1.9) k 22 logZ -57.89 BIC 92.0 
+lol3_sep_tbg2.73_s2 chi2prof 18.3 (N 12.8 S 5.6; 10arcsec N 6.4 S 1.6) k 22 logZ -61.40 BIC 93.2 
+sg30_sep_tbg2.73_s3 chi2prof 9.5 (N 5.1 S 4.3; 10arcsec N 3.4 S 2.0) k 22 logZ -53.41 BIC 85.7 
+lol5_sep_tbg2.73_s2 chi2prof 13.1 (N 7.2 S 6.0; 10arcsec N 2.9 S 2.2) k 22 logZ -57.96 BIC 88.0 
+x0_sep_tbg2.73_s3 chi2prof 13.1 (N 7.3 S 5.7; 10arcsec N 2.7 S 0.9) k 22 logZ -62.19 BIC 89.3 
+x1_sep_tbg2.73_s3 chi2prof 11.6 (N 6.9 S 4.7; 10arcsec N 3.0 S 0.6) k 22 logZ -62.06 BIC 87.8 
+drop43_sep_tbg2.73_s3 chi2prof 11.4 (N 7.7 S 3.7; 10arcsec N 2.5 S 1.0) k 22 logZ -55.52 BIC 84.7 
+dropHCN_sep_tbg2.73_s3 chi2prof 8.7 (N 6.9 S 1.8; 10arcsec N 3.2 S 0.6) k 22 logZ -48.18 BIC 80.3 
+dropHCO_sep_tbg2.73_s3 chi2prof 13.6 (N 9.3 S 4.3; 10arcsec N 4.6 S 0.2) k 22 logZ -53.14 BIC 85.3 
+drop21_sep_tbg2.73_s3 chi2prof 7.8 (N 4.4 S 3.4; 10arcsec N 1.8 S 0.2) k 22 logZ -55.06 BIC 81.1 
+lol0_sep_tbg2.73_s3 chi2prof 14.8 (N 9.1 S 5.7; 10arcsec N 3.8 S 0.9) k 22 logZ -59.46 BIC 89.6 
+lol1_sep_tbg2.73_s3 chi2prof 15.7 (N 9.5 S 6.2; 10arcsec N 2.4 S 2.6) k 22 logZ -60.01 BIC 90.5 
+sg30_same_tbg2.73_s1 chi2prof 55.5 (N 44.5 S 11.0; 10arcsec N 16.6 S 1.7) k 14 logZ -73.24 BIC 104.0 
+lol2_sep_tbg2.73_s3 chi2prof 17.3 (N 12.5 S 4.8; 10arcsec N 7.7 S 2.7) k 22 logZ -58.65 BIC 92.1 
+x0_same_tbg2.73_s1 chi2prof 73.7 (N 63.3 S 10.3; 10arcsec N 14.8 S 2.3) k 14 logZ -82.50 BIC 122.2 
+drop43_same_tbg2.73_s1 chi2prof 54.7 (N 45.6 S 9.1; 10arcsec N 19.5 S 2.8) k 14 logZ -73.68 BIC 101.3 
+lol3_sep_tbg2.73_s3 chi2prof 17.5 (N 11.8 S 5.6; 10arcsec N 2.8 S 3.1) k 22 logZ -60.48 BIC 92.3 
+lol4_sep_tbg2.73_s3 chi2prof 16.3 (N 10.1 S 6.2; 10arcsec N 4.0 S 2.0) k 22 logZ -59.91 BIC 91.1 
+x1_same_tbg2.73_s1 chi2prof 46.9 (N 33.3 S 13.6; 10arcsec N 8.9 S 2.4) k 14 logZ -73.64 BIC 95.5 
+lol5_sep_tbg2.73_s3 chi2prof 14.5 (N 10.2 S 4.3; 10arcsec N 1.7 S 0.9) k 22 logZ -61.34 BIC 89.3 
+drop21_same_tbg2.73_s1 chi2prof 57.1 (N 47.2 S 10.0; 10arcsec N 15.5 S 2.0) k 14 logZ -73.71 BIC 103.8 
+dropHCN_same_tbg2.73_s1 chi2prof 20.7 (N 12.1 S 8.6; 10arcsec N 0.5 S 2.7) k 14 logZ -52.22 BIC 66.3 
+dropHCO_same_tbg2.73_s1 chi2prof 21.3 (N 13.2 S 8.1; 10arcsec N 1.1 S 1.3) k 14 logZ -52.43 BIC 66.9 
+lol0_same_tbg2.73_s1 chi2prof 62.8 (N 52.6 S 10.2; 10arcsec N 19.6 S 3.0) k 14 logZ -76.74 BIC 110.5 
+lol1_same_tbg2.73_s1 chi2prof 49.1 (N 39.1 S 10.0; 10arcsec N 13.6 S 2.5) k 14 logZ -69.25 BIC 96.7 
+lol2_same_tbg2.73_s1 chi2prof 57.2 (N 48.3 S 8.8; 10arcsec N 20.9 S 1.9) k 14 logZ -74.55 BIC 104.8 
+lol3_same_tbg2.73_s1 chi2prof 59.3 (N 48.7 S 10.6; 10arcsec N 12.4 S 3.3) k 14 logZ -76.51 BIC 106.9 
+lol4_same_tbg2.73_s1 chi2prof 50.4 (N 40.0 S 10.4; 10arcsec N 12.9 S 4.3) k 14 logZ -72.23 BIC 98.0 
+lol5_same_tbg2.73_s1 chi2prof 55.8 (N 46.3 S 9.5; 10arcsec N 14.4 S 2.8) k 14 logZ -74.23 BIC 103.4 
+sg30_same_tbg2.73_s2 chi2prof 55.1 (N 46.0 S 9.1; 10arcsec N 21.3 S 1.5) k 14 logZ -73.31 BIC 103.6 
+drop43_same_tbg2.73_s2 chi2prof 55.6 (N 45.7 S 9.8; 10arcsec N 13.8 S 2.7) k 14 logZ -74.40 BIC 102.2 
+dropHCN_same_tbg2.73_s2 chi2prof 20.8 (N 12.8 S 8.0; 10arcsec N 0.6 S 1.7) k 14 logZ -51.59 BIC 66.5 
+dropHCO_same_tbg2.73_s2 chi2prof 21.4 (N 13.2 S 8.2; 10arcsec N 1.4 S 1.5) k 14 logZ -51.90 BIC 67.1 
+x0_same_tbg2.73_s2 chi2prof 72.0 (N 62.3 S 9.7; 10arcsec N 15.1 S 2.9) k 14 logZ -81.99 BIC 120.5 
+drop21_same_tbg2.73_s2 chi2prof 57.0 (N 49.3 S 7.7; 10arcsec N 12.2 S 1.7) k 14 logZ -71.89 BIC 103.7 
+lol0_same_tbg2.73_s2 chi2prof 62.8 (N 52.4 S 10.4; 10arcsec N 10.6 S 2.3) k 14 logZ -77.27 BIC 110.5 
+x1_same_tbg2.73_s2 chi2prof 47.7 (N 35.3 S 12.4; 10arcsec N 13.6 S 3.1) k 14 logZ -69.94 BIC 96.2 
+lol1_same_tbg2.73_s2 chi2prof 48.8 (N 40.3 S 8.5; 10arcsec N 18.4 S 1.9) k 14 logZ -68.68 BIC 96.4 
+lol2_same_tbg2.73_s2 chi2prof 56.0 (N 45.0 S 11.1; 10arcsec N 15.8 S 2.8) k 14 logZ -74.12 BIC 103.7 
+lol4_same_tbg2.73_s2 chi2prof 49.6 (N 40.2 S 9.4; 10arcsec N 17.6 S 2.5) k 14 logZ -63.93 BIC 97.2 
+lol5_same_tbg2.73_s2 chi2prof 56.6 (N 47.3 S 9.2; 10arcsec N 16.0 S 1.6) k 14 logZ -73.86 BIC 104.2 
+lol3_same_tbg2.73_s2 chi2prof 59.2 (N 49.9 S 9.4; 10arcsec N 14.8 S 3.1) k 14 logZ -74.56 BIC 106.9 
+sg30_same_tbg2.73_s3 chi2prof 54.8 (N 44.7 S 10.2; 10arcsec N 12.4 S 1.4) k 14 logZ -72.85 BIC 103.4 
+x0_same_tbg2.73_s3 chi2prof 72.7 (N 61.8 S 10.8; 10arcsec N 17.8 S 4.3) k 14 logZ -81.33 BIC 121.2 
+dropHCN_same_tbg2.73_s3 chi2prof 21.0 (N 13.0 S 8.0; 10arcsec N 0.3 S 2.3) k 14 logZ -51.21 BIC 66.6 
+drop21_same_tbg2.73_s3 chi2prof 56.8 (N 48.1 S 8.7; 10arcsec N 17.4 S 1.5) k 14 logZ -75.22 BIC 103.5 
+dropHCO_same_tbg2.73_s3 chi2prof 20.4 (N 13.0 S 7.4; 10arcsec N 1.3 S 1.2) k 14 logZ -51.72 BIC 66.0 
+drop43_same_tbg2.73_s3 chi2prof 54.5 (N 44.6 S 9.9; 10arcsec N 17.1 S 2.8) k 14 logZ -71.75 BIC 101.1 
+x1_same_tbg2.73_s3 chi2prof 47.2 (N 35.6 S 11.6; 10arcsec N 10.2 S 3.0) k 14 logZ -70.47 BIC 95.7 
+lol0_same_tbg2.73_s3 chi2prof 63.2 (N 52.8 S 10.4; 10arcsec N 17.5 S 3.1) k 14 logZ -77.23 BIC 110.8 
+lol1_same_tbg2.73_s3 chi2prof 47.9 (N 38.6 S 9.3; 10arcsec N 16.9 S 3.3) k 14 logZ -69.23 BIC 95.5 
+lol2_same_tbg2.73_s3 chi2prof 56.9 (N 47.7 S 9.2; 10arcsec N 12.9 S 2.4) k 14 logZ -72.01 BIC 104.5 
+lol3_same_tbg2.73_s3 chi2prof 59.6 (N 49.9 S 9.7; 10arcsec N 15.6 S 1.2) k 14 logZ -76.20 BIC 107.2 
+lol4_same_tbg2.73_s3 chi2prof 50.6 (N 39.0 S 11.6; 10arcsec N 20.1 S 4.6) k 14 logZ -72.07 BIC 98.2 
+lol5_same_tbg2.73_s3 chi2prof 55.7 (N 44.8 S 10.9; 10arcsec N 19.9 S 2.3) k 14 logZ -71.20 BIC 103.4 

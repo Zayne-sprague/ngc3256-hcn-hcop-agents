@@ -1,0 +1,18 @@
+{
+ "team": "team-a",
+ "item": "Q22",
+ "files": [
+  "scripts/q22b_shared.py",
+  "scripts/q22b_post.py",
+  "scripts/q22b_runone.sh",
+  "scripts/q22b_jobs.txt",
+  "scripts/build_report_q22b.py",
+  "scripts/q22_joint.py",
+  "out/q22b/q22b_summary.csv",
+  "out/q22b/q22b_PT.csv",
+  "out/q22b/q22b_mass.csv",
+  "out/q22b/post.log",
+  "out/q22b/run2.log",
+  "TEAM_REPORT.json"
+ ]
+}

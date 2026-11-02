@@ -1,0 +1,13 @@
+{
+ "team": "team-a",
+ "item": "Q38",
+ "files": [
+  "scripts/q38_mrs.py",
+  "scripts/q38_filter.py",
+  "scripts/q38_jbg.py",
+  "out/q38/q38_mrs.log",
+  "out/q38/q38_filter.log",
+  "out/q38/q38_jbg.log",
+  "TEAM_REPORT.json"
+ ]
+}

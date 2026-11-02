@@ -1,0 +1,45 @@
+MASK Xb4d native HCN Slobe r=1.5" -405..-150: wing sum 0.757 Jy km/s total, fraction of the signal inside the clean mask 0.00; fraction of aperture-channel pixels in mask 0.00
+MASK Xb4d native HCN Red r=1.5" 180..320: wing sum 0.350 Jy km/s total, fraction of the signal inside the clean mask 0.00; fraction of aperture-channel pixels in mask 0.00
+MASK Xb4d native HCO+ Slobe r=1.5" -405..-150: wing sum 0.481 Jy km/s total, fraction of the signal inside the clean mask 0.04; fraction of aperture-channel pixels in mask 0.02
+MASK Xb4d native HCO+ Red r=1.5" 180..320: wing sum 0.269 Jy km/s total, fraction of the signal inside the clean mask 0.00; fraction of aperture-channel pixels in mask 0.00
+LUM blue|HCN: S = 0.728 (r~1-1.5" aperture) .. 0.888 (2D Gaussian integral) Jy km/s -> L'_HCN(3-2) = 5.31e+05 .. 6.47e+05 K km/s pc^2
+  MASS-A blue|HCN: alpha(HCN 1-0)=10 Msun/(K km/s pc^2), r31=0.6: M_dense = 8.84e+06 .. 1.08e+07 Msun
+  MASS-A blue|HCN: alpha(HCN 1-0)=10 Msun/(K km/s pc^2), r31=0.35: M_dense = 1.52e+07 .. 1.85e+07 Msun
+  MASS-A blue|HCN: alpha(HCN 1-0)=10 Msun/(K km/s pc^2), r31=0.25: M_dense = 2.12e+07 .. 2.59e+07 Msun
+  MASS-B blue|HCN: thin LTE Tex=10 K, X(HCN)=1e-08: M_gas = 1.76e+06 .. 2.14e+06 Msun  (N_mol=7.68e+54..9.36e+54)
+  MASS-B blue|HCN: thin LTE Tex=10 K, X(HCN)=1e-09: M_gas = 1.76e+07 .. 2.14e+07 Msun  (N_mol=7.68e+54..9.36e+54)
+  MASS-B blue|HCN: thin LTE Tex=20 K, X(HCN)=1e-08: M_gas = 9.48e+05 .. 1.16e+06 Msun  (N_mol=4.14e+54..5.05e+54)
+  MASS-B blue|HCN: thin LTE Tex=20 K, X(HCN)=1e-09: M_gas = 9.48e+06 .. 1.16e+07 Msun  (N_mol=4.14e+54..5.05e+54)
+  MASS-B blue|HCN: thin LTE Tex=50 K, X(HCN)=1e-08: M_gas = 1.08e+06 .. 1.32e+06 Msun  (N_mol=4.72e+54..5.75e+54)
+  MASS-B blue|HCN: thin LTE Tex=50 K, X(HCN)=1e-09: M_gas = 1.08e+07 .. 1.32e+07 Msun  (N_mol=4.72e+54..5.75e+54)
+LUM blue|HCO+: S = 0.444 (r~1-1.5" aperture) .. 0.818 (2D Gaussian integral) Jy km/s -> L'_HCO+(3-2) = 3.19e+05 .. 5.89e+05 K km/s pc^2
+  MASS-B blue|HCO+: thin LTE Tex=10 K, X(HCO+)=1e-08: M_gas = 6.24e+05 .. 1.15e+06 Msun  (N_mol=2.73e+54..5.02e+54)
+  MASS-B blue|HCO+: thin LTE Tex=10 K, X(HCO+)=1e-09: M_gas = 6.24e+06 .. 1.15e+07 Msun  (N_mol=2.73e+54..5.02e+54)
+  MASS-B blue|HCO+: thin LTE Tex=20 K, X(HCO+)=1e-08: M_gas = 3.34e+05 .. 6.16e+05 Msun  (N_mol=1.46e+54..2.69e+54)
+  MASS-B blue|HCO+: thin LTE Tex=20 K, X(HCO+)=1e-09: M_gas = 3.34e+06 .. 6.16e+06 Msun  (N_mol=1.46e+54..2.69e+54)
+  MASS-B blue|HCO+: thin LTE Tex=50 K, X(HCO+)=1e-08: M_gas = 3.78e+05 .. 6.97e+05 Msun  (N_mol=1.65e+54..3.05e+54)
+  MASS-B blue|HCO+: thin LTE Tex=50 K, X(HCO+)=1e-09: M_gas = 3.78e+06 .. 6.97e+06 Msun  (N_mol=1.65e+54..3.05e+54)
+LUM redC|HCN: S = 0.240 (r~1-1.5" aperture) .. 0.550 (2D Gaussian integral) Jy km/s -> L'_HCN(3-2) = 1.75e+05 .. 4.01e+05 K km/s pc^2
+  MASS-A redC|HCN: alpha(HCN 1-0)=10 Msun/(K km/s pc^2), r31=0.6: M_dense = 2.92e+06 .. 6.68e+06 Msun
+  MASS-A redC|HCN: alpha(HCN 1-0)=10 Msun/(K km/s pc^2), r31=0.35: M_dense = 5.00e+06 .. 1.15e+07 Msun
+  MASS-A redC|HCN: alpha(HCN 1-0)=10 Msun/(K km/s pc^2), r31=0.25: M_dense = 7.00e+06 .. 1.60e+07 Msun
+  MASS-B redC|HCN: thin LTE Tex=10 K, X(HCN)=1e-08: M_gas = 5.80e+05 .. 1.33e+06 Msun  (N_mol=2.53e+54..5.80e+54)
+  MASS-B redC|HCN: thin LTE Tex=10 K, X(HCN)=1e-09: M_gas = 5.80e+06 .. 1.33e+07 Msun  (N_mol=2.53e+54..5.80e+54)
+  MASS-B redC|HCN: thin LTE Tex=20 K, X(HCN)=1e-08: M_gas = 3.13e+05 .. 7.17e+05 Msun  (N_mol=1.37e+54..3.13e+54)
+  MASS-B redC|HCN: thin LTE Tex=20 K, X(HCN)=1e-09: M_gas = 3.13e+06 .. 7.17e+06 Msun  (N_mol=1.37e+54..3.13e+54)
+  MASS-B redC|HCN: thin LTE Tex=50 K, X(HCN)=1e-08: M_gas = 3.56e+05 .. 8.16e+05 Msun  (N_mol=1.56e+54..3.57e+54)
+  MASS-B redC|HCN: thin LTE Tex=50 K, X(HCN)=1e-09: M_gas = 3.56e+06 .. 8.16e+06 Msun  (N_mol=1.56e+54..3.57e+54)
+LUM redC|HCO+: S = 0.195 (r~1-1.5" aperture) .. 0.463 (2D Gaussian integral) Jy km/s -> L'_HCO+(3-2) = 1.40e+05 .. 3.33e+05 K km/s pc^2
+  MASS-B redC|HCO+: thin LTE Tex=10 K, X(HCO+)=1e-08: M_gas = 2.73e+05 .. 6.51e+05 Msun  (N_mol=1.19e+54..2.84e+54)
+  MASS-B redC|HCO+: thin LTE Tex=10 K, X(HCO+)=1e-09: M_gas = 2.73e+06 .. 6.51e+06 Msun  (N_mol=1.19e+54..2.84e+54)
+  MASS-B redC|HCO+: thin LTE Tex=20 K, X(HCO+)=1e-08: M_gas = 1.46e+05 .. 3.48e+05 Msun  (N_mol=6.40e+53..1.52e+54)
+  MASS-B redC|HCO+: thin LTE Tex=20 K, X(HCO+)=1e-09: M_gas = 1.46e+06 .. 3.48e+06 Msun  (N_mol=6.40e+53..1.52e+54)
+  MASS-B redC|HCO+: thin LTE Tex=50 K, X(HCO+)=1e-08: M_gas = 1.66e+05 .. 3.95e+05 Msun  (N_mol=7.25e+53..1.72e+54)
+  MASS-B redC|HCO+: thin LTE Tex=50 K, X(HCO+)=1e-09: M_gas = 1.66e+06 .. 3.95e+06 Msun  (N_mol=7.25e+53..1.72e+54)
+MDOT blue (low): M_dense=1.52e+07 Msun, v=283 km/s (projected), R=365 pc (projected) -> t_dyn=1.26 Myr, Mdot_dense = 12.02 Msun/yr (x tan i; = 0.245 of SFR 49 Msun/yr [Michiyama+2020])
+MDOT blue (high): M_dense=1.85e+07 Msun, v=283 km/s (projected), R=365 pc (projected) -> t_dyn=1.26 Myr, Mdot_dense = 14.66 Msun/yr (x tan i; = 0.299 of SFR 49 Msun/yr [Michiyama+2020])
+   blue: r31 range (0.6..0.25) -> M_dense 8.84e+06 .. 2.59e+07 Msun
+MDOT redC (low): M_dense=5.00e+06 Msun, v=250 km/s (projected), R=660 pc (projected) -> t_dyn=2.58 Myr, Mdot_dense = 1.94 Msun/yr (x tan i; = 0.040 of SFR 49 Msun/yr [Michiyama+2020])
+MDOT redC (high): M_dense=1.15e+07 Msun, v=250 km/s (projected), R=660 pc (projected) -> t_dyn=2.58 Myr, Mdot_dense = 4.44 Msun/yr (x tan i; = 0.091 of SFR 49 Msun/yr [Michiyama+2020])
+   redC: r31 range (0.6..0.25) -> M_dense 2.92e+06 .. 1.60e+07 Msun
+ASSUMPTIONS: {"D_L_Mpc": 40.0, "z": 0.009273081846508628, "alpha_HCN10": 10.0, "r31": 0.35, "r31_range": [0.25, 0.6], "X_HCN": [1e-09, 1e-08], "X_HCO": [1e-09, 1e-08], "Tex": [10, 50], "mu": 2.72}

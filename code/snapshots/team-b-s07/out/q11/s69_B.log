@@ -1,0 +1,45 @@
+# Part 1: fixed aperture r=1.0" (2" diameter), local-centroid velocity (Gaussian centroid of HCO+ spectrum, +-250 km/s), blue half v_loc-400..-100, red half +100..+400, core |v_loc|<100. R_Tb=R_Jy*1.0126.
+# Noise: 60 random line-free apertures 5-9.5" from the N-S midpoint (bright emission masked), same windows, paired HCN/HCO+ draws (includes baseline/correlated noise).
+## Xb4d_1.05as: beam 1.05x1.05 (HCO+ 1.05x1.05), noise positions 60
+  Soutflow vloc= -28.7 (HCN -70, sigma_HCO+ 82)  blue: HCN 0.619+-0.058 (10.7s) HCO+ 0.467+-0.073 (6.4s) R_Tb=1.34 [1.07,1.31,1.52]  | red R_Tb=nan (-0.3s,-0.2s) | core R_Tb=0.478+-0.160   p0005-recipe(-400..-150 VSYS) R_Tb=1.42
+  N        vloc=  -2.7 (HCN +0, sigma_HCO+ 67)  blue: HCN 0.261+-0.058 (4.5s) HCO+ 0.279+-0.073 (3.8s) R_Tb=0.95 [0.55,0.89,1.22]  | red R_Tb=1.24 (8.7s,4.0s) | core R_Tb=0.736+-0.027   p0005-recipe(-400..-150 VSYS) R_Tb=nan
+  Bridge   vloc=  +2.2 (HCN +5, sigma_HCO+ 36)  blue: HCN 0.074+-0.058 (1.3s) HCO+ 0.076+-0.073 (1.0s) R_Tb=0.98 [0.19,0.93,1.96]  | red R_Tb=2.66 (5.4s,1.2s) | core R_Tb=0.441+-0.040   p0005-recipe(-400..-150 VSYS) R_Tb=nan
+  S        vloc= -23.5 (HCN -21, sigma_HCO+ 80)  blue: HCN 0.229+-0.058 (3.9s) HCO+ 0.374+-0.073 (5.1s) R_Tb=0.62 [0.35,0.55,0.76]  | red R_Tb=0.47 (6.5s,7.9s) | core R_Tb=0.367+-0.031   p0005-recipe(-400..-150 VSYS) R_Tb=0.78
+    Soutflow - N blue-half R_Tb: median +0.39 [16-84 -0.06,+0.78], P(Soutflow>N)=0.81; with 10% systematic floor on each ratio the z-score is +0.87
+    Soutflow - Bridge blue-half R_Tb: median +0.42 [16-84 -1.22,+1.05], P(Soutflow>Bridge)=0.66; with 10% systematic floor on each ratio the z-score is +0.36
+    Soutflow - S blue-half R_Tb: median +0.72 [16-84 +0.41,+1.05], P(Soutflow>S)=0.98; with 10% systematic floor on each ratio the z-score is +2.05
+## Xb4d_native: beam 0.94x0.74 (HCO+ 0.93x0.74), noise positions 60
+  Soutflow vloc= -33.9 (HCN -81, sigma_HCO+ 86)  blue: HCN 0.614+-0.061 (10.1s) HCO+ 0.465+-0.071 (6.5s) R_Tb=1.34 [1.09,1.27,1.59]  | red R_Tb=nan (-0.5s,-0.3s) | core R_Tb=0.494+-0.252   p0005-recipe(-400..-150 VSYS) R_Tb=1.39
+  N        vloc=  -3.3 (HCN -0, sigma_HCO+ 67)  blue: HCN 0.292+-0.061 (4.8s) HCO+ 0.289+-0.071 (4.1s) R_Tb=1.02 [0.63,0.92,1.34]  | red R_Tb=1.25 (8.7s,5.1s) | core R_Tb=0.741+-0.036   p0005-recipe(-400..-150 VSYS) R_Tb=nan
+  Bridge   vloc=  +2.3 (HCN +5, sigma_HCO+ 35)  blue: HCN 0.088+-0.061 (1.4s) HCO+ 0.077+-0.071 (1.1s) R_Tb=1.15 [0.24,0.79,2.94]  | red R_Tb=2.89 (5.4s,1.4s) | core R_Tb=0.441+-0.054   p0005-recipe(-400..-150 VSYS) R_Tb=nan
+  S        vloc= -23.5 (HCN -21, sigma_HCO+ 81)  blue: HCN 0.242+-0.061 (4.0s) HCO+ 0.396+-0.071 (5.6s) R_Tb=0.62 [0.38,0.54,0.74]  | red R_Tb=0.48 (6.6s,10.2s) | core R_Tb=0.366+-0.041   p0005-recipe(-400..-150 VSYS) R_Tb=0.78
+    Soutflow - N blue-half R_Tb: median +0.31 [16-84 -0.15,+0.71], P(Soutflow>N)=0.76; with 10% systematic floor on each ratio the z-score is +0.67
+    Soutflow - Bridge blue-half R_Tb: median +0.29 [16-84 -1.57,+0.99], P(Soutflow>Bridge)=0.60; with 10% systematic floor on each ratio the z-score is +0.23
+    Soutflow - S blue-half R_Tb: median +0.72 [16-84 +0.41,+1.05], P(Soutflow>S)=0.99; with 10% systematic floor on each ratio the z-score is +2.05
+## Xb4b_1.05as: beam 1.05x1.05 (HCO+ 1.05x1.05), noise positions 60
+  Soutflow vloc= -36.8 (HCN -52, sigma_HCO+ 92)  blue: HCN 0.401+-0.080 (5.0s) HCO+ 0.446+-0.090 (4.9s) R_Tb=0.91 [0.68,0.90,1.26]  | red R_Tb=0.91 (1.1s,0.7s) | core R_Tb=0.621+-0.261   p0005-recipe(-400..-150 VSYS) R_Tb=0.85
+  N        vloc=  +0.1 (HCN +3, sigma_HCO+ 68)  blue: HCN 0.371+-0.080 (4.7s) HCO+ 0.629+-0.090 (7.0s) R_Tb=0.60 [0.43,0.58,0.74]  | red R_Tb=0.81 (5.3s,4.0s) | core R_Tb=0.725+-0.034   p0005-recipe(-400..-150 VSYS) R_Tb=0.29
+  Bridge   vloc=  +5.0 (HCN +6, sigma_HCO+ 34)  blue: HCN 0.122+-0.080 (1.5s) HCO+ 0.019+-0.090 (0.2s) R_Tb=6.54 [0.73,1.23,6.55]  | red R_Tb=1.44 (3.1s,1.3s) | core R_Tb=0.443+-0.062   p0005-recipe(-400..-150 VSYS) R_Tb=nan
+  S        vloc= -22.8 (HCN -22, sigma_HCO+ 85)  blue: HCN 0.203+-0.080 (2.6s) HCO+ 0.392+-0.090 (4.3s) R_Tb=0.52 [0.23,0.49,0.76]  | red R_Tb=0.43 (4.4s,6.2s) | core R_Tb=0.362+-0.047   p0005-recipe(-400..-150 VSYS) R_Tb=0.55
+    Soutflow - N blue-half R_Tb: median +0.32 [16-84 +0.04,+0.65], P(Soutflow>N)=0.87; with 10% systematic floor on each ratio the z-score is +0.97
+    Soutflow - Bridge blue-half R_Tb: median -0.88 [16-84 -5.40,+0.31], P(Soutflow>Bridge)=0.26; with 10% systematic floor on each ratio the z-score is -0.30
+    Soutflow - S blue-half R_Tb: median +0.39 [16-84 +0.03,+0.76], P(Soutflow>S)=0.86; with 10% systematic floor on each ratio the z-score is +1.01
+
+# Part 2: N, Xb4b. Ratio vs local-centroid velocity in 40 km/s bins (+-140), linear slope per 100 km/s; same data at native 0.25", 0.30", 1.05".
+      both-sides 100-260 stack: R_wing=0.89+-0.15 (HCN 9.2s, HCO+ 8.2s)  R_core=0.96+-0.04  wing/core=0.93+-0.16
+## native_r0.25: beam 0.25, vloc(HCO+)=+31; bins R_Tb 0.97+-0.08 1.04+-0.06 1.03+-0.06 0.94+-0.04 0.94+-0.05 0.98+-0.16 1.40+-0.50 | slope -0.046+-0.045 per 100 km/s
+      stacks: red100_260 R=0.80+-0.46 (HCN 2.5s, HCO+ 2.5s); blue-260_-100 R=0.92+-0.10 (HCN 12.7s, HCO+ 13.3s); core R=0.96+-0.04 (HCN 53.2s, HCO+ 30.2s); both100_260 R=0.89+-0.15 (HCN 9.2s, HCO+ 8.2s)
+      radial wing/core ratio at native 0.25": annuli (arcsec) -> R_core(|v|<60), R_wing(60<|v|<260 stacked both sides, v_loc), S/N HCN,HCO+ wing
+        0.00-0.25": core R=0.96  wing HCN 0.292+-0.031 HCO+ 0.331+-0.042 -> R_wing=0.89+-0.15
+        0.25-0.50": core R=0.83  wing HCN 0.594+-0.049 HCO+ 0.578+-0.065 -> R_wing=1.04+-0.15
+        0.50-1.00": core R=0.65  wing HCN 1.321+-0.123 HCO+ 2.092+-0.159 -> R_wing=0.64+-0.08
+        1.00-2.00": core R=0.41  wing HCN 0.796+-nan HCO+ 1.430+-nan -> R_wing=0.56+-nan
+      both-sides 100-260 stack: R_wing=0.92+-0.13 (HCN 10.1s, HCO+ 9.6s)  R_core=0.96+-0.04  wing/core=0.95+-0.14
+## 0.3as_r0.25: beam 0.30, vloc(HCO+)=+30; bins R_Tb 0.92+-0.06 1.03+-0.06 1.03+-0.06 0.94+-0.04 0.94+-0.04 0.99+-0.10 1.39+-0.50 | slope -0.008+-0.037 per 100 km/s
+      stacks: red100_260 R=0.90+-0.49 (HCN 2.6s, HCO+ 2.7s); blue-260_-100 R=0.92+-0.09 (HCN 14.1s, HCO+ 14.2s); core R=0.96+-0.04 (HCN 51.4s, HCO+ 30.2s); both100_260 R=0.92+-0.13 (HCN 10.1s, HCO+ 9.6s)
+      both-sides 100-260 stack: R_wing=0.93+-0.14 (HCN 11.2s, HCO+ 8.6s)  R_core=0.81+-0.06  wing/core=1.14+-0.19
+## 1.05as_r0.5: beam 1.05, vloc(HCO+)=+5; bins R_Tb 0.76+-0.09 0.73+-0.04 0.78+-0.08 0.87+-0.09 0.78+-0.05 0.73+-0.07 1.05+-0.29 | slope +0.021+-0.037 per 100 km/s
+      stacks: red100_260 R=1.20+-0.31 (HCN 8.1s, HCO+ 4.4s); blue-260_-100 R=0.73+-0.11 (HCN 9.0s, HCO+ 9.4s); core R=0.81+-0.06 (HCN 25.1s, HCO+ 16.3s); both100_260 R=0.93+-0.14 (HCN 11.2s, HCO+ 8.6s)
+      both-sides 100-260 stack: R_wing=1.04+-0.15 (HCN 12.5s, HCO+ 8.7s)  R_core=0.80+-0.04  wing/core=1.29+-0.19
+## 1.05as_r0.25: beam 1.05, vloc(HCO+)=+8; bins R_Tb 0.96+-0.11 0.71+-0.04 0.81+-0.06 0.79+-0.05 0.81+-0.04 0.89+-0.10 1.06+-0.27 | slope +0.055+-0.040 per 100 km/s
+      stacks: red100_260 R=1.20+-0.29 (HCN 8.8s, HCO+ 4.6s); blue-260_-100 R=0.92+-0.14 (HCN 11.0s, HCO+ 8.4s); core R=0.80+-0.04 (HCN 35.5s, HCO+ 23.4s); both100_260 R=1.04+-0.15 (HCN 12.5s, HCO+ 8.7s)

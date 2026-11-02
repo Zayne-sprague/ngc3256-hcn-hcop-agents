@@ -1,0 +1,47 @@
+
+######## beam 1.50" (1-0: 2015.1.00412 X145; 3-2: Xb4d). Data K km/s (x1.0093):
+  N: HCN1 146.9 HCN3 40.4 HCO1 157.1 HCO3 58.7  rel.stat [0.013, 0.005, 0.012, 0.004]
+  S: HCN1 65.8 HCN3 14.7 HCO1 113.7 HCO3 38.6  rel.stat [0.028, 0.008, 0.016, 0.005]
+  Bridge: HCN1 82.7 HCN3 16.8 HCO1 124.1 HCO3 34.6  rel.stat [0.023, 0.008, 0.015, 0.005]
+  [3-2 only] N: Tk 32 [14,79] P(Tk>50)=0.32; log n 5.25 [3.75,7.25]; log A 0.10 [-0.50,0.60]; log N(HCO+)/150km/s 16.6; tau(HCN 3-2) 23.0 [1.2,457.6]; tau(HCO+ 1-0) 5.8; tau(HCN 1-0) 7.8
+  [3-2 only] S: Tk 35 [14,100] P(Tk>50)=0.38; log n 5.00 [3.62,7.38]; log A -0.10 [-0.60,0.40]; log N(HCO+)/150km/s 16.2; tau(HCN 3-2) 9.7 [0.2,179.7]; tau(HCO+ 1-0) 3.2; tau(HCN 1-0) 4.7
+  [3-2 only] Bridge: Tk 35 [14,89] P(Tk>50)=0.36; log n 5.00 [3.75,7.38]; log A -0.00 [-0.50,0.50]; log N(HCO+)/150km/s 16.3; tau(HCN 3-2) 12.7 [0.4,245.7]; tau(HCO+ 1-0) 3.8; tau(HCN 1-0) 5.6
+  [1-0 + 3-2] N: Tk 25 [11,126] P(Tk>50)=0.35; log n 3.88 [3.25,4.62]; log A 0.70 [0.60,0.80]; log N(HCO+)/150km/s 16.2; tau(HCN 3-2) 77.0 [9.9,499.0]; tau(HCO+ 1-0) 14.9; tau(HCN 1-0) 46.6
+  [1-0 + 3-2] S: Tk 112 [40,223] P(Tk>50)=0.79; log n 4.00 [3.38,4.38]; log A 0.40 [0.30,0.50]; log N(HCO+)/150km/s 15.7; tau(HCN 3-2) 10.5 [2.7,29.2]; tau(HCO+ 1-0) 4.5; tau(HCN 1-0) 12.0
+  [1-0 + 3-2] Bridge: Tk 112 [35,223] P(Tk>50)=0.77; log n 3.88 [3.25,4.25]; log A 0.50 [0.40,0.60]; log N(HCO+)/150km/s 15.6; tau(HCN 3-2) 9.4 [2.2,28.4]; tau(HCO+ 1-0) 4.7; tau(HCN 1-0) 13.4
+  [1-0 only] N: Tk 20 [11,50] P(Tk>50)=0.16; log n 6.25 [4.50,7.62]; log A 0.20 [-0.50,0.90]; log N(HCO+)/150km/s 17.5; tau(HCN 3-2) 200.8 [21.2,1630.4]; tau(HCO+ 1-0) 49.2; tau(HCN 1-0) 56.2
+  [1-0 only] S: Tk 35 [16,89] P(Tk>50)=0.38; log n 4.62 [3.50,7.00]; log A -0.10 [-0.60,0.40]; log N(HCO+)/150km/s 16.5; tau(HCN 3-2) 12.4 [1.3,171.3]; tau(HCO+ 1-0) 6.6; tau(HCN 1-0) 8.1
+  [1-0 only] Bridge: Tk 32 [14,79] P(Tk>50)=0.35; log n 4.75 [3.62,7.00]; log A -0.00 [-0.60,0.50]; log N(HCO+)/150km/s 16.6; tau(HCN 3-2) 18.7 [2.1,252.1]; tau(HCO+ 1-0) 8.3; tau(HCN 1-0) 9.9
+  ln BF vs free [N vs S, 3-2 only]: Tn +0.43  A +0.29  ANO +0.71  T +0.33  n +0.05  all -13.37
+  ln BF vs free [N vs S, 1-0 + 3-2]: Tn +0.61  A -1.20  ANO -1.04  T -0.22  n +0.86  all -21.29
+  ln BF vs free [N vs Bridge, 3-2 only]: Tn +0.45  A +0.35  ANO +0.89  T +0.35  n +0.04  all -2.20
+  ln BF vs free [N vs Bridge, 1-0 + 3-2]: Tn +0.49  A +0.59  ANO +1.57  T -0.18  n +0.85  all -11.40
+  ln BF vs free [S vs Bridge, 3-2 only]: Tn +0.45  A +0.44  ANO +1.07  T +0.30  n +0.08  all +1.39
+  ln BF vs free [S vs Bridge, 1-0 + 3-2]: Tn +1.87  A +1.64  ANO +3.14  T +0.53  n +1.18  all +3.12
+
+######## beam 2.20" (1-0: 2015.1.00993 X961; 3-2: Xb4d). Data K km/s (x1.0093):
+  N: HCN1 91.7 HCN3 22.7 HCO1 109.6 HCO3 36.1  rel.stat [0.006, 0.005, 0.005, 0.004]
+  S: HCN1 52.9 HCN3 10.3 HCO1 92.8 HCO3 27.1  rel.stat [0.011, 0.007, 0.006, 0.004]
+  Bridge: HCN1 75.6 HCN3 17.0 HCO1 106.3 HCO3 32.2  rel.stat [0.008, 0.005, 0.006, 0.004]
+  [3-2 only] N: Tk 32 [14,79] P(Tk>50)=0.33; log n 5.12 [3.75,7.38]; log A 0.10 [-0.50,0.60]; log N(HCO+)/150km/s 16.5; tau(HCN 3-2) 18.5 [0.8,374.9]; tau(HCO+ 1-0) 4.8; tau(HCN 1-0) 6.9
+  [3-2 only] S: Tk 35 [14,100] P(Tk>50)=0.38; log n 5.00 [3.62,7.38]; log A -0.10 [-0.60,0.40]; log N(HCO+)/150km/s 16.1; tau(HCN 3-2) 8.2 [0.2,166.4]; tau(HCO+ 1-0) 2.9; tau(HCN 1-0) 4.4
+  [3-2 only] Bridge: Tk 35 [14,89] P(Tk>50)=0.36; log n 5.00 [3.75,7.38]; log A -0.00 [-0.50,0.50]; log N(HCO+)/150km/s 16.3; tau(HCN 3-2) 14.7 [0.5,286.7]; tau(HCO+ 1-0) 4.1; tau(HCN 1-0) 6.0
+  [1-0 + 3-2] N: Tk 40 [16,158] P(Tk>50)=0.47; log n 3.88 [3.25,4.50]; log A 0.70 [0.50,0.70]; log N(HCO+)/150km/s 16.0; tau(HCN 3-2) 36.0 [7.6,201.3]; tau(HCO+ 1-0) 9.1; tau(HCN 1-0) 27.7
+  [1-0 + 3-2] S: Tk 141 [50,251] P(Tk>50)=0.86; log n 3.88 [3.38,4.25]; log A 0.40 [0.30,0.50]; log N(HCO+)/150km/s 15.6; tau(HCN 3-2) 5.9 [1.2,17.2]; tau(HCO+ 1-0) 4.2; tau(HCN 1-0) 10.7
+  [1-0 + 3-2] Bridge: Tk 89 [28,199] P(Tk>50)=0.69; log n 3.88 [3.25,4.38]; log A 0.60 [0.40,0.60]; log N(HCO+)/150km/s 15.7; tau(HCN 3-2) 15.9 [4.2,48.1]; tau(HCO+ 1-0) 5.3; tau(HCN 1-0) 16.1
+  [1-0 only] N: Tk 25 [13,63] P(Tk>50)=0.25; log n 5.12 [3.75,7.25]; log A 0.10 [-0.50,0.70]; log N(HCO+)/150km/s 17.0; tau(HCN 3-2) 52.3 [6.0,687.7]; tau(HCO+ 1-0) 17.2; tau(HCN 1-0) 19.0
+  [1-0 only] S: Tk 35 [16,100] P(Tk>50)=0.39; log n 4.62 [3.50,7.00]; log A -0.10 [-0.60,0.40]; log N(HCO+)/150km/s 16.5; tau(HCN 3-2) 11.3 [1.1,159.7]; tau(HCO+ 1-0) 6.3; tau(HCN 1-0) 7.6
+  [1-0 only] Bridge: Tk 32 [14,79] P(Tk>50)=0.33; log n 4.75 [3.62,7.00]; log A -0.00 [-0.50,0.50]; log N(HCO+)/150km/s 16.7; tau(HCN 3-2) 21.6 [2.4,307.2]; tau(HCO+ 1-0) 9.0; tau(HCN 1-0) 10.9
+  ln BF vs free [N vs S, 3-2 only]: Tn +0.44  A +0.33  ANO +0.77  T +0.31  n +0.06  all -8.35
+  ln BF vs free [N vs S, 1-0 + 3-2]: Tn +1.30  A -0.04  ANO +0.97  T +0.10  n +1.02  all -14.18
+  ln BF vs free [N vs Bridge, 3-2 only]: Tn +0.46  A +0.42  ANO +1.08  T +0.34  n +0.05  all +2.57
+  ln BF vs free [N vs Bridge, 1-0 + 3-2]: Tn +1.23  A +1.59  ANO +2.97  T +0.12  n +0.99  all +4.94
+  ln BF vs free [S vs Bridge, 3-2 only]: Tn +0.44  A +0.40  ANO +0.95  T +0.30  n +0.08  all -1.23
+  ln BF vs free [S vs Bridge, 1-0 + 3-2]: Tn +1.75  A +1.21  ANO +2.80  T +0.43  n +1.19  all +0.17
+
+######## sensitivity (1.5", N vs S, 1-0 + 3-2): ln BF vs free for (sig_b10, sig_b32, per-line)
+  sb=(0.05, 0.05) sl=0.03: Tn -0.51  A -1.63  ANO -3.30  T -0.56  n +0.72  all -67.64
+  sb=(0.1, 0.15) sl=0.05: Tn +0.61  A -1.20  ANO -1.04  T -0.22  n +0.86  all -21.29
+  sb=(0.2, 0.3) sl=0.05: Tn +0.45  A +0.08  ANO +0.86  T -0.28  n +0.59  all -22.13
+  sb=(0.1, 0.15) sl=0.1: Tn +0.97  A -0.26  ANO +0.70  T +0.03  n +0.84  all -0.86
+  sb=(0.3, 0.3) sl=0.1: Tn +0.91  A +0.16  ANO +1.03  T +0.47  n +0.37  all -2.16

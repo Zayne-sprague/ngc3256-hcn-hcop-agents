@@ -1,0 +1,4 @@
+region,n_adequate,models,R_Tb_lower_conservative,R_Tb_lower_bestmodel,best_model,alpha_best_min,alpha_best_max,R_flux_if_detected_max,R_flux_if_detected_min
+N,7,CO=broadened HCO+43 template@341.80-342.20;exp wing@341.80-342.20;log-cubic wing@341.80-342.20;log-cubic wing@341.80-342.28;log-quadratic wing@341.80-342.20;log-quadratic wing@341.80-342.28;power-law @CO@341.80-342.20,8.252,8.252,log-cubic wing@341.80-342.20,-0.015,0.075,,13.333
+S,3,log-cubic wing@341.80-342.20;log-cubic wing@341.80-342.28;log-quadratic wing@341.80-342.20,8.252,8.252,log-cubic wing@341.80-342.20,0.005,0.01,200.0,100.0
+Bridge,6,exp wing@341.80-342.20;log-cubic wing@341.80-342.20;log-cubic wing@341.80-342.28;log-quadratic wing@341.80-342.20;log-quadratic wing@341.80-342.28;power-law @CO@341.80-342.20,5.13,5.13,log-cubic wing@341.80-342.20,-0.05,0.1,,10.0

@@ -1,0 +1,55 @@
+    B_min_m  disk_FWHM_arcsec  retained_3_2  retained_2_1  deficit_32_over_21  MRS_6_arcsec  MRS_5_arcsec
+0       8.7                 6         0.837         0.924               0.906        26.356        39.534
+1       8.7                 8         0.728         0.869               0.839        26.356        39.534
+2       8.7                10         0.609         0.802               0.759        26.356        39.534
+3       8.7                12         0.490         0.728               0.673        26.356        39.534
+4       8.7                14         0.379         0.650               0.583        26.356        39.534
+5       8.7                16         0.281         0.569               0.494        26.356        39.534
+6       8.7                20         0.138         0.415               0.333        26.356        39.534
+7       8.7                25         0.045         0.253               0.179        26.356        39.534
+8       8.7                30         0.012         0.138               0.084        26.356        39.534
+9       8.7                40         0.000         0.030               0.012        26.356        39.534
+10     15.0                 6         0.589         0.790               0.745        15.286        22.929
+11     15.0                 8         0.390         0.658               0.593        15.286        22.929
+12     15.0                10         0.229         0.520               0.441        15.286        22.929
+13     15.0                12         0.120         0.390               0.308        15.286        22.929
+14     15.0                14         0.056         0.277               0.201        15.286        22.929
+15     15.0                16         0.023         0.187               0.123        15.286        22.929
+16     15.0                20         0.003         0.073               0.038        15.286        22.929
+17     15.0                25         0.000         0.017               0.006        15.286        22.929
+18     15.0                30         0.000         0.003               0.001        15.286        22.929
+19     15.0                40         0.000         0.000               0.000        15.286        22.929
+Traceback (most recent call last):
+  File "/workspace/scripts/q1_disk_model.py", line 26, in <module>
+    q=D[(D.zero_level==zl)&(D.ratio==nm)].iloc[0]; d=q.R/ref; 
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/local/lib/python3.12/site-packages/pandas/core/indexing.py", line 1207, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pandas/core/indexing.py", line 1773, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/usr/local/lib/python3.12/site-packages/pandas/core/indexing.py", line 1706, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+9       8.7                40         0.000         0.030               0.012        26.356        39.534
+10     15.0                 6         0.589         0.790               0.745        15.286        22.929
+11     15.0                 8         0.390         0.658               0.593        15.286        22.929
+12     15.0                10         0.229         0.520               0.441        15.286        22.929
+13     15.0                12         0.120         0.390               0.308        15.286        22.929
+14     15.0                14         0.056         0.277               0.201        15.286        22.929
+15     15.0                16         0.023         0.187               0.123        15.286        22.929
+16     15.0                20         0.003         0.073               0.038        15.286        22.929
+17     15.0                25         0.000         0.017               0.006        15.286        22.929
+18     15.0                30         0.000         0.003               0.001        15.286        22.929
+19     15.0                40         0.000         0.000               0.000        15.286        22.929
+  species zero_level  disk_ratio  e_stat  compact_ratio  compact_spread  deficit_obs  theta_FWHM_for_deficit_B8.7  theta_FWHM_for_deficit_B15.0
+0    HCO+       none       0.265   0.005          0.451           0.038        0.587                       13.910                         8.068
+1    HCO+       ring       0.287   0.004          0.451           0.038        0.637                       12.804                         7.426
+2    HCO+       null       0.266   0.005          0.451           0.038        0.590                       13.838                         8.026
+3     HCN       none       0.034   0.009          0.358           0.018        0.096                       29.180                        16.924
+4     HCN       ring       0.156   0.007          0.358           0.018        0.435                       17.403                        10.094
+5     HCN       null       0.036   0.009          0.358           0.018        0.101                       28.869                        16.744
+  zero_level  disk_HCN_HCOp_3_2  disk_HCN_HCOp_2_1  double_ratio_disk  double_ratio_N  double_ratio_S  e_stat
+0       none              0.061              0.469              0.130           0.771           0.762   0.034
+1       ring              0.272              0.502              0.541           0.771           0.762   0.026
+2       null              0.063              0.468              0.136           0.771           0.762   0.034

@@ -1,0 +1,28 @@
+{
+ "team": "team-a",
+ "item": "Q30",
+ "files": [
+  "scripts/q30_13co.py",
+  "scripts/q30_ratio.py",
+  "scripts/q30_other_co.py",
+  "scripts/q30_tau_tk.py",
+  "scripts/q30_final.py",
+  "scripts/q30_look.py",
+  "scripts/build_report_q30.py",
+  "scripts/common.py",
+  "out/q30/ratios.json",
+  "out/q30/co13.log",
+  "out/q30/co13_ratio.json",
+  "out/q30/other_co_2p5.json",
+  "out/q30/tau_tk.json",
+  "out/q30/tau_tk.log",
+  "out/q30/tau_tk_table.csv",
+  "out/q30/spec_1.0_N.npz",
+  "out/q30/spec_1.0_S.npz",
+  "out/q30/spec2p5_N.npz",
+  "out/q30/spec2p5_S.npz",
+  "out/q30/spec_native_N.npz",
+  "out/q30/spec_native_S.npz",
+  "TEAM_REPORT.json"
+ ]
+}

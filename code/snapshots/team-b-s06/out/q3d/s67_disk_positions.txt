@@ -1,0 +1,8 @@
+[N] band 10/10/10%: log n 4.50 [3.62,5.00]; Tk 141 [56,223] (5%: 28); tau(HCN3-2) 9.0; P(n>1e5)=0.10 (prior 0.53); P(Tk>50)=0.88 (prior 0.42); P(Tk<30)=0.05 (prior 0.42); KL(Tk)=0.65 KL(n)=0.51 nats; min chi2 0.11
+[N] ratios only (band scales free): log n 4.62 [3.50,6.12]; Tk 63 [32,158] (5%: 20); tau(HCN3-2) 9.2; P(n>1e5)=0.36 (prior 0.53); P(Tk>50)=0.63 (prior 0.42); P(Tk<30)=0.13 (prior 0.42); KL(Tk)=0.20 KL(n)=0.09 nats; min chi2 0.00
+[E1] band 10/10/10%: log n 4.75 [3.75,5.38]; Tk 35 [20,56] (5%: 14); tau(HCN3-2) 3.2; P(n>1e5)=0.34 (prior 0.53); P(Tk>50)=0.24 (prior 0.42); P(Tk<30)=0.39 (prior 0.42); KL(Tk)=0.29 KL(n)=0.41 nats; min chi2 0.75
+[E1] ratios only (band scales free): log n 4.88 [3.50,6.00]; Tk 25 [16,50] (5%: 11); tau(HCN3-2) 3.7; P(n>1e5)=0.43 (prior 0.53); P(Tk>50)=0.19 (prior 0.42); P(Tk<30)=0.59 (prior 0.42); KL(Tk)=0.14 KL(n)=0.10 nats; min chi2 0.01
+[E2] band 10/10/10%: log n 5.00 [3.62,5.50]; Tk 45 [22,79] (5%: 14); tau(HCN3-2) 5.8; P(n>1e5)=0.44 (prior 0.53); P(Tk>50)=0.49 (prior 0.42); P(Tk<30)=0.29 (prior 0.42); KL(Tk)=0.14 KL(n)=0.35 nats; min chi2 0.20
+[E2] ratios only (band scales free): log n 4.75 [3.50,5.88]; Tk 32 [16,63] (5%: 11); tau(HCN3-2) 3.5; P(n>1e5)=0.40 (prior 0.53); P(Tk>50)=0.26 (prior 0.42); P(Tk<30)=0.49 (prior 0.42); KL(Tk)=0.09 KL(n)=0.12 nats; min chi2 0.01
+[W] band 10/10/10%: log n 4.38 [3.50,5.12]; Tk 63 [25,141] (5%: 14); tau(HCN3-2) 4.4; P(n>1e5)=0.19 (prior 0.53); P(Tk>50)=0.63 (prior 0.42); P(Tk<30)=0.21 (prior 0.42); KL(Tk)=0.11 KL(n)=0.37 nats; min chi2 0.15
+[W] ratios only (band scales free): log n 4.62 [3.50,6.00]; Tk 40 [18,112] (5%: 13); tau(HCN3-2) 4.4; P(n>1e5)=0.38 (prior 0.53); P(Tk>50)=0.42 (prior 0.42); P(Tk<30)=0.38 (prior 0.42); KL(Tk)=0.01 KL(n)=0.11 nats; min chi2 0.07

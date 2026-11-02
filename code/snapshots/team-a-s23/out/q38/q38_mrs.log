@@ -1,0 +1,29 @@
+Xb55 B5: nu=170.7 GHz, beam(gm)=7.4" -> MRS ~ 16.7" (C43-1-like) .. 9.5" (C43-3-like); handbook 0.983 lambda/L5
+Xb4f B6: nu=257.7 GHz, beam(gm)=4.6" -> MRS ~ 11.1" (C43-1-like) .. 6.3" (C43-3-like); handbook 0.983 lambda/L5
+Xb47 B7: nu=346.5 GHz, beam(gm)=3.3" -> MRS ~ 8.2" (C43-1-like) .. 4.7" (C43-3-like); handbook 0.983 lambda/L5
+global S_dust(Td=25,beta=1.5): 178 mJy @171, 688 mJy @258, 1766 mJy @346
+global S_dust(Td=25,beta=2.0): 54 mJy @171, 255 mJy @258, 759 mJy @346
+global S_dust(Td=30,beta=1.5): 118 mJy @171, 463 mJy @258, 1208 mJy @346
+global S_dust(Td=30,beta=2.0): 36 mJy @171, 172 mJy @258, 519 mJy @346
+global S_dust(Td=34,beta=1.5): 93 mJy @171, 370 mJy @258, 975 mJy @346
+global S_dust(Td=34,beta=2.0): 28 mJy @171, 137 mJy @258, 419 mJy @346
+
+Disk model: gaussian FWHM F carrying total S (Td=30,beta=1.8 central), Tb_RJ at beam centre of 10.5" beam, and recovered fraction if flux on scales >MRS is lost
+  nu=171 F=10": S_tot=57 mJy  Tb_RJ(10.5" beam)=11.5 mK  tau_pk=9.2e-04  J_CMB=426 mK  -> dust/J_CMB=0.03
+  nu=171 F=15": S_tot=57 mJy  Tb_RJ(10.5" beam)=7.2 mK  tau_pk=4.1e-04  J_CMB=426 mK  -> dust/J_CMB=0.02
+  nu=171 F=20": S_tot=57 mJy  Tb_RJ(10.5" beam)=4.7 mK  tau_pk=2.3e-04  J_CMB=426 mK  -> dust/J_CMB=0.01
+  nu=171 F=30": S_tot=57 mJy  Tb_RJ(10.5" beam)=2.4 mK  tau_pk=1.0e-04  J_CMB=426 mK  -> dust/J_CMB=0.01
+  nu=258 F=10": S_tot=255 mJy  Tb_RJ(10.5" beam)=22.3 mK  tau_pk=1.9e-03  J_CMB=134 mK  -> dust/J_CMB=0.17
+  nu=258 F=15": S_tot=255 mJy  Tb_RJ(10.5" beam)=14.0 mK  tau_pk=8.6e-04  J_CMB=134 mK  -> dust/J_CMB=0.10
+  nu=258 F=20": S_tot=255 mJy  Tb_RJ(10.5" beam)=9.2 mK  tau_pk=4.8e-04  J_CMB=134 mK  -> dust/J_CMB=0.07
+  nu=258 F=30": S_tot=255 mJy  Tb_RJ(10.5" beam)=4.6 mK  tau_pk=2.2e-04  J_CMB=134 mK  -> dust/J_CMB=0.03
+  nu=346 F=10": S_tot=728 mJy  Tb_RJ(10.5" beam)=35.3 mK  tau_pk=3.3e-03  J_CMB=37 mK  -> dust/J_CMB=0.95
+  nu=346 F=15": S_tot=728 mJy  Tb_RJ(10.5" beam)=22.1 mK  tau_pk=1.5e-03  J_CMB=37 mK  -> dust/J_CMB=0.59
+  nu=346 F=20": S_tot=728 mJy  Tb_RJ(10.5" beam)=14.5 mK  tau_pk=8.3e-04  J_CMB=37 mK  -> dust/J_CMB=0.39
+  nu=346 F=30": S_tot=728 mJy  Tb_RJ(10.5" beam)=7.3 mK  tau_pk=3.7e-04  J_CMB=37 mK  -> dust/J_CMB=0.20
+
+Intrinsic (unresolved by 10.5" beam) disk mean intensity at centre; J_bg(env) = J_CMB + eta*Tb_RJ_intrinsic (eta=0.5 embedded, 1 behind)
+  nu=88.6: Tb_RJ,pk(F=10/20/30")=7.9/2.0/0.9 mK (dust only; ff would add at 88 GHz)
+  nu=177.3: Tb_RJ,pk(F=10/20/30")=25.6/6.4/2.8 mK (dust only; ff would add at 88 GHz)
+  nu=265.9: Tb_RJ,pk(F=10/20/30")=49.3/12.3/5.5 mK (dust only; ff would add at 88 GHz)
+  nu=354.5: Tb_RJ,pk(F=10/20/30")=76.7/19.2/8.5 mK (dust only; ff would add at 88 GHz)

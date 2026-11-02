@@ -1,0 +1,121 @@
+value,spread_lo,spread_hi,boot_err,n_var,model,comp,species,quantity
+0.27206774604308637,0.2215173336509884,0.29934449802569635,0.0824028551275816,16.0,nomissing,N,HCN,3-2/2-1 (Tb)
+0.4905531417838537,0.46746621098653807,0.6286739258666022,0.03613748006839222,16.0,nomissing,N,HCN,4-3/3-2 (Tb)
+1.2680407962477336,1.1697801871690876,1.5893115274747422,0.2203684472060966,16.0,nomissing,N,HCN,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.29996156505667404,0.201034419060983,0.3231958973244837,0.07146523006840248,16.0,nomissing,N,HCO+,3-2/2-1 (Tb)
+0.6810222635599743,0.6318147349750304,0.9906681905196963,0.04608265529882592,16.0,nomissing,N,HCO+,4-3/3-2 (Tb)
+1.4292679359906932,1.3332869201279134,2.039552338337636,0.45313549482127624,16.0,nomissing,N,HCO+,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.07703928083667608,0.07363760002777874,0.0960330311487493,,16.0,nomissing,N,HCN,CS 7-6/HCN 3-2 (Tb)
+0.05148468829151284,0.048587766869653236,0.0731799014418732,,16.0,nomissing,N,HCO+,CS 7-6/HCO+ 3-2 (Tb)
+0.6911726172115338,0.6513640505933231,0.7420824594636671,0.2410407616424158,16.0,nomissing,N,HCN/HCO+,"HCN/HCO+ 2-1 (Tb, component-integrated)"
+0.47380102774327465,0.46981879496394896,0.4764279978701238,0.04345467534885095,16.0,nomissing,N,HCN/HCO+,"HCN/HCO+ 4-3 (Tb, component-integrated)"
+0.5791186299927913,0.5678500097052538,0.5834967340646896,0.19286548892326497,16.0,nomissing,N,HCN/HCO+,"HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)"
+0.6630429237995095,0.6283697560579132,0.7546629373954119,,16.0,nomissing,N,HCN/HCO+,"HCN/HCO+ 3-2 (Tb) from 1"" templates, same aperture sets"
+0.1695146895578343,0.12223539785019201,0.2455261191488191,0.20106472862887298,16.0,nomissing,S,HCN,3-2/2-1 (Tb)
+0.5468322306420356,0.4625445124267357,0.6764618622379712,0.13069666377471295,16.0,nomissing,S,HCN,4-3/3-2 (Tb)
+2.0860615221709695,1.7028590888270534,2.582917553978861,0.5689757579807581,16.0,nomissing,S,HCN,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.24543854816400473,0.20678908892071607,0.3141696992282084,0.22961013002084107,16.0,nomissing,S,HCO+,3-2/2-1 (Tb)
+0.8373547012387155,0.6672203168336068,0.9704280082602557,0.06797624302915994,16.0,nomissing,S,HCO+,4-3/3-2 (Tb)
+1.7253646517218253,1.5908332839637285,2.190003776057235,0.5626895014066948,16.0,nomissing,S,HCO+,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.14872613488840208,0.10085508066897798,0.1912067311525616,,16.0,nomissing,S,HCN,CS 7-6/HCN 3-2 (Tb)
+0.05617384262119528,0.03804743816848009,0.0727212775206799,,16.0,nomissing,S,HCO+,CS 7-6/HCO+ 3-2 (Tb)
+0.4896578631013332,0.4275616738710464,0.6454790167088258,0.382938296867796,16.0,nomissing,S,HCN/HCO+,"HCN/HCO+ 2-1 (Tb, component-integrated)"
+0.24939297702652036,0.23447246735443342,0.2596441219979677,0.06289431099391342,16.0,nomissing,S,HCN/HCO+,"HCN/HCO+ 4-3 (Tb, component-integrated)"
+0.40594934501293223,0.38354336487948154,0.5292659439282861,0.20926819579926106,16.0,nomissing,S,HCN/HCO+,"HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)"
+0.3629229203333272,0.34587434932465616,0.38661369426466125,,16.0,nomissing,S,HCN/HCO+,"HCN/HCO+ 3-2 (Tb) from 1"" templates, same aperture sets"
+0.339771855676681,0.21110086993510233,0.7018724560851543,0.1603990973022026,11.0,nomissing,Bridge,HCN,3-2/2-1 (Tb)
+0.4903953070642728,0.3730372917645591,0.6051540335842975,0.026919571524081684,16.0,nomissing,Bridge,HCN,4-3/3-2 (Tb)
+1.2552861757259346,0.963619845682133,1.6989720335125542,0.2588380669509244,16.0,nomissing,Bridge,HCN,3-2(Xb4f)/3-2(Xb4d) (recovery)
+1.1093096536906866,0.4023837998151613,2.842097087179304,0.7862733183307458,8.0,nomissing,Bridge,HCO+,3-2/2-1 (Tb)
+0.5994748843246288,0.47643305534354985,0.9044480318237692,0.03704462907405277,16.0,nomissing,Bridge,HCO+,4-3/3-2 (Tb)
+1.2971119171547294,0.9875289157460899,2.1772432684270027,0.24306914987010436,16.0,nomissing,Bridge,HCO+,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.07261037172369222,0.05928945737090335,0.10731362704436673,,16.0,nomissing,Bridge,HCN,CS 7-6/HCN 3-2 (Tb)
+0.026997922173640068,0.02257471712077512,0.047310853288220385,,16.0,nomissing,Bridge,HCO+,CS 7-6/HCO+ 3-2 (Tb)
+1.7632997032970676,1.0330461752872988,3.676314760886298,1.5715217919293603,8.0,nomissing,Bridge,HCN/HCO+,"HCN/HCO+ 2-1 (Tb, component-integrated)"
+0.32205468823447536,0.3071682938629152,0.33990393266529195,0.030286206385763004,16.0,nomissing,Bridge,HCN/HCO+,"HCN/HCO+ 4-3 (Tb, component-integrated)"
+0.391959868706658,0.3624845612842102,0.4429155791002388,0.11262190010314448,16.0,nomissing,Bridge,HCN/HCO+,"HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)"
+0.4376552338448437,0.4198345578930267,0.4565601107100717,,16.0,nomissing,Bridge,HCN/HCO+,"HCN/HCO+ 3-2 (Tb) from 1"" templates, same aperture sets"
+0.23642137109401584,0.18994417324359109,0.3894330548847739,0.03058167703809604,15.0,nomissing,Outer,HCN,3-2/2-1 (Tb)
+0.21666105856954623,0.13033325755251804,0.3271786181305359,0.11726294041777176,16.0,nomissing,Outer,HCN,4-3/3-2 (Tb)
+0.8044290833753591,0.49794622775564834,1.149330894536295,0.32567604933137956,16.0,nomissing,Outer,HCN,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.22491212633621788,0.18676295205084598,0.25766706303900516,0.042453600268783614,16.0,nomissing,Outer,HCO+,3-2/2-1 (Tb)
+0.48415390720765145,0.4247024616879495,0.5352468012185958,0.05075783875668307,16.0,nomissing,Outer,HCO+,4-3/3-2 (Tb)
+1.6598704592217892,1.3875620962819069,1.7801073330942823,0.13437424510549792,16.0,nomissing,Outer,HCO+,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.0,0.0,0.02129529828545834,,16.0,nomissing,Outer,HCN,CS 7-6/HCN 3-2 (Tb)
+0.0,0.0,0.0,,16.0,nomissing,Outer,HCO+,CS 7-6/HCO+ 3-2 (Tb)
+0.3335834677937242,0.1587785805359664,0.4215002967524838,0.10312636866686924,16.0,nomissing,Outer,HCN/HCO+,"HCN/HCO+ 2-1 (Tb, component-integrated)"
+0.1293944919720048,0.08603384494373255,0.20867428795226947,0.09451184902641256,16.0,nomissing,Outer,HCN/HCO+,"HCN/HCO+ 4-3 (Tb, component-integrated)"
+0.1503699851133734,0.11552731578172168,0.23202541804405427,0.0783391293430518,16.0,nomissing,Outer,HCN/HCO+,"HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)"
+0.3550084346180926,0.2292459406756493,0.42646761763400337,,16.0,nomissing,Outer,HCN/HCO+,"HCN/HCO+ 3-2 (Tb) from 1"" templates, same aperture sets"
+,,,,,nomissing,diffuse,HCN,3-2/2-1 (Tb)
+,,,,,nomissing,diffuse,HCN,4-3/3-2 (Tb)
+,,,,,nomissing,diffuse,HCN,3-2(Xb4f)/3-2(Xb4d) (recovery)
+,,,,,nomissing,diffuse,HCO+,3-2/2-1 (Tb)
+,,,,,nomissing,diffuse,HCO+,4-3/3-2 (Tb)
+,,,,,nomissing,diffuse,HCO+,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.0,0.0,0.0,,16.0,nomissing,diffuse,HCN,CS 7-6/HCN 3-2 (Tb)
+0.0,0.0,0.0,,16.0,nomissing,diffuse,HCO+,CS 7-6/HCO+ 3-2 (Tb)
+,,,,,nomissing,diffuse,HCN/HCO+,"HCN/HCO+ 2-1 (Tb, component-integrated)"
+,,,,,nomissing,diffuse,HCN/HCO+,"HCN/HCO+ 4-3 (Tb, component-integrated)"
+,,,,,nomissing,diffuse,HCN/HCO+,"HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)"
+0.8647285929594168,0.6341574052914126,1.282233095008997,,16.0,nomissing,diffuse,HCN/HCO+,"HCN/HCO+ 3-2 (Tb) from 1"" templates, same aperture sets"
+0.27206774604308637,0.2215173336509884,0.29934449802569635,,16.0,+missing-template,N,HCN,3-2/2-1 (Tb)
+,,,,,+missing-template,N,HCN,4-3/3-2 (Tb)
+,,,,,+missing-template,N,HCN,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.29996156505667404,0.20103441906098313,0.3231958973244837,,16.0,+missing-template,N,HCO+,3-2/2-1 (Tb)
+,,,,,+missing-template,N,HCO+,4-3/3-2 (Tb)
+,,,,,+missing-template,N,HCO+,3-2(Xb4f)/3-2(Xb4d) (recovery)
+,,,,,+missing-template,N,HCN,CS 7-6/HCN 3-2 (Tb)
+,,,,,+missing-template,N,HCO+,CS 7-6/HCO+ 3-2 (Tb)
+0.6911726172115338,0.6513640505933231,0.7420824594636671,,16.0,+missing-template,N,HCN/HCO+,"HCN/HCO+ 2-1 (Tb, component-integrated)"
+,,,,,+missing-template,N,HCN/HCO+,"HCN/HCO+ 4-3 (Tb, component-integrated)"
+,,,,,+missing-template,N,HCN/HCO+,"HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)"
+0.6630429237995095,0.6283697560579132,0.7546629373954119,,16.0,+missing-template,N,HCN/HCO+,"HCN/HCO+ 3-2 (Tb) from 1"" templates, same aperture sets"
+0.1695146895578343,0.12223539785019201,0.2455261191488191,,16.0,+missing-template,S,HCN,3-2/2-1 (Tb)
+,,,,,+missing-template,S,HCN,4-3/3-2 (Tb)
+,,,,,+missing-template,S,HCN,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.2454385481640044,0.20678908892071607,0.3141696992282084,,16.0,+missing-template,S,HCO+,3-2/2-1 (Tb)
+,,,,,+missing-template,S,HCO+,4-3/3-2 (Tb)
+,,,,,+missing-template,S,HCO+,3-2(Xb4f)/3-2(Xb4d) (recovery)
+,,,,,+missing-template,S,HCN,CS 7-6/HCN 3-2 (Tb)
+,,,,,+missing-template,S,HCO+,CS 7-6/HCO+ 3-2 (Tb)
+0.4896578631013326,0.4275616738710464,0.6454790167088258,,16.0,+missing-template,S,HCN/HCO+,"HCN/HCO+ 2-1 (Tb, component-integrated)"
+,,,,,+missing-template,S,HCN/HCO+,"HCN/HCO+ 4-3 (Tb, component-integrated)"
+,,,,,+missing-template,S,HCN/HCO+,"HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)"
+0.3629229203333272,0.34587434932465616,0.38661369426466125,,16.0,+missing-template,S,HCN/HCO+,"HCN/HCO+ 3-2 (Tb) from 1"" templates, same aperture sets"
+0.339771855676681,0.21110086993510233,0.7018724560851543,,11.0,+missing-template,Bridge,HCN,3-2/2-1 (Tb)
+,,,,,+missing-template,Bridge,HCN,4-3/3-2 (Tb)
+,,,,,+missing-template,Bridge,HCN,3-2(Xb4f)/3-2(Xb4d) (recovery)
+1.1093096536906866,0.4023837998151613,2.8420970871793045,,8.0,+missing-template,Bridge,HCO+,3-2/2-1 (Tb)
+,,,,,+missing-template,Bridge,HCO+,4-3/3-2 (Tb)
+,,,,,+missing-template,Bridge,HCO+,3-2(Xb4f)/3-2(Xb4d) (recovery)
+,,,,,+missing-template,Bridge,HCN,CS 7-6/HCN 3-2 (Tb)
+,,,,,+missing-template,Bridge,HCO+,CS 7-6/HCO+ 3-2 (Tb)
+1.7632997032970694,1.0330461752872988,3.676314760886298,,8.0,+missing-template,Bridge,HCN/HCO+,"HCN/HCO+ 2-1 (Tb, component-integrated)"
+,,,,,+missing-template,Bridge,HCN/HCO+,"HCN/HCO+ 4-3 (Tb, component-integrated)"
+,,,,,+missing-template,Bridge,HCN/HCO+,"HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)"
+0.4376552338448437,0.4198345578930267,0.4565601107100717,,16.0,+missing-template,Bridge,HCN/HCO+,"HCN/HCO+ 3-2 (Tb) from 1"" templates, same aperture sets"
+0.23642137109401584,0.18994417324359109,0.3894330548847739,,15.0,+missing-template,Outer,HCN,3-2/2-1 (Tb)
+,,,,,+missing-template,Outer,HCN,4-3/3-2 (Tb)
+,,,,,+missing-template,Outer,HCN,3-2(Xb4f)/3-2(Xb4d) (recovery)
+0.22491212633621774,0.18676295205084598,0.25766706303900516,,16.0,+missing-template,Outer,HCO+,3-2/2-1 (Tb)
+,,,,,+missing-template,Outer,HCO+,4-3/3-2 (Tb)
+,,,,,+missing-template,Outer,HCO+,3-2(Xb4f)/3-2(Xb4d) (recovery)
+,,,,,+missing-template,Outer,HCN,CS 7-6/HCN 3-2 (Tb)
+,,,,,+missing-template,Outer,HCO+,CS 7-6/HCO+ 3-2 (Tb)
+0.333583467793724,0.1587785805359664,0.4215002967524838,,16.0,+missing-template,Outer,HCN/HCO+,"HCN/HCO+ 2-1 (Tb, component-integrated)"
+,,,,,+missing-template,Outer,HCN/HCO+,"HCN/HCO+ 4-3 (Tb, component-integrated)"
+,,,,,+missing-template,Outer,HCN/HCO+,"HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)"
+0.3550084346180926,0.2292459406756493,0.42646761763400337,,16.0,+missing-template,Outer,HCN/HCO+,"HCN/HCO+ 3-2 (Tb) from 1"" templates, same aperture sets"
+,,,,,+missing-template,diffuse,HCN,3-2/2-1 (Tb)
+,,,,,+missing-template,diffuse,HCN,4-3/3-2 (Tb)
+,,,,,+missing-template,diffuse,HCN,3-2(Xb4f)/3-2(Xb4d) (recovery)
+,,,,,+missing-template,diffuse,HCO+,3-2/2-1 (Tb)
+,,,,,+missing-template,diffuse,HCO+,4-3/3-2 (Tb)
+,,,,,+missing-template,diffuse,HCO+,3-2(Xb4f)/3-2(Xb4d) (recovery)
+,,,,,+missing-template,diffuse,HCN,CS 7-6/HCN 3-2 (Tb)
+,,,,,+missing-template,diffuse,HCO+,CS 7-6/HCO+ 3-2 (Tb)
+,,,,,+missing-template,diffuse,HCN/HCO+,"HCN/HCO+ 2-1 (Tb, component-integrated)"
+,,,,,+missing-template,diffuse,HCN/HCO+,"HCN/HCO+ 4-3 (Tb, component-integrated)"
+,,,,,+missing-template,diffuse,HCN/HCO+,"HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)"
+0.8647285929594168,0.6341574052914126,1.282233095008997,,16.0,+missing-template,diffuse,HCN/HCO+,"HCN/HCO+ 3-2 (Tb) from 1"" templates, same aperture sets"

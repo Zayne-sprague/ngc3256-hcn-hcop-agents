@@ -1,0 +1,90 @@
+=== (1) DIRECT TEST: mean level red(+420..+600) and blue(-600..-420) [mJy/ch] per region; model-predicted red level; control = spws with no ramp
+
+Xb55.spw16.HCN2: line ch 517, dv 3.30 km/s/ch, red band ch 336-390 (55 ch), line-free fit range ch<401
+  ramp amplitude f (x cont) +-err ; delta-chi2 vs no ramp : tri50 -0.035+-0.033 (1); tri100 -0.034+-0.023 (2); tri200 -0.028+-0.017 (2); tri400 -0.026+-0.012 (4); exp15 -0.052+-0.048 (1); exp30 -0.046+-0.035 (1); exp60 -0.041+-0.025 (2); emp -0.036+-0.020 (3)
+  N      cont  14.3: red +0.14+-0.49 blue -0.32+-0.49 blue-red -0.46+-0.69 | predicted red level (tri400) -0.03, leave-one-region-out -0.03
+  S      cont  12.7: red -1.14+-0.48 blue +0.32+-0.48 blue-red +1.46+-0.68 | predicted red level (tri400) -0.03, leave-one-region-out -0.03
+  Bridge cont  14.9: red -0.45+-0.50 blue -0.22+-0.50 blue-red +0.23+-0.71 | predicted red level (tri400) -0.04, leave-one-region-out -0.04
+
+Xb55.spw18.HCO+2: line ch 182, dv 3.28 km/s/ch, red band ch 0-53 (54 ch), line-free fit range ch<66
+  ramp amplitude f (x cont) +-err ; delta-chi2 vs no ramp : tri50 -0.176+-0.038 (14); tri100 -0.151+-0.027 (19); tri200 -0.126+-0.022 (19); tri400 -0.115+-0.021 (19); exp15 -0.228+-0.056 (11); exp30 -0.203+-0.040 (16); exp60 -0.164+-0.030 (19); emp -0.148+-0.025 (22)
+  N      cont  14.3: red -1.58+-0.67 blue -0.22+-0.66 blue-red +1.36+-0.94 | predicted red level (emp) -1.65, leave-one-region-out -1.70
+  S      cont  12.7: red -1.49+-0.64 blue +1.14+-0.64 blue-red +2.63+-0.90 | predicted red level (emp) -1.47, leave-one-region-out -1.50
+  Bridge cont  14.9: red -1.83+-0.64 blue +0.63+-0.63 blue-red +2.46+-0.90 | predicted red level (emp) -1.73, leave-one-region-out -1.63
+
+Xb4f.spw18.HCN3: line ch 153, dv 4.40 km/s/ch, red band ch 17-57 (41 ch), line-free fit range ch<66
+  ramp amplitude f (x cont) +-err ; delta-chi2 vs no ramp : tri50 -0.144+-0.036 (28); tri100 -0.123+-0.026 (38); tri200 -0.103+-0.021 (39); tri400 -0.094+-0.020 (38); exp15 -0.170+-0.053 (18); exp30 -0.162+-0.038 (31); exp60 -0.133+-0.028 (37); emp -0.127+-0.031 (28)
+  N      cont  19.4: red -1.06+-0.51 blue -0.59+-0.51 blue-red +0.48+-0.72 | predicted red level (tri200) -1.63, leave-one-region-out -2.03
+  S      cont  13.7: red -1.52+-0.44 blue -0.51+-0.45 blue-red +1.01+-0.63 | predicted red level (tri200) -1.15, leave-one-region-out -1.07
+  Bridge cont  12.6: red -1.50+-0.48 blue -0.38+-0.49 blue-red +1.12+-0.68 | predicted red level (tri200) -1.06, leave-one-region-out -0.97
+
+Xb4f.spw16.HCO+3: line ch 127, dv 4.38 km/s/ch, red band ch 0-31 (32 ch), line-free fit range ch<40
+  ramp amplitude f (x cont) +-err ; delta-chi2 vs no ramp : tri50 -0.067+-0.026 (4); tri100 -0.057+-0.020 (4); tri200 -0.051+-0.018 (4); tri400 -0.049+-0.017 (4); exp15 -0.086+-0.038 (3); exp30 -0.073+-0.028 (4); exp60 -0.061+-0.022 (4); emp -0.063+-0.023 (4)
+  N      cont  19.4: red -0.63+-0.76 blue -0.44+-0.66 blue-red +0.19+-1.01 | predicted red level (tri400) -0.90, leave-one-region-out -0.95
+  S      cont  13.7: red -0.65+-0.64 blue -1.28+-0.56 blue-red -0.64+-0.85 | predicted red level (tri400) -0.64, leave-one-region-out -0.63
+  Bridge cont  12.6: red -0.77+-0.64 blue -1.16+-0.56 blue-red -0.39+-0.85 | predicted red level (tri400) -0.59, leave-one-region-out -0.58
+
+Xb47.spw16.HCN4: line ch 153, dv 3.30 km/s/ch, red band ch 0-25 (26 ch), line-free fit range ch<37
+  ramp amplitude f (x cont) +-err ; delta-chi2 vs no ramp : tri50 -0.098+-0.023 (15); tri100 -0.087+-0.018 (18); tri200 -0.081+-0.017 (19); tri400 -0.078+-0.016 (19); exp15 -0.117+-0.034 (10); exp30 -0.106+-0.025 (15); exp60 -0.093+-0.020 (18); emp -0.093+-0.020 (17)
+  N      cont  36.2: red -2.90+-0.99 blue -0.56+-0.68 blue-red +2.34+-1.21 | predicted red level (tri400) -2.72, leave-one-region-out -2.20
+  S      cont  22.0: red -1.13+-0.93 blue -0.79+-0.64 blue-red +0.34+-1.12 | predicted red level (tri400) -1.65, leave-one-region-out -1.69
+  Bridge cont  19.8: red -0.71+-0.91 blue -0.21+-0.62 blue-red +0.50+-1.10 | predicted red level (tri400) -1.48, leave-one-region-out -1.59
+
+Xb47.spw18.HCO+4: line ch 268, dv 3.28 km/s/ch, red band ch 86-140 (55 ch), line-free fit range ch<152
+  ramp amplitude f (x cont) +-err ; delta-chi2 vs no ramp : tri50 +0.026+-0.028 (1); tri100 -0.002+-0.020 (0); tri200 -0.013+-0.014 (1); tri400 -0.014+-0.012 (2); exp15 +0.052+-0.041 (2); exp30 +0.017+-0.030 (0); exp60 -0.005+-0.021 (0); emp +0.016+-0.025 (1)
+  N      cont  36.2: red -0.72+-0.54 blue -0.26+-0.55 blue-red +0.46+-0.77 | predicted red level (exp15) +0.00, leave-one-region-out -0.00
+  S      cont  22.0: red -0.32+-0.75 blue -1.00+-0.76 blue-red -0.67+-1.07 | predicted red level (exp15) +0.00, leave-one-region-out +0.00
+  Bridge cont  19.8: red -0.71+-0.62 blue -0.43+-0.63 blue-red +0.28+-0.89 | predicted red level (exp15) +0.00, leave-one-region-out +0.00
+
+=== (2) INTEGRALS, Jy/beam km/s (peak pixel, native beam, +-350 km/s unless noted). E0 s30; E1 blue-only median; E2 blue-only linear; E3 = E1 with +-250 window
+    corrected = integral after subtracting the fitted ramp (shapes emp = nominal, exp30, tri100, tri400 = pessimistic), with E0 and E1 baselines
+Xb55.spw16.HCN2
+  N      E0  27.243+-0.169 E1  27.118 E2  28.181 E3  26.852 | corrected E0: emp 27.243 exp30 27.243 tri100 27.243 tri400 27.243 | corrected E1: emp 27.118 exp30 27.118 tri100 27.118 tri400 27.118
+  S      E0  22.346+-0.169 E1  22.193 E2  22.457 E3  21.903 | corrected E0: emp 22.346 exp30 22.346 tri100 22.346 tri400 22.345 | corrected E1: emp 22.193 exp30 22.193 tri100 22.193 tri400 22.193
+  Bridge E0  27.929+-0.171 E1  27.845 E2  29.075 E3  27.550 | corrected E0: emp 27.929 exp30 27.929 tri100 27.929 tri400 27.924 | corrected E1: emp 27.845 exp30 27.845 tri100 27.845 tri400 27.845
+Xb55.spw18.HCO+2
+  N      E0  40.876+-0.237 E1  40.790 E2  42.711 E3  40.529 | corrected E0: emp 40.818 exp30 40.800 tri100 40.824 tri400 41.405 | corrected E1: emp 40.832 exp30 40.813 tri100 40.812 tri400 41.401
+  S      E0  41.909+-0.226 E1  41.778 E2  39.874 E3  41.318 | corrected E0: emp 41.843 exp30 41.865 tri100 41.825 tri400 42.358 | corrected E1: emp 41.815 exp30 41.798 tri100 41.797 tri400 42.332
+  Bridge E0  46.325+-0.225 E1  46.284 E2  45.859 E3  45.950 | corrected E0: emp 46.340 exp30 46.320 tri100 46.326 tri400 46.954 | corrected E1: emp 46.327 exp30 46.308 tri100 46.306 tri400 46.897
+Xb4f.spw18.HCN3
+  N      E0  20.557+-0.173 E1  20.517 E2  20.785 E3  20.400 | corrected E0: emp 20.511 exp30 20.551 tri100 20.519 tri400 21.138 | corrected E1: emp 20.517 exp30 20.553 tri100 20.554 tri400 21.230
+  S      E0  11.170+-0.172 E1  11.170 E2  12.077 E3  11.157 | corrected E0: emp 11.135 exp30 11.160 tri100 11.144 tri400 11.535 | corrected E1: emp 11.170 exp30 11.195 tri100 11.196 tri400 11.607
+  Bridge E0  13.627+-0.170 E1  13.545 E2  12.785 E3  13.590 | corrected E0: emp 13.568 exp30 13.591 tri100 13.589 tri400 14.021 | corrected E1: emp 13.545 exp30 13.568 tri100 13.569 tri400 13.913
+Xb4f.spw16.HCO+3
+  N      E0  34.304+-0.232 E1  34.268 E2  33.824 E3  34.335 | corrected E0: emp 34.182 exp30 34.226 tri100 34.286 tri400 34.582 | corrected E1: emp 34.268 exp30 34.306 tri100 34.334 tri400 34.563
+  S      E0  29.290+-0.198 E1  29.451 E2  30.904 E3  29.543 | corrected E0: emp 29.204 exp30 29.208 tri100 29.219 tri400 29.509 | corrected E1: emp 29.451 exp30 29.477 tri100 29.497 tri400 29.636
+  Bridge E0  29.682+-0.192 E1  29.567 E2  30.066 E3  29.557 | corrected E0: emp 29.653 exp30 29.656 tri100 29.695 tri400 29.884 | corrected E1: emp 29.567 exp30 29.591 tri100 29.609 tri400 29.782
+Xb47.spw16.HCN4
+  N      E0  14.481+-0.254 E1  14.226 E2  14.908 E3  14.588 | corrected E0: emp 14.213 exp30 14.268 tri100 14.372 tri400 15.442 | corrected E1: emp 14.226 exp30 14.307 tri100 14.375 tri400 15.359
+  S      E0   5.752+-0.227 E1   5.804 E2   6.555 E3   5.821 | corrected E0: emp 5.567 exp30 5.616 tri100 5.658 tri400 6.307 | corrected E1: emp 5.804 exp30 5.853 tri100 5.894 tri400 6.396
+  Bridge E0   6.909+-0.217 E1   6.868 E2   8.125 E3   6.769 | corrected E0: emp 6.834 exp30 6.878 tri100 6.918 tri400 7.511 | corrected E1: emp 6.868 exp30 6.912 tri100 6.949 tri400 7.497
+Xb47.spw18.HCO+4
+  N      E0  29.282+-0.305 E1  29.248 E2  29.584 E3  29.020 | corrected E0: emp 29.282 exp30 29.282 tri100 29.282 tri400 29.367 | corrected E1: emp 29.248 exp30 29.248 tri100 29.248 tri400 29.363
+  S      E0  20.302+-0.265 E1  21.690 E2  28.385 E3  21.475 | corrected E0: emp 20.302 exp30 20.312 tri100 20.301 tri400 20.211 | corrected E1: emp 21.690 exp30 21.689 tri100 21.690 tri400 21.759
+  Bridge E0  18.682+-0.245 E1  18.182 E2  17.870 E3  17.825 | corrected E0: emp 18.682 exp30 18.682 tri100 18.682 tri400 18.729 | corrected E1: emp 18.182 exp30 18.182 tri100 18.182 tri400 18.245
+
+=== (3) RATIOS: shift of each estimator relative to E0 (and in units of the total ratio error = stat + 7% cal per line)
+N
+  HCN/HCO+ 2-1   E0 0.666 | E1  -0.2% (-0.03s) | E2  -1.0% (-0.10s) | E3  -0.6% (-0.06s) | E0-emp  +0.1% (+0.01s) | E1-emp  -0.3% (-0.04s) | E0-tri400  -1.3% (-0.13s) | E1-tri400  -1.7% (-0.17s)
+  HCN/HCO+ 3-2   E0 0.599 | E1  -0.1% (-0.01s) | E2  +2.5% (+0.26s) | E3  -0.9% (-0.09s) | E0-emp  +0.1% (+0.01s) | E1-emp  -0.1% (-0.01s) | E0-tri400  +2.0% (+0.20s) | E1-tri400  +2.5% (+0.25s)
+  HCN/HCO+ 4-3   E0 0.495 | E1  -1.6% (-0.16s) | E2  +1.9% (+0.19s) | E3  +1.6% (+0.16s) | E0-emp  -1.9% (-0.18s) | E1-emp  -1.6% (-0.16s) | E0-tri400  +6.3% (+0.63s) | E1-tri400  +5.8% (+0.57s)
+  HCN T43/T32    E0 0.704 | E1  -1.6% (-0.16s) | E2  +1.8% (+0.18s) | E3  +1.5% (+0.15s) | E0-emp  -1.6% (-0.16s) | E1-emp  -1.6% (-0.16s) | E0-tri400  +3.7% (+0.37s) | E1-tri400  +2.7% (+0.27s)
+  HCN T21/T32    E0 1.325 | E1  -0.3% (-0.03s) | E2  +2.3% (+0.23s) | E3  -0.7% (-0.07s) | E0-emp  +0.2% (+0.02s) | E1-emp  -0.3% (-0.03s) | E0-tri400  -2.7% (-0.28s) | E1-tri400  -3.6% (-0.36s)
+  HCO+ T43/T32   E0 0.854 | E1  -0.0% (-0.00s) | E2  +2.5% (+0.25s) | E3  -1.0% (-0.10s) | E0-emp  +0.4% (+0.04s) | E1-emp  -0.0% (-0.00s) | E0-tri400  -0.5% (-0.05s) | E1-tri400  -0.5% (-0.05s)
+  HCO+ T21/T32   E0 1.192 | E1  -0.1% (-0.01s) | E2  +6.0% (+0.60s) | E3  -0.9% (-0.09s) | E0-emp  +0.2% (+0.02s) | E1-emp  -0.0% (-0.00s) | E0-tri400  +0.5% (+0.05s) | E1-tri400  +0.5% (+0.05s)
+S
+  HCN/HCO+ 2-1   E0 0.533 | E1  -0.4% (-0.04s) | E2  +5.6% (+0.57s) | E3  -0.6% (-0.06s) | E0-emp  +0.2% (+0.02s) | E1-emp  -0.5% (-0.05s) | E0-tri400  -1.1% (-0.11s) | E1-tri400  -1.7% (-0.17s)
+  HCN/HCO+ 3-2   E0 0.381 | E1  -0.5% (-0.05s) | E2  +2.5% (+0.25s) | E3  -1.0% (-0.10s) | E0-emp  -0.0% (-0.00s) | E1-emp  -0.5% (-0.05s) | E0-tri400  +2.5% (+0.25s) | E1-tri400  +2.7% (+0.27s)
+  HCN/HCO+ 4-3   E0 0.283 | E1  -5.6% (-0.52s) | E2 -18.5% (-1.72s) | E3  -4.3% (-0.40s) | E0-emp  -3.2% (-0.30s) | E1-emp  -5.6% (-0.52s) | E0-tri400 +10.2% (+0.95s) | E1-tri400  +3.8% (+0.35s)
+  HCN T43/T32    E0 0.515 | E1  +0.9% (+0.08s) | E2  +5.4% (+0.50s) | E3  +1.3% (+0.12s) | E0-emp  -2.9% (-0.27s) | E1-emp  +0.9% (+0.08s) | E0-tri400  +6.2% (+0.58s) | E1-tri400  +7.0% (+0.65s)
+  HCN T21/T32    E0 2.001 | E1  -0.7% (-0.07s) | E2  -7.0% (-0.70s) | E3  -1.9% (-0.19s) | E0-emp  +0.3% (+0.03s) | E1-emp  -0.7% (-0.07s) | E0-tri400  -3.2% (-0.32s) | E1-tri400  -4.4% (-0.44s)
+  HCO+ T43/T32   E0 0.693 | E1  +6.3% (+0.62s) | E2 +32.5% (+3.25s) | E3  +4.9% (+0.49s) | E0-emp  +0.3% (+0.03s) | E1-emp  +6.3% (+0.62s) | E0-tri400  -1.2% (-0.12s) | E1-tri400  +5.9% (+0.59s)
+  HCO+ T21/T32   E0 1.431 | E1  -0.9% (-0.09s) | E2  -9.8% (-0.99s) | E3  -2.3% (-0.23s) | E0-emp  +0.1% (+0.01s) | E1-emp  -0.8% (-0.08s) | E0-tri400  +0.3% (+0.03s) | E1-tri400  -0.2% (-0.02s)
+Bridge
+  HCN/HCO+ 2-1   E0 0.603 | E1  -0.2% (-0.02s) | E2  +5.2% (+0.52s) | E3  -0.6% (-0.06s) | E0-emp  -0.0% (-0.00s) | E1-emp  -0.3% (-0.03s) | E0-tri400  -1.4% (-0.14s) | E1-tri400  -1.5% (-0.15s)
+  HCN/HCO+ 3-2   E0 0.459 | E1  -0.2% (-0.02s) | E2  -7.4% (-0.74s) | E3  +0.2% (+0.02s) | E0-emp  -0.3% (-0.03s) | E1-emp  -0.2% (-0.02s) | E0-tri400  +2.2% (+0.22s) | E1-tri400  +1.8% (+0.18s)
+  HCN/HCO+ 4-3   E0 0.370 | E1  +2.1% (+0.21s) | E2 +23.0% (+2.19s) | E3  +2.7% (+0.26s) | E0-emp  -1.1% (-0.10s) | E1-emp  +2.1% (+0.21s) | E0-tri400  +8.4% (+0.81s) | E1-tri400 +11.1% (+1.06s)
+  HCN T43/T32    E0 0.507 | E1  +0.0% (+0.00s) | E2 +25.4% (+2.42s) | E3  -1.8% (-0.17s) | E0-emp  -0.7% (-0.06s) | E1-emp  +0.0% (+0.00s) | E0-tri400  +5.7% (+0.54s) | E1-tri400  +6.3% (+0.60s)
+  HCN T21/T32    E0 2.050 | E1  +0.3% (+0.03s) | E2 +11.0% (+1.10s) | E3  -1.1% (-0.11s) | E0-emp  +0.4% (+0.04s) | E1-emp  +0.3% (+0.03s) | E0-tri400  -2.8% (-0.28s) | E1-tri400  -2.4% (-0.24s)
+  HCO+ T43/T32   E0 0.629 | E1  -2.3% (-0.23s) | E2  -5.6% (-0.56s) | E3  -4.2% (-0.42s) | E0-emp  +0.1% (+0.01s) | E1-emp  -2.3% (-0.23s) | E0-tri400  -0.4% (-0.04s) | E1-tri400  -2.7% (-0.27s)
+  HCO+ T21/T32   E0 1.561 | E1  +0.3% (+0.03s) | E2  -2.3% (-0.23s) | E3  -0.4% (-0.04s) | E0-emp  +0.1% (+0.01s) | E1-emp  +0.4% (+0.04s) | E0-tri400  +0.7% (+0.07s) | E1-tri400  +0.9% (+0.09s)

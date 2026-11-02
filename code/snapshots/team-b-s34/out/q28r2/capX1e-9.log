@@ -1,0 +1,10 @@
+# variant capX1e-9: taumax 3.0 drop [] sig (0.1, 0.15, 0.15, 0.15) cap (1e-09, 77.0); compact configs 58320 (ok 33520), E models 68796 (ok 15876)
+/workspace/scripts/s362_q28r2_fit.py:66: RuntimeWarning: divide by zero encountered in log
+  lj=np.log(R1['N']['ZE']/NCtot)+np.log(R1['S']['ZE']/NCtot)
+ N: min chi2 two-phase (own E) 59.12; lnZ -49.07
+ S: min chi2 two-phase (own E) 45.52; lnZ -42.83
+ joint shared-E: min chi2 104.64 (N 59.12, S 45.52); lnZ shared -83.79 vs separate-E -91.90
+ N: one-state two-size: min chi2 51.57 lnZ -37.80; best Tk 100 n 4.0 N 15.5 A 0.5 theta 0.8 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) -11.26
+ S: one-state two-size: min chi2 40.02 lnZ -32.31; best Tk 100 n 4.0 N 15.5 A 0.5 theta 0.5 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) -10.52
+ joint ln BF shared two-phase / (one-state N x one-state S) = -13.68
+ time 47s

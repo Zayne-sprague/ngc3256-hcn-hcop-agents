@@ -1,0 +1,25 @@
+{
+ "team": "team-b",
+ "item": "Q9",
+ "files": [
+  "scripts/s120a_q9_spectra.py",
+  "scripts/s120b_q9_blend_integral.py",
+  "scripts/s120c_q9_trot.py",
+  "scripts/s120d_q9_blend_vs_hco.py",
+  "scripts/s120e_q9_column.py",
+  "scripts/s121_update_report_q9.py",
+  "scripts/s18_ch3oh_radex.py",
+  "scripts/s20_ch3oh254.py",
+  "scripts/s21_ch3oh254_maps.py",
+  "scripts/s23_other_ch3oh.py",
+  "scripts/s27_ch3oh_recovery.py",
+  "scripts/s17_ch3oh_ladder.py",
+  "out/q9/s120a_spectra.png",
+  "out/q9/s120b.txt",
+  "out/q9/s120b.json",
+  "out/q9/s120c.json",
+  "out/q9/s120d.json",
+  "out/q9/s120e.json",
+  "TEAM_REPORT.json"
+ ]
+}

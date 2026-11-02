@@ -1,0 +1,10 @@
+# HCN: Xb4d beam array [  0.93664769   0.73943597 -85.79959208] ps 0.15000000006924
+  N       S(4f native)=19.891  S(4d->4f beam)=17.182 Jy/b km/s  R3=4f/4d 1.158
+  S       S(4f native)=10.783  S(4d->4f beam)=7.957 Jy/b km/s  R3=4f/4d 1.355
+  Bridge  S(4f native)=13.367  S(4d->4f beam)=11.381 Jy/b km/s  R3=4f/4d 1.174
+  HCN R3 N/S 0.854  N/Bridge 0.986  S/Bridge 1.154  (R3<1: Xb4f loses vs Xb4d; N/S>1: S loses more 3-2 in Xb4f)
+# HCO+: Xb4d beam array [  0.92839288   0.73724185 -85.73483513] ps 0.15000000006924
+  N       S(4f native)=32.584  S(4d->4f beam)=27.865 Jy/b km/s  R3=4f/4d 1.169
+  S       S(4f native)=28.701  S(4d->4f beam)=22.140 Jy/b km/s  R3=4f/4d 1.296
+  Bridge  S(4f native)=28.869  S(4d->4f beam)=24.075 Jy/b km/s  R3=4f/4d 1.199
+  HCO+ R3 N/S 0.902  N/Bridge 0.975  S/Bridge 1.081  (R3<1: Xb4f loses vs Xb4d; N/S>1: S loses more 3-2 in Xb4f)

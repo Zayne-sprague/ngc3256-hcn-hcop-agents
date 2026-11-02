@@ -1,0 +1,46 @@
+N HCO+: n_resid=1077 chi2_red=4.81 (v,sig,peak residual rms: 2.06,1.21,2.84 sigma-units); errors inflated by sqrt(Nb)=2.70
+   x0           -0.135 +- 0.019
+   y0            2.545 +- 0.025
+   fwhm_maj      1.445 +- 0.110
+   fwhm_min      1.287 +- 0.087
+   pa_int       77.997 +- 16.904
+   pa_kin       79.899 +- 2.015
+   Vmax_los     65.769 +- 2.893
+   Rt            0.078 +- 0.089
+   sig_c        71.910 +- 13.411
+   sig_out      21.689 +- 2.178
+   vsys       2772.201 +- 2.036
+   amp           0.560 +- 0.056
+   R=0.00": sigma_int=72 [58,84]  v_los(R)=0 [0,0] km/s
+   R=0.12": sigma_int=53 [45,60]  v_los(R)=54 [41,62] km/s
+   R=0.25": sigma_int=40 [36,44]  v_los(R)=62 [56,65] km/s
+   R=0.50": sigma_int=28 [27,30]  v_los(R)=64 [61,66] km/s
+   R=0.75": sigma_int=24 [23,26]  v_los(R)=65 [62,67] km/s
+   R=1.00": sigma_int=23 [21,25]  v_los(R)=65 [63,68] km/s
+   r in [0,0.2): n=15 sigma_obs(data,mean)=54.6 model=50.5 pure-rotation-smear(sigma_int~0)=22.3
+   r in [0.2,0.4): n=37 sigma_obs(data,mean)=39.4 model=40.2 pure-rotation-smear(sigma_int~0)=14.4
+   r in [0.4,0.7): n=120 sigma_obs(data,mean)=28.7 model=29.4 pure-rotation-smear(sigma_int~0)=8.1
+   r in [0.7,1.0): n=187 sigma_obs(data,mean)=25.3 model=24.4 pure-rotation-smear(sigma_int~0)=5.1
+N HCN: n_resid=1047 chi2_red=4.39 (v,sig,peak residual rms: 2.00,1.49,2.57 sigma-units); errors inflated by sqrt(Nb)=2.73
+   x0           -0.135 +- 0.019
+   y0            2.543 +- 0.023
+   fwhm_maj      1.284 +- 0.092
+   fwhm_min      1.114 +- 0.069
+   pa_int       72.685 +- 13.529
+   pa_kin       79.986 +- 1.991
+   Vmax_los     66.233 +- 3.153
+   Rt            0.111 +- 0.086
+   sig_c        84.442 +- 12.964
+   sig_out      23.164 +- 2.208
+   vsys       2772.362 +- 2.010
+   amp           0.539 +- 0.054
+   R=0.00": sigma_int=85 [71,96]  v_los(R)=0 [0,0] km/s
+   R=0.12": sigma_int=61 [53,68]  v_los(R)=49 [37,62] km/s
+   R=0.25": sigma_int=46 [42,50]  v_los(R)=60 [54,64] km/s
+   R=0.50": sigma_int=31 [30,33]  v_los(R)=64 [61,66] km/s
+   R=0.75": sigma_int=26 [24,28]  v_los(R)=65 [63,67] km/s
+   R=1.00": sigma_int=24 [22,27]  v_los(R)=65 [63,68] km/s
+   r in [0,0.2): n=15 sigma_obs(data,mean)=59.7 model=55.4 pure-rotation-smear(sigma_int~0)=21.5
+   r in [0.2,0.4): n=37 sigma_obs(data,mean)=46.2 model=44.5 pure-rotation-smear(sigma_int~0)=14.4
+   r in [0.4,0.7): n=120 sigma_obs(data,mean)=30.5 model=32.2 pure-rotation-smear(sigma_int~0)=8.2
+   r in [0.7,1.0): n=177 sigma_obs(data,mean)=27.5 model=26.4 pure-rotation-smear(sigma_int~0)=5.2

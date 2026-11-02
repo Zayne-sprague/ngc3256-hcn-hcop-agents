@@ -1,0 +1,12 @@
+Xb4b@0.3 N HCN: peak Tb(mean r<0.25") 1.5 K at v=48; channel rms 0.04 K
+Xb4b@0.3 N HCO+: peak Tb(mean r<0.25") 1.6 K at v=61; channel rms 0.04 K
+  Tb(HCN)=slope*Tb(HCO+) through origin, channels with Tb(HCO+)>10% peak: slope 0.972; ratio in channel Tb(HCO+)>50% peak 0.960
+Xb4b@0.3 S HCN: peak Tb(mean r<0.25") 0.7 K at v=-58; channel rms 0.04 K
+Xb4b@0.3 S HCO+: peak Tb(mean r<0.25") 1.6 K at v=-66; channel rms 0.04 K
+  Tb(HCN)=slope*Tb(HCO+) through origin, channels with Tb(HCO+)>10% peak: slope 0.428; ratio in channel Tb(HCO+)>50% peak 0.433
+Xb4d@1.05 N HCN: peak Tb(mean r<0.5") 0.6 K at v=-54; channel rms 0.01 K
+Xb4d@1.05 N HCO+: peak Tb(mean r<0.5") 0.8 K at v=-58; channel rms 0.01 K
+  Tb(HCN)=slope*Tb(HCO+) through origin, channels with Tb(HCO+)>10% peak: slope 0.778; ratio in channel Tb(HCO+)>50% peak 0.777
+Xb4d@1.05 S HCN: peak Tb(mean r<0.5") 0.2 K at v=-63; channel rms 0.01 K
+Xb4d@1.05 S HCO+: peak Tb(mean r<0.5") 0.6 K at v=-58; channel rms 0.01 K
+  Tb(HCN)=slope*Tb(HCO+) through origin, channels with Tb(HCO+)>10% peak: slope 0.379; ratio in channel Tb(HCO+)>50% peak 0.379

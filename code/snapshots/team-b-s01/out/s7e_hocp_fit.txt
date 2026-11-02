@@ -1,0 +1,4 @@
+N ap A=6.19+-0.58 mJy v0=4+-6 FWHM=133+-15 rms=2.59
+N pix A=7.87+-0.76 mJy v0=7+-6 FWHM=135+-15 rms=3.39
+S ap A=5.34+-0.90 mJy v0=-21+-7 FWHM=86+-17 rms=3.24
+S pix A=6.37+-1.22 mJy v0=-24+-7 FWHM=80+-18 rms=4.26

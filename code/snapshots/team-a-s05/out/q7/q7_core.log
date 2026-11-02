@@ -1,0 +1,20 @@
+## (a) native-beam peak spectra (Xb4b, 0.25"): peak pixel of +-350 moment map within 0.6" of the nucleus
+  N HCN   peak pos (-0.00,+2.63) peak 8.9 mJy/beam = 2.69 K at v=2823 km/s FWHM~123 km/s  I(+-350)=1.235 Jy/b km/s  rms/chan(4.4 km/s)=0.36 mJy/beam  S/N peak 25
+  N HCO+  peak pos (-0.00,+2.63) peak 9.4 mJy/beam = 2.87 K at v=2841 km/s FWHM~105 km/s  I(+-350)=1.194 Jy/b km/s  rms/chan(4.4 km/s)=0.44 mJy/beam  S/N peak 22
+  S HCN   peak pos (-0.15,-2.59) peak 4.4 mJy/beam = 1.33 K at v=2691 km/s FWHM~88 km/s  I(+-350)=0.489 Jy/b km/s  rms/chan(4.4 km/s)=0.31 mJy/beam  S/N peak 14
+  S HCO+  peak pos (-0.15,-2.64) peak 8.5 mJy/beam = 2.58 K at v=2723 km/s FWHM~96 km/s  I(+-350)=0.998 Jy/b km/s  rms/chan(4.4 km/s)=0.37 mJy/beam  S/N peak 23
+
+## (b) compact HCN-excess model at 0.30" beam: pixels within RMAX of the N peak; HCN=k*HCO+ + A*G(s conv beam)+c
+  s_FWHM[arcsec]  rss/rss_min   k     A[Jy/b km/s]  c   HCN_excess_flux[Jy km/s]
+  0.00   1.555  0.690  0.729  -0.024  0.729
+  0.05   1.545  0.688  0.727  -0.024  0.748
+  0.10   1.518  0.684  0.723  -0.023  0.803
+  0.15   1.475  0.677  0.714  -0.022  0.893
+  0.20   1.421  0.668  0.704  -0.021  1.017
+  0.30   1.296  0.646  0.677  -0.018  1.354
+  0.40   1.171  0.620  0.647  -0.016  1.796
+  0.60   1.000  0.567  0.585  -0.013  2.926
+  1.00   1.121  0.512  0.445  -0.019  5.393
+  k-only (no core) rss/rss_min=2.07  k=0.770
+  excess HCN-k*HCO+ (k=0.38) cumulative, Jy km/s: [np.float64(0.666), np.float64(1.335), np.float64(3.357), np.float64(6.167), np.float64(6.691), np.float64(6.884), np.float64(6.46)]
+  excess HCN-k*HCO+ (k=0.42) cumulative, Jy km/s: [np.float64(0.622), np.float64(1.244), np.float64(3.1), np.float64(5.484), np.float64(5.703), np.float64(5.709), np.float64(5.079)]

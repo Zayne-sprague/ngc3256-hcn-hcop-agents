@@ -1,0 +1,78 @@
+q42_base_cmb_sep_s1
+  lTc_N: T~12 K weight 0.23; T~35 K weight 0.77 (dBIC 1959)
+  lTc_S: T~13 K weight 0.13; T~20 K weight 0.87 (dBIC 185)
+q42_base_cmb_sh_s1
+  lTc_N: T~31 K weight 0.62; T~92 K weight 0.38 (dBIC 872)
+  lTc_S: T~20 K weight 1.00 (dBIC 989)
+  lTe: T~52 K weight 1.00 (dBIC 150)
+q42_base_cmb_sh_s2
+  lTc_N: T~17 K weight 0.29; T~45 K weight 0.71 (dBIC 380)
+  lTc_S: T~16 K weight 0.80; T~35 K weight 0.20 (dBIC 1634)
+  lTe: T~62 K weight 1.00 (dBIC 245)
+q42_base_cmb_sh_s3
+  lTc_N: T~48 K weight 1.00 (dBIC 237)
+  lTc_S: T~17 K weight 1.00 (dBIC 818)
+  lTe: T~61 K weight 1.00 (dBIC 1)
+q42_base_nominal_sh_s1
+  lTc_N: T~22 K weight 0.45; T~65 K weight 0.55 (dBIC 452)
+  lTc_S: T~16 K weight 1.00 (dBIC 539)
+  lTe: T~54 K weight 0.89; T~99 K weight 0.11 (dBIC 64)
+q42_base_nominal_sh_s2
+  lTc_N: T~46 K weight 1.00 (dBIC 217)
+  lTc_S: T~16 K weight 0.88; T~38 K weight 0.12 (dBIC 1930)
+  lTe: T~64 K weight 1.00 (dBIC 200)
+q42_base_nominal_sh_s3
+  lTc_N: T~50 K weight 0.72; T~113 K weight 0.28 (dBIC 815)
+  lTc_S: T~16 K weight 1.00 (dBIC 396)
+  lTe: T~65 K weight 0.95; T~115 K weight 0.05 (dBIC 39)
+q42_drop1_cmb_sep_s1
+  lTc_N: T~14 K weight 1.00 (dBIC 3589)
+  lTc_S: T~18 K weight 1.00 (dBIC 1895)
+q42_drop1_cmb_sh_s1
+  lTc_N: T~12 K weight 0.35; T~41 K weight 0.65 (dBIC 3221)
+  lTc_S: T~19 K weight 1.00 (dBIC 1500)
+  lTe: T~30 K weight 0.19; T~56 K weight 0.81 (dBIC 141)
+q42_drop1_cmb_sh_s2
+  lTc_N: T~12 K weight 0.32; T~30 K weight 0.68 (dBIC 1614)
+  lTc_S: T~17 K weight 1.00 (dBIC 1697)
+  lTe: T~55 K weight 1.00 (dBIC 96)
+q42_drop1_cmb_sh_s3
+  lTc_N: T~12 K weight 0.23; T~35 K weight 0.77 (dBIC 1506)
+  lTc_S: T~14 K weight 0.50; T~31 K weight 0.50 (dBIC 1421)
+  lTe: T~55 K weight 1.00 (dBIC 59)
+q42_drop1_nominal_sh_s1
+  lTc_N: T~12 K weight 0.18; T~30 K weight 0.82 (dBIC 1278)
+  lTc_S: T~23 K weight 1.00 (dBIC 1261)
+  lTe: T~51 K weight 0.66; T~100 K weight 0.34 (dBIC 811)
+q42_drop1_nominal_sh_s2
+  lTc_N: T~12 K weight 0.39; T~40 K weight 0.61 (dBIC 3652)
+  lTc_S: T~22 K weight 1.00 (dBIC 535)
+  lTe: T~26 K weight 0.18; T~51 K weight 0.82 (dBIC 374)
+q42_drop1_nominal_sh_s3
+  lTc_N: T~12 K weight 0.40; T~36 K weight 0.60 (dBIC 3090)
+  lTc_S: T~12 K weight 0.37; T~20 K weight 0.63 (dBIC 1356)
+  lTe: T~46 K weight 1.00 (dBIC 76)
+q42_inf30_cmb_sh_s1
+  lTc_N: T~12 K weight 0.50; T~23 K weight 0.50 (dBIC 3719)
+  lTc_S: T~18 K weight 1.00 (dBIC 1814)
+  lTe: T~44 K weight 0.61; T~79 K weight 0.39 (dBIC 603)
+q42_inf30_cmb_sh_s2
+  lTc_N: T~12 K weight 0.37; T~48 K weight 0.63 (dBIC 4036)
+  lTc_S: T~16 K weight 0.56; T~64 K weight 0.44 (dBIC 2427)
+  lTe: T~39 K weight 0.53; T~75 K weight 0.47 (dBIC 428)
+q42_inf30_cmb_sh_s3
+  lTc_N: T~12 K weight 0.53; T~21 K weight 0.47 (dBIC 3154)
+  lTc_S: T~20 K weight 1.00 (dBIC 1599)
+  lTe: T~40 K weight 0.85; T~89 K weight 0.15 (dBIC 269)
+q42_inf30_nominal_sh_s1
+  lTc_N: T~11 K weight 0.24; T~47 K weight 0.76 (dBIC 2600)
+  lTc_S: T~19 K weight 1.00 (dBIC 1230)
+  lTe: T~58 K weight 1.00 (dBIC 92)
+q42_inf30_nominal_sh_s2
+  lTc_N: T~12 K weight 0.43; T~28 K weight 0.57 (dBIC 3576)
+  lTc_S: T~19 K weight 1.00 (dBIC 1538)
+  lTe: T~51 K weight 1.00 (dBIC 5)
+q42_inf30_nominal_sh_s3
+  lTc_N: T~12 K weight 0.30; T~46 K weight 0.70 (dBIC 2726)
+  lTc_S: T~15 K weight 0.59; T~39 K weight 0.41 (dBIC 2302)
+  lTe: T~50 K weight 1.00 (dBIC -17)

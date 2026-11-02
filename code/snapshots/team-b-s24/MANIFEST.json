@@ -1,0 +1,27 @@
+{
+ "team": "team-b",
+ "item": "Q40",
+ "files": [
+  "scripts/s220a_q39_fine_grid.py",
+  "scripts/s220b_q39_fine_fit.py",
+  "scripts/s230_q40_isotopologue_fit.py",
+  "scripts/s231_q40_summary.py",
+  "scripts/s232_q40_residuals.py",
+  "scripts/s233_q40_lowX.py",
+  "scripts/s235_q40r2_Xmarg.py",
+  "scripts/s236_q40r2_analysis.py",
+  "scripts/s237_q40r2_ratio_marg.py",
+  "lit/harada_table13_parsed.csv",
+  "out/q39/summary.txt",
+  "out/q40/summary.txt",
+  "out/q40/residuals.txt",
+  "out/q40/lowX.log",
+  "out/q40r2/analysis_N_H.txt",
+  "out/q40r2/analysis_N_A2.txt",
+  "out/q40r2/analysis_S_A2.txt",
+  "out/q40r2/ratio_marg.txt",
+  "out/q40r2/runN_H.log",
+  "out/q40r2/runNS_A2.log",
+  "TEAM_REPORT.json"
+ ]
+}

@@ -1,0 +1,21 @@
+Xb47 HCN 4-3 beam (4.144338724392, 2.69703502878528, 86.93520558896) pix 0.53 map shape (96, 96) n_null 5 null-window rms of smoothed maps: 
+HCN 4-3 empirical sigma of the 7.2"-smoothed moment-0 (Jy/beam km/s, pbcor, 25th-percentile null window) by radius: 0-4": 0.122; 4-8": 0.168; 8-12": 0.177; 12-16": 0.243; 16-20": 0.437; 20-26": 0.193
+HCO+ 4-3 empirical sigma of the 7.2"-smoothed moment-0 (Jy/beam km/s, pbcor, 25th-percentile null window) by radius: 0-4": 0.236; 4-8": 0.189; 8-12": 0.239; 12-16": 0.279; 16-20": 0.462; 20-26": 0.196
+## unresolved: amplitudes Jy km/s @8.64x6.0 (value +- sigma_pix at the clump radius)
+  N (r=2.6"): HCN 16.07+-0.12  HCO+ 38.28+-0.24  HCN 3sig UL 16.44  -> R43 (T_B) = 0.43+-0.00
+  S (r=2.6"): HCN 8.83+-0.12  HCO+ 34.24+-0.24  HCN 3sig UL 9.19  -> R43 (T_B) = 0.26+-0.00
+  E1 (r=7.8"): HCN 0.00+-0.17  HCO+ 4.65+-0.19  HCN 3sig UL 0.50  -> R43 (T_B) < 0.13 (3 sigma HCN UL / (HCO+ - 3 sigma))
+  E2 (r=6.0"): HCN 0.00+-0.17  HCO+ 0.00+-0.19  HCN 3sig UL 0.50  -> R43 (T_B) < 510.76 (3 sigma HCN UL / (HCO+ - 3 sigma))
+  W (r=7.6"): HCN 0.00+-0.17  HCO+ 0.44+-0.19  HCN 3sig UL 0.50  -> R43 (T_B) < 510.76 (3 sigma HCN UL / (HCO+ - 3 sigma))
+## nuc3: amplitudes Jy km/s @8.64x6.0 (value +- sigma_pix at the clump radius)
+  N (r=2.6"): HCN 14.81+-0.12  HCO+ 35.12+-0.24  HCN 3sig UL 15.18  -> R43 (T_B) = 0.43+-0.00
+  S (r=2.6"): HCN 7.81+-0.12  HCO+ 31.09+-0.24  HCN 3sig UL 8.17  -> R43 (T_B) = 0.25+-0.00
+  E1 (r=7.8"): HCN 0.00+-0.17  HCO+ 4.06+-0.19  HCN 3sig UL 0.50  -> R43 (T_B) < 0.15 (3 sigma HCN UL / (HCO+ - 3 sigma))
+  E2 (r=6.0"): HCN 0.00+-0.17  HCO+ 0.00+-0.19  HCN 3sig UL 0.50  -> R43 (T_B) < 510.76 (3 sigma HCN UL / (HCO+ - 3 sigma))
+  W (r=7.6"): HCN 0.00+-0.17  HCO+ 0.00+-0.19  HCN 3sig UL 0.50  -> R43 (T_B) < 510.76 (3 sigma HCN UL / (HCO+ - 3 sigma))
+## nuc3+clump4: amplitudes Jy km/s @8.64x6.0 (value +- sigma_pix at the clump radius)
+  N (r=2.6"): HCN 14.81+-0.12  HCO+ 35.05+-0.24  HCN 3sig UL 15.18  -> R43 (T_B) = 0.43+-0.00
+  S (r=2.6"): HCN 7.81+-0.12  HCO+ 31.04+-0.24  HCN 3sig UL 8.17  -> R43 (T_B) = 0.25+-0.00
+  E1 (r=7.8"): HCN 0.00+-0.17  HCO+ 3.56+-0.19  HCN 3sig UL 0.50  -> R43 (T_B) < 0.17 (3 sigma HCN UL / (HCO+ - 3 sigma))
+  E2 (r=6.0"): HCN 0.00+-0.17  HCO+ 0.00+-0.19  HCN 3sig UL 0.50  -> R43 (T_B) < 510.76 (3 sigma HCN UL / (HCO+ - 3 sigma))
+  W (r=7.6"): HCN 0.00+-0.17  HCO+ 0.00+-0.19  HCN 3sig UL 0.50  -> R43 (T_B) < 510.76 (3 sigma HCN UL / (HCO+ - 3 sigma))

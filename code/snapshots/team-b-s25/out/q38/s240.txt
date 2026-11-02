@@ -1,0 +1,91 @@
+## A: 10" beam position values with zero-level offsets (Jy/beam km/s maps from s30; offset d = f*far-field mean of each line, f in -1,-0.5,0,+0.5,+1; value-at-position bilinear, 0.7" pix interpolation)
+ Xb55 J=2 E1  r= 7.8" PB(12m model)=0.85 HCN 12.38+-0.13 HCO+ 24.20+-0.15 | R_K(offset f=-1..+1): 0.524 0.521 0.518 0.515 0.511 | far-field mean HCN 0.43 HCO+ 0.54 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.4%/0.2%/0.1%
+ Xb55 J=2 E2  r= 6.0" PB(12m model)=0.91 HCN 16.41+-0.12 HCO+ 31.01+-0.13 | R_K(offset f=-1..+1): 0.540 0.538 0.536 0.533 0.531 | far-field mean HCN 0.43 HCO+ 0.54 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.2%/0.1%/0.1%
+ Xb55 J=2 W   r= 7.6" PB(12m model)=0.86 HCN 14.38+-0.12 HCO+ 28.65+-0.13 | R_K(offset f=-1..+1): 0.514 0.511 0.508 0.505 0.503 | far-field mean HCN 0.43 HCO+ 0.54 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.4%/0.2%/0.1%
+ Xb55 J=2 N   r= 2.5" PB(12m model)=0.98 HCN 35.11+-0.13 HCO+ 58.20+-0.19 | R_K(offset f=-1..+1): 0.613 0.612 0.611 0.610 0.609 | far-field mean HCN 0.43 HCO+ 0.54 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.0%/0.0%/0.0%
+ Xb4f J=3 E1  r= 7.8" PB(12m model)=0.70 HCN 7.43+-0.15 HCO+ 22.88+-0.16 | R_K(offset f=-1..+1): 0.327 0.328 0.329 0.330 0.331 | far-field mean HCN -0.14 HCO+ -0.29 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.9%/0.4%/0.2%
+ Xb4f J=3 E2  r= 6.0" PB(12m model)=0.81 HCN 10.27+-0.14 HCO+ 30.71+-0.13 | R_K(offset f=-1..+1): 0.337 0.338 0.339 0.339 0.340 | far-field mean HCN -0.14 HCO+ -0.29 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.5%/0.3%/0.1%
+ Xb4f J=3 W   r= 7.6" PB(12m model)=0.72 HCN 7.92+-0.15 HCO+ 23.70+-0.16 | R_K(offset f=-1..+1): 0.337 0.338 0.338 0.339 0.340 | far-field mean HCN -0.14 HCO+ -0.29 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.9%/0.4%/0.2%
+ Xb4f J=3 N   r= 2.5" PB(12m model)=0.96 HCN 30.69+-0.12 HCO+ 64.87+-0.15 | R_K(offset f=-1..+1): 0.479 0.479 0.479 0.479 0.479 | far-field mean HCN -0.14 HCO+ -0.29 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.1%/0.0%/0.0%
+ Xb4d J=3 E1  r= 7.8" PB(12m model)=0.70 HCN 4.72+-0.11 HCO+ 14.99+-0.11 | R_K(offset f=-1..+1): 0.389 0.356 0.319 0.274 0.219 | far-field mean HCN 2.04 HCO+ 2.60 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.9%/0.4%/0.2%
+ Xb4d J=3 E2  r= 6.0" PB(12m model)=0.81 HCN 4.61+-0.08 HCO+ 16.86+-0.07 | R_K(offset f=-1..+1): 0.346 0.314 0.277 0.233 0.182 | far-field mean HCN 2.04 HCO+ 2.60 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.5%/0.3%/0.1%
+ Xb4d J=3 W   r= 7.6" PB(12m model)=0.72 HCN 3.63+-0.11 HCO+ 14.43+-0.10 | R_K(offset f=-1..+1): 0.337 0.299 0.255 0.202 0.137 | far-field mean HCN 2.04 HCO+ 2.60 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.9%/0.4%/0.2%
+ Xb4d J=3 N   r= 2.5" PB(12m model)=0.96 HCN 21.26+-0.06 HCO+ 46.65+-0.07 | R_K(offset f=-1..+1): 0.479 0.470 0.461 0.452 0.442 | far-field mean HCN 2.04 HCO+ 2.60 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.1%/0.0%/0.0%
+ Xb47 J=4 E1  r= 7.8" PB(12m model)=0.53 HCN 2.14+-0.19 HCO+ 13.95+-0.22 | R_K(offset f=-1..+1): 0.222 0.191 0.155 0.116 0.071 | far-field mean HCN 1.28 HCO+ 1.66 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 1.6%/0.8%/0.4%
+ Xb47 J=4 E2  r= 6.0" PB(12m model)=0.69 HCN 3.65+-0.18 HCO+ 19.30+-0.17 | R_K(offset f=-1..+1): 0.238 0.216 0.191 0.165 0.136 | far-field mean HCN 1.28 HCO+ 1.66 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 1.0%/0.5%/0.2%
+ Xb47 J=4 W   r= 7.6" PB(12m model)=0.56 HCN 0.57+-0.21 HCO+ 12.11+-0.22 | R_K(offset f=-1..+1): 0.136 0.095 0.048 nan nan | far-field mean HCN 1.28 HCO+ 1.66 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 1.5%/0.7%/0.4%
+ Xb47 J=4 N   r= 2.5" PB(12m model)=0.94 HCN 18.31+-0.15 HCO+ 51.75+-0.20 | R_K(offset f=-1..+1): 0.372 0.365 0.358 0.351 0.344 | far-field mean HCN 1.28 HCO+ 1.66 | PB(nu)-ratio bias at FWHM x0.7/1/1.4: 0.2%/0.1%/0.0%
+
+## B: de-contaminated clump totals (s58d NNLS with free constant; error = sign-flip stat (+) variant spread (sys), Jy km/s): R(J)=HCN/HCO+ (K scale)
+ Xb55 J=2 E1: HCN 3.09+-0.24 HCO+ 9.04+-0.63 Jy km/s -> R_K 0.346+-0.036
+ Xb55 J=2 E2: HCN 1.08+-0.22 HCO+ 2.47+-0.62 Jy km/s -> R_K 0.443+-0.141
+ Xb55 J=2 W: HCN 5.98+-0.39 HCO+ 12.38+-0.90 Jy km/s -> R_K 0.489+-0.048
+ Xb4f J=3 E1: HCN 2.15+-0.36 HCO+ 9.18+-0.89 Jy km/s -> R_K 0.237+-0.046
+ Xb4f J=3 E2: HCN 0.00+-0.13 HCO+ 2.22+-0.45 Jy km/s -> R_K <0.119 (2 sigma; HCN 0.00+-0.13)
+ Xb4f J=3 W: HCN 2.88+-0.38 HCO+ 8.79+-0.86 Jy km/s -> R_K 0.332+-0.054
+ Xb4d J=3 E1: HCN 2.08+-0.33 HCO+ 9.31+-0.82 Jy km/s -> R_K 0.226+-0.041
+ Xb4d J=3 E2: HCN 0.17+-0.31 HCO+ 3.62+-1.04 Jy km/s -> R_K <0.221 (2 sigma; HCN 0.17+-0.31)
+ Xb4d J=3 W: HCN 0.17+-0.15 HCO+ 2.64+-0.20 Jy km/s -> R_K <0.178 (2 sigma; HCN 0.17+-0.15)
+ Xb47 J=4 E1: HCN 0.00+-0.16 HCO+ 5.62+-0.18 Jy km/s -> R_K <0.058 (2 sigma; HCN 0.00+-0.16)
+ Xb47 J=4 E2: HCN 0.00+-0.10 HCO+ 1.18+-0.50 Jy km/s -> R_K <0.172 (2 sigma; HCN 0.00+-0.10)
+ Xb47 J=4 W: HCN 0.00+-0.23 HCO+ 1.42+-0.26 Jy km/s -> R_K <0.328 (2 sigma; HCN 0.00+-0.23)
+ Xb4b J=3 E1: HCN 0.77+-0.42 HCO+ 7.62+-0.82 Jy km/s -> R_K <0.214 (2 sigma; HCN 0.77+-0.42)
+ Xb4b J=3 E2: HCN 3.56+-0.75 HCO+ 6.13+-1.23 Jy km/s -> R_K 0.588+-0.171
+ Xb4b J=3 W: HCN 0.00+-0.27 HCO+ 1.85+-0.77 Jy km/s -> R_K <0.295 (2 sigma; HCN 0.00+-0.27)
+ E1: R32(Xb4f)/R21 = 0.69+-0.15
+ E1: R32(Xb4d)/R21 = 0.65+-0.14
+ E1: R43/R21 < 0.17
+ E2: R32(Xb4f)/R21 < 0.27
+ E2: R32(Xb4d)/R21 < 0.50
+ E2: R43/R21 < 0.39
+ W: R32(Xb4f)/R21 = 0.68+-0.13
+ W: R32(Xb4d)/R21 < 0.36
+ W: R43/R21 < 0.67
+
+## C: matched 2.2" circular beam, clump aperture r=2.2" at the HCO+ peak within 1" of nominal; K km/s (RJ), +-350 km/s; 1-0 = X961 12m, 3-2 = Q34 comb (12m+7m) and c12 (12m)
+ 1-0 X961 2.2" E1  HCN  15.15+-0.54 HCO+  30.78+-0.53 K km/s  R=0.492+-0.019  (offset from nominal 0.27")
+ 1-0 X961 2.2" E2  HCN  15.17+-0.48 HCO+  33.26+-0.48 K km/s  R=0.456+-0.016  (offset from nominal 0.52")
+ 1-0 X961 2.2" W   HCN  21.16+-0.62 HCO+  43.56+-0.62 K km/s  R=0.486+-0.016  (offset from nominal 0.79")
+ 1-0 X961 2.2" N   HCN  90.91+-0.54 HCO+ 108.63+-0.53 K km/s  R=0.837+-0.006  (offset from nominal 0.24")
+ 1-0 X961 10.0" E1  HCN  11.77+-0.12 HCO+  18.68+-0.12 K km/s  R=0.630+-0.007  (offset from nominal 0.96")
+ 1-0 X961 10.0" E2  HCN  13.81+-0.11 HCO+  23.28+-0.11 K km/s  R=0.593+-0.006  (offset from nominal 0.92")
+ 1-0 X961 10.0" W   HCN  13.02+-0.13 HCO+  23.29+-0.13 K km/s  R=0.559+-0.006  (offset from nominal 0.98")
+ 1-0 X961 10.0" N   HCN  21.89+-0.14 HCO+  33.00+-0.14 K km/s  R=0.663+-0.005  (offset from nominal 0.87")
+ 3-2 comb 2.2" E1  HCN   3.20+-0.25 HCO+   8.77+-0.24 K km/s  R=0.365+-0.030  (offset from nominal 0.34")
+ 3-2 comb 2.2" E2  HCN   1.35+-0.22 HCO+   4.70+-0.10 K km/s  R=0.288+-0.048  (offset from nominal 0.46")
+ 3-2 comb 2.2" W   HCN   3.08+-0.16 HCO+   7.11+-0.19 K km/s  R=0.433+-0.026  (offset from nominal 0.93")
+ 3-2 comb 2.2" N   HCN  23.88+-0.18 HCO+  38.16+-0.16 K km/s  R=0.626+-0.005  (offset from nominal 0.16")
+ 3-2 c12 2.2" E1  HCN   2.82+-0.27 HCO+   7.96+-0.25 K km/s  R=0.355+-0.036  (offset from nominal 0.34")
+ 3-2 c12 2.2" E2  HCN   0.16+-0.20 HCO+   1.92+-0.12 K km/s  R=0.082+-0.106  (offset from nominal 0.47")
+ 3-2 c12 2.2" W   HCN   2.05+-0.16 HCO+   4.75+-0.17 K km/s  R=0.431+-0.037  (offset from nominal 0.93")
+ 3-2 c12 2.2" N   HCN  22.44+-0.18 HCO+  35.56+-0.20 K km/s  R=0.631+-0.006  (offset from nominal 0.16")
+
+## C2: 3-2/1-0 ratio of HCN/HCO+ (double ratio) at matched 2.2" per clump
+ E1 comb: R10=0.492+-0.019 R32=0.365+-0.030  R32/R10=0.742+-0.068
+ E1 c12: R10=0.492+-0.019 R32=0.355+-0.036  R32/R10=0.721+-0.078
+ E2 comb: R10=0.456+-0.016 R32=0.288+-0.048  R32/R10=0.631+-0.108
+ E2 c12: R10=0.456+-0.016 R32=0.082+-0.106  R32/R10=0.181+-0.233
+ W comb: R10=0.486+-0.016 R32=0.433+-0.026  R32/R10=0.891+-0.060
+ W c12: R10=0.486+-0.016 R32=0.431+-0.037  R32/R10=0.888+-0.081
+ N comb: R10=0.837+-0.006 R32=0.626+-0.005  R32/R10=0.748+-0.009
+ N c12: R10=0.837+-0.006 R32=0.631+-0.006  R32/R10=0.754+-0.009
+
+## C3: r31 = T_b(3-2)/T_b(1-0) per line at matched 2.2" (comb) and excitation contrast clump/N (double ratio of r31)
+ E1: r31(HCN) 0.211+-0.018 (clump/N 0.80+-0.07); r31(HCOp) 0.285+-0.009 (clump/N 0.81+-0.03);
+ E2: r31(HCN) 0.089+-0.015 (clump/N 0.34+-0.06); r31(HCOp) 0.141+-0.004 (clump/N 0.40+-0.01);
+ W: r31(HCN) 0.145+-0.009 (clump/N 0.55+-0.03); r31(HCOp) 0.163+-0.005 (clump/N 0.46+-0.01);
+ N: r31(HCN) 0.263+-0.002 (clump/N 1.00+-0.01); r31(HCOp) 0.351+-0.002 (clump/N 1.00+-0.01);
+
+## D: PB mask: positions with PB>=cut (12-m Gaussian model | 7-m-like FWHM x1.7); R_K at the position
+ Xb55 E1 PB12=0.85 PB7=0.95 R_K=0.518  0.3:Y|Y  0.5:Y|Y  0.7:Y|Y
+ Xb55 E2 PB12=0.91 PB7=0.97 R_K=0.536  0.3:Y|Y  0.5:Y|Y  0.7:Y|Y
+ Xb55 W PB12=0.86 PB7=0.95 R_K=0.508  0.3:Y|Y  0.5:Y|Y  0.7:Y|Y
+ Xb4f E1 PB12=0.70 PB7=0.88 R_K=0.329  0.3:Y|Y  0.5:Y|Y  0.7:Y|Y
+ Xb4f E2 PB12=0.81 PB7=0.93 R_K=0.339  0.3:Y|Y  0.5:Y|Y  0.7:Y|Y
+ Xb4f W PB12=0.72 PB7=0.89 R_K=0.338  0.3:Y|Y  0.5:Y|Y  0.7:Y|Y
+ Xb4d E1 PB12=0.70 PB7=0.88 R_K=0.319  0.3:Y|Y  0.5:Y|Y  0.7:Y|Y
+ Xb4d E2 PB12=0.81 PB7=0.93 R_K=0.277  0.3:Y|Y  0.5:Y|Y  0.7:Y|Y
+ Xb4d W PB12=0.72 PB7=0.89 R_K=0.255  0.3:Y|Y  0.5:Y|Y  0.7:Y|Y
+ Xb47 E1 PB12=0.53 PB7=0.80 R_K=0.155  0.3:Y|Y  0.5:Y|Y  0.7:n|Y
+ Xb47 E2 PB12=0.69 PB7=0.88 R_K=0.191  0.3:Y|Y  0.5:Y|Y  0.7:n|Y
+ Xb47 W PB12=0.56 PB7=0.82 R_K=0.048  0.3:Y|Y  0.5:Y|Y  0.7:n|Y

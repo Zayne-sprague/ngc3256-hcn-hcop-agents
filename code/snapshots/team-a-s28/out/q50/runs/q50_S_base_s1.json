@@ -1,0 +1,1 @@
+{"reg": "S", "mode": "base", "seed": 1, "nlive": 1500, "logZ": -28.069241669297856, "logZerr": 0.13879993342089214, "ess": 11269.233326016236, "sec": 552.8698065280914, "chi2min": 8.394544527909582, "names": ["lTc_S", "nc_S", "NHc_S", "NOc_S", "lfc_S", "lw_S", "lTe", "ne", "NHe", "NOe", "lwe"]}

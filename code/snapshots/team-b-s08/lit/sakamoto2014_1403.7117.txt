@@ -1,0 +1,7252 @@
+arXiv:1403.7117v1  [astro-ph.GA]  27 Mar 2014
+submitted to ApJ on Mar. 04, 2014
+Preprint typeset using L ATEX style emulateapj v. 5/2/11
+A LUMINOUS INFRARED MERGER WITH TWO BIPOLAR MOLECULAR OUTFL OWS:
+ALMA AND SMA OBSER V ATIONS OF NGC 3256
+Kazushi Sakamoto 1, Susanne Aalto 2, Francoise Combes 3, Aaron Evans 4,5, and Alison Peck 4
+submitted to ApJ on Mar. 04, 2014
+ABSTRACT
+We report ALMA and SMA observations of the luminous infrared merg er NGC 3256, the most
+luminous galaxy within z = 0 .01. Our data show that both of the two merger nuclei separated
+by 5 ′′ (0.8 kpc) on the sky have a compact concentration of molecular gas . We identify them as
+nuclear disks with molecular gas surface densities over 10 3 M⊙pc−2 and determine that while one
+at the northern nucleus is nearly face-on the other at the southe rn nucleus is almost edge-on. The
+northern nucleus is more massive and has molecular arcs and spiral a rms around. The high-velocity
+molecular gas previously found in the system is resolved to two compo nents. They are two molecular
+outﬂows associated with each of the two nuclei. The molecular outﬂo w from the northern nuclear
+disk is part of a starburst-driven superwind seen nearly pole on. It has a maximum velocity greater
+than 750 km s −1 and its mass outﬂow rate is estimated to be ≥ 60 M⊙yr−1 for a conversion factor
+NH2/ICO(1−0) of 1 × 1020 cm−2 (K km s −1)−1. The outﬂow from the southern nucleus is a highly
+collimated bipolar molecular jet seen nearly edge-on. Its line-of-sigh t velocity increases with distance
+out to 300 pc from the southern nucleus. The maximum de-project ed velocity is on the order of 2000
+km s −1 for the estimated inclination and should exceed 1000 km s −1 even allowing for its uncertainty.
+The mass outﬂow rate is estimated to be > 50 M⊙yr−1 for this outﬂow. There are possible signs
+that this southern outﬂow has been driven by a bipolar radio jet fro m an AGN that became inactive
+very recently. The sum of these outﬂow rates, although subject to the uncertainty in the molecular
+mass estimate, either exceeds or compares to the total star for mation rate in NGC 3256. The feedback
+from nuclear activities in the form of molecular outﬂows is therefore signiﬁcant in the gas consumption
+budget, and hence evolution, of this luminous infrared galaxy.
+Subject headings: galaxies: active — galaxies: interactions — galaxies: individual (NGC 32 56) —
+galaxies: ISM — ISM: jets and outﬂows
+1. INTRODUCTION
+NGC 3256 is an infrared-luminous merger with a bolo-
+metric luminosity of Lbol = 4 × 1011L⊙ (D = 35 Mpc,
+see Table 1 for other parameters). Its two nuclei with a
+projected separation of 5 ′′ = 850 pc (Zenner & Lenzen
+1993; Norris & Forbes 1995) and two long tidal tails of
+stars and H I gas (English et al. 2003) indicate that the
+system is in a late stage of merging between two disk
+galaxies (Toomre 1977). NGC 3256 belongs to the se-
+quence of ‘most luminous galaxies within their distance
+ranges’, which are, beyond the local group, NGC 253,
+M82, NGC 1068, NGC 3256, Arp 299, and Arp 220 in
+the catalogue of Sanders et al. (2003). It is therefore
+among the best targets to explore luminosity-related phe-
+nomena in local galaxies, although its location at Dec.
+= −43◦ impeded its studies compared to other galaxies
+in the sequence. Sakamoto, Ho, & Peck (2006, hereafter
+SHP06) made the ﬁrst interferometric imaging of a CO
+line emission in NGC 3256 soon after the commission-
+ing of the Submillimeter Array (SMA) and discovered
+wide CO line wings underlying the much brighter narrow
+component in previous observations (e.g., Sargent et al.
+1 Academia Sinica, Institute of Astronomy and Astrophysics,
+Taiwan
+2 Department of Earth and Space Sciences, Chalmers Univer-
+sity of Technology, Onsala Space Observatory, Onsala, Swed en
+3 Observatoire de Paris, 61 Av. de l’Observatoire, 75014,
+Paris, France
+4 NRAO, Charlottesville, V A, U.S.A.
+5 University of Virginia, Charlottesville, V A, U.S.A.
+1989; Aalto et al. 2002). The wing CO emission was at-
+tributed to a molecular outﬂow from the face-on merger.
+The detection of a galactic molecular outﬂow from faint
+and wide CO line wings became possible at that time
+owing in part to the new wide-band capabilities of the
+SMA. Many extragalactic molecular outﬂows have been
+detected since then through broad CO line wings caught
+with wide-band spectrometers (e.g., Feruglio et al. 2010;
+Chung et al. 2011; Alatalo et al. 2011) 6 Such molecu-
+lar outﬂows coexist with outﬂows of ionized and atomic
+gas and are expected to have signiﬁcant impact on
+the luminosity-generation activities in galaxies and the
+evolution of galaxies themselves (Veilleux et al. 2005;
+Carilli & Walter 2013, for reviews).
+We have used the new Atacama Large Millimeter/sub-
+millimeter Array (ALMA) in its ﬁrst open-use (Cycle 0)
+to further study NGC 3256. We aimed at the structure
+and properties of the molecular gas around the luminous
+merger nuclei including the high-velocity molecular gas.
+Although the broad CO wings had been conﬁrmed and
+6 Detection of molecular outﬂows from broad OH lines dates
+back much further (Baan et al. 1989, and references therein) .
+Galactic outﬂows of cold molecular gas have been also found
+from oﬀ-plane molecular gas of edge-on galaxies [e.g., Naka i et al.
+(1987) toward M82 and Turner (1985), Garc ´ ıa-Burillo et al.
+(2000), and Bolatto et al. (2013a) toward NGC 253] and from
+blueshifted molecular absorption lines against nuclear co ntinuum
+(e.g., Baan et al. 1989; Sakamoto et al. 2009; Fischer et al. 2 010,
+for Arp 220 and Mrk 231). All galaxies mentioned here belong t o
+the above-mentioned elite sequence of luminous nearby gala xies.
+2 SAKAMOTO et al.
+found to be even broader in the ALMA commissioning
+and science veriﬁcation data (Sakamoto 2013) its struc-
+ture was still largely unconstrained. We therefore ob-
+served the galaxy in the 3 and 0.8 mm bands in ALMA
+Cycle 0 and also made supplemental 1.3 mm observations
+with the SMA. These new observations provide much
+higher spatial resolution than before for the circumnu-
+clear molecular gas, up to about 1 ′′ for CO(1–0), 0 .′′8 for
+CO(2–1), and 0 .′′5 for CO(3–2). We also obtained high-
+resolution high-sensitivity data of CN(1–0), CH 3CCH(6–
+5), 13CO(2–1), HCO +(4–3), and 3 and 0.8 mm contin-
+uum. In this paper, we report these new observations
+and give an overall account of the spatial and kinemati-
+cal structure of the molecular gas in the center of NGC
+3256. We found the high-velocity gas to be two bipolar
+molecular outﬂows from the two nuclei and that the two
+outﬂows have distinctively diﬀerent properties from each
+other.
+We describe our observations and data reduction in
+Section 2 and present our observational results in Sec-
+tion 3. We use the data in Section 4 to constrain the
+merger conﬁguration, which is critical to interpret the
+observed gas motion. In Section 5 we present our two-
+outﬂow model for the observed velocity structure and
+gas distribution. The one from the southern nucleus has
+remarkable properties in its velocity ﬁeld, high velocity,
+high collimation, and large energy. We discuss its driving
+mechanism in Section 6. Section 7 compares our ﬁnd-
+ings in NGC 3256 with similar objects and phenomena
+in galaxies and then summarizes our conclusions.
+2. OBSER V ATIONS
+2.1. ALMA
+Our ALMA observations in Cycle 0 were made in 2011–
+2012 using up to twenty-three 12 m-diameter antennas as
+summarized in Table 2. We observed in the 3 mm band
+(Band 3) and the 0.85 mm band (Band 7) each in two
+array conﬁgurations jointly covering projected baselines
+between 15 m and about 370 m. The Band 3 observa-
+tions were for a single pointing at a position between the
+two nuclei. The primary beam of the ALMA 12 m an-
+tennas has a full width at half maximum (FWHM) of
+53′′ at the frequency of the redshifted CO(1–0) line 7. In
+Band 7 we made a seven-point hexagonal mosaic with
+the same central position and a 7 .′′3 spacing between ad-
+jacent pointings. The FWHM of the individual primary
+beam is 18 ′′ and that of the mosaicked primary beam is
+about 25 ′′ for the redshifted CO(3–2) line. We used a
+correlator setup having 0.488 MHz channel spacing and
+about 3.5 GHz continuous coverage in each sideband.
+We also combined with our Band 3 data an earlier
+ALMA dataset obtained through the Commissioning and
+Science Veriﬁcation (CSV) program carried out by the
+Joint ALMA Observatory. The CSV observations, also
+listed in Table 2, had about the same on-source integra-
+tion time of 3 hr as our Cycle 0 observations albeit with
+7 or 8 antennas. They provide dense sampling of short
+projected baselines between 12 m and 90 m. The CSV
+observations were made toward a slightly oﬀset position
+(4.′′2 from our Cycle 0 observations) with a correlator
+7 The FWHM size of the primary beam is assumed to be
+1.17(λ/12) for ALMA and 1 .15(λ/6) for SMA, where λ is the wave-
+length in meters.
+setup of 15.6 MHz channel spacing and with almost the
+same frequency coverage as our Cycle 0 observations (Ta-
+ble 3). The CSV and Cycle 0 data were combined as a
+mosaic because of the pointing oﬀset.
+All ALMA data were calibrated from the raw data 8 in
+a uniform manner using the CASA 9 reduction package
+versions 4.0 and 4.1. Most notably, we used the ‘Butler-
+JPL-Horizons 2012’ model for Titan and Mars in our
+ﬂux calibration, measured and accounted for the spectral
+slopes of our bandpass and gain calibrators in our calibra-
+tion, and checked the ﬂatness of our spectral bandpass
+by looking at the spectrum of the gain calibrator after
+all calibrations. Data showing non-linear baselines were
+ﬂagged. The versions of CASA that we used do not allow
+to ﬂag only one of the two linear polarizations on individ-
+ual baselines because the two polarizations share a ﬂag-
+ging variable in the data structure. Therefore, when one
+of the two linear polarizations on a baseline was found
+faulty the remaining one was copied over the corrupted
+one and both the original and copied visibilities were
+down-weighted to conserve the net weights of the res-
+cued data.
+Imaging and basic data analysis were also made in
+CASA. For lines we binned our data to spectral reso-
+lutions of 4, 10, and 20 MHz for Cycle 0 Band 3, 15.6
+MHz for the combined CSV+Cycle 0 data in Band 3,
+and 10 and 30 MHz for Band 7. Table 4 lists the six
+lines detected in our ALMA data as well as two no-
+table non-detections. We made continuum data after
+carefully inspecting the full widths of these lines and by
+summing up line-free channels. The continuum has been
+subtracted from our line data in the u–v domain for the
+CSV+Cycle 0 data and in the image domain for the rest.
+This is because we are most interested in weak and broad
+line emission near the phase center in the former dataset
+while better subtraction across the imaging area is more
+desired for other datasets.
+Parameters of our reduced data are summarized in Ta-
+bles 5 and 6. Compared to our previous SMA obser-
+vations the new ALMA observations improved spatial
+resolution by about a factor of three and sensitivity in
+line brightness temperature by about an order of magni-
+tude. Our CO(1–0) data cubes made from the Cycle 0
+data alone recovered 76–87% of the single-dish ﬂux mea-
+sured with a 43 ′′ beam (FWHM) by Aalto et al. (1995).
+The fraction is highest in the data cube made with lower
+weights to longer baselines. We recovered 91–97% of
+the single-dish CO(1–0) ﬂux in the cubes made from the
+CSV+Cycle 0 data. We expect similar or higher recov-
+ery rates for other Band 3 lines and continuum but the
+recovery rate must be lower for emission in Band 7 be-
+cause the central hole in the u–v plane is larger in Band
+7.
+2.2. SMA
+We added to our SMA 1.3 mm observations reported in
+SHP06 new data taken in 2008, increasing the maximum
+projected baseline from 179 m to 509 m and doubling
+the total on-source time from 6.9 hr to 12.9 hr. The new
+observations in two nights had 7 antennas and excellent
+weather with the 220 GHz zenith opacity between 0.04
+8 in ALMA Science Data Model format
+9 Common Astronomy Software Applications
+NGC 3256 Molecular Outﬂows 3
+and 0.06. We observed the same position as in our pre-
+vious observations (as well as our ALMA observations)
+using the tuning for the same three J = 2–1 lines as
+before, namely, 12CO, 13CO, and C 18O although only
+the ﬁrst two were bright enough to be imaged at high
+angular resolutions. The primary beam of the SMA 6-m
+antennas has a FWHM size of 52 ′′ at the frequency of the
+redshifted CO(2–1) line. The data were reduced with the
+same steps as before using the MIR reduction package.
+2.3. Conventions
+The oﬀset coordinates in this paper are with respect
+to our SMA and ALMA Cycle 0 phase-tracking cen-
+ter in Table 1. We adopt radio positions for the two
+merger nuclei, namely, R.A. = 10 h27m51.s23, Dec. =
+−43◦54′14.′′0 (J2000) for the northern (N) nucleus and
+R.A. = 10 h27m51.s22, Dec. = −43◦54′19.′′.2 (J2000) for
+the southern (S) nucleus (Neﬀ et al. 2003). Our phase
+tracking center is the midpoint of these nuclei with the
+last RA digit rounded up. We use radio-deﬁned veloc-
+ity with respect to the Local Standard of Rest (LSR)
+throughout this paper (LSRK in the ALMA terminol-
+ogy). We adopt 2775 km s −1 (radio, LSR) for the sys-
+temic velocity of the galaxy and measure oﬀset velocities
+from this Vsys (e.g., in presenting channels maps). Our
+previous SMA observations found this to be a good ﬁdu-
+cial velocity not only for the whole system but also for
+individual nuclei because they almost align on the kine-
+matical minor axis of the merger (SHP06).
+3. OBSER V ATIONAL RESULTS
+3.1. Continuum
+The 3 mm continuum emission shown in Fig. 1 (a)
+peaks at the two nuclei and is extended to a radius of at
+least 20 ′′ (3 kpc) with arcs and arm-like features in the
+region. Millimeter continuum at 1.3 mm also peaks at the
+two nuclei (SHP06). The nuclear peaks and the extended
+emission at 3 mm are morphologically similar to those
+previously observed at 6 and 3.6 cm (Norris & Forbes
+1995; Neﬀ et al. 2003, in their Fig. 1). Both nuclei are
+resolved in our 0.86 mm continuum images in Fig. 1 (b),
+(c). The northern nucleus has a high-intensity plateau
+with a diameter of about 2 ′′ (0.3 kpc) and the south-
+ern nucleus has a compact ( ∼0.′′5, 80 pc) peak with a
+linear feature elongated by about 3 ′′ (0.5 kpc) in the
+east-west direction through the nucleus. The extent of
+the northern nucleus agrees with that in X-rays (FHWM
+∼1.′′5 in 0.5–10 keV measured by Lira et al. 2002). Our
+highest-resolution continuum image in Fig. 1 (c) hints
+at a (broken) ring in the plateau around the northern
+nucleus. It is comparable in size to an optical ring-like
+structure noted by Laine et al. (2003). There is also con-
+spicuous bridge-like emission between the two nuclei. It
+emanates from the circumnuclear region of the north-
+ern nucleus and curves toward the western side of the
+elongated continuum emission across the southern nu-
+cleus. This feature and the near linear emission across
+the southern nucleus, are present in the 3.6 cm contin-
+uum data of Neﬀ et al. (2003, their Figs. 1, 2). The
+peak brightness temperatures in Fig. 1 are between 0.08
+and 0.24 K. The compact southern nucleus shows higher
+peak brightness temperatures when the northern circum-
+nuclear plateau is spatially resolved.
+We measured the spectral slope of the continuum emis-
+sion at 2.8 mm and 0.86 mm by comparing the data in
+the upper and lower sidebands separated by about 12
+GHz from each other. We used for this single-sideband
+continuum images that have a common spatial resolution
+and were made with a common u–v baseline lengths; the
+shortest baselines in the LSB and the longest in the USB
+were ﬂagged for this. Unfortunately, we cannot reliably
+compare the 2.8 mm and 0.86 mm data to estimate the
+spectral index between them because the diﬀerence in
+their u–v coverages is too large. The spectral index α
+of the continuum emission (for Sν ∝ να where ν is fre-
+quency and Sν is ﬂux density) is found to be −0.1 at 2.8
+mm and +3 at 0.86 mm in the central 20 ′′. The spectral
+indexes at the individual nuclei are also measured and
+listed in Table 7. It is found that α is signiﬁcantly larger
+at 0.86 mm than at 2.8 mm also for each nucleus. More-
+over, α is found larger at the northern nucleus than at the
+southern nucleus clearly at 0.86 mm and also at 2.8 mm.
+The spectral index α is 3–4 for thermal dust emission
+that is optically thin because dust mass opacity coeﬃ-
+cient has a power law index of 1–2. Free-free emission
+from thermal electrons often has a spectral index around
+−0.1. Synchrotron emission from galaxy nuclei often has
+a spectral index of about −1 (±0.5). The smaller α of the
+southern nucleus is consistent with the nucleus having a
+larger fraction of free-free or synchrotron emission and
+less of dust thermal emission than the northern nucleus.
+3.2. Line
+Line maps are shown in Figures 2 and 3 for the eight
+lines that we imaged. Plots shown are: the integrated
+intensity, intensity-weighted mean velocity, intensity-
+weighted velocity dispersion, and peak brightness tem-
+perature. Also shown are line channel maps in Figs 4,
+5, 6, 7, and 8. They are of low velocity resolutions for
+space reasons although we also made data cubes with
+higher velocity resolutions. Note that contour levels are
+switched between channels with and without strong sig-
+nals in the CO channel maps in order to display both
+faint high-velocity emission and strong emission near the
+systemic velocity.
+3.2.1. Spatial Distribution
+All the molecular lines have emission peaks at or near
+the two nuclei, as does the continuum emission. The de-
+gree of concentration and the relative strengths of the
+two nuclei vary among the lines. The bridge-like fea-
+ture between the northern and southern nuclei is also
+visible in line emission, most clearly in CO(2–1), (3–2)
+and HCO +(4–3) integrated intensity images. There are
+other arc features; some are seen in continuum and some
+are visible only in the line data. The near-linear feature
+crossing the southern nucleus in the east-west direction
+is also visible in line emission, most clearly in CO(3–2)
+and HCO +(4–3).
+3.2.2. Velocity Field
+Large scale: The CO(1–0) velocity map in Fig. 2 shows
+overall rotation in the central ∼5 kpc with the receding
+major axis at position angle ∼70◦. Signiﬁcant deviations
+from circular motion at this scale are visible mostly at
+the locations of the arm-like features. The apparent kine-
+matical major axis is at p.a. ∼90◦ within about 1 kpc
+4 SAKAMOTO et al.
+from the nuclei. Both nuclei are therefore approximately
+on the apparent kinematical minor axis at this scale, as
+seen in e.g., the 1st moment maps of CO(1–0), CO(2–1)
+and CN(1–0). These large scale kinematics of molecular
+gas are consistent with those in SHP06.
+N nucleus: Further inside and around the northern nu-
+cleus, our data show rotation within about 300 pc from
+the nucleus. This clearly appears as a butterﬂy-like pat-
+tern of isovelocity contours in the mean velocity maps
+of HCO +(4–3) (Fig. 3) and CO(3–2) (Fig. 9 b), the
+latter of which was made only with brighter circumnu-
+clear emission. We ﬁtted the velocity ﬁeld to estimate
+the kinematical major axis to be at p .a. ≈ 75◦ and the
+disk inclination to be i ≈ 30◦ for a region with a 3 ′′
+major axis diameter. This kinematical major axis rea-
+sonably agrees with the morphological major axis of the
+circumnuclear high-intensity region in CO, HCO +, and
+0.86 mm continuum emission around the northern nu-
+cleus. The kinematical major axis gradually changes its
+position angle in the sense that it is smaller, about 60 ◦,
+at larger radii and is about 90 ◦ closer to the nucleus.
+This may be due to warp of the northern nuclear disk or
+non-circular motions of the gas in the disk.
+S nucleus: The southern nucleus has in its vicinity a
+velocity gradient in the east-west direction (p .a. ≈ 90◦)
+in the mean velocity maps. The isovelocity contours,
+however, do not show a clear butterﬂy pattern there.
+Also, the largest gradient of mean velocity is at about
+0.′′5 east of the southern radio nucleus (white plus sign).
+It is in contrast to the peaks of line integrated intensity
+that are often at slightly west or northwest, by about 0 .′′3
+– 0 .′′5, from the nucleus (e.g., in CO, 13CO, CN, but not
+in HCO +). We are going to model in the following the
+near-linear feature running east-west across the S nucleus
+as a near edge-on circumnuclear disk of radius ∼300 pc.
+The lack of clear butterﬂy pattern around the southern
+nucleus is attributed to the edge-on viewing angle.
+Between the Nuclei: Conspicuously, the most red-
+shifted CO(3–2) emission is located by about 2 ′′ south
+of the northern nucleus, as seen in the CO(3–2) mean
+velocity map in Fig. 2. This is due to the high-velocity
+wing of CO emission and is the reason for the very large
+line width at the same location in the CO(3–2) line-width
+map. This feature does not show up in Fig. 9b because
+the wing emission is faint and below the cutoﬀ used for
+the moment analysis. The high-velocity emission is sep-
+arately described in §3.3 along with the line width infor-
+mation in Fig. 2 and 3.
+3.2.3. Peak Tb and Integrated Intensity
+The three 12CO lines have peak integrated intensities
+on the order of 2 × 103 K km s −1 and maximum bright-
+ness temperatures of about 20 K, both at about 1 ′′ res-
+olution. The maxima are 22.4 K and 2730 K km s −1 in
+CO(3–2) at our highest spatial resolution (0 .′′58 × 0.′′39 ≈
+80 pc). The peaks of line emission are in the vicinity
+of the two nuclei, the spiral feature running between the
+two nuclei, and in the linear feature across the western
+nucleus, particularly in its western side. At least for these
+regions, our data do not show signiﬁcant decline of (inte-
+grated) intensity in higher transitions that would suggest
+signiﬁcantly subthermal excitation or signiﬁcant increase
+in (integrated) intensity arising from optically-thin emis-
+sion from thermalized warm molecular gas.
+Other lines are much weaker than the 12CO lines, hav-
+ing peak brightness temperatures at about 1 K or lower.
+Possible reasons for this include that these lines are opti-
+cally thin, have lower excitation temperatures than 12CO
+(i.e., subthermally excited), and are emitted from smaller
+regions than the 12CO lines.
+3.2.4. Line Flux, Gas Mass, and Surface Density
+The total ﬂux of CO line emission is measured to be
+1.0 × 103, 3 .0 × 103, and 5 .7 × 103 Jy km s −1 for J=1–0,
+2–1, and 3–2 transitions, respectively, in a 20 ′′ diameter
+aperture centered at the midpoint of the two nuclei. The
+CO(1–0) ﬂux in the concentric 40 ′′ diameter aperture is
+1.6 × 103 Jy km s −1. These are corrected for the primary
+beam (and mosaic) responses but not for any missing
+ﬂux in the interferometric data. The ﬂuxes above are
+measured in data cubes with resolutions ∼2.′′7, ∼0.′′6, and
+∼0.′′6 for CO(1–0), (2–1), and (3–2), respectively. The
+CO(2–1) ﬂux in the same 20 ′′ aperture is measured to be
+4.0 × 103 Jy km s −1 in a ∼3.′′0 resolution data cube.
+We note that the CO(2–1) to CO(1–0) ﬂux ratio at
+about 3 ′′ resolution, 4.0 with ∼10% calibration uncer-
+tainty, is what is expected for the thermalized optically
+thick gas at /greaterorsimilar 30 K. The two data sets have about the
+same ranges of baseline length in units of wavelength
+and hence the ratio must be aﬀected little by missing
+ﬂux. The CO(3–2) to (2–1) ratio at about 0 .′′6 resolution
+is 1.9 in ﬂux and 0.86 in brightness temperature. It is
+fully compatible with thermalized optically thick CO at
+/greaterorsimilar 30 K considering the calibration uncertainties and the
+probably larger missing ﬂux in the CO(3–2) data. On
+the whole, the data are consistent with the CO being
+thermalized at least up to J = 3 and optically thick.
+We estimate the mass of molecular gas using the CO(1–
+0) to H 2 mass conversion factor XCO ≡ NH2 /ICO(1−0) =
+1 × 1020 cm−2 (K km s −1)−1 and 36% mass contribution
+from He. We do not have the true XCO in NGC 3256 nor
+do we have a strong reason to believe that XCO is con-
+stant across the galaxy. Therefore we give our molecular
+gas masses with the parameter X20 that is XCO in units
+of 1 × 1020 cm−2 (K km s −1)−1. While X20 is unity for
+our assumed (i.e., ﬁducial) conversion factor, this param-
+eterization allows our mass estimates to be easily rescaled
+when a more plausible value of XCO is given. The conver-
+sion factors estimated with various methods in galaxies
+at solar metallicities or higher are usually in the range of
+X20= 0.3 – 3 with high values for ‘normal’ galaxies such
+as our Galaxy in its disk and low values for luminous
+infrared galaxies (see Bolatto et al. 2013b, for a review).
+Bolatto et al. (2013b) recommend X20=0.4 with an un-
+certainty of 0.5 dex for luminous starburst galaxies and
+SHP06 obtained a value within 10% of it for the central
+3 kpc of NGC 3256 after averaging various estimates.
+In this paper, however, we adopt the normalization with
+X20=1 partly for simplicity and also because the gas to
+dynamical mass ratios that we later calculate for the nu-
+clei and for a larger area appear more reasonable with
+X20=1. In any case, we expect a factor of 3 uncertainty
+in our adopted X20 of 1.0 and therefore X20=0.4 is within
+the uncertainty. The conversion factor between CO(1–0)
+integrated intensity and molecular gas surface density is
+αCO ≡ Σmol/ICO(1−0) = 2.2X20 M⊙pc−2(K km s −1)−1.
+The molecular gas mass estimated from our CO(1–0)
+NGC 3256 Molecular Outﬂows 5
+line ﬂux is Mmol(r ≤ 10′′) = 7 × 109X20 M⊙ in the
+central 20 ′′ diameter aperture and Mmol(r ≤ 20′′) =
+1 × 1010X20 M⊙ for the central 40 ′′ (7 kpc). The scaling
+parameter X20 should be read as the average value for
+each region in consideration. The peak molecular gas sur-
+face densities toward individual nuclei are 4 ×103X20 and
+3×103X20 M⊙pc−2 for the northern and southern nuclei,
+respectively, at ∼1.′′4 (240 pc) resolution on the basis of
+the CO(1–0) data in Fig. 2. The southern nucleus has
+the highest CO integrated intensity in the merger and
+its peak gas column density is Σ mol(S) = 6 × 103X20
+M⊙pc−2 in our ∼0.′′5 (80 pc) resolution CO(3–2) data in
+Fig. 2. Here we do not correct for the diﬀerent transi-
+tion because of the CO excitation inferred above. Con-
+verting this peak molecular gas column density to the
+peak hydrogen and proton column densities, we obtain
+toward the southern nucleus log( NH,equiv./cm−2) = 23 .9
+and log( Np/cm−2) = 23 .8. The former converts H 2 and
+He with hydrogen atoms of equivalent mass and the latter
+gives proton column density. Both have 0.5 dex uncer-
+tainty inherited from the uncertainty in X20.
+3.3. High Velocity Emission
+We detected wide faint line wings in our data, most
+clearly in CO(1–0) and (3–2) and also in CN(1–0). The
+new sensitive ALMA data not only conﬁrm the previous
+detection of SHP06 but also better constrain the velocity
+extent and spatial distribution of the high velocity gas.
+3.3.1. Channel Maps
+Figures 10 and 11 show our CO(1–0) and CN(1–0)
+channel maps, respectively, made with u–v tapering (i.e.,
+spatial smoothing) and wide channel widths to better de-
+tect high-velocity emission. These Band 3 images use the
+CSV and Cycle 0 data combined to maximize sensitivity.
+Continuum was determined more than 750 (400) km s −1
+away from Vsys for the CO (CN) lines and has already
+been subtracted from each data cube. The CO(1–0) data
+show > 3σ emission from −650 km s −1 to +650 km s −1
+around the northern nucleus, up to about 500 km s −1
+from Vsys between the two nuclei, and up to ∼Vsys ± 400
+km s −1 around the southern nucleus. At the oﬀset from
+Vsys of about 300 km s −1, redshifted emission is stronger
+than the blueshifted and the former peaks between the
+two nuclei. The same is observed in CN(1–0) and was
+also the case in the CO(2–1) observations of SHP06 in
+which the wing emission was ﬁrst found up to Vsys ± 300
+km s −1.
+Figure 12 shows CO(3–2) channel maps displaying
+blueshifted and redshifted emission on the same panel
+for the same absolute oﬀset from Vsys. The background
+image in gray scale is continuum. The upper panels
+(Fig. 12a) are our 1 .′′1 resolution data. Emission stronger
+than 4 σ is detected up to 450 km s −1 from Vsys in both
+blueshifted and redshifted velocities. The northern nu-
+cleus has emission up to this largest oﬀset velocity and
+the centroid of the blueshifted emission is on the north-
+western side of the nucleus while the redshifted emis-
+sion centroid is on the southeastern side. Around the
+southern nucleus, redshifted and blueshifted emission
+are roughly symmetrical about the nucleus, redshifted
+to the north and blueshifted to the south, except for
+the redshifted emission extending east from the south-
+ern nucleus at the leftmost channel. It is also notable
+that emission more than about 300 km s −1 from Vsys is
+clearly detached from the southern nucleus unlike the
+high velocity emission around the northern nucleus. The
+lower panels (Fig. 12b) are our 0 .′′5 resolution channel
+maps for the high velocity emission. They more clearly
+show the symmetry around the southern nucleus. No-
+table new observations here are that the high velocity
+gas has clumps in the extended structures and that the
+blueshifted gas slightly curves toward west at larger dis-
+tances from the southern nucleus. The highest velocity
+emissions are again clearly detached, by about 1 .′′8 (310
+pc), from the southern nucleus. Little CO emission is de-
+tected around the northern nucleus in these higher res-
+olution data indicating that the high velocity CO(3–2)
+emission around the northern nucleus is more extended
+than that around the southern nucleus. The extent of the
+high-velocity blueshifted gas is larger around the north-
+ern nucleus than around the southern nucleus also in
+CO(1–0) as seen in Fig. 13a.
+3.3.2. High-Velocity Line Flux
+The ﬂux of the high velocity CO emission has been
+measured by only integrating the high velocity chan-
+nels. Fig. 13 shows CO(1–0) maps integrating about
+530 km s −1-wide ranges oﬀset by about 220–750 km s −1
+from our ﬁducial velocity ( Vsys) 2775 km s −1. The
+CO(1–0) ﬂux in our 2 .′′7 resolution data (Fig. 13b) is
+8.9, 3.2, and 1.2 Jy km s −1 for the redshifted emis-
+sion, blueshifted emission associated with the northern
+nucleus, and blueshifted emission associated with the
+southern nucleus, respectively. The response of the pri-
+mary beam was corrected for these measurements and
+the blueshifted emission about 15 ′′ east of the nuclei ex-
+cluded as it is associated with an arm there and is de-
+tected only down to about Vsys − 300 km s −1. In total
+this high velocity emission has 1.3% of the total CO(1–0)
+ﬂux detected in the central 20 ′′ diameter aperture given
+in §3.2.4. The ﬂux of CO(3–2) emission integrated in
+the same velocity ranges in our 0 .′′6 resolution data are
+40, 11, and 21 Jy km s −1 for the redshifted emission,
+blueshifted emission associated with the northern nu-
+cleus, and blueshifted emission associated with the south-
+ern nucleus, respectively. In total this high velocity emis-
+sion has 1.2% of the total CO(3–2) ﬂux in the central 20 ′′
+given in §3.2.4.
+3.3.3. High-Velocity Gas Mass
+The total mass of the high-velocity molecular gas
+is calculated to be Mmol(223 km s −1 ≤ | V − Vsys| ≤
+752 km s −1) = 8 .8 × 107X20 M⊙ from the high-velocity
+CO(1–0) line ﬂux. The mass of high-velocity molecular
+gas associated with each nucleus is estimated to be 6 .3 ×
+107X20 M⊙ for the northern nucleus and 2 .5×107X20 M⊙
+for the southern nucleus under the assumption that the
+redshifted high-velocity gas is composed of gas associ-
+ated with the two nuclei with the same fractions as in
+the blueshifted high-velocity gas (i.e., 72% to the north
+and 28% to the south.) We use the ratio in our CO(1–0)
+data and not the ratio of N : S = 34 : 66 in our CO(3–2)
+data. This is because the former data suﬀer less from
+missing ﬂux. Also CO(1–0) is less aﬀected by any diﬃ-
+culty in CO excitation in the high velocity gas.
+6 SAKAMOTO et al.
+We assume, unless otherwise noted, that the X20 value
+is unity for the high-velocity gas as we did for the bulk
+CO emission of NGC 3256. This is partly motivated by
+our observation that the fraction of the high-velocity ﬂux
+with respect to the total ﬂux is almost the same in CO(1–
+0) and CO(3–2). This can be, though not uniquely so,
+because the physical properties of the high-velocity gas
+and those of the gas at lower velocities are not drastically
+diﬀerent from each other. Our choice is also because we
+have insuﬃcient information to specify a diﬀerent value.
+A possible alternative choice of XCO for the high-
+velocity gas, which we suggest below to be high-velocity
+outﬂows, is the one for optically thin CO emission. This
+is possible because the peak CO brightness temperature
+of the high-velocity emission is only on the order of 0.5
+K for CO(1–0) and 1.5 K for CO(3–2) in Figs. 4 and
+7. In beam-matched data of 1 .′′6 × 1.′′2 resolution, the
+CO(3–2) to CO(1–0) ratios of peak brightness temper-
+atures around Vsys ± 200 km s −1 are mostly ∼ 1 ± 0.5
+for the high-velocity emission associated with the south-
+ern nucleus. Taken at face value, i.e., assuming little
+eﬀect of CO(3–2) missing ﬂux to this ratio because the
+high-velocity gas around the southern nucleus is rela-
+tively compact, the ratio can be not only due to optically
+thick emission from thermalized CO but also due to op-
+tically thin CO emission. In the latter case, the ratio
+corresponds to the excitation temperature of 12 ± 3 K
+in LTE. If the CO excitation is not in LTE then CO(1–
+0) can have a higher excitation temperature than this
+but the CO(3–2) excitation temperature must be much
+lower than that. The conversion factor for optically thin
+CO(1–0) emission is on the order of X20 = 0 .1 in both
+of these LTE and non-LTE cases for a CO abundance of
+[CO/H2] = 10 −4. The non-LTE conversion factor for op-
+tically thin CO(1–0) depends little on gas temperatures
+above ∼15 K provided that CO molecules are well excited
+only to J=2 but not to 3 and beyond. The CO level pop-
+ulation is determined by the level statistical weights in
+such a case. As the observed line ratio is consistent with
+multiple gas conditions we keep in mind that the conver-
+sion factor for the high-velocity gas can be an order of
+magnitude lower than our ﬁducial value of unity.
+3.3.4. Spectra
+Figure 14 shows spectra at the two nuclei. Each line
+is ﬁtted with a Gaussian to help highlight the high-
+velocity wings, i.e., emission in excess of the Gaussian ﬁt
+at large oﬀset velocities. At both nuclei, line centroids
+are within about 10 km s −1 from our ﬁducial velocity of
+2775 km s −1 and line widths are about 150–200 km s −1
+in FWHM.
+The CO(1–0) data have the highest signal-to-noise ra-
+tio and show a clear redshifted wing at ∼3% level in
+the spectrum toward the northern nucleus. There are
+also high-velocity wings at the level of 1% of the peak
+or less in both redshifted and blueshifted velocities. The
+full width at zero intensity of the emission is about 1600
+km s −1 toward the northern nucleus. The southern nu-
+cleus also has blue and red-shifted wings visible at the
+level of 1–2% of the main line; the red wing is again
+stronger. The fraction of the wing component to the
+main line is probably larger when the wing features are
+interpolated to the systemic velocity. The full width at
+zero intensity (FWZI) for the southern nucleus is about
+1200 km s −1. Our observations in the spectra are con-
+sistent with what we saw above in channel maps (Fig.
+10) in that the full line widths exceed 1000 km s −1, the
+line is wider toward the northern nucleus, and the high-
+velocity emission is stronger in redshifted velocities at
+around |V − Vsys| = 300 km s −1.
+The CO(3–2) spectra also show the high-velocity
+wings. While more emission is in the redshifted wing
+in the aperture containing the northern nucleus, fainter
+and broader wings than this are seen in both blue and
+redshifted velocities toward both nuclei. The full width
+of the CO(3–2) line is about 1000 km s −1 (i.e., ±500
+km s −1) in our data, consistent with our observation in
+channel maps (Fig. 12a). Line full width depends on
+sensitivity because noise can mask faint and wide high-
+velocity emission. The smaller full line width in CO(3–2)
+than in CO(1–0) must be partly due to the lower signal-
+to-noise ratio (S/N) in the former data.
+In HCO +(4–3) we did not detect high-velocity emis-
+sion. This may be mostly because HCO +(4–3) has the
+lowest S/N among the lines shown in Fig. 14 and also
+because the J=4 excitation of HCO + has a high critical
+density of 10 7 cm−3. The HCO + line proﬁles have dou-
+ble peaks (or a dip near the line center) on both nuclei.
+This is also seen in CO(3–2) toward the southern nucleus
+with a smaller 2 ′′ diameter aperture.
+3.3.5. CN in the High-Velocity Gas
+The CN(1–0) spectra in Fig. 14 show the redshifted
+wing at about the same level as in the CO(1–0) data.
+Although each of the CN lines consists of a group of hy-
+perﬁne lines, the redshifted wing is not due to the line
+distribution because if it were then the redshifted emis-
+sion in Fig. 11 should have peaked on the nuclei and
+not between them. Thus both CN and CO red wings
+are probably from the same high-velocity gas. The ﬂux
+ratio of the two CN lines is 1.8 on both nuclei, only
+slightly less than the ratio of 2 from optically thin lines
+(Turner & Gammon 1975). The CN emission is therefore
+mostly optically thin; the opacity of the brighter line is
+calculated to be 0.4 from (1 −e−τ )/(1−e−τ /2) = 1 .8. Un-
+der a safe assumption that the low-velocity CO(1–0) with
+peak Tb /greaterorsimilar 10 K is optically thick and has a higher opti-
+cal depth than high-velocity CO emission, the fraction of
+the high-velocity emission to the main low-velocity com-
+ponent should be larger in CN than in CO after the CO
+opacity correction. This suggests enhanced CN abun-
+dance or excitation in the high velocity gas. If the CN
+enhancement is due solely to collisional excitation then
+the high-velocity gas is denser than the low-velocity gas
+because the critical density for CN(1–0) is 10 6 cm−3 and
+is 10 3 times higher than that for CO(1–0). This CN de-
+tection as well as enhancement in the high-velocity gas
+is noteworthy because the line has not been detected in
+galactic molecular outﬂows before.
+3.3.6. Robustness of the Detection
+We regard our detection of these high-velocity emission
+components as robust for the following reasons. Firstly,
+the faint and broad wing emission cannot be errors in
+continuum subtraction, because continuum in each chan-
+nel is only at the levels of 30 σ and 20 σ in the CO(1–0)
+and (3–2) data, respectively, while our passband calibra-
+NGC 3256 Molecular Outﬂows 7
+tion is much more accurate than 1/30 = 3% as seen in
+the ﬂatness of our spectra suﬃciently away from the line
+in Fig. 14. Moreover, much of the high-velocity emis-
+sion peaks slightly oﬀset from the nuclei where any pass-
+band error could make the largest artifact. Secondly,
+it is unlikely that the high-velocity emission is due to
+line-blending, i.e., from lines other than the target line,
+in part because of the oﬀset of the high-velocity emis-
+sions from the nuclei where all lines peak and also be-
+cause of the lack of molecules that may plausibly con-
+tribute to the observed emission. Individual line wings
+of a single CO transition sometimes have possible alter-
+native sources, such as HC 3N(38–37) and H 13CN(4–3) on
+the red (i.e., low-frequency) side of CO(3–2). However,
+these molecules cannot explain the redshifted emission
+of CO(2–1) or CO(1–0) because their lower transitions
+are not adjacent to these CO transitions. In addition,
+the peak of the emission on the red side of CO(3–2) is
+not exactly at the redshifted frequencies of HC 3N(38–
+37) and H 13CN(4–3). Fig. 15 shows this in the spec-
+trum sampled at the midpoint of the two nuclei. The
+peak of the redshifted component clearly does not coin-
+cide with the expected frequencies of HC 3N(38–37) and
+H13CN(4–3). Therefore their contribution to the high-
+velocity emission should be small, if any. Finally, the
+line wings are unlikely due to the response pattern of the
+spectral correlator to a strong narrow line, as this would
+appear symmetric about the line center.
+3.3.7. Position-Velocity Diagrams
+Figure 16 shows CO position-velocity diagrams across
+the nuclei. The upper panels are for CO(1–0) and the
+lower for CO(3–2). The three columns are, from left to
+right, p.a.=270 ◦ cuts through the N nucleus, p.a.=270 ◦
+cuts through the S nucleus, and p.a.=0 ◦ cuts through the
+midpoint of the N and S nuclei. The position angle for
+the northern nucleus is along the kinematical major axis
+at the center of the northern circumnuclear disk. The
+p.a. for the southern nucleus is because there is a struc-
+ture extending across the nucleus in p.a. ≈ 90◦. The PV
+diagrams along p.a.=0 ◦ are for the high velocity emis-
+sion that showed symmetrical velocity structure around
+the southern nucleus approximately along this axis. Ro-
+tation of the circumnuclear disk is evident around the
+northern nucleus in the panels (a) and (d). The high-
+velocity emission at the northern nucleus is also clear in
+these PV diagrams. Gas motion around the southern
+nucleus is more complex, in particular in the CO(3–2)
+data in panel (e), but an overall velocity gradient within
+about 5 ′′ from the nucleus and presence of high velocity
+gas at the nucleus are consistent with what we see in the
+channel maps.
+The most interesting of the PV diagrams are the cuts
+in the north-south direction across the two nuclei, panels
+(c) and (f). There we clearly see two components of high
+velocity gas. One is on the northern nucleus and shows
+little positional shift with velocity. The other is symmet-
+ric about the southern nucleus, blueshifted to the south
+(left in the plot) and redshifted to the north within about
+4′′ from the southern nucleus. The terminal velocity in-
+creases with the distance from the southern nucleus up
+to about the oﬀset of 2 ′′. It is also notable that the range
+of emission velocities at each position is large, about 500
+km s −1, across this region of a north-south velocity gra-
+dient.
+3.4. Comparison with Other Observations
+3.4.1. HST Optical Images
+Figures 17 and 18 compare our CO images with multi-
+color HST images of NGC 3256. The merger has many
+dark lanes, particularly in its southern part, as shown
+in Fig. 17(a). Comparison of Fig. 17(a) with the color
+excess image in Fig. 17(b) shows that the dark lanes are
+generally redder in color than their adjacent areas. This
+suggests that the dark lanes are due to higher dust ex-
+tinction. As seen in Fig. 17(c), there is overall match
+between these dark lanes in the optical and the CO(1–0)
+distribution shown in Fig. 17(d). This is what is expected
+when the dark lanes are due to obscuration by the inter-
+stellar dust. In addition, there is an interesting match
+between the dark lanes (i.e., optical color excess) and
+the CO line widths as shown in Fig. 17(b). Both are en-
+hanced in a roughly triangular area on the south-western
+side of the binary nucleus. The similarities between dark
+(dust) lanes and CO emission are also seen in our higher
+resolution CO(3–2) data in Fig. 18 (c). At this higher
+resolution, however, it becomes evident that the optical
+color excess (i.e., reddening) and the CO integrated in-
+tensity are not strictly proportional. Also the matching
+is poor between the high color excess regions and regions
+of large line widths in the vicinity of the two nuclei (see
+Fig. 2 for our CO(3–2) 2nd moment map), as was already
+the case in our CO(1–0) comparison in Fig. 17(b).
+3.4.2. VLA Radio Continuum Images
+There are remarkable correlations between our ALMA
+data and VLA radio continuum data in Neﬀ et al. (2003).
+The spatial distribution of 6 and 3.6 cm continuum
+in their Fig. 1 matches quite well with that of the
+sub/millimeter continuum shown in our Fig. 1. The
+agreement includes not only the two nuclei and the over-
+all shape of the diﬀuse emission but also a short arc (arm)
+about 5 ′′ northeast of the northern nucleus, a spot about
+20′′ west of the northern nucleus, the bridge-like arm
+emanating from the northern nuclear disk to south, and
+a linear feature across the southern nucleus. The 3.6
+cm image also shows a faint spur that emanates from
+the southern nucleus to south and slightly curves to-
+ward west. It has a counterpart in our CO data. The
+blueshifted emission in the |V −Vsys| = 200 km s −1 chan-
+nel of Fig. 12 (b) coincides with the radio spur.
+Figure 19 compares a higher resolution 3.6 cm image,
+in Fig. 2 of Neﬀ et al. (2003), with our ALMA data. The
+3.6 cm continuum in black contours and 860 µm contin-
+uum in gray scale again show very good correlation. In
+the radio emission there is a pair of narrow spurs that
+emanate from the southern nucleus to north and south;
+the one to the south is probably a part of the spur men-
+tioned above. Although we did not detect this feature in
+submillimeter continuum, our CO data have their coun-
+terparts. The highest velocity CO(3–2) emission shown
+in red and blue contours are at the tips of these radio
+continuum spurs. We are going to discuss these observa-
+tions in §5.2.5.
+3.4.3. Spitzer Infrared Images
+8 SAKAMOTO et al.
+Figure. 20 shows archival infrared images of NGC 3256
+taken with the Spitzer Space Telescope Infrared Array
+Camera (Program ID. 32). We show in each panel the
+same area as in Fig. 1 (a) for our 2.8 mm continuum
+and use the same linear intensity scale. The infrared
+images have 1 ′′–2′′ resolutions. Similarities between the
+infrared and millimeter continuum distributions are not
+only the two bright nuclei but extended features around
+them including the spiral arm to the north of the nuclei,
+two bright areas about 5 ′′ and 20 ′′ east of the northern
+nucleus, and a linear feature that protrudes west from
+the central region by about 15 ′′ at about the latitude of
+the southern nucleus. The northern nucleus is brighter
+than the southern nucleus in the Spitzer images (except
+at 4.5 µm not shown here) and even more so at 11.5
+µm (Lira et al. 2008). This is also the case in millime-
+ter emission. The northern nucleus has comparable or
+more integrated ﬂux density than the southern nucleus
+in 1 ′′–3′′ apertures (see Table 7), although the southern
+nucleus is more compact and has comparable or higher
+peak brightness than the northern nucleus at ≲ 2′′ res-
+olutions. It is very likely that the northern nucleus has
+larger ﬂux densities also between 11.5 µm and 860 µm
+and hence a larger bolometric luminosity than the south-
+ern nucleus.
+4. MERGER CONFIGURATION
+We suggest the merger conﬁguration in Fig. 21 for the
+reasons given in this section. There are two nuclei as
+in the model in SHP06. Their identiﬁcation as the nu-
+clei of two merging galaxies is strongly supported by the
+peaks of line and continuum emission at the two domi-
+nant radio sources and by our detection of large velocity
+gradients there (Figs. 1 and 9). Parameters estimated in
+this section are summarized in Table 8.
+4.1. NGC 3256N
+The northern nucleus has a nuclear gas disk that has
+a low inclination and nearly circular rotation, showing
+a clear butterﬂy pattern in the velocity ﬁeld (Fig. 9).
+We measured in §3.2.2 that the disk major axis is at
+p.a.(N) ≈ 75◦ and inclination is iN ≈ 30◦. The molecular
+spiral arms around the northern nucleus, those shown in
+gray in Fig. 21, must be also nearly face-on based on
+their morphology. Since they emanate from the northern
+nuclear disk or its vicinity the arms most likely belong to
+the northern galaxy and are coplanar with the northern
+nuclear disk. The near side of the northern nuclear disk
+is then its southeastern side assuming that the molecular
+spiral arms are trailing.
+4.2. NGC 3256S
+The southern nucleus must be in front of the northern
+galaxy disk and nearly edge-on. This deeply obscured
+nucleus cannot be much behind the northern galaxy disk
+because if so we should have seen the foreground northern
+galaxy disk at its location. The extinction peak toward
+the southern nucleus must be due mostly to the southern
+galaxy itself, because even if the southern nucleus were
+slightly behind the northern galaxy disk its surface gas
+density, hence extinction, does not peak at the radius
+of the southern nucleus. A nearly edge-on conﬁguration
+is therefore suggested for the obscured southern nucleus
+and the southern galaxy. The high inclination is sup-
+ported by the shape of the region that has both large
+optical extinction (reddening) and large CO line width
+in Fig. 17(b). This region is extended in the east-west
+direction across the southern nucleus as expected when
+the foreground (part of the) southern galaxy has a high
+inclination and a major axis at p .a.(S) ≈ 90◦. Such a
+conﬁguration also explains the distribution of large line
+widths as due to the overlap of the two galaxies and
+also due to the nearly edge-on geometry of the southern
+disk. This argument disfavors the possibility that the
+southern nucleus is on or slightly behind the northern
+disk because we do not see any high velocity-dispersion
+region with little reddening (i.e., gas behind the north-
+ern galaxy disk) in the central few kpc of the southern
+galaxy. Further outskirts of the southern galaxy appear
+already strongly disturbed and leaving their original or-
+bital plane judging from the large scale distribution of
+color excess in Fig. 17(b). Closer to the center, there is
+a bar-like distribution of molecular gas and dust across
+the southern nucleus (Fig. 9, HCN in Fig. 3, and Figs.
+1 b and c ). This is the edge-on southern nuclear disk in
+our interpretation. The lack of clear butterﬂy pattern in
+its velocity ﬁeld (Fig. 9) is consistent with the proposed
+large inclination. For the reasons given in §5.2, the near
+side of the nearly edge-on southern nuclear disk must be
+its northern side and the disk inclination is constrained
+to be 70 ◦ < i S ≲ 85◦.
+4.3. Mass Ratio
+The northern nucleus is probably a few times more
+massive than the southern nucleus. The ratio of the
+CO(3–2) line width (FWHM) at the northern nucleus
+to that at the southern nucleus is 0.77 for the 4 ′′ aper-
+ture used in Fig. 14. This ratio, after correction for the
+inclinations, reﬂects the mass ratio of the nuclei at 0.7
+kpc scale because the broad emission wings at the nu-
+clei are too faint to aﬀect FWHM. For iN ≈ 30◦ and
+iS ≈ 80◦ and ignoring the eﬀect of any diﬀerence in gas
+radial distributions, the mass ratio MN/MS is 2.3 for the
+line width ratio of 0.77; the mass ratio is between 2.1 and
+2.4 for 70 ◦ < i S < 90◦. The ratio of line FWHM appears
+to increase to about 1 when the sampling area increases;
+the mass ratio would be 3.9 for the FWHM ratio of 1
+and iS of 80 ◦. This trend can be due to diﬀerent degrees
+of mass concentration between the two nuclei but can be
+also due to more contamination to the southern nucleus
+from the northern galaxy disk. With these uncertain-
+ties in mind we suggest Mdyn(N)/Mdyn(S) ∼ 2.5 with an
+error up to ±1 for 1 kpc diameters.
+4.4. Merger Orbit
+The orbital plane of the two nuclei is probably close to
+the disk plane of the northern galaxy. In other words,
+not only must the southern nucleus be in front of the
+northern galaxy as argued above it is probably near the
+northern galaxy plane. This is deduced from two ob-
+servations. One is that the most prominent molecular
+arm emanating from the northern nuclear disk extends
+in the direction of the southern nucleus as if bridging the
+two nuclei. The other is that other molecular arms at
+larger radii are around the two nuclei; the most notable
+is the arm starting from the northern nuclear disk and
+NGC 3256 Molecular Outﬂows 9
+running east of the binary nuclei by almost 180 ◦ in our
+CO(3–2) map in Fig. 2. These are expected to be so if
+the southern galaxy has been close to the disk plane of
+the northern galaxy and exerting its gravitational force
+to the disk gas in the direction nearly within the disk
+plane. Because the northern galaxy was estimated to be
+nearly face-on the merger orbital plane is also close to
+face-on.
+The southern galaxy has a high inclination angle with
+respect to the orbital plane in the conﬁguration we sug-
+gested above. This high inclination is consistent with
+much of the gas in the outer disk of the southern galaxy
+leaving its original galactic plane because for the south-
+ern galaxy the perturber is on a nearly polar orbit. Direct
+contact of the gas in the two disks is another plausible
+reason for the disturbance although this works for both
+disks. Fig. 17 (b) and (c) show a one-arm reddening
+and CO feature that starts at about 30 ′′ east of the two
+nuclei and spirals into the southern nucleus after a 270 ◦
+clockwise turn. This may well be material stripped from
+the southern galaxy tracing its past trajectory around
+the center of mass near the northern nucleus. If this is
+the case, the southern nucleus must be currently moving
+from west to east (right to left on our maps).
+The right panel of Fig. 21 shows the two nuclear disks
+viewed from above the merger orbital plane. As was in
+the sky-projection in Fig. 21 (left), the northern nuclear
+disk is close to face-on and the southern nuclear disk is
+close to edge-on because the orbital plane is estimated
+to have a low inclination ( ≲30◦) with respect to our
+sight line. However, the sense of rotation of the south-
+ern nuclear disk is opposite between the sky-projection
+and orbital-plane-projection in our model. It is certainly
+possible in our model, with the southern nucleus in front
+of the northern disk, that both of the two nuclear disks
+have prograde rotation with respect to the orbital motion
+of the two nuclei. Whether this is not only possible but
+is indeed so is not certain from our argument above, but
+the prograde-prograde conﬁguration has been suggested
+to explain the long tidal tails seen in the optical and H I
+(Toomre & Toomre 1972; English et al. 2003).
+4.5. Merged Gas Disk
+The gas presumably stripped from the southern galaxy
+and the gas from the northern galaxy appear to be form-
+ing, from larger radii, a merged gas disk that is connected
+to the northern galaxy disk. The overall CO(1–0) veloc-
+ity ﬁeld in Fig. 2 is largely consistent with that of the
+northern nuclear disk regarding the kinematical major
+axis and an apparently low inclination. The stripped gas
+that we inferred above from the color index image does
+not stand out in our CO mean velocity ﬁeld. In our
+proposed conﬁguration, this is mainly because the gas
+on the large-scale is settling to the merger orbital plane
+that is close to the plane of the northern galaxy. Such a
+merged gas disk was proposed in SHP06. It is expected
+to form because gas is not collisionless unlike stars and
+hence cannot remain on the original disks at the larger
+radii where the two disks have already collided with each
+other. Although the small visible perturbation in the ob-
+served CO velocity ﬁeld can be also because the north-
+ern galaxy, whose nucleus we found to be more massive
+than the southern one, had a dominant fraction of gas
+in the system, the presence of two H I tidal tails makes
+it unlikely that the large scale gas disk is only from the
+northern galaxy.
+4.6. Comparison with Other Estimates
+The conﬁguration suggested above is consistent with
+what English et al. (2003) estimated from their H I imag-
+ing of the merger. They suggested on the basis of the
+wide H I tidal tails that the merger orbital plane is almost
+face-on. They further attributed the diﬀerent shapes of
+the two tails to diﬀerent inclinations of the progenitor
+galaxy disks with respect to the orbital plane. The spin
+of each galaxy was estimated to be prograde with respect
+to the binary orbital motion as mentioned above. The
+consistency of these estimates by English et al. (2003)
+from H I observations and ours from molecular gas and
+optical data adds credence to our model in Fig. 21. In
+addition, Trancho et al. (2007) made a notable observa-
+tion from their optical spectroscopy of young star clusters
+that while the majority of the clusters follow the rota-
+tion of the main (i.e., northern) gas disk some clusters
+about 20 ′′ west of the southern nucleus do not. They
+deduced that the former belong to the northern galaxy
+and the latter either belong to the other (i.e., southern)
+galaxy or may have formed in tidal-tail gas falling back to
+the system. The locations of the out-of-rotation clusters
+are consistent with them belonging to the nearly edge-on
+southern galaxy. The dominance of the northern galaxy
+over the southern one in the number and motion of the
+clusters is consistent with the presumably larger mass of
+the northern progenitor.
+4.7. Mdyn and Gas-to-Dynamical Mass Ratios
+We here calculate the dynamical masses of the two nu-
+clear disks and an area encompassing the two nuclei and
+compare them to our gas mass estimates to see whether
+the gas masses are reasonable. We estimate the dynam-
+ical mass of the northern nucleus to be on the order
+of Mdyn(rN ≤ 200 pc) ∼ 4 × 109 M⊙ using the line-of-
+sight rotational velocity of 150 km s −1 inferred from the
+CO position-velocity plot (Fig 16 d) and iN ≈ 30◦ mea-
+sured above. We also estimate the dynamical mass of the
+southern nucleus to be Mdyn(rS ≤ 200 pc) ∼ 2 × 109 M⊙
+using the line-of-sight rotational velocity of 200 km s −1
+inferred from the CO position-velocity plot (Fig 16 e) and
+iS of 80 ◦. The ratio between the two dynamical masses
+within 400 pc diameters is 2.2, consistent with the ratio
+of 2.5±1 in 1 kpc diameters estimated in §4.3. These dy-
+namical masses have large uncertainties because we can-
+not accurately measure the rotational terminal velocity
+of each nuclear disk in the PV diagrams contaminated
+by the faint and broad line wings that we attribute to
+outﬂow in the next section. We also crudely estimate
+the dynamical mass in the central 20 ′′ of the merger to
+be Mdyn(r ≤ 1.7 kpc) ∼ 6 × 1010 M⊙ from a rotational
+line-of-sight velocity of about 200 km s −1 inferred from
+the CO(1–0) channel maps (Fig. 4) and an inclination of
+30◦. Although the high-velocity emission near the nuclei
+does not contaminate rotation at this large scale this es-
+timate still has a large uncertainty due to the assumed
+inclination and the possibility that some gas at this ra-
+dius may not be on a merged disk.
+The molecular gas masses for the same regions are esti-
+mated from CO(1–0) to be Mmol(rN ≤ 200 pc) ∼ 3 × 108
+10 SAKAMOTO et al.
+M⊙, Mmol(rS ≤ 200 pc) ∼ 2 × 108 M⊙ and Mmol(r ≤
+1.7 kpc) ∼ 6 × 109 M⊙ for X20 = 1. The gas to dynami-
+cal mass ratios are therefore about 6%, 12%, and 9% for
+the northern nuclear disk, southern nuclear disk, and the
+the merger in its central 3.4 kpc. These ratios inherit the
+uncertainties of the adopted XCO and any of its spatial
+variation and any error in the dynamical masses. The
+reasonable gas mass fractions on the order of 10%, how-
+ever, suggest that the gas masses above are probably not
+very wrong. The 0.5 dex uncertainty for the adopted
+X20 = 1 seems reasonable for the bulk (though not all)
+of molecular gas in the observed region.
+5. TWO OUTFLOWS
+We argue from our observations of high-velocity molec-
+ular emission (in particular Figs. 10, 12, and 13) that
+each of the two nuclei has its own bipolar molecular out-
+ﬂow. In our model illustrated in Fig. 21, activities in
+the northern nucleus and its low-inclination nuclear gas
+disk are driving a bipolar outﬂow with a wide opening
+angle in the direction perpendicular to the northern nu-
+clear disk. This causes the high-velocity molecular line
+emission observed around the northern nucleus. The
+southern nucleus drives a more collimated bipolar out-
+ﬂow perpendicular to the southern nuclear disk, i.e., in
+the north-south direction on the sky. The high velocity
+CO emission along p .a. ∼ 0◦ and 180 ◦ are due to this
+outﬂow. The redshifted gas of the two outﬂows over-
+lap on the sky between the two nuclei causing the peak
+of redshifted high velocity CO found in SHP06. Out-
+ﬂow parameters derived in this section are summarized
+in Table 8.
+Before elaborating on the two outﬂows we brieﬂy men-
+tion two conceivable alternatives for the southern outﬂow
+and why we do not favor them. An alternative interpre-
+tation of the gas motion around the southern nucleus
+is that the north–south velocity gradient is due to ro-
+tation around the nucleus. If so the projected rotation
+axis of this hypothetical southern nuclear disk is along
+p.a. ≈ 90◦. Then the continuum and line emission fea-
+tures along this p.a. ( ≈ 90◦), e.g., in Figs. 1 (b), (c),
+9 (a), and the leftmost channels in Fig. 12, would be
+polar structures, plausibly a bipolar outﬂow. The opti-
+cal color-excess region across the southern nucleus would
+also be a polar structure for the southern galaxy. This
+model is not favored because it makes the bipolar struc-
+tures much larger than the base nuclear disk. Another
+alternative interpretation of the high-velocity gas around
+the southern nucleus is that it may be a merger-driven
+tidal feature rather than a bipolar outﬂow. The tidal
+force exerted on the southern nucleus by the northern
+galaxy is along the north-south direction, i.e., the major
+axis direction of the high-velocity gas. We note, however,
+that the blueshifted high-velocity gas comes out almost
+directly from the southern nucleus in Fig. 12 (b). If the
+tidal force were strong enough to strip gas in the nucleus
+from such a small radius then the gas elongated in the
+east-west direction across the southern nucleus (Fig. 9
+a) would not be there. Also, we estimated in the previ-
+ous section that the merger orbital plane is close to face
+on. Since the tidal force vector is along the orbital plane
+the force cannot give large line-of-sight velocities to the
+tidally stripped gas. We therefore regard this alternative
+as equally unlikely.
+5.1. Northern Outﬂow: Uncollimated Bipolar Wind
+5.1.1. Evidence, Geometry, Driving Mechanism
+The following observations in §3.3 are the pieces of
+evidence for a bipolar outﬂow with a wide opening an-
+gle from the northern nuclear disk. CO(1–0) emission is
+detected ( /greaterorsimilar 4σ) around this nucleus up to |∆V | = 650
+km s −1 from systemic in Fig. 10 and the full extent of the
+line to zero intensity is about 1600 km s −1 (Fig. 14). The
+high velocity gas in CO(3–2) is detected on the northern
+nuclear disk with its blueshifted emission slightly shifted
+to northwest and its redshifted counterpart biased to-
+ward southeast in Fig. 12 (a). These spatial shifts of
+blueshifted and redshifted high-velocity gas are along the
+minor axis of the northern nuclear disk and the shift of
+the blueshifted gas is toward the far-side of the nuclear
+disk. These observations are consistent with the high-
+velocity emission being an outﬂow from the nucleus in
+the direction perpendicular to the northern nuclear disk
+(see Fig. 21).
+Since the northern nuclear disk is nearly face-on the
+outﬂow axis is close to our line of sight. This pole-
+on viewing angle is consistent with the small spatial
+oﬀset between the blueshifted and redshifted emission.
+This northern outﬂow must be extended, i.e., must have
+a wide opening angle, because it is better detected at
+lower resolution (in Figs. 12 and 13). In particular, the
+blueshifted emission in Fig. 13(a) directly shows that the
+high-velocity gas that we attribute to outﬂows is more
+extended around the northern nucleus than around the
+southern nucleus.
+We note that the large extent is another reason, in ad-
+dition to the velocity gradient along the minor axis, why
+the northern high-velocity gas is unlikely to be due to ro-
+tation. If the high velocities were rotational the enclosed
+dynamical mass would be unrealistically large, although
+we do not exclude a small fraction of rotational high-
+velocity gas very close to the dynamical center. We also
+note why we model the high velocity gas as outﬂow rather
+than inﬂow. It would be too much of a coincidence to
+have polar inﬂow from both sides of the northern nuclear
+disk at the same time.
+The most plausible driver for the northern molecular
+outﬂow is starburst in and around the northern nuclear
+disk. The current data do not suggest the outﬂow orig-
+inates from a particular single point, such as an active
+galactic nucleus (AGN), within the nuclear disk.
+5.1.2. Northern Outﬂow Parameters
+We estimate the outﬂow rate from the northern nu-
+cleus to be ˙MN ≈ 60X20 M⊙ yr−1. We assumed for
+this the outﬂow axis to have the same inclination as the
+northern nuclear disk, i.e., iN,outﬂow ≈ iN ≈ 30◦. The
+extent of the outﬂow along its outﬂow axis is estimated
+to be 0.8 kpc from this inclination and the 2 .′′4 oﬀset
+between the peak of the blueshifted emission and the
+northern nucleus in Fig. 13(b). The outﬂow velocity
+along the outﬂow axis is 650 / cos(30◦) = 750 km s −1 for
+the largest velocity in Fig. 10. The outﬂow timescale is
+therefore 1 Myr. (This is not necessarily the age of the
+outﬂow because the extent of the outﬂowing molecular
+gas may be limited by interaction with ambient gas, dis-
+sociation of the molecules, gravity of the galaxy, and our
+sensitivity.) Dividing the mass of the high velocity gas
+NGC 3256 Molecular Outﬂows 11
+around the northern nucleus ( §3.3.3) with this timescale
+gives the outﬂow rate above. This outﬂow rate is a lower
+limit because it does not account for the mass that is
+in the outﬂow but has lower line-of-sight velocities than
+the 224 km s −1 cutoﬀ in our ﬂux measurement for the
+high-velocity emission.
+The kinetic luminosity of the outﬂow is on the order
+of Lkin,N∼4 × 108X20 L⊙ (=2X20 × 1035 W) where we
+use the mass of the northern high-velocity gas in §3.3.3,
+300 km s −1 for a characteristic outﬂow velocity (i.e.,
+260 km s −1 along our sightline), and the characteristic
+timescale of 1 Myr. The lower velocity gas excluded from
+our outﬂow mass adds to the luminosity but less so than
+to the outﬂow rate. The outﬂow kinematic luminosity
+is about 10 X20% of the mechanical luminosity from a
+half of the star formation in NGC 3256 (25 M⊙yr−1),
+∼ 2 × 1036 W (Leitherer et al. 1999). Thus the northern
+outﬂow can reasonably be driven by the starburst.
+The gas depletion time from the northern nucleus, a
+300 pc diameter region centered at the nucleus, is calcu-
+lated to be 3 χN Myr on the basis of our observations.
+The parameter χN is the ratio of CO to H 2 conversion
+factor for the nuclear disk and that for the high-velocity
+gas, i.e., XCO(nucleus)/XCO(outﬂow), for the northern
+nucleus. It is one in our default assumption but it can
+be ∼10 if the outﬂow CO emission is optically thin.
+5.1.3. Comparison with Previous Outﬂow Observations
+Outﬂow of ISM around the northern nucleus has been
+reported and the parameters measured in several pre-
+vious works besides our own detection of high-velocity
+molecular gas in SHP06. Scarrott et al. (1996) found
+with optical imaging polarimetry a dust reﬂection nebula
+extending out to 7 kpc (40 ′′) from the galactic center and
+attributed it to dust entrained to the halo by a starburst-
+driven superwind. Moran et al. (1999) made optical slit
+spectroscopy across NGC 3256N and found LINER-like
+emission line ratios oﬀ the nucleus (up to 30 ′′ from the
+center) coupled with large line widths (FWHM up to 400
+km s −1). They attributed these to shock-induced kine-
+matics and ionization and concluded the presence of a
+starburst-driven superwind. Heckman et al. (2000) de-
+tected Na D absorption lines of 550 km s −1 width and
+309 km s −1 blueshift and concluded the presence of an
+outﬂowing superwind. L ´ ıpari et al. (2000) found blue
+wings of H α and [N II] lines in their spectroscopy to-
+ward the northern nucleus and deduced an outﬂow with
+a velocity of ∼350 km s −1 and line width ∼130 km s −1.
+Notably, the minor axis of their outﬂow at p .a. ≈ 70◦
+agrees with that of our molecular outﬂow and so does
+their wide outﬂow opening angle (140 ◦). Leitherer et al.
+(2013) detected in their UV spectroscopy blueshifted line
+absorption of C and Si. They detected three velocity
+components at −126, −447, and −867 km s −1 with the
+bulk velocity of −461 km s −1 at the position of their
+observations 2 ′′ northeast of the northern nucleus. Our
+molecular outﬂow from the northern nucleus agrees with
+these observations regarding the magnitude of the out-
+ﬂow velocity, outﬂow direction and opening angle, and
+that the outﬂow has a large spatial extent. Therefore
+previous observations reporting an outﬂow/superwind in
+NGC 3256 are probably observations of various aspects
+of this northern outﬂow, although a minor contribution
+from the southern outﬂow is likely in SHP06.
+5.2. Southern Outﬂow: Molecular Bipolar Jet
+5.2.1. Morphology
+The southern bipolar outﬂow is clearly seen as bisym-
+metric high-velocity emission around the southern nu-
+cleus. It is along a p .a. ∼ 0◦ and is redshifted to the
+north and blueshifted to the south of the nucleus (Fig.
+12). The outﬂow axis projected onto the sky is orthog-
+onal to the nearly edge-on southern nuclear disk. We
+therefore assume that the outﬂow is along the rotation
+axis of the southern nuclear disk. The near side of the
+southern nuclear disk is then estimated to be its north-
+ern side because the outﬂow toward us (i.e., blueshifted
+outﬂow) is on the south of the nucleus (see Fig. 21).
+The southern outﬂow appears highly collimated. It
+has a narrow base at the southern nuclear disk and is de-
+tected to a projected distance of ∼4′′ (0.7 kpc) from the
+southern nucleus (Figs. 12 and 7). Its length-to-width
+ratio is about 5 in Fig. 12. This ratio suggests an open-
+ing angle of about 20 ◦ for an edge-on cone (i.e., the ﬂow
+is within 10 ◦ from its central axis). Because the outﬂow
+is well collimated along its axis to about one kpc from its
+origin we can reasonably call it a bipolar molecular jet.
+Looking at details, the blueshifted outﬂow gradually
+curves toward west as it goes further from the nucleus
+(§3.3.1). In our model, this is most likely due to ram pres-
+sure because the southern nucleus is moving from west
+to east with respect to the northern galaxy, as inferred in
+§4. Similar curvature is unclear in the redshifted outﬂow
+to the north in Fig. 12 although blueshifted emission to
+the north of the southern nucleus in the −139, −113, and
+−87 km s −1 channels in Fig. 7 show the expected curves.
+The southern cone of the outﬂow is visible in the in-
+tegrated intensity maps of CO(3–2), (2–1), and barely
+in CO(1–0) in Fig. 2. It is also hinted at in the inte-
+grated intensity map of CN(1–0, 3/2–1/2). This feature
+in the integrated maps, in particular in CO(3–2), appears
+to have little contamination from non-outﬂowing ambi-
+ent gas because the feature in the channel maps, when
+visible, consistently maintain its spur-like morphology.
+This is expected for the almost edge-on southern nuclear
+disk; little non-outﬂowing molecular gas is expected to
+be at high latitudes. The southern cone of this outﬂow
+is also visible in the 2.1 µm line image of H 2 1–0 S(1) in
+Kotilainen et al. (1996, their Fig. 2a).
+5.2.2. Velocity Structure
+The velocity structure of the southern outﬂow is note-
+worthy in that the highest velocity emission at |V −
+Vsys| ∼ 400 km s −1 is oﬀset from the nucleus in both the
+blueshifted and redshifted velocities by about 1 .′′8 (310 pc
+on the sky) as we noted in §3.3.1. About the same oﬀsets
+are see at |V − Vsys| ∼ 450 km s −1 in CO(1–0). This is
+also seen in the CO(3–2) position-velocity diagram along
+p.a. = 0 ◦ (Fig. 16 f) in which the terminal velocity in-
+creases with distance from the nucleus until this peak.
+The symmetry in the blueshifted and redshifted emission
+suggests this to be systematic rather than a coincidence.
+The simplest model is that the molecular outﬂow accel-
+erates from the nucleus to this distance. Alternatively,
+it may be that only the line-of-sight velocity increases
+along the outﬂow and peaks at d ≈ 1.′′8. It is possibly
+12 SAKAMOTO et al.
+because of a gradual increase of the outﬂow opening an-
+gle, although at d ≈ 1.′′8 the high velocity emission is
+still compact ( < 1′′ in extent). We regard the acceler-
+ation along the outﬂow to d ≈ 1.′′8 most likely but do
+not rule out other possible causes for the observed veloc-
+ity structure. The outﬂow line-of-sight velocity decreases
+further out and the true outﬂow velocity may also do so.
+5.2.3. Inclination Correction
+We estimate the most likely inclination of the southern
+molecular jet (and the southern nuclear disk) to be about
+80◦ with a range of possible values between about 70 ◦ and
+85◦. We already deduced in §4.2 that the southern nu-
+clear disk is nearly edge-on; a conservative lower limit of
+the inclination is 70 ◦ from the observations there. A sign
+for a larger inclination is that there is blueshifted emis-
+sion at the location of the redshifted cone and redshifted
+emission at the location of the blueshifted cone (e.g., at
+the −113 and +69 km s −1 channels in Fig. 7). The
+condition required to see both blueshifted and redshifted
+emission in a conical outﬂow is iS,outﬂow + θS,op/2 > 90◦
+where iS,outﬂow is the inclination of the outﬂow axis and
+θS,op is the full opening angle of the cone. For the
+θS,op ∼ 20◦ measured above the inclination to barely
+see both blue- and red-shifted emission in both cones is
+iS,outﬂow /greaterorsimilar 80◦. On the other hand, the data do not
+support iS,outﬂow ≈ 90◦ because that would make both
+blueshifted and redshifted emission almost equally visible
+in each cone. These arguments set the above-mentioned
+range of iS,outﬂow. Its further reﬁnement is hampered
+by uncertainties in the outﬂow opening angle, its spatial
+variation (if any), and the curvature of the outﬂow.
+The inclination correction to the line-of-sight velocity
+is at least a factor of 2.9 (= 1 / cos 70◦) and is 5.8 and
+11.4 for the iS,outﬂow of 80 ◦ and 85 ◦, respectively. With
+the CO detection at least up to ±450 km s −1 along our
+sightline, the maximum outﬂow velocity is therefore at
+least /greaterorsimilar 1000 km s −1 even considering the jet opening
+angle of about 20 ◦. It is plausible, though not yet certain,
+that the maximum velocity is as large as 2600 km s −1
+(= 450 km s −1/ cos 80◦). The maximum velocity is very
+likely larger in this southern molecular outﬂow than in
+the northern one. The large velocity provides additional
+support to the description of this outﬂow as a molecular
+jet.
+5.2.4. Southern Outﬂow Parameters
+The mass outﬂow rate from the southern nucleus is
+estimated to be ˙MS ≈ 50X20 and 25 X20 M⊙ yr−1 for
+iS,outﬂow = 80 ◦ and 70 ◦, respectively, from the projected
+outﬂow extent of 4 ′′, a characteristic line-of-sight ve-
+locity of the outﬂow of 250 km s −1, and the gas mass
+estimated in §3.3.3. The time scale for the outﬂow to
+travel 4 ′′ on the sky is 0.5 and 1 Myr, respectively, for
+iS,outﬂow = 80 ◦ and 70 ◦. Adopting the same characteris-
+tic velocity, the kinetic luminosity of the southern outﬂow
+is on the order of Lkin,S∼9X20 × 109L⊙ (=3X20 × 1036
+W) and 1 X20 × 109L⊙ for iS,outﬂow = 80 ◦ and 70 ◦, re-
+spectively. This kinetic luminosity is larger than that of
+the northern outﬂow even though the northern nucleus
+is more luminous in mid-infrared and presumably also in
+total luminosity. It exceeds the mechanical luminosity of
+the southern nucleus due to supernovae and stellar winds
+if iS,outﬂow = 80 ◦ and X20 = 1.
+The gas depletion time of the southern nucleus by
+this outﬂow is only 0 .6χS Myr for the central 80 pc for
+iS,outﬂow = 80 ◦. Here we used the peak gas surface den-
+sity at the 80 pc resolution for the mass of gas to be
+depleted by the outﬂow. The choice of this small size
+is because the base of the bipolar molecular jet appears
+compact. Again the depletion time does not depend on
+our choice of the CO to H 2 conversion factor if the same
+conversion factor applies to the gas at the nucleus and in
+the outﬂow (i.e., if χS = 1) but the time scale can be ten
+time longer ( χS ∼ 10) if the outﬂowing CO is optically
+thin.
+The outﬂow rate and kinetic luminosity above are
+lower limits in the sense that they do not account for
+the mass that is in the outﬂow but has lower line-of-
+sight velocities than the 224 km s −1 cutoﬀ in our ﬂux
+measurement of the high-velocity gas in §3.3.2. The gas
+depletion time is an upper limit for the same reason. The
+omission of the low-velocity gas is more signiﬁcant than
+for the northern outﬂow because the de-projected cutoﬀ
+velocity is larger, 1300 and 650 km s −1 for iS,outﬂow = 80 ◦
+and 70 ◦, respectively. The total gas mass in the outﬂow
+may well be an order of magnitude larger than the gas
+mass above our cutoﬀ velocity. In our 0 .′′6 resolution inte-
+grated intensity image in Fig. 2, the CO(3–2) ﬂux in the
+southern cone of the southern outﬂow is 300 Jy km s −1 at
+distances from the southern nucleus between 1 ′′ and 4 ′′
+along the outﬂow. For comparison, the CO(3–2) ﬂux at
+velocities above our cutoﬀ is only 21 Jy km s −1 in this
+outﬂow cone in the same dataset. We used the latter
+value for our outﬂow rate calculation. Thus the omission
+of low-velocity ﬂow may cause an underestimate of the
+outﬂow rate by up to an order of magnitude.
+5.2.5. Possible Driver: Radio Jet
+The radio image in Fig. 19 suggests that the southern
+molecular outﬂow is associated with a bipolar radio jet
+from the southern nucleus. The high velocity CO(3–2)
+emission at 2775 ± 380 km s −1 are at either ends of the
+pair of linear radio features that emanate to north and
+south from the southern nucleus, although the south-
+ern radio spur appears to go further (see §3.4.2). We
+also found that the southern cone of the molecular jet
+is along the southern radio spur, even following its west-
+ward curve. These conﬁgurations allow a model that
+there is a bipolar radio jet from the southern nucleus
+and the southern molecular outﬂow is entrained by this
+radio jet. If so the apparent acceleration of molecular gas
+along the outﬂow to d ≈ 1.′′8 is probably due to continu-
+ous dragging of molecular gas by the high speed plasma
+jet.
+5.3. Signiﬁcance of the Outﬂows
+Both molecular outﬂows are signiﬁcant in the mass
+consumption budget of the individual nuclei because
+the outﬂow rates are comparable to or larger than the
+star formation rates in the nuclei. Lira et al. (2008) es-
+timated the star formation rates of the northern and
+southern nuclei to be ∼15 and ∼6 M⊙yr−1, respec-
+tively, by modeling their infrared spectral energy distri-
+butions. Our outﬂow rates are larger than the star for-
+mation rates at both nuclei; they are at least comparable
+considering their uncertainties. The total outﬂow rate,
+NGC 3256 Molecular Outﬂows 13
+60X20, N outﬂow + 50X20, S outﬂow M⊙yr−1, is also on the
+same order as the total star formation rate of NGC 3256,
+∼50 M⊙yr−1 (Table 1). This is still so when X20 is ∼0.1
+in both outﬂows for optically thin CO emission. The star
+formation history of the merger should be inﬂuenced by
+the molecular gas outﬂow — this was a conclusion of
+SHP06 and it still holds in our new study.
+Part of the outﬂowing molecular gas, in particular
+that in the southern molecular jet, will probably escape
+from their original galaxy but may not leave the merger.
+The ratio of escape velocity to circular orbital veloc-
+ity is 2.5–3 for extended mass distributions of galaxies
+(Leitherer et al. 2013); it is
+√
+2 for Keplerian motion. We
+estimated in §4.7 the rotational velocities of 300 km s −1
+and 200 km s −1 at a radius of 200 pc for the northern
+and southern galaxies, respectively. Assuming a ﬂat ro-
+tation curve in each galaxy beyond this radius, the ratio
+is 2.5 and 13, respectively, for the maximum molecular
+outﬂow velocity that we estimated for /greaterorsimilar4σ emission in
+§5.1.2 and 5.2.4 (i.e., 750 km s −1 for N and 2600 km s −1
+for S). The ratio is 3.3 for the ∼1000 km s −1 maximum
+velocity obtained from the FWZI of CO(1–0) spectrum
+on the northern nucleus. It is 7.5 (3.2) for our 1300
+(650) km s −1 de-projected cutoﬀ velocity used for the
+southern jet with iS, outﬂow = 80 ◦ (70◦). A tiny frac-
+tion of the molecular gas in the northern outﬂow and
+most of the high-velocity molecular gas in the southern
+outﬂow are therefore above their respective escape veloc-
+ities from respective galaxies. Whether the molecular gas
+will escape from the merging system is a diﬀerent prob-
+lem and not certain. For one thing, the escape velocity
+from the merger is larger than that from a constituent
+galaxy because the former is more massive. Moreover,
+hydrodynamical eﬀects on the outﬂowing molecular gas,
+already implied by the curvature of the southern molec-
+ular jet, are likely signiﬁcant and can decelerate the out-
+ﬂow through interaction with ambient gas in the system.
+6. DORMANT? AGN IN THE SOUTHERN NUCLEUS
+The most plausible driver of the southern bipolar
+molecular jet is an AGN in the southern nucleus if the
+outﬂow is entrained by a bipolar radio jet. It is because
+only AGNs are known to drive well-collimated radio jets
+of several 100 pc to several 100 kpc. The contrast be-
+tween the northern and southern outﬂows in terms of the
+outﬂow opening angle, velocity, and kinetic luminosity
+also implies diﬀerent driving mechanisms between them.
+Since the northern outﬂow is a starburst-driven super-
+wind in all likelihood the southern outﬂow is left with an
+AGN barring a starburst with very unusual parameters.
+6.1. Constraints on Current AGN Activities
+Despite the likely radio jet that we identiﬁed, recent
+searches for an AGN in the southern nucleus as well
+as in NGC 3256 as a whole have been generally nega-
+tive though not unanimously so. Alonso-Herrero et al.
+(2012) modeled the Spitzer mid-IR spectra at ∼5–38 µm
+from the central 13 ′′ including both nuclei and concluded
+that any AGN contribution to the bolometric luminos-
+ity of NGC 3256 is less than 1%. In X-rays, Lira et al.
+(2002) detected the southern nucleus, in addition to the
+brighter northern nucleus, with long (28 ks) Chandra
+observations but found no evidence for an AGN in ei-
+ther nucleus. Their absorption-corrected X-ray luminos-
+ity for the southern nucleus in the 0.5–10 keV range was
+at least two orders of magnitude below that of classi-
+cal Seyfert nuclei. They concluded that only a low lu-
+minosity AGN comparable to that in M81 is possible.
+Pereira-Santaella et al. (2011) analyzed 126 ks observa-
+tions with XMM-Newton and concluded the absence of a
+luminous Compton-thick AGN. Although they conﬁrmed
+the weak 6.4 keV Fe K α line marginally detected by
+Jenkins et al. (2004) the line equivalent width was found
+to be too small for a luminous AGN. On the positive side,
+Neﬀ et al. (2003) found that the radio-to-X-ray ratios of
+both nuclei are indicative of low-luminosity AGNs.
+Our ALMA observations set constraints on any hid-
+den AGN in the southern nucleus regarding the column
+density and the spatial extent of the obscuring material
+as well as on the AGN luminosity. The mean absorb-
+ing column density is as high as log( NH,equiv./cm−2) ≈
+23.5 toward the central 80 pc of the southern nucleus;
+here we use a half of the total column density. Al-
+though this does not make the nucleus Compton thick
+this is an order of magnitude larger than the column
+density that Lira et al. (2002) used for absorption cor-
+rection. The true column density toward the AGN,
+if any, can be much higher (or lower) than this mean
+value because an AGN could be shrouded at a much
+smaller scale. Regardless of the heating source be-
+hind, the very large obscuration toward the southern
+nucleus is consistent with its very deep 9.7 µm sil-
+icate absorption observed by Mart ´ ın-Hern´ andez et al.
+(2006) and D ´ ıaz-Santos et al. (2010). The absorption
+index is S9.7µm = ln( f9.7µm,obs/f9.7µm,cont) < −3.0
+according to the 0 .′′36 aperture data in Fig. 3 of
+D ´ ıaz-Santos et al. (2010). This absorption index is com-
+parable to those of Arp 220 and NGC 4418 both of
+which have been suspected to host hidden Compton-thick
+AGNs (Roche et al. 1986; Spoon et al. 2007). Their nu-
+clei have compact and bright dusty cores with sizes of
+tens of parsecs, high opacities at submillimeter wave-
+lengths, and /greaterorsimilar 100 K brightness temperatures at 860
+µm (Sakamoto et al. 2008, 2013). Interestingly, we
+did not detect such a compact and bright continuum
+core toward the southern (as well as northern) nu-
+cleus nor did we detect lines from vibrationally excited
+molecules (Table 4) unlike toward Arp 220 and NGC
+4418 (Costagliola & Aalto 2010; Sakamoto et al. 2010;
+Mart ´ ın et al. 2011). This indicates that any Compton
+thick and warm absorber around an AGN in the south-
+ern nucleus must be very compact. For example, a dust
+shroud having 860 µm opacity of 0.3 (i.e., X-ray Comp-
+ton opacity ∼10) and a temperature 100 K should have
+the size of 6 pc (0 .′′03) so that it has the observed peak
+860 µm brightness temperature of 0.24 K at our 0 .′′43
+resolution. The bolometric luminosity of this core would
+be 2 × 109 L⊙. It is an upper limit because only a part
+of the 860 µm continuum is thermal dust emission ( §3.1)
+and probably only a part of the observed 860 µm dust
+continuum is from the central 6 pc. The absence of a
+bright submillimeter core in our data is therefore consis-
+tent with the mid-IR estimate of the low luminosity of
+any AGN in NGC 3256.
+6.2. AGN Activities in Recent Past?
+14 SAKAMOTO et al.
+The molecular bipolar jet plausibly driven by an AGN
+combined with the absence of luminous AGN could be
+explained in two ways. One is that the low-luminosity
+AGN is very eﬃcient in driving the radio and molecular
+jets and the other is that the AGN was previously active
+but is currently inactive possibly due to the quenching
+eﬀect of the outﬂow.
+There are indeed observations that arguably sug-
+gest a luminous AGN in NGC 3256 some 10 4 yr ago.
+Moran et al. (1999) found, in addition to sings of a sev-
+eral 100 km s −1 superwind, broad H α line emission with
+FWZI ≈ 4000–6000 km s −1 at oﬀ-center positions. The
+broad line was not detected on the northern nucleus but
+was detected /greaterorsimilar10′′ from it in a 2 .′′5 slit along p .a. = 155 ◦.
+No velocity shift of the broad line was found between the
+two sides of the nucleus. Although the unusually large
+line widths and the lack of velocity shift alone could be
+attributed to our southern outﬂow, the locations where
+the broad line is detected are not in the 20 ◦ opening
+angle of the outﬂow. Moran et al. (1999) determined
+it implausible that the broad line emission is reﬂected
+light of an AGN broad line region citing the lack of a
+luminous AGN that can illuminate the scattering ISM
+several kpc away. However, it is possible, given our de-
+tection of high-velocity molecular jet from the southern
+nucleus, that the southern nucleus had a luminous AGN
+until very recently. If the broad line emission at least 3
+kpc away from the southern nucleus is a light echo of the
+past activity, the nucleus was (much more) active 10 4 yr
+ago. Similar variations of AGN luminosity at 10 3–105
+yr time scales have been found in a growing number of
+galaxies (Keel et al. 2012) and, in our Galaxy, the X-ray
+luminosity of Sgr A ∗ dropped from its ‘high’ state of the
+last 500 yr by 4–6 orders of magnitude within the last
+100 years (Ryu et al. 2013).
+A caveat for the scenario that the southern outﬂow
+was driven by a radio jet from a recently deactivated
+AGN is that AGN radio jets are not preferentially
+aligned with the galaxy rotation axes (Kinney et al.
+2000; Gallimore et al. 2006) though a good alignment
+was recently reported for Sgr A ∗ (Li et al. 2013). The
+southern outﬂow and the southern nuclear disk have ap-
+parent alignment at least in the projection onto the sky.
+Unless this is another case of intrinsic galaxy-jet align-
+ment, this probably suggests collimation by the nuclear
+disk. It may be through interaction of a radio jet and
+the nuclear gas concentration, perhaps through which
+the jet is loaded with molecular gas. Alternatively, the
+alignment might be because the outﬂow is not entrained
+by a radio jet but driven by some other mechanisms
+including a compact starburst, AGN, and their com-
+bination where the nuclear disk works as a collimator.
+Star formation in the southern nucleus is active, hav-
+ing one third of the star formation in the northern nu-
+cleus (Lira et al. 2008) fueled by the high surface-density
+gas of Σ mol(S) = 6 × 103X20 M⊙pc−2. It is therefore
+reasonable to expect some contribution of star forma-
+tion to the southern outﬂow. If the southern outﬂow is
+driven mainly by starburst then the kinetic luminosity
+of the outﬂow must be much lower than that calculated
+from our ﬁducial conversion factor and outﬂow inclina-
+tion; these parameters must be lower than we assumed.
+On the whole we regard that AGN jet-driven outﬂow
+is more plausible than others to be the main mechanism
+for the southern molecular jet. Some help from starburst
+is certain. This model is, however, not yet proven and
+needs further studies for veriﬁcation and to determine
+the true driving mechanism(s).
+7. DISCUSSION AND CONCLUSIONS
+We have reported our ALMA and SMA observations
+of molecular line and continuum emission in the center
+of NGC 3256. We constrained the conﬁguration of the
+two merger nuclei and their nuclear molecular disks much
+better than before and resolved for the ﬁrst time the high-
+velocity molecular gas in the merger into two molecular
+outﬂows from the two nuclei.
+We have suggested the southern molecular outﬂow
+from NGC 3256S to be driven by an AGN bipolar jet.
+If conﬁrmed, it joins a small group of outﬂows that share
+the same driving mechanism and have been imaged in
+molecular line(s). They include the molecular outﬂows in
+M51 (Matsushita et al. 2004), NGC 1266 (Alatalo et al.
+2011), and NGC 1433 (Combes et al. 2013). Compared
+with these outﬂows, the bipolar molecular jet of NGC
+3256S is better collimated and more energetic for a com-
+mon XCO. This may be because the AGN radio ‘jets’ in
+the other galaxies are wider radio plumes. Mainly be-
+cause of the large outﬂow velocity, the kinetic luminosity
+of the southern outﬂow approaches that of local ultra-
+luminous infrared galaxies and quasar hosts observed by
+Cicone et al. (2014), who obtained outﬂow kinetic lumi-
+nosities on the orders of 10 36–1037 W with a conversion
+factor 3 times lower than ours. The large maximum ve-
+locity of the southern outﬂow is also comparable to or
+larger than those in their survey but this is probably be-
+cause ours is helped much by the high ALMA sensitivity
+and the proximity of NGC 3256.
+The overall signiﬁcance of AGN-driven, jet-entrained
+molecular outﬂows is an open question. AGN time vari-
+ability similar to the one we suggested for NGC 3256S
+may reduce the apparent AGN contribution to galactic
+molecular outﬂows. Regarding jet-entrained outﬂows, on
+one hand, radio jets have been found only in minority of
+AGNs. For instance, Ho & Ulvestad (2001) found “lin-
+ear” structures of radio continuum in 14/52 = 27% of
+optically selected, nearby Seyfert galaxies. On the other
+hand, the parameters of our southern outﬂow imply that
+a jet-entrained outﬂow can be more powerful and eﬃ-
+cient than other outﬂows when normalized by the source
+bolometric luminosity. It is possible therefore that the
+small number and/or short lifetime of the outﬂows driven
+by AGN radio jets are oﬀset to some extent by their eﬃ-
+ciencies and luminosities. The two molecular outﬂows in
+NGC 3256 are excellent targets for such assessment be-
+cause we can simultaneously study properties and driving
+mechanisms of two powerful molecular outﬂows of diﬀer-
+ent natures.
+Our observations have added two similarities between
+NGC 3256 and Arp 220 in addition to both being late
+stage mergers with large infrared luminosities. One is
+the presence of outﬂows from both of the two merger nu-
+clei; for Arp 220 blueshifted molecular line absorption in-
+dicative of outﬂow has been detected toward both nuclei
+(Sakamoto et al. 2009). The other is that the two merger
+nuclei with less than 1 kpc projected separation still re-
+tain their nuclear gas disks with misaligned rotational
+NGC 3256 Molecular Outﬂows 15
+axes; for Arp 220 this was ﬁrst imaged by Sakamoto et al.
+(1999). Our submillimeter observations also revealed a
+clear diﬀerence between the two mergers. Namely, the
+nuclei of NGC 3256 are less obscured than the Arp 220
+nuclei in terms of gas and dust column density averaged
+at 100 pc scale. This is most clearly seen in the submil-
+limeter continuum emission whose opacity due to dust
+is almost unity at 860 µm toward the nuclei of Arp 220
+but about two orders of magnitude lower toward the nu-
+clei of NGC 3256. In order for NGC 3256 to evolve into
+Arp 220, therefore, signiﬁcant gas accretion is needed to
+the nuclei despite the ongoing strong molecular outﬂows
+that would deplete the gas in the nuclei in Myrs. Such
+evolution may indeed occur because Arp 220 is proba-
+bly more advanced as a merger than NGC 3256 judging
+from their nuclear separations. NGC 3256 may become
+more luminous in that process, perhaps as luminous as
+Arp 220, because there is a statistical trend for larger nu-
+clear obscuration (i.e., more gas funneling to the nuclei)
+and larger total luminosities in more advanced mergers
+(Haan et al. 2011; Stierwalt et al. 2013). Further stud-
+ies on NGC 3256 are warranted also for the purpose of
+tracing the late evolutionary path of a merger that is
+plausibly about to become ultraluminous.
+Finally we reemphasize our caution on XCO in partic-
+ular for the high-velocity molecular outﬂows. The large
+line widths of the outﬂow gas reduce the CO column den-
+sity per line width and hence may well result in optically
+thin CO emission. The conversion factor for that case
+is X20 ∼ 0.1. Such a low conversion factor for optically-
+thin CO has been adopted, for example, for the molec-
+ular outﬂow in NGC 1266 on the basis of multi-line CO
+excitation analysis (Alatalo et al. 2011). The outﬂows
+in NGC 3256 may have a similar situation and XCO.
+Alternatively, the outﬂowing gas may consist of an en-
+semble of optically-thick (in CO) clouds that spread in a
+wide velocity range. In its partial support is our detec-
+tion of CN(1–0) lines, with likely enhancement relative
+to CO(1–0), in the high-velocity gas ( §3.3.4). Although
+CN may be subthermally excited, the detection of a line
+with a 10 6 cm−3 critical density implies gas clumping for
+dense gas to exist in the high velocity outﬂows. Even if
+individual clumps are not virialized as assumed for the
+standard XCO, the conversion factor for optically thick
+clumps will be larger than that for optically thin CO (and
+lower that that for virialized CO-thick clouds). Similar
+clumping and presence of dense gas in a galactic molecu-
+lar outﬂow have been deduced for Mrk 231 by Aalto et al.
+(2012) from their detection of broad line wings in HCN,
+HCO+, and HNC lines. Because most outﬂow parame-
+ters in Table 8 depend on X20, followup studies on the
+physical and chemical properties of the high-velocity gas
+are highly desired.
+Our primary ﬁndings are:
+1. Each of the two merger nuclei has its own nuclear
+disk where molecular line and continuum emission peak.
+The northern nuclear disk is nearly face-on ( i ∼30◦),
+has a ∼200 pc characteristic radius, and clearly rotates
+around the northern nucleus. The southern nucleus has
+a more compact emission peak and a linear structure ex-
+tending ∼200 pc on either side. It is deduced to be a
+nearly edge-on nuclear disk rotating around the south-
+ern nucleus. The mean molecular gas surface densities
+of both nuclei is about 3 X20 × 104 M⊙pc−2 at 240 pc
+resolution, where X20 is the CO-to-H 2 conversion factor
+in the unit of 10 20 cm−2 (K km s −1)−1. The peak gas
+surface density is 6 X20 × 104 M⊙pc−2 at the southern
+nucleus at 80 pc resolution.
+2. The high velocity molecular gas previously found
+at the center of the merger is resolved to two molecular
+outﬂows associated with the two nuclei. We detected not
+only CO but also CN lines with enhancement in these
+outﬂows. The CN detection in a galactic outﬂow is for
+the ﬁrst time to our knowledge. The total molecular
+outﬂow rate of the two outﬂows is on the same order of
+the total star formation rate in NGC 3256.
+3. The molecular outﬂow from the northern nuclear
+disk is a bipolar ﬂow with a wide opening angle and a
+nearly pole-on viewing angle. It has de-projected outﬂow
+velocities up to 750 km s −1 at /greaterorsimilar4σ and an outﬂow time
+scale (crossing time) of 1 Myr. Its molecular gas mass is
+6X20 × 107 M⊙, mass outﬂow rate 60 X20 M⊙yr−1, and
+kinetic luminosity on the order of 4 X20×108 L⊙. The last
+three are for the gas at de-projected velocities above 260
+km s −1. At the current rate the outﬂow would deplete
+molecular gas in the northern nuclear disk in 3 Myr if the
+same conversion factor applies to the nuclear disk and
+the outﬂow. Most of the outﬂow/superwind signatures
+found so far at other wavelengths in NGC 3256 must be
+from this outﬂow.
+4. The molecular outﬂow from NGC 3256S is a well
+collimated bipolar jet with a ∼20◦ opening angle and is
+nearly edge on. It has a de-projected maximum velocity
+2600 km s −1 for a favored inclination angle 80 ◦ or 1300
+km s −1 for i = 70 ◦. The line-of-sight outﬂow velocity
+increases with distance up to 300 pc from the nucleus.
+This molecular jet has a 0.5 Myr crossing time, a mass
+of 2.5X20 × 107 M⊙, a mass outﬂow rate 50 X20 M⊙yr−1,
+and a kinetic luminosity on the order of 90 X20 × 108 L⊙
+for i = 80 ◦. These are for gas at projected velocities
+above 220 km s −1 and the lower velocity gas in the out-
+ﬂow may be an order of magnitude larger in mass. The
+gas depletion time for the central 80 pc is ∼0.6 Myr un-
+der the same assumption about the conversion factor as
+above and ignoring the lower velocity ﬂow.
+5. The northern outﬂow is a starburst driven super-
+wind in all likelihood. The southern outﬂow is most
+likely entrained by a radio jet from a weak or recently
+dimmed AGN in the southern nucleus. Pieces of evidence
+for the latter outﬂow driver are the large diﬀerences in
+the outﬂow parameters from the northern superwind, oﬀ-
+nuclear broad H α lines in NGC 3256, and a pair of radio
+spurs from the southern nucleus that matches in shape
+the southern molecular bipolar jet.
+6. Continuum spectral indexes are negative at 3 mm
+and positive at 0.86 mm for both nuclei. The index is
+lower, in particular at 0.86 mm, for the southern nu-
+cleus, suggesting signiﬁcant synchrotron and/or free-free
+emission even at 860 µm. Neither nucleus has a bright
+(Tb > 10 K) dust continuum core of several 10 pc size at
+860 µm such as those found in Arp 220 and NGC 4418.
+This disfavors presence of a highly Compton-thick and
+currently luminous AGN in the nuclei of NGC 3256.
+The new observations presented in this paper contain
+more information than we could ﬁt in a single paper.
+Further analysis will be reported elsewhere.
+16 SAKAMOTO et al.
+We are grateful to the people who worked or supported
+to make ALMA a reality. We also thank the ALMA and
+SMA staﬀ who carried out our observing runs or made
+the data assessments. This paper made use of the follow-
+ing ALMA data: ADS/JAO.ALMA#2011.0.00002.SV
+and ADS/JAO.ALMA#2011.0.00525.S. ALMA is a part-
+nership of ESO (representing its member states), NSF
+(USA) and NINS (Japan), together with NRC (Canada)
+and NSC and ASIAA (Taiwan), in cooperation with the
+Republic of Chile. The Joint ALMA Observatory is op-
+erated by ESO, AUI/NRAO and NAOJ. This paper also
+uses observations made with the Submillimeter Array,
+which is a joint project between the Smithsonian As-
+trophysical Observatory and the Academia Sinica Insti-
+tute of Astronomy and Astrophysics, and is funded by
+the Smithsonian Institution and the Academia Sinica.
+This research is also partly based on observations made
+with the NASA/ESA Hubble Space Telescope, and ob-
+tained from the Hubble Legacy Archive, which is a col-
+laboration between the Space Telescope Science Insti-
+tute (STScI/NASA), the Space Telescope European Co-
+ordinating Facility (ST-ECF/ESA) and the Canadian
+Astronomy Data Centre (CADC/NRC/CSA). This re-
+search has made use of the NASA/ IPAC Infrared Science
+Archive, which is operated by the Jet Propulsion Labora-
+tory, California Institute of Technology, under contract
+with the National Aeronautics and Space Administra-
+tion. The authors also made use of the NASA/IPAC Ex-
+tragalactic Database (NED), NASA’s Astrophysics Data
+System (ADS), and the splatalogue database for astro-
+nomical spectroscopy. KS was supported by the Tai-
+wanese NSC grants 99-2112-M-001-011-MY3 and 102-
+2119-M-001-011-MY3.
+Facilities: ALMA, SMA, HST, Spitzer
+NGC 3256 Molecular Outﬂows 17
+REFERENCES
+Aalto, S., Booth, R. S., Black, J. H., and Johansson, L. E. B.
+1995, A&A, 300, 369
+Aalto, S., Polatidis, A. G., H¨ uttemeister, S., & Curran, S. J.
+2002, A&A, 381, 783
+Aalto, S., Garcia-Burillo, S., Muller, S., et al. 2012, A&A, 537,
+A44
+Alatalo, K., Blitz, L., Young, L. M., et al. 2011, ApJ, 735, 88
+Alonso-Herrero, A., Pereira-Santaella, M., Rieke, G. H., &
+Rigopoulou, D. 2012, ApJ, 744, 2
+Baan, W. A., Haschick, A. D., & Henkel, C. 1989, ApJ, 346, 680
+Bolatto, A. D., W arren, S. R., Leroy, A. K., et al. 2013a, Natu re,
+499, 450
+Bolatto, A. D., W olﬁre, M., & Leroy, A. K. 2013b, ARA&A, 51,
+207
+Carilli, C. L., & W alter, F. 2013, ARA&A, 51, 105
+Chung, A., Yun, M. S., Naraynan, G., Heyer, M., & Erickson,
+N. R. 2011, ApJ, 732, L15
+Cicone, C., Maiolino, R., Sturm, E., et al. 2014, A&A, 562, A2 1
+Combes, F., Garc ´ ıa-Burillo, S., Casasola, V., et al. 2013, A&A,
+558, A124
+Costagliola, F., & Aalto, S. 2010, A&A, 515, A71
+D ´ ıaz-Santos, T., Alonso-Herrero, A., Colina, L., et al. 20 10, ApJ,
+711, 328
+English, J., Norris, R. P., Freeman, K. C., and Booth, R. S. 20 03,
+AJ, 125, 1134
+Feruglio, C., Maiolino, R., Piconcelli, E., et al. 2010, A&A , 518,
+L155
+Fischer, J., Sturm, E., Gonz´ alez-Alfonso, E., et al. 2010, A&A,
+518, L41
+Gallimore, J. F., Axon, D. J., O’Dea, C. P., Baum, S. A., &
+Pedlar, A. 2006, AJ, 132, 546
+Garc ´ ıa-Burillo, S., Mart ´ ın-Pintado, J., Fuente, A., & Neri, R.
+2000, A&A, 355, 499
+Haan, S., Surace, J. A., Armus, L., et al. 2011, AJ, 141, 100
+Heckman, T. M., Lehnert, M. D., Strickland, D. K., & Armus, L.
+2000, ApJS, 129, 493
+Ho, L. C., & Ulvestad, J. S. 2001, ApJS, 133, 77
+Jenkins, L. P., Roberts, T. P., W ard, M. J., and Zezas, A. 2004 ,
+MNRAS, 352, 1335
+Keel, W. C., Chojnowski, S. D., Bennert, V. N., et al. 2012,
+MNRAS, 420, 878
+Kinney, A. L., Schmitt, H. R., Clarke, C. J., et al. 2000, ApJ,
+537, 152
+Kotilainen, J. K., Moorwood, A. F. M., W ard, M. J., and Forbes ,
+D. A. 1996, A&A, 305, 107
+Laine, S., van der Marel, R. P., Rossa, J., et al. 2003, AJ, 126 ,
+2717
+Leitherer, C., Schaerer, D., Goldader, J. D., et al. 1999, Ap JS,
+123, 3
+Leitherer, C., Chandar, R., Tremonti, C. A., W oﬀord, A., &
+Schaerer, D. 2013, ApJ, 772, 120
+Li, Z., Morris, M. R., & Baganoﬀ, F. K. 2013, ApJ, 779, 154
+L ´ ıpari, S., D ´ ıaz, R., Taniguchi, Y., et al. 2000, AJ, 120, 645
+Lira, P., W ard, M., Zezas, A., Alonso-Herrero, A., & Ueno, S.
+2002, MNRAS, 330, 259
+Lira, P., Gonzalez-Corvalan, V., W ard, M., & Hoyer, S. 2008,
+MNRAS, 384, 316
+Mart ´ ın, S., Krips, M., Mart ´ ın-Pintado, J., et al. 2011, A&A, 527,
+A36
+Mart ´ ın-Hern´ andez, N. L., Schaerer, D., Peeters, E., Tielens,
+A. G. G. M., & Sauvage, M. 2006, A&A, 455, 853
+Matsushita, S., Sakamoto, K., Kuo, C.-Y., et al. 2004, ApJ, 6 16,
+L55
+Moran, E. C., Lehnert, M. D., & Helfand, D. J. 1999, ApJ, 526,
+649
+Murphy, E. J., Condon, J. J., Schinnerer, E., et al. 2011, ApJ ,
+737, 67
+Nakai, N., Hayashi, M., Handa, T., et al. 1987, PASJ, 39, 685
+Neﬀ, S. G., Ulvestad, J. S., and Campion, S. D. 2003, ApJ, 599,
+1043
+Norris, R. P., & Forbes, D. A. 1995, ApJ, 446, 594
+Pereira-Santaella, M., Alonso-Herrero, A., Santos-Lleo, M., et al.
+2011, A&A, 535, A93
+Roche, P. F., Aitken, D. K., Smith, C. H., & James, S. D. 1986,
+MNRAS, 218, 19P
+Ryu, S. G., Nobukawa, M., Nakashima, S., Tsuru, T. G.,
+Koyama, K., and Uchiyama, H. 2013, PASJ, 65, 33
+Sakamoto, K., Scoville, N. Z., Yun, M. S., Crosas, M., Genzel , R.,
+and Tacconi, L. J. 1999, ApJ, 514, 68
+Sakamoto, K., Ho, P. T. P., & Peck, A. B. 2006, ApJ, 644, 862
+(SHP06)
+Sakamoto, K. et al. 2008, ApJ, 684, 957
+Sakamoto, K., et al. 2009, ApJ, 700, L104
+Sakamoto, K., Aalto, S., Evans, A. S., Wiedner, M. C., & Wilne r,
+D. J. 2010, ApJ, 725, L228
+Sakamoto, K. 2013, Astronomical Society of the Paciﬁc
+Conference Series, 477, 21
+Sakamoto, K., Aalto, S., Costagliola, F., et al. 2013, ApJ, 7 64, 42
+Sanders, D. B., Mazzarella, J. M., Kim, D.-C., Surace, J. A., &
+Soifer, B. T. 2003, AJ, 126, 1607
+Sargent, A. I., Sanders, D. B., & Phillips, T. G. 1989, ApJ, 34 6,
+L9
+. Scarrott, S. M., Draper, P. W., & Stockdale, D. P. 1996,
+MNRAS, 279, 1325
+Spoon, H. W. W., Marshall, J. A., Houck, J. R., Elitzur, M., Ha o,
+L., Armus, L., Brandl, B. R., & Charmandaris, V. 2007, ApJ,
+654, L49
+Stierwalt, S., Armus, L., Surace, J. A., et al. 2013, ApJS, 20 6, 1
+Toomre, A., & Toomre, J. 1972, ApJ, 178, 623
+Toomre, A. 1977, in “Evolution of Galaxies and Stellar
+Populations”, eds. B. M. Tinsley and R. B. Larson, Yale
+University Observatory, 401
+Trancho, G., Bastian, N., Miller, B. W., & Schweizer, F. 2007 ,
+ApJ, 664, 284
+Turner, B. E. 1985, ApJ, 299, 312
+Turner, B. E., & Gammon, R. H. 1975, ApJ, 198, 71
+Veilleux, S., Cecil, G., & Bland-Hawthorn, J. 2005, ARA&A, 4 3,
+769
+Zenner, S., & Lenzen, R. 1993, A&AS, 101, 363
+18 SAKAMOTO et al.
+TABLE 1
+NGC 3256 parameters
+Parameter Value note
+R.A. (J2000) 10 h27m51.s23 (1)
+Dec. (J2000) −43◦54′16.′′6 (1)
+Vsys [km s −1] 2775 (2)
+D [Mpc] 35 (3)
+Scale. 1 ′′ in pc 170
+L8−1000µm [L⊙] 10 11.56 (4)
+SFR [ M⊙yr−1] 50 (5)
+P.A. [ ◦] ∼70 (6)
+Note. — (1) The middle point
+of the two radio nuclei in Neﬀ et al.
+(2003). W e used this as the center
+for the ALMA Cycle 0 and SMA ob-
+servations and for all ﬁgures in oﬀ-
+set coordinates. The ALMA pointing
+position for the CSV observations was
+R.A.=10h27m51.s60 Dec.= −43◦54′18.′′0.
+(2) Systemic velocity of the merger in
+radio-deﬁnition with respect to the LSR
+(SHP06). (3) Adopted galaxy distance
+(Sanders et al. 2003). (4) From the
+IRAS ﬂux data (Sanders et al. 2003).
+(5) Star formation rate calculated from
+the bolometric luminosity using the cal-
+ibration of Murphy et al. (2011) and as-
+suming no AGN contribution. (6) The
+major-axis position angle of the bulk
+molecular gas motion in the central ∼6
+kpc (SHP06).
+TABLE 2
+Log of ALMA observations
+ID. UT date conﬁg. Nant BL range ⟨Tsys⟩ Sgain αgain αbp Tgal
+[m] [K] [Jy] [min]
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10)
+Band 3:
+B3-c1 2011-04-16 CSV 7 12–90 66 1.94 −0.25 −0.25 90
+B3-c2 2011-04-17 CSV 8 14–89 61 1.94 −0.25 −0.25 90
+B3-1 2011-12-29 COM 14 16–259 74 1.35 −0.50 −0.34 31
+B3-2 2011-12-30 COM 13 15–253 72 1.35 −0.50 −0.34 31
+B3-3 2012-01-27 COM 17 17–269 72 1.33 −0.67 −0.336 34
+B3-4 2012-01-27 COM 17 17–264 69 1.33 −0.67 −0.336 34
+B3-5 2012-03-27 EXT 14 20–374 64 1.49 −0.56 −0.43 34
+B3-6 2012-07-28 EXT 23 16–364 78 1.46 −0.68 −0.67 29
+Band 7:
+B7-1 2012-01-24 COM 16 15–256 181 0.54 −1.03 −0.61 30
+B7-2 2012-05-21 EXT 14 16–360 186 0.75 −1.18 −0.67 30
+B7-3 2012-06-04 EXT 20 16–360 149 0.67 −0.89 −0.86 30
+Note. — (2) date of observations. (3) ALMA array conﬁguration. Cy cle 0 had two conﬁgurations,
+COM=compact and EXT=extended. (4) Number of useable antenn as after ﬂagging bad data. Some
+of them are partly ﬂagged. (5) The range of projected baselin es toward NGC 3256. (6) Median single-
+side-band system temperature toward NGC 3256. (7) and (8) Fl ux density and spectral index of
+the gain calibrator, J1037 −295 in the CSV observations and J1107 −448 in our Cycle 0 observations.
+The ﬂux densities in Band 3 are the ones at 100 GHz and those in B and 7 are at 348 GHz. Primary
+ﬂux calibrators were Mars or Titan. (9) Spectral index of the bandpass calibrator, J1037 −295 and
+3C279 in the CSV and Cycle 0 observations, respectively. (10 ) Total integration time on NGC 3256.
+The calibration parameters (7)–(9) for the data B3-c2 are ta ken from the measurements in B3-c1.
+Those for B3-1 and B3-2 as well as B3-3 and B3-4 are respective ly from combined ﬁtting of the two
+calibration datasets.
+NGC 3256 Molecular Outﬂows 19
+TABLE 3
+Frequency Coverage
+obs. band SB f (LSRK) frest
+GHz GHz
+(1) (2) (3) (4) (5)
+Cycle 0 B7 U 352.220–355.619 355.511–358.941
+Cycle 0 B7 L 340.226–343.629 343.405–346.839
+CSV B3 U 111.693–115.110 112.737–116.185
+Cycle 0 B3 U 111.598–114.962 112.641–116.036
+CSV B3 L 99.622–102.823 100.553–103.784
+Cycle 0 B3 L 99.606–102.910 100.537–103.871
+Note. — (3) U= upper sideband, L=lower sideband. (4) The
+range of LSRK frequencies covered in all executions for a sou rce
+in the direction of NGC 3256. The CSV data has a ∼0.1 GHz gap
+in the middle of USB. The execution B7-2 in Table 2 does not
+have the upper half of the USB. (5) The frequency coverage in
+the rest frame of NGC 3256 at V (radio, LSRK) = 2775km s −1.
+TABLE 4
+Lines Imaged tow ard NGC 3256
+species, transition frest Eu/k note
+[GHz] [K]
+(1) (2) (3) (4)
+HCO+(J=4–3) 356.7342 42.8 B7 USB
+CO(J=3–2) 345.7960 33.2 B7 LSB
+CO(J=2-1) 230.5380 16.6 SMA USB
+13CO(J=2–1) 220.3987 15.9 SMA LSB
+CO(J=1–0) 115.2712 5.5 B3 USB
+CN(N=1–0; J=3/2–1/2) 113.4949 5.4 B3 USB
+CN(N=1–0; J=1/2–1/2) 113.1688 5.4 B3 USB
+CH3CCH(JK =60–50) 102.5480 17.2 B3 LSB
+non-detections:
+HCO+(v2 = 1, J = 4–3, l = 1f ) 358.2424 1236.7 B7 USB
+HCN(v2 = 1, J = 4–3, l = 1f ) 356.2556 1067.1 B7 USB
+Note. — The data are taken from splatalogue. (2) Rest frequency.
+For CN the frest frequencies are mean values of ﬁve and four transi-
+tions (of almost identical Eu), respectively, for the one group at around
+113.4949 GHz and the other at around 113.1688 GHz. The ranges of
+frest in each group are 32 and 68 MHz, respectively, for the ﬁrst and
+the second group. CH 3CCH (propyne or methyl acetylene) is a sym-
+metric top molecule and has several transitions around this frequency
+with diﬀerent Eu for diﬀerent K. Listed above is the one with K = 0
+involving the lowest Eu. Intensity-weighted mean frequency can be
+several MHz lower than this for excitation temperatures on t he order
+of 50 K. (3) The upper level energy divided by the Boltzmann co nstant.
+TABLE 5
+Continuum Data Properties
+Source Band SB wt beam rms max rms max Fig.
+[′′, ′′] [mJy beam −1] [mK]
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10)
+Cyc0 B7 D br 0 .52 × 0.36 0.16 4.42 8.6 237 1c, 12b, 19
+Cyc0 B7 D na 0 .65 × 0.49 0.13 5.80 4.1 183 1b
+Cyc0 B7 U na 0 .63 × 0.48 0.17 5.76 5.5 185
+Cyc0 B7 L na 0 .67 × 0.50 0.15 5.71 4.7 179
+Cyc0 B7 D tp 1 .19 × 1.11 0.24 14.21 1.8 108 12a
+CSV+Cyc0 B3 D na 2 .77 × 2.36 0.017 5.09 0.28 84 1a
+CSV+Cyc0 B3 U na 2 .63 × 2.40 0.037 5.00 0.56 75
+CSV+Cyc0 B3 L na 2 .81 × 2.35 0.018 5.13 0.32 91
+Note. — (1) Cyc0 = ALMA Cycle 0, CSV+Cyc0 = ALMA CSV and Cycle 0 combi ned.
+(3) sideband. D=DSB, U=USB, L=LSB. (4) visibility weightin g for imaging. br= Briggs with
+robust = 0 , na = natural, tp = tapered. (5) Size of the synthesized beam i n FWHM. (6)–(7) rms
+noise and maximum in the continuum image in the unit of mJy bea m−1. These are measured
+before correction for the primary-beam attenuation. (8)–( 9) The same rms noise and maximum
+in the unit of milli-kelvin.
+20 SAKAMOTO et al.
+TABLE 6
+Line Data Properties
+Source line wt δV beam rms max rms max Fig.
+km s −1 [′′×′′] [mJy beam −1] [mK] [K]
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10)
+Cyc0 HCO +(4–3) na 25.2 0 .65 × 0.49 1.53 42.9 47 1.3 8, 14
+Cyc0 HCO +(4–3) na 8.4 0 .65 × 0.49 2.55 46.5 78 1.4 3
+Cyc0 CO(3–2) br 26.0 0 .58 × 0.39 1.92 470.9 88 21.7 7
+Cyc0 CO(3–2) na 26.0 0 .68 × 0.50 1.20 624.2 37 19.0 14
+Cyc0 CO(3–2) tp 26.0 1 .20 × 1.10 1.67 1725.7 13 13.6 16
+Cyc0 CO(3–2) br 8.7 0 .58 × 0.39 3.31 479.2 152 22.1 2, 9, 12, 18, 19
+Cyc0 CO(3–2) tp 8.7 1 .20 × 1.10 2.48 1777.3 20 14.0 12, 15
+SMA CO(2–1) na 10.0 1 .03 × 0.56 13.0 480.0 526 19.4 2
+SMA 13CO(2–1) tp 20.0 2 .14 × 1.69 14.1 138.5 100 0.98 3
+Cyc0 CO(1–0) br 10.4 1 .61 × 1.24 1.46 321.2 69 15.1 2
+Cyc0 CO(1–0) na 10.4 2 .32 × 2.06 0.96 589.8 19 11.6 17
+Cyc0 CN(1–0, 32 – 12 ) br 26.4 1 .69 × 1.28 0.72 26.6 32 1.19 3, 5
+Cyc0 CN(1–0, 12 – 12 ) br 26.5 1 .69 × 1.28 0.72 12.5 33 0.56 3, 5Cyc0 CH 3CCH(6–5) na 29.2 2 .62 × 2.14 0.34 3.7 7.2 0.078 3, 6
+CSV+Cyc0 CO(1–0) br 40.6 1 .69 × 1.31 0.69 314.9 29 13.3 4
+CSV+Cyc0 CO(1–0) na 40.6 2 .92 × 2.57 0.43 736.6 5.4 9.2 13, 16
+CSV+Cyc0 CO(1–0) tp 40.6 5 .78 × 5.17 0.52 1732.2 1.6 5.4 10, 13, 14
+CSV+Cyc0 CN(1–0, 32 – 12 ) tp 41.3 5 .90 × 5.16 0.41 87.4 1.3 0.28 11, 14
+Note. — (1) Cyc0 = ALMA Cycle 0, CSV+Cyc0 = ALMA CSV and Cycle 0 combi ned. (2) Emission line. See
+Table 4 for more line information. (3) visibility weighting for imaging. br= Briggs with robust = 0 , na = natural, tp
+= tapered. (4) Velocity resolution for the line. (5) Size of t he synthesized beam in FWHM. (6)–(7) rms noise and
+maximum in the channel maps in the unit of mJy beam −1. These are measured before correction for the primary-beam
+attenuation. (8)–(9) The same rms noise and maximum in brigh tness temperature.
+TABLE 7
+Continuum Flux Densities and Spectral Indexes
+band SB νmean Sν (20′′) Sν (N) Sν (S) θ α (20′′) α(N) α(S)
+GHz mJy mJy mJy ′′
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10)
+B7 U 354.236 122.2 13.2 9.6 1 +3 .00 +3 .72 +1 .56
+B7 L 341.203 109.2 11.5 9.1 1 · · · · · · · · ·
+B3 U 113.313 28.4 5.1 5.0 2.7 −0.10 −0.12 −0.19
+B3 L 101.222 28.8 5.2 5.1 2.7 · · · · · · · · ·
+Note. — (2) U= upper sideband, L=lower sideband. (3) Mean frequen cy of the single
+side band continuum. (4) Flux density of the continuum emiss ion integrated over a 20 ′′
+diameter aperture centered at the midpoint of the two nuclei . Only the Cycle 0 data are
+used. (5) and (6) Flux densities at the radio positions of the northern and southern nuclei,
+respectively, within the Gaussian beams whose FWHM sizes ar e in (7). Data in columns
+(4), (5), and (6) are corrected for the primary beam response s but not for any missing
+ﬂux. More digits are shown than allowed for their absolute ac curacies because the ratio
+between USB and LSB are free from the common sources of error f or the two sidebands.
+(8), (9), and (10) Spectral indexes for the 20 ′′ aperture, northern nucleus, and southern
+nucleus calculated between the USB and LSB of each receiver b and.
+NGC 3256 Molecular Outﬂows 21
+TABLE 8
+NGC 3256 Measured and Estimated Parameters
+Parameter Value note
+northern galaxy/nucleus:
+inclination [ ◦] iN 30 (1)
+major axis p.a. [ ◦] 75 (90) (2)
+max Σmol(N, 240 pc) [ M⊙pc−2] 4 X20 × 103 (3)
+Mmol(HV, N) [ M⊙] 6 X20 × 107 (4)
+max(voutﬂow,N) [km s −1] 750 (1000) (5)
+⟨voutﬂow,N⟩ [km s −1] 300 (6)
+loutﬂow,N [pc] 1 .′′8/ sin iN = 820 (7)
+toutﬂow,N [Myr] 1.1 (8)
+˙MN [ M⊙ yr−1] 60 X20 (9)
+Lkin,N [L⊙] 4 X20 × 108 (10)
+tdip,N(300 pc) [Myr] 3 χN (11)
+southern galaxy/nucleus:
+inclination iS [◦] 80 (1)
+major axis p.a. [ ◦] 90 (2)
+max Σmol(S, 240 pc) [ M⊙pc−2] 3 X20 × 103 (3)
+max Σmol(S, 80 pc) [ M⊙pc−2] 6 X20 × 103 (3)
+Mmol(HV, S) [ M⊙] 2 .5X20 × 107 (4)
+θS,op [◦] 20 (12)
+max(voutﬂow,S) [km s −1] 2600 c80 (5)
+⟨voutﬂow,S⟩ [km s −1] 1400 c80 (6)
+loutﬂow,S [pc] 4 ′′/ sin iS = 690s80 (7)
+toutﬂow,S [Myr] 0 .5t80 (8)
+˙MS [M⊙ yr−1] 50 X20t−180 (9)
+Lkin,S [L⊙] 9 X20c280t−180 × 109 (10)tdip,S(80 pc) [Myr] 0 .6χS t80 (11)
+merger system:
+Vsys [km s −1] 2775 (13)
+Mdyn(N)/Mdyn(S) 2 .5 ± 1 (14)
+Mmol(r ≤ 10′′) [ M⊙] 7 X20 × 109 (15)
+Mmol(r ≤ 20′′) [ M⊙] 1 X20 × 1010 (15)
+Note. — We deﬁne X20 ≡ XCO/(1020 cm−2 (K km s −1)−1),
+which is the ratio of the true XCO for the gas in consider-
+ation to our ﬁducial conversion factor. The parameter χ is
+XCO(nucleus)/XCO(outﬂow), the ratio of XCO between the nu-
+clear disk and the outﬂow in consideration. We also deﬁne, fo r the
+southern nucleus, the ratio of trigonometric values for our most
+favored inclination to those for the true inclination of the south-
+ern nucleus. Namely, s80 ≡ sin 80◦/ sin iS, c80 ≡ cos 80◦/ cos iS,
+and t80 ≡ tan 80◦/ tan iS. For iS =70◦ and 85 ◦, t80 is 2.1 and
+0.5, respectively. (1) Inclination of the nuclear disk. (2) Major
+axis position angle of the nuclear disk. The number in the par en-
+thesis for the northern galaxy is the one for the very center o f
+the nuclear disk. (3) Peak molecular gas surface density of t he
+nucleus at the given resolution. (4) The mass of high-veloci ty
+molecular gas associated with the nucleus. This only includ es the
+gas whose line-of-sight velocity is more than 224 km s −1 oﬀset
+from the systemic velocity. (5) The maximum outﬂow velocity
+after the correction for inclination. For the northern outﬂ ow this
+corresponds to the > 3σ CO(1–0) emission in Fig. 10 and the
+number in parenthesis is from the CO(1–0) FWZI in Fig. 14. For
+the southern outﬂow this corresponds to the > 4σ CO(3–2) emis-
+sion in Fig. 12a. (6) Characteristic outﬂow velocity that we use
+to calculate kinematical luminosity. (7) Extent of the outﬂ ow on
+each side of the nucleus. This is corrected for the outﬂow inc lina-
+tion. (8) Outﬂow timescale, i.e., travel time. (9) Molecula r mass
+outﬂow rate. (10) Kinetic luminosity of the molecular outﬂo w.
+(11) Timescale for the outﬂow to deplete to deplete molecula r gas
+from the nuclear region of the given diameter. (12) Opening a n-
+gle of the molecular outﬂow. (13) The systemic velocity of th e
+merger. We also use this as the ﬁducial velocity for individu al
+nuclei. (14) The ratio of the dynamical masses in the central kpc
+of the two nuclei. (15) Mass of molecular gas within the indic ated
+radius on the sky from the midpoint of the two nuclei.
+22 SAKAMOTO et al.
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+20 10 0 −10 −20
+R.A. offset [arcsec]
+−20
+−10
+0
+10
+20
+Dec. offset [arcsec]
+ 
+2.8" x 2.4" 1 kpc
+(a) 2.81 mm   
+   
+0 1 2 3 4 5
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+Dec. offset [arcsec]
+ 
+0.65" x 0.49" 300 pc
+(b) 0.86 mm   
+   
+0 1 2 3 4 5
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+4 2 0 −2 −4
+ 
+−4
+−2
+0
+2
+4
+ 
+ 
+4 2 0 −2 −4
+R.A. offset [arcsec]
+−4
+−2
+0
+2
+4
+Dec. offset [arcsec]
+ 
+0.52" x 0.36" 300 pc
+(c) 0.86 mm   
+   
+0 1 2 3 4
+Fig. 1.— NGC 3256 continuum at λ ∼ 2.8 mm (left) and 0.86 mm (middle and right). The two plus sign s are at the positions of the
+cm-wave radio nuclei in Neﬀ et al. (2003). The oﬀset coordina tes are measured from the ALMA Cycle 0 pointing position in Ta ble 1. The
+maps are corrected for the attenuation of the (mosaicked) pr imary beam response and are truncated at the 50% of their peak s. The nth
+contours are at ±4n1.7σ, ±4n1.2σ, and ±3nσ in (a), (b), and (c), respectively, with zero contours omitt ed and negative contours dashed.
+The rms noise σ are the ones measured before the primary-beam correction an d are given in Table 5. The intensity unit of the color bars
+at the top is mJy beam −1. The peaks in (a), (b), and (c) are 5.1 (0.08), 5.9 (0.19), and 4.5 (0.24) mJy beam −1 (K), respectively.
+NGC 3256 Molecular Outﬂows 23
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+20 10 0 −10 −20
+R.A. offset [arcsec]
+−20
+−10
+0
+10
+20
+Dec. offset [arcsec]
+ 
+1.6" x 1.2" 1 kpc
+CO(1−0)   
+   
+0 500 1000 1500
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 10 5 0 −5 −10 −15
+ 
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+ 
+15 10 5 0 −5 −10 −15
+R.A. offset [arcsec]
+−15
+−10
+−5
+0
+5
+10
+15
+Dec. offset [arcsec]
+ 
+1.03" x 0.56" 500 pc
+CO(2−1)   
+   
+0 500 1000 1500 2000
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+Dec. offset [arcsec]
+ 
+0.58" x 0.39" 300 pc
+CO(3−2)   
+   
+0 500 1000 1500 2000 2500
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+20 10 0 −10 −20
+R.A. offset [arcsec]
+−20
+−10
+0
+10
+20
+Dec. offset [arcsec]
+ 
+1.6" x 1.2" 1 kpc
+CO(1−0)   
+   
+2600 2650 2700 2750 2800 2850 2900
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 10 5 0 −5 −10 −15
+ 
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+ 
+15 10 5 0 −5 −10 −15
+R.A. offset [arcsec]
+−15
+−10
+−5
+0
+5
+10
+15
+Dec. offset [arcsec]
+ 
+1.03" x 0.56" 500 pc
+CO(2−1)   
+   
+2650 2700 2750 2800 2850 2900
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+Dec. offset [arcsec]
+ 
+0.58" x 0.39" 300 pc
+CO(3−2)   
+   
+2650 2700 2750 2800 2850 2900
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+20 10 0 −10 −20
+R.A. offset [arcsec]
+−20
+−10
+0
+10
+20
+Dec. offset [arcsec]
+ 
+1.6" x 1.2" 1 kpc
+CO(1−0)   
+   
+0 20 40 60 80
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 10 5 0 −5 −10 −15
+ 
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+ 
+15 10 5 0 −5 −10 −15
+R.A. offset [arcsec]
+−15
+−10
+−5
+0
+5
+10
+15
+Dec. offset [arcsec]
+ 
+1.03" x 0.56" 500 pc
+CO(2−1)   
+   
+0 20 40 60
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+Dec. offset [arcsec]
+ 
+0.58" x 0.39" 300 pc
+CO(3−2)   
+   
+0 20 40 60 80 100 120
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+20 10 0 −10 −20
+R.A. offset [arcsec]
+−20
+−10
+0
+10
+20
+Dec. offset [arcsec]
+ 
+1.6" x 1.2" 1 kpc
+CO(1−0)   
+   
+0 2 4 6 8 10 12 14
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 10 5 0 −5 −10 −15
+ 
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+ 
+15 10 5 0 −5 −10 −15
+R.A. offset [arcsec]
+−15
+−10
+−5
+0
+5
+10
+15
+Dec. offset [arcsec]
+ 
+1.03" x 0.56" 500 pc
+CO(2−1)   
+   
+0 5 10 15
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+Dec. offset [arcsec]
+ 
+0.58" x 0.39" 300 pc
+CO(3−2)   
+   
+0 5 10 15 20
+Fig. 2.— 12CO(J=1–0) (left), 12CO(J=2–1) (middle), and 12CO(J=3–2) (right) images of NGC 3256. The four rows are, from the top, moment
+0, 1, 2 maps and peak Tb maps with the data units of K km s −1, km s −1, km s −1, and K, respectively. The two plus signs are at the positions of
+the cm-wave radio nuclei. The oﬀset coordinates are measure d from the common ALMA Cycle 0 and SMA pointing position in Tab le 1. Intensity
+maps (the top and the bottom rows) are corrected for the (mosa icked) primary beam responses; dotted lines show them at 50% of their peaks.
+The nth contours in the moment 0 maps are at cnp Kkm s −1, where ( c, p) = (18 , 1.7), (61, 1.5), and (27 , 2) for CO(1–0), (2–1), (3–2), respectively.
+Contours in the moment 1 maps are at every 20 km s −1 including 2775 km s −1, and those in the moment 2 maps at every 10 km s −1 starting
+from 10 km s −1. The nth contours in the peak Tb maps are at dnq K, where ( d, q) = (0 .55, 1.4), (2.5, 1.0), and (1 .5, 1.3) for CO(1–0), (2–1), (3–2),
+respectively. The maximum brightness temperatures in the m aps are 15.2, 19.5, and 22.4 K for CO(1–0), (2–1), (3–2), resp ectively. Synthesized
+beams are shown with their FWHM sizes at the bottom-left corn ers of the panels.
+24 SAKAMOTO et al.
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+Dec. offset [arcsec]
+ 
+1.7" x 1.3" 500 pc
+CN(1−0,3/2−1/2)   
+   
+0 50 100 150
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+ 
+1.7" x 1.3" 500 pc
+CN(1−0,1/2−1/2)   
+   
+0 20 40 60 80 100
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 10 5 0 −5 −10 −15
+ 
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+ 
+15 10 5 0 −5 −10 −15
+R.A. offset [arcsec]
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+2.6" x 2.1" 1 kpc
+CH3CCH(6−5)   
+   
+0 1 2 3 4 5 6
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+ 
+2.1" x 1.7" 500 pc
+13CO(2−1)   
+   
+0 20 40 60 80
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+ 
+ 
+8 6 4 2 0 −2 −4 −6 −8
+R.A. offset [arcsec]
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+ 
+0.65" x 0.49" 300 pc
+HCO+(4−3)   
+   
+0 20 40 60 80 100 120 140
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+Dec. offset [arcsec]
+ 
+1.7" x 1.3" 500 pc
+CN(1−0,3/2−1/2)   
+   
+2650 2700 2750 2800 2850 2900
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+ 
+1.7" x 1.3" 500 pc
+CN(1−0,1/2−1/2)   
+   
+2650 2700 2750 2800 2850 2900
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 10 5 0 −5 −10 −15
+ 
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+ 
+15 10 5 0 −5 −10 −15
+R.A. offset [arcsec]
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+2.6" x 2.1" 1 kpc
+CH3CCH(6−5)   
+   
+2700 2750 2800 2850
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+ 
+2.1" x 1.7" 500 pc
+13CO(2−1)   
+   
+2700 2750 2800 2850 2900
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+ 
+ 
+8 6 4 2 0 −2 −4 −6 −8
+R.A. offset [arcsec]
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+ 
+0.65" x 0.49" 300 pc
+HCO+(4−3)   
+   
+2700 2750 2800 2850
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+Dec. offset [arcsec]
+ 
+1.7" x 1.3" 500 pc
+CN(1−0,3/2−1/2)   
+   
+0 20 40 60 80
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+ 
+1.7" x 1.3" 500 pc
+CN(1−0,1/2−1/2)   
+   
+0 20 40 60 80
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 10 5 0 −5 −10 −15
+ 
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+ 
+15 10 5 0 −5 −10 −15
+R.A. offset [arcsec]
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+2.6" x 2.1" 1 kpc
+CH3CCH(6−5)   
+   
+0 10 20 30 40 50
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+ 
+2.1" x 1.7" 500 pc
+13CO(2−1)   
+   
+0 10 20 30 40 50 60
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+ 
+ 
+8 6 4 2 0 −2 −4 −6 −8
+R.A. offset [arcsec]
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+ 
+0.65" x 0.49" 300 pc
+HCO+(4−3)   
+   
+0 10 20 30 40 50 60 70
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+Dec. offset [arcsec]
+ 
+1.7" x 1.3" 500 pc
+CN(1−0,3/2−1/2)   
+   
+0.0 0.2 0.4 0.6 0.8 1.0
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+ 
+1.7" x 1.3" 500 pc
+CN(1−0,1/2−1/2)   
+   
+0.0 0.1 0.2 0.3 0.4 0.5
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 10 5 0 −5 −10 −15
+ 
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+ 
+15 10 5 0 −5 −10 −15
+R.A. offset [arcsec]
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+2.6" x 2.1" 1 kpc
+CH3CCH(6−5)   
+   
+0.00 0.02 0.04 0.06
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+R.A. offset [arcsec]
+−10
+−5
+0
+5
+10
+ 
+2.1" x 1.7" 500 pc
+13CO(2−1)   
+   
+0.0 0.2 0.4 0.6 0.8
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+ 
+ 
+8 6 4 2 0 −2 −4 −6 −8
+R.A. offset [arcsec]
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+ 
+0.65" x 0.49" 300 pc
+HCO+(4−3)   
+   
+0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+Fig. 3.— Molecular line maps of NGC 3256. The lines are, from left to ri ght, CN(N=1–0; J=3/2–1/2), CN(N=1–0; J=1/2–1/2),
+CH3CCH(J=6–5), 13CO(J=2–1), and HCO +(J=4–3). The four rows are, from the top to the bottom, the mom ent 0, 1, 2 maps and peak
+Tb map in units of K km s −1, km s −1, km s −1, and K, respectively. Intensity maps at the top and the botto m rows are corrected
+for the sensitivity patterns of the primary beams; all plots are within 50% of their peaks. The nth contours are at cnp Kkm s −1
+in the moment 0 maps and dnq K in the peak Tb maps with ( c, p) = (6 .6, 1.5), (6.5, 1.5), (1.2, 1), (11.2, 1) and (7 .9, 1.5) and ( d, q) =
+(0.13, 1), (0.13, 1), (0.023, 1), (0.30, 1) and (0 .39, 1), respectively, from the left-most column to right.
+NGC 3256 Molecular Outﬂows 25
+Fig. 4.— CO(1–0) channel maps. Oﬀsets from 2775 km s −1 are at the top-right corners. Contours are at ±7n1.8σ (n = 1 , 2, 3, · · ·) in
+channels from −121 to +123 km s −1, whose maxima exceed 100 σ, and at ±3.5 × 2mσ (m = 0 , 1, 2, · · ·) in the other channels. The rms
+noise is σ = 29 mK. Negative contours are dashed. This plot is not correc ted for the primary-beam response, whose 50% contours are th e
+dotted circles. The peak intensity of CO(1–0) is 13.3 K in thi s plot. The two plus signs in each panel are at the two nuclei. T he black
+ellipse in the top-left panel shows the FWHM size of the obser ving beam.
+26 SAKAMOTO et al.
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+     
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+1.7" x 1.3" 1 kpc
+CN(1−0,3/2−1/2) −187   
+   
+0.0 0.2 0.4 0.6 0.8 1.0
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−160   
+   
+0.0 0.2 0.4 0.6 0.8 1.0
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−134   
+   
+0.0 0.2 0.4 0.6 0.8 1.0
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−107   
+   
+0.0 0.2 0.4 0.6 0.8 1.0
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ −81   
+   
+0.0 0.2 0.4 0.6 0.8 1.0
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ −55   
+   
+0.0 0.2 0.4 0.6 0.8 1.0
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+     
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+ −28
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  −2
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +25
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +51
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +78
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
++104
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
++130
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
++157
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
++183
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
++210
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
++236
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
++262
+R.A. offset [arcsec]
+Dec. offset [arcsec]
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+     
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+1.7" x 1.3" 1 kpc
+CN(1−0,1/2−1/2) −195   
+   
+0.0 0.2 0.4
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−169   
+   
+0.0 0.2 0.4
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−142   
+   
+0.0 0.2 0.4
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−116   
+   
+0.0 0.2 0.4
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ −89   
+   
+0.0 0.2 0.4
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ −63   
+   
+0.0 0.2 0.4
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+     
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+ −36
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ −10
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +17
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +43
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +70
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +96
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
++123
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
++149
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
++176
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
++202
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
++229
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
++255
+R.A. offset [arcsec]
+Dec. offset [arcsec]
+Fig. 5.— CN(N=1–0) channel maps. (top) J=3/2–1/2 line at frest=113.4949 GHz. (bottom) J=1/2–1/2 line at frest=113.1688 GHz.
+Oﬀsets from 2775 km s −1 are at the top-right corners. Contours are at ±3npσ (n = 1 , 2, 3, · · ·), where the power p and the rms noise σ
+are p = 1 .2, σ = 32 mK for J=3/2–1/2 and p = 1 , σ = 33 mK for J=1/2–1/2. Negative contours are dashed. The data are not corrected
+for the primary beam response, whose FWHM is 54 arcsec. The pe ak line intensity in these plots are 1.2 K and 0.56 K, respecti vely, for
+J=3/2–1/2 and 1/2–1/2. The two plus signs in each panel are at the two radio nuclei. A black ellipse in the ﬁrst panel shows t he FWHM
+size of the observing beam.
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+10 5 0 −5 −10
+ 
+−10
+−5
+0
+5
+10
+ 
+ 
+2.6" x 2.1" 1 kpc
+CH3C2H(6−5)  −77   
+   
+−0.020.00 0.02 0.04 0.06
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ −47   
+   
+−0.020.00 0.02 0.04 0.06
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ −18   
+   
+−0.020.00 0.02 0.04 0.06
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +11   
+   
+−0.020.00 0.02 0.04 0.06
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +40   
+   
+−0.020.00 0.02 0.04 0.06
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +69   
+   
+−0.020.00 0.02 0.04 0.06
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+10 5 0 −5 −10
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +99   
+   
+−0.020.00 0.02 0.04 0.06
+R.A. offset [arcsec]
+Dec. offset [arcsec]
+Fig. 6.— CH3CCH(6–5) channel maps. Oﬀsets from 2775 km s −1 are at the top-right corners. Contours are at ±3nσ (n = 1, 2, 3, · · ·),
+where the rms noise is σ = 7 .2 mK. Negative contours are dashed. The data are not correcte d for the primary beam response, whose
+FWHM is 59 arcsec. The peak line intensity here is 77 mK. The tw o plus signs in each panel are at the two nuclei. A black ellips e in the
+ﬁrst panel shows the FWHM size of the synthesized beam.
+NGC 3256 Molecular Outﬂows 27
+Fig. 7.— CO(3–2) channel maps. Oﬀsets from 2775 km s −1 are at the top-right corners of individual panels. Contours are at ±10n1.5σ
+(n = 1 , 2, 3, · · ·) in channels from −113 to +122 km s −1, whose maxima exceed 100 σ, and at [ −6, −3, 3, 6, 12, 24, 48, 96]σ in the rest. The
+rms noise is σ = 88 mK. Negative contours are dashed. The data are not correc ted for the mosaicked primary-beam response, whose 50%
+contours are the dotted circles (visible only at the corners ). The peak intensity of the line is 21.7 K in this plot whereas that of the 0.88
+mm continuum already subtracted here is 0.22 K at this resolu tion. The two plus signs in each panel show the locations of th e two nuclei.
+The black ellipse in a corner of the ﬁrst panel shows the FWHM s ize of the observing beam.
+28 SAKAMOTO et al.
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+−6
+−4
+−2
+0
+2
+4
+6
+ 
+ 
+         
+ 
+−6
+−4
+−2
+0
+2
+4
+6
+ 
+ 
+0.65" x 0.49" 300 pc
+HCO+(4−3) −175   
+   
+0.0 0.2 0.4 0.6 0.8 1.0 1.2
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−149   
+   
+0.0 0.2 0.4 0.6 0.8 1.0 1.2
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−124   
+   
+0.0 0.2 0.4 0.6 0.8 1.0 1.2
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ −99   
+   
+0.0 0.2 0.4 0.6 0.8 1.0 1.2
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ −74   
+   
+0.0 0.2 0.4 0.6 0.8 1.0 1.2
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+−6
+−4
+−2
+0
+2
+4
+6
+ 
+ 
+         
+ 
+−6
+−4
+−2
+0
+2
+4
+6
+ 
+ 
+ −49
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ −23
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  +2
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +27
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ +52
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+−6
+−4
+−2
+0
+2
+4
+6
+ 
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+−6
+−4
+−2
+0
+2
+4
+6
+ 
+ 
+ +77
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++103
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++128
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++153
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++178
+R.A. offset [arcsec]
+Dec. offset [arcsec]
+Fig. 8.— HCO+(4–3) channel maps. Oﬀsets from 2775 km s −1 are at the top-right corners. Contours are at ±3n1.2σ (n = 1, 2, 3, · · ·),
+where the rms noise is σ = 47 mK. Negative contours are dashed. The data are not correc ted for the mosaicked primary-beam response,
+whose FWHM is about 24 arcsec. The peak line intensity is 1.3 K in this plot. The two plus signs in each panel are at the two nuc lei. A
+black ellipse in the ﬁrst panel shows the FWHM size of the obse rving beam.
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+ 
+−6
+−4
+−2
+0
+2
+4
+6
+ 
+ 
+6 4 2 0 −2 −4 −6
+R.A. offset [arcsec]
+−6
+−4
+−2
+0
+2
+4
+6
+Dec. offset [arcsec]
+ 
+0.58" x 0.39" 300 pc
+(a) CO(3−2)   
+   
+0 500 1000 1500 2000
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+ 
+−6
+−4
+−2
+0
+2
+4
+6
+ 
+ 
+6 4 2 0 −2 −4 −6
+R.A. offset [arcsec]
+−6
+−4
+−2
+0
+2
+4
+6
+Dec. offset [arcsec]
+ 
+0.58" x 0.39" 300 pc
+(b) CO(3−2)   
+   
+2750 2800 2850 2900
+Fig. 9.— CO(3–2) moment 0 and 1 maps (i.e., integrated intensity and m ean velocity maps) made with a high cutoﬀ for the moment
+analysis to emphasize the brightest circumnuclear emissio n. The intensity map (a) is corrected for the mosaic sensitiv ity patterns. The
+nth contours are at 110 n1.4 K km s −1. The velocity contours in (b) are at 2775 km s −1 and every 20 km s −1 from it. The two white plus
+signs are at the position of the cm-wave nuclei.
+NGC 3256 Molecular Outﬂows 29
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+5.8" x 5.2" 1 kpc
+CO(1−0) −772   
+   
+0 20 40 60 80 100
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−650   
+   
+0 20 40 60 80 100
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−528   
+   
+0 20 40 60 80 100
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−406   
+   
+0 20 40 60 80 100
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−284   
+   
+0 20 40 60 80 100
+R.A. offset [arcsec]
+Dec. offset [arcsec]
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+5.8" x 5.2" 1 kpc
+CO(1−0) +285   
+   
+0 20 40 60 80 100
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
++407   
+   
+0 20 40 60 80 100
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
++529   
+   
+0 20 40 60 80 100
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
++651   
+   
+0 20 40 60 80 100
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
++773   
+   
+0 20 40 60 80 100
+R.A. offset [arcsec]
+Dec. offset [arcsec]
+Fig. 10.— CO(1–0) channel maps for high-velocity emission. Each chan nel is 122 km s −1 wide. Velocity oﬀsets from 2775 km s −1 are
+at the top-right corners. Contours are at ±3 × 1.5nσ (n = 0, 1, 2, 3, · · ·), where the rms noise is σ = 1.1 mK. Negative contours are dashed.
+The data are not corrected for the mosaicked primary-beam re sponse, whose 50% contours are the dotted circles. The peak i ntensity of
+CO(1–0) in these channels is 101 mK while that of the 2.6 mm con tinuum already subtracted here is 30 mK at this resolution. T he labels
+of the intensity scale bars at the top are in mK. The two plus si gns in each panel are at the two nuclei. The black ellipse in th e bottom-left
+corner of each leftmost panel shows the FWHM size of the obser ving beam.
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+5.9" x 5.2" 1 kpc
+CN(1−0) −491   
+   
+−2 0 2 4 6 8 10
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−367   
+   
+−2 0 2 4 6 8 10
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−243   
+   
+−2 0 2 4 6 8 10
+R.A. offset [arcsec]
+Dec. offset [arcsec]
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+5.9" x 5.2" 1 kpc
+CN(1−0) +252   
+   
+−2 0 2 4 6 8 10
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
++376   
+   
+−2 0 2 4 6 8 10
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
++500   
+   
+−2 0 2 4 6 8 10
+R.A. offset [arcsec]
+Dec. offset [arcsec]
+Fig. 11.— CN(1–0, 3/2–1/2) channel maps for high-velocity emission. Each channel is 124 km s −1 wide. Velocity oﬀsets from 2775
+km s −1 are at the top-right corners. Contours are at ±2.5nσ (n = 1, 2, 3, · · ·), where the rms noise is σ = 0.80 mK. Negative contours are
+dashed. The data are not corrected for the mosaicked primary -beam response, whose 50% contours are the dotted circles (v isible only at
+the corners). The peak intensity of the CN(1–0) line in these channels is 11.7 mK. The intensity scale bars at the top are la beled in mK.
+The two plus signs in each panel are at the two nuclei. The blac k ellipses in the bottom-left corners show the FWHM size of th e observing
+beam.
+30 SAKAMOTO et al.
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+ 
+ 
+8 6 4 2 0 −2 −4 −6 −8
+R.A. offset [arcsec]
+−8
+−6
+−4
+−2
+0
+2
+4
+6
+8
+Dec. offset [arcsec]
+  
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−247 km/s
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++247 km/s
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+1.2" x 1.1" 300 pc
+(a) CO(3−2)/continuum
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+R.A. offset [arcsec]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−351 km/s
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++351 km/s
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+R.A. offset [arcsec]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−455 km/s
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++455 km/s
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+8 6 4 2 0 −2 −4 −6 −8
+R.A. offset [arcsec]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−559 km/s
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++559 km/s
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+         
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+ 
+−6
+−4
+−2
+0
+2
+4
+6
+ 
+ 
+6 4 2 0 −2 −4 −6
+R.A. offset [arcsec]
+−6
+−4
+−2
+0
+2
+4
+6
+Dec. offset [arcsec]
+  
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−199 km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++200 km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+0.58" x 0.39" 300 pc
+(b) CO(3−2)/continuum
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+R.A. offset [arcsec]
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−260 km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++260 km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+R.A. offset [arcsec]
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−321 km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++321 km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+R.A. offset [arcsec]
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−381 km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++382 km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+6 4 2 0 −2 −4 −6
+R.A. offset [arcsec]
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+−442 km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
++442 km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Fig. 12.— CO(3–2) channel maps of high-velocity emission at 1 .′′1 (a; upper row) and 0 .′′5 (b; lower row) resolutions. Red and blue
+contours in each panel are respectively for a channel redshi fted or blueshifted by the amount indicated in the top-right corner from the
+ﬁducial velocity 2775 km s −1. In (a) [(b)], each channel is 104 [61] km s −1 wide and contours are at ±4 × 1.8nσ (n = 0, 1, 2, 3, · · ·) [ ±4nσ
+(n = 1 , 2, 3, · · ·)], where the rms noise is σ = 5 .6 [38] mK. Negative contours are dashed. The background gray scale image is 0.86 mm
+continuum emission at the same resolution. The peak continu um intensity is 108 [237] mK. These data are not corrected for the mosaicked
+primary-beam response, whose FWHM size is about 24 ′′. The two plus signs in each panel show the locations of the two radio nuclei. The
+leftmost panel in each row has a scale bar and an ellipse showi ng the FWHM size of the observing beam.
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 10 5 0 −5 −10 −15
+ 
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+ 
+15 10 5 0 −5 −10 −15
+R.A. offset [arcsec]
+−15
+−10
+−5
+0
+5
+10
+15
+Dec. offset [arcsec]
+  
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+[+224,+752] km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+[−223,−751] km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+5.8" x 5.2" 500 pc
+(a)    CO(1−0)
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 10 5 0 −5 −10 −15
+ 
+−15
+−10
+−5
+0
+5
+10
+15
+ 
+ 
+15 10 5 0 −5 −10 −15
+R.A. offset [arcsec]
+−15
+−10
+−5
+0
+5
+10
+15
+Dec. offset [arcsec]
+  
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+[+224,+752] km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+[−223,−751] km/s
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+2.9" x 2.6" 500 pc
+(b)    CO(1−0)
+Fig. 13.— CO(1–0) maps of high-velocity emission at diﬀerent spatial resolutions. Red and blue contours are intensities integra ted over
+528 km s −1 at, respectively, redshifted and blueshifted velocity ran ges indicated in the top-right corner. They are oﬀsets from t he ﬁducial
+velocity 2775 km s −1. Contours are at ±4npσ (n = 1, 2, 3, · · ·) where p = 1.2 and σ = 0.24 Kkm s −1 in (a) and p = 1.1, σ = 0.79 Kkm s −1
+in (b). Negative contours are dashed. The data are not correc ted for the primary-beam response whose FWHM size is 53 ′′. The two plus
+signs are at the two nuclei. The ellipse at the bottom-left co rner shows the FWHM size of the synthesized beam.
+NGC 3256 Molecular Outﬂows 31
+−2000 −1000 0 1000 2000
+V − Vsys [km/s]
+0
+100
+200
+300
+400Flux Density [mJy]
+CO(1−0) N
+100σ
+0
+20
+40
+60
+80
+100
+−2000 −1000 0 1000 2000
+V − Vsys [km/s]
+0
+100
+200
+300
+400
+500Flux Density [mJy]
+CO(1−0) S
+100σ
+0
+20
+40
+60
+80
+100
+−2000 −1000 0 1000 2000
+V − Vsys [km/s]
+−2
+0
+2
+4
+6
+8
+10
+Flux Density [mJy]
+CO(1−0) N
+2σ
+0
+1
+2
+3
+−2000 −1000 0 1000 2000
+V − Vsys [km/s]
+0
+5
+10Flux Density [mJy]
+CO(1−0) S
+2σ
+0
+1
+2
+3
+−2000 −1000 0 1000 2000
+V − Vsys [km/s]
+0
+5
+10
+15
+20
+25Flux Density [mJy]
+CN(1−0) N
+3σ
+0
+20
+40
+60
+80
+100
+−2000 −1000 0 1000 2000
+V − Vsys [km/s]
+0
+5
+10
+15Flux Density [mJy]
+CN(1−0) S
+3σ
+0
+20
+40
+60
+80
+100
+−1000 −500 0 500 1000 1500 2000
+V − Vsys [km/s]
+0
+1000
+2000
+3000
+4000
+5000Flux Density [mJy]
+CO(3−2) N
+20σ
+0
+20
+40
+60
+80
+100
+−1000 −500 0 500 1000 1500 2000
+V − Vsys [km/s]
+0
+1000
+2000
+3000
+4000Flux Density [mJy]
+CO(3−2) S
+20σ
+0
+20
+40
+60
+80
+100
+−1000 −500 0 500 1000 1500 2000
+V − Vsys [km/s]
+0
+200
+400
+600Flux Density [mJy]
+CO(3−2) N
+3σ
+0
+5
+10
+15
+−1000 −500 0 500 1000 1500 2000
+V − Vsys [km/s]
+−100
+0
+100
+200
+300
+400
+500
+Flux Density [mJy]
+CO(3−2) S
+3σ
+0
+5
+10
+15
+−500 0 500 1000
+V − Vsys [km/s]
+0
+50
+100Flux Density [mJy]
+HCO+(4−3) N
+2σ
+0
+20
+40
+60
+80
+100
+−500 0 500 1000
+V − Vsys [km/s]
+0
+20
+40
+60Flux Density [mJy]
+HCO+(4−3) S
+2σ
+0
+20
+40
+60
+80
+100
+Fig. 14.— Line spectra of NGC 3256 nuclei; the northern nucleus (left c olumn) and the southern nucleus (right column). Line names a re in
+individual panels. Dotted curves are single-component Gau ssian ﬁts to the data to help identify excess emission at high velocities. Abscissa is
+velocity oﬀset from 2775 km s −1. Right ordinate is fraction in percent of the peak in the spec trum. (Row 1 and 2) CO(1–0) spectra from the CSV
++ Cycle 0 data of ∼5′′ resolution. Diameter of the sampling aperture is 4 ′′. The two rows show diﬀerent ranges of ordinate. (Row 3) CN(1– 0)
+spectra from the CSV + Cycle 0 data of ∼5′′ resolution. Diameter of the sampling aperture is 4 ′′. The abscissa is for the brighter CN(1–0, 3/2–1/2)
+line. The Gaussian ﬁtting used two components for the two tra nsitions. (Row 4 and 5) CO(3-2) spectra sampled with 4 ′′-diameter apertures. The
+spatial and spectral resolutions of the data are ∼0.′′6 and 26 km s −1(30 MHz) , respectively. (Row 6) HCO +(4–3) spectra sampled with 2 ′′-diameter
+apertures from ∼0.′′6 resolution data.
+32 SAKAMOTO et al.
+−1000 −500 0 500 1000
+V − Vsys [km/s]
+0
+500
+1000
+1500
+2000Flux Density [mJy]
+CO(3−2) M
+20σ
+0
+20
+40
+60
+80
+100
+H13CN(4−3)
+HC3N(38−37)
+−1000 −500 0 500 1000
+V − Vsys [km/s]
+0
+100
+200
+300Flux Density [mJy]
+CO(3−2) M
+3σ
+0
+5
+10
+15
+H13CN(4−3)
+HC3N(38−37)
+Fig. 15.— CO(3–2) spectrum sampled with a 2 ′′-diameter aperture at the midpoint of the two nuclei from a cu be of 1 .′′15 and 8.7 km s −1
+(10 MHz) resolutions. The same spectrum is plotted twice wit h diﬀerent y axis ranges. HC 3N(38–37) and H 13CN(4–3) lines should appear
+at the marked locations if emitted from gas at the velocity of the CO(3–2) line peak.
+       
+ 
+ 
+ 
+ 
+ 
+−30 −20 −10 0 10 20 30
+offset along P.A.=270° [arcsec]
+−1000
+−500
+0
+500
+1000
+V − Vsys (radio,LSR) [km/s]
+1 kpc
+(a) CO(1−0)
+N
+   
+   
+0 1 2 3 4 5 6
+       
+ 
+ 
+ 
+ 
+ 
+−30 −20 −10 0 10 20 30
+offset along P.A.=270° [arcsec]
+−1000
+−500
+0
+500
+1000
+V − Vsys (radio,LSR) [km/s]
+1 kpc
+(b) CO(1−0)
+S
+   
+   
+0 2 4 6 8
+       
+ 
+ 
+ 
+ 
+ 
+−30 −20 −10 0 10 20 30
+offset along P.A.=  0° [arcsec]
+−1000
+−500
+0
+500
+1000
+V − Vsys (radio,LSR) [km/s]
+1 kpc
+(c) CO(1−0)
+N S
+   
+   
+0 1 2 3 4 5 6
+       
+ 
+ 
+ 
+ 
+−15 −10 −5 0 5 10 15
+offset along P.A.=270° [arcsec]
+−500
+0
+500
+1000
+V − Vsys (radio,LSR) [km/s]
+500 pc
+(d) CO(3−2)
+N
+   
+   
+0 2 4 6 8 10
+       
+ 
+ 
+ 
+ 
+−15 −10 −5 0 5 10 15
+offset along P.A.=270° [arcsec]
+−500
+0
+500
+1000
+V − Vsys (radio,LSR) [km/s]
+500 pc
+(e) CO(3−2)
+S
+   
+   
+0 2 4 6 8 10
+       
+ 
+ 
+ 
+ 
+−15 −10 −5 0 5 10 15
+offset along P.A.=  0° [arcsec]
+−500
+0
+500
+1000
+V − Vsys (radio,LSR) [km/s]
+500 pc
+(f) CO(3−2)
+NS
+   
+   
+0 2 4 6 8
+Fig. 16.— CO position-velocity cuts through the nuclei. The upper row is for CO(1–0) and lower CO(3–2). The three columns are
+(left) p.a.=270 ◦ cut through the N nucleus, (middle) p.a.=270 ◦ cut through the S nucleus, (right) p.a.=0 ◦ cut through the midpoint of
+the N and S nuclei. The locations of the two nuclei are marked w ith the letters N and S. For CO(1–0), each cut is 2 .′′5 wide and the data
+resolution is ∼2.′′7. Contours are at ±2 × 2nσ (n = 0 , 1, 2, 3, . . .), where σ = 4 .6 mK. For CO(3–2), the slit width and the data spatial
+resolution are both 1 .′′1. Contours are at ±2.5 × 2nσ (n = 0 , 1, 2, 3, . . .), where σ = 12 mK. Negative contours are dashed. Labels of the
+intensity scale bars are in kelvin. The resolution element i s shown as a black rectangle in the bottom left corner.
+NGC 3256 Molecular Outﬂows 33
+Fig. 17.— Comparison of HST and ALMA CO(1–0) data. (a) A composite of F8 14W ( ∼I) and F435W ( ∼B). (b) B − I color index
+with overlaid contours of CO(1–0) line width (i.e., 2nd mome nt). Contours are in 10 km s −1 steps starting from 20 km s −1 and in white
+at the lowest level and black above. (c) CO(1–0) contours on t he HST composite image. The nth contours are at 0 .2n2.5 % of the peak
+integrated intensity 1340 K km s −1. (d) CO(1–0) velocity-integrated intensity with the same c ontours as in (c). The two plus signs are
+at the radio nuclei. The dotted circle in each panel is the 50% contour of the ALMA primary beam response, for which the CO da ta are
+corrected. Much of CO(1–0) emission has corresponding opti cal dark lanes. Regions with red optical colors generally ha ve larger CO line
+widths.
+34 SAKAMOTO et al.
+Fig. 18.— Comparison of HST and ALMA CO(3–2) data in the central region . (a) A composite of F814W ( ∼I) and F435W ( ∼B).
+There may be a small ( ∼0.′′5) astrometric oﬀset between the radio and optical data. (b) B − I color index. (c) CO(3–2) contours on the
+HST composite image. The nth contours are at n2 % of the peak integrated intensity 2730 K km s −1. (d) CO(3–2) velocity-integrated
+intensity with the same contours as in (c). The two plus signs are at the radio nuclei. The dotted circle is the 50% contour o f the ALMA
+primary beam response, for which the CO data are corrected.
+NGC 3256 Molecular Outﬂows 35
+Fig. 19.— Comparison of 3.6 cm continuum (black contours) with 0.86 mm continuum (gray scale) and high-velocity CO(3–2) emission
+(blue and red contours) in the center of NGC 3256. The VLA cont inuum image in the inset is from Neﬀ et al. (2003, their Fig. 2. c© AAS.
+Reproduction with permission.) and has a resolution of 0 .′′63 × 0.′′15 and contours at −0.1, 0.1, 0.15, 0.2, 0.4, 0.6, 0.9, 1.2, 2.0 and 3 .5 mJy
+beam−1 (rms ∼27 µJybeam−1). Our ALMA submillimeter data are plotted in the same way as i n Fig. 12 (b).
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+−20
+−10
+0
+10
+20
+ 
+ 
+20 10 0 −10 −20
+R.A. offset [arcsec]
+−20
+−10
+0
+10
+20
+Dec. offset [arcsec]
+ 
+1 kpc
+(a) 5.8 µm   
+   
+    
+ 
+     
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+ 
+ 
+ 
+ 
+ 
+  
+ 
+20 10 0 −10 −20
+R.A. offset [arcsec]
+ 
+ 
+ 
+ 
+ 
+ 
+1 kpc
+(b) 8 µm   
+   
+     
+Fig. 20.— Spitzer IRAC images of the central region of NGC 3256. Contou rs are in steps of 13 mag (a factor of 1.36). Each panel shows
+the same area as in Fig. 1a for 2.8 mm continuum using the same l inear intensity scale.
+36 SAKAMOTO et al.
+Fig. 21.— Illustrations of the NGC 3256 system projected to the sky pla ne (left) and to the orbital plane of the two nuclei (right).
+The northern nucleus belongs to the merger progenitor shown in gray. This component has a low inclination and has several spiral arms.
+The southern nucleus belongs to the merger progenitor shown in brown. This component is close to edge-on, strongly distu rbed, and is
+slightly foreground of the northern galaxy plane. The orbit al plane of the two nuclei is close to the sky plane but has its n ear side likely
+to the south. Both nuclei (and progenitors) have prograde ro tation with respect to the orbital motion of the two nuclei as shown in the
+right panel. They have diﬀerent inclinations with respect t o the orbital plane and the northern nucleus is a factor of a fe w more massive
+than the southern nucleus. Both nuclei drive their own bipol ar molecular outﬂow. They are shown as blue and red lobes for r edshifted and
+blueshifted gas, respectively. The outﬂow from the norther n nucleus is nearly pole-on and is wide-open. The southern ou tﬂow is nearly
+edge-on, well collimated, and its apparent velocity increa ses with distance up to about 0.3 kpc from the southern nucleu s. The blue cone
+of the southern outﬂow gradually curves toward west as it lea ves the nucleus.

@@ -1,0 +1,100 @@
+{
+ "method": {
+  "name": "community-v15-ngc3256-v6prime-directed",
+  "file": "/Users/rs2020/ResearchV2/projects/alma_literature/methods/community-v15-ngc3256-v6prime-directed.yaml",
+  "sha256": "b276ccdcf138f13b",
+  "protocol": "community_v15_research_raw"
+ },
+ "plan": "plan_v6prime",
+ "contexts": [
+  "lit_review"
+ ],
+ "teams": [
+  "team-a",
+  "team-b"
+ ],
+ "image": "areval-ngc3256_dense_outflow-claude-code:bfd711f50b93",
+ "options": {
+  "continue_from": "outputs/autoresearch_eval/community/ngc3256_dense_outflow/community-v15-ngc3256-research-raw-continue5__plan_raw__20261028T050837Z",
+  "teams": 2,
+  "review_rounds": 2,
+  "max_rejects": 2,
+  "hang_min": 20,
+  "port": 8963,
+  "grade_on_publish": false,
+  "role_max_turns": {
+   "worker": 120
+  },
+  "synth_max_usd": 3,
+  "synth_max_turns": 200,
+  "snapshot_team_report": true,
+  "archive": {
+   "target": {
+    "label": "NGC3256",
+    "ra": 156.9635,
+    "dec": -43.9047,
+    "radius_deg": 0.01,
+    "vsys_kms": 2780
+   },
+   "lines": {
+    "HCN1-0": 88.6318,
+    "HCO+1-0": 89.1885,
+    "H13CN1-0": 86.3399,
+    "H13CO+1-0": 86.7543,
+    "SiO2-1": 86.847,
+    "HNC1-0": 90.6636,
+    "CS2-1": 97.981,
+    "CO1-0": 115.2712,
+    "CO2-1": 230.538,
+    "CO3-2": 345.796,
+    "HCN3-2": 265.8864,
+    "HCO+3-2": 267.5576,
+    "HCN4-3": 354.5055,
+    "HCO+4-3": 356.7342,
+    "SiO5-4": 217.105,
+    "SiO6-5": 260.518,
+    "H13CN3-2": 259.0118,
+    "H13CO+3-2": 260.2553,
+    "SO6_5-5_4": 251.8258,
+    "CS5-4": 244.9356,
+    "CS7-6": 342.8829,
+    "HC3N10-9": 90.979,
+    "H2S": 168.7628,
+    "CH3OH5-4": 241.791,
+    "CN1-0": 113.491,
+    "CN3-2": 340.2478,
+    "HNC3-2": 271.9811,
+    "HNC4-3": 362.6303,
+    "HCN2-1": 177.2612,
+    "HCO+2-1": 178.375,
+    "HCNv2=1_3-2": 267.1993,
+    "HCNv2=1_4-3": 356.2556
+   },
+   "exclude": [
+    "2017.1.00379.S"
+   ],
+   "cache_root": "/Volumes/T9/alma_cache",
+   "quota_gb": 400,
+   "reserve_gb": 30,
+   "warn_frac": 0.8,
+   "large_gb": 2,
+   "large_pause_min": 10,
+   "protect_min": 60,
+   "max_pins": 3,
+   "job_max_hours": 6,
+   "pause_poll_s": 20,
+   "max_raw_gb": 30,
+   "raw_max_hours": 3,
+   "derived_quota_gb": 40,
+   "casa_memory": "16g",
+   "casa_timeout_min": 60,
+   "raw_cpus": 8
+  }
+ },
+ "continued_from": "/Users/rs2020/ResearchV2/projects/alma_literature/outputs/autoresearch_eval/community/ngc3256_dense_outflow/community-v15-ngc3256-research-raw-continue5__plan_raw__20261028T050837Z",
+ "source_teams": [
+  "team-a",
+  "team-b"
+ ],
+ "started_at": "20261029T035718Z"
+}

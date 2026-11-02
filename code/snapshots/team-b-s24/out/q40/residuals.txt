@@ -1,0 +1,48 @@
+A X=40 best: Tk=300 logn=4.5 chi2=9.6 eta-offs -1.15,-1.05
+   H: logN=15.35 12C model 204.0/67.3 (obs 197.2/71.4); 13C model 7.45/1.50; obs13 [np.float64(5.92)]
+   O: logN=14.85 12C model 201.2/98.0 (obs 205.3/91.6); 13C model 6.63/2.30; obs13 [9.4, 2.6]
+   C: logN=14.80 12C model 51.2/15.2 (obs 49.0/15.5); 13C model 51.17/15.21; obs13 []
+A X=40 cold(Tk<=30): Tk=11 logn=7.0 chi2=37.5 eta-offs -1.45,-2.10
+   H: logN=15.35 12C model 184.0/72.3 (obs 197.2/71.4); 13C model 7.84/2.85; obs13 [np.float64(5.92)]
+   O: logN=15.15 12C model 188.2/96.0 (obs 205.3/91.6); 13C model 7.40/5.08; obs13 [9.4, 2.6]
+   C: logN=15.05 12C model 52.5/13.9 (obs 49.0/15.5); 13C model 52.49/13.89; obs13 []
+A X=60 best: Tk=300 logn=4.6 chi2=17.2 eta-offs -2.20,-2.50
+   H: logN=15.95 12C model 190.8/70.7 (obs 197.2/71.4); 13C model 7.82/1.19; obs13 [np.float64(5.92)]
+   O: logN=15.45 12C model 198.8/100.6 (obs 205.3/91.6); 13C model 6.41/1.80; obs13 [9.4, 2.6]
+   C: logN=15.30 12C model 52.6/14.7 (obs 49.0/15.5); 13C model 52.62/14.65; obs13 []
+A X=60 cold(Tk<=30): Tk=11 logn=6.8 chi2=27.6 eta-offs -1.65,-2.20
+   H: logN=15.55 12C model 189.1/71.3 (obs 197.2/71.4); 13C model 7.23/2.11; obs13 [np.float64(5.92)]
+   O: logN=15.35 12C model 194.9/96.5 (obs 205.3/91.6); 13C model 6.53/4.62; obs13 [9.4, 2.6]
+   C: logN=15.15 12C model 53.2/14.7 (obs 49.0/15.5); 13C model 53.18/14.68; obs13 []
+A X=90 best: Tk=300 logn=4.7 chi2=22.8 eta-offs -2.95,-3.50
+   H: logN=16.45 12C model 183.7/73.4 (obs 197.2/71.4); 13C model 8.46/1.17; obs13 [np.float64(5.92)]
+   O: logN=15.95 12C model 198.7/98.0 (obs 205.3/91.6); 13C model 6.41/1.73; obs13 [9.4, 2.6]
+   C: logN=15.65 12C model 49.3/15.5 (obs 49.0/15.5); 13C model 49.32/15.46; obs13 []
+A X=90 cold(Tk<=30): Tk=11 logn=6.6 chi2=23.0 eta-offs -1.80,-2.25
+   H: logN=15.75 12C model 187.1/70.1 (obs 197.2/71.4); 13C model 7.01/1.55; obs13 [np.float64(5.92)]
+   O: logN=15.55 12C model 194.8/95.6 (obs 205.3/91.6); 13C model 6.10/4.27; obs13 [9.4, 2.6]
+   C: logN=15.20 12C model 51.1/14.2 (obs 49.0/15.5); 13C model 51.13/14.17; obs13 []
+H X=40 best: Tk=300 logn=4.6 chi2=7.0 eta-offs -1.75,-1.90
+   H: logN=15.65 12C model 198.6/71.0 (obs 197.2/71.4); 13C model 9.30/1.63; obs13 []
+   O: logN=15.15 12C model 196.4/100.8 (obs 205.3/91.6); 13C model 7.60/2.47; obs13 [9.4, 2.6]
+   C: logN=15.05 12C model 49.2/14.8 (obs 49.0/15.5); 13C model 49.25/14.77; obs13 []
+H X=40 cold(Tk<=30): Tk=29 logn=5.4 chi2=24.1 eta-offs -2.40,-2.80
+   H: logN=16.30 12C model 205.4/73.6 (obs 197.2/71.4); 13C model 24.58/2.47; obs13 []
+   O: logN=15.55 12C model 183.1/98.7 (obs 205.3/91.6); 13C model 9.78/3.93; obs13 [9.4, 2.6]
+   C: logN=15.45 12C model 55.1/14.1 (obs 49.0/15.5); 13C model 55.05/14.14; obs13 []
+H X=60 best: Tk=211 logn=4.8 chi2=12.6 eta-offs -2.85,-3.40
+   H: logN=16.40 12C model 189.7/73.0 (obs 197.2/71.4); 13C model 12.44/1.71; obs13 []
+   O: logN=15.85 12C model 195.3/96.5 (obs 205.3/91.6); 13C model 8.44/2.44; obs13 [9.4, 2.6]
+   C: logN=15.60 12C model 49.6/15.3 (obs 49.0/15.5); 13C model 49.62/15.33; obs13 []
+H X=60 cold(Tk<=30): Tk=29 logn=5.5 chi2=17.8 eta-offs -2.55,-3.10
+   H: logN=16.40 12C model 201.6/71.5 (obs 197.2/71.4); 13C model 19.71/1.94; obs13 []
+   O: logN=15.70 12C model 187.9/95.7 (obs 205.3/91.6); 13C model 7.62/3.29; obs13 [9.4, 2.6]
+   C: logN=15.50 12C model 51.5/14.5 (obs 49.0/15.5); 13C model 51.50/14.47; obs13 []
+H X=90 best: Tk=26 logn=5.6 chi2=17.2 eta-offs -2.65,-3.25
+   H: logN=16.55 12C model 188.4/72.5 (obs 197.2/71.4); 13C model 17.59/1.72; obs13 []
+   O: logN=15.95 12C model 201.8/95.8 (obs 205.3/91.6); 13C model 7.85/3.58; obs13 [9.4, 2.6]
+   C: logN=15.55 12C model 50.2/14.6 (obs 49.0/15.5); 13C model 50.22/14.56; obs13 []
+H X=90 cold(Tk<=30): Tk=26 logn=5.6 chi2=17.2 eta-offs -2.65,-3.25
+   H: logN=16.55 12C model 188.4/72.5 (obs 197.2/71.4); 13C model 17.59/1.72; obs13 []
+   O: logN=15.95 12C model 201.8/95.8 (obs 205.3/91.6); 13C model 7.85/3.58; obs13 [9.4, 2.6]
+   C: logN=15.55 12C model 50.2/14.6 (obs 49.0/15.5); 13C model 50.22/14.56; obs13 []

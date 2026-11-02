@@ -1,0 +1,5 @@
+N=dict(h1=197.2,h3=71.4,c1=205.2,c3=91.6,s2=49.0,s5=15.4)
+S=dict(h1=56.7,h3=17.7,c1=87.9,c3=43.7,s2=22.9,s5=4.6)
+f=lambda d:(d['h1']/d['s2'],d['c1']/d['s2'],d['h1']/d['c1'],d['h3']/d['s5'],d['c3']/d['s5'],d['h3']/d['c3'],d['s5']/d['s2'])
+for a,b in zip(f(N),f(S)):print(round(a/b,2))
+print('H13CN/H13CO+ N/S',0.75/0.23, ' 0.2dex grid step =',10**0.2)

@@ -1,0 +1,30 @@
+{
+ "team": "team-a",
+ "item": "Q23",
+ "files": [
+  "scripts/q23_co_hires.py",
+  "scripts/q23_co_conv.py",
+  "scripts/q23_co_detail.py",
+  "scripts/q23_co_tb.py",
+  "scripts/q23_table2.py",
+  "scripts/q23_table2_diff.py",
+  "scripts/q23_table2_html.py",
+  "scripts/q23b_vmatch_pos.py",
+  "scripts/q23b_missing_flux.py",
+  "scripts/q23b_corrected.py",
+  "scripts/q23c_tk_ff.py",
+  "scripts/build_report_q23.py",
+  "scripts/build_report_q23b.py",
+  "team/checks/q23_check.py",
+  "out/q23/co_hires.json",
+  "out/q23/co_conv.json",
+  "out/q23/co_tb.json",
+  "out/q23b/vmatch_pos.json",
+  "out/q23b/missing_flux.json",
+  "out/q23b/corrected.json",
+  "out/q23b/tk_ff.json",
+  "team/review.json",
+  "team/work_summary.md",
+  "TEAM_REPORT.json"
+ ]
+}

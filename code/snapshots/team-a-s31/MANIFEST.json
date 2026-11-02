@@ -1,0 +1,30 @@
+{
+ "team": "team-a",
+ "item": "Q54",
+ "files": [
+  "scripts/q54_chem.py",
+  "scripts/q54h_grids.py",
+  "scripts/q54b_cn_ratios.py",
+  "scripts/q54d_vs_hco.py",
+  "scripts/q54f_subarcsec.py",
+  "scripts/q54i_radex_post.py",
+  "scripts/q54j_cn_subarcsec.py",
+  "scripts/q54e_discrep.py",
+  "scripts/q54g_beamtrend.py",
+  "scripts/q54c_double_ratios.py",
+  "scripts/common.py",
+  "out/q54/ratios.csv",
+  "out/q54/vs_hco.csv",
+  "out/q54/double_ratios.csv",
+  "out/q54/discrep.csv",
+  "out/q54/beamtrend.csv",
+  "out/q54/subarcsec.csv",
+  "out/q54/cn_subarcsec.csv",
+  "out/q54/radex_post.json",
+  "out/q54/grids.log",
+  "out/q54/chem.csv",
+  "out/q54/cn_spec.png",
+  "out/q54/discrep.png",
+  "TEAM_REPORT.json"
+ ]
+}

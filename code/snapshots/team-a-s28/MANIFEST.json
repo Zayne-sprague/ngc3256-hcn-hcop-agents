@@ -1,0 +1,29 @@
+{
+ "team": "team-a",
+ "item": "Q50",
+ "files": [
+  "scripts/q50_dyn.py",
+  "scripts/q50_post.py",
+  "scripts/q50_run.sh",
+  "out/q50/q50_summary.csv",
+  "out/q50/q50_post.log",
+  "out/q50/runs/q50_N_drop1_s2.json",
+  "out/q50/runs/q50_S_base_s2.npz",
+  "out/q50/runs/q50_S_base_s1.npz",
+  "out/q50/runs/q50_S_base_s2.json",
+  "out/q50/runs/q50_N_base_s1.json",
+  "out/q50/runs/q50_S_drop1_s1.json",
+  "out/q50/runs/q50_S_drop1_s1.npz",
+  "out/q50/runs/q50_S_drop1_s2.npz",
+  "out/q50/runs/q50_N_drop1_s2.npz",
+  "out/q50/runs/q50_S_drop1_s2.json",
+  "out/q50/runs/q50_N_drop1_s1.npz",
+  "out/q50/runs/q50_N_base_s2.npz",
+  "out/q50/runs/q50_S_base_s1.json",
+  "out/q50/runs/q50_N_base_s2.json",
+  "out/q50/runs/q50_N_base_s1.npz",
+  "out/q50/runs/q50_N_drop1_s1.json",
+  "out/h13cn_limits.csv",
+  "TEAM_REPORT.json"
+ ]
+}

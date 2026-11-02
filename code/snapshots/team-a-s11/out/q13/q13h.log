@@ -1,0 +1,13 @@
+E=0.115+-0.027 Jy/beam km/s -> 1.80+-0.42 K km/s; HCO+ parent window 7.77 K km/s (beam-filling)
+ T[K]  N_HDO[cm-2] (1sig range)   N_HCO+thin  N_HDO/N_HCO+  N_H2(X_HCO+=1e-8..1e-9)   X_HDO=N_HDO/N_H2   [beam-filling; multiply by (beam/size)^2 if smaller]
+  50  2.63e+15 (2.0e+15-3.2e+15)  4.24e+12  620.41   4.2e+20..4.2e+21   6.2e-06..6.2e-07
+ 100  1.54e+15 (1.2e+15-1.9e+15)  6.50e+12  237.17   6.5e+20..6.5e+21   2.4e-06..2.4e-07
+ 150  1.68e+15 (1.3e+15-2.1e+15)  8.93e+12  187.82   8.9e+20..8.9e+21   1.9e-06..1.9e-07
+ 200  1.99e+15 (1.5e+15-2.5e+15)  1.14e+13  174.39   1.1e+21..1.1e+22   1.7e-06..1.7e-07
+ 300  2.81e+15 (2.1e+15-3.5e+15)  1.63e+13  171.74   1.6e+21..1.6e+22   1.7e-06..1.7e-07
+
+Forward: HDO line for X_HDO=N_HDO/N_H2 = 1e-9, 1e-8 with N_H2 = N_HCO+/X_HCO+ (X_HCO+=1e-9..1e-8), T=150 K, beam-filling:
+ X_HCO+=1e-08 X_HDO=1e-09: N_H2=8.9e+20 N_HDO=8.9e+11 -> HDO 0.0010 K km/s = 0.06 mJy/beam km/s (vs E 115)
+ X_HCO+=1e-08 X_HDO=1e-08: N_H2=8.9e+20 N_HDO=8.9e+12 -> HDO 0.0096 K km/s = 0.61 mJy/beam km/s (vs E 115)
+ X_HCO+=1e-09 X_HDO=1e-09: N_H2=8.9e+21 N_HDO=8.9e+12 -> HDO 0.0096 K km/s = 0.61 mJy/beam km/s (vs E 115)
+ X_HCO+=1e-09 X_HDO=1e-08: N_H2=8.9e+21 N_HDO=8.9e+13 -> HDO 0.0958 K km/s = 6.12 mJy/beam km/s (vs E 115)

@@ -1,0 +1,60 @@
+## umin=0 kl, common beam 8.64x6.0 (R_K = HCN/HCO+)
+ N    Harada: 0.832+-0.017  Michiyama: 0.793+-0.003  Xb55: 0.691+-0.013  Xb4f: 0.559+-0.008
+ S    Harada: 0.565+-0.012  Michiyama: 0.593+-0.006  Xb55: 0.537+-0.010  Xb4f: 0.415+-0.005
+ N+S  Harada: 0.700+-0.011  Michiyama: 0.695+-0.003  Xb55: 0.617+-0.008  Xb4f: 0.489+-0.004
+ E1   Harada: 0.361+-0.092  Michiyama: 0.534+-0.011  Xb55: 0.398+-0.016  Xb4f: 0.157+-0.014
+ E2   Harada: nan+-nan  Michiyama: 0.246+-0.027  Xb55: 0.343+-0.060  Xb4f: nan+-nan
+ W    Harada: 0.532+-0.037  Michiyama: 0.449+-0.012  Xb55: 0.457+-0.013  Xb4f: 0.270+-0.009
+ E1/(N+S): Harada: 0.52  Michiyama: 0.77  Xb55: 0.64  Xb4f: 0.32
+ W/(N+S): Harada: 0.76  Michiyama: 0.65  Xb55: 0.74  Xb4f: 0.55
+ HCN E1 / HCO+ E1 flux (Jy km/s @b86): Harada:1.38/3.88  Michiyama:2.05/3.89  Xb55:3.84/9.78  Xb4f:1.39/8.93
+## umin=3 kl, common beam 8.64x6.0 (R_K = HCN/HCO+)
+ N    Harada: 0.822+-0.014  Michiyama: 0.789+-0.004  Xb55: 0.688+-0.012  Xb4f: 0.556+-0.007
+ S    Harada: 0.567+-0.013  Michiyama: 0.592+-0.006  Xb55: 0.538+-0.011  Xb4f: 0.397+-0.004
+ N+S  Harada: 0.696+-0.010  Michiyama: 0.695+-0.004  Xb55: 0.616+-0.008  Xb4f: 0.477+-0.004
+ E1   Harada: 0.328+-0.081  Michiyama: 0.554+-0.012  Xb55: 0.399+-0.016  Xb4f: 0.020+-0.011
+ E2   Harada: nan+-nan  Michiyama: 0.373+-0.025  Xb55: 0.357+-0.052  Xb4f: nan+-nan
+ W    Harada: 0.501+-0.029  Michiyama: 0.480+-0.014  Xb55: 0.458+-0.012  Xb4f: 0.148+-0.014
+ E1/(N+S): Harada: 0.47  Michiyama: 0.80  Xb55: 0.65  Xb4f: 0.04
+ W/(N+S): Harada: 0.72  Michiyama: 0.69  Xb55: 0.74  Xb4f: 0.31
+ HCN E1 / HCO+ E1 flux (Jy km/s @b86): Harada:1.27/3.93  Michiyama:2.48/4.54  Xb55:4.09/10.38  Xb4f:0.15/7.64
+## umin=5 kl, common beam 8.64x6.0 (R_K = HCN/HCO+)
+ N    Harada: 0.829+-0.016  Michiyama: 0.797+-0.002  Xb55: 0.695+-0.013  Xb4f: 0.565+-0.008
+ S    Harada: 0.589+-0.012  Michiyama: 0.590+-0.005  Xb55: 0.538+-0.011  Xb4f: 0.421+-0.005
+ N+S  Harada: 0.711+-0.010  Michiyama: 0.695+-0.003  Xb55: 0.619+-0.008  Xb4f: 0.494+-0.004
+ E1   Harada: 0.356+-0.086  Michiyama: 0.520+-0.004  Xb55: 0.408+-0.016  Xb4f: 0.146+-0.016
+ E2   Harada: 0.049+-0.073  Michiyama: 0.312+-0.030  Xb55: 0.372+-0.054  Xb4f: nan+-nan
+ W    Harada: 0.506+-0.026  Michiyama: 0.480+-0.013  Xb55: 0.469+-0.012  Xb4f: 0.266+-0.011
+ E1/(N+S): Harada: 0.50  Michiyama: 0.75  Xb55: 0.66  Xb4f: 0.29
+ W/(N+S): Harada: 0.71  Michiyama: 0.69  Xb55: 0.76  Xb4f: 0.54
+ HCN E1 / HCO+ E1 flux (Jy km/s @b86): Harada:1.38/3.91  Michiyama:2.21/4.29  Xb55:4.27/10.60  Xb4f:1.25/8.67
+## umin=6 kl, common beam 8.64x6.0 (R_K = HCN/HCO+)
+ N    Harada: 0.842+-0.018  Michiyama: 0.801+-0.002  Xb55: 0.701+-0.014  Xb4f: 0.569+-0.009
+ S    Harada: 0.588+-0.012  Michiyama: 0.588+-0.005  Xb55: 0.537+-0.011  Xb4f: 0.429+-0.005
+ N+S  Harada: 0.715+-0.011  Michiyama: 0.695+-0.003  Xb55: 0.621+-0.009  Xb4f: 0.501+-0.005
+ E1   Harada: 0.336+-0.100  Michiyama: 0.495+-0.006  Xb55: 0.404+-0.016  Xb4f: 0.182+-0.017
+ E2   Harada: nan+-nan  Michiyama: 0.275+-0.037  Xb55: 0.369+-0.058  Xb4f: nan+-nan
+ W    Harada: 0.496+-0.022  Michiyama: 0.479+-0.014  Xb55: 0.471+-0.012  Xb4f: 0.289+-0.008
+ E1/(N+S): Harada: 0.47  Michiyama: 0.71  Xb55: 0.65  Xb4f: 0.36
+ W/(N+S): Harada: 0.69  Michiyama: 0.69  Xb55: 0.76  Xb4f: 0.58
+ HCN E1 / HCO+ E1 flux (Jy km/s @b86): Harada:1.16/3.49  Michiyama:2.03/4.14  Xb55:4.13/10.36  Xb4f:1.61/8.95
+## umin=8 kl, common beam 8.64x6.0 (R_K = HCN/HCO+)
+ N    Harada: 0.844+-0.025  Michiyama: 0.810+-0.008  Xb55: 0.709+-0.016  Xb4f: 0.573+-0.010
+ S    Harada: 0.584+-0.014  Michiyama: 0.584+-0.008  Xb55: 0.535+-0.011  Xb4f: 0.431+-0.005
+ N+S  Harada: 0.712+-0.014  Michiyama: 0.695+-0.006  Xb55: 0.623+-0.009  Xb4f: 0.503+-0.005
+ E1   Harada: 0.364+-0.100  Michiyama: 0.489+-0.004  Xb55: 0.377+-0.014  Xb4f: 0.218+-0.024
+ E2   Harada: nan+-nan  Michiyama: 0.267+-0.044  Xb55: 0.349+-0.065  Xb4f: nan+-nan
+ W    Harada: 0.525+-0.037  Michiyama: 0.479+-0.018  Xb55: 0.467+-0.015  Xb4f: 0.306+-0.008
+ E1/(N+S): Harada: 0.51  Michiyama: 0.70  Xb55: 0.61  Xb4f: 0.43
+ W/(N+S): Harada: 0.74  Michiyama: 0.69  Xb55: 0.75  Xb4f: 0.61
+ HCN E1 / HCO+ E1 flux (Jy km/s @b86): Harada:1.35/3.76  Michiyama:1.83/3.79  Xb55:3.45/9.25  Xb4f:1.88/8.73
+## umin=10 kl, common beam 8.64x6.0 (R_K = HCN/HCO+)
+ N    Harada: 0.831+-0.036  Michiyama: 0.826+-0.009  Xb55: 0.719+-0.018  Xb4f: 0.578+-0.011
+ S    Harada: 0.589+-0.023  Michiyama: 0.583+-0.008  Xb55: 0.533+-0.011  Xb4f: 0.416+-0.006
+ N+S  Harada: 0.707+-0.021  Michiyama: 0.701+-0.006  Xb55: 0.626+-0.010  Xb4f: 0.497+-0.006
+ E1   Harada: 0.426+-0.093  Michiyama: 0.519+-0.014  Xb55: 0.368+-0.021  Xb4f: 0.254+-0.034
+ E2   Harada: nan+-nan  Michiyama: 0.224+-0.021  Xb55: 0.280+-0.085  Xb4f: nan+-nan
+ W    Harada: 0.549+-0.056  Michiyama: 0.504+-0.025  Xb55: 0.472+-0.019  Xb4f: 0.319+-0.008
+ E1/(N+S): Harada: 0.60  Michiyama: 0.74  Xb55: 0.59  Xb4f: 0.51
+ W/(N+S): Harada: 0.78  Michiyama: 0.72  Xb55: 0.75  Xb4f: 0.64
+ HCN E1 / HCO+ E1 flux (Jy km/s @b86): Harada:1.80/4.28  Michiyama:1.67/3.25  Xb55:2.96/8.14  Xb4f:2.00/8.01

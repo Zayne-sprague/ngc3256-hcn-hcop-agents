@@ -1,0 +1,40 @@
+/workspace/scripts/q26_radex.py:20: RuntimeWarning: invalid value encountered in log
+  if best is None or abs(np.log(r21/0.54))<abs(np.log(best[1]/0.54)): best=(X,r21,r32)
+/workspace/scripts/q26_radex.py:20: RuntimeWarning: invalid value encountered in log
+  if best is None or abs(np.log(r21/0.54))<abs(np.log(best[1]/0.54)): best=(X,r21,r32)
+/workspace/scripts/q26_radex.py:20: RuntimeWarning: invalid value encountered in log
+  if best is None or abs(np.log(r21/0.54))<abs(np.log(best[1]/0.54)): best=(X,r21,r32)
+/workspace/scripts/q26_radex.py:20: RuntimeWarning: invalid value encountered in log
+  if best is None or abs(np.log(r21/0.54))<abs(np.log(best[1]/0.54)): best=(X,r21,r32)
+/workspace/scripts/q26_radex.py:20: RuntimeWarning: invalid value encountered in log
+  if best is None or abs(np.log(r21/0.54))<abs(np.log(best[1]/0.54)): best=(X,r21,r32)
+/workspace/scripts/q26_radex.py:20: RuntimeWarning: invalid value encountered in log
+  if best is None or abs(np.log(r21/0.54))<abs(np.log(best[1]/0.54)): best=(X,r21,r32)
+T n  NHCO  X  R21  R32  R32/R21
+20 4 14.5 X=5.01 R21=0.51 R32=0.38 R32/R21=0.74
+20 4 15.5 X=5.01 R21=0.58 R32=0.39 R32/R21=0.67
+20 4 16.5 X=3.16 R21=0.50 R32=0.33 R32/R21=0.65
+20 5 14.5 X=5.01 R21=0.58 R32=0.44 R32/R21=0.75
+20 5 15.5 X=3.98 R21=0.58 R32=0.40 R32/R21=0.68
+20 5 16.5 X=1.58 R21=0.54 R32=0.35 R32/R21=0.65
+20 6 14.5 X=1.58 R21=0.49 R32=0.26 R32/R21=0.52
+20 6 15.5 X=1.58 R21=0.56 R32=0.36 R32/R21=0.65
+20 6 16.5 X=0.25 R21=0.55 R32=0.34 R32/R21=0.62
+50 4 14.5 X=3.98 R21=0.49 R32=0.37 R32/R21=0.76
+50 4 15.5 X=3.98 R21=0.55 R32=0.40 R32/R21=0.72
+50 4 16.5 X=3.16 R21=0.55 R32=0.42 R32/R21=0.76
+50 5 14.5 X=3.16 R21=0.50 R32=0.36 R32/R21=0.72
+50 5 15.5 X=3.16 R21=0.53 R32=0.41 R32/R21=0.76
+50 5 16.5 X=2.00 R21=0.52 R32=0.43 R32/R21=0.84
+50 6 14.5 X=1.26 R21=0.57 R32=0.30 R32/R21=0.53
+50 6 15.5 X=1.58 R21=0.56 R32=0.40 R32/R21=0.73
+50 6 16.5 X=0.79 R21=0.55 R32=0.48 R32/R21=0.87
+150 4 14.5 X=3.16 R21=0.55 R32=0.48 R32/R21=0.87
+150 4 15.5 X=2.51 R21=0.49 R32=0.40 R32/R21=0.82
+150 4 16.5 X=2.51 R21=0.58 R32=0.49 R32/R21=0.84
+150 5 14.5 X=2.51 R21=0.58 R32=0.46 R32/R21=0.79
+150 5 15.5 X=2.51 R21=0.56 R32=0.48 R32/R21=0.85
+150 5 16.5 X=2.00 R21=0.55 R32=0.51 R32/R21=0.93
+150 6 14.5 X=0.79 R21=0.59 R32=0.32 R32/R21=0.54
+150 6 15.5 X=1.00 R21=0.58 R32=0.40 R32/R21=0.69
+150 6 16.5 X=1.26 R21=0.53 R32=0.49 R32/R21=0.92

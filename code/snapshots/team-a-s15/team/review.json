@@ -1,0 +1,7 @@
+{"item":"Q25","verdict":"pass",
+"checks":["Read work_summary, report entries Q25a-d and q25_systematics.log; the quoted scenario numbers (Michiyama 0.902/0.921/0.937, Harada 0.733-0.779, Xb55 0.889-0.895; window tests) match the log. I did not re-run the pipeline from the FITS files.",
+"Conclusion is appropriately hedged: 8-12/4-8 HCN/HCO+ factor 0.90-0.94 (1-0) vs 0.89-0.91 (2-1), so a decline of ~6-11% is seen in both, both are upper bounds on the true decline because of the missing-short-spacing bowl, and R21/R10 is flat within ~5%. Agree.",
+"Harada rejected at 8-12\" (window-unstable, recovery-limited) - agree. Bowl shown to be line-velocity-only (line-free windows |mean|<=0.12) - good diagnostic. Statement that maximal add-back is an upper bound on the correction only absent 22-35\" emission is stated.",
+"RADEX claims are correctly downgraded to 'not required / low confidence' (5% in R21 << 0.25 dex grid step)."],
+"fixes":[],
+"notes_for_questioner":"Open limitations, all disclosed: MRS/uv coverage of the 1-0 sets was not measured and no common-uv re-imaging (2015 visibilities + Xb55) was done; that is the only way to turn the 'upper bound' into a measurement. The ~4-5% ratio uncertainty in the annuli should be quoted next to the 6-11% decline (the decline is ~2 sigma-level per annulus unless correlated errors are small). Suggest this as a follow-up if the 8-12\" disk gradient becomes a headline claim."}

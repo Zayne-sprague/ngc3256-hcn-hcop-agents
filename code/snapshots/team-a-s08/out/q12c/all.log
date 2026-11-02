@@ -1,0 +1,58 @@
+                  0         1        2         3
+region            N         N        S         S
+line        HCN 3-2  HCO+ 3-2  HCN 3-2  HCO+ 3-2
+chi2min       0.215     0.237    0.796     0.474
+ess        1177.239  1114.368  494.284   484.442
+s_16          0.298     0.254    0.274     0.304
+s_50          0.445     0.433    0.344     0.375
+s_84          0.548     0.567    0.417     0.449
+se_16         2.344     2.673    7.369     7.107
+se_50         4.773     4.932   13.297     12.14
+se_84         12.71    13.685   19.955    20.531
+u_16          1.104      1.09    1.043      1.04
+u_50          1.666     1.628    1.095     1.114
+u_84          3.039     2.703    1.299      1.32
+lnu_mean      0.583     0.532    0.151     0.159
+lnu_sd        0.424     0.397     0.15     0.154
+fext17_16     0.274     0.415    0.371     0.408
+fext17_50     0.456     0.611    0.496     0.517
+fext17_84     0.719     0.841    0.605     0.637
+Tc_50         3.167     3.241    1.964     3.937
+Te_50          0.19     0.352    0.076     0.197
+f_50          0.882     0.862    0.985     0.959
+dlns_sd         0.4     0.466    0.247     0.226
+16 variants
+0 N med 0.350 sd 0.020 | S med 0.333 sd 0.164 | corr(N,S)=0.65
+1 N med 0.395 sd 0.007 | S med 0.268 sd 0.013 | corr(N,S)=0.49
+2 N med 0.428 sd 0.015 | S med 0.401 sd 0.101 | corr(N,S)=0.35
+3 N med 0.482 sd 0.008 | S med 0.442 sd 0.063 | corr(N,S)=0.15
+636 jobs done
+256 variant jobs done
+T1 dumped [0.448 0.372 0.524 0.455 0.732 0.963 0.277 0.364] 
+T2 dumped [0.35  0.395 0.428 0.482 0.764 0.961 0.342 0.43 ] 
+T3 dumped [0.249 0.205 0.291 0.251 0.732 0.976 0.162 0.216] 
+T3b dumped [0.814 0.671 0.95  0.819 0.732 0.955 0.486 0.635] 
+T4 dumped [0.35  0.395 0.428 0.482 0.772 1.021 0.248 0.328] 
+3200 calibration jobs done
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 197, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7668, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7676, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: '2cT'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspace/scripts/q12c_calib_summary.py", line 12, in <module>
+    P=P.dropna(); d=(P['2cT']-P['1z']); c=C.loc[P.index]
+                     ~^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pandas/core/frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: '2cT'

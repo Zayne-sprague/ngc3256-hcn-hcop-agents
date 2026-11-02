@@ -1,0 +1,17 @@
+{
+ "team": "team-b",
+ "item": "Q34",
+ "files": [
+  "scripts/s191_q34_casa_image.py",
+  "scripts/s191_q34_casa_image.log",
+  "scripts/s192_q34_measure.py",
+  "scripts/s193_q34_radex.py",
+  "scripts/s194_update_report_q34.py",
+  "out/q34/s192.txt",
+  "out/q34/s192.json",
+  "out/q34/s193.txt",
+  "out/q34/s193.json",
+  "team/work_summary.md",
+  "TEAM_REPORT.json"
+ ]
+}

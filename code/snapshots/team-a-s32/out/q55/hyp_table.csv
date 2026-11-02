@@ -1,0 +1,109 @@
+dataset,hyp,lnZ,lnBF_vs_best,P_flat8
+A_full,T differs,-31.16,-8.19,0.0
+A_full,n differs,-30.74,-7.77,0.0
+A_full,N(HCN) differs,-27.1,-4.13,0.012
+A_full,HCN/HCO+ column ratio X differs,-37.48,-14.51,0.0
+A_full,"T,n differ (excitation)",-30.77,-7.79,0.0
+A_full,"N(HCN),X differ (column+abundance)",-22.97,0.0,0.773
+A_full,"T,n,N(HCN) differ",-26.79,-3.82,0.017
+A_full,all four differ,-24.34,-1.37,0.197
+A_full,all shared,-143.62,-120.64,0.0
+A_no43,T differs,-19.12,-3.41,0.015
+A_no43,n differs,-21.21,-5.5,0.002
+A_no43,N(HCN) differs,-20.43,-4.73,0.004
+A_no43,HCN/HCO+ column ratio X differs,-15.71,-0.01,0.436
+A_no43,"T,n differ (excitation)",-19.73,-4.03,0.008
+A_no43,"N(HCN),X differ (column+abundance)",-15.71,0.0,0.44
+A_no43,"T,n,N(HCN) differ",-20.15,-4.45,0.005
+A_no43,all four differ,-17.28,-1.57,0.091
+A_no43,all shared,-62.67,-46.96,0.0
+A_no13,T differs,-27.03,-11.37,0.0
+A_no13,n differs,-16.89,-1.23,0.091
+A_no13,N(HCN) differs,-17.19,-1.53,0.067
+A_no13,HCN/HCO+ column ratio X differs,-15.65,0.0,0.311
+A_no13,"T,n differ (excitation)",-16.34,-0.69,0.157
+A_no13,"N(HCN),X differ (column+abundance)",-16.22,-0.57,0.176
+A_no13,"T,n,N(HCN) differ",-17.12,-1.46,0.072
+A_no13,all four differ,-16.56,-0.91,0.126
+A_no13,all shared,-138.91,-123.25,0.0
+A_R10R32,T differs,-11.68,-0.98,0.074
+A_R10R32,n differs,-10.8,-0.1,0.179
+A_R10R32,N(HCN) differs,-11.43,-0.73,0.095
+A_R10R32,HCN/HCO+ column ratio X differs,-11.14,-0.44,0.127
+A_R10R32,"T,n differ (excitation)",-10.7,0.0,0.197
+A_R10R32,"N(HCN),X differ (column+abundance)",-11.15,-0.45,0.126
+A_R10R32,"T,n,N(HCN) differ",-11.39,-0.69,0.099
+A_R10R32,all four differ,-11.36,-0.66,0.102
+A_R10R32,all shared,-57.89,-47.19,0.0
+A_43wide,T differs,-35.51,-12.3,0.0
+A_43wide,n differs,-30.88,-7.67,0.0
+A_43wide,N(HCN) differs,-28.08,-4.87,0.007
+A_43wide,HCN/HCO+ column ratio X differs,-37.84,-14.63,0.0
+A_43wide,"T,n differ (excitation)",-30.96,-7.75,0.0
+A_43wide,"N(HCN),X differ (column+abundance)",-23.21,0.0,0.85
+A_43wide,"T,n,N(HCN) differ",-26.93,-3.71,0.021
+A_43wide,all four differ,-25.16,-1.94,0.122
+A_43wide,all shared,-143.88,-120.66,0.0
+A_43Xb47,T differs,-27.62,-9.68,0.0
+A_43Xb47,n differs,-24.14,-6.2,0.001
+A_43Xb47,N(HCN) differs,-27.8,-9.86,0.0
+A_43Xb47,HCN/HCO+ column ratio X differs,-17.94,0.0,0.713
+A_43Xb47,"T,n differ (excitation)",-22.9,-4.96,0.005
+A_43Xb47,"N(HCN),X differ (column+abundance)",-19.03,-1.09,0.241
+A_43Xb47,"T,n,N(HCN) differ",-23.61,-5.67,0.002
+A_43Xb47,all four differ,-20.9,-2.96,0.037
+A_43Xb47,all shared,-82.73,-64.79,0.0
+B_core3,T differs,-26.62,-13.75,0.0
+B_core3,n differs,-12.87,0.0,0.228
+B_core3,N(HCN) differs,-13.16,-0.29,0.171
+B_core3,HCN/HCO+ column ratio X differs,-14.07,-1.2,0.069
+B_core3,"T,n differ (excitation)",-13.34,-0.47,0.142
+B_core3,"N(HCN),X differ (column+abundance)",-12.95,-0.08,0.211
+B_core3,"T,n,N(HCN) differ",-13.82,-0.95,0.088
+B_core3,all four differ,-13.8,-0.93,0.09
+B_core3,all shared,-143.93,-131.06,0.0
+B_core3_no43,T differs,-12.68,-3.0,0.011
+B_core3_no43,n differs,-9.68,0.0,0.214
+B_core3_no43,N(HCN) differs,-10.17,-0.5,0.13
+B_core3_no43,HCN/HCO+ column ratio X differs,-10.9,-1.22,0.063
+B_core3_no43,"T,n differ (excitation)",-9.91,-0.23,0.17
+B_core3_no43,"N(HCN),X differ (column+abundance)",-9.88,-0.2,0.176
+B_core3_no43,"T,n,N(HCN) differ",-10.3,-0.62,0.115
+B_core3_no43,all four differ,-10.25,-0.57,0.121
+B_core3_no43,all shared,-58.3,-48.62,0.0
+B_core3_13C,T differs,-29.81,-9.25,0.0
+B_core3_13C,n differs,-22.36,-1.8,0.059
+B_core3_13C,N(HCN) differs,-22.49,-1.92,0.052
+B_core3_13C,HCN/HCO+ column ratio X differs,-28.72,-8.15,0.0
+B_core3_13C,"T,n differ (excitation)",-22.26,-1.7,0.065
+B_core3_13C,"N(HCN),X differ (column+abundance)",-20.66,-0.1,0.324
+B_core3_13C,"T,n,N(HCN) differ",-21.47,-0.91,0.143
+B_core3_13C,all four differ,-20.56,0.0,0.357
+B_core3_13C,all shared,-148.43,-127.86,0.0
+B_core3_no43_13C,T differs,-17.03,-0.94,0.106
+B_core3_no43_13C,n differs,-18.43,-2.35,0.026
+B_core3_no43_13C,N(HCN) differs,-17.18,-1.1,0.091
+B_core3_no43_13C,HCN/HCO+ column ratio X differs,-19.8,-3.71,0.007
+B_core3_no43_13C,"T,n differ (excitation)",-16.61,-0.52,0.161
+B_core3_no43_13C,"N(HCN),X differ (column+abundance)",-16.09,0.0,0.272
+B_core3_no43_13C,"T,n,N(HCN) differ",-17.16,-1.07,0.093
+B_core3_no43_13C,all four differ,-16.19,-0.11,0.244
+B_core3_no43_13C,all shared,-62.43,-46.35,0.0
+B_core,T differs,-15.9,-5.65,0.001
+B_core,n differs,-10.99,-0.75,0.115
+B_core,N(HCN) differs,-10.4,-0.15,0.209
+B_core,HCN/HCO+ column ratio X differs,-12.13,-1.89,0.037
+B_core,"T,n differ (excitation)",-10.96,-0.72,0.119
+B_core,"N(HCN),X differ (column+abundance)",-10.25,0.0,0.243
+B_core,"T,n,N(HCN) differ",-10.78,-0.54,0.142
+B_core,all four differ,-10.84,-0.59,0.134
+B_core,all shared,-138.56,-128.32,0.0
+B_core32,T differs,-8.28,-1.33,0.045
+B_core32,n differs,-7.09,-0.14,0.149
+B_core32,N(HCN) differs,-7.16,-0.22,0.138
+B_core32,HCN/HCO+ column ratio X differs,-7.63,-0.68,0.087
+B_core32,"T,n differ (excitation)",-7.05,-0.1,0.155
+B_core32,"N(HCN),X differ (column+abundance)",-6.95,0.0,0.172
+B_core32,"T,n,N(HCN) differ",-7.26,-0.31,0.126
+B_core32,all four differ,-7.24,-0.3,0.128
+B_core32,all shared,-53.07,-46.12,0.0

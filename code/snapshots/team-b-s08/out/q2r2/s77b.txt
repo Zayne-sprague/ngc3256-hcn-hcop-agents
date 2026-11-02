@@ -1,0 +1,36 @@
+## Xb4d-like G hole 13 klambda: tuned main lobe 0.91x0.72" (target 0.93x0.74); sum(dirty beam)/pixels in main-lobe-area units = -0.000; peak sidelobe 0.010, min -0.011
+   source FWHM 0.5": r=1.5" aperture flux (unit total flux): dirty-image 0.951, ideal clean image 0.999, true-in-aperture 1.000; epsilon_eff=dirty/clean 0.952; dirty/true 0.951; (r=1.0": 0.997; r=2.5": 0.784)
+   source FWHM 1.0": r=1.5" aperture flux (unit total flux): dirty-image 0.926, ideal clean image 0.976, true-in-aperture 0.998; epsilon_eff=dirty/clean 0.948; dirty/true 0.927; (r=1.0": 0.987; r=2.5": 0.786)
+   source FWHM 1.5": r=1.5" aperture flux (unit total flux): dirty-image 0.825, ideal clean image 0.881, true-in-aperture 0.938; epsilon_eff=dirty/clean 0.937; dirty/true 0.881; (r=1.0": 0.972; r=2.5": 0.788)
+   source FWHM 2.0": r=1.5" aperture flux (unit total flux): dirty-image 0.674, ideal clean image 0.736, true-in-aperture 0.790; epsilon_eff=dirty/clean 0.916; dirty/true 0.854; (r=1.0": 0.948; r=2.5": 0.784)
+   source FWHM 3.0": r=1.5" aperture flux (unit total flux): dirty-image 0.404, ideal clean image 0.474, true-in-aperture 0.500; epsilon_eff=dirty/clean 0.851; dirty/true 0.807; (r=1.0": 0.879; r=2.5": 0.749)
+## Xb4d-like G hole 26 klambda: tuned main lobe 0.97x0.77" (target 0.93x0.74); sum(dirty beam)/pixels in main-lobe-area units = 0.000; peak sidelobe 0.007, min -0.046
+   source FWHM 0.5": r=1.5" aperture flux (unit total flux): dirty-image 0.844, ideal clean image 0.998, true-in-aperture 1.000; epsilon_eff=dirty/clean 0.846; dirty/true 0.844; (r=1.0": 1.013; r=2.5": 0.295)
+   source FWHM 1.0": r=1.5" aperture flux (unit total flux): dirty-image 0.810, ideal clean image 0.971, true-in-aperture 0.998; epsilon_eff=dirty/clean 0.834; dirty/true 0.811; (r=1.0": 0.976; r=2.5": 0.314)
+   source FWHM 1.5": r=1.5" aperture flux (unit total flux): dirty-image 0.696, ideal clean image 0.873, true-in-aperture 0.938; epsilon_eff=dirty/clean 0.797; dirty/true 0.742; (r=1.0": 0.918; r=2.5": 0.340)
+   source FWHM 2.0": r=1.5" aperture flux (unit total flux): dirty-image 0.535, ideal clean image 0.729, true-in-aperture 0.790; epsilon_eff=dirty/clean 0.734; dirty/true 0.677; (r=1.0": 0.838; r=2.5": 0.356)
+   source FWHM 3.0": r=1.5" aperture flux (unit total flux): dirty-image 0.264, ideal clean image 0.471, true-in-aperture 0.500; epsilon_eff=dirty/clean 0.560; dirty/true 0.527; (r=1.0": 0.632; r=2.5": 0.320)
+## Xb4b-like G: tuned main lobe 0.25x0.23" (target 0.25x0.23); sum(dirty beam)/pixels in main-lobe-area units = -0.000; peak sidelobe 0.006, min -0.007
+   source FWHM 0.5": r=1.5" aperture flux (unit total flux): dirty-image 0.360, ideal clean image 1.000, true-in-aperture 1.000; epsilon_eff=dirty/clean 0.360; dirty/true 0.360; (r=1.0": 0.698; r=2.5": -0.256)
+   source FWHM 1.0": r=1.5" aperture flux (unit total flux): dirty-image 0.387, ideal clean image 0.997, true-in-aperture 0.998; epsilon_eff=dirty/clean 0.388; dirty/true 0.388; (r=1.0": 0.688; r=2.5": -0.209)
+   source FWHM 1.5": r=1.5" aperture flux (unit total flux): dirty-image 0.365, ideal clean image 0.932, true-in-aperture 0.938; epsilon_eff=dirty/clean 0.392; dirty/true 0.390; (r=1.0": 0.609; r=2.5": -0.136)
+   source FWHM 2.0": r=1.5" aperture flux (unit total flux): dirty-image 0.268, ideal clean image 0.783, true-in-aperture 0.790; epsilon_eff=dirty/clean 0.342; dirty/true 0.339; (r=1.0": 0.492; r=2.5": -0.059)
+   source FWHM 3.0": r=1.5" aperture flux (unit total flux): dirty-image 0.095, ideal clean image 0.496, true-in-aperture 0.500; epsilon_eff=dirty/clean 0.191; dirty/true 0.189; (r=1.0": 0.258; r=2.5": 0.013)
+## Xb4d-like P hole 13 klambda: tuned main lobe 0.91x0.72" (target 0.93x0.74); sum(dirty beam)/pixels in main-lobe-area units = 0.000; peak sidelobe 0.066, min -0.011
+   source FWHM 0.5": r=1.5" aperture flux (unit total flux): dirty-image 0.912, ideal clean image 0.999, true-in-aperture 1.000; epsilon_eff=dirty/clean 0.913; dirty/true 0.912; (r=1.0": 0.717; r=2.5": 1.110)
+   source FWHM 1.0": r=1.5" aperture flux (unit total flux): dirty-image 0.868, ideal clean image 0.976, true-in-aperture 0.998; epsilon_eff=dirty/clean 0.889; dirty/true 0.869; (r=1.0": 0.745; r=2.5": 1.089)
+   source FWHM 1.5": r=1.5" aperture flux (unit total flux): dirty-image 0.780, ideal clean image 0.882, true-in-aperture 0.938; epsilon_eff=dirty/clean 0.885; dirty/true 0.832; (r=1.0": 0.791; r=2.5": 1.054)
+   source FWHM 2.0": r=1.5" aperture flux (unit total flux): dirty-image 0.663, ideal clean image 0.736, true-in-aperture 0.790; epsilon_eff=dirty/clean 0.901; dirty/true 0.840; (r=1.0": 0.842; r=2.5": 1.016)
+   source FWHM 3.0": r=1.5" aperture flux (unit total flux): dirty-image 0.445, ideal clean image 0.474, true-in-aperture 0.500; epsilon_eff=dirty/clean 0.938; dirty/true 0.889; (r=1.0": 0.921; r=2.5": 0.961)
+## Xb4d-like P hole 26 klambda: tuned main lobe 0.96x0.76" (target 0.93x0.74); sum(dirty beam)/pixels in main-lobe-area units = -0.000; peak sidelobe 0.049, min -0.039
+   source FWHM 0.5": r=1.5" aperture flux (unit total flux): dirty-image 0.930, ideal clean image 0.998, true-in-aperture 1.000; epsilon_eff=dirty/clean 0.931; dirty/true 0.930; (r=1.0": 0.892; r=2.5": 0.539)
+   source FWHM 1.0": r=1.5" aperture flux (unit total flux): dirty-image 0.868, ideal clean image 0.972, true-in-aperture 0.998; epsilon_eff=dirty/clean 0.893; dirty/true 0.870; (r=1.0": 0.892; r=2.5": 0.536)
+   source FWHM 1.5": r=1.5" aperture flux (unit total flux): dirty-image 0.745, ideal clean image 0.876, true-in-aperture 0.938; epsilon_eff=dirty/clean 0.850; dirty/true 0.794; (r=1.0": 0.882; r=2.5": 0.527)
+   source FWHM 2.0": r=1.5" aperture flux (unit total flux): dirty-image 0.584, ideal clean image 0.731, true-in-aperture 0.790; epsilon_eff=dirty/clean 0.799; dirty/true 0.739; (r=1.0": 0.850; r=2.5": 0.505)
+   source FWHM 3.0": r=1.5" aperture flux (unit total flux): dirty-image 0.306, ideal clean image 0.472, true-in-aperture 0.500; epsilon_eff=dirty/clean 0.649; dirty/true 0.612; (r=1.0": 0.710; r=2.5": 0.420)
+## Xb4b-like P: tuned main lobe 0.25x0.23" (target 0.25x0.23); sum(dirty beam)/pixels in main-lobe-area units = 0.000; peak sidelobe 0.061, min -0.008
+   source FWHM 0.5": r=1.5" aperture flux (unit total flux): dirty-image 0.871, ideal clean image 1.000, true-in-aperture 1.000; epsilon_eff=dirty/clean 0.871; dirty/true 0.871; (r=1.0": 1.164; r=2.5": -0.326)
+   source FWHM 1.0": r=1.5" aperture flux (unit total flux): dirty-image 0.824, ideal clean image 0.997, true-in-aperture 0.998; epsilon_eff=dirty/clean 0.826; dirty/true 0.825; (r=1.0": 1.046; r=2.5": -0.244)
+   source FWHM 1.5": r=1.5" aperture flux (unit total flux): dirty-image 0.689, ideal clean image 0.932, true-in-aperture 0.938; epsilon_eff=dirty/clean 0.739; dirty/true 0.735; (r=1.0": 0.943; r=2.5": -0.133)
+   source FWHM 2.0": r=1.5" aperture flux (unit total flux): dirty-image 0.489, ideal clean image 0.783, true-in-aperture 0.790; epsilon_eff=dirty/clean 0.625; dirty/true 0.620; (r=1.0": 0.809; r=2.5": -0.031)
+   source FWHM 3.0": r=1.5" aperture flux (unit total flux): dirty-image 0.179, ideal clean image 0.496, true-in-aperture 0.500; epsilon_eff=dirty/clean 0.360; dirty/true 0.357; (r=1.0": 0.470; r=2.5": 0.045)

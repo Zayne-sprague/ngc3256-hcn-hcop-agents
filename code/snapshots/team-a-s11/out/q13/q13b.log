@@ -1,0 +1,40 @@
+HDO 266.1611 GHz offset from HCN 3-2 (265.886434): -309.7 km/s; v_app = -309.7 + 1.00103*v_gas
+                             0         1         2         3
+ous                       Xb4d      Xb4d      Xb4b      Xb4b
+rad                        0.5       1.0       0.5       1.0
+pos                   Soutflow  Soutflow  Soutflow  Soutflow
+k                         0.55      0.54      0.67      0.63
+bin_kms                   22.0      22.0      22.0      22.0
+sig_bin_mJy               0.43      0.21      0.41      0.24
+nbins                       27        27        27        27
+chi2_null                68.84    122.25     57.02     55.41
+chi2_HDOtemplate         34.49     42.81     37.26     46.45
+amp_HDOtemplate_mJy       0.94      0.73      0.71      0.29
+e_amp                     0.16      0.08      0.16       0.1
+chi2_gauss               20.43     22.21     26.28      33.1
+gauss_amp_mJy             1.04       0.7       1.3      0.67
+gauss_v                2500.08   2505.72   2523.15   2526.67
+gauss_sig                93.14    116.84     30.28      30.0
+chi2_gauss_plus_HDO      20.26     21.92     25.37     32.98
+HDO_amp_in_joint_mJy      -0.2     -0.15      0.21     -0.05
+chi2_HDO_broadGauss      41.69     56.43     49.24     54.06
+chi2_HDO_narrowGauss      36.5     61.93     36.88      44.9
+amp_narrow_mJy            1.35      0.92      1.02      0.44
+template_peak_v        2512.58   2512.58   2512.57   2512.57
+HDO_share_joint          -0.15     -0.16      0.27     -0.19
+e_HDO_share_joint         0.38       0.3      0.28      0.56
+HDO_share_alone           0.71      0.76       0.9      1.14
+E_blue (HCN-0.574*HCO+, 2375-2575) per HCO+ in the parent-gas window 2685-2885, r=1.0" at 1.05", Xb4d:
+     pos  E_blue  sigE    snr  E_lim3  HCO_parent  ratio  ratio_lim3  k_local  E_blue_klocal  snr_klocal
+Soutflow   0.115 0.024  4.879   0.186       0.502  0.230       0.371    0.590          0.114       4.815
+       S   0.009 0.024  0.361   0.079       2.962  0.003       0.027    0.364          0.015       0.621
+       N   0.002 0.024  0.083   0.073       5.360  0.000       0.014    0.732          0.006       0.256
+  Bridge   0.013 0.024  0.537   0.084       2.579  0.005       0.032    0.466          0.014       0.586
+  Wclump  -0.020 0.024 -0.865   0.071       2.304 -0.009       0.031    0.317         -0.022      -0.925
+ NEclump  -0.008 0.024 -0.318   0.071       1.546 -0.005       0.046    0.249          0.000       0.021
+  Eclump   0.025 0.024  1.068   0.096       0.574  0.044       0.167    0.406          0.024       1.023
+   SWarm  -0.002 0.024 -0.103   0.071       0.767 -0.003       0.092    0.448         -0.005      -0.216
+  lobe/S: E/HCO+parent 0.230 vs S <0.027 (3 sigma) -> a blend with a universal HDO/HCO+ is excluded unless the lobe has >= 8.6x the HDO per HCO+ of S
+  lobe/N: E/HCO+parent 0.230 vs N <0.014 (3 sigma) -> a blend with a universal HDO/HCO+ is excluded unless the lobe has >= 16.9x the HDO per HCO+ of N
+  lobe/Bridge: E/HCO+parent 0.230 vs Bridge <0.032 (3 sigma) -> a blend with a universal HDO/HCO+ is excluded unless the lobe has >= 7.1x the HDO per HCO+ of Bridge
+  lobe/Wclump: E/HCO+parent 0.230 vs Wclump <0.031 (3 sigma) -> a blend with a universal HDO/HCO+ is excluded unless the lobe has >= 7.5x the HDO per HCO+ of Wclump

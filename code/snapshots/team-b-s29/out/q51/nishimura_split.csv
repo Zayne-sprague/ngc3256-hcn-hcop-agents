@@ -1,0 +1,24 @@
+src,cls,res,glo
+IRAS17208,CON,1.738,1.464
+IRAS09022,vib non-detected,0.793,0.555
+IRAS13120,vib non-detected,2.671,1.706
+IRASF14378,vib-detected non-CON,1.323,1.14
+IRASF05189,unclassified,1.63,1.534
+IRASF10565,unclassified,1.32,0.878
+IRAS19542,unclassified,1.789,1.825
+ESO148,unclassified,0.445,0.387
+NGC6240,unclassified,0.691,0.693
+IRASF17138,vib non-detected,0.629,0.587
+IRAS17578,CON,1.34,1.283
+ESO173,vib-detected non-CON,1.132,0.865
+UGC11763,unclassified,0.728,
+NGC3110,vib non-detected,1.49,1.044
+IC4734,vib non-detected,1.076,1.063
+NGC5135,vib non-detected,1.028,1.1
+ESO221,vib non-detected,0.771,0.651
+IC5179,vib non-detected,0.564,0.842
+UGC2982,vib non-detected,,
+NGC2369,vib non-detected,1.489,1.133
+ESO286,vib non-detected,0.666,0.587
+ESO320,CON,2.344,2.254
+NGC5734,vib non-detected,2.5,2.4

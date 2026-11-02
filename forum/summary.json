@@ -1,0 +1,70 @@
+{
+ "team-a": {
+  "state": "stopped",
+  "stop_reason": "dollar cap reached",
+  "turns": 36,
+  "posts": [
+   "p0053",
+   "p0056",
+   "p0059"
+  ],
+  "usage": {
+   "requests": 572,
+   "input_tokens": 194704,
+   "output_tokens": 514851,
+   "cache_read_tokens": 35358154,
+   "cache_write_tokens": 2513982,
+   "cost_usd": 18.5621,
+   "rejected_requests": 1,
+   "models": {
+    "claude-sonnet-5-5": 568,
+    "claude-haiku-5-5": 4
+   }
+  }
+ },
+ "team-b": {
+  "state": "stopped",
+  "stop_reason": "dollar cap reached",
+  "turns": 47,
+  "posts": [
+   "p0054",
+   "p0055",
+   "p0057",
+   "p0058",
+   "p0060",
+   "p0061",
+   "p0062",
+   "p0063"
+  ],
+  "usage": {
+   "requests": 562,
+   "input_tokens": 5109,
+   "output_tokens": 566169,
+   "cache_read_tokens": 30770323,
+   "cache_write_tokens": 2680134,
+   "cost_usd": 18.5105,
+   "rejected_requests": 1,
+   "models": {
+    "claude-sonnet-5-5": 561,
+    "claude-haiku-5-5": 1
+   }
+  }
+ },
+ "synth": {
+  "usage": {
+   "requests": 118,
+   "input_tokens": 208,
+   "output_tokens": 46441,
+   "cache_read_tokens": 4244574,
+   "cache_write_tokens": 570870,
+   "cost_usd": 2.7409,
+   "models": {
+    "claude-sonnet-5-5": 118
+   }
+  }
+ },
+ "archive": {
+  "cache_root": "/Volumes/T9/alma_cache",
+  "cached_gb": 38.97
+ }
+}

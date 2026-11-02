@@ -1,0 +1,111 @@
+## Xb55 cont 170.7 GHz beam 8.95x5.98: median local rms 0.514 mJy/beam; >5sigma maxima 1; < -5sigma minima 0 (false-positive check)
+## Xb47 cont 346.5 GHz beam 4.16x2.70: median local rms 1.874 mJy/beam; >5sigma maxima 3; < -5sigma minima 0 (false-positive check)
+## Xb4f cont 257.7 GHz beam 5.84x3.52: median local rms 1.076 mJy/beam; >5sigma maxima 1; < -5sigma minima 0 (false-positive check)
+## Xb4d cont 257.8 GHz beam 0.94x0.74: median local rms 0.088 mJy/beam; >5sigma maxima 8; < -5sigma minima 0 (false-positive check)
+## Xb4b cont 257.8 GHz beam 0.24x0.23: median local rms 0.035 mJy/beam; >5sigma maxima 26; < -5sigma minima 0 (false-positive check)
+    ous        ra      dec      snr  peak_mJy  fit_peak_mJy  S_int_mJy  decon_maj  decon_min  sig_pos_arcsec
+0  Xb55  156.9635 -43.9044  29.0468   14.9462       15.1348    40.4929    10.2839     8.6392          0.1045
+    ous        ra      dec      snr   peak_mJy  fit_peak_mJy  S_int_mJy  decon_maj  decon_min  sig_pos_arcsec
+1  Xb47  156.9635 -43.9043  19.4752  36.457199       27.6236   104.0587     6.7351     4.6150          0.0954
+2  Xb47  156.9635 -43.9043  11.6642  22.040199       27.1684   110.9132     7.2680     4.7659          0.0979
+3  Xb47  156.9634 -43.9043   5.8603  10.913700       26.5692   126.9936     7.9751     5.3254          0.0987
+    ous        ra      dec      snr   peak_mJy  fit_peak_mJy  S_int_mJy  decon_maj  decon_min  sig_pos_arcsec
+4  Xb4f  156.9635 -43.9043  17.9974  19.351999       16.5939    63.5284      8.416     6.8301          0.1234
+     ous        ra      dec      snr  peak_mJy  fit_peak_mJy  S_int_mJy  decon_maj  decon_min  sig_pos_arcsec
+5   Xb4d  156.9634 -43.9053  46.7181    4.2565        3.6958     6.9262     1.1966     0.4357          0.0087
+6   Xb4d  156.9634 -43.9039  38.4985    3.5939        3.3474    13.3440     1.6985     1.2290          0.0098
+7   Xb4d  156.9660 -43.9035  17.5307    1.4861        1.0454     4.6014     2.3673     0.9537          0.0285
+8   Xb4d  156.9668 -43.9064  10.7703    0.8489        0.8888     0.9001     0.2250     0.0000          0.0311
+9   Xb4d  156.9635 -43.9046   9.6015    0.8988        0.6507     0.8381     1.1942     0.0000          0.0505
+10  Xb4d  156.9655 -43.9054   8.6161    0.7228        0.6523     1.2416     0.7402     0.8270          0.0452
+11  Xb4d  156.9663 -43.9036   7.8297    0.6740        0.9694    11.2055     6.1901     1.0568          0.0312
+     ous        ra      dec      snr  peak_mJy  fit_peak_mJy   S_int_mJy  decon_maj  decon_min  sig_pos_arcsec
+13  Xb4b  156.9634 -43.9053  81.2287    1.8526        1.6627      2.9696     0.2249     0.2006          0.0014
+14  Xb4b  156.9668 -43.9063  25.3346    0.5590        0.5427      0.7438     0.1762     0.1144          0.0041
+15  Xb4b  156.9655 -43.9054  15.6113    0.2839        0.2435      0.5211     0.3021     0.2118          0.0075
+16  Xb4b  156.9660 -43.9035  15.2690    0.3885        0.2824      1.7331     0.6768     0.4301          0.0091
+17  Xb4b  156.9634 -43.9039  14.4598    0.5607        0.2895      0.5201     0.3612     0.0281          0.0135
+18  Xb4b  156.9630 -43.9054  13.8920    0.3817        0.3007      0.7084     0.3436     0.2187          0.0092
+19  Xb4b  156.9633 -43.9040  12.8568    0.4593        0.3102      3.1367     0.9159     0.5662          0.0116
+20  Xb4b  156.9641 -43.9029  11.7828    0.4279        0.5007     60.9076     9.4737     0.6991          0.0073
+21  Xb4b  156.9635 -43.9039  11.7525    0.4427        0.4031     10.0625     1.3134     1.0476          0.0094
+22  Xb4b  156.9639 -43.9040  10.3353    0.3354        0.2987      0.8618     0.5260     0.1628          0.0109
+23  Xb4b  156.9636 -43.9039   9.6490    0.3567        0.3882      6.8530     1.0783     0.8868          0.0096
+24  Xb4b  156.9634 -43.9039   9.6304    0.3369        0.5305     32.2716     2.0671     1.6627          0.0066
+25  Xb4b  156.9637 -43.9099   8.7257    0.3128       11.2247  79623.0590    49.0582     8.3052          0.0003
+26  Xb4b  156.9639 -43.9042   7.8070    0.2398        0.1699      0.7259     0.7257     0.2181          0.0182
+27  Xb4b  156.9657 -43.9032   7.7946    0.2035        0.1754      0.2562     0.2220     0.0969          0.0150
+28  Xb4b  156.9639 -43.9053   7.1703    0.1373        0.1136      0.6664     0.7342     0.3667          0.0170
+29  Xb4b  156.9636 -43.9034   6.6641    0.1677        0.1394      0.3302     0.4534     0.1209          0.0182
+30  Xb4b  156.9617 -43.9047   6.3127    0.1376        0.1301      0.4524     0.5371     0.2438          0.0169
+31  Xb4b  156.9619 -43.9037   5.8128    0.1003        0.0969      0.5693     0.9438     0.2544          0.0179
+32  Xb4b  156.9614 -43.9032   5.6764    0.1000        0.1042      0.0912     0.0729     0.0000          0.0170
+33  Xb4b  156.9633 -43.9040   5.3975    0.1756        0.3856      4.5529     0.9499     0.6506          0.0085
+34  Xb4b  156.9603 -43.9035   5.2802    0.1031        0.1047      0.3288     0.4216     0.2859          0.0188
+35  Xb4b  156.9619 -43.9037   5.2599    0.0956        0.0788      1.0569     2.2557     0.2454          0.0232
+37  Xb4b  156.9654 -43.9047   5.2312    0.0963        0.0903      0.1103     0.2082     0.0000          0.0205
+38  Xb4b  156.9635 -43.9046   5.1564    0.1914        0.1640      1.6810     1.2650     0.3921          0.0228
+## common beam B5beam_8.95x5.98
+   {'ous': 'Xb55', 'nu_GHz': 170.737, 'rms_mJy': np.float32(0.9334648), 'N_peak_mJy': np.float32(14.269442), 'S_peak_mJy': np.float32(12.706928), 'E1_peak_mJy': np.float32(8.316856), 'N_S_r3_mJy': np.float64(6.445), 'S_S_r3_mJy': np.float64(5.685), 'N_S_r6_mJy': np.float64(17.797), 'S_S_r6_mJy': np.float64(15.991), 'N_S_r10_mJy': np.float64(31.91), 'S_S_r10_mJy': np.float64(29.648), 'tot_r8_mJy': np.float64(27.03), 'tot_r12_mJy': np.float64(34.898)}
+   {'ous': 'Xb47', 'nu_GHz': 346.533, 'rms_mJy': np.float64(1.767), 'N_peak_mJy': np.float64(59.108), 'S_peak_mJy': np.float64(41.694), 'E1_peak_mJy': np.float64(25.462), 'N_S_r3_mJy': np.float64(42.893), 'S_S_r3_mJy': np.float64(26.002), 'N_S_r6_mJy': np.float64(81.101), 'S_S_r6_mJy': np.float64(67.849), 'N_S_r10_mJy': np.float64(92.011), 'S_S_r10_mJy': np.float64(84.564), 'tot_r8_mJy': np.float64(80.241), 'tot_r12_mJy': np.float64(78.305)}
+   {'ous': 'Xb4f', 'nu_GHz': 257.707, 'rms_mJy': np.float64(0.865), 'N_peak_mJy': np.float64(27.994), 'S_peak_mJy': np.float64(22.464), 'E1_peak_mJy': np.float64(13.438), 'N_S_r3_mJy': np.float64(16.343), 'S_S_r3_mJy': np.float64(12.0), 'N_S_r6_mJy': np.float64(39.031), 'S_S_r6_mJy': np.float64(32.884), 'N_S_r10_mJy': np.float64(55.733), 'S_S_r10_mJy': np.float64(50.499), 'tot_r8_mJy': np.float64(45.38), 'tot_r12_mJy': np.float64(52.049)}
+   {'ous': 'Xb4d', 'nu_GHz': 257.752, 'rms_mJy': np.float64(1.447), 'N_peak_mJy': np.float64(22.399), 'S_peak_mJy': np.float64(17.581), 'E1_peak_mJy': np.float64(10.595), 'N_S_r3_mJy': np.float64(18.86), 'S_S_r3_mJy': np.float64(12.25), 'N_S_r6_mJy': np.float64(33.458), 'S_S_r6_mJy': np.float64(29.49), 'N_S_r10_mJy': np.float64(35.72), 'S_S_r10_mJy': np.float64(33.904), 'tot_r8_mJy': np.float64(31.022), 'tot_r12_mJy': np.float64(33.407)}
+   {'ous': 'Xb4b', 'nu_GHz': 257.76, 'rms_mJy': np.float64(3.693), 'N_peak_mJy': np.float64(17.791), 'S_peak_mJy': np.float64(14.455), 'E1_peak_mJy': np.float64(5.751), 'N_S_r3_mJy': np.float64(16.595), 'S_S_r3_mJy': np.float64(10.736), 'N_S_r6_mJy': np.float64(25.525), 'S_S_r6_mJy': np.float64(26.016), 'N_S_r10_mJy': np.float64(18.783), 'S_S_r10_mJy': np.float64(17.508), 'tot_r8_mJy': np.float64(19.923), 'tot_r12_mJy': np.float64(9.835)}
+## common beam B6lowres_5.84x3.52
+  Xb55: native beam not smaller than target, skipped
+   {'ous': 'Xb47', 'nu_GHz': 346.533, 'rms_mJy': np.float64(1.421), 'N_peak_mJy': np.float64(43.432), 'S_peak_mJy': np.float64(27.199), 'E1_peak_mJy': np.float64(14.905), 'N_S_r3_mJy': np.float64(42.893), 'S_S_r3_mJy': np.float64(26.002), 'N_S_r6_mJy': np.float64(81.101), 'S_S_r6_mJy': np.float64(67.849), 'N_S_r10_mJy': np.float64(92.011), 'S_S_r10_mJy': np.float64(84.564), 'tot_r8_mJy': np.float64(90.867), 'tot_r12_mJy': np.float64(79.212)}
+   {'ous': 'Xb4f', 'nu_GHz': 257.707, 'rms_mJy': np.float32(0.64719164), 'N_peak_mJy': np.float32(19.35199), 'S_peak_mJy': np.float32(13.944647), 'E1_peak_mJy': np.float32(7.0134187), 'N_S_r3_mJy': np.float64(16.343), 'S_S_r3_mJy': np.float64(12.0), 'N_S_r6_mJy': np.float64(39.031), 'S_S_r6_mJy': np.float64(32.884), 'N_S_r10_mJy': np.float64(55.733), 'S_S_r10_mJy': np.float64(50.499), 'tot_r8_mJy': np.float64(50.933), 'tot_r12_mJy': np.float64(54.493)}
+   {'ous': 'Xb4d', 'nu_GHz': 257.752, 'rms_mJy': np.float64(0.75), 'N_peak_mJy': np.float64(16.193), 'S_peak_mJy': np.float64(10.973), 'E1_peak_mJy': np.float64(5.998), 'N_S_r3_mJy': np.float64(18.86), 'S_S_r3_mJy': np.float64(12.25), 'N_S_r6_mJy': np.float64(33.458), 'S_S_r6_mJy': np.float64(29.49), 'N_S_r10_mJy': np.float64(35.72), 'S_S_r10_mJy': np.float64(33.904), 'tot_r8_mJy': np.float64(34.554), 'tot_r12_mJy': np.float64(32.808)}
+   {'ous': 'Xb4b', 'nu_GHz': 257.76, 'rms_mJy': np.float64(2.085), 'N_peak_mJy': np.float64(14.128), 'S_peak_mJy': np.float64(9.476), 'E1_peak_mJy': np.float64(3.371), 'N_S_r3_mJy': np.float64(16.595), 'S_S_r3_mJy': np.float64(10.736), 'N_S_r6_mJy': np.float64(25.525), 'S_S_r6_mJy': np.float64(26.016), 'N_S_r10_mJy': np.float64(18.783), 'S_S_r10_mJy': np.float64(17.508), 'tot_r8_mJy': np.float64(24.084), 'tot_r12_mJy': np.float64(6.802)}
+## spectral indices (matched beam, peak flux densities; error = noise + flux-scale in quadrature)
+                  beam          src     a     b    nu_a    nu_b    S_a    S_b  alpha  alpha_err
+0     B5beam_8.95x5.98            N  Xb55  Xb4f  170.74  257.71  14.27  27.99   1.64       0.32
+1     B5beam_8.95x5.98            N  Xb55  Xb4d  170.74  257.75  14.27  22.40   1.09       0.35
+2     B5beam_8.95x5.98            N  Xb55  Xb4b  170.74  257.76  14.27  17.79   0.54       0.59
+3     B5beam_8.95x5.98            N  Xb4f  Xb47  257.71  346.53  27.99  59.11   2.52       0.40
+4     B5beam_8.95x5.98            N  Xb4d  Xb47  257.75  346.53  22.40  59.11   3.28       0.45
+5     B5beam_8.95x5.98            N  Xb4b  Xb47  257.76  346.53  17.79  59.11   4.06       0.80
+6     B5beam_8.95x5.98            N  Xb55  Xb47  170.74  346.53  14.27  59.11   2.01       0.22
+7     B5beam_8.95x5.98            S  Xb55  Xb4f  170.74  257.71  12.71  22.46   1.38       0.34
+8     B5beam_8.95x5.98            S  Xb55  Xb4d  170.74  257.75  12.71  17.58   0.79       0.38
+9     B5beam_8.95x5.98            S  Xb55  Xb4b  170.74  257.76  12.71  14.45   0.31       0.70
+10    B5beam_8.95x5.98            S  Xb4f  Xb47  257.71  346.53  22.46  41.69   2.09       0.42
+11    B5beam_8.95x5.98            S  Xb4d  Xb47  257.75  346.53  17.58  41.69   2.92       0.49
+12    B5beam_8.95x5.98            S  Xb4b  Xb47  257.76  346.53  14.45  41.69   3.58       0.95
+13    B5beam_8.95x5.98            S  Xb55  Xb47  170.74  346.53  12.71  41.69   1.68       0.23
+14    B5beam_8.95x5.98           E1  Xb55  Xb4f  170.74  257.71   8.32  13.44   1.17       0.42
+15    B5beam_8.95x5.98           E1  Xb55  Xb4d  170.74  257.75   8.32  10.59   0.59       0.51
+16    B5beam_8.95x5.98           E1  Xb55  Xb4b  170.74  257.76   8.32   5.75  -0.90       1.61
+17    B5beam_8.95x5.98           E1  Xb4f  Xb47  257.71  346.53  13.44  25.46   2.16       0.49
+18    B5beam_8.95x5.98           E1  Xb4d  Xb47  257.75  346.53  10.59  25.46   2.96       0.64
+19    B5beam_8.95x5.98           E1  Xb4b  Xb47  257.76  346.53   5.75  25.46   5.03       2.22
+20    B5beam_8.95x5.98           E1  Xb55  Xb47  170.74  346.53   8.32  25.46   1.58       0.27
+21  B6lowres_5.84x3.52            N  Xb4f  Xb47  257.71  346.53  19.35  43.43   2.73       0.41
+22  B6lowres_5.84x3.52            N  Xb4d  Xb47  257.75  346.53  16.19  43.43   3.33       0.42
+23  B6lowres_5.84x3.52            N  Xb4b  Xb47  257.76  346.53  14.13  43.43   3.79       0.64
+24  B6lowres_5.84x3.52            S  Xb4f  Xb47  257.71  346.53  13.94  27.20   2.26       0.45
+25  B6lowres_5.84x3.52            S  Xb4d  Xb47  257.75  346.53  10.97  27.20   3.07       0.48
+26  B6lowres_5.84x3.52            S  Xb4b  Xb47  257.76  346.53   9.48  27.20   3.56       0.85
+27  B6lowres_5.84x3.52           E1  Xb4f  Xb47  257.71  346.53   7.01  14.91   2.55       0.59
+28  B6lowres_5.84x3.52           E1  Xb4d  Xb47  257.75  346.53   6.00  14.91   3.08       0.65
+29  B6lowres_5.84x3.52           E1  Xb4b  Xb47  257.76  346.53   3.37  14.91   5.02       2.15
+30    B5beam_8.95x5.98   total r<8"  Xb55  Xb4f  170.74  257.71  27.03  45.38   1.26       0.27
+31    B5beam_8.95x5.98   total r<8"  Xb55  Xb4d  170.74  257.75  27.03  31.02   0.33       0.27
+32    B5beam_8.95x5.98   total r<8"  Xb55  Xb4b  170.74  257.76  27.03  19.92  -0.74       0.27
+33    B5beam_8.95x5.98   total r<8"  Xb4f  Xb47  257.71  346.53  45.38  80.24   1.92       0.38
+34    B5beam_8.95x5.98   total r<8"  Xb4d  Xb47  257.75  346.53  31.02  80.24   3.21       0.38
+35    B5beam_8.95x5.98   total r<8"  Xb4b  Xb47  257.76  346.53  19.92  80.24   4.71       0.38
+36    B5beam_8.95x5.98   total r<8"  Xb55  Xb47  170.74  346.53  27.03  80.24   1.54       0.20
+37    B5beam_8.95x5.98  total r<12"  Xb55  Xb4f  170.74  257.71  34.90  52.05   0.97       0.27
+38    B5beam_8.95x5.98  total r<12"  Xb55  Xb4d  170.74  257.75  34.90  33.41  -0.11       0.27
+39    B5beam_8.95x5.98  total r<12"  Xb55  Xb4b  170.74  257.76  34.90   9.83  -3.07       0.27
+40    B5beam_8.95x5.98  total r<12"  Xb4f  Xb47  257.71  346.53  52.05  78.30   1.38       0.38
+41    B5beam_8.95x5.98  total r<12"  Xb4d  Xb47  257.75  346.53  33.41  78.30   2.88       0.38
+42    B5beam_8.95x5.98  total r<12"  Xb4b  Xb47  257.76  346.53   9.83  78.30   7.01       0.38
+43    B5beam_8.95x5.98  total r<12"  Xb55  Xb47  170.74  346.53  34.90  78.30   1.14       0.20
+44  B6lowres_5.84x3.52   total r<8"  Xb4f  Xb47  257.71  346.53  50.93  90.87   1.95       0.38
+45  B6lowres_5.84x3.52   total r<8"  Xb4d  Xb47  257.75  346.53  34.55  90.87   3.27       0.38
+46  B6lowres_5.84x3.52   total r<8"  Xb4b  Xb47  257.76  346.53  24.08  90.87   4.49       0.38
+47  B6lowres_5.84x3.52  total r<12"  Xb4f  Xb47  257.71  346.53  54.49  79.21   1.26       0.38
+48  B6lowres_5.84x3.52  total r<12"  Xb4d  Xb47  257.75  346.53  32.81  79.21   2.98       0.38
+49  B6lowres_5.84x3.52  total r<12"  Xb4b  Xb47  257.76  346.53   6.80  79.21   8.29       0.38

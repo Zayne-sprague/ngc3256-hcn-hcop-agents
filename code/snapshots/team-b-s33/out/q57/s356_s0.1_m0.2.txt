@@ -1,0 +1,160 @@
+## unconstrained: X 40-100; allowed (n,NO) cells 1326/1326
+   BF vs Hfull: Hexc 3.24, Hcol 1.68, HcolX 1.38, Habun 22.2, HfullXs 1.56, Hfull 1  | BF(Habun/Hexc)=6.85, Habun/Hcol=13.2
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.0, Hexc 3.5, Hcol 2.4, HcolX 1.6, Habun 2.1
+   Hfull best N: Tk=188 log n=3.0 logN(HCO+)=16.3 A=3.16 X=79
+   Hfull best S: Tk=300 log n=4.4 logN(HCO+)=14.9 A=1.58 X=100
+   Hfull A_N [2.51188643 3.16227766 5.01187234], A_S [1.58489319 1.99526231 2.51188643]; A_N/A_S (5,16,50,84,95%) [0.79 1.26 1.58 2.51 3.98]; P(>1)=0.856 P(>1.3)=0.700
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 3.5 at c=1.05): 1.05:3.5 1.20:4.2 1.38:6.1 1.58:5.5
+     Hexc: contrast within dchi2<=1 of its best: 0.91-1.20; <=4: 0.76-1.91; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.4 at c=1.10): 1.05:2.5 1.20:2.8 1.38:4.7 1.58:4.9
+     Hcol: contrast within dchi2<=1 of its best: 0.87-1.26; <=4: 0.63-1.82; observed 1-0 contrast 1.45
+## log n>=3.8: X 40-100; allowed (n,NO) cells 1122/1326
+   BF vs Hfull: Hexc 3.78, Hcol 1.48, HcolX 1.48, Habun 24, HfullXs 1.34, Hfull 1  | BF(Habun/Hexc)=6.35, Habun/Hcol=16.2
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.0, Hexc 3.7, Hcol 2.8, HcolX 1.5, Habun 1.9
+   Hfull best N: Tk=237 log n=3.8 logN(HCO+)=15.6 A=3.16 X=79
+   Hfull best S: Tk=300 log n=4.4 logN(HCO+)=14.9 A=1.58 X=100
+   Hfull A_N [2.51188643 3.16227766 3.98107171], A_S [1.25892541 1.99526231 2.51188643]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.16]; P(>1)=0.840 P(>1.3)=0.680
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 3.7 at c=1.05): 1.05:3.7 1.20:4.2 1.38:6.0 1.58:5.3
+     Hexc: contrast within dchi2<=1 of its best: 0.95-1.20; <=4: 0.83-1.91; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.8 at c=1.00): 1.05:2.9 1.20:4.2 1.38:5.4 1.58:4.7
+     Hcol: contrast within dchi2<=1 of its best: 0.79-1.15; <=4: 0.60-1.91; observed 1-0 contrast 1.45
+## log n>=4.2: X 40-100; allowed (n,NO) cells 1020/1326
+   BF vs Hfull: Hexc 3.44, Hcol 1.33, HcolX 1.58, Habun 23.8, HfullXs 1.16, Hfull 1  | BF(Habun/Hexc)=6.93, Habun/Hcol=17.9
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.4, Hexc 3.9, Hcol 3.3, HcolX 1.2, Habun 2.4
+   Hfull best N: Tk=237 log n=4.2 logN(HCO+)=15.1 A=3.16 X=63
+   Hfull best S: Tk=300 log n=4.4 logN(HCO+)=14.9 A=1.58 X=100
+   Hfull A_N [2.51188643 3.16227766 3.98107171], A_S [1.25892541 1.99526231 2.51188643]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.16]; P(>1)=0.824 P(>1.3)=0.659
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 3.9 at c=1.10): 1.05:4.0 1.20:4.5 1.38:6.2 1.58:5.3
+     Hexc: contrast within dchi2<=1 of its best: 0.95-1.20; <=4: 0.83-1.91; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 3.3 at c=1.05): 1.05:3.3 1.20:4.4 1.38:5.1 1.58:4.5
+     Hcol: contrast within dchi2<=1 of its best: 0.79-1.15; <=4: 0.63-2.00; observed 1-0 contrast 1.45
+## log n 3-6 flat (alt prior): X 40-100; allowed (n,NO) cells 816/1326
+   BF vs Hfull: Hexc 3.27, Hcol 1.7, HcolX 1.39, Habun 13.9, HfullXs 1.56, Hfull 1  | BF(Habun/Hexc)=4.24, Habun/Hcol=8.17
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.0, Hexc 3.5, Hcol 2.4, HcolX 1.6, Habun 2.1
+   Hfull best N: Tk=188 log n=3.0 logN(HCO+)=16.3 A=3.16 X=79
+   Hfull best S: Tk=300 log n=4.4 logN(HCO+)=14.9 A=1.58 X=100
+   Hfull A_N [2.51188643 3.16227766 5.01187234], A_S [1.58489319 1.99526231 2.51188643]; A_N/A_S (5,16,50,84,95%) [0.79 1.26 1.58 2.51 3.16]; P(>1)=0.859 P(>1.3)=0.700
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 3.5 at c=1.05): 1.05:3.5 1.20:4.2 1.38:6.1 1.58:5.5
+     Hexc: contrast within dchi2<=1 of its best: 0.91-1.20; <=4: 0.76-1.91; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.4 at c=1.10): 1.05:2.5 1.20:2.8 1.38:4.7 1.58:4.9
+     Hcol: contrast within dchi2<=1 of its best: 0.87-1.26; <=4: 0.63-1.82; observed 1-0 contrast 1.45
+## log n>=3.8, L<=450pc, x<=1e-8: X 40-100; allowed (n,NO) cells 1086/1326
+   BF vs Hfull: Hexc 3.76, Hcol 1.48, HcolX 1.48, Habun 23.2, HfullXs 1.34, Hfull 1  | BF(Habun/Hexc)=6.18, Habun/Hcol=15.7
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.0, Hexc 3.7, Hcol 2.8, HcolX 1.5, Habun 1.9
+   Hfull best N: Tk=237 log n=3.8 logN(HCO+)=15.6 A=3.16 X=79
+   Hfull best S: Tk=300 log n=4.4 logN(HCO+)=14.9 A=1.58 X=100
+   Hfull A_N [2.51188643 3.16227766 3.98107171], A_S [1.25892541 1.99526231 2.51188643]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.16]; P(>1)=0.840 P(>1.3)=0.680
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 3.7 at c=1.05): 1.05:3.7 1.20:4.2 1.38:6.0 1.58:5.3
+     Hexc: contrast within dchi2<=1 of its best: 0.95-1.20; <=4: 0.83-1.91; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.8 at c=1.00): 1.05:2.9 1.20:4.2 1.38:5.4 1.58:4.7
+     Hcol: contrast within dchi2<=1 of its best: 0.79-1.15; <=4: 0.60-1.91; observed 1-0 contrast 1.45
+## log n>=3.8, L<=100pc (N core), x<=1e-8: X 40-100; allowed (n,NO) cells 1032/1326
+   BF vs Hfull: Hexc 3.71, Hcol 1.47, HcolX 1.48, Habun 22.1, HfullXs 1.33, Hfull 1  | BF(Habun/Hexc)=5.95, Habun/Hcol=15
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.0, Hexc 3.7, Hcol 2.8, HcolX 1.5, Habun 1.9
+   Hfull best N: Tk=237 log n=3.8 logN(HCO+)=15.6 A=3.16 X=79
+   Hfull best S: Tk=300 log n=4.4 logN(HCO+)=14.9 A=1.58 X=100
+   Hfull A_N [2.51188643 3.16227766 3.98107171], A_S [1.25892541 1.99526231 2.51188643]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.16]; P(>1)=0.839 P(>1.3)=0.679
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 3.7 at c=1.05): 1.05:3.7 1.20:4.2 1.38:6.0 1.58:5.3
+     Hexc: contrast within dchi2<=1 of its best: 0.95-1.20; <=4: 0.83-1.91; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.8 at c=1.00): 1.05:2.9 1.20:4.2 1.38:5.4 1.58:4.7
+     Hcol: contrast within dchi2<=1 of its best: 0.79-1.15; <=4: 0.60-1.91; observed 1-0 contrast 1.45
+## log n>=4.2, L<=100pc, x<=1e-8: X 40-100; allowed (n,NO) cells 964/1326
+   BF vs Hfull: Hexc 3.4, Hcol 1.33, HcolX 1.58, Habun 22.5, HfullXs 1.16, Hfull 1  | BF(Habun/Hexc)=6.63, Habun/Hcol=16.9
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.4, Hexc 3.9, Hcol 3.3, HcolX 1.2, Habun 2.4
+   Hfull best N: Tk=237 log n=4.2 logN(HCO+)=15.1 A=3.16 X=63
+   Hfull best S: Tk=300 log n=4.4 logN(HCO+)=14.9 A=1.58 X=100
+   Hfull A_N [2.51188643 3.16227766 3.98107171], A_S [1.25892541 1.99526231 2.51188643]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.16]; P(>1)=0.824 P(>1.3)=0.659
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 3.9 at c=1.10): 1.05:4.0 1.20:4.5 1.38:6.2 1.58:5.3
+     Hexc: contrast within dchi2<=1 of its best: 0.95-1.20; <=4: 0.83-1.91; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 3.3 at c=1.05): 1.05:3.3 1.20:4.4 1.38:5.1 1.58:4.5
+     Hcol: contrast within dchi2<=1 of its best: 0.79-1.15; <=4: 0.63-2.00; observed 1-0 contrast 1.45
+## log n>=3.8, L<=100pc, x<=3e-9 (tight): X 40-100; allowed (n,NO) cells 978/1326
+   BF vs Hfull: Hexc 3.86, Hcol 1.43, HcolX 1.52, Habun 22, HfullXs 1.27, Hfull 1  | BF(Habun/Hexc)=5.69, Habun/Hcol=15.4
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.3, Hexc 3.7, Hcol 2.8, HcolX 1.5, Habun 1.9
+   Hfull best N: Tk=237 log n=3.8 logN(HCO+)=15.6 A=3.16 X=79
+   Hfull best S: Tk=300 log n=4.4 logN(HCO+)=14.9 A=1.58 X=100
+   Hfull A_N [2.51188643 3.16227766 3.98107171], A_S [1.25892541 1.99526231 2.51188643]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.16]; P(>1)=0.835 P(>1.3)=0.672
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 3.7 at c=1.05): 1.05:3.7 1.20:4.2 1.38:6.0 1.58:5.3
+     Hexc: contrast within dchi2<=1 of its best: 0.95-1.20; <=4: 0.83-1.91; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.8 at c=1.00): 1.05:2.9 1.20:4.2 1.38:5.4 1.58:4.7
+     Hcol: contrast within dchi2<=1 of its best: 0.83-1.15; <=4: 0.63-1.91; observed 1-0 contrast 1.45
+## unconstrained: X 20-200; allowed (n,NO) cells 1326/1326
+   BF vs Hfull: Hexc 3.27, Hcol 1.55, HcolX 1.56, Habun 13.7, HfullXs 1.54, Hfull 1  | BF(Habun/Hexc)=4.18, Habun/Hcol=8.84
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.1, Hexc 2.8, Hcol 2.4, HcolX 0.7, Habun 3.3
+   Hfull best N: Tk=188 log n=3.0 logN(HCO+)=16.3 A=3.16 X=79
+   Hfull best S: Tk=267 log n=3.0 logN(HCO+)=16.3 A=2.00 X=158
+   Hfull A_N [2.51188643 3.98107171 5.01187234], A_S [1.58489319 1.99526231 3.16227766]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.98]; P(>1)=0.822 P(>1.3)=0.664
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 2.8 at c=1.05): 1.05:2.8 1.20:2.9 1.38:3.5 1.58:3.6
+     Hexc: contrast within dchi2<=1 of its best: 0.91-1.58; <=4: 0.76-2.09; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.4 at c=1.00): 1.05:2.4 1.20:2.9 1.38:3.5 1.58:3.4
+     Hcol: contrast within dchi2<=1 of its best: 0.87-1.45; <=4: 0.69-2.09; observed 1-0 contrast 1.45
+## log n>=3.8: X 20-200; allowed (n,NO) cells 1122/1326
+   BF vs Hfull: Hexc 3.85, Hcol 1.56, HcolX 1.64, Habun 16.4, HfullXs 1.46, Hfull 1  | BF(Habun/Hexc)=4.26, Habun/Hcol=10.5
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.0, Hexc 2.5, Hcol 2.4, HcolX 0.4, Habun 3.0
+   Hfull best N: Tk=18 log n=3.8 logN(HCO+)=16.5 A=5.01 X=200
+   Hfull best S: Tk=267 log n=3.8 logN(HCO+)=15.6 A=2.00 X=158
+   Hfull A_N [2.51188643 3.98107171 5.01187234], A_S [1.58489319 1.99526231 3.16227766]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.98]; P(>1)=0.801 P(>1.3)=0.644
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 2.5 at c=1.05): 1.05:2.5 1.20:2.6 1.38:3.3 1.58:3.3
+     Hexc: contrast within dchi2<=1 of its best: 0.95-1.58; <=4: 0.83-2.09; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.4 at c=1.05): 1.05:2.4 1.20:2.6 1.38:3.2 1.58:3.3
+     Hcol: contrast within dchi2<=1 of its best: 0.95-1.66; <=4: 0.69-2.09; observed 1-0 contrast 1.45
+## log n>=4.2: X 20-200; allowed (n,NO) cells 1020/1326
+   BF vs Hfull: Hexc 3.29, Hcol 1.52, HcolX 1.7, Habun 17.6, HfullXs 1.35, Hfull 1  | BF(Habun/Hexc)=5.36, Habun/Hcol=11.6
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.2, Hexc 2.4, Hcol 2.1, HcolX 0.5, Habun 3.2
+   Hfull best N: Tk=16 log n=4.2 logN(HCO+)=16.2 A=5.01 X=200
+   Hfull best S: Tk=188 log n=4.2 logN(HCO+)=15.3 A=2.00 X=158
+   Hfull A_N [2.51188643 3.16227766 5.01187234], A_S [1.58489319 1.99526231 2.51188643]; A_N/A_S (5,16,50,84,95%) [0.63 1.   1.58 2.51 3.98]; P(>1)=0.782 P(>1.3)=0.626
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 2.4 at c=1.20): 1.05:3.2 1.20:2.4 1.38:3.5 1.58:3.6
+     Hexc: contrast within dchi2<=1 of its best: 1.05-1.51; <=4: 0.91-2.00; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.1 at c=1.05): 1.05:2.1 1.20:2.3 1.38:3.1 1.58:3.5
+     Hcol: contrast within dchi2<=1 of its best: 0.95-1.45; <=4: 0.69-2.00; observed 1-0 contrast 1.45
+## log n 3-6 flat (alt prior): X 20-200; allowed (n,NO) cells 816/1326
+   BF vs Hfull: Hexc 3.29, Hcol 1.56, HcolX 1.58, Habun 8.5, HfullXs 1.55, Hfull 1  | BF(Habun/Hexc)=2.58, Habun/Hcol=5.45
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.1, Hexc 2.8, Hcol 2.4, HcolX 0.7, Habun 3.3
+   Hfull best N: Tk=188 log n=3.0 logN(HCO+)=16.3 A=3.16 X=79
+   Hfull best S: Tk=267 log n=3.0 logN(HCO+)=16.3 A=2.00 X=158
+   Hfull A_N [2.51188643 3.98107171 5.01187234], A_S [1.58489319 1.99526231 3.16227766]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.98]; P(>1)=0.825 P(>1.3)=0.665
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 2.8 at c=1.05): 1.05:2.8 1.20:2.9 1.38:3.5 1.58:3.6
+     Hexc: contrast within dchi2<=1 of its best: 0.91-1.58; <=4: 0.76-2.09; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.4 at c=1.00): 1.05:2.4 1.20:2.9 1.38:3.5 1.58:3.4
+     Hcol: contrast within dchi2<=1 of its best: 0.87-1.45; <=4: 0.69-2.09; observed 1-0 contrast 1.45
+## log n>=3.8, L<=450pc, x<=1e-8: X 20-200; allowed (n,NO) cells 1086/1326
+   BF vs Hfull: Hexc 3.83, Hcol 1.56, HcolX 1.64, Habun 15.9, HfullXs 1.46, Hfull 1  | BF(Habun/Hexc)=4.15, Habun/Hcol=10.2
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.0, Hexc 2.5, Hcol 2.4, HcolX 0.4, Habun 3.0
+   Hfull best N: Tk=18 log n=3.8 logN(HCO+)=16.5 A=5.01 X=200
+   Hfull best S: Tk=267 log n=3.8 logN(HCO+)=15.6 A=2.00 X=158
+   Hfull A_N [2.51188643 3.98107171 5.01187234], A_S [1.58489319 1.99526231 3.16227766]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.98]; P(>1)=0.801 P(>1.3)=0.644
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 2.5 at c=1.05): 1.05:2.5 1.20:2.6 1.38:3.3 1.58:3.3
+     Hexc: contrast within dchi2<=1 of its best: 0.95-1.58; <=4: 0.83-2.09; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.4 at c=1.05): 1.05:2.4 1.20:2.6 1.38:3.2 1.58:3.3
+     Hcol: contrast within dchi2<=1 of its best: 0.95-1.66; <=4: 0.69-2.09; observed 1-0 contrast 1.45
+## log n>=3.8, L<=100pc (N core), x<=1e-8: X 20-200; allowed (n,NO) cells 1032/1326
+   BF vs Hfull: Hexc 3.93, Hcol 1.52, HcolX 1.68, Habun 15.5, HfullXs 1.4, Hfull 1  | BF(Habun/Hexc)=3.94, Habun/Hcol=10.2
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.1, Hexc 2.5, Hcol 2.4, HcolX 0.4, Habun 3.0
+   Hfull best N: Tk=237 log n=3.8 logN(HCO+)=15.6 A=3.16 X=79
+   Hfull best S: Tk=267 log n=3.8 logN(HCO+)=15.6 A=2.00 X=158
+   Hfull A_N [2.51188643 3.16227766 5.01187234], A_S [1.58489319 1.99526231 3.16227766]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.98]; P(>1)=0.796 P(>1.3)=0.637
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 2.5 at c=1.05): 1.05:2.5 1.20:2.6 1.38:3.3 1.58:3.3
+     Hexc: contrast within dchi2<=1 of its best: 0.95-1.58; <=4: 0.83-2.09; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.4 at c=1.05): 1.05:2.4 1.20:2.6 1.38:3.2 1.58:3.3
+     Hcol: contrast within dchi2<=1 of its best: 0.95-1.66; <=4: 0.69-2.09; observed 1-0 contrast 1.45
+## log n>=4.2, L<=100pc, x<=1e-8: X 20-200; allowed (n,NO) cells 964/1326
+   BF vs Hfull: Hexc 3.25, Hcol 1.52, HcolX 1.7, Habun 16.7, HfullXs 1.35, Hfull 1  | BF(Habun/Hexc)=5.13, Habun/Hcol=11
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.2, Hexc 2.4, Hcol 2.1, HcolX 0.5, Habun 3.2
+   Hfull best N: Tk=16 log n=4.2 logN(HCO+)=16.2 A=5.01 X=200
+   Hfull best S: Tk=188 log n=4.2 logN(HCO+)=15.3 A=2.00 X=158
+   Hfull A_N [2.51188643 3.16227766 5.01187234], A_S [1.58489319 1.99526231 2.51188643]; A_N/A_S (5,16,50,84,95%) [0.63 1.   1.58 2.51 3.98]; P(>1)=0.782 P(>1.3)=0.626
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 2.4 at c=1.20): 1.05:3.2 1.20:2.4 1.38:3.5 1.58:3.6
+     Hexc: contrast within dchi2<=1 of its best: 1.05-1.51; <=4: 0.91-2.00; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.1 at c=1.05): 1.05:2.1 1.20:2.3 1.38:3.1 1.58:3.5
+     Hcol: contrast within dchi2<=1 of its best: 0.95-1.45; <=4: 0.69-2.00; observed 1-0 contrast 1.45
+## log n>=3.8, L<=100pc, x<=3e-9 (tight): X 20-200; allowed (n,NO) cells 978/1326
+   BF vs Hfull: Hexc 3.98, Hcol 1.44, HcolX 1.75, Habun 15.6, HfullXs 1.28, Hfull 1  | BF(Habun/Hexc)=3.93, Habun/Hcol=10.8
+   delta(-2lnL) vs Hfull: Hfull 0.0, HfullXs 0.2, Hexc 2.5, Hcol 2.4, HcolX 0.7, Habun 3.0
+   Hfull best N: Tk=237 log n=3.8 logN(HCO+)=15.6 A=3.16 X=79
+   Hfull best S: Tk=267 log n=3.8 logN(HCO+)=15.6 A=2.00 X=158
+   Hfull A_N [2.51188643 3.16227766 5.01187234], A_S [1.58489319 1.99526231 3.16227766]; A_N/A_S (5,16,50,84,95%) [0.79 1.   1.58 2.51 3.98]; P(>1)=0.784 P(>1.3)=0.621
+   profile 1-0 model contrast Hexc (delta -2lnL vs Hfull max; min 2.5 at c=1.05): 1.05:2.5 1.20:2.6 1.38:3.3 1.58:3.3
+     Hexc: contrast within dchi2<=1 of its best: 1.00-1.58; <=4: 0.87-2.09; observed 1-0 contrast 1.45
+   profile 1-0 model contrast Hcol (delta -2lnL vs Hfull max; min 2.4 at c=1.05): 1.05:2.4 1.20:2.6 1.38:3.3 1.58:3.3
+     Hcol: contrast within dchi2<=1 of its best: 0.95-1.58; <=4: 0.69-2.09; observed 1-0 contrast 1.45

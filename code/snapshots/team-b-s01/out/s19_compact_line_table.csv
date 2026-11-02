@@ -1,0 +1,19 @@
+line,ous,beam_arcsec,region,aperture,rms_chan_mJy_per_beam,peak_smoothed3ch_mJy_per_beam,I_template_Jy_per_beam_kms,I_err_total,snr,peak_raw_mJy_per_beam,G1,G2_blue,G2_red,G2_chi2r,G1_peak_mJy,G1_v0,G1_fwhm
+HCN 2-1,Xb55,8.64x6.00,N,"peak pixel, native beam",2.61,153.8,26.867,0.095,281.4,155.9,blank (chi2r=5.6>2),"v=2729,fwhm=77,A=120.2 mJy","v=2816,fwhm=104,A=148.2 mJy",1.19,,,
+HCN 2-1,Xb55,8.64x6.00,S,"peak pixel, native beam",2.66,139.8,22.917,0.094,242.7,141.4,blank (chi2r=2.9>2),"v=2743,fwhm=79,A=60.0 mJy","v=2794,fwhm=158,A=98.9 mJy",1.07,,,
+HCO+ 2-1,Xb55,8.60x5.90,N,"peak pixel, native beam",3.42,237.5,41.229,0.117,352.1,240.3,blank (chi2r=13.2>2),"v=2732,fwhm=77,A=196.5 mJy","v=2818,fwhm=100,A=226.5 mJy",1.23,,,
+HCO+ 2-1,Xb55,8.60x5.90,S,"peak pixel, native beam",3.81,247.8,42.285,0.158,267.9,249.4,blank (chi2r=9.9>2),"v=2735,fwhm=74,A=104.8 mJy","v=2795,fwhm=162,A=189.4 mJy",1.64,,,
+HCN 4-3,Xb47,4.14x2.70,N,"peak pixel, native beam",3.79,97.6,15.087,0.119,126.6,102.6,blank (chi2r=5.3>2),"v=2721,fwhm=64,A=88.6 mJy","v=2817,fwhm=88,A=97.5 mJy",1.01,,,
+HCN 4-3,Xb47,4.14x2.70,S,"peak pixel, native beam",3.71,44.4,6.005,0.106,56.8,45.1,,"v=2750,fwhm=110,A=41.0 mJy","v=2855,fwhm=78,A=12.3 mJy",1.01,38.5,2761.0,141.4
+HCO+ 4-3,Xb47,4.13x2.70,N,"peak pixel, native beam",4.04,191.1,28.928,0.127,228.0,192.9,blank (chi2r=11.4>2),"v=2721,fwhm=63,A=167.9 mJy","v=2813,fwhm=85,A=191.7 mJy",1.18,,,
+HCO+ 4-3,Xb47,4.13x2.70,S,"peak pixel, native beam",3.96,146.4,21.361,0.111,192.6,150.8,blank (chi2r=2.6>2),"v=2751,fwhm=104,A=144.5 mJy","v=2849,fwhm=80,A=50.3 mJy",1.19,,,
+HCN 3-2,Xb4d,0.94x0.74,N,"peak pixel, native beam",0.72,34.3,5.375,0.026,209.6,34.9,blank (chi2r=8.3>2),"v=2723,fwhm=80,A=23.5 mJy","v=2824,fwhm=91,A=34.2 mJy",1.18,,,
+HCN 3-2,Xb4d,0.94x0.74,S,"peak pixel, native beam",0.68,14.7,1.904,0.023,81.2,15.9,blank (chi2r=2.7>2),"v=2714,fwhm=88,A=14.4 mJy","v=2832,fwhm=68,A=5.5 mJy",1.09,,,
+HCO+ 3-2,Xb4d,0.93x0.74,N,"peak pixel, native beam",0.82,41.0,6.278,0.072,87.8,41.8,blank (chi2r=14.7>2),"v=2723,fwhm=75,A=28.8 mJy","v=2823,fwhm=89,A=40.8 mJy",1.14,,,
+HCO+ 3-2,Xb4d,0.93x0.74,S,"peak pixel, native beam",0.74,35.9,4.867,0.045,107.0,36.8,blank (chi2r=14.1>2),"v=2712,fwhm=88,A=36.5 mJy","v=2830,fwhm=71,A=15.6 mJy",1.59,,,
+CS 7-6,Xb47,4.31x2.79,N,"peak pixel, native beam",3.18,21.6,2.346,0.104,22.6,26.2,,"v=2724,fwhm=60,A=12.4 mJy","v=2821,fwhm=77,A=18.6 mJy",1.06,15.1,2793.4,150.1
+CS 7-6,Xb47,4.31x2.79,S,"peak pixel, native beam",3.02,8.6,0.918,0.092,10.0,12.1,,"v=2725,fwhm=64,A=5.3 mJy","v=2834,fwhm=114,A=4.9 mJy",0.98,5.0,2794.0,190.2
+HOC+ 2-1,Xb55,8.60x5.90,N,"peak pixel, native beam",3.42,13.3,1.255,0.117,10.7,,,,,,,,
+HOC+ 2-1,Xb55,8.60x5.90,S,"peak pixel, native beam",3.81,9.3,0.81,0.157,5.1,,,,,,,,
+CH3OH J_-1-J_0 E (J=1-3 blend),Xb55,9.36x6.28,N,"peak pixel, native beam",2.19,9.9,1.103,0.075,14.7,12.3,,"v=2611,fwhm=83,A=2.6 mJy","v=2767,fwhm=126,A=8.8 mJy",1.03,8.3,2762.2,141.9
+CH3OH J_-1-J_0 E (J=1-3 blend),Xb55,9.36x6.28,S,"peak pixel, native beam",2.35,15.6,1.701,0.147,11.6,19.3,,"v=2697,fwhm=367,A=2.6 mJy","v=2767,fwhm=116,A=9.7 mJy",1.1,11.1,2762.1,152.9

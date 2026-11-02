@@ -1,0 +1,216 @@
+2026-10-29 16:57:00	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 16:57:00	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc805c1_X1cf5.split.ms has no data. Accessing it will cause errors.
+2026-10-29 16:57:00	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc805c1_X1cf5.split.ms has no data. Accessing it will cause errors.
+2026-10-29 16:57:00	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 16:57:00	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc83b78_X2a80.split.ms has no data. Accessing it will cause errors.
+2026-10-29 16:57:00	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc83b78_X2a80.split.ms has no data. Accessing it will cause errors.
+2026-10-29 16:57:00	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 16:57:00	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc9020b_X42f0.split.ms has no data. Accessing it will cause errors.
+2026-10-29 16:57:00	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc9020b_X42f0.split.ms has no data. Accessing it will cause errors.
+2026-10-29 16:57:00	WARN	tclean::::casa	POINTING table is empty.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 0 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 1 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 2 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 3 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 4 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 5 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 6 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 7 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 8 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 9 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 10 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 11 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 12 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 13 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 14 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 15 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 16 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 17 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 18 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 19 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 20 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 21 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 22 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 23 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 24 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 25 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 26 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 27 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 28 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 29 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 30 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 31 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 32 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 33 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 34 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 35 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 36 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 37 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 38 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 39 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 40 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 41 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 42 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 43 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 44 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 45 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 46 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 47 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 48 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 49 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 50 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 51 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 52 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 53 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 54 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 55 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 56 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:00:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 57 : Source may be only (slightly) resolved in one direction
+DONE HCN32_2p5_comb 3.2 min
+2026-10-29 17:00:12	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 17:00:12	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc805c1_X1cf5.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:00:12	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc805c1_X1cf5.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:00:12	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 17:00:12	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc83b78_X2a80.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:00:12	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc83b78_X2a80.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:00:12	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 17:00:12	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc9020b_X42f0.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:00:12	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc9020b_X42f0.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:00:12	WARN	tclean::::casa	POINTING table is empty.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+2026-10-29 17:04:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 0 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:11	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 1 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 2 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 3 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 4 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 5 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 6 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 7 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 8 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 9 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 10 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 11 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 12 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 13 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 14 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 15 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 16 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 17 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 18 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 19 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 20 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 21 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 22 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 23 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 24 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 25 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 26 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 27 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 28 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 29 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 30 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 31 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 32 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 33 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 34 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 35 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 36 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 37 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 38 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 39 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 40 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 41 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 42 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 43 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 44 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:12	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 45 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 46 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 47 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 48 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 49 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 50 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 51 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 52 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 53 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 54 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 55 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 56 : Source may be only (slightly) resolved in one direction
+2026-10-29 17:04:13	WARN	SIImageStore::rescaleResolution (file /source/casa6/casatools/src/code/synthesis/ImagerObjects/SIImageStore.cc, line 1663)	Cannot convolve to new beam for Channel : 57 : Source may be only (slightly) resolved in one direction
+DONE HCOp32_2p5_comb 4.0 min
+2026-10-29 17:04:13	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 17:04:13	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc805c1_X1cf5.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:04:13	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc805c1_X1cf5.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:04:13	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 17:04:13	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc83b78_X2a80.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:04:13	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc83b78_X2a80.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:04:13	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 17:04:13	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc9020b_X42f0.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:04:13	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc9020b_X42f0.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:04:13	WARN	tclean::::casa	POINTING table is empty.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+DONE HCN32_3p5_comb 6.3 min
+2026-10-29 17:10:31	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 17:10:31	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc805c1_X1cf5.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:10:31	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc805c1_X1cf5.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:10:31	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 17:10:31	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc83b78_X2a80.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:10:31	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc83b78_X2a80.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:10:31	WARN	tclean::::casa	POINTING table is empty.
+2026-10-29 17:10:31	WARN	tclean::::casa	Column SIGMA_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc9020b_X42f0.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:10:31	WARN	tclean::::casa	Column WEIGHT_SPECTRUM in table /workspace/out/q34/ms/uid___A002_Xc9020b_X42f0.split.ms has no data. Accessing it will cause errors.
+2026-10-29 17:10:32	WARN	tclean::::casa	POINTING table is empty.
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+
+0%....10....20....30....40....50....60....70....80....90....100%
+DONE HCOp32_3p5_comb 7.0 min

@@ -1,0 +1,62 @@
+S_peak M1 gauss+const T0=33.5 s=0.52 ff26=0.80 ffnat=0.90 chi2=1.0/4 s16-84= [0.48 0.52 0.56] ff26= [0.77 0.8  0.82]
+S_peak M2 gauss+free-ext T0=29.0 s=0.38 ff26=0.68 ffnat=0.82 chi2=0.0/3 s16-84= [0.27 0.38 0.48] ff26= [0.51 0.68 0.77]
+S_peak M3 single gauss T0=33.6 s=0.71 ff26=0.88 ffnat=0.94 chi2=11.6/5 s16-84= [0.69 0.72 0.74] ff26= [0.87 0.88 0.89]
+S_peak M4 exp+const T0=46.6 s=0.35 ff26=0.60 ffnat=0.70 chi2=0.0/4 s16-84= [0.32 0.35 0.4 ] ff26= [0.57 0.6  0.64]
+S_peak M5 moffat2+const T0=36.1 s=0.48 ff26=0.77 ffnat=0.87 chi2=0.3/4 s16-84= [0.45 0.48 0.53] ff26= [0.74 0.76 0.79]
+S_3ch M1 gauss+const T0=32.8 s=0.53 ff26=0.81 ffnat=0.90 chi2=1.0/4 s16-84= [0.49 0.53 0.57] ff26= [0.78 0.81 0.83]
+S_3ch M2 gauss+free-ext T0=28.1 s=0.39 ff26=0.69 ffnat=0.83 chi2=0.0/3 s16-84= [0.29 0.39 0.47] ff26= [0.56 0.69 0.77]
+S_3ch M3 single gauss T0=33.0 s=0.72 ff26=0.89 ffnat=0.94 chi2=11.2/5 s16-84= [0.69 0.72 0.75] ff26= [0.88 0.88 0.89]
+S_3ch M4 exp+const T0=45.5 s=0.36 ff26=0.61 ffnat=0.71 chi2=0.0/4 s16-84= [0.32 0.36 0.4 ] ff26= [0.57 0.61 0.64]
+S_3ch M5 moffat2+const T0=35.3 s=0.49 ff26=0.77 ffnat=0.87 chi2=0.3/4 s16-84= [0.45 0.49 0.53] ff26= [0.74 0.77 0.79]
+S_HCNwin M1 gauss+const T0=23.4 s=0.52 ff26=0.80 ffnat=0.89 chi2=0.7/4 s16-84= [0.47 0.51 0.55] ff26= [0.77 0.79 0.82]
+S_HCNwin M2 gauss+free-ext T0=20.9 s=0.40 ff26=0.70 ffnat=0.84 chi2=0.1/3 s16-84= [0.28 0.39 0.48] ff26= [0.54 0.69 0.78]
+S_HCNwin M3 single gauss T0=23.9 s=0.74 ff26=0.89 ffnat=0.95 chi2=11.1/5 s16-84= [0.71 0.74 0.77] ff26= [0.88 0.89 0.9 ]
+S_HCNwin M4 exp+const T0=32.6 s=0.35 ff26=0.60 ffnat=0.70 chi2=0.0/4 s16-84= [0.3  0.35 0.39] ff26= [0.56 0.6  0.63]
+S_HCNwin M5 moffat2+const T0=25.3 s=0.48 ff26=0.76 ffnat=0.87 chi2=0.2/4 s16-84= [0.43 0.48 0.51] ff26= [0.73 0.76 0.78]
+N_peak M1 gauss+const T0=13.8 s=0.27 ff26=0.52 ffnat=0.70 chi2=1.0/4 s16-84= [0.23 0.27 0.32] ff26= [0.44 0.52 0.6 ]
+N_peak M2 gauss+free-ext T0=15.0 s=0.21 ff26=0.40 ffnat=0.59 chi2=0.4/3 s16-84= [0.17 0.21 0.26] ff26= [0.3 0.4 0.5]
+N_peak M3 single gauss T0=12.2 s=1.24 ff26=0.96 ffnat=0.98 chi2=31.9/5 s16-84= [1.15 1.24 1.36] ff26= [0.95 0.96 0.96]
+N_peak M4 exp+const T0=22.2 s=0.14 ff26=0.32 ffnat=0.44 chi2=0.9/4 s16-84= [0.12 0.14 0.17] ff26= [0.26 0.32 0.38]
+N_peak M5 moffat2+const T0=15.8 s=0.23 ff26=0.46 ffnat=0.62 chi2=0.8/4 s16-84= [0.18 0.22 0.27] ff26= [0.36 0.45 0.54]
+N_3ch M1 gauss+const T0=12.0 s=0.30 ff26=0.57 ffnat=0.74 chi2=0.9/4 s16-84= [0.26 0.29 0.34] ff26= [0.49 0.56 0.64]
+N_3ch M2 gauss+free-ext T0=12.5 s=0.24 ff26=0.46 ffnat=0.65 chi2=0.4/3 s16-84= [0.18 0.24 0.29] ff26= [0.32 0.46 0.56]
+N_3ch M3 single gauss T0=11.8 s=1.32 ff26=0.96 ffnat=0.98 chi2=27.4/5 s16-84= [1.21 1.33 1.43] ff26= [0.96 0.96 0.97]
+N_3ch M4 exp+const T0=18.7 s=0.16 ff26=0.37 ffnat=0.49 chi2=0.8/4 s16-84= [0.14 0.17 0.21] ff26= [0.31 0.37 0.44]
+N_3ch M5 moffat2+const T0=13.5 s=0.26 ff26=0.51 ffnat=0.67 chi2=0.8/4 s16-84= [0.21 0.26 0.32] ff26= [0.41 0.51 0.61]
+N_HCNwin M1 gauss+const T0=8.4 s=0.38 ff26=0.68 ffnat=0.82 chi2=1.2/4 s16-84= [0.3  0.38 0.47] ff26= [0.58 0.68 0.76]
+N_HCNwin M2 gauss+free-ext T0=8.5 s=0.26 ff26=0.49 ffnat=0.68 chi2=0.3/3 s16-84= [0.2  0.24 0.34] ff26= [0.37 0.47 0.63]
+N_HCNwin M3 single gauss T0=10.7 s=1.52 ff26=0.97 ffnat=0.99 chi2=15.4/5 s16-84= [1.42 1.52 1.64] ff26= [0.97 0.97 0.98]
+N_HCNwin M4 exp+const T0=12.0 s=0.25 ff26=0.50 ffnat=0.61 chi2=0.9/4 s16-84= [0.18 0.25 0.33] ff26= [0.4  0.5  0.59]
+N_HCNwin M5 moffat2+const T0=9.2 s=0.35 ff26=0.65 ffnat=0.79 chi2=1.0/4 s16-84= [0.29 0.36 0.44] ff26= [0.56 0.65 0.73]
+S peak 1.0 0 T0=30.0 s=0.49 ff26=0.78 ext(A=14.8,s=1.0) c=1.1 rms=1.98 BIC=4543
+S peak 1.0 1 T0=30.8 s=0.39 ff26=0.70 ext(A=8.3,s=1.0) c=0.1 rms=1.52 BIC=2837
+S peak 1.0 2 T0=32.3 s=0.38 ff26=0.68 ext(A=8.0,s=1.0) c=0.2 rms=1.42 BIC=2396
+S peak 1.0 3 T0=32.2 s=0.38 ff26=0.68 ext(A=8.3,s=1.0) c=0.2 rms=1.39 BIC=2311
+S peak 1.5 0 T0=31.0 s=0.57 ff26=0.83 ext(A=12.7,s=1.0) c=1.1 rms=1.92 BIC=9712
+S peak 1.5 1 T0=31.5 s=0.47 ff26=0.77 ext(A=3.6,s=1.2) c=0.5 rms=1.73 BIC=8218
+S peak 1.5 2 T0=31.8 s=0.46 ff26=0.76 ext(A=4.6,s=1.3) c=0.5 rms=1.40 BIC=5068
+S peak 1.5 3 T0=33.0 s=0.43 ff26=0.73 ext(A=5.1,s=1.1) c=0.6 rms=1.35 BIC=4601
+S HCNwin 1.0 0 T0=21.2 s=0.51 ff26=0.79 ext(A=10.2,s=1.0) c=1.2 rms=1.74 BIC=3688
+S HCNwin 1.0 1 T0=23.7 s=0.48 ff26=0.78 ext(A=5.3,s=1.6) c=0.3 rms=1.16 BIC=1054
+S HCNwin 1.0 2 T0=24.0 s=0.43 ff26=0.73 ext(A=5.8,s=1.3) c=0.5 rms=1.03 BIC=306
+S HCNwin 1.0 3 T0=24.4 s=0.44 ff26=0.74 ext(A=5.6,s=1.0) c=0.8 rms=0.92 BIC=-439
+S HCNwin 1.5 0 T0=21.4 s=0.47 ff26=0.77 ext(A=8.6,s=1.4) c=0.8 rms=1.75 BIC=8317
+S HCNwin 1.5 1 T0=23.6 s=0.53 ff26=0.81 ext(A=4.5,s=2.0) c=0.3 rms=1.32 BIC=4189
+S HCNwin 1.5 2 T0=23.8 s=0.48 ff26=0.78 ext(A=5.0,s=1.8) c=0.4 rms=1.06 BIC=1022
+S HCNwin 1.5 3 T0=23.8 s=0.49 ff26=0.78 ext(A=5.2,s=1.5) c=0.5 rms=1.00 BIC=119
+N peak 1.0 0 T0=19.3 s=0.24 ff26=0.45 ext(A=14.3,s=1.0) c=4.1 rms=3.51 BIC=8294
+N peak 1.0 1 T0=25.2 s=0.18 ff26=0.33 ext(A=10.3,s=1.0) c=0.9 rms=2.47 BIC=6021
+N peak 1.0 2 T0=21.8 s=0.23 ff26=0.43 ext(A=10.4,s=1.0) c=0.9 rms=2.15 BIC=5141
+N peak 1.0 3 T0=25.9 s=0.20 ff26=0.37 ext(A=10.1,s=1.0) c=1.1 rms=1.92 BIC=4401
+N peak 1.5 0 T0=19.2 s=0.24 ff26=0.45 ext(A=13.1,s=1.0) c=3.3 rms=3.42 BIC=18213
+N peak 1.5 1 T0=23.6 s=0.19 ff26=0.35 ext(A=10.2,s=4.1) c=-3.0 rms=3.11 BIC=16842
+N peak 1.5 2 T0=22.7 s=0.21 ff26=0.40 ext(A=10.9,s=1.1) c=1.3 rms=2.34 BIC=12633
+N peak 1.5 3 T0=22.8 s=0.21 ff26=0.40 ext(A=10.6,s=1.0) c=1.2 rms=2.28 BIC=12297
+N HCNwin 1.0 0 T0=15.9 s=0.18 ff26=0.31 ext(A=6.4,s=1.1) c=5.0 rms=1.95 BIC=4454
+N HCNwin 1.0 1 T0=13.8 s=0.24 ff26=0.45 ext(A=5.3,s=1.0) c=5.0 rms=1.76 BIC=3794
+N HCNwin 1.0 2 T0=14.0 s=0.22 ff26=0.41 ext(A=5.2,s=1.0) c=4.9 rms=1.61 BIC=3224
+N HCNwin 1.0 3 T0=15.4 s=0.19 ff26=0.34 ext(A=7.7,s=1.0) c=1.7 rms=1.38 BIC=2237
+N HCNwin 1.5 0 T0=21.1 s=0.12 ff26=0.18 ext(A=9.0,s=2.3) c=0.3 rms=2.09 BIC=10943
+N HCNwin 1.5 1 T0=29.3 s=0.09 ff26=0.11 ext(A=8.6,s=1.9) c=0.9 rms=1.92 BIC=9699
+N HCNwin 1.5 2 T0=22.7 s=0.11 ff26=0.15 ext(A=7.8,s=1.8) c=1.4 rms=1.77 BIC=8536
+N HCNwin 1.5 3 T0=16.1 s=0.18 ff26=0.33 ext(A=6.1,s=1.3) c=1.2 rms=1.50 BIC=6089

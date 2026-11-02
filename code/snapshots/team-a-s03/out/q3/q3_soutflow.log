@@ -1,0 +1,45 @@
+           pos  v_lo  v_hi  I_HCN  e_HCN  I_HCO+  e_HCO+      R         kind     eR
+0     Soutflow  2175  2275 -0.008  0.015  -0.014   0.018    NaN          NaN    NaN
+1     Soutflow  2275  2375  0.047  0.015   0.039   0.018  0.899  lower limit    NaN
+2     Soutflow  2375  2475  0.123  0.015   0.059   0.018  2.098        value  0.678
+3     Soutflow  2475  2575  0.181  0.015   0.118   0.018  1.547        value  0.268
+4     Soutflow  2575  2675  0.185  0.015   0.227   0.018  0.824        value  0.094
+5     Soutflow  2675  2775  0.197  0.015   0.358   0.018  0.556        value  0.052
+6     Soutflow  2775  2875  0.208  0.015   0.319   0.017  0.659        value  0.060
+7     Soutflow  2875  2975 -0.039  0.015  -0.015   0.018    NaN          NaN    NaN
+8     Soutflow  2975  3075 -0.042  0.015   0.005   0.018    NaN          NaN    NaN
+9     Soutflow  3075  3175 -0.032  0.015  -0.022   0.018    NaN          NaN    NaN
+10    Soutflow  3175  3275 -0.010  0.015   0.000   0.018    NaN          NaN    NaN
+11  M18 OF-Red  2175  2275 -0.006  0.013   0.016   0.013    NaN          NaN    NaN
+12  M18 OF-Red  2275  2375  0.010  0.013  -0.007   0.013    NaN          NaN    NaN
+13  M18 OF-Red  2375  2475 -0.006  0.012   0.007   0.013    NaN          NaN    NaN
+14  M18 OF-Red  2475  2575 -0.034  0.013  -0.025   0.013    NaN          NaN    NaN
+15  M18 OF-Red  2575  2675 -0.017  0.013   0.008   0.013    NaN          NaN    NaN
+16  M18 OF-Red  2675  2775  0.401  0.013   0.904   0.013  0.449        value  0.016
+17  M18 OF-Red  2775  2875  0.209  0.012   0.404   0.013  0.522        value  0.035
+18  M18 OF-Red  2875  2975  0.023  0.013   0.056   0.013  0.680  upper limit    NaN
+19  M18 OF-Red  2975  3075  0.106  0.013   0.131   0.013  0.819        value  0.128
+20  M18 OF-Red  3075  3175  0.048  0.012   0.006   0.013  1.223  lower limit    NaN
+21  M18 OF-Red  3175  3275 -0.023  0.013  -0.011   0.013    NaN          NaN    NaN
+CH2NH 4_13-3_12 @S: expected HCN-frame v=2299; mean in +-60 km/s = -0.21 mJy/beam (chan rms 0.67, mean err 0.13); HCN peak 17.9
+CH2NH 4_13-3_12 @N: expected HCN-frame v=2377; mean in +-60 km/s = 0.24 mJy/beam (chan rms 0.64, mean err 0.12); HCN peak 42.6
+CH2NH 4_13-3_12 @Soutflow: expected HCN-frame v=2227; mean in +-60 km/s = -0.07 mJy/beam (chan rms 0.73, mean err 0.14); HCN peak 3.9
+CH3NH2 263.641 @S: expected HCN-frame v=2478; mean in +-60 km/s = 0.30 mJy/beam (chan rms 0.67, mean err 0.13); HCN peak 17.9
+CH3NH2 263.641 @N: expected HCN-frame v=2556; mean in +-60 km/s = 0.14 mJy/beam (chan rms 0.64, mean err 0.12); HCN peak 42.6
+CH3NH2 263.641 @Soutflow: expected HCN-frame v=2406; mean in +-60 km/s = 1.09 mJy/beam (chan rms 0.73, mean err 0.14); HCN peak 3.9
+CH3OH 3(-2)-3(0)E @S: expected HCN-frame v=2381; mean in +-60 km/s = -0.05 mJy/beam (chan rms 0.67, mean err 0.13); HCN peak 17.9
+CH3OH 3(-2)-3(0)E @N: expected HCN-frame v=2459; mean in +-60 km/s = 0.10 mJy/beam (chan rms 0.64, mean err 0.12); HCN peak 42.6
+CH3OH 3(-2)-3(0)E @Soutflow: expected HCN-frame v=2309; mean in +-60 km/s = 0.33 mJy/beam (chan rms 0.73, mean err 0.14); HCN peak 3.9
+    vsys                pos  line         range  I32_Jybeamkms    e32  I10_M18   e10    r31  e_r31
+0   2740  M18 South-OF-Blue   HCN  (2380, 2560)          0.279  0.016     0.07  0.02  0.452  0.132
+1   2740  M18 South-OF-Blue  HCO+  (2380, 2560)          0.191  0.017     0.10  0.02  0.216  0.047
+2   2740         M18 OF-Red   HCN  (2980, 3100)          0.241  0.021     0.08  0.02  0.341  0.090
+3   2740         M18 OF-Red  HCO+  (2980, 3100)          0.217  0.037     0.08  0.02  0.307  0.093
+4   2775  M18 South-OF-Blue   HCN  (2415, 2595)          0.372  0.016     0.07  0.02  0.602  0.174
+5   2775  M18 South-OF-Blue  HCO+  (2415, 2595)          0.272  0.017     0.10  0.02  0.308  0.064
+6   2775         M18 OF-Red   HCN  (3015, 3135)          0.192  0.021     0.08  0.02  0.271  0.074
+7   2775         M18 OF-Red  HCO+  (3015, 3135)          0.163  0.037     0.08  0.02  0.231  0.078
+8   2810  M18 South-OF-Blue   HCN  (2450, 2630)          0.464  0.016     0.07  0.02  0.751  0.216
+9   2810  M18 South-OF-Blue  HCO+  (2450, 2630)          0.426  0.017     0.10  0.02  0.482  0.098
+10  2810         M18 OF-Red   HCN  (3050, 3170)          0.128  0.021     0.08  0.02  0.181  0.054
+11  2810         M18 OF-Red  HCO+  (3050, 3170)          0.074  0.037     0.08  0.02  0.105  0.059

@@ -1,0 +1,12 @@
+ N: HCN1 91.7 HCN3 24.1 HCO1 109.6 HCO3 38.5 rel.stat [0.006, 0.007, 0.005, 0.004]
+  N: Tk 40 [14,158] P(Tk>50)=0.44; log n 3.88 [3.25,4.50]; log A 0.70 [0.50,0.70]; log N(HCO+) 16.0
+ E1: HCN1 15.3 HCN3 3.2 HCO1 31.1 HCO3 8.8 rel.stat [0.035, 0.078, 0.017, 0.027]
+  E1: Tk 178 [79,251] P(Tk>50)=0.94; log n 3.88 [3.50,4.25]; log A 0.30 [0.20,0.40]; log N(HCO+) 15.5
+ W: HCN1 21.4 HCN3 3.1 HCO1 44.0 HCO3 7.2 rel.stat [0.029, 0.053, 0.014, 0.026]
+  W: Tk 199 [158,281] P(Tk>50)=1.00; log n 3.50 [3.12,3.88]; log A 0.40 [0.30,0.40]; log N(HCO+) 15.0
+ E2: HCN1 15.3 HCN3 1.4 HCO1 33.6 HCO3 4.7 rel.stat [0.031, 0.166, 0.014, 0.021]
+  E2: Tk 89 [45,158] P(Tk>50)=0.80; log n 3.75 [3.25,4.12]; log A 0.40 [0.30,0.40]; log N(HCO+) 14.8
+ P(Tk_E1<Tk_N)=0.17  P(n_E1<n_N)=0.51  P(logA_E1<logA_N)=1.00   (shared band-scale draws; ties count as half-open)
+ P(Tk_W<Tk_N)=0.11  P(n_W<n_N)=0.67  P(logA_W<logA_N)=0.99   (shared band-scale draws; ties count as half-open)
+ ln BF vs free [N vs E1, 1-0 + 3-2]: Tn +1.00  A -2.10  ANO -1.31  T +0.01  n +0.94  all -14.22
+ ln BF vs free [N vs W, 1-0 + 3-2]: Tn +1.09  A -1.42  ANO +0.11  T -0.01  n +0.95  all -47.40

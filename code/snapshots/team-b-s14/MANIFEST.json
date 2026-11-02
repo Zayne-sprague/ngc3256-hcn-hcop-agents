@@ -1,0 +1,28 @@
+{
+ "team": "team-b",
+ "item": "Q22",
+ "files": [
+  "scripts/common.py",
+  "scripts/regions.py",
+  "scripts/s130_q22_edge_ramp.py",
+  "scripts/s131_q22_edges_allous.py",
+  "scripts/s132_q22_ramp_fit.py",
+  "scripts/s133_q22_template.py",
+  "scripts/s134_q22_blend_empirical.py",
+  "scripts/s135_q22_adopted_trot.py",
+  "out/q22/s130.json",
+  "out/q22/s130_edges.png",
+  "out/q22/s131.json",
+  "out/q22/s131.txt",
+  "out/q22/s132.json",
+  "out/q22/s132.txt",
+  "out/q22/s133.json",
+  "out/q22/s133.txt",
+  "out/q22/s134.json",
+  "out/q22/s134.txt",
+  "out/q22/s135.json",
+  "out/q22/s135.txt",
+  "out/q9/s120b.json",
+  "TEAM_REPORT.json"
+ ]
+}

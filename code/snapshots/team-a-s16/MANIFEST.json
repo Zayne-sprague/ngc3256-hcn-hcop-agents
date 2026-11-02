@@ -1,0 +1,27 @@
+{
+ "team": "team-a",
+ "item": "Q10",
+ "files": [
+  "scripts/q10_reg.py",
+  "scripts/q10_h40a_v2.py",
+  "scripts/q10_decomp.py",
+  "scripts/q10_radex.py",
+  "scripts/q10_corr.py",
+  "scripts/q10_h40a.py",
+  "scripts/common.py",
+  "team/checks/rev_q10.py",
+  "out/q10v2/decomp.json",
+  "out/q10v2/decomp.log",
+  "out/q10v2/h40a_v2.json",
+  "out/q10v2/h40a_v2.log",
+  "out/q10v2/radex.log",
+  "out/q10v2/radex_grid.npy",
+  "out/q10v2/reg.log",
+  "out/q10/q10_alpha.json",
+  "out/q10/q10_corr.json",
+  "out/q10/q10_corr.log",
+  "out/q10/q10_h40a.json",
+  "out/q10/q10_h40a.log",
+  "TEAM_REPORT.json"
+ ]
+}

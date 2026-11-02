@@ -1,0 +1,20 @@
+map half-size 50.55342470362949 arcsec; pixel 1.1999999999998798
+## zero level: far-field (30, 45) -> HCN 0.365 HCO+ 0.691 Jy/b km/s (n=1554)
+   0- 4": HCN   15.25 HCO+   26.31 Jy km/s  R=0.580
+   4- 8": HCN   22.68 HCO+   40.87 Jy km/s  R=0.555
+   8-12": HCN   10.79 HCO+   21.94 Jy km/s  R=0.492
+  12-17": HCN   -2.95 HCO+   -1.99 Jy km/s  R=1.481
+## zero level: far-field (26, 40) -> HCN 0.146 HCO+ 0.278 Jy/b km/s (n=2024)
+   0- 4": HCN   15.36 HCO+   26.50 Jy km/s  R=0.579
+   4- 8": HCN   22.96 HCO+   41.40 Jy km/s  R=0.555
+   8-12": HCN   11.27 HCO+   22.85 Jy km/s  R=0.493
+  12-17": HCN   -2.05 HCO+   -0.30 Jy km/s  R=6.940
+## zero level: far-field (None, None) -> HCN 0.000 HCO+ 0.000 Jy/b km/s (n=0)
+   0- 4": HCN   15.42 HCO+   26.63 Jy km/s  R=0.579
+   4- 8": HCN   23.15 HCO+   41.75 Jy km/s  R=0.554
+   8-12": HCN   11.59 HCO+   23.47 Jy km/s  R=0.494
+  12-17": HCN   -1.45 HCO+    0.84 Jy km/s  R=-1.730
+far-field (30-45") pixel rms [np.float64(1.0042518333281643), np.float64(1.6243647382617388)]  n_beams 31.39026810491176  zero-level 1-sigma [np.float64(0.17924420375319297), np.float64(0.2899252502727032)]
+  8-12" zero level shifted -1 sigma (HCN & HCO+ together): R=0.495
+  8-12" zero level shifted +0 sigma (HCN & HCO+ together): R=0.492
+  8-12" zero level shifted +1 sigma (HCN & HCO+ together): R=0.488

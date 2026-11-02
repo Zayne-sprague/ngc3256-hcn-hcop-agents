@@ -1,0 +1,8 @@
+N      pix I[Jy/b km/s]: median 1.46 range -5.70-14.47 stat +-0.15 | half=400: const<2400:0.49 lin2:1.69 lin1:1.95 poly2:1.39 const_all:0.62
+N      ap  I[Jy/b km/s]: median 1.19 range -2.24-10.69 stat +-0.11 | half=400: const<2400:0.46 lin2:1.42 lin1:1.61 poly2:1.16 const_all:0.58
+S      pix I[Jy/b km/s]: median 1.67 range -0.71-18.32 stat +-0.15 | half=400: const<2400:1.07 lin2:2.21 lin1:2.18 poly2:1.69 const_all:1.29
+S      ap  I[Jy/b km/s]: median 1.48 range 0.31-16.14 stat +-0.10 | half=400: const<2400:0.86 lin2:1.77 lin1:1.79 poly2:1.38 const_all:1.04
+Bridge pix I[Jy/b km/s]: median 2.34 range 0.36-26.47 stat +-0.16 | half=400: const<2400:1.07 lin2:2.53 lin1:2.66 poly2:2.03 const_all:1.28
+Bridge ap  I[Jy/b km/s]: median 1.68 range 0.27-19.72 stat +-0.11 | half=400: const<2400:0.78 lin2:1.84 lin1:1.98 poly2:1.45 const_all:0.94
+W      pix I[Jy/b km/s]: median 0.80 range -25.96-9.69 stat +-0.17 | half=400: const<2400:0.54 lin2:0.95 lin1:1.12 poly2:0.91 const_all:0.61
+W      ap  I[Jy/b km/s]: median 0.73 range -14.39-8.33 stat +-0.11 | half=400: const<2400:0.49 lin2:0.88 lin1:1.00 poly2:0.85 const_all:0.54

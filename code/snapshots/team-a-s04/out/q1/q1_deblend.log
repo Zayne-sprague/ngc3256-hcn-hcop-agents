@@ -1,0 +1,123 @@
+HCN 2-1 HCN base chi2r 28.72 N:3.316±0.906 S:3.052±1.873 Bridge:3.976±2.536 Outer:5.394±0.890 diffuse:0.000±0.000
+HCO+ 2-1 HCO+ base chi2r 44.11 N:3.545±0.898 S:2.716±1.694 Bridge:1.554±1.898 Outer:4.410±0.826 diffuse:0.000±0.000
+HCN 3-2@Xb4f HCN base chi2r 18.18 N:1.283±0.220 S:1.825±0.569 Bridge:1.203±0.259 Outer:1.059±0.326 diffuse:0.000±0.000
+HCO+ 3-2@Xb4f HCO+ base chi2r 25.60 N:1.556±0.453 S:1.598±0.563 Bridge:1.340±0.243 Outer:1.466±0.134 diffuse:0.000±0.000
+HCN 4-3 HCN base chi2r 8.24 N:0.517±0.036 S:0.507±0.131 Bridge:0.407±0.027 Outer:0.298±0.117 diffuse:0.000±0.000
+HCO+ 4-3 HCO+ base chi2r 23.44 N:0.761±0.046 S:0.848±0.068 Bridge:0.560±0.037 Outer:0.437±0.051 diffuse:0.000±0.000
+CS 7-6 HCO+ base chi2r 7.21 N:0.057±0.017 S:0.064±0.020 Bridge:0.026±0.010 Outer:0.000±0.000 diffuse:0.000±0.000
+CS 7-6 HCN base chi2r 7.20 N:0.080±0.024 S:0.163±0.047 Bridge:0.066±0.021 Outer:0.000±0.012 diffuse:0.000±0.000
+    value  spread_lo  spread_hi  boot_err  n_var      model     comp   species                                                 quantity
+0   0.272      0.222      0.299     0.082   16.0  nomissing        N       HCN                                             3-2/2-1 (Tb)
+1   0.491      0.467      0.629     0.036   16.0  nomissing        N       HCN                                             4-3/3-2 (Tb)
+2   1.268      1.170      1.589     0.220   16.0  nomissing        N       HCN                           3-2(Xb4f)/3-2(Xb4d) (recovery)
+3   0.300      0.201      0.323     0.071   16.0  nomissing        N      HCO+                                             3-2/2-1 (Tb)
+4   0.681      0.632      0.991     0.046   16.0  nomissing        N      HCO+                                             4-3/3-2 (Tb)
+5   1.429      1.333      2.040     0.453   16.0  nomissing        N      HCO+                           3-2(Xb4f)/3-2(Xb4d) (recovery)
+6   0.077      0.074      0.096       NaN   16.0  nomissing        N       HCN                                      CS 7-6/HCN 3-2 (Tb)
+7   0.051      0.049      0.073       NaN   16.0  nomissing        N      HCO+                                     CS 7-6/HCO+ 3-2 (Tb)
+8   0.691      0.651      0.742     0.241   16.0  nomissing        N  HCN/HCO+                  HCN/HCO+ 2-1 (Tb, component-integrated)
+9   0.474      0.470      0.476     0.043   16.0  nomissing        N  HCN/HCO+                  HCN/HCO+ 4-3 (Tb, component-integrated)
+10  0.579      0.568      0.583     0.193   16.0  nomissing        N  HCN/HCO+       HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)
+11  0.663      0.628      0.755       NaN   16.0  nomissing        N  HCN/HCO+  HCN/HCO+ 3-2 (Tb) from 1" templates, same aperture sets
+12  0.170      0.122      0.246     0.201   16.0  nomissing        S       HCN                                             3-2/2-1 (Tb)
+13  0.547      0.463      0.676     0.131   16.0  nomissing        S       HCN                                             4-3/3-2 (Tb)
+14  2.086      1.703      2.583     0.569   16.0  nomissing        S       HCN                           3-2(Xb4f)/3-2(Xb4d) (recovery)
+15  0.245      0.207      0.314     0.230   16.0  nomissing        S      HCO+                                             3-2/2-1 (Tb)
+16  0.837      0.667      0.970     0.068   16.0  nomissing        S      HCO+                                             4-3/3-2 (Tb)
+17  1.725      1.591      2.190     0.563   16.0  nomissing        S      HCO+                           3-2(Xb4f)/3-2(Xb4d) (recovery)
+18  0.149      0.101      0.191       NaN   16.0  nomissing        S       HCN                                      CS 7-6/HCN 3-2 (Tb)
+19  0.056      0.038      0.073       NaN   16.0  nomissing        S      HCO+                                     CS 7-6/HCO+ 3-2 (Tb)
+20  0.490      0.428      0.645     0.383   16.0  nomissing        S  HCN/HCO+                  HCN/HCO+ 2-1 (Tb, component-integrated)
+21  0.249      0.234      0.260     0.063   16.0  nomissing        S  HCN/HCO+                  HCN/HCO+ 4-3 (Tb, component-integrated)
+22  0.406      0.384      0.529     0.209   16.0  nomissing        S  HCN/HCO+       HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)
+23  0.363      0.346      0.387       NaN   16.0  nomissing        S  HCN/HCO+  HCN/HCO+ 3-2 (Tb) from 1" templates, same aperture sets
+24  0.340      0.211      0.702     0.160   11.0  nomissing   Bridge       HCN                                             3-2/2-1 (Tb)
+25  0.490      0.373      0.605     0.027   16.0  nomissing   Bridge       HCN                                             4-3/3-2 (Tb)
+26  1.255      0.964      1.699     0.259   16.0  nomissing   Bridge       HCN                           3-2(Xb4f)/3-2(Xb4d) (recovery)
+27  1.109      0.402      2.842     0.786    8.0  nomissing   Bridge      HCO+                                             3-2/2-1 (Tb)
+28  0.599      0.476      0.904     0.037   16.0  nomissing   Bridge      HCO+                                             4-3/3-2 (Tb)
+29  1.297      0.988      2.177     0.243   16.0  nomissing   Bridge      HCO+                           3-2(Xb4f)/3-2(Xb4d) (recovery)
+30  0.073      0.059      0.107       NaN   16.0  nomissing   Bridge       HCN                                      CS 7-6/HCN 3-2 (Tb)
+31  0.027      0.023      0.047       NaN   16.0  nomissing   Bridge      HCO+                                     CS 7-6/HCO+ 3-2 (Tb)
+32  1.763      1.033      3.676     1.572    8.0  nomissing   Bridge  HCN/HCO+                  HCN/HCO+ 2-1 (Tb, component-integrated)
+33  0.322      0.307      0.340     0.030   16.0  nomissing   Bridge  HCN/HCO+                  HCN/HCO+ 4-3 (Tb, component-integrated)
+34  0.392      0.362      0.443     0.113   16.0  nomissing   Bridge  HCN/HCO+       HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)
+35  0.438      0.420      0.457       NaN   16.0  nomissing   Bridge  HCN/HCO+  HCN/HCO+ 3-2 (Tb) from 1" templates, same aperture sets
+36  0.236      0.190      0.389     0.031   15.0  nomissing    Outer       HCN                                             3-2/2-1 (Tb)
+37  0.217      0.130      0.327     0.117   16.0  nomissing    Outer       HCN                                             4-3/3-2 (Tb)
+38  0.804      0.498      1.149     0.326   16.0  nomissing    Outer       HCN                           3-2(Xb4f)/3-2(Xb4d) (recovery)
+39  0.225      0.187      0.258     0.042   16.0  nomissing    Outer      HCO+                                             3-2/2-1 (Tb)
+40  0.484      0.425      0.535     0.051   16.0  nomissing    Outer      HCO+                                             4-3/3-2 (Tb)
+41  1.660      1.388      1.780     0.134   16.0  nomissing    Outer      HCO+                           3-2(Xb4f)/3-2(Xb4d) (recovery)
+42  0.000      0.000      0.021       NaN   16.0  nomissing    Outer       HCN                                      CS 7-6/HCN 3-2 (Tb)
+43  0.000      0.000      0.000       NaN   16.0  nomissing    Outer      HCO+                                     CS 7-6/HCO+ 3-2 (Tb)
+44  0.334      0.159      0.422     0.103   16.0  nomissing    Outer  HCN/HCO+                  HCN/HCO+ 2-1 (Tb, component-integrated)
+45  0.129      0.086      0.209     0.095   16.0  nomissing    Outer  HCN/HCO+                  HCN/HCO+ 4-3 (Tb, component-integrated)
+46  0.150      0.116      0.232     0.078   16.0  nomissing    Outer  HCN/HCO+       HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)
+47  0.355      0.229      0.426       NaN   16.0  nomissing    Outer  HCN/HCO+  HCN/HCO+ 3-2 (Tb) from 1" templates, same aperture sets
+48    NaN        NaN        NaN       NaN    NaN  nomissing  diffuse       HCN                                             3-2/2-1 (Tb)
+49    NaN        NaN        NaN       NaN    NaN  nomissing  diffuse       HCN                                             4-3/3-2 (Tb)
+50    NaN        NaN        NaN       NaN    NaN  nomissing  diffuse       HCN                           3-2(Xb4f)/3-2(Xb4d) (recovery)
+51    NaN        NaN        NaN       NaN    NaN  nomissing  diffuse      HCO+                                             3-2/2-1 (Tb)
+52    NaN        NaN        NaN       NaN    NaN  nomissing  diffuse      HCO+                                             4-3/3-2 (Tb)
+53    NaN        NaN        NaN       NaN    NaN  nomissing  diffuse      HCO+                           3-2(Xb4f)/3-2(Xb4d) (recovery)
+54  0.000      0.000      0.000       NaN   16.0  nomissing  diffuse       HCN                                      CS 7-6/HCN 3-2 (Tb)
+55  0.000      0.000      0.000       NaN   16.0  nomissing  diffuse      HCO+                                     CS 7-6/HCO+ 3-2 (Tb)
+56    NaN        NaN        NaN       NaN    NaN  nomissing  diffuse  HCN/HCO+                  HCN/HCO+ 2-1 (Tb, component-integrated)
+57    NaN        NaN        NaN       NaN    NaN  nomissing  diffuse  HCN/HCO+                  HCN/HCO+ 4-3 (Tb, component-integrated)
+58    NaN        NaN        NaN       NaN    NaN  nomissing  diffuse  HCN/HCO+       HCN/HCO+ 3-2 (via Xb4f) (Tb, component-integrated)
+59  0.865      0.634      1.282       NaN   16.0  nomissing  diffuse  HCN/HCO+  HCN/HCO+ 3-2 (Tb) from 1" templates, same aperture sets
+                              quantity              model  median   p16    p84    min    max   n
+0  (HCN/HCO+ 2-1)_N / (HCN/HCO+ 2-1)_S          nomissing   1.431  1.13  1.527  0.385  1.770  16
+1  (HCN/HCO+ 2-1)_N / (HCN/HCO+ 2-1)_S  +missing-template   1.431  1.13  1.527  0.385  1.770  16
+2  (HCN/HCO+ 4-3)_N / (HCN/HCO+ 4-3)_S          nomissing   1.904  1.82  2.010  1.730  2.194  16
+    value  spread_lo  spread_hi  boot_err  n_var    comp species                 quantity
+0   0.395      0.387      0.401       NaN     16       N     HCN  4-3/3-2 [Xb4f 3-2] (Tb)
+1   0.350      0.331      0.369       NaN     16       N     HCN      3-2 [Xb4f]/2-1 (Tb)
+2   0.482      0.473      0.488       NaN     16       N    HCO+  4-3/3-2 [Xb4f 3-2] (Tb)
+3   0.428      0.405      0.439       NaN     16       N    HCO+      3-2 [Xb4f]/2-1 (Tb)
+4   0.268      0.252      0.274       NaN     16       S     HCN  4-3/3-2 [Xb4f 3-2] (Tb)
+5   0.333      0.230      0.585       NaN     16       S     HCN      3-2 [Xb4f]/2-1 (Tb)
+6   0.442      0.407      0.536       NaN     16       S    HCO+  4-3/3-2 [Xb4f 3-2] (Tb)
+7   0.401      0.366      0.562       NaN     16       S    HCO+      3-2 [Xb4f]/2-1 (Tb)
+8   0.363      0.343      0.412       NaN     16  Bridge     HCN  4-3/3-2 [Xb4f 3-2] (Tb)
+9   0.452      0.323      0.697       NaN     11  Bridge     HCN      3-2 [Xb4f]/2-1 (Tb)
+10  0.464      0.420      0.504       NaN     16  Bridge    HCO+  4-3/3-2 [Xb4f 3-2] (Tb)
+11  2.054      0.858      3.836       NaN      8  Bridge    HCO+      3-2 [Xb4f]/2-1 (Tb)
+12  0.280      0.208      0.327       NaN     16   Outer     HCN  4-3/3-2 [Xb4f 3-2] (Tb)
+13  0.190      0.152      0.268       NaN     15   Outer     HCN      3-2 [Xb4f]/2-1 (Tb)
+14  0.299      0.288      0.310       NaN     16   Outer    HCO+  4-3/3-2 [Xb4f 3-2] (Tb)
+15  0.339      0.328      0.366       NaN     16   Outer    HCO+      3-2 [Xb4f]/2-1 (Tb)
+        line  true_NS_flux_ratio  f_amp  rec_median  rec_p16  rec_p84   n
+0    HCN 2-1               2.662   1.00       2.507    2.435    2.607  28
+1    HCN 2-1               3.328   1.25       3.095    2.995    3.242  28
+2    HCN 2-1               3.993   1.50       3.661    3.544    3.864  28
+3    HCN 2-1               5.324   2.00       4.742    4.596    5.058  28
+4    HCN 2-1               7.986   3.00       6.766    6.535    7.286  28
+5   HCO+ 2-1               1.425   1.00       2.994    2.874    3.304  36
+6   HCO+ 2-1               1.781   1.25       4.091    3.868    4.600  36
+7   HCO+ 2-1               2.137   1.50       5.309    4.951    6.071  36
+8   HCO+ 2-1               2.850   2.00       8.064    7.363    9.631  36
+9   HCO+ 2-1               4.275   3.00      14.898   13.106   19.821  36
+10   HCN 4-3               2.661   1.00       3.826    3.710    4.104  20
+11   HCN 4-3               3.327   1.25       4.850    4.645    5.234  20
+12   HCN 4-3               3.992   1.50       5.891    5.581    6.392  20
+13   HCN 4-3               5.323   2.00       8.012    7.454    8.803  20
+14   HCN 4-3               7.984   3.00      12.323   11.197   13.939  20
+15  HCO+ 4-3               1.425   1.00       2.193    2.099    2.301   8
+16  HCO+ 4-3               1.781   1.25       2.817    2.677    2.966   8
+17  HCO+ 4-3               2.137   1.50       3.460    3.268    3.654   8
+18  HCO+ 4-3               2.849   2.00       4.799    4.480    5.092   8
+19  HCO+ 4-3               4.274   3.00       7.662    7.010    8.195   8
+20    CS 7-6               1.425   1.00       2.244    1.737    2.421   8
+21    CS 7-6               1.781   1.25       2.841    2.180    3.131   8
+22    CS 7-6               2.137   1.50       3.446    2.619    3.871   8
+23    CS 7-6               2.849   2.00       4.686    3.489    5.443   8
+24    CS 7-6               4.274   3.00       7.279    5.196    8.945   8
+     J  injected_f_per_species  HCN_rec_over_true  HCO_rec_over_true  contrast_bias_factor
+0  2-1                     1.0              0.942              2.101                 0.448
+1  2-1                     1.5              0.917              2.484                 0.369
+2  2-1                     2.0              0.891              2.829                 0.315
+3  4-3                     1.0              1.437              1.540                 0.934
+4  4-3                     1.5              1.476              1.619                 0.911
+5  4-3                     2.0              1.505              1.684                 0.894

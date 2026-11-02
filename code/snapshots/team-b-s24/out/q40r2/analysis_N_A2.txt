@@ -1,0 +1,86 @@
+A. ratio-only, default band scales 10%/15%: obs R32/10=0.277 (frac err obs 0.21, total 0.30); chi2min 0.00; min chi2 by branch (N13 free): cold(Tk<=30) 0.00, mid 0.00, hot 0.00
+   restricted to logN13 13.5-17: cold 0.00, mid 0.00, hot 0.00
+   Tk=10: min chi2 over n,N13 = 0.00
+   Tk=20: min chi2 over n,N13 = 0.00
+   Tk=29: min chi2 over n,N13 = 0.00
+   Tk=52: min chi2 over n,N13 = 0.00
+   Tk=104: min chi2 over n,N13 = 0.00
+   Tk=148: min chi2 over n,N13 = 0.00
+   Tk=300: min chi2 over n,N13 = 0.00
+A. ratio-only, wide 20%/25%: obs R32/10=0.277 (frac err obs 0.21, total 0.40); chi2min 0.00; min chi2 by branch (N13 free): cold(Tk<=30) 0.00, mid 0.00, hot 0.00
+   restricted to logN13 13.5-17: cold 0.00, mid 0.00, hot 0.00
+   Tk=10: min chi2 over n,N13 = 0.00
+   Tk=20: min chi2 over n,N13 = 0.00
+   Tk=29: min chi2 over n,N13 = 0.00
+   Tk=52: min chi2 over n,N13 = 0.00
+   Tk=104: min chi2 over n,N13 = 0.00
+   Tk=148: min chi2 over n,N13 = 0.00
+   Tk=300: min chi2 over n,N13 = 0.00
+
+B. per-datum decomposition, position N, variant A2
+ band-scale prior (0.1, 0.15), X=25
+  cold Tk<=30: Tk=29 logn=5.4 chi2=45.23 = prior(band/eta) 2.77 + 12C HCN 3.41 HCO+ 17.13 CS 4.55 + 13C 11.42  (band offsets ln: -2.15,-2.45); H13CO+ [1-0 obs 9.40 mod 11.30 chi2 1.17] [3-2 obs 2.60 mod 4.99 chi2 10.25]
+  mid 30<Tk<100: Tk=93 logn=4.9 chi2=22.46 = prior(band/eta) 0.69 + 12C HCN 2.62 HCO+ 8.43 CS 2.12 + 13C 4.73  (band offsets ln: -1.80,-1.95); H13CO+ [1-0 obs 9.40 mod 10.62 chi2 0.51] [3-2 obs 2.60 mod 4.01 chi2 4.22]
+  hot Tk>=100: Tk=300 logn=4.5 chi2=9.40 = prior(band/eta) 0.31 + 12C HCN 1.69 HCO+ 2.08 CS 1.05 + 13C 2.14  (band offsets ln: -1.20,-1.10); H13CO+ [1-0 obs 9.40 mod 10.01 chi2 0.13] [3-2 obs 2.60 mod 3.53 chi2 2.01]
+  Tk<=150: Tk=148 logn=4.7 chi2=14.91 = prior(band/eta) 0.08 + 12C HCN 1.86 HCO+ 6.30 CS 1.70 + 13C 2.45  (band offsets ln: -1.40,-1.35); H13CO+ [1-0 obs 9.40 mod 9.73 chi2 0.04] [3-2 obs 2.60 mod 3.63 chi2 2.41]
+ band-scale prior (0.1, 0.15), X=40
+  cold Tk<=30: Tk=29 logn=5.4 chi2=28.91 = prior(band/eta) 3.77 + 12C HCN 1.08 HCO+ 11.00 CS 4.75 + 13C 3.61  (band offsets ln: -2.35,-2.70); H13CO+ [1-0 obs 9.40 mod 9.25 chi2 0.01] [3-2 obs 2.60 mod 3.88 chi2 3.60]
+  mid 30<Tk<100: Tk=93 logn=4.9 chi2=16.79 = prior(band/eta) 1.92 + 12C HCN 0.86 HCO+ 6.67 CS 3.97 + 13C 0.99  (band offsets ln: -2.10,-2.35); H13CO+ [1-0 obs 9.40 mod 7.87 chi2 0.97] [3-2 obs 2.60 mod 2.68 chi2 0.02]
+  hot Tk>=100: Tk=300 logn=4.6 chi2=7.83 = prior(band/eta) 0.69 + 12C HCN 0.03 HCO+ 4.40 CS 0.50 + 13C 1.35  (band offsets ln: -1.75,-1.90); H13CO+ [1-0 obs 9.40 mod 7.64 chi2 1.31] [3-2 obs 2.60 mod 2.48 chi2 0.04]
+  Tk<=150: Tk=148 logn=4.8 chi2=13.36 = prior(band/eta) 2.77 + 12C HCN 0.22 HCO+ 4.83 CS 2.82 + 13C 0.51  (band offsets ln: -2.15,-2.45); H13CO+ [1-0 obs 9.40 mod 8.29 chi2 0.50] [3-2 obs 2.60 mod 2.67 chi2 0.01]
+ band-scale prior (0.1, 0.15), X=63
+  cold Tk<=30: Tk=29 logn=5.5 chi2=22.00 = prior(band/eta) 9.31 + 12C HCN 0.67 HCO+ 3.43 CS 1.27 + 13C 2.71  (band offsets ln: -2.65,-3.20); H13CO+ [1-0 obs 9.40 mod 8.20 chi2 0.58] [3-2 obs 2.60 mod 3.56 chi2 2.13]
+  mid 30<Tk<100: Tk=93 logn=5.0 chi2=16.94 = prior(band/eta) 9.31 + 12C HCN 0.46 HCO+ 2.04 CS 1.12 + 13C 1.39  (band offsets ln: -2.80,-3.35); H13CO+ [1-0 obs 9.40 mod 7.64 chi2 1.31] [3-2 obs 2.60 mod 2.43 chi2 0.08]
+  hot Tk>=100: Tk=300 logn=4.7 chi2=14.82 = prior(band/eta) 9.31 + 12C HCN 1.18 HCO+ 1.07 CS 0.45 + 13C 1.52  (band offsets ln: -2.75,-3.30); H13CO+ [1-0 obs 9.40 mod 7.91 chi2 0.92] [3-2 obs 2.60 mod 2.14 chi2 0.60]
+  Tk<=150: Tk=132 logn=4.9 chi2=16.42 = prior(band/eta) 9.31 + 12C HCN 0.95 HCO+ 2.10 CS 0.97 + 13C 0.78  (band offsets ln: -2.85,-3.40); H13CO+ [1-0 obs 9.40 mod 8.08 chi2 0.72] [3-2 obs 2.60 mod 2.45 chi2 0.06]
+ band-scale prior (0.1, 0.15), X=89
+  cold Tk<=30: Tk=23 logn=5.7 chi2=20.84 = prior(band/eta) 11.08 + 12C HCN 0.44 HCO+ 0.80 CS 0.72 + 13C 4.32  (band offsets ln: -2.55,-3.15); H13CO+ [1-0 obs 9.40 mod 7.58 chi2 1.40] [3-2 obs 2.60 mod 3.74 chi2 2.92]
+  mid 30<Tk<100: Tk=58 logn=5.2 chi2=21.26 = prior(band/eta) 13.00 + 12C HCN 0.26 HCO+ 1.54 CS 0.68 + 13C 3.25  (band offsets ln: -2.90,-3.55); H13CO+ [1-0 obs 9.40 mod 6.78 chi2 3.05] [3-2 obs 2.60 mod 2.33 chi2 0.20]
+  hot Tk>=100: Tk=188 logn=4.7 chi2=19.56 = prior(band/eta) 7.69 + 12C HCN 2.53 HCO+ 3.01 CS 3.09 + 13C 2.01  (band offsets ln: -3.05,-3.55); H13CO+ [1-0 obs 9.40 mod 7.97 chi2 0.84] [3-2 obs 2.60 mod 1.96 chi2 1.17]
+  Tk<=150: Tk=23 logn=5.7 chi2=20.84 = prior(band/eta) 11.08 + 12C HCN 0.44 HCO+ 0.80 CS 0.72 + 13C 4.32  (band offsets ln: -2.55,-3.15); H13CO+ [1-0 obs 9.40 mod 7.58 chi2 1.40] [3-2 obs 2.60 mod 3.74 chi2 2.92]
+ band-scale prior (0.2, 0.25), X=25
+  cold Tk<=30: Tk=14 logn=7.1 chi2=36.83 = prior(band/eta) 12.90 + 12C HCN 0.11 HCO+ 1.24 CS 4.16 + 13C 17.24  (band offsets ln: -1.10,-2.25); H13CO+ [1-0 obs 9.40 mod 9.51 chi2 0.00] [3-2 obs 2.60 mod 5.99 chi2 17.24]
+  mid 30<Tk<100: Tk=93 logn=4.9 chi2=21.99 = prior(band/eta) 0.22 + 12C HCN 2.62 HCO+ 8.43 CS 2.12 + 13C 4.73  (band offsets ln: -1.80,-1.95); H13CO+ [1-0 obs 9.40 mod 10.62 chi2 0.51] [3-2 obs 2.60 mod 4.01 chi2 4.22]
+  hot Tk>=100: Tk=300 logn=4.4 chi2=8.92 = prior(band/eta) 0.61 + 12C HCN 1.33 HCO+ 1.03 CS 1.74 + 13C 2.41  (band offsets ln: -1.00,-0.75); H13CO+ [1-0 obs 9.40 mod 10.14 chi2 0.20] [3-2 obs 2.60 mod 3.58 chi2 2.21]
+  Tk<=150: Tk=148 logn=4.7 chi2=14.86 = prior(band/eta) 0.02 + 12C HCN 1.86 HCO+ 6.30 CS 1.70 + 13C 2.45  (band offsets ln: -1.40,-1.35); H13CO+ [1-0 obs 9.40 mod 9.73 chi2 0.04] [3-2 obs 2.60 mod 3.63 chi2 2.41]
+ band-scale prior (0.2, 0.25), X=40
+  cold Tk<=30: Tk=13 logn=7.0 chi2=23.54 = prior(band/eta) 7.05 + 12C HCN 0.33 HCO+ 1.59 CS 2.22 + 13C 12.07  (band offsets ln: -1.45,-2.30); H13CO+ [1-0 obs 9.40 mod 7.12 chi2 2.26] [3-2 obs 2.60 mod 4.92 chi2 9.81]
+  mid 30<Tk<100: Tk=93 logn=5.0 chi2=12.94 = prior(band/eta) 2.44 + 12C HCN 0.72 HCO+ 3.14 CS 1.61 + 13C 1.17  (band offsets ln: -2.55,-3.05); H13CO+ [1-0 obs 9.40 mod 9.81 chi2 0.06] [3-2 obs 2.60 mod 3.28 chi2 1.11]
+  hot Tk>=100: Tk=300 logn=4.7 chi2=6.68 = prior(band/eta) 1.98 + 12C HCN 0.42 HCO+ 1.64 CS 0.49 + 13C 0.06  (band offsets ln: -2.25,-2.70); H13CO+ [1-0 obs 9.40 mod 9.36 chi2 0.00] [3-2 obs 2.60 mod 2.75 chi2 0.06]
+  Tk<=150: Tk=148 logn=4.9 chi2=10.78 = prior(band/eta) 2.44 + 12C HCN 0.16 HCO+ 3.63 CS 0.16 + 13C 0.95  (band offsets ln: -2.55,-3.05); H13CO+ [1-0 obs 9.40 mod 9.76 chi2 0.05] [3-2 obs 2.60 mod 3.21 chi2 0.90]
+ band-scale prior (0.2, 0.25), X=63
+  cold Tk<=30: Tk=29 logn=5.5 chi2=15.48 = prior(band/eta) 3.51 + 12C HCN 0.39 HCO+ 1.03 CS 3.81 + 13C 2.36  (band offsets ln: -2.60,-3.20); H13CO+ [1-0 obs 9.40 mod 8.62 chi2 0.24] [3-2 obs 2.60 mod 3.56 chi2 2.13]
+  mid 30<Tk<100: Tk=83 logn=5.1 chi2=9.52 = prior(band/eta) 4.78 + 12C HCN 0.19 HCO+ 0.06 CS 0.64 + 13C 0.37  (band offsets ln: -2.90,-3.60); H13CO+ [1-0 obs 9.40 mod 8.52 chi2 0.31] [3-2 obs 2.60 mod 2.75 chi2 0.06]
+  hot Tk>=100: Tk=237 logn=4.8 chi2=7.47 = prior(band/eta) 4.12 + 12C HCN 0.59 HCO+ 0.51 CS 0.18 + 13C 0.03  (band offsets ln: -2.95,-3.60); H13CO+ [1-0 obs 9.40 mod 9.21 chi2 0.01] [3-2 obs 2.60 mod 2.52 chi2 0.02]
+  Tk<=150: Tk=148 logn=4.9 chi2=8.54 = prior(band/eta) 4.12 + 12C HCN 0.03 HCO+ 0.18 CS 1.16 + 13C 0.34  (band offsets ln: -2.90,-3.55); H13CO+ [1-0 obs 9.40 mod 8.56 chi2 0.28] [3-2 obs 2.60 mod 2.45 chi2 0.06]
+ band-scale prior (0.2, 0.25), X=89
+  cold Tk<=30: Tk=23 logn=5.7 chi2=13.28 = prior(band/eta) 3.51 + 12C HCN 0.44 HCO+ 0.80 CS 0.72 + 13C 4.32  (band offsets ln: -2.55,-3.15); H13CO+ [1-0 obs 9.40 mod 7.58 chi2 1.40] [3-2 obs 2.60 mod 3.74 chi2 2.92]
+  mid 30<Tk<100: Tk=41 logn=5.4 chi2=11.55 = prior(band/eta) 4.78 + 12C HCN 0.53 HCO+ 0.21 CS 0.24 + 13C 2.35  (band offsets ln: -2.90,-3.60); H13CO+ [1-0 obs 9.40 mod 7.19 chi2 2.11] [3-2 obs 2.60 mod 2.90 chi2 0.24]
+  hot Tk>=100: Tk=237 logn=4.8 chi2=11.92 = prior(band/eta) 4.12 + 12C HCN 0.59 HCO+ 0.51 CS 0.18 + 13C 5.78  (band offsets ln: -2.95,-3.60); H13CO+ [1-0 obs 9.40 mod 6.50 chi2 3.80] [3-2 obs 2.60 mod 1.78 chi2 1.98]
+  Tk<=150: Tk=41 logn=5.4 chi2=11.55 = prior(band/eta) 4.78 + 12C HCN 0.53 HCO+ 0.21 CS 0.24 + 13C 2.35  (band offsets ln: -2.90,-3.60); H13CO+ [1-0 obs 9.40 mod 7.19 chi2 2.11] [3-2 obs 2.60 mod 2.90 chi2 0.24]
+
+C. X marginalisation, position N, variant A2
+ band-scale prior (0.1, 0.15): lnZ(X) = 22:-1.0 25:0.8 28:1.9 32:2.3 35:2.2 40:1.8 45:1.1 50:0.3 56:-0.4 63:-1.1 71:-1.8 79:-2.6 89:-3.3 100:-3.5
+   X prior LN(X0=45,s=0.2dex): P(Tk<=30)=0.001 P(30-100)=0.011 P(>=100)=0.989 P(<=150)=0.054; posterior X median 33; BF(hot>=100 : cold<=30)=1218.8 (prior-mass-corrected)
+   X prior LN(X0=60,s=0.2dex): P(Tk<=30)=0.002 P(30-100)=0.017 P(>=100)=0.981 P(<=150)=0.069; posterior X median 35; BF(hot>=100 : cold<=30)=418.5 (prior-mass-corrected)
+   X prior LN(X0=40,s=0.15dex): P(Tk<=30)=0.000 P(30-100)=0.008 P(>=100)=0.991 P(<=150)=0.049; posterior X median 33; BF(hot>=100 : cold<=30)=3660.4 (prior-mass-corrected)
+   X prior flat 22-100 (logX): P(Tk<=30)=0.002 P(30-100)=0.010 P(>=100)=0.988 P(<=150)=0.051; posterior X median 32; BF(hot>=100 : cold<=30)=615.1 (prior-mass-corrected)
+   profile chi2(Tk)-min at X=45 (cell chi2): 10K:26.5 14K:27.0 20K:21.4 29K:16.8 41K:12.5 58K:9.6 83K:7.5 117K:6.0 167K:3.9 237K:1.5
+   profile chi2(Tk)-min at X=63 (cell chi2): 10K:15.8 14K:12.2 20K:9.1 29K:7.2 41K:5.1 58K:4.0 83K:2.6 117K:2.2 167K:1.5 237K:0.5
+   cap Tk<=30: best chi2 over X = 20.37 (dchi2 vs uncapped 13.95)
+   cap Tk<=50: best chi2 over X = 19.33 (dchi2 vs uncapped 12.91)
+   cap Tk<=100: best chi2 over X = 16.35 (dchi2 vs uncapped 9.93)
+   cap Tk<=150: best chi2 over X = 12.58 (dchi2 vs uncapped 6.16)
+   cap Tk<=300: best chi2 over X = 7.09 (dchi2 vs uncapped 0.68)
+ band-scale prior (0.2, 0.25): lnZ(X) = 22:-0.1 25:1.5 28:2.4 32:2.9 35:2.9 40:2.7 45:2.6 50:2.6 56:2.5 63:2.2 71:1.7 79:1.1 89:0.5 100:0.2
+   X prior LN(X0=45,s=0.2dex): P(Tk<=30)=0.008 P(30-100)=0.068 P(>=100)=0.924 P(<=150)=0.174; posterior X median 39; BF(hot>=100 : cold<=30)=116.4 (prior-mass-corrected)
+   X prior LN(X0=60,s=0.2dex): P(Tk<=30)=0.018 P(30-100)=0.102 P(>=100)=0.880 P(<=150)=0.237; posterior X median 45; BF(hot>=100 : cold<=30)=50.2 (prior-mass-corrected)
+   X prior LN(X0=40,s=0.15dex): P(Tk<=30)=0.003 P(30-100)=0.049 P(>=100)=0.948 P(<=150)=0.139; posterior X median 37; BF(hot>=100 : cold<=30)=320.2 (prior-mass-corrected)
+   X prior flat 22-100 (logX): P(Tk<=30)=0.016 P(30-100)=0.076 P(>=100)=0.908 P(<=150)=0.186; posterior X median 39; BF(hot>=100 : cold<=30)=56.1 (prior-mass-corrected)
+   profile chi2(Tk)-min at X=45 (cell chi2): 10K:25.2 14K:15.8 20K:20.0 29K:14.5 41K:10.2 58K:7.5 83K:5.8 117K:4.7 167K:3.0 237K:1.3
+   profile chi2(Tk)-min at X=63 (cell chi2): 10K:19.6 14K:13.5 20K:11.0 29K:8.0 41K:5.3 58K:3.0 83K:2.1 117K:1.6 167K:1.3 237K:0.0
+   cap Tk<=30: best chi2 over X = 12.79 (dchi2 vs uncapped 6.58)
+   cap Tk<=50: best chi2 over X = 11.43 (dchi2 vs uncapped 5.22)
+   cap Tk<=100: best chi2 over X = 9.52 (dchi2 vs uncapped 3.32)
+   cap Tk<=150: best chi2 over X = 8.54 (dchi2 vs uncapped 2.33)
+   cap Tk<=300: best chi2 over X = 6.96 (dchi2 vs uncapped 0.75)

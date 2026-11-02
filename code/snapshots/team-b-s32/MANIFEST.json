@@ -1,0 +1,14 @@
+{
+ "team": "team-b",
+ "item": "Q59",
+ "files": [
+  "scripts/s350_q59_isotopologue_budget.py",
+  "scripts/s351_q59_inference.py",
+  "scripts/s352_update_report_q59.py",
+  "out/q59/s350.json",
+  "out/q59/s350.txt",
+  "out/q59/s351.json",
+  "out/q59/s351.txt",
+  "TEAM_REPORT.json"
+ ]
+}

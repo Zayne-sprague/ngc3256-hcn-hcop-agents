@@ -1,0 +1,76 @@
+FIT Xb4d@1.05 HCN blue(-405..-150): peak 0.425+-0.036 Jy/b km/s (11.7 sigma) at dE=-0.10+-0.04" dN=-1.88+-0.11" from S; FWHM 2.30x1.00" (convolved); integrated 0.888+-0.092 Jy km/s
+FIT Xb4d@1.05 HCN red(150..405): peak 0.212+-0.037 Jy/b km/s (5.8 sigma) at dE=+0.19+-0.14" dN=+3.53+-0.36" from S; FWHM 4.53x1.19" (convolved); integrated 1.034+-0.256 Jy km/s
+FIT Xb4d@1.05 HCN redC(180..320): peak 0.159+-0.022 Jy/b km/s (7.3 sigma) at dE=+0.12+-0.08" dN=+3.40+-0.20" from S; FWHM 3.57x1.07" (convolved); integrated 0.550+-0.099 Jy km/s
+FIT Xb4d@1.05 HCO+ blue(-405..-150): peak 0.293+-0.055 Jy/b km/s (5.3 sigma) at dE=-0.31+-0.12" dN=-1.79+-0.45" from S; FWHM 3.28x0.94" (convolved); integrated 0.818+-0.274 Jy km/s
+FIT Xb4d@1.05 HCO+ red(150..405): peak 0.139+-0.037 Jy/b km/s (3.7 sigma) at dE=+0.09+-0.18" dN=+3.78+-1.04" from S; FWHM 4.90x1.21" (convolved); integrated 0.746+-0.299 Jy km/s
+FIT Xb4d@1.05 HCO+ redC(180..320): peak 0.113+-0.026 Jy/b km/s (4.3 sigma) at dE=+0.05+-0.19" dN=+3.54+-0.36" from S; FWHM 3.39x1.33" (convolved); integrated 0.463+-0.120 Jy km/s
+FIT Xb4b@1.05 HCN blue(-405..-150): peak 0.249+-0.050 Jy/b km/s (4.9 sigma) at dE=-0.37+-0.17" dN=-2.62+-0.50" from S; FWHM 3.38x1.13" (convolved); integrated 0.865+-0.459 Jy km/s
+FIT Xb4b@1.05 HCN red(150..405): peak 0.153+-0.036 Jy/b km/s (4.3 sigma) at dE=+0.24+-0.43" dN=+4.45+-1.44" from S; FWHM 7.69x1.01" (convolved); integrated 1.081+-0.407 Jy km/s
+FIT Xb4b@1.05 HCN redC(180..320): peak 0.148+-0.026 Jy/b km/s (5.7 sigma) at dE=+0.15+-0.08" dN=+3.57+-0.59" from S; FWHM 2.88x1.02" (convolved); integrated 0.393+-0.191 Jy km/s
+FIT Xb4b@1.05 HCO+ blue(-405..-150): peak 0.269+-0.058 Jy/b km/s (4.7 sigma) at dE=-0.28+-0.38" dN=-1.71+-0.37" from S; FWHM 3.07x1.00" (convolved); integrated 0.751+-0.318 Jy km/s
+FIT Xb4b@1.05 HCO+ red(150..405): peak 0.132+-0.024 Jy/b km/s (5.4 sigma) at dE=-0.08+-0.36" dN=+3.83+-0.85" from S; FWHM 4.85x1.23" (convolved); integrated 0.712+-0.266 Jy km/s
+FIT Xb4b@1.05 HCO+ redC(180..320): peak 0.125+-0.022 Jy/b km/s (5.6 sigma) at dE=-0.23+-0.14" dN=+3.38+-0.34" from S; FWHM 2.56x1.30" (convolved); integrated 0.375+-0.083 Jy km/s
+AP Xb4d@1.05 HCN blue(-405..-150) Slobe r=1.0": +0.518+-0.025 Jy km/s (+20.5 sigma, 13 random apertures)
+AP Xb4d@1.05 HCN blue(-405..-150) Slobe_r1.5 r=1.5": +0.728+-0.041 Jy km/s (+17.9 sigma, 8 random apertures)
+AP Xb4d@1.05 HCN blue(-405..-150) Red r=1.0": -0.033+-0.036 Jy km/s (-0.9 sigma, 13 random apertures)
+AP Xb4d@1.05 HCN red(150..405) Slobe r=1.0": -0.034+-0.031 Jy km/s (-1.1 sigma, 9 random apertures)
+AP Xb4d@1.05 HCN red(150..405) Slobe_r1.5 r=1.5": -0.028+-0.009 Jy km/s (-3.0 sigma, 2 random apertures)
+AP Xb4d@1.05 HCN red(150..405) Red r=1.0": +0.333+-0.038 Jy km/s (+8.7 sigma, 7 random apertures)
+AP Xb4d@1.05 HCN redC(180..320) Slobe r=1.0": -0.004+-0.034 Jy km/s (-0.1 sigma, 10 random apertures)
+AP Xb4d@1.05 HCN redC(180..320) Slobe_r1.5 r=1.5": -0.001+-0.063 Jy km/s (-0.0 sigma, 2 random apertures)
+AP Xb4d@1.05 HCN redC(180..320) Red r=1.0": +0.240+-0.025 Jy km/s (+9.6 sigma, 10 random apertures)
+AP Xb4d@1.05 HCN core(-205..95) Slobe r=1.0": +0.805+-0.110 Jy km/s (+7.3 sigma, 10 random apertures)
+AP Xb4d@1.05 HCN core(-205..95) Slobe_r1.5 r=1.5": +1.759+-0.112 Jy km/s (+15.7 sigma, 4 random apertures)
+AP Xb4d@1.05 HCN core(-205..95) Red r=1.0": +2.866+-0.044 Jy km/s (+65.0 sigma, 7 random apertures)
+AP Xb4d@1.05 HCN core(-205..95) S r=1.0": +3.022+-0.096 Jy km/s (+31.5 sigma, 12 random apertures)
+AP Xb4d@1.05 HCN core(-205..95) N r=1.0": +10.002+-0.089 Jy km/s (+111.8 sigma, 10 random apertures)
+AP Xb4d@1.05 HCO+ blue(-405..-150) Slobe r=1.0": +0.298+-0.042 Jy km/s (+7.1 sigma, 13 random apertures)
+AP Xb4d@1.05 HCO+ blue(-405..-150) Slobe_r1.5 r=1.5": +0.444+-0.026 Jy km/s (+16.8 sigma, 4 random apertures)
+AP Xb4d@1.05 HCO+ blue(-405..-150) Red r=1.0": +0.000+-0.047 Jy km/s (+0.0 sigma, 9 random apertures)
+AP Xb4d@1.05 HCO+ red(150..405) Slobe r=1.0": -0.072+-0.029 Jy km/s (-2.5 sigma, 11 random apertures)
+AP Xb4d@1.05 HCO+ red(150..405) Slobe_r1.5 r=1.5": -0.124+-0.049 Jy km/s (-2.6 sigma, 5 random apertures)
+AP Xb4d@1.05 HCO+ red(150..405) Red r=1.0": +0.237+-0.034 Jy km/s (+7.0 sigma, 12 random apertures)
+AP Xb4d@1.05 HCO+ redC(180..320) Slobe r=1.0": -0.029+-0.033 Jy km/s (-0.9 sigma, 13 random apertures)
+AP Xb4d@1.05 HCO+ redC(180..320) Slobe_r1.5 r=1.5": -0.069+-0.034 Jy km/s (-2.0 sigma, 4 random apertures)
+AP Xb4d@1.05 HCO+ redC(180..320) Red r=1.0": +0.195+-0.037 Jy km/s (+5.3 sigma, 11 random apertures)
+AP Xb4d@1.05 HCO+ core(-205..95) Slobe r=1.0": +1.498+-0.148 Jy km/s (+10.1 sigma, 13 random apertures)
+AP Xb4d@1.05 HCO+ core(-205..95) Slobe_r1.5 r=1.5": +3.788+-0.085 Jy km/s (+44.4 sigma, 4 random apertures)
+AP Xb4d@1.05 HCO+ core(-205..95) Red r=1.0": +6.160+-0.155 Jy km/s (+39.7 sigma, 14 random apertures)
+AP Xb4d@1.05 HCO+ core(-205..95) S r=1.0": +8.195+-0.142 Jy km/s (+57.8 sigma, 12 random apertures)
+AP Xb4d@1.05 HCO+ core(-205..95) N r=1.0": +13.769+-0.192 Jy km/s (+71.9 sigma, 9 random apertures)
+AP Xb4b@1.05 HCN blue(-405..-150) Slobe r=1.0": +0.296+-0.083 Jy km/s (+3.6 sigma, 38 random apertures)
+AP Xb4b@1.05 HCN blue(-405..-150) Slobe_r1.5 r=1.5": +0.382+-0.099 Jy km/s (+3.8 sigma, 25 random apertures)
+AP Xb4b@1.05 HCN blue(-405..-150) Red r=1.0": +0.042+-0.072 Jy km/s (+0.6 sigma, 40 random apertures)
+AP Xb4b@1.05 HCN red(150..405) Slobe r=1.0": +0.012+-0.051 Jy km/s (+0.2 sigma, 37 random apertures)
+AP Xb4b@1.05 HCN red(150..405) Slobe_r1.5 r=1.5": -0.025+-0.056 Jy km/s (-0.4 sigma, 17 random apertures)
+AP Xb4b@1.05 HCN red(150..405) Red r=1.0": +0.238+-0.053 Jy km/s (+4.5 sigma, 38 random apertures)
+AP Xb4b@1.05 HCN redC(180..320) Slobe r=1.0": +0.041+-0.047 Jy km/s (+0.9 sigma, 39 random apertures)
+AP Xb4b@1.05 HCN redC(180..320) Slobe_r1.5 r=1.5": +0.026+-0.071 Jy km/s (+0.4 sigma, 21 random apertures)
+AP Xb4b@1.05 HCN redC(180..320) Red r=1.0": +0.217+-0.044 Jy km/s (+5.0 sigma, 39 random apertures)
+AP Xb4b@1.05 HCN core(-205..95) Slobe r=1.0": +0.946+-0.300 Jy km/s (+3.2 sigma, 42 random apertures)
+AP Xb4b@1.05 HCN core(-205..95) Slobe_r1.5 r=1.5": +2.150+-0.364 Jy km/s (+5.9 sigma, 33 random apertures)
+AP Xb4b@1.05 HCN core(-205..95) Red r=1.0": +2.717+-0.204 Jy km/s (+13.3 sigma, 40 random apertures)
+AP Xb4b@1.05 HCN core(-205..95) S r=1.0": +2.757+-0.303 Jy km/s (+9.1 sigma, 43 random apertures)
+AP Xb4b@1.05 HCN core(-205..95) N r=1.0": +9.762+-0.261 Jy km/s (+37.3 sigma, 48 random apertures)
+AP Xb4b@1.05 HCO+ blue(-405..-150) Slobe r=1.0": +0.319+-0.067 Jy km/s (+4.8 sigma, 40 random apertures)
+AP Xb4b@1.05 HCO+ blue(-405..-150) Slobe_r1.5 r=1.5": +0.487+-0.103 Jy km/s (+4.7 sigma, 20 random apertures)
+AP Xb4b@1.05 HCO+ blue(-405..-150) Red r=1.0": -0.039+-0.075 Jy km/s (-0.5 sigma, 44 random apertures)
+AP Xb4b@1.05 HCO+ red(150..405) Slobe r=1.0": -0.019+-0.058 Jy km/s (-0.3 sigma, 42 random apertures)
+AP Xb4b@1.05 HCO+ red(150..405) Slobe_r1.5 r=1.5": -0.016+-0.086 Jy km/s (-0.2 sigma, 20 random apertures)
+AP Xb4b@1.05 HCO+ red(150..405) Red r=1.0": +0.211+-0.059 Jy km/s (+3.6 sigma, 37 random apertures)
+AP Xb4b@1.05 HCO+ redC(180..320) Slobe r=1.0": -0.018+-0.035 Jy km/s (-0.5 sigma, 33 random apertures)
+AP Xb4b@1.05 HCO+ redC(180..320) Slobe_r1.5 r=1.5": -0.020+-0.052 Jy km/s (-0.4 sigma, 27 random apertures)
+AP Xb4b@1.05 HCO+ redC(180..320) Red r=1.0": +0.187+-0.044 Jy km/s (+4.3 sigma, 42 random apertures)
+AP Xb4b@1.05 HCO+ core(-205..95) Slobe r=1.0": +1.392+-0.448 Jy km/s (+3.1 sigma, 36 random apertures)
+AP Xb4b@1.05 HCO+ core(-205..95) Slobe_r1.5 r=1.5": +3.673+-0.921 Jy km/s (+4.0 sigma, 23 random apertures)
+AP Xb4b@1.05 HCO+ core(-205..95) Red r=1.0": +5.874+-0.470 Jy km/s (+12.5 sigma, 36 random apertures)
+AP Xb4b@1.05 HCO+ core(-205..95) S r=1.0": +7.570+-0.404 Jy km/s (+18.7 sigma, 37 random apertures)
+AP Xb4b@1.05 HCO+ core(-205..95) N r=1.0": +13.714+-0.341 Jy km/s (+40.3 sigma, 38 random apertures)
+EDGE Xb4d HCN Slobe r=1": contiguous blue emission >2.0 sigma (22 km/s bins, rms 0.86 mJy/ch) reaches v-VSYS = -349.197573131841 km/s
+EDGE Xb4d HCN Slobe r=1": contiguous blue emission >3.0 sigma (22 km/s bins, rms 0.86 mJy/ch) reaches v-VSYS = -349.197573131841 km/s
+MEANV Xb4d HCN Slobe r=1": flux-weighted mean velocity of the -500..-150 wing = -283 km/s; total flux -500..-150 = 0.587 Jy km/s
+EDGE Xb4d HCO+ Slobe r=1": contiguous blue emission >2.0 sigma (22 km/s bins, rms 0.98 mJy/ch) reaches v-VSYS = -267.7644220301654 km/s
+EDGE Xb4d HCO+ Slobe r=1": contiguous blue emission >3.0 sigma (22 km/s bins, rms 0.98 mJy/ch) reaches v-VSYS = -202.10319957460115 km/s
+MEANV Xb4d HCO+ Slobe r=1": flux-weighted mean velocity of the -500..-150 wing = -269 km/s; total flux -500..-150 = 0.346 Jy km/s
+KIN HCN Xb4d 1.05" slit 1" along PA185 (offset N of S; wing -420..-100): -4.00": F=-0.008+-0.020 v=-275 wing/tot=nan | -3.75": F=0.036+-0.020 v=-253 wing/tot=0.58 | -3.50": F=0.104+-0.020 v=-237 wing/tot=0.42 | -3.25": F=0.190+-0.020 v=-228 wing/tot=0.44 | -3.00": F=0.277+-0.020 v=-220 wing/tot=0.48 | -2.75": F=0.329+-0.020 v=-220 wing/tot=0.53 | -2.50": F=0.361+-0.020 v=-224 wing/tot=0.57 | -2.25": F=0.401+-0.020 v=-232 wing/tot=0.59 | -2.00": F=0.447+-0.020 v=-240 wing/tot=0.59 | -1.75": F=0.430+-0.020 v=-244 wing/tot=0.57 | -1.50": F=0.331+-0.020 v=-242 wing/tot=0.53 | -1.25": F=0.222+-0.020 v=-231 wing/tot=0.41 | -1.00": F=0.193+-0.020 v=-215 wing/tot=0.28 | -0.75": F=0.237+-0.020 v=-205 wing/tot=0.22 | -0.50": F=0.297+-0.020 v=-196 wing/tot=0.19 | -0.25": F=0.326+-0.020 v=-181 wing/tot=0.17 | +0.00": F=0.291+-0.020 v=-169 wing/tot=0.14
+KIN HCO+ Xb4d 1.05" slit 1" along PA185 (offset N of S; wing -420..-100): -4.00": F=0.029+-0.023 v=-247 wing/tot=nan | -3.75": F=0.045+-0.023 v=-225 wing/tot=11.35 | -3.50": F=0.094+-0.023 v=-213 wing/tot=0.59 | -3.25": F=0.176+-0.023 v=-201 wing/tot=0.46 | -3.00": F=0.235+-0.023 v=-192 wing/tot=0.42 | -2.75": F=0.280+-0.023 v=-192 wing/tot=0.39 | -2.50": F=0.321+-0.023 v=-197 wing/tot=0.38 | -2.25": F=0.339+-0.023 v=-200 wing/tot=0.38 | -2.00": F=0.375+-0.023 v=-200 wing/tot=0.39 | -1.75": F=0.344+-0.023 v=-192 wing/tot=0.37 | -1.50": F=0.302+-0.023 v=-187 wing/tot=0.32 | -1.25": F=0.259+-0.023 v=-183 wing/tot=0.24 | -1.00": F=0.258+-0.023 v=-179 wing/tot=0.16 | -0.75": F=0.321+-0.023 v=-166 wing/tot=0.13 | -0.50": F=0.486+-0.023 v=-155 wing/tot=0.13 | -0.25": F=0.656+-0.023 v=-150 wing/tot=0.13 | +0.00": F=0.731+-0.023 v=-146 wing/tot=0.14

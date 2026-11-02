@@ -1,0 +1,31 @@
+{
+ "team": "team-a",
+ "item": "Q11",
+ "files": [
+  "scripts/q11_beamdep.py",
+  "scripts/q11_disk32.py",
+  "scripts/q11_forward.py",
+  "scripts/q11_likeforlike.py",
+  "scripts/q11_matched_uv.py",
+  "scripts/q11_morph.py",
+  "scripts/q11_pb.py",
+  "scripts/q11_profile.py",
+  "scripts/q11_proxy.py",
+  "scripts/q11_proxy_fit.py",
+  "scripts/q11_radex_gradient.py",
+  "out/q11/q11_beamdep.log",
+  "out/q11/q11_disk32.json",
+  "out/q11/q11_disk32.log",
+  "out/q11/q11_forward.json",
+  "out/q11/q11_likeforlike.log",
+  "out/q11/q11_matched_uv.log",
+  "out/q11/q11_profile.json",
+  "out/q11/q11_profile.log",
+  "out/q11/q11_proxy.json",
+  "out/q11/q11_proxy.log",
+  "out/q11/q11_proxy_fit.json",
+  "out/q11/q11_proxy_fit.log",
+  "out/q11/q11_radex_gradient.log",
+  "TEAM_REPORT.json"
+ ]
+}

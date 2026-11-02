@@ -1,0 +1,97 @@
+# team-a p0012 deblend core ladders T43/T32: HCN N 0.395 S 0.268 ; HCO+ N 0.482 S 0.442.   matched-beam aperture (s72): HCN N 0.450 S 0.357 Bridge 0.362; HCO+ N 0.565 S 0.486 Bridge 0.494
+HCN   tmpl HCN   rc=1.0 outer=True  Rfit=10: N 0.483 S 0.400 Bridge 0.331 Outer 0.000 | chi2/dof J3 25619/641 J4 14773/641
+HCN   tmpl HCN   rc=1.0 outer=True  Rfit=14: N 0.418 S 0.317 Bridge 0.288 Outer nan | chi2/dof J3 48072/1249 J4 20282/1249
+HCN   tmpl HCN   rc=1.0 outer=True  Rfit=20: N 0.418 S 0.317 Bridge 0.288 Outer nan | chi2/dof J3 63548/2567 J4 28994/2567
+HCN   tmpl HCN   rc=1.0 outer=False Rfit=10: N 0.418 S 0.317 Bridge 0.288 | chi2/dof J3 31773/642 J4 14773/642
+HCN   tmpl HCN   rc=1.0 outer=False Rfit=14: N 0.418 S 0.317 Bridge 0.288 | chi2/dof J3 48072/1250 J4 20282/1250
+HCN   tmpl HCN   rc=1.0 outer=False Rfit=20: N 0.418 S 0.317 Bridge 0.288 | chi2/dof J3 63548/2568 J4 28994/2568
+HCN   tmpl HCN   rc=1.5 outer=True  Rfit=10: N 0.439 S 0.366 Bridge 0.296 Outer 0.000 | chi2/dof J3 24312/641 J4 14801/641
+HCN   tmpl HCN   rc=1.5 outer=True  Rfit=14: N 0.416 S 0.316 Bridge 0.274 Outer nan | chi2/dof J3 44643/1249 J4 20312/1249
+HCN   tmpl HCN   rc=1.5 outer=True  Rfit=20: N 0.416 S 0.316 Bridge 0.274 Outer nan | chi2/dof J3 60120/2567 J4 29023/2567
+HCN   tmpl HCN   rc=1.5 outer=False Rfit=10: N 0.416 S 0.316 Bridge 0.274 | chi2/dof J3 28342/642 J4 14801/642
+HCN   tmpl HCN   rc=1.5 outer=False Rfit=14: N 0.416 S 0.316 Bridge 0.274 | chi2/dof J3 44643/1250 J4 20312/1250
+HCN   tmpl HCN   rc=1.5 outer=False Rfit=20: N 0.416 S 0.316 Bridge 0.274 | chi2/dof J3 60120/2568 J4 29023/2568
+HCN   tmpl HCN   rc=2.0 outer=True  Rfit=10: N 0.420 S 0.336 Bridge 0.237 Outer 0.000 | chi2/dof J3 21941/641 J4 14856/641
+HCN   tmpl HCN   rc=2.0 outer=True  Rfit=14: N 0.413 S 0.313 Bridge 0.236 Outer nan | chi2/dof J3 39845/1249 J4 20370/1249
+HCN   tmpl HCN   rc=2.0 outer=True  Rfit=20: N 0.413 S 0.313 Bridge 0.236 Outer nan | chi2/dof J3 55321/2567 J4 29081/2567
+HCN   tmpl HCN   rc=2.0 outer=False Rfit=10: N 0.413 S 0.313 Bridge 0.236 | chi2/dof J3 23538/642 J4 14856/642
+HCN   tmpl HCN   rc=2.0 outer=False Rfit=14: N 0.413 S 0.313 Bridge 0.236 | chi2/dof J3 39845/1250 J4 20370/1250
+HCN   tmpl HCN   rc=2.0 outer=False Rfit=20: N 0.413 S 0.313 Bridge 0.236 | chi2/dof J3 55321/2568 J4 29081/2568
+HCN   tmpl HCN   rc=2.5 outer=True  Rfit=10: N 0.404 S 0.300 Bridge nan Outer 0.000 | chi2/dof J3 19941/641 J4 15274/641
+HCN   tmpl HCN   rc=2.5 outer=True  Rfit=14: N 0.402 S 0.293 Bridge nan Outer nan | chi2/dof J3 36723/1249 J4 20791/1249
+HCN   tmpl HCN   rc=2.5 outer=True  Rfit=20: N 0.402 S 0.293 Bridge nan Outer nan | chi2/dof J3 52199/2567 J4 29502/2567
+HCN   tmpl HCN   rc=2.5 outer=False Rfit=10: N 0.402 S 0.293 Bridge nan | chi2/dof J3 20408/642 J4 15274/642
+HCN   tmpl HCN   rc=2.5 outer=False Rfit=14: N 0.402 S 0.293 Bridge nan | chi2/dof J3 36723/1250 J4 20791/1250
+HCN   tmpl HCN   rc=2.5 outer=False Rfit=20: N 0.402 S 0.293 Bridge nan | chi2/dof J3 52199/2568 J4 29502/2568
+HCN   tmpl HCO+  rc=1.0 outer=True  Rfit=10: N 0.492 S 0.446 Bridge 0.357 Outer 0.000 | chi2/dof J3 20698/641 J4 14670/641
+HCN   tmpl HCO+  rc=1.0 outer=True  Rfit=14: N 0.430 S 0.335 Bridge 0.296 Outer 0.000 | chi2/dof J3 46737/1249 J4 20179/1249
+HCN   tmpl HCO+  rc=1.0 outer=True  Rfit=20: N 0.417 S 0.316 Bridge 0.284 Outer nan | chi2/dof J3 62855/2567 J4 28891/2567
+HCN   tmpl HCO+  rc=1.0 outer=False Rfit=10: N 0.417 S 0.316 Bridge 0.284 | chi2/dof J3 31080/642 J4 14670/642
+HCN   tmpl HCO+  rc=1.0 outer=False Rfit=14: N 0.417 S 0.316 Bridge 0.284 | chi2/dof J3 47379/1250 J4 20179/1250
+HCN   tmpl HCO+  rc=1.0 outer=False Rfit=20: N 0.417 S 0.316 Bridge 0.284 | chi2/dof J3 62855/2568 J4 28891/2568
+HCN   tmpl HCO+  rc=1.5 outer=True  Rfit=10: N 0.446 S 0.390 Bridge 0.308 Outer 0.000 | chi2/dof J3 19956/641 J4 14846/641
+HCN   tmpl HCO+  rc=1.5 outer=True  Rfit=14: N 0.417 S 0.318 Bridge 0.270 Outer 0.000 | chi2/dof J3 43453/1249 J4 20357/1249
+HCN   tmpl HCO+  rc=1.5 outer=True  Rfit=20: N 0.415 S 0.313 Bridge 0.267 Outer nan | chi2/dof J3 59009/2567 J4 29068/2567
+HCN   tmpl HCO+  rc=1.5 outer=False Rfit=10: N 0.415 S 0.314 Bridge 0.267 | chi2/dof J3 27231/642 J4 14846/642
+HCN   tmpl HCO+  rc=1.5 outer=False Rfit=14: N 0.415 S 0.313 Bridge 0.267 | chi2/dof J3 43533/1250 J4 20357/1250
+HCN   tmpl HCO+  rc=1.5 outer=False Rfit=20: N 0.415 S 0.313 Bridge 0.267 | chi2/dof J3 59009/2568 J4 29068/2568
+HCN   tmpl HCO+  rc=2.0 outer=True  Rfit=10: N 0.424 S 0.351 Bridge 0.207 Outer 0.000 | chi2/dof J3 18965/641 J4 15254/641
+HCN   tmpl HCO+  rc=2.0 outer=True  Rfit=14: N 0.410 S 0.310 Bridge 0.200 Outer nan | chi2/dof J3 39308/1249 J4 20769/1249
+HCN   tmpl HCO+  rc=2.0 outer=True  Rfit=20: N 0.410 S 0.310 Bridge 0.200 Outer nan | chi2/dof J3 54784/2567 J4 29480/2567
+HCN   tmpl HCO+  rc=2.0 outer=False Rfit=10: N 0.410 S 0.310 Bridge 0.200 | chi2/dof J3 23001/642 J4 15254/642
+HCN   tmpl HCO+  rc=2.0 outer=False Rfit=14: N 0.410 S 0.310 Bridge 0.200 | chi2/dof J3 39308/1250 J4 20769/1250
+HCN   tmpl HCO+  rc=2.0 outer=False Rfit=20: N 0.410 S 0.310 Bridge 0.200 | chi2/dof J3 54784/2568 J4 29480/2568
+HCN   tmpl HCO+  rc=2.5 outer=True  Rfit=10: N 0.407 S 0.309 Bridge nan Outer 0.000 | chi2/dof J3 19212/641 J4 16466/641
+HCN   tmpl HCO+  rc=2.5 outer=True  Rfit=14: N 0.401 S 0.287 Bridge nan Outer nan | chi2/dof J3 38175/1249 J4 21983/1249
+HCN   tmpl HCO+  rc=2.5 outer=True  Rfit=20: N 0.401 S 0.287 Bridge nan Outer nan | chi2/dof J3 53652/2567 J4 30695/2567
+HCN   tmpl HCO+  rc=2.5 outer=False Rfit=10: N 0.401 S 0.287 Bridge nan | chi2/dof J3 21861/642 J4 16466/642
+HCN   tmpl HCO+  rc=2.5 outer=False Rfit=14: N 0.401 S 0.287 Bridge nan | chi2/dof J3 38175/1250 J4 21983/1250
+HCN   tmpl HCO+  rc=2.5 outer=False Rfit=20: N 0.401 S 0.287 Bridge nan | chi2/dof J3 53652/2568 J4 30695/2568
+HCO+  tmpl HCN   rc=1.0 outer=True  Rfit=10: N 0.852 S 0.667 Bridge 0.626 Outer 0.046 | chi2/dof J3 89371/641 J4 54675/641
+HCO+  tmpl HCN   rc=1.0 outer=True  Rfit=14: N 0.556 S 0.451 Bridge 0.501 Outer 0.000 | chi2/dof J3 247792/1249 J4 75584/1249
+HCO+  tmpl HCN   rc=1.0 outer=True  Rfit=20: N 0.521 S 0.424 Bridge 0.482 Outer 0.000 | chi2/dof J3 296926/2567 J4 98864/2567
+HCO+  tmpl HCN   rc=1.0 outer=False Rfit=10: N 0.514 S 0.419 Bridge 0.478 | chi2/dof J3 238777/642 J4 55200/642
+HCO+  tmpl HCN   rc=1.0 outer=False Rfit=14: N 0.514 S 0.419 Bridge 0.478 | chi2/dof J3 265049/1250 J4 75584/1250
+HCO+  tmpl HCN   rc=1.0 outer=False Rfit=20: N 0.514 S 0.419 Bridge 0.478 | chi2/dof J3 297846/2568 J4 98864/2568
+HCO+  tmpl HCN   rc=1.5 outer=True  Rfit=10: N 0.629 S 0.597 Bridge 0.568 Outer 0.011 | chi2/dof J3 87400/641 J4 53000/641
+HCO+  tmpl HCN   rc=1.5 outer=True  Rfit=14: N 0.527 S 0.438 Bridge 0.497 Outer 0.000 | chi2/dof J3 229198/1249 J4 73415/1249
+HCO+  tmpl HCN   rc=1.5 outer=True  Rfit=20: N 0.513 S 0.419 Bridge 0.486 Outer 0.000 | chi2/dof J3 273609/2567 J4 96696/2567
+HCO+  tmpl HCN   rc=1.5 outer=False Rfit=10: N 0.511 S 0.417 Bridge 0.485 | chi2/dof J3 214707/642 J4 53027/642
+HCO+  tmpl HCN   rc=1.5 outer=False Rfit=14: N 0.511 S 0.417 Bridge 0.485 | chi2/dof J3 240973/1250 J4 73415/1250
+HCO+  tmpl HCN   rc=1.5 outer=False Rfit=20: N 0.511 S 0.417 Bridge 0.485 | chi2/dof J3 273770/2568 J4 96696/2568
+HCO+  tmpl HCN   rc=2.0 outer=True  Rfit=10: N 0.560 S 0.526 Bridge 0.499 Outer 0.000 | chi2/dof J3 84589/641 J4 50288/641
+HCO+  tmpl HCN   rc=2.0 outer=True  Rfit=14: N 0.514 S 0.425 Bridge 0.509 Outer 0.000 | chi2/dof J3 201331/1249 J4 70686/1249
+HCO+  tmpl HCN   rc=2.0 outer=True  Rfit=20: N 0.508 S 0.415 Bridge 0.510 Outer nan | chi2/dof J3 239739/2567 J4 93966/2567
+HCO+  tmpl HCN   rc=2.0 outer=False Rfit=10: N 0.508 S 0.415 Bridge 0.510 | chi2/dof J3 180683/642 J4 50288/642
+HCO+  tmpl HCN   rc=2.0 outer=False Rfit=14: N 0.508 S 0.415 Bridge 0.510 | chi2/dof J3 206943/1250 J4 70686/1250
+HCO+  tmpl HCN   rc=2.0 outer=False Rfit=20: N 0.508 S 0.415 Bridge 0.510 | chi2/dof J3 239739/2568 J4 93966/2568
+HCO+  tmpl HCN   rc=2.5 outer=True  Rfit=10: N 0.542 S 0.488 Bridge 0.291 Outer 0.000 | chi2/dof J3 82596/641 J4 50789/641
+HCO+  tmpl HCN   rc=2.5 outer=True  Rfit=14: N 0.509 S 0.419 Bridge 1.479 Outer 0.000 | chi2/dof J3 181590/1249 J4 71199/1249
+HCO+  tmpl HCN   rc=2.5 outer=True  Rfit=20: N 0.506 S 0.414 Bridge 2.388 Outer nan | chi2/dof J3 216954/2567 J4 94480/2567
+HCO+  tmpl HCN   rc=2.5 outer=False Rfit=10: N 0.506 S 0.414 Bridge 2.382 | chi2/dof J3 157892/642 J4 50789/642
+HCO+  tmpl HCN   rc=2.5 outer=False Rfit=14: N 0.506 S 0.414 Bridge 2.388 | chi2/dof J3 184157/1250 J4 71199/1250
+HCO+  tmpl HCN   rc=2.5 outer=False Rfit=20: N 0.506 S 0.414 Bridge 2.388 | chi2/dof J3 216954/2568 J4 94480/2568
+HCO+  tmpl HCO+  rc=1.0 outer=True  Rfit=10: N 0.788 S 0.711 Bridge 0.662 Outer 0.137 | chi2/dof J3 41392/641 J4 47754/641
+HCO+  tmpl HCO+  rc=1.0 outer=True  Rfit=14: N 0.642 S 0.549 Bridge 0.574 Outer 0.052 | chi2/dof J3 173849/1249 J4 74107/1249
+HCO+  tmpl HCO+  rc=1.0 outer=True  Rfit=20: N 0.565 S 0.469 Bridge 0.517 Outer 0.106 | chi2/dof J3 258897/2567 J4 97239/2567
+HCO+  tmpl HCO+  rc=1.0 outer=False Rfit=10: N 0.514 S 0.420 Bridge 0.479 | chi2/dof J3 234265/642 J4 54071/642
+HCO+  tmpl HCO+  rc=1.0 outer=False Rfit=14: N 0.514 S 0.420 Bridge 0.479 | chi2/dof J3 260537/1250 J4 74456/1250
+HCO+  tmpl HCO+  rc=1.0 outer=False Rfit=20: N 0.514 S 0.420 Bridge 0.479 | chi2/dof J3 293334/2568 J4 97736/2568
+HCO+  tmpl HCO+  rc=1.5 outer=True  Rfit=10: N 0.624 S 0.613 Bridge 0.599 Outer 0.110 | chi2/dof J3 41027/641 J4 47152/641
+HCO+  tmpl HCO+  rc=1.5 outer=True  Rfit=14: N 0.571 S 0.513 Bridge 0.550 Outer 0.000 | chi2/dof J3 165054/1249 J4 71001/1249
+HCO+  tmpl HCO+  rc=1.5 outer=True  Rfit=20: N 0.536 S 0.457 Bridge 0.514 Outer 0.027 | chi2/dof J3 242067/2567 J4 94260/2567
+HCO+  tmpl HCO+  rc=1.5 outer=False Rfit=10: N 0.510 S 0.419 Bridge 0.488 | chi2/dof J3 206976/642 J4 50612/642
+HCO+  tmpl HCO+  rc=1.5 outer=False Rfit=14: N 0.510 S 0.419 Bridge 0.488 | chi2/dof J3 233238/1250 J4 71001/1250
+HCO+  tmpl HCO+  rc=1.5 outer=False Rfit=20: N 0.510 S 0.419 Bridge 0.488 | chi2/dof J3 266035/2568 J4 94281/2568
+HCO+  tmpl HCO+  rc=2.0 outer=True  Rfit=10: N 0.569 S 0.558 Bridge 0.513 Outer 0.065 | chi2/dof J3 40893/641 J4 46144/641
+HCO+  tmpl HCO+  rc=2.0 outer=True  Rfit=14: N 0.535 S 0.476 Bridge 0.517 Outer 0.000 | chi2/dof J3 153645/1249 J4 67501/1249
+HCO+  tmpl HCO+  rc=2.0 outer=True  Rfit=20: N 0.518 S 0.441 Bridge 0.519 Outer 0.000 | chi2/dof J3 220663/2567 J4 90782/2567
+HCO+  tmpl HCO+  rc=2.0 outer=False Rfit=10: N 0.507 S 0.418 Bridge 0.519 | chi2/dof J3 175042/642 J4 47105/642
+HCO+  tmpl HCO+  rc=2.0 outer=False Rfit=14: N 0.507 S 0.418 Bridge 0.519 | chi2/dof J3 201289/1250 J4 67501/1250
+HCO+  tmpl HCO+  rc=2.0 outer=False Rfit=20: N 0.507 S 0.418 Bridge 0.519 | chi2/dof J3 234086/2568 J4 90782/2568
+HCO+  tmpl HCO+  rc=2.5 outer=True  Rfit=10: N 0.550 S 0.518 Bridge 0.000 Outer 0.038 | chi2/dof J3 42234/641 J4 48953/641
+HCO+  tmpl HCO+  rc=2.5 outer=True  Rfit=14: N 0.526 S 0.457 Bridge nan Outer 0.000 | chi2/dof J3 148177/1249 J4 69649/1249
+HCO+  tmpl HCO+  rc=2.5 outer=True  Rfit=20: N 0.519 S 0.435 Bridge nan Outer 0.000 | chi2/dof J3 209259/2567 J4 92930/2567
+HCO+  tmpl HCO+  rc=2.5 outer=False Rfit=10: N 0.514 S 0.423 Bridge nan | chi2/dof J3 158682/642 J4 49241/642
+HCO+  tmpl HCO+  rc=2.5 outer=False Rfit=14: N 0.514 S 0.423 Bridge nan | chi2/dof J3 184933/1250 J4 69649/1250
+HCO+  tmpl HCO+  rc=2.5 outer=False Rfit=20: N 0.514 S 0.423 Bridge nan | chi2/dof J3 217730/2568 J4 92930/2568

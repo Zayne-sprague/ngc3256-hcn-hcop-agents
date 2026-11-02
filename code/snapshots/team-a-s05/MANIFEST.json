@@ -1,0 +1,19 @@
+{
+ "team": "team-a",
+ "item": "Q7",
+ "files": [
+  "scripts/q7_cache.py",
+  "scripts/q7_lib.py",
+  "scripts/q7_profiles.py",
+  "scripts/q7_inject.py",
+  "scripts/q7_core.py",
+  "scripts/q7_disk.py",
+  "out/q7/q7_profiles.csv",
+  "out/q7/q7_profiles.log",
+  "out/q7/q7_inject.log",
+  "out/q7/q7_core.log",
+  "out/q7/q7_disk.log",
+  "team/checks/q7_check.py",
+  "TEAM_REPORT.json"
+ ]
+}

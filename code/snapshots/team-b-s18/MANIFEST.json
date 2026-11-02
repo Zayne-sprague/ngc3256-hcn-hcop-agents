@@ -1,0 +1,15 @@
+{
+ "team": "team-b",
+ "item": "Q27",
+ "files": [
+  "scripts/s62_lib.py",
+  "scripts/s62_radex_grid.py",
+  "scripts/s104_q27_filling.py",
+  "scripts/s108_q27r2.py",
+  "out/q27/s104.txt",
+  "out/q27/s104.json",
+  "out/q27/s108.txt",
+  "out/q27/s108.json",
+  "TEAM_REPORT.json"
+ ]
+}

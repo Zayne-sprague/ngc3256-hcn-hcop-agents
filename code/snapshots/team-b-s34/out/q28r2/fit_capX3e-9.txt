@@ -1,0 +1,8 @@
+# variant capX3e-9: taumax 3.0 drop [] sig (0.1, 0.15, 0.15, 0.15) cap (3e-09, 77.0); compact configs 58320 (ok 37177), E models 68796 (ok 26433)
+ N: min chi2 two-phase (own E) 21.89; lnZ -30.35
+ S: min chi2 two-phase (own E) 10.33; lnZ -25.08
+ joint shared-E: min chi2 33.94 (N 23.61, S 10.33); lnZ shared -47.48 vs separate-E -55.43
+ N: one-state two-size: min chi2 51.57 lnZ -37.80; best Tk 100 n 4.0 N 15.5 A 0.5 theta 0.8 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 7.45
+ S: one-state two-size: min chi2 40.02 lnZ -32.31; best Tk 100 n 4.0 N 15.5 A 0.5 theta 0.5 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 7.23
+ joint ln BF shared two-phase / (one-state N x one-state S) = 22.63
+ time 50s

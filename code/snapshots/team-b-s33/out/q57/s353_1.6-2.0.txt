@@ -1,0 +1,12 @@
+# prior log X 1.6-2.0 (X 40-100); evidences relative to Hfull (Bayes factor = Z/Zfull); Occam penalties apply
+Hexc     lnZ-lnZfull =    0.22   BF vs full = 1.25
+Hcol     lnZ-lnZfull =   -0.53   BF vs full = 0.588
+HcolX    lnZ-lnZfull =   -0.45   BF vs full = 0.637
+Habun    lnZ-lnZfull =    3.94   BF vs full = 51.2
+HfullXs  lnZ-lnZfull =    0.63   BF vs full = 1.88
+Hfull    lnZ-lnZfull =    0.00   BF vs full = 1
+max-likelihood ratio vs full (g=0): Hfull: 0.0, HfullXs: 0.1, Hexc: 7.7, Hcol: 5.0, HcolX: 3.2, Habun: 3.7  (= delta chi2 incl. sigma-normalisation terms)
+Hfull: log A=N(HCN)/N(HCO+): N [3.16227766 3.16227766 3.98107171], S [1.58489319 1.99526231 2.51188643]
+Hfull: A_N/A_S (5,16,50,84,95%) = [1.26 1.26 1.58 2.51 2.51]; P(A_N/A_S>1)=0.952; P(>1.3)=0.784
+Hfull posterior X_N: 40:0.01 50:0.04 63:0.16 79:0.38 100:0.41
+Hfull posterior X_S: 40:0.00 50:0.01 63:0.05 79:0.22 100:0.73

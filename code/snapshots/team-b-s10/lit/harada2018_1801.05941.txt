@@ -1,0 +1,3344 @@
+arXiv:1801.05941v1  [astro-ph.GA]  18 Jan 2018
+Draft version January 19, 2018
+Typeset using LATEX preprint2 style in AASTeX61
+ALMA ASTROCHEMICAL OBSER V ATIONS OF THE INFRARED-LUMINOUS MERGER
+NGC 3256
+Nanase Harada, 1 Kazushi Sakamoto, 1 Sergio Mart´ın,2, 3 Susanne Aalto, 4 Rebeca Aladro, 5
+and Kazimierz Sliwa 6
+1Academia Sinica Institute of Astronomy and Astrophysics, P .O. Box 23-141, Taipei 10617, Taiwan
+2European Southern Observatory, Alonso de C´ ordova 3107, Vi tacura, Santiago, Chile
+3Joint ALMA Observatory, Alonso de C´ ordova 3107, Vitacura, Santiago, Chile
+4Department of Space, Earth and Environment, Chalmers Unive rsity of Technology, Onsala Space Observatory, SE-
+43992 Onsala, Sweden
+5Max Planck Institute for Radio Astronomy, Auf dem H¨ ugel 69, D-53121 Bonn, Germany
+6Max Planck Institute for Astronomy, K¨ onigstuhl 17, D-6911 7 Heidelberg, Germany
+ABSTRACT
+In external galaxies, molecular composition may be inﬂuenced by ext reme environments such as
+starbursts and galaxy mergers. To study such molecular chemistr y, we observed the luminous-infrared
+galaxy and merger NGC 3256 using the Atacama Large Millimeter/sub- millimeter Array. We covered
+most of the 3-mm and 1.3-mm bands for a multi-species, multi-transit ion analysis. We ﬁrst analyzed
+intensity ratio maps of selected lines such as HCN/HCO +, which shows no enhancement at an AGN.
+We then compared the chemical compositions within NGC 3256 at the t wo nuclei, tidal arms, and
+positions with inﬂuence from galactic outﬂows. We found the largest variation in SiO and CH 3OH,
+species that are likely to be enhanced by shocks. Next, we compare d the chemical compositions in
+the nuclei of NGC 3256, NGC 253, and Arp 220; these galactic nuclei have varying star formation
+eﬃciencies. Arp 220 shows higher abundances of SiO and HC 3N than NGC 3256 and NGC 253.
+Abundances of most species do not show strong correlation with th e star formation eﬃciencies,
+although the CH 3CCH abundance seems to have a weak positive correlation with the st ar formation
+eﬃciency. Lastly, the chemistry of spiral arm positions in NGC 3256 is compared with that of W 51,
+a Galactic molecular cloud complex in a spiral arm. We found higher frac tional abundances of shock
+tracers, and possibly also higher dense gas fraction in NGC 3256 com pared with W 51.
+Keywords: galaxies: individual (NGC 3256), astrochemistry, ISM: molecules, g alaxies:
+starburst, galaxies: ISM, galaxies: abundances
+Corresponding author: Nanase Harada
+harada@asiaa.sinica.edu.tw
+2 Harada et al.
+1. INTRODUCTION
+Molecular composition (or simply “chem-
+istry”) of various species in the interstellar
+medium (ISM) varies with the environment
+surrounding the molecular clouds. Although
+the dominant species in molecular regions is
+H2, and the second most abundant molecule
+CO is most commonly observed, more minor
+species are more sensitive to physical condi-
+tions. For example, the compositions of those
+minor species vary with stages of star formation
+or external radiation such as UV-photons, X-
+rays, cosmic-rays, or shocks (see Harada 2017 ,
+and references therein). Molecular composition
+also changes as a molecular cloud evolves from
+diﬀuse clouds to form denser cores before the
+star formation.
+Despite faint emission due to large distance,
+about 60 species have been previously detected
+in external galaxies 1. In starburst galaxies, the
+chemistry is likely to show features of photon-
+dominated regions (PDRs) due to the high UV-
+photon ﬂux. At the same time, starburst galax-
+ies may have higher fractions of dense, star-
+forming gas compared to galaxies with lower
+star formation rates. If so, this diﬀerence in the
+ISM properties can also aﬀect the chemistry.
+Recent development of Atacama Large
+Millimeter/sub-millimeter Array (ALMA)
+and some pre-ALMA radio interferometers
+has opened up the possibility of spatially-
+resolved astrochemistry in external galaxies
+(e.g., Meier & Turner 2005 ; Takano et al.
+2014; Viti et al. 2014 ; Nakajima et al. 2015 ;
+Meier et al. 2015 ; Mart ´ ın et al. 2015). The
+chemical compositions seen in those obser-
+vations vary with types of galaxies. One of
+the most characteristic chemical compositions
+is seen in so-called compact obscured nuclei
+(CONs). CONs are extremely compact ( <
+10s of parsecs), obscured ( AV > 103 mag),
+1 https://www.astro.uni-koeln.de/cdms/molecules
+and luminous ( > 1010L⊙) nuclei in some ul-
+tra/luminous infrared galaxies (U/LIRGs). For
+example, Arp 220 and NGC 4418 have CONs,
+and have very high abundances of HC 3N or
+CH3CN ( Mart ´ ın et al. 2011; Costagliola et al.
+2015). In the Galaxy, these molecules are usu-
+ally seen only towards star-forming regions, and
+their abundances averaged in the galaxy scale
+are very low. Even in local starburst galaxies
+such as NGC 253 and M82, these molecules
+are much less abundant than in CONs. In
+addition, the CONs have strong emission of
+vibrationally-excited lines ( Sakamoto et al.
+2010; Aalto et al. 2015b ; Mart ´ ın et al. 2016)
+with upper state energies ranging from a few
+hundreds to ∼ 1000 K. Their detections suggest
+strong infrared radiation for the excitation.
+Because of the high degree of obscuration, it
+is still unclear whether these chemical features
+are caused by extreme starbursts or active
+galactic nuclei (AGNs), or the compactness of
+the nuclei.
+What the observed chemistry is most sen-
+sitive to in external galaxies is still unknown
+partly because of the lack of previous obser-
+vations, and partly because of the complexity
+contained in beams typically of giant molecu-
+lar cloud sizes or larger. In starburst galaxies,
+molecular abundances species associated with
+dense cores could correlate with the current star
+formation rate, but the correlation may not be
+tight because the molecular clouds are ingre-
+dients of future star formation, and they may
+be showing diﬀerent stages from existing mas-
+sive stars used to measure the star formation
+rate. This time delay is suggested in the molec-
+ular study of NGC 253 by Ando et al. (2017),
+where the chemistry signiﬁcantly varies among
+clumps with similar star formation rates. An-
+other driving force of the chemistry is feedback
+from the existing stars such as irradiation from
+UV-photons (e.g., Mart ´ ın et al. 2009). To un-
+derstand the mechanisms behind the chemical
+Chemistry of the infrared luminous merger NGC 3256 3
+composition, it is important to observe star-
+burst galaxies with various star formation rates.
+NGC 3256 is an ideal target for such a test.
+NGC 3256 ( D = 35 Mpc, 170pc/1 ′′) is a late-
+stage merger (by the deﬁnition of merger stage
+by Stierwalt et al. (2013); two nuclei in a com-
+mon envelope). An intense starburst caused by
+the merging activity generates a high infrared
+luminosity of LIR = 3 × 1011L⊙. Star forma-
+tion rates in the northern and the southern nu-
+clei (N and S nuclei hereafter) are 15 M⊙ yr−1
+and 6 M⊙ yr−1 respectively, according to the
+spectral energy distribution (SED) ﬁtting in the
+near- and mid-infrared wavelengths ( Lira et al.
+2008). The total star-formation rate within
+this galaxy is estimated to be ∼ 50 M⊙ yr−1
+(Sakamoto et al. 2014 ), and it is expected that
+the star formation rate even in the oﬀ-nucleus
+positions should still be much higher compared
+with local starburst galaxies such as NGC 253
+(total SFR ∼ 5 M⊙ yr−1).
+Although the main energy source of NGC 3256
+is known to be the starburst event, there are
+other interesting features that can be studied
+in NGC 3256. One of them is the AGN in
+the S nucleus. The conﬁguration of the south-
+ern galaxy is almost edge-on, and the very cen-
+tral part of the S nucleus is highly obscured.
+Therefore, presence of an AGN in the S nucleus
+lacked convincing evidence (e.g., Lira et al.
+2002). Recently, Ohyama et al. (2015) have
+revisited this issue using IR and X-rays, and
+found that the ﬁt shows an AGN-like feature in
+the S nucleus. Such AGN/starburst activities
+are giving feedback to the interstellar medium
+(ISM) in NGC 3256. From the velocity compo-
+nents shifted from the range expected from the
+galaxy rotation, outﬂows are detected in ionized
+gas ( Leitherer et al. 2013 ), cold molecular gas
+(Sakamoto et al. 2006a , 2014), and hot molec-
+ular gas ( Emonts et al. 2014 ). Sakamoto et al.
+(2014) found that the energy in the outﬂow from
+the N nucleus can be explained by star forma-
+tion alone, but the outﬂow from the S nucleus
+cannot be accounted for just by a starburst, and
+needs the presence of an AGN. By studying the
+chemistry of NGC 3256, we can examine vari-
+ous topics such as the eﬀects of star formation,
+merging events, and outﬂows on the molecular
+compositions.
+In this paper, we present a molecular line sur-
+vey to cover most of the ALMA Bands 3 and 6
+to study the chemical abundances at locations
+within the central kpc of NGC 3256. The or-
+ganization of this paper is as follows. In Sec-
+tion 2, we explain our observations and analysis.
+The results obtained from those observations
+are described in Section 3 for the continuum
+and molecular lines. Then, the column densi-
+ties of individual molecules and their ratios are
+discussed in Section 4. In Section 5, we further
+discuss the implication of the results in Sections
+3 and 4. Finally, we summarize our ﬁndings in
+Section 6.
+2. OBSER V ATIONS
+Our ALMA observations (project code
+2015.1.00412.S and 2016.1.00965.S) span
+through Cycles 3 and 4 using the 12-meter
+array and Atacama Compact Array (ACA) for
+higher-frequency observations. The observation
+parameters are summarized in Table 1. For
+the better signal-to-noise (S/N) ratio, we also
+used the ALMA data 2015.1.00993.S in the
+archive for frequency ranges overlapping with
+ours. To get the data on the CN (1 − 0) line,
+we also used the ALMA data 2011.0.00525.S,
+whose observational parameters are described
+in Sakamoto et al. (2014). Our observations
+covered most of Bands 3 and 6. For calibration,
+we ran the pipeline calibration script using
+CASA version 4.5.3 for cycle 3 data and ver-
+sion 4.7 for cycle 4 data. Then, we checked the
+amplitude and phase stability of the pipelined
+data, and no major problem was found. We
+note that the calibrator of the scheduling block
+B6 h taken in cycle 4 has ﬂuctuation near
+4 Harada et al.
+the atmospheric absorption at 258 GHz and
+271 GHz because the frequency dependence
+of Tsys there was not accurately corrected due
+to channel smoothing. Since this ﬂuctuation
+only aﬀects speciﬁc frequencies and there is
+no lines of interest around these frequencies,
+we proceed with those calibrated data. To
+improve the accuracy of ﬂux calibration, we
+corrected the ﬂux using the continuum ﬂuxes
+as follows. Continuum ﬂux values at both
+nuclei were plotted as a function of frequency.
+Then, we ﬁtted them with the power law
+να (ν: frequency) for Band 3 and Band 6
+separately. We determined the scaling factor
+for each sideband and each nucleus to match
+the power law ﬁt. By taking the average of
+scaling factors between both sidebands and
+nuclei, we determined the degree of correction
+for the amplitude error. We applied this
+correction to scheduling blocks with more than
+3% discrepancy from the power law ﬁt. Our
+resulting ﬂux errors should be within ∼ 5%.
+Imaging and simple image analysis were done
+with CASA version 4.6. Missing ﬂuxes were
+evaluated by comparing the images with ACA
+and without ACA. Since we do not have ACA
+data for all the scheduling blocks, we used
+HCN(3 − 2), HCO +(3 − 2), and C 18O(2 − 1)
+for this comparison, and the estimated missing
+ﬂuxes are 4.7 %, 0.2 %, and 2.8 %, respectively.
+We do not have the ACA data for 13CO, and
+the missing ﬂux is expected to be higher for
+this line because of the extended emission.
+3. OBSER V ATIONAL RESULTS
+Before we explain our results later in this sec-
+tion, we brieﬂy explain the morphology of NGC
+3256 for clarity. In NGC 3256, the two nu-
+clei, N and S nuclei are indicated as “N” and
+“S” in Figure 1 (lef t). Spiral arm positions are
+indicated as “C” (central peak), “TNE” (tidal
+arm northeast), “TSE” (tidal arm southeast),
+“TSW” (tidal arm southwest) 2. The position
+of the outﬂow from the S galaxy is indicated
+as “OS” (outﬂow south). There is also a peak
+at western part of the S galaxy (south galaxy
+west indicated as “SW”). At position OS and
+around position C, there are components red-
+shifted blue-shifted from the systemic velocity
+(Figure 1 middle), which are thought as outﬂow
+components. These high-velocity components
+were already found with CO by Sakamoto et al.
+(2014) at similar positions. A proposed image
+for this galaxy merger system similar to the one
+in Sakamoto et al. (2014) is shown in Figure 1
+(right).
+3.1. Continuum Emission
+Continuum images at λ = 3.0 mm and 1.2 mm
+are shown in Figure 2. Images at these two
+wavelengths are similar to each other, and to
+continuum images at 2.81 mm, 0.86 mm in
+Sakamoto et al. (2014). Those images are over-
+all similar to the radio continuum image at 3.6
+cm by Neﬀ et al. (2003), but only the 3.6-cm
+image has the feature south from the southern
+galaxy at the position of outﬂow from the S nu-
+cleus (see Figure 16 of Sakamoto et al. 2014 ,
+for the 3.6-cm feature at the position of the
+outﬂow). Spectral indices α of N and S nuclei
+where Sν ∝ να are derived using the continuum
+data using each scheduling block in each side-
+band. We use only the PI data (2015.1.00412.S
+and 2016.1.00975.S) for the ﬁt, and the ﬁts were
+obtained for Band 3 and Band 6 separately.
+Continuum ﬂux densities within 2 ′′ are plotted
+in Figure 3. Each sideband has a 1.875-GHz
+width, and the frequency ranges of each side-
+band can be found in Table 1. Those values are
+2 Although it is likely that those arms are inﬂuenced
+by the tidal interaction, we note that all the spiral arms
+may not have the tidal origin. It is known from sim-
+ulations and observations that galaxy mergers can cre-
+ate such arm-like features through tidal interaction (e.g.,
+D’Onghia et al. 2010 ; Haan et al. 2011 ).
+Chemistry of the infrared luminous merger NGC 3256 5
+obtained after convolving all the images to 2.0 ′′.
+For the northern nucleus, α = −0.39 ± 0.10 for
+Band 3, and α = 1 .99 ± 0.09 for Band 6. The
+value in the southern nucleus is equivalent to the
+northern nucleus in Band 3 ( α = −0.37 ± 0.08),
+but the one for Band 6 is lower than the north-
+ern nucleus ( α = 1.16 ± 0.10). Values obtained
+from fobs = 85 .5 − 110.3 GHz are lower than
+the ones obtained from fobs = 99 .6 − 115.0
+GHz by Sakamoto et al. (2014), which are -
+0.12 for northern nucleus and -0.19 for south-
+ern nucleus. This is reasonable because there
+should be more contribution from Synchrotron
+radiation ( α ∼ − 1) than the contribution from
+free-free emission ( α ∼ − 0.1) at the lower fre-
+quency. At the same time, this level of change
+in α can be easily caused by the ﬂux error,
+which seems to be a more likely cause (see Fig-
+ure 3). Similarly, values of α at λ = 0 .86 mm
+in Sakamoto et al. (2014) are higher than the
+ones at λ = 1 .2 mm because the dust emission
+(α ∼ 3 − 4) has more contribution at the higher
+frequency.
+3.2. Molecular line images
+Velocity-integrated moment maps of selected
+molecular lines and a radio recombination line
+(H40α) are shown in Figures 4 and 5. In those
+images, the primary beam is not corrected. The
+sizes of primary beams are 51.5′′100(GHz ) , and most
+of the emission is within 10 ′′. For each transi-
+tion and without taking line blending into ac-
+count, we integrated the velocity range ±165
+km s −1 around the transition to produce the
+moment 0 maps. Image parameters and rms
+values of those images are listed in Table 2.
+For molecules with doublet or triplet transi-
+tions such as CN or CCH, we integrated velocity
+ranges of all transitions. Main structures such
+as the two nuclei, tidal arms, and the outﬂow
+(see Figure 1 right for a schematic image) are
+well traced by major lines such as 13CO, C 18O,
+HCN, and HCO +, while weaker molecular lines
+are detected only in selected positions. Spa-
+tial distribution of emission intensities of some
+molecular lines are obviously diﬀerent from that
+of CO isotopologues. For example, the distri-
+bution of SiO(2-1) is enhanced in the position
+between the two nuclei and the southwest tidal
+arm position (Figure 5). The integrated inten-
+sity maps of methanol (CH 3OH) also have dif-
+ferent distributions from that of CO isotopo-
+logues although transitions at 96.7 GHz and
+around 241 GHz have diﬀerent distribution to
+each other as well (Figure 5). For both tran-
+sitions of methanol, emission at the two nuclei
+is not dominant, and emission from tidal arms
+or the outﬂow is more visible. For the transi-
+tion at 96.7 GHz, the emission from the north-
+ern nucleus is not obvious while it is visible in
+241 GHz. Another molecule with signiﬁcantly
+diﬀerent distribution from CO isotopologues is
+N2H+. While other molecules have some contri-
+bution from the both nuclei, N 2H+ is very weak
+in the S nucleus. Those features mentioned here
+will be quantitatively analyzed and discussed in
+Section 4.
+3.2.1. Ratio maps
+Spatial variations of intensity ratios are more
+clearly shown in the ratio maps. In Figure
+6, ratios of molecular emission intensities in
+Kelvin units are shown. Primary beams are
+corrected for each moment 0 maps before the
+ratios are taken to produce these images. The
+HCN(1-0)/13CO(1 − 0) ratio is higher in the
+N nucleus than in the S nucleus (Figure 6,
+left). This ratio is also high at the outﬂow po-
+sition of the southern galaxy. The HCN(1 −
+0)/HCO+(1 − 0) ratio is ∼ 1.0 in the N nucleus
+while ∼ 0.6 in the S nucleus, and it is lower
+in the S nucleus than in the N nucleus. This
+HCN(1 − 0)/HCO+(1 − 0) ratio has been sug-
+gested as the AGN/starburst diagnostics ﬁrst
+by Kohno et al. (2001), and later followed up
+by Izumi et al. (2016) and Privon et al. (2017).
+Results by Kohno et al. (2001) (HCN/HCO +
+for J = 1 − 0) and Izumi et al. (2016)
+6 Harada et al.
+(HCN/HCO+ for J = 4 − 3 and HCN(4 −
+3)/CS(7 − 6)) show the values of HCN/HCO +
+or HCN/CS are lower in the starburst galax-
+ies (HCN/HCO + < 1 for both transitions) than
+in AGN-containing galaxies (HCN/HCO + ∼
+1 − 3). At the same time, Izumi et al. (2016)
+pointed out that the high-resolution data of
+AGN-containing galaxies do not show enhanced
+HCN(1 − 0)/HCO+(1 − 0) at the location of
+AGNs (see also Garc ´ ıa-Burillo et al. 2014;
+Mart ´ ın et al. 2015, for the data in the individ-
+ual galaxies). On the other hand, Privon et al.
+(2017) found that there is no signiﬁcant dif-
+ference between starburst and AGN-containing
+galaxies for the sample of LIRGs, possibly
+due to the high opacity. Even for LIRGs,
+Imanishi & Nakanishi (2014) argued that AGNs
+show elevated HCN(4 − 3)/HCO+(4 − 3) ratios
+in their ALMA observations. In NGC 3256, S
+nucleus is the one that shows the past activ-
+ity of AGN activity although it has the lower
+HCN(1 − 0)/HCO+(1 − 0) ratio showing the op-
+posite trend from the AGN/starburst diagnos-
+tics mentioned above. The ratios in the both
+nuclei are within the range of values in typi-
+cal starburst galaxies. Even in AGN-containing
+galaxies, the line ratios may become similar to
+those in starburst galaxies if the beam sizes
+are too large. However, it is unlikely that
+the observed ratios in NGC 3256 from our
+observations show starburst-like line ratios of
+HCN(1 − 0)/HCO+(1 − 0) simply because of
+the beam smearing. The beam size of our ra-
+tio map is 230 pc, which is equivalent to or
+smaller than beam sizes in Kohno et al. (2001)
+and “high-resolution samples” in Izumi et al.
+(2016). Although we cannot make direct com-
+parison with line ratios for diﬀerent transi-
+tions, both HCN(1 − 0)/HCO+(1 − 0) and
+HCN(1 − 0)/CS(2 − 1) show similar ratio to val-
+ues of HCN(4 − 3)/HCO+(4 − 3) and HCN(4 −
+3)/CS(7 − 6) for samples of starburst galaxies
+shown in Izumi et al. (2016). The intensity ra-
+tios of HNC(1 − 0)/HCN(1 − 0) do not diﬀer
+signiﬁcantly between the N and S nuclei. Vari-
+ation of these ratios reﬂect either the change in
+molecular abundances or excitation.
+Some features can be attributed to the change
+in the excitation and critical densities. For ex-
+ample, if the mean density in the N nucleus is
+higher than the S nucleus, it can explain the
+higher HCN(1-0)/ 13CO(1 − 0) and the higher
+HCN(1 − 0)/HCO+(1 − 0) ratios in the N nu-
+cleus. The critical densities of 13CO, HCO +,
+HCN for J = 1 − 0 transitions are ncrit ∼
+2 × 103 cm−3, 2 × 105 cm−3, and 1 × 106 cm−3,
+respectively 3.
+On the other hand, the HNC(1 − 0)/HCN(1 −
+0) ratios cannot be explained solely by the ex-
+citation. The critical density of HNC(1 − 0)
+is ncrit ∼ 3 × 105 cm−3, and the HNC(1 −
+0)/HCN(1 − 0) ratio should be lower in the
+N nucleus if the critical density is the only
+contributing factor. It has been pointed out
+that molecules emit at densities 1-2 orders of
+magnitudes lower than critical densities ( Shirley
+2015), and also that the distribution of molec-
+ular emission within GMCs do not vary as ex-
+pected from critical density alone due to both
+excitation and chemical abundances ( Pety et al.
+2017; Kauﬀmann et al. 2017 ; Watanabe et al.
+2017; Nishimura et al. 2017 ). Watanabe et al.
+(2017) and Nishimura et al. (2017) examined
+the fractions of molecular line intensities coming
+from extended diﬀuse components and denser
+star forming regions in Galactic GMCs. Among
+species mentioned above, 13CO, HCN, HCO +,
+and HNC, their results suggest that 13CO emis-
+3 Critical densities listed here are estimated by simply
+assuming the two level approximation without consider-
+ing the photon trapping and take ncrit = Aul/γul where
+Aul is the Einstein A coeﬃcient for a transition from the
+level u and to the level l, γul is a collisional coeﬃcient for
+a transition from the level u and to the level l. Values
+of Aul and γul were obtained from Leiden Atomic and
+Molecular Database ( Sch¨ oier et al. 2005). The temper-
+ature of 10 K was assumed for γul.
+Chemistry of the infrared luminous merger NGC 3256 7
+sion has more contribution from more extended
+regions, HCN and HCO + emission from more
+compact regions, and HNC has the highest con-
+tribution from the compact star-forming regions
+probably from dense, yet still cold gas. If dis-
+tribution of molecular emission in the nuclei of
+NGC 3256 is similar to that of Galactic GMCs,
+the observed line ratios can be explained if the
+N nucleus has more fraction of dense and com-
+pact clouds than in the S nucleus. However,
+we should also note that Meier & Turner (2005)
+did not see any temperature dependence of
+HNC/HCN intensity ratio in a starburst galaxy
+IC 342 possibly because of the high opacity. An-
+other explanation of the lack of temperature de-
+pendence is from the high ionization rate, which
+can create higher abundance of HCNH + to form
+HNC through the recombination with an elec-
+tron ( Aalto et al. 2002 ).
+Another feature to note is the higher HCN(1-
+0)/13CO(1 − 0) ratio in the outﬂow position.
+It is surprising if it is due to the higher den-
+sity in the outﬂow because outﬂows are usu-
+ally considered to be hot and tenuous. This
+feature might be a reﬂection of higher frac-
+tional abundance4 of HCN due to the higher gas
+temperature ( Loenen et al. 2008 ; Harada et al.
+2010) possibly due to shocks ( Aalto et al. 2012 ;
+Mart ´ ın et al. 2015; Izumi et al. 2016 ). Higher
+HCN(1 − 0)/CS(2 − 1) and lower HNC(1 −
+0)/HCN(1 − 0) also supports this scenario. On
+the other hand, the HCN(1-0)/HCO +(1 − 0) do
+not show strong enhancement at the outﬂow
+position. It is possible that HCO + is also en-
+hanced due to ionization in the outﬂow, but the
+precise density structure and molecular abun-
+4 Fractional abundances refer to abundances of certain
+species over total hydrogen or molecular hydrogen abun-
+dances. In this paper, we discuss the variation of frac-
+tional abundances from abundances of certain species
+over some reference species such as 13CO or CS because
+of the diﬃculty of obtaining the total hydrogen abun-
+dances.
+dances need to be further explored. However,
+this enhancement may also be due to the higher
+density, similar to the case of the outﬂow in Mrk
+231 ( Aalto et al. 2015a ).
+3.3. Molecular spectra
+To analyze individual positions of interest, we
+extracted spectra from our image cubes. For
+this analysis, we use the primary-beam cor-
+rected cubes. Since we did not have the ACA
+data for all the Band 6 scheduling blocks, we
+only used the 12-meter data for consistency.
+The spectra used to calculate column densities
+in the next section are produced by convolv-
+ing the image cubes to a common 1.7 ′′ reso-
+lution. The rms values of individual spectral
+windows are listed in Table 3. To include the
+CN(1 − 0) line in the analysis, we also used
+the data produced for Sakamoto et al. (2014).
+The positions we analyzed are shown in Figure
+1 (lef t) as discussed at the beginning of Section
+3 (N: northern nucleus, S: southern nucleus, C:
+central peak, TNE: tidal arm northeast, TSE:
+tidal arm southeast, TSW: tidal arm southwest,
+OS: outﬂow south, SW: southern galaxy west).
+Note that in the analysis of column densities
+in the later sections, we use the entire velocity
+range around the systemic velocity for the po-
+sition OS, and it may have some contamination
+from non-outﬂow components is possible. Plots
+of spectra are shown in Figures 16 - 19 for the
+position N (see the online journal of the pub-
+lished version for all positions). Observed peak
+intensities and integrated intensities are listed in
+Table 13 for detected species and tentatively de-
+tected species with > 2σ at the peak. The inte-
+grated intensities are calculated by integrating
+a velocity range of ±150 km s −1 from the sys-
+temic velocity of 2775 km s −1. Errors for the in-
+tegrated intensities are estimated as ∆ I∆v
+√
+N
+where ∆ I is the rms of the original cube cor-
+rected according to the position in the primary
+beam, ∆ v is the velocity resolution of the cube,
+and N = vrange/∆v for vrange = 300 km s −1. If
+8 Harada et al.
+lines are narrower than vrange = 300 km s −1, the
+actual errors may be smaller. That is why some
+of weak lines have low values of I∆V .
+While the molecular line spectra can be ﬁt
+with a single Gaussian proﬁle in most posi-
+tions, there are exceptions. For example, spec-
+trum shapes of the N and S nuclei have double
+peaks for most of the species. It is likely that
+these double peaks come from the rotation of
+the galactic nuclei, and not from self absorption
+because even molecules that are thought to be
+optically thin have double peaks. Another po-
+sition where spectra cannot be ﬁt well with a
+single gaussian is the position OS, which can
+be explained by the complicated velocity struc-
+ture of the outﬂow. Line wings from the outﬂow
+are detected clearly at the peak position of the
+red-shifted component seen in Figure 1 (middle)
+for HCN(1 − 0), HCO +(1 − 0), and HNC(1 − 0)
+shown in Figure 7.
+4. COLUMN DENSITIES
+To quantify the spatial variation of the chem-
+ical composition, we present the column densi-
+ties of detected species in this section using the
+spectra presented in Section 3.3. To obtain col-
+umn densities, we used a spectral ﬁtting feature
+of MADCUBA (Mart ´ ın et al., in preparation)
+5. In this program, the ﬁt between the simu-
+lated spectra and the observed one is calculated,
+and column densities and excitation tempera-
+tures with the best ﬁt can be obtained under the
+LTE approximation. In the simulated spectra,
+optical depth is also taken into account. The
+list of obtained column densities and excitation
+temperatures are listed in Tables 5 - 12. Errors
+shown in those tables are errors from the ﬁtting.
+The estimated Tex are mostly ≲ 10 K except for
+HC3N, CH3CCH, CH3OH, and H2CO. For those
+molecules, Tex can be as high as 20-40 K. For a
+molecule with only one line with enough S/N,
+5 http://cab.inta-csic.es/madcuba/Portada.html
+we used Tex = 10 K. Even with the detection
+of multiple transitions, there are cases where
+Tex cannot be precisely determined. For those
+cases, Tex was ﬁxed at the best-ﬁt value to ob-
+tain column densities. If the molecular species
+are undetected at certain positions, the upper
+limits are obtained by deriving column densi-
+ties for cases of 2- σ detections at the lowest (or
+strongest) transition with Tex = 10 K.
+In the following sections, we plot the ratios
+of the derived column densities. We use two
+diﬀerent species with diﬀerent critical densities
+(13CO and CS) as denominator of the ratios for
+the following reasons. Since we have detections
+of multiple transitions for most of the major
+species, the derived column densities should re-
+sult from diﬀerences in fractional abundances.
+However, this is not always the case if the den-
+sity distribution within the beam is diﬀerent. If
+the beam contains higher fraction of relatively
+dense material, then molecules with higher crit-
+ical densities have a larger area/volume where
+they can emit. This higher fraction of dense
+gas can result in higher apparent abundances
+even when the abundances are derived using
+multiple transitions. If this excitation factor
+plays a role in the ratio of column densities,
+discussion of variation of fractional abundances
+are only valid when the column density ratios
+are obtained using molecules with similar criti-
+cal densities for both numerator and denomina-
+tor. 13CO is a good denominator for molecules
+with low critical densities while CS is suitable
+for high ncrit molecules. We have already men-
+tioned in Section 3.2.1 that molecules may emit
+at lower densities than the critical densities, but
+molecules such as CS still emit more eﬀectively
+at higher densities than 13CO ( Watanabe et al.
+2017; Nishimura et al. 2017 ).
+4.1. Comparison within NGC 3256
+We ﬁrst compare the chemistry among the
+8 positions we analyzed in NGC 3256. Here
+we focus our discussion on selected species
+Chemistry of the infrared luminous merger NGC 3256 9
+such as species with higher critical densities
+(HCN, HCO +, CS, and CN), species enhanced
+with shocks (SiO, CH 3OH, HNCO), species en-
+hanced in PDRs (CCH, HOC +), and species
+seen in cold dense cores (N 2H+). We also
+discuss CH 3CCH because it was proposed to
+be AGN/starburst diagnostics by Aladro et al.
+(2015). We omit discussion of species detected
+in 3 or less positions (c-C 3H2, CH 3CN, and
+CO+), some isotopologues (H 13CO+ and C 34S),
+and species with little variation among positions
+(SO, NO, and H 2CO). We arrange the column
+density ratios by CS column densities in the de-
+scending order in Figures 8 - 9.
+In Figure 8 (top), column density ratios of
+molecules with relatively high critical densities
+over 13CO are plotted in the log scale. To high-
+light the variation among the locations, the col-
+umn density ratios over 13CO normalized to the
+value at the location “N” are shown in Fig-
+ure 8 (bottom) also in the log scale. Variation
+of column density ratios seem similar among
+molecules. Although it is possible that the
+fractional abundances of those molecules vary
+among those positions in a similar way, it is
+likely that the variation of excitation condition
+within the beam discussed earlier in Section 4 is
+changing those apparent fractional abundances.
+On the other hand, there is variation of de-
+rived column density ratios that is likely caused
+by diﬀerences in fractional abundances of cer-
+tain molecules. Behavior of such molecules are
+described below, and column densities are plot-
+ted in Figure 9.
+SiO: The column density ratios of SiO over
+13CO and over CS show both enhancement at
+the position OS. Silicon monoxide is expected to
+be enhanced in strong shocks of velocity vshock >
+25 km s −1 (Gusdorf et al. 2008 ) due to sputter-
+ing from the dust core. Although it was claimed
+that there is a correlation between SiO intensity
+and X-ray strength (Amo-Baladr´ on et al. 2009),
+this correlation is a weak one. It is indeed the-
+oretically possible that X-ray heats up the dust
+enough to make it sublimate, SiO as an XDR
+tracer should be taken with a caution. If this
+outﬂow is an AGN-induced outﬂow, both shocks
+and X-rays are naturally expected.
+CH3OH: Column density ratios of CH 3OH
+vary in a similar way to that of SiO although the
+enhancement at one of the tidal arm positions
+(TSW) is also prominent for CH 3OH. CH 3OH
+is known to be enhanced in weak shocks. For
+methanol, there are other mechanisms to in-
+crease its abundance in the gas-phase such as
+cosmic-ray or UV-induced photo-desorption, or
+chemical desorption. However, chemical des-
+orption should aﬀect the larger galactic scale,
+and cannot explain variation within NGC 3256.
+For the case of cosmic-ray or UV-induced photo-
+desorption, if it is increasing the abundances of
+methanol, it should be abundant in the two nu-
+clei. The methanol abundances in the two nu-
+clei are rather low. Therefore, if UV-photons
+or cosmic rays aﬀect the methanol abundances,
+it is likely to decrease methanol abundances
+by photodissociation rather than to increase
+by photo-desorption. Therefore, we regard it
+most likely that methanol is enhanced by the
+shock due to the merger interaction or an out-
+ﬂow. Similar enhancement of methanol in the
+region of merger interaction was also reported
+by Saito et al. (2017) in VV114, a merger with
+a larger nuclear separation.
+HNCO: Observation in other galaxies show
+that the intensities of HNCO vary in a similar
+way as CH 3OH when statistically analized po-
+sition by position ( Meier & Turner 2005 , 2012;
+Meier et al. 2015 ). When seen in a large frac-
+tional abundance, the major formation route
+of HNCO is likely from grain surface reaction
+(Quan et al. 2010 ) similarly to CH 3OH. In po-
+sitions we analyze, positional variation of col-
+umn densities of CH 3OH and HNCO are simi-
+lar to each other expect for the N nucleus. A
+possible reason for the diﬀerence in the N nu-
+10 Harada et al.
+cleus might be that HNCO and CH 3OH abun-
+dances may act diﬀerently to the dust temper-
+ature. Methanol abundances decrease at high
+dust temperature because the hydrogen atom
+evaporate faster at the high dust temperatures,
+and the hydrogen atom is less likely to react
+(Acharyya & Herbst 2016 ). HNCO may be able
+to sustain its abundance at higher dust tem-
+peratures than CH 3OH because there is less
+number of hydrogen necessary for HNCO. This
+temperature dependence of HNCO needs to be
+tested with chemical models. For the case of
+SiO column density ratios, there is a good cor-
+relation between HNCO column density ratios.
+Such correlation between HNCO and SiO was
+also proposed in Galactic high-mass star form-
+ing regions ( Zinchenko et al. 2000 ). A survey
+of several galaxies by Mart ´ ın et al.(2009) also
+suggested that a higher ratio of HNCO is a char-
+acteristic for an early stage of starburst, domi-
+nated by shocks, instead of UV-photons.
+N2H+: In Galactic star-forming regions,
+N2H+ emission is usually associated with dense
+cores (e.g., Storm et al. 2014 ; Pety et al. 2017 ).
+In our observations, column density ratios of
+N2H+ over CS do not show clear variation, but
+the ratios over 13CO show a slightly higher value
+in the N nucleus than the S nucleus. It can be
+explained if the N nucleus contains more dense
+clouds than the S nucleus as argued in Section
+3.2.
+HC3N: In Galactic molecular clouds, higher
+abundances of cyanoacetylene (HC 3N) are usu-
+ally detected in dense cold clouds or hot proto-
+stellar cores. For extragalactic sources, it has
+been found that the compact obscured nuclei
+such as NGC 4418 and Arp 220 have high frac-
+tional abundance of HC 3N ( Aalto et al. 2007 ;
+Costagliola & Aalto 2010 ; Mart ´ ın et al. 2011;
+Lindberg et al. 2011 ). Since HC 3N is enhanced
+in star-forming regions, one can expect that
+HC3N is more enhanced in regions of higher
+star formation eﬃciency. Although only the
+N and S nuclei are known to have star forma-
+tion ( Lira et al. 2008 ) (and possibly a position
+TNE with a tentative detection of H40 α in this
+paper), N(HC3N)/N(13CO) is also enhanced in
+position C, a tidal arm with possible interaction
+with components.
+CH3CCH: Propyne (CH 3CCH) has been
+proposed as a diagnostics of starburst versus
+AGN by Aladro et al. (2015); starburst galaxies
+have high abundances of CH 3CCH while AGN-
+containing galaxies do not have detections of
+CH3CCH. However, the reason behind this ob-
+servational trend is still unknown. In NGC
+3256, although the S nucleus is the likely AGN
+host, CH 3CCH column density ratios in the S
+nucleus are equivalent to or higher than in the
+N nucleus.
+HOC+: HOC+ is a metastable isomer of
+HCO+, and it needs irradiation from strong
+UV ﬁeld ( Goicoechea et al. 2017 ) or X-rays
+(Usero et al. 2004 ) to keep its abundance high.
+In NGC 3256, positions where HOC + is en-
+hanced are C and OS although the detection in
+OS is also tentative, and the error bars are large.
+The position OS contains the high-velocity gas
+coming from the outﬂow, and the position C
+also contains gas from the red-shifted outﬂow
+component (Figure 1 middle). The connection
+with the HOC + abundance and the outﬂow can
+be suspected. However, the connection between
+the HOC + enhancement and the outﬂow can-
+not be directly conﬁrmed in the high-velocity
+gas alone because the high-velocity components
+are too weak to be detected for HOC +.
+CCH: Ethnyl radical (CCH) is known to
+be enhanced in PDRs (e.g., Cuadrado et al.
+2015), but there are also abundant in the
+early-time chemistry, and has been observed in
+the quiescent starless core such as TMC-1(CP)
+(Smith et al. 2004 ). Although CCH was also
+recently found in the outﬂow from an AGN in
+NGC 1068 ( Garc ´ ıa-Burillo et al. 2017), its en-
+hancement in the outﬂow is not seen in NGC
+Chemistry of the infrared luminous merger NGC 3256 11
+3256. This case is similar to NGC 1097, where
+no particular enhancement was seen around
+the AGN for CCH ( Mart ´ ın et al. 2015). Their
+abundances in NGC 3256 is highest in the N nu-
+cleus if the column density ratios over 13CO, but
+there is less variation among positions within
+NGC 3256 for ratios over CS.
+4.2. Comparison with other galactic nuclei
+We next compare the chemistry in the nuclear
+positions in NGC 3256 and that of NGC 253 and
+Arp 220, galaxies with diﬀerent star formation
+rates and eﬃciencies. The properties of these
+galaxies are summarized in Table 4.
+NGC 253 is a well-studied, nearby starburst
+galaxy. The molecular gas distribution of the
+central molecular zone (CMZ) is similar to that
+of the Milky Way. However, the star formation
+rate inside is much higher than the Milky Way
+CMZ. Yet, NGC 3256 has even higher star for-
+mation rate within its CMZs. For NGC 253,
+we use the results by Aladro et al. (2015) taken
+by IRAM 30-meter telescope. The angular res-
+olution of this IRAM study is 17 ′′ − 24′′, which
+converts into 300 − 400 pc. This spatial scale is
+equivalent to the spatial resolution in our anal-
+ysis of NGC 3256, which is ∼ 300 pc.
+Like NGC 3256, Arp 220 is also a merger,
+but has even higher luminosity than NGC 3256.
+The nuclear separation of the two nuclei in Arp
+220 is ∼ 400 pc on the sky, which is smaller
+than in the NGC3256. The column densities
+in Arp 220 are taken from results by Mart ´ ın et
+al. (in preparation) where they used ALMA
+for the spectral scan of Bands 6 and 7 (see
+Mart ´ ın et al. 2016, for some description of
+these data). The exact values of column densi-
+ties and errors will be found in Mart ´ ın et al. (in
+preparation).6 Their spatial resolution is also
+around 300 pc.
+The column density ratios of the nuclei in
+NGC 253, NGC 3256, and Arp 220 are plot-
+ted in Figures 10 and 11, and these ratios are
+discussed below.
+HCN, HCO +, CS, and CN: The column
+density ratios of HCN, HCO +, CS, and CN seem
+to follow similar trends; ratios are similar in
+NGC 3256(S & SW) and NGC 253, but values
+in NGC 3256(N), Arp 220 (E & W) are a factor
+of a few higher. Some exceptions are suppressed
+CN and HCO + by a factor of a few in Arp 220
+compared with other species, and slightly en-
+hanced CS in Arp 220 (W).
+SiO: Among the galactic nuclei, Arp 220
+has the highest column density ratios of SiO
+both over 13CO and CS. The spectral shapes
+observed in Arp 220 strongly suggests that
+it has molecular outﬂows from the both nu-
+clei ( Sakamoto et al. 2009 ) with the one from
+the western nucleus being more prominent
+(Sakamoto et al. 2017 ). It has been already dis-
+cussed in Section 4.1 that the outﬂow from the
+N nucleus in NGC 3256 does not contribute to
+high SiO abundances. Unlike the outﬂow from
+the S nucleus in NGC 3256, each outﬂow in Arp
+220 should be within the beam that covers each
+nucleus. These outﬂows might be the reason
+for the higher SiO abundances in Arp 220. An
+alternative explanation is that there are more
+cloud-cloud collisions in the dense and compact
+nuclei of Arp 220.
+CH3OH and HNCO: Column density ratios
+of CH 3OH and HNCO are lowest in the NGC
+6 We note that the analysis in Mart ´ ın et al. (in prepa-
+ration) did not use the Gaussian ﬁt to the observed
+spectra for the calculation of column densities because
+they are severely aﬀected by absorption at the line cen-
+ter. They use the side of the lines to calculate column
+densities. Therefore, we claim that the error of column
+densities from absorption is minimized, but it cannot
+be claimed that those values are free from absorption
+eﬀects.
+12 Harada et al.
+3256 nuclei than NGC 253 and Arp 220. As
+mentioned above, there are nuclear outﬂows in
+Arp 220, which can enhance the methanol and
+HNCO abundance. At the same time, NGC
+253 also has evidence of an outﬂow from the
+starburst (Sakamoto et al. 2006b ; Bolatto et al.
+2013). Alternatively, an enhancement in NGC
+253 may be due to the cloud-cloud collision
+at the intersection of galactic orbits. Similar
+to SiO, the N nucleus of NGC 3256 does not
+seem to enhance CH 3OH and HNCO by large
+amount.
+N2H+: Although the column density ratios of
+N(N2H+)/N(13CO) have variation among the
+galactic nuclei, ratios N(N2H+)/N(CS) have
+very little variation. This lack of variation
+may indicate that the column density ratios
+of N(N2H+)/N(13CO) may be the direct mea-
+sure of dense cloud fraction, and that, within
+the dense gas, N 2H+ abundance does not vary
+much with respect to other molecules tracing
+the dense gas.
+HC3N: Here we can examine the relation of
+HC3N fractional abundances and the star for-
+mation eﬃciency (= τ −1dep, see Table 4). Al-
+though galactic nuclei with higher star forma-
+tion eﬃciency tend to have higher HC 3N/13CO
+ratios, variation among sources are not as large
+as the star formation eﬃciency itself (see also
+discussion in Section 5.3).
+CH3CCH: Column density ratios
+CH3CCH/13CO appear to be higher in
+sources with higher star formation eﬃciencies
+(see Section 5.3). However, as mentioned
+earlier, the behavior of this molecule is not
+well-known, and it is unclear what mechanism
+is causing the enhancement with higher star
+formation activity.
+HOC+: Ratios N(HOC+)/N(13CO) is
+the highest in Arp220W, but there is
+little variation among the galactic nu-
+clei for N(HOC+)/N(CS). However, if
+N(HOC+)/N(HCO+) is plotted, it is also
+the highest in Arp220W (Figure 12). Since
+N(HOC+)/N(HCO+) is more reliable because
+it is not aﬀected by the diﬀerence of elemental
+abundance, HOC + abundance in Arp 220W
+is likely higher than in other sources. Since
+Arp220W has a prominent outﬂow, the con-
+nection of HOC + with outﬂows may be seen
+here again, but it needs to be conﬁrmed with
+high-resolution imaging of Arp 220 in HOC +.
+The eﬀect of starburst in Arp 220 may also be
+the reason of increased N(HOC+)/N(HCO+).
+CCH: Since CCH is known to be a PDR
+tracer, one might expect higher fractional abun-
+dances of CCH in galaxies with higher star for-
+mation rates. However, this is not necessarily
+the case. A possible reason is the diﬀerences in
+the mean density. When the mean density in
+the ISM is very high, only a fraction of volume
+can be inﬂuenced by UV-photons because those
+photons become attenuated before reaching far
+from the vicinity of OB stars, and the enhance-
+ment of PDR tracers cannot be seen in a large
+scale.
+4.3. Comparison with a Galactic spiral arm
+region
+Here we compare the chemical compositions of
+the tidal arm positions in our study with the one
+in W51 for relevant comparison among spiral
+arm positions. W51 is a molecular cloud com-
+plex in the Sagittarius arm in the Milky Way
+at the distance of 5.4 kpc ( Sato et al. 2010 ).
+Within W51, there is an active star-forming
+region, which include a hot core W51 e1/e2.
+Watanabe et al. (2017) mapped various molec-
+ular species in ∼ 40 pc×50 pc region in W51,
+and studied the average chemistry within this
+region so that their results can be compared
+with extragalactic interferometric observations
+taken with beam sizes of at least tens of par-
+secs. We do not discuss HOC + here because
+this species was not detected in the averaged
+spectra of W51. Although their spatial scale is
+a factor of several smaller than our resolution,
+Chemistry of the infrared luminous merger NGC 3256 13
+we assume that there are molecular clouds with
+sizes similar to that of W51 within our beam,
+and compare the chemistry in the NGC 3256
+arm positions and W51. Since Watanabe et al.
+(2017) only had data in the 3-mm band, they
+derived column densities using excitation tem-
+peratures of Tex = 10, 15, 20 K. Because the ex-
+citation temperatures of our results are Tex =
+10 K or less, we use their column densities us-
+ing Tex = 10 K. Although Tex of some molecules
+are ∼ 5 K or so, we checked that the derived
+column densities do not vary signiﬁcantly if we
+derive them by assuming Tex = 10 K for those
+molecules.
+HCN, HCO+, CS, and CN: Molecules with
+higher critical densities have higher column den-
+sities ratios over 13CO at the tidal arm positions
+in NGC 3256 than in W 51 (Figure 13). This
+trend may indicate the higher fraction of dense
+cloud in the beam in NGC 3256 tidal arms as
+discussed at the beginning of Section 4, where
+we suggest the variation of these ratios come
+from the variation of dense gas fraction within
+NGC 3256.
+Column density ratios of other species are
+plotted in Figure 14.
+SiO: The column density ratios of SiO both
+over 13CO and CS at the position TSW are
+much higher than the upper limit in W51. This
+high abundance of SiO indicates more strong
+shocks in TSW of NGC 3256, possibly caused
+by the merger interaction. The upper limits at
+positions TNE and TSE are higher than that of
+W51, hence it is unknown whether these posi-
+tions have more inﬂuence from shocks.
+CH3OH and HNCO: Similarly to SiO,
+higher column density ratios of methanol and
+HNCO in NGC 3256 than in W51 are seen for
+ratios both over 13CO and CS. Unlike SiO and
+HNCO, the enhancement is also seen in position
+TSE as well as in TSW for methanol.
+N2H+: The trend of column density ratios
+of N 2H+ over 13CO and CS is similar to that
+of HC 3N. The ratios over 13CO are higher in
+NGC 3256 positions than that in W 51, but
+there is no obvious variation among positions
+for ratios over CS. Since N 2H+ is also abundant
+in more compact regions just like HC 3N, the
+same explanation for HC 3N can possibly used
+for this trend.
+HC3N: Ratios N(HC3N)/N(13CO) are higher
+in the tidal arm positions in NGC 3256 than in
+W 51. However, the values of N(HC3N)/N(CS)
+have very little variation among sources. In
+Galactic GMCs, HC 3N comes from more com-
+pact regions than CS. If this is the case also in
+NGC 3256, our results indicate that within a
+CS-emitting cloud, there is a similar fraction of
+HC3N-emitting cores both in NGC 3256 and in
+W 51.
+CH3CCH: In the tidal arm positions
+in NGC 3256, N(CH3CCH)/N(13CO) and
+N(CH3CCH)/N(CS) are higher than in W 51.
+The ratio is the highest in TNE, the only oﬀ-
+nucleus position where H40 α was detected. A
+hint of positive correlation between the star for-
+mation rate and CH 3CCH is again seen here,
+but the reason behind needs more investigation.
+CCH: Ratios N(CCH)/N(13CO) have higher
+values at the tidal arm position of NGC 3256
+than in W 51, and N(CCH)/N(CS) does not
+vary much among those positions. This trend is
+similar to N 2H+ and HC3N. However, CCH hav-
+ing this similarity with N 2H+ and HC 3N is puz-
+zling because CCH is usually thought to come
+from rather extended regions.
+5. DISCUSSION
+5.1. 13CO and C 18O anomaly in LIRGs
+It has been pointed out that the 12CO/13CO
+and 12C16O/C18O intensity ratios in luminous
+infrared galaxies are higher than in normal
+spiral galaxies ( Aalto et al. 1991 ; Casoli et al.
+1992). Casoli et al. (1992) concluded that 13CO
+and C 18O lines are about four times weaker
+in NGC 3256 than what is normally expected
+14 Harada et al.
+from 12CO in their single-dish observations.
+This variation in intensity ratios can be caused
+by excitation eﬀects such as high temperature
+or turbulence ( Aalto et al. 1991 , 2010; Davis
+2014). Turbulence can increase 12CO/13CO
+by causing 12CO to be less optically thick, or
+turbulence occurs at the position where the
+low-metallicity gas inﬂows ( Henkel et al. 2014 ;
+K¨ onig et al. 2016). If this is the case, our
+chemistry analysis using column density ratios
+N(X)/N(13CO) is not aﬀected.
+However, it can also be caused by abun-
+dance deﬁcit of 13C due to very young star-
+burst or top-heavy initial mass function as pro-
+posed by Sliwa et al. (2017). The abundance
+ratio of 12CO/13CO can also increase by the se-
+lective photo-desorption of 13CO because 13CO
+is less likely to be self-shielded. If it is caused
+by the elemental abundances of 12C/13C, our
+derived column density ratios N(X)/N(13CO)
+may not reﬂect variation of only N(X), but
+also of N(13CO). If 12CO/13CO column den-
+sity ratios are higher in the tidal arm positions
+of NGC 3256 than in W 51, the higher ratios of
+N(X)/N(13CO) for most species in NGC 3256
+shown in Figures 13 and 14 are due to varia-
+tion of N(13CO), and not N(X). Further ob-
+servations are needed to obtain the spatial de-
+pendence of 12C/13C, and we leave it as future
+work.
+5.2. Excitation or abundance?
+From the variation of column density ratios of
+molecules with high critical densities over 13CO,
+we have argued that this variation should be a
+reﬂection of multiple components of diﬀerent ex-
+citation conditions within the beam showing up
+as variation of apparent abundances. However,
+we cannot exclude the possibility that intrinsic
+variation of abundances is playing a role. The
+molecules we show in Figure 8, HCN, HCO +,
+CS, and CN do have dependence on the temper-
+ature, the density, the UV or cosmic-ray ioniza-
+tion rate, but it is diﬃcult to think that those
+molecules all have similar variation among po-
+sitions. Therefore, it is more likely that the
+density distribution function is the largest con-
+tributing factor of this variation.
+5.3. Eﬀects of starburst on the chemical
+composition
+If some molecules emit only from compact
+star-forming regions, then the column densi-
+ties of these molecules are proportional to the
+surface number density of the star-forming re-
+gions and hence should be proportional to the
+star formation rate in the observed area. For
+such molecules N(X)/N(13CO) should be pro-
+portional to the star formation eﬃciencies as-
+suming that N(13CO) ∝ N(H2). Some column
+density ratios in Figure 11 are rearranged by
+the star formation eﬃciencies in Figure 15. As
+obviously seen in Figure 15, error bars on the
+star formation eﬃciencies are large due to un-
+certainty in molecular mass. Therefore, the pre-
+cise relation cannot be determined, but there
+are some trends that can be discussed as below.
+Although HC 3N and N 2H+ are molecules found
+preferentially in denser regions, those molecules
+do not have strong correlation with the star for-
+mation eﬃciency when compared among diﬀer-
+ent galactic nuclei. NGC 3256 has at least a fac-
+tor of a few, but more likely about an order of
+magnitude, star formation eﬃciency than NGC
+253, while Arp 220 and NGC 3256 have simi-
+lar star formation eﬃciencies. The diﬀerences
+of N(HC3N)/N(13CO) and N(N2H+)/N(13CO)
+among the three galactic nuclei are not as large
+as the variation of star formation eﬃciency.
+There are a few possible reasons for this lack
+of correlation between the abundances of those
+molecules and the star formation eﬃciencies.
+First, those molecules may not be tracing the
+star-forming regions. For example, HC 3N may
+also be enhanced in shocks (e.g., Harada et al.
+2015). Another explanation is that HC 3N is
+prone to dissociation by UV-photons, and may
+decrease in abundances in PDRs. N 2H+ abun-
+Chemistry of the infrared luminous merger NGC 3256 15
+dances may also be inﬂuenced by the cosmic-ray
+ionization rate. Second, molecular clouds may
+already be reﬂecting the next time step of star
+formation because those clouds are places of fu-
+ture star formation. If the feedback form the
+existing stars is suppressing the on-going star
+formation, the chemistry is unlikely to reﬂect
+the star formation rate. However, it is hard
+to assume that NGC 3256 is already quench-
+ing star formation before the ﬁnal stage of the
+merging event.
+The column density ratios
+N(CH3CCH)/N(13CO) do seem to vary as
+the star formation eﬃciency, but the behavior
+of this molecule still needs to be understood.
+5.4. Eﬀects of a merging event on the
+properties of the ISM
+From our observations of SiO and CH 3OH, it
+is likely that frequent shocks are occurring in
+tidal arms of NGC 3256. Such shocked ISM
+is also proposed to be present galaxy-wide in
+NGC 3256 from observations of optical emis-
+sion lines by Rich et al. (2011), and they sug-
+gested shocks as important mechanism to dis-
+sipate kinetic energy and angular momentum,
+which can promote the transport of gas into the
+central regions. Our observations also suggest
+higher fraction of dense clouds in the tidal arms
+of NGC 3256 than in W 51, likely due to the
+compression from the shock. If such compres-
+sion occurs, one could ask a question whether
+this compression can induce star formation by
+cloud-cloud collision. Judging from the IR ob-
+servations and the radio recombination line in
+our observations, there is no such evidence of
+enhancement. In fact, positions with high abun-
+dance of shock molecular tracers such as TSE or
+TSW are the positions that lack the evidence of
+star formation.
+6. SUMMARY
+We have conducted a molecular line survey us-
+ing ALMA Band 3 and Band 6 in an infrared-
+luminous merger NGC 3256. This paper ﬁrst
+presents continuum images, velocity-integrated
+intensity maps, and intensity ratio maps. From
+the observed intensities, column densities of de-
+tected molecules are derived in 8 positions of in-
+terest including the two nuclei, tidal arms posi-
+tions, and outﬂow positions. We have compared
+the derived molecular compositions within NGC
+3256, among some galactic nuclei in NGC 3256,
+Arp 220, and NGC 253, and between the tidal
+arms of NGC 3256 and a spiral arm in our
+Galaxy at W 51.
+Here are our main ﬁndings:
+• The intensity ratios of HCN(1 −
+0)/HCO+(1−0) and HCN(1−0)/CS(2−1)
+are lower in the S nucleus than in the N
+nucleus. The S nucleus has some signs
+of an AGN while the N nucleus does not
+have any evidence of an AGN. Previous
+statistical studies of HCN/HCO + and
+HCN/CS in other galaxies showed en-
+hanced ratios in AGN-containing galaxies
+(Kohno et al. 2001 ; Imanishi & Nakanishi
+2014; Izumi et al. 2016 ), and our results
+in NGC 3256 do not follow this trend.
+• Higher inﬂuence of shock is found in the
+outﬂow position from the southern galaxy
+of NGC 3256 shown in SiO observations.
+• Comparing the chemistry of NGC 3256,
+NGC 253, and Arp 220, Arp 220 shows an
+enhancement in N(HC3N)/N(13CO) and
+N(SiO)/N(13CO). The enhancement of
+HC3N is likely to be caused by the hot and
+dense ISM of Arp 220, while SiO abun-
+dances may be increased due to the shock
+from the outﬂows.
+• We examined the relationship with the
+column density ratios over 13CO of ob-
+served species among the galactic nuclei of
+NGC 3256, NGC 253, and Arp 220. The
+only ratio that seems to positively cor-
+relate with the star formation eﬃciency
+16 Harada et al.
+is N(CH3CCH)/N(13CO), which needs
+more understanding of major formation
+and destruction routes.
+• The tidal arm positions in NGC 3256
+also have strong inﬂuence of shock com-
+pared with Galactic spiral arm position.
+They also show hints of compression due
+to higher apparent column density ratios
+of molecules with higher critical densities
+over 13CO, but these ratios may also be
+due to lower 13C elemental abundances.
+Our line survey in two frequency bands has
+highlighted the chemical and physical variation
+of the ISM within NGC 3256 and among galax-
+ies. Further analysis of the physical conditions
+such as the temperature and the density us-
+ing the large velocity gradient analysis would
+help our understanding of the chemistry. The
+physics and the chemistry of outﬂow features
+are worth future follow-up studies.
+We are extremely grateful to the ALMA
+staﬀ for their service in observations, quality
+assessment, and local assistance at Tai-
+wanese ALMA regional center (ARC). This
+paper makes use of the following ALMA
+data: ADS/JAO.ALMA#2015.1.00412.S,
+ADS/JAO.ALMA#2016.1.00965.S,
+ADS/JAO.ALMA#2015.1.00993.S, and
+ADS/JAO.ALMA#2011.0.00525.S. ALMA
+is a partnership of ESO (representing its mem-
+ber states), NSF (USA) and NINS (Japan),
+together with NRC (Canada), MOST and
+ASIAA (Taiwan), and KASI (Republic of
+Korea), in cooperation with the Republic
+of Chile. The Joint ALMA Observatory is
+operated by ESO, AUI/NRAO and NAOJ.
+KSa and NH were supported by the grant
+MOST 106-2119-M-001-025 from the Ministry
+of Science and Technology, Taiwan.
+Facilities: ALMA
+Software: CASA (v4.5.3, v4.6,
+and v4.7 McMullin et al. 2007 ),
+MADCUBA (http://cab.inta-
+csic.es/madcuba/Portada.html)
+REFERENCES
+Aalto, S., Beswick, R., & J¨ utte, E. 2010, A&A,
+522, A59
+Aalto, S., Garcia-Burillo, S., Muller, S., Winters,
+J. M., van der Werf, P., Henkel, C., Costagliola,
+F., & Neri, R. 2012, A&A, 537, A44
+Aalto, S., Johansson, L. E. B., Booth, R. S., &
+Black, J. H. 1991, A&A, 249, 323
+Aalto, S., Monje, R., & Mart ´ ın, S. 2007, A&A,
+475, 479
+Aalto, S., Polatidis, A. G., H¨ uttemeister, S., &
+Curran, S. J. 2002, A&A, 381, 783
+Aalto, S., et al. 2015a, A&A, 574, A85
+—. 2015b, A&A, 584, A42
+Acharyya, K., & Herbst, E. 2016, ApJ, 822, 105
+Aladro, R., et al. 2015, A&A, 579, A101
+Amo-Baladr´ on, M. A., Mart ´ ın-Pintado, J., Morris,
+M. R., Muno, M. P., & Rodr ´ ıguez-Fern´ andez,
+N. J. 2009, ApJ, 694, 943
+Ando, R., et al. 2017, ApJ, 849, 81
+Barcos-Mu˜ noz, L., et al. 2015, ApJ, 799, 10
+Bolatto, A. D., et al. 2013, Nature, 499, 450
+Casoli, F., Dupraz, C., & Combes, F. 1992, A&A,
+264, 49
+Costagliola, F., & Aalto, S. 2010, A&A, 515, A71
+Costagliola, F., et al. 2015, A&A, 582, A91
+Cuadrado, S., Goicoechea, J. R., Pilleri, P.,
+Cernicharo, J., Fuente, A., & Joblin, C. 2015,
+A&A, 575, A82
+Davis, T. A. 2014, MNRAS, 445, 2378
+D’Onghia, E., Vogelsberger, M., Faucher-Giguere,
+C.-A., & Hernquist, L. 2010, ApJ, 725, 353
+Emonts, B. H. C., Piqueras-L´ opez, J., Colina, L.,
+Arribas, S., Villar-Mart ´ ın, M.,
+Pereira-Santaella, M., Garcia-Burillo, S., &
+Alonso-Herrero, A. 2014, A&A, 572, A40
+Garc ´ ıa-Burillo, S., et al. 2014, A&A, 567, A125
+—. 2017, A&A, 608, A56
+Goicoechea, J. R., et al. 2017, A&A, 601, L9
+Chemistry of the infrared luminous merger NGC 3256 17
+Gusdorf, A., Cabrit, S., Flower, D. R., & Pineau
+Des Forˆ ets, G. 2008, A&A, 482, 809
+Haan, S., et al. 2011, AJ, 141, 100
+Harada, N. 2017, in IAU Symposium, Vol. 332,
+Astrochemistry VII - Through the Cosmos from
+Galaxies to Planets, ed. M. Cunningham, T. J.
+Millar, & Y. Aikawa, in press
+Harada, N., Herbst, E., & Wakelam, V. 2010,
+ApJ, 721, 1570
+Harada, N., et al. 2015, A&A, 584, A102
+Henkel, C., et al. 2014, A&A, 565, A3
+Imanishi, M., & Nakanishi, K. 2014, AJ, 148, 9
+Izumi, T., et al. 2016, ApJ, 818, 42
+Kauﬀmann, J., Goldsmith, P. F., Melnick, G.,
+Tolls, V., Guzman, A., & Menten, K. M. 2017,
+A&A, 605, L5
+Kohno, K., Matsushita, S., Vila-Vilar´ o, B.,
+Okumura, S. K., Shibatsuka, T., Okiura, M.,
+Ishizuki, S., & Kawabe, R. 2001, in
+Astronomical Society of the Paciﬁc Conference
+Series, Vol. 249, The Central Kiloparsec of
+Starbursts and AGN: The La Palma
+Connection, ed. J. H. Knapen, J. E. Beckman,
+I. Shlosman, & T. J. Mahoney, 672
+K¨ onig, S., Aalto, S., Muller, S., Gallagher, J. S.,
+Beswick, R. J., Xu, C. K., & Evans, A. 2016,
+A&A, 594, A70
+Leitherer, C., Chandar, R., Tremonti, C. A.,
+Woﬀord, A., & Schaerer, D. 2013, ApJ, 772, 120
+Leroy, A. K., et al. 2015, ApJ, 801, 25
+Lindberg, J. E., Aalto, S., Costagliola, F.,
+P´ erez-Beaupuits, J.-P., Monje, R., & Muller, S.
+2011, A&A, 527, A150
+Lira, P., Gonzalez-Corvalan, V., Ward, M., &
+Hoyer, S. 2008, MNRAS, 384, 316
+Lira, P., Ward, M., Zezas, A., Alonso-Herrero, A.,
+& Ueno, S. 2002, MNRAS, 330, 259
+Loenen, A. F., Spaans, M., Baan, W. A., &
+Meijerink, R. 2008, A&A, 488, L5
+Mart ´ ın, S., Mart ´ ın-Pintado, J., & Mauersberger,
+R. 2009, ApJ, 694, 610
+Mart ´ ın, S., et al. 2011, A&A, 527, A36
+—. 2015, A&A, 573, A116
+—. 2016, A&A, 590, A25
+McMullin, J. P., Waters, B., Schiebel, D., Young,
+W., & Golap, K. 2007, in Astronomical Society
+of the Paciﬁc Conference Series, Vol. 376,
+Astronomical Data Analysis Software and
+Systems XVI, ed. R. A. Shaw, F. Hill, & D. J.
+Bell, 127
+Meier, D. S., & Turner, J. L. 2005, ApJ, 618, 259
+—. 2012, ApJ, 755, 104
+Meier, D. S., et al. 2015, ApJ, 801, 63
+Nakajima, T., et al. 2015, PASJ, 67, 8
+Neﬀ, S. G., Ulvestad, J. S., & Campion, S. D.
+2003, ApJ, 599, 1043
+Nishimura, Y., Watanabe, Y., Harada, N.,
+Shimonishi, T., Sakai, N., Aikawa, Y.,
+Kawamura, A., & Yamamoto, S. 2017, ApJ,
+848, 17
+Ohyama, Y., Terashima, Y., & Sakamoto, K.
+2015, ApJ, 805, 162
+Pety, J., et al. 2017, A&A, 599, A98
+Privon, G. C., et al. 2017, ApJ, 835, 213
+Quan, D., Herbst, E., Osamura, Y., & Roueﬀ, E.
+2010, ApJ, 725, 2101
+Rich, J. A., Kewley, L. J., & Dopita, M. A. 2011,
+ApJ, 734, 87
+Saito, T., et al. 2017, ApJ, 834, 6
+Sakamoto, K., Aalto, S., Combes, F., Evans, A., &
+Peck, A. 2014, ApJ, 797, 90
+Sakamoto, K., Aalto, S., Evans, A. S., Wiedner,
+M. C., & Wilner, D. J. 2010, ApJL, 725, L228
+Sakamoto, K., Ho, P. T. P., & Peck, A. B. 2006a,
+ApJ, 644, 862
+Sakamoto, K., et al. 2006b, ApJ, 636, 685
+—. 2009, ApJL, 700, L104
+—. 2017, ApJ, 849, 14
+Sanders, D. B., Mazzarella, J. M., Kim, D.-C.,
+Surace, J. A., & Soifer, B. T. 2003, AJ, 126,
+1607
+Sato, M., Reid, M. J., Brunthaler, A., & Menten,
+K. M. 2010, ApJ, 720, 1055
+Sch¨ oier, F. L., van der Tak, F. F. S., van Dishoeck,
+E. F., & Black, J. H. 2005, A&A, 432, 369
+Shirley, Y. L. 2015, PASP, 127, 299
+Sliwa, K., Wilson, C. D., Aalto, S., & Privon,
+G. C. 2017, ApJL, 840, L11
+Smith, I. W. M., Herbst, E., & Chang, Q. 2004,
+MNRAS, 350, 323
+Sorai, K., Nakai, N., Kuno, N., Nishiyama, K., &
+Hasegawa, T. 2000, PASJ, 52, 785
+Stierwalt, S., et al. 2013, ApJS, 206, 1
+Storm, S., et al. 2014, ApJ, 794, 165
+Takano, S., et al. 2014, PASJ, 66, 75
+Tully, R. B., et al. 2013, AJ, 146, 86
+Usero, A., Garc ´ ıa-Burillo, S., Fuente, A.,
+Mart ´ ın-Pintado, J., & Rodr ´ ıguez-Fern´ andez,
+N. J. 2004, A&A, 419, 897
+Viti, S., et al. 2014, A&A, 570, A28
+18 Harada et al.
+Watanabe, Y., Nishimura, Y., Harada, N., Sakai,
+N., Shimonishi, T., Aikawa, Y., Kawamura, A.,
+& Yamamoto, S. 2017, ApJ, 845, 116
+Zinchenko, I., Henkel, C., & Mao, R. Q. 2000,
+A&A, 361, 1079
+Chemistry of the infrared luminous merger NGC 3256 19
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+N
+S
+C
+TNE
+TSE
+TSW
+OS
+SW
+500 pc
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+HCN(1-0) high v
+500 pc
+Figure 1. (Left) Eight positions analyzed in the Section 4 are shown on the velocity-integrated intensity
+map of 13CO (2 − 1). (Middle) Positions of components in HCN (1 − 0) with large velocity shifts from the
+systemic velocity are shown in red contours for the velocity range +225 to +375 km s −1, and blue contours
+for the velocity range -435 to -195 km s −1 relative to the systemic velocity. Contour levels are start ing from
+3σ for every 1 σ. (Right) A schematic image of the merger system of NGC 3256 re produced from a similar
+image in Sakamoto et al. (2014). Two nuclear disks, spiral arms, and outﬂows from both gala xies are shown.
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+500 pc
+0.0000
+0.0005
+0.0010
+0.0015
+0.0020
+0.0025
+0.0030
+0.0035
+Intensity (Jy/beam)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+500 pc 0.0000
+0.0005
+0.0010
+0.0015
+0.0020
+0.0025
+0.0030
+0.0035
+0.0040
+Intensity (Jy/beam)
+Figure 2. Continuum maps at ( lef t) λ = 3 .0 mm and ( right) λ = 1 .2 mm. Contour levels are ( lef t) 5 σ,
+10 σ, 15 σ, 20 σ, and every 20 σ afterwards where 1 σ = 0.022 mJy, and 3 σ, 6 σ, 9 σ, 12 σ, and every 12 σ
+afterwards where 1 σ = 0.043 mJy.
+20 Harada et al.
+100 200 300
+Frequency(GHz)
+3
+10
+30Continuum flux density (mJy)
+Northern Nucleus
+Band 3 fit: α = -0.39 ±0.10
+Band 6 fit: α = 1.99 ±0.09
+Sakamoto et al. (2014)
+100 200 300
+Frequency(GHz)
+3
+10
+30Continuum flux density (mJy)
+Southern Nucleus
+Band 3 fit: α = -0.37 ±0.08
+Band 6 fit: α = 1.16 ±0.10
+Sakamoto et al. (2014)
+Figure 3. Continuum ﬂux densities within 2 .0′′ from the radio peaks of (left:) the northern nucleus and
+(right:) the southern nucleus as a function of frequency fro m our observations in the log scale on both axes.
+Solid line show ﬁts of spectral index for Bands 3 and 6. Values from Cycle 0 by Sakamoto et al. (2014) are
+also plotted as a reference with red triangles. The value in B and 7 from the Cycle 0 observation was taken
+by using both sidebands.
+Chemistry of the infrared luminous merger NGC 3256 21
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+13CO(1-0)
+500 pc 0
+10
+20
+30
+40
+50
+60
+70
+Integarted intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+HCN(1-0)
+500 pc
+0
+40
+80
+120
+160
+200
+240
+280
+320
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+HNC(1-0)
+500 pc 0
+15
+30
+45
+60
+75
+90
+105
+120
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+13CO(2-1)
+500 pc 0
+15
+30
+45
+60
+75
+90
+105
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+HCN(3-2)
+500 pc 0
+20
+40
+60
+80
+100
+120
+140
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+HNC(3-2)
+500 pc 0
+10
+20
+30
+40
+50
+60
+70
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+C18O(1-0)
+500 pc
+0
+3
+6
+9
+12
+15
+18
+21
+Integarted intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+HCO+(1-0)
+500 pc
+0
+40
+80
+120
+160
+200
+240
+280
+320
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+CS(2-1)
+500 pc 0
+6
+12
+18
+24
+30
+36
+42
+48
+Integarted intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+C18O(2-1)
+500 pc
+0
+6
+12
+18
+24
+30
+36
+42
+48
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+HCO+(3-2)
+500 pc 0
+20
+40
+60
+80
+100
+120
+140
+160
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+CS(5-4)
+500 pc
+0
+3
+6
+9
+12
+15
+18
+21
+24
+Integrated intensity (K km/s)
+Figure 4. Velocity-integrated intensity maps of selected observed l ines. Contour levels are every 6 σ for
+13CO (1 − 0), 13CO (2 − 1), HNC(3 − 2), every 3 σ for HCN(1 − 0), C 18O(1 − 0), C 18O(2 − 1), HCO +(1 − 0),
+CS(5 − 4), 6 σ, 12 σ, 18 σ, 24 σ, and every 12 σ for HCN(3 − 2), HCO +(3 − 2), and HNC(1 − 0). The rms
+values are listed in Table 2.
+22 Harada et al.
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+CH3OH(2k-1k)
+500 pc
+0
+2
+4
+6
+8
+10
+12
+14
+16
+Integarted intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+CN(2-1)
+500 pc 0
+40
+80
+120
+160
+200
+240
+280
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+CH3CCH(6k-5k)
+500 pc
+0
+2
+4
+6
+8
+10
+12
+14
+16
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+CH3OH(5k-4k)
+500 pc
+0
+2
+4
+6
+8
+10
+12
+14
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+SiO(2-1)
+500 pc
+0.0
+1.5
+3.0
+4.5
+6.0
+7.5
+9.0
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+CH3CCH(13k-12k)
+500 pc
+0
+2
+4
+6
+8
+10
+12
+14
+16
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+CCH(1-0)
+500 pc
+0
+20
+40
+60
+80
+100
+120
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+H40alpha
+500 pc
+0
+1
+2
+3
+4
+5
+6
+7
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+HC3N(12-11)
+500 pc
+0.0
+1.5
+3.0
+4.5
+6.0
+7.5
+9.0
+10.5
+Integarted intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+CCH(3-2)
+500 pc 0
+15
+30
+45
+60
+75
+90
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+N2H+(1-0)
+500 pc
+0
+4
+8
+12
+16
+20
+24
+28
+Integrated intensity (K km/s)
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+HC3N(10-9)
+500 pc
+0
+2
+4
+6
+8
+10
+12
+14
+Integrated intensity (K km/s)
+Figure 5. Same as Figure 4, but for other transitions. Contour levels are chosen as eve ry 3 σ for CH3OH(2k−
+1k), CCH(1 − 0), every 1 σ starting from 3 σ for CH 3OH (5 k − 4k), SiO(2 − 1), H40α, N 2H+(1 − 0), CH 3CCH
+(6k − 5k), CH 3CCH (13 k − 12k), HC 3N (12 − 11), HC 3N (10 − 9), and every 5 σ for CN(2 − 1), and 3 σ, 6 σ,
+9 σ, 12 σ, and every 6 σ for CCH(2 − 1). For CCH and CN, we integrated the velocity ranges to inclu de all
+the doublets / triplets. The rms values are listed in Table 2.
+Chemistry of the infrared luminous merger NGC 3256 23
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+N
+S
+C
+TNE
+TSE
+TSW
+OS
+SW
+HCN(1-0)/13 CO(1-0)
+500 pc
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+Intensity ratios
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+N
+S
+C
+TNE
+TSE
+TSW
+OS
+SW
+HCN(1-0)/HCO + (1-0)
+500 pc 0.40
+0.48
+0.56
+0.64
+0.72
+0.80
+0.88
+0.96
+1.04
+Intensity ratios
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+N
+S
+C
+TNE
+TSE
+TSW
+OS
+SW
+HNC(1-0)/HCN(1-0)
+500 pc
+0.24
+0.28
+0.32
+0.36
+0.40
+0.44
+0.48
+0.52
+0.56
+Intensity ratios
+10h27m50.50s51.00s51.50s52.00s
+RA (J2000)
+24.0"
+20.0"
+16.0"
+12.0"
+-43°54'08.0"Dec (J2000)
+N
+S
+C
+TNE
+TSE
+TSW
+OS
+SW
+HCN(1-0)/CS(2-1)
+500 pc
+2.0
+2.5
+3.0
+3.5
+4.0
+4.5
+5.0
+5.5
+Intensity ratios
+Figure 6. Maps of intensity ratios of (upper left) HCN(1 − 0)/13CO (1-0), (upper right) HCN (1 −
+0)/HCO+(1 − 0), (lower left) HNC (1 − 0)/HCN (1 − 0), and (lower right) HCN (1 − 0)/CS(2 − 1). The
+ratios are calculated for the intensity units in Kelvin scal e. Positions shown in Figure 1 are marked with red
+crosses.
+24 Harada et al.
+2400 2500 2600 2700 2800 2900 3000 3100 3200 3300 3400
+ Velocity (km/s) 
+0.000
+0.002
+0.004
+0.006
+0.008
+0.010Intensity (Jy/beam)
+HCN(1-0)
+HCO + (1-0)
+HNC(1-0)
+Figure 7. Spectra of HCN(1 − 0), HCO +(1 − 0), and HNC(1 − 0) at the peak of red-shifted outﬂow
+components shown in Figure 1 (middle) are plotted with green, magenta, and cyan, respectively. S pectra
+are extracted from cubes convolved to 1 .7′′. The value of 3 σ is plotted with a red dotted line. The systemic
+velocity is 2775 km s −1, and the emission from v > 2975 km s −1 is likely to come from the outﬂow.
+N S SW C TSW TSE TNE OS
+−3.0
+−2.5
+−2.0
+−1.5
+log(N(X)/N(13CO))
+HCN HCO + CS CN
+N S SW C TSW TSE TNE OS
+−1.0
+−0.8
+−0.6
+−0.4
+−0.2
+0.0
+0.2
+Normalized to N
+Figure 8. (Top) Column density ratios of HCN, HCO +, CS, and CN over 13CO at positions N, S, C, TNE,
+TSE, TSW, OS, and SW in NGC 3256. Errors of individual column d ensities are automatically calculated
+from the Gaussian ﬁtting by MADCUBA. ( Bottom)The same ﬁgure as the top ﬁgure, but all the values are
+normalized to the position “N”. All the values are shown in a l og scale.
+Chemistry of the infrared luminous merger NGC 3256 25
+N S SW C TSW TSE TNE OS
+−4.0
+−3.5
+−3.0
+−2.5
+−2.0
+−1.5
+−1.0
+log(N(X)/N(13 CO))
+SiO CH3 OH HNCO CCH
+N S SW C TSW TSE TNE OS
+−0.5
+0.0
+0.5
+1.0
+Normalized to N
+N S SW C TSW TSE TNE OS
+−1.5
+−1.0
+−0.5
+0.0
+0.5
+1.0
+1.5
+log(N(X)/N(CS))
+SiO CH3 OH HNCO CCH
+N S SW C TSW TSE TNE OS
+−0.5
+0.0
+0.5
+1.0
+Normalized to N
+N S SW C TSW TSE TNE OS
+−4.5
+−4.0
+−3.5
+−3.0
+−2.5
+−2.0
+−1.5
+log(N(X)/N(13CO))
+HC3N CH3CCH HOC + N2H +
+N S SW C TSW TSE TNE OS
+−0.6
+−0.4
+−0.2
+0.0
+0.2
+0.4
+0.6
+Normalized to N
+N S SW C TSW TSE TNE OS
+−2.0
+−1.5
+−1.0
+−0.5
+0.0
+0.5
+1.0
+log(N(X)/N(CS))
+HC3N CH3CCH HOC + N2H +
+N S SW C TSW TSE TNE OS
+−0.6
+−0.4
+−0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+Normalized to N
+Figure 9. (Top) Column density ratios of selected species over 13CO (left panels) and over CS (right panels)
+at positions N, S, C, TNE, TSE, TSW, OS, and SW in NGC 3256. ( Bottom)The same ﬁgure as the top
+ﬁgure, but all the values are normalized to the position “N”. All the values are shown in a log scale.
+26 Harada et al.
+N S SW N253 A220W A220E
+−3.0
+−2.5
+−2.0
+−1.5
+log(N(X)/N(13 CO))
+HCN HCO + CS CN
+N S SW N253 A220W A220E
+−0.5
+0.0
+0.5
+Normalized to N
+Figure 10. (Top) Column density ratios of HCN, HCO +, CS, and CN over 13CO and over CS at nuclear
+positions N, S, and SW in NGC 3256, in NGC 253, and W and E in Arp 2 20. ( Bottom)The same ﬁgure as
+the top ﬁgure, but all the values are normalized to the positi on “N”. All the values are shown in a log scale.
+Chemistry of the infrared luminous merger NGC 3256 27
+N S SW N253 A220W A220E
+−4.0
+−3.5
+−3.0
+−2.5
+−2.0
+−1.5
+−1.0
+log(N(X)/N(13 CO))
+SiO CH3 OH HNCO CCH
+N S SW N253 A220W A220E
+−0.5
+0.0
+0.5
+1.0
+1.5
+Normalized to N
+N S SW N253 A220W A220E
+−1.5
+−1.0
+−0.5
+0.0
+0.5
+1.0
+1.5
+log(N(X)/N(CS))
+SiO CH3 OH HNCO CCH
+N S SW N253 A220W A220E
+−0.5
+0.0
+0.5
+1.0
+Normalized to N
+N S SW N253 A220W A220E
+−4.5
+−4.0
+−3.5
+−3.0
+−2.5
+−2.0
+−1.5
+log(N(X)/N(13 CO))
+HC3 N CH3 CCH HOC + N2 H +
+N S SW N253 A220W A220E
+−0.5
+0.0
+0.5
+1.0
+Normalized to N
+N S SW N253 A220W A220E
+−2.0
+−1.5
+−1.0
+−0.5
+0.0
+0.5
+1.0
+log(N(X)/N(CS))
+HC3N CH3CCH HOC + N2H +
+N S SW N253 A220W A220E
+−0.4
+−0.2
+0.0
+0.2
+0.4
+0.6
+Normalized to N
+Figure 11. (Top) Column density ratios of selected species over 13CO (left panels) and over CS (right
+panels) at nuclear positions N, S, and SW in NGC 3256, in NGC 25 3, and W and E in Arp 220.( Bottom)The
+same ﬁgure as the top ﬁgure, but all the values are normalized to the position “N”. All the values are shown
+in a log scale.
+28 Harada et al.
+N S SW N253 A220W A220E
+−2.5
+−2.0
+−1.5
+−1.0
+−0.5
+log(N(HOC + )/N(HCO + ))
+Figure 12. Column density ratios of HOC + over HCO + at nuclear positions N, S, and SW in NGC 3256,
+in NGC 253, and W and E in Arp 220.
+TNE TSE TSW W51
+−4.0
+−3.5
+−3.0
+−2.5
+−2.0
+−1.5
+log(N(X)/N(13 CO))
+HCN HCO + CS CN
+TNE TSE TSW W51
+0.0
+0.5
+1.0
+1.5Normalized to W51
+Figure 13. (Top) Column density ratios of HCN, HCO +, CS, and CN over 13CO at tidal arm positions in
+NGC 3256 (TNE, TSE, and TSW) and W51. ( Bottom)The same ﬁgure as the top ﬁgure, but all the values
+are normalized to W51. All the values are shown in a log scale.
+Chemistry of the infrared luminous merger NGC 3256 29
+TNE TSE TSW W51
+−5.0
+−4.5
+−4.0
+−3.5
+−3.0
+−2.5
+−2.0
+−1.5
+log(N(X)/N(13 CO))
+SiO CH3 OH HNCO CCH
+TNE TSE TSW W51
+0.0
+0.5
+1.0
+1.5Normalized to W51
+TNE TSE TSW W51
+−2.0
+−1.5
+−1.0
+−0.5
+0.0
+0.5
+1.0
+1.5
+log(N(X)/N(CS))
+SiO CH3OH HNCO CCH
+TNE TSE TSW W51
+−0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+Normalized to W51
+TNE TSE TSW W51
+−4.5
+−4.0
+−3.5
+−3.0
+−2.5
+−2.0
+log(N(X)/N(13CO))
+HC3N CH3CCH N2H +
+TNE TSE TSW W51
+−0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+Normalized to W51
+TNE TSE TSW W51
+−1.0
+−0.5
+0.0
+0.5
+1.0
+log(N(X)/N(CS))
+HC3 N CH3 CCH N2 H +
+TNE TSE TSW W51
+−0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+Normalized to W51
+Figure 14. (Top) Column density ratios of selected species over 13CO (left panels) and over CS (right
+panels) at tidal arm positions in NGC 3256 (TNE, TSE, and TSW) and W51. ( Bottom)The same ﬁgure as
+the top ﬁgure, but all the values are normalized to W51. All th e values are shown in a log scale.
+30 Harada et al.
+0.8 1.0 1.2 1.4 1.6 1.8 2.0
+log(t −1dep  (Gyr−1 ))
+−4.0
+−3.5
+−3.0
+−2.5
+−2.0
+−1.5
+log(N(X)/N(13 CO))
+N
+S
+N253
+A220W
+A220E
+CH3 CCH
+HC3 N
+N2 H +
+Figure 15. Column density ratios of CH 3CCH, HC 3N, and N 2H+ over 13CO are shown as a function of an
+inverse of the depletion times, which is proportional to the star formation eﬃciencies. Note that separate
+values of star formation eﬃciencies in the two nuclei of Arp 2 20 could not be obtained , and the same value
+is used for the Eastern and Western nuclei. The case of N (X)/N(13CO ) ∝ τ −1dep are shown in dotted lines
+for a reference.
+Chemistry of the infrared luminous merger NGC 3256 31
+T able 1. Observational Parameters.
+ID Array Cycle conﬁg Observation date Nant Baseline T on LSB range USB range
+Range (m) (min) (GHz) (GHz)
+PI data (2015.1.00412.S, 2016.1.00965.S)
+Band3 a 12 m 3 C40-3 2016-5-28 39 15 - 704.1 47.3 85.49-89.07 97.24-1 00.89
+12 m 4 C40-6 2016-10-29 40 18.4 - 1107.2 46.7
+Band3 b 12m 3 C40-3 2016-5-28 36 15.7 -649.4 46.2 88.91-92.49 100.9 1-104.49
+12 m 4 C40-6 2016-10-22 39 18.2-1291.2 13.1
+Band3 c 12 m 3 C36-2/3 2016-4-30 40 14.6 -627.6 40.8 94.71-98.29 106 .71-110.29
+Band6 a 12 m 3 C36-2/3 2016-4-1 43 14.0 -431.0 11.4 214.06-217.71 23 0.06-233.71
+7m 4 · · · 2016-10-08 10 7.4-44.2 18.1
+Band6 b 12 m 3 C36-2/3 2016-4-2 42 14.1 -429.7 9.9 217.61-221.26 233 .61-237.26
+Band6 c 12 m 3 C36-2/3 2016-4-2 42 14.3 -425 9.9 221.16-224.81 237.1 6-240.81
+Band6 d 12 m 3 C36-2/3 2016-4-2 42 14.0 -418.9 9.9 224.71-228.36 240 .71-244.36
+Band6 e 12 m 3 C36-2/3 2016-4-2 42 13.4 -404.0 10.9 244.79- 248.43 25 8.98-262.62
+12 m 4 C40-4 2016-11-28 45 16.1-701.2 10.9
+7m 4 · · · 2016-10-14 9 9.0-43.6 18.1
+Band6 f 12 m 3 C36-2/3 2016-4-2 42 13.7 -412 10.4 248.32-251.96 262. 51-266.15
+7m 4 · · · 2016-10-11 10 9.0 - 44.5 17.6
+Band6 g 12 m 3 C36-2/3 2016-4-9 42 12.9 -395.5 10.4 251.87-255.51 26 6.06-269.70
+7m 4 · · · 2016-10-05 8 7.5-39.6 17.1
+Band6 h 12 m 3 C36-2/3 2016-4-10 40 14.1 -420.1 10.4 255.44-259.08 2 69.63-273.27
+12 m 4 C40-4 2016-11-29 43 13.5 - 632.0 10.4
+7m 4 · · · 2016-10-21 9 7.6-44.1 17.6
+Archive Data (2015.1.00993.S)
+Band3 a 12 m 3 C36-1/2 2016-3-4 42 13.6-429.4 33.3 84.26-87.63 96.3 0-99.86
+12 m 3 C36-1/2 2016-3-7 40 13.7-429.4 33.3
+Band3 b 12m 3 C36-1/2 2016-3-7 40 12.6 - 428.0 32.8 86.89 - 90.45 98.9 3-102.49
+12 m 3 C36-2/3 2016-3-8 44 13.1-438.9 32.8
+Band3 c 12 m 3 C36-2/3 2016-3-9 41 13.9 - 428.2 33.8 94.56 - 97.83 106. 06 - 109.62
+12 m 3 C36-2/3 2016-3-11 39 13.6 - 426.3 33.8
+32 Harada et al.
+T able 2. Image parameters used to create the moment 0 maps
+in Figures 4-5 and their cube properties. For the weighting,
+roba indicates that it was imaged with a robust parameter
+a, and rob atpb indicates that it was imaged with a robust
+parameter a while using uv-taper of outer baselines less than
+b′′.
+Line weighting beam size ( ′′) rms (mJy/beam km/s)
+13CO(1 − 0) rob1 1.50 × 1.44 31.7
+13CO(2 − 1) rob2tp0.5 1.06 × 0.98 82.9
+C18O(1 − 0) rob1 1.51 × 1.44 19.8
+C18O(2 − 1) rob2tp0.5 1.07 × 1.01 56.1
+HCN(1 − 0) rob0 0.73 × 0.61 28.5
+HCN(3 − 2) rob2tp0.5 0.94 × 0.91 81.6
+HCO+(1 − 0) rob0 0.73 × 0.61 30.4
+HCO+(3 − 2) rob2tp0.5 0.94 × 0.90 113.6
+HNC(1 − 0) rob2 1.69 × 1.48 21.0
+HNC(3 − 2) rob2tp0.5 0.98 × 0.87 71.6
+CS(2 − 1) rob1 1.65 × 1.60 20.7
+CS(5 − 4) rob2tp0.5 1.00 × 0.94 64.6
+CH3OH(2k − 1k) rob1 1.68 × 1.62 17.9
+CH3OH(5k − 4k) rob2tp0.5 0.99 × 0.94 67.8
+CCH(1 − 0) rob2 1.37 × 1.16 31.2
+CCH(3 − 2) rob2tp0.5 0.81 × 0.73 64.1
+CN(2 − 1) rob2tp0.5 1.03 × 1.01 129.1
+SiO(2 − 1) rob2 1.56 × 1.32 16.4
+H40α rob2 1.38 × 1.22 12.4
+N2H+(1 − 0) rob2 1.15 × 1.06 35.4
+CH3CCH(6k − 5k) rob2 1.50 × 1.32 19.7
+CH3CCH(13k − 12k) rob2tp0.5 1.07 × 1.01 63.6
+HC3N(12 − 11) rob1 1.50 × 1.45 18.6
+HC3N(10 − 9) rob2 1.68 × 1.47 19.6
+Chemistry of the infrared luminous merger NGC 3256 33
+T able 3. Values of rms in each scheduling
+block after the beam was convolved to 1 .7′′ ×
+1.7′′
+ID frange (GHz) band rms (mJy/beam)
+Band3 a1 85.49 - 87.63 LSB 0.181
+Band3 a1 97.24 - 99.86 USB 0.215
+Band3 a2 87.63 - 89.07 LSB 0.193
+Band3 a2 99.86- 100.89 USB 0.217
+Band3 b1 88.91- 90.45 LSB 0.181
+Band3 b1 100.91 - 102.49 USB 0.200
+Band3 b2 90.45 - 92.49 LSB 0.484
+Band3 b2 102.49 - 104.49 USB 0.533
+Band3 c 94.71 - 97.83 LSB 0.165
+Band3 c 106.71- 109.62 USB 0.192
+Band6 a 214.06-217.71 LSB 0.633
+Band6 a 230.06-233.71 USB 0.692
+Band6 b 217.61-221.26 LSB 0.898
+Band6 b 233.61-237.26 USB 0.932
+Band6 c 221.16-224.81 LSB 0.793
+Band6 c 237.16-240.81 USB 0.860
+Band6 d 224.71-228.36 LSB 0.867
+Band6 d 240.71-244.36 USB 0.993
+Band6 e 244.79- 248.43 LSB 0.847
+Band6 e 258.98-262.62 USB 0.931
+Band6 f 248.32-251.96 LSB 1.002
+Band6 f 262.51-266.15 USB 1.202
+Band6 g 251.87-255.51 LSB 0.869
+Band6 g 266.06-269.70 USB 1.043
+Band6 h 255.44-259.08 LSB 0.888
+Band6 h 269.63-273.27 USB 1.047
+34 Harada et al.
+T able 4. Properties of the central molecular zones of NGC 253,
+NGC 3256, and Arp 220. Distances from the earth D, star forma-
+tion rates SFR, molecular masses Mmol, and depletion times τdep
+(≡ Mmol/SF R; τ −1dep is an indication of star formation eﬃciency).
+References are a) Tully et al. (2013) b) Sanders et al. (2003), c)
+Barcos-Mu˜ noz et al.(2015) d) Leroy et al. (2015) e) Lira et al.
+(2008) f) Sorai et al. (2000) g) Sakamoto et al. (2014)
+Galaxy D (Mpc) SFR( M⊙ yr−1) Mmol(M⊙) τdep (yr)
+NGC 253 3.5 a 2d (1.3 − 3) × 108d,f (0.65 − 1.5) × 108
+NGC 3256 35 b 15(N)e (1.5 − 3) × 108,g (1 − 2) × 107
+6(S)e (1 − 2) × 108,g (1.6 − 3.3) × 107
+Arp220 80 b 180c (2 − 7) × 109c (1.1 − 3.9) × 107
+Chemistry of the infrared luminous merger NGC 3256 35
+T able 5. Column densities at N
+Molecule N (cm −2) T ex (K)
+13CO (3 .0 ± 0.1) × 1016.0 10.5 ± 0.6
+(2.3 ± 0.1) × 1016.0 11.5 ± 0.7
+C18O (1 .2 ± 0.1) × 1016.0 11.8 ± 1.4
+(9.1 ± 0.6) × 1015.0 11.5 ± 1.3
+C17O (9 .8 ± 1.8) × 1014.0 10.5 ± ...
+(1.1 ± 0.1) × 1015.0 11.3 ± ...
+HCN (2 .4 ± 0.1) × 1014.0 6.0 ± 0.0
+(1.5 ± 0.1) × 1014.0 6.1 ± 0.0
+HCO+ (1.3 ± 0.1) × 1014.0 6.5 ± 0.1
+(1.0 ± 0.1) × 1014.0 6.9 ± 0.1
+HNC (1 .1 ± 0.1) × 1014.0 6.3 ± 0.1
+(8.3 ± 0.5) × 1013.0 6.0 ± 0.1
+CS (1 .1 ± 0.1) × 1014.0 9.6 ± 0.2
+(1.0 ± 0.1) × 1014.0 8.8 ± 0.2
+CN (1 .4 ± 0.1) × 1015.0 5.0 ± 0.1
+(6.4 ± 0.6) × 1014.0 5.2 ± 0.1
+CCH (1 .6 ± 0.1) × 1015.0 6.8 ± 0.1
+(1.1 ± 0.1) × 1015.0 6.7 ± 0.1
+CH3OH (7 .6 ± 0.5) × 1013.0 15.0 ± ...
+(5.1 ± 0.5) × 1013.0 15.0 ± ...
+H2CO (1 .2 ± 0.1) × 1013.0 18.5 ± 4.3
+(1.4 ± 0.3) × 1013.0 35.1 ± 13.2
+NNH+ (1.3 ± 0.1) × 1013.0 10.0 ± ...
+(8.4 ± 0.5) × 1012.0 10.0 ± ...
+HCCCN (3 .2 ± 0.5) × 1013.0 13.4 ± 1.5
+(2.5 ± 0.3) × 1013.0 22.3 ± 3.8
+CH3CCH (2 .8 ± 0.1) × 1014.0 43.0 ± 1.7
+(2.3 ± 0.1) × 1014.0 45.0 ± 2.4
+CH3CN (1 .0 ± 0.0) × 1013.0 10.0 ± ...
+(6.6 ± 0.3) × 1012.0 10.0 ± ...
+SiO (7 .6 ± 0.9) × 1012.0 10.0 ± ...
+(4.7 ± 0.8) × 1012.0 10.0 ± ...
+H13CO+ (4.6 ± 1.8) × 1012.0 6.0 ± 0.7
+(4.3 ± 1.8) × 1012.0 5.1 ± 0.5
+HOC+ (1.8 ± 1.1) × 1012.0 8.3 ± 2.1
+(1.6 ± 1.0) × 1012.0 8.5 ± 2.4
+c-C3H2 (8.5 ± 1.6) × 1012.0 17.1 ± 3.1
+(1.2 ± 0.2) × 1013.0 15.3 ± 1.6
+SO (2 .7 ± 1.7) × 1013.0 10.5 ± 3.7
+(2.5 ± 1.4) × 1013.0 10.4 ± 3.3
+C34S (1 .7 ± 0.7) × 1013.0 9.4 ± 1.4
+(1.0 ± 0.5) × 1013.0 9.8 ± 2.1
+NO (1 .0 ± 0.1) × 1015.0 10.0 ± ...
+(8.8 ± 0.6) × 1014.0 10.0 ± ...
+CO+ (1.1 ± 0.3) × 1013.0 10.0 ± ...
+(1.3 ± 0.2) × 1013.0 10.0 ± ...
+HNCO (2 .5 ± 0.1) × 1013.0 30.0 ± ...
+(2.6 ± 0.1) × 1013.0 30.0 ± ...
+36 Harada et al.
+T able 6. Column densities at S
+Molecule N (cm −2) T ex (K)
+13CO (2 .5 ± 0.2) × 1016.0 10.8 ± 1.1
+(3.4 ± 0.3) × 1016.0 8.5 ± 0.6
+C18O (3 .8 ± 0.7) × 1015.0 10.6 ± 2.8
+(6.1 ± 1.3) × 1015.0 6.7 ± 0.9
+C17O (8 .1 ± 1.2) × 1014.0 10.8 ± ...
+(1.0 ± 0.2) × 1015.0 8.5 ± ...
+HCN (8 .8 ± 0.4) × 1013.0 5.6 ± 0.1
+(4.9 ± 0.4) × 1013.0 5.8 ± 0.1
+HCO+ (8.5 ± 0.3) × 1013.0 6.7 ± 0.1
+(4.3 ± 0.3) × 1013.0 7.3 ± 0.2
+HNC (4 .3 ± 0.4) × 1013.0 6.1 ± 0.2
+(1.3 ± 0.3) × 1013.0 6.2 ± 0.4
+CS (7 .8 ± 0.9) × 1013.0 8.2 ± 0.2
+(5.3 ± 0.8) × 1013.0 8.6 ± 0.3
+CN (3 .8 ± 0.1) × 1014.0 5.1 ± 0.1
+(1.3 ± 0.1) × 1014.0 5.3 ± 0.1
+CCH (9 .5 ± 0.4) × 1014.0 6.9 ± 0.1
+(5.1 ± 0.4) × 1014.0 7.0 ± 0.2
+CH3OH (4 .8 ± 0.3) × 1013.0 18.8 ± 1.4
+(1.5 ± 0.1) × 1014.0 9.2 ± 0.4
+H2CO (1 .5 ± 0.9) × 1013.0 40.7 ± 25.6
+(6.0 ± 1.4) × 1012.0 20.1 ± 8.9
+NNH+ < 4.0 × 1012.0 ...
+< 5.0 × 1012.0 ...
+HCCCN (1 .7 ± 0.5) × 1013.0 13.0 ± 2.6
+(2.2 ± 0.7) × 1013.0 10.2 ± 1.6
+CH3CCH (2 .7 ± 0.2) × 1014.0 36.3 ± 1.5
+(3.8 ± 0.3) × 1014.0 31.8 ± 1.4
+CH3CN < 3.6 × 1012.0 ...
+< 4.8 × 1012.0 ...
+SiO (1 .9 ± 0.7) × 1012.0 10.0 ± ...
+(4.6 ± 0.8) × 1012.0 10.0 ± ...
+H13CO+ < 2.1 × 1012.0 ...
+< 2.1 × 1012.0 ...
+HOC+ (1.6 ± 0.3) × 1012.0 10.0 ± ...
+(1.8 ± 0.3) × 1012.0 10.0 ± ...
+c-C3H2 < 8.3 × 1012.0 ...
+< 1.1 × 1013.0 ...
+SO (3 .3 ± 0.6) × 1013.0 10.0 ± ...
+(4.1 ± 0.5) × 1013.0 10.0 ± ...
+C34S (2 .8 ± 1.3) × 1012.0 8.2 ± ...
+(3.7 ± 1.5) × 1012.0 8.6 ± ...
+NO (5 .5 ± 0.6) × 1014.0 10.0 ± ...
+(8.6 ± 0.8) × 1014.0 10.0 ± ...
+CO+ < 1.1 × 1013.0 ...
+< 1.4 × 1013.0 ...
+HNCO < 1.1 × 1013.0 ...
+< 1.4 × 1013.0 ...
+Chemistry of the infrared luminous merger NGC 3256 37
+T able 7. Column densities at C
+Molecule N (cm −2) T ex (K)
+13CO (3 .7 ± 0.3) × 1016.0 8.1 ± 0.6
+C18O (1 .1 ± 0.1) × 1016.0 8.4 ± 0.7
+C17O (10 .0 ± 3.5) × 1014.0 8.1 ± ...
+HCN (1 .8 ± 0.1) × 1014.0 5.3 ± 0.1
+HCO+ (1.4 ± 0.1) × 1014.0 6.1 ± 0.1
+HNC (6 .6 ± 0.7) × 1013.0 4.9 ± 0.1
+CS (1 .3 ± 0.1) × 1014.0 7.5 ± 0.2
+CN (7 .8 ± 0.3) × 1014.0 4.2 ± 0.0
+CCH (1 .4 ± 0.1) × 1015.0 5.3 ± 0.1
+CH3OH (4 .3 ± 0.2) × 1014.0 9.6 ± 0.3
+H2CO (9 .3 ± 1.5) × 1012.0 18.3 ± 6.3
+NNH+ (6.5 ± 0.2) × 1012.0 10.0 ± ...
+HCCCN (4 .4 ± 1.4) × 1013.0 11.5 ± 2.1
+CH3CCH (2 .1 ± 0.3) × 1014.0 28.8 ± 1.8
+CH3CN (7 .5 ± 0.5) × 1012.0 10.0 ± ...
+SiO (8 .5 ± 1.2) × 1012.0 10.0 ± ...
+H13CO+ (2.6 ± 0.6) × 1012.0 6.1 ± ...
+HOC+ (5.6 ± 0.4) × 1012.0 10.0 ± ...
+c-C3H2 < 7.9 × 1012.0 ...
+SO (6 .6 ± 0.7) × 1013.0 10.0 ± ...
+C34S (9 .5 ± 2.1) × 1012.0 7.5 ± ...
+NO (1 .1 ± 0.1) × 1015.0 10.0 ± ...
+CO+ < 1.3 × 1013.0 ...
+HNCO (6 .2 ± 0.5) × 1013.0 17.9 ± 5.7
+38 Harada et al.
+T able 8. Column densities at TNE
+Molecule N (cm −2) T ex (K)
+13CO (3 .5 ± 0.4) × 1016.0 8.3 ± 0.8
+C18O (5 .4 ± 1.0) × 1015.0 8.8 ± 1.6
+C17O < 7.9 × 1014.0 ...
+HCN (7 .7 ± 0.4) × 1013.0 5.0 ± 0.1
+HCO+ (7.5 ± 1.2) × 1013.0 6.3 ± 0.3
+HNC (3 .2 ± 0.7) × 1013.0 5.2 ± 0.3
+CS (5 .6 ± 1.1) × 1013.0 6.8 ± 0.4
+CN (2 .1 ± 0.2) × 1014.0 4.5 ± 0.1
+CCH (5 .8 ± 0.8) × 1014.0 5.8 ± 0.2
+CH3OH (1 .4 ± 0.1) × 1014.0 9.8 ± 0.6
+H2CO (8 .9 ± 1.5) × 1012.0 18.3 ± 6.8
+NNH+ < 4.6 × 1012.0 ...
+HCCCN (1 .7 ± 1.1) × 1013.0 10.7 ± 3.9
+CH3CCH (2 .8 ± 0.4) × 1014.0 29.3 ± 1.9
+CH3CN < 4.6 × 1012.0 ...
+SiO < 3.3 × 1012.0 ...
+H13CO+ (2.5 ± 0.6) × 1012.0 6.3 ± ...
+HOC+ (1.9 ± 0.2) × 1012.0 10.0 ± ...
+c-C3H2 (7.1 ± 3.4) × 1012.0 10.0 ± ...
+SO (4 .4 ± 0.5) × 1013.0 20.0 ± ...
+C34S < 6.3 × 1012.0 ...
+NO (8 .0 ± 1.1) × 1014.0 10.0 ± ...
+CO+ < 8.7 × 1012.0 ...
+HNCO (2 .3 ± 0.7) × 1013.0 7.3 ± 2.3
+Chemistry of the infrared luminous merger NGC 3256 39
+T able 9. Column densities at TSE
+Molecule N (cm −2) T ex (K)
+13CO (2 .9 ± 0.4) × 1016.0 6.9 ± 0.6
+C18O (5 .3 ± 1.5) × 1015.0 5.4 ± 0.7
+C17O < 1.0 × 1015.0 ...
+HCN (7 .2 ± 0.4) × 1013.0 5.1 ± 0.1
+HCO+ (7.3 ± 1.0) × 1013.0 5.7 ± 0.2
+HNC (2 .5 ± 1.1) × 1013.0 4.8 ± 0.5
+CS (6 .9 ± 1.6) × 1013.0 7.0 ± 0.6
+CN (3 .4 ± 0.6) × 1014.0 3.4 ± 0.1
+CCH (5 .2 ± 1.3) × 1014.0 4.4 ± 0.2
+CH3OH (4 .5 ± 0.5) × 1014.0 8.3 ± 0.5
+H2CO (1 .0 ± 0.2) × 1013.0 20.0 ± ...
+NNH+ (7.2 ± 1.0) × 1012.0 10.0 ± ...
+HCCCN < 1.6 × 1013.0 ...
+CH3CCH (1 .2 ± 0.4) × 1014.0 24.8 ± 5.2
+CH3CN (6 .2 ± 0.8) × 1012.0 10.0 ± ...
+SiO < 5.0 × 1012.0 ...
+H13CO+ < 2.5 × 1012.0 ...
+HOC+ < 2.0 × 1012.0 ...
+c-C3H2 < 2.0 × 1013.0 ...
+SO (3 .6 ± 0.7) × 1013.0 10.0 ± ...
+C34S < 7.9 × 1012.0 ...
+NO < 1.0 × 1015.0 ...
+CO+ < 1.6 × 1013.0 ...
+HNCO < 2.0 × 1013.0 ...
+40 Harada et al.
+T able 10. Column densities at TSW
+Molecule N (cm −2) T ex (K)
+13CO (3 .0 ± 0.3) × 1016.0 5.6 ± 0.3
+C18O (6 .9 ± 1.5) × 1015.0 4.9 ± 0.4
+C17O < 1.3 × 1015.0 ...
+HCN (1 .2 ± 0.1) × 1014.0 4.4 ± 0.1
+HCO+ (9.9 ± 1.8) × 1013.0 4.8 ± 0.2
+HNC (3 .1 ± 0.9) × 1013.0 4.3 ± 0.3
+CS (7 .3 ± 1.5) × 1013.0 6.1 ± 0.5
+CN (4 .4 ± 0.7) × 1014.0 3.4 ± 0.1
+CCH (9 .3 ± 2.5) × 1014.0 3.9 ± 0.2
+CH3OH (5 .4 ± 0.4) × 1014.0 7.6 ± 0.3
+H2CO (1 .0 ± 0.3) × 1013.0 10.0 ± ...
+NNH+ (7.8 ± 0.8) × 1012.0 10.0 ± ...
+HCCCN (1 .8 ± 0.9) × 1013.0 10.9 ± 2.9
+CH3CCH (1 .1 ± 0.2) × 1014.0 24.9 ± 2.8
+CH3CN < 4.0 × 1013.0 ...
+SiO (8 .3 ± 1.5) × 1012.0 10.0 ± ...
+H13CO+ < 1.6 × 1012.0 ...
+HOC+ < 1.6 × 1012.0 ...
+c-C3H2 < 7.9 × 1012.0 ...
+SO (4 .9 ± 0.5) × 1013.0 7.7 ± 3.1
+C34S (9 .2 ± 2.4) × 1012.0 6.1 ± ...
+NO < 7.9 × 1014.0 ...
+CO+ < 1.3 × 1013.0 ...
+HNCO (6 .3 ± 0.6) × 1013.0 6.9 ± 0.6
+Chemistry of the infrared luminous merger NGC 3256 41
+T able 11. Column densities at OS
+Molecule N (cm −2) T ex (K)
+13CO (1 .0 ± 0.4) × 1016.0 5.2 ± 0.9
+< 6.4 × 1015.0 ...
+C18O (3 .1 ± 2.2) × 1015.0 4.2 ± 0.9
+(8.8 ± 2.2) × 1014.0 5.0 ± ...
+C17O < 1.1 × 1015.0 ...
+< 1.9 × 1015.0 ...
+HCN (4 .2 ± 0.3) × 1013.0 4.9 ± 0.1
+(2.7 ± 0.3) × 1013.0 5.6 ± 0.1
+HCO+ (4.3 ± 0.5) × 1013.0 5.0 ± 0.1
+(2.4 ± 0.4) × 1013.0 5.3 ± 0.2
+HNC (1 .3 ± 0.1) × 1013.0 5.0 ± ...
+(7.1 ± 0.7) × 1012.0 5.0 ± ...
+CS (3 .1 ± 0.8) × 1013.0 7.2 ± 0.6
+(1.5 ± 0.7) × 1013.0 7.2 ± ...
+CN (1 .1 ± 0.1) × 1014.0 3.9 ± 0.1
+(1.2 ± 0.1) × 1014.0 3.9 ± 0.1
+CCH (2 .7 ± 0.2) × 1014.0 5.0 ± ...
+(2.1 ± 1.8) × 1013.0 5.0 ± ...
+CH3OH (1 .6 ± 0.1) × 1014.0 11.5 ± 0.6
+(6.4 ± 1.1) × 1013.0 9.6 ± 1.2
+H2CO < 5.8 × 1012.0 ...
+< 5.8 × 1012.0 ...
+NNH+ < 4.4 × 1012.0 ...
+< 4.4 × 1012.0 ...
+HCCCN < 1.3 × 1013.0 ...
+< 1.3 × 1013.0 ...
+CH3CCH < 1.2 × 1014.0 ...
+< 1.2 × 1014.0 ...
+CH3CN < 3.3 × 1012.0 ...
+< 3.3 × 1012.0 ...
+SiO (4 .9 ± 0.7) × 1012.0 10.0 ± ...
+(2.5 ± 0.7) × 1012.0 10.0 ± ...
+H13CO+ < 1.9 × 1012.0 ...
+< 1.9 × 1012.0 ...
+HOC+ (1.7 ± 0.3) × 1012.0 7.0 ± ...
+(7.7 ± 3.5) × 1011.0 7.0 ± ...
+c-C3H2 < 4.4 × 1012.0 ...
+< 4.4 × 1012.0 ...
+SO (1 .9 ± 0.3) × 1013.0 10.0 ± ...
+(5.3 ± 3.3) × 1012.0 10.0 ± ...
+C34S < 5.8 × 1012.0 ...
+< 5.8 × 1012.0 ...
+NO < 8.3 × 1014.0 ...
+< 8.3 × 1014.0 ...
+CO+ < 1.3 × 1013.0 ...
+< 1.3 × 1013.0 ...
+HNCO < 1.7 × 1013.0 ...
+< 1.7 × 1013.0 ...
+42 Harada et al.
+T able 12. Column densities at SW
+Molecule N (cm −2) T ex (K)
+13CO (6 .7 ± 0.4) × 1016.0 7.8 ± 0.3
+C18O (9 .8 ± 0.7) × 1015.0 7.6 ± 0.4
+C17O (2 .1 ± 0.3) × 1015.0 7.8 ± ...
+HCN (1 .6 ± 0.1) × 1014.0 4.9 ± 0.1
+HCO+ (1.4 ± 0.1) × 1014.0 6.0 ± 0.2
+HNC (6 .2 ± 0.6) × 1013.0 5.0 ± 0.1
+CS (1 .3 ± 0.1) × 1014.0 7.3 ± 0.2
+CN (6 .0 ± 0.3) × 1014.0 4.1 ± 0.1
+CCH (1 .3 ± 0.1) × 1015.0 5.4 ± 0.1
+CH3OH (4 .3 ± 0.1) × 1014.0 10.1 ± 0.2
+H2CO (2 .3 ± 0.5) × 1013.0 34.6 ± 8.9
+NNH+ (1.0 ± 0.1) × 1013.0 10.0 ± ...
+HCCCN (3 .7 ± 1.0) × 1013.0 11.1 ± 1.7
+CH3CCH (4 .1 ± 0.3) × 1014.0 25.1 ± 0.9
+CH3CN < 5.0 × 1012.0 ...
+SiO (8 .7 ± 1.2) × 1012.0 10.0 ± ...
+H13CO+ (4.6 ± 0.5) × 1012.0 6.0 ± ...
+HOC+ (4.9 ± 0.5) × 1012.0 10.0 ± ...
+c-C3H2 (9.2 ± 2.5) × 1012.0 13.5 ± 6.3
+SO (8 .5 ± 0.8) × 1013.0 10.0 ± ...
+C34S (9 .6 ± 2.6) × 1012.0 7.3 ± ...
+NO (9 .4 ± 0.7) × 1014.0 10.0 ± ...
+CO+ < 1.3 × 1013.0 ...
+HNCO (4 .6 ± 0.4) × 1013.0 9.4 ± 1.5
+Chemistry of the infrared luminous merger NGC 3256 43
+86 87 88 89 90 91 92 93
+Obs. Frequency (GHz)
+−0.005
+0.000
+0.005
+0.010
+0.015
+0.020
+0.025
+Intensity (Jy/beam)
+H13CO+
+SiO
+CCHCCH
+HCNHCNHCN
+HCO+
+HOC+
+HNC
+HC3N
+N2H+N2H+
+87 88 89 90 91 92 93
+Rest Frequency (GHz)
+95 96 97 98 99 100 101 102 103 104
+Obs. Frequency (GHz)
+−0.006
+−0.004
+−0.002
+0.000
+0.002
+0.004
+0.006
+Intensity (Jy/beam)
+H40alpha
+C34S
+CH3OH
+CS
+SO
+HC3N
+CH3CCH
+96 97 98 99 100 101 102 103 104 105
+Rest Frequency (GHz)
+107 108 109 110 111 112 113
+Obs. Frequency (GHz)
+−0.01
+0.00
+0.01
+0.02
+0.03
+Intensity (Jy/beam)
+HC3N
+C18O
+13CO
+CH3CNCH3CN
+CN
+CNCN
+108 109 110 111 112 113 114
+Rest Frequency (GHz)
+Figure 16. Observed spectra from 1.7 ′′-resolution cubes at position N in Band 3. Fitted spectra for
+individual transitions are shown in blue for component 1 and in green for component 2, while the summed
+intensities of individual transitions are shown in red. Gre y dotted lines show the levels of 3 σ. The complete
+ﬁgure set (32 images) is available in the online journal of th e published version.
+44 Harada et al.
+215 216 217 218 219 220 221
+Obs. Frequency (GHz)
+−0.02
+0.00
+0.02
+0.04
+0.06
+0.08
+Intensity (Jy/beam)
+c-C3H2
+c-C3H2c-C3H2
+c-C3H2
+H2CO
+C18O
+SO
+13CO
+CH3CCH
+217 218 219 220 221 222 223
+Rest Frequency (GHz)
+222 223 224 225 226 227 228
+Obs. Frequency (GHz)
+0.00
+0.02
+0.04
+0.06Intensity (Jy/beam)
+C17O
+H2CO
+CN
+CNCN
+CNCNCN
+c-C3H2
+224 225 226 227 228 229 230
+Rest Frequency (GHz)
+231 232 233 234 235 236 237
+Obs. Frequency (GHz)
+−0.005
+0.000
+0.005
+Intensity (Jy/beam)
+CO+
+CH3CCH
+233 234 235 236 237 238 239
+Rest Frequency (GHz)
+Figure 17. Same as Fig 16, but for the Band 6 with sky frequencies 214.1-237.24 (GHz).
+Chemistry of the infrared luminous merger NGC 3256 45
+238 239 240 241 242 243 244
+Obs. Frequency (GHz)
+−0.010
+−0.005
+0.000
+0.005
+0.010
+0.015
+Intensity (Jy/beam)
+C34S
+CH3OH
+CS
+240 241 242 243 244 245 246
+Rest Frequency (GHz)
+245 246 247 248 249 250 251
+Obs. Frequency (GHz)
+−0.008
+−0.006
+−0.004
+−0.002
+0.000
+0.002
+0.004
+Intensity (Jy/beam)
+NONO
+NO
+248 249 250 251 252 253 254
+Rest Frequency (GHz)
+252 253 254 255
+Obs. Frequency (GHz)
+−0.005
+0.000
+0.005
+0.010
+Intensity (Jy/beam)
+CH3CCH
+255 256 257
+Rest Frequency (GHz)
+Figure 18. Same as Fig 16, but for the Band 6 with sky frequencies 237.2-255.5 (GHz).
+46 Harada et al.
+259 260 261 262 263 264 265 266
+Obs. Frequency (GHz)
+−0.02
+0.00
+0.02
+0.04
+0.06
+0.08
+0.10
+Intensity (Jy/beam)
+CH3OH
+CCHCCH
+HCN
+HCO+
+HOC+
+262 263 264 265 266 267 268
+Rest Frequency (GHz)
+267 268 269 270 271 272 273
+Obs. Frequency (GHz)
+−0.01
+0.00
+0.01
+0.02
+0.03
+0.04
+0.05
+Intensity (Jy/beam)
+HNC
+CH3CCH
+269 270 271 272 273 274 275
+Rest Frequency (GHz)
+Figure 19. Same as Fig 16, but for the Band 6 with sky frequencies 259.0-273.24 (GHz).
+Chemistry of the infrared luminous merger NGC 3256 47
+T able 13. Observed peak intensities and velocity-integrated inten sities for
+detected lines.
+Position Species Transitions Restfreq I peak ∆Ipeak I ∆V ∆(I ∆V)
+(GHz) (mK) (mK) (K km/s) (K km/s)
+N H 13CO+ 1 − 0 86.754 56.3 10.41 9.4 0.95
+N SiO 2 − 1 86.847 40.85 10.39 6.41 0.95
+N CCH 1 3/2 − 01/2 87.317 373.18 10.28 76.97 0.94
+N CCH 1 1/2 − 01/2 87.402 201.53 10.26 41.4 0.94
+N HCN 1 − 0 88.634 1111.22 10.64 197.23 0.96
+N HCO + 1 − 0 89.189 1173.21 10.51 205.25 0.95
+N HOC + 1 − 0 89.487 26.83 10.44 3.88 0.94
+N HNC 1 − 0 90.664 629.27 9.54 110.23 0.85
+N HC 3N 10 − 9 90.979 80.17 9.47 11.47 0.85
+N N 2H+ 1 − 0 93.176 100.99 24.15 14.96 2.13
+N C 34S 1 − 0 96.413 38.25 7.69 6.59 0.67
+N CH 3OH 2 k − 1k 96.741 26.23 7.64 3.09 0.66
+N CS 2 − 1 97.981 279.51 7.45 48.99 0.64
+N H40 α — 99.023 35.47 9.50 5.68 0.81
+N SO 2 1 − 32 99.3 38.95 9.45 4.99 0.81
+N HC 3N 11 − 10 100.076 70.48 9.31 10.51 0.79
+N CH 3CCH 6 k − 5k 102.548 54.49 8.25 9.4 0.69
+N HC 3N 12 − 11 109.174 74.57 6.99 9.63 0.57
+N C 18O 1 − 0 109.782 135.08 6.91 21.37 0.56
+N HNCO 5 0,5 − 40,4 109.906 22.57 6.9 3.5 0.56
+N 13CO 1 − 0 110.201 349.93 6.86 51.13 0.56
+N CH 3CN 6 k − 5k 110.383 23.73 6.84 4.75 0.55
+N CN 1 3/2 − 01/2 113.191 485.15 23.72 101.7 2.12
+N CN 1 1/2 − 01/2 113.491 954.47 23.59 178.52 2.11
+N c-C 3H2 33,0 − 22,1 216.279 18.89 5.97 2.08 0.55
+N c-C 3H2 6k − 5k 217.822 28.73 5.89 4.8 0.54
+N c-C 3H2 51,4 − 42,3 217.94 28.7 5.88 4.04 0.54
+N c-C 3H2 52,4 − 41,3 218.16 22.92 5.87 4.25 0.54
+N H 2CO 3 0,3 − 20,2 218.222 22.91 5.87 4.49 0.53
+N H 2CO 3 2,2 − 22,1 218.476 12.87 5.85 1.83 0.53
+N C 18O 2 − 1 219.56 232.37 5.8 35.09 0.53
+N HNCO 10 0,10 − 90,9 219.798 28.75 8.2 3.69 0.75
+N SO 6 5 − 54 219.949 28.71 8.19 2.42 0.74
+N 13CO 2 − 1 220.399 606.9 8.16 85.29 0.74
+N CH 3CCH 13 k − 12k 222.167 54.25 8.03 7.61 0.73
+N C 17O 2 − 1 224.714 20.81 6.94 2.71 0.62
+N H 2CO 3 1,2 − 21,1 225.698 42.28 6.88 4.84 0.62
+N CN 2 3/2 − 13/2 226.36 139.81 6.84 26.33 0.58
+Table 13 continued
+48 Harada et al.
+T able 13 (continued)
+Position Species Transitions Restfreq I peak ∆Ipeak I ∆V ∆(I ∆V)
+(GHz) (mK) (mK) (K km/s) (K km/s)
+N CN 2 3/2 − 11/2 226.66 331.56 6.82 50.92 0.46
+N CN 2 5/2 − 13/2 226.875 518.34 6.81 91.61 0.58
+N c-C 3H2 43,2 − 32,1 227.169 16.2 7.43 1.97 0.66
+N CO + 23/2 − 11/2 235.79 12.47 5.51 1.26 0.48
+N CO + 25/2 − 13/2 236.063 22.48 7.41 1.61 0.65
+N CH 3CCH 14 k − 13k 239.252 47.7 7.22 8.8 0.63
+N C 34S 5 − 4 241.016 24.5 6.56 2.12 0.57
+N CH 3OH 5 k − 4k 241.791 37.99 6.52 5.84 0.57
+N CS 5 − 4 244.936 108.3 7.35 15.45 0.63
+N NO 5 /2 + −3/2− 250.483 26.75 6.0 3.18 0.51
+N NO 5 /2 − −3/2+ 250.817 14.28 7.08 1.54 0.6
+N CH 3CCH 15 k − 14k 256.337 52.6 5.89 7.66 0.5
+N H 13CO+ 3 − 2 260.255 19.05 5.84 2.6 0.49
+N CH 3OH 2 1,1 − 10,1 261.806 208.08 6.05 13.46 0.5
+N CCH 3 − 2 262.004 286.7 6.04 53.6 0.5
+N HCN 3 − 2 265.886 402.69 7.58 71.38 0.63
+N HCO + 3 − 2 267.558 531.35 7.49 91.56 0.62
+N HOC + 3 − 2 268.451 22.04 7.44 2.8 0.61
+N HNC 3 − 2 271.981 241.95 6.3 37.97 0.51
+N CH 3CCH 16 k − 15k 273.42 32.6 6.26 5.6 0.51
+S SiO 2 − 1 86.847 29.12 10.39 2.75 0.95
+S CCH 1 3/2 − 01/2 87.317 243.63 10.28 37.41 0.94
+S CCH 1 1/2 − 01/2 87.402 137.71 10.26 20.28 0.94
+S HCN 1 − 0 88.634 510.57 10.64 56.68 0.96
+S HCO + 1 − 0 89.189 773.12 10.51 87.87 0.95
+S HOC + 1 − 0 89.487 27.53 10.44 3.02 0.94
+S HNC 1 − 0 90.664 275.69 9.54 28.08 0.85
+S HC 3N 10 − 9 90.979 40.77 9.48 5.06 0.85
+S C 34S 1 − 0 96.413 17.5 7.7 1.07 0.67
+S CH 3OH 2 k − 1k 96.741 48.45 7.64 6.22 0.66
+S CS 2 − 1 97.981 150.92 7.45 22.92 0.64
+S H40 α — 99.023 34.76 9.51 5.50 0.81
+S SO 2 1 − 32 99.3 57.63 9.46 6.08 0.81
+S HC 3N 11 − 10 100.076 34.12 9.31 3.49 0.79
+S CH 3CCH 6 k − 5k 102.548 78.86 8.25 10.22 0.69
+S HC 3N 12 − 11 109.174 26.9 6.99 2.82 0.57
+S C 18O 1 − 0 109.782 73.14 6.92 9.09 0.56
+S 13CO 1 − 0 110.201 419.11 6.86 53.22 0.56
+S CN 1 3/2 − 01/2 113.191 133.03 23.73 24.62 2.12
+S CN 1 1/2 − 01/2 113.491 375.3 23.6 48.44 2.11
+S H 2CO 3 0,3 − 20,2 218.222 21.13 5.88 1.64 0.54
+Table 13 continued
+Chemistry of the infrared luminous merger NGC 3256 49
+T able 13 (continued)
+Position Species Transitions Restfreq I peak ∆Ipeak I ∆V ∆(I ∆V)
+(GHz) (mK) (mK) (K km/s) (K km/s)
+S C 18O 2 − 1 219.56 87.1 5.81 10.09 0.53
+S 13CO 2 − 1 220.399 549.1 8.18 66.45 0.74
+S CH 3CCH 13 k − 12k 222.167 55.88 8.05 7.78 0.73
+S C 17O 2 − 1 224.714 20.62 6.95 2.38 0.62
+S H 2CO 3 1,2 − 21,1 225.698 33.19 6.89 3.31 0.62
+S CN 2 3/2 − 13/2 226.36 29.88 6.85 4.86 0.61
+S CN 2 3/2 − 11/2 226.66 106.69 6.84 14.88 0.61
+S CN 2 5/2 − 13/2 226.875 198.24 6.82 25.84 0.61
+S CH 3CCH 14 k − 13k 239.252 55.34 7.23 6.75 0.63
+S CH 3OH 5 k − 4k 241.791 26.22 6.54 4.35 0.57
+S CS 5 − 4 244.936 41.85 7.36 4.62 0.63
+S NO 5 /2 + −3/2− 250.483 17.18 6.01 2.06 0.51
+S NO 5 /2 − −3/2+ 250.817 14.49 7.1 2.01 0.6
+S CH 3CCH 15 k − 14k 256.337 39.52 5.9 5.59 0.5
+S CCH 3 − 2 262.004 165.19 6.06 28.91 0.5
+S HCN 3 − 2 265.886 139.89 7.6 17.72 0.63
+S HCO + 3 − 2 267.558 371.92 7.51 43.69 0.62
+S HNC 3 − 2 271.981 92.91 6.32 9.16 0.52
+S CH 3CCH 16 k − 15k 273.42 31.35 6.28 4.38 0.51
+C H 13CO+ 1 − 0 86.754 28.84 10.38 3.44 0.95
+C SiO 2 − 1 86.847 57.26 10.35 5.26 0.95
+C CCH 1 3/2 − 01/2 87.317 281.38 10.24 38.37 0.93
+C CCH 1 1/2 − 01/2 87.402 144.99 10.22 18.36 0.93
+C HNCO 4 0,4 − 30,3 87.926 55.98 10.1 3.96 0.92
+C HCN 1 − 0 88.634 797.6 10.6 93.15 0.96
+C HCO + 1 − 0 89.189 1112.08 10.47 139.46 0.94
+C HOC + 1 − 0 89.487 50.54 10.4 5.6 0.94
+C HNC 1 − 0 90.664 384.4 9.5 38.95 0.85
+C HC 3N 10 − 9 90.979 73.71 9.44 8.03 0.84
+C N 2H+ 1 − 0 93.176 101.29 24.06 6.46 2.12
+C C 34S 1 − 0 96.413 30.82 7.66 2.04 0.66
+C CH 3OH 2 k − 1k 96.741 202.4 7.61 15.26 0.66
+C CS 2 − 1 97.981 316.68 7.42 29.89 0.64
+C H40 α — 99.023 21.03 9.46 0.88 0.81
+C SO 2 1 − 32 99.3 51.59 9.41 5.6 0.8
+C HC 3N 11 − 10 100.076 72.21 9.26 7.15 0.79
+C CH 3CCH 6 k − 5k 102.548 46.12 8.21 4.92 0.69
+C CH 3OH 0 0,0 − 11,1 108.894 42.87 6.99 2.55 0.57
+C HC 3N 12 − 11 109.174 47.64 6.95 4.42 0.57
+C C 18O 1 − 0 109.782 158.38 6.87 12.53 0.56
+C HNCO 5 0,5 − 40,4 109.906 67.01 6.86 6.18 0.56
+Table 13 continued
+50 Harada et al.
+T able 13 (continued)
+Position Species Transitions Restfreq I peak ∆Ipeak I ∆V ∆(I ∆V)
+(GHz) (mK) (mK) (K km/s) (K km/s)
+C 13CO 1 − 0 110.201 541.15 6.82 41.32 0.55
+C CH 3CN 6 k − 5k 110.383 21.96 6.8 2.69 0.55
+C CN 1 3/2 − 01/2 113.191 196.54 23.58 33.0 2.11
+C CN 1 1/2 − 01/2 113.491 441.29 23.45 62.01 2.1
+C H 2CO 3 0,3 − 20,2 218.222 26.6 5.74 2.39 0.52
+C H 2CO 3 2,2 − 22,1 218.476 16.17 5.72 1.67 0.52
+C C 18O 2 − 1 219.56 197.0 5.67 14.75 0.52
+C 13CO 2 − 1 220.399 576.38 7.98 47.41 0.72
+C CH 3CCH 13 k − 12k 222.167 23.7 7.85 2.59 0.71
+C C 17O 2 − 1 224.714 21.54 6.78 1.09 0.61
+C H 2CO 3 1,2 − 21,1 225.698 39.06 6.72 1.28 0.6
+C CN 2 3/2 − 13/2 226.36 28.52 6.68 4.11 0.6
+C CN 2 3/2 − 11/2 226.66 98.48 6.66 14.13 0.6
+C CN 2 5/2 − 13/2 226.875 187.62 6.65 21.08 0.59
+C CH 3CCH 14 k − 13k 239.252 22.52 7.03 0.23 0.61
+C CH 3OH 5 k − 4k 241.791 63.94 6.35 5.95 0.55
+C CS 5 − 4 244.936 56.25 7.14 5.37 0.62
+C NO 5 /2 + −3/2− 250.483 25.51 5.83 2.1 0.5
+C NO 5 /2 − −3/2+ 250.817 18.56 6.87 0.37 0.58
+C CH 3CCH 15 k − 14k 256.337 17.95 5.71 1.29 0.48
+C CH 3OH 2 1,1 − 10,1 261.806 35.11 5.86 3.05 0.49
+C CCH 3 − 2 262.004 86.62 5.85 11.52 0.49
+C HCN 3 − 2 265.886 212.11 7.34 19.24 0.61
+C HCO + 3 − 2 267.558 439.54 7.25 44.61 0.6
+C HNC 3 − 2 271.981 60.43 6.09 4.71 0.5
+C CH 3CCH 16 k − 15k 273.42 13.82 6.05 0.76 0.49
+TNE H 13CO+ 1 − 0 86.754 28.32 10.67 3.21 0.98
+TNE CCH 1 3/2 − 01/2 87.317 162.65 10.54 17.15 0.96
+TNE CCH 1 1/2 − 01/2 87.402 87.83 10.52 9.6 0.96
+TNE HNCO 4 0,4 − 30,3 87.926 24.61 10.39 1.06 0.94
+TNE HCN 1 − 0 88.634 459.05 10.91 37.29 0.99
+TNE HCO + 1 − 0 89.189 844.66 10.78 71.87 0.97
+TNE HNC 1 − 0 90.664 219.31 9.79 16.38 0.88
+TNE HC 3N 10 − 9 90.979 25.18 9.73 1.3 0.87
+TNE CH 3OH 2 k − 1k 96.741 68.40 7.87 4.33 0.68
+TNE CS 2 − 1 97.981 150.52 7.68 12.45 0.66
+TNE H40 α — 99.023 25.57 9.81 2.77 0.84
+TNE SO 2 1 − 32 99.3 39.38 9.76 2.49 0.83
+TNE HC 3N 11 − 10 100.076 41.96 9.61 2.93 0.82
+TNE CH 3CCH 6 k − 5k 102.548 74.84 8.53 4.68 0.72
+TNE CH 3OH 0 0,0 − 11,1 108.894 26.31 7.30 2.07 0.60
+Table 13 continued
+Chemistry of the infrared luminous merger NGC 3256 51
+T able 13 (continued)
+Position Species Transitions Restfreq I peak ∆Ipeak I ∆V ∆(I ∆V)
+(GHz) (mK) (mK) (K km/s) (K km/s)
+TNE HC 3N 12 − 11 109.174 16.43 7.26 0.91 0.59
+TNE SO 2 3 − 12 109.252 17.71 7.25 0.87 0.59
+TNE C 18O 1 − 0 109.782 78.58 7.19 5.69 0.58
+TNE HNCO 5 0,5 − 40,4 109.906 23.25 7.17 1.61 0.58
+TNE 13CO 1 − 0 110.201 449.06 7.13 35.71 0.58
+TNE CN 1 3/2 − 01/2 113.191 96.05 24.71 9.16 2.21
+TNE CN 1 1/2 − 01/2 113.491 205.02 24.59 15.34 2.2
+TNE c-C 3H2 6k − 5k 217.822 17.86 6.86 0.78 0.63
+TNE c-C 3H2 52,4 − 41,3 218.16 18.62 6.84 1.71 0.62
+TNE H 2CO 3 0,3 − 20,2 218.222 18.61 6.84 1.55 0.62
+TNE C 18O 2 − 1 219.56 108.09 6.77 6.92 0.62
+TNE 13CO 2 − 1 220.399 550.16 9.54 42.02 0.87
+TNE CH 3CCH 13 k − 12k 222.167 42.72 9.42 2.38 0.85
+TNE H 2CO 3 1,2 − 21,1 225.698 29.55 8.1 2.4 0.73
+TNE CN 2 3/2 − 13/2 226.36 23.01 8.07 0.21 0.72
+TNE CN 2 3/2 − 11/2 226.66 34.19 8.05 1.24 0.72
+TNE CN 2 5/2 − 13/2 226.875 123.5 8.04 6.89 0.72
+TNE CH 3CCH 14 k − 13k 239.252 37.16 8.68 2.3 0.76
+TNE CH 3OH 5 k − 4k 241.791 35.34 7.87 2.11 0.68
+TNE CS 5 − 4 244.936 28.97 8.91 2.05 0.77
+TNE NO 5 /2 + −3/2− 250.483 25.95 7.34 -0.01 0.62
+TNE NO 5 /2 − −3/2+ 250.817 20.85 8.67 0.37 0.74
+TNE CH 3OH 2 0,2 − 1−1,1 254.015 15.59 8.5 0.46 0.72
+TNE CH 3CCH 15 k − 14k 256.337 33.82 7.27 2.3 0.61
+TNE H 13CO+ 3 − 2 260.255 21.65 7.26 1.03 0.61
+TNE CH 3OH 2 1,1 − 10,1 261.806 20.93 7.55 1.34 0.63
+TNE CCH 3 − 2 262.004 68.71 7.54 6.15 0.63
+TNE HCN 3 − 2 265.886 90.5 9.52 5.88 0.79
+TNE HCO + 3 − 2 267.558 360.03 9.43 23.59 0.78
+TNE HNC 3 − 2 271.981 44.21 7.99 3.07 0.65
+TNE CH 3CCH 16 k − 15k 273.42 14.3 7.96 0.97 0.65
+TSE CCH 1 3/2 − 01/2 87.317 95.59 10.42 10.02 0.95
+TSE CCH 1 1/2 − 01/2 87.402 44.34 10.4 6.83 0.95
+TSE HCN 1 − 0 88.634 330.75 10.78 36.63 0.98
+TSE HCO + 1 − 0 89.189 560.87 10.65 70.52 0.96
+TSE HNC 1 − 0 90.664 123.88 9.67 13.8 0.87
+TSE N 2H+ 1 − 0 93.176 65.16 24.52 4.32 2.16
+TSE CH 3OH 2 k − 1k 96.741 82.94 7.76 7.93 0.67
+TSE CS 2 − 1 97.981 143.78 7.57 15.96 0.65
+TSE SO 2 1 − 32 99.3 44.24 9.61 3.24 0.82
+TSE CH 3CCH 6 k − 5k 102.548 27.33 8.4 0.45 0.71
+Table 13 continued
+52 Harada et al.
+T able 13 (continued)
+Position Species Transitions Restfreq I peak ∆Ipeak I ∆V ∆(I ∆V)
+(GHz) (mK) (mK) (K km/s) (K km/s)
+TSE C 18O 1 − 0 109.782 45.97 7.06 5.73 0.57
+TSE 13CO 1 − 0 110.201 292.94 7.01 31.98 0.57
+TSE CH 3CN 6 k − 5k 110.383 22.06 6.98 2.05 0.57
+TSE CN 1 3/2 − 01/2 113.191 71.36 24.25 10.04 2.17
+TSE CN 1 1/2 − 01/2 113.491 136.68 24.12 14.94 2.16
+TSE H 2CO 3 0,3 − 20,2 218.222 12.03 6.37 0.96 0.58
+TSE C 18O 2 − 1 219.56 30.01 6.3 3.21 0.57
+TSE 13CO 2 − 1 220.399 297.26 8.87 29.8 0.81
+TSE CH 3CCH 13 k − 12k 222.167 20.33 8.75 0.21 0.79
+TSE H 2CO 3 1,2 − 21,1 225.698 26.95 7.51 1.3 0.67
+TSE CN 2 3/2 − 11/2 226.66 27.88 7.45 0.85 0.67
+TSE CN 2 5/2 − 13/2 226.875 48.68 7.44 3.32 0.67
+TSE CH 3OH 5 k − 4k 241.791 35.04 7.22 4.07 0.63
+TSE CS 5 − 4 244.936 30.26 8.15 0.68 0.7
+TSE CH 3OH 2 1,1 − 10,1 261.806 29.02 6.81 2.49 0.57
+TSE CCH 3 − 2 262.004 24.84 6.8 0.23 0.57
+TSE HCN 3 − 2 265.886 69.33 8.57 6.13 0.71
+TSE HCO + 3 − 2 267.558 178.16 8.48 17.21 0.7
+TSE HNC 3 − 2 271.981 20.38 7.16 2.22 0.58
+TSW SiO 2 − 1 86.847 31.41 10.6 3.95 0.97
+TSW CCH 1 3/2 − 01/2 87.317 148.27 10.49 17.04 0.96
+TSW CCH 1 1/2 − 01/2 87.402 95.46 10.47 8.64 0.95
+TSW HNCO 4 0,4 − 30,3 87.926 69.09 10.35 5.53 0.94
+TSW HCN 1 − 0 88.634 496.89 10.86 51.9 0.98
+TSW HCO + 1 − 0 89.189 688.99 10.73 84.51 0.97
+TSW HNC 1 − 0 90.664 202.15 9.74 17.53 0.87
+TSW HC 3N 10 − 9 90.979 27.63 9.68 1.77 0.86
+TSW N 2H+ 1 − 0 93.176 83.15 24.71 6.26 2.18
+TSW C 34S 1 − 0 96.413 29.57 7.88 2.09 0.68
+TSW CH 3OH 2 k − 1k 96.741 222.31 7.83 15.4 0.68
+TSW CS 2 − 1 97.981 187.28 7.64 15.6 0.66
+TSW SO 2 1 − 32 99.3 46.56 9.7 4.29 0.83
+TSW HC 3N 11 − 10 100.076 28.13 9.55 2.46 0.81
+TSW CH 3CCH 6 k − 5k 102.548 28.19 8.48 2.63 0.71
+TSW HC 3N 12 − 11 109.174 23.39 7.21 1.2 0.59
+TSW C 18O 1 − 0 109.782 95.16 7.13 6.26 0.58
+TSW HNCO 5 0,5 − 40,4 109.906 54.65 7.12 2.54 0.58
+TSW 13CO 1 − 0 110.201 381.66 7.08 29.99 0.57
+TSW CN 1 3/2 − 01/2 113.191 76.31 24.52 4.41 2.2
+TSW CN 1 1/2 − 01/2 113.491 201.53 24.4 18.96 2.18
+TSW C 18O 2 − 1 219.56 48.71 6.57 2.99 0.6
+Table 13 continued
+Chemistry of the infrared luminous merger NGC 3256 53
+T able 13 (continued)
+Position Species Transitions Restfreq I peak ∆Ipeak I ∆V ∆(I ∆V)
+(GHz) (mK) (mK) (K km/s) (K km/s)
+TSW 13CO 2 − 1 220.399 304.86 9.26 17.61 0.84
+TSW H 2CO 3 1,2 − 21,1 225.698 17.04 7.86 1.18 0.7
+TSW CN 2 3/2 − 13/2 226.36 13.95 7.82 0.27 0.7
+TSW CN 2 3/2 − 11/2 226.66 26.37 7.8 1.84 0.7
+TSW CN 2 5/2 − 13/2 226.875 67.62 7.79 3.85 0.7
+TSW CH 3OH 5 k − 4k 241.791 50.67 7.6 2.5 0.66
+TSW CS 5 − 4 244.936 19.23 8.59 -0.21 0.74
+TSW CH 3OH 2 0,2 − 1−1,1 254.015 23.75 8.17 0.57 0.69
+TSW CCH 3 − 2 262.004 19.45 7.23 0.23 0.6
+TSW HCN 3 − 2 265.886 81.2 9.12 4.14 0.75
+TSW HCO + 3 − 2 267.558 155.94 9.03 10.14 0.74
+TSW HNC 3 − 2 271.981 23.86 7.64 2.05 0.62
+OS SiO 2 − 1 86.847 29.29 10.57 3.83 0.97
+OS CCH 1 3/2 − 01/2 87.317 52.69 10.46 9.79 0.95
+OS CCH 1 1/2 − 01/2 87.402 39.54 10.44 4.01 0.95
+OS HCN 1 − 0 88.634 228.92 10.83 40.42 0.98
+OS HCO + 1 − 0 89.189 369.77 10.7 64.6 0.97
+OS HOC + 1 − 0 89.487 21.55 10.63 0.92 0.96
+OS HNC 1 − 0 90.664 90.76 9.71 12.34 0.87
+OS CH 3OH 2 k − 1k 96.741 57.49 7.8 8.35 0.68
+OS CS 2 − 1 97.981 83.96 7.61 10.34 0.66
+OS SO 2 1 − 32 99.3 25.86 9.66 2.1 0.83
+OS C 18O 1 − 0 109.782 34.8 7.1 3.44 0.58
+OS 13CO 1 − 0 110.201 117.67 7.05 10.91 0.57
+OS CN 1 3/2 − 01/2 113.191 68.06 24.41 13.07 2.19
+OS CN 1 1/2 − 01/2 113.491 118.29 24.28 19.56 2.17
+OS C 18O 2 − 1 219.56 17.85 6.46 0.77 0.59
+OS 13CO 2 − 1 220.399 113.47 9.1 7.07 0.83
+OS CN 2 3/2 − 11/2 226.66 27.86 7.65 2.21 0.69
+OS CN 2 5/2 − 13/2 226.875 38.21 7.64 6.55 0.68
+OS CH 3OH 5 k − 4k 241.791 37.05 7.44 5.48 0.64
+OS CS 5 − 4 244.936 22.38 8.4 -0.13 0.72
+OS CCH 3 − 2 262.004 23.6 7.05 1.99 0.59
+OS HCN 3 − 2 265.886 54.12 8.88 7.3 0.73
+OS HCO + 3 − 2 267.558 95.61 8.8 11.99 0.72
+OS HOC + 3 − 2 268.451 19.6 8.75 1.41 0.72
+SW H 13CO+ 1 − 0 86.754 45.52 10.44 3.78 0.96
+SW SiO 2 − 1 86.847 54.12 10.42 4.69 0.95
+SW CCH 1 3/2 − 01/2 87.317 314.32 10.31 38.99 0.94
+SW CCH 1 1/2 − 01/2 87.402 158.32 10.29 17.79 0.94
+SW HNCO 4 0,4 − 30,3 87.926 56.2 10.17 3.52 0.92
+Table 13 continued
+54 Harada et al.
+T able 13 (continued)
+Position Species Transitions Restfreq I peak ∆Ipeak I ∆V ∆(I ∆V)
+(GHz) (mK) (mK) (K km/s) (K km/s)
+SW HCN 1 − 0 88.634 745.59 10.67 76.73 0.97
+SW HCO + 1 − 0 89.189 1106.6 10.54 124.11 0.95
+SW HOC + 1 − 0 89.487 47.47 10.47 5.01 0.94
+SW HNC 1 − 0 90.664 371.75 9.57 33.33 0.86
+SW HC 3N 10 − 9 90.979 69.12 9.5 5.0 0.85
+SW N 2H+ 1 − 0 93.176 117.54 24.24 6.76 2.14
+SW C 34S 1 − 0 96.413 22.23 7.72 2.55 0.67
+SW CH 3OH 2 k − 1k 96.741 226.19 7.67 16.09 0.66
+SW CS 2 − 1 97.981 362.43 7.48 31.55 0.64
+SW H40 α — 99.023 19.93 9.54 0.35 0.82
+SW SO 2 1 − 32 99.3 96.97 9.49 7.96 0.81
+SW HC 3N 11 − 10 100.076 49.29 9.34 5.13 0.8
+SW CH 3CCH 6 k − 5k 102.548 108.85 8.28 7.71 0.7
+SW CH 3OH 0 0,0 − 11,1 108.894 40.65 7.06 2.88 0.58
+SW HC 3N 12 − 11 109.174 39.1 7.02 3.84 0.57
+SW C 18O 1 − 0 109.782 145.68 6.95 11.28 0.56
+SW HNCO 5 0,5 − 40,4 109.906 42.04 6.93 3.43 0.56
+SW 13CO 1 − 0 110.201 942.81 6.89 71.38 0.56
+SW CN 1 3/2 − 01/2 113.191 179.74 23.84 24.35 2.13
+SW CN 1 1/2 − 01/2 113.491 374.89 23.71 42.88 2.12
+SW c-C 3H2 33,0 − 22,1 216.279 22.71 6.08 1.14 0.56
+SW H 2CO 3 0,3 − 20,2 218.222 26.21 5.98 2.93 0.55
+SW H 2CO 3 2,2 − 22,1 218.476 21.41 5.96 1.46 0.54
+SW C 18O 2 − 1 219.56 168.14 5.91 11.45 0.54
+SW 13CO 2 − 1 220.399 1009.89 8.32 75.17 0.76
+SW CH 3CCH 13 k − 12k 222.167 39.65 8.19 2.86 0.74
+SW C 17O 2 − 1 224.714 37.07 7.08 3.26 0.64
+SW H 2CO 3 1,2 − 21,1 225.698 54.69 7.02 4.33 0.63
+SW CN 2 3/2 − 13/2 226.36 21.52 6.98 3.04 0.63
+SW CN 2 3/2 − 11/2 226.66 85.01 6.96 6.79 0.62
+SW CN 2 5/2 − 13/2 226.875 157.89 6.95 15.05 0.62
+SW CH 3CCH 14 k − 13k 239.252 36.7 7.38 2.91 0.64
+SW CH 3OH 5 k − 4k 241.791 79.12 6.68 7.88 0.58
+SW CS 5 − 4 244.936 70.96 7.52 2.75 0.65
+SW NO 5 /2 + −3/2− 250.483 17.52 6.15 1.75 0.52
+SW NO 5 /2 − −3/2+ 250.817 16.94 7.26 0.89 0.62
+SW CH 3CCH 15 k − 14k 256.337 24.03 6.04 1.14 0.51
+SW CH 3OH 2 1,1 − 10,1 261.806 38.48 6.22 2.64 0.52
+SW CCH 3 − 2 262.004 96.45 6.21 12.31 0.52
+SW HCN 3 − 2 265.886 163.25 7.8 12.26 0.64
+SW HCO + 3 − 2 267.558 403.21 7.71 35.26 0.64
+SW HNC 3 − 2 271.981 71.28 6.49 4.75 0.53
+SW CH 3CCH 16 k − 15k 273.42 21.45 6.45 2.79 0.53

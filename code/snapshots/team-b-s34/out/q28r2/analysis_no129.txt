@@ -1,0 +1,27 @@
+######## variant no129: taumax 3.0 cap None dropped [10, 11] sig (0.1, 0.15, 0.15, 0.15)
+ N: min chi2 two-phase (own E) 10.48; lnZ -24.17
+ S: min chi2 two-phase (own E) 5.43; lnZ -20.64
+ joint shared-E: min chi2 20.11 (N 13.66, S 6.45); lnZ shared -38.45 vs separate-E -44.81
+ N: one-state two-size: min chi2 37.26 lnZ -30.56; best Tk 100 n 4.5 N 15.0 A 0.5 theta 0.8 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 6.39
+ S: one-state two-size: min chi2 27.49 lnZ -26.17; best Tk 100 n 4.0 N 15.5 A 0.5 theta 0.5 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 5.53
+ joint ln BF shared two-phase / (one-state N x one-state S) = 18.28
+ time 136s
+ shared-E posterior (joint N+S), 16/50/84%: Tk_E 133 [94.4,133]; log n_E 4 [3.62,4.5]; log N(HCO+)_E 14 [13.8,14.2]; log A_E 0.5 [0.5,0.5]; f_E 1 [0.3,1]
+  P(Tk_E>50)=1.000  P(Tk_E>100)=0.682  P(n_E<1e5)=0.983  best-fit E: Tk 133 log n 3.625 logN 14.25 A 0.5 fE 1.0
+ profile chi2_joint(Tk_E)-min (min over n_E,N_E,A_E,f_E and both compact phases):
+   10:91.5 12:81.1 14:63.6 17:54.6 20:43.2 24:34.7 28:28.2 33:24.3 40:16.4 47:15.6 56:8.6 67:6.6 79:3.8 94:2.4 112:1.4 133:0.0 158:5.2 188:9.9 224:11.8 266:22.5 316:26.3
+  Tk_E allowed at dchi2<4: 79-133 K; excluded dchi2>4 below 79 K
+ profile chi2_joint(log n_E)-min: 3.50:7.9 3.75:4.7 4.00:3.8 4.25:3.0 4.50:4.0 4.75:1.4 5.00:5.7 5.25:8.6 5.50:18.9 5.75:26.4 6.00:40.5
+  log n_E allowed at dchi2<4: 3.62-4.75
+  chi2(Tk_E) at fixed log n_E=4.0: 10:264.1 14:104.2 20:117.3 28:64.1 40:47.3 56:41.4 79:3.8 112:16.8 158:22.8 224:13.8 316:47.6
+  chi2(Tk_E) at fixed log n_E=4.5: 10:123.8 14:106.8 20:84.6 28:67.5 40:29.3 56:46.4 79:9.0 112:4.6 158:29.6 224:19.8 316:49.7
+  chi2(Tk_E) at fixed log n_E=5.0: 10:120.2 14:109.7 20:62.9 28:62.2 40:26.3 56:19.0 79:18.5 112:5.7 158:46.0 224:51.3 316:63.0
+  chi2(Tk_E) at fixed log n_E=5.5: 10:94.6 14:73.5 20:75.3 28:28.2 40:42.8 56:18.9 79:51.3 112:61.3 158:97.8 224:119.8 316:118.2
+ N compact posterior: Tk_C 25.1 [10,158]; log n_C 6 [5,7]; log N(HCO+)_C 15.5 [15,16]; log A_C 0.5 [0,0.5]; theta" 0.5 [0.5,0.5]; f_C 1 [0.3,1]
+   P(Tk_C<=30)=0.548 (prior 0.304)  P(30<Tk<=100)=0.198  P(Tk_C>100)=0.254
+   P(theta<=0.3")=0.00  P(f_C<1)=0.38
+   N(HCN)/N(HCO+) compact: 3.16 [1.00,3.16]
+ S compact posterior: Tk_C 25.1 [15.8,63.1]; log n_C 6 [5,6.5]; log N(HCO+)_C 16 [15.5,16.5]; log A_C 0 [-0.5,0.5]; theta" 0.5 [0.5,0.5]; f_C 0.3 [0.1,1]
+   P(Tk_C<=30)=0.564 (prior 0.304)  P(30<Tk<=100)=0.323  P(Tk_C>100)=0.113
+   P(theta<=0.3")=0.01  P(f_C<1)=0.79
+   N(HCN)/N(HCO+) compact: 1.00 [0.32,3.16]

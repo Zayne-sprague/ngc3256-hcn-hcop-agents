@@ -1,0 +1,25 @@
+{
+ "team": "team-b",
+ "item": "Q39",
+ "files": [
+  "scripts/s220a_q39_fine_grid.py",
+  "scripts/s220b_q39_fine_fit.py",
+  "scripts/s220c_q39_summary.py",
+  "scripts/s220d_q39_twogas.py",
+  "scripts/s220e_q39_tg_summary.py",
+  "scripts/s221_update_report_q39.py",
+  "out/q39/summary.txt",
+  "out/q39/summary.json",
+  "out/q39/summary_cap17.0.txt",
+  "out/q39/summary_cap18.0.txt",
+  "out/q39/tg_summary.txt",
+  "out/q39/tg_summary.json",
+  "out/q39/fit.log",
+  "out/q39/tg.log",
+  "lit/harada_table13_parsed.csv",
+  "team/checks/q39r1_check.py",
+  "team/work_summary.md",
+  "team/review.json",
+  "TEAM_REPORT.json"
+ ]
+}

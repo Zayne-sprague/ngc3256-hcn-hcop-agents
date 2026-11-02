@@ -1,0 +1,1805 @@
+Astronomy & Astrophysics manuscript no. jwst_n3256co ©ESO 2023
+October 30, 2023
+The CO-to-H2 conversion factor of molecular outflows.
+Rovibrational CO emission in NGC 3256-S resolved by
+JWST/NIRSpec
+M. Pereira-Santaella1, E. González-Alfonso2, I. García-Bernete3, S. García-Burillo4, and D. Rigopoulou3
+1 Instituto de Física Fundamental, CSIC, Calle Serrano 123, 28006 Madrid, Spain
+e-mail: miguel.pereira@iff.csic.es
+2 Universidad de Alcalá, Departamento de Física y Matemáticas, Campus Universitario, 28871 Alcalá de Henares, Madrid, Spain
+3 Department of Physics, University of Oxford, Keble Road, Oxford OX1 3RH, UK
+4 Observatorio Astronómico Nacional (OAN-IGN)-Observatorio de Madrid, Alfonso XII, 3, 28014, Madrid, Spain
+October 30, 2023
+ABSTRACT
+We analyze JWST/NIRSpec observations of the CO rovibrationalv=1–0 band at∼4.67 µm around the dust-embedded southern active
+galactic nucleus (AGN) of NGC 3256 ( d=40 Mpc; LIR=1011.6 L⊙). We classify the CO v=1–0 spectra into three categories based on
+the behavior of P- and R-branches of the band: (a) both branches in absorption toward the nucleus; (b) P-R asymmetry (P-branch in
+emission and R-branch in absorption) along the disk of the galaxy; and (c) both branches in emission in the outflow region above
+and below the disk. In this paper, we focus on the outflow. The CO v=1–0 emission can be explained by the vibrational excitation of
+CO in the molecular outflow by the bright mid-IR ∼4.7 µm continuum from the AGN up to r∼250 pc. We model the ratios between
+the P( J+2) and R( J) transitions of the band to derive the physical properties (column density, kinetic temperature, and CO-to-H 2
+conversion factor,αCO) of the outflowing gas. We find that the12CO v=1–0 emission is optically thick for J<4, while the 13CO v=1–0
+emission remains optically thin. From the P(2)/R(0) ratio, we identify a temperature gradient in the outflow from>40 K in the central
+100 pc to<15 K at 250 pc sampling the cooling of the molecular gas in the outflow. We used three methods to derive αCO in eight
+100 pc (0′′.5) apertures in the outflow by fitting the P(J+2)/R(J) ratios with non-LTE models. We obtain low medianαCO factors (0.40–
+0.61)× 3.2×10−4[CO/H2] M⊙ (K km s−1 pc2)−1 in the outflow regions. This implies that outflow rates and energetics might be overestimated if aULIRG-likeαCO, which is 1.3–2 times larger, is assumed. The reduced αCO can be explained if the outflowing molecular clouds are
+not virialized. We also report the first extragalactic detection of a broad (σ=0.0091 µm) spectral feature at 4.645 µm associated with
+aliphatic deuterium on polycyclic aromatic hydrocarbons (Dn-PAH).
+Key words. Galaxies: active – Galaxies: evolution – Infrared: ISM
+1. Introduction
+Feedback from active galactic nuclei (AGN) has been invoked to
+explain key properties of galaxies like the observed stellar mass
+function or the quenching of the star-formation (SF) in quiescent
+galaxies (e.g., Somerville & Davé 2015). This SF quenching can
+be caused by the removal of cold gas from the host galaxy by
+massive outflows. These outflows seem to be dominated by the
+cold molecular phase and have mass outflow rates, ˙Mout, from
+a few M⊙ yr−1 to >100 M⊙ yr−1 and mass loading factors, ˙Mout
+/star-formation rate (SFR), which can exceed 1 in extreme cases
+like ultra-luminous infrared galaxies (ULIRGs; Harrison et al.
+2018; Veilleux et al. 2020).
+A commonly used tracer of cold molecular outflows are ro-
+tational CO transitions in the mm and sub-mm ranges (e.g.,
+Combes et al. 2013; Cicone et al. 2014; García-Burillo et al.
+2015; Pereira-Santaella et al. 2018; Lutz et al. 2020; García-
+Bernete et al. 2021; Lamperti et al. 2022; Ramos Almeida et al.
+2022; Alonso-Herrero et al. 2018, 2019, 2023). To transform the
+observed CO luminosities (LCO), into molecular masses ( Mmol),
+and the latter into outflow rates, it is necessary to apply a CO-
+to-H2 conversion factor,αCO = Mmol/LCO, which in most cases
+is not constrained by the observations and a fixed value is as-
+sumed. A ∼1 dex wide range of αCO between 0.3 and 2.0 M⊙
+(K km s−1 pc2)−1 has been suggested for outflows from observa-
+tions of multiple [C i] and rotational CO transitions in few ob-
+jects (e.g., Dasyra et al. 2016; Cicone et al. 2018; Saito et al.
+2022; Ueda et al. 2022). According to these works, possible ex-
+planations for the reduced αCO in outflows are: non-virialized
+molecular clouds; optically thin rotational CO emission; and /or
+CO being destroyed becoming C i. Here, we present an alterna-
+tive method to estimate the αCO factor using the fundamental
+rovibrational CO v=1–0 4.67µm band that now can be observed
+by the NIRSpec instrument (Jakobsen et al. 2022; Böker et al.
+2022) on board the James Webb Space Telescope (JWST).
+The 4.67 µm rovibrational CO band has been previously
+observed in extragalactic objects from space with Spitzer and
+AKARI at low spectral resolution (R<150) which was not enough
+to spectrally resolve the individual transitions of the band (Spoon
+et al. 2004; Baba et al. 2018, 2022). It has also been observed
+from the ground at high spectral resolution R∼5000–10000 (to
+allow for the correction of the atmospheric absorption) in a few
+deeply obscured objects (e.g., IRAS 08572 +3915, NGC 4945,
+and NGC 4418; Spoon et al. 2003; Geballe et al. 2006; Shira-
+hata et al. 2013; Onishi et al. 2021; Ohyama et al. 2023). All
+these works focused on detecting the CO rovibrational band in
+Article number, page 1 of 17
+arXiv:2309.06486v2  [astro-ph.GA]  27 Oct 2023
+A&A proofs: manuscript no. jwst_n3256co
+absorption toward dusty bright IR nuclei to probe the conditions
+of the gas close to the central source (AGN and/or compact star-
+burst). In this work, thanks to the sensitivity and spatial resolu-
+tion of JWST, we for the first time disentangle the rovibrational
+CO absorption toward the obscured AGN located in the southern
+nucleus of the luminous infrared (IR) merger NGC 3256 and the
+spatially extended CO emission around this nucleus using the in-
+tegral field unit (IFU) of NIRSpec. So far, detections of the CO
+band in emission have been scarce and only in Galactic sources
+(e.g., González-Alfonso et al. 2002; Najita et al. 2003; Rettig
+et al. 2005; Herczeg et al. 2011). With JWST, detection of the
+CO band in emission is likely to become common in spatially
+resolved objects hosting bright mid-IR sources.
+1.1. NGC 3256
+NGC 3256 is a nearby (d=40 Mpc; z=0.00916; 190 pc arcsec−1)
+gas-rich advanced merger (projected nuclear separation <1 kpc)
+with a high IR luminosity (LIR=1011.6 L⊙) which places it in the
+luminous IR galaxy (LIRG) range. The southern component of
+NGC 3256 (NGC 3256 S) is an edge-on disk with a position an-
+gle (PA) of∼90◦. It is located in front of the northern component,
+which is an almost face-on disk (see e.g., Sakamoto et al. 2014).
+The northern component is powered by a bright starburst
+with a nuclear star-formation rate (SFR) of ∼15 M⊙ yr−1 (Lira
+et al. 2008). The southern component instead hosts an extremely
+dust-embedded nucleus with a very deep 9.7µm silicate absorp-
+tion feature (Pereira-Santaella et al. 2010; Díaz-Santos et al.
+2010). The modeling of near-IR, mid-IR, and X-ray observations
+of the southern nucleus suggests that it is powered by a low-
+luminosity ( L2−10 keV ∼ 1040 erg s−1) obscured AGN (Ohyama
+et al. 2015). However, because of the extreme dust obscuration,
+no high-ionization transitions neither direct X-ray emission from
+the AGN are detected (e.g., Lira et al. 2002; Alonso-Herrero
+et al. 2012; Pereira-Santaella et al. 2011).
+This AGN has a collimated bipolar outflow which is per-
+pendicular to the disk. A massive outflow ( ˙Mout >50 M⊙ yr−1)
+has been detected in the cold molecular phase, through CO,
+HCN, and HCO + rotational emission (Sakamoto et al. 2014;
+Michiyama et al. 2018), as well as in the hot molecular gas
+phase, through near-IR rovibrational H 2 transitions (Emonts
+et al. 2014) and the ionized gas phase (Leitherer et al. 2013). A
+bipolar radio-jet has been proposed as the launching mechanism
+of the outflow (Sakamoto et al. 2014), although it might not be
+powerful enough to explain the outflow mass. Alternatively, ra-
+diation pressure and an ionized wind from the AGN could drive
+this outflow (Emonts et al. 2014).
+This paper is organized as follows: the data reduction is pre-
+sented in Section 2. In Section 3, maps of the mid-IR continuum
+and ionized and molecular gas tracers are presented. We also ex-
+tract the spectra of selected regions and fit the observed spectral
+features. In Section 4, we present a model for the rovibrational
+CO band emission. Three methods to derive theαCO factor from
+the CO band emission are discussed in Section 5. Finally, in Sec-
+tion 7, we summarize the main results of the paper.
+2. Data reduction
+2.1. JWST NIRSpec integral field spectroscopy
+We present the high spectral resolution ( R∼1900–3600)
+2.87–5.27 µm JWST/NIRSpec integral-field spectroscopy of
+NGC 3256 obtained with the grating/filter pair G395H/F290LP.
+These NIRSpec observations are part of the Director’s Discre-
+Table 1: Spectral features
+Name λ Ref.
+(µm)
+CO v=1–0 band fit
+H2 1–0 O(9) 4.5755 2
+[K iii] 4.6180 4
+Aliphatic Dn-PAH 4.645 a 5,6
+H i 7–5 4.6538 3
+H2 1–1 S(10) 4.6558 2
+H i 11–6 4.6725 3
+12CO v=1–0 4.6742 b 1
+H2 0–0 S(9) 4.6946 2
+13CO v=1–0 4.7792 b 1
+C18O v=1–0 4.7882 b 1
+Additional transitions
+H2 0–0 S(10) 4.4098 2
+H2 1–1 S(11) 4.4166 2
+H2 1–1 S(9) 4.9541 2
+H2 0–0 S(8) 5.0531 2
+H i 10–6 5.1287 3
+Notes. List of spectral features used during the fitting of the CO v=1–0
+band. (a) The Dn-PAH emission is modeled as a Gaussian profile with
+σ=0.0091 µm(see Section 3.3.4 and Figure 8). (b) Wavelength of the
+P(1) transition of the rovibrational band.
+References. (1) Goorvitch 1994; (2) Roue ff et al. 2019; (3) Storey &
+Hummer 1995; (4) Feuchtgruber et al. 1997; (5) Peeters et al. 2004; (6)
+This work.
+tionary Early Release Science (DD-ERS) Program #1328 (PI:
+L. Armus and A. Evans). The data were obtained with the NR-
+SIR2RAPID readout using 18 groups and a 4-point cycling
+dither pattern. The field of view is 3′′.1× 3′′.1, with a spaxel size
+of 0′′.1.
+We downloaded the uncalibrated level 1 data from theJWST
+archive1. The NIRSpec IFU observations were processed using
+the JWST Calibration pipeline (version 1.9.4) together with the
+calibration context 1063 from the Calibration References Data
+System (CRDS). First, we processed the raw data for detector-
+level corrections using the standard Detector1 module of the
+pipeline. MSA leakage correction exposures (i.e., leakal files)
+are also corrected during this stage. Then, we subtracted a resid-
+ual bias level by masking the slits in the ramp-fitted products
+(i.e., count rate files). We built a bad-pixel mask based on the
+leakal exposures and updated the data quality extensions of both
+source and leakal observations. The masked pixels are interpo-
+lated based on the neighbour spaxels (3×3 box) when possible.
+Then, we calibrated count rate files using the Spec2 mod-
+ule. This module corrects flat-fielding and applies flux calibra-
+tion and world coordinate system corrections. We used the Spec3
+module to build the two 3D spectral sub-cubes (NIRSpec detec-
+tors 1 and 2) from the fully calibrated Spec2 products. We used
+the drizzle weighing and spaxel size of 0 ′′.1 in the cube build
+algorithm.
+2.2. NIRCam imaging
+NIRCam imaging was also available as part of the DD-ERS Pro-
+gram #1328. We downloaded the fully reduced and calibrated
+F150W (1.50 µm), F200W (1.99µm), and F335M (3.36µm) im-
+ages from the JWST archive. We combined these three filters
+1 https://mast.stsci.edu/portal/Mashup/Clients/Mast/
+Portal.html
+Article number, page 2 of 17
+Pereira-Santaella et al.: CO-to-H2 conversion factor of outflows. Rovibrational CO emission.
+4 2 0 -2 -4
+RA [arcsec]
+-2
+0
+2
+4
+6
+Dec [arcsec]
+CO(2-1)
+N
+S
+500 pc
+0.00
+1.00
+2.00
+3.00
+4.00
+5.00
+6.00
+10 5 0 -5 -10
+RA [arcsec]
+-5
+0
+5
+10 Dec [arcsec]
+NIRCam
+1 kpc
+F150W
+F200W
+F335M
+-2
+-1
+0
+1
+2
+Dec [arcsec]
+4.6μm continuum
+0.00
+0.02
+0.04
+0.06
+0.08
+HI 7-5
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+2 1 0 -1 -2
+RA [arcsec]
+-2
+-1
+0
+1
+2
+Dec [arcsec]
+H2 0-0 S(9)
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+2 1 0 -1 -2
+RA [arcsec]
+CO 1-0 P(5)
+-0.1
+-0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+N1
+N2
+N3
+S1
+S2
+N4
+N5
+S3
+Fig. 1: (Top-left). Color image of NGC 3256 combining the NIRCam filters F150W (blue), F200W (green), and F335M (red).
+The latter contains the PAH3.3 µm band. The gray box marks the field of view of the ALMA CO(2–1) map (top-right panel) and
+the tilted gray rectangle is the NIRSpec field of view (middle and bottom row panels). (Top-right). ALMA CO(2–1) 230.54 GHz
+zeroth moment map. The red ellipse represents the beam FWHM (0 ′′.39×0′′.37). The units of the image are Jy km s−1 beam−1. The
+crosses mark the northern and southern nuclei of NGC 3256 based on the 235 GHz continuum. (Middle-left). NIRSpec 4.6 µm
+continuum map (see Section 3.1). The units are mJy pixel −1. (Middle-right, bottom-left, and bottom-right). Maps of the H i 7–
+5 4.65µm, H 2 0–0 S(9) 4.69 µm, and CO v=1–0 P(5) 4.71 µm transitions, respectively (see Section 3.1). The maps are in units
+of 10−16 erg s−1 cm−2 pixel−1. The crosses indicate the nuclear position determined from the 4.6 µm continuum peak. The circular
+apertures in the last panel are the regions used to extract the spectra of individual regions (Section 3.3).
+Article number, page 3 of 17
+A&A proofs: manuscript no. jwst_n3256co
+-150
+-100
+-50
+0
+50
+100
+150
+2 1 0 -1 -2
+RA [arcsec]
+-2
+-1
+0
+1
+2
+Dec [arcsec]
+HI 7-5
+250 pc
+2 1 0 -1 -2
+RA [arcsec]
+H2 0-0 S(9)
+2 1 0 -1 -2
+RA [arcsec]
+CO v=1-0
+Fig. 2: Observed velocity fields of H i 7–5 4.65µm (first panel), H2 0–0 S(9) 4.69µm (second panel), and CO v=1–0 4.67µm (third
+panel). The maps are in km s−1.
+to produce a reference color image of the system showing the
+near-IR stellar morphology (F150W and F200W filters) and the
+more extended PAH3.3µm emission included in the F335M fil-
+ter (Figure 1).
+2.3. Ancillary ALMA data
+We retrieved archival ALMA observations of the12CO rotational
+lines J=1–0 (115.27 GHz) and J=2–1 (230.54 GHz) from pro-
+grams 2018.1.00223.S (PI: K. Sakamoto) and 2015.1.00714.S
+(PI: K. Sliwa), respectively. We combined data from com-
+pact and extended 12-m array configurations to improve the
+coverage of uv-plane. We also retrieved observations of the
+CO isotopologues 13CO J=2–1 (220.40 GHz) and C 18O J=2–
+1 (219.56 GHz), both from program 2015.1.00412.S (PI: N.
+Harada).
+The data were processed using the ALMA reduction soft-
+ware CASA (v6.4.1; McMullin et al. 2007) following Pereira-
+Santaella et al. (2021). The 12CO cubes were smoothed to a
+common beam with a FWHM of 0 ′′.39×0′′.37, which is compa-
+rable to the JWST/NIRSpec resolution (∼0′′.2), using the CASA
+task imsmooth. The beam FWHM of the 13CO and C 18O cubes
+is 0′′.85×0′′.81.
+We calculated the zeroth moment maps of all the CO tran-
+sitions following the method described in Sánchez-García et al.
+(2022). The top right panel of Figure 1 shows the 12CO(2–1)
+zeroth moment map around the two nuclei of NGC 3256.
+The absolute flux accuracy for Band 3 ( 12CO J=1–0) and
+Band 6 ( J=2–1 transitions) is 10% and 20%, respectively
+(ALMA Technical Handbook).
+3. Analysis and results
+In this paper, we focus on the rich 4.52–4.87 µm spectral range
+observed by JWST/NIRSpec where the rovibrational bands of
+12CO (4.67 µm), 13CO (4.78 µm), and C 18O (4.79 µm) are lo-
+cated. In addition to the CO bands, this spectral range also con-
+tains pure rotational and rovibrational H 2 transitions as well as
+hydrogen recombination lines and ionized gas tracers. Table 1
+shows the full list of spectral features used in this work.
+To analyze the NIRSpec data cubes, we first produced spec-
+tral maps to extract the spatial information at the native NIRSpec
+resolution (∼0′′.2 at∼4.6 µm; Sections 3.1 and 3.2). Then, we an-
+alyzed the spectra from selected regions of interest using larger
+apertures (0′′.5 diameter;∼ 100 pc) to increase the signal-to-noise
+ratio (SNR; Section 3.3).
+3.1. Mid-IR continuum, ionized, and molecular gas maps
+We first produced spectral maps of various tracers in the spectral
+range around the 12CO band (4.59–4.75 µm) to trace the mor-
+phology and kinematics of the ionized and molecular gas phases
+and the mid-IR continuum (Figures 1 and 2). To do so, we ex-
+tracted the spectrum of each spaxel and fitted a model including
+the features listed in Table 1. For reference, Figure 3 shows the
+annotated spectra of three regions of NGC 3256 (see Section 3.3
+for details).
+We fitted the local continuum level in the 4.59–4.75 µm
+range using a linear function. For the spectral features we used
+Gaussian profiles. We tied the velocity and dispersion for groups
+of lines tracing the same phase of the gas: warm /hot molecular
+gas (H2 lines), and ionized gas (H i and [K iii]4.62 µm). The rel-
+ative velocity of the D n-PAH band (Section 3.3.4) is tied to the
+H2 lines. The wavelength and width of the individual R- and P-
+branch CO transitions were also tied to a common line of sight
+velocity and velocity dispersion. In addition, the intensity of the
+H i lines were tied according to the expected case B ratios at
+10 000 K (7–5/11–6=6.43; Storey & Hummer 1995). These two
+transitions are very close in wavelength (4.65 and 4.67 µm), so
+the differential extinction is minimal and its e ffect on their ratio
+negligible. The intensity of the [K iii]4.62 µm was tied to that of
+the H i 7–5 line since the former is fainter and blended with the
+CO R(5) transition. We estimated an average [K iii]4.62 µm/H i
+7–5 4.65µm ratio of 0.104 in this object from the average ratio
+measured in regions with no CO R(5) detected. To create these
+maps, we did not include in the model either the 13CO or the
+C18O v=1–0 bands since they are not blended with any of these
+H i or H2 transitions.
+This spectral range contains numerous overlapping spectral
+features, so to obtain an initial guess for the velocity and width
+of the lines in each spaxel, we used those derived from the H 2
+S(8) 5.05µm and H i 10–6 5.13 µm lines, which are isolated in a
+less crowded spectral range.
+From these fits, we obtained the intensity maps of the 4.6µm
+continuum, the ionized gas traced by H i 7–5 4.65µm line, the
+molecular gas traced by H 2 0–0 S(9) 4.69 µm, and the CO 1–0
+Article number, page 4 of 17
+Pereira-Santaella et al.: CO-to-H2 conversion factor of outflows. Rovibrational CO emission.
+10
+20
+30
+40
+1.4
+1.6
+1.8
+2.0
+2.2
+2.4
+4.55 4.60 4.65 4.70 4.75 4.80 4.85
+rest wavelength [µm]
+2
+4
+6
+8fν [mJy]
+10 21 32 43 54 65 76 87 98 109 1110 1211 1312 1413 1514 1615 1716 1817 19
+12CO 1-0R P 10 21 32 43 54 65 76 87 9
+13CO 1-0R P 10 21 32 43 54 65 7
+C18O 1-0R P
+H2 0-0 S(9)H2 1-1 S(10)
+HI 7-5 HI 11-6
+H2 1-0 O(9) [KIII]
+Emission
+Absorption
+P-R asymmetry
+Dn-PAH
+OCN- ice CO ice
+Fig. 3: Spectra of the CO v=1–0 band from the three classes defined in Section 3.2 (see Figure 5) based on the absorption/emission
+of the P- and R-branches. The top panel shows the spectrum of the nuclear region where both branches are in absorption. The middle
+panel is the integrated spectrum of the regions where the R-branch is in absorption and the P-branch in emission (rotating disk).
+The bottom panel is the integrated spectrum of areas with both branches in emission (outflow region perpendicular to the disk). The
+wavelength of the P- and R-branches of the 12CO, 13CO, and C18O v=1–0 bands are marked by the dashed purple, orange, and blue
+lines, respectively. Transitions from other atomic and molecular species are marked by the dot-dashed black lines. The D n-PAH
+band and the OCN− and CO ices are indicated in the middle and top panels. The rest frame is defined using the wavelength of the
+higher-J CO v=1–0 transitions detected, which for the nucleus are blueshifted with respect to the systemic velocity.
+250 pc
+2 1 0 -1 -2
+RA [arcsec]
+-2
+-1
+0
+1
+2
+Dec [arcsec]
+CO class
+Fig. 5: Classification of the CO v=1–0 band according to the ab-
+sorption/emission of the P- and R-branches. The red area marks
+regions with both branches in absorption. The blue area indicates
+regions where the R-branch is in absorption and the P-branch in
+emission. The green area are regions with both branches in emis-
+sion. The spectra of these areas are presented in Figure 3.
+P(5) transition, which is not strongly blended with other spectral
+features (see second and third rows of Figure 1).
+3.1.1. Southern rotating disk. Ionized, molecular, and
+continuum emissions
+In addition to the compact and bright 4.6µm continuum and ion-
+ized gas emission from the southern nucleus (second row of Fig-
+ure 1), the southern disk is clearly seen extended along the East-
+West direction. The ionized gas is likely tracing star-forming re-
+gions in the disk, while the extended continuum is likely pro-
+duced by hot dust heated by these star-forming regions.
+The velocity field of the ionized gas traced by H i 7–
+5 4.65µm (first panel of Figure 2) is also consistent with a dis-
+torted rotating disk due to the galaxy interaction and it is com-
+patible with previous near-IR kinematic studies of this system
+(Piqueras López et al. 2012). We note that the central ∼100 pc
+velocity field is uncertain since the H 2 and H i lines are heavily
+affected by the multi-component CO v=1–0 nuclear absorption
+(Section 3.2).
+The hot ( T >1000 K) molecular gas traced by H 2 0–0
+S(9) 4.69µm (Eup=10261 K; Roueff et al. 2019) shows a more
+complex morphology (third row of Figure 1). Some emitting re-
+gions are detected in the disk and the hot molecular gas kinemat-
+Article number, page 5 of 17
+A&A proofs: manuscript no. jwst_n3256co
+ics also shows an East-West velocity gradient compatible with a
+distorted rotating disk (second panel of Figure 2). However, the
+brightest hot molecular emission is located perpendicular to the
+rotating disk and it is likely related to the massive molecular out-
+flow (Emonts et al. 2014; Section 3.1.2).
+3.1.2. Molecular outflow. H2 and CO emissions
+The southern AGN produces a high-velocity (v > 1000 km s−1)
+bipolar collimated molecular outflow perpendicular to the rotat-
+ing disk (e.g., Sakamoto et al. 2014; Emonts et al. 2014). The hot
+molecular phase of this outflow has been detected using near-IR
+H2 transitions (Emonts et al. 2014). The H 2 0–0 S(9) 4.69 µm
+emission also traces hot molecular gas and the emission per-
+pendicular to the disk is likely related to this outflow (see Sec-
+tion 3.1.1). However, we note that due to the small field of
+view of NIRSpec, the brightest hot H 2 clumps of the outflow,
+which also have the highest velocity dispersion (σ∼190 km s−1;
+Emonts et al. 2014; Piqueras López et al. 2012), are not covered
+by these observations.
+The cold molecular phase of the outflow is traced by the
+sub-mm/mm rotational CO transitions (Sakamoto et al. 2014).
+The top row of Figure 1 shows the morphology of the CO(2–
+1) 230.54 GHz transition. Although some CO(2–1) emission is
+detected in the southern disk, most of the emission around
+this nucleus is instead extended perpendicular to the disk up
+to∼400 pc away. Thanks to the high angular resolution of the
+ALMA data, it is clear that this emission is not part of the spiral
+arms of the northern galaxy and, therefore, it is likely located
+above and below the southern nucleus and its origin likely con-
+nected to the molecular outflow. Consequently, we consider the
+emission from these regions as part of the outflow. Moreover,
+the outflow direction is close to the plane of the sky (i∼ 80 deg;
+Sakamoto et al. 2014), so even if the observed line of sight veloc-
+ity is not particularly high (v <150 km s−1), the inclination cor-
+rected velocity can be much higher (see Sakamoto et al. 2014).
+The bottom row of Figure 1 presents the CO v=1–0 rovi-
+brational emission map as traced by the P(5) transition. It is
+similar to the CO(2–1) 230.54 GHz emission, and it is relatively
+brighter in the outflow direction compared to the disk emission
+(see Section 3.2). In Figure 4, we compare the position-velocity
+(PV) plot along the outflow axis for the CO(2–1) and P(5) transi-
+tions. Excluding the strong nuclear absorption affecting the P(5)
+transition (Section 3.2), the two PV plots show a similar mor-
+phology. In particular, the higher-velocity blue-shifted ( −100–
+−200 km s−1) outflow emission between −1′′.1 and−0′′.3 is de-
+tected in both transitions. Thus, based on the similar morphology
+and kinematics, we conclude that the rovibrational CO emission
+is related to the cold molecular outflow identified in the ALMA
+data.
+3.2. Origin of the rovibrational CO v=1–0 band
+The ratio between the P- and R-branch transitions of the CO
+v=1–0 band can be used to investigate the physical conditions
+of the molecular gas as traced by CO.
+The R(2) 4.641 µm and P(5) 4.709 µm transitions are not
+blended with other features so they are ideal to compare the P-
+and R-branches. We fitted a Gaussian profile to these two lines
+with tied velocity and velocity dispersion. We leave the peak of
+the Gaussian free allowing for both absorption and emission pro-
+files. The R(2) and P(5) transitions are detected in emission and
+absorption in different regions. According to the emission or ab-
+-1.0 -0.5 0.0 0.5 1.0
+Offset [arcsec]
+-200
+-100
+0
+100
+200
+v [km s-1]
+CO J=2-1
+-1.0 -0.5 0.0 0.5 1.0
+Offset [arcsec]
+-200
+-100
+0
+100
+200
+v [km s-1]
+CO v=1-0 P(5)
+Fig. 4: Position-velocity cuts taken along the outflow axis
+(PA=0◦) of the CO(2–1) 230.54 GHz (top) and the CO v=1–0
+P(5) 4.709µm (bottom) transitions. For the CO(2–1), we used
+the spatially un-smoothed cube with a beam FWHM of
+0′′.23×0′′.20. The nuclear P(5) absorption around o ffset∼0′′ is
+masked in the bottom panel. Positive offsets are north of the nu-
+cleus.
+sorption profiles, we classify the spaxels in three groups: (a) both
+transitions in absorption; (b) R(2) in absorption and P(5) in emis-
+sion (P-R asymmetry); and (c) both transitions in emission. The
+integrated spectra of these regions are shown in Figure 3 and the
+spatial classification in Figure 5. From this map it is clear that
+(a) spaxels correspond to the nucleus where the strong 4.6 µm
+continuum favors the detection of the COv=1–0 band in absorp-
+tion. Also, we note that the nuclear CO v=1–0 spectrum has two
+velocity components: a low-velocity colder component only de-
+tected in the low- J transitions (up to J∼6); and a blue-shifted
+(v=160 km s−1) possibly outflowing component detected up to
+J=19. The (b) spaxels showing the P-R asymmetry are mostly
+located along the disk of the galaxy. This P-R asymmetry has
+been detected in Galactic star-forming regions (e.g., González-
+Alfonso et al. 2002, 1998), which is consistent with the spatial
+location of these regions in NGC 3256. Finally, the (c) spaxels
+with both P- and R-branches in emission are detected perpendic-
+ular to the disk in the molecular outflow region. The CO v=1–0
+band can be radiatively excited by∼4.7 µm photons. Therefore,
+it is possible to explain this CO v=1–0 emission if the mid-IR
+radiation from the AGN is illuminating the cold molecular out-
+flowing gas (see Figure 6). This scenario and the method to de-
+Article number, page 6 of 17
+Pereira-Santaella et al.: CO-to-H2 conversion factor of outflows. Rovibrational CO emission.
+CO v=1-0 emission
+to the observer
+CO
+CO  v=1-0 
+absorption
+~4.7μm continuum 
+photons
+Dust embedded 
+AGN
+Molecular
+cloud
+ 
+Fig. 6: Sketch showing how the COv=1–0 band emission is pro-
+duced in the outflow region of NGC 3256 S. The ∼4.7 µm pho-
+tons from the dust around the AGN (brown lines) illuminate the
+molecular clouds (blue ellipse). These photons are absorbed by
+CO molecules which are excited to the v=1 levels and decay
+through the P- and R-branches (orange lines). The CO v=1–0
+absorption is only observed in lines of sight that intersect both
+the∼4.7 µm continuum source and the molecular clouds.
+rive the cold molecular gas properties from the CO v=1–0 band
+are further explored in Sections 4 and 5.
+3.3. Spectra from regions with CO v=1–0 in emission
+We extracted the spectra from eight circular apertures (0 ′′.5 di-
+ameter) in the outflow region where both the P- and R-branches
+are detected in emission (green area in Figure 5; see also Sec-
+tion 3.2). The location of these apertures is plotted in the bottom-
+right panel of Figure 1. These apertures follow the outflow axis
+(N1, N2, and S1) and few clumps seen in the CO v=1–0 map
+(Figure 1 bottom right panel; N3, N4, N5, S2, and S3).
+Since the nuclear emission is compact and relatively bright
+(Figure 1), we need to subtract its contribution to the spec-
+trum of these apertures. We calculated this contribution at each
+wavelength using point-spread functions (PSFs) created with
+WebbPSF (v1.1.1; Perrin et al. 2014). These PSFs were rotated
+and convolved with a Gaussian kernel (FWHM=0′′.130×0′′.077)
+to match the orientation and FWHM of the southern nucleus of
+NGC 3256. Using these PSFs, we estimated the scaling factor
+between the emission at the aperture position and that from a
+fiducial aperture (0′′.4 diameter) centered on the PSF. Then, us-
+ing the fiducial aperture, we measured the NGC 3256 S nuclear
+emission and applied the scaling factor to subtract its contribu-
+tion to the aperture spectrum.
+We fitted the spectral features in the 4.52–4.87µm range fol-
+lowing a procedure similar to that described in Section 3.1. How-
+ever, because of the higher SNR of these spectra, compared to
+the individual spaxel spectra, we used a more detailed model
+which includes additional spectral features and components. We
+describe the main elements of this more detailed model in Sec-
+tions 3.3.1 through 3.3.5.
+3.3.1. Continuum baseline
+The shape of the continuum around the CO v=1–0 rovibrational
+band can be a ffected by absorption bands produced by various
+ice species (OCN− 4.62 µm, 12CO 4.67 µm, and 13CO 4.78 µm;
+e.g., Gibb et al. 2004; McClure et al. 2023).
+To take into account these effects on the continuum shape, we
+defined a spline-interpolated baseline. The pivot points (4.395,
+4.530, 4.586, 4.667, 4.845, and 4.980 µm) are selected to track
+4.4 4.5 4.6 4.7 4.8 4.9 5.0
+rest wavelength [µm]
+0.1
+1.0fν [mJy]
+H2 1-1 S(9)
+H2 0-0 S(10)
+H2 1-1 S(11)
+Fig. 7: Spectrum from region N3 (black line) and the spline-
+interpolated continuum baseline (red line). The pivot points are
+indicated by the red circles (see Section 3.3.1). The wavelengths
+of the three H 2 transitions not presented in Figures 3 and 9 are
+indicated in green (see also Table 1).
+the continuum level avoiding known emission features. This
+baseline reproduces well the underlying continuum and ice ab-
+sorptions (e.g., Figure 7) and was subtracted from the spectra
+before fitting the emission lines.
+3.3.2. Optically thin 13CO and C18O v=1–0 bands
+The R-branch of the 13CO and C18O v=1–0 bands overlaps with
+the P-branch of the 12CO band (see Figure 3). Although, the
+13CO and C 18O bands are weaker than the band produced by
+the main isotopologue 12CO, for P-branch transitions with J >8,
+the intensities of the overlapping R-branch transitions from the
+isotopologues are comparable or brighter than the 12CO lines.
+To disentangle the bands from the three species, we used Gaus-
+sian profiles to fit the P-branch and the R(0) transition of 13CO,
+which are not affected by 12CO band. The widths and velocities
+of these profiles were tied and we fitted them independently of
+the kinematics obtained for the 12CO band. The 13CO P(2)/R(0)
+ratio is consistent with the optically thin limit, ∼1.96 (see Sec-
+tion 4.1), within±1σ for all the regions (except for S3 where the
+13CO band spectral range is noisier). Therefore, it is reasonable
+to assume that the 13CO (and also the C 18O) emission is opti-
+cally thin. Under this assumption, it is possible to determine the
+flux of the R-branch using the measured P-branch fluxes (Sec-
+tion 4.1). We estimate the intensity of the C 18O band assuming
+that both 13CO and C18O share the same excitation temperatures
+and have abundance ratio of∼7.4. We derived this abundance ra-
+tio from the 13CO(2–1)/C18O(2–1) ratio measured at the south-
+ern nucleus using a circular aperture (r=1′′). This abundance ra-
+tio agrees with that obtained by Harada et al. (2018), 5.6–6.6, for
+the same region using a slightly larger aperture.
+The model for the 13CO and C18O band emission is also sub-
+tracted from the spectra of the eight circular apertures before
+fitting the 12CO band. Under the optically thin limit, the fluxes
+predicted for the R-branch lines based on the P-branch observa-
+tions, agree with the observed spectra for all the regions includ-
+ing region S3 (Figure 9).
+Article number, page 7 of 17
+A&A proofs: manuscript no. jwst_n3256co
+3.3.3. Molecular hydrogen and recombination lines
+There are two H 2 transitions (0–0 S(9) 4.69 µm and 1–1
+S(10) 4.66 µm) and two H i recombination lines (7–5 4.65 µm
+and 11–6 4.67 µm) that lie close to the center of the 12CO band.
+The fluxes of the S(9) 4.69 µm and 7–5 4.65 µm transitions are
+similar to the CO band fluxes, while the fluxes of the remaining
+two transitions are fainter.
+To help constraining the contribution of all these lines, we
+make use of additional H 2 and H i recombination lines in the
+NIRSpec range (see Table 1).
+We determined the profile of the H 2 lines by fitting a Gaus-
+sian (or two Gaussians when a single Gaussian cannot reproduce
+the observed profile) to the 0–0 S(8) 5.05 µm profile. For the 0–
+0 S(9) 4.69 µm transition, we used this profile fixing its wave-
+length (velocity) and width (velocity dispersion) and allowing
+only the integrated flux to vary during the fit. The fainter 1–1
+S(10) 4.66 µm, is very close in wavelength to the CO R(0) and
+7–5 transitions so its flux is not well constrained. Therefore, we
+estimated its intensity assuming an excitation temperature equal
+to that derived from the 1–1 S(11) 4.42µm and 1–1 S(9) 4.95µm
+transitions and an ortho-to-para ratio of 3.
+We fixed the velocity and width of the Hi lines taking the Hi
+10–6 5.13µm profile as reference. The integrated flux of the 7–5
+transition is fitted while for the 11–6 transition we assume the
+case B ratio (see Section 3.1).
+3.3.4. The 4.65 µm Dn-PAH profile
+The aliphatic C-D stretch in deuterated PAH (Dn-PAH) produces
+a broad band at∼4.65 µm. This band has been detected in Galac-
+tic sources and is predicted by quantum chemical computations
+(e.g., Peeters et al. 2004; Onaka et al. 2014; Doney et al. 2016;
+Buragohain et al. 2020; Yang & Li 2023). An accurate profile
+of this feature is not yet available due to the limited SNR and /
+or spectral resolution of these observations. Therefore, we deter-
+mined the Dn-PAH profile from the observations of NGC 3256-
+S.
+We used the spectrum from the P-R asymmetry region (mid-
+dle panel of Figure 3) where the low- J R-branch transitions of
+the CO v=1–0 band are detected in absorption over the 4.65 µm
+Dn-PAH feature. We fitted a Gaussian to the continuum sub-
+tracted spectrum between 4.62 and 4.67 µm after masking the
+CO absorptions and the H i 7–5 and H 2 1–1 S(10) transitions
+(Figure 8). The redshift of this spectrum was determined using
+the H2 0–0 S(8) line as reference. The central wavelength of the
+best-fit Gaussian is 4.6452 ± 0.0004± 0.0014 µm, where the
+uncertainties are statistical and due to the redshift, respectively.
+The width of this Gaussian profile is σ=0.0091± 0.0003 µm.
+The Dn-PAH band has been detected in Galactic sources using
+NIRSpec observations (Boersma et al. 2023). The central wave-
+length and width we obtained are compatible with the Galactic
+profile, although we note that they report a SNR of the band
+lower than in the spectrum analyzed here (5.25 vs. 11).
+3.3.5. 12CO v=1–0 band
+After subtracting the continuum baseline (Section 3.3.1) and the
+13CO and C 18O bands (Section 3.3.2), we fitted the 12CO band
+together with the H 2 and H i transitions (Section 3.3.3) and the
+4.65 µm Dn-PAH band (Section 3.3.4) considering all the con-
+straints described before.
+We first attempted the fit using a single Gaussian profile for
+each CO transition. Two regions (N1 and N2) show a second
+4.58 4.60 4.62 4.64 4.66 4.68 4.70
+rest wavelength [µm]
+-0.2
+0.0
+0.2
+0.4
+0.6
+fν [mJy]
+4.65µm Dn-PAH
+Fig. 8: Gaussian fit to the 4.65µm Dn-PAH profile (red line). We
+masked the CO R-branch absorptions in the spectrum of the P-R
+asymmetry region (solid black line) so that only the blue circles
+are considered for this fit (see Section 3.3.4).
+broader kinematic component in the residuals. For these regions,
+we repeated the fit using two Gaussians for the CO band. We note
+that the fluxes of the broad component are not well constrained
+for the R(2) and R(3) transitions which are close to the D n-PAH
+band and the H i 7–5 transition. Thus, we did not attempt to dis-
+entangle the fluxes of the narrow and broad components for these
+regions and only considered the integrated flux of the line.
+The best-fit model for each region are shown in Figure 9.
+From these fits, we obtained the fluxes of the P- and R-branch
+transitions (Table 2) which we used to calculate the ratios dis-
+cussed in Sections 4 and 5.
+3.4. ALMA rotational 12CO emission
+Using the ALMA observations of NGC 3256-S (Section 2.3),
+we measured the fluxes of the CO(1–0) 115.27 GHz and
+CO(2–1) 230.54 GHz transitions in the selected regions (see Sec-
+tion 3.3). We extracted the spectra of the each region from the
+ALMA data cubes and integrated the line profile. The fluxes are
+listed in Table 3. We also calculated the r21 ratio between the
+fluxes of the CO(2–1) and CO(1–0) transitions in K km s−1 units.
+4. Rovibrational CO v=1–0 emission model
+As mentioned in Section 3.2, in the outflow region of
+NGC 3256 S, the CO v=1–0 emission can be excited by radia-
+tive pumping. The AGN is deeply dust embedded (Ohyama et al.
+2015) and this dust absorbs and re-emits part of the AGN radia-
+tion in the mid-IR at∼4.7 µm. This re-emitted light behaves as a
+lamp that directly illuminates molecular clouds above and below
+the disk and excites the v=1 levels of CO through the absorption
+of∼4.7 µm continuum photons. Then, the excited molecules de-
+cay to the fundamental v=0 levels emitting in the v=1–0 P- and
+R-branches (see sketch in Figure 6). For the P-branch transitions
+Jup− Jlo =−1, while for the R-branch transitions Jup− Jlo = +1,
+where J is the rotational quantum number.
+Under this geometry every absorbed ∼4.7 µm continuum
+photon results in the emission of a single P- or R-branch pho-
+ton (according to the transition probabilities). In this case, the
+radiation field from the AGN is not intense enough to a ffect the
+excitation of the molecular cloud (see Section 4.2). Instead, the
+Article number, page 8 of 17
+Pereira-Santaella et al.: CO-to-H2 conversion factor of outflows. Rovibrational CO emission.
+4.60 4.65 4.70 4.75 4.80
+0
+1
+2
+3
+4
+fν [mJy]
+N1
+10 21 32 43 54 65 76 87 98 109 11
+12CO 1-0:R P:
+10 21 32 43 54 65 7:R P:
+13CO 1-0
+H2 0-0 S(9)
+H 7-5
+[KIII]
+Dn-PAH
+4.60 4.65 4.70 4.75 4.80
+0.0
+0.5
+1.0
+1.5fν [mJy]
+N2
+10 21 32 43 54 65 76 87 9
+12CO 1-0:R P:
+10 21 32 43 54 6:R P:
+13CO 1-0
+H2 0-0 S(9)
+H 7-5
+[KIII]
+Dn-PAH
+4.60 4.65 4.70 4.75 4.80
+0.0
+0.2
+0.4
+0.6
+0.8fν [mJy]
+N3
+10 21 32 43 54 65 76 87 9
+12CO 1-0:R P:
+10 21 32 4:R P:
+13CO 1-0
+H2 0-0 S(9)
+H 7-5
+[KIII]
+Dn-PAH
+4.60 4.65 4.70 4.75 4.80
+0.0
+0.2
+0.4
+0.6
+0.8fν [mJy]
+N4
+10 21 32 43 54 65 76 87 9
+12CO 1-0:R P:
+10 21 32 4:R P:
+13CO 1-0
+H2 0-0 S(9)
+H 7-5
+[KIII]
+Dn-PAH
+4.60 4.65 4.70 4.75 4.80
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2fν [mJy]
+N5
+10 21 32 43 54 65 76 87 9
+12CO 1-0:R P:
+10 21 32 4:R P:
+13CO 1-0
+H2 0-0 S(9)
+H 7-5
+[KIII]
+Dn-PAH
+4.60 4.65 4.70 4.75 4.80
+0.0
+0.2
+0.4
+0.6
+0.8fν [mJy]
+S1
+10 21 32 43 54 65 76 87 98 10
+12CO 1-0:R P:
+10 21 3:R P:
+13CO 1-0
+H2 0-0 S(9)
+H 7-5
+H 11-6
+[KIII]
+Dn-PAH
+4.60 4.65 4.70 4.75 4.80
+rest wavelength [µm]
+-0.2
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0fν [mJy]
+S2
+10 21 32 43 54 65 76 87 9
+12CO 1-0:R P:
+10 21 32 43 5:R P:
+13CO 1-0
+H2 0-0 S(9)
+H 7-5
+H 11-6
+[KIII]
+Dn-PAH
+4.60 4.65 4.70 4.75 4.80
+rest wavelength [µm]
+0.0
+0.2
+0.4
+0.6
+0.8fν [mJy]
+S3
+10 21 32 43 54 65 76 87 9
+12CO 1-0:R P:
+10 21 32 4 :R P:
+13CO 1-0
+H2 0-0 S(9)H 7-5
+H 11-6
+[KIII]
+Dn-PAH
+Fig. 9: Continuum subtracted spectra (black line) of the selected regions (see Section 3.3 and bottom right panel of Figure 1)
+where the CO v=1–0 band is detected in emission. The red line is the best-fit model. The 13CO and C18O emission lines are fitted
+and subtracted (see Section 3.3.2) before fitting the remaining spectral features. The green, blue, and orange lines, which are also
+included in the best-fit, represent the atomic and molecular transitions, D n-PAH feature, and 13CO v=1–0 band, respectively. The
+wavelengths of the 12CO v=1–0 transitions are indicated in purple. All the spectral features present in the best-fit model are listed
+in Table 1.
+rovibrational CO emission acts as a probe of the physical condi-
+tions (temperature and column density) of the molecular gas in
+the illuminated clouds.
+Here, we discuss ratios between P- and R-branch lines which
+trace the physical conditions of the molecular gas when the CO
+band is detected in emission. We used in our analysis the CO
+molecular data from Goorvitch (1994) and the collisional coeffi-
+cients from Yang et al. (2010).
+Article number, page 9 of 17
+A&A proofs: manuscript no. jwst_n3256co
+Table 2: Fluxes and velocity dispersion of the 12CO and 13CO v=1–0 bands
+Transition Wavelength Region
+µm N1 N2 N3 N4 N5 S1 S2 S3
+12CO v=1–0
+σ1/(km s−1)a 34± 1 36 ± 1 55 ± 2 45 ± 2 51 ± 3 86 ± 3 67 ± 3 52 ± 2
+σ2/(km s−1)a 78± 3 105 ± 4 ··· ··· ··· ··· ··· ···
+R(9) 4.5876 0.80 ± 0.64 ··· ··· ··· ··· ··· ··· ···
+R(8) 4.5950 2.68 ± 0.64 ··· ··· ··· ··· ··· ··· ···
+R(7) 4.6024 5.98 ± 0.64 0.93 ± 0.28 0.52 ± 0.10 0.41 ± 0.11 0.00 ± 0.09 0.78 ± 0.14 0.63 ± 0.10 0.23 ± 0.11
+R(6) 4.6100 9.53 ± 0.64 2.05 ± 0.28 0.54 ± 0.10 0.34 ± 0.11 0.00 ± 0.08 1.14 ± 0.14 0.76 ± 0.10 0.24 ± 0.11
+R(5) 4.6177 15.1 ± 0.6 3.51 ± 0.28 1.01 ± 0.10 1.22 ± 0.21 0.50 ± 0.10 1.18 ± 0.14 0.76 ± 0.10 0.44 ± 0.26
+R(4) 4.6254 19.0 ± 0.6 4.79 ± 0.28 1.11 ± 0.10 0.94 ± 0.11 0.21 ± 0.10 1.52 ± 0.14 1.16 ± 0.10 0.93 ± 0.15
+R(3) 4.6333 27.7 ± 0.7 7.06 ± 0.28 1.72 ± 0.11 1.54 ± 0.12 0.68 ± 0.11 2.64 ± 0.17 1.94 ± 0.10 1.73 ± 0.11
+R(2) 4.6412 36.8 ± 0.7 10.0 ± 0.3 1.80 ± 0.19 1.78 ± 0.20 0.76 ± 0.12 2.69 ± 0.20 2.64 ± 0.12 2.13 ± 0.12
+R(1) 4.6493 46.6 ± 1.1 14.8 ± 0.4 2.97 ± 0.27 3.07 ± 0.21 2.04 ± 0.12 3.91 ± 0.31 3.74 ± 0.12 3.82 ± 0.22
+R(0) 4.6575 52.5 ± 1.3 18.8 ± 0.5 4.77 ± 0.25 4.45 ± 0.26 3.07 ± 0.12 6.28 ± 0.29 3.86 ± 0.11 5.53 ± 0.23
+P(1) 4.6742 60.7 ± 1.1 24.8 ± 0.6 6.91 ± 0.16 6.86 ± 0.14 4.91 ± 0.12 7.25 ± 0.18 5.60 ± 0.15 5.69 ± 0.13
+P(2) 4.6826 85.2 ± 1.6 37.2 ± 0.8 13.0 ± 0.2 12.1 ± 0.2 9.18 ± 0.12 11.3 ± 0.3 8.92 ± 0.16 9.01 ± 0.16
+P(3) 4.6912 105.6 ± 2.1 46.0 ± 0.9 16.5 ± 0.2 16.0 ± 0.3 13.4 ± 0.3 15.7 ± 0.5 13.7 ± 0.3 12.6 ± 0.3
+P(4) 4.6999 112.1 ± 2.5 45.4 ± 1.2 15.0 ± 0.2 16.0 ± 0.4 11.8 ± 0.4 14.3 ± 0.5 12.8 ± 0.2 11.4 ± 0.3
+P(5) 4.7088 105.4 ± 2.1 39.0 ± 0.8 11.0 ± 0.1 13.0 ± 0.1 9.98 ± 0.15 12.8 ± 0.2 10.3 ± 0.1 9.55 ± 0.12
+P(6) 4.7177 86.3 ± 1.7 27.0 ± 0.6 6.36 ± 0.12 8.84 ± 0.14 6.31 ± 0.15 8.75 ± 0.18 7.45 ± 0.11 6.28 ± 0.11
+P(7) 4.7267 62.0 ± 1.3 15.7 ± 0.3 3.40 ± 0.13 6.34 ± 0.12 3.50 ± 0.11 5.72 ± 0.19 4.77 ± 0.10 4.44 ± 0.11
+P(8) 4.7359 35.8 ± 0.7 6.86 ± 0.27 1.27 ± 0.10 2.46 ± 0.11 1.35 ± 0.10 3.19 ± 0.19 2.30 ± 0.13 2.17 ± 0.10
+P(9) 4.7451 17.4 ± 0.6 2.20 ± 0.26 0.35 ± 0.10 0.84 ± 0.17 0.25 ± 0.15 2.12 ± 0.14 0.66 ± 0.13 1.31 ± 0.10
+P(10) 4.7545 6.32 ± 0.61 ··· ··· ··· ··· ··· ··· ···
+P(11) 4.7640 3.73 ± 0.61 ··· ··· ··· ··· ··· ··· ···
+13CO v=1–0
+σ/(km s−1)a 39± 6 50 ± 4 100 ± 20 30 ± 5 45 ± 6 130 ± 20 63 ± 5 90 ± 15
+R(0) 4.7626 7.66 ± 0.62b 3.26± 0.16 1.31 ± 0.16 0.62 ± 0.08 0.62 ± 0.10 1.25 ± 0.21b 0.50± 0.09 1.63 ± 0.20
+P(1) 4.7792 6.61 ± 0.38 4.07 ± 0.15 1.27 ± 0.15 0.85 ± 0.08 0.48 ± 0.10 0.75 ± 0.13 0.47 ± 0.06 1.69 ± 0.14
+P(2) 4.7877 9.34 ± 0.42 5.66 ± 0.18 1.97 ± 0.14 1.32 ± 0.09 1.34 ± 0.13 0.99 ± 0.14 0.86 ± 0.06 2.06 ± 0.17
+P(3) 4.7963 11.1 ± 0.5 5.49 ± 0.19 1.76 ± 0.13 1.44 ± 0.10 1.39 ± 0.14 1.61 ± 0.16 1.05 ± 0.07 1.77 ± 0.17
+P(4) 4.8050 9.54 ± 0.43 3.53 ± 0.16 1.26 ± 0.14 1.13 ± 0.09 0.89 ± 0.11 ··· 0.71± 0.07 1.26 ± 0.16
+P(5) 4.8138 5.04 ± 0.37 1.64 ± 0.14 ··· ··· ··· ··· 0.39± 0.06 ···
+P(6) 4.8227 2.22 ± 0.35 0.74 ± 0.13 ··· ··· ··· ··· ··· ···
+P(7) 4.8317 1.12 ± 0.34 ··· ··· ··· ··· ··· ··· ···
+Notes. The fluxes are in 10−17 erg cm−2 s−1 units. These fluxes include both the narrow and broad velocity components for the regions where two
+Gaussians were used. (a) Intrinsic velocity dispersion after subtracting the instrumental width ( σinst = 39 km s−1 at λobs=4.7 µm; Jakobsen et al.
+2022). For 12CO, the dispersions of the narrow ( σ1) and broad (σ2) components are reported when two Gaussians were used for the fit. (b) The
+listed 13CO R(0) flux is likely contaminated by the 12CO P(11) transition.
+Table 3: Fluxes of the 12CO rotational transitions
+CO transition Frequency Region
+GHz N1 N2 N3 N4 N5 S1 S2 S3
+1–0 115.271 4.59 3.15 1.61 2.21 2.44 1.03 1.42 1.56
+2–1 230.538 16.72 9.55 5.00 6.07 7.81 4.69 5.88 5.68
+r21a ··· 0.91 0.76 0.77 0.69 0.80 1.14 1.04 0.91
+Notes. The fluxes are in Jy km s−1 units. The flux uncertainties are dominated by the calibration uncertainties which are 10% for CO(1–0) and 20%
+for CO(2–1). (a) r21 is the ratio between the CO(2–1) and CO(1–0) fluxes in K km s−1.
+4.1. The P(J+2)/R(J) ratio
+We define the ratio between the P( J+2) and R( J) transitions as
+fJ≡ FP(J+2)/FR(J), where F is the flux of each line. In this sec-
+tion, we determine the value of this ratio in the optically thin and
+thick limits and then we use non-local thermodynamic equilib-
+rium (non-LTE) models to determine its dependence on the CO
+column density (N(CO)), kinetic temperature (Tkin), and number
+density (nH2).
+4.1.1. Optically thin limit
+In the optically thin limit, the flux of a transition is
+F = Ωhνul
+4π AulNup (1)
+where Ω is the solid angle,h the Planck constant, Nup the column
+density of the upper level, andνul and Aul are the rest frequency
+and Einstein A-coefficient of the transition, respectively.
+Article number, page 10 of 17
+Pereira-Santaella et al.: CO-to-H2 conversion factor of outflows. Rovibrational CO emission.
+0 2 4 6 8
+J
+1
+10P(J+2)/R(J)
+15 K 25 K 35 K
+16.0
+17.0
+18.0
+18.9 19.9
+Observed N2
+Opt. thin limit
+Opt. thick limit
+nonLTE
+Variable log N(CO)/σ[cm -2/(km s-1)] Variable Tkin [K]
+0 2 4 6 8
+J
+15 K 25 K 35 K
+12
+16
+22
+29
+38
+Opt. thin limit
+Opt. thick limit
+nonLTE
+Variable log nH2 [cm-3]
+0 2 4 6 8
+J
+15 K 25 K 35 K
+2.0
+3.0
+4.0
+4.9
+LTE limit
+Opt. thin limit
+Opt. thick limit
+nonLTE
+Fig. 10: Predicted P( J+2)/R(J)≡ fJ ratios for the 12CO v=1–0 band. The optically thin limit is represented by the gray crosses
+(Section 4.1.1). The black diamonds show the optically thick limit for three rotational temperatures (15, 25, and 35 K; Section 4.1.2).
+The dependence on N(CO)/σv (left panel), Tkin (middle panel), and nH2 (right panel) of the single component non-LTE models is
+indicated by the colored (blue to orange /red) empty squares. Only one parameter is varied in each panel (the colored numbers
+indicate the value of the varied parameter). The remaining two parameters are constant an equal to the following reference values:
+N(CO)/σv=1017.7 cm−2/(km s−1), Tkin=25 K, and nH2=104 cm−3 (see Section 4.1.3). The red filled circles in the left panel are the
+observed ratios in region N2. The red empty circles in the right panel represent the LTE limit for the reference values of Tkin and
+N(CO)/σv. The points are connected by lines to guide the eye.
+The P(J+2) and R(J) transitions share the same vibrationally
+excited upper level ( vup=1, Jup = J + 1). Thus, their ratio only
+depends on molecular constants:
+f thinJ =νP(J+2)/νR(J)× AP(J+2)/AR(J). (2)
+The gray crosses in Figure 10 show the optically thin limit ra-
+tios. The observed ratios, filled red circles in the left panel of
+Figure 10, clearly deviate from this limit.
+4.1.2. Optically thick limit
+Alternatively, if the CO rovibrational emission is optically thick,
+the flux of an emission line can be approximated by
+F = Ω∆v2hν4ul
+c3
+Nup/gup
+Nlo/glo
+(3)
+where c is the speed of light, g is the level degeneracy, 2J + 1, of
+the upper and lower levels, Nlo the column density of the lower
+level, and ∆v the width of the line. Therefore, the fJ ratio is
+connected to the level population of the ground (v=0) CO states
+through this relation (Sahai & Wannier 1985; González-Alfonso
+et al. 2002):
+f thickJ =  νP(J+2)/νR(J)4× N0,J/gJN0,J+2/gJ+2 (4)
+where, Nv,J is the population of the level with vibrational quan-
+tum number v and rotational quantum number J, and gJ is the
+level degeneracy. In these equations it is assumed that the pop-
+ulation of the vibrationally excited levels (v=1) is much smaller
+than that of the ground ( v=0) levels ( N0,J/N1,J ≫ 1), which is
+reasonable for cold molecular regions detached from the mid-IR
+continuum source that excites the CO rovibrational emission by
+radiative pumping.
+Equation 4 contains the ratio between thev=0 populations of
+the J and J + 2 levels, so it is also possible to connect the f thickJ
+ratio and the excitation temperature,Trot(J, J +2), within the v=0
+state:
+f thickJ =  νP(J+2)/νR(J)4× exp  E0,J+2− E0,J/Trot(J, J + 2) (5)
+where Ev,J is the energy of the level with quantum numbers
+v and J. Figure 10 shows the optically thick limit for three tem-
+peratures (15–35 K; black lines) which, in a semi-log plot, is a
+straight line whose slope and y-intercept depend on Trot.
+For J<4, the observed fJ (red circles in the left panel of Fig-
+ure 10) approximately follow a straight line, which indicates that
+these transitions are optically thick. For higher J, the observed
+ratios deviate from the optically thick limit toward the optically
+thin limit. This is expected since N0,J, and the optical depth of
+the transitions, are expected to decrease with increasing J for a
+sufficiently high J and a finite column density as in real molecu-
+lar clouds.
+4.1.3. Non-LTE models
+We produced a grid of non-LTE radiative transfer models to de-
+termine the dependence of the fJ ratios on Tkin and N(CO)/σv,
+where σv is the velocity dispersion, and the H 2 density, nH2.
+First, we used RADEX (van der Tak et al. 2007) to determine
+the CO v=0 level populations for Tkin between 12 and 50 K,
+N(CO)/σv between 1016.0 and 1020 cm−2/(km s−1), and nH2 be-
+tween 10 2 and 10 6 cm−3 with 50 log steps for each parameter
+(125 000 models in total).
+Then, the flux of each transition is derived from the following
+radiative transfer equations:
+σ =νul×σv/c (6)
+ϕ(ν) = 1(2π)1/2σ× exp −(ν−νul)22σ2 ! (7)
+r = Nlo/glo
+Nup/gup
+(8)
+Article number, page 11 of 17
+A&A proofs: manuscript no. jwst_n3256co
+τ(ν) = c2Aul
+8πν2 × Nup× (r− 1)×ϕ(ν) (9)
+I(ν) = 2hν3
+c2 (r− 1)×
+
+1− e−τ(ν) + Bν(TCMB)× e−τ(ν)− 1 (10)
+where N and g the column density and degeneracy of
+the lower and upper levels of the transition, respectively, and
+Bν(TCMB) is the black body emission of the cosmic microwave
+background (CMB) at 2.73 K. The CMB emission does not affect
+the rovibrational band, but it is needed to calculate the emission
+of the CO rotational transitions in Section 5. We note that for the
+rovibrational transitions r− 1≃ r since Nlo≫ Nup. Equation 10
+is the continuum subtracted emission, which we integrated over
+frequencies to determine the intensities of the transitions.
+By using these equations we ignore line overlaps. The
+separation between the observed rovibrational transitions is >
+470 km s−1 for J<10, so even for the broad outflow profiles (see
+Figure 9), the e ffects of line overlapping are limited. In Equa-
+tion 10, we also ignore the term accounting for the mid-IR back-
+ground continuum in our line of sight since it has a low flux
+compared to that of the CO rovibrational lines.
+For the v=0 level populations we used those calculated by
+RADEX while for the v=1 populations, we assumed that N1,J =
+k× N0,J, where k≪ 1 is a constant scaling factor. We note that
+k cancels out in the f j ratio, so its actual value is not relevant.
+Radiative excitation slightly alters the excitation temperature of
+the v=1 and v=0 levels, so the assumption N1,J = k× N0,J is
+not completely valid. However, when the excitation of the v=0
+levels is dominated by collisions (see Section 4.2), a grid of full
+radiative transfer models, created using an updated version of
+the González-Alfonso et al. (1998) code, indicates that this is an
+adequate approximation since deviations are small for optically
+thick lines (<30 %). For optically thin lines the deviations are
+also small resulting in rotational temperatures of the v=1 levels
+3–5 K higher than the rotational temperature of the v=0 levels.
+Figure 10 shows the fJ ratios predicted by these models. The
+first panel shows the dependence on N(CO)/σv for fixed Tkin
+and nH2. The ratios remain close to the optically thick limit up
+to a given J which increases with increasing N(CO)/σv. This
+is because the optical depth of the transitions, τ, increases with
+N(CO)/σv.
+The middle panel of Figure 10 shows the dependence onTkin.
+For fixed N(CO)/σv and nH2, the low-J ratios (e.g., f0) increase
+with decreasing Tkin. Thus, the J at which the observed ratios
+deviate from the optically thick limit together with the low- J
+ratios can constrain both the CO column density and Tkin.
+The dependence on nH2 is presented in the right panel of Fig-
+ure 10. For nH2≤ 103 cm−3, the fJ ratios have a positive curva-
+ture before reaching the maximum value. For nH2 > 104 cm−3,
+the ratios are almost equal to the LTE limit and are not sensi-
+tive to nH2. This positive curvature is only observed in one of
+the regions studied here (N5) where it can help constrainingnH2.
+However, in most cases this curvature is not present and we can
+only estimate that their nH2 is larger than 103−4 cm−3.
+In Section 5, we use these non-LTE models to estimate the
+CO-to-H2 conversion factor.
+4.2. Collisions vs. IR radiative pumping
+In this section, we investigate if the excitation of the pure rota-
+tional v=0 levels of CO is a ffected by the IR radiative pumping
+in these regions as occurs for other molecules when the ratio be-
+tween the intensity of the radiation and nH2 is high enough (e.g.,
+HNC and HCN; Aalto et al. 2007; Imanishi et al. 2017).
+The de-excitation of the v=1 CO levels is dominated by
+the spontaneous emission of photons in the v=1–0 band, which
+has transitions probabilities much higher than the rotational
+transitions within two v=1 levels. Moreover, the densities ex-
+pected in molecular outflows are well below the critical density
+(ncrH2>1017 cm−3 at 160 K for collisions with H 2; see González-Alfonso et al. 2002) of these transitions. Therefore, collisional
+and rotational de-excitation of the v=1 levels can be neglected.
+In this context, it is reasonable to assume that every absorbed
+∼4.7 µm continuum photon is re-emitted as a single photon in
+the v=1–0 P- or R-branch. Thus, assuming that the CO v=1–0
+emission is isotropic, we transformed the observed CO v=1–0
+fluxes (Table 2) into the rate of v=1–0 emitted photons, that is,
+the IR radiative pumping rate RIR (e.g., González-Alfonso et al.
+2022). We find the rates in the range (0.3–4.1)×1051 s−1.
+To estimate the rate of collisions, first we obtained the
+number of CO molecules, NCO, in each region from the
+CO(1–0) 115.27 GHz luminosity (Table 3) assuming anαCO fac-
+tor and a CO abundance relative to H2, [CO/H2]. The rate of col-
+lisions is γulnH2NCO where γul are the collisional de-excitation
+coefficients with H 2 for the lowest CO v=0 rotational levels
+((0.35–1.6)×10−10 cm3 s−1; Yang et al. 2010).
+We find that the ratio between the IR radiative pumping rate
+and the rate of collisions is
+RIR
+γulnH2NCO
+= (0.2− 5.8)× 10−3
+× 0.8M⊙ (K km s−1 pc2)−1
+αCO
+× 104 cm−3
+nH2
+× 3.2× 10−4
+[CO/H2] (11)
+Thus, for the ULIRG-likeαCO (0.8 M⊙ (K km s−1 pc2)−1; Bo-
+latto et al. 2013) usually assumed for outflows, the excitation of
+the rotational CO levels is dominated by collisions for densities
+nH2 >102 cm−2. Even if the αCO of outflows is down to a fac-
+tor of two lower than the ULIRG-like factor (see Section 5), the
+contribution from radiative pumping to the rotational excitation
+of CO would be two times higher but still not dominant (<2%).
+5. CO-to-H2 conversion factor
+It is possible to determine the CO-to-H 2 conversion factor
+(αCO = Mmol/LCO(1−0)) if the physical conditions, Tkin and
+N(CO)/σv, of the gas are known. Using Equations 6-10, we
+derived the integrated intensity, W(CO(1–0)), of the CO(1–
+0) 115.27 GHz transition in K km s −1. N(H2) is calculated as
+(N(CO)/σv)×σv/[CO/H2]. Then, the ratio N(H2)/W(CO(1–0)),
+known as XCO, is converted to αCO multiplying the H2 mass by
+1.36 to account for helium and other elements (Bolatto et al.
+2013). Knowing the exact value ofσv is not critical since, in the
+optically thick limit,W(CO(1–0))∝ Tb×σv, where Tb is the peak
+brightness temperature, so it cancels out in the XCO definition.
+We discuss three different methods to measureαCO using the
+CO v=1–0 band. We used a single component non-LTE model
+(see Section 4.1.3) to fit the P( J+2)/R(J) ratios (Section 5.1).
+This single component models fail to reproduce the higher-J ra-
+tios, so we included a second component in Section 5.2. Finally,
+for the regions where the 13CO v=1–0 band is well detected, we
+used it to constrain the excitation temperature of the 12CO v=0
+levels (Section 5.3).
+Article number, page 12 of 17
+Pereira-Santaella et al.: CO-to-H2 conversion factor of outflows. Rovibrational CO emission.
+0 2 4 6 8
+J
+1
+10 P(J+2)/R(J)
+N1
+15 K 25 K 35 K
+Opt. thin limit
+Opt. thick limit
+Model
+Data
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+N2
+      15 K       25 K       35 K
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+N3
+      15 K       25 K       35 K
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+N4
+      15 K       25 K       35 K
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+N5
+      15 K       25 K       35 K
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+S1
+      15 K       25 K       35 K
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+S2
+      15 K       25 K       35 K
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+S3
+      15 K       25 K       35 K
+Fig. 11: Ratio between the P( J+2) and R(J) transitions of the CO v=1–0 band for the selected regions (black circles). The best-fit
+single component model is represented by the red empty squares (see Section 5.1). The parameters of the best-fit models are listed
+in Table 4. The blue diamonds and green crosses show the optically thick and thin limits, respectively (see Sections 4.1.1 and 4.1.2).
+The points are connected by lines to guide the eye.
+5.1. Single component model
+Figure 11 shows the best-fit for each region using a single non-
+LTE model. A single component is not able to simultaneously
+reproduce the low- and high- J P(J+2)/R(J) ratios. We focus on
+fitting the low-J transitions since these are likely tracing the bulk
+of the molecular gas mass.
+The higher-J ratio used in the fit for each region is set as the
+maximum J that can be reproduced by a single component model
+(i.e., when χ2 does not significantly increases when adding that
+ratio). This single component model can fit between four and six
+ratios. The physical conditions of the gas derived for each region
+are listed in Table 4.
+Tkin varies between 14 and 35 K. For these regions, we find
+a temperature gradient with decreasing Tkin at further distances
+from the nucleus. To investigate this gradient, we created a 2D
+map of rotational temperature using thef0 ratio measured in each
+spaxel (Section 3.1) assuming the optically thick limit (Equa-
+tion 4). In this limit, the rotational temperature is equal to Tkin if
+the low-J levels are thermalized. Figure 12 clearly shows, spe-
+cially at the northern outflow region, that the molecular gas cools
+down from>40 K at the central 100 pc to<15 K at∼250 pc. This
+result is also consistent with the low kinetic temperature (∼9 K)
+in the molecular outflow compared to the nuclear gas tempera-
+ture (∼40 K) measured in the LIRG ESO 320-G030 at similar
+spatial scales (Pereira-Santaella et al. 2020).
+The number density nH2 is not well constrained in gen-
+eral with lower limits around 10 2.5−4 cm−3. N(CO)/σv is bet-
+ter constrained and it varies between >1016.9 and 10 18.0 cm−2
+(km s−1)−1.
+From these physical conditions, we also calculated the αCO
+conversion factor as described above in Section 5. We find αCO
+between (0.26–0.53)× 3.2×10−4[CO/H2] M⊙ (K km s−1 pc2)−1 with a me-dian (mean) of 0.40 ± 0.15 (0.50 ± 0.30). This is ∼10 times
+lower than the Galactic αCO (4.3 M⊙ (K km s−1 pc2)−1; e.g., Bo-
+latto et al. 2013), and also∼2 times lower than the ULIRG αCO
+(0.8 M⊙ (K km s−1 pc2)−1) which is typically used to estimate the
+Article number, page 13 of 17
+A&A proofs: manuscript no. jwst_n3256co
+Table 4: Single component models
+Region Tkin log N(CO)/σv log nH2 αCO/ 3.2×10−4[CO/H2] r21b r31b
+K cm −2 (km s−1)−1 cm−3 M⊙ (K km s−1 pc2)−1
+N1 31.0 ± 1.3 17.71 ± 0.12 >3.9 0.34 ± 0.07 1.23 ± 0.03 1.24 ± 0.05
+N2 22.8 ± 0.9 17.63 ± 0.12 >3.4 0.40 ± 0.12 1.11 ± 0.03 1.05 ± 0.05
+N3 14.9 ± 1.1 17.47 ± 0.08 >2.9 0.40 ± 0.05 1.05 ± 0.03 0.85 ± 0.05
+N4 14.9 ± 0.4 17.63 ± 0.08 >3.0 0.53 ± 0.08 1.00 ± 0.03 0.85 ± 0.05
+N5 14.1 ± 0.8 17.96 ± 0.25 >2.5 1.09 ± 0.56 1.00 ± 0.03 0.75 ± 0.05
+S1 27.0 ± 5.0 >17.0 >2.5 >0.2 1.05 ± 0.12 1.05 ± 0.10
+S2 18.7 ± 0.8 17.31 ± 0.09 >3.3 0.26 ± 0.02 1.17 ± 0.03 1.05 ± 0.05
+S3 26.2 ± 5.0 >16.9 >3.1 >0.2 1.05 ± 0.12 0.95 ± 0.10
+Mean ··· a 17.62± 0.24 ··· 0.50± 0.30 1.08 ± 0.09 0.97 ± 0.16
+Median ··· a 17.63± 0.20 ··· 0.40± 0.15 1.05 ± 0.07 1.00 ± 0.15
+Notes. Parameters of the best-fit single component model for the selected regions (Section 5.1). (a) The mean and median Tkin of the regions is
+not indicated since there is a temperature gradient with decreasing T for increasing distances from the nucleus (Figure 12). (b) Ratio between the
+rotational transitions CO(2–1)/CO(1–0) (r21) and CO(3–2)/CO(1–0) (r31) in K km s−1 units.
+1 0 -1
+RA [arcsec]
+-1
+0
+1
+Dec [arcsec]
+T [K]
+250 pc
+ 15
+20
+25
+30
+35
+40
+45
+Fig. 12: Rotational temperature of the molecular gas derived
+from the ratio between the CO v=1–0 P(2) and R(0) transitions
+assuming the optically thick limit (Equation 4). Only positions
+where both the R- and P- branches are in emission are consid-
+ered. The black cross marks the position of the southern nucleus
+of NGC 3256.
+mass of cold molecular outflows (e.g., Cicone et al. 2014; Fiore
+et al. 2017; Pereira-Santaella et al. 2018; Lutz et al. 2020; Lam-
+perti et al. 2022).
+It is also common to observe alternative low-J CO rotational
+transitions, like the 2–1 or the 3–2 at 230.54 and 345.80 GHz, re-
+spectively, instead of the CO(1–0). In these cases, the observed
+flux must be converted to an equivalent CO(1–0) flux before us-
+ing theαCO factor by assuming a CO(2–1) to CO(1–0) ratio (r21)
+or CO(3–2) to CO(1–0) ratio ( r32). From the models, we also
+determined the expected r21 and r31 ratios. The mean ratios are
+1.08± 0.09 and 0.97± 0.16, respectively. The measured r21 in
+the outflow regions are between 0.69 and 1.14 (Table 3), with
+a mean ratio of 0.88± 0.15, that is in good agreement with the
+models.
+5.2. Two component model
+The single component models are not able to reproduce all thefJ
+ratios simultaneously. In this section, we add a second compo-
+nent to the models of regions with six or more fJ ratios detected
+where a single component clearly fails to reproduce the observa-
+tions. To find the best-fit model, we calculated the χ2 for all the
+possible combinations of two models of the grid leaving only a
+scaling factor between the two models (ratio between their solid
+angles) as a free parameter. To limit the number of combina-
+tions, we only considered three number densities: 10 3, 104, and
+105 cm−3 given that the CO v=1–0 band is not very sensitive to
+nH2. In total, we explored 56 million combinations of models for
+each region.
+The best-fit models are shown in Figure 13. With two com-
+ponents, it is now possible to fit all the observed ratios. To de-
+termine the likelihood function of the parameters, we assigned
+a probability to each model of exp(−χ2/2) and then calculated
+the marginalized likelihoods for each parameter. The parame-
+ter values are listed in Table 5. We find that the best-fit mod-
+els include a “cold” (Component 1), with a mean Tkin of 17 K,
+and a “warmer” component (Component 2), with a mean Tkin
+of 30 K. The N(CO)/σv of the cold component is ∼1018.0 cm−2
+(km s−1)−1, which is∼0.2 dex higher than that of the warm com-
+ponent. We calculated the αCO weighted by the intensity of the
+CO(1–0) 115.27 GHz intensity of each component. TheαCO are
+between (0.5–0.7)× 3.2×10−4[CO/H2] M⊙ (K km s−1 pc2)−1 with a medianvalue of 0.61± 0.17. These αCO are 1.3–2.3 times higher than
+the αCO derived using a single component model for the indi-
+vidual regions. It is >7 times lower than the Galactic αCO, and
+slightly lower (∼30%) than the ULIRG-like αCO. We find that
+the r21 and r31 ratios are consistent, within the uncertainties, with
+those derived using a single component model (Section 5.1).
+5.3. Optically thin 13CO v=1–0 band
+The P-R line ratio f0 indicates that the 13CO v=1–0 band is op-
+tically thin (Section 3.3.2). Therefore, it can be used to estimate
+the mass of the molecular clouds in a similar way to the standard
+method for the sub-mm/mm 13CO rotational transitions (e.g., Pa-
+padopoulos et al. 2012).
+From Equation 1, for 13CO in the optically thin limit, the
+population of the upper level is:
+ΩN
+13CO
+up = 4πhνulAul F13CO. (12)
+For 12CO in the optically thick limit using Equation 3 we
+find:
+Article number, page 14 of 17
+Pereira-Santaella et al.: CO-to-H2 conversion factor of outflows. Rovibrational CO emission.
+0 2 4 6 8
+J
+1
+10P(J+2)/R(J)
+Model comp. 2
+Model comp. 1
+Model total
+Data
+N1
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+N2
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+N3
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+S1
+0 2 4 6
+J
+1
+10P(J+2)/R(J)
+S2
+Fig. 13: Ratio between the P(J+2) and R(J) transitions of the COv=1–0 band for the selected regions ( filled black circles). The best-
+fit two component model is shown as empty red squares (see Section 5.2). The blue and green empty squares represent components
+1 (“cold” ) and 2 (“warmer”) of the best-fit model, respectively. The parameters of the best-fit model are listed in Table 5. The points
+are connected by lines to guide the eye.
+Table 5: Two-component models
+Region Component 1 Component 2 αCO/ 3.2×10−4[CO/H2] r21a r31a
+Tkin log N(CO)/σv Tkin log N(CO)/σv
+K cm −2 (km s−1)−1 K cm −2 (km s−1)−1 M⊙ (K km s−1 pc2)−1
+N1 20 ± 7 18.5 ± 0.9 39 ± 7 17.9 ± 0.3 0.61 +1.06−0.21 1.23± 0.09 1.21 ± 0.09
+N2 17 ± 3 18.2 ± 0.7 32 ± 10 17.8 ± 0.5 0.71 +1.23−0.25 1.13± 0.10 1.03 ± 0.13
+N3 14 ± 1 17.6 ± 0.6 23 ± 12 17.8 ± 0.8 0.53 +0.73−0.19 1.04± 0.06 0.88 ± 0.10
+S1 19 ± 5 18.1 ± 0.9 31 ± 9 17.7 ± 0.7 0.61 +1.32−0.21 1.13± 0.12 1.03 ± 0.13
+S2 15 ± 2 17.7 ± 0.9 25 ± 8 17.9 ± 0.6 0.61 +1.06−0.21 1.10± 0.08 0.95 ± 0.12Mean 17 ± 5 18.0 ± 0.8 30 ± 10 17.8 ± 0.4 0.62 ± 0.20 1.13 ± 0.07 1.02 ± 0.12
+Median 17 ± 4 18.1 ± 0.6 31 ± 8 17.8 ± 0.3 0.61 ± 0.17 1.13 ± 0.04 1.03 ± 0.12
+Notes. Parameters of the best-fit two-component model for the selected regions (Section 5.2). αCO is weighted by the intensity of the CO(1–
+0) 115.27 GHz intensity of each component. (a) Ratio between the rotational transitions CO(2–1) /CO(1–0) (r21) and CO(3–2) /CO(1–0) (r31) in
+K km s−1 units.
+ΩN
+12CO
+up
+N
+12CO
+lo /∆v
+= c3
+2hν4ul
+gup
+glo
+F
+12CO. (13)
+Thus, assuming that Ω and the excitation temperature of the
+v=1 and v=0 levels is the same for 12CO and 13CO, the ratio
+between Equations 12 and 13 gives for the left-hand side of the
+ratio (N
+12CO
+lo /∆v)/[12CO/13CO]. From the 13CO and 12CO R(0)
+transitions, we estimate N
+12CO
+v=0,J=0 /∆v. To determine the intensity
+of the CO(1–0) 115.27 GHz transition using Equations 6–10, we
+need the population of the N
+12CO
+v=0,J=1 level, which we estimated
+based on the excitation temperature of the low-J levels, 15–30 K,
+of these regions derived in Section 5.1 (see also Table 4 and Fig-
+ure 12). The population of the remaining N
+12CO
+v=0,J levels is also
+estimated using the Section 5.1 excitation temperatures. We also
+need to transform the observed ∆v (FWHM) into theσv used in
+Equation 6. To do this, we first divided∆v by∼2.355 to account
+for the ratio between FWHM and σ. The observed ∆v also de-
+pends on the optical depths of the 12CO v=1–0 transitions which
+are unknown. To account for this uncertainty, we divided ∆v by
+an extra factor between 1.2 and 2.6 (valid forτ between 1–100).
+Then, estimating Mmol as described at the beginning of Sec-
+tion 5, we derived the αCO conversion factor for these eight re-
+gions (Table 6). The αCO values are between (0 .15− 0.59)×
+3.2×10−4
+[CO/H2]× [12CO/13CO]60 M⊙ (K km s−1 pc2)−1 with a median range
+Article number, page 15 of 17
+A&A proofs: manuscript no. jwst_n3256co
+Table 6: 13CO models
+Region Tkin αCO/( 3.2×10−4[CO/H2]× [12CO/13CO]60 )
+K M⊙ (K km s−1 pc2)−1
+N1 30 0.15–0.32
+N2 22 0.19–0.44
+N3 15 0.23–0.56
+N4 15 0.19–0.40
+N5 14 0.18–0.32
+S1 27 0.20–0.31
+S2 19 0.17–0.27
+S3 26 0.20–0.59
+Mean ··· 0.19–0.40
+Median ··· 0.19–0.36
+Notes. Parameters of the best-fit 13CO models. The uncertainty range
+forαCO is related to the range of correction factors needed to take into
+account the unknown optical depth of the 12CO v=1–0 transitions (see
+Section 5.3).
+of 0.19–0.36. The median αCO are 1.1–2.1 times lower than
+those derived using the single component non-LTE model (Sec-
+tion 5.1) and 1.7–3.2 times lower than those obtained from the
+two-component models (Section 5.2). These αCO derived from
+13CO are also more than 2 and 10 times lower than the ULIRG-
+like and GalacticαCO factors, respectively. We note that theαCO
+derived using the 13CO band depend on the 12CO abundance
+and the 13CO to 12CO abundance ratio in the outflow, which
+are both uncertain. Therefore, theseαCO are more uncertain than
+those derived using the single and two component methods (Sec-
+tions 5.1 and 5.2) which only depend on the 12CO abundance.
+6. Discussion
+We found that theαCO factors in the molecular outflow are 1.3–
+2 times lower than the ULIRG conversion factor and 6–8 times
+lower than the Galactic factor (assuming [CO /H2]=3.2×10−4;
+Section 5). We discuss here several options to explain the ori-
+gin of this reducedαCO in outflows.
+For individual molecular clouds, the existence of anαCO fac-
+tor, which relates the total molecular mass and the luminosity of
+the CO(1–0) 115.27 GHz line, relies on several assumptions: (1)
+the CO(1–0) emission is optically thick; (2) the molecular clouds
+are virialized; and (3) the mass is dominated by H2 (see e.g., Bo-
+latto et al. 2013). Under these conditions
+αCO∝
+√nH2
+Tkin
+. (14)
+All these assumptions seem to be valid for molecular
+clouds in the Milky Way and nearby spiral galaxies where
+αCO=3.1–4.3 M⊙ (K km s−1 pc2)−1 (e.g., Sandstrom et al. 2013;
+Bolatto et al. 2013). The temperatures (15–40 K) and densities
+(>103 cm−3) we measured in the molecular outflow do not signif-
+icantly differ from those observed in the molecular clouds found
+in disks. Thus, the nH2 and Tkin dependencies shown in Equa-
+tion 14 would not explain the lowαCO in the outflow.
+Dasyra et al. (2016) found that the rotational CO emission
+in the jet-driven outflow of IC 5063 is optically thin, so αCO
+reaches a lower limit of 0.11 M⊙ (K km s−1 pc2)−1 (for Tex=30 K
+and [CO /H2]=3.2×10−4). However, this explanation does not
+work for NGC 3256-S since the CO emission from the outflow
+is optically thick.
+The lower αCO of ULIRGs (0.8 M⊙ (K km s−1 pc2)−1;
+Downes & Solomon 1998) is explained because the molecu-
+lar clouds of these interacting /merging systems are not virial-
+ized and the width of the line is a ffected by large scale motions
+and turbulence. This argument fits well with the conditions in
+outflows where the clouds are not self-gravitating (e.g., Pereira-
+Santaella et al. 2020). This increased velocity dispersion of the
+clouds increases the observed flux for optically thick lines (as
+in this outflow) and this results in a reduced αCO factor for the
+outflow.
+We derived an αCO factor which depends on the [CO /H2]
+abundance ratio. The CO abundance in molecular outflows has
+not been firmly established yet, so this is a major uncertainty for
+these results. We assumed a standard CO abundance of 3.2×10−4
+(e.g., Bolatto et al. 2013), but CO might be dissociated in molec-
+ular outflows and become C i (Cicone et al. 2018; Saito et al.
+2022). If so, our αCO values would increase. However, we note
+that it is not possible to accurately quantify the CO to C i dis-
+sociation in outflows. The [C i] emission is optically thin (e.g.,
+Papadopoulos & Greve 2004), so the total molecular mass, in-
+cluding molecular gas without CO, derived from its emission
+depends on the assumed [C i/H2] abundance ratio which is also
+uncertain for outflows.
+7. Summary and conclusions
+We studied the spatially resolved 12CO v=1–0 and 13CO v=1–0
+bands, at 4.67 µm and 4.78 µm, respectively, around the dust-
+embedded AGN in the southern nucleus of NGC 3256. We mod-
+eled the ratios between the P(J+2) and R(J) transitions of the CO
+v=1–0 emission using a non-LTE approximation. Using these
+models, we constrained the column density, kinetic temperature,
+andαCO conversion factor of the cold molecular gas in the out-
+flow. The main results of the paper are the following:
+1. CO band classification. Based on the detection in absorption
+or emission of the P- and R-branches of the COv=1–0 band,
+we classify the observed spectra into three categories: (a)
+both branches in absorption seen basically toward the mid-IR
+bright nucleus; (b) P-R asymmetry (i.e., P-branch in emis-
+sion and R-branch in absorption) which is detected along the
+disk of the galaxy; and (c) both branches in emission de-
+tected above and below the disk in the outflow region. We
+focused on the later to determine the physical conditions of
+the cold molecular gas in this AGN launched outflow.
+2. Origin of the CO v =1–0 band emission. Detecting the band
+in emission can be explained as follows: the radiation from
+the deeply embedded AGN is reprocessed by dust which
+emits intense mid-IR ∼4.7 µm continuum radiation. Then,
+this continuum illuminates the molecular clouds in the out-
+flow and excites the vibrational levels of CO resulting in the
+v=1–0 bands seen in emission in our line of sight.
+3. Temperature gradient in the outflow. From the spatially re-
+solved map of the 12CO v=1–0 P(2)/R(0) ratio, we identify a
+temperature gradient in the outflow from>40 K in the central
+100 pc to<15 K at 250 pc. This temperature gradient is sim-
+ilar to that found in the molecular outflow of the local LIRG
+ESO 320-G030 (Pereira-Santaella et al. 2020).
+4. ReducedαCO in the outflow. We derived theαCO conversion
+factor in the outflow by fitting the observed P( J+2)/R(J) ra-
+tios in eight 100 pc (0′′.5) apertures in the outflow region. We
+used three different approaches (single non-LTE component,
+two non-LTE components, and 13CO models). We find αCO
+between (0.26–1.09)× 3.2×10−4[CO/H2] M⊙ (K km s−1 pc2)−1 for the
+Article number, page 16 of 17
+Pereira-Santaella et al.: CO-to-H2 conversion factor of outflows. Rovibrational CO emission.
+non-LTE modeling with median values of 0.40 ± 0.15 and
+0.61± 0.17 for the single and two components models, re-
+spectively. These are 1.3–2 times lower than the ULIRG-like
+αCO typically assumed for outflows. From the 13CO models,
+we find a medianαCO=(0.19–0.36)× 3.2×10−4[CO/H2]× [12CO/13CO]60 M⊙
+(K km s−1 pc2)−1, which is lower than those derived from
+the non-LTE models, although it is subject to the uncertain
+[12CO/13CO] abundance ratio in the outflow. The most likely
+explanation for this reducedαCO is that the molecular clouds
+in the outflow are not virialized.
+5. Dn-PAH detection. We detected a broad ( σ=0.0091 ±
+0.0003 µm) spectral feature at 4.645 ± 0.002 µm which is
+produced by the aliphatic C-D stretch mode in deuterated
+PAH (Dn-PAH). The Dn-PAH emission is detected in the disk
+of the galaxy and also in the apertures selected in the outflow,
+although the latter could be background or foreground emis-
+sion not directly connected to the outflow.
+6. Optically thick 12CO emission in the outflow. The observed
+ratios indicate that the 12CO v=1–0 emission is optically
+thick, at least for J<4, while the 13CO v=1–0 emission re-
+mains optically thin.
+Acknowledgements. We thank the referee for their useful comments and sug-
+gestions. We thank A. Alonso-Herrero for the careful reading of the manuscript
+and useful discussion. The authors acknowledge the GOALS DD-ERS team for
+developing their observing program. MPS acknowledges funding support from
+the Ramón y Cajal programme of the Spanish Ministerio de Ciencia e Inno-
+vación (RYC2021-033094-I). EG-A thanks the Spanish MICINN for support
+under projects PID2019-105552RB-C41 and PID2022-137779OB-C41. IGB ac-
+knowledges support from STFC through grant ST /S000488/1. This work is
+based on observations made with the NASA /ESA/CSA James Webb Space
+Telescope. The data were obtained from the Mikulski Archive for Space Tele-
+scopes at the Space Telescope Science Institute, which is operated by the As-
+sociation of Universities for Research in Astronomy, Inc., under NASA con-
+tract NAS 5-03127 for JWST; and from the European JWST archive (eJWST)
+operated by the ESAC Science Data Centre (ESDC) of the European Space
+Agency. These observations are associated with program #1328. This paper
+makes use of the following ALMA data: ADS /JAO.ALMA#2015.1.00412.S,
+ADS/JAO.ALMA#2015.1.00714.S, ADS/JAO.ALMA#2018.1.00223.S. ALMA
+is a partnership of ESO (representing its member states), NSF (USA) and NINS
+(Japan), together with NRC (Canada) and NSC and ASIAA (Taiwan) and KASI
+(Republic of Korea), in cooperation with the Republic of Chile. The Joint ALMA
+Observatory is operated by ESO, AUI /NRAO and NAOJ. The National Radio
+Astronomy Observatory is a facility of the National Science Foundation oper-
+ated under cooperative agreement by Associated Universities, Inc.
+References
+Aalto, S., Spaans, M., Wiedner, M. C., & Hüttemeister, S. 2007, A&A, 464, 193
+Alonso-Herrero, A., García-Burillo, S., Pereira-Santaella, M., et al. 2019, A&A,
+628, A65
+Alonso-Herrero, A., García-Burillo, S., Pereira-Santaella, M., et al. 2023, A&A,
+675, A88
+Alonso-Herrero, A., Pereira-Santaella, M., García-Burillo, S., et al. 2018, ApJ,
+859, 144
+Alonso-Herrero, A., Pereira-Santaella, M., Rieke, G. H., & Rigopoulou, D. 2012,
+ApJ, 744, 2
+Baba, S., Imanishi, M., Izumi, T., et al. 2022, ApJ, 928, 184
+Baba, S., Nakagawa, T., Isobe, N., & Shirahata, M. 2018, ApJ, 852, 83
+Boersma, C., Allamandola, L. J., Esposito, V . J., et al. 2023, arXiv e-prints,
+arXiv:2310.05774
+Böker, T., Arribas, S., Lützgendorf, N., et al. 2022, A&A, 661, A82
+Bolatto, A. D., Wolfire, M., & Leroy, A. K. 2013, ARA&A, 51, 207
+Buragohain, M., Pathak, A., Sakon, I., & Onaka, T. 2020, ApJ, 892, 11
+Cicone, C., Maiolino, R., Sturm, E., et al. 2014, A&A, 562, A21
+Cicone, C., Severgnini, P., Papadopoulos, P. P., et al. 2018, ApJ, 863, 143
+Combes, F., García-Burillo, S., Braine, J., et al. 2013, A&A, 550, A41
+Dasyra, K. M., Combes, F., Oosterloo, T., et al. 2016, A&A, 595, L7
+Díaz-Santos, T., Alonso-Herrero, A., Colina, L., et al. 2010, ApJ, 711, 328
+Doney, K. D., Candian, A., Mori, T., Onaka, T., & Tielens, A. G. G. M. 2016,
+A&A, 586, A65
+Downes, D. & Solomon, P. M. 1998, ApJ, 507, 615
+Emonts, B. H. C., Piqueras-López, J., Colina, L., et al. 2014, A&A, 572, A40
+Feuchtgruber, H., Lutz, D., Beintema, D. A., et al. 1997, ApJ, 487, 962
+Fiore, F., Feruglio, C., Shankar, F., et al. 2017, A&A, 601, A143
+García-Bernete, I., Alonso-Herrero, A., García-Burillo, S., et al. 2021, A&A,
+645, A21
+García-Burillo, S., Combes, F., Usero, A., et al. 2015, A&A, 580, A35
+Geballe, T. R., Goto, M., Usuda, T., Oka, T., & McCall, B. J. 2006, ApJ, 644,
+907
+Gibb, E. L., Whittet, D. C. B., Boogert, A. C. A., & Tielens, A. G. G. M. 2004,
+ApJS, 151, 35
+González-Alfonso, E., Cernicharo, J., van Dishoeck, E. F., Wright, C. M., &
+Heras, A. 1998, ApJ, 502, L169
+González-Alfonso, E., Fischer, J., Goicoechea, J. R., et al. 2022, A&A, 666, L3
+González-Alfonso, E., Wright, C. M., Cernicharo, J., et al. 2002, A&A, 386,
+1074
+Goorvitch, D. 1994, ApJS, 95, 535
+Harada, N., Sakamoto, K., Martín, S., et al. 2018, ApJ, 855, 49
+Harrison, C. M., Costa, T., Tadhunter, C. N., et al. 2018, Nature Astronomy, 2,
+198
+Herczeg, G. J., Brown, J. M., van Dishoeck, E. F., & Pontoppidan, K. M. 2011,
+A&A, 533, A112
+Imanishi, M., Nakanishi, K., & Izumi, T. 2017, ApJ, 849, 29
+Jakobsen, P., Ferruit, P., Alves de Oliveira, C., et al. 2022, A&A, 661, A80
+Lamperti, I., Pereira-Santaella, M., Perna, M., et al. 2022, A&A, 668, A45
+Leitherer, C., Chandar, R., Tremonti, C. A., Wo fford, A., & Schaerer, D. 2013,
+ApJ, 772, 120
+Lira, P., Gonzalez-Corvalan, V ., Ward, M., & Hoyer, S. 2008, MNRAS, 384, 316
+Lira, P., Ward, M., Zezas, A., Alonso-Herrero, A., & Ueno, S. 2002, MNRAS,
+330, 259
+Lutz, D., Sturm, E., Janssen, A., et al. 2020, A&A, 633, A134
+McClure, M. K., Rocha, W. R. M., Pontoppidan, K. M., et al. 2023, Nature As-
+tronomy, 7, 431
+McMullin, J. P., Waters, B., Schiebel, D., Young, W., & Golap, K. 2007, in As-
+tronomical Society of the Pacific Conference Series, V ol. 376, Astronomical
+Data Analysis Software and Systems XVI, ed. R. A. Shaw, F. Hill, & D. J.
+Bell, 127
+Michiyama, T., Iono, D., Sliwa, K., et al. 2018, ApJ, 868, 95
+Najita, J., Carr, J. S., & Mathieu, R. D. 2003, ApJ, 589, 931
+Ohyama, Y ., Onishi, S., Nakagawa, T., et al. 2023, ApJ, 951, 87
+Ohyama, Y ., Terashima, Y ., & Sakamoto, K. 2015, ApJ, 805, 162
+Onaka, T., Mori, T. I., Sakon, I., et al. 2014, ApJ, 780, 114
+Onishi, S., Nakagawa, T., Baba, S., et al. 2021, ApJ, 921, 141
+Papadopoulos, P. P. & Greve, T. R. 2004, ApJ, 615, L29
+Papadopoulos, P. P., van der Werf, P., Xilouris, E., Isaak, K. G., & Gao, Y . 2012,
+ApJ, 751, 10
+Peeters, E., Allamandola, L. J., Bauschlicher, C. W., J., et al. 2004, ApJ, 604,
+252
+Pereira-Santaella, M., Alonso-Herrero, A., Rieke, G. H., et al. 2010, ApJS, 188,
+447
+Pereira-Santaella, M., Alonso-Herrero, A., Santos-Lleo, M., et al. 2011, A&A,
+535, A93
+Pereira-Santaella, M., Colina, L., García-Burillo, S., et al. 2018, A&A, 616,
+A171
+Pereira-Santaella, M., Colina, L., García-Burillo, S., et al. 2020, A&A, 643, A89
+Pereira-Santaella, M., Colina, L., García-Burillo, S., et al. 2021, A&A, 651, A42
+Perrin, M. D., Sivaramakrishnan, A., Lajoie, C.-P., et al. 2014, in Society
+of Photo-Optical Instrumentation Engineers (SPIE) Conference Series, V ol.
+9143, Space Telescopes and Instrumentation 2014: Optical, Infrared, and Mil-
+limeter Wave, ed. J. Oschmann, Jacobus M., M. Clampin, G. G. Fazio, &
+H. A. MacEwen, 91433X
+Piqueras López, J., Colina, L., Arribas, S., Alonso-Herrero, A., & Bedregal,
+A. G. 2012, A&A, 546, A64
+Ramos Almeida, C., Bischetti, M., García-Burillo, S., et al. 2022, A&A, 658,
+A155
+Rettig, T. W., Brittain, S. D., Gibb, E. L., Simon, T., & Kulesa, C. 2005, ApJ,
+626, 245
+Roueff, E., Abgrall, H., Czachorowski, P., et al. 2019, A&A, 630, A58
+Sahai, R. & Wannier, P. G. 1985, ApJ, 299, 424
+Saito, T., Takano, S., Harada, N., et al. 2022, ApJ, 935, 155
+Sakamoto, K., Aalto, S., Combes, F., Evans, A., & Peck, A. 2014, ApJ, 797, 90
+Sánchez-García, M., Pereira-Santaella, M., García-Burillo, S., et al. 2022, A&A,
+659, A102
+Sandstrom, K. M., Leroy, A. K., Walter, F., et al. 2013, ApJ, 777, 5
+Shirahata, M., Nakagawa, T., Usuda, T., et al. 2013, PASJ, 65, 5
+Somerville, R. S. & Davé, R. 2015, ARA&A, 53, 51
+Spoon, H. W. W., Armus, L., Cami, J., et al. 2004, ApJS, 154, 184
+Spoon, H. W. W., Moorwood, A. F. M., Pontoppidan, K. M., et al. 2003, A&A,
+402, 499
+Storey, P. J. & Hummer, D. G. 1995, MNRAS, 272, 41
+Ueda, J., Michiyama, T., Iono, D., Miyamoto, Y ., & Saito, T. 2022, PASJ, 74,
+407
+van der Tak, F. F. S., Black, J. H., Schöier, F. L., Jansen, D. J., & van Dishoeck,
+E. F. 2007, A&A, 468, 627
+Veilleux, S., Maiolino, R., Bolatto, A. D., & Aalto, S. 2020, A&A Rev., 28, 2
+Yang, B., Stancil, P. C., Balakrishnan, N., & Forrey, R. C. 2010, ApJ, 718, 1062
+Yang, X. J. & Li, A. 2023, arXiv e-prints, arXiv:2308.04085
+Article number, page 17 of 17

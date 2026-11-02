@@ -1,0 +1,18 @@
+{
+ "team": "team-b",
+ "item": "Q57",
+ "files": [
+  "scripts/s353_q57_joint_bracket.py",
+  "scripts/s354_q57_bestfits.py",
+  "scripts/s356_q57_physical.py",
+  "scripts/s357_update_report_q57r2.py",
+  "out/q57/s353_1.3-2.3.txt",
+  "out/q57/s353_1.6-2.0.txt",
+  "out/q57/s354_1.3-2.3.txt",
+  "out/q57/s354_1.6-2.0.txt",
+  "out/q57/s356_s0.025_m0.05.txt",
+  "out/q57/s356_s0.05_m0.1.txt",
+  "out/q57/s356_s0.1_m0.2.txt",
+  "TEAM_REPORT.json"
+ ]
+}

@@ -1,0 +1,30 @@
+### lobe aperture r=1.0": rms/chan HCN 0.86  HCO+ 0.98 mJy (beam-averaged Jy per channel; 4.4 km/s channels)
+  C0: chi2=755/635 (red 1.19) params [33.869, 28.111, -118.19, 110.4, 0.003, 0.003, 0.008, 0.004]
+    HCN  : broad flux 0.834+-0.056 Jy km/s; centroid -118+-8, sigma 110+-7 km/s | narrow F 0.21 v=34 sig=28 | broad in -405..-150: 0.318+-0.026; -350..-100: 0.456; -405..-205: 0.176; |v|<150: 0.505; v<0 total 0.715
+    HCO+ : broad flux 1.157+-0.076 Jy km/s; centroid -118+-8, sigma 110+-7 km/s | narrow F 0.59 v=34 sig=28 | broad in -405..-150: 0.442+-0.030; -350..-100: 0.634; -405..-205: 0.244; |v|<150: 0.701; v<0 total 0.992
+  Cs: chi2=646/631 (red 1.02) params [0.004, 34.113, 25.466, 0.003, -177.508, 141.709, 0.008, 35.908, 26.903, 0.005, -89.284, 89.528]
+    HCN  : broad flux 0.993+-0.059 Jy km/s; centroid -178+-8, sigma 142+-10 km/s | narrow F 0.23 v=34 sig=25 | broad in -405..-150: 0.519+-0.022; -350..-100: 0.592; -405..-205: 0.366; |v|<150: 0.410; v<0 total 0.888
+    HCO+ : broad flux 1.099+-0.080 Jy km/s; centroid -89+-8, sigma 90+-8 km/s | narrow F 0.55 v=36 sig=27 | broad in -405..-150: 0.273+-0.027; -350..-100: 0.495; -405..-205: 0.108; |v|<150: 0.822; v<0 total 0.924
+  C0+HDO: chi2=706/634 (red 1.11) params [34.519, 27.847, -111.194, 101.101, 0.003, 0.003, 0.008, 0.004, 0.002]
+    HCN  : broad flux 0.760+-0.052 Jy km/s; centroid -111+-7, sigma 101+-7 km/s | narrow F 0.22 v=35 sig=28 | broad in -405..-150: 0.265+-0.020; -350..-100: 0.407; -405..-205: 0.133; |v|<150: 0.490; v<0 total 0.657; HDO line flux 0.164+-0.026
+    HCO+ : broad flux 1.124+-0.062 Jy km/s; centroid -111+-7, sigma 101+-7 km/s | narrow F 0.59 v=35 sig=28 | broad in -405..-150: 0.392+-0.027; -350..-100: 0.602; -405..-205: 0.197; |v|<150: 0.725; v<0 total 0.972
+  C0+HDO195: chi2=672/634 (red 1.06) params [35.054, 27.445, -104.635, 96.025, 0.003, 0.003, 0.008, 0.005, 0.001]
+    HCN  : broad flux 0.698+-0.056 Jy km/s; centroid -105+-5, sigma 96+-7 km/s | narrow F 0.23 v=35 sig=27 | broad in -405..-150: 0.222+-0.022; -350..-100: 0.359; -405..-205: 0.103; |v|<150: 0.473; v<0 total 0.602; HDO line flux 0.310+-0.034
+    HCO+ : broad flux 1.111+-0.069 Jy km/s; centroid -105+-5, sigma 96+-7 km/s | narrow F 0.58 v=35 sig=27 | broad in -405..-150: 0.353+-0.027; -350..-100: 0.571; -405..-205: 0.163; |v|<150: 0.753; v<0 total 0.957
+  shared-kinematics test: chi2(C0)-chi2(Cs) = 108.7 for 4 fewer parameters (C0 has 8 vs Cs 12)
+  HDO test: chi2(C0)-chi2(C0+HDO100) = 49.5; HDO195: 83.6 (1 extra amplitude parameter)
+### lobe aperture r=1.5": rms/chan HCN 1.28  HCO+ 1.45 mJy (beam-averaged Jy per channel; 4.4 km/s channels)
+  C0: chi2=825/635 (red 1.30) params [40.936, 24.731, -61.773, 86.61, 0.006, 0.007, 0.018, 0.014]
+    HCN  : broad flux 1.484+-0.070 Jy km/s; centroid -62+-3, sigma 87+-3 km/s | narrow F 0.38 v=41 sig=25 | broad in -405..-150: 0.229+-0.017; -350..-100: 0.488; -405..-205: 0.073; |v|<150: 1.244; v<0 total 1.131
+    HCO+ : broad flux 2.966+-0.115 Jy km/s; centroid -62+-3, sigma 87+-3 km/s | narrow F 1.15 v=41 sig=25 | broad in -405..-150: 0.457+-0.032; -350..-100: 0.976; -405..-205: 0.146; |v|<150: 2.487; v<0 total 2.261
+  Cs: chi2=703/631 (red 1.11) params [0.007, 40.077, 21.3, 0.006, -106.893, 129.535, 0.018, 41.551, 25.083, 0.014, -54.481, 79.172]
+    HCN  : broad flux 1.895+-0.093 Jy km/s; centroid -107+-7, sigma 130+-7 km/s | narrow F 0.39 v=40 sig=21 | broad in -405..-150: 0.680+-0.038; -350..-100: 0.930; -405..-205: 0.405; |v|<150: 1.150; v<0 total 1.507
+    HCO+ : broad flux 2.859+-0.149 Jy km/s; centroid -54+-5, sigma 79+-3 km/s | narrow F 1.13 v=42 sig=25 | broad in -405..-150: 0.325+-0.029; -350..-100: 0.808; -405..-205: 0.082; |v|<150: 2.520; v<0 total 2.157
+  C0+HDO: chi2=773/634 (red 1.22) params [41.018, 24.75, -61.595, 85.814, 0.006, 0.007, 0.019, 0.014, 0.002]
+    HCN  : broad flux 1.471+-0.078 Jy km/s; centroid -62+-5, sigma 86+-4 km/s | narrow F 0.39 v=41 sig=25 | broad in -405..-150: 0.223+-0.018; -350..-100: 0.481; -405..-205: 0.070; |v|<150: 1.238; v<0 total 1.123; HDO line flux 0.236+-0.036
+    HCO+ : broad flux 2.952+-0.162 Jy km/s; centroid -62+-5, sigma 86+-4 km/s | narrow F 1.15 v=41 sig=25 | broad in -405..-150: 0.447+-0.035; -350..-100: 0.965; -405..-205: 0.140; |v|<150: 2.485; v<0 total 2.254
+  C0+HDO195: chi2=732/634 (red 1.15) params [41.253, 24.727, -60.627, 83.801, 0.006, 0.007, 0.019, 0.014, 0.002]
+    HCN  : broad flux 1.430+-0.070 Jy km/s; centroid -61+-4, sigma 84+-3 km/s | narrow F 0.39 v=41 sig=25 | broad in -405..-150: 0.205+-0.015; -350..-100: 0.456; -405..-205: 0.061; |v|<150: 1.217; v<0 total 1.095; HDO line flux 0.447+-0.046
+    HCO+ : broad flux 2.921+-0.138 Jy km/s; centroid -61+-4, sigma 84+-3 km/s | narrow F 1.15 v=41 sig=25 | broad in -405..-150: 0.418+-0.031; -350..-100: 0.932; -405..-205: 0.124; |v|<150: 2.485; v<0 total 2.235
+  shared-kinematics test: chi2(C0)-chi2(Cs) = 122.3 for 4 fewer parameters (C0 has 8 vs Cs 12)
+  HDO test: chi2(C0)-chi2(C0+HDO100) = 51.6; HDO195: 93.0 (1 extra amplitude parameter)

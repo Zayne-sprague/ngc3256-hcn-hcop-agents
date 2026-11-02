@@ -1,0 +1,44 @@
+/workspace/scripts/q20c_10arcsec.py:27: RuntimeWarning: invalid value encountered in divide
+  def lr(a,b): return np.log(a/b)
+/workspace/scripts/q20c_10arcsec.py:27: RuntimeWarning: divide by zero encountered in log
+  def lr(a,b): return np.log(a/b)
+/workspace/scripts/q20c_10arcsec.py:27: RuntimeWarning: invalid value encountered in log
+  def lr(a,b): return np.log(a/b)
+/workspace/scripts/q20c_10arcsec.py:27: RuntimeWarning: divide by zero encountered in divide
+  def lr(a,b): return np.log(a/b)
+/workspace/scripts/q20c_10arcsec.py:33: RuntimeWarning: divide by zero encountered in divide
+  lrc=np.log(Th[...,1]/To[...,1])    # model HCN/HCO+ 3-2 TR ratio
+/workspace/scripts/q20c_10arcsec.py:33: RuntimeWarning: divide by zero encountered in log
+  lrc=np.log(Th[...,1]/To[...,1])    # model HCN/HCO+ 3-2 TR ratio
+/workspace/scripts/q20c_10arcsec.py:33: RuntimeWarning: invalid value encountered in log
+  lrc=np.log(Th[...,1]/To[...,1])    # model HCN/HCO+ 3-2 TR ratio
+/workspace/scripts/q20c_10arcsec.py:55: RuntimeWarning: divide by zero encountered in log
+  ca=((np.log(Th[...,1])+eh-np.log(tbh))/ERR)**2+((np.log(To[...,1])+eo-np.log(tbo))/ERR)**2
+/workspace/scripts/q20c_10arcsec.py:55: RuntimeWarning: invalid value encountered in log
+  ca=((np.log(Th[...,1])+eh-np.log(tbh))/ERR)**2+((np.log(To[...,1])+eo-np.log(tbo))/ERR)**2
+/workspace/scripts/q20c_10arcsec.py:57: RuntimeWarning: invalid value encountered in reduce
+  L=np.logaddexp.reduce(np.stack(terms),0)-np.log(len(W))
+N tbg2.73 eta1   lnZ=   -0.51 T   118 [91,140] P(T>50)=1.00 P(T<=30)=0.00 eta_med 1.000 profchi2(T=25)=23.1 (T=80)=1.7 (min 4.0)  <tau32H>=0.2
+N tbg2.73 shared lnZ=    3.55 T    88 [51,126] P(T>50)=0.84 P(T<=30)=0.05 eta_med 0.065 profchi2(T=25)=3.2 (T=80)=0.8 (min 2.9)  <tau32H>=49.4
+      eta in [0.001,0.03]: min chi2 by T: 20K:8.1 25K:6.1 30K:5.2 50K:4.4 80K:3.7 150K:3.9
+      eta in [0.05,1]: min chi2 by T: 20K:21.3 25K:15.5 30K:9.7 50K:5.2 80K:4.3 150K:3.4
+      eta in [0.3,1]: min chi2 by T: 20K:29.8 25K:25.5 30K:22.9 50K:11.5 80K:5.0 150K:3.9
+N tbg2.73 sep    lnZ=    5.39 T    87 [53,124] P(T>50)=0.86 P(T<=30)=0.03 eta_med 0.080 profchi2(T=25)=3.0 (T=80)=0.6 (min 2.8)  <tau32H>=29.7
+S tbg2.73 eta1   lnZ=   -0.51 T    98 [78,133] P(T>50)=0.99 P(T<=30)=0.00 eta_med 1.000 profchi2(T=25)=25.3 (T=80)=0.5 (min 3.8)  <tau32H>=0.2
+S tbg2.73 shared lnZ=    3.58 T    76 [47,98] P(T>50)=0.81 P(T<=30)=0.05 eta_med 0.071 profchi2(T=25)=3.7 (T=80)=0.1 (min 2.7)  <tau32H>=44.5
+      eta in [0.001,0.03]: min chi2 by T: 20K:7.3 25K:6.4 30K:6.1 50K:4.4 80K:2.8 150K:6.7
+      eta in [0.05,1]: min chi2 by T: 20K:17.6 25K:14.0 30K:8.2 50K:6.3 80K:3.0 150K:5.1
+      eta in [0.3,1]: min chi2 by T: 20K:28.6 25K:26.0 30K:19.8 50K:10.0 80K:4.0 150K:5.1
+S tbg2.73 sep    lnZ=    5.34 T    77 [50,99] P(T>50)=0.84 P(T<=30)=0.03 eta_med 0.091 profchi2(T=25)=3.3 (T=80)=0.1 (min 2.7)  <tau32H>=26.5
+N tbg_tbg5 eta1   lnZ=    0.51 T   102 [71,135] P(T>50)=0.96 P(T<=30)=0.00 eta_med 1.000 profchi2(T=25)=16.1 (T=80)=0.4 (min 3.1)  <tau32H>=0.6
+N tbg_tbg5 shared lnZ=    3.70 T    80 [43,111] P(T>50)=0.77 P(T<=30)=0.06 eta_med 0.114 profchi2(T=25)=2.9 (T=80)=0.7 (min 2.7)  <tau32H>=36.2
+      eta in [0.001,0.03]: min chi2 by T: 20K:7.7 25K:5.7 30K:4.4 50K:4.3 80K:4.2 150K:4.5
+      eta in [0.05,1]: min chi2 by T: 20K:12.6 25K:9.9 30K:6.0 50K:4.2 80K:3.5 150K:3.6
+      eta in [0.3,1]: min chi2 by T: 20K:21.3 25K:18.5 30K:14.4 50K:5.8 80K:3.5 150K:3.6
+N tbg_tbg5 sep    lnZ=    5.84 T    78 [47,106] P(T>50)=0.81 P(T<=30)=0.03 eta_med 0.125 profchi2(T=25)=2.7 (T=80)=0.3 (min 2.7)  <tau32H>=21.4
+S tbg_tbg5 eta1   lnZ=    0.52 T    82 [57,99] P(T>50)=0.93 P(T<=30)=0.00 eta_med 1.000 profchi2(T=25)=13.3 (T=80)=0.0 (min 3.0)  <tau32H>=0.6
+S tbg_tbg5 shared lnZ=    3.68 T    67 [41,91] P(T>50)=0.73 P(T<=30)=0.07 eta_med 0.125 profchi2(T=25)=3.8 (T=80)=0.0 (min 2.7)  <tau32H>=35.7
+      eta in [0.001,0.03]: min chi2 by T: 20K:7.6 25K:6.5 30K:5.5 50K:4.7 80K:3.4 150K:8.4
+      eta in [0.05,1]: min chi2 by T: 20K:10.8 25K:8.3 30K:6.2 50K:5.3 80K:2.7 150K:5.8
+      eta in [0.3,1]: min chi2 by T: 20K:19.9 25K:15.0 30K:12.9 50K:5.4 80K:2.7 150K:5.8
+S tbg_tbg5 sep    lnZ=    5.78 T    65 [43,90] P(T>50)=0.73 P(T<=30)=0.04 eta_med 0.139 profchi2(T=25)=2.9 (T=80)=0.0 (min 2.6)  <tau32H>=18.4

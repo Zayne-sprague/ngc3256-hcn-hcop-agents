@@ -1,0 +1,137 @@
+region,cls,quantity,p16,p50,p84,logX_HCN
+N,A,"log N(HCN,cloud dv50) [cm-2]",15.523,15.523,16.023,
+N,A,log N(H2) [cm-2],24.523,24.523,25.023,-9.0
+N,A,log Sigma_H2 [Msun/pc2],4.86,4.86,5.36,-9.0
+N,A,log L [pc],1.033,1.283,2.283,-9.0
+N,A,"L/(2R), R=88 pc (fill length fraction)",-1.212,-0.962,0.038,-9.0
+N,A,log N(H2) [cm-2],23.523,23.523,24.023,-8.0
+N,A,log Sigma_H2 [Msun/pc2],3.86,3.86,4.36,-8.0
+N,A,log L [pc],0.033,0.283,1.283,-8.0
+N,A,"L/(2R), R=88 pc (fill length fraction)",-2.212,-1.962,-0.962,-8.0
+N,A,log N(H2) [cm-2],22.523,22.523,23.023,-7.0
+N,A,log Sigma_H2 [Msun/pc2],2.86,2.86,3.36,-7.0
+N,A,log L [pc],-0.967,-0.717,0.283,-7.0
+N,A,"L/(2R), R=88 pc (fill length fraction)",-3.212,-2.962,-1.962,-7.0
+N,A,log X_min(HCN) for Sigma_max=470 Msun/pc2,-6.812,-6.812,-6.312,
+N,A,log X_min(HCN) for Sigma_max=1000 Msun/pc2,-7.14,-7.14,-6.64,
+N,A,log X_min(HCN) for Sigma_max=3000 Msun/pc2,-7.617,-7.617,-7.117,
+N,A,log X_min(HCN) for Sigma_max=10000 Msun/pc2,-8.14,-8.14,-7.64,
+N,B,"log N(HCN,cloud dv50) [cm-2]",15.523,15.773,15.773,
+N,B,log N(H2) [cm-2],24.523,24.773,24.773,-9.0
+N,B,log Sigma_H2 [Msun/pc2],4.86,5.11,5.11,-9.0
+N,B,log L [pc],1.033,1.033,1.283,-9.0
+N,B,"L/(2R), R=88 pc (fill length fraction)",-1.212,-1.212,-0.962,-9.0
+N,B,log N(H2) [cm-2],23.523,23.773,23.773,-8.0
+N,B,log Sigma_H2 [Msun/pc2],3.86,4.11,4.11,-8.0
+N,B,log L [pc],0.033,0.033,0.283,-8.0
+N,B,"L/(2R), R=88 pc (fill length fraction)",-2.212,-2.212,-1.962,-8.0
+N,B,log N(H2) [cm-2],22.523,22.773,22.773,-7.0
+N,B,log Sigma_H2 [Msun/pc2],2.86,3.11,3.11,-7.0
+N,B,log L [pc],-0.967,-0.967,-0.717,-7.0
+N,B,"L/(2R), R=88 pc (fill length fraction)",-3.212,-3.212,-2.962,-7.0
+N,B,log X_min(HCN) for Sigma_max=470 Msun/pc2,-6.812,-6.562,-6.562,
+N,B,log X_min(HCN) for Sigma_max=1000 Msun/pc2,-7.14,-6.89,-6.89,
+N,B,log X_min(HCN) for Sigma_max=3000 Msun/pc2,-7.617,-7.367,-7.367,
+N,B,log X_min(HCN) for Sigma_max=10000 Msun/pc2,-8.14,-7.89,-7.89,
+N,F2,"log N(HCN,cloud dv50) [cm-2]",15.273,15.523,15.773,
+N,F2,log N(H2) [cm-2],24.273,24.523,24.773,-9.0
+N,F2,log Sigma_H2 [Msun/pc2],4.61,4.86,5.11,-9.0
+N,F2,log L [pc],0.533,1.033,1.783,-9.0
+N,F2,"L/(2R), R=88 pc (fill length fraction)",-1.712,-1.212,-0.462,-9.0
+N,F2,log N(H2) [cm-2],23.273,23.523,23.773,-8.0
+N,F2,log Sigma_H2 [Msun/pc2],3.61,3.86,4.11,-8.0
+N,F2,log L [pc],-0.467,0.033,0.783,-8.0
+N,F2,"L/(2R), R=88 pc (fill length fraction)",-2.712,-2.212,-1.462,-8.0
+N,F2,log N(H2) [cm-2],22.273,22.523,22.773,-7.0
+N,F2,log Sigma_H2 [Msun/pc2],2.61,2.86,3.11,-7.0
+N,F2,log L [pc],-1.467,-0.967,-0.217,-7.0
+N,F2,"L/(2R), R=88 pc (fill length fraction)",-3.712,-3.212,-2.462,-7.0
+N,F2,log X_min(HCN) for Sigma_max=470 Msun/pc2,-7.062,-6.812,-6.562,
+N,F2,log X_min(HCN) for Sigma_max=1000 Msun/pc2,-7.39,-7.14,-6.89,
+N,F2,log X_min(HCN) for Sigma_max=3000 Msun/pc2,-7.867,-7.617,-7.367,
+N,F2,log X_min(HCN) for Sigma_max=10000 Msun/pc2,-8.39,-8.14,-7.89,
+N,pooled,"log N(HCN,cloud dv50) [cm-2]",15.273,15.523,15.773,
+N,pooled,log N(H2) [cm-2],24.273,24.523,24.773,-9.0
+N,pooled,log Sigma_H2 [Msun/pc2],4.61,4.86,5.11,-9.0
+N,pooled,log L [pc],0.533,1.033,1.783,-9.0
+N,pooled,"L/(2R), R=88 pc (fill length fraction)",-1.712,-1.212,-0.462,-9.0
+N,pooled,log N(H2) [cm-2],23.273,23.523,23.773,-8.0
+N,pooled,log Sigma_H2 [Msun/pc2],3.61,3.86,4.11,-8.0
+N,pooled,log L [pc],-0.467,0.033,0.783,-8.0
+N,pooled,"L/(2R), R=88 pc (fill length fraction)",-2.712,-2.212,-1.462,-8.0
+N,pooled,log N(H2) [cm-2],22.273,22.523,22.773,-7.0
+N,pooled,log Sigma_H2 [Msun/pc2],2.61,2.86,3.11,-7.0
+N,pooled,log L [pc],-1.467,-0.967,-0.217,-7.0
+N,pooled,"L/(2R), R=88 pc (fill length fraction)",-3.712,-3.212,-2.462,-7.0
+N,pooled,log X_min(HCN) for Sigma_max=470 Msun/pc2,-7.062,-6.812,-6.562,
+N,pooled,log X_min(HCN) for Sigma_max=1000 Msun/pc2,-7.39,-7.14,-6.89,
+N,pooled,log X_min(HCN) for Sigma_max=3000 Msun/pc2,-7.867,-7.617,-7.367,
+N,pooled,log X_min(HCN) for Sigma_max=10000 Msun/pc2,-8.39,-8.14,-7.89,
+S,A,"log N(HCN,cloud dv50) [cm-2]",15.773,16.023,16.273,
+S,A,log N(H2) [cm-2],24.773,25.023,25.273,-9.0
+S,A,log Sigma_H2 [Msun/pc2],5.11,5.36,5.61,-9.0
+S,A,log L [pc],1.033,1.865,2.533,-9.0
+S,A,"L/(2R), R=88 pc (fill length fraction)",-1.212,-0.38,0.288,-9.0
+S,A,log N(H2) [cm-2],23.773,24.023,24.273,-8.0
+S,A,log Sigma_H2 [Msun/pc2],4.11,4.36,4.61,-8.0
+S,A,log L [pc],0.033,0.865,1.533,-8.0
+S,A,"L/(2R), R=88 pc (fill length fraction)",-2.212,-1.38,-0.712,-8.0
+S,A,log N(H2) [cm-2],22.773,23.023,23.273,-7.0
+S,A,log Sigma_H2 [Msun/pc2],3.11,3.36,3.61,-7.0
+S,A,log L [pc],-0.967,-0.135,0.533,-7.0
+S,A,"L/(2R), R=88 pc (fill length fraction)",-3.212,-2.38,-1.712,-7.0
+S,A,log X_min(HCN) for Sigma_max=470 Msun/pc2,-6.562,-6.312,-6.062,
+S,A,log X_min(HCN) for Sigma_max=1000 Msun/pc2,-6.89,-6.64,-6.39,
+S,A,log X_min(HCN) for Sigma_max=3000 Msun/pc2,-7.367,-7.117,-6.867,
+S,A,log X_min(HCN) for Sigma_max=10000 Msun/pc2,-7.89,-7.64,-7.39,
+S,B,"log N(HCN,cloud dv50) [cm-2]",15.523,15.523,15.523,
+S,B,log N(H2) [cm-2],24.523,24.523,24.523,-9.0
+S,B,log Sigma_H2 [Msun/pc2],4.86,4.86,4.86,-9.0
+S,B,log L [pc],-0.217,0.533,0.783,-9.0
+S,B,"L/(2R), R=88 pc (fill length fraction)",-2.462,-1.712,-1.462,-9.0
+S,B,log N(H2) [cm-2],23.523,23.523,23.523,-8.0
+S,B,log Sigma_H2 [Msun/pc2],3.86,3.86,3.86,-8.0
+S,B,log L [pc],-1.217,-0.467,-0.217,-8.0
+S,B,"L/(2R), R=88 pc (fill length fraction)",-3.462,-2.712,-2.462,-8.0
+S,B,log N(H2) [cm-2],22.523,22.523,22.523,-7.0
+S,B,log Sigma_H2 [Msun/pc2],2.86,2.86,2.86,-7.0
+S,B,log L [pc],-2.217,-1.467,-1.217,-7.0
+S,B,"L/(2R), R=88 pc (fill length fraction)",-4.462,-3.712,-3.462,-7.0
+S,B,log X_min(HCN) for Sigma_max=470 Msun/pc2,-6.812,-6.812,-6.812,
+S,B,log X_min(HCN) for Sigma_max=1000 Msun/pc2,-7.14,-7.14,-7.14,
+S,B,log X_min(HCN) for Sigma_max=3000 Msun/pc2,-7.617,-7.617,-7.617,
+S,B,log X_min(HCN) for Sigma_max=10000 Msun/pc2,-8.14,-8.14,-8.14,
+S,F2,"log N(HCN,cloud dv50) [cm-2]",15.023,16.023,16.273,
+S,F2,log N(H2) [cm-2],24.023,25.023,25.273,-9.0
+S,F2,log Sigma_H2 [Msun/pc2],4.36,5.36,5.61,-9.0
+S,F2,log L [pc],-0.217,1.533,2.283,-9.0
+S,F2,"L/(2R), R=88 pc (fill length fraction)",-2.462,-0.712,0.038,-9.0
+S,F2,log N(H2) [cm-2],23.023,24.023,24.273,-8.0
+S,F2,log Sigma_H2 [Msun/pc2],3.36,4.36,4.61,-8.0
+S,F2,log L [pc],-1.217,0.533,1.283,-8.0
+S,F2,"L/(2R), R=88 pc (fill length fraction)",-3.462,-1.712,-0.962,-8.0
+S,F2,log N(H2) [cm-2],22.023,23.023,23.273,-7.0
+S,F2,log Sigma_H2 [Msun/pc2],2.36,3.36,3.61,-7.0
+S,F2,log L [pc],-2.217,-0.467,0.283,-7.0
+S,F2,"L/(2R), R=88 pc (fill length fraction)",-4.462,-2.712,-1.962,-7.0
+S,F2,log X_min(HCN) for Sigma_max=470 Msun/pc2,-7.312,-6.312,-6.062,
+S,F2,log X_min(HCN) for Sigma_max=1000 Msun/pc2,-7.64,-6.64,-6.39,
+S,F2,log X_min(HCN) for Sigma_max=3000 Msun/pc2,-8.117,-7.117,-6.867,
+S,F2,log X_min(HCN) for Sigma_max=10000 Msun/pc2,-8.64,-7.64,-7.39,
+S,pooled,"log N(HCN,cloud dv50) [cm-2]",15.273,16.023,16.273,
+S,pooled,log N(H2) [cm-2],24.273,25.023,25.273,-9.0
+S,pooled,log Sigma_H2 [Msun/pc2],4.61,5.36,5.61,-9.0
+S,pooled,log L [pc],0.033,1.533,2.283,-9.0
+S,pooled,"L/(2R), R=88 pc (fill length fraction)",-2.212,-0.712,0.038,-9.0
+S,pooled,log N(H2) [cm-2],23.273,24.023,24.273,-8.0
+S,pooled,log Sigma_H2 [Msun/pc2],3.61,4.36,4.61,-8.0
+S,pooled,log L [pc],-0.967,0.533,1.283,-8.0
+S,pooled,"L/(2R), R=88 pc (fill length fraction)",-3.212,-1.712,-0.962,-8.0
+S,pooled,log N(H2) [cm-2],22.273,23.023,23.273,-7.0
+S,pooled,log Sigma_H2 [Msun/pc2],2.61,3.36,3.61,-7.0
+S,pooled,log L [pc],-1.967,-0.467,0.283,-7.0
+S,pooled,"L/(2R), R=88 pc (fill length fraction)",-4.212,-2.712,-1.962,-7.0
+S,pooled,log X_min(HCN) for Sigma_max=470 Msun/pc2,-7.062,-6.312,-6.062,
+S,pooled,log X_min(HCN) for Sigma_max=1000 Msun/pc2,-7.39,-6.64,-6.39,
+S,pooled,log X_min(HCN) for Sigma_max=3000 Msun/pc2,-7.867,-7.117,-6.867,
+S,pooled,log X_min(HCN) for Sigma_max=10000 Msun/pc2,-8.39,-7.64,-7.39,

@@ -1,0 +1,48 @@
+## HCO+ 3-2 at the Xb4f beam 5.73x3.54" PA82; Jy km/s (aperture sum / beam area), core |v|<350, all -600..+550
+  ap4_core           Xb4f   51.567  Xb4d   42.002 ( 0.81)  Xb4b   35.451 ( 0.69)
+  ap4_all            Xb4f   50.971  Xb4d   41.903 ( 0.82)  Xb4b   35.031 ( 0.69)
+  ap8_core           Xb4f   94.236  Xb4d   60.990 ( 0.65)  Xb4b   44.119 ( 0.47)
+  ap8_all            Xb4f   93.867  Xb4d   60.970 ( 0.65)  Xb4b   44.094 ( 0.47)
+  ap12_core          Xb4f   93.663  Xb4d   47.195 ( 0.50)  Xb4b   -1.182 (-0.01)
+  ap12_all           Xb4f   93.863  Xb4d   47.617 ( 0.51)  Xb4b   -0.204 (-0.00)
+  pk_N_core          Xb4f   34.193  Xb4d   29.700 ( 0.87)  Xb4b   26.801 ( 0.78)
+  pk_N_all           Xb4f   33.861  Xb4d   29.640 ( 0.88)  Xb4b   26.338 ( 0.78)
+  pk_S_core          Xb4f   30.230  Xb4d   24.472 ( 0.81)  Xb4b   20.343 ( 0.67)
+  pk_S_all           Xb4f   30.019  Xb4d   24.412 ( 0.81)  Xb4b   20.317 ( 0.68)
+  pk_Bridge_core     Xb4f   31.732  Xb4d   27.705 ( 0.87)  Xb4b   23.983 ( 0.76)
+  pk_Bridge_all      Xb4f   31.299  Xb4d   27.659 ( 0.88)  Xb4b   23.492 ( 0.75)
+  pk_E1_core         Xb4f    8.135  Xb4d    6.898 ( 0.85)  Xb4b    3.638 ( 0.45)
+  pk_E1_all          Xb4f    8.189  Xb4d    7.073 ( 0.86)  Xb4b    3.983 ( 0.49)
+  pk_E2_core         Xb4f    8.145  Xb4d    4.974 ( 0.61)  Xb4b    3.856 ( 0.47)
+  pk_E2_all          Xb4f    7.878  Xb4d    5.068 ( 0.64)  Xb4b    3.840 ( 0.49)
+  pk_W_core          Xb4f    8.706  Xb4d    6.602 ( 0.76)  Xb4b    3.476 ( 0.40)
+  pk_W_all           Xb4f    8.664  Xb4d    6.718 ( 0.78)  Xb4b    3.470 ( 0.40)
+  pk_Sblue_core      Xb4f   14.702  Xb4d   11.565 ( 0.79)  Xb4b    9.755 ( 0.66)
+  pk_Sblue_all       Xb4f   14.827  Xb4d   11.618 ( 0.78)  Xb4b    9.719 ( 0.66)
+  ap4 core 1-sigma err: Xb4f 0.158 Xb4d 0.109 Xb4b 0.182
+  ap8 core 1-sigma err: Xb4f 0.243 Xb4d 0.092 Xb4b 0.151
+  ap12 core 1-sigma err: Xb4f 0.253 Xb4d 0.293 Xb4b 0.631
+## HCN 3-2 at the Xb4f beam 5.72x3.54" PA82; Jy km/s (aperture sum / beam area), core |v|<350, all -600..+550
+  ap4_core           Xb4f   24.428  Xb4d   19.374 ( 0.79)  Xb4b   16.425 ( 0.67)
+  ap4_all            Xb4f   23.990  Xb4d   19.274 ( 0.80)  Xb4b   16.707 ( 0.70)
+  ap8_core           Xb4f   39.804  Xb4d   22.933 ( 0.58)  Xb4b   17.351 ( 0.44)
+  ap8_all            Xb4f   39.255  Xb4d   23.019 ( 0.59)  Xb4b   17.374 ( 0.44)
+  ap12_core          Xb4f   34.219  Xb4d   12.527 ( 0.37)  Xb4b   -9.707 (-0.28)
+  ap12_all           Xb4f   34.086  Xb4d   12.594 ( 0.37)  Xb4b  -10.666 (-0.31)
+  pk_N_core          Xb4f   20.516  Xb4d   17.769 ( 0.87)  Xb4b   16.056 ( 0.78)
+  pk_N_all           Xb4f   20.232  Xb4d   17.793 ( 0.88)  Xb4b   16.063 ( 0.79)
+  pk_S_core          Xb4f   11.485  Xb4d    8.818 ( 0.77)  Xb4b    7.053 ( 0.61)
+  pk_S_all           Xb4f   11.258  Xb4d    8.722 ( 0.77)  Xb4b    7.265 ( 0.65)
+  pk_Bridge_core     Xb4f   16.273  Xb4d   14.819 ( 0.91)  Xb4b   13.058 ( 0.80)
+  pk_Bridge_all      Xb4f   15.980  Xb4d   14.678 ( 0.92)  Xb4b   13.236 ( 0.83)
+  pk_E1_core         Xb4f    2.127  Xb4d    1.566 ( 0.74)  Xb4b   -1.053 (-0.50)
+  pk_E1_all          Xb4f    2.342  Xb4d    1.518 ( 0.65)  Xb4b   -0.979 (-0.42)
+  pk_E2_core         Xb4f    1.873  Xb4d    0.604 ( 0.32)  Xb4b    1.111 ( 0.59)
+  pk_E2_all          Xb4f    1.667  Xb4d    0.603 ( 0.36)  Xb4b    1.227 ( 0.74)
+  pk_W_core          Xb4f    2.956  Xb4d    1.720 ( 0.58)  Xb4b    0.418 ( 0.14)
+  pk_W_all           Xb4f    2.988  Xb4d    1.931 ( 0.65)  Xb4b    0.447 ( 0.15)
+  pk_Sblue_core      Xb4f    6.534  Xb4d    4.374 ( 0.67)  Xb4b    4.720 ( 0.72)
+  pk_Sblue_all       Xb4f    6.774  Xb4d    4.497 ( 0.66)  Xb4b    4.753 ( 0.70)
+  ap4 core 1-sigma err: Xb4f 0.116 Xb4d 0.081 Xb4b 0.129
+  ap8 core 1-sigma err: Xb4f 0.196 Xb4d 0.081 Xb4b 0.114
+  ap12 core 1-sigma err: Xb4f 0.206 Xb4d 0.242 Xb4b 0.431

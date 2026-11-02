@@ -1,0 +1,288 @@
+q39_drop1_noir_sh_q36nominal_s1 chi2prof 12.3 (N 8.2 S 4.1; 10arcsec N 2.7 S 3.1) k 17 logZ -46.07 BIC 67.6 Te 42 P(Te>=50) 0.35
+q39_drop1_noir_sh_q36cmb_s1 chi2prof 9.7 (N 6.9 S 2.8; 10arcsec N 2.3 S 2.2) k 17 logZ -42.84 BIC 65.1 Te 73 P(Te>=50) 0.79
+q39_inf30_noir_sh_q36nominal_s1 chi2prof 12.6 (N 8.0 S 4.6; 10arcsec N 2.9 S 2.7) k 17 logZ -45.86 BIC 71.6 Te 36 P(Te>=50) 0.18
+q39_base_ir100w1_sh_q36cmb_s1 chi2prof 16.5 (N 10.2 S 6.3; 10arcsec N 1.6 S 2.1) k 17 logZ -51.45 BIC 75.4 Te 54 P(Te>=50) 0.67
+q39_base_ir150w03_sh_q36cmb_s1 chi2prof 22.1 (N 14.9 S 7.1; 10arcsec N 4.9 S 4.7) k 17 logZ -54.40 BIC 81.0 Te 34 P(Te>=50) 0.06
+q39_inf30_noir_sh_q36cmb_s1 chi2prof 11.8 (N 6.5 S 5.4; 10arcsec N 1.9 S 2.2) k 17 logZ -47.71 BIC 70.8 Te 45 P(Te>=50) 0.35
+q39_base_ir150w03_sh_q36nominal_s1 chi2prof 22.4 (N 14.5 S 8.0; 10arcsec N 4.6 S 4.3) k 17 logZ -57.09 BIC 81.3 Te 37 P(Te>=50) 0.14
+q39_base_ir100w03_sh_q36nominal_s1 chi2prof 14.6 (N 9.5 S 5.1; 10arcsec N 2.3 S 1.0) k 17 logZ -51.79 BIC 73.5 Te 56 P(Te>=50) 0.55
+q39_base_noir_sh_q36nominal_s1 chi2prof 17.1 (N 9.3 S 7.8; 10arcsec N 3.5 S 2.2) k 17 logZ -55.44 BIC 76.0 Te 38 P(Te>=50) 0.20
+q39_base_ir100w1_sh_q36nominal_s1 chi2prof 13.2 (N 7.2 S 6.0; 10arcsec N 1.4 S 0.5) k 17 logZ -52.77 BIC 72.1 Te 45 P(Te>=50) 0.40
+q39_base_noir_sh_q36cmb_s1 chi2prof 16.5 (N 10.5 S 6.0; 10arcsec N 2.7 S 2.1) k 17 logZ -53.43 BIC 75.4 Te 48 P(Te>=50) 0.46
+q39_base_ir150w1_sh_q36nominal_s1 chi2prof 29.6 (N 21.2 S 8.4; 10arcsec N 3.7 S 4.0) k 17 logZ -60.13 BIC 88.5 Te 34 P(Te>=50) 0.04
+q39_base_ir100w03_sh_q36cmb_s1 chi2prof 14.7 (N 8.3 S 6.4; 10arcsec N 1.9 S 0.2) k 17 logZ -53.99 BIC 73.6 Te 43 P(Te>=50) 0.29
+q39_base_ir150w1_sh_q36cmb_s1 chi2prof 30.6 (N 19.5 S 11.2; 10arcsec N 5.4 S 6.2) k 17 logZ -60.72 BIC 89.5 Te 35 P(Te>=50) 0.06
+q39_drop1_noir_sh_q36cmb_s2 chi2prof 11.0 (N 8.1 S 2.9; 10arcsec N 0.9 S 0.3) k 17 logZ -43.18 BIC 66.4 Te 53 P(Te>=50) 0.57
+q39_drop1_noir_sh_q36nominal_s2 chi2prof 9.1 (N 6.2 S 2.9; 10arcsec N 1.2 S 1.3) k 17 logZ -44.63 BIC 64.5 Te 38 P(Te>=50) 0.26
+q39_base_ir200w03_sh_q36cmb_s1 chi2prof 36.2 (N 23.9 S 12.3; 10arcsec N 9.1 S 7.7) k 17 logZ -65.24 BIC 95.2 Te 32 P(Te>=50) 0.04
+q39_base_ir200w03_sh_q36nominal_s1 chi2prof 32.1 (N 22.8 S 9.3; 10arcsec N 5.4 S 6.2) k 17 logZ -65.07 BIC 91.0 Te 31 P(Te>=50) 0.02
+q39_inf30_noir_sh_q36cmb_s2 chi2prof 12.9 (N 7.4 S 5.5; 10arcsec N 3.3 S 2.8) k 17 logZ -47.06 BIC 71.8 Te 40 P(Te>=50) 0.24
+q39_drop1_noir_sep_q36cmb_s1 chi2prof 8.7 (N 6.6 S 2.1; 10arcsec N 3.0 S 0.5) k 22 logZ -50.93 BIC 80.4 
+q39_inf30_noir_sh_q36nominal_s2 chi2prof 9.5 (N 6.3 S 3.2; 10arcsec N 2.1 S 1.0) k 17 logZ -46.67 BIC 68.4 Te 61 P(Te>=50) 0.67
+q39_base_noir_sh_q36cmb_s2 chi2prof 11.8 (N 4.9 S 6.9; 10arcsec N 1.4 S 0.9) k 17 logZ -52.52 BIC 70.7 Te 44 P(Te>=50) 0.13
+q39_base_ir100w1_sh_q36cmb_s2 chi2prof 14.2 (N 11.1 S 3.0; 10arcsec N 2.3 S 0.7) k 17 logZ -50.00 BIC 73.1 Te 53 P(Te>=50) 0.57
+q39_base_ir100w1_sh_q36nominal_s2 chi2prof 14.7 (N 10.0 S 4.7; 10arcsec N 3.5 S 1.6) k 17 logZ -52.83 BIC 73.6 Te 36 P(Te>=50) 0.18
+q39_base_noir_sh_q36nominal_s2 chi2prof 14.0 (N 8.6 S 5.4; 10arcsec N 1.8 S 1.0) k 17 logZ -53.57 BIC 72.9 Te 49 P(Te>=50) 0.46
+q39_base_ir100w03_sh_q36cmb_s2 chi2prof 16.0 (N 6.9 S 9.1; 10arcsec N 2.7 S 2.6) k 17 logZ -52.92 BIC 74.9 Te 41 P(Te>=50) 0.13
+q39_base_ir100w03_sh_q36nominal_s2 chi2prof 13.8 (N 8.5 S 5.3; 10arcsec N 1.8 S 1.3) k 17 logZ -52.19 BIC 72.7 Te 57 P(Te>=50) 0.61
+q39_base_noir_sep_q36cmb_s1 chi2prof 20.7 (N 11.4 S 9.3; 10arcsec N 2.5 S 2.9) k 22 logZ -62.58 BIC 97.0 
+q39_base_ir150w03_sh_q36cmb_s2 chi2prof 22.4 (N 15.0 S 7.4; 10arcsec N 5.8 S 5.8) k 17 logZ -55.75 BIC 81.3 Te 36 P(Te>=50) 0.08
+q39_drop1_noir_sh_q36cmb_s3 chi2prof 11.3 (N 8.4 S 2.9; 10arcsec N 2.0 S 1.3) k 17 logZ -43.76 BIC 66.6 Te 38 P(Te>=50) 0.26
+q39_base_ir150w1_sh_q36nominal_s2 chi2prof 29.2 (N 20.1 S 9.1; 10arcsec N 6.5 S 4.5) k 17 logZ -57.90 BIC 88.1 Te 33 P(Te>=50) 0.02
+q39_base_ir150w03_sh_q36nominal_s2 chi2prof 20.4 (N 13.7 S 6.7; 10arcsec N 3.0 S 4.4) k 17 logZ -55.38 BIC 79.3 Te 48 P(Te>=50) 0.43
+q39_inf30_noir_sh_q36cmb_s3 chi2prof 12.3 (N 8.4 S 4.0; 10arcsec N 2.4 S 2.5) k 17 logZ -45.80 BIC 71.2 Te 28 P(Te>=50) 0.09
+q39_drop1_noir_sh_q36nominal_s3 chi2prof 10.6 (N 7.7 S 2.9; 10arcsec N 1.1 S 0.9) k 17 logZ -43.60 BIC 66.0 Te 30 P(Te>=50) 0.04
+q39_base_ir150w1_sh_q36cmb_s2 chi2prof 28.6 (N 20.7 S 7.9; 10arcsec N 4.4 S 4.8) k 17 logZ -62.44 BIC 87.5 Te 30 P(Te>=50) 0.02
+q39_base_ir200w03_sh_q36cmb_s2 chi2prof 30.5 (N 21.4 S 9.1; 10arcsec N 5.1 S 4.7) k 17 logZ -61.28 BIC 89.4 Te 33 P(Te>=50) 0.02
+q39_base_noir_sh_q36cmb_s3 chi2prof 11.4 (N 4.9 S 6.6; 10arcsec N 1.6 S 0.9) k 17 logZ -51.65 BIC 70.3 Te 76 P(Te>=50) 0.87
+q39_drop1_noir_sep_q36cmb_s2 chi2prof 9.6 (N 7.2 S 2.4; 10arcsec N 3.7 S 0.9) k 22 logZ -52.82 BIC 81.2 
+q39_base_ir200w03_sh_q36nominal_s2 chi2prof 28.6 (N 21.8 S 6.8; 10arcsec N 3.8 S 3.8) k 17 logZ -60.10 BIC 87.5 Te 34 P(Te>=50) 0.03
+q39_inf30_noir_sh_q36nominal_s3 chi2prof 12.2 (N 7.9 S 4.3; 10arcsec N 2.4 S 2.2) k 17 logZ -46.02 BIC 71.1 Te 42 P(Te>=50) 0.31
+q39_base_noir_sh_q36nominal_s3 chi2prof 11.9 (N 6.5 S 5.4; 10arcsec N 3.0 S 1.8) k 17 logZ -51.16 BIC 70.8 Te 57 P(Te>=50) 0.66
+q39_base_noir_sep_q36cmb_s2 chi2prof 12.7 (N 7.9 S 4.8; 10arcsec N 2.3 S 2.2) k 22 logZ -60.45 BIC 89.0 
+q39_base_ir100w03_sh_q36cmb_s3 chi2prof 11.4 (N 5.8 S 5.6; 10arcsec N 0.7 S 1.3) k 17 logZ -50.51 BIC 70.3 Te 42 P(Te>=50) 0.27
+q39_base_ir100w1_sh_q36cmb_s3 chi2prof 14.5 (N 7.7 S 6.7; 10arcsec N 1.7 S 1.0) k 17 logZ -49.94 BIC 73.4 Te 34 P(Te>=50) 0.13
+q39_base_ir100w03_sh_q36nominal_s3 chi2prof 12.2 (N 8.9 S 3.3; 10arcsec N 2.0 S 1.7) k 17 logZ -53.10 BIC 71.1 Te 56 P(Te>=50) 0.60
+q39_base_ir100w1_sh_q36nominal_s3 chi2prof 12.9 (N 7.4 S 5.5; 10arcsec N 1.4 S 1.6) k 17 logZ -52.85 BIC 71.8 Te 37 P(Te>=50) 0.30
+q39_base_ir150w03_sh_q36nominal_s3 chi2prof 22.1 (N 15.1 S 7.0; 10arcsec N 3.2 S 3.6) k 17 logZ -56.86 BIC 81.1 Te 36 P(Te>=50) 0.13
+q39_base_ir150w1_sh_q36cmb_s3 chi2prof 28.6 (N 15.5 S 13.0; 10arcsec N 5.8 S 5.4) k 17 logZ -62.35 BIC 87.5 Te 33 P(Te>=50) 0.05
+q39_base_ir200w03_sh_q36cmb_s3 chi2prof 33.3 (N 22.5 S 10.8; 10arcsec N 5.9 S 3.3) k 17 logZ -60.98 BIC 92.2 Te 33 P(Te>=50) 0.01
+q39_base_ir150w03_sh_q36cmb_s3 chi2prof 21.8 (N 14.9 S 6.9; 10arcsec N 3.0 S 3.3) k 17 logZ -56.82 BIC 80.7 Te 36 P(Te>=50) 0.11
+q39_drop1_noir_sh_q36cmb_s4 chi2prof 11.3 (N 8.9 S 2.3; 10arcsec N 2.5 S 0.9) k 17 logZ -43.89 BIC 66.6 Te 44 P(Te>=50) 0.36
+q39_base_ir200w03_sh_q36nominal_s3 chi2prof 31.4 (N 22.8 S 8.7; 10arcsec N 4.7 S 4.3) k 17 logZ -59.11 BIC 90.3 Te 34 P(Te>=50) 0.03
+q39_base_ir150w1_sh_q36nominal_s3 chi2prof 28.3 (N 21.7 S 6.6; 10arcsec N 2.6 S 3.0) k 17 logZ -60.85 BIC 87.2 Te 32 P(Te>=50) 0.04
+q39_drop1_noir_sep_q36cmb_s3 chi2prof 11.4 (N 8.5 S 2.9; 10arcsec N 3.9 S 1.3) k 22 logZ -53.11 BIC 83.1 
+q39_base_noir_sh_q36cmb_s4 chi2prof 15.4 (N 7.9 S 7.5; 10arcsec N 1.7 S 1.0) k 17 logZ -52.39 BIC 74.3 Te 47 P(Te>=50) 0.44
+q39_base_noir_sep_q36cmb_s3 chi2prof 17.4 (N 10.1 S 7.3; 10arcsec N 3.2 S 1.4) k 22 logZ -60.69 BIC 93.7 
+q39_inf30_noir_sh_q36cmb_s4 chi2prof 14.5 (N 9.0 S 5.6; 10arcsec N 3.7 S 3.5) k 17 logZ -46.33 BIC 73.5 Te 47 P(Te>=50) 0.44
+q39_base_noir_sh_q36nominal_s4 chi2prof 11.3 (N 6.7 S 4.7; 10arcsec N 3.4 S 2.8) k 17 logZ -52.27 BIC 70.3 Te 47 P(Te>=50) 0.43
+q39_drop1_noir_sh_q36nominal_s4 chi2prof 11.0 (N 6.8 S 4.1; 10arcsec N 2.5 S 1.7) k 17 logZ -46.13 BIC 66.3 Te 37 P(Te>=50) 0.14
+q39_inf30_noir_sh_q36nominal_s4 chi2prof 11.0 (N 7.5 S 3.5; 10arcsec N 2.2 S 1.1) k 17 logZ -46.76 BIC 69.9 Te 48 P(Te>=50) 0.44
+q39_base_ir100w03_sh_q36nominal_s4 chi2prof 13.9 (N 8.0 S 6.0; 10arcsec N 1.9 S 1.1) k 17 logZ -51.97 BIC 72.9 Te 51 P(Te>=50) 0.53
+q39_base_ir150w03_sh_q36cmb_s4 chi2prof 22.7 (N 13.0 S 9.7; 10arcsec N 4.6 S 5.6) k 17 logZ -56.60 BIC 81.7 Te 37 P(Te>=50) 0.12
+q39_base_ir150w03_sh_q36nominal_s4 chi2prof 21.6 (N 15.1 S 6.6; 10arcsec N 5.5 S 4.6) k 17 logZ -55.02 BIC 80.5 Te 40 P(Te>=50) 0.17
+q39_base_ir100w03_sh_q36cmb_s4 chi2prof 12.5 (N 7.1 S 5.4; 10arcsec N 2.6 S 1.8) k 17 logZ -51.35 BIC 71.5 Te 57 P(Te>=50) 0.68
+q39_base_ir100w1_sh_q36cmb_s4 chi2prof 12.9 (N 9.6 S 3.3; 10arcsec N 2.4 S 1.4) k 17 logZ -51.67 BIC 71.9 Te 50 P(Te>=50) 0.49
+q39_base_ir100w1_sh_q36nominal_s4 chi2prof 11.4 (N 5.4 S 5.9; 10arcsec N 1.5 S 2.3) k 17 logZ -51.53 BIC 70.3 Te 49 P(Te>=50) 0.48
+q39_base_ir150w1_sh_q36cmb_s4 chi2prof 30.7 (N 19.9 S 10.8; 10arcsec N 6.8 S 6.3) k 17 logZ -60.37 BIC 89.7 Te 35 P(Te>=50) 0.07
+q39_base_ir150w1_sh_q36nominal_s4 chi2prof 30.4 (N 22.3 S 8.1; 10arcsec N 4.9 S 3.8) k 17 logZ -60.98 BIC 89.3 Te 33 P(Te>=50) 0.03
+q39_base_ir200w03_sh_q36cmb_s4 chi2prof 31.8 (N 23.3 S 8.5; 10arcsec N 6.0 S 4.7) k 17 logZ -61.88 BIC 90.7 Te 32 P(Te>=50) 0.02
+q39_base_ir200w03_sh_q36nominal_s4 chi2prof 32.8 (N 22.9 S 9.9; 10arcsec N 4.5 S 3.4) k 17 logZ -64.13 BIC 91.7 Te 30 P(Te>=50) 0.02
+q39_drop1_noir_sh_q36cmb_s5 chi2prof 10.8 (N 6.6 S 4.2; 10arcsec N 1.4 S 2.0) k 17 logZ -45.12 BIC 66.2 Te 36 P(Te>=50) 0.09
+q39_base_noir_sh_q36cmb_s5 chi2prof 15.9 (N 8.0 S 7.8; 10arcsec N 2.4 S 2.0) k 17 logZ -53.25 BIC 74.8 Te 43 P(Te>=50) 0.33
+q39_inf30_noir_sh_q36cmb_s5 chi2prof 13.1 (N 8.9 S 4.2; 10arcsec N 2.6 S 1.7) k 17 logZ -45.62 BIC 72.0 Te 36 P(Te>=50) 0.12
+q39_drop1_noir_sep_q36cmb_s4 chi2prof 9.6 (N 6.3 S 3.3; 10arcsec N 1.5 S 0.3) k 22 logZ -54.33 BIC 81.3 
+q39_base_noir_sep_q36cmb_s4 chi2prof 15.7 (N 11.0 S 4.7; 10arcsec N 3.0 S 0.3) k 22 logZ -61.54 BIC 92.0 
+q39_drop1_noir_sh_q36nominal_s5 chi2prof 7.8 (N 5.4 S 2.4; 10arcsec N 0.4 S 1.1) k 17 logZ -43.13 BIC 63.2 Te 61 P(Te>=50) 0.73
+q39_base_noir_sh_q36nominal_s5 chi2prof 9.8 (N 4.2 S 5.6; 10arcsec N 0.7 S 1.5) k 17 logZ -46.57 BIC 68.7 Te 45 P(Te>=50) 0.37
+q39_inf30_noir_sh_q36nominal_s5 chi2prof 11.3 (N 7.7 S 3.7; 10arcsec N 1.6 S 1.5) k 17 logZ -45.49 BIC 70.2 Te 43 P(Te>=50) 0.34
+q39_base_ir100w03_sh_q36cmb_s5 chi2prof 12.0 (N 7.9 S 4.1; 10arcsec N 2.0 S 1.0) k 17 logZ -50.35 BIC 70.9 Te 62 P(Te>=50) 0.80
+q39_base_ir100w03_sh_q36nominal_s5 chi2prof 12.3 (N 7.5 S 4.8; 10arcsec N 0.6 S 0.7) k 17 logZ -50.96 BIC 71.3 Te 47 P(Te>=50) 0.45
+q39_base_ir100w1_sh_q36cmb_s5 chi2prof 11.0 (N 7.4 S 3.6; 10arcsec N 3.3 S 1.7) k 17 logZ -52.53 BIC 69.9 Te 57 P(Te>=50) 0.66
+q39_base_ir100w1_sh_q36nominal_s5 chi2prof 11.3 (N 7.9 S 3.3; 10arcsec N 2.7 S 1.4) k 17 logZ -52.71 BIC 70.2 Te 78 P(Te>=50) 0.82
+q39_base_ir150w03_sh_q36cmb_s5 chi2prof 21.6 (N 12.8 S 8.8; 10arcsec N 5.8 S 5.6) k 17 logZ -57.25 BIC 80.6 Te 42 P(Te>=50) 0.30
+q39_base_ir150w03_sh_q36nominal_s5 chi2prof 23.5 (N 16.9 S 6.5; 10arcsec N 3.9 S 3.5) k 17 logZ -55.08 BIC 82.4 Te 41 P(Te>=50) 0.22
+q39_base_ir150w1_sh_q36cmb_s5 chi2prof 28.9 (N 20.1 S 8.8; 10arcsec N 3.4 S 5.4) k 17 logZ -60.19 BIC 87.8 Te 31 P(Te>=50) 0.02
+q39_drop1_noir_sh_q36cmb_s6 chi2prof 11.1 (N 7.2 S 3.9; 10arcsec N 3.1 S 1.9) k 17 logZ -41.84 BIC 66.5 Te 44 P(Te>=50) 0.35
+q39_base_ir150w1_sh_q36nominal_s5 chi2prof 28.4 (N 21.2 S 7.2; 10arcsec N 5.2 S 4.6) k 17 logZ -59.08 BIC 87.3 Te 34 P(Te>=50) 0.03
+q39_base_ir200w03_sh_q36cmb_s5 chi2prof 32.2 (N 22.5 S 9.7; 10arcsec N 4.4 S 4.2) k 17 logZ -62.66 BIC 91.2 Te 32 P(Te>=50) 0.02
+q39_base_ir200w03_sh_q36nominal_s5 chi2prof 35.5 (N 23.3 S 12.3; 10arcsec N 6.2 S 6.4) k 17 logZ -63.45 BIC 94.5 Te 33 P(Te>=50) 0.04
+q39_inf30_noir_sh_q36cmb_s6 chi2prof 12.9 (N 7.5 S 5.4; 10arcsec N 2.5 S 1.9) k 17 logZ -45.94 BIC 71.9 Te 37 P(Te>=50) 0.19
+q39_drop1_noir_sep_q36cmb_s5 chi2prof 11.8 (N 5.8 S 6.0; 10arcsec N 1.4 S 1.9) k 22 logZ -53.83 BIC 83.5 
+q39_base_noir_sh_q36cmb_s6 chi2prof 16.4 (N 9.0 S 7.4; 10arcsec N 1.5 S 1.4) k 17 logZ -55.26 BIC 75.3 Te 44 P(Te>=50) 0.37
+q39_drop1_noir_sh_q36nominal_s6 chi2prof 12.1 (N 6.1 S 6.0; 10arcsec N 1.1 S 1.3) k 17 logZ -45.22 BIC 67.5 Te 38 P(Te>=50) 0.26
+q39_base_noir_sep_q36cmb_s5 chi2prof 15.0 (N 10.0 S 5.0; 10arcsec N 5.1 S 1.1) k 22 logZ -62.11 BIC 91.3 
+q39_inf30_noir_sh_q36nominal_s6 chi2prof 12.7 (N 7.0 S 5.7; 10arcsec N 2.6 S 2.2) k 17 logZ -44.59 BIC 71.6 Te 48 P(Te>=50) 0.45
+q39_base_noir_sh_q36nominal_s6 chi2prof 11.9 (N 5.2 S 6.7; 10arcsec N 1.5 S 3.3) k 17 logZ -52.54 BIC 70.8 Te 47 P(Te>=50) 0.41
+q39_base_ir100w03_sh_q36cmb_s6 chi2prof 11.8 (N 7.2 S 4.5; 10arcsec N 3.0 S 2.1) k 17 logZ -50.96 BIC 70.7 Te 49 P(Te>=50) 0.49
+q39_base_ir100w03_sh_q36nominal_s6 chi2prof 11.4 (N 6.0 S 5.3; 10arcsec N 1.5 S 1.0) k 17 logZ -51.81 BIC 70.3 Te 68 P(Te>=50) 0.81
+q39_base_ir100w1_sh_q36cmb_s6 chi2prof 15.4 (N 8.7 S 6.7; 10arcsec N 1.0 S 1.2) k 17 logZ -52.76 BIC 74.3 Te 44 P(Te>=50) 0.28
+q39_base_ir100w1_sh_q36nominal_s6 chi2prof 9.7 (N 5.5 S 4.2; 10arcsec N 3.1 S 1.9) k 17 logZ -50.73 BIC 68.6 Te 44 P(Te>=50) 0.33
+q39_base_ir150w03_sh_q36cmb_s6 chi2prof 24.6 (N 17.9 S 6.7; 10arcsec N 2.8 S 1.1) k 17 logZ -54.49 BIC 83.5 Te 36 P(Te>=50) 0.10
+q39_base_ir150w03_sh_q36nominal_s6 chi2prof 23.7 (N 14.3 S 9.4; 10arcsec N 4.5 S 3.8) k 17 logZ -56.54 BIC 82.6 Te 40 P(Te>=50) 0.16
+q39_base_ir150w1_sh_q36cmb_s6 chi2prof 31.2 (N 17.0 S 14.2; 10arcsec N 5.7 S 5.8) k 17 logZ -60.57 BIC 90.1 Te 32 P(Te>=50) 0.01
+q39_drop1_noir_sh_q36cmb_s7 chi2prof 10.0 (N 7.8 S 2.2; 10arcsec N 2.1 S 0.6) k 17 logZ -41.38 BIC 65.3 Te 66 P(Te>=50) 0.78
+q39_base_ir150w1_sh_q36nominal_s6 chi2prof 28.4 (N 20.7 S 7.7; 10arcsec N 3.9 S 2.9) k 17 logZ -60.05 BIC 87.3 Te 33 P(Te>=50) 0.03
+q39_base_ir200w03_sh_q36cmb_s6 chi2prof 34.4 (N 22.9 S 11.4; 10arcsec N 6.1 S 5.7) k 17 logZ -62.63 BIC 93.3 Te 30 P(Te>=50) 0.01
+q39_base_ir200w03_sh_q36nominal_s6 chi2prof 30.6 (N 22.3 S 8.2; 10arcsec N 5.2 S 5.5) k 17 logZ -63.18 BIC 89.5 Te 33 P(Te>=50) 0.02
+q39_base_noir_sh_q36cmb_s7 chi2prof 10.9 (N 4.1 S 6.8; 10arcsec N 1.7 S 1.3) k 17 logZ -49.18 BIC 69.8 Te 77 P(Te>=50) 0.96
+q39_drop1_noir_sep_q36cmb_s6 chi2prof 10.0 (N 7.0 S 3.0; 10arcsec N 3.6 S 1.7) k 22 logZ -52.16 BIC 81.7 
+q39_inf30_noir_sh_q36cmb_s7 chi2prof 14.1 (N 8.6 S 5.5; 10arcsec N 2.2 S 2.5) k 17 logZ -46.55 BIC 73.0 Te 44 P(Te>=50) 0.34
+q39_base_noir_sep_q36cmb_s6 chi2prof 15.3 (N 11.5 S 3.8; 10arcsec N 5.8 S 0.8) k 22 logZ -59.97 BIC 91.6 
+q39_base_noir_sh_q36nominal_s7 chi2prof 14.3 (N 7.6 S 6.7; 10arcsec N 1.5 S 2.1) k 17 logZ -50.41 BIC 73.2 Te 41 P(Te>=50) 0.24
+q39_drop1_noir_sh_q36nominal_s7 chi2prof 11.0 (N 7.8 S 3.2; 10arcsec N 2.0 S 1.4) k 17 logZ -45.57 BIC 66.4 Te 48 P(Te>=50) 0.47
+q39_inf30_noir_sh_q36nominal_s7 chi2prof 10.5 (N 6.3 S 4.2; 10arcsec N 1.6 S 1.2) k 17 logZ -43.41 BIC 69.5 Te 37 P(Te>=50) 0.23
+q39_base_ir100w03_sh_q36cmb_s7 chi2prof 13.8 (N 6.5 S 7.3; 10arcsec N 3.0 S 1.8) k 17 logZ -53.05 BIC 72.7 Te 41 P(Te>=50) 0.18
+q39_base_ir100w03_sh_q36nominal_s7 chi2prof 16.3 (N 10.9 S 5.4; 10arcsec N 1.7 S 1.3) k 17 logZ -54.86 BIC 75.3 Te 37 P(Te>=50) 0.14
+q39_base_ir150w03_sh_q36nominal_s7 chi2prof 22.7 (N 16.1 S 6.6; 10arcsec N 5.0 S 4.5) k 17 logZ -55.84 BIC 81.7 Te 39 P(Te>=50) 0.10
+q39_base_ir100w1_sh_q36cmb_s7 chi2prof 12.2 (N 6.7 S 5.5; 10arcsec N 1.8 S 1.5) k 17 logZ -50.68 BIC 71.1 Te 49 P(Te>=50) 0.48
+q39_base_ir100w1_sh_q36nominal_s7 chi2prof 14.5 (N 9.4 S 5.2; 10arcsec N 3.3 S 3.4) k 17 logZ -51.53 BIC 73.4 Te 59 P(Te>=50) 0.77
+q39_base_ir150w03_sh_q36cmb_s7 chi2prof 23.1 (N 16.4 S 6.7; 10arcsec N 4.0 S 3.9) k 17 logZ -57.18 BIC 82.0 Te 36 P(Te>=50) 0.12
+q39_base_ir150w1_sh_q36cmb_s7 chi2prof 30.7 (N 19.7 S 11.0; 10arcsec N 5.8 S 6.7) k 17 logZ -60.73 BIC 89.6 Te 32 P(Te>=50) 0.03
+q39_base_ir150w1_sh_q36nominal_s7 chi2prof 30.6 (N 22.3 S 8.3; 10arcsec N 3.0 S 3.7) k 17 logZ -59.84 BIC 89.5 Te 35 P(Te>=50) 0.08
+q39_base_ir200w03_sh_q36cmb_s7 chi2prof 32.4 (N 23.0 S 9.4; 10arcsec N 6.2 S 7.0) k 17 logZ -64.08 BIC 91.4 Te 33 P(Te>=50) 0.02
+q39_base_ir200w03_sh_q36nominal_s7 chi2prof 30.1 (N 21.0 S 9.1; 10arcsec N 4.6 S 5.6) k 17 logZ -63.16 BIC 89.0 Te 35 P(Te>=50) 0.05
+q39_drop1_noir_sep_q36cmb_s7 chi2prof 12.9 (N 8.5 S 4.4; 10arcsec N 2.6 S 1.9) k 22 logZ -52.29 BIC 84.6 
+q39_base_noir_sep_q36cmb_s7 chi2prof 17.9 (N 14.3 S 3.6; 10arcsec N 5.6 S 0.4) k 22 logZ -64.87 BIC 94.2 
+q39_drop1_noir_sh_q36cmb_s8 chi2prof 11.9 (N 8.6 S 3.3; 10arcsec N 2.6 S 1.5) k 17 logZ -43.74 BIC 67.3 Te 40 P(Te>=50) 0.26
+q39_base_noir_sh_q36cmb_s8 chi2prof 15.2 (N 9.6 S 5.7; 10arcsec N 2.7 S 1.8) k 17 logZ -50.89 BIC 74.2 Te 48 P(Te>=50) 0.45
+q39_drop1_noir_sh_q36nominal_s8 chi2prof 8.0 (N 4.6 S 3.4; 10arcsec N 1.1 S 1.3) k 17 logZ -42.40 BIC 63.4 Te 42 P(Te>=50) 0.27
+q39_inf30_noir_sh_q36cmb_s8 chi2prof 12.0 (N 7.1 S 4.9; 10arcsec N 1.8 S 2.5) k 17 logZ -45.32 BIC 70.9 Te 49 P(Te>=50) 0.46
+q39_inf30_noir_sh_q36nominal_s8 chi2prof 13.3 (N 6.6 S 6.7; 10arcsec N 2.9 S 2.9) k 17 logZ -46.67 BIC 72.2 Te 44 P(Te>=50) 0.36
+q39_base_noir_sh_q36nominal_s8 chi2prof 13.1 (N 6.1 S 7.0; 10arcsec N 1.1 S 1.9) k 17 logZ -52.09 BIC 72.0 Te 50 P(Te>=50) 0.50
+q39_base_ir100w03_sh_q36cmb_s8 chi2prof 14.5 (N 9.1 S 5.5; 10arcsec N 2.4 S 1.4) k 17 logZ -52.61 BIC 73.5 Te 46 P(Te>=50) 0.37
+q39_base_ir100w03_sh_q36nominal_s8 chi2prof 13.5 (N 6.9 S 6.6; 10arcsec N 2.1 S 3.2) k 17 logZ -51.85 BIC 72.4 Te 64 P(Te>=50) 0.77
+q39_base_ir100w1_sh_q36nominal_s8 chi2prof 13.4 (N 7.4 S 6.0; 10arcsec N 3.8 S 2.5) k 17 logZ -51.92 BIC 72.3 Te 46 P(Te>=50) 0.44
+q39_base_ir100w1_sh_q36cmb_s8 chi2prof 15.4 (N 8.5 S 6.9; 10arcsec N 1.8 S 2.4) k 17 logZ -53.52 BIC 74.4 Te 40 P(Te>=50) 0.29
+q39_base_ir150w03_sh_q36nominal_s8 chi2prof 22.0 (N 15.7 S 6.3; 10arcsec N 5.1 S 4.1) k 17 logZ -54.94 BIC 80.9 Te 44 P(Te>=50) 0.34
+q39_base_ir150w03_sh_q36cmb_s8 chi2prof 20.2 (N 13.0 S 7.1; 10arcsec N 5.9 S 5.5) k 17 logZ -54.65 BIC 79.1 Te 39 P(Te>=50) 0.11
+q39_base_ir150w1_sh_q36cmb_s8 chi2prof 27.6 (N 20.2 S 7.4; 10arcsec N 5.0 S 3.8) k 17 logZ -60.59 BIC 86.5 Te 33 P(Te>=50) 0.04
+q39_base_ir150w1_sh_q36nominal_s8 chi2prof 29.2 (N 19.6 S 9.6; 10arcsec N 8.4 S 6.7) k 17 logZ -57.99 BIC 88.1 Te 34 P(Te>=50) 0.03
+q39_base_ir200w03_sh_q36cmb_s8 chi2prof 32.2 (N 20.6 S 11.6; 10arcsec N 4.9 S 4.8) k 17 logZ -62.60 BIC 91.2 Te 32 P(Te>=50) 0.02
+q39_base_ir200w03_sh_q36nominal_s8 chi2prof 31.7 (N 23.5 S 8.2; 10arcsec N 5.9 S 4.6) k 17 logZ -62.64 BIC 90.6 Te 32 P(Te>=50) 0.01
+q39_drop1_noir_sh_q36cmb_s9 chi2prof 11.6 (N 8.5 S 3.2; 10arcsec N 1.9 S 1.4) k 17 logZ -44.25 BIC 67.0 Te 46 P(Te>=50) 0.42
+q39_drop1_noir_sep_q36cmb_s8 chi2prof 11.0 (N 6.5 S 4.4; 10arcsec N 3.6 S 2.3) k 22 logZ -51.99 BIC 82.6 
+q39_base_noir_sh_q36cmb_s9 chi2prof 15.9 (N 8.9 S 7.0; 10arcsec N 1.2 S 0.4) k 17 logZ -53.79 BIC 74.8 Te 43 P(Te>=50) 0.34
+q39_drop1_noir_sh_q36nominal_s9 chi2prof 11.4 (N 5.5 S 5.9; 10arcsec N 1.4 S 2.2) k 17 logZ -44.64 BIC 66.8 Te 49 P(Te>=50) 0.47
+q39_base_noir_sep_q36cmb_s8 chi2prof 13.6 (N 6.8 S 6.8; 10arcsec N 2.3 S 2.4) k 22 logZ -60.11 BIC 89.8 
+q39_inf30_noir_sh_q36cmb_s9 chi2prof 12.5 (N 9.2 S 3.3; 10arcsec N 2.9 S 1.6) k 17 logZ -46.27 BIC 71.4 Te 46 P(Te>=50) 0.42
+q39_inf30_noir_sh_q36nominal_s9 chi2prof 11.9 (N 7.0 S 4.9; 10arcsec N 1.0 S 1.3) k 17 logZ -47.91 BIC 70.9 Te 46 P(Te>=50) 0.41
+q39_base_noir_sh_q36nominal_s9 chi2prof 12.7 (N 7.0 S 5.8; 10arcsec N 1.4 S 1.0) k 17 logZ -52.50 BIC 71.6 Te 56 P(Te>=50) 0.65
+q39_base_ir100w03_sh_q36nominal_s9 chi2prof 12.3 (N 7.9 S 4.3; 10arcsec N 1.4 S 0.5) k 17 logZ -49.30 BIC 71.2 Te 42 P(Te>=50) 0.30
+q39_base_ir100w03_sh_q36cmb_s9 chi2prof 12.5 (N 5.4 S 7.1; 10arcsec N 2.3 S 0.6) k 17 logZ -53.25 BIC 71.4 Te 50 P(Te>=50) 0.49
+q39_base_ir100w1_sh_q36cmb_s9 chi2prof 11.7 (N 7.4 S 4.3; 10arcsec N 1.5 S 1.8) k 17 logZ -51.80 BIC 70.6 Te 56 P(Te>=50) 0.69
+q39_base_ir100w1_sh_q36nominal_s9 chi2prof 14.5 (N 8.6 S 5.9; 10arcsec N 1.6 S 1.1) k 17 logZ -51.50 BIC 73.4 Te 60 P(Te>=50) 0.61
+q39_base_ir150w03_sh_q36cmb_s9 chi2prof 22.8 (N 15.8 S 7.0; 10arcsec N 4.4 S 4.2) k 17 logZ -55.56 BIC 81.7 Te 40 P(Te>=50) 0.20
+q39_base_ir150w03_sh_q36nominal_s9 chi2prof 21.8 (N 14.2 S 7.7; 10arcsec N 3.7 S 3.5) k 17 logZ -55.49 BIC 80.8 Te 38 P(Te>=50) 0.10
+q39_base_ir150w1_sh_q36cmb_s9 chi2prof 28.3 (N 17.2 S 11.2; 10arcsec N 4.2 S 4.8) k 17 logZ -60.49 BIC 87.3 Te 32 P(Te>=50) 0.02
+q39_base_ir150w1_sh_q36nominal_s9 chi2prof 29.8 (N 18.2 S 11.6; 10arcsec N 6.4 S 5.1) k 17 logZ -59.20 BIC 88.7 Te 34 P(Te>=50) 0.05
+q39_base_ir200w03_sh_q36nominal_s9 chi2prof 30.7 (N 20.9 S 9.8; 10arcsec N 6.4 S 7.1) k 17 logZ -62.48 BIC 89.6 Te 30 P(Te>=50) 0.01
+q39_base_ir200w03_sh_q36cmb_s9 chi2prof 33.8 (N 22.5 S 11.3; 10arcsec N 5.8 S 5.0) k 17 logZ -62.95 BIC 92.7 Te 33 P(Te>=50) 0.05
+q39_drop1_noir_sh_q36cmb_s10 chi2prof 11.5 (N 7.3 S 4.1; 10arcsec N 3.4 S 2.7) k 17 logZ -44.07 BIC 66.9 Te 39 P(Te>=50) 0.26
+q39_drop1_noir_sep_q36cmb_s9 chi2prof 11.0 (N 7.3 S 3.8; 10arcsec N 3.1 S 2.3) k 22 logZ -51.48 BIC 82.7 
+q39_base_noir_sh_q36cmb_s10 chi2prof 14.3 (N 8.7 S 5.6; 10arcsec N 3.8 S 2.3) k 17 logZ -53.36 BIC 73.2 Te 44 P(Te>=50) 0.33
+q39_inf30_noir_sh_q36cmb_s10 chi2prof 12.1 (N 8.3 S 3.8; 10arcsec N 2.3 S 1.7) k 17 logZ -46.41 BIC 71.0 Te 46 P(Te>=50) 0.41
+q39_base_noir_sep_q36cmb_s9 chi2prof 15.8 (N 10.2 S 5.7; 10arcsec N 5.6 S 0.7) k 22 logZ -62.70 BIC 92.1 
+q39_base_noir_sh_q36nominal_s10 chi2prof 10.7 (N 5.9 S 4.7; 10arcsec N 1.7 S 1.2) k 17 logZ -50.13 BIC 69.6 Te 90 P(Te>=50) 0.93
+q39_drop1_noir_sh_q36nominal_s10 chi2prof 9.1 (N 6.1 S 3.0; 10arcsec N 2.4 S 2.0) k 17 logZ -43.58 BIC 64.5 Te 57 P(Te>=50) 0.66
+q39_inf30_noir_sh_q36nominal_s10 chi2prof 12.6 (N 9.5 S 3.1; 10arcsec N 2.5 S 0.2) k 17 logZ -46.17 BIC 71.6 Te 37 P(Te>=50) 0.25
+q39_base_ir100w03_sh_q36nominal_s10 chi2prof 10.9 (N 7.3 S 3.6; 10arcsec N 1.4 S 1.6) k 17 logZ -48.09 BIC 69.8 Te 64 P(Te>=50) 0.79
+q39_base_ir100w03_sh_q36cmb_s10 chi2prof 13.4 (N 7.0 S 6.5; 10arcsec N 2.7 S 2.6) k 17 logZ -51.92 BIC 72.4 Te 42 P(Te>=50) 0.29
+q39_base_ir100w1_sh_q36cmb_s10 chi2prof 15.3 (N 9.5 S 5.8; 10arcsec N 2.0 S 0.7) k 17 logZ -53.08 BIC 74.2 Te 38 P(Te>=50) 0.28
+q39_base_ir150w03_sh_q36nominal_s10 chi2prof 24.0 (N 16.9 S 7.1; 10arcsec N 3.5 S 4.9) k 17 logZ -58.05 BIC 82.9 Te 36 P(Te>=50) 0.11
+q39_base_ir100w1_sh_q36nominal_s10 chi2prof 11.6 (N 6.7 S 4.9; 10arcsec N 2.9 S 2.4) k 17 logZ -53.07 BIC 70.5 Te 37 P(Te>=50) 0.19
+q39_base_ir150w03_sh_q36cmb_s10 chi2prof 21.8 (N 15.3 S 6.5; 10arcsec N 3.8 S 3.3) k 17 logZ -56.28 BIC 80.7 Te 37 P(Te>=50) 0.10
+q39_base_ir150w1_sh_q36cmb_s10 chi2prof 31.5 (N 21.1 S 10.4; 10arcsec N 2.9 S 3.6) k 17 logZ -61.10 BIC 90.5 Te 33 P(Te>=50) 0.03
+q39_base_ir150w1_sh_q36nominal_s10 chi2prof 26.6 (N 19.8 S 6.8; 10arcsec N 2.5 S 3.2) k 17 logZ -59.88 BIC 85.5 Te 34 P(Te>=50) 0.02
+q39_drop1_noir_sh_q36cmb_s11 chi2prof 10.6 (N 6.8 S 3.8; 10arcsec N 1.8 S 1.4) k 17 logZ -41.68 BIC 66.0 Te 43 P(Te>=50) 0.22
+q39_base_ir200w03_sh_q36cmb_s10 chi2prof 34.9 (N 23.3 S 11.6; 10arcsec N 6.4 S 5.9) k 17 logZ -63.79 BIC 93.8 Te 32 P(Te>=50) 0.03
+q39_base_ir200w03_sh_q36nominal_s10 chi2prof 30.1 (N 21.4 S 8.7; 10arcsec N 5.3 S 6.3) k 17 logZ -62.31 BIC 89.0 Te 31 P(Te>=50) 0.01
+q39_base_noir_sh_q36cmb_s11 chi2prof 9.9 (N 6.1 S 3.9; 10arcsec N 1.8 S 0.4) k 17 logZ -44.14 BIC 68.8 Te 86 P(Te>=50) 0.97
+q39_drop1_noir_sep_q36cmb_s10 chi2prof 11.4 (N 8.5 S 2.9; 10arcsec N 2.2 S 1.2) k 22 logZ -53.72 BIC 83.1 
+q39_base_noir_sep_q36cmb_s10 chi2prof 15.8 (N 10.7 S 5.0; 10arcsec N 5.3 S 2.4) k 22 logZ -61.19 BIC 92.0 
+q39_inf30_noir_sh_q36cmb_s11 chi2prof 14.5 (N 8.9 S 5.6; 10arcsec N 0.7 S 1.4) k 17 logZ -45.32 BIC 73.4 Te 35 P(Te>=50) 0.16
+q39_base_noir_sh_q36nominal_s11 chi2prof 13.9 (N 8.6 S 5.3; 10arcsec N 1.6 S 1.1) k 17 logZ -52.30 BIC 72.8 Te 54 P(Te>=50) 0.58
+q39_drop1_noir_sh_q36nominal_s11 chi2prof 11.0 (N 8.8 S 2.2; 10arcsec N 1.9 S 0.9) k 17 logZ -43.71 BIC 66.4 Te 43 P(Te>=50) 0.38
+q39_inf30_noir_sh_q36nominal_s11 chi2prof 12.0 (N 7.6 S 4.3; 10arcsec N 0.9 S 1.1) k 17 logZ -45.31 BIC 70.9 Te 41 P(Te>=50) 0.25
+q39_base_ir100w03_sh_q36cmb_s11 chi2prof 13.9 (N 7.8 S 6.1; 10arcsec N 2.1 S 1.7) k 17 logZ -52.97 BIC 72.8 Te 43 P(Te>=50) 0.16
+q39_base_ir100w03_sh_q36nominal_s11 chi2prof 12.6 (N 6.2 S 6.4; 10arcsec N 2.3 S 2.3) k 17 logZ -52.12 BIC 71.5 Te 44 P(Te>=50) 0.30
+q39_base_ir100w1_sh_q36cmb_s11 chi2prof 11.9 (N 8.8 S 3.1; 10arcsec N 1.0 S 0.5) k 17 logZ -51.66 BIC 70.8 Te 61 P(Te>=50) 0.71
+q39_base_ir100w1_sh_q36nominal_s11 chi2prof 13.4 (N 5.2 S 8.3; 10arcsec N 1.0 S 3.2) k 17 logZ -50.07 BIC 72.4 Te 65 P(Te>=50) 0.71
+q39_base_ir150w03_sh_q36nominal_s11 chi2prof 21.2 (N 14.2 S 7.1; 10arcsec N 4.9 S 3.4) k 17 logZ -54.74 BIC 80.1 Te 39 P(Te>=50) 0.18
+q39_base_ir150w1_sh_q36cmb_s11 chi2prof 30.5 (N 22.9 S 7.6; 10arcsec N 5.7 S 5.0) k 17 logZ -59.52 BIC 89.4 Te 29 P(Te>=50) 0.01
+q39_base_ir150w03_sh_q36cmb_s11 chi2prof 21.8 (N 14.0 S 7.8; 10arcsec N 3.9 S 3.6) k 17 logZ -57.27 BIC 80.7 Te 36 P(Te>=50) 0.14
+q39_base_ir150w1_sh_q36nominal_s11 chi2prof 28.4 (N 21.0 S 7.5; 10arcsec N 4.6 S 4.6) k 17 logZ -61.04 BIC 87.4 Te 37 P(Te>=50) 0.12
+q39_base_ir200w03_sh_q36cmb_s11 chi2prof 33.3 (N 24.4 S 8.9; 10arcsec N 4.1 S 4.0) k 17 logZ -63.21 BIC 92.2 Te 31 P(Te>=50) 0.03
+q39_base_ir200w03_sh_q36nominal_s11 chi2prof 30.8 (N 21.6 S 9.2; 10arcsec N 6.1 S 7.4) k 17 logZ -63.31 BIC 89.7 Te 34 P(Te>=50) 0.04
+q39_drop1_noir_sh_q36cmb_s12 chi2prof 10.7 (N 6.8 S 3.9; 10arcsec N 2.6 S 2.4) k 17 logZ -44.16 BIC 66.1 Te 47 P(Te>=50) 0.44
+q39_base_noir_sh_q36cmb_s12 chi2prof 17.8 (N 11.5 S 6.2; 10arcsec N 1.0 S 1.3) k 17 logZ -52.78 BIC 76.7 Te 40 P(Te>=50) 0.20
+q39_drop1_noir_sep_q36cmb_s11 chi2prof 12.6 (N 8.6 S 4.0; 10arcsec N 1.6 S 1.0) k 22 logZ -55.34 BIC 84.3 
+q39_base_noir_sep_q36cmb_s11 chi2prof 19.2 (N 12.4 S 6.8; 10arcsec N 5.9 S 2.5) k 22 logZ -63.45 BIC 95.4 
+q39_drop1_noir_sh_q36nominal_s12 chi2prof 10.3 (N 5.3 S 4.9; 10arcsec N 1.0 S 1.6) k 17 logZ -43.42 BIC 65.6 Te 66 P(Te>=50) 0.66
+q39_inf30_noir_sh_q36cmb_s12 chi2prof 10.8 (N 6.1 S 4.6; 10arcsec N 2.0 S 1.0) k 17 logZ -44.21 BIC 69.7 Te 76 P(Te>=50) 0.73
+q39_base_noir_sh_q36nominal_s12 chi2prof 15.1 (N 7.1 S 8.0; 10arcsec N 1.2 S 0.7) k 17 logZ -52.31 BIC 74.0 Te 35 P(Te>=50) 0.19
+q39_inf30_noir_sh_q36nominal_s12 chi2prof 12.2 (N 8.3 S 3.9; 10arcsec N 2.5 S 0.9) k 17 logZ -46.12 BIC 71.1 Te 58 P(Te>=50) 0.59
+q39_base_ir100w03_sh_q36nominal_s12 chi2prof 17.4 (N 12.3 S 5.1; 10arcsec N 2.9 S 2.2) k 17 logZ -53.82 BIC 76.3 Te 45 P(Te>=50) 0.34
+q39_base_ir100w1_sh_q36cmb_s12 chi2prof 12.5 (N 8.2 S 4.3; 10arcsec N 1.8 S 1.4) k 17 logZ -48.96 BIC 71.4 Te 70 P(Te>=50) 0.86
+q39_base_ir100w03_sh_q36cmb_s12 chi2prof 14.9 (N 9.1 S 5.8; 10arcsec N 2.3 S 2.3) k 17 logZ -53.13 BIC 73.8 Te 43 P(Te>=50) 0.33
+q39_base_ir100w1_sh_q36nominal_s12 chi2prof 14.2 (N 8.7 S 5.5; 10arcsec N 2.1 S 1.6) k 17 logZ -52.07 BIC 73.1 Te 52 P(Te>=50) 0.57
+q39_base_ir150w03_sh_q36cmb_s12 chi2prof 22.6 (N 16.6 S 6.0; 10arcsec N 4.3 S 4.2) k 17 logZ -56.66 BIC 81.5 Te 41 P(Te>=50) 0.23
+q39_base_ir150w03_sh_q36nominal_s12 chi2prof 23.6 (N 18.2 S 5.5; 10arcsec N 2.7 S 2.8) k 17 logZ -55.99 BIC 82.6 Te 37 P(Te>=50) 0.15
+q39_base_ir150w1_sh_q36cmb_s12 chi2prof 30.1 (N 22.3 S 7.7; 10arcsec N 4.2 S 4.7) k 17 logZ -60.31 BIC 89.0 Te 31 P(Te>=50) 0.01
+q39_base_ir200w03_sh_q36cmb_s12 chi2prof 32.7 (N 21.6 S 11.1; 10arcsec N 4.9 S 5.1) k 17 logZ -62.89 BIC 91.6 Te 32 P(Te>=50) 0.02
+q39_base_ir200w03_sh_q36nominal_s12 chi2prof 31.8 (N 22.8 S 9.0; 10arcsec N 4.3 S 3.4) k 17 logZ -62.79 BIC 90.7 Te 33 P(Te>=50) 0.03
+q39_drop1_noir_sh_q36cmb_s13 chi2prof 9.7 (N 6.0 S 3.7; 10arcsec N 1.5 S 2.4) k 17 logZ -44.40 BIC 65.1 Te 42 P(Te>=50) 0.32
+q39_base_ir150w1_sh_q36nominal_s12 chi2prof 30.3 (N 22.5 S 7.8; 10arcsec N 5.0 S 4.6) k 17 logZ -61.81 BIC 89.2 Te 33 P(Te>=50) 0.03
+q39_drop1_noir_sep_q36cmb_s12 chi2prof 13.9 (N 10.5 S 3.3; 10arcsec N 7.6 S 1.2) k 22 logZ -55.19 BIC 85.6 
+q39_base_noir_sh_q36cmb_s13 chi2prof 10.8 (N 6.2 S 4.6; 10arcsec N 1.7 S 1.4) k 17 logZ -49.82 BIC 69.7 Te 43 P(Te>=50) 0.27
+q39_drop1_noir_sh_q36nominal_s13 chi2prof 11.1 (N 6.8 S 4.3; 10arcsec N 3.9 S 3.5) k 17 logZ -44.71 BIC 66.5 Te 35 P(Te>=50) 0.17
+q39_inf30_noir_sh_q36cmb_s13 chi2prof 13.4 (N 9.2 S 4.2; 10arcsec N 2.1 S 1.0) k 17 logZ -45.82 BIC 72.3 Te 39 P(Te>=50) 0.20
+q39_base_noir_sep_q36cmb_s12 chi2prof 11.6 (N 6.3 S 5.2; 10arcsec N 2.2 S 1.6) k 22 logZ -59.41 BIC 87.8 
+q39_inf30_noir_sh_q36nominal_s13 chi2prof 11.8 (N 7.2 S 4.6; 10arcsec N 2.7 S 1.5) k 17 logZ -45.84 BIC 70.7 Te 32 P(Te>=50) 0.17
+q39_base_noir_sh_q36nominal_s13 chi2prof 10.4 (N 6.2 S 4.1; 10arcsec N 1.4 S 1.0) k 17 logZ -52.67 BIC 69.3 Te 52 P(Te>=50) 0.57
+q39_base_ir100w03_sh_q36cmb_s13 chi2prof 16.4 (N 10.6 S 5.7; 10arcsec N 2.2 S 1.9) k 17 logZ -53.18 BIC 75.3 Te 47 P(Te>=50) 0.42
+q39_base_ir100w03_sh_q36nominal_s13 chi2prof 14.2 (N 8.2 S 5.9; 10arcsec N 2.7 S 1.4) k 17 logZ -53.77 BIC 73.1 Te 47 P(Te>=50) 0.42
+q39_base_ir100w1_sh_q36cmb_s13 chi2prof 14.2 (N 8.7 S 5.5; 10arcsec N 1.8 S 2.5) k 17 logZ -52.54 BIC 73.1 Te 46 P(Te>=50) 0.41
+q39_base_ir100w1_sh_q36nominal_s13 chi2prof 11.2 (N 8.6 S 2.6; 10arcsec N 2.6 S 0.7) k 17 logZ -49.94 BIC 70.1 Te 76 P(Te>=50) 0.86
+q39_base_ir150w03_sh_q36cmb_s13 chi2prof 19.7 (N 13.8 S 5.8; 10arcsec N 2.8 S 3.0) k 17 logZ -55.55 BIC 78.6 Te 41 P(Te>=50) 0.26
+q39_base_ir150w1_sh_q36cmb_s13 chi2prof 29.7 (N 21.1 S 8.6; 10arcsec N 4.9 S 4.6) k 17 logZ -59.13 BIC 88.7 Te 32 P(Te>=50) 0.02
+q39_base_ir150w03_sh_q36nominal_s13 chi2prof 21.3 (N 15.3 S 6.0; 10arcsec N 3.2 S 3.5) k 17 logZ -56.36 BIC 80.2 Te 36 P(Te>=50) 0.10
+q39_base_ir150w1_sh_q36nominal_s13 chi2prof 29.3 (N 18.6 S 10.7; 10arcsec N 6.1 S 6.5) k 17 logZ -60.69 BIC 88.2 Te 34 P(Te>=50) 0.07
+q39_drop1_noir_sh_q36cmb_s14 chi2prof 12.4 (N 9.6 S 2.7; 10arcsec N 3.7 S 1.0) k 17 logZ -45.16 BIC 67.8 Te 38 P(Te>=50) 0.23
+q39_base_ir200w03_sh_q36cmb_s13 chi2prof 33.4 (N 21.4 S 12.1; 10arcsec N 8.8 S 7.8) k 17 logZ -64.83 BIC 92.4 Te 31 P(Te>=50) 0.01
+q39_base_ir200w03_sh_q36nominal_s13 chi2prof 35.4 (N 24.0 S 11.4; 10arcsec N 7.1 S 8.1) k 17 logZ -64.13 BIC 94.3 Te 30 P(Te>=50) 0.01
+q39_drop1_noir_sep_q36cmb_s13 chi2prof 12.4 (N 6.8 S 5.6; 10arcsec N 3.3 S 1.5) k 22 logZ -55.95 BIC 84.1 
+q39_base_noir_sh_q36cmb_s14 chi2prof 16.2 (N 11.6 S 4.6; 10arcsec N 2.6 S 1.6) k 17 logZ -55.03 BIC 75.1 Te 42 P(Te>=50) 0.32
+q39_inf30_noir_sh_q36cmb_s14 chi2prof 11.8 (N 7.2 S 4.7; 10arcsec N 2.3 S 2.4) k 17 logZ -47.03 BIC 70.8 Te 51 P(Te>=50) 0.53
+q39_base_noir_sep_q36cmb_s13 chi2prof 15.3 (N 9.6 S 5.7; 10arcsec N 6.0 S 0.6) k 22 logZ -59.86 BIC 91.6 
+q39_base_noir_sh_q36nominal_s14 chi2prof 9.5 (N 5.3 S 4.2; 10arcsec N 1.1 S 0.8) k 17 logZ -50.34 BIC 68.4 Te 48 P(Te>=50) 0.44
+q39_drop1_noir_sh_q36nominal_s14 chi2prof 10.8 (N 7.1 S 3.7; 10arcsec N 2.7 S 2.3) k 17 logZ -44.47 BIC 66.2 Te 61 P(Te>=50) 0.75
+q39_inf30_noir_sh_q36nominal_s14 chi2prof 13.0 (N 8.4 S 4.6; 10arcsec N 3.1 S 2.2) k 17 logZ -46.30 BIC 71.9 Te 41 P(Te>=50) 0.29
+q39_base_ir100w03_sh_q36cmb_s14 chi2prof 14.6 (N 6.2 S 8.4; 10arcsec N 2.3 S 2.6) k 17 logZ -50.39 BIC 73.5 Te 53 P(Te>=50) 0.55
+q39_base_ir100w03_sh_q36nominal_s14 chi2prof 13.7 (N 8.4 S 5.3; 10arcsec N 3.1 S 1.6) k 17 logZ -53.69 BIC 72.7 Te 63 P(Te>=50) 0.74
+q39_base_ir100w1_sh_q36cmb_s14 chi2prof 10.0 (N 7.4 S 2.6; 10arcsec N 2.1 S 0.9) k 17 logZ -51.40 BIC 68.9 Te 81 P(Te>=50) 0.92
+q39_base_ir100w1_sh_q36nominal_s14 chi2prof 12.1 (N 7.6 S 4.5; 10arcsec N 1.8 S 0.6) k 17 logZ -48.34 BIC 71.0 Te 58 P(Te>=50) 0.72
+q39_base_ir150w03_sh_q36cmb_s14 chi2prof 23.3 (N 16.8 S 6.5; 10arcsec N 2.8 S 3.6) k 17 logZ -55.86 BIC 82.2 Te 38 P(Te>=50) 0.16
+q39_base_ir150w03_sh_q36nominal_s14 chi2prof 24.2 (N 14.4 S 9.9; 10arcsec N 3.5 S 5.0) k 17 logZ -57.21 BIC 83.2 Te 37 P(Te>=50) 0.10
+q39_base_ir150w1_sh_q36cmb_s14 chi2prof 31.8 (N 19.5 S 12.3; 10arcsec N 3.6 S 3.6) k 17 logZ -60.93 BIC 90.7 Te 33 P(Te>=50) 0.04
+q39_base_ir150w1_sh_q36nominal_s14 chi2prof 30.6 (N 18.2 S 12.3; 10arcsec N 2.7 S 2.3) k 17 logZ -62.24 BIC 89.5 Te 34 P(Te>=50) 0.02
+q39_base_ir200w03_sh_q36cmb_s14 chi2prof 32.0 (N 22.7 S 9.4; 10arcsec N 4.9 S 5.4) k 17 logZ -62.17 BIC 90.9 Te 34 P(Te>=50) 0.03
+q39_base_ir200w03_sh_q36nominal_s14 chi2prof 28.9 (N 20.4 S 8.5; 10arcsec N 4.8 S 5.2) k 17 logZ -62.73 BIC 87.8 Te 33 P(Te>=50) 0.04
+q39_base_noir_sep_q36cmb_s14 chi2prof 13.9 (N 8.7 S 5.2; 10arcsec N 3.8 S 1.5) k 22 logZ -59.21 BIC 90.1 
+q39_drop1_noir_sep_q36cmb_s14 chi2prof 10.5 (N 6.5 S 4.0; 10arcsec N 2.6 S 1.4) k 22 logZ -52.17 BIC 82.1 
+q39_base_noir_sh_q36cmb_s15 chi2prof 11.6 (N 5.9 S 5.7; 10arcsec N 2.3 S 1.4) k 17 logZ -53.51 BIC 70.5 Te 45 P(Te>=50) 0.36
+q39_drop1_noir_sh_q36cmb_s15 chi2prof 9.9 (N 6.0 S 3.9; 10arcsec N 2.6 S 1.3) k 17 logZ -42.81 BIC 65.3 Te 38 P(Te>=50) 0.18
+q39_inf30_noir_sh_q36cmb_s15 chi2prof 13.0 (N 10.0 S 3.0; 10arcsec N 2.6 S 1.6) k 17 logZ -44.51 BIC 71.9 Te 36 P(Te>=50) 0.30
+q39_drop1_noir_sh_q36nominal_s15 chi2prof 11.7 (N 7.6 S 4.1; 10arcsec N 4.3 S 3.5) k 17 logZ -43.14 BIC 67.1 Te 47 P(Te>=50) 0.40
+q39_base_noir_sh_q36nominal_s15 chi2prof 17.9 (N 13.4 S 4.5; 10arcsec N 2.5 S 1.6) k 17 logZ -55.36 BIC 76.8 Te 39 P(Te>=50) 0.25
+q39_inf30_noir_sh_q36nominal_s15 chi2prof 9.5 (N 4.4 S 5.0; 10arcsec N 1.5 S 0.8) k 17 logZ -45.16 BIC 68.4 Te 90 P(Te>=50) 0.88
+q39_base_ir100w03_sh_q36nominal_s15 chi2prof 14.5 (N 7.0 S 7.4; 10arcsec N 0.1 S 1.5) k 17 logZ -51.45 BIC 73.4 Te 41 P(Te>=50) 0.29
+q39_base_ir100w03_sh_q36cmb_s15 chi2prof 15.0 (N 8.9 S 6.1; 10arcsec N 3.1 S 1.5) k 17 logZ -53.42 BIC 73.9 Te 46 P(Te>=50) 0.39
+q39_base_ir100w1_sh_q36cmb_s15 chi2prof 15.1 (N 8.3 S 6.8; 10arcsec N 4.4 S 3.6) k 17 logZ -52.28 BIC 74.1 Te 47 P(Te>=50) 0.45
+q39_base_ir100w1_sh_q36nominal_s15 chi2prof 14.5 (N 10.1 S 4.4; 10arcsec N 1.8 S 1.4) k 17 logZ -51.93 BIC 73.5 Te 55 P(Te>=50) 0.64
+q39_base_ir150w03_sh_q36nominal_s15 chi2prof 22.3 (N 14.3 S 8.0; 10arcsec N 6.3 S 5.6) k 17 logZ -53.64 BIC 81.2 Te 51 P(Te>=50) 0.52
+q39_base_ir150w03_sh_q36cmb_s15 chi2prof 21.2 (N 16.1 S 5.2; 10arcsec N 2.5 S 2.4) k 17 logZ -55.83 BIC 80.1 Te 38 P(Te>=50) 0.14
+q39_base_ir150w1_sh_q36nominal_s15 chi2prof 31.5 (N 21.1 S 10.4; 10arcsec N 5.0 S 5.9) k 17 logZ -58.49 BIC 90.5 Te 33 P(Te>=50) 0.02
+q39_base_ir150w1_sh_q36cmb_s15 chi2prof 28.9 (N 22.0 S 6.9; 10arcsec N 3.5 S 4.5) k 17 logZ -60.68 BIC 87.8 Te 33 P(Te>=50) 0.03
+q39_base_ir200w03_sh_q36cmb_s15 chi2prof 34.2 (N 23.2 S 10.9; 10arcsec N 6.2 S 6.7) k 17 logZ -60.63 BIC 93.1 Te 32 P(Te>=50) 0.01
+q39_base_ir200w03_sh_q36nominal_s15 chi2prof 29.6 (N 22.0 S 7.6; 10arcsec N 5.9 S 4.6) k 17 logZ -62.35 BIC 88.5 Te 36 P(Te>=50) 0.09
+q39_drop1_noir_sh_q36cmb_s16 chi2prof 10.5 (N 6.6 S 3.9; 10arcsec N 1.6 S 2.7) k 17 logZ -45.35 BIC 65.9 Te 44 P(Te>=50) 0.32
+q39_drop1_noir_sep_q36cmb_s15 chi2prof 13.7 (N 9.8 S 3.9; 10arcsec N 2.1 S 1.4) k 22 logZ -54.62 BIC 85.4 
+q39_base_noir_sep_q36cmb_s15 chi2prof 17.3 (N 12.1 S 5.2; 10arcsec N 3.4 S 0.6) k 22 logZ -62.29 BIC 93.6 
+q39_base_noir_sh_q36cmb_s16 chi2prof 14.9 (N 8.8 S 6.1; 10arcsec N 0.9 S 0.6) k 17 logZ -53.18 BIC 73.8 Te 46 P(Te>=50) 0.42
+q39_drop1_noir_sh_q36nominal_s16 chi2prof 10.7 (N 4.0 S 6.7; 10arcsec N 1.6 S 2.0) k 17 logZ -44.53 BIC 66.0 Te 41 P(Te>=50) 0.31
+q39_inf30_noir_sh_q36cmb_s16 chi2prof 12.3 (N 7.3 S 5.1; 10arcsec N 2.5 S 2.7) k 17 logZ -45.33 BIC 71.3 Te 60 P(Te>=50) 0.73
+q39_inf30_noir_sh_q36nominal_s16 chi2prof 10.5 (N 6.4 S 4.0; 10arcsec N 1.3 S 1.0) k 17 logZ -45.88 BIC 69.4 Te 42 P(Te>=50) 0.29
+q39_base_noir_sh_q36nominal_s16 chi2prof 13.1 (N 8.0 S 5.1; 10arcsec N 1.6 S 0.5) k 17 logZ -53.64 BIC 72.0 Te 50 P(Te>=50) 0.50
+q39_base_ir100w03_sh_q36cmb_s16 chi2prof 15.9 (N 8.7 S 7.1; 10arcsec N 3.3 S 3.4) k 17 logZ -52.72 BIC 74.8 Te 47 P(Te>=50) 0.42
+q39_base_ir100w03_sh_q36nominal_s16 chi2prof 11.6 (N 8.4 S 3.2; 10arcsec N 1.2 S 1.1) k 17 logZ -51.55 BIC 70.5 Te 68 P(Te>=50) 0.77
+q39_base_ir100w1_sh_q36nominal_s16 chi2prof 14.3 (N 8.7 S 5.6; 10arcsec N 2.2 S 0.7) k 17 logZ -51.09 BIC 73.2 Te 46 P(Te>=50) 0.43
+q39_base_ir100w1_sh_q36cmb_s16 chi2prof 9.7 (N 6.9 S 2.8; 10arcsec N 1.6 S 0.8) k 17 logZ -48.74 BIC 68.6 Te 56 P(Te>=50) 0.71
+q39_base_ir150w03_sh_q36cmb_s16 chi2prof 21.6 (N 13.1 S 8.5; 10arcsec N 4.1 S 5.2) k 17 logZ -53.81 BIC 80.5 Te 40 P(Te>=50) 0.19
+q39_base_ir150w03_sh_q36nominal_s16 chi2prof 22.2 (N 14.3 S 7.9; 10arcsec N 5.6 S 6.0) k 17 logZ -54.71 BIC 81.1 Te 38 P(Te>=50) 0.14
+q39_base_ir150w1_sh_q36cmb_s16 chi2prof 28.6 (N 16.4 S 12.3; 10arcsec N 6.4 S 6.5) k 17 logZ -57.98 BIC 87.6 Te 33 P(Te>=50) 0.03
+q39_base_ir150w1_sh_q36nominal_s16 chi2prof 30.5 (N 20.0 S 10.5; 10arcsec N 6.1 S 6.1) k 17 logZ -59.95 BIC 89.4 Te 38 P(Te>=50) 0.16
+q39_base_ir200w03_sh_q36cmb_s16 chi2prof 32.7 (N 20.4 S 12.3; 10arcsec N 6.4 S 6.7) k 17 logZ -60.09 BIC 91.6 Te 30 P(Te>=50) 0.01
+q39_base_ir200w03_sh_q36nominal_s16 chi2prof 30.4 (N 21.7 S 8.7; 10arcsec N 4.4 S 4.4) k 17 logZ -62.74 BIC 89.3 Te 33 P(Te>=50) 0.04
+q39_drop1_noir_sep_q36cmb_s16 chi2prof 13.3 (N 9.9 S 3.4; 10arcsec N 3.0 S 2.0) k 22 logZ -54.94 BIC 84.9 
+q39_base_noir_sep_q36cmb_s16 chi2prof 13.6 (N 9.6 S 4.0; 10arcsec N 2.9 S 0.4) k 22 logZ -62.12 BIC 89.8 

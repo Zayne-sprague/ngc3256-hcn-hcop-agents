@@ -1,0 +1,192 @@
+## 1. Empirical recovery (value ratio) at common circular beams; err = noise (16 sign-flip realisations) quad. 5% per-array scale
+line pos      beam | Xb4b/Xb4d | Xb4d/Xb4f | Xb4b/Xb4f
+HCO+ N       1.05  |   0.98+-0.07 |    --       |    --      
+HCO+ N       2.0   |   0.99+-0.07 |    --       |    --      
+HCO+ N       3.0   |   0.97+-0.07 |    --       |    --      
+HCO+ N       4.5   |   0.93+-0.07 |    --       |    --      
+HCO+ N       6.5   |   0.87+-0.06 |   0.81+-0.06 |   0.71+-0.05
+HCO+ N       10    |   0.77+-0.05 |   0.72+-0.05 |   0.55+-0.04
+HCO+ N       xb4f  |   0.92+-0.06 |   0.89+-0.06 |   0.82+-0.06
+HCO+ S       1.05  |   0.92+-0.07 |    --       |    --      
+HCO+ S       2.0   |   0.88+-0.06 |    --       |    --      
+HCO+ S       3.0   |   0.85+-0.06 |    --       |    --      
+HCO+ S       4.5   |   0.84+-0.06 |    --       |    --      
+HCO+ S       6.5   |   0.84+-0.06 |   0.74+-0.05 |   0.63+-0.04
+HCO+ S       10    |   0.77+-0.05 |   0.68+-0.05 |   0.53+-0.04
+HCO+ S       xb4f  |   0.83+-0.06 |   0.79+-0.06 |   0.65+-0.05
+HCO+ Bridge  1.05  |   0.88+-0.06 |    --       |    --      
+HCO+ Bridge  2.0   |   0.86+-0.06 |    --       |    --      
+HCO+ Bridge  3.0   |   0.86+-0.06 |    --       |    --      
+HCO+ Bridge  4.5   |   0.86+-0.06 |    --       |    --      
+HCO+ Bridge  6.5   |   0.85+-0.06 |   0.80+-0.06 |   0.68+-0.05
+HCO+ Bridge  10    |   0.78+-0.05 |   0.73+-0.05 |   0.57+-0.04
+HCO+ Bridge  xb4f  |   0.83+-0.06 |   0.82+-0.06 |   0.68+-0.05
+HCO+ E1      1.05  |   0.93+-0.07 |    --       |    --      
+HCO+ E1      2.0   |   0.81+-0.06 |    --       |    --      
+HCO+ E1      3.0   |   0.64+-0.05 |    --       |    --      
+HCO+ E1      4.5   |   0.32+-0.05 |    --       |    --      
+HCO+ E1      6.5   |   0.06+-0.05 |   0.62+-0.05 |   0.04+-0.03
+HCO+ E1      10    |   0.35+-0.03 |   0.65+-0.05 |   0.23+-0.02
+HCO+ E1      xb4f  |   0.46+-0.05 |   0.81+-0.06 |   0.37+-0.04
+HCO+ E2      1.05  |   1.04+-0.08 |    --       |    --      
+HCO+ E2      2.0   |   1.22+-0.10 |    --       |    --      
+HCO+ E2      3.0   |   1.29+-0.12 |    --       |    --      
+HCO+ E2      4.5   |   0.62+-0.12 |    --       |    --      
+HCO+ E2      6.5   |  -0.32+-0.07 |   0.33+-0.03 |  -0.11+-0.02
+HCO+ E2      10    |   0.17+-0.02 |   0.55+-0.04 |   0.09+-0.01
+HCO+ E2      xb4f  |   0.40+-0.07 |   0.41+-0.04 |   0.17+-0.03
+HCO+ W       1.05  |   0.96+-0.09 |    --       |    --      
+HCO+ W       2.0   |   0.73+-0.08 |    --       |    --      
+HCO+ W       3.0   |   0.26+-0.08 |    --       |    --      
+HCO+ W       4.5   |  -0.37+-0.08 |    --       |    --      
+HCO+ W       6.5   |  -0.26+-0.05 |   0.48+-0.04 |  -0.13+-0.02
+HCO+ W       10    |   0.11+-0.02 |   0.63+-0.04 |   0.07+-0.01
+HCO+ W       xb4f  |   0.18+-0.05 |   0.54+-0.04 |   0.09+-0.03
+HCO+ Sblue   1.05  |   0.83+-0.07 |    --       |    --      
+HCO+ Sblue   2.0   |   0.83+-0.07 |    --       |    --      
+HCO+ Sblue   3.0   |   0.84+-0.07 |    --       |    --      
+HCO+ Sblue   4.5   |   0.90+-0.07 |    --       |    --      
+HCO+ Sblue   6.5   |   0.86+-0.06 |   0.58+-0.04 |   0.49+-0.04
+HCO+ Sblue   10    |   0.66+-0.05 |   0.58+-0.04 |   0.39+-0.03
+HCO+ Sblue   xb4f  |   0.83+-0.06 |   0.46+-0.03 |   0.38+-0.03
+HCO+ ap4     1.05  |   0.87+-0.06 |    --       |    --      
+HCO+ ap4     2.0   |   0.87+-0.06 |    --       |    --      
+HCO+ ap4     3.0   |   0.86+-0.06 |    --       |    --      
+HCO+ ap4     4.5   |   0.85+-0.06 |    --       |    --      
+HCO+ ap4     6.5   |   0.83+-0.06 |   0.78+-0.05 |   0.65+-0.05
+HCO+ ap4     10    |   0.74+-0.05 |   0.72+-0.05 |   0.53+-0.04
+HCO+ ap4     xb4f  |   0.84+-0.06 |   0.81+-0.06 |   0.69+-0.05
+HCO+ ap8     1.05  |   0.79+-0.06 |    --       |    --      
+HCO+ ap8     2.0   |   0.78+-0.05 |    --       |    --      
+HCO+ ap8     3.0   |   0.77+-0.05 |    --       |    --      
+HCO+ ap8     4.5   |   0.73+-0.05 |    --       |    --      
+HCO+ ap8     6.5   |   0.68+-0.05 |   0.65+-0.05 |   0.44+-0.03
+HCO+ ap8     10    |   0.57+-0.04 |   0.65+-0.05 |   0.37+-0.03
+HCO+ ap8     xb4f  |   0.71+-0.05 |   0.65+-0.05 |   0.46+-0.03
+HCO+ ap12    1.05  |  -0.44+-0.04 |    --       |    --      
+HCO+ ap12    2.0   |  -0.34+-0.03 |    --       |    --      
+HCO+ ap12    3.0   |  -0.24+-0.02 |    --       |    --      
+HCO+ ap12    4.5   |  -0.09+-0.01 |    --       |    --      
+HCO+ ap12    6.5   |   0.09+-0.01 |   0.56+-0.04 |   0.05+-0.01
+HCO+ ap12    10    |   0.26+-0.02 |   0.63+-0.04 |   0.16+-0.01
+HCO+ ap12    xb4f  |  -0.04+-0.01 |   0.52+-0.04 |  -0.02+-0.01
+HCN  N       1.05  |   0.97+-0.07 |    --       |    --      
+HCN  N       2.0   |   0.98+-0.07 |    --       |    --      
+HCN  N       3.0   |   0.96+-0.07 |    --       |    --      
+HCN  N       4.5   |   0.93+-0.07 |    --       |    --      
+HCN  N       6.5   |   0.90+-0.06 |   0.80+-0.06 |   0.72+-0.05
+HCN  N       10    |   0.82+-0.06 |   0.69+-0.05 |   0.57+-0.04
+HCN  N       xb4f  |   0.92+-0.07 |   0.88+-0.06 |   0.81+-0.06
+HCN  S       1.05  |   0.91+-0.07 |    --       |    --      
+HCN  S       2.0   |   0.85+-0.06 |    --       |    --      
+HCN  S       3.0   |   0.82+-0.06 |    --       |    --      
+HCN  S       4.5   |   0.83+-0.06 |    --       |    --      
+HCN  S       6.5   |   0.89+-0.06 |   0.69+-0.05 |   0.61+-0.04
+HCN  S       10    |   0.85+-0.06 |   0.61+-0.04 |   0.52+-0.04
+HCN  S       xb4f  |   0.81+-0.06 |   0.74+-0.05 |   0.60+-0.04
+HCN  Bridge  1.05  |   0.89+-0.07 |    --       |    --      
+HCN  Bridge  2.0   |   0.85+-0.06 |    --       |    --      
+HCN  Bridge  3.0   |   0.85+-0.06 |    --       |    --      
+HCN  Bridge  4.5   |   0.85+-0.06 |    --       |    --      
+HCN  Bridge  6.5   |   0.86+-0.06 |   0.79+-0.06 |   0.68+-0.05
+HCN  Bridge  10    |   0.82+-0.06 |   0.69+-0.05 |   0.57+-0.04
+HCN  Bridge  xb4f  |   0.82+-0.06 |   0.82+-0.06 |   0.67+-0.05
+HCN  E1      1.05  |   0.69+-0.09 |    --       |    --      
+HCN  E1      2.0   |   0.49+-0.11 |    --       |    --      
+HCN  E1      3.0   |  -0.17+-0.13 |    --       |    --      
+HCN  E1      4.5   |  -3.36+-0.56 |    --       |    --      
+HCN  E1      6.5   |  -6.98+-1.40 |   0.24+-0.05 |  -1.69+-0.18
+HCN  E1      10    |  -0.50+-0.07 |   0.62+-0.05 |  -0.31+-0.04
+HCN  E1      xb4f  |  -1.41+-0.23 |   0.54+-0.07 |  -0.77+-0.11
+HCN  E2      1.05  |   1.27+-0.13 |    --       |    --      
+HCN  E2      2.0   |   2.70+-0.36 |    --       |    --      
+HCN  E2      3.0   |  32.73+-56.89 |    --       |    --      
+HCN  E2      6.5   |    --       |  -0.29+-0.06 |  -0.77+-0.08
+HCN  E2      10    |  -0.28+-0.04 |   0.46+-0.03 |  -0.13+-0.02
+HCN  E2      xb4f  |    --       |  -0.36+-0.11 |  -0.07+-0.08
+HCN  W       1.05  |   1.12+-0.24 |    --       |    --      
+HCN  W       2.0   |   0.45+-0.34 |    --       |    --      
+HCN  W       3.0   |  -6.81+-7.26 |    --       |    --      
+HCN  W       6.5   | -24.59+-24.92 |   0.05+-0.05 |  -1.12+-0.13
+HCN  W       10    |  -0.96+-0.10 |   0.44+-0.04 |  -0.42+-0.04
+HCN  W       xb4f  |  -1.73+-0.39 |   0.27+-0.05 |  -0.47+-0.08
+HCN  Sblue   1.05  |   0.98+-0.09 |    --       |    --      
+HCN  Sblue   2.0   |   1.19+-0.11 |    --       |    --      
+HCN  Sblue   3.0   |   1.31+-0.12 |    --       |    --      
+HCN  Sblue   4.5   |   1.38+-0.12 |    --       |    --      
+HCN  Sblue   6.5   |   1.31+-0.10 |   0.42+-0.03 |   0.55+-0.04
+HCN  Sblue   10    |   0.81+-0.06 |   0.43+-0.03 |   0.35+-0.03
+HCN  Sblue   xb4f  |   1.50+-0.15 |   0.41+-0.04 |   0.61+-0.06
+HCN  ap4     1.05  |   0.84+-0.06 |    --       |    --      
+HCN  ap4     2.0   |   0.85+-0.06 |    --       |    --      
+HCN  ap4     3.0   |   0.86+-0.06 |    --       |    --      
+HCN  ap4     4.5   |   0.86+-0.06 |    --       |    --      
+HCN  ap4     6.5   |   0.87+-0.06 |   0.75+-0.05 |   0.65+-0.05
+HCN  ap4     10    |   0.79+-0.06 |   0.67+-0.05 |   0.53+-0.04
+HCN  ap4     xb4f  |   0.85+-0.06 |   0.79+-0.06 |   0.67+-0.05
+HCN  ap8     1.05  |   0.98+-0.07 |    --       |    --      
+HCN  ap8     2.0   |   0.95+-0.07 |    --       |    --      
+HCN  ap8     3.0   |   0.91+-0.06 |    --       |    --      
+HCN  ap8     4.5   |   0.84+-0.06 |    --       |    --      
+HCN  ap8     6.5   |   0.74+-0.05 |   0.57+-0.04 |   0.42+-0.03
+HCN  ap8     10    |   0.56+-0.04 |   0.58+-0.04 |   0.32+-0.02
+HCN  ap8     xb4f  |   0.79+-0.06 |   0.57+-0.04 |   0.45+-0.03
+HCN  ap12    1.05  |  -2.61+-0.25 |    --       |    --      
+HCN  ap12    2.0   |  -2.03+-0.18 |    --       |    --      
+HCN  ap12    3.0   |  -1.50+-0.13 |    --       |    --      
+HCN  ap12    4.5   |  -0.90+-0.07 |    --       |    --      
+HCN  ap12    6.5   |  -0.39+-0.03 |   0.45+-0.03 |  -0.18+-0.01
+HCN  ap12    10    |  -0.02+-0.01 |   0.58+-0.04 |  -0.01+-0.01
+HCN  ap12    xb4f  |  -0.76+-0.06 |   0.36+-0.03 |  -0.27+-0.02
+
+## 2a. effective power-law slopes alpha (F ~ MRS^alpha) with central MRS ratios, B=10" and 6.5" (consistency test of the nominal MRS ratios)
+HCO+ N       B=6.5: alpha_bd= 0.15 alpha_df= 0.18 | B=10: alpha_bd= 0.29 alpha_df= 0.27 |
+HCO+ S       B=6.5: alpha_bd= 0.19 alpha_df= 0.25 | B=10: alpha_bd= 0.28 alpha_df= 0.32 |
+HCO+ Bridge  B=6.5: alpha_bd= 0.18 alpha_df= 0.18 | B=10: alpha_bd= 0.27 alpha_df= 0.27 |
+HCO+ Sblue   B=6.5: alpha_bd= 0.17 alpha_df= 0.46 | B=10: alpha_bd= 0.45 alpha_df= 0.45 |
+HCO+ ap4     B=6.5: alpha_bd= 0.20 alpha_df= 0.21 | B=10: alpha_bd= 0.33 alpha_df= 0.27 |
+HCO+ ap8     B=6.5: alpha_bd= 0.43 alpha_df= 0.36 | B=10: alpha_bd= 0.61 alpha_df= 0.36 |
+HCN  N       B=6.5: alpha_bd= 0.12 alpha_df= 0.18 | B=10: alpha_bd= 0.21 alpha_df= 0.31 |
+HCN  S       B=6.5: alpha_bd= 0.13 alpha_df= 0.31 | B=10: alpha_bd= 0.18 alpha_df= 0.41 |
+HCN  Bridge  B=6.5: alpha_bd= 0.17 alpha_df= 0.19 | B=10: alpha_bd= 0.21 alpha_df= 0.31 |
+HCN  Sblue   B=6.5: alpha_bd=-0.29 alpha_df= 0.71 | B=10: alpha_bd= 0.22 alpha_df= 0.70 |
+HCN  ap4     B=6.5: alpha_bd= 0.16 alpha_df= 0.24 | B=10: alpha_bd= 0.26 alpha_df= 0.34 |
+HCN  ap8     B=6.5: alpha_bd= 0.33 alpha_df= 0.47 | B=10: alpha_bd= 0.63 alpha_df= 0.46 |
+
+## 2b. saturating-loss model R(MRS)=1/(1+(s/MRS)^beta): per-position solution at the common beam (median [16,84] over MC; frac = fraction of MC draws with a solution)
+HCO+ N      B=6.5  frac=0.43  R(Xb4f)=0.84[0.52,0.96]  R(Xb4d)=0.71[0.43,0.86]  R(Xb4b)=0.58[0.35,0.70]  beta=0.63  s=nan"
+HCO+ N      B=10   frac=0.56  R(Xb4f)=0.74[0.43,0.91]  R(Xb4d)=0.56[0.31,0.71]  R(Xb4b)=0.41[0.23,0.51]  beta=0.69  s=5.6"
+HCO+ S      B=6.5  frac=0.33  R(Xb4f)=0.71[0.34,0.90]  R(Xb4d)=0.54[0.26,0.73]  R(Xb4b)=0.43[0.21,0.57]  beta=0.54  s=5.2"
+HCO+ S      B=10   frac=0.41  R(Xb4f)=0.66[0.33,0.86]  R(Xb4d)=0.47[0.23,0.63]  R(Xb4b)=0.33[0.17,0.46]  beta=0.61  s=8.9"
+HCO+ Bridge B=6.5  frac=0.49  R(Xb4f)=0.85[0.55,0.96]  R(Xb4d)=0.70[0.44,0.84]  R(Xb4b)=0.57[0.36,0.67]  beta=0.67  s=2.4"
+HCO+ Bridge B=10   frac=0.53  R(Xb4f)=0.72[0.38,0.91]  R(Xb4d)=0.54[0.28,0.71]  R(Xb4b)=0.40[0.21,0.51]  beta=0.62  s=5.8"
+HCO+ Sblue  B=6.5 : no solution in 97% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)
+HCO+ Sblue  B=10   frac=0.53  R(Xb4f)=0.58[0.26,0.80]  R(Xb4d)=0.35[0.15,0.49]  R(Xb4b)=0.23[0.10,0.31]  beta=0.75  s=15.9"
+HCO+ ap4    B=6.5  frac=0.48  R(Xb4f)=0.81[0.49,0.95]  R(Xb4d)=0.65[0.38,0.81]  R(Xb4b)=0.52[0.31,0.63]  beta=0.66  s=nan"
+HCO+ ap4    B=10   frac=0.65  R(Xb4f)=0.75[0.40,0.91]  R(Xb4d)=0.54[0.29,0.70]  R(Xb4b)=0.39[0.22,0.49]  beta=0.71  s=5.8"
+HCO+ ap8    B=6.5  frac=0.67  R(Xb4f)=0.67[0.34,0.86]  R(Xb4d)=0.45[0.22,0.59]  R(Xb4b)=0.30[0.15,0.38]  beta=0.76  s=9.7"
+HCO+ ap8    B=10   frac=0.90  R(Xb4f)=0.80[0.50,0.92]  R(Xb4d)=0.51[0.31,0.63]  R(Xb4b)=0.29[0.18,0.35]  beta=1.06  s=7.3"
+HCO+ E1     B=6.5  frac=0.86  R(Xb4f)=1.00[0.98,1.00]  R(Xb4d)=0.62[0.57,0.67]  R(Xb4b)=0.04[0.02,0.07]  beta=4.23  s=6.6"
+HCO+ E1     B=10   frac=1.00  R(Xb4f)=0.94[0.86,0.98]  R(Xb4d)=0.61[0.54,0.68]  R(Xb4b)=0.21[0.19,0.24]  beta=1.94  s=5.9"
+HCO+ E2     B=6.5 : no solution in 100% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)
+HCO+ E2     B=10   frac=1.00  R(Xb4f)=0.97[0.91,0.99]  R(Xb4d)=0.53[0.47,0.58]  R(Xb4b)=0.09[0.08,0.10]  beta=2.73  s=7.3"
+HCO+ W      B=6.5 : no solution in 100% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)
+HCO+ W      B=10   frac=1.00  R(Xb4f)=0.99[0.97,1.00]  R(Xb4d)=0.62[0.57,0.67]  R(Xb4b)=0.07[0.06,0.08]  beta=3.48  s=6.5"
+HCN  N      B=6.5  frac=0.31  R(Xb4f)=0.83[0.49,0.96]  R(Xb4d)=0.69[0.40,0.85]  R(Xb4b)=0.58[0.35,0.71]  beta=0.56  s=nan"
+HCN  N      B=10   frac=0.27  R(Xb4f)=0.63[0.30,0.84]  R(Xb4d)=0.45[0.22,0.63]  R(Xb4b)=0.34[0.17,0.47]  beta=0.53  s=9.4"
+HCN  S      B=6.5  frac=0.10  R(Xb4f)=0.56[0.28,0.82]  R(Xb4d)=0.42[0.21,0.63]  R(Xb4b)=0.34[0.17,0.50]  beta=0.44  s=14.4"
+HCN  S      B=10   frac=0.06  R(Xb4f)=0.50[0.17,0.76]  R(Xb4d)=0.33[0.11,0.51]  R(Xb4b)=0.25[0.09,0.38]  beta=0.49  s=26.0"
+HCN  Bridge B=6.5  frac=0.41  R(Xb4f)=0.84[0.53,0.96]  R(Xb4d)=0.69[0.43,0.83]  R(Xb4b)=0.56[0.35,0.66]  beta=0.66  s=2.5"
+HCN  Bridge B=10   frac=0.24  R(Xb4f)=0.63[0.26,0.85]  R(Xb4d)=0.45[0.18,0.63]  R(Xb4b)=0.35[0.15,0.48]  beta=0.53  s=9.7"
+HCN  Sblue  B=6.5 : no solution in 100% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)
+HCN  Sblue  B=10  : no solution in 99% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)
+HCN  ap4    B=6.5  frac=0.29  R(Xb4f)=0.70[0.34,0.90]  R(Xb4d)=0.56[0.26,0.74]  R(Xb4b)=0.45[0.21,0.59]  beta=0.50  s=4.8"
+HCN  ap4    B=10   frac=0.31  R(Xb4f)=0.59[0.28,0.82]  R(Xb4d)=0.41[0.20,0.59]  R(Xb4b)=0.30[0.14,0.42]  beta=0.56  s=13.0"
+HCN  ap8    B=6.5  frac=0.20  R(Xb4f)=0.44[0.19,0.71]  R(Xb4d)=0.26[0.11,0.43]  R(Xb4b)=0.19[0.08,0.29]  beta=0.60  s=35.7"
+HCN  ap8    B=10   frac=0.83  R(Xb4f)=0.69[0.39,0.87]  R(Xb4d)=0.40[0.22,0.52]  R(Xb4b)=0.22[0.13,0.28]  beta=0.97  s=11.1"
+HCN  E1     B=6.5 : no solution in 100% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)
+HCN  E1     B=10  : no solution in 100% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)
+HCN  E2     B=6.5 : no solution in 100% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)
+HCN  E2     B=10  : no solution in 100% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)
+HCN  W      B=6.5 : no solution in 100% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)
+HCN  W      B=10  : no solution in 100% of draws (Xb4b flux <=0 or non-monotonic -> loss not a smooth power-law-like function of MRS; flux at this position is dominated by the neighbours' bowl)

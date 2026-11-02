@@ -1,0 +1,20 @@
+ nuc_total R21 0.578+-0.063  R32 0.451+-0.025  R43 0.382+-0.003 | R32/R21 0.781+-0.124 (stat+variants 0.096) | R43/R21 0.662+-0.073
+ N+S       R21 0.734+-0.087  R32 0.639+-0.055  R43 0.420+-0.003 | R32/R21 0.870+-0.155 (stat+variants 0.128) | R43/R21 0.572+-0.068
+ N         R21 0.896+-0.108  R32 0.790+-0.060  R43 0.530+-0.004 | R32/R21 0.882+-0.153 (stat+variants 0.125) | R43/R21 0.591+-0.071
+ E1        R21 0.346+-0.036  R32 0.237+-0.046  R43 0.000+-0.000 | R32/R21 0.686+-0.166 (stat+variants 0.151) | R43/R21 0.000+-0.000
+ W         R21 0.489+-0.047  R32 0.332+-0.055  R43 0.000+-0.000 | R32/R21 0.679+-0.146 (stat+variants 0.130) | R43/R21 0.000+-0.000
+
+ clump/nucleus double ratio of R32/R21 (nucleus = nuc_total and N):
+  E1/nuc_total: 0.88+-0.25  (-0.5 sigma from 1)
+  W/nuc_total: 0.87+-0.23  (-0.6 sigma from 1)
+  E1/N: 0.78+-0.23  (-1.0 sigma from 1)
+  W/N: 0.77+-0.21  (-1.1 sigma from 1)
+
+ R43/R21: nucleus (nuc_total) vs clump upper limits: 
+  nuc_total R43/R21 = 0.66+-0.07; E1 clump R43<0.058 (2 sigma) -> R43/R21 < 0.17; W < 0.67
+
+ 10" position values (blended, s240 A): R32/R21 at each position (Xb4f/Xb55)
+  N: R21 0.611 R32 0.479 R43 0.358  R32/R21 0.78 R43/R21 0.59
+  E1: R21 0.518 R32 0.329 R43 0.155  R32/R21 0.63 R43/R21 0.30
+  E2: R21 0.536 R32 0.339 R43 0.191  R32/R21 0.63 R43/R21 0.36
+  W: R21 0.508 R32 0.338 R43 0.048  R32/R21 0.67 R43/R21 0.09

@@ -1,0 +1,26 @@
+{
+ "team": "team-a",
+ "item": "Q55",
+ "files": [
+  "scripts/q55_ns_single_param.py",
+  "scripts/q55_report.py",
+  "scripts/q55d_radex13.py",
+  "scripts/q55e_joint.py",
+  "scripts/q55f_r10_core.py",
+  "scripts/q55g_norm.py",
+  "scripts/q55h_tables.py",
+  "out/q55/hyp_table.csv",
+  "out/q55/hyp_table.md",
+  "out/q55/joint.log",
+  "out/q55/joint_X13le56.log",
+  "out/q55/joint_summary.json",
+  "out/q55/joint_summary_X13le56.json",
+  "out/q55/norm_cont.csv",
+  "out/q55/r10_core.csv",
+  "out/q55/radex_low_hcn.npy",
+  "out/q55/radex_low_hco+.npy",
+  "out/q55/ns_single_param.json",
+  "out/q55/ns_single_param.log",
+  "TEAM_REPORT.json"
+ ]
+}

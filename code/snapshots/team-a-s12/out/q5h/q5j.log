@@ -1,0 +1,35 @@
+common beam 0.3" ; null rms (Jy/b km/s) HCN 0.0105 HCO+ 0.0145
+
+N: HCO+ peak at (-0.004,2.628) ; HCN peak at (-0.051,2.628) at 0.3" ; peak HCN/HCO+ = 1.051
+  r 0.00-0.10: <I> HCN 1.520 HCO+ 1.508  ratio 1.008 +- 0.012
+  r 0.10-0.20: <I> HCN 1.221 HCO+ 1.229  ratio 0.994 +- 0.014
+  r 0.20-0.30: <I> HCN 0.899 HCO+ 0.927  ratio 0.970 +- 0.016
+  r 0.30-0.45: <I> HCN 0.676 HCO+ 0.727  ratio 0.930 +- 0.012
+  r 0.45-0.60: <I> HCN 0.526 HCO+ 0.660  ratio 0.797 +- 0.011
+  r 0.60-0.80: <I> HCN 0.349 HCO+ 0.480  ratio 0.727 +- 0.011
+  r 0.80-1.00: <I> HCN 0.205 HCO+ 0.307  ratio 0.667 +- 0.014
+  r 1.00-1.50: <I> HCN 0.080 HCO+ 0.214  ratio 0.373 +- 0.009
+  r 1.50-2.00: <I> HCN 0.058 HCO+ 0.057  ratio 1.009 +- 0.043
+  HCN: enclosed (r<1", bg-subtracted 0.058) flux 11.45 Jy km/s ; r_25,r_50,r_75 = 0.30,0.50,0.69 arcsec
+  HCO+: enclosed (r<1", bg-subtracted 0.057) flux 14.63 Jy km/s ; r_25,r_50,r_75 = 0.35,0.56,0.75 arcsec
+
+S: HCO+ peak at (-0.145,-2.589) ; HCN peak at (-0.145,-2.589) at 0.3" ; peak HCN/HCO+ = 0.379
+  r 0.00-0.10: <I> HCN 0.548 HCO+ 1.477  ratio 0.371 +- 0.008
+  r 0.10-0.20: <I> HCN 0.413 HCO+ 1.166  ratio 0.354 +- 0.010
+  r 0.20-0.30: <I> HCN 0.308 HCO+ 0.830  ratio 0.371 +- 0.012
+  r 0.30-0.45: <I> HCN 0.206 HCO+ 0.515  ratio 0.399 +- 0.012
+  r 0.45-0.60: <I> HCN 0.083 HCO+ 0.324  ratio 0.256 +- 0.016
+  r 0.60-0.80: <I> HCN 0.056 HCO+ 0.236  ratio 0.239 +- 0.016
+  r 0.80-1.00: <I> HCN 0.043 HCO+ 0.165  ratio 0.262 +- 0.020
+  r 1.00-1.50: <I> HCN 0.015 HCO+ 0.082  ratio 0.190 +- 0.021
+  r 1.50-2.00: <I> HCN 0.017 HCO+ 0.051  ratio 0.333 +- 0.030
+  HCN: enclosed (r<1", bg-subtracted 0.017) flux 2.61 Jy km/s ; r_25,r_50,r_75 = 0.22,0.37,0.59 arcsec
+  HCO+: enclosed (r<1", bg-subtracted 0.051) flux 8.53 Jy km/s ; r_25,r_50,r_75 = 0.25,0.44,0.69 arcsec
+
+# half-light radius difference r50(HCN)-r50(HCO+) [arcsec]: noise MC (200) and background choice
+N bg 1.5-2.0": r50 HCN 0.496 HCO+ 0.559 diff -0.063 (noise sd 0.002); r75 diff -0.060 (sd 0.003)
+N bg 1.0-1.5": r50 HCN 0.483 HCO+ 0.494 diff -0.011 (noise sd 0.004); r75 diff +0.010 (sd 0.004)
+N no bg: r50 HCN 0.524 HCO+ 0.575 diff -0.051 (noise sd 0.002); r75 diff -0.044 (sd 0.002)
+S bg 1.5-2.0": r50 HCN 0.367 HCO+ 0.441 diff -0.074 (noise sd 0.008); r75 diff -0.100 (sd 0.025)
+S bg 1.0-1.5": r50 HCN 0.371 HCO+ 0.413 diff -0.042 (noise sd 0.010); r75 diff -0.051 (sd 0.031)
+S no bg: r50 HCN 0.409 HCO+ 0.487 diff -0.078 (noise sd 0.006); r75 diff -0.037 (sd 0.013)

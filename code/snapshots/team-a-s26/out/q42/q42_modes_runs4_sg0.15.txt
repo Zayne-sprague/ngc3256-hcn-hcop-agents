@@ -1,0 +1,8 @@
+q42_base_cmb_sh_s1
+  lTc_N: T~12 K weight 0.20; T~41 K weight 0.80 (dBIC 1223)
+  lTc_S: T~17 K weight 0.45; T~42 K weight 0.55 (dBIC 709)
+  lTe: T~20 K weight 0.05; T~50 K weight 0.95 (dBIC 129)
+q42_drop1_cmb_sh_s1
+  lTc_N: T~12 K weight 0.41; T~29 K weight 0.59 (dBIC 2212)
+  lTc_S: T~23 K weight 1.00 (dBIC 1095)
+  lTe: T~43 K weight 0.68; T~85 K weight 0.32 (dBIC 261)

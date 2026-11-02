@@ -1,0 +1,31 @@
+{
+ "team": "team-b",
+ "item": "Q35",
+ "files": [
+  "scripts/s200_q35_cs_norm.py",
+  "scripts/s201_q35_harada_cs.py",
+  "scripts/s210a_q35_cs_radex_grid.py",
+  "scripts/s210b_q35_injection.py",
+  "scripts/s210c_q35_cs_radex.py",
+  "scripts/s210d_q35_norm_systematics.py",
+  "scripts/s210e_q35_c18o_check.py",
+  "scripts/s211_q35_plot.py",
+  "scripts/s212_update_report_q35.py",
+  "out/q35/grid_cs.npz",
+  "out/q35/grid_cs.log",
+  "out/q35/s210b.txt",
+  "out/q35/s210b.json",
+  "out/q35/s210b_box.txt",
+  "out/q35/s210b_field.txt",
+  "out/q35/s210c.txt",
+  "out/q35/s210c.json",
+  "out/q35/s210d.txt",
+  "out/q35/s210d.json",
+  "out/q35/s210e.txt",
+  "out/q35/s211_ns_vs_J.png",
+  "lit/harada_table13_parsed.csv",
+  "team/checks/q35r2_check.py",
+  "team/work_summary.md",
+  "TEAM_REPORT.json"
+ ]
+}

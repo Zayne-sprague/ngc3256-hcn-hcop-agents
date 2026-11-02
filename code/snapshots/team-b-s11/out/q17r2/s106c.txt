@@ -1,0 +1,26 @@
+### HCN: 291 grid points, sigma=0.027; M0 (core*a+b + N,S nuclear wings): chi2=494.5, a=0.0191 b=-0.007 N wing amp 0.000 S 0.000
+  H_A S counter-lobe (on axis PA 173-193): chi2=375.5 (dchi2=-119.0, extra params 4, dBIC=-96.3); A=0.236 at r=3.10" PA=+0 int sigma 0.47"; core slope a=0.0122
+  H_B N red-only flow (free position within 2.5" of N): chi2=375.5 (dchi2=-119.0, extra params 4, dBIC=-96.3); A=0.236 at dE=-0.13 dN=-2.01 from N (=> +0.02,+3.10 from S) int sigma 0.47"; core slope a=0.0122
+  H_B2 N counter-lobe direction (PA 111+-20): chi2=480.8 (dchi2=-13.7, extra params 4, dBIC=+9.0); A=0.072 at r=1.31" PA 131 from N; core slope a=0.0145
+  H_C Bridge strip N-S (0..1): chi2=419.7 (dchi2=-74.7, extra params 2, dBIC=-63.4); A=0.398 width sigma 0.35"; core slope a=0.0076
+  H_C2 Bridge strip between nuclei (0.15-0.85): chi2=395.1 (dchi2=-99.4, extra params 2, dBIC=-88.0); A=0.379 width sigma 0.13"; core slope a=0.0110
+  profile of chi2 vs position of a point-like comp on the S-N axis (dN rel S): -1.0:-0, +0.5:-0, +1.5:-16, +2.5:-85, +3.3:-113, +4.2:-38, +5.1:-0, +6.0:-0, +7.0:-0
+     red wing N far side (+1.85" N of N): -0.006, core 0.99, blue wing -0.011
+     red wing N far side (+3" N of N): 0.018, core -0.09, blue wing 0.013
+     red wing N counter-lobe dir (PA111, 2.4"): 0.005, core 0.71, blue wing 0.012
+     red wing ridge: 0.246, core 2.95, blue wing -0.036
+     red wing Bridge midpoint (+2.55"): 0.211, core 2.82, blue wing -0.029
+     red wing Bridge +4.2": 0.212, core 6.59, blue wing -0.029
+### HCO+: 291 grid points, sigma=0.026; M0 (core*a+b + N,S nuclear wings): chi2=485.6, a=0.0085 b=-0.007 N wing amp 0.038 S 0.000
+  H_A S counter-lobe (on axis PA 173-193): chi2=417.3 (dchi2=-68.3, extra params 4, dBIC=-45.6); A=0.197 at r=3.25" PA=-2 int sigma 0.28"; core slope a=0.0048
+  H_B N red-only flow (free position within 2.5" of N): chi2=417.3 (dchi2=-68.3, extra params 4, dBIC=-45.6); A=0.197 at dE=-0.27 dN=-1.87 from N (=> -0.12,+3.24 from S) int sigma 0.28"; core slope a=0.0048
+  H_B2 N counter-lobe direction (PA 111+-20): chi2=477.8 (dchi2=-7.9, extra params 4, dBIC=+14.8); A=0.061 at r=0.30" PA 131 from N; core slope a=0.0067
+  H_C Bridge strip N-S (0..1): chi2=440.8 (dchi2=-44.9, extra params 2, dBIC=-33.5); A=0.326 width sigma 0.31"; core slope a=0.0025
+  H_C2 Bridge strip between nuclei (0.15-0.85): chi2=429.7 (dchi2=-55.9, extra params 2, dBIC=-44.6); A=0.291 width sigma 0.16"; core slope a=0.0034
+  profile of chi2 vs position of a point-like comp on the S-N axis (dN rel S): -1.0:+0, +0.5:+0, +1.5:-5, +2.5:-34, +3.3:-63, +4.2:-33, +5.1:-1, +6.0:+0, +7.0:+0
+     red wing N far side (+1.85" N of N): 0.009, core 2.09, blue wing 0.004
+     red wing N far side (+3" N of N): -0.016, core 0.04, blue wing 0.001
+     red wing N counter-lobe dir (PA111, 2.4"): -0.044, core 1.58, blue wing -0.022
+     red wing ridge: 0.196, core 6.23, blue wing -0.002
+     red wing Bridge midpoint (+2.55"): 0.135, core 6.44, blue wing 0.014
+     red wing Bridge +4.2": 0.172, core 10.09, blue wing -0.011

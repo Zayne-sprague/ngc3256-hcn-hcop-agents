@@ -1,0 +1,9 @@
+N: 0.818+-0.047; 0.714+-0.041; 0.576+-0.034  (R10,R21,R32 = HCN/HCO+ Tb)
+S: 0.584+-0.031; 0.534+-0.029; 0.424+-0.024  (R10,R21,R32 = HCN/HCO+ Tb)
+min joint chi2 (6 data): all shared: 43.1; T differs: 3.1; n differs: 2.3; N(HCN) differs: 1.1; X differs: 3.2
+  only T differs: value_N - value_S over joint family (chi2<=min+4): min -50.00 median -30.00 max +100.00 (K units: T in K, others dex)
+  only n differs: value_N - value_S over joint family (chi2<=min+4): min +0.50 median +0.50 max +2.00 (log10 units: T in K, others dex)
+  only N(HCN) differs: value_N - value_S over joint family (chi2<=min+4): min +0.50 median +2.00 max +2.25 (log10 units: T in K, others dex)
+  only X differs: value_N - value_S over joint family (chi2<=min+4): min +0.25 median +0.25 max +0.25 (log10 units: T in K, others dex)
+ N: chi2min 0.19, allowed cells 188; tau32(HCN)>1 0.90 >3 0.84 >10 0.73; thin(<0.3) chi2min 1.5
+ S: chi2min 0.17, allowed cells 118; tau32(HCN)>1 0.72 >3 0.65 >10 0.57; thin(<0.3) chi2min 0.8

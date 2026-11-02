@@ -1,0 +1,1 @@
+{'data': 'A', 'reg': 'N', 'mode': 'base', 'seed': 2, 'nlive': 1500, 'logZ': -36.67419015832054, 'logZerr': 0.15048444819362766, 'ess': 13620.242177506647, 'sec': 1363.0380005836487, 'chi2min': 17.386315279972365, 'names': ['lTc_N', 'nc_N', 'NHc_N', 'NOc_N', 'lfc_N', 'lw_N', 'lTe', 'ne', 'NHe', 'NOe', 'lwe']}

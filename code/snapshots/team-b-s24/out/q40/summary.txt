@@ -1,0 +1,84 @@
+--- variant N, 12C/13C=60
+  N: chi2min 4.58, lnZ 9.48; dchi2 best(Tk<=30 K)-best = 4.53, (30<Tk<100) 8.26; posterior P(Tk<=30)=0.722; Tk 14 [11,237], log n 6.3 [4.6,6.6]; N(HCN)/N(HCO+) 2.47 [0.28,3.63], profile best 3.16
+  S: chi2min 0.22, lnZ 8.28; dchi2 best(Tk<=30 K)-best = 2.86, (30<Tk<100) 1.04; posterior P(Tk<=30)=0.145; Tk 132 [36,237], log n 4.5 [4.3,5.0]; N(HCN)/N(HCO+) 2.19 [1.86,2.62], profile best 2.00
+  C: chi2min 0.84, lnZ 7.62; dchi2 best(Tk<=30 K)-best = 16.24, (30<Tk<100) 5.91; posterior P(Tk<=30)=0.001; Tk 237 [167,300], log n 4.3 [4.2,4.5]; N(HCN)/N(HCO+) 2.27 [2.06,2.55], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.10 [0.13,1.77] P(>1)=0.521; profile best 1.58, dchi2(=1)=4.40 -> 2.1 sigma
+  C/S N(HCN)/N(HCO+): 1.04 [0.85,1.28] P(>1)=0.575; profile best 1.12, dchi2(=1)=0.16 -> 0.4 sigma
+--- variant H, 12C/13C=25
+  N: chi2min 7.36, lnZ 9.17; dchi2 best(Tk<=30 K)-best = 32.14, (30<Tk<100) 11.38; posterior P(Tk<=30)=0.000; Tk 267 [211,300], log n 4.6 [4.5,4.7]; N(HCN)/N(HCO+) 3.51 [3.22,3.75], profile best 3.55
+  S: chi2min 0.22, lnZ 8.28; dchi2 best(Tk<=30 K)-best = 2.86, (30<Tk<100) 1.04; posterior P(Tk<=30)=0.145; Tk 132 [36,237], log n 4.5 [4.3,5.0]; N(HCN)/N(HCO+) 2.19 [1.86,2.62], profile best 2.00
+  C: chi2min 7.28, lnZ 10.59; dchi2 best(Tk<=30 K)-best = 24.93, (30<Tk<100) 5.92; posterior P(Tk<=30)=0.000; Tk 211 [148,267], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.32 [2.13,2.61], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.60 [1.33,1.93] P(>1)=0.991; profile best 1.78, dchi2(=1)=4.81 -> 2.2 sigma
+  C/S N(HCN)/N(HCO+): 1.07 [0.87,1.31] P(>1)=0.623; profile best 1.12, dchi2(=1)=0.41 -> 0.6 sigma
+--- variant H, 12C/13C=30
+  N: chi2min 5.27, lnZ 8.25; dchi2 best(Tk<=30 K)-best = 26.55, (30<Tk<100) 10.02; posterior P(Tk<=30)=0.000; Tk 267 [211,300], log n 4.6 [4.5,4.7]; N(HCN)/N(HCO+) 3.47 [3.15,3.73], profile best 3.16
+  S: chi2min 0.22, lnZ 8.28; dchi2 best(Tk<=30 K)-best = 2.86, (30<Tk<100) 1.04; posterior P(Tk<=30)=0.145; Tk 132 [36,237], log n 4.5 [4.3,5.0]; N(HCN)/N(HCO+) 2.19 [1.86,2.62], profile best 2.00
+  C: chi2min 4.05, lnZ 9.05; dchi2 best(Tk<=30 K)-best = 24.01, (30<Tk<100) 5.96; posterior P(Tk<=30)=0.000; Tk 211 [148,300], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.30 [2.12,2.59], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.58 [1.30,1.90] P(>1)=0.990; profile best 1.58, dchi2(=1)=4.40 -> 2.1 sigma
+  C/S N(HCN)/N(HCO+): 1.06 [0.87,1.30] P(>1)=0.610; profile best 1.12, dchi2(=1)=0.41 -> 0.6 sigma
+--- variant H, 12C/13C=40
+  N: chi2min 7.04, lnZ 9.42; dchi2 best(Tk<=30 K)-best = 17.08, (30<Tk<100) 7.15; posterior P(Tk<=30)=0.000; Tk 267 [188,300], log n 4.7 [4.5,4.8]; N(HCN)/N(HCO+) 3.47 [3.13,3.84], profile best 3.16
+  S: chi2min 0.22, lnZ 8.28; dchi2 best(Tk<=30 K)-best = 2.86, (30<Tk<100) 1.04; posterior P(Tk<=30)=0.145; Tk 132 [36,237], log n 4.5 [4.3,5.0]; N(HCN)/N(HCO+) 2.19 [1.86,2.62], profile best 2.00
+  C: chi2min 1.37, lnZ 7.79; dchi2 best(Tk<=30 K)-best = 22.44, (30<Tk<100) 6.22; posterior P(Tk<=30)=0.000; Tk 237 [167,300], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.28 [2.09,2.57], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.59 [1.30,1.95] P(>1)=0.989; profile best 1.58, dchi2(=1)=4.40 -> 2.1 sigma
+  C/S N(HCN)/N(HCO+): 1.05 [0.86,1.29] P(>1)=0.590; profile best 1.12, dchi2(=1)=0.41 -> 0.6 sigma
+--- variant H, 12C/13C=60
+  N: chi2min 12.65, lnZ 12.85; dchi2 best(Tk<=30 K)-best = 5.15, (30<Tk<100) 1.07; posterior P(Tk<=30)=0.018; Tk 167 [73,267], log n 4.8 [4.7,5.1]; N(HCN)/N(HCO+) 3.80 [3.29,4.67], profile best 3.55
+  S: chi2min 0.22, lnZ 8.28; dchi2 best(Tk<=30 K)-best = 2.86, (30<Tk<100) 1.04; posterior P(Tk<=30)=0.145; Tk 132 [36,237], log n 4.5 [4.3,5.0]; N(HCN)/N(HCO+) 2.19 [1.86,2.62], profile best 2.00
+  C: chi2min 0.98, lnZ 7.60; dchi2 best(Tk<=30 K)-best = 20.27, (30<Tk<100) 5.83; posterior P(Tk<=30)=0.000; Tk 237 [167,300], log n 4.3 [4.2,4.5]; N(HCN)/N(HCO+) 2.26 [2.05,2.54], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.76 [1.39,2.30] P(>1)=0.991; profile best 1.78, dchi2(=1)=4.60 -> 2.1 sigma
+  C/S N(HCN)/N(HCO+): 1.04 [0.85,1.27] P(>1)=0.570; profile best 1.12, dchi2(=1)=0.18 -> 0.4 sigma
+--- variant H, 12C/13C=90
+  N: chi2min 17.19, lnZ 15.11; dchi2 best(Tk<=30 K)-best = 0.00, (30<Tk<100) 0.61; posterior P(Tk<=30)=0.579; Tk 26 [16,65], log n 5.6 [5.1,5.9]; N(HCN)/N(HCO+) 3.97 [3.10,4.80], profile best 3.98
+  S: chi2min 0.22, lnZ 8.28; dchi2 best(Tk<=30 K)-best = 2.86, (30<Tk<100) 1.04; posterior P(Tk<=30)=0.145; Tk 132 [36,237], log n 4.5 [4.3,5.0]; N(HCN)/N(HCO+) 2.19 [1.86,2.62], profile best 2.00
+  C: chi2min 2.75, lnZ 8.51; dchi2 best(Tk<=30 K)-best = 16.74, (30<Tk<100) 5.65; posterior P(Tk<=30)=0.000; Tk 237 [167,300], log n 4.3 [4.2,4.5]; N(HCN)/N(HCO+) 2.25 [2.03,2.53], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.79 [1.32,2.36] P(>1)=0.946; profile best 2.00, dchi2(=1)=3.63 -> 1.9 sigma
+  C/S N(HCN)/N(HCO+): 1.03 [0.85,1.27] P(>1)=0.560; profile best 1.12, dchi2(=1)=0.15 -> 0.4 sigma
+--- variant A, 12C/13C=25
+  N: chi2min 17.82, lnZ 14.25; dchi2 best(Tk<=30 K)-best = 41.22, (30<Tk<100) 18.78; posterior P(Tk<=30)=0.000; Tk 267 [237,300], log n 4.4 [4.4,4.5]; N(HCN)/N(HCO+) 3.47 [3.17,3.70], profile best 3.16
+  S: chi2min 45.51, lnZ 28.11; dchi2 best(Tk<=30 K)-best = 0.00, (30<Tk<100) 14.96; posterior P(Tk<=30)=0.771; Tk 10 [10,188], log n 7.0 [4.4,7.1]; N(HCN)/N(HCO+) 1.02 [0.95,1.99], profile best 1.00
+  C: chi2min 15.66, lnZ 14.26; dchi2 best(Tk<=30 K)-best = 34.69, (30<Tk<100) 9.35; posterior P(Tk<=30)=0.000; Tk 237 [167,300], log n 4.3 [4.2,4.4]; N(HCN)/N(HCO+) 2.27 [2.09,2.54], profile best 2.24
+  N/S N(HCN)/N(HCO+): 3.35 [1.75,3.72] P(>1)=1.000; profile best 3.16, dchi2(=1)=19.38 -> 4.4 sigma
+  C/S N(HCN)/N(HCO+): 2.19 [1.16,2.53] P(>1)=0.934; profile best 2.24, dchi2(=1)=7.67 -> 2.8 sigma
+--- variant A, 12C/13C=30
+  N: chi2min 11.37, lnZ 10.81; dchi2 best(Tk<=30 K)-best = 37.63, (30<Tk<100) 18.31; posterior P(Tk<=30)=0.000; Tk 267 [237,300], log n 4.5 [4.4,4.6]; N(HCN)/N(HCO+) 3.42 [3.12,3.67], profile best 3.16
+  S: chi2min 36.24, lnZ 23.92; dchi2 best(Tk<=30 K)-best = 0.00, (30<Tk<100) 12.11; posterior P(Tk<=30)=0.545; Tk 10 [10,267], log n 6.9 [4.3,7.1]; N(HCN)/N(HCO+) 1.12 [0.96,2.20], profile best 1.00
+  C: chi2min 8.26, lnZ 10.75; dchi2 best(Tk<=30 K)-best = 34.66, (30<Tk<100) 8.56; posterior P(Tk<=30)=0.000; Tk 237 [167,300], log n 4.3 [4.2,4.4]; N(HCN)/N(HCO+) 2.27 [2.09,2.54], profile best 2.24
+  N/S N(HCN)/N(HCO+): 3.00 [1.54,3.62] P(>1)=1.000; profile best 3.16, dchi2(=1)=16.11 -> 4.0 sigma
+  C/S N(HCN)/N(HCO+): 1.94 [1.02,2.45] P(>1)=0.868; profile best 2.24, dchi2(=1)=5.31 -> 2.3 sigma
+--- variant A, 12C/13C=40
+  N: chi2min 9.57, lnZ 9.89; dchi2 best(Tk<=30 K)-best = 27.97, (30<Tk<100) 15.93; posterior P(Tk<=30)=0.000; Tk 267 [211,300], log n 4.5 [4.5,4.6]; N(HCN)/N(HCO+) 3.33 [3.07,3.64], profile best 3.16
+  S: chi2min 25.43, lnZ 19.78; dchi2 best(Tk<=30 K)-best = 0.71, (30<Tk<100) 6.82; posterior P(Tk<=30)=0.164; Tk 211 [10,267], log n 4.4 [4.2,6.8]; N(HCN)/N(HCO+) 2.04 [1.17,2.32], profile best 2.00
+  C: chi2min 2.07, lnZ 7.93; dchi2 best(Tk<=30 K)-best = 30.57, (30<Tk<100) 7.51; posterior P(Tk<=30)=0.000; Tk 237 [167,300], log n 4.3 [4.2,4.4]; N(HCN)/N(HCO+) 2.27 [2.08,2.54], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.63 [1.41,2.73] P(>1)=0.999; profile best 1.58, dchi2(=1)=10.67 -> 3.3 sigma
+  C/S N(HCN)/N(HCO+): 1.12 [0.96,1.85] P(>1)=0.753; profile best 1.12, dchi2(=1)=0.89 -> 0.9 sigma
+--- variant A, 12C/13C=60
+  N: chi2min 17.18, lnZ 14.40; dchi2 best(Tk<=30 K)-best = 10.44, (30<Tk<100) 9.58; posterior P(Tk<=30)=0.003; Tk 267 [211,300], log n 4.7 [4.6,4.8]; N(HCN)/N(HCO+) 3.31 [3.05,3.66], profile best 3.16
+  S: chi2min 11.80, lnZ 12.90; dchi2 best(Tk<=30 K)-best = 4.83, (30<Tk<100) 5.09; posterior P(Tk<=30)=0.022; Tk 211 [148,300], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.08 [1.89,2.35], profile best 2.00
+  C: chi2min 1.28, lnZ 7.68; dchi2 best(Tk<=30 K)-best = 22.17, (30<Tk<100) 5.78; posterior P(Tk<=30)=0.000; Tk 237 [167,300], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.26 [2.05,2.55], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.59 [1.37,1.84] P(>1)=0.996; profile best 1.58, dchi2(=1)=7.93 -> 2.8 sigma
+  C/S N(HCN)/N(HCO+): 1.09 [0.93,1.28] P(>1)=0.699; profile best 1.12, dchi2(=1)=0.44 -> 0.7 sigma
+--- variant A, 12C/13C=90
+  N: chi2min 22.78, lnZ 17.52; dchi2 best(Tk<=30 K)-best = 0.23, (30<Tk<100) 5.59; posterior P(Tk<=30)=0.449; Tk 132 [11,267], log n 4.9 [4.7,6.7]; N(HCN)/N(HCO+) 2.96 [1.49,3.59], profile best 3.16
+  S: chi2min 4.56, lnZ 9.49; dchi2 best(Tk<=30 K)-best = 6.39, (30<Tk<100) 3.29; posterior P(Tk<=30)=0.009; Tk 211 [132,267], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.09 [1.89,2.39], profile best 2.00
+  C: chi2min 5.87, lnZ 10.04; dchi2 best(Tk<=30 K)-best = 13.64, (30<Tk<100) 3.81; posterior P(Tk<=30)=0.000; Tk 211 [148,300], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.26 [2.03,2.57], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.30 [0.70,1.77] P(>1)=0.603; profile best 1.58, dchi2(=1)=1.52 -> 1.2 sigma
+  C/S N(HCN)/N(HCO+): 1.08 [0.91,1.28] P(>1)=0.677; profile best 1.12, dchi2(=1)=0.72 -> 0.9 sigma
+--- variant B, 12C/13C=40
+  N: chi2min 15.41, lnZ 13.09; dchi2 best(Tk<=30 K)-best = 23.45, (30<Tk<100) 17.25; posterior P(Tk<=30)=0.000; Tk 267 [237,300], log n 4.5 [4.4,4.5]; N(HCN)/N(HCO+) 3.47 [3.16,3.70], profile best 3.16
+  S: chi2min 26.49, lnZ 19.57; dchi2 best(Tk<=30 K)-best = 0.00, (30<Tk<100) 9.17; posterior P(Tk<=30)=0.397; Tk 167 [10,267], log n 4.5 [4.3,7.1]; N(HCN)/N(HCO+) 1.93 [0.99,2.29], profile best 1.00
+  C: chi2min 6.27, lnZ 9.91; dchi2 best(Tk<=30 K)-best = 31.70, (30<Tk<100) 7.17; posterior P(Tk<=30)=0.000; Tk 211 [167,300], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.30 [2.12,2.58], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.82 [1.50,3.53] P(>1)=1.000; profile best 3.16, dchi2(=1)=12.84 -> 3.6 sigma
+  C/S N(HCN)/N(HCO+): 1.25 [0.99,2.37] P(>1)=0.826; profile best 2.24, dchi2(=1)=3.50 -> 1.9 sigma
+--- variant B, 12C/13C=60
+  N: chi2min 5.92, lnZ 8.07; dchi2 best(Tk<=30 K)-best = 17.60, (30<Tk<100) 15.81; posterior P(Tk<=30)=0.000; Tk 267 [211,300], log n 4.5 [4.4,4.6]; N(HCN)/N(HCO+) 3.41 [3.11,3.68], profile best 3.16
+  S: chi2min 12.23, lnZ 13.08; dchi2 best(Tk<=30 K)-best = 4.24, (30<Tk<100) 4.89; posterior P(Tk<=30)=0.027; Tk 211 [148,267], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.10 [1.90,2.37], profile best 2.00
+  C: chi2min 1.48, lnZ 7.78; dchi2 best(Tk<=30 K)-best = 23.67, (30<Tk<100) 5.94; posterior P(Tk<=30)=0.000; Tk 211 [148,300], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.28 [2.09,2.57], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.61 [1.39,1.84] P(>1)=0.999; profile best 1.58, dchi2(=1)=9.72 -> 3.1 sigma
+  C/S N(HCN)/N(HCO+): 1.09 [0.94,1.28] P(>1)=0.702; profile best 1.12, dchi2(=1)=0.60 -> 0.8 sigma
+--- variant B, 12C/13C=90
+  N: chi2min 8.04, lnZ 9.59; dchi2 best(Tk<=30 K)-best = 6.94, (30<Tk<100) 11.17; posterior P(Tk<=30)=0.029; Tk 267 [211,300], log n 4.6 [4.5,4.7]; N(HCN)/N(HCO+) 3.39 [3.08,3.69], profile best 3.16
+  S: chi2min 4.28, lnZ 9.25; dchi2 best(Tk<=30 K)-best = 6.42, (30<Tk<100) 3.38; posterior P(Tk<=30)=0.007; Tk 211 [132,267], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.09 [1.89,2.38], profile best 2.00
+  C: chi2min 4.90, lnZ 9.48; dchi2 best(Tk<=30 K)-best = 17.10, (30<Tk<100) 3.81; posterior P(Tk<=30)=0.000; Tk 211 [148,300], log n 4.4 [4.2,4.5]; N(HCN)/N(HCO+) 2.26 [2.03,2.56], profile best 2.24
+  N/S N(HCN)/N(HCO+): 1.61 [1.36,1.86] P(>1)=0.970; profile best 1.58, dchi2(=1)=8.60 -> 2.9 sigma
+  C/S N(HCN)/N(HCO+): 1.08 [0.92,1.28] P(>1)=0.680; profile best 1.12, dchi2(=1)=0.77 -> 0.9 sigma

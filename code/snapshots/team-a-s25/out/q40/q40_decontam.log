@@ -1,0 +1,64 @@
+Harada HCN J=1: variant0 amps N=10.72 S=7.36 E1=1.47 E2=0.04 W=2.58 const -0.15; err 0.16 0.10 0.24 0.09 0.12 (n_noise 4)
+Harada HCO+ J=1: variant0 amps N=12.86 S=12.65 E1=3.37 E2=1.14 W=4.80 const -0.08; err 0.15 0.12 0.25 0.11 0.11 (n_noise 4)
+Michiyama HCN J=1: variant0 amps N=9.80 S=6.88 E1=1.81 E2=0.60 W=2.45 const 0.22; err 0.03 0.07 0.04 0.02 0.07 (n_noise 4)
+Michiyama HCO+ J=1: variant0 amps N=12.04 S=12.05 E1=3.33 E2=1.78 W=5.13 const 0.43; err 0.03 0.05 0.04 0.02 0.06 (n_noise 4)
+Xb55 HCN J=2: variant0 amps N=25.62 S=18.52 E1=3.80 E2=1.82 W=5.86 const -0.27; err 0.12 0.26 0.12 0.31 0.15 (n_noise 7)
+Xb55 HCO+ J=2: variant0 amps N=36.93 S=34.59 E1=9.69 E2=5.25 W=12.80 const -0.24; err 0.65 0.47 0.26 0.25 0.14 (n_noise 9)
+Xb4f HCN J=3: variant0 amps N=23.07 S=14.97 E1=2.12 E2=0.00 W=3.13 const -0.51; err 0.11 0.08 0.16 0.05 0.06 (n_noise 3)
+Xb4f HCO+ J=3: variant0 amps N=39.45 S=36.91 E1=8.65 E2=3.03 W=8.43 const -0.33; err 0.74 0.26 0.18 0.11 0.08 (n_noise 3)
+Xb4d HCN J=3: variant0 amps N=19.21 S=10.31 E1=1.27 E2=0.00 W=1.27 const -0.59; err 0.14 0.05 0.13 0.00 0.14 (n_noise 3)
+Xb4d HCO+ J=3: variant0 amps N=33.51 S=28.86 E1=6.53 E2=0.00 W=4.91 const -0.87; err 0.45 0.18 0.04 0.00 0.05 (n_noise 3)
+
+## Decontaminated component ratios R_K (HCN/HCO+) per variant (vi=0..5), value +- noise; spread over variants = model systematic
+ N    Harada    HCN 10.72+-0.16 HCO+ 12.86+-0.15 Jy km/s  R=0.844+-0.016 (var spread 0.041; range 0.844-0.983)
+ N    Michiyama HCN 9.80+-0.03 HCO+ 12.04+-0.03 Jy km/s  R=0.824+-0.003 (var spread 0.040; range 0.824-0.951)
+ N    Xb55      HCN 25.62+-0.12 HCO+ 36.93+-0.65 Jy km/s  R=0.703+-0.013 (var spread 0.017; range 0.703-0.759)
+ N    Xb4f      HCN 23.07+-0.11 HCO+ 39.45+-0.74 Jy km/s  R=0.592+-0.011 (var spread 0.025; range 0.592-0.676)
+ N    Xb4d      HCN 19.21+-0.14 HCO+ 33.51+-0.45 Jy km/s  R=0.581+-0.009 (var spread 0.022; range 0.581-0.636)
+ S    Harada    HCN 7.36+-0.10 HCO+ 12.65+-0.12 Jy km/s  R=0.589+-0.010 (var spread 0.005; range 0.580-0.596)
+ S    Michiyama HCN 6.88+-0.07 HCO+ 12.05+-0.05 Jy km/s  R=0.579+-0.006 (var spread 0.007; range 0.556-0.579)
+ S    Xb55      HCN 18.52+-0.26 HCO+ 34.59+-0.47 Jy km/s  R=0.542+-0.010 (var spread 0.002; range 0.538-0.544)
+ S    Xb4f      HCN 14.97+-0.08 HCO+ 36.91+-0.26 Jy km/s  R=0.411+-0.004 (var spread 0.005; range 0.409-0.422)
+ S    Xb4d      HCN 10.31+-0.05 HCO+ 28.86+-0.18 Jy km/s  R=0.362+-0.003 (var spread 0.020; range 0.326-0.382)
+ N+S  Harada    HCN 18.08+-0.19 HCO+ 25.51+-0.19 Jy km/s  R=0.718+-0.009 (var spread 0.019; range 0.718-0.783)
+ N+S  Michiyama HCN 16.69+-0.07 HCO+ 24.09+-0.06 Jy km/s  R=0.701+-0.003 (var spread 0.014; range 0.701-0.744)
+ N+S  Xb55      HCN 44.15+-0.29 HCO+ 71.52+-0.80 Jy km/s  R=0.625+-0.008 (var spread 0.007; range 0.625-0.649)
+ N+S  Xb4f      HCN 38.04+-0.13 HCO+ 76.36+-0.78 Jy km/s  R=0.504+-0.005 (var spread 0.014; range 0.504-0.551)
+ N+S  Xb4d      HCN 29.53+-0.15 HCO+ 62.37+-0.49 Jy km/s  R=0.479+-0.004 (var spread 0.014; range 0.479-0.518)
+ E1   Harada    HCN 1.47+-0.24 HCO+ 3.37+-0.25 Jy km/s  R=0.442+-0.078 (var spread 0.014; range 0.408-0.450)
+ E1   Michiyama HCN 1.81+-0.04 HCO+ 3.33+-0.04 Jy km/s  R=0.552+-0.012 (var spread 0.008; range 0.541-0.562)
+ E1   Xb55      HCN 3.80+-0.12 HCO+ 9.69+-0.26 Jy km/s  R=0.398+-0.016 (var spread 0.012; range 0.376-0.408)
+ E1   Xb4f      HCN 2.12+-0.16 HCO+ 8.65+-0.18 Jy km/s  R=0.248+-0.019 (var spread 0.012; range 0.229-0.266)
+ E1   Xb4d      HCN 1.27+-0.13 HCO+ 6.53+-0.04 Jy km/s  R=0.196+-0.020 (var spread 0.099; range 0.047-0.330)
+ E2   Harada    HCN 0.04+-0.09 HCO+ 1.14+-0.11 Jy km/s  R=0.038+-0.084 (var spread 0.015; range 0.038-0.075)
+ E2   Michiyama HCN 0.60+-0.02 HCO+ 1.78+-0.02 Jy km/s  R=0.341+-0.009 (var spread 0.055; range 0.235-0.384)
+ E2   Xb55      HCN 1.82+-0.31 HCO+ 5.25+-0.25 Jy km/s  R=0.351+-0.063 (var spread 0.068; range 0.187-0.370)
+ E2   Xb4f      HCN 0.00+-0.05 HCO+ 3.03+-0.11 Jy km/s  R=nan+-nan (var spread nan; range nan-nan)
+ E2   Xb4d      HCN 0.00+-0.00 HCO+ 0.00+-0.00 Jy km/s  R=nan+-nan (var spread nan; range nan-nan)
+ W    Harada    HCN 2.58+-0.12 HCO+ 4.80+-0.11 Jy km/s  R=0.545+-0.028 (var spread 0.005; range 0.540-0.555)
+ W    Michiyama HCN 2.45+-0.07 HCO+ 5.13+-0.06 Jy km/s  R=0.484+-0.015 (var spread 0.014; range 0.459-0.500)
+ W    Xb55      HCN 5.86+-0.15 HCO+ 12.80+-0.14 Jy km/s  R=0.464+-0.013 (var spread 0.009; range 0.448-0.472)
+ W    Xb4f      HCN 3.13+-0.06 HCO+ 8.43+-0.08 Jy km/s  R=0.376+-0.009 (var spread 0.017; range 0.362-0.413)
+ W    Xb4d      HCN 1.27+-0.14 HCO+ 4.91+-0.05 Jy km/s  R=0.262+-0.029 (var spread 0.105; range 0.100-0.396)
+
+## Ladders / double ratios (error = noise + variant spread + 10% cal per ratio of two bands)
+ N    R10M 0.824 R10H 0.844 R21 0.703 R32f 0.592 R32d 0.581 | R32f/R21 0.84+-0.10 R32d/R21 0.83+-0.09 R21/R10M 0.85+-0.10 R21/R10H 0.83+-0.10
+ S    R10M 0.579 R10H 0.589 R21 0.542 R32f 0.411 R32d 0.362 | R32f/R21 0.76+-0.08 R32d/R21 0.67+-0.08 R21/R10M 0.94+-0.10 R21/R10H 0.92+-0.10
+ N+S  R10M 0.701 R10H 0.718 R21 0.625 R32f 0.504 R32d 0.479 | R32f/R21 0.81+-0.09 R32d/R21 0.77+-0.08 R21/R10M 0.89+-0.09 R21/R10H 0.87+-0.09
+ E1   R10M 0.552 R10H 0.442 R21 0.398 R32f 0.248 R32d 0.196 | R32f/R21 0.62+-0.09 R32d/R21 0.49+-0.26 R21/R10M 0.72+-0.08 R21/R10H 0.90+-0.19
+ E2   R10M 0.341 R10H 0.038 R21 0.351 R32f nan R32d nan | R32f/R21 nan+-nan R32d/R21 nan+-nan R21/R10M 1.03+-0.34 R21/R10H 9.13+-20.37
+ W    R10M 0.484 R10H 0.545 R21 0.464 R32f 0.376 R32d 0.262 | R32f/R21 0.81+-0.10 R32d/R21 0.56+-0.24 R21/R10M 0.96+-0.11 R21/R10H 0.85+-0.10
+
+## clump/nucleus ratio of R per J and of double ratios (nucleus = N+S)
+ E1/N+S R per J: Michiyama 0.79; Harada 0.62; Xb55 0.64; Xb4f 0.49; Xb4d 0.41
+   E1/N+S R32f/R21: 0.77+-0.14 (-1.6 sigma)
+   E1/N+S R21/R10M: 0.81+-0.13 (-1.5 sigma)
+   E1/N+S R21/R10H: 1.03+-0.24 (+0.1 sigma)
+ E2/N+S R per J: Michiyama 0.49; Harada 0.05; Xb55 0.56; Xb4f nan; Xb4d nan
+   E2/N+S R32f/R21: nan+-nan (+nan sigma)
+   E2/N+S R21/R10M: 1.15+-0.40 (+0.4 sigma)
+   E2/N+S R21/R10H: 10.49+-23.42 (+0.4 sigma)
+ W/N+S R per J: Michiyama 0.69; Harada 0.76; Xb55 0.74; Xb4f 0.75; Xb4d 0.55
+   W/N+S R32f/R21: 1.01+-0.16 (+0.0 sigma)
+   W/N+S R21/R10M: 1.07+-0.17 (+0.5 sigma)
+   W/N+S R21/R10H: 0.98+-0.15 (-0.1 sigma)

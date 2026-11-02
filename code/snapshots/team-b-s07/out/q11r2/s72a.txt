@@ -1,0 +1,90 @@
+# Xb4d spw27 (HCN 3-2) / spw25 (HCO+ 3-2), pixel 0.150", cube (384, 266, 266), dv 4.40 km/s, native beam HCN 0.94x0.74 HCO+ 0.93x0.74; analysis beam 1.05" circular; baseline per-pixel median -900..-450
+# windows (about VSYS=2780 km/s, radio): blue (-405, -205), red mirror (205, 405); E=HCN-k*HCO+ with k=0.37 (S core) and 0.534 (Soutflow core)
+## (a) field maps: pixel rms in line-free field (4<r<12" from N-S midpoint, bright masked), Jy/beam km/s: HCN_blue 0.0404, HCO_blue 0.0433, E_blue_kS 0.0436, E_blue_kO 0.0467, HCN_red 0.0383, HCO_red 0.0431, E_red_kS 0.0413, E_red_kO 0.0445
+   E_blue_kS  peak within 4" of S: +0.289 Jy/b km/s = +6.6 sigma at offset (E +0.15", N -1.80") from S, half-max area 1.1 arcsec2 (beam 0.87); field pixels (non-bright, r<12") >= this value: 0/7302
+   E_blue_kO  peak within 4" of S: +0.268 Jy/b km/s = +5.7 sigma at offset (E +0.15", N -1.80") from S, half-max area 1.1 arcsec2 (beam 0.87); field pixels (non-bright, r<12") >= this value: 0/7302
+   E_red_kS   peak within 4" of S: +0.188 Jy/b km/s = +4.5 sigma at offset (E +0.15", N +3.30") from S, half-max area 1.9 arcsec2 (beam 0.87); field pixels (non-bright, r<12") >= this value: 0/7302
+   E_red_kO   peak within 4" of S: +0.167 Jy/b km/s = +3.8 sigma at offset (E +0.15", N +3.30") from S, half-max area 1.9 arcsec2 (beam 0.87); field pixels (non-bright, r<12") >= this value: 0/7302
+   HCN_blue   peak within 4" of S: +0.353 Jy/b km/s = +8.7 sigma at offset (E +0.00", N -1.95") from S, half-max area 1.2 arcsec2 (beam 0.87); field pixels (non-bright, r<12") >= this value: 0/7302
+   HCN_red    peak within 4" of S: +0.234 Jy/b km/s = +6.1 sigma at offset (E +0.15", N +3.30") from S, half-max area 2.0 arcsec2 (beam 0.87); field pixels (non-bright, r<12") >= this value: 0/7302
+   HCO_blue   peak within 4" of S: +0.219 Jy/b km/s = +5.1 sigma at offset (E -0.15", N -1.95") from S, half-max area 1.2 arcsec2 (beam 0.87); field pixels (non-bright, r<12") >= this value: 0/7302
+   HCO_red    peak within 4" of S: +0.152 Jy/b km/s = +3.5 sigma at offset (E +0.30", N +3.30") from S, half-max area 1.2 arcsec2 (beam 0.87); field pixels (non-bright, r<12") >= this value: 9/7302
+   at Soutflow pixel HCN_blue: +0.319 (+7.9 sigma)
+   at Soutflow pixel HCO_blue: +0.194 (+4.5 sigma)
+   at Soutflow pixel E_blue_kO: +0.216 (+4.6 sigma)
+   at Soutflow pixel HCN_red: -0.040 (-1.0 sigma)
+   at Soutflow pixel HCO_red: -0.017 (-0.4 sigma)
+   at Soutflow pixel E_red_kO: -0.031 (-0.7 sigma)
+
+## (b) apertures r=1" (Jy km/s), noise from 60 random apertures: sigma HCN blue 0.038 red 0.045; HCO+ blue 0.035 red 0.034; random-aperture means (HCN blue -0.010, red -0.024) = baseline bias check
+  Soutflow       core(-205..95) HCN 1.06 HCO+ 1.99 | BLUE HCN +0.368 (+9.8s) HCO+ +0.199 (+5.7s) E(k.534) +0.262+-0.042 (+6.3s) | RED HCN -0.023 (-0.5s) HCO+ -0.044 (-1.3s) E +0.000 (+0.0s)
+  -- ring 1.85" from S (azimuth deg E of N; Soutflow offset is az ~186 deg from S)
+  S_az000        core(-205..95) HCN 2.25 HCO+ 5.54 | BLUE HCN -0.064 (-1.7s) HCO+ -0.006 (-0.2s) E(k.534) -0.061+-0.042 (-1.5s) | RED HCN +0.165 (+3.7s) HCO+ +0.105 (+3.1s) E +0.109 (+2.3s)
+  S_az045        core(-205..95) HCN 0.22 HCO+ 0.83 | BLUE HCN -0.026 (-0.7s) HCO+ -0.017 (-0.5s) E(k.534) -0.017+-0.042 (-0.4s) | RED HCN -0.034 (-0.8s) HCO+ -0.051 (-1.5s) E -0.006 (-0.1s)
+  S_az090        core(-205..95) HCN 0.46 HCO+ 0.88 | BLUE HCN +0.038 (+1.0s) HCO+ -0.048 (-1.4s) E(k.534) +0.064+-0.042 (+1.5s) | RED HCN +0.049 (+1.1s) HCO+ -0.051 (-1.5s) E +0.076 (+1.6s)
+  S_az135        core(-205..95) HCN -0.04 HCO+ 0.16 | BLUE HCN +0.027 (+0.7s) HCO+ -0.094 (-2.7s) E(k.534) +0.077+-0.042 (+1.8s) | RED HCN -0.009 (-0.2s) HCO+ -0.071 (-2.1s) E +0.028 (+0.6s)
+  S_az180        core(-205..95) HCN 0.94 HCO+ 1.75 | BLUE HCN +0.369 (+9.8s) HCO+ +0.177 (+5.1s) E(k.534) +0.274+-0.042 (+6.5s) | RED HCN -0.018 (-0.4s) HCO+ -0.055 (-1.6s) E +0.011 (+0.2s)
+  S_az225        core(-205..95) HCN 0.63 HCO+ 2.11 | BLUE HCN -0.005 (-0.1s) HCO+ -0.007 (-0.2s) E(k.534) -0.001+-0.042 (-0.0s) | RED HCN -0.012 (-0.3s) HCO+ -0.032 (-0.9s) E +0.005 (+0.1s)
+  S_az270        core(-205..95) HCN 1.81 HCO+ 5.54 | BLUE HCN -0.032 (-0.8s) HCO+ -0.018 (-0.5s) E(k.534) -0.022+-0.042 (-0.5s) | RED HCN -0.026 (-0.6s) HCO+ +0.036 (+1.1s) E -0.045 (-0.9s)
+  S_az315        core(-205..95) HCN 1.55 HCO+ 4.39 | BLUE HCN -0.029 (-0.8s) HCO+ -0.033 (-0.9s) E(k.534) -0.012+-0.042 (-0.3s) | RED HCN +0.041 (+0.9s) HCO+ +0.049 (+1.4s) E +0.015 (+0.3s)
+     ring S: E_blue z [-1.5 -0.4  1.5  1.8  6.5 -0.  -0.5 -0.3] | E_red z [ 2.3 -0.1  1.6  0.6  0.2  0.1 -0.9  0.3] | HCN blue z [-1.7 -0.7  1.   0.7  9.8 -0.1 -0.8 -0.8] ; ring mean E_blue(k.534) +0.038, azimuthal rms 0.099 (stat sigma 0.042)
+  -- ring 1.85" from N (azimuth deg E of N; Soutflow offset is az ~186 deg from S)
+  N_az000        core(-205..95) HCN 0.89 HCO+ 1.92 | BLUE HCN -0.028 (-0.8s) HCO+ +0.043 (+1.2s) E(k.534) -0.051+-0.042 (-1.2s) | RED HCN -0.026 (-0.6s) HCO+ +0.018 (+0.5s) E -0.036 (-0.7s)
+  N_az045        core(-205..95) HCN 0.90 HCO+ 1.94 | BLUE HCN -0.023 (-0.6s) HCO+ -0.024 (-0.7s) E(k.534) -0.010+-0.042 (-0.2s) | RED HCN -0.001 (-0.0s) HCO+ +0.008 (+0.2s) E -0.005 (-0.1s)
+  N_az090        core(-205..95) HCN 1.88 HCO+ 3.79 | BLUE HCN +0.076 (+2.0s) HCO+ -0.033 (-0.9s) E(k.534) +0.094+-0.042 (+2.2s) | RED HCN +0.013 (+0.3s) HCO+ +0.003 (+0.1s) E +0.012 (+0.2s)
+  N_az135        core(-205..95) HCN 2.41 HCO+ 5.11 | BLUE HCN -0.008 (-0.2s) HCO+ +0.037 (+1.0s) E(k.534) -0.028+-0.042 (-0.7s) | RED HCN +0.072 (+1.6s) HCO+ +0.057 (+1.7s) E +0.042 (+0.9s)
+  N_az180        core(-205..95) HCN 2.95 HCO+ 6.35 | BLUE HCN -0.036 (-1.0s) HCO+ -0.011 (-0.3s) E(k.534) -0.030+-0.042 (-0.7s) | RED HCN +0.270 (+6.1s) HCO+ +0.163 (+4.7s) E +0.183 (+3.8s)
+  N_az225        core(-205..95) HCN 1.80 HCO+ 3.54 | BLUE HCN +0.000 (+0.0s) HCO+ -0.015 (-0.4s) E(k.534) +0.008+-0.042 (+0.2s) | RED HCN +0.045 (+1.0s) HCO+ +0.022 (+0.6s) E +0.033 (+0.7s)
+  N_az270        core(-205..95) HCN 1.77 HCO+ 3.25 | BLUE HCN +0.018 (+0.5s) HCO+ +0.036 (+1.0s) E(k.534) -0.001+-0.042 (-0.0s) | RED HCN +0.033 (+0.7s) HCO+ +0.012 (+0.3s) E +0.027 (+0.6s)
+  N_az315        core(-205..95) HCN 0.89 HCO+ 1.67 | BLUE HCN -0.007 (-0.2s) HCO+ +0.044 (+1.3s) E(k.534) -0.031+-0.042 (-0.7s) | RED HCN -0.024 (-0.5s) HCO+ +0.030 (+0.9s) E -0.040 (-0.8s)
+     ring N: E_blue z [-1.2 -0.2  2.2 -0.7 -0.7  0.2 -0.  -0.7] | E_red z [-0.7 -0.1  0.2  0.9  3.8  0.7  0.6 -0.8] | HCN blue z [-0.8 -0.6  2.  -0.2 -1.   0.   0.5 -0.2] ; ring mean E_blue(k.534) -0.006, azimuthal rms 0.042 (stat sigma 0.042)
+
+## (c) Xb4d clean masks (native pixels; mask value>0.5): fraction of r=1" aperture pixels inside the mask, per 50 km/s of channels
+  HCN: mask nonzero channels span -129..149 km/s; total masked pixels in channels -405..-205: 0 of 3184020
+     bin(km/s):         -525  -475  -425  -375  -325  -275  -225  -175  -125   -75   -25   +25   +75  +125  +175
+     Soutflow  mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.33  0.83  0.99  0.87  0.56  0.17  0.00
+     S         mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.55  1.00  1.00  1.00  1.00  0.87  0.00
+     N         mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.54  1.00  1.00  1.00  1.00  0.58  0.00
+     S_az0     mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.50  0.99  1.00  1.00  0.80  0.31  0.00
+     S_az90    mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.18  0.25  0.24  0.55  0.99  0.91  0.00
+     S_az180   mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.32  0.81  0.98  0.87  0.58  0.20  0.00
+     S_az270   mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.19  0.84  1.00  0.98  0.33  0.28  0.00
+     S_az135   mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.14  0.37  0.41  0.61  0.62  0.52  0.00
+     S_az225   mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.32  0.75  1.00  0.86  0.33  0.15  0.00
+     HCN Soutflow: native window (-405..-205) flux in aperture: inside mask +0.000, outside mask +0.379 Jy km/s (total +0.379)
+     HCN S_az0: native window (-405..-205) flux in aperture: inside mask +0.000, outside mask -0.059 Jy km/s (total -0.059)
+     HCN S_az90: native window (-405..-205) flux in aperture: inside mask +0.000, outside mask +0.042 Jy km/s (total +0.042)
+     HCN S_az270: native window (-405..-205) flux in aperture: inside mask +0.000, outside mask -0.026 Jy km/s (total -0.026)
+  HCO+: mask nonzero channels span -946..170 km/s; total masked pixels in channels -405..-205: 0 of 3254776
+     bin(km/s):         -525  -475  -425  -375  -325  -275  -225  -175  -125   -75   -25   +25   +75  +125  +175
+     Soutflow  mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.09  0.92  1.00  1.00  1.00  0.60  0.14  0.08
+     S         mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.09  0.92  1.00  1.00  1.00  1.00  0.98  0.30
+     N         mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.50  1.00  1.00  1.00  1.00  0.64  0.00
+     S_az0     mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.04  0.79  1.00  1.00  1.00  0.96  0.71  0.04
+     S_az90    mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.03  0.32  0.32  0.27  0.76  1.00  1.00  0.36
+     S_az180   mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.09  0.91  1.00  1.00  1.00  0.62  0.17  0.10
+     S_az270   mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.03  0.55  0.96  1.00  1.00  0.58  0.22  0.01
+     S_az135   mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.05  0.49  0.43  0.43  0.66  0.71  0.51  0.22
+     S_az225   mask frac  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.06  0.77  0.95  1.00  1.00  0.46  0.13  0.01
+     HCO+ Soutflow: native window (-405..-205) flux in aperture: inside mask +0.000, outside mask +0.219 Jy km/s (total +0.219)
+     HCO+ S_az0: native window (-405..-205) flux in aperture: inside mask +0.000, outside mask +0.004 Jy km/s (total +0.004)
+     HCO+ S_az90: native window (-405..-205) flux in aperture: inside mask +0.000, outside mask -0.055 Jy km/s (total -0.055)
+     HCO+ S_az270: native window (-405..-205) flux in aperture: inside mask +0.000, outside mask -0.003 Jy km/s (total -0.003)
+
+## (d) per-channel statistics around S (native-resolution raw pbcor cubes unless stated); annulus 1.5-4.0" from S excluding r<2" of N and Bridge and bright-mask pixels; off-source: r>8" from midpoint, 60-pixel blocks
+  HCN: off-source per-channel rms (median over channels -900..-500) 1.29 mJy/beam; annulus mean in same channels +0.00 mJy/beam
+     v -405..-305: annulus mean +0.00 +- 0.06(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.00, rms 1.72 mJy/b; ratio rms/(line-free rms) 1.34
+     v -305..-205: annulus mean +0.02 +- 0.06(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.00, rms 1.53 mJy/b; ratio rms/(line-free rms) 1.19
+     v -205..-105: annulus mean +0.06 +- 0.06(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.01, rms 1.42 mJy/b; ratio rms/(line-free rms) 1.10
+     v -105..  +0: annulus mean +0.49 +- 0.06(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.03, rms 1.45 mJy/b; ratio rms/(line-free rms) 1.13
+     v +150..+250: annulus mean -0.00 +- 0.06(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.00, rms 1.47 mJy/b; ratio rms/(line-free rms) 1.14
+     v +250..+350: annulus mean -0.02 +- 0.06(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.01, rms 1.47 mJy/b; ratio rms/(line-free rms) 1.14
+     v +350..+450: annulus mean -0.01 +- 0.06(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.00, rms 1.50 mJy/b; ratio rms/(line-free rms) 1.16
+  HCO+: off-source per-channel rms (median over channels -900..-500) 1.41 mJy/beam; annulus mean in same channels +0.01 mJy/beam
+     v -405..-305: annulus mean +0.02 +- 0.07(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean -0.00, rms 1.36 mJy/b; ratio rms/(line-free rms) 0.96
+     v -305..-205: annulus mean +0.02 +- 0.07(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.00, rms 1.34 mJy/b; ratio rms/(line-free rms) 0.95
+     v -205..-105: annulus mean +0.08 +- 0.07(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.01, rms 1.35 mJy/b; ratio rms/(line-free rms) 0.95
+     v -105..  +0: annulus mean +1.55 +- 0.07(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.05, rms 1.45 mJy/b; ratio rms/(line-free rms) 1.03
+     v +150..+250: annulus mean +0.01 +- 0.07(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.00, rms 1.32 mJy/b; ratio rms/(line-free rms) 0.94
+     v +250..+350: annulus mean -0.03 +- 0.07(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean +0.00, rms 1.26 mJy/b; ratio rms/(line-free rms) 0.89
+     v +350..+450: annulus mean -0.03 +- 0.07(chan scatter of annulus mean at line-free v) mJy/b ; offsource mean -0.00, rms 1.24 mJy/b; ratio rms/(line-free rms) 0.88

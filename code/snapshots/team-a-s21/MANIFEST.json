@@ -1,0 +1,21 @@
+{
+ "team": "team-a",
+ "item": "Q26",
+ "files": [
+  "scripts/q26_uvdump.py",
+  "scripts/q26_image.py",
+  "scripts/q26_uvana.py",
+  "scripts/q26_inject.py",
+  "scripts/q26_boot.py",
+  "scripts/q26_radex.py",
+  "scripts/build_report_q26b.py",
+  "out/q26/q26_inject.log",
+  "out/q26/q26_inject.json",
+  "out/q26/q26_boot.log",
+  "out/q26/q26_boot.json",
+  "out/q26/q26_radex.log",
+  "out/q26/q26_uvana.log",
+  "out/q26/q26_uvana.json",
+  "TEAM_REPORT.json"
+ ]
+}

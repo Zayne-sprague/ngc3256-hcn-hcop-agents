@@ -1,0 +1,71 @@
+== (a) N/S double ratios against alternative normalisers (Harada 1.7" peak pixels, K km/s; 16-84% of MC; flux-scale 7% per line)
+  raw line N/S: HCN1 3.48; HCO+1 2.34; HCN3 4.03; HCO+3 2.10; CS2 2.14; CS5 3.33; C18O1 2.35; C18O2 3.48; 13CO1 0.96; 13CO2 1.28
+  1-0 / C18O 1-0                  : HCN/norm N/S = 1.48 [1.26,1.73]; HCO+/norm N/S = 0.99 [0.85,1.16]
+  1-0 / 13CO 1-0                  : HCN/norm N/S = 3.62 [3.14,4.17]; HCO+/norm N/S = 2.43 [2.11,2.80]
+  1-0 / CS 2-1                    : HCN/norm N/S = 1.63 [1.41,1.88]; HCO+/norm N/S = 1.09 [0.94,1.26]
+  3-2 / C18O 2-1                  : HCN/norm N/S = 1.16 [0.99,1.35]; HCO+/norm N/S = 0.60 [0.52,0.70]
+  3-2 / 13CO 2-1                  : HCN/norm N/S = 3.13 [2.71,3.63]; HCO+/norm N/S = 1.63 [1.42,1.88]
+  3-2 / CS 5-4                    : HCN/norm N/S = 1.20 [0.97,1.46]; HCO+/norm N/S = 0.62 [0.51,0.76]
+  3-2 / C18O 1-0 (J-mismatch)     : HCN/norm N/S = 1.71 [1.46,2.01]; HCO+/norm N/S = 0.89 [0.76,1.04]
+  3-2 / 13CO 1-0 (J-mismatch)     : HCN/norm N/S = 4.19 [3.62,4.86]; HCO+/norm N/S = 2.18 [1.89,2.51]
+  thin-tracer excitation (K km/s ratio): C18O 2-1/1-0 N 1.64 S 1.11 -> N/S 1.48 [1.25,1.74]; 13CO 2-1/1-0 N 1.67 S 1.25 -> N/S 1.34 [1.16,1.54]; CS 5-4/2-1 N 0.32 S 0.20 -> N/S 1.57 [1.28,1.94]; HCN 3-2/1-0 N 0.36 S 0.31 -> N/S 1.16 [1.00,1.34]; HCO+ 3-2/1-0 N 0.45 S 0.50 -> N/S 0.90 [0.78,1.03]
+  (C18O/13CO 2-1/1-0 are optically thinner, abundance-independent excitation tracers: both are higher at N, like CS 5-4/2-1; HCN and HCO+ r31 are not.)
+
+== (b) free-free at 346 GHz from H40alpha (99.02 GHz), 1.7" peak pixels
+  N: H40a 5.68+-0.81 K km/s -> S_ff(346 GHz, 1.7" beam, point-like) = 4.6 (Te=1e4) - 2.1 (Te=5e3) mJy/beam
+  S: H40a 5.50+-0.81 K km/s -> S_ff(346 GHz, 1.7" beam, point-like) = 4.4 (Te=1e4) - 2.0 (Te=5e3) mJy/beam
+  C: H40a 0.88+-0.81 K km/s -> S_ff(346 GHz, 1.7" beam, point-like) = 0.7 (Te=1e4) - 0.3 (Te=5e3) mJy/beam
+  point-like ff (=1.7" peak flux, all in the 4.3x2.8" beam): dust-only continuum N 34.7 S 17.4 mJy/beam; N/S = 2.00 (uncorrected 1.80) -> HCO+/cont N/S 0.60, HCN/cont 0.98, CS/cont 0.89
+  upper: Te=5e3 point-like: dust-only continuum N 37.2 S 19.8 mJy/beam; N/S = 1.88 (uncorrected 1.80) -> HCO+/cont N/S 0.64, HCN/cont 1.05, CS/cont 0.95
+  extended ff, 2x (flux in 4.3x2.8 beam twice the 1.7 peak; generous): dust-only continuum N 30.2 S 13.0 mJy/beam; N/S = 2.33 (uncorrected 1.80) -> HCO+/cont N/S 0.52, HCN/cont 0.84, CS/cont 0.77
+
+== (c) velocity-resolved deblended amplitudes (Jy/beam km/s per 100 km/s bin, 4.31x2.79" beam; v relative to 2780 km/s) and HCN/HCO+ 4-3 (K ratio)
+ N: v    HCN        HCO+       CS7-6      HCN/HCO+(K)
+    -650    0.03+-0.04   0.03+-0.03   0.00+-0.04    nan
+    -550   -0.00+-0.03  -0.02+-0.03  -0.02+-0.04    nan
+    -450   -0.04+-0.06   0.03+-0.05  -0.01+-0.05    nan
+    -350   -0.05+-0.08   0.21+-0.06  -0.09+-0.04    nan
+    -250    0.03+-0.09   0.05+-0.06  -0.02+-0.05    nan
+    -150    0.47+-0.13   0.71+-0.10   0.09+-0.04   0.67
+     -50    7.24+-0.32  13.40+-0.94   1.14+-0.08   0.55
+     +50    7.78+-0.33  14.38+-0.98   1.36+-0.08   0.55
+    +150    0.50+-0.16   0.45+-0.27  -0.04+-0.05    nan
+    +250   -0.17+-0.11  -0.04+-0.06  -0.16+-0.05    nan
+    +350    0.01+-0.12   0.04+-0.05  -0.06+-0.05    nan
+    +450   -0.29+-0.15  -0.10+-0.05  -0.06+-0.05    nan
+    +550    0.01+-0.01  -0.01+-0.05   0.06+-0.04    nan
+    +650    0.00+-0.00  -0.04+-0.05  -0.05+-0.04    nan
+   N CS 7-6: peak bin 1.36 at +50; bins >= half max span 200 km/s; centroid -22; ratio peak-bin/sum 0.64
+   N HCN 4-3: peak bin 7.78 at +50; bins >= half max span 200 km/s; centroid -8; ratio peak-bin/sum 0.50
+   N HCO+ 4-3: peak bin 14.38 at +50; bins >= half max span 200 km/s; centroid -6; ratio peak-bin/sum 0.49
+ S: v    HCN        HCO+       CS7-6      HCN/HCO+(K)
+    -650    0.04+-0.04   0.00+-0.03  -0.08+-0.04    nan
+    -550   -0.10+-0.03   0.01+-0.03   0.07+-0.04    nan
+    -450    0.12+-0.06  -0.06+-0.05   0.05+-0.05    nan
+    -350    0.12+-0.08   0.10+-0.06   0.05+-0.04    nan
+    -250    0.24+-0.09   0.20+-0.06   0.05+-0.04   1.22
+    -150    0.64+-0.13   1.45+-0.10   0.04+-0.04   0.45
+     -50    3.82+-0.32  11.89+-0.92   0.61+-0.08   0.33
+     +50    2.68+-0.33   8.60+-0.96   0.52+-0.08   0.32
+    +150    0.60+-0.15   1.69+-0.27   0.14+-0.04   0.36
+    +250    0.04+-0.11  -0.06+-0.06  -0.03+-0.05    nan
+    +350    0.07+-0.12   0.03+-0.05  -0.06+-0.05    nan
+    +450    0.14+-0.14   0.05+-0.05  -0.07+-0.05    nan
+    +550    0.03+-0.01   0.01+-0.05   0.02+-0.04    nan
+    +650    0.00+-0.00  -0.13+-0.05  -0.02+-0.04    nan
+   S CS 7-6: peak bin 0.61 at -50; bins >= half max span 200 km/s; centroid -72; ratio peak-bin/sum 0.47
+   S HCN 4-3: peak bin 3.82 at -50; bins >= half max span 200 km/s; centroid -8; ratio peak-bin/sum 0.45
+   S HCO+ 4-3: peak bin 11.89 at -50; bins >= half max span 200 km/s; centroid -11; ratio peak-bin/sum 0.50
+  Peak/total of the HCO+ profile at N vs S (a self-absorption dip would show as a lower peak/total and a minimum between two bins).
+
+  H13CN/H13CO+ 1-0 intensity ratio N: median 0.75 [0.60,0.93] (S truncated >=0: 3-sigma upper 1.45)
+
+  H13CN/H13CO+ 1-0 intensity ratio S: median 0.23 [0.09,0.42] (S truncated >=0: 3-sigma upper 1.15)
+
+  H13CN/H13CO+ 1-0 intensity ratio Bridge: median 0.94 [0.72,1.22] (S truncated >=0: 3-sigma upper 2.32)
+  N/S of H13CN/H13CO+ (intensity) = 3.32 [1.71,9.03] (1-sigma range), P(N/S>1) = 0.97, 5th percentile 1.19; NOT significant (S is a 1.0-sigma H13CN value)
+  with independent 0.15 dex isotopic-fractionation factors per species and a common 12C/13C (30-100, cancels): N(HCN)/N(HCO+) N/S = 3.56 [1.31,11.79], P(>1) = 0.90
+  N(HCN)/N(HCO+) (thin, RADEX factor 2.9 x/÷1.25) N: 2.17 [1.58,2.98]
+  N(HCN)/N(HCO+) (thin, RADEX factor 2.9 x/÷1.25) S: 0.65 [0.24,1.27]
+  N(HCN)/N(HCO+) (thin, RADEX factor 2.9 x/÷1.25) Bridge: 2.72 [1.91,3.87]
+  blends in the H13CN 1-0 window: HCN ladders N/S H13CN/(HCN) not tested for SO/SiO/CH3OH here; X95d H13CN (86.34 GHz) is clear of SiO 2-1 (86.85) and the strong CH3OH lines, but H13CN 1-0 is a hyperfine triplet (F=1-1,2-1,0-1): the template integral used in Q29 includes all three.

@@ -1,0 +1,74 @@
+== (1) filling chain: eta_beam(b)=eta_core*s^2/(s^2+b^2)  (Gaussian core FWHM s in an elliptical-gaussian-equivalent circular beam b)
+   region  s_arcsec   s_pc  eta_core  eta_1p7  eta_10  dil_025
+0       S      0.25  48.50       0.2   0.0042  0.0001   0.5204
+1       S      0.25  48.50       0.6   0.0127  0.0004   0.5204
+2       S      0.25  48.50       1.0   0.0212  0.0006   0.5204
+3       S      0.30  58.20       0.2   0.0060  0.0002   0.6098
+4       S      0.30  58.20       0.6   0.0181  0.0005   0.6098
+5       S      0.30  58.20       1.0   0.0302  0.0009   0.6098
+6       S      0.34  65.96       0.2   0.0077  0.0002   0.6674
+7       S      0.34  65.96       0.6   0.0231  0.0007   0.6674
+8       S      0.34  65.96       1.0   0.0385  0.0012   0.6674
+9       S      0.10  19.40       0.2   0.0007  0.0000   0.1479
+10      S      0.10  19.40       0.6   0.0021  0.0001   0.1479
+11      S      0.10  19.40       1.0   0.0034  0.0001   0.1479
+12      N      0.26  50.44       0.2   0.0046  0.0001   0.5399
+13      N      0.26  50.44       0.6   0.0137  0.0004   0.5399
+14      N      0.26  50.44       1.0   0.0229  0.0007   0.5399
+15      N      0.27  52.38       0.2   0.0049  0.0001   0.5586
+16      N      0.27  52.38       0.6   0.0148  0.0004   0.5586
+17      N      0.27  52.38       1.0   0.0246  0.0007   0.5586
+18      N      0.29  56.26       0.2   0.0057  0.0002   0.5935
+19      N      0.29  56.26       0.6   0.0170  0.0005   0.5935
+20      N      0.29  56.26       1.0   0.0283  0.0008   0.5935
+21      N      0.10  19.40       0.2   0.0007  0.0000   0.1479
+22      N      0.10  19.40       0.6   0.0021  0.0001   0.1479
+23      N      0.10  19.40       1.0   0.0034  0.0001   0.1479
+geometric dilution only (eta_core=1): s=0.25-0.34 -> eta_1.7=0.021-0.038, eta_10=6.2e-04-1.2e-03; floor s=0.10 -> 0.0034, 1.0e-04
+eta_core needed for eta_1.7=0.01-0.02: s=0.25 -> [0.47, 0.94]  s=0.34 -> [0.26, 0.52]
+
+== (3) CO(2-1) Tpk (Brunetti+2021 Table 2, 55 pc) vs eta_CO>=Tpk/[J_CO(Tk)]
+N Tk 17 J_CO 11.9  eta_CO,min for Tpk= (5.1, 11, 20, 37) : [np.float64(0.43), np.float64(0.93), np.float64(1.69), np.float64(3.12)]
+N Tk 20 J_CO 14.8  eta_CO,min for Tpk= (5.1, 11, 20, 37) : [np.float64(0.35), np.float64(0.74), np.float64(1.35), np.float64(2.5)]
+N Tk 25 J_CO 19.7  eta_CO,min for Tpk= (5.1, 11, 20, 37) : [np.float64(0.26), np.float64(0.56), np.float64(1.02), np.float64(1.88)]
+N Tk 30 J_CO 24.6  eta_CO,min for Tpk= (5.1, 11, 20, 37) : [np.float64(0.21), np.float64(0.45), np.float64(0.81), np.float64(1.5)]
+N Tk 50 J_CO 44.5  eta_CO,min for Tpk= (5.1, 11, 20, 37) : [np.float64(0.11), np.float64(0.25), np.float64(0.45), np.float64(0.83)]
+N Tk 80 J_CO 74.4  eta_CO,min for Tpk= (5.1, 11, 20, 37) : [np.float64(0.07), np.float64(0.15), np.float64(0.27), np.float64(0.5)]
+S Tk 17 J_CO 11.9  eta_CO,min for Tpk= (6.5, 13, 18, 37) : [np.float64(0.55), np.float64(1.1), np.float64(1.52), np.float64(3.12)]
+S Tk 20 J_CO 14.8  eta_CO,min for Tpk= (6.5, 13, 18, 37) : [np.float64(0.44), np.float64(0.88), np.float64(1.22), np.float64(2.5)]
+S Tk 25 J_CO 19.7  eta_CO,min for Tpk= (6.5, 13, 18, 37) : [np.float64(0.33), np.float64(0.66), np.float64(0.91), np.float64(1.88)]
+S Tk 30 J_CO 24.6  eta_CO,min for Tpk= (6.5, 13, 18, 37) : [np.float64(0.26), np.float64(0.53), np.float64(0.73), np.float64(1.5)]
+S Tk 50 J_CO 44.5  eta_CO,min for Tpk= (6.5, 13, 18, 37) : [np.float64(0.15), np.float64(0.29), np.float64(0.4), np.float64(0.83)]
+S Tk 80 J_CO 74.4  eta_CO,min for Tpk= (6.5, 13, 18, 37) : [np.float64(0.09), np.float64(0.17), np.float64(0.24), np.float64(0.5)]
+
+== (1b) unresolved/floor case: T_core=Tb_025/dil(s); Tk,min for eta_core=1 (J(Tk)>=Tcore); eta_core,min at Tk=20 and 30 K
+N s=0.10" dil 0.15 Tcore HCN/HCO+ 17.8/19.1 K  Tk,min(eta=1) 24/25 K  eta_min@20K 1.26/1.35  @30K 0.74/0.80
+N s=0.15" dil 0.28 Tcore HCN/HCO+ 9.4/10.0 K  Tk,min(eta=1) 15/16 K  eta_min@20K 0.66/0.71  @30K 0.39/0.42
+N s=0.20" dil 0.41 Tcore HCN/HCO+ 6.4/6.9 K  Tk,min(eta=1) 12/12 K  eta_min@20K 0.45/0.49  @30K 0.27/0.29
+N s=0.25" dil 0.52 Tcore HCN/HCO+ 5.1/5.4 K  Tk,min(eta=1) 10/11 K  eta_min@20K 0.36/0.38  @30K 0.21/0.23
+N s=0.34" dil 0.67 Tcore HCN/HCO+ 3.9/4.2 K  Tk,min(eta=1) 9/9 K  eta_min@20K 0.28/0.30  @30K 0.16/0.18
+S s=0.10" dil 0.15 Tcore HCN/HCO+ 9.1/19.9 K  Tk,min(eta=1) 15/26 K  eta_min@20K 0.64/1.40  @30K 0.38/0.83
+S s=0.15" dil 0.28 Tcore HCN/HCO+ 4.8/10.5 K  Tk,min(eta=1) 10/16 K  eta_min@20K 0.34/0.74  @30K 0.20/0.44
+S s=0.20" dil 0.41 Tcore HCN/HCO+ 3.3/7.2 K  Tk,min(eta=1) 8/13 K  eta_min@20K 0.23/0.51  @30K 0.14/0.30
+S s=0.25" dil 0.52 Tcore HCN/HCO+ 2.6/5.7 K  Tk,min(eta=1) 7/11 K  eta_min@20K 0.18/0.40  @30K 0.11/0.24
+S s=0.34" dil 0.67 Tcore HCN/HCO+ 2.0/4.4 K  Tk,min(eta=1) 7/10 K  eta_min@20K 0.14/0.31  @30K 0.08/0.18
+
+== (2) physical quantities from Q20b posteriors (1z, Tbg 2.73, lq0)
+S r8a X=1e-8 {'T': array([16.87, 19.57, 24.63]), 'n': array([4.67, 5.05, 5.35]), 'logNHCN': array([16.19, 16.58, 16.9 ]), 'logNHCO': array([15.69, 16.09, 16.42]), 'logNH2': array([24.19, 24.58, 24.9 ]), 'L_pc': array([ 2.33, 11.04, 55.6 ]), 'Mcore_Msun_log': array([7.75, 8.13, 8.45]), 'logP': array([5.99, 6.33, 6.67]), 'eta': array([0.49, 0.61, 0.75]), 'tau32HCN': array([16.23, 39.29, 83.54]), 'tau32HCO': array([ 7.57, 19.13, 39.89]), 'Xratio_HCN_HCO': array([0.42, 0.5 , 0.56]), 'tau43HCN': array([ 4.73, 11.57, 25.52]), 'P_H13CN_ok': {30: 0.3943333333333333, 50: 0.5889166666666666, 100: 0.8986666666666666}}
+S r8a X=1e-9 {'T': array([16.87, 19.57, 24.63]), 'n': array([4.67, 5.05, 5.35]), 'logNHCN': array([16.19, 16.58, 16.9 ]), 'logNHCO': array([15.69, 16.09, 16.42]), 'logNH2': array([25.19, 25.58, 25.9 ]), 'L_pc': array([ 23.25, 110.43, 555.99]), 'Mcore_Msun_log': array([8.75, 9.13, 9.45]), 'logP': array([5.99, 6.33, 6.67]), 'eta': array([0.49, 0.61, 0.75]), 'tau32HCN': array([16.23, 39.29, 83.54]), 'tau32HCO': array([ 7.57, 19.13, 39.89]), 'Xratio_HCN_HCO': array([0.42, 0.5 , 0.56]), 'tau43HCN': array([ 4.73, 11.57, 25.52]), 'P_H13CN_ok': {30: 0.3943333333333333, 50: 0.5889166666666666, 100: 0.8986666666666666}}
+S r8 X=1e-8 {'T': array([16.79, 19.54, 24.75]), 'n': array([4.67, 5.06, 5.35]), 'logNHCN': array([16.18, 16.56, 16.9 ]), 'logNHCO': array([15.68, 16.08, 16.41]), 'logNH2': array([24.18, 24.56, 24.9 ]), 'L_pc': array([ 2.24, 10.09, 55.25]), 'Mcore_Msun_log': array([5.78, 6.8 , 7.84]), 'logP': array([5.99, 6.34, 6.67]), 'eta': array([0.  , 0.03, 0.32]), 'tau32HCN': array([15.88, 38.07, 82.63]), 'tau32HCO': array([ 7.41, 18.61, 39.39]), 'Xratio_HCN_HCO': array([0.42, 0.5 , 0.56]), 'tau43HCN': array([ 4.52, 10.99, 25.07]), 'P_H13CN_ok': {30: 0.4101666666666667, 50: 0.6093333333333333, 100: 0.8998333333333334}}
+S r8 X=1e-9 {'T': array([16.79, 19.54, 24.75]), 'n': array([4.67, 5.06, 5.35]), 'logNHCN': array([16.18, 16.56, 16.9 ]), 'logNHCO': array([15.68, 16.08, 16.41]), 'logNH2': array([25.18, 25.56, 25.9 ]), 'L_pc': array([ 22.44, 100.88, 552.49]), 'Mcore_Msun_log': array([6.78, 7.8 , 8.84]), 'logP': array([5.99, 6.34, 6.67]), 'eta': array([0.  , 0.03, 0.32]), 'tau32HCN': array([15.88, 38.07, 82.63]), 'tau32HCO': array([ 7.41, 18.61, 39.39]), 'Xratio_HCN_HCO': array([0.42, 0.5 , 0.56]), 'tau43HCN': array([ 4.52, 10.99, 25.07]), 'P_H13CN_ok': {30: 0.4101666666666667, 50: 0.6093333333333333, 100: 0.8998333333333334}}
+N r8a X=1e-8 {'T': array([25.56, 36.8 , 54.81]), 'n': array([4.93, 5.09, 5.25]), 'logNHCN': array([16.11, 16.21, 16.31]), 'logNHCO': array([15.15, 15.22, 15.29]), 'logNH2': array([24.11, 24.21, 24.31]), 'L_pc': array([3.18, 4.24, 5.6 ]), 'Mcore_Msun_log': array([7.9 , 8.  , 8.09]), 'logP': array([6.6 , 6.66, 6.73]), 'eta': array([0.8 , 0.91, 0.97]), 'tau32HCN': array([13.27, 16.54, 20.8 ]), 'tau32HCO': array([2.43, 2.8 , 3.31]), 'Xratio_HCN_HCO': array([0.95, 0.99, 1.03]), 'tau43HCN': array([4.13, 5.48, 7.63]), 'P_H13CN_ok': {30: 0.10783333333333334, 50: 0.7033333333333334, 100: 0.99825}}
+N r8a X=1e-9 {'T': array([25.56, 36.8 , 54.81]), 'n': array([4.93, 5.09, 5.25]), 'logNHCN': array([16.11, 16.21, 16.31]), 'logNHCO': array([15.15, 15.22, 15.29]), 'logNH2': array([25.11, 25.21, 25.31]), 'L_pc': array([31.84, 42.37, 56.01]), 'Mcore_Msun_log': array([8.9 , 9.  , 9.09]), 'logP': array([6.6 , 6.66, 6.73]), 'eta': array([0.8 , 0.91, 0.97]), 'tau32HCN': array([13.27, 16.54, 20.8 ]), 'tau32HCO': array([2.43, 2.8 , 3.31]), 'Xratio_HCN_HCO': array([0.95, 0.99, 1.03]), 'tau43HCN': array([4.13, 5.48, 7.63]), 'P_H13CN_ok': {30: 0.10783333333333334, 50: 0.7033333333333334, 100: 0.99825}}
+N r8 X=1e-8 {'T': array([38.13, 61.12, 94.48]), 'n': array([4.64, 4.81, 5.02]), 'logNHCN': array([15.87, 16.03, 16.17]), 'logNHCO': array([14.96, 15.08, 15.18]), 'logNH2': array([23.87, 24.03, 24.17]), 'L_pc': array([3.66, 4.94, 6.99]), 'Mcore_Msun_log': array([5.32, 6.34, 7.38]), 'logP': array([6.52, 6.61, 6.69]), 'eta': array([0.  , 0.03, 0.33]), 'tau32HCN': array([ 6.9 , 10.59, 15.29]), 'tau32HCO': array([1.39, 1.99, 2.6 ]), 'Xratio_HCN_HCO': array([0.89, 0.95, 1.01]), 'tau43HCN': array([1.22, 2.41, 4.4 ]), 'P_H13CN_ok': {30: 0.7529166666666667, 50: 0.96025, 100: 0.9996666666666667}}
+N r8 X=1e-9 {'T': array([38.13, 61.12, 94.48]), 'n': array([4.64, 4.81, 5.02]), 'logNHCN': array([15.87, 16.03, 16.17]), 'logNHCO': array([14.96, 15.08, 15.18]), 'logNH2': array([24.87, 25.03, 25.17]), 'L_pc': array([36.56, 49.36, 69.93]), 'Mcore_Msun_log': array([6.32, 7.34, 8.38]), 'logP': array([6.52, 6.61, 6.69]), 'eta': array([0.  , 0.03, 0.33]), 'tau32HCN': array([ 6.9 , 10.59, 15.29]), 'tau32HCO': array([1.39, 1.99, 2.6 ]), 'Xratio_HCN_HCO': array([0.89, 0.95, 1.01]), 'tau43HCN': array([1.22, 2.41, 4.4 ]), 'P_H13CN_ok': {30: 0.7529166666666667, 50: 0.96025, 100: 0.9996666666666667}}
+
+== (4) dust continuum cross-check N_H2 (tau=Tb/[J_258(Td)-J(Tbg)], kappa_1.2mm=1.0 cm2/g dust, GDR 100, mu=2.8)
+N Td 20 tau1.2mm 0.013 N_H2=2.7e+23 cm-2 (beam-averaged, 0.24")
+N Td 30 tau1.2mm 0.007 N_H2=1.6e+23 cm-2 (beam-averaged, 0.24")
+N Td 50 tau1.2mm 0.004 N_H2=8.8e+22 cm-2 (beam-averaged, 0.24")
+N Td 80 tau1.2mm 0.002 N_H2=5.2e+22 cm-2 (beam-averaged, 0.24")
+S Td 20 tau1.2mm 0.041 N_H2=8.9e+23 cm-2 (beam-averaged, 0.24")
+S Td 30 tau1.2mm 0.024 N_H2=5.3e+23 cm-2 (beam-averaged, 0.24")
+S Td 50 tau1.2mm 0.013 N_H2=2.9e+23 cm-2 (beam-averaged, 0.24")
+S Td 80 tau1.2mm 0.008 N_H2=1.7e+23 cm-2 (beam-averaged, 0.24")

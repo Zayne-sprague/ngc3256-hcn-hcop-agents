@@ -1,0 +1,38 @@
+M18 OF-Red from M18 S: dE=-0.22" dN=+3.56" r=3.57" PA=357 deg
+M18 South-OF-Blue from M18 S: dE=-0.54" dN=-2.23" r=2.29" PA=194 deg
+M18 OF-Red from M18 N: dE=-0.32" dN=-1.64" r=1.67" PA=191 deg
+M18 North-OF-Blue from M18 N: dE=-2.27" dN=+0.88" r=2.43" PA=291 deg
+HCN window |v|=180-320: ridge(+180..320) at +3.3" N of S 0.246+-0.025 Jy km/s | lobe(-320..-180) at -1.85" 0.321+-0.025 | red mirror position +1.85" N of S 0.128 | blue at mirror-of-ridge-about-N (1.85" N of N) -0.015 | ridge/lobe = 0.77+-0.10
+HCN window |v|=150-350: ridge(+150..350) at +3.3" N of S 0.302+-0.032 Jy km/s | lobe(-350..-150) at -1.85" 0.448+-0.036 | red mirror position +1.85" N of S 0.198 | blue at mirror-of-ridge-about-N (1.85" N of N) -0.017 | ridge/lobe = 0.67+-0.09
+HCN window |v|=240-360: ridge(+240..360) at +3.3" N of S 0.168+-0.021 Jy km/s | lobe(-360..-240) at -1.85" 0.234+-0.027 | red mirror position +1.85" N of S 0.110 | blue at mirror-of-ridge-about-N (1.85" N of N) -0.008 | ridge/lobe = 0.72+-0.12
+HCN core(-150..150) ridge position 2.95, lobe position 0.616 Jy km/s; wing/core ridge 8.3%, lobe 52% (wing |v|=180..320)
+  HCN ridge r=1" red wing 150..400: F=0.133 Jy/b km/s (mean over aperture, 1.05" beam), <v>=+257 (MC sd 8, frac MC>0 sums 1.00), rms-width about <v> (truncated at 150/400) 59 km/s, noise 0.29 mJy/b/chan
+  HCN ridge r=1" blue wing 150..400: F=-0.013 Jy/b km/s (mean over aperture, 1.05" beam), <v>=+nan (MC sd 53239, frac MC>0 sums 0.08), rms-width about <v> (truncated at 150/400) nan km/s, noise 0.29 mJy/b/chan
+  HCN lobe  r=1" red wing 150..400: F=-0.012 Jy/b km/s (mean over aperture, 1.05" beam), <v>=+nan (MC sd 2295, frac MC>0 sums 0.17), rms-width about <v> (truncated at 150/400) nan km/s, noise 0.39 mJy/b/chan
+  HCN lobe  r=1" blue wing 150..400: F=0.202 Jy/b km/s (mean over aperture, 1.05" beam), <v>=-253 (MC sd 7, frac MC>0 sums 1.00), rms-width about <v> (truncated at 150/400) 68 km/s, noise 0.39 mJy/b/chan
+  HCN N     r=1" red wing 150..400: F=0.088 Jy/b km/s (mean over aperture, 1.05" beam), <v>=+223 (MC sd 17, frac MC>0 sums 1.00), rms-width about <v> (truncated at 150/400) 65 km/s, noise 0.32 mJy/b/chan
+  HCN N     r=1" blue wing 150..400: F=0.012 Jy/b km/s (mean over aperture, 1.05" beam), <v>=-130 (MC sd 1813, frac MC>0 sums 0.88), rms-width about <v> (truncated at 150/400) 0 km/s, noise 0.32 mJy/b/chan
+  HCN S     r=1" red wing 150..400: F=0.035 Jy/b km/s (mean over aperture, 1.05" beam), <v>=+189 (MC sd 67, frac MC>0 sums 1.00), rms-width about <v> (truncated at 150/400) 45 km/s, noise 0.30 mJy/b/chan
+  HCN S     r=1" blue wing 150..400: F=0.065 Jy/b km/s (mean over aperture, 1.05" beam), <v>=-229 (MC sd 20, frac MC>0 sums 1.00), rms-width about <v> (truncated at 150/400) 71 km/s, noise 0.30 mJy/b/chan
+HCN 2D fit ridge180-320: centroid dE=+0.11+-0.34" dN=+3.29+-0.34" from S (r=3.29", PA=2 deg); intrinsic sigma 0.53" (FWHM 1.25" +-0.75); amps ridge 160.4 N 90.4 S 27.6 mJy/b km/s
+     relative to N: dE=-0.05" dN=-1.83" r=1.83" PA from N 182 deg; N position rel S: dE=+0.16 dN=+5.11
+HCN 2D fit lobe-320..-180: centroid dE=-0.13+-0.19" dN=-2.08+-0.19" from S (r=2.08", PA=183 deg); intrinsic sigma 0.36" (FWHM 0.84" +-0.52); amps ridge 276.1 N 0.0 S 89.0 mJy/b km/s
+     relative to N: dE=-0.28" dN=-7.19" r=7.19" PA from N 182 deg; N position rel S: dE=+0.16 dN=+5.11
+HCN core line-peak velocity at the ridge (r<1.5", >5 sigma, 299 px): median -1, range -67..+34 km/s (cf. ridge wing <v> ~+250; s77g rotation null predicts <=0.04 vs observed 0.2 Jy km/s)
+HCO+ window |v|=180-320: ridge(+180..320) at +3.3" N of S 0.196+-0.032 Jy km/s | lobe(-320..-180) at -1.85" 0.206+-0.029 | red mirror position +1.85" N of S 0.083 | blue at mirror-of-ridge-about-N (1.85" N of N) 0.006 | ridge/lobe = 0.95+-0.21
+HCO+ window |v|=150-350: ridge(+150..350) at +3.3" N of S 0.255+-0.044 Jy km/s | lobe(-350..-150) at -1.85" 0.306+-0.038 | red mirror position +1.85" N of S 0.111 | blue at mirror-of-ridge-about-N (1.85" N of N) 0.038 | ridge/lobe = 0.83+-0.18
+HCO+ window |v|=240-360: ridge(+240..360) at +3.3" N of S 0.129+-0.027 Jy km/s | lobe(-360..-240) at -1.85" 0.098+-0.025 | red mirror position +1.85" N of S 0.058 | blue at mirror-of-ridge-about-N (1.85" N of N) 0.009 | ridge/lobe = 1.33+-0.44
+HCO+ core(-150..150) ridge position 6.23, lobe position 1.320 Jy km/s; wing/core ridge 3.1%, lobe 16% (wing |v|=180..320)
+  HCO+ ridge r=1" red wing 150..400: F=0.096 Jy/b km/s (mean over aperture, 1.05" beam), <v>=+229 (MC sd 13, frac MC>0 sums 1.00), rms-width about <v> (truncated at 150/400) 32 km/s, noise 0.29 mJy/b/chan
+  HCO+ ridge r=1" blue wing 150..400: F=-0.000 Jy/b km/s (mean over aperture, 1.05" beam), <v>=+nan (MC sd 2276, frac MC>0 sums 0.49), rms-width about <v> (truncated at 150/400) nan km/s, noise 0.29 mJy/b/chan
+  HCO+ lobe  r=1" red wing 150..400: F=-0.028 Jy/b km/s (mean over aperture, 1.05" beam), <v>=+nan (MC sd 18904, frac MC>0 sums 0.02), rms-width about <v> (truncated at 150/400) nan km/s, noise 0.38 mJy/b/chan
+  HCO+ lobe  r=1" blue wing 150..400: F=0.119 Jy/b km/s (mean over aperture, 1.05" beam), <v>=-217 (MC sd 15, frac MC>0 sums 1.00), rms-width about <v> (truncated at 150/400) 47 km/s, noise 0.38 mJy/b/chan
+  HCO+ N     r=1" red wing 150..400: F=0.072 Jy/b km/s (mean over aperture, 1.05" beam), <v>=+223 (MC sd 22, frac MC>0 sums 1.00), rms-width about <v> (truncated at 150/400) 53 km/s, noise 0.33 mJy/b/chan
+  HCO+ N     r=1" blue wing 150..400: F=0.003 Jy/b km/s (mean over aperture, 1.05" beam), <v>=-360 (MC sd 43599, frac MC>0 sums 0.60), rms-width about <v> (truncated at 150/400) 104 km/s, noise 0.33 mJy/b/chan
+  HCO+ S     r=1" red wing 150..400: F=0.042 Jy/b km/s (mean over aperture, 1.05" beam), <v>=+178 (MC sd 60, frac MC>0 sums 1.00), rms-width about <v> (truncated at 150/400) 41 km/s, noise 0.31 mJy/b/chan
+  HCO+ S     r=1" blue wing 150..400: F=0.089 Jy/b km/s (mean over aperture, 1.05" beam), <v>=-206 (MC sd 19, frac MC>0 sums 1.00), rms-width about <v> (truncated at 150/400) 52 km/s, noise 0.31 mJy/b/chan
+HCO+ 2D fit ridge180-320: centroid dE=+0.04+-0.45" dN=+3.43+-0.46" from S (r=3.43", PA=1 deg); intrinsic sigma 0.40" (FWHM 0.93" +-1.16); amps ridge 150.8 N 82.5 S 22.5 mJy/b km/s
+     relative to N: dE=-0.11" dN=-1.68" r=1.68" PA from N 184 deg; N position rel S: dE=+0.16 dN=+5.11
+HCO+ 2D fit lobe-320..-180: centroid dE=-0.37+-0.32" dN=-2.37+-0.32" from S (r=2.40", PA=189 deg); intrinsic sigma 0.40" (FWHM 0.93" +-0.79); amps ridge 194.0 N 1.6 S 128.9 mJy/b km/s
+     relative to N: dE=-0.52" dN=-7.48" r=7.50" PA from N 184 deg; N position rel S: dE=+0.16 dN=+5.11
+HCO+ core line-peak velocity at the ridge (r<1.5", >5 sigma, 311 px): median -9, range -66..+65 km/s (cf. ridge wing <v> ~+250; s77g rotation null predicts <=0.04 vs observed 0.2 Jy km/s)

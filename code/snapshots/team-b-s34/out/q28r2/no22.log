@@ -1,0 +1,10 @@
+# variant no22: taumax 3.0 drop [6, 7, 8, 9] sig (0.1, 0.15, 0.15, 0.15) cap None; compact configs 58320 (ok 44424), E models 68796 (ok 52323)
+/workspace/scripts/s362_q28r2_fit.py:66: RuntimeWarning: divide by zero encountered in log
+  lj=np.log(R1['N']['ZE']/NCtot)+np.log(R1['S']['ZE']/NCtot)
+ N: min chi2 two-phase (own E) 3.96; lnZ -18.88
+ S: min chi2 two-phase (own E) 1.54; lnZ -17.39
+ joint shared-E: min chi2 5.50 (N 3.96, S 1.54); lnZ shared -29.57 vs separate-E -36.27
+ N: one-state two-size: min chi2 41.76 lnZ -33.20; best Tk 100 n 5.0 N 14.5 A 0.5 theta 1.2 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 14.32
+ S: one-state two-size: min chi2 23.47 lnZ -24.07; best Tk 100 n 4.5 N 15.0 A 0.5 theta 0.8 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 6.68
+ joint ln BF shared two-phase / (one-state N x one-state S) = 27.70
+ time 122s

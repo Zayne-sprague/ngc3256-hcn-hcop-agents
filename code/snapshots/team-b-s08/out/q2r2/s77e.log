@@ -1,0 +1,64 @@
+[C0 shared kinematics] primary prior n 1e4-1e7, Tk 10-50: ESS=2662 chi2min=5.6  log n(H2) median 4.89 [16-84: 4.61,5.23]  Tk median 29 K [16,43]  eta 0.47 [0.22,0.81]
+   log M_HCN median 8.16 (95%: 7.64..8.71; 68%: 7.86..8.48) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.80 (68%: 8.61..9.03); X=1e-8: 7.80;  log M_HCO+ median 7.45 (95%: 6.80..8.15) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.91 (68% 7.74..8.14), 3e-9: 7.43, 1e-8: 6.91 (68% 6.74..7.14) [log Msun]; number of HCO+ molecules log 55.55, HCN log 56.44
+   N_HCN/N_HCO+ (log) 0.88 [0.73,1.04];  model 3-2/1-0 T ratio HCN 0.07, HCO+ 0.20; 4-3/3-2 HCN 0.15 HCO+ 0.28; 2-1/3-2 HCN 5.17 HCO+ 3.24; P(n>1e6)=0.00, P(n<1e5)=0.64; sd(log M_HCN)=0.29 of which X prior alone 0.25
+[Cs own kinematics] primary prior n 1e4-1e7, Tk 10-50: ESS=2342 chi2min=6.0  log n(H2) median 4.91 [16-84: 4.63,5.25]  Tk median 28 K [15,43]  eta 0.50 [0.23,0.82]
+   log M_HCN median 8.20 (95%: 7.71..8.74; 68%: 7.93..8.52) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.87 (68%: 8.68..9.08); X=1e-8: 7.87;  log M_HCO+ median 7.46 (95%: 6.78..8.12) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.89 (68% 7.71..8.11), 3e-9: 7.41, 1e-8: 6.89 (68% 6.71..7.11) [log Msun]; number of HCO+ molecules log 55.53, HCN log 56.51
+   N_HCN/N_HCO+ (log) 0.98 [0.82,1.13];  model 3-2/1-0 T ratio HCN 0.07, HCO+ 0.21; 4-3/3-2 HCN 0.15 HCO+ 0.27; 2-1/3-2 HCN 5.21 HCO+ 3.22; P(n>1e6)=0.00, P(n<1e5)=0.62; sd(log M_HCN)=0.28 of which X prior alone 0.25
+[HDO100 (HCN-HDO removed)] primary prior n 1e4-1e7, Tk 10-50: ESS=2953 chi2min=5.7  log n(H2) median 4.90 [16-84: 4.61,5.25]  Tk median 28 K [15,43]  eta 0.46 [0.20,0.80]
+   log M_HCN median 8.13 (95%: 7.61..8.71; 68%: 7.84..8.46) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.77 (68%: 8.57..8.99); X=1e-8: 7.77;  log M_HCO+ median 7.45 (95%: 6.80..8.13) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.91 (68% 7.73..8.13), 3e-9: 7.43, 1e-8: 6.91 (68% 6.73..7.13) [log Msun]; number of HCO+ molecules log 55.55, HCN log 56.41
+   N_HCN/N_HCO+ (log) 0.85 [0.70,1.01];  model 3-2/1-0 T ratio HCN 0.07, HCO+ 0.20; 4-3/3-2 HCN 0.15 HCO+ 0.27; 2-1/3-2 HCN 5.21 HCO+ 3.26; P(n>1e6)=0.00, P(n<1e5)=0.63; sd(log M_HCN)=0.29 of which X prior alone 0.26
+[HDO195] primary prior n 1e4-1e7, Tk 10-50: ESS=2941 chi2min=6.0  log n(H2) median 4.88 [16-84: 4.60,5.23]  Tk median 29 K [16,43]  eta 0.46 [0.20,0.79]
+   log M_HCN median 8.13 (95%: 7.58..8.68; 68%: 7.81..8.45) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.73 (68%: 8.55..8.96); X=1e-8: 7.73;  log M_HCO+ median 7.45 (95%: 6.79..8.14) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.91 (68% 7.72..8.14), 3e-9: 7.43, 1e-8: 6.91 (68% 6.72..7.14) [log Msun]; number of HCO+ molecules log 55.55, HCN log 56.37
+   N_HCN/N_HCO+ (log) 0.82 [0.67,0.98];  model 3-2/1-0 T ratio HCN 0.07, HCO+ 0.20; 4-3/3-2 HCN 0.15 HCO+ 0.28; 2-1/3-2 HCN 5.18 HCO+ 3.25; P(n>1e6)=0.00, P(n<1e5)=0.65; sd(log M_HCN)=0.30 of which X prior alone 0.26
+[Cs, wide prior n 1e3-1e8, Tk 10-300]: ESS=1564 chi2min=3.9  log n(H2) median 4.34 [16-84: 4.03,4.65]  Tk median 144 K [54,249]  eta 0.48 [0.22,0.81]
+   log M_HCN median 8.17 (95%: 7.56..8.73; 68%: 7.84..8.49) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.78 (68%: 8.55..9.06); X=1e-8: 7.78;  log M_HCO+ median 7.53 (95%: 6.83..8.34) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.99 (68% 7.77..8.27), 3e-9: 7.51, 1e-8: 6.99 (68% 6.77..7.27) [log Msun]; number of HCO+ molecules log 55.63, HCN log 56.42
+   N_HCN/N_HCO+ (log) 0.78 [0.59,0.98];  model 3-2/1-0 T ratio HCN 0.12, HCO+ 0.21; 4-3/3-2 HCN 0.35 HCO+ 0.43; 2-1/3-2 HCN 3.36 HCO+ 2.65; P(n>1e6)=0.00, P(n<1e5)=0.95; sd(log M_HCN)=0.31 of which X prior alone 0.25
+[Cs, Tk 10-15 (JWST outer, <15 K)]: ESS=2244 chi2min=7.1  log n(H2) median 5.41 [16-84: 5.22,5.59]  Tk median 12 K [11,14]  eta 0.52 [0.24,0.83]
+   log M_HCN median 8.21 (95%: 7.72..8.75; 68%: 7.95..8.52) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.88 (68%: 8.70..9.08); X=1e-8: 7.88;  log M_HCO+ median 7.41 (95%: 6.78..8.06) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.88 (68% 7.71..8.07), 3e-9: 7.41, 1e-8: 6.88 (68% 6.71..7.07) [log Msun]; number of HCO+ molecules log 55.52, HCN log 56.52
+   N_HCN/N_HCO+ (log) 1.00 [0.85,1.16];  model 3-2/1-0 T ratio HCN 0.05, HCO+ 0.20; 4-3/3-2 HCN 0.07 HCO+ 0.14; 2-1/3-2 HCN 6.95 HCO+ 3.94; P(n>1e6)=0.00, P(n<1e5)=0.03; sd(log M_HCN)=0.27 of which X prior alone 0.25
+[Cs, Tk 40-100 (JWST inner >40 K)]: ESS=3001 chi2min=5.1  log n(H2) median 4.53 [16-84: 4.31,4.72]  Tk median 69 K [49,90]  eta 0.50 [0.23,0.81]
+   log M_HCN median 8.19 (95%: 7.65..8.72; 68%: 7.88..8.49) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.82 (68%: 8.62..9.05); X=1e-8: 7.82;  log M_HCO+ median 7.47 (95%: 6.80..8.14) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.93 (68% 7.73..8.16), 3e-9: 7.45, 1e-8: 6.93 (68% 6.73..7.16) [log Msun]; number of HCO+ molecules log 55.57, HCN log 56.46
+   N_HCN/N_HCO+ (log) 0.89 [0.73,1.05];  model 3-2/1-0 T ratio HCN 0.10, HCO+ 0.21; 4-3/3-2 HCN 0.26 HCO+ 0.38; 2-1/3-2 HCN 4.01 HCO+ 2.78; P(n>1e6)=0.00, P(n<1e5)=1.00; sd(log M_HCN)=0.29 of which X prior alone 0.25
+[Cs, N(H2) cap 1e22 (Michiyama N_CO/1e-4 scale)]: ESS=9 chi2min=20.5  log n(H2) median 5.20 [16-84: 5.13,5.41]  Tk median 25 K [19,29]  eta 0.95 [0.84,1.00]
+   log M_HCN median 7.32 (95%: 7.21..7.40; 68%: 7.27..7.40) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.26 (68%: 8.21..8.31); X=1e-8: 7.26;  log M_HCO+ median 7.14 (95%: 6.61..7.38) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.57 (68% 7.45..7.64), 3e-9: 7.10, 1e-8: 6.57 (68% 6.45..6.64) [log Msun]; number of HCO+ molecules log 55.21, HCN log 55.90
+   N_HCN/N_HCO+ (log) 0.67 [0.59,0.87];  model 3-2/1-0 T ratio HCN 0.08, HCO+ 0.33; 4-3/3-2 HCN 0.14 HCO+ 0.27; 2-1/3-2 HCN 5.05 HCO+ 2.92; P(n>1e6)=0.00, P(n<1e5)=0.00; sd(log M_HCN)=0.05 of which X prior alone 0.05
+[Cs, N(H2) cap 1e24]: ESS=3826 chi2min=5.0  log n(H2) median 4.84 [16-84: 4.54,5.20]  Tk median 28 K [15,43]  eta 0.29 [0.10,0.67]
+   log M_HCN median 8.34 (95%: 7.77..9.04; 68%: 8.01..8.72) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.93 (68%: 8.73..9.18); X=1e-8: 7.93;  log M_HCO+ median 7.49 (95%: 6.80..8.22) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.94 (68% 7.75..8.20), 3e-9: 7.47, 1e-8: 6.94 (68% 6.75..7.20) [log Msun]; number of HCO+ molecules log 55.58, HCN log 56.57
+   N_HCN/N_HCO+ (log) 0.98 [0.83,1.14];  model 3-2/1-0 T ratio HCN 0.08, HCO+ 0.19; 4-3/3-2 HCN 0.15 HCO+ 0.27; 2-1/3-2 HCN 5.08 HCO+ 3.25; P(n>1e6)=0.00, P(n<1e5)=0.69; sd(log M_HCN)=0.34 of which X prior alone 0.28
+[Cs, N(H2) cap 1e25 (no effective cap)]: ESS=3957 chi2min=3.7  log n(H2) median 4.68 [16-84: 4.30,5.07]  Tk median 25 K [14,41]  eta 0.06 [0.03,0.32]
+   log M_HCN median 8.61 (95%: 7.90..9.27; 68%: 8.24..8.93) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 9.11 (68%: 8.84..9.42); X=1e-8: 8.11;  log M_HCO+ median 7.66 (95%: 6.89..8.47) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 8.12 (68% 7.84..8.44), 3e-9: 7.64, 1e-8: 7.12 (68% 6.84..7.44) [log Msun]; number of HCO+ molecules log 55.76, HCN log 56.75
+   N_HCN/N_HCO+ (log) 0.99 [0.84,1.14];  model 3-2/1-0 T ratio HCN 0.10, HCO+ 0.20; 4-3/3-2 HCN 0.15 HCO+ 0.25; 2-1/3-2 HCN 4.39 HCO+ 3.12; P(n>1e6)=0.00, P(n<1e5)=0.79; sd(log M_HCN)=0.35 of which X prior alone 0.28
+[Cs, no 1-0 constraint]: ESS=16081 chi2min=0.0  log n(H2) median 6.31 [16-84: 5.22,6.83]  Tk median 18 K [12,28]  eta 0.24 [0.06,0.67]
+   log M_HCN median 7.37 (95%: 6.36..8.58; 68%: 6.80..8.11) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 7.85 (68%: 7.34..8.66); X=1e-8: 6.85;  log M_HCO+ median 6.79 (95%: 5.99..7.87) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.21 (68% 6.93..7.71), 3e-9: 6.73, 1e-8: 6.21 (68% 5.93..6.71) [log Msun]; number of HCO+ molecules log 54.85, HCN log 55.49
+   N_HCN/N_HCO+ (log) 0.68 [0.36,0.98];  model 3-2/1-0 T ratio HCN 0.34, HCO+ 1.20; 4-3/3-2 HCN 0.17 HCO+ 0.33; 2-1/3-2 HCN 3.10 HCO+ 1.58; P(n>1e6)=0.64, P(n<1e5)=0.10; sd(log M_HCN)=0.60 of which X prior alone 0.28
+[Cs, r31 from the "total" aperture (HCN 0.40, HCO+ 0.19; same)]: ESS=2277 chi2min=6.7  log n(H2) median 4.90 [16-84: 4.62,5.24]  Tk median 29 K [15,43]  eta 0.49 [0.24,0.82]
+   log M_HCN median 8.21 (95%: 7.69..8.72; 68%: 7.93..8.50) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.87 (68%: 8.68..9.08); X=1e-8: 7.87;  log M_HCO+ median 7.42 (95%: 6.79..8.11) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.88 (68% 7.70..8.11), 3e-9: 7.41, 1e-8: 6.88 (68% 6.70..7.11) [log Msun]; number of HCO+ molecules log 55.52, HCN log 56.51
+   N_HCN/N_HCO+ (log) 0.98 [0.82,1.14];  model 3-2/1-0 T ratio HCN 0.07, HCO+ 0.20; 4-3/3-2 HCN 0.15 HCO+ 0.28; 2-1/3-2 HCN 5.19 HCO+ 3.22; P(n>1e6)=0.00, P(n<1e5)=0.63; sd(log M_HCN)=0.27 of which X prior alone 0.24
+[Cs, flux scale x1.25]: ESS=1832 chi2min=5.6  log n(H2) median 4.90 [16-84: 4.65,5.25]  Tk median 29 K [16,43]  eta 0.52 [0.26,0.84]
+   log M_HCN median 8.28 (95%: 7.81..8.76; 68%: 8.03..8.55) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.95 (68%: 8.78..9.16); X=1e-8: 7.95;  log M_HCO+ median 7.50 (95%: 6.86..8.17) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.98 (68% 7.80..8.19), 3e-9: 7.50, 1e-8: 6.98 (68% 6.80..7.19) [log Msun]; number of HCO+ molecules log 55.62, HCN log 56.59
+   N_HCN/N_HCO+ (log) 0.97 [0.82,1.13];  model 3-2/1-0 T ratio HCN 0.07, HCO+ 0.21; 4-3/3-2 HCN 0.15 HCO+ 0.28; 2-1/3-2 HCN 5.17 HCO+ 3.22; P(n>1e6)=0.00, P(n<1e5)=0.63; sd(log M_HCN)=0.25 of which X prior alone 0.23
+[Cs, flux scale x0.8]: ESS=2815 chi2min=6.0  log n(H2) median 4.89 [16-84: 4.62,5.25]  Tk median 28 K [15,43]  eta 0.49 [0.21,0.81]
+   log M_HCN median 8.17 (95%: 7.62..8.70; 68%: 7.85..8.48) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.78 (68%: 8.60..9.00); X=1e-8: 7.78;  log M_HCO+ median 7.33 (95%: 6.68..8.02) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.80 (68% 7.62..8.03), 3e-9: 7.32, 1e-8: 6.80 (68% 6.62..7.03) [log Msun]; number of HCO+ molecules log 55.44, HCN log 56.42
+   N_HCN/N_HCO+ (log) 0.98 [0.82,1.14];  model 3-2/1-0 T ratio HCN 0.07, HCO+ 0.20; 4-3/3-2 HCN 0.15 HCO+ 0.28; 2-1/3-2 HCN 5.21 HCO+ 3.24; P(n>1e6)=0.00, P(n<1e5)=0.63; sd(log M_HCN)=0.29 of which X prior alone 0.26
+[Cs, mass cap 5e7 (Sakamoto HV CO mass 2.5e7 X20, X20<=2)]: ESS=133 chi2min=6.1  log n(H2) median 5.00 [16-84: 4.86,5.31]  Tk median 34 K [18,46]  eta 0.31 [0.10,0.74]
+   log M_HCN median 7.64 (95%: 7.47..7.70; 68%: 7.55..7.68) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.56 (68%: 8.47..8.64); X=1e-8: 7.56;  log M_HCO+ median 7.21 (95%: 6.65..7.64) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.68 (68% 7.56..7.80), 3e-9: 7.20, 1e-8: 6.68 (68% 6.56..6.80) [log Msun]; number of HCO+ molecules log 55.32, HCN log 56.20
+   N_HCN/N_HCO+ (log) 0.87 [0.74,1.00];  model 3-2/1-0 T ratio HCN 0.09, HCO+ 0.28; 4-3/3-2 HCN 0.17 HCO+ 0.30; 2-1/3-2 HCN 4.54 HCO+ 2.79; P(n>1e6)=0.00, P(n<1e5)=0.49; sd(log M_HCN)=0.06 of which X prior alone 0.06
+[Cs, X(HCN) 3e-10..1e-8]: ESS=1554 chi2min=6.0  log n(H2) median 4.90 [16-84: 4.65,5.27]  Tk median 28 K [15,43]  eta 0.49 [0.25,0.83]
+   log M_HCN median 8.21 (95%: 7.69..8.74; 68%: 7.94..8.51) Msun [X(HCN) 1e-9..1e-8 prior];  at X=1e-9 fixed: 8.87 (68%: 8.68..9.09); X=1e-8: 7.87;  log M_HCO+ median 7.43 (95%: 6.78..8.11) [X(HCO+) 1e-9..1e-8]
+   HCO+-based mass: X(HCO+)=1e-9: 7.89 (68% 7.71..8.11), 3e-9: 7.41, 1e-8: 6.89 (68% 6.71..7.11) [log Msun]; number of HCO+ molecules log 55.53, HCN log 56.51
+   N_HCN/N_HCO+ (log) 0.98 [0.82,1.13];  model 3-2/1-0 T ratio HCN 0.07, HCO+ 0.21; 4-3/3-2 HCN 0.15 HCO+ 0.27; 2-1/3-2 HCN 5.24 HCO+ 3.24; P(n>1e6)=0.00, P(n<1e5)=0.63; sd(log M_HCN)=0.27 of which X prior alone 0.25
