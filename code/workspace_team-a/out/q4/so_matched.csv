@@ -1,0 +1,6 @@
+line,ous,beam,v0,fwhm_HCO,I_Kkms,eI_Kkms,I_alt_186,snr,rms_note,I_3sig_upper_Kkms
+SO 4_5-3_4,Xb55,9.4x6.3,2778.1954,160.0662,0.6259,0.0825,0.7877,7.5876,stat+tau spread,
+HCO+ 2-1,Xb55,9.4x6.3,2778.1954,160.0662,31.9936,0.9598,,,"window +-1.5 FWHM, no baseline (bright)",
+SO 6_5-5_4,Xb4f,9.4x6.3,2778.1954,160.0662,0.0471,0.0293,,1.6047,sigma_ch=2.33 mJy/beam; 3sig limit 0.135 K km/s,0.1351
+34SO 6(6)-5(5),Xb4f,9.4x6.3,2778.1954,160.0662,-0.0016,0.0139,,-0.1114,sigma_ch=1.80 mJy/beam; 3sig limit 0.042 K km/s,0.0418
+SO 8_8-7_7,Xb47,9.4x6.3,2778.1954,160.0662,-0.1077,0.1121,,-0.9607,sigma_ch=17.36 mJy/beam; 3sig limit 0.336 K km/s; HC15N 4-3 at -96 km/s fitted jointly,0.3362

@@ -1,0 +1,10 @@
+Percentile = fraction of Nishimura+2024 resolved nuclear ratios BELOW the value (n=21)
+N  55 pc R=0.99: all resolved below 38% (<= 38%); within +-50% in resolution (n=4) below 25%
+N 120 pc R=0.84: all resolved below 38% (<= 38%); within +-50% in resolution (n=10) below 50%
+N 250 pc R=0.69: all resolved below 19% (<= 19%); within +-50% in resolution (n=9) below 22%
+S  55 pc R=0.43: all resolved below 0% (<= 0%); within +-50% in resolution (n=4) below 0%
+S 120 pc R=0.40: all resolved below 0% (<= 0%); within +-50% in resolution (n=10) below 0%
+S 250 pc R=0.37: all resolved below 0% (<= 0%); within +-50% in resolution (n=9) below 0%
+N 6.5" (1.26 kpc, Xb4d) R=0.43: below 0% of resolved; global-ratio sample (n=20) below 5%
+S 6.5" (1.26 kpc, Xb4d) R=0.39: below 0% of resolved; global-ratio sample (n=20) below 5%
+Nishimura resolved: median 1.13, range 0.45-2.67; AGN-dominated (aAGN>=0.5) only IRAS F05189-2524 (aAGN 0.60, R=1.63)

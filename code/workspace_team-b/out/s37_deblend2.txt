@@ -1,0 +1,27 @@
+## deblend2: coefficients f (flux at J / Xb4d 3-2 template flux, Jy km/s units) per zone; err = noise x pixel-corr x chi2r inflation; boot = template-shape scatter
+Xb4f_J3_10     HCN   chi2r   30.8 rfit 12"  f_N 1.352+-0.189 f_S 1.363+-0.266 f_Ext -1.795+-1.885 c0 8.656 c1 -14.164  corr(N,S) 0.70 corr(N,Ext) -0.14 corr(S,Ext) 0.00
+Xb4f_J3_10     HCO+  chi2r   73.9 rfit 12"  f_N 1.305+-0.186 f_S 1.185+-0.180 f_Ext 0.500+-0.705 c0 -7.932 c1 6.942  corr(N,S) 0.73 corr(N,Ext) -0.12 corr(S,Ext) -0.01
+Xb55_J2_10     HCN   chi2r   28.7 rfit 16"  f_N 1.074+-0.112 f_S 1.308+-0.166 f_Ext -0.173+-0.743 c0 -2.061 c1 7.194  corr(N,S) 0.42 corr(N,Ext) 0.30 corr(S,Ext) 0.32
+Xb55_J2_10     HCO+  chi2r   99.4 rfit 16"  f_N 0.933+-0.142 f_S 1.071+-0.138 f_Ext 0.398+-0.481 c0 -6.061 c1 13.696  corr(N,S) 0.39 corr(N,Ext) 0.08 corr(S,Ext) 0.17
+Xb47_J4_10     HCN   chi2r   12.8 rfit 10"  f_N 1.095+-0.230 f_S 1.013+-0.329 f_Ext -0.330+-2.360 c0 4.496 c1 -15.777  corr(N,S) 0.82 corr(N,Ext) -0.02 corr(S,Ext) 0.19
+Xb47_J4_10     HCO+  chi2r   48.2 rfit 10"  f_N 1.335+-0.296 f_S 1.101+-0.286 f_Ext 0.616+-1.106 c0 -5.458 c1 -9.947  corr(N,S) 0.85 corr(N,Ext) -0.08 corr(S,Ext) 0.06
+Xb4f_J3_6.5    HCN   chi2r   20.8 rfit 12"  f_N 1.201+-0.091 f_S 1.331+-0.138 f_Ext -0.429+-1.245 c0 -0.252 c1 -1.165  corr(N,S) 0.47 corr(N,Ext) -0.51 corr(S,Ext) -0.29
+Xb4f_J3_6.5    HCO+  chi2r   53.2 rfit 12"  f_N 1.141+-0.091 f_S 1.174+-0.090 f_Ext 1.004+-0.669 c0 -7.558 c1 10.310  corr(N,S) 0.44 corr(N,Ext) -0.31 corr(S,Ext) -0.08
+Xb47_J4_6.5    HCN   chi2r    9.0 rfit 10"  f_N 1.029+-0.093 f_S 1.011+-0.146 f_Ext -1.110+-1.667 c0 3.554 c1 -8.828  corr(N,S) 0.59 corr(N,Ext) -0.28 corr(S,Ext) -0.02
+Xb47_J4_6.5    HCO+  chi2r   47.2 rfit 10"  f_N 1.255+-0.137 f_S 1.088+-0.141 f_Ext 0.770+-1.140 c0 -4.870 c1 -0.540  corr(N,S) 0.61 corr(N,Ext) -0.22 corr(S,Ext) 0.01
+## Xb4d 3-2 template zone fluxes (Jy km/s): N HCN 22.0 HCO+ 39.5 R 0.558; S HCN 15.3 HCO+ 40.8 R 0.375; Ext HCN 32.8 HCO+ 46.1 R 0.712
+## Xb55_J2_10 (ref Xb4f_J3_10): per zone
+  N    f_HCN 1.074+-0.112(boot 0.041)  f_HCO+ 0.933+-0.142(boot 0.051)  R_J(Jy)=0.642+-0.118(stat+misfit) +-0.012(template)  ladder J/3 [Jy] HCN 0.79+-0.14/0.03  HCO+ 0.72+-0.15/0.03  [K: x2.25]
+  S    f_HCN 1.308+-0.166(boot 0.087)  f_HCO+ 1.071+-0.138(boot 0.052)  R_J(Jy)=0.458+-0.083(stat+misfit) +-0.010(template)  ladder J/3 [Jy] HCN 0.96+-0.22/0.05  HCO+ 0.90+-0.18/0.04  [K: x2.25]
+  Ext  f_HCN -0.173+-0.743(boot 0.164)  f_HCO+ 0.398+-0.481(boot 0.137)  R_J(Jy)=nan+-nan(stat+misfit) +-0.093(template)  ladder J/3 [Jy] HCN nan+-nan/2.44  HCO+ 0.80+-1.48/1.69  [K: x2.25]
+## Xb47_J4_10 (ref Xb4f_J3_10): per zone
+  N    f_HCN 1.095+-0.230(boot 0.058)  f_HCO+ 1.335+-0.296(boot 0.098)  R_J(Jy)=0.458+-0.140(stat+misfit) +-0.019(template)  ladder J/3 [Jy] HCN 0.81+-0.20/0.02  HCO+ 1.02+-0.27/0.04  [K: x0.56]
+  S    f_HCN 1.013+-0.329(boot 0.105)  f_HCO+ 1.101+-0.286(boot 0.097)  R_J(Jy)=0.345+-0.143(stat+misfit) +-0.016(template)  ladder J/3 [Jy] HCN 0.74+-0.28/0.03  HCO+ 0.93+-0.28/0.04  [K: x0.56]
+  Ext  f_HCN -0.330+-2.360(boot 1.182)  f_HCO+ 0.616+-1.106(boot 0.671)  R_J(Jy)=nan+-nan(stat+misfit) +-1.077(template)  ladder J/3 [Jy] HCN nan+-nan/84.44  HCO+ 1.23+-2.81/1.44  [K: x0.56]
+## Xb47_J4_6.5 (ref Xb4f_J3_6.5): per zone
+  N    f_HCN 1.029+-0.093(boot 0.026)  f_HCO+ 1.255+-0.137(boot 0.061)  R_J(Jy)=0.457+-0.065(stat+misfit) +-0.018(template)  ladder J/3 [Jy] HCN 0.86+-0.10/0.02  HCO+ 1.10+-0.15/0.03  [K: x0.56]
+  S    f_HCN 1.011+-0.146(boot 0.090)  f_HCO+ 1.088+-0.141(boot 0.079)  R_J(Jy)=0.349+-0.068(stat+misfit) +-0.016(template)  ladder J/3 [Jy] HCN 0.76+-0.13/0.02  HCO+ 0.93+-0.14/0.03  [K: x0.56]
+  Ext  f_HCN -1.110+-1.667(boot 0.868)  f_HCO+ 0.770+-1.140(boot 0.561)  R_J(Jy)=nan+-nan(stat+misfit) +-1.062(template)  ladder J/3 [Jy] HCN nan+-nan/14.46  HCO+ 0.77+-1.25/0.40  [K: x0.56]
+## injection test (truth: unclipped templates, split +0.8", N shifted +0.3" E, true f below, flat bowl -0.3*peak/100, noise from own line-free channels), 40 draws each
+  Xb55_J2_10: true N,S,Ext [0.8 0.5 0.7]  recovered mean [0.966 0.751 1.696] sd [0.008 0.016 0.067]  corr(N,S) 0.34
+  Xb47_J4_10: true N,S,Ext [0.5 0.3 0.4]  recovered mean [0.514 0.351 1.159] sd [0.023 0.031 0.387]  corr(N,S) 0.62

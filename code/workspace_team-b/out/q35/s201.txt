@@ -1,0 +1,24 @@
+== HCN/CS, HCO+/CS (1-0/2-1), K km/s ratios at 1.7"
+N: HCN/CS 4.03+-0.29; HCO+/CS 4.19+-0.30; HCN/HCO+ 0.96+-0.05
+S: HCN/CS 2.47+-0.19; HCO+/CS 3.83+-0.29; HCN/HCO+ 0.65+-0.03
+C: HCN/CS 3.12+-0.23; HCO+/CS 4.67+-0.34; HCN/HCO+ 0.67+-0.03
+OS: HCN/CS 3.91+-0.38; HCO+/CS 6.25+-0.60; HCN/HCO+ 0.63+-0.04
+SW: HCN/CS 2.43+-0.18; HCO+/CS 3.93+-0.29; HCN/HCO+ 0.62+-0.03
+  HCN/CS N/S = 1.63+-0.17; HCO+/CS N/S = 1.09+-0.11; HCN/HCO+ N/S = 1.49+-0.11
+  HCN/CS C/S = 1.26+-0.13; HCO+/CS C/S = 1.22+-0.13; HCN/HCO+ C/S = 1.04+-0.08
+  HCN/CS OS/S = 1.58+-0.20; HCO+/CS OS/S = 1.63+-0.20; HCN/HCO+ OS/S = 0.97+-0.08
+  HCN/CS SW/S = 0.98+-0.11; HCO+/CS SW/S = 1.03+-0.11; HCN/HCO+ SW/S = 0.96+-0.07
+== HCN/CS, HCO+/CS (3-2/5-4), K km/s ratios at 1.7"
+N: HCN/CS 4.62+-0.38; HCO+/CS 5.93+-0.48; HCN/HCO+ 0.78+-0.04
+S: HCN/CS 3.84+-0.60; HCO+/CS 9.46+-1.46; HCN/HCO+ 0.41+-0.03
+C: HCN/CS 3.58+-0.50; HCO+/CS 8.31+-1.13; HCN/HCO+ 0.43+-0.03
+SW: HCN/CS 4.46+-1.12; HCO+/CS 12.82+-3.17; HCN/HCO+ 0.35+-0.03
+  HCN/CS N/S = 1.20+-0.21; HCO+/CS N/S = 0.63+-0.11; HCN/HCO+ N/S = 1.92+-0.16
+  HCN/CS C/S = 0.93+-0.20; HCO+/CS C/S = 0.88+-0.18; HCN/HCO+ C/S = 1.06+-0.09
+  HCN/CS SW/S = 1.16+-0.35; HCO+/CS SW/S = 1.36+-0.39; HCN/HCO+ SW/S = 0.86+-0.08
+
+== Thin isotopologues (Q29, 2.2" aperture, K km/s; out/q29/s185.txt): H13CN/H13CO+ intensity ratio
+N: 0.75+-0.16  (3 sigma upper at S: 1.12)
+S: 0.19+-0.20  (3 sigma upper at S: 0.77)
+Bridge: 0.94+-0.25  (3 sigma upper at S: 1.47)
+N/S (3 sigma lower limit using S upper): >1.0

@@ -1,0 +1,6 @@
+{
+ "id": "r10",
+ "to": "team-a",
+ "kind": "question",
+ "text": "Settle the 4-3 vs 3-2 N/S HCN/HCO+ contrast at one matched beam (1.0\" and 1.5\"), same estimator and +-350 km/s window, using 2018.1.00493 (HCN 4-3) and 2018.1.00223 (HCO+ 4-3) with the 3-2 Xb4d/Xb4b values and the Xb47 single-tuning 4-3. Report HCN 4-3/3-2 and HCO+ 4-3/3-2 (T_b) separately at N and S, with missing-flux corrections (S HCN 4-3 is 0.61 of Xb47). Does the contrast rise with J (3.3-3.7 at 4-3 vs ~2.0 at 3-2 at 1.0\")? If the data cannot decide, state the bound."
+}

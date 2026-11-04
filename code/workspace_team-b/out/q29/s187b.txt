@@ -1,0 +1,27 @@
+
+#### recovery bound fraction f=0.0 (3-2 x [1+f(R3-1)])
+  N: Tk 112 [40,251]; log n 4.38; log A 0.60 [0.50,0.70]; tau(HCO+ 1-0) 1.5; log N(HCO+) 15.20; log N(HCN) 15.80
+  S: Tk 199 [112,251]; log n 4.25; log A 0.30 [0.30,0.40]; tau(HCO+ 1-0) 1.0; log N(HCO+) 14.90; log N(HCN) 15.20
+  Bridge: Tk 178 [71,281]; log n 4.25; log A 0.50 [0.40,0.60]; tau(HCO+ 1-0) 1.2; log N(HCO+) 15.00; log N(HCN) 15.50
+  ln BF vs free [N vs S] sl=0.05: Tn +3.27  A -0.66  ANO +0.96  T +0.84  n +2.07  all -12.98
+  ln BF vs free [N vs S] sl=0.1: Tn +2.64  A +0.32  ANO +2.33  T +0.49  n +1.78  all +2.17
+  ln BF vs free [N vs Bridge] sl=0.05: Tn +3.22  A +1.51  ANO +4.17  T +0.73  n +2.08  all +6.28
+  ln BF vs free [N vs Bridge] sl=0.1: Tn +2.63  A +1.58  ANO +3.88  T +0.44  n +1.75  all +7.14
+
+#### recovery bound fraction f=0.5 (3-2 x [1+f(R3-1)])
+  N: Tk 112 [35,223]; log n 4.38; log A 0.60 [0.50,0.70]; tau(HCO+ 1-0) 1.5; log N(HCO+) 15.30; log N(HCN) 15.90
+  S: Tk 199 [100,251]; log n 4.38; log A 0.30 [0.30,0.40]; tau(HCO+ 1-0) 1.3; log N(HCO+) 15.20; log N(HCN) 15.50
+  Bridge: Tk 158 [63,251]; log n 4.38; log A 0.50 [0.40,0.60]; tau(HCO+ 1-0) 1.3; log N(HCO+) 15.20; log N(HCN) 15.60
+  ln BF vs free [N vs S] sl=0.05: Tn +3.18  A -0.57  ANO +0.60  T +0.73  n +2.00  all -9.23
+  ln BF vs free [N vs S] sl=0.1: Tn +2.63  A +0.35  ANO +2.33  T +0.45  n +1.77  all +3.15
+  ln BF vs free [N vs Bridge] sl=0.05: Tn +3.17  A +1.46  ANO +4.14  T +0.65  n +2.01  all +6.27
+  ln BF vs free [N vs Bridge] sl=0.1: Tn +2.62  A +1.58  ANO +3.91  T +0.40  n +1.74  all +7.15
+
+#### recovery bound fraction f=1.0 (3-2 x [1+f(R3-1)])
+  N: Tk 100 [32,223]; log n 4.50; log A 0.60 [0.50,0.70]; tau(HCO+ 1-0) 1.5; log N(HCO+) 15.30; log N(HCN) 15.90
+  S: Tk 178 [79,251]; log n 4.38; log A 0.30 [0.30,0.40]; tau(HCO+ 1-0) 1.5; log N(HCO+) 15.30; log N(HCN) 15.70
+  Bridge: Tk 158 [56,251]; log n 4.38; log A 0.50 [0.40,0.60]; tau(HCO+ 1-0) 1.3; log N(HCO+) 15.20; log N(HCN) 15.70
+  ln BF vs free [N vs S] sl=0.05: Tn +3.12  A -0.56  ANO +0.17  T +0.62  n +1.96  all -7.14
+  ln BF vs free [N vs S] sl=0.1: Tn +2.63  A +0.36  ANO +2.30  T +0.40  n +1.74  all +3.70
+  ln BF vs free [N vs Bridge] sl=0.05: Tn +3.14  A +1.47  ANO +4.15  T +0.58  n +1.96  all +6.28
+  ln BF vs free [N vs Bridge] sl=0.1: Tn +2.62  A +1.58  ANO +3.94  T +0.36  n +1.71  all +7.14

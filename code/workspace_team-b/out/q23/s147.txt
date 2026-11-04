@@ -1,0 +1,18 @@
+pooled N,S,Bridge: observed (blue - red) level [mJy/ch] (+ = red side depressed) vs predicted; chi2 of (obs-pred) over the 3 regions
+  Xb55.spw16.HCN2      (tri400) observed +0.41+-0.40; predicted +0.03 (LOO +0.03); chi2(obs-pred)=5.0 / 3 ; chi2(obs-0)=5.2 / 3 ; chi2 LOO=5.0/3
+  Xb55.spw18.HCO+2     (emp   ) observed +2.15+-0.53; predicted +1.62 (LOO +1.61); chi2(obs-pred)=2.4 / 3 ; chi2(obs-0)=18.1 / 3 ; chi2 LOO=2.6/3
+  Xb4f.spw18.HCN3      (tri200) observed +0.87+-0.39; predicted +1.28 (LOO +1.36); chi2(obs-pred)=2.6 / 3 ; chi2(obs-0)=5.7 / 3 ; chi2 LOO=4.7/3
+  Xb4f.spw16.HCO+3     (tri400) observed -0.28+-0.52; predicted +0.71 (LOO +0.72); chi2(obs-pred)=4.1 / 3 ; chi2(obs-0)=0.8 / 3 ; chi2 LOO=4.1/3
+  Xb47.spw16.HCN4      (tri400) observed +1.06+-0.66; predicted +1.95 (LOO +1.83); chi2(obs-pred)=2.3 / 3 ; chi2(obs-0)=4.1 / 3 ; chi2 LOO=2.4/3
+  Xb47.spw18.HCO+4     (exp15 ) observed +0.02+-0.53; predicted -0.00 (LOO -0.00); chi2(obs-pred)=0.9 / 3 ; chi2(obs-0)=0.9 / 3 ; chi2 LOO=0.8/3
+
+HCN 4-3, HCN 3-2, HCO+ 2-1 integral change when the fitted ramp is removed (E0 = s30 estimator), % of raw: shapes tri100 / tri400 / emp
+  Xb47.spw16.HCN4    N      stat 1.8%  emp -1.9% | tri100 -0.8% | tri200 +2.6% | tri400 +6.6%
+  Xb47.spw16.HCN4    S      stat 3.9%  emp -3.2% | tri100 -1.6% | tri200 +2.8% | tri400 +9.7%
+  Xb47.spw16.HCN4    Bridge stat 3.1%  emp -1.1% | tri100 +0.1% | tri200 +3.9% | tri400 +8.7%
+  Xb4f.spw18.HCN3    N      stat 0.8%  emp -0.2% | tri100 -0.2% | tri200 +1.3% | tri400 +2.8%
+  Xb4f.spw18.HCN3    S      stat 1.5%  emp -0.3% | tri100 -0.2% | tri200 +1.8% | tri400 +3.3%
+  Xb4f.spw18.HCN3    Bridge stat 1.2%  emp -0.4% | tri100 -0.3% | tri200 +1.1% | tri400 +2.9%
+  Xb55.spw18.HCO+2   N      stat 0.6%  emp -0.1% | tri100 -0.1% | tri200 +0.4% | tri400 +1.3%
+  Xb55.spw18.HCO+2   S      stat 0.5%  emp -0.2% | tri100 -0.2% | tri200 +0.2% | tri400 +1.1%
+  Xb55.spw18.HCO+2   Bridge stat 0.5%  emp +0.0% | tri100 +0.0% | tri200 +0.5% | tri400 +1.4%

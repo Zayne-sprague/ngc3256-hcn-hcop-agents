@@ -1,0 +1,25 @@
+{
+ "id": "20261026T163926-6cac",
+ "team": "team-b",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X2fb_X95d.ari_l.ngc3256_sci.spw1_86692MHz.12m.cube.I.pbcor.fits"
+ ],
+ "why": "MISSING: the cached X95d spw0 cube (84.40-86.01 GHz observed) does not cover SiO 2-1 (86.04 GHz at Vsys) and truncates H13CO+ 1-0 (85.95 GHz); spw1 (85.76-87.63 GHz) covers both H13CO+ and SiO 2-1 at 1.76'' in the short-spacing-complete 2015.1.00993 data, needed for the reviewer-requested weak-line measurement. 0.13 GB.",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 126630720,
+ "submitted": "2026-10-26T16:39:26+00:00",
+ "bytes_to_fetch": 126630720,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-26T16:39:27+00:00",
+ "bytes_done": 126630720,
+ "started": "2026-10-26T16:39:28+00:00",
+ "evicted": [],
+ "finished": "2026-10-26T16:39:34+00:00",
+ "paths": [
+  "/archive/files/2015.1.00993.S/member.uid___A001_X2fb_X95d.ari_l.ngc3256_sci.spw1_86692MHz.12m.cube.I.pbcor.fits"
+ ],
+ "minutes": 0.1
+}

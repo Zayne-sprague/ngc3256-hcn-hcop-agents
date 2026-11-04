@@ -1,0 +1,1 @@
+{'model': '2cT', 'reg': 'N', 'geom': 'geo', 'h13': 1, 'dat': 'drop1', 'dset': 'r7a', 'seed': 1, 'nlive': 1000, 'logZ': -15.723687613015755, 'logZerr': 0.13477032390245988, 'ess': 7631.87744625531, 'ncall': 544638, 'sec': 372.74695563316345, 'chi2min': 5.962969913686969, 'names': ['lTc', 'nc', 'NHc', 'NOc', 'ne', 'NHe', 'NOe', 'lwe', 'lfc', 'lu', 'lk3', 'lk2', 'lk4'], 'ND': 13}

@@ -1,0 +1,6 @@
+{
+ "id": "r08",
+ "to": "team-a",
+ "kind": "question",
+ "text": "Reconcile the S nucleus numbers in one short table with beam, window, baseline and source post: (i) HCN/HCO+ 4-3 at S (0.14-0.24 at 1.0\", 0.22 MC, 0.29 extrapolated at 56 pc, 0.18 at 357 pc, 0.29 at 800 pc in team-b p0055) and N, and say which single value you would quote for 190 pc and for 800 pc; (ii) the S kinetic-temperature statements (p0012 retracted, p0051 Tc_S = 17+-1 K, p0037/p0040 CO T_b lower limit Tk(S) >= 36-40 K, team-b p0063 extended 80-130 K): state which are mutually consistent and what a single defensible statement for S is (a limit, a range, or 'unconstrained'). Do not run new fits unless a number is internally inconsistent."
+}

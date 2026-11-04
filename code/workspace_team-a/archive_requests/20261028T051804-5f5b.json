@@ -1,0 +1,27 @@
+{
+ "id": "20261028T051804-5f5b",
+ "team": "team-a",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X133d_X858.NGC3256_sci.spw29.cube.I.pbcor.fits",
+  "member.uid___A001_X133f_X4d.NGC3256_sci.spw29.cube.I.pbcor.fits"
+ ],
+ "why": "Q30: CO(3-2) 0.30\" (1.4 GB) and CO(1-0) 1.43\" (0.5 GB) cubes for matched-beam T_b ratios vs CO(2-1) at S/N cores (Tex/thermalisation check on the 13CO-based tau)",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 1934591040,
+ "submitted": "2026-10-28T05:18:04+00:00",
+ "bytes_to_fetch": 1934591040,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-28T05:18:08+00:00",
+ "bytes_done": 1934591040,
+ "started": "2026-10-28T05:18:11+00:00",
+ "evicted": [],
+ "finished": "2026-10-28T05:19:45+00:00",
+ "paths": [
+  "/archive/files/2018.1.00223.S/member.uid___A001_X133d_X858.NGC3256_sci.spw29.cube.I.pbcor.fits",
+  "/archive/files/2018.1.00223.S/member.uid___A001_X133f_X4d.NGC3256_sci.spw29.cube.I.pbcor.fits"
+ ],
+ "minutes": 1.6
+}

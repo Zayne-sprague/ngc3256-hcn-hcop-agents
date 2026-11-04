@@ -1,0 +1,17 @@
+{
+ "type": "casa",
+ "script": "scripts/s191_q34_casa_image.py",
+ "args": [],
+ "why": "Q34 rerun: previous run failed (read-only MS, no pbcor output). Now copies MS to workspace, pbcor=True; variants comb (12m+7m) and c12 (12m only) at 1.5/2.2 arcsec circular beams.",
+ "id": "20261026T183050-b30b",
+ "team": "team-b",
+ "status": "done",
+ "submitted": "2026-10-26T18:30:50+00:00",
+ "large": false,
+ "queued": "2026-10-26T18:30:51+00:00",
+ "started": "2026-10-26T18:30:52+00:00",
+ "finished": "2026-10-26T18:59:55+00:00",
+ "returncode": 0,
+ "seconds": 1742.8,
+ "log": "/workspace/scripts/s191_q34_casa_image.log"
+}

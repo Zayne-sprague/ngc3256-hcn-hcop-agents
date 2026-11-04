@@ -1,0 +1,15 @@
+{
+ "id": "20261029T101820-ba05",
+ "team": "team-a",
+ "type": "pin",
+ "files": [
+  "member.uid___A001_X133d_X1df1.NGC3256_sci.spw29.cube.I.pbcor.fits"
+ ],
+ "why": "",
+ "ok_evict": false,
+ "status": "failed",
+ "bytes_estimate": 0,
+ "submitted": "2026-10-29T10:18:20+00:00",
+ "error": "pin limit reached (3 files per team); unpin one first",
+ "finished": "2026-10-29T10:18:22+00:00"
+}

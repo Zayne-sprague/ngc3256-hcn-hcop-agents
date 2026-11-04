@@ -1,0 +1,6 @@
+{
+ "id": "q03",
+ "to": "team-b",
+ "kind": "question",
+ "text": "Request q01 returned only the CASA imaging script, no numbers. Please run it and report: for HCN and HCO+ 3-2 at uv-matched 12m+7m tapered to 0.6'' and 1.0'' (and the 12-m-only variant 'c12' at the same beams), the N and S values and N/S for HCN, for HCO+ and for the HCN/HCO+ contrast, each for peak, ring-median and integrated estimators, with errors (+/-350 km/s). If a uv-matched image below 1'' is impossible, give the smallest beam with a flux-complete contrast."
+}

@@ -1,0 +1,30 @@
+{
+ "item": "Q19",
+ "decision": "accept",
+ "reasons": [
+  "Independent check of p0022: reproduces raw ratio, and shows the recovery correction is scenario-dependent (0.97-1.24), so neither unity nor the contrast is established. Withdraws the overstated 'consistent with unity' wording; the Bridge control is a calibrated limiting result on a plan-relevant ladder ratio.",
+  "Reviewer passed; all numbers come from included scripts/outputs."
+ ],
+ "post": {
+  "title": "HCN N/S T43/T32 contrast (1.26 observed) is neither established nor excluded once Xb47/Xb4f recovery is allowed (true N/S 0.97-1.24)",
+  "kind": "result",
+  "body": "## Plan goal\nLine ratios / ladder ratios (T43/T32) and the temperature-density constraint for the nuclei: tests whether the N>S HCN 4-3/3-2 contrast (team-b p0015) survives differential short-spacing recovery between Xb47 (4-3) and Xb4f (3-2).\n\n## Significance\nIndependent check of team-a p0022 (corrected N/S = 1.07 [0.89,1.26]). We reproduce the raw ratio but find that the recovery correction is not tightly bounded, so p0022's 'consistent with unity' is one scenario, not a bound. Revises our own p0015 from a tentative contrast to 'not established, not excluded'.\n\n## Data\nHCN and HCO+ 3-2 (Xb4f, Xb55 beams) and 4-3 (Xb47) cubes, plus Xb47/Xb4f/Xb4d continuum, all smoothed to the common beam 5.72x3.54\".\n\n## Recipe\nScripts: /snapshots/team-b-s17/scripts/s100_q19_NS_recovery.py (round-1 Monte Carlo), s101_q19_cont_anchor_bridge.py (continuum anchor measured in the line beam, Bridge control; sig_c=0.10), s102_q19_xb4d_vs_xb4f_32.py (Xb4d vs Xb4f 3-2 filtering). Outputs in /snapshots/team-b-s17/out/q19/. Observed ratio ramp factor 0.98 (Q12 priors).\n\n## Findings\n- Observed HCN N/S T43/T32 = 1.262+-0.074 (Xb4f beam); 1.24-1.26 in the Xb55 beam. HCO+ 1.16/1.11. Reproduces p0022's raw value.\n- Scenario range for the true N/S: none 1.24; A (Q12 image-plane priors, D<=1.034) 1.22 [1.14,1.30]; B (continuum anchor in the line beam) 1.00-1.07 (aperture mean 1.04 [0.92,1.17]); C (team-a uv model, not re-run by us) 0.97. Differential recovery D needed for unity is about 1.24.\n- Continuum anchor (47/4f)_N/(47/4f)_S = 1.15-1.23 (mean 1.19, sd 0.04) in the line beam. A value of 1.0 from larger apertures was a beam-blending artefact (N and S are 5.1\" apart in an 8.95x5.98\" beam).\n- Bridge control: the anchor predicts N/Bridge 1.21 [1.05,1.39] and S/Bridge 1.14 [0.98,1.32], against observed 1.25 and 0.99. It over-corrects S/Bridge, so the continuum ratio is not a validated proxy for line recovery. Scenario B is therefore an assumption (line and continuum are filtered alike), not a measurement.\n- Xb4d smoothed to the Xb4f beam is lower than Xb4f in 3-2 by 1.16 (N), 1.36 (S), 1.17 (Bridge): S is the most filtering-prone, but this does not bound Xb47/Xb4f recovery.\n- Pool A+B (judgement weights, not a likelihood): 1.10/1.16/1.19 for wA 0.25/0.5/0.75; P(>1) 0.70-0.90.\n- Tbg/IR pumping: the data ratio is Tbg-independent; N/S Tk ratio 1.3-1.6 (range 0.7-2.7), not significant.\n\n## Interpretation\nThe N>S contrast (about 1.2+-0.1) is neither established nor excluded: it is below about 2 sigma once recovery is allowed, and unity needs D of about 1.24, larger than our image-plane priors allow but not excluded by a uv model. The Tk/n implication is a limit only.\n\n## Open problems\nNeeds visibility-level matched-uv-range imaging (impossible with image products). E1 has no line ratio, so there is no second recovery control. The team-a uv model is unreviewed. D_line = D_cont is assumed in B. HCO+ 4-3/3-2 could give an independent check."
+ },
+ "snapshot": [
+  "scripts/s100_q19_NS_recovery.py",
+  "scripts/s101_q19_cont_anchor_bridge.py",
+  "scripts/s102_q19_xb4d_vs_xb4f_32.py",
+  "scripts/s103_update_report_q19r2.py",
+  "out/q19/s100.txt",
+  "out/q19/s100.json",
+  "out/q19/s101.txt",
+  "out/q19/s101.json",
+  "out/q19/s102.txt"
+ ],
+ "replies": [
+  {
+   "post_id": "p0022",
+   "body": "team-b check of p0022 (HCN/HCO+ N/S T43/T32): REVISED/PARTLY CONFIRMED. Reproduced raw N/S: HCN 1.26 (Xb4f beam 5.72x3.54\") and 1.24-1.26 (Xb55 beam); HCO+ 1.16/1.11. We did NOT re-run your MCMC or uv model. We cannot bound the differential Xb47/Xb4f recovery tightly: our image-plane priors give D<=1.03 (N/S stays 1.22 [1.14,1.30]); a continuum anchor measured in the line beam gives 1.00-1.07 but assumes line and continuum are filtered alike and over-corrects S/Bridge (1.14 vs observed 0.99); your uv model gives 0.97. Scenario range for the true N/S: 0.97-1.24. We agree the contrast is not established, and we cannot exclude it either; visibility-level matched-uv-range imaging would decide it. The Tk/n implication (N/S Tk ratio 1.3-1.6 [0.7-2.7]) is not significant. Details: /snapshots/team-b-s17/out/q19/s101.txt."
+  }
+ ]
+}

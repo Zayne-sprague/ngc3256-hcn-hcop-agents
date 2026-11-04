@@ -1,0 +1,103 @@
+# (a) geometry: N-S separation 5.11", N-Bridge 2.43", S-Bridge 2.74"  (10" FWHM Gaussian beam: overlap weight of a source at distance d, g=exp(-4ln2 (d/10)^2))
+   weight of the S core in the aperture at N: 0.484; of the N core at S: 0.484; Bridge sees N 0.849, S 0.813.  N-S is 0.51 of the beam FWHM: the N, S and Bridge 10" apertures are not independent.
+   at the 6.5" beam (Xb47 4-3 vs Xb4f 3-2): weight 0.180; at 4.3" (Xb47 native major axis): 0.020
+
+# (b) share of the measured 10" HCN/HCO+ 3-2 (Xb4f) in the two 1.7" cores (core flux = 1.7" beam intensity x 1.7" beam solid angle, i.e. a lower limit if the cores are larger than 1.7")
+   HCN   3-2 at N     : N core 0.38  S core 0.06  smooth 0.56  (T10=4.81 K km/s)
+   HCN   3-2 at Bridge: N core 0.30  S core 0.09  smooth 0.60  (T10=5.12 K km/s)
+   HCN   3-2 at S     : N core 0.21  S core 0.14  smooth 0.65  (T10=4.26 K km/s)
+   HCO+  3-2 at N     : N core 0.24  S core 0.07  smooth 0.68  (T10=10.04 K km/s)
+   HCO+  3-2 at Bridge: N core 0.19  S core 0.11  smooth 0.70  (T10=11.21 K km/s)
+   HCO+  3-2 at S     : N core 0.12  S core 0.16  smooth 0.72  (T10=9.95 K km/s)
+
+# (c) deblend: observed 10" J/3-2 ratios at N, Bridge, S = sum_c f_c r_c with the fractions above (cores N,S + smooth). Ill-conditioned because the smooth fraction is nearly the same at all three positions; MC over core flux +-30% (each), beam FWHM 10+-0.3", position of cores +-0.3", stat errors; ratios a calibration uncertainty common to all three positions cancels.
+   HCN   T21/T32: observed N/Bridge/S = 2.574/2.616/2.737;  core N 2.56 [-0.26,5.20]  core S 5.19 [-4.74,14.11]  smooth 2.20 [-0.19,4.99]; core N/S 0.42 [0.09,0.70]
+   HCN   T43/T32: observed N/Bridge/S = 0.336/0.327/0.318;  core N 0.37 [0.13,0.67]  core S 0.22 [-0.73,1.21]  smooth 0.32 [0.04,0.56]; core N/S 0.58 [-0.33,1.69]
+   HCO+  T21/T32: observed N/Bridge/S = 2.019/2.028/2.099;  core N 1.90 [-3.12,6.33]  core S 2.92 [-6.08,11.38]  smooth 1.91 [-0.38,4.48]; core N/S 0.55 [0.17,1.01]
+   HCO+  T43/T32: observed N/Bridge/S = 0.449/0.447/0.430;  core N 0.40 [-0.67,1.65]  core S 0.08 [-1.89,2.36]  smooth 0.53 [-0.12,1.04]; core N/S 0.56 [-0.10,1.14]
+   -> the deblend of the cores from 10" data alone has errors of tens of per cent per core; it is a consistency screen, not a measurement of the nuclear ladders.
+
+# (d) forward dilution: intrinsic core ratio contrast rho = r_N/r_S for a ladder ratio, smooth component r_E equal to r_S ("S-like envelope") or to sqrt(r_N r_S); predicted 10" N/S ratio-of-ratios (position N / position S) and N/Bridge
+   HCN envelope ladder = S core:
+      intrinsic N/S = 1.2 -> 10" N/S = 1.033   N/Bridge 1.015   Bridge/S 1.018
+      intrinsic N/S = 1.5 -> 10" N/S = 1.078   N/Bridge 1.034   Bridge/S 1.043
+      intrinsic N/S = 2.0 -> 10" N/S = 1.143   N/Bridge 1.059   Bridge/S 1.079
+      intrinsic N/S = 3.0 -> 10" N/S = 1.244   N/Bridge 1.096   Bridge/S 1.135
+      intrinsic N/S = 5.0 -> 10" N/S = 1.377   N/Bridge 1.139   Bridge/S 1.209
+      needed intrinsic N/S for a 10" N/S ratio-of-ratios of 1.08: 1.51
+      needed intrinsic N/S for a 10" N/S ratio-of-ratios of 1.32: 4.01
+   HCN envelope ladder = geometric mean:
+      intrinsic N/S = 1.2 -> 10" N/S = 1.023   N/Bridge 1.010   Bridge/S 1.013
+      intrinsic N/S = 1.5 -> 10" N/S = 1.052   N/Bridge 1.022   Bridge/S 1.029
+      intrinsic N/S = 2.0 -> 10" N/S = 1.091   N/Bridge 1.038   Bridge/S 1.050
+      intrinsic N/S = 3.0 -> 10" N/S = 1.146   N/Bridge 1.060   Bridge/S 1.081
+      intrinsic N/S = 5.0 -> 10" N/S = 1.218   N/Bridge 1.086   Bridge/S 1.121
+      needed intrinsic N/S for a 10" N/S ratio-of-ratios of 1.08: 1.85
+      needed intrinsic N/S for a 10" N/S ratio-of-ratios of 1.32: 10.34
+   HCO+ envelope ladder = S core:
+      intrinsic N/S = 1.2 -> 10" N/S = 1.024   N/Bridge 1.011   Bridge/S 1.013
+      intrinsic N/S = 1.5 -> 10" N/S = 1.059   N/Bridge 1.027   Bridge/S 1.031
+      intrinsic N/S = 2.0 -> 10" N/S = 1.112   N/Bridge 1.049   Bridge/S 1.060
+      intrinsic N/S = 3.0 -> 10" N/S = 1.202   N/Bridge 1.085   Bridge/S 1.108
+      intrinsic N/S = 5.0 -> 10" N/S = 1.339   N/Bridge 1.134   Bridge/S 1.180
+      needed intrinsic N/S for a 10" N/S ratio-of-ratios of 1.08: 1.69
+      needed intrinsic N/S for a 10" N/S ratio-of-ratios of 1.32: 4.68
+   HCO+ envelope ladder = geometric mean:
+      intrinsic N/S = 1.2 -> 10" N/S = 1.019   N/Bridge 1.009   Bridge/S 1.010
+      intrinsic N/S = 1.5 -> 10" N/S = 1.043   N/Bridge 1.020   Bridge/S 1.023
+      intrinsic N/S = 2.0 -> 10" N/S = 1.075   N/Bridge 1.034   Bridge/S 1.040
+      intrinsic N/S = 3.0 -> 10" N/S = 1.123   N/Bridge 1.054   Bridge/S 1.066
+      intrinsic N/S = 5.0 -> 10" N/S = 1.188   N/Bridge 1.080   Bridge/S 1.100
+      needed intrinsic N/S for a 10" N/S ratio-of-ratios of 1.08: 2.08
+      needed intrinsic N/S for a 10" N/S ratio-of-ratios of 1.32: 12.92
+
+# (e) [mode of the single-position posterior] RADEX mapping from the single-position (N) posterior mode: Tk=178 K, log n=3.62, log N(HCO+)=15.9, log A=0.4 (tau_HCN32=30.9); ladder from the RADEX grid, filling cancels in J/3-2
+   (intrinsic core N/S ratio-of-ratios -> diluted 10" N/S; smooth envelope with S-core ladder; threshold 2 sigma = 1.32)
+   Tk_N=1.5 Tk_S  (Tk_N,Tk_S=281,178 K; log n_N,n_S=3.62,3.62): HCN T21/T32 intrinsic N/S 0.88 -> 10" 0.98; HCN T43/T32 intrinsic N/S 1.13 -> 10" 1.02; HCO+ T21/T32 intrinsic N/S 0.94 -> 10" 0.99; HCO+ T43/T32 intrinsic N/S 1.07 -> 10" 1.01
+   Tk_N=2 Tk_S    (Tk_N,Tk_S=354,178 K; log n_N,n_S=3.62,3.62): HCN T21/T32 intrinsic N/S 0.83 -> 10" 0.97; HCN T43/T32 intrinsic N/S 1.18 -> 10" 1.03; HCO+ T21/T32 intrinsic N/S 0.91 -> 10" 0.99; HCO+ T43/T32 intrinsic N/S 1.10 -> 10" 1.01
+   Tk_N=3 Tk_S    (Tk_N,Tk_S=500,178 K; log n_N,n_S=3.62,3.62): HCN T21/T32 intrinsic N/S 0.77 -> 10" 0.96; HCN T43/T32 intrinsic N/S 1.25 -> 10" 1.04; HCO+ T21/T32 intrinsic N/S 0.88 -> 10" 0.99; HCO+ T43/T32 intrinsic N/S 1.13 -> 10" 1.02
+   Tk_S=Tk_N/1.5  (Tk_N,Tk_S=178,112 K; log n_N,n_S=3.62,3.62): HCN T21/T32 intrinsic N/S 0.87 -> 10" 0.98; HCN T43/T32 intrinsic N/S 1.16 -> 10" 1.03; HCO+ T21/T32 intrinsic N/S 0.93 -> 10" 0.99; HCO+ T43/T32 intrinsic N/S 1.08 -> 10" 1.01
+   Tk_S=Tk_N/2    (Tk_N,Tk_S=178,89 K; log n_N,n_S=3.62,3.62): HCN T21/T32 intrinsic N/S 0.80 -> 10" 0.96; HCN T43/T32 intrinsic N/S 1.28 -> 10" 1.05; HCO+ T21/T32 intrinsic N/S 0.89 -> 10" 0.99; HCO+ T43/T32 intrinsic N/S 1.14 -> 10" 1.02
+   Tk_S=Tk_N/3    (Tk_N,Tk_S=178,56 K; log n_N,n_S=3.62,3.62): HCN T21/T32 intrinsic N/S 0.67 -> 10" 0.94; HCN T43/T32 intrinsic N/S 1.61 -> 10" 1.09; HCO+ T21/T32 intrinsic N/S 0.80 -> 10" 0.97; HCO+ T43/T32 intrinsic N/S 1.29 -> 10" 1.04
+   n_N=3 n_S      (Tk_N,Tk_S=178,178 K; log n_N,n_S=4.12,3.62): HCN T21/T32 intrinsic N/S 0.71 -> 10" 0.95; HCN T43/T32 intrinsic N/S 1.16 -> 10" 1.03; HCO+ T21/T32 intrinsic N/S 0.79 -> 10" 0.97; HCO+ T43/T32 intrinsic N/S 1.22 -> 10" 1.03
+   n_N=10 n_S     (Tk_N,Tk_S=178,178 K; log n_N,n_S=4.62,3.62): HCN T21/T32 intrinsic N/S 0.55 -> 10" 0.91; HCN T43/T32 intrinsic N/S 1.51 -> 10" 1.08; HCO+ T21/T32 intrinsic N/S 0.68 -> 10" 0.96; HCO+ T43/T32 intrinsic N/S 1.48 -> 10" 1.06
+   n_S=n_N/3      (Tk_N,Tk_S=178,178 K; log n_N,n_S=3.62,3.12): HCN T21/T32 intrinsic N/S 0.77 -> 10" 0.96; HCN T43/T32 intrinsic N/S 1.10 -> 10" 1.02; HCO+ T21/T32 intrinsic N/S 0.74 -> 10" 0.97; HCO+ T43/T32 intrinsic N/S 1.11 -> 10" 1.01
+   n_S=n_N/10     (Tk_N,Tk_S=178,178 K; log n_N,n_S=3.62,3.00): HCN T21/T32 intrinsic N/S 0.73 -> 10" 0.95; HCN T43/T32 intrinsic N/S 1.11 -> 10" 1.02; HCO+ T21/T32 intrinsic N/S 0.70 -> 10" 0.96; HCO+ T43/T32 intrinsic N/S 1.13 -> 10" 1.02
+
+# (e) [mode with log n>=4.5 (dense, less thick branch)] RADEX mapping from the single-position (N) posterior mode: Tk=178 K, log n=4.75, log N(HCO+)=14.5, log A=0.4 (tau_HCN32=1.5); ladder from the RADEX grid, filling cancels in J/3-2
+   (intrinsic core N/S ratio-of-ratios -> diluted 10" N/S; smooth envelope with S-core ladder; threshold 2 sigma = 1.32)
+   Tk_N=1.5 Tk_S  (Tk_N,Tk_S=281,178 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.89 -> 10" 0.98; HCN T43/T32 intrinsic N/S 1.12 -> 10" 1.02; HCO+ T21/T32 intrinsic N/S 0.93 -> 10" 0.99; HCO+ T43/T32 intrinsic N/S 1.06 -> 10" 1.01
+   Tk_N=2 Tk_S    (Tk_N,Tk_S=354,178 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.85 -> 10" 0.97; HCN T43/T32 intrinsic N/S 1.17 -> 10" 1.03; HCO+ T21/T32 intrinsic N/S 0.90 -> 10" 0.99; HCO+ T43/T32 intrinsic N/S 1.09 -> 10" 1.01
+   Tk_N=3 Tk_S    (Tk_N,Tk_S=500,178 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.79 -> 10" 0.96; HCN T43/T32 intrinsic N/S 1.24 -> 10" 1.04; HCO+ T21/T32 intrinsic N/S 0.86 -> 10" 0.98; HCO+ T43/T32 intrinsic N/S 1.12 -> 10" 1.02
+   Tk_S=Tk_N/1.5  (Tk_N,Tk_S=178,112 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.88 -> 10" 0.98; HCN T43/T32 intrinsic N/S 1.15 -> 10" 1.03; HCO+ T21/T32 intrinsic N/S 0.93 -> 10" 0.99; HCO+ T43/T32 intrinsic N/S 1.07 -> 10" 1.01
+   Tk_S=Tk_N/2    (Tk_N,Tk_S=178,89 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.81 -> 10" 0.97; HCN T43/T32 intrinsic N/S 1.26 -> 10" 1.04; HCO+ T21/T32 intrinsic N/S 0.89 -> 10" 0.99; HCO+ T43/T32 intrinsic N/S 1.13 -> 10" 1.02
+   Tk_S=Tk_N/3    (Tk_N,Tk_S=178,56 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.68 -> 10" 0.94; HCN T43/T32 intrinsic N/S 1.57 -> 10" 1.09; HCO+ T21/T32 intrinsic N/S 0.79 -> 10" 0.97; HCO+ T43/T32 intrinsic N/S 1.27 -> 10" 1.03
+   n_N=3 n_S      (Tk_N,Tk_S=178,178 K; log n_N,n_S=5.25,4.75): HCN T21/T32 intrinsic N/S 0.74 -> 10" 0.95; HCN T43/T32 intrinsic N/S 1.11 -> 10" 1.02; HCO+ T21/T32 intrinsic N/S 0.68 -> 10" 0.96; HCO+ T43/T32 intrinsic N/S 1.21 -> 10" 1.03
+   n_N=10 n_S: grid hole
+   n_S=n_N/3      (Tk_N,Tk_S=178,178 K; log n_N,n_S=4.75,4.25): HCN T21/T32 intrinsic N/S 0.82 -> 10" 0.97; HCN T43/T32 intrinsic N/S 1.00 -> 10" 1.00; HCO+ T21/T32 intrinsic N/S 0.77 -> 10" 0.97; HCO+ T43/T32 intrinsic N/S 1.06 -> 10" 1.01
+   n_S=n_N/10     (Tk_N,Tk_S=178,178 K; log n_N,n_S=4.75,3.75): HCN T21/T32 intrinsic N/S 0.74 -> 10" 0.95; HCN T43/T32 intrinsic N/S 0.98 -> 10" 1.00; HCO+ T21/T32 intrinsic N/S 0.68 -> 10" 0.96; HCO+ T43/T32 intrinsic N/S 1.07 -> 10" 1.01
+
+# (e) [mode with Tk<=60 K (cool branch)] RADEX mapping from the single-position (N) posterior mode: Tk=50 K, log n=4.75, log N(HCO+)=15.3, log A=0.6 (tau_HCN32=10.6); ladder from the RADEX grid, filling cancels in J/3-2
+   (intrinsic core N/S ratio-of-ratios -> diluted 10" N/S; smooth envelope with S-core ladder; threshold 2 sigma = 1.32)
+   Tk_N=1.5 Tk_S  (Tk_N,Tk_S=79,50 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.86 -> 10" 0.98; HCN T43/T32 intrinsic N/S 1.27 -> 10" 1.04; HCO+ T21/T32 intrinsic N/S 0.91 -> 10" 0.99; HCO+ T43/T32 intrinsic N/S 1.16 -> 10" 1.02
+   Tk_N=2 Tk_S    (Tk_N,Tk_S=100,50 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.81 -> 10" 0.97; HCN T43/T32 intrinsic N/S 1.40 -> 10" 1.06; HCO+ T21/T32 intrinsic N/S 0.88 -> 10" 0.98; HCO+ T43/T32 intrinsic N/S 1.23 -> 10" 1.03
+   Tk_N=3 Tk_S    (Tk_N,Tk_S=158,50 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.73 -> 10" 0.95; HCN T43/T32 intrinsic N/S 1.64 -> 10" 1.10; HCO+ T21/T32 intrinsic N/S 0.82 -> 10" 0.98; HCO+ T43/T32 intrinsic N/S 1.34 -> 10" 1.04
+   Tk_S=Tk_N/1.5  (Tk_N,Tk_S=50,32 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.83 -> 10" 0.97; HCN T43/T32 intrinsic N/S 1.35 -> 10" 1.06; HCO+ T21/T32 intrinsic N/S 0.88 -> 10" 0.98; HCO+ T43/T32 intrinsic N/S 1.25 -> 10" 1.03
+   Tk_S=Tk_N/2    (Tk_N,Tk_S=50,25 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.73 -> 10" 0.95; HCN T43/T32 intrinsic N/S 1.61 -> 10" 1.09; HCO+ T21/T32 intrinsic N/S 0.81 -> 10" 0.98; HCO+ T43/T32 intrinsic N/S 1.45 -> 10" 1.05
+   Tk_S=Tk_N/3    (Tk_N,Tk_S=50,16 K; log n_N,n_S=4.75,4.75): HCN T21/T32 intrinsic N/S 0.54 -> 10" 0.91; HCN T43/T32 intrinsic N/S 2.51 -> 10" 1.20; HCO+ T21/T32 intrinsic N/S 0.64 -> 10" 0.95; HCO+ T43/T32 intrinsic N/S 2.23 -> 10" 1.13
+   n_N=3 n_S      (Tk_N,Tk_S=50,50 K; log n_N,n_S=5.25,4.75): HCN T21/T32 intrinsic N/S 0.76 -> 10" 0.96; HCN T43/T32 intrinsic N/S 1.40 -> 10" 1.06; HCO+ T21/T32 intrinsic N/S 0.76 -> 10" 0.97; HCO+ T43/T32 intrinsic N/S 1.32 -> 10" 1.04
+   n_N=10 n_S     (Tk_N,Tk_S=50,50 K; log n_N,n_S=5.75,4.75): HCN T21/T32 intrinsic N/S 0.60 -> 10" 0.92; HCN T43/T32 intrinsic N/S 1.92 -> 10" 1.13; HCO+ T21/T32 intrinsic N/S 0.58 -> 10" 0.95; HCO+ T43/T32 intrinsic N/S 1.74 -> 10" 1.09
+   n_S=n_N/3      (Tk_N,Tk_S=50,50 K; log n_N,n_S=4.75,4.25): HCN T21/T32 intrinsic N/S 0.73 -> 10" 0.95; HCN T43/T32 intrinsic N/S 1.29 -> 10" 1.05; HCO+ T21/T32 intrinsic N/S 0.76 -> 10" 0.97; HCO+ T43/T32 intrinsic N/S 1.21 -> 10" 1.03
+   n_S=n_N/10     (Tk_N,Tk_S=50,50 K; log n_N,n_S=4.75,3.75): HCN T21/T32 intrinsic N/S 0.56 -> 10" 0.92; HCN T43/T32 intrinsic N/S 1.42 -> 10" 1.07; HCO+ T21/T32 intrinsic N/S 0.60 -> 10" 0.95; HCO+ T43/T32 intrinsic N/S 1.27 -> 10" 1.03
+
+# measured 10" N/S ratio-of-ratios (position N / position S):
+   HCN: T21/T32 N/S = 0.940; T43/T32 N/S = 1.057  (stat <~1.5%)
+   HCO+: T21/T32 N/S = 0.962; T43/T32 N/S = 1.043  (stat <~1.5%)
+   detectability: 32% (2 sigma of an *absolute* ladder-ratio difference between two datasets with independent 10%+10% band calibrations and 7% per-line terms). For positions in the same cubes the shared calibration cancels, so the positional ratio-of-ratios is limited by stat (<2%) and by the 3-5% beam/pointing terms: the measured 0.94-1.06 is then a robust *10" statement*; it is nonetheless not informative about the cores because of the dilution above.
+
+# (f) T43/T32 at the 6.5" common beam (Xb47 4-3 / Xb4f 3-2; weights 0.18 for the other nucleus) for N, Bridge, S
+   N     : HCN T43/T32 0.401+-0.004  HCO+ 0.510+-0.003
+   Bridge: HCN T43/T32 0.369+-0.004  HCO+ 0.500+-0.003
+   S     : HCN T43/T32 0.347+-0.006  HCO+ 0.462+-0.003
+   HCN: N/S at 6.5" = 1.155 (stat 0.021); at 10": 1.057
+   HCO+: N/S at 6.5" = 1.104 (stat 0.009); at 10": 1.043

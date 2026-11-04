@@ -1,0 +1,12 @@
+**Figure 3 (contrast_NS.png; script fig3.py; numbers fig3_numbers.csv).**
+(a) N/S contrast of HCN/HCO+ (T_b ratio at N ÷ same ratio at S, fixed ±350 km/s windows, common circular beams). Filled bars: flux-complete matched comparisons. 2.2": 1-0 (2015.1.00993) 1.46±0.02, 3-2 (Xb4d 12m + Xb4f 7m) 1.48±0.04; 1.5": 1-0 (2015.1.00412) 1.62±0.06, 3-2 1.60±0.07 (p0036; value = mean of the 4 variants comb/12m-only × ±350/±150 km/s, error = stat ⊕ half-range). 2.5": 1-0 1.49±0.07, 3-2 1.64±0.13 (p0060; mean and half-range over the pixel/aperture estimators). Hatched (not used for D): 1.0–1.1", 1-0 from 2016.1.00965 (loses 25–45% flux) 1.45±0.22 and 3-2 from the Xb4d 12-m image alone (S flux loss ~30%) 2.08. Cross-hatched: 4-3 is unresolved, 1.6 (single-observation Xb47, 4.5" beam, N 0.515/S 0.317) vs 3.7±0.3 (2018.1.00493+00223, 1.0", N 0.814/S 0.222; 3.3 after missing-flux correction). Inset: D = contrast(3-2)/contrast(1-0): 1.00±0.05 (p0036) and 1.07±0.05 (p0060) filled; superseded 1.10±0.06 (p0034, 12-m only) and 0.71 (HCN R32/10 S/N, a different quantity, uv-incomplete image) hollow. D = 1.00–1.07 at matched beams.
+(b) N/S of line integral ÷ N/S of 1.3 mm continuum (continuum N/S 1.541 at 2.5", 1.075 at 1.1", 1.255 at 1.4"). Table (N/S line / N/S cont = bar):
+| species | 1-0 2.5" | 3-2 1.1" | 3-2 1.4" |
+|---|---|---|---|
+| HCN | 2.21/1.541 = 1.43 | 3.31/1.075 = 3.08 | 3.21/1.255 = 2.56 |
+| HNC | 2.69/1.541 = 1.75 | 3.23/1.075 = 3.01 | 2.97/1.255 = 2.37 |
+| CN | 2.98/1.541 = 1.93 | 3.42/1.075 = 3.18 | 3.74/1.255 = 2.98 |
+| HCO+ | 1.42/1.541 = 0.92 | 1.55/1.075 = 1.44 | 1.58/1.255 = 1.26 |
+
+Error bars are the ~10% quoted by the team (not recomputed). Grey band: per-dust-mass value = bar × Td_N/Td_S, for Td_N/Td_S = 0.5–2 (Td unmeasured; S may also contain non-dust continuum; the per-continuum factor grows with beam). Caveat: 1-0 2.5" line N/S are team-b p0056-r01 numbers (s322.txt, 00993); 3-2 are team-a (q55g_norm.py). The 1-0 HCN/HCO+ per-continuum values (1.43 vs 0.92) are lower than the 3-2 (3.1 vs 1.4) because the continuum ratio is beam dependent.
+Sources: /snapshots/team-b-s21/out/q34/s192.json (.txt); /snapshots/team-b-s31/out/q56/s345.txt, s345_budget.json; /snapshots/team-a-s32/out/q55/r10_core.csv, norm_cont.csv, hyp_table.csv; /snapshots/team-b-s30/out/q52/s322.txt, s321.txt; 4-3 values from team-a Q53/Q55a (TEAM_REPORT.json, /workspace/out/q53/fixedwin_all.csv).

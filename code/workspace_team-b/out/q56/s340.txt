@@ -1,0 +1,24 @@
+
+== window |v|<100 km/s: R32/10 = I(3-2 Xb4d image)/I(1-0), Tb K km/s
+1.4" HCN: n/a (beam < native) | HCO+: n/a (beam < native) | 
+1.7" HCN: n/a (beam < native) | HCO+: n/a (beam < native) | 
+2.0" HCN: n/a (beam < native) | HCO+: n/a (beam < native) | 
+2.5" HCN: N 0.306 S 0.217 S/N 0.71 (I10 N 118.7 S 50.7) | HCO+: N 0.404 S 0.359 S/N 0.89 (I10 N 134.9 S 85.3) | 
+3.0" HCN: N 0.288 S 0.200 S/N 0.69 (I10 N 96.9 S 45.9) | HCO+: N 0.384 S 0.329 S/N 0.86 (I10 N 113.4 S 77.5) | 
+3.5" HCN: N 0.272 S 0.187 S/N 0.69 (I10 N 81.0 S 42.3) | HCO+: N 0.367 S 0.307 S/N 0.84 (I10 N 97.1 S 71.4) | 
+
+== window |v|<150 km/s: R32/10 = I(3-2 Xb4d image)/I(1-0), Tb K km/s
+1.4" HCN: n/a (beam < native) | HCO+: n/a (beam < native) | 
+1.7" HCN: n/a (beam < native) | HCO+: n/a (beam < native) | 
+2.0" HCN: n/a (beam < native) | HCO+: n/a (beam < native) | 
+2.5" HCN: N 0.301 S 0.230 S/N 0.76 (I10 N 128.7 S 56.3) | HCO+: N 0.402 S 0.363 S/N 0.90 (I10 N 143.4 S 97.3) | 
+3.0" HCN: N 0.283 S 0.209 S/N 0.74 (I10 N 104.9 S 51.3) | HCO+: N 0.381 S 0.330 S/N 0.87 (I10 N 120.4 S 88.6) | 
+3.5" HCN: N 0.267 S 0.194 S/N 0.73 (I10 N 87.5 S 47.3) | HCO+: N 0.363 S 0.306 S/N 0.84 (I10 N 103.1 S 81.7) | 
+
+== window |v|<350 km/s: R32/10 = I(3-2 Xb4d image)/I(1-0), Tb K km/s
+1.4" HCN: n/a (beam < native) | HCO+: n/a (beam < native) | 
+1.7" HCN: n/a (beam < native) | HCO+: n/a (beam < native) | 
+2.0" HCN: n/a (beam < native) | HCO+: n/a (beam < native) | 
+2.5" HCN: N 0.296 S 0.227 S/N 0.77 (I10 N 134.6 S 61.1) | HCO+: N 0.407 S 0.357 S/N 0.88 (I10 N 147.9 S 104.6) | 
+3.0" HCN: N 0.280 S 0.207 S/N 0.74 (I10 N 109.7 S 55.5) | HCO+: N 0.386 S 0.322 S/N 0.84 (I10 N 124.1 S 95.2) | 
+3.5" HCN: N 0.265 S 0.191 S/N 0.72 (I10 N 91.6 S 51.0) | HCO+: N 0.367 S 0.298 S/N 0.81 (I10 N 106.2 S 87.6) | 

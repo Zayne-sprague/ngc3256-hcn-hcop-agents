@@ -1,0 +1,68 @@
+N hco+ 600 I_J= [-0.31  1.04  0.24  0.02 -0.03] blend J1-3=0.97+-0.07 J4=0.020+-0.058 J5=-0.030+-0.065
+N hco+ 900 I_J= [-0.31  1.04  0.24  0.02 -0.03] blend J1-3=0.97+-0.07 J4=0.020+-0.058 J5=-0.033+-0.056
+N hco+ 1500 I_J= [-0.31  1.04  0.24  0.02 -0.03] blend J1-3=0.97+-0.07 J4=0.020+-0.058 J5=-0.032+-0.056
+N 150 600 I_J= [-1.58  2.49 -0.04  0.05 -0.03] blend J1-3=0.86+-0.07 J4=0.046+-0.059 J5=-0.031+-0.061
+N 150 900 I_J= [-1.58  2.49 -0.04  0.05 -0.04] blend J1-3=0.86+-0.07 J4=0.046+-0.059 J5=-0.037+-0.056
+N 150 1500 I_J= [-1.58  2.49 -0.04  0.05 -0.04] blend J1-3=0.86+-0.07 J4=0.046+-0.059 J5=-0.037+-0.056
+N 220 600 I_J= [-7.73 10.14 -1.69  0.09 -0.08] blend J1-3=0.72+-0.11 J4=0.089+-0.100 J5=-0.078+-0.079
+N 220 900 I_J= [-7.74 10.15 -1.69  0.09 -0.09] blend J1-3=0.72+-0.11 J4=0.091+-0.100 J5=-0.091+-0.068
+N 220 1500 I_J= [-7.74 10.15 -1.69  0.09 -0.09] blend J1-3=0.72+-0.11 J4=0.091+-0.100 J5=-0.091+-0.068
+N 300 600 I_J= [-23.9   30.68  -6.39   0.27  -0.13] blend J1-3=0.38+-0.20 J4=0.268+-0.215 J5=-0.127+-0.105
+N 300 900 I_J= [-24.    30.82  -6.44   0.28  -0.14] blend J1-3=0.38+-0.20 J4=0.279+-0.210 J5=-0.139+-0.085
+N 300 1500 I_J= [-23.98  30.8   -6.43   0.28  -0.14] blend J1-3=0.38+-0.20 J4=0.277+-0.210 J5=-0.137+-0.085
+S hco+ 600 I_J= [ 0.06  1.08  0.24  0.07 -0.07] blend J1-3=1.38+-0.07 J4=0.072+-0.063 J5=-0.074+-0.073
+S hco+ 900 I_J= [ 0.06  1.08  0.24  0.07 -0.11] blend J1-3=1.38+-0.07 J4=0.072+-0.063 J5=-0.110+-0.060
+S hco+ 1500 I_J= [ 0.06  1.08  0.24  0.07 -0.11] blend J1-3=1.38+-0.07 J4=0.072+-0.063 J5=-0.108+-0.060
+S 150 600 I_J= [-1.62  2.67  0.18  0.11 -0.06] blend J1-3=1.22+-0.07 J4=0.105+-0.060 J5=-0.064+-0.062
+S 150 900 I_J= [-1.62  2.67  0.18  0.11 -0.09] blend J1-3=1.22+-0.07 J4=0.105+-0.060 J5=-0.092+-0.057
+S 150 1500 I_J= [-1.62  2.67  0.18  0.11 -0.09] blend J1-3=1.22+-0.07 J4=0.105+-0.060 J5=-0.092+-0.057
+S 220 600 I_J= [-8.93 11.9  -1.91  0.21 -0.11] blend J1-3=1.05+-0.11 J4=0.205+-0.102 J5=-0.109+-0.080
+S 220 900 I_J= [-8.96 11.94 -1.92  0.21 -0.15] blend J1-3=1.05+-0.11 J4=0.210+-0.102 J5=-0.155+-0.069
+S 220 1500 I_J= [-8.96 11.94 -1.92  0.21 -0.15] blend J1-3=1.05+-0.11 J4=0.210+-0.102 J5=-0.155+-0.069
+S 300 600 I_J= [-30.26  39.3   -8.54   0.63  -0.2 ] blend J1-3=0.50+-0.21 J4=0.631+-0.220 J5=-0.198+-0.106
+S 300 900 I_J= [-30.54  39.69  -8.68   0.66  -0.24] blend J1-3=0.47+-0.21 J4=0.664+-0.214 J5=-0.238+-0.086
+S 300 1500 I_J= [-30.53  39.68  -8.67   0.66  -0.24] blend J1-3=0.47+-0.21 J4=0.662+-0.214 J5=-0.236+-0.086
+N adopted blend 0.97+-0.07 stat, sys frac 0.30 (range 0.38-0.97); J4 3sig UL 0.194, J5 0.168
+S adopted blend 1.38+-0.07 stat, sys frac 0.33 (range 0.47-1.38); J4 3sig UL 0.262, J5 0.179
+N hco+ LTE chi2_null=555.1 best chi2=284.8 (N_ch=398) at T=8 n=None N=None ; T range (dchi2<4): 8-10 K
+N hco+ RADEX chi2_null=555.1 best chi2=285.0 (N_ch=398) at T=8 n=10000000.0 N=1e+16 ; T range (dchi2<4): 8-40 K
+    n=1000: allowed T(dchi2<4 wrt global best) = excluded
+    n=10000: allowed T(dchi2<4 wrt global best) = excluded
+    n=100000: allowed T(dchi2<4 wrt global best) = (20, 40)
+    n=1e+06: allowed T(dchi2<4 wrt global best) = (8, 15)
+    n=1e+07: allowed T(dchi2<4 wrt global best) = (8, 12)
+N 150 LTE chi2_null=555.1 best chi2=288.7 (N_ch=398) at T=10 n=None N=None ; T range (dchi2<4): 8-12 K
+N 150 RADEX chi2_null=555.1 best chi2=288.6 (N_ch=398) at T=10 n=10000000.0 N=100000000000000.0 ; T range (dchi2<4): 8-40 K
+    n=1000: allowed T(dchi2<4 wrt global best) = excluded
+    n=10000: allowed T(dchi2<4 wrt global best) = excluded
+    n=100000: allowed T(dchi2<4 wrt global best) = (20, 40)
+    n=1e+06: allowed T(dchi2<4 wrt global best) = (10, 15)
+    n=1e+07: allowed T(dchi2<4 wrt global best) = (8, 12)
+N 220 LTE chi2_null=555.1 best chi2=326.0 (N_ch=398) at T=8 n=None N=None ; T range (dchi2<4): 6-10 K
+N 220 RADEX chi2_null=555.1 best chi2=326.0 (N_ch=398) at T=8 n=10000000.0 N=1e+16 ; T range (dchi2<4): 6-30 K
+    n=1000: allowed T(dchi2<4 wrt global best) = excluded
+    n=10000: allowed T(dchi2<4 wrt global best) = excluded
+    n=100000: allowed T(dchi2<4 wrt global best) = (12, 30)
+    n=1e+06: allowed T(dchi2<4 wrt global best) = (8, 12)
+    n=1e+07: allowed T(dchi2<4 wrt global best) = (6, 10)
+S hco+ LTE chi2_null=801.6 best chi2=303.4 (N_ch=396) at T=8 n=None N=None ; T range (dchi2<4): 6-8 K
+S hco+ RADEX chi2_null=801.6 best chi2=302.9 (N_ch=396) at T=8 n=10000000.0 N=100000000000000.0 ; T range (dchi2<4): 6-25 K
+    n=1000: allowed T(dchi2<4 wrt global best) = excluded
+    n=10000: allowed T(dchi2<4 wrt global best) = excluded
+    n=100000: allowed T(dchi2<4 wrt global best) = (15, 25)
+    n=1e+06: allowed T(dchi2<4 wrt global best) = (8, 12)
+    n=1e+07: allowed T(dchi2<4 wrt global best) = (6, 8)
+S 150 LTE chi2_null=801.6 best chi2=329.5 (N_ch=396) at T=10 n=None N=None ; T range (dchi2<4): 10-12 K
+S 150 RADEX chi2_null=801.6 best chi2=330.1 (N_ch=396) at T=10 n=10000000.0 N=1e+16 ; T range (dchi2<4): 10-40 K
+    n=1000: allowed T(dchi2<4 wrt global best) = excluded
+    n=10000: allowed T(dchi2<4 wrt global best) = excluded
+    n=100000: allowed T(dchi2<4 wrt global best) = (30, 40)
+    n=1e+06: allowed T(dchi2<4 wrt global best) = (12, 15)
+    n=1e+07: allowed T(dchi2<4 wrt global best) = (10, 12)
+S 220 LTE chi2_null=801.6 best chi2=374.1 (N_ch=396) at T=8 n=None N=None ; T range (dchi2<4): 8-10 K
+S 220 RADEX chi2_null=801.6 best chi2=374.3 (N_ch=396) at T=8 n=10000000.0 N=1e+16 ; T range (dchi2<4): 8-30 K
+    n=1000: allowed T(dchi2<4 wrt global best) = excluded
+    n=10000: allowed T(dchi2<4 wrt global best) = excluded
+    n=100000: allowed T(dchi2<4 wrt global best) = (20, 30)
+    n=1e+06: allowed T(dchi2<4 wrt global best) = (8, 12)
+    n=1e+07: allowed T(dchi2<4 wrt global best) = (8, 10)

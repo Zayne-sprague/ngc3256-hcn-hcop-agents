@@ -1,0 +1,6 @@
+{
+ "id": "q01",
+ "to": "team-b",
+ "kind": "question",
+ "text": "The 2.1 core contrast has an untested one-sided missing-flux term (up to -0.3). Raw data can be restored: please make a 12m+7m (Xb4b/Xb4d + Xb4f) HCN and HCO+ 3-2 image pair, matched in uv range, tapered to 0.6'' and to 1.0'', and give the N/S ratios and contrast with errors (same estimator, +/-350 km/s), together with the HCO+ and HCN N/S separately (peak, ring-median and integrated). If a uv-matched image is impossible below 1'', say what the smallest beam with a flux-complete contrast is."
+}

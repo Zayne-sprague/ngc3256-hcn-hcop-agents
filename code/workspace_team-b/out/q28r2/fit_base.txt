@@ -1,0 +1,10 @@
+# variant base: taumax 3.0 drop [] sig (0.1, 0.15, 0.15, 0.15) cap None; compact configs 58320 (ok 44424), E models 68796 (ok 52323)
+ iteration 0: offsets (S compact in N 10", N compact in S 10") K km/s: N [0.423, 0.253, 0.112, 0.735, 0.592, 0.436]  S [0.937, 0.585, 0.224, 1.07, 0.824, 0.498]
+ iteration 1: offsets (S compact in N 10", N compact in S 10") K km/s: N [0.438, 0.26, 0.109, 0.724, 0.586, 0.427]  S [0.974, 0.633, 0.246, 1.074, 0.84, 0.518]
+ N: min chi2 two-phase (own E) 17.08; lnZ -26.36
+ S: min chi2 two-phase (own E) 5.71; lnZ -21.23
+ joint shared-E: min chi2 24.91 (N 17.08, S 7.83); lnZ shared -40.65 vs separate-E -47.59
+ N: one-state two-size: min chi2 51.57 lnZ -37.80; best Tk 100 n 4.0 N 15.5 A 0.5 theta 0.8 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 11.45
+ S: one-state two-size: min chi2 40.02 lnZ -32.31; best Tk 100 n 4.0 N 15.5 A 0.5 theta 0.5 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 11.07
+ joint ln BF shared two-phase / (one-state N x one-state S) = 29.46
+ time 234s

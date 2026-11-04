@@ -1,0 +1,6 @@
+{
+ "id": "r02",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Figure F2. N/S HCN/HCO+ contrast versus effective beam FWHM (0.25\" to ~7\", top axis in pc), one panel. Points: 3-2 Xb4b/Xb4d image plane (p0064/p0065/p0031), 3-2 12m+7m at 1.5\" and 2.2\" (p0036), 1-0 at 1.5\", 2.2\" and 2.5\" (p0034/p0036/p0058), 3-2 ACA/Xb4f at 6.5\" (p0031), and 4-3 ACA-visible uv-fit contrast 1.8 (+0.3/-0.2 sys) from team-a p0066 (snapshots/team-a-s34/out/q65/tables.txt) plus 4-3 12-m image-plane points (p0060/p0066: 2.64/2.18/1.72 at 4.5/5.5/7\" for 12-m, 1.62/1.49/1.32 for ACA). Distinguish by symbol: J (colour), flux-complete (filled) vs 12-m-only (open), uv-plane (square) vs image plane (circle). Horizontal line at 1; shaded band for Harada+2018 1.7\" value (N/S 1.48, Table 13). Error bars with their composition in a caption table. Provide CSV of plotted values, and flag any point whose beam/estimator differs from the others."
+}

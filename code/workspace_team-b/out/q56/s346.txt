@@ -1,0 +1,9 @@
+H_exc (same A, same N(HCO+); only Tk,n differ): pairs consistent with S/N values (chi2<4): 5249702 of 129244143; predicted 1-0 contrast N/S: median 1.00, 5-95% [0.78,1.45], max 10.81; fraction reaching >=1.35: 0.069
+H_col (same A; Tk, n, N(HCO+) free per nucleus: excitation+opacity): pairs consistent with S/N values (chi2<4): 1396168 of 67487599; predicted 1-0 contrast N/S: median 1.00, 5-95% [0.70,1.52], max 11.28; fraction reaching >=1.35: 0.082
+H_exc pairs with 1-0 contrast 1.35-1.55: 6811027; their chi2 vs observed S/N: min 0.0, 5th pct 8.7
+H_col pairs with 1-0 contrast 1.35-1.55: 3466190; chi2 vs observed S/N: min 0.0, fraction chi2<4: 0.014
+H_exc: 1-0 contrast 1.0-1.1: n=12754473, implied D = (S/N)_HCO+/(S/N)_HCN median 1.00, 16-84% [0.83,1.26]
+H_exc: 1-0 contrast 1.1-1.25: n=10296319, implied D = (S/N)_HCO+/(S/N)_HCN median 1.04, 16-84% [0.74,1.51]
+H_exc: 1-0 contrast 1.25-1.4: n=6748032, implied D = (S/N)_HCO+/(S/N)_HCN median 1.08, 16-84% [0.71,1.67]
+H_exc: 1-0 contrast 1.4-1.6: n=6166764, implied D = (S/N)_HCO+/(S/N)_HCN median 1.11, 16-84% [0.66,1.86]
+H_exc: 1-0 contrast 1.6-2.0: n=8021912, implied D = (S/N)_HCO+/(S/N)_HCN median 1.17, 16-84% [0.59,2.31]

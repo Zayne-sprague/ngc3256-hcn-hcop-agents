@@ -1,0 +1,10 @@
+region,A_12C13C,tau43_max_conservative,tau43_max_bestmodel,tau43_if_H13CN_real_at_max_alpha,tau43_if_H13CN_real_at_min_alpha
+N,30,3.78,3.78,2.18,
+N,50,6.44,6.44,4.04,
+N,90,11.62,11.62,7.41,
+S,30,3.78,3.78,0.0,0.0
+S,50,6.44,6.44,0.0,0.0
+S,90,11.62,11.62,0.0,0.0
+Bridge,30,6.49,6.49,3.19,
+Bridge,50,10.83,10.83,5.54,
+Bridge,90,19.49,19.49,10.03,

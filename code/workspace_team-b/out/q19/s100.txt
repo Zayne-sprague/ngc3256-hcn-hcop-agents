@@ -1,0 +1,28 @@
+# continuum (Xb47/Xb4f)_N/(Xb47/Xb4f)_S at the B5 beam: peak 1.138, r3 1.211, r6 1.007, r10 0.986
+# continuum 4f/55 N/S ratio of ratios 1.110 (peak) -> d_alpha(170-258) = 0.25; 47/4f: d_alpha(258-347)= 0.44 (if recovery were identical)
+
+## HCN: observed N/S (Xb4f beam) 1.262+-0.074 (stat+centring), x ramp 0.98+-0.025
+  HCN no recovery correction, ramp corrected                     median 1.236 68% [1.158,1.315] 95% [1.084,1.394]  P(>1)=1.00  P(1 inside 68%)=0
+  A Q12 priors one-sided D~U[1,1.034]                            median 1.215 68% [1.138,1.295] 95% [1.065,1.373]  P(>1)=1.00  P(1 inside 68%)=0
+  B continuum anchor (peak, C=1.14) d_alpha sd 0.0               median 1.086 68% [1.000,1.176] 95% [0.922,1.270]  P(>1)=0.84  P(1 inside 68%)=0
+  B continuum anchor (peak, C=1.14) d_alpha sd 0.3               median 1.085 68% [0.962,1.223] 95% [0.855,1.373]  P(>1)=0.75  P(1 inside 68%)=1
+  B continuum anchor (peak, C=1.14) d_alpha sd 0.5               median 1.086 68% [0.917,1.283] 95% [0.778,1.509]  P(>1)=0.69  P(1 inside 68%)=1
+  B continuum anchor (r3, C=1.21) d_alpha sd 0.0                 median 1.020 68% [0.940,1.104] 95% [0.866,1.190]  P(>1)=0.60  P(1 inside 68%)=1
+  B continuum anchor (r3, C=1.21) d_alpha sd 0.3                 median 1.019 68% [0.904,1.149] 95% [0.803,1.291]  P(>1)=0.56  P(1 inside 68%)=1
+  B continuum anchor (r3, C=1.21) d_alpha sd 0.5                 median 1.019 68% [0.861,1.206] 95% [0.731,1.418]  P(>1)=0.54  P(1 inside 68%)=1
+  C team-a physical uv model D=1.28+-0.12                        median 0.967 68% [0.866,1.086] 95% [0.780,1.223]  P(>1)=0.39  P(1 inside 68%)=1
+  pool A+B(peak, sd 0.3) 50/50 (our data only)                   median 1.168 68% [1.024,1.274] 95% [0.889,1.372]  P(>1)=0.87  P(1 inside 68%)=0
+  pool A+B+C equal weights                                       median 1.104 68% [0.933,1.248] 95% [0.819,1.354]  P(>1)=0.71  P(1 inside 68%)=1
+
+## HCO+: observed N/S (Xb4f beam) 1.164+-0.064 (stat+centring), x ramp 1.0+-0.03
+  HCO+ no recovery correction, ramp corrected                    median 1.163 68% [1.091,1.236] 95% [1.023,1.310]  P(>1)=0.99  P(1 inside 68%)=0
+  A Q12 priors one-sided D~U[1,1.022]                            median 1.150 68% [1.079,1.223] 95% [1.011,1.296]  P(>1)=0.98  P(1 inside 68%)=0
+  B continuum anchor (peak, C=1.14) d_alpha sd 0.0               median 1.022 68% [0.943,1.106] 95% [0.870,1.193]  P(>1)=0.61  P(1 inside 68%)=1
+  B continuum anchor (peak, C=1.14) d_alpha sd 0.3               median 1.022 68% [0.907,1.150] 95% [0.807,1.290]  P(>1)=0.57  P(1 inside 68%)=1
+  B continuum anchor (peak, C=1.14) d_alpha sd 0.5               median 1.021 68% [0.863,1.208] 95% [0.732,1.419]  P(>1)=0.55  P(1 inside 68%)=1
+  B continuum anchor (r3, C=1.21) d_alpha sd 0.0                 median 0.960 68% [0.886,1.039] 95% [0.818,1.119]  P(>1)=0.30  P(1 inside 68%)=1
+  B continuum anchor (r3, C=1.21) d_alpha sd 0.3                 median 0.959 68% [0.851,1.080] 95% [0.758,1.213]  P(>1)=0.36  P(1 inside 68%)=1
+  B continuum anchor (r3, C=1.21) d_alpha sd 0.5                 median 0.959 68% [0.811,1.134] 95% [0.688,1.332]  P(>1)=0.40  P(1 inside 68%)=1
+  C team-a physical uv model D=1.19+-0.08                        median 0.980 68% [0.895,1.074] 95% [0.820,1.177]  P(>1)=0.41  P(1 inside 68%)=1
+  pool A+B(peak, sd 0.3) 50/50 (our data only)                   median 1.103 68% [0.964,1.203] 95% [0.836,1.294]  P(>1)=0.78  P(1 inside 68%)=1
+  pool A+B+C equal weights                                       median 1.056 68% [0.926,1.179] 95% [0.829,1.277]  P(>1)=0.65  P(1 inside 68%)=1

@@ -1,0 +1,18 @@
+{
+ "type": "casa",
+ "script": "scripts/q60b_dumpvis.py",
+ "args": [],
+ "why": "Q60: dump line-integrated continuum-subtracted HCN/HCO+ 4-3 visibilities per EB (15 ACA/12m MS) for uv-matched model comparison",
+ "id": "20261029T211700-0350",
+ "team": "team-a",
+ "status": "failed",
+ "submitted": "2026-10-29T21:17:00+00:00",
+ "large": false,
+ "queued": "2026-10-29T21:17:00+00:00",
+ "started": "2026-10-29T21:17:01+00:00",
+ "finished": "2026-10-29T21:17:06+00:00",
+ "returncode": 1,
+ "seconds": 5.1,
+ "log": "/workspace/scripts/q60b_dumpvis.log",
+ "error": "exit 1; see /workspace/scripts/q60b_dumpvis.log"
+}

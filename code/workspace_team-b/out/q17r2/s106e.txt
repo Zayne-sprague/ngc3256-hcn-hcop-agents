@@ -1,0 +1,13 @@
+HCN: ridge/lobe excess-over-core-null flux ratio 0.66 (range 0.55-0.78 over baselines/exclusions); raw ratio 0.83
+HCO+: ridge/lobe excess-over-core-null flux ratio 0.69 (range 0.66-0.73 over baselines/exclusions); raw ratio 0.92
+adopted ridge/lobe flux ratio (null-corrected): 0.67 (range 0.55-0.78; statistical +-0.12 from matched-core scatter)
+ridge mass in window (X(HCO+)=1e-8): flux-scaled only 1.42e+06; with RADEX excitation factor (0.8/1.45/2.4): 1.13e+06 / 2.05e+06 / 3.40e+06 Msun
+ridge mass in window (X(HCO+)=3e-9): flux-scaled only 4.72e+06; with RADEX excitation factor (0.8/1.45/2.4): 3.77e+06 / 6.84e+06 / 1.13e+07 Msun
+full range of ridge window mass: 9.3e+05 .. 1.3e+07 Msun (lobe-scaled, tentative); central 1.4e+06..4.7e+06
+i=70 X=1e-8: Mdot lobe 4.1, ridge (flux-scaled, excitation x1) 1.6 (x0.8..2.4: 1.3..3.8) Msun/yr; momentum ridge 3.64e+08 (lobe 5.31e+08) Msun km/s (los)
+i=70 X=3e-9: Mdot lobe 13.6, ridge (flux-scaled, excitation x1) 5.3 (x0.8..2.4: 4.3..12.8) Msun/yr; momentum ridge 1.21e+09 (lobe 1.77e+09) Msun km/s (los)
+i=80 X=1e-8: Mdot lobe 8.4, ridge (flux-scaled, excitation x1) 3.3 (x0.8..2.4: 2.6..7.9) Msun/yr; momentum ridge 3.64e+08 (lobe 5.31e+08) Msun km/s (los)
+i=80 X=3e-9: Mdot lobe 28.2, ridge (flux-scaled, excitation x1) 11.0 (x0.8..2.4: 8.8..26.4) Msun/yr; momentum ridge 1.21e+09 (lobe 1.77e+09) Msun km/s (los)
+i=85 X=1e-8: Mdot lobe 17.0, ridge (flux-scaled, excitation x1) 6.6 (x0.8..2.4: 5.3..15.9) Msun/yr; momentum ridge 3.64e+08 (lobe 5.31e+08) Msun km/s (los)
+i=85 X=3e-9: Mdot lobe 56.8, ridge (flux-scaled, excitation x1) 22.1 (x0.8..2.4: 17.7..53.1) Msun/yr; momentum ridge 1.21e+09 (lobe 1.77e+09) Msun km/s (los)
+Not reported: bipolar total (1+ratio) as a result; ridge counted only if counter-lobe hypothesis holds. M18 southern (red+blue) HCN-based dense mass (2.8-120)e5 Msun, Mdot 1-48 Msun/yr (v=1600 km/s, l=400 pc: different convention).

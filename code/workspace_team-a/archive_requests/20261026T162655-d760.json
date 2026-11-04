@@ -1,0 +1,27 @@
+{
+ "id": "20261026T162655-d760",
+ "team": "team-a",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X2fb_X961.ari_l.ngc3256_sci.spw0_87827MHz.12m.cube.I.pbcor.fits",
+  "member.uid___A001_X33e_X145.ari_l.NGC_3256_sci.spw1_88144MHz.12m.cube.I.pbcor.fits"
+ ],
+ "why": "Q25: HCN/HCO+ 1-0 cubes (compact-config 1.8\" and 1.2\") to convolve to 10\" and compare 8-12\" disk ratio with 2-1 (Q11/p0032); 00965 (0.7\") is cached but likely resolves out disk flux",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 2540848320,
+ "submitted": "2026-10-26T16:26:55+00:00",
+ "bytes_to_fetch": 2540848320,
+ "planned_evictions": [],
+ "large": true,
+ "queued": "2026-10-26T16:26:55+00:00",
+ "bytes_done": 2540848320,
+ "started": "2026-10-26T16:26:56+00:00",
+ "evicted": [],
+ "finished": "2026-10-26T16:28:20+00:00",
+ "paths": [
+  "/archive/files/2015.1.00993.S/member.uid___A001_X2fb_X961.ari_l.ngc3256_sci.spw0_87827MHz.12m.cube.I.pbcor.fits",
+  "/archive/files/2015.1.00412.S/member.uid___A001_X33e_X145.ari_l.NGC_3256_sci.spw1_88144MHz.12m.cube.I.pbcor.fits"
+ ],
+ "minutes": 1.4
+}

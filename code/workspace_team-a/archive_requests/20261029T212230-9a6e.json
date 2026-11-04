@@ -1,0 +1,17 @@
+{
+ "type": "casa",
+ "script": "scripts/q60f_mosaic.py",
+ "args": [],
+ "why": "Q60: mosaic-aware (per-field phase centre + PB) uv-plane N/S fit for 00493 ACA mosaic and 12m EB",
+ "id": "20261029T212230-9a6e",
+ "team": "team-a",
+ "status": "done",
+ "submitted": "2026-10-29T21:22:30+00:00",
+ "large": false,
+ "queued": "2026-10-29T21:22:30+00:00",
+ "started": "2026-10-29T21:22:33+00:00",
+ "finished": "2026-10-29T21:22:57+00:00",
+ "returncode": 0,
+ "seconds": 24.7,
+ "log": "/workspace/scripts/q60f_mosaic.log"
+}

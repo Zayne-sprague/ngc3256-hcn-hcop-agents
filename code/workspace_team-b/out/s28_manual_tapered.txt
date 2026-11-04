@@ -1,0 +1,20 @@
+## Xb4d tapered vs standard (conv. to tapered beam 0.96x0.83), HCO+ 3-2, v in [-555,338] km/s, Jy/beam km/s
+  N       tapered    6.944  standard    6.819  ratio 1.018
+  S       tapered    5.333  standard    5.149  ratio 1.036
+  Bridge  tapered    3.767  standard    3.636  ratio 1.036
+  E1      tapered    2.816  standard    2.771  ratio 1.016
+  E2      tapered    1.795  standard    1.674  ratio 1.072
+  Sblue   tapered    1.449  standard    1.321  ratio 1.097
+## Xb4d tapered vs standard (conv. to tapered beam 0.96x0.84), HCN 3-2, v in [-444,449] km/s, Jy/beam km/s
+  N       tapered    6.148  standard    5.952  ratio 1.033
+  S       tapered    2.140  standard    2.067  ratio 1.035
+  Bridge  tapered    1.724  standard    1.735  ratio 0.994
+  E1      tapered    0.895  standard    0.830  ratio 1.079
+  E2      tapered    0.761  standard    0.686  ratio 1.109
+  Sblue   tapered    1.044  standard    0.930  ratio 1.123
+## Xb4b manual (smoothed from 0.22x0.20 to standard beam 0.246x0.232) vs standard, HCO+ 3-2, v in [-540,320], Jy/beam km/s; also non-pbcor manual (flat-noise) at same places
+  N       manual_pbcor    1.155 manual_nonpb    1.127 standard    1.196  ratio 0.966
+  S       manual_pbcor    0.990 manual_nonpb    0.967 standard    0.988  ratio 1.002
+  Bridge  manual_pbcor    0.556 manual_nonpb    0.556 standard    0.563  ratio 0.988
+  E1      manual_pbcor -1000000000.000 manual_nonpb -1000000000.000 standard -1000000000.000  ratio 1.000
+  Sblue   manual_pbcor    0.265 manual_nonpb    0.230 standard    0.216  ratio 1.229

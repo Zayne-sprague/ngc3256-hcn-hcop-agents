@@ -1,0 +1,4 @@
+Table of plotted literature values: f3a_literature_table.csv (galaxy, D_L, beam, alpha_AGN, class, CON/vib status, resolved ratio and error, global ratio, source/table and second-hand status).
+Percentiles (fraction of 21 below): N 0.99 (55 pc) 38%; N 0.69 (250 pc) 19%; S 0.44 and 0.37: 0%. Reproduces p0055.
+Check: the 21 resolved ratios and alpha_AGN, D_L, beams in s300_q46_lit_context.py match Nishimura Tables 1, 2, 4 in the library text (all 23 entries compared). p0055 says CON flags could not be extracted; they are now given (3 CONs: IRAS 17208-0014, IRAS 17578-0400, ESO 320-G030) with the caveat in caption.md. NGC 3256 itself has HCN-vib < 0.065 (Falstad+2021 Table 3, N and S), consistent with 'no vibrationally excited HCN'.
+Two beam flags for 4-3: p0053 (team-a) uses 1.0" and 1.9" circular beams from 12-m cubes (short-spacing-poor); p0055 (team-b) uses the ACA 4.14"x2.70" beam.

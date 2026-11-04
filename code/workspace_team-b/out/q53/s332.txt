@@ -1,0 +1,270 @@
+
+== A. profile J=10 2.5" HCN/HCO+ per bin (|bins| with both lines >5 sigma shown, else limit on the ratio from 3 sigma of the weaker)
+  N  -350..-200 HCO+=    0.9+-0.4 HCN=    1.2+-0.4 ratio=HCO+<5sig
+  N  -200..-100 HCO+=    4.8+-0.3 HCN=    6.5+-0.3 ratio=1.34+-0.12
+  N  -100.. -50 HCO+=   30.9+-0.2 HCN=   26.6+-0.2 ratio=0.86+-0.01
+  N   -50..   0 HCO+=   38.2+-0.2 HCN=   33.8+-0.2 ratio=0.89+-0.01
+  N     0..  50 HCO+=   43.1+-0.2 HCN=   37.0+-0.2 ratio=0.86+-0.01
+  N    50.. 100 HCO+=   22.8+-0.2 HCN=   21.4+-0.2 ratio=0.94+-0.01
+  N   100.. 200 HCO+=    5.2+-0.3 HCN=    5.8+-0.3 ratio=1.11+-0.10
+  N   200.. 350 HCO+=    2.1+-0.4 HCN=    2.5+-0.4 ratio=HCO+<5sig
+  S  -350..-200 HCO+=    0.7+-0.4 HCN=    0.8+-0.3 ratio=HCO+<5sig
+  S  -200..-100 HCO+=    3.1+-0.3 HCN=    1.7+-0.2 ratio=0.54+-0.09
+  S  -100.. -50 HCO+=   14.8+-0.2 HCN=    6.8+-0.2 ratio=0.46+-0.01
+  S   -50..   0 HCO+=   29.3+-0.2 HCN=   17.5+-0.2 ratio=0.60+-0.01
+  S     0..  50 HCO+=   23.2+-0.2 HCN=   16.0+-0.2 ratio=0.69+-0.01
+  S    50.. 100 HCO+=   18.1+-0.2 HCN=   10.3+-0.2 ratio=0.57+-0.01
+  S   100.. 200 HCO+=   13.7+-0.3 HCN=    6.5+-0.2 ratio=0.48+-0.02
+  S   200.. 350 HCO+=    1.7+-0.4 HCN=    1.5+-0.3 ratio=HCO+<5sig
+
+== A. profile J=10 2.5" HNC/HCO+ per bin (|bins| with both lines >5 sigma shown, else limit on the ratio from 3 sigma of the weaker)
+  N  -350..-200 HCO+=    0.9+-0.4 HNC=   -1.0+-0.9 ratio=HCO+<5sig
+  N  -200..-100 HCO+=    4.8+-0.3 HNC=    1.4+-0.7 ratio=<0.72 (lim)
+  N  -100.. -50 HCO+=   30.9+-0.2 HNC=   16.2+-0.5 ratio=0.52+-0.02
+  N   -50..   0 HCO+=   38.2+-0.2 HNC=   17.7+-0.5 ratio=0.46+-0.01
+  N     0..  50 HCO+=   43.1+-0.2 HNC=   20.2+-0.5 ratio=0.47+-0.01
+  N    50.. 100 HCO+=   22.8+-0.2 HNC=   11.0+-0.5 ratio=0.48+-0.02
+  N   100.. 200 HCO+=    5.2+-0.3 HNC=    1.9+-0.7 ratio=<0.78 (lim)
+  N   200.. 350 HCO+=    2.1+-0.4 HNC=    0.5+-0.9 ratio=HCO+<5sig
+  S  -350..-200 HCO+=    0.7+-0.4 HNC=   -0.5+-0.4 ratio=HCO+<5sig
+  S  -200..-100 HCO+=    3.1+-0.3 HNC=    0.7+-0.4 ratio=<0.56 (lim)
+  S  -100.. -50 HCO+=   14.8+-0.2 HNC=    3.3+-0.2 ratio=0.23+-0.02
+  S   -50..   0 HCO+=   29.3+-0.2 HNC=    8.5+-0.2 ratio=0.29+-0.01
+  S     0..  50 HCO+=   23.2+-0.2 HNC=    6.9+-0.2 ratio=0.30+-0.01
+  S    50.. 100 HCO+=   18.1+-0.2 HNC=    3.9+-0.2 ratio=0.22+-0.01
+  S   100.. 200 HCO+=   13.7+-0.3 HNC=    2.3+-0.4 ratio=0.17+-0.03
+  S   200.. 350 HCO+=    1.7+-0.4 HNC=   -0.5+-0.4 ratio=HCO+<5sig
+
+== A. profile J=10 2.5" CN_G2/HCO+ per bin (|bins| with both lines >5 sigma shown, else limit on the ratio from 3 sigma of the weaker)
+  N  -350..-200 HCO+=    0.9+-0.4 CN_G2=    1.9+-0.3 ratio=HCO+<5sig
+  N  -200..-100 HCO+=    4.8+-0.3 CN_G2=   15.6+-0.2 ratio=3.22+-0.24
+  N  -100.. -50 HCO+=   30.9+-0.2 CN_G2=   30.1+-0.2 ratio=0.98+-0.01
+  N   -50..   0 HCO+=   38.2+-0.2 CN_G2=   37.9+-0.2 ratio=0.99+-0.01
+  N     0..  50 HCO+=   43.1+-0.2 CN_G2=   36.2+-0.2 ratio=0.84+-0.01
+  N    50.. 100 HCO+=   22.8+-0.2 CN_G2=   18.8+-0.2 ratio=0.83+-0.01
+  N   100.. 200 HCO+=    5.2+-0.3 CN_G2=    6.2+-0.2 ratio=1.18+-0.09
+  N   200.. 350 HCO+=    2.1+-0.4 CN_G2=    4.0+-0.3 ratio=HCO+<5sig
+  S  -350..-200 HCO+=    0.7+-0.4 CN_G2=    0.8+-0.2 ratio=HCO+<5sig
+  S  -200..-100 HCO+=    3.1+-0.3 CN_G2=    3.2+-0.2 ratio=1.02+-0.12
+  S  -100.. -50 HCO+=   14.8+-0.2 CN_G2=    7.9+-0.1 ratio=0.54+-0.01
+  S   -50..   0 HCO+=   29.3+-0.2 CN_G2=   13.4+-0.1 ratio=0.46+-0.01
+  S     0..  50 HCO+=   23.2+-0.2 CN_G2=   10.1+-0.1 ratio=0.44+-0.01
+  S    50.. 100 HCO+=   18.1+-0.2 CN_G2=    8.1+-0.1 ratio=0.45+-0.01
+  S   100.. 200 HCO+=   13.7+-0.3 CN_G2=    6.1+-0.2 ratio=0.44+-0.02
+  S   200.. 350 HCO+=    1.7+-0.4 CN_G2=    1.3+-0.2 ratio=HCO+<5sig
+
+== A. profile J=32 2.5" HCN/HCO+ per bin (|bins| with both lines >5 sigma shown, else limit on the ratio from 3 sigma of the weaker)
+  N  -350..-200 HCO+=    0.4+-0.1 HCN=    0.0+-0.1 ratio=HCO+<5sig
+  N  -200..-100 HCO+=    2.2+-0.1 HCN=    1.6+-0.1 ratio=0.73+-0.04
+  N  -100.. -50 HCO+=   13.5+-0.1 HCN=    9.0+-0.0 ratio=0.66+-0.00
+  N   -50..   0 HCO+=   14.3+-0.1 HCN=    9.3+-0.0 ratio=0.65+-0.00
+  N     0..  50 HCO+=   17.5+-0.1 HCN=   11.3+-0.0 ratio=0.64+-0.00
+  N    50.. 100 HCO+=    9.2+-0.1 HCN=    6.8+-0.0 ratio=0.73+-0.01
+  N   100.. 200 HCO+=    1.7+-0.1 HCN=    1.4+-0.1 ratio=0.84+-0.06
+  N   200.. 350 HCO+=    1.5+-0.1 HCN=    0.6+-0.1 ratio=0.40+-0.06
+  S  -350..-200 HCO+=    0.1+-0.1 HCN=    0.1+-0.1 ratio=HCO+<5sig
+  S  -200..-100 HCO+=    1.0+-0.1 HCN=    0.5+-0.1 ratio=0.53+-0.07
+  S  -100.. -50 HCO+=    4.9+-0.1 HCN=    1.7+-0.0 ratio=0.35+-0.01
+  S   -50..   0 HCO+=   10.2+-0.1 HCN=    3.7+-0.0 ratio=0.36+-0.00
+  S     0..  50 HCO+=    8.2+-0.1 HCN=    2.9+-0.0 ratio=0.35+-0.01
+  S    50.. 100 HCO+=    7.3+-0.1 HCN=    2.7+-0.0 ratio=0.37+-0.01
+  S   100.. 200 HCO+=    5.3+-0.1 HCN=    2.2+-0.1 ratio=0.41+-0.01
+  S   200.. 350 HCO+=    0.3+-0.1 HCN=    0.0+-0.1 ratio=HCO+<5sig
+
+== A. profile J=32 2.5" HNC/HCO+ per bin (|bins| with both lines >5 sigma shown, else limit on the ratio from 3 sigma of the weaker)
+  N  -350..-200 HCO+=    0.4+-0.1 HNC=    0.1+-0.2 ratio=HCO+<5sig
+  N  -200..-100 HCO+=    2.2+-0.1 HNC=    0.4+-0.2 ratio=<0.47 (lim)
+  N  -100.. -50 HCO+=   13.5+-0.1 HNC=    5.2+-0.1 ratio=0.39+-0.01
+  N   -50..   0 HCO+=   14.3+-0.1 HNC=    4.3+-0.1 ratio=0.30+-0.01
+  N     0..  50 HCO+=   17.5+-0.1 HNC=    6.2+-0.1 ratio=0.35+-0.01
+  N    50.. 100 HCO+=    9.2+-0.1 HNC=    3.7+-0.1 ratio=0.40+-0.01
+  N   100.. 200 HCO+=    1.7+-0.1 HNC=    0.6+-0.2 ratio=<0.73 (lim)
+  N   200.. 350 HCO+=    1.5+-0.1 HNC=    0.0+-0.2 ratio=<0.51 (lim)
+  S  -350..-200 HCO+=    0.1+-0.1 HNC=    0.3+-0.2 ratio=HCO+<5sig
+  S  -200..-100 HCO+=    1.0+-0.1 HNC=    0.6+-0.2 ratio=<1.15 (lim)
+  S  -100.. -50 HCO+=    4.9+-0.1 HNC=    1.3+-0.1 ratio=0.27+-0.03
+  S   -50..   0 HCO+=   10.2+-0.1 HNC=    2.1+-0.1 ratio=0.20+-0.01
+  S     0..  50 HCO+=    8.2+-0.1 HNC=    1.2+-0.1 ratio=0.15+-0.02
+  S    50.. 100 HCO+=    7.3+-0.1 HNC=    1.4+-0.1 ratio=0.19+-0.02
+  S   100.. 200 HCO+=    5.3+-0.1 HNC=    0.6+-0.2 ratio=<0.23 (lim)
+  S   200.. 350 HCO+=    0.3+-0.1 HNC=    0.7+-0.2 ratio=HCO+<5sig
+
+== A. profile J=32 1.4" HCN/HCO+ per bin (|bins| with both lines >5 sigma shown, else limit on the ratio from 3 sigma of the weaker)
+  N  -350..-200 HCO+=    0.6+-0.3 HCN=   -0.2+-0.2 ratio=HCO+<5sig
+  N  -200..-100 HCO+=    4.6+-0.2 HCN=    3.7+-0.1 ratio=0.81+-0.05
+  N  -100.. -50 HCO+=   24.9+-0.1 HCN=   18.0+-0.1 ratio=0.73+-0.01
+  N   -50..   0 HCO+=   26.3+-0.1 HCN=   19.4+-0.1 ratio=0.74+-0.01
+  N     0..  50 HCO+=   30.6+-0.1 HCN=   23.0+-0.1 ratio=0.75+-0.00
+  N    50.. 100 HCO+=   18.1+-0.1 HCN=   14.9+-0.1 ratio=0.82+-0.01
+  N   100.. 200 HCO+=    3.8+-0.2 HCN=    3.2+-0.1 ratio=0.83+-0.06
+  N   200.. 350 HCO+=    2.6+-0.3 HCN=    0.6+-0.2 ratio=<0.42 (lim)
+  S  -350..-200 HCO+=    0.8+-0.2 HCN=    0.2+-0.2 ratio=HCO+<5sig
+  S  -200..-100 HCO+=    2.9+-0.2 HCN=    1.4+-0.1 ratio=0.49+-0.05
+  S  -100.. -50 HCO+=   12.8+-0.1 HCN=    4.5+-0.1 ratio=0.35+-0.01
+  S   -50..   0 HCO+=   21.4+-0.1 HCN=    8.0+-0.1 ratio=0.38+-0.00
+  S     0..  50 HCO+=   11.3+-0.1 HCN=    4.1+-0.1 ratio=0.36+-0.01
+  S    50.. 100 HCO+=   13.2+-0.1 HCN=    4.8+-0.1 ratio=0.36+-0.01
+  S   100.. 200 HCO+=    8.7+-0.2 HCN=    3.2+-0.1 ratio=0.37+-0.02
+  S   200.. 350 HCO+=    1.1+-0.2 HCN=    0.2+-0.2 ratio=<0.55 (lim)
+
+== A. profile J=32 1.4" HNC/HCO+ per bin (|bins| with both lines >5 sigma shown, else limit on the ratio from 3 sigma of the weaker)
+  N  -350..-200 HCO+=    0.6+-0.3 HNC=   -0.0+-0.5 ratio=HCO+<5sig
+  N  -200..-100 HCO+=    4.6+-0.2 HNC=    1.1+-0.4 ratio=<0.51 (lim)
+  N  -100.. -50 HCO+=   24.9+-0.1 HNC=   10.9+-0.3 ratio=0.44+-0.01
+  N   -50..   0 HCO+=   26.3+-0.1 HNC=    9.6+-0.3 ratio=0.37+-0.01
+  N     0..  50 HCO+=   30.6+-0.1 HNC=   13.9+-0.3 ratio=0.45+-0.01
+  N    50.. 100 HCO+=   18.1+-0.1 HNC=    9.1+-0.3 ratio=0.51+-0.02
+  N   100.. 200 HCO+=    3.8+-0.2 HNC=    1.2+-0.4 ratio=<0.63 (lim)
+  N   200.. 350 HCO+=    2.6+-0.3 HNC=    0.4+-0.5 ratio=<0.74 (lim)
+  S  -350..-200 HCO+=    0.8+-0.2 HNC=    1.0+-0.5 ratio=HCO+<5sig
+  S  -200..-100 HCO+=    2.9+-0.2 HNC=    2.1+-0.4 ratio=0.71+-0.15
+  S  -100.. -50 HCO+=   12.8+-0.1 HNC=    4.1+-0.3 ratio=0.32+-0.02
+  S   -50..   0 HCO+=   21.4+-0.1 HNC=    5.9+-0.3 ratio=0.27+-0.01
+  S     0..  50 HCO+=   11.3+-0.1 HNC=    2.5+-0.3 ratio=0.22+-0.03
+  S    50.. 100 HCO+=   13.2+-0.1 HNC=    3.1+-0.3 ratio=0.24+-0.02
+  S   100.. 200 HCO+=    8.7+-0.2 HNC=    2.0+-0.4 ratio=<0.37 (lim)
+  S   200.. 350 HCO+=    1.1+-0.2 HNC=    2.2+-0.5 ratio=<3.21 (lim)
+
+== B. common-grid summary bins (centre on nominal v_sys)
+J10 2.5" HCN  /HCO+ core150      N=0.897+-0.005 S=0.579+-0.005 N/S=1.55+-0.02 HCO+ N=143.4 S=97.3 min SNR(HCO+)=178.3
+J10 2.5" HCN  /HCO+ core100      N=0.880+-0.005 S=0.594+-0.005 N/S=1.48+-0.01 HCO+ N=134.9 S=85.3 min SNR(HCO+)=191.5
+J10 2.5" HCN  /HCO+ core50       N=0.871+-0.005 S=0.638+-0.006 N/S=1.36+-0.02 HCO+ N=81.2 S=52.5 min SNR(HCO+)=166.6
+J10 2.5" HCN  /HCO+ wings100_350 N=1.227+-0.092 S=0.545+-0.034 N/S=2.25+-0.22 HCO+ N=13.0 S=19.2 min SNR(HCO+)=16.6
+J10 2.5" HCN  /HCO+ blue         N=1.339+-0.157 S=0.639+-0.128 N/S=2.10+-0.49 HCO+ N=5.7 S=3.8 min SNR(HCO+)=7.7
+J10 2.5" HCN  /HCO+ red          N=1.139+-0.111 S=0.522+-0.029 N/S=2.18+-0.25 HCO+ N=7.3 S=15.4 min SNR(HCO+)=13.1
+J10 2.5" HNC  /HCO+ core150      N=0.473+-0.009 S=0.259+-0.006 N/S=1.83+-0.06 HCO+ N=143.4 S=97.3 min SNR(HCO+)=178.3
+J10 2.5" HNC  /HCO+ core100      N=0.482+-0.008 S=0.266+-0.006 N/S=1.81+-0.05 HCO+ N=134.9 S=85.3 min SNR(HCO+)=191.5
+J10 2.5" HNC  /HCO+ core50       N=0.466+-0.009 S=0.294+-0.007 N/S=1.59+-0.05 HCO+ N=81.2 S=52.5 min SNR(HCO+)=166.6
+J10 2.5" HNC  /HCO+ wings100_350 N=0.219+-0.122 S=0.101+-0.041 N/S=2.16+-1.49 HCO+ N=13.0 S=19.2 min SNR(HCO+)=16.6
+J10 2.5" HNC  /HCO+ blue         N=0.072+-0.195 S=0.045+-0.146 N/S=1.59+-6.70 HCO+ N=5.7 S=3.8 min SNR(HCO+)=7.7
+J10 2.5" HNC  /HCO+ red          N=0.334+-0.155 S=0.115+-0.036 N/S=2.90+-1.62 HCO+ N=7.3 S=15.4 min SNR(HCO+)=13.1
+J10 2.5" CN_G2/HCO+ core150      N=0.977+-0.005 S=0.476+-0.004 N/S=2.05+-0.02 HCO+ N=143.4 S=97.3 min SNR(HCO+)=178.3
+J10 2.5" CN_G2/HCO+ core100      N=0.913+-0.004 S=0.463+-0.004 N/S=1.97+-0.02 HCO+ N=134.9 S=85.3 min SNR(HCO+)=191.5
+J10 2.5" CN_G2/HCO+ core50       N=0.913+-0.005 S=0.448+-0.005 N/S=2.04+-0.02 HCO+ N=81.2 S=52.5 min SNR(HCO+)=166.6
+J10 2.5" CN_G2/HCO+ wings100_350 N=2.133+-0.135 S=0.590+-0.032 N/S=3.62+-0.30 HCO+ N=13.0 S=19.2 min SNR(HCO+)=16.6
+J10 2.5" CN_G2/HCO+ blue         N=3.066+-0.304 S=1.041+-0.159 N/S=2.94+-0.54 HCO+ N=5.7 S=3.8 min SNR(HCO+)=7.7
+J10 2.5" CN_G2/HCO+ red          N=1.401+-0.118 S=0.478+-0.026 N/S=2.93+-0.29 HCO+ N=7.3 S=15.4 min SNR(HCO+)=13.1
+J32 2.5" HCN  /HCO+ core150      N=0.671+-0.003 S=0.367+-0.003 N/S=1.83+-0.02 HCO+ N=57.7 S=35.3 min SNR(HCO+)=283.6
+J32 2.5" HCN  /HCO+ core100      N=0.665+-0.002 S=0.359+-0.003 N/S=1.85+-0.02 HCO+ N=54.5 S=30.6 min SNR(HCO+)=300.7
+J32 2.5" HCN  /HCO+ core50       N=0.646+-0.003 S=0.358+-0.003 N/S=1.80+-0.02 HCO+ N=31.8 S=18.4 min SNR(HCO+)=255.7
+J32 2.5" HCN  /HCO+ wings100_350 N=0.630+-0.034 S=0.427+-0.021 N/S=1.47+-0.11 HCO+ N=5.7 S=6.7 min SNR(HCO+)=26.6
+J32 2.5" HCN  /HCO+ blue         N=0.630+-0.054 S=0.592+-0.099 N/S=1.06+-0.20 HCO+ N=2.5 S=1.1 min SNR(HCO+)=9.9
+J32 2.5" HCN  /HCO+ red          N=0.630+-0.043 S=0.394+-0.018 N/S=1.60+-0.13 HCO+ N=3.1 S=5.6 min SNR(HCO+)=20.8
+J32 2.5" HNC  /HCO+ core150      N=0.353+-0.006 S=0.198+-0.010 N/S=1.78+-0.09 HCO+ N=57.7 S=35.3 min SNR(HCO+)=283.6
+J32 2.5" HNC  /HCO+ core100      N=0.356+-0.005 S=0.195+-0.009 N/S=1.82+-0.09 HCO+ N=54.5 S=30.6 min SNR(HCO+)=300.7
+J32 2.5" HNC  /HCO+ core50       N=0.330+-0.006 S=0.178+-0.011 N/S=1.85+-0.12 HCO+ N=31.8 S=18.4 min SNR(HCO+)=255.7
+J32 2.5" HNC  /HCO+ wings100_350 N=0.222+-0.076 S=0.334+-0.067 N/S=0.66+-0.26 HCO+ N=5.7 S=6.7 min SNR(HCO+)=26.6
+J32 2.5" HNC  /HCO+ blue         N=0.230+-0.120 S=0.765+-0.291 N/S=0.30+-0.19 HCO+ N=2.5 S=1.1 min SNR(HCO+)=9.9
+J32 2.5" HNC  /HCO+ red          N=0.216+-0.097 S=0.248+-0.057 N/S=0.87+-0.44 HCO+ N=3.1 S=5.6 min SNR(HCO+)=20.8
+J32 1.4" HCN  /HCO+ core150      N=0.757+-0.003 S=0.368+-0.004 N/S=2.06+-0.02 HCO+ N=106.9 S=67.4 min SNR(HCO+)=229.2
+J32 1.4" HCN  /HCO+ core100      N=0.754+-0.003 S=0.365+-0.003 N/S=2.07+-0.02 HCO+ N=99.8 S=58.7 min SNR(HCO+)=244.4
+J32 1.4" HCN  /HCO+ core50       N=0.744+-0.004 S=0.370+-0.004 N/S=2.01+-0.03 HCO+ N=56.9 S=32.7 min SNR(HCO+)=192.7
+J32 1.4" HCN  /HCO+ wings100_350 N=0.625+-0.037 S=0.372+-0.023 N/S=1.68+-0.14 HCO+ N=11.7 S=13.6 min SNR(HCO+)=24.8
+J32 1.4" HCN  /HCO+ blue         N=0.676+-0.060 S=0.443+-0.062 N/S=1.53+-0.25 HCO+ N=5.2 S=3.7 min SNR(HCO+)=13.9
+J32 1.4" HCN  /HCO+ red          N=0.584+-0.045 S=0.346+-0.022 N/S=1.69+-0.17 HCO+ N=6.5 S=9.9 min SNR(HCO+)=19.5
+J32 1.4" HNC  /HCO+ core150      N=0.428+-0.007 S=0.277+-0.011 N/S=1.55+-0.06 HCO+ N=106.9 S=67.4 min SNR(HCO+)=229.2
+J32 1.4" HNC  /HCO+ core100      N=0.436+-0.006 S=0.265+-0.010 N/S=1.64+-0.07 HCO+ N=99.8 S=58.7 min SNR(HCO+)=244.4
+J32 1.4" HNC  /HCO+ core50       N=0.414+-0.007 S=0.256+-0.012 N/S=1.62+-0.08 HCO+ N=56.9 S=32.7 min SNR(HCO+)=192.7
+J32 1.4" HNC  /HCO+ wings100_350 N=0.232+-0.079 S=0.536+-0.068 N/S=0.43+-0.16 HCO+ N=11.7 S=13.6 min SNR(HCO+)=24.8
+J32 1.4" HNC  /HCO+ blue         N=0.204+-0.125 S=0.826+-0.182 N/S=0.25+-0.16 HCO+ N=5.2 S=3.7 min SNR(HCO+)=13.9
+J32 1.4" HNC  /HCO+ red          N=0.255+-0.101 S=0.426+-0.066 N/S=0.60+-0.25 HCO+ N=6.5 S=9.9 min SNR(HCO+)=19.5
+
+== C. sensitivity of N/S (J=1-0, 2.5", core |v|<100 unless noted)
+  HCN   nominal              N=0.880 S=0.594 N/S=1.482+-0.015
+  HCN   vsys+20              N=0.888 S=0.595 N/S=1.493+-0.015
+  HCN   vsys-20              N=0.884 S=0.593 N/S=1.489+-0.015
+  HCN   edges+-50 (150)      N=0.897 S=0.579 N/S=1.549+-0.017
+  HCN   edges-50 (50)        N=0.871 S=0.638 N/S=1.365+-0.015
+  HCN   edges 50..150 both   N=0.931 S=0.510 N/S=1.827+-0.038
+  HCN   baseline order2      N=0.880 S=0.592 N/S=1.486+-0.014
+  HCN   baseline 400-1000    N=0.880 S=0.590 N/S=1.490+-0.016
+  HCN   baseline 800-1500    N=0.881 S=0.595 N/S=1.481+-0.015
+  HCN   baseline order0      N=0.880 S=0.594 N/S=1.482+-0.015
+  HCN: N/S range 1.36-1.83
+  HNC   nominal              N=0.482 S=0.266 N/S=1.812+-0.050
+  HNC   vsys+20              N=0.478 S=0.266 N/S=1.795+-0.050
+  HNC   vsys-20              N=0.483 S=0.269 N/S=1.795+-0.051
+  HNC   edges+-50 (150)      N=0.473 S=0.259 N/S=1.826+-0.057
+  HNC   edges-50 (50)        N=0.466 S=0.294 N/S=1.586+-0.048
+  HNC   edges 50..150 both   N=0.481 S=0.218 N/S=2.209+-0.138
+  HNC   baseline order2      N=0.495 S=0.275 N/S=1.799+-0.046
+  HNC   baseline 400-1000    N=0.486 S=0.268 N/S=1.817+-0.045
+  HNC   baseline 800-1500    N=0.486 S=0.270 N/S=1.798+-0.057
+  HNC   baseline order0      N=0.482 S=0.266 N/S=1.811+-0.057
+  HNC: N/S range 1.59-2.21
+  CN_G2 nominal              N=0.913 S=0.463 N/S=1.972+-0.020
+  CN_G2 vsys+20              N=0.906 S=0.457 N/S=1.981+-0.020
+  CN_G2 vsys-20              N=0.945 S=0.472 N/S=2.003+-0.021
+  CN_G2 edges+-50 (150)      N=0.977 S=0.476 N/S=2.052+-0.022
+  CN_G2 edges-50 (50)        N=0.913 S=0.448 N/S=2.040+-0.024
+  CN_G2 edges 50..150 both   N=1.060 S=0.509 N/S=2.082+-0.039
+  CN_G2 baseline order2      N=0.890 S=0.443 N/S=2.007+-0.020
+  CN_G2 baseline 400-1000    N=0.904 S=0.439 N/S=2.058+-0.022
+  CN_G2 baseline 800-1500    N=0.910 S=0.454 N/S=2.003+-0.021
+  CN_G2 baseline order0      N=0.906 S=0.458 N/S=1.980+-0.021
+  CN_G2: N/S range 1.97-2.08
+  wings 100-350 (HCN) sensitivity:
+  HCN   nominal        N=1.23+-0.09 S=0.54+-0.03 N/S=2.25+-0.22  HCO+ N=13.0
+  CN_G2 nominal        N=2.13+-0.13 S=0.59+-0.03 N/S=3.62+-0.30  HCO+ N=13.0
+  HCN   vsys+20        N=1.06+-0.05 S=0.53+-0.04 N/S=2.01+-0.17  HCO+ N=20.6
+  CN_G2 vsys+20        N=1.74+-0.07 S=0.62+-0.03 N/S=2.82+-0.20  HCO+ N=20.6
+  HCN   vsys-20        N=1.15+-0.08 S=0.55+-0.03 N/S=2.08+-0.17  HCO+ N=14.9
+  CN_G2 vsys-20        N=1.69+-0.10 S=0.54+-0.02 N/S=3.15+-0.23  HCO+ N=14.9
+  HCN   order2         N=1.19+-0.08 S=0.54+-0.03 N/S=2.21+-0.19  HCO+ N=14.7
+  CN_G2 order2         N=1.44+-0.08 S=0.37+-0.02 N/S=3.87+-0.34  HCO+ N=14.7
+  HCN   base 400-1000  N=1.22+-0.09 S=0.51+-0.04 N/S=2.38+-0.25  HCO+ N=13.0
+  CN_G2 base 400-1000  N=1.92+-0.12 S=0.34+-0.03 N/S=5.71+-0.58  HCO+ N=13.0
+  HCN   base 800-1500  N=1.26+-0.11 S=0.55+-0.04 N/S=2.26+-0.24  HCO+ N=12.5
+  CN_G2 base 800-1500  N=2.10+-0.14 S=0.49+-0.03 N/S=4.25+-0.39  HCO+ N=12.5
+  HCN   order0         N=1.23+-0.09 S=0.54+-0.04 N/S=2.25+-0.23  HCO+ N=13.0
+  CN_G2 order0         N=1.97+-0.13 S=0.53+-0.03 N/S=3.69+-0.33  HCO+ N=13.0
+
+== D. null test: bins of 250 km/s width at line-free velocities (baseline fit with the null bin masked), J=1-0 2.5"
+  N HCN    null-bin integrals (K km/s): rms=0.99 mean=-0.05 formal=0.47  ratio rms/formal=2.1
+  N HCO+   null-bin integrals (K km/s): rms=1.45 mean=0.44 formal=0.52  ratio rms/formal=2.8
+  N CN_G2  null-bin integrals (K km/s): rms=28.22 mean=25.70 formal=0.36  ratio rms/formal=78.0
+  S HCN    null-bin integrals (K km/s): rms=0.34 mean=-0.01 formal=0.36  ratio rms/formal=1.0
+  S HCO+   null-bin integrals (K km/s): rms=1.17 mean=0.06 formal=0.54  ratio rms/formal=2.2
+  S CN_G2  null-bin integrals (K km/s): rms=9.43 mean=8.68 formal=0.32  ratio rms/formal=29.5
+
+== E. joint 3-Gaussian fit (narrow sig15-45, mid sig45-110, broad sig150-400) shared kinematics HCN,HCO+,HNC, J=1-0 2.5"
+ N: red.chi2=2.1; comps (centre,sigma km/s): (-65,28); (23,45); (44,212)
+    HCN   flux narrow/mid/broad = 36.8/85.9/12.9 K km/s
+    HCO+  flux narrow/mid/broad = 41.7/100.7/5.2 K km/s
+    HNC   flux narrow/mid/broad = 22.4/47.3/0.0 K km/s
+    broad-comp fraction of HCO+ flux: 0.04; of it inside |v|<100: 0.36 -> 1.9 K km/s of the core integral
+    ratios narrow+mid (core) HCN/HCO+=0.862 HNC/HCO+=0.490 ; broad HCN/HCO+=2.48
+ S: red.chi2=3.5; comps (centre,sigma km/s): (-30,31); (35,64); (45,150)
+    HCN   flux narrow/mid/broad = 15.4/41.1/3.8 K km/s
+    HCO+  flux narrow/mid/broad = 28.6/54.6/23.6 K km/s
+    HNC   flux narrow/mid/broad = 9.4/16.6/0.0 K km/s
+    broad-comp fraction of HCO+ flux: 0.22; of it inside |v|<100: 0.48 -> 11.2 K km/s of the core integral
+    ratios narrow+mid (core) HCN/HCO+=0.677 HNC/HCO+=0.313 ; broad HCN/HCO+=0.16
+ core(narrow+mid) N/S: HCN/HCO+ 1.27; HNC/HCO+ 1.57
+
+== E2. brackets: remove the broad-component HCO+ inside |v|<100 from the 1-0 core integral, assuming outflow HCN/HCO+ = rho
+  rho=0.00: HCN/HCO+ N=0.892 S=0.684 N/S=1.30  (uncorrected 1.48)
+  rho=0.43: HCN/HCO+ N=0.886 S=0.619 N/S=1.43  (uncorrected 1.48)
+  rho=0.60: HCN/HCO+ N=0.884 S=0.593 N/S=1.49  (uncorrected 1.48)
+  rho=1.00: HCN/HCO+ N=0.878 S=0.532 N/S=1.65  (uncorrected 1.48)
+  HCO+ at S that would have to be removed from the core (|v|<100, 85.3 K km/s) to equalise HCN/HCO+ to the N value 0.88 if it carries no HCN: 27.7 K km/s (33% of core); HCO+ in |v|>100 at S total: 19.2
+
+== F. 3-2/1-0 at matched 2.5" (K km/s ratio, core |v|<100) and CN hyperfine
+  N HCN   I32=36.3+-0.1 I10=118.7+-0.4 R32/10=0.306+-0.001
+  N HCO+  I32=54.5+-0.1 I10=134.9+-0.5 R32/10=0.404+-0.002
+  N HNC   I32=19.4+-0.3 I10=65.1+-1.0 R32/10=0.299+-0.006
+  S HCN   I32=11.0+-0.1 I10=50.7+-0.3 R32/10=0.217+-0.002
+  S HCO+  I32=30.6+-0.1 I10=85.3+-0.4 R32/10=0.359+-0.002
+  S HNC   I32=6.0+-0.3 I10=22.7+-0.5 R32/10=0.263+-0.014
+  CN 1-0 2.5" N |v| -100..100: G1(113.12-113.19 grp)/G2(113.49 grp)=0.396+-0.003  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 2.5" N |v| -50..50: G1(113.12-113.19 grp)/G2(113.49 grp)=0.342+-0.003  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 2.5" N |v| -150..150: G1(113.12-113.19 grp)/G2(113.49 grp)=0.464+-0.003  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 2.5" S |v| -100..100: G1(113.12-113.19 grp)/G2(113.49 grp)=0.486+-0.008  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 2.5" S |v| -50..50: G1(113.12-113.19 grp)/G2(113.49 grp)=0.444+-0.009  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 2.5" S |v| -150..150: G1(113.12-113.19 grp)/G2(113.49 grp)=0.571+-0.009  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 3.5" N |v| -100..100: G1(113.12-113.19 grp)/G2(113.49 grp)=0.391+-0.003  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 3.5" N |v| -50..50: G1(113.12-113.19 grp)/G2(113.49 grp)=0.339+-0.003  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 3.5" N |v| -150..150: G1(113.12-113.19 grp)/G2(113.49 grp)=0.459+-0.003  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 3.5" S |v| -100..100: G1(113.12-113.19 grp)/G2(113.49 grp)=0.497+-0.007  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 3.5" S |v| -50..50: G1(113.12-113.19 grp)/G2(113.49 grp)=0.436+-0.007  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)
+  CN 1-0 3.5" S |v| -150..150: G1(113.12-113.19 grp)/G2(113.49 grp)=0.578+-0.007  (thin LTE 0.50; tau-> ratio<0.5 needs G1 weaker, thick->1)

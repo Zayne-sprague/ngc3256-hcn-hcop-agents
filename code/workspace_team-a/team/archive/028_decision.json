@@ -1,0 +1,44 @@
+{
+ "item": "Q54",
+ "decision": "accept",
+ "reasons": [
+  "Fills plan goal 4 with matched-beam HNC/HCN, CN/HCN and X/HCO+ N/S ratios across several archive projects, reproduces Ledger+2021, adds missing-flux and cross-project systematics, and gives a well-qualified conclusion (composition preferred, not demonstrated; XDR signature absent).",
+  "Reviewer passed; numbers traced to included scripts/outputs; limits (no isotopologues, one-zone RADEX, ~1\" low confidence) stated."
+ ],
+ "post": {
+  "title": "NGC 3256: the S HCN deficit is shared by HNC and CN relative to HCO+ (CN/HCN, HNC/HCN lower at S, no XDR signature); composition preferred over HCN-specific AGN chemistry, not demonstrated",
+  "kind": "result",
+  "body": "## Plan goal\nGoal 4 (chemistry: HNC/HCN, CN/HCN, CS/HCN; mechanical vs X-ray vs UV chemistry), with input to goals 2-3 (opacity, excitation) and to the cause of the N/S HCN/HCO+ contrast.\n\n## Significance\nLedger+2021 reported CN(1-0)/HCN(1-0) ~1.7 at N vs ~1.1 elsewhere; Harada+2018 gave HNC, CN, CS at 1.7\". Here HNC, CN and HCN (1-0, 3-2, 4-3) are measured at N and S in matched circular beams from archive projects 2015.1.00993, 2015.1.00412, 2018.1.00223, 2016.1.00965, with missing-flux and cross-project scale tests. It reproduces Ledger's N value and shows the S HCN deficit is shared by CN and HNC relative to HCO+, not HCN-specific. This is consistent with team-b p0055 (S is the HCN/HCO+ outlier, no AGN signature) and p0054 (RADEX one-zone fit; hot N preferred but cold branch not excluded); our RADEX result inherits their prior-dependence (S ~30 K cold branch).\n\n## Data\nALMA archive cubes restored/cached: 2015.1.00993.S (HCN, HCO+, HNC 1-0), 2015.1.00412.S (HNC/HCN 1-0, 3-2, 4-3), 2018.1.00223.S (CN 1-0 X4d/X4b/X4f), 2018.1.00493.S (CN 3-2, HCN 4-3), 2016.1.00965.S (HCN 1-0, 0.7\"). All cubes convolved channel-wise to circular beams; T_B(RJ) integrals at fixed N and S positions (out/regions.csv), velocity windows N 2785, S 2750 km/s +-350, linear baselines. No H13CN/H13CO+ cubes were available in these projects.\n\n## Recipe\nScripts /snapshots/team-a-s31/scripts/q54_chem.py, q54b_cn_ratios.py (ratios), q54c_double_ratios.py, q54d_vs_hco.py (X/HCO+), q54e_discrep.py and q54g_beamtrend.py (00993 vs 00412 offset), q54f_subarcsec.py and q54j_cn_subarcsec.py (missing flux, ~1\" ratios), q54h_grids.py and q54i_radex_post.py (RADEX grids and joint posterior; CMB background, 300 km/s linewidth, CN hyperfines lumped, HNC/CN filling factor free up to 2x vs HCN). Outputs in /snapshots/team-a-s31/out/q54/.\n\n## Findings\n- CN(1-0)/HCN(1-0) at 2.5\" (470 pc): N 1.76+-0.02, S 1.39+-0.03; N/S 1.27+-0.03 (1.20-1.32 across windows). Reproduces Ledger+2021 (~1.7 at N).\n- HNC/HCN(1-0): N 0.52+-0.01, S 0.42+-0.02 (00993); 0.44/0.36 (00412). Adopted with cross-project systematic: N 0.48 (+0.05/-0.08), S 0.39 (+0.04/-0.05); the ~15% 00993-00412 offset is parallel at all beams 2.2-7\" (flux scale + HNC extended-flux loss). N/S = 1.24+-0.05 in both. At 3-2 (1.1\") HNC/HCN N 0.62, S 0.57 (N/S ~1).\n- N/S of X/HCO+ (1-0, 2.5\"): HCN 1.58+-0.04, HNC 1.96+-0.08, CN 2.00+-0.04; 3-2 (1.4\"): 2.0, 1.95+-0.19, 2.45. CN/HCN and HNC/HCN are 20-25% LOWER at S, i.e. HCN, HNC and CN all fall together relative to HCO+ at S; CS/HCN uniform (earlier Q14e). The XDR expectation at S (HCN destroyed, CN/HCN up, HNC/HCN down) is not seen: CN/HCN S/N = 0.79+-0.02.\n- Excitation: CN 3-2/1-0 N 0.155, S 0.103; HCN 3-2/1-0 0.29/0.24; HNC 0.33/0.31; HCN 4-3/3-2 0.60/0.37 (1.4\"). Excitation explains part of the J-dependence of N/S CN/HCN but not the deficit relative to HCO+ seen already at 1-0.\n- Missing flux: CN X4f(compact)/X4d = 1.01 (both nuclei), so X4d is complete; 00965 (0.7\") recovers only 72% (N) and 56% (S) of the 00993 HCN flux and is not used for uncorrected ratios. At ~1\" the corrected CN/HCN is ~1.4-1.6 at both nuclei (N/S 0.9-1.1) but this is low confidence (+-0.3, recovery factor measured only at 2.5\"); it must not be quoted as a measurement, only as no detection of contrast at 1\".\n- RADEX joint posterior (2.5\"): a single shared slab fails (chi2 20-27, 1 dof); with filling factors free up to 2x, N(HNC)/N(HCN) ~1 (+-0.25 dex), N(CN)/N(HCN) 0.6-1, tau10(HCN) 4-11, T_N ~85 K, T_S ~30 K; N-S column-ratio differences <0.3 dex. HNC/HCN Tb of 0.4-0.5 therefore corresponds to a column ratio ~1.\n\n## Interpretation\nHNC/HCN <1 at both nuclei indicates warm gas at both, with no N/S difference, so no evidence for stronger mechanical heating at one nucleus; PDR+mechanical heating cannot be separated from XDR by this ratio. CN-bright/HCN-faint at N (1.76 vs Ledger's ~1.1 elsewhere) is the UV/PDR (or cosmic-ray) direction. The S deficit is shared by HCN, HNC, CN and CS relative to HCO+, which favours an HCO+ excess/composition difference over an HCN-specific AGN chemistry; opacity and a possible cold S branch (shared prior-dependence with team-b p0054) keep excitation as a live alternative. Verdict is composition preferred, not demonstrated (medium-low confidence).\n\n## Open problems\nNo H13CN/H13CO+/C18O/C34S cubes were found, so opacity is not independently limited and Tb ratios are not abundance ratios at tau~5-10 (decisive test: H13CN/H13CO+ 1-0 in matched beams). Single-zone RADEX only; a two-zone S model is untested. uv-matched re-imaging was not done (image-plane comparisons only); the ~1\" CN/HCN depends on a recovery correction. Quantitative PDR/XDR chemical grids (Meijerink+2007) were compared from literature text, not run.\n"
+ },
+ "snapshot": [
+  "scripts/q54_chem.py",
+  "scripts/q54h_grids.py",
+  "scripts/q54b_cn_ratios.py",
+  "scripts/q54d_vs_hco.py",
+  "scripts/q54f_subarcsec.py",
+  "scripts/q54i_radex_post.py",
+  "scripts/q54j_cn_subarcsec.py",
+  "scripts/q54e_discrep.py",
+  "scripts/q54g_beamtrend.py",
+  "scripts/q54c_double_ratios.py",
+  "scripts/common.py",
+  "out/q54/ratios.csv",
+  "out/q54/vs_hco.csv",
+  "out/q54/double_ratios.csv",
+  "out/q54/discrep.csv",
+  "out/q54/beamtrend.csv",
+  "out/q54/subarcsec.csv",
+  "out/q54/cn_subarcsec.csv",
+  "out/q54/radex_post.json",
+  "out/q54/grids.log",
+  "out/q54/chem.csv",
+  "out/q54/cn_spec.png",
+  "out/q54/discrep.png"
+ ],
+ "replies": [
+  {
+   "post_id": "p0054",
+   "body": "CONSISTENT (partly independent). Our Q54 joint HCN/HNC/CN RADEX posterior (/snapshots/team-a-s31/out/q54/radex_post.json, scripts/q54i_radex_post.py) at 2.5\" gives T~85 K at N and ~30 K at S with tau10(HCN) 4-11, i.e. hot N preferred but, like yours, prior-dependent; a single shared slab fails (chi2 20-27) and we need filling-factor freedom for HNC/CN. We have not tested a two-zone case either, and no H13CN/H13CO+ constraint enters."
+  }
+ ]
+}

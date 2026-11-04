@@ -1,0 +1,485 @@
+{
+ "items": [
+  {
+   "id": "Q0",
+   "question": "Systematic survey: inventory of every spectral line (identified at z~0.0093, vLSR~2750-2800 km/s; do not assume features are the targeted lines) and every continuum source in every file; line contamination of continuum images checked with line-free channels; distinct emission regions/components defined objectively (peaks of each tracer's moment-0 map, velocity components); standard table per line per region.",
+   "why_it_matters": "All later questions build on the line identifications, region definitions and measurement table.",
+   "measurement": "Done; see p0001. Remaining housekeeping: list 176.011 and 341.928 GHz as unassigned.",
+   "status": "answered",
+   "notes": "published p0001. Resolution caveat: nuclei separated only in Xb4b (0.24\") and Xb4d (0.95\"); Band 5/7 (4-9\") and Xb4f (~6\") blend them. Candidates (disk, Soutflow, HOC+) are not established. | turn 20: CH3OH 254 GHz (not NS) independently confirmed by team-b p0001-r01/p0002; team-b N/S CH3OH limits weaker (<0.02/<0.03) -- reconcile under Q4."
+  },
+  {
+   "id": "Q40",
+   "question": "Verify team-b p0045/p0032-r01/p0033-r01: the clump-vs-nucleus HCN/HCO+ difference is mostly in 1-0 (0.49 vs 0.84) while the 2-1->3-2 decline (~30%, double ratio 0.87-0.88) is common to nucleus and clumps; 4-3 clump only a limit. Reproduce with our matched-beam 10\" maps for E1/W clumps and the nuclear complex, including zero-level/PB-width tests.",
+   "why_it_matters": "Bears on nuclei-vs-disk/clump comparison (research question) and on our Q26 disk result: team-b has now revised its own p0011 and confirmed our p0032, so the remaining claim is the clump 1-0 vs nucleus contrast.",
+   "plan_goal": "Nuclei vs outflow vs disk comparison (research question)",
+   "measurement": "Use Q25/Q26 matched-uv products: HCN/HCO+ at 1-0, 2-1, 3-2 at E1, W and N+S complex positions at 10\"; compute ratios and the double ratios R32/R21, R21/R10 with uncertainties; reply CONFIRMED/REVISED once.",
+   "status": "answered",
+   "notes": "Single verification; do not repeat for 4-3 (limit only). | turn 46: started | published p0049, p0045-r01 | ACCEPTED p0049/p0045-r01: clump deficit holds at all J; E1 deepens ~2.7sigma (qualitative); deficit is mostly vs N (E1/S 1-0 0.86). Follow-ups: Q45, Q46."
+  },
+  {
+   "id": "Q42",
+   "question": "Is the N-core Tc (24-25 K with 1-0, 14-15 K without; per-seed sd 15-19 K) and envelope P(Te>=50) multimodal, and what are they under a convergent sampler? Rerun the baseline and drop1 N-core, S-core and joint fits with nested sampling (or >=10x particles/parallel tempering) and report mode weights.",
+   "why_it_matters": "Seed scatter (0.2 in P) is as large as the effects tested in Q39; the N-vs-S core temperature contrast (the nuclei part of the research question) rests on it.",
+   "measurement": "Adapt scripts/q39_q22.py to dynesty/ultranest or SMC with 10^5 particles; report posterior of Tc_N, Tc_S, Te, P(Te>=50), per-mode ln Z, for baseline, drop1, inf30; state whether Tc_N-Tc_S has a defined sign.",
+   "status": "answered",
+   "notes": "From Q39 review note 2. Uses existing grids; no new data. Rank first among new items because it decides what the published N/S Tc claim is. | turn 52: started | published p0051, p0044-r03 | Result: Tc_N unconstrained (Dchi2<5, 10-150K), Tc_S 17+/-1, P(Te>=50) prior-dependent; SMC values retracted -> Q49, Q48, Q50."
+  },
+  {
+   "id": "Q49",
+   "question": "Revise/retract in the report and on the forum: p0048 (Tc_N 24->14 K, P(Te>=50) 0.45/0.37), p0046 and p0044 statements that depend on the SMC numbers. Check report.json entries and all agenda/plan_coverage text for the old values and restate as 'Tc_N poorly constrained (Delta chi2<5 over 10-150 K); 1-0 data push it to higher T; Tc_S 17+/-1 K; P(Te>=50)=0.5-0.7 at sigma_band 0.10, 0.1-0.25 at 0.25'.",
+   "why_it_matters": "Stale numbers on the forum and in the report contradict p0051.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "grep report.json for 24/14 K and 0.45/0.37; edit results and confidence; editor to post replies to p0048/p0046 pointing to p0051.",
+   "status": "in_progress",
+   "notes": "Housekeeping, quick; from Q42 review note 2. | turn 58: started"
+  },
+  {
+   "id": "Q47",
+   "question": "Verify team-b p0050 / p0044-r02: reproduce with our own matched-taper extraction (a) H13CN 4-3 (Xb47 spw20) limit/detection at N, S, C incl. CO 3-2 blue-wing model dependence, (b) the X_S/X_N<=1.8 bound from 2.2\" H13CN/HCN and H13CO+/HCO+ 1-0, (c) that P(Tk<=30 K) at N moves 0.002-0.07 -> 0.2-0.58 with band-scale prior. Reply CONFIRMED/REVISED/REFUTED.",
+   "why_it_matters": "Only published H13CN opacity check on this target; team-b's claim softens p0044 and bears on our Q33/Q46 and Q42 prior-dependence. One independent verification is owed (coverage rule: verify each other once).",
+   "plan_goal": "Opacity check (H13CN); density/temperature",
+   "measurement": "Re-extract spectra from Xb47 spw20/spw16 and the Q29 1-0 products at the same apertures; fit wing + H13CN with a free baseline; compare with /snapshots/team-b-s26/out/q42 and p0050 tables; run our q39 likelihood with H13CN-derived tau prior if useful.",
+   "status": "open",
+   "notes": "Merge Q33/Q46 H13CN parts here; do not re-verify later without new evidence. Rank before further Tc_N sampling."
+  },
+  {
+   "id": "Q43",
+   "question": "Is there an independent temperature tracer for the N core and envelope in the band (HC3N J=28-27/38-37/39-38 incl. vibrationally excited, CH3CCH, CH3CN, CH3OH ladders, H13CN 4-3, SO2)? Using the Q0 inventory, measure rotation-temperature or ratio constraints at N and S at matched beam, or give upper limits and say what is blocked.",
+   "why_it_matters": "The envelope and N-core Tc are the main unresolved numbers in the density/temperature goal; Q39 shows HCN/HCO+ alone cannot fix them.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "Check Q0/Q14 tables for candidate lines (HC3N 28-27 sky ~252.3 GHz, 38-37 ~342.4 GHz edge, 39-38 ~351.4 GHz; CH3OH ladders; CH3CCH if in band) and published Harada+2018 1-3 mm rotation diagrams (take values, cite); build a matched-beam rotation diagram with blends flagged; compare to Tc from Q22/Q39.",
+   "status": "open",
+   "notes": "From Q39 review note 1 and Q22 gap. Pairs with Q28 (HC3N/CS N vs S) and Q33 (H13CN)."
+  },
+  {
+   "id": "Q48",
+   "question": "Calibrate the band-scale (flux-scale) prior sigma independently: what are the real inter-band/inter-array scale uncertainties (Xb4d vs Xb4f 35% in extended 3-2, Q37; Band 5/6/7 beam/flux matching, Q6/Q21)? Which of sigma_band 0.10/0.15/0.25 is justified, and then what are P(Te>=50) and P(Tk_N<=30)?",
+   "why_it_matters": "Q42 shows P(Te>=50) falls 0.67->0.24 and Tc_N moves 22->59 K as sigma_band goes 0.10->0.25: the envelope-temperature answer is set by this prior. Team-b found the same for the cold branch.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "Combine Q37 (Xb4d vs Xb4f on common uv/taper), Q6 cross-calibration, Q21 ramp, and ALMA calibrator-flux accuracy (Band 5/6/7 ~5-10% nominal) into an empirical sigma; rerun q42_dyn2 at that sigma (3 seeds, nlive 1500).",
+   "status": "open",
+   "notes": "From Q42 review note 4. Depends on Q37; do Q37 first or together."
+  },
+  {
+   "id": "Q46",
+   "question": "Can the clump opacity/abundance degeneracy at E1/W be broken with any in-band or archive optically thin isotopologue (H13CN, H13CO+, HC15N) or CS/HC3N at the clump positions?",
+   "why_it_matters": "Q40 RADEX leaves abundance, density, opacity inseparable (delta chi2<3); no clump opacity limit exists.",
+   "plan_goal": "Opacity check (H13CN) / nuclei vs outflow vs disk",
+   "measurement": "Stack spectra at E1/W for H13CN 4-3 (team-b detection at nuclei, see Q33), H13CO+, HC3N; derive limits at matched beam; compare with nuclear isotopologue ratios.",
+   "status": "open",
+   "notes": "If no limit is deeper than needed, mark blocked and say what observation would unblock (H13CN 3-2 at E1/W)."
+  },
+  {
+   "id": "Q33",
+   "question": "Can the isotope ratio R (12C/13C) be tied to data via HCN/H13CN and HCO+/H13CO+ (team-b H13CN 4-3, Harada 1-0 lines) and CO/C18O (C18O(2-1) in 2015.1.00412.S, give 13CO/C18O or limit)?",
+   "why_it_matters": "R is the dominant unknown in tau(12CO) (R=25 gives tau 1.5-2; R>=40 gives >=3). Also tests the 13CO-thin assumption.",
+   "plan_goal": "Opacity check",
+   "measurement": "Matched-beam 13CO/C18O in the Q30 cubes; HCN/H13CN at 4-3 from 2017.1.00379.S; compare to literature R for LIRGs.",
+   "status": "open",
+   "notes": "Q30 post disclosed no C18O result; fix here."
+  },
+  {
+   "id": "Q45",
+   "question": "Is the E1 3-2 deepening of the HCN/HCO+ deficit (E1/(N+S) 0.72->0.47, range 0.24-0.5 across variants) real when 1-0 and 3-2 visibilities are re-imaged with a common uv range and taper (not clean images)?",
+   "why_it_matters": "Only the visibility-level test can turn Q40's qualitative 2.7 sigma into a claim; decides excitation/opacity vs J-independent abundance explanation for the clump.",
+   "plan_goal": "Nuclei vs outflow vs disk comparison",
+   "measurement": "Image Michiyama 1-0 and ALMA 2-1/3-2 HCN & HCO+ MSs with identical uvrange (>8 kl), taper, weighting; refit N,S,E1,W templates; check E1 R at each J with noise from null windows. Harada raw (58 GB) only if needed.",
+   "status": "open",
+   "notes": "From Q40 reviewer note 3. Check feasibility of downloading Michiyama MS first."
+  },
+  {
+   "id": "Q37",
+   "question": "Why do Xb4d and Xb4f disagree by ~35% in the extended 3-2 HCN/HCO+ amplitude (R_ext32 0.34-0.37 vs 0.49-0.67; Q26/p0043)? Compare flux scale on common baselines of the restored EBs, calibrator fluxes, and short-baseline coverage; does this ~35% also affect Q6 recovery and Q8/Q12 ladder systematics?",
+   "why_it_matters": "Dominant unresolved systematic in the only disk J-dependence constraint; if calibration, it propagates to the <10% ladder budget assumed in Q2/Q8/Q12.",
+   "plan_goal": "Line ratios; systematics (Q6)",
+   "measurement": "From the Q26 uv dumps: visibility amplitudes of HCN and HCO+ and continuum on overlapping uv ranges per EB (Xb4f 3 EBs, Xb4d 3 EBs); check per-EB scatter; compare calibrator/flux-model info in MS history if restored; test whether discrepancy is in lines, continuum or both and ratio-vs-flux-scale. Cheap, reuse q26_uvdump outputs; no new restore unless needed.",
+   "status": "open",
+   "notes": "From Q26 reviewer notes. Also include velocity-window and off-line control tests (Q26 not done) if cheap."
+  },
+  {
+   "id": "Q35",
+   "question": "Are the pedestal in the CO(2-1) radial profile and the compact-gas opacity real, i.e. does the Q32 ff/Tk result survive (i) missing short-spacing flux (12m only) and (ii) higher tau(12CO) in the compact component than the 1\" beam-average of Q30?",
+   "why_it_matters": "Profile family/pedestal dominates the Q32 ff uncertainty (reviewer notes 2,3); higher tau would raise the Tk lower limits, a lower pedestal changes ff and T0. Needed before quoting any nuclear Tk beyond a lower limit.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "Check archive.py projects for 7m/TP CO(2-1) cubes of NGC 3256 (e.g. Brunetti+2021 data, 2016/2017 projects); if they exist, compare 12m-only vs 12m+7m radial profile and total flux; otherwise bound by the Xb4f 6\" and Xb4d flux recovery of Q6. Redo tau with 13CO/12CO per-aperture at the best matched beam (0.85-1\") varying R=40-90 and report the Tk shift for tau_core = 1-2x tau(1\").",
+   "status": "open",
+   "notes": "From Q32 reviewer notes 1-3; keep Brunetti+2021 smoothness wording soft (re-read paper via lit.py read 2021MNRAS.500.4730B if used). uv-plane fit optional (restore raw visibilities of Xb4b/Xb4d)."
+  },
+  {
+   "id": "Q41",
+   "question": "What are the actual shortest baselines/MRS of the Band 5/6/7 MSs, and does any ACA/7m data exist for NGC 3256 that recovers extended dust (or a Herschel/APEX map fixing the disk FWHM)?",
+   "why_it_matters": "Q38 MRS was inferred from beam sizes; the disk FWHM is the main unknown in the envelope-background bound.",
+   "plan_goal": "Density/temperature constraints (envelope Tbg)",
+   "measurement": "archive.py projects for ACA/7m; listobs-type uvdist minima from available visibilities or header info; published Herschel/LABOCA sizes via lit.py/web.",
+   "status": "open",
+   "notes": "Low priority: does not change Q38 conclusion; rank after Q39/Q40."
+  },
+  {
+   "id": "Q34",
+   "question": "Verify team-b p0038/p0007-r04 (N/S HCN/HCO+ 1.5-1.9x at every J; CS excess at N flips HCN-rich vs HCO+-poor): reproduce with our matched-beam CS(7-6)/HCN, HCO+ and Harada 1-0 CS/C18O, and test whether our N misfit (chi2 19-23) is due to CS/CO excitation excess.",
+   "why_it_matters": "Other team's claim directly bears on chemistry goal and Q27/Q28; one verification, reply CONFIRMED/REVISED.",
+   "plan_goal": "Line ratios / chemistry",
+   "measurement": "Merge with Q27/Q28 work; use team-b scripts s210c_q35_cs_radex.py as reference.",
+   "status": "open",
+   "notes": "Merges with Q27/Q28; reply to p0007-r04 and p0038."
+  },
+  {
+   "id": "Q27",
+   "question": "Verify team-b p0034 (H13CO+ tilts to ~2x HCN abundance at N; 1-0 contrast persists): with our own matched-beam data, is the opacity-corrected HCN/HCO+ abundance ratio higher at N than S, i.e. does the x3-4 abundance contrast required by Q10 RADEX survive?",
+   "why_it_matters": "Q10 concludes abundance rather than excitation (medium confidence) mainly from RADEX; an independent isotopologue test is the only direct check. Answers 'chemistry differs between nuclei' and closes the opacity-vs-abundance residual of Q4.",
+   "plan_goal": "Opacity check (H13CN) / chemistry between nuclei",
+   "measurement": "Check lit/archive.py and Q0 inventory for which isotopologue lines are in our files (H13CN 4-3 in Xb47 spw20; H13CO+ 3-2/4-3 are not in the Band 6/7 windows by my frequency count - verify) and which external images (Band 3 1-0 H13CN/H13CO+, 2015.1.00412.S/2015.1.00993.S; Harada+2018 Table) team-b used; reproduce their ratio at matched beam with our own flux extraction; use HCN/H13CN and HCO+/H13CO+ limits with RADEX opacity; reply CONFIRMED/REVISED/REFUTED to p0034. If isotopologues are detected only in external data, state provenance. Do not restore raw data.",
+   "status": "open",
+   "notes": "Raised by Q10 reviewer note 1; only item that can test abundance vs excitation directly. Depends on Q4, Q10, Q25 (1-0 products). | questioner turn: Q10/p0035 already replied to p0034 CONFIRMED on the RADEX route (X ratio x3-4 needed); that does not replace this isotopologue check, which stays open. Rank immediately after Q22."
+  },
+  {
+   "id": "Q28",
+   "question": "Is S HCN-poor (abundance or XDR/AGN chemistry) or HCO+-rich? Compare CS(7-6)/HCN and CS(7-6)/HCO+ and HC3N-type tracers N vs S at matched beam, and ask whether the AGN (XDR) channel is excluded given the S continuum is 35-45% dust yet R is flat/low.",
+   "why_it_matters": "Q10 shows S R=0.4 independent of continuum; reading S as HCN-poor vs HCO+-rich decides the AGN-chemistry interpretation (Harada+2018: no HCN enhancement at AGN).",
+   "plan_goal": "Line ratios / chemistry between nuclei",
+   "measurement": "Use Q14/p0023 CS numbers (CS/HCN N/S 1.1, CS/HCO+ 2.1 from Q10 note; team-b p0009-r03 matched N 0.088 S 0.063) and reconcile definitions; deblended matched-beam CS 7-6 vs HCN 4-3 (Xb47) and HCN/HCO+ 3-2; compare with XDR/PDR model expectations from literature (Meijerink & Spaans 2005, Harada+2018) labelled as assumptions. Mostly re-use of published p0023/p0009 measurements: cheap.",
+   "status": "open",
+   "notes": "Raised by Q10 reviewer note 3. Pair with Q27. Keep abundance interpretation at medium confidence."
+  },
+  {
+   "id": "Q18",
+   "question": "Is the ridge/lobe HCN flux ratio (1.23+-0.26 in Xb4d, 3.5+-2.2 in Xb4b) robust to spatial filtering? Use Xb4f (6\") total wing flux and the Q8/Q6 recovery posterior as a filtering-independent check; state whether the pipeline cubes are cleaned and how the resolved-out fraction differs for lobe vs ridge.",
+   "why_it_matters": "The symmetric-flux argument for the counter-lobe reading (and the 1.7-2.2x mass factor) rests on this ratio; the lobe is 70% resolved out in Xb4b.",
+   "plan_goal": "Outflow comparison / Q6 recovery",
+   "measurement": "Xb4f HCN/HCO+ 3-2 wing flux in the +230..+470 and -470..-230 windows over an aperture covering S lobe+ridge+N (with N/S deblend using Xb4d positions); compare to Xb4d/Xb4b sums at matched beam with the Q8 recovery factors; fix the caveat wording ('uncleaned' vs pipeline-cleaned).",
+   "status": "open",
+   "notes": "Raised by Q15 reviewer note 2-3 (turn 26). Depends on Q6, Q8, Q15."
+  },
+  {
+   "id": "Q19",
+   "question": "What decisive observation would settle the origin of the red ridge and the bipolarity of the dense S outflow, and what would the current data predict for it?",
+   "why_it_matters": "Origin is undecided; a proposal-level statement is the useful deliverable (Q15 reviewer note 4) and the honest limiting result.",
+   "plan_goal": "Outflow (limits / follow-up)",
+   "measurement": "Write 3 testable predictions (counter-lobe: CO(3-2)/HCN(1-0) at <=1\" shows a red wing centred ~3.3\" N of S with |v|~260-290 km/s, wing/core continuous with S axis; Bridge/N: wing velocity tracking N/Bridge core +40 km/s with no S-axis alignment), with expected sensitivities scaled from the 3-2 fluxes and Michiyama+2018 OF-Red. No new image analysis; include in the Q15 report entry or a short post.",
+   "status": "open",
+   "notes": "Raised by Q15 reviewer (turn 26). Low cost; can be done with Q17/Q18."
+  },
+  {
+   "id": "Q17",
+   "question": "Can HCN v2=1f 3-2 (267.199 GHz, ~+400 km/s from HCO+ rest) or other blends (CH3NH2 etc.) contaminate the HCO+ red window (+230..+470 km/s) at the red ridge and bias the HCN/HCO+ ratio there?",
+   "why_it_matters": "Closes the one known contaminant of the HCO+ ridge measurement (Q15 reviewer note 1); decides whether the HCO+ non-detection/tentative detection and the ridge ratio 3.3+-1.8 are clean.",
+   "plan_goal": "Outflow / shock-and-opacity checks (supports Q15, Q3)",
+   "measurement": "Use Q4/p0009 HCN v2=1f measurement (core amplitude ratio v2=1f/HCO+ at N, S, Bridge in Xb4d/Xb4b), scale by the HCN ridge-to-nuclei brightness, predict the contamination in the HCO+ red window at ridge and at the control positions; state as a fraction of 0.038 Jy/b km/s. Cheap, reuse q15 cached cubes.",
+   "status": "open",
+   "notes": "Raised by Q15 reviewer (turn 26). Depends on Q4, Q15."
+  },
+  {
+   "id": "Q21",
+   "question": "Verify team-b p0025: does the spw low-edge continuum-proportional ramp bias HCN 4-3 low by 0-10% (central ~4%) and leave ladder ratios and T43/T32 within 1 sigma at N, S, Bridge? Check our Xb47/Xb55/Xb4f cubes for the same ramps, and propagate to the Q8/Q12/Q2 ladder uses.",
+   "why_it_matters": "Our p0012/p0021/p0022 ladders use Xb47 spw16 HCN 4-3 and Xb55 HCO+ 2-1, the same cubes; an uncorrected few-% bias would shift T43/T32 and Tk. Together with p0027 (true N/S T43/T32 0.97-1.24) it decides whether any N-S excitation contrast survives.",
+   "plan_goal": "Line ratios / density-temperature (systematics)",
+   "measurement": "Independent line-free edge-channel test in the pbcor cubes (peak and aperture spectra, ratio to continuum), local baseline fits with/without edge channels, bias on integrated HCN 4-3, HCO+ 2-1, HCN 3-2; propagate to N/S T43/T32 and report CONFIRMED/REVISED on p0025; also reply to p0027/p0022-r01 (we accept 'not established, not excluded'; matched-uv imaging impossible with image products).",
+   "status": "open",
+   "notes": "Raised turn 7 by p0025, p0027, p0022-r01. Depends on Q6, Q8."
+  },
+  {
+   "id": "Q16",
+   "question": "Reconcile the geometry parameters of Q12c (extended filling u: N 1.6 [1.1,3.0], S 1.1; RADEX per-line size) with the uv-model of Q8 (extended-component filling N 0.3-0.5, S 0.8-0.96; compact sizes 0.35-0.5\", extended 2.6-18\"): which is a physical beam-filling factor and which an excitation/size nuisance? Do the Q12 N/S temperatures change when the Q8 geometry (and Xb47 recovery 0.5-0.7) is used as the prior?",
+   "why_it_matters": "Q12 and Q8 are the team's two published constraints on N-S temperature and both say 'geometry controls it'; inconsistent geometry definitions make the final density/temperature answer for the nuclei ambiguous. Reviewer of Q8 asked for this explicitly.",
+   "measurement": "Tabulate each parameter with definition and units; recompute the Q12 two-component RADEX N/S ladders with 4-3 flux scaled by the Q8 recovery posterior (physical and unbounded families) and Q8 compact/extended sizes as priors; report T, n credible ranges and whether N-S dT stays unconstrained; state which quantity is physical. Note that a matched-uv 2-1/1-0 map is not in the archive, so Bmin prior dependence remains.",
+   "status": "open",
+   "notes": "Raised by Q8 reviewer (turn 8). Depends on Q8, Q12, Q6. Feeds Q14 (Trot assumptions)."
+  },
+  {
+   "id": "Q24",
+   "question": "Is HCN excitation affected by IR pumping (v2=1 14 micron) and is X(HCN) constrained by H13CN, HC3N or dust N_H2 at the nuclei?",
+   "why_it_matters": "IR pumping or wrong X(HCN) would bias Tk/n and the core mass (M~1.3e8 Msun at X=1e-8 vs Mdyn 0.6-1.3e8).",
+   "plan_goal": "Opacity check (H13CN) and shock-tracer check (SO)",
+   "measurement": "lit.py search for 14 micron / HCN v2=1 detection in NGC 3256 (Spitzer/JWST); compare v2=1f 3-2 limits (Q17) with pumping predictions; use H13CN limits and dust column from 1.2 mm continuum to bound X.",
+   "status": "open",
+   "notes": "From Q20 review note 3; links Q17."
+  },
+  {
+   "id": "Q6",
+   "question": "Flux recovery and cross-calibration across array configurations and bands (Xb4b vs Xb4d vs Xb4f; Band 5/6/7 beam matching).",
+   "why_it_matters": "Resolved-out flux, negative zero-level bowls in 3-2 maps, and different beams can fake ratio gradients; blocks reliable cross-band ratios in Q1-Q2 and decides whether the disk 2-1 emission is real.",
+   "measurement": "Convolve Xb4b and Xb4d to Xb4f beam and compare line and continuum fluxes in matched apertures; quantify the zero-level bowl; assess pbcor effect and absolute flux scale uncertainty (~10%). Prior: Xb4d recovers 55+-8% of Xb4f CH3OH 2(0)-1(-1).",
+   "status": "in_progress",
+   "notes": "turn 8: p0022 (Q8) adds a calibrated uv forward model (Xb4b/Xb4d/Xb4f free recovery; Xb47/Xb55 tied to Xb4f; 70 data): Xb4d/Xb4b are 12-40% below Xb4f, Xb47/Xb4f 0.68-0.74 (N) / 0.52-0.54 (S) with Bmin>=15 m, absolute Bmin prior-dependent. Use as the recovery nuisance for Q13/Q15/Q14 wing and ratio fluxes; remaining: absolute flux scale, header/FITS-history check for Bmin, single reconciliation table with p0003/p0008. | Partly answered: team-b p0003 (Xb4d/Xb4b recover 65%/47% of Xb4f HCO+ 3-2 in r<8\"; HCN/HCO+ 3-2 agrees across arrays <=9%) and our Q1 recovery (HCO+ r<10\": 0.34/0.53/1) are consistent but use different apertures/baselines. Remaining: reconcile the two recovery numbers explicitly (check p0003 s26_flux_recovery.py against our q1_fluxrec.py), continuum recovery, absolute flux-scale; array identity/B_min unknown from headers (check FITS history/header keywords). Needed by Q2 (cross-band ladders, 14% systematic) and Q3 wing fluxes. | turn 20: team-b p0003 gives Xb4d/Xb4b recover 65%/47% of Xb4f HCO+ 3-2 within r<8\" and ratio agreement <=9% (/snapshots/team-b-s02/scripts/s26_flux_recovery.py); team-b s27 CH3OH recovery 0.67-0.77. Reviewer asks: recovery f must be measured from lines common to configurations (HCO+, HCN, CH3OH) and propagated as nuisance in SO (Q4) and ladders (Q2). | turn 7: team-b p0008 (Xb4d/Xb4f recovery ~0.7 centrally, only locally calibrable; ladder-ratio recovery systematic <~10%, not extrapolable to Xb47/Xb55) largely settles the budget: carry <~10% ladder systematic, do NOT apply a correction. Remaining (lower priority): reconcile with our q1_fluxrec numbers (0.34/0.53/1 in r<10\") and with p0003 (65%/47%) in one table; check p0008 for conflicts with our Q2/Q4 ladder uses (Xb55 2-1 and Xb47 4-3 at S and N)."
+  },
+  {
+   "id": "Q29",
+   "question": "Can radial f_ff be pinned by another recombination line in band (H26a/H29a etc. at z=0.0093) or by published H40a maps (Michiyama+2020)?",
+   "why_it_matters": "Q10 decomposition assumes constant f_ff(98 GHz) from a 1.5-3.3 sigma H40a; low confidence in the dust fraction.",
+   "plan_goal": "new (supports Q10)",
+   "measurement": "Compute observed frequencies of H26a-H31a for vLSR 2790 km/s versus the spw coverage (reviewer's H30a 231.9 GHz is outside our Band 6 windows by my count; check); if none, take Michiyama+2020 H40a maps/Table 6 as the assumption. Cheap bookkeeping, no new analysis unless a line is covered.",
+   "status": "open",
+   "notes": "Raised by Q10 reviewer note 2. Low priority; likely closes as 'not in band'."
+  },
+  {
+   "id": "Q31",
+   "question": "What is the N hot CO(2-1) spot (21 K RJ, 0.3\" NE of HCN core, v=2727 km/s) and why are N CO and HCN peak velocities offset by 7-35 km/s: outflow, separate component, or HCN-poor gas?",
+   "why_it_matters": "Bears on N core definition for Q22 and nuclei-vs-outflow goal; new lead, not a plan blocker.",
+   "plan_goal": "new (nuclei vs outflow)",
+   "measurement": "CO moment maps/pv at N in the 0.18\" cube; compare with HCN/HCO+ Xb4b channel maps near 2727 km/s; HCN/CO ratio map at matched beam; compare with Sakamoto+2014 N outflow geometry.",
+   "status": "open",
+   "notes": "Low priority; from Q23 reviewer note 4."
+  },
+  {
+   "id": "Q44",
+   "question": "Does the 14 um IR-pumping exclusion (T_IR>=150 K, W>=0.3 disfavoured) survive a non-copied collision-rate treatment and the HCO+ 12 um (and envelope) pumping? Combine with JWST/Spitzer published mid-IR continuum at S (Pereira-Santaella+2024, 2024A&A...681A.117P) to fix W and T_IR rather than leaving them free.",
+   "why_it_matters": "The IR exclusion is model-dependent; published 4.7 um/mid-IR continuum brightness would turn free W,T_IR into constrained values (Q24).",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "lit.py/ADS for mid-IR (14 um) brightness temperature and size of the N and S nuclei (Spitzer IRS, JWST MIRI/NIRSpec); compute W and T_IR; rerun q39_irgrid with v2=1 collision rate scalings 0.3-3x; add HCO+ if relevant. State as model-dependent.",
+   "status": "open",
+   "notes": "From Q39 review note 3. Merge with Q24 when worked; low priority vs Q42/Q43."
+  },
+  {
+   "id": "Q26",
+   "question": "Is the HCN/HCO+ ratio at 8-12\" (disk) independent of J? Answer via injection-recovery in the uv plane: R_ext(3-2)/R_ext(2-1) after removing N+S cores, with realistic errors.",
+   "why_it_matters": "Decisive test named in p0032: the transfer function there is parametric. Only worth requesting if Q25 is inadequate, since restoring pauses both teams.",
+   "plan_goal": "Nuclei vs outflow vs disk",
+   "measurement": "rawdata.py request one EB per OUS (Xb4f 7-m/compact first), tclean with common uvrange/taper, same restoring beam, PB-corrected only within PB>0.5, annuli as Q11.",
+   "status": "answered",
+   "notes": "Gate on Q25 outcome and cost (~40 min per 12-m EB). Rank below Q25. | turn 12: Q25/p0033 done: 1-0 decline 6-10% (upper bound), R21/R10 flat to ~5%, no excitation change needed. Reviewer: MRS not measured, only common-uv re-imaging turns the upper bound into a measurement. Keep Q26 as the only route to a disk 3-2 ratio; run only if cost acceptable, otherwise lower priority than Q22/Q23/Q10 (cheap image-plane items). | turn 25: PROMOTED to top. Now serves two goals: only route to a disk 3-2 HCN/HCO+ ratio, and removes the main Q22 limitation (10\" intensities not uv-matched to 1.7\"). Restore Xb55/Xb4f/Xb4d (+Xb4b tapered) visibilities for HCN/HCO+ 2-1,3-2,4-3 where in band, common taper to ~10\", u>~6 kl; re-derive N/S/disk intensities, then rerun the q22b fit (scripts/q22b_shared.py) with the matched values. | turn 25: started | not passed after 2 review rounds [turn 030 REOPEN, new approach] Round-2 uv results stand (binned Re(V) R32/R21 ~0.85+-0.05+-0.08 mixes core leakage; extended-Gaussian fit R_ext 0.54 vs 0.57 but chi2_r 2-10). Stuck because the forward model was requested twice and never run. Do ONLY this, by direct numpy DFT (no CASA): (1) sky model per line = N+S point/Gaussian cores with fitted per-J core fluxes + 10\" Gaussian, R_ext(3-2)=R_ext(2-1) and =0.85x; sample at real uv points of Xb55/Xb4f/Xb4d with measured sigma; rerun q26_uvana.py binning and fit unchanged over ~100 noise draws -> bias+-scatter of R_obs and R_ext. (2) Fit R_ext with core components subtracted, jackknife by EB, vary extended profile (6-15\" Gaussian, exponential). (3) State the final answer at the significance reached, using only Xb4f for 3-2 at 6-10 kl. RADEX expectation for J-dependence of HCN/HCO+ is a secondary one-paragraph add (link to Q2/Q22). If the forward model shows the method cannot separate a 15% fall, close as 'not distinguishable; limit X' rather than iterating. | turn 30: started | published p0043 | turn 034: ACCEPTED p0043: R_ext(3-2)/R_ext(2-1)=1.0+0.3/-0.4, constraint only; binned 15% fall is core leakage; Xb4d vs Xb4f R_ext32 ~35% discrepancy unresolved (-> Q37); decisive data = short-spacing 3-2 (propose in Q19). Do not reopen."
+  },
+  {
+   "id": "Q36",
+   "question": "What radiation field / background temperature do the nuclei imply (dust continuum at 0.9-1.3 mm and Band 5/7 continuum, H40a free-free per Michiyama+2020, published FIR)? Does it favour Tbg ~2.73 K or >=5 K in the Q22 fit, i.e. does the envelope come out hot (>=50 K) or warm (~35 K)?",
+   "why_it_matters": "Q22 reviewer: Tbg 2.73 vs 5 K flips P(Te>=50) from 0.55 to 0.18; this is the single most useful new constraint for the temperature goal. Also bears on IR pumping (Q24).",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "Continuum flux densities of N and S in Bands 5/6/7 (archive cont images, free-free subtracted via H40a/Michiyama+2020); dust SED/Td and tau_dust from published or our values; compute the mean intensity at HCN/HCO+ transition frequencies inside the cores and envelope (dust-RADEX style Tbg(nu)); rerun Q22 with that Tbg. Check lit.py for published Td/FIR sizes of the nuclei (Sakamoto+2014, Michiyama+2020).",
+   "status": "answered",
+   "notes": "Raised by Q22 reviewer notes (turn 23). Cheap (image plane), could run in parallel with Q26. | turn 34: started | published p0046, p0044-r01 | ACCEPTED p0046: envelope background ~CMB (Tb 5-8 mK at 10\"), cores 3-6 K equivalent; Q22 P(Te>=50)=0.43+-0.20; follow-ups Q38 (MRS lower-limit caveat), Q39 (leave-one-out/IR pumping)."
+  },
+  {
+   "id": "Q38",
+   "question": "Is the 5-8 mK 10\" continuum Tb (Q36) a lower limit because of 12m-only missing extended dust, and does a Herschel/single-dish-based global dust Tb (Td~30 K, small tau, Michiyama+2020 FIR fluxes) at 10\" bound the envelope background above CMB at 258/350 GHz?",
+   "why_it_matters": "Reviewer caveat on Q36: if extended dust emission is resolved out, the envelope background could exceed CMB, partly reviving the Tbg>=5 K case that flipped Q22 P(Te>=50) 0.55->0.18. Directly bounds the envelope temperature.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "Estimate maximum recoverable scale of Xb4f/Xb47/Xb55 continuum from the shortest baselines (header/lit: Band 6/7 12m MRS); model a Td 30 K, tau(258 GHz) from FIR SED (Michiyama+2020) disk of 10-20\" extent, compute its Tb at 10\" and the missing fraction; compare with the archive 5-8 mK. Report J_bg(nu) upper bound and rerun the q36_rt equivalent-Tbg for the envelope with that bound (Q22 P(Te>=50) sensitivity).",
+   "status": "answered",
+   "notes": "From Q36 reviewer note (1), p0046. | turn 38: started | published p0047 | Published p0047: Tbg_eq 2.73-3.2 K (<=3.9 K at 4-3 extreme); inside envhi scenario. Follow-up Q41."
+  },
+  {
+   "id": "Q39",
+   "question": "Which data drive the Q22/Q36 envelope result: drop the 1-0 lines (free-free-extrapolated background, Band 3 beam match, zero-spacing bowl per Q25) and, separately, test IR (14 um) pumping, and refit: does P(Te>=50) or the core Tc change beyond the 0.1-0.4 seed scatter?",
+   "why_it_matters": "The Q22 envelope inference needs a leave-one-out test; envelope P(Te>=50)=0.43+-0.20 is the main open number in the density/temperature goal and 1-0 is the least reliably matched data.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "Rerun q36_q22.py with (a) 1-0 removed, (b) 1-0 error inflated to 30%, (c) 2-1+3-2+4-3 only; use >=12 seeds or a convergent sampler (nested/MCMC) to beat the multimodal seed scatter; add Q24 IR-pumping variant for cores only. Report P(Te>=50), Tc, ln Z.",
+   "status": "answered",
+   "notes": "Reviewer note p0046 + Q24 link. Uses scripts/q36_*.py. | turn 42: started | published p0048 | reviewer notes: N-core Tc depends on 1-0; seed sd 0.2 ~ effects tested; IR exclusion model-dependent -> Q42, Q43, Q44."
+  },
+  {
+   "id": "Q22",
+   "question": "Does a joint two-component model (hot Tk>=50 K envelope + cool 17-25 K near space-filling 50-66 pc core) fit the 1.7\" and 10\" HCN/HCO+ ladders (2-1,3-2,4-3) better than the single-phase core of Q20, and what are P(T) and the core/envelope mass fractions?",
+   "why_it_matters": "Q20 shows the cool S solution is a space-filling core, but the 10\" ladder is team-b's and the hot-envelope alternative remains; this decides density/temperature N-S contrast and the Q16 geometry reconciliation.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "Extend scripts/q20b_eta.py to two RADEX zones sharing the Q20 error model (common per-band 10% scale); fit both apertures jointly with the 0.24\" T_b bound and H13CN limit; compare by BIC/dchi2 and report posterior; test X(HCN) 1e-9..1e-8 and a two-density clumpy variant (11 pc path for X=1e-8 < core).",
+   "status": "answered",
+   "notes": "From Q20 review notes 2 and 4. Subsumes Q16 geometry reconciliation if consistent. | turn 9 (questioner): do Q23 first (CO T_b prior feeds this fit); 10\" intensities are team-b's with our deblend, so state the non-independence. Q20 reviewer passed (p0030 accepted); no team-b post since contradicts p0030 (p0028/p0012-r02 replies already answered). | turn 14: now top priority for the temperature goal. Use p0040 as inputs: S core ff(0.26\")~0.7-0.8, N ~0.3-0.5 (indicative), CO Tk ff=1 limits S>=36-40, N>=18-21 K (window-mean S>=30), sub-clumping grid ff_sub 0.3-1 unconstrained below 0.18\" (so hot-envelope vs cool-core remains allowed); treat CO ff as a prior on the HCN/HCO+ core filling. | turn 19: started | published p0042, p0041-r01 | turn 25: ACCEPTED p0042 (shared envelope; hot envelope allowed not required, P(Te>=50)=0.2-0.6; cores 16-21 K). Follow-ups: Q26 (uv-matched 10\" data) and Q36 (Tbg/dust radiation field). | Q36/p0046: the 5 K flip was an envelope-background effect excluded by 10\" continuum; hot envelope neither required nor excluded."
+  },
+  {
+   "id": "Q30",
+   "question": "Can tau(CO(2-1)) at the S and N cores be constrained from archive 13CO/C18O(2-1) or CO(3-2)/(1-0) (check archive.py projects, lit.py for published 13CO/12CO e.g. Sakamoto+2014, Harada+2018, Michiyama+2018), turning the conditional Tk(S)>=26-38 K bound into a measurement?",
+   "why_it_matters": "Q23 Tk bound is conditional on tau(CO)>=3 and co-spatiality; it is the only independent Tk prior for Q22.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "Search archive and literature for 13CO/C18O/CO(3-2) cubes; if any, matched-beam T_b ratio at S/N cores; else take published 13CO/12CO as labelled assumption and state tau range; update Tk_min table. If nothing exists, close as stuck/blocked with reason. Cheap.",
+   "status": "answered",
+   "notes": "From Q23 reviewer note 3. Do before Q22. | turn 7: started | published p0039"
+  },
+  {
+   "id": "Q32",
+   "question": "Is the compact CO(2-1) component resolved at 0.26\"? Compare the 0.26\" and 1.0\" 12CO(2-1) flux (matched uv range) at S and N to turn the ff=1 Tk lower bound (S>=37 K, N>=19 K, p0039) into a ff range.",
+   "why_it_matters": "ff is now the open parameter of the Tk bound (ff=0.5 gives S>=68 K, ff=0.3 gives 110 K); tests whether a hot compact component exists, which bears on the nuclei-vs-disk temperature contrast.",
+   "plan_goal": "Density/temperature constraints",
+   "measurement": "Existing 0.26\" (Q23) and 1\" (Q30) cubes; taper/match uv range; flux in 0.26\" beam vs beam-diluted prediction; same for 13CO if possible. No new data needed.",
+   "status": "answered",
+   "notes": "Suggested by Q30 reviewer. | turn 13: started | published p0040 | turn 14: published p0040 (ff(0.26\") S 0.6-0.9, N 0.3-0.5; Tk ff=1 S>=36-40, N>=18-21; confidence low). Residual limits spun out as Q35."
+  },
+  {
+   "id": "Q23",
+   "question": "What is the CO(2-1) brightness temperature at the exact S and N core positions (0.24\"-1.7\" beams) from the archive CO cube, and do published Brunetti+2021 Table 2 values (read from arXiv HTML) match the PDF?",
+   "why_it_matters": "CO T_b is the prior on Tk for a space-filling core; the S 17-25 K core is uncomfortable at the CO 84th percentile. Q20 used percentiles not at the core positions.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "archive.py: locate CO(2-1) cube (Brunetti/Sakamoto project), measure peak T_b at nuclear positions in matched beams, compare with Table 2 (fetch PDF via web). Feed into Q22 as a Tk prior. REVIEWER FIXES (verdict fix, turn 1 of questioner), all four required before Q22 uses it: (1) velocity-matched T_b: extract CO at the HCN/HCO+ (Q5/Q22) peak velocity and FWHM for the same apertures/beams (peak-channel Brunetti convention AND velocity-matched/mean T_b); S ~2712, N ~2763-2790 km/s; are CO-bright and dense gas the same component? (2) position/astrometric error budget: T_b vs offset 0,0.03,0.06,0.1,0.15\" at each beam; Monte Carlo core centre with Q5 centroid error, median and 16-84% (reviewer: N 0.26\" ~13-20 K RJ, S 30-33 K; noise-only 0.7 K error is too small); give CO-peak-in-nucleus value and compare with Brunetti abstract max 37 K (S 30.4 K RJ / 33 K within a beam: is 37 K RJ, and consistent?). (3) missing flux: use 2015.1.00714 7m mosaic + SD cubes (archive.py) to compare 7m+12m(0.82\") flux inside the same beam with the 12m 0.18\" cube convolved; quantify correction at 0.57-1.7\"; redo the 10-12% 12m-only deficit with elliptical beams (radio_beam deconvolve / imsmooth) instead of circular geometric-mean. (4) reword Q23c as conditional with filling-factor/beam-dilution derivation: T_b rises 3.5x from 1.7 to 0.18\" at S -> implied ff range; tabulate Tk_min vs ff and tau(CO) (13CO/C18O unavailable: state it); give the Tk(S) range that survives; velocity mismatch, co-spatiality, beam dilution CO-vs-HCN unmodelled.",
+   "status": "answered",
+   "notes": "From Q20 review note 1. Rank before Q22 (prior input). Check Table 2 against the published PDF (web), not the arXiv HTML; if the CO cube is not in the archive, state the limit and use published values as labelled assumptions. | turn 19: started | questioner turn: review.json verdict FIX; worker re-derived S/N T_b (RJ 0.26\" S 30.4, N 13.2 K; 0.57\" S 18.8, N 8.6) and agrees with co_hires.json to 0.1 K, but N T_b shifts 13->16-20 K for 0.06-0.15\" offsets. Table-2 HTML vs PDF check is a same-arXiv-source comparison (null nearly guaranteed): state it, do not spend more on it. Do not claim 'S cannot be a 17-25 K space-filling core' unconditionally. Answers to reviewer questions (1)-(3) go in the report. | turn 1: started | published p0037, p0026-r03, p0028-r02 | questioner turn 2: ANSWERED/accepted (p0037). Do not reopen; Table-2 PDF check and Brunetti RJ-vs-Planck dropped as low value. Residuals -> Q30, Q31."
+  },
+  {
+   "id": "Q25",
+   "question": "Does HCN/HCO+ 1-0 (Band 3 archive images, 2015.1.00412.S Harada / 2015.1.00993.S Michiyama; ~2\" beams, check archive.py for HCN/HCO+ 1-0 products) convolved to 10\" show the same 8-12\" disk decline of the HCN/HCO+ ratio (~11%) seen in 2-1 (Q11, p0032)?",
+   "why_it_matters": "Q11 showed the 3-2 8-12\" ratio is not measurable from our images (PB, zero level, uv recovery), so the 2-1 decline is unattributed. 1-0 at matched resolution, with good short-spacing coverage (ACA/TP in these projects), gives an independent disk radial trend and a 1-0/2-1 ladder ratio vs radius, separating abundance from excitation. Also supplies the low-J anchor for disk RADEX limits.",
+   "plan_goal": "Nuclei vs outflow vs disk; line ratios; density/temperature",
+   "measurement": "python3 /task/tools/archive.py to list/fetch 1-0 HCN/HCO+ image products; convolve to a common 10\" beam with our Xb55 2-1 grid; same annuli 0-4/4-8/6-9/8-12\" as Q11 with PB-aware masking (PB>0.5), flux-recovery caveats; compute R10(r), and HCN/HCO+ 2-1/1-0 per annulus; RADEX translation as in q11_radex_gradient. Use Harada+2018 published ratio maps as comparison (lit.py). Do not restore raw data unless images are inadequate.",
+   "status": "answered",
+   "notes": "Follow-up recommended by Q11 reviewer/editor (p0032). Archive images are external data: state their provenance and PB/recovery. | turn 7: started | published p0033"
+  },
+  {
+   "id": "Q10",
+   "question": "Does the N inward rise of HCN/HCO+ 3-2 (0.3-0.4 at 2-3\" to ~1 at the peak) track the 1.1 mm continuum / H40a surface brightness (nuclear starburst), and is S flat despite the AGN?",
+   "why_it_matters": "Distinguishes radiative/IR pumping, hot dense star-forming gas, or shocks from abundance chemistry; tests the AGN-vs-starburst reading (Michiyama+2020, Harada+2018).",
+   "measurement": "At matched beam (Xb4b 0.30\", Xb4d 1.05\") compute HCN/HCO+ per pixel/annulus vs continuum (line-free channels) and H40a if in band; correlation with errors, N and S separately; check continuum-subtraction effects and HCN v2=1 limits at the peak.",
+   "status": "answered",
+   "notes": "Raised by Q7 reviewer note 2. Depends on Q7, Q0 continuum inventory. Feeds Q4 interpretation, Q2. | turn 16: p0010 gives 0.30\" N ratio ~0.92-1.04 across +-100 km/s with a 12% blue-to-red decline: use as velocity-resolved control; do per-pixel ratio vs continuum/H40a. | turn 13: started | published p0035, p0034-r01 | turn 18: ANSWERED p0035/p0034-r01 (reviewer pass): N rise is a property of the N nucleus, not of continuum SB (pooled regression with nucleus indicator + shifted nulls); R follows dust within N only; H40a only 1.5-3.3 sigma, consistent with free-free (f_ff 0.63/0.74) and Michiyama+2020; RADEX: R 0.4->1 at fixed ladders needs X(HCN)/X(HCO+) x3-4 (abundance, medium confidence). Residuals -> Q27, Q28. Do not reopen."
+  },
+  {
+   "id": "Q11",
+   "question": "Like-for-like disk comparison: is the 12% decline of the 2-1 ratio at 8-12\" reproduced by the 3-2 maps convolved to the Xb55 beam (9x6\")?",
+   "why_it_matters": "Removes the beam-convolution and J ambiguity of the Q7 disk statement; tells whether a genuine disk gradient exists beyond nuclear weighting.",
+   "measurement": "Convolve Xb4d/Xb4f 3-2 HCN and HCO+ to the Xb55 beam, same annuli about the N-S midpoint, same zero-level treatment; also use Xb4f (7-m-like) for matched recovery.",
+   "status": "answered",
+   "notes": "Raised by Q7 reviewer note 4; cheap. Depends on Q6 (recovery). | turn 13: started | turn 1: started | published p0032, p0005-r07"
+  },
+  {
+   "id": "Q5",
+   "question": "Morphology/kinematics at 0.24\": sizes, velocity gradients and line widths of the dense gas around the two nuclei (and cloud-scale structure), and the offset between line and continuum peaks.",
+   "why_it_matters": "Only Xb4b resolves the nuclei and gives sizes ~40 pc; defines apertures and dynamical context (beam filling).",
+   "measurement": "Moment 0/1/2 maps of HCN/HCO+ 3-2 and spw25/27 lines in Xb4b; 2D Gaussian size fits deconvolved from the beam (N splits into >=5 sub-clumps, S compact); continuum 1.1 mm peak positions and flux; line widths -> dynamical mass if justified. Centroid offsets <=0.13 beam are consistent with zero (p0001).",
+   "status": "answered",
+   "notes": "Informs Q1 beam-filling arguments and Q2 beam-filling variants; sizes at N/S in Xb4b are needed for RADEX equal-filling assumption test. | turn 14: raised in rank: only open item that uses the 0.24\" data directly; sizes/velocity fields also give the independent size prior Q16 needs. | turn 26: now the highest-ranked open plan goal (cloud sizes/line widths from the 0.24\" data never attempted); do first. Use Xb4b HCN/HCO+ 3-2 (and CS/other strong lines in spw25/27/29/31), deconvolved 2D Gaussian sizes with beam, FWHM, v-gradients, compare continuum peak; note Xb4b recovers only ~0.5 of Xb4f so size limits are for the compact component. | turn 1: started | published p0029, p0026-r01, p0005-r05, p0007-r03 | turn 7: ANSWERED/published p0029 (+replies p0026-r01, p0005-r05, p0007-r03). Residual (not blockers): Xb4d/tapered check of S, T_b/tau for S continuum; CO 3-2 not in archive. Do not reopen."
+  },
+  {
+   "id": "Q20",
+   "question": "Does the Q5 0.24\" geometry (N core Gaussian FWHM 50-56 pc, S 49-66 pc, common HCN/HCO+ filling to ~15%, sigma_int, Xb4b peak T_b) plus team-b p0026/p0028 T_b(scale) fix the beam-filling term in the RADEX ladders, and is the S 'cool' solution (Tkin 20-30 K, p0012) a dilute (eta~0.01), thick core inside a warmer envelope as team-b p0012-r02 proposes? Does the 0.24\" T_b (N 2.65/2.75 K at 49 pc) bound eta independently?",
+   "why_it_matters": "Closes the density/temperature goal's open degeneracy (filling vs sub-thermal excitation); two teams now disagree on how to read the S cool solution and the N-S dT.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "Use Q5 sizes/T_b from Xb4b (our own peak T_b at 0.24\", with pedestal vs core definitions reconciled: r50 97-109 pc vs Gaussian 50-66 pc) as an eta prior per region; recompute the Q12 ladders with eta tied to measured size ratio (Xb4d/Xb4f dilution) vs free; test team-b p0012-r02 (P(Tk<=30)=0.03-0.07 for cold gas filling 10\" beam; chi2(25K) 36-41 for eta>=0.05) on our S aperture; report whether S Tkin<80 K is still supported and what eta is required. Also verify p0028 claims (Tk lower limit survives free eta) with our own ladders: reply CONFIRMED/REVISED. Reuse q12b_twocomp.py. Note team-b's deblend/aperture is not independent of ours. Tbg/IR pumping if cheap.",
+   "status": "answered",
+   "notes": "Raised turn 7 by Q5 reviewer note 2, p0012-r02, p0028, p0026. Depends on Q5, Q12, Q16. | turn 7: started | published p0030, p0012-r03, p0028-r01, p0026-r02"
+  },
+  {
+   "id": "Q13",
+   "question": "Is the S-outflow blue-lobe HCN excess (p0006; team-b p0006-r01: Xb4d 6.2 sigma, Xb4b only 1 sigma) real dense wing gas, or an HDO/other blend or resolved-out structure? Reconcile Xb4d vs Xb4b and our Tb ratio 1.0-1.4.",
+   "why_it_matters": "The outflow is one of the three environments named in the research question; the only claim of dense gas in the outflow rests on one lobe and one array. A blend or filtering artefact would remove the outflow detection.",
+   "measurement": "Compare Xb4d and Xb4b (convolved to 0.95\") over the same blue window and aperture, with Xb4b recovery from p0003/p0008; identify blends at the lobe velocities (HDO, CH3NH2, HCN v2=1, line list from Q0) using template spectra from nearby line-free regions and from a second transition of the candidate blender; null test at random positions; HCN vs HCO+ 4-3 in Xb47 only at ~4\" as consistency. Report detection with a blend-allowed fraction, or an upper limit.",
+   "status": "answered",
+   "notes": "turn 7: team-b p0006-r02/p0014 (partly confirm): S blue-lobe dense gas reproduced (HCN 0.47+-0.04, HCO+ 0.33+-0.04 Jy km/s, 12 and 8 sigma, -405..-150 km/s, r=1\"; no N wing <0.7%), but HCN/HCO+ is window dependent (1.46 fixed window, 0.6-0.9 whole broad component; lines do not share kinematics, dchi2=109/4), HDO blend not excluded, HCN flux in Xb4b half of Xb4d; dense mass 7.8e6 (1e-8/X) Msun (0.8-2.6e7 CO-capped) vs our 1.4-4.6e6; single-zone fails HCN 3-2/1-0. Do: reconcile mass and ratio with p0006 (window, abundance, aperture), blend test, Xb4b vs Xb4d resolved-out check. | Raised by team-b p0006-r01 (/snapshots/team-b-s07/out/q11r2/s72a.txt, s72c.txt). Feeds Q4 and the outflow part of the final answer. Depends on Q6. | turn 19: started | published p0024, p0006-r03 | turn 25 (questioner): ANSWERED by p0024/p0006-r03: E 4.3 sigma pointwise, 3.2 global (marginal), Xb4b consistent within errors, HDO-only disfavoured (HDO/HCO+~200). Residual: second HDO line / cleaned masked channels not in archive; do not reopen."
+  },
+  {
+   "id": "Q15",
+   "question": "Is the red-shifted dense-gas ridge ~3\" N of the S nucleus (team-b p0017: one-sided HCN/HCO+ 3-2, 4.7/5.7 sigma over a core-matched null, coincident with Michiyama+2018 OF-[Red]) real, and is it an S counter-lobe, Bridge streaming gas, or N-related? Is the S outflow bipolar in dense gas?",
+   "why_it_matters": "The outflow is one of the three environments in the research question; a bipolar dense outflow would change the mass-outflow budget (p0014: dense mass ~1e7 Msun, Mdot 15-60 Msun/yr) and the AGN-driven reading.",
+   "measurement": "Independently reproduce the ridge flux in Xb4d (and Xb4d tapered, Xb4b at 1.05\") with a core-brightness-matched null and mirrored blue-wing controls; velocity structure vs the blue lobe (p-v along the S axis); HCN/HCO+ 4-3 counterpart (p0018: only ~3 sigma, template dependent); compare geometry with CO outflow (Sakamoto+2014, Michiyama+2018). Report detection significance and the origin as undecided if ratios cannot separate; do not rank above Q13.",
+   "status": "answered",
+   "notes": "Raised by team-b p0017/p0018 (/snapshots/team-b-s11, s12). p0018: line ratios cannot separate counter-lobe from Bridge. Depends on Q13, Q6. | turn 25: now unblocked (Q13 published). Reuse q13g_global.py blind-search/trials-correction and ring-null machinery (scripts/q13g_global.py) and report global, not pointwise, significance; p0024 showed red-side E noise is non-Gaussian (maxima to 0.156), so the red ridge null must be built on the red-window map itself. Next to run. | turn 25: started | turn 26: ANSWERED by worker Q15a-h (reviewer pass): HCN ridge 0.126+-0.022 Jy/b km/s (5.9 sigma pointwise, +-40% red baseline systematic; z_incl_sys 2.2), recovered in Xb4b (0.106+-0.023) and tapered baseline-free cube (0.093); HCO+ only tentative (0.038+-0.018, 2.1 sigma; team-b's 5.7 sigma window includes the core wing); centroid 3.2-3.5\" N of S, 0.6-0.7\" from M18 OF-Red; no blue wing at ridge. Origin UNDECIDED (counter-lobe vs Bridge/N); do not add to S mass budget (if counter-lobe the dense outflow mass would be 1.7-2.2x the blue-lobe value). 4-3 unusable. Residuals -> Q17, Q18, Q19. Do not re-verify p0017 again."
+  },
+  {
+   "id": "Q14",
+   "question": "Chemistry contrast among N, S, Bridge, S-outflow lobe and disk: do CH3OH, SO, CS, HC3N, SiO (whatever is in band per Q0) and HCN v2=1 differ in abundance ratio to HCO+/HCN, and are they consistent with Harada+2018 (largest variation in SiO and CH3OH)?",
+   "why_it_matters": "Chemistry is the third axis of the research question (density, temperature, chemistry). Only ratios to a reference line at matched beam are robust given the geometry systematics in Q12.",
+   "measurement": "From the Q0 line table, matched-beam deblended fluxes (N, S, Bridge, lobe, disk where detected) with 3-sigma limits; ratio to HCO+ 3-2 within the same spw/array where possible; LTE/non-LTE column ratios with Trot from the Q12 ranges as an explicit assumption; compare CH3OH 254 GHz (team-b p0002: Bridge 0.042+-0.012; Tex ~10 K from the 254/blend ratio; our N/S limits <0.013/<0.017 vs team-b <0.02/<0.03: state why) and SO limits (251.8 GHz blended with CH3OH A ladder, upper limit). Compare with published values as assumptions.",
+   "status": "answered",
+   "notes": "turn 7: CHALLENGED/revised by team-b p0019/p0020/p0001-r02,r03: our p0001 CH3OH claims (Bridge/W enhancement, Trot~9 K, Q-branch excess chi2 53/6) are baseline-limited (blend integral 2-4x baseline dependent; N 0.46-1.61 vs our 2.23; Trot S 10 +7/-5 K; Q-branch driven by negative J=4-8 amplitudes; at Xb55 beam blend/HCO+ 2-1 ~0.05 no contrast); p0020 gives edge-ramp-corrected blend +-14-37%. Re-test with their baseline, report revised or withdrawn. Also reconcile: p0016 (no shock-chemistry signature at nuclei: CS7-6/HCN4-3 ~0.16 uniform, SO/HCO+ 4-3<0.014; cold extended off-nuclear CH3OH, Trot<~11 K), p0009-r03 (our CS/HCO+ N/S 0.051/0.056 reproduced only for 3-2 deblended or 6.5\" aperture; matched 4.31x2.79\": N 0.088, S 0.063, N/S 1.4+-0.24; difference is definition/aperture). Compare with Harada+2018 Table 13 at 1.7\". | Absorbs the unfinished Q4 items (CH3OH Q-branch, SO limits vs recovery f). Depends on Q0, Q6, Q12. | turn 13: started | published p0023 | turn 14 (questioner): ANSWERED by p0023 (accepted): CH3OH extended, S>N only 2.8-3.0 sigma at 6.3x3.8\" (<=1.5 sigma at <=4.45\"), Harada CH3OH reproduced within errors (0.64-0.84), SiO/SO untestable (limits 5-360x above Harada), CS uniform. Residuals (low priority): X(CH3OH) not compared with literature; Tex(N) vs Tex(S) not measurable (241.79 not in data); short-spacing-complete CH3OH map not in archive."
+  },
+  {
+   "id": "Q12",
+   "question": "Does a two-component (compact optically thick core + extended lower-density envelope, or two-phase per Michiyama+2018) non-LTE model fix the poor one-zone N fit (chi2 19-23/8) and the class-dependent N temperature, and does it change the S result (Tkin 20-30 K, Tbg<=5 K branch)? Is the N-vs-S temperature contrast then significant?",
+   "why_it_matters": "Q2 (p0012) leaves N poorly fit and the N-S T contrast only suggestive; every physical scale (n, T, N, mass) rests on the one-zone assumption. Closing this decides whether the published ranges are model artefacts.",
+   "measurement": "Extend q4c_joint.py: two components with shared Tbg, per-component (n,T,N, filling eta from the Xb4b/Xb4d/Xb4f dilution table, Q8), HCN/HCO+ X free; fit N and S ladders plus 0.30\" core/wing ratios; compare via chi2 and Bayesian evidence with penalty for added dof (dof are scarce: report if data cannot discriminate); include T floor-free grid, Tbg 2.7/5 K; carry <10% ladder systematic. A 1-0 datum at matched 1\" is not in these files (only literature Harada+2018 at 1.7\"): use as labelled assumption.",
+   "status": "answered",
+   "notes": "Raised by Q2 reviewer notes and p0012 open problems. Subsumes the Q8 filling-factor fit. Depends on Q8 (dilution), Q6 (<10% systematic). Cite team-b p0011 (Tk>56 K, n<10^5.25 at 10\") as compatible centre-blend constraint; also challenge-check: p0011 finds the disk cooler (P~0.94), our data give only density lower limits for the disk - reconcile in this item. | turn 23: started | turn 24: analysis complete (work_summary round 2, scripts/q12b_twocomp.py). Results: one-zone N profile chi2 9.2/4 (p=0.055; earlier 14.8 withdrawn); two-comp untestable by chi2 (0 dof); Delta lnZ(2cT-1z) at N +0.6..+3.6 (assumption dependent, 0/40 one-zone sims reach +3) = weak-to-moderate; S no second component; N T 29 K [15,61] two-comp vs 61 K one-zone, 17 K with u+size nuisances; Delta T(N-S) not distinguishable (P(N>S)=0.37-0.74). Geometry (filling u, per-line size) is the controlling systematic; data cannot measure it. Next: publish, with N confidence low; then Q8 matched-beam growth-curve test. Not done: matched-beam 2-1/3-2 growth curve at 5.7x3.5\", velocity-resolved two-phase test, slab/escape geometry. | turn 1: started | published p0021, p0011-r02, p0015-r01, p0007-r02 | turn 7: ANSWERED, published p0021 (accepted): second component neither required nor excluded; one-zone N misfit absorbed by geometry; N-S dT unconstrained (+3.7 K [-10,+36]). Residuals handed to Q8: measured-geometry priors reuse the 3-2 ladder (not independent); N 15 K one-zone is a prior-edge artefact; S P(>=80K)<=0.06 is deblend dependent (team-b p0012-r01: dchi2(80K)=1.4-3.2 in matched aperture vs our 9.3); Tbg>5 K and IR pumping untested; share deblend script (team-b request)."
+  },
+  {
+   "id": "Q8",
+   "question": "Is the N-vs-S excitation contrast (team-b p0015: T43/T32 HCN 1.26+-0.09, 2.9 sigma; HCO+ 1.16+-0.08; S indistinguishable from Bridge) a Tkin effect or a beam/source-size effect? What are the per-line source sizes, extended-filling u (N: 1.6 [1.1-3.0]) and beam-filling of the dense gas at N, S, Bridge?",
+   "why_it_matters": "Q12 showed geometry (u, per-line size) is the controlling systematic: N one-zone T goes 61 K -> 15-29 K and the N-S dT is unconstrained. The only remaining N-S temperature signal is the T43/T32 excess. Deciding Tkin vs size decides whether the research question's 'nuclei differ from each other/disk in temperature' has any supported answer.",
+   "measurement": "Build the matched-beam ladder from data not used in the geometry fit: convolve Xb4d (and Xb4b) 3-2 to the Xb47 4.3x2.8\" and Xb55 9x6\" beams exactly (beam-ratio kernels), compare with 4-3 and 2-1 native, N+S+Bridge decomposed with the 16 deblend variants; test whether T43/T32 N/S ratio is reproduced by pure size differences (N compact 0.44\" vs S 0.34-0.38\", u 1.6 vs 1.1) with Tkin equal, using forward models; use independent size tracers (continuum 1.1 mm size, Xb4b HCO+/HCN moment-0 sizes, Q5) to break the reuse of the 3-2 ladder; recovery f as <10% budget item. State what a matched ~1\" 1-0 map would add (not in archive).",
+   "status": "answered",
+   "notes": "turn 8: ANSWERED by p0022 (accepted): uncorrected N/S T43/T32 HCN 1.26-1.33 reproduced but not robust to Xb47-vs-Xb4f short-spacing recovery; corrected 1.07 [0.89,1.26], HCO+ 1.00; no Tkin difference supported (N/S<~1.4); dominant systematic = absolute Bmin loss, prior-dependent. Residuals: Q12c u vs uv-model filling reconciliation -> Q16; recovery -> Q6. | turn 7: promoted to rank 2 (follows Q12 reviewer note and team-b p0015). Note Q12 caveats: 3-2 sizes come from the same ladder used in the fit; only 3-2 size measurable; 2-1/4-3 sizes are assumptions. | turn 24: Q12 shows geometry (extended filling u at 1.7\", per-line source size 2-1/3-2/4-3) controls the N temperature (61 K -> 17-29 K). Elevated: do the matched-beam 2-1/3-2 growth-curve test (Xb4b/Xb4d convolved to 5.7x3.5\" and Xb55 beam; recovery from p0008 as <10% budget item) to bound per-line size ratio and u. | turn 23: now feeds Q12 (two-component fit); Q2 published p0012 without a filling-factor fit (N, S equal filling in the fit; scales conditional on X). | Promoted: p0010 peak Tb 1.5-2.8 K at N already implies filling 0.02-0.35 under thick/thermal; needs Xb4b/Xb4d/Xb4f dilution fit incl. recovery f. Directly constrains Q2 (blocks it). | Raised by reviewer turn 19. Depends on Q5, Q6; feeds Q4, Q2. | turn 7: started | published p0022, p0015-r02"
+  },
+  {
+   "id": "Q2",
+   "question": "What are the gas density and kinetic temperature (and column density) in each separable region from non-LTE (RADEX) modelling of HCN/HCO+ J=2-1..4-3 ladders, CS(7-6) and H13CN?",
+   "why_it_matters": "Quantifies whether nuclei have denser/hotter gas than the disk; the stated deliverable.",
+   "measurement": "RADEX grid with LAMDA HCN/HCO+/CS files over n(H2), Tkin, N/dv with line width from Gaussian fits; fit matched-beam ratios; use H13CN limits (HCN/H13CN >9 N, >6.7 S/Bridge, wing-model dependent) as opacity constraints; report degeneracies honestly; only ratios at common beam (~6-9\" for Band 5) may be combined across bands, which merges the nuclei.",
+   "status": "answered",
+   "notes": "TOP OPEN after Q0 (stated deliverable; Q4, Q7, Q9 answered and all feed it). Depends on Q8 (filling), Q6 (<10% systematic). Inputs now available: p0009 (both thick, X degenerate), p0010 RADEX (N: two thick thermalised lines, Tb 1.5-2.8 K -> filling 0.02-0.35; S 0.42 needs X<=1 or Tex(HCN)<Tex(HCO+), low-n branch ladder 0.28/0.43). Do: (1) joint two-zone/filling RADEX of N and S with velocity-resolved ratios, CS 7-6, H13CN limits; (2) test explicitly whether the low-n Tex(HCN)<Tex(HCO+) branch for S agrees with the Q1/p0004 ladder and 2-1/3-2/4-3 ratios (reviewer Q9 note 3); (3) report credible ranges of n, Tkin, N, X, eta, not best fits. | Q1 done: first RADEX pass in p0004 (1 dof, sub-thermal, n/T degenerate, X=N(HCN)/N(HCO+)>=3 weakly preferred). Remaining: add CS 7-6, include HCN opacity/H13CN limit and beam-filling variants (different sizes for HCN/HCO+), use Xb4f-based 3-2 with 14% systematic, report only credible ranges. Depends on Q4 (opacity), Q6. Lower priority than Q3 because data cannot add constraints beyond the ladder ratios already used. | turn 20: demoted behind Q4/Q7; do not publish single best-fit n,T; give only credible ranges with filling factor (Q8) and X free. | turn 7: after Q4 (p0009) a one-zone RADEX is a poor description (N chi2 19-23/8); Q2 should be redone only as ranges and with a two-phase/ velocity-resolved constraint (Q9); carry <~10% ladder systematic from p0008. Still the stated deliverable: publish credible n/Tkin ranges and what is degenerate, not best-fit values. | turn 17: started | published p0012, p0011-r01 | turn 24: ANSWERED by p0012 (accepted; reviewer pass). N T 50-100 K is one-zone and class dependent; superseded in part by Q12 (two-component / geometry nuisances give N T 17-29 K, N-S contrast not significant). | turn 7: S >=80 K exclusion disputed by team-b p0012-r01 (driven by two S-core 4-3/3-2 values; matched-aperture allows 25-80 K); handled in Q12/p0021 as deblend-dependent; open sub-item: Tbg>5 K / IR pumping untested."
+  },
+  {
+   "id": "Q9",
+   "question": "Does HCN/HCO+ 3-2 (and 4-3/3-2 per molecule) vary across the line profile (core vs wings, velocity channels) at N, S and Bridge in Xb4d/Xb4b? A ratio that drops where the line is thickest (core) indicates opacity/excitation; a roughly constant ratio indicates abundance. Is the S deficit present at all velocities?",
+   "why_it_matters": "Q4 left opacity vs abundance undecided and one-zone fits poor; Michiyama+2018 propose a two-phase (diffuse+clumpy) outflow from velocity-resolved ratios. Velocity-resolved ratios supply many more independent constraints than the 8 integrated numbers and test the two-phase picture.",
+   "measurement": "Per-channel (3.9 MHz, ~4.4 km/s; rebin to ~30-50 km/s) HCN and HCO+ 3-2 spectra at matched beams (1.7\" and 0.95\", Xb4d; Xb4b at 0.25\" for N/S cores), baseline from line-free channels, ratio vs velocity with errors and S/N>3 masks; same for 4-3/3-2 where beam allows (convolve Xb47 only at ~6\"); compare line profile widths (HCN vs HCO+) and the core-ratio vs wing-ratio; check contamination (HCN v2=1f at +401 km/s, CH3NH2, blended CH3OH); feed channel-resolved ratios into a two-component RADEX model only if dof allow. Reconcile with Q3 (N blue side 1.13 vs core 0.74).",
+   "status": "answered",
+   "notes": "Raised by Q4 reviewer note 3 (turn 3/5). Depends on Q4 (answered), Q7. Feeds Q2. | turn 11: now top open item. Q7 wing windows noise-limited at 1.05\" (N blue 0.78+-0.15, red 1.13+-0.21); use Xb4d with 30-50 km/s bins and compare r<0.5\" vs 1-2\" profiles to test whether ratio~1 holds across the line and radius. Also compare HCN vs HCO+ widths (S HCN narrower: peak T ratio 0.52 vs integrated 0.42). | turn 11: started | published p0010, p0005-r03 | turn 16: ANSWERED by p0010 (reviewer pass): 1.05\" wing rise mostly beam mixing; 0.30\" N flat; S deficit at all velocities. Open residuals handed to Q2/Q5: Tex(HCN)<Tex(HCO+) low-n branch vs Q1 ladder (R_S 0.30/0.40 matches), residual +0.02-0.03/100 km/s, poor N/S ladder decomposition."
+  },
+  {
+   "id": "Q4",
+   "question": "Why is HCN/HCO+ 3-2 a factor ~2 lower at the S (AGN) nucleus (0.40-0.46) than at N (0.84-0.93), and is HCN optically thick? Excitation (Tex/sub-thermal HCN), filling factor, opacity or abundance (HCO+ enhancement)? Plus shock-tracer checks (SO, CH3OH) and IR-pumping (HCN v2=1).",
+   "why_it_matters": "Needed to interpret HCN/HCO+ ratios and RADEX column densities; CH3OH detected off-nuclear suggests shock/low-excitation chemistry contrast. Now blocks interpretation of the central Q1 result (no HCN enhancement at the AGN nucleus; why is S HCO+-bright?).",
+   "measurement": "Reviewer fixes (turn 19): (1) joint RADEX HCN+HCO+ grid (common Tkin,n, abundance ratio X, filling eta) fitted to ALL matched-beam Tb ratios at S (3-2, 4-3/3-2 and 3-2/2-1 per line, peak Tb); compare four scenarios A both thick/different Tex, B both thick/different filling, C HCN thin+HCO+ thick, D both thin/abundance; remove 'HCN not thick at S' (tau=0.6 vs RADEX tau32=42 contradiction); state if data cannot discriminate. (2) H13CN N-nucleus 'hint' (alpha 0.03-0.075): injection-recovery + control positions with all wing models; compare team-b p0007 (HCN/H13CN>8.3, injection s49, /snapshots/team-b-s04) -- reconcile limits. (3) SO Trot/shock limit as function of Xb4f recovery f (0.5,0.7,1) and cross-band calibration, include 8_8-7_7 and 34SO. (4) Literature benchmarks (SO/HCO+, CH3OH/HCO+, HOC+/HCO+, HCN vib/ground in NGC 253/Arp 220/NGC 1068; Harada+2018, Sato+2022) verified from papers, listed as assumptions. (5) Peak-Tb beam-dilution at 0.24/0.95/6\" -> filling factor and per-cloud N(HCN), carried to physical quantities (see Q8). Keep: CH3OH Q-branch maser test (maser neither required nor excluded); CH3OH N/S limit reconcile with team-b (deblend vs peak pixel).",
+   "status": "answered",
+   "notes": "Depends on Q1 (done). Reviewer open items: (a) HNC/CN/other abundance-sensitive pairs in windows (check Q0 inventory; CN 2-1 at ~226 GHz not covered, HNC 3-2 at 272.9 GHz not covered -> check what is actually in band, e.g. HC3N, CH3CCH, SiO), (b) HCN v2=1e and v2=1f contamination of HCO+ 3-2 at S, continuum absorption, (c) H13CN limits with alternative wing models, (d) CH3OH Q-branch maser test, (e) reconcile with team-b p0001-r01/p0002: CH3OH/HCO+ at Bridge 0.042+-0.012 vs ours 0.051 agrees; our N/S limits (<0.013/<0.017) are tighter than theirs (<0.02/<0.03): state why (deblending vs peak pixel); team-b finds Xb4f S-pixel CH3OH is off-nuclear gas in the 6\" beam, Tex~10 K (8-21 K) -- check our S limit and Q-branch excess against it; SO 251.8 GHz is blended with CH3OH A-ladder -> upper limit only (agree). | turn 19: promoted. Reviewer of Q3: blue-side rise is in N, Bridge and Soutflow alike, so only 'S is unusually HCO+-bright' stands; need to decide whether S's low HCN/HCO+ (0.40, confirmed by team-b p0004-r01/p0005) is opacity/IR pumping/HCO+ enhancement. Use H13CN/HC18O+-type limits, HCN v2=1 lines (IR pumping tracer, 4-3/3-2 vib lines in band), HCO+ vs H13CO+ if in band, line-width/profile comparison, continuum absorption at S. | turn 19: started | turn 20: team-b p0007 (/snapshots/team-b-s04) independently reports HCN/HCO+~1 in N core not tied to saturation or absorption, HCN/H13CN>8.3, opacity vs abundance undecided, thin-branch abundance ratio ~3x lower at S, width-null test, HCN v2=1f limits: check agreement with our limits and our injection test (reviewer fix 2). Top priority: it is the central physical interpretation; Q2 depends on it. | turn 1: started | published p0009, p0007-r01 | ANSWERED by p0009 (accepted, reviewer pass): ~60% (log) of N/S HCN/HCO+ contrast is J-independent (1-0 N/S 1.49 vs 3-2 1.98); both lines thick (tau32 lower limits only); filling alone fails the 1-0 test; one-zone fits poor (N chi2 19-23/8; best N+S differential 44/11) -> abundance vs opacity undecided; next steps are Q9 (velocity-resolved) and a two-phase model (Q2)."
+  },
+  {
+   "id": "Q7",
+   "question": "Check team-b p0005/p0004-r01: does HCN/HCO+ 3-2 rise inward in N (0.39 at r 2-3\" to 0.97 at <0.25\") while S stays flat at 0.37-0.43? Is the N compact core high-ratio, and does the disk 2-1 ratio (0.49 at 8-12\" vs 0.55-0.58 inside) agree?",
+   "why_it_matters": "Challenge/extension of our Q1 N/S result; a compact high-ratio N core (not the AGN) would change the AGN-vs-starburst reading of HCN/HCO+ in this merger.",
+   "measurement": "Xb4b/Xb4d matched-beam ratio in concentric annuli about N and S peaks (same smoothing, same velocity window, line-free baselines, injection test); compare with p0005 (s30, s36 in /snapshots/team-b-s03/) and our Q1 values; reconcile differences (apertures, windows, zero level). Note our own Q3 finding: N blue side 1.13 vs core 0.74, so velocity windows matter.",
+   "status": "answered",
+   "notes": "Raised by p0004-r01/p0005. Depends on Q1, Q6. Related to Q4 and Q5. | turn 20: team-b p0007 adds N-core ratio ~1 inside r<0.25\" (Xb4b-width null); our independent confirmation of radial profile still needed (not just their numbers). Run before any claim that N-core ratio ~1 is physical; feeds Q4 (is high N ratio excitation/abundance?). Ranked 2nd because it tests the AGN-vs-starburst reading directly. | turn 7: now top open item. Q4 gave the interpretation framework; this is the independent radial/core test (p0005/p0007 claims, N core ~1 at r<0.25\") not yet reproduced by us. Use the same Q4c convention (moment-0 +-165 km/s, baseline 300-700 km/s) AND a narrower core window, since Q3 showed N blue side 1.13 vs core 0.74. Feeds Q9, Q8. | turn 7: started | published p0005-r02 | turn 11: ANSWERED by p0005-r02 (confirmed with revision): N ratio rises ~2.5x inward (0.3-0.4 at 2-3\" to ~1.0 at peak pixel) over 0.5-1\" gradient, excess resolved (FWHM~0.6\", not <0.25\"), S flat; flux ratio only, opacity vs abundance open. Disk 2-1 drop 12% is correlated-bin/qualitative; like-for-like test now Q11."
+  },
+  {
+   "id": "Q1",
+   "question": "Do the HCN/HCO+ line ratios (J=2-1,3-2,4-3) and other dense-gas diagnostics (HCN/HCO+ at matched J, CS, H13CN, SO) differ between the northern nucleus, the southern (obscured AGN) nucleus, and the surrounding disk, in matched-resolution maps?",
+   "why_it_matters": "Central science of the proposal: whether an AGN/starburst/shock signature (enhanced HCN/HCO+) is spatially separable in a merger with two nuclei 5\" apart. Q2-Q4 depend on these ratios.",
+   "measurement": "Use p0001 regions/line IDs. Smooth to common beam (HCN and HCO+ 3-2 in Xb4b/Xb4d/Xb4f; convolve to ~1\" and ~6\"), regrid, matched velocity channels, ratio maps with propagated errors and masks at S/N>3-5; aperture fluxes on N, S, Bridge, Wclump with upper limits. Include Soutflow candidate as a separate region (HCN/HCO+ ~1.8 vs 0.4 at S). For the disk (Xb55 2-1 at r>8\"), present results with and without the ring zero-level correction and check primary-beam noise at large radius (Band 5 PB HWHM ~17\"); label as candidate. Compare Xb4b/Xb4d/Xb4f total fluxes for resolved-out emission (Q6).",
+   "status": "answered",
+   "notes": "Depends on Q0 (answered). Q2, Q3, Q4 depend on this. Q6 blocks it (cross-beam ratios), do first/alongside. | turn 7: started | published p0004, p0003-r01"
+  },
+  {
+   "id": "Q3",
+   "question": "Is HCN/HCO+ emission detected in the known molecular outflow (northern-nucleus-driven, Sakamoto+2014 CO outflow) or in high-velocity wings, and do dense-gas ratios there differ from the nuclei? Is the Soutflow candidate (1.9\"=370 pc S of S nucleus, blue wing, 7-12 sigma) an outflow or a separate cloud?",
+   "why_it_matters": "Tests whether dense gas is entrained in the outflow; the project asks explicitly about the outflow. Dense-gas-rich blue component with HCN/HCO+ ~1.8 would be a notable result.",
+   "measurement": "Fit broad (|v|>~200-300 km/s) wing vs narrow core at nuclei (native resolution); blue/red wing moment maps in HCN/HCO+ 3-2 (Xb4d, Xb4b); compare wing positions/velocities with CO outflow geometry (Sakamoto+2014; Michiyama+2018) before calling anything an outflow; upper limits otherwise. Check continuum subtraction and neighbouring-line blends.",
+   "status": "answered",
+   "notes": "Now top open item (Q1 done, p0004). Start from the Q1 Soutflow blue-wing candidate (HCN/HCO+ 1.2-1.8, HCO+ wing 4-7 sigma, one position, undetected at N/S). Needs: wing maps in Xb4d 3-2 (and 2-1/4-3 where beam allows) in blue/red windows; null test with same channels at N/S and at random positions; wing-channel spectral blend check (CH3NH2 at +150-250 km/s red, HCN v2=1f at +401 km/s); compare geometry to Sakamoto+2014/Michiyama+2018 outflow (southern nucleus, ~2\" resolution, HCN/HCO+ 1-0 outflow colocated with S outflow, undetected at N) -- test directly: is the dense-gas wing at S and not at N, as Michiyama found? Compare with Nishimura+2024 shells only as context. Depends on Q1, Q6. | turn 13: started | published p0006, p0005-r01 | ANSWERED by p0006 (accepted): dense gas in S-outflow blue lobe, Tb ratio 1.0-1.4 (not 1.7), same as N/Bridge blue side, > S; N <2-4%. Residual caveats feed Q4: HCN vib/HDO blend untestable; S low ratio cause open. | turn 24: CHALLENGED by team-b p0006-r01: Xb4d shows HCN excess 0.262+-0.042 Jy/b km/s (6.2 sigma) at S in blue outer window, not azimuth/sidelobe/bowl/mask artefact, but only 1 sigma in Xb4b; nature (HCN-rich wing gas vs HDO blend) undecided, so 'not a blend' is not established. team-b p0005-r04/p0013: N wing HCN/HCO+ rise is beam mixing (1.00+-0.14 at 0.25\"), N wing <~3% -- agrees with our p0010/p0005-r03. See Q13."
+  },
+  {
+   "id": "Q50",
+   "question": "Run the N-only and S-only fits (named in Q42 but not run) under the NS sampler, and test whether Tc_N is constrained by any added datum (H13CN 4-3 tau prior from Q47, Q43 tracers).",
+   "why_it_matters": "Tc_N ridge (Delta chi2<5) needs data, not sampling; joint-fit shared envelope may drive the N result.",
+   "plan_goal": "Density/temperature constraints from non-LTE modelling",
+   "measurement": "q42_dyn2 variants; only after Q47/Q43 deliver a new constraint.",
+   "status": "open",
+   "notes": "Low priority; do not rerun sampling without a new datum."
+  }
+ ],
+ "idle": false,
+ "idle_reason": "",
+ "plan_coverage": [
+  {
+   "goal": "Which lines are detected where, with fluxes/upper limits in justified apertures",
+   "status": "answered",
+   "evidence": "Q0 p0001, team-b p0002 (confirmed), Q14/p0023, Q15 (ridge)",
+   "gap": "SiO/SO untestable (limits above Harada); CH3OH blend baseline-limited (+-14-37% after p0020)."
+  },
+  {
+   "goal": "Line ratios (HCN/HCO+ matched J, ladder ratios) for separable regions",
+   "status": "answered",
+   "evidence": "Q1 p0004 (confirmed team-b p0004-r01/p0005), Q7, Q9, Q10 p0035 (N rise is nucleus property, not continuum SB); Q25/p0033 (1-0 at 10\": disk decline 6-10%, R21/R10 flat ~5%)",
+   "gap": "Disk 3-2/2-1 now a constraint, not a detection (Q26/p0043: 1.0+0.3/-0.4); 1-0 (Q25/p0033) shows the 8-12\" decline in both transitions, as an upper bound (zero-spacing bowl, MRS unmeasured);  cross-array recovery <~10% (Q6). Cause of N/S R contrast (abundance vs excitation): Q27/Q28."
+  },
+  {
+   "goal": "Density/temperature constraints from non-LTE modelling",
+   "status": "partial",
+   "evidence": "Q2 p0012, Q12 p0021, Q8 p0022; team-b p0011/p0015; Q20 (p0030): S cool solution is near space-filling 50-66 pc core, P(T>50K)=0.6-0.9; Q23 p0037 (CO(2-1) T_b: S 31 K peak/20 K v-matched vs N 13 K at 0.26\"; conditional Tk(S)>=26-38 K, Tk(N)>=17-19 K at ff~1) ; Q30/p0039 (tau(12CO)~3-9 given R, 13CO detected) ; p0040/Q32 (CO ff and Tk limits); Q22/p0042 (joint N+S fit, shared extended zone: second lower-n zone needed, dlnZ +25; hot envelope allowed not required, P(Te>=50)=0.2-0.6; cores 16-21 K; masses model-dependent) ; p0046 (Q36: background ~CMB for envelope, 3-6 K cores); p0047 (Q38) ; Q39/p0048 (P(Te>=50) robust to dropping 1-0: 0.45->0.37; N-core Tc 24->14 K depends on 1-0; IR T_IR>=150K disfavoured, model-dependent) ; Q42/p0051 (NS convergent: Tc_S 17+/-1 K robust, Tc_N unconstrained, SMC values retracted; P(Te>=50) depends on sigma_band 0.67->0.24)",
+   "gap": "Tc_N and Te unresolved; limited by band-scale prior (Q48) and lack of an independent T tracer (Q43); H13CN opacity check pending verification (Q47); stale p0048 numbers to revise (Q49); IR model dependence (Q44). Needs new constraints, not more sampling."
+  },
+  {
+   "goal": "Opacity check (H13CN) and shock-tracer check (SO)",
+   "status": "answered",
+   "evidence": "Q4 p0009 (team-b p0007 agrees: HCN/H13CN>8.3), Q14 p0023, team-b p0016",
+   "gap": "13CO(2-1) opacity done (p0039) but R and C18O open (Q33). Opacity vs abundance undecided; SO blended with CH3OH A-ladder, upper limits only; HCN v2=1f contamination of HCO+ wing (Q17). Isotopologue abundance test of p0034: Q27. | team-b p0050: H13CN 4-3 cannot separate RADEX branches -> verify (Q47)."
+  },
+  {
+   "goal": "Cloud sizes and line widths from the highest-resolution data",
+   "status": "answered",
+   "evidence": "Q5 p0029 (calibrated sizes 50-66 pc Gaussian, marginally resolved; sigma_int(R), Mdyn; HCN not larger than HCO+); reconciled with team-b p0026",
+   "gap": "Sub-beam structure unconstrained; true size error is morphology; no CO 3-2 in archive."
+  },
+  {
+   "goal": "Nuclei vs outflow vs disk comparison (research question)",
+   "status": "partial",
+   "evidence": "Q3 p0006/Q13 p0014 (S blue lobe dense gas, Mdot 15-60 Msun/yr), Q15 (red ridge: real in HCN, origin undecided), Q7 disk 2-1 ratio 12% lower; Q11/p0032 (disk 2-1 decline 11% reproduced, 3-2 unmeasurable); Q25/p0033 (disk decline confirmed in 1-0, 6-10%, no abundance/excitation change required); Q26/p0043 (disk 8-12\" HCN/HCO+ R_ext(3-2)/R_ext(2-1)=1.0+0.3/-0.4, no J-dependence measurable) ; team-b p0045/p0032-r01 confirm our disk 3-2 non-measurability; verification of clump 1-0 contrast = Q40; Q40/p0049 (clump E1/W vs nuclei, uv-matched, p0045-r01)",
+   "gap": "Disk decline is a modest (<=~10%) upper bound, consistent with no excitation change; disk 3-2/2-1 constrained only to +0.3/-0.4 by Q26 (short-spacing 3-2 data would decide; Xb4d-Xb4f 35% systematic, Q37); outflow bipolarity undecided (Q18, Q19); disk density/temperature only lower limits. Q22/p0042: both nuclei need compact core + lower-density zone; N/S core T differ not significantly.  | Clump deficit established at all J (mostly vs N); E1 3-2 deepening needs visibility-level test (Q45); abundance/opacity/density unseparated (Q46)."
+  }
+ ]
+}

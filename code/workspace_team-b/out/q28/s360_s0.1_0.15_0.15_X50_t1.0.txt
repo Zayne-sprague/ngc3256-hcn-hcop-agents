@@ -1,0 +1,49 @@
+# grid models: 12012
+
+######## N
+ data (10": HCN2,3,4 HCO2,3,4 | 2.2": HCN1,HCN3,HCO1,HCO3 | 1.29": HCN3,HCO3 K km/s):  [12.38, 4.81, 1.62, 20.27, 10.04, 4.51, 87.4, 23.51, 105.58, 37.69, 79.33, 109.5]  floors 0.24" T_b [2.65, 2.75]
+ single: min chi2 156.7 (theta 4.0, Tk 112, log n 5.0, logNO 14.0, A 0.5); lnZ1 -90.21
+  single posterior theta: 0.15:0.00 0.2:0.00 0.3:0.00 0.5:0.00 0.8:0.00 1.2:0.00 1.8:0.00 2.7:0.00 4.0:1.00 6.0:0.00 12.0:0.00 30.0:0.00
+ single state, two sizes (c1,c2 in 0.03-1): min chi2 52.4 (Tk 112, log n 4.0, logNO 15.5, A 0.5); lnZ1b -39.99
+  N: compact models 9065, extended thin models 5602
+ single lnZ1 -90.21; two-phase lnZ2 -23.17; ln BF(2/1) = 67.04; ln BF(2/1b) = 16.82; min chi2 two-phase 8.7 (dof ~7-... ) vs single 156.7
+ best two-phase: theta 0.5; C: Tk 300 log n 4.25 logNO 15.5 A 0.5 ; E: Tk 112 log n 4.50 logNO 13.5 A 0.5
+  posterior theta: 0.15:0.00 0.2:0.00 0.3:0.08 0.5:0.92 0.8:0.00 1.2:0.00 1.8:0.00 2.7:0.00 4.0:0.00 6.0:0.00
+  C Tk: 112.00 [10.00,300.00]
+  C log n: 4.75 [4.25,6.25]
+  C log N(HCO+): 15.50 [15.50,16.00]
+  C log A: 0.50 [-0.50,0.50]
+  E Tk: 112.00 [112.00,224.00]
+  E log n: 4.50 [3.75,5.00]
+  E log N(HCO+): 13.50 [13.00,14.00]
+  E log A: 0.50 [0.50,0.50]
+  P(Tk_C<=30)=0.402  P(Tk_C>50)=0.592  P(Tk_E>50)=0.999; prior P(Tk_C<=30)=0.33
+  compact fraction of HCN 3-2 flux in 10" beam: 0.25 [0.22,0.26]; eta_c(10") 0.0025
+  X(HCO+)=1e-09: Sigma_gas(10")=887 [401,2479] Msun/pc2 (compact part 177); P(<=77)=0.00 P(<=14)=0.00
+  X(HCO+)=3e-09: Sigma_gas(10")=296 [134,826] Msun/pc2 (compact part 59); P(<=77)=0.00 P(<=14)=0.00
+  X(HCO+)=1e-08: Sigma_gas(10")=89 [40,248] Msun/pc2 (compact part 18); P(<=77)=0.38 P(<=14)=0.00
+  X(HCO+) needed for Sigma<=77 Msun/pc2 (dust bound, Td=30): median 1.2e-08 [5.2e-09,3.2e-08]; for Sigma<=14 (Td=100): 6.3e-08
+
+######## S
+ data (10": HCN2,3,4 HCO2,3,4 | 2.2": HCN1,HCN3,HCO1,HCO3 | 1.29": HCN3,HCO3 K km/s):  [11.66, 4.26, 1.35, 20.89, 9.95, 4.28, 50.25, 12.72, 87.9, 30.64, 29.95, 78.14]  floors 0.24" T_b [1.18, 2.81]
+ single: min chi2 176.7 (theta 6.0, Tk 80, log n 5.25, logNO 13.5, A 0.5); lnZ1 -100.19
+  single posterior theta: 0.15:0.00 0.2:0.00 0.3:0.00 0.5:0.00 0.8:0.00 1.2:0.00 1.8:0.00 2.7:0.00 4.0:0.00 6.0:1.00 12.0:0.00 30.0:0.00
+ single state, two sizes (c1,c2 in 0.03-1): min chi2 29.1 (Tk 56, log n 4.25, logNO 15.5, A 0.5); lnZ1b -28.40
+  S: compact models 9065, extended thin models 5602
+ single lnZ1 -100.19; two-phase lnZ2 -21.50; ln BF(2/1) = 78.69; ln BF(2/1b) = 6.90; min chi2 two-phase 6.4 (dof ~7-... ) vs single 176.7
+ best two-phase: theta 0.3; C: Tk 14 log n 5.75 logNO 16.5 A -0.5 ; E: Tk 112 log n 4.50 logNO 13.5 A 0.5
+  posterior theta: 0.15:0.15 0.2:0.28 0.3:0.48 0.5:0.09 0.8:0.00 1.2:0.00 1.8:0.00 2.7:0.00 4.0:0.00 6.0:0.00
+  C Tk: 28.00 [14.00,160.00]
+  C log n: 5.75 [4.75,6.25]
+  C log N(HCO+): 16.00 [15.50,16.00]
+  C log A: 0.00 [-0.50,0.50]
+  E Tk: 112.00 [112.00,112.00]
+  E log n: 4.50 [4.00,4.50]
+  E log N(HCO+): 13.50 [13.50,14.00]
+  E log A: 0.50 [0.50,0.50]
+  P(Tk_C<=30)=0.531  P(Tk_C>50)=0.342  P(Tk_E>50)=0.999; prior P(Tk_C<=30)=0.33
+  compact fraction of HCN 3-2 flux in 10" beam: 0.11 [0.11,0.13]; eta_c(10") 0.0009
+  X(HCO+)=1e-09: Sigma_gas(10")=911 [773,2294] Msun/pc2 (compact part 90); P(<=77)=0.00 P(<=14)=0.00
+  X(HCO+)=3e-09: Sigma_gas(10")=304 [258,765] Msun/pc2 (compact part 30); P(<=77)=0.00 P(<=14)=0.00
+  X(HCO+)=1e-08: Sigma_gas(10")=91 [77,229] Msun/pc2 (compact part 9); P(<=77)=0.11 P(<=14)=0.00
+  X(HCO+) needed for Sigma<=77 Msun/pc2 (dust bound, Td=30): median 1.2e-08 [1.0e-08,3.0e-08]; for Sigma<=14 (Td=100): 6.5e-08

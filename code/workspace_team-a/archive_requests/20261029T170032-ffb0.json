@@ -1,0 +1,29 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X133d/X858",
+ "freq_ranges_ghz": [
+  [
+   352.7570524584512,
+   354.1588639539557
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xd64dca_X41f0"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": null,
+ "args": [],
+ "why": "Q60: resolve N/S HCN/HCO+ 4-3 discrepancy (3.7 vs 1.6): per-EB uv-matched imaging of every 4-3 MS; archive image products have mismatched uv coverage (X1df1 0.7 arcsec HCN vs X858 0.3 arcsec HCO+ vs Xb47 4 arcsec); 0.3 arcsec HCO+ EB behind the 3.7",
+ "ok_evict": false,
+ "ok_long": true,
+ "bytes_estimate": 40217554944,
+ "id": "20261029T170032-ffb0",
+ "team": "team-a",
+ "status": "failed",
+ "submitted": "2026-10-29T17:00:32+00:00",
+ "error": "40.2 GB of raw data is above the per-request limit (30 GB): ask for fewer EBs (--ebs)",
+ "finished": "2026-10-29T17:00:37+00:00"
+}

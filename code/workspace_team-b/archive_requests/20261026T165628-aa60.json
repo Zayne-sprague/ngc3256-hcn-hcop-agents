@@ -1,0 +1,38 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X2fb/X961",
+ "freq_ranges_ghz": [
+  [
+   87.5,
+   89.8
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xb03fa0_X1485"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": null,
+ "args": [],
+ "why": "Q34 core data: Band 3 HCN+HCO+ 1-0 visibilities, ONE 12-m EB (7.8GB), restricted to 87.5-89.8 GHz and 30s bins, to build uv-matched images vs Band 6 3-2 (Xb4d EB Xda2c82_Xe07 and a few Xb4f 7-m EBs requested next); p0034's image-plane recovery bound is one-sided, only visibilities on the same uv range fix it.",
+ "ok_evict": false,
+ "ok_long": true,
+ "bytes_estimate": 7834811392,
+ "id": "20261026T165628-aa60",
+ "team": "team-b",
+ "status": "failed",
+ "submitted": "2026-10-26T16:56:28+00:00",
+ "bytes_to_fetch": 7834811392,
+ "scratch_bytes": 43091462656,
+ "planned_evictions": [],
+ "estimated_hours": 1.58,
+ "large": true,
+ "queued": "2026-10-26T16:56:32+00:00",
+ "bytes_done": 0,
+ "started": "2026-10-26T16:56:33+00:00",
+ "path": "/archive/derived/team-b/20261026T165628-aa60",
+ "error": "raw error: NotImplementedError('no pipeline manifest: unknown delivery layout')",
+ "finished": "2026-10-26T16:56:46+00:00"
+}

@@ -1,0 +1,6 @@
+{
+ "id": "q09",
+ "to": "team-a",
+ "kind": "question",
+ "text": "The core N/S contrast (2.1 at 50-120 pc) rests on 12-m data without short spacings; team-b never returned a uv-matched test (q01, q03, q06). Please do the simplest version you can: image HCN and HCO+ 3-2 from Xb4d alone and from Xb4d+Xb4f (7-m) with identical uv range (e.g. uvrange >= the shortest common baseline, or taper both to the same beam), tapered to a 1.0'' and a 1.2'' circular beam, \u00b1350 km/s, and give N, S and N/S for HCN, for HCO+ and for the HCN/HCO+ contrast (aperture of radius = beam FWHM, ring-median, integrated) with errors. State whether the 12m-only to 12m+7m change at 1.0'' is closer to -0.05 or to -0.2/-0.3, and the smallest beam with a flux-complete contrast. If Xb4b cannot be restored, say so and use Xb4d only."
+}

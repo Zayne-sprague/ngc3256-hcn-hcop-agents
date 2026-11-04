@@ -1,0 +1,30 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X2fb/X961",
+ "freq_ranges_ghz": [
+  [
+   87.5,
+   88.7
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xb03fa0_X1485",
+  "uid___A002_Xb046c2_X42e"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": null,
+ "args": [],
+ "why": "Q34 uv-matched 1-0 vs 3-2 test: need Band 3 HCN/HCO+ 1-0 visibilities (2015.1.00993 X961, short-spacing complete, 1.77\") to taper to the same uv range/beam as Band 6 Xb4d+Xb4f 3-2 (next requests); image-plane recovery bound in p0034 is one-sided.",
+ "ok_evict": false,
+ "ok_long": false,
+ "bytes_estimate": 15803624448,
+ "id": "20261026T165500-efdd",
+ "team": "team-b",
+ "status": "failed",
+ "submitted": "2026-10-26T16:55:00+00:00",
+ "error": "estimated 3.2 h of restore: resubmit with --ok-long if worth it, or ask for fewer EBs",
+ "finished": "2026-10-26T16:55:05+00:00"
+}

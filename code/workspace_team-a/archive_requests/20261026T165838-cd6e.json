@@ -1,0 +1,25 @@
+{
+ "id": "20261026T165838-cd6e",
+ "team": "team-a",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X2fb_X881.ari_l.ngc_3256_sci.spw2_228401MHz.12m.cube.I.pbcor.fits"
+ ],
+ "why": "Q23: CO(2-1) cube (0.73\", 0.12 GB) to measure peak T_b at S and N core positions as Tk prior for Q22; small",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 116634240,
+ "submitted": "2026-10-26T16:58:38+00:00",
+ "bytes_to_fetch": 116634240,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-26T16:58:39+00:00",
+ "bytes_done": 116634240,
+ "started": "2026-10-26T16:58:39+00:00",
+ "evicted": [],
+ "finished": "2026-10-26T16:58:44+00:00",
+ "paths": [
+  "/archive/files/2015.1.00902.S/member.uid___A001_X2fb_X881.ari_l.ngc_3256_sci.spw2_228401MHz.12m.cube.I.pbcor.fits"
+ ],
+ "minutes": 0.1
+}

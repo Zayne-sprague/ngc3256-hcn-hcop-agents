@@ -1,0 +1,29 @@
+{
+ "id": "20261029T113729-f8eb",
+ "team": "team-a",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X133d_X1df1.NGC3256_sci.spw25.cube.I.pbcor.fits",
+  "member.uid___A001_X133f_X4d.NGC3256_sci.spw27.cube.I.pbcor.fits",
+  "member.uid___A001_X33e_X169.ari_l.ngc_3256_sci.spw3_268777MHz.12m.cube.I.pbcor.fits"
+ ],
+ "why": "Q54: CN 3-2 (matched to HCN 4-3 in same OUS), CN 1-0 at 1.4\" (with HCN 1-0), HNC 3-2 at 0.68\" for HNC/HCN and CN/HCN at N and S",
+ "ok_evict": true,
+ "status": "done",
+ "bytes_estimate": 1039625280,
+ "submitted": "2026-10-29T11:37:29+00:00",
+ "bytes_to_fetch": 1039625280,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-29T11:37:29+00:00",
+ "bytes_done": 1039625280,
+ "started": "2026-10-29T11:37:30+00:00",
+ "evicted": [],
+ "finished": "2026-10-29T11:38:14+00:00",
+ "paths": [
+  "/archive/files/2018.1.00493.S/member.uid___A001_X133d_X1df1.NGC3256_sci.spw25.cube.I.pbcor.fits",
+  "/archive/files/2018.1.00223.S/member.uid___A001_X133f_X4d.NGC3256_sci.spw27.cube.I.pbcor.fits",
+  "/archive/files/2015.1.00412.S/member.uid___A001_X33e_X169.ari_l.ngc_3256_sci.spw3_268777MHz.12m.cube.I.pbcor.fits"
+ ],
+ "minutes": 0.7
+}

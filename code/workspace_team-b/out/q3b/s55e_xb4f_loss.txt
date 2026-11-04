@@ -1,0 +1,30 @@
+[N] loss 0% in Xb4f only: T(2-1)/T(3-2) HCN 2.57 HCO+ 2.02; T(4-3)/T(3-2) HCN 0.34 HCO+ 0.45 | log n 4.38 [3.50,4.88] Tk 136 [69,214] log A 0.40 | P(n>1e5)=0.06 P(Tk<30)=0.04
+[N] loss 30% in Xb4f only: T(2-1)/T(3-2) HCN 1.80 HCO+ 1.41; T(4-3)/T(3-2) HCN 0.23 HCO+ 0.31 | log n 4.38 [3.25,7.38] Tk 49 [11,136] log A 0.50 | P(n>1e5)=0.27 P(Tk<30)=0.34
+[N] loss 50% in Xb4f only: T(2-1)/T(3-2) HCN 1.29 HCO+ 1.01; T(4-3)/T(3-2) HCN 0.17 HCO+ 0.22 | log n 7.38 [3.62,7.50] Tk 11 [10,39] log A -0.00 | P(n>1e5)=0.65 P(Tk<30)=0.78
+[N] loss 0% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 2.57 HCO+ 2.02; T(4-3)/T(3-2) HCN 0.34 HCO+ 0.45 | log n 4.38 [3.50,4.88] Tk 136 [69,214] log A 0.40 | P(n>1e5)=0.06 P(Tk<30)=0.04
+[N] loss 30% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 1.80 HCO+ 1.41; T(4-3)/T(3-2) HCN 0.34 HCO+ 0.45 | log n 4.38 [3.38,5.12] Tk 86 [31,214] log A 0.40 | P(n>1e5)=0.21 P(Tk<30)=0.16
+[N] loss 50% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 1.29 HCO+ 1.01; T(4-3)/T(3-2) HCN 0.34 HCO+ 0.45 | log n 4.62 [3.50,7.25] Tk 49 [16,170] log A 0.40 | P(n>1e5)=0.37 P(Tk<30)=0.29
+[S] loss 0% in Xb4f only: T(2-1)/T(3-2) HCN 2.74 HCO+ 2.10; T(4-3)/T(3-2) HCN 0.32 HCO+ 0.43 | log n 4.38 [3.50,4.88] Tk 136 [77,214] log A 0.40 | P(n>1e5)=0.04 P(Tk<30)=0.02
+[S] loss 30% in Xb4f only: T(2-1)/T(3-2) HCN 1.92 HCO+ 1.47; T(4-3)/T(3-2) HCN 0.22 HCO+ 0.30 | log n 4.38 [3.25,7.25] Tk 61 [11,136] log A 0.40 | P(n>1e5)=0.26 P(Tk<30)=0.30
+[S] loss 50% in Xb4f only: T(2-1)/T(3-2) HCN 1.37 HCO+ 1.05; T(4-3)/T(3-2) HCN 0.16 HCO+ 0.22 | log n 7.25 [3.75,7.50] Tk 11 [10,44] log A -0.00 | P(n>1e5)=0.70 P(Tk<30)=0.77
+[S] loss 0% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 2.74 HCO+ 2.10; T(4-3)/T(3-2) HCN 0.32 HCO+ 0.43 | log n 4.38 [3.50,4.88] Tk 136 [77,214] log A 0.40 | P(n>1e5)=0.04 P(Tk<30)=0.02
+[S] loss 30% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 1.92 HCO+ 1.47; T(4-3)/T(3-2) HCN 0.32 HCO+ 0.43 | log n 4.50 [3.38,5.12] Tk 108 [35,214] log A 0.40 | P(n>1e5)=0.19 P(Tk<30)=0.12
+[S] loss 50% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 1.37 HCO+ 1.05; T(4-3)/T(3-2) HCN 0.32 HCO+ 0.43 | log n 4.62 [3.38,7.25] Tk 61 [16,191] log A 0.30 | P(n>1e5)=0.36 P(Tk<30)=0.25
+[E1] loss 0% in Xb4f only: T(2-1)/T(3-2) HCN 3.75 HCO+ 2.38; T(4-3)/T(3-2) HCN 0.16 HCO+ 0.34 | log n 5.00 [3.75,5.50] Tk 31 [18,44] log A 0.40 | P(n>1e5)=0.43 P(Tk<30)=0.49
+[E1] loss 30% in Xb4f only: T(2-1)/T(3-2) HCN 2.62 HCO+ 1.67; T(4-3)/T(3-2) HCN 0.11 HCO+ 0.24 | log n 4.75 [3.50,6.00] Tk 18 [11,28] log A 0.40 | P(n>1e5)=0.43 P(Tk<30)=0.87
+[E1] loss 50% in Xb4f only: T(2-1)/T(3-2) HCN 1.87 HCO+ 1.19; T(4-3)/T(3-2) HCN 0.08 HCO+ 0.17 | log n 4.38 [3.38,6.62] Tk 14 [11,20] log A 0.40 | P(n>1e5)=0.40 P(Tk<30)=0.97
+[E1] loss 0% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 3.75 HCO+ 2.38; T(4-3)/T(3-2) HCN 0.16 HCO+ 0.34 | log n 5.00 [3.75,5.50] Tk 31 [18,44] log A 0.40 | P(n>1e5)=0.43 P(Tk<30)=0.49
+[E1] loss 30% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 2.62 HCO+ 1.67; T(4-3)/T(3-2) HCN 0.16 HCO+ 0.34 | log n 5.00 [3.50,5.88] Tk 22 [14,44] log A 0.40 | P(n>1e5)=0.49 P(Tk<30)=0.65
+[E1] loss 50% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 1.87 HCO+ 1.19; T(4-3)/T(3-2) HCN 0.16 HCO+ 0.34 | log n 5.38 [3.62,6.75] Tk 20 [13,39] log A 0.30 | P(n>1e5)=0.56 P(Tk<30)=0.73
+[E2] loss 0% in Xb4f only: T(2-1)/T(3-2) HCN 3.59 HCO+ 2.27; T(4-3)/T(3-2) HCN 0.20 HCO+ 0.35 | log n 4.75 [3.75,5.25] Tk 39 [25,61] log A 0.50 | P(n>1e5)=0.29 P(Tk<30)=0.26
+[E2] loss 30% in Xb4f only: T(2-1)/T(3-2) HCN 2.52 HCO+ 1.59; T(4-3)/T(3-2) HCN 0.14 HCO+ 0.25 | log n 4.75 [3.50,5.75] Tk 22 [13,35] log A 0.40 | P(n>1e5)=0.39 P(Tk<30)=0.73
+[E2] loss 50% in Xb4f only: T(2-1)/T(3-2) HCN 1.80 HCO+ 1.14; T(4-3)/T(3-2) HCN 0.10 HCO+ 0.18 | log n 4.75 [3.38,6.88] Tk 16 [10,25] log A 0.40 | P(n>1e5)=0.45 P(Tk<30)=0.92
+[E2] loss 0% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 3.59 HCO+ 2.27; T(4-3)/T(3-2) HCN 0.20 HCO+ 0.35 | log n 4.75 [3.75,5.25] Tk 39 [25,61] log A 0.50 | P(n>1e5)=0.29 P(Tk<30)=0.26
+[E2] loss 30% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 2.52 HCO+ 1.59; T(4-3)/T(3-2) HCN 0.20 HCO+ 0.35 | log n 4.88 [3.50,5.50] Tk 31 [18,61] log A 0.40 | P(n>1e5)=0.43 P(Tk<30)=0.45
+[E2] loss 50% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 1.80 HCO+ 1.14; T(4-3)/T(3-2) HCN 0.20 HCO+ 0.35 | log n 5.25 [3.62,6.88] Tk 25 [14,55] log A 0.30 | P(n>1e5)=0.54 P(Tk<30)=0.56
+[W] loss 0% in Xb4f only: T(2-1)/T(3-2) HCN 4.08 HCO+ 2.72; T(4-3)/T(3-2) HCN 0.04 HCO+ 0.29 | log n 4.12 [3.38,5.00] Tk 44 [25,77] log A 0.50 | P(n>1e5)=0.13 P(Tk<30)=0.26
+[W] loss 30% in Xb4f only: T(2-1)/T(3-2) HCN 2.86 HCO+ 1.90; T(4-3)/T(3-2) HCN 0.03 HCO+ 0.20 | log n 4.25 [3.25,5.38] Tk 20 [13,35] log A 0.50 | P(n>1e5)=0.25 P(Tk<30)=0.76
+[W] loss 50% in Xb4f only: T(2-1)/T(3-2) HCN 2.04 HCO+ 1.36; T(4-3)/T(3-2) HCN 0.02 HCO+ 0.14 | log n 4.00 [3.25,5.38] Tk 16 [11,22] log A 0.50 | P(n>1e5)=0.25 P(Tk<30)=0.93
+[W] loss 0% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 4.08 HCO+ 2.72; T(4-3)/T(3-2) HCN 0.04 HCO+ 0.29 | log n 4.12 [3.38,5.00] Tk 44 [25,77] log A 0.50 | P(n>1e5)=0.13 P(Tk<30)=0.26
+[W] loss 30% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 2.86 HCO+ 1.90; T(4-3)/T(3-2) HCN 0.04 HCO+ 0.29 | log n 4.38 [3.38,5.25] Tk 39 [16,97] log A 0.40 | P(n>1e5)=0.23 P(Tk<30)=0.39
+[W] loss 50% in Xb4f and Xb47 equal: T(2-1)/T(3-2) HCN 2.04 HCO+ 1.36; T(4-3)/T(3-2) HCN 0.04 HCO+ 0.29 | log n 4.75 [3.50,6.88] Tk 28 [11,97] log A 0.30 | P(n>1e5)=0.39 P(Tk<30)=0.52

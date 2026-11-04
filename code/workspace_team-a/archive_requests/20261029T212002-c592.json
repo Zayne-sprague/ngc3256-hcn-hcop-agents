@@ -1,0 +1,17 @@
+{
+ "type": "casa",
+ "script": "scripts/q60c_uvspec.py",
+ "args": [],
+ "why": "Q60: per-EB uv-plane two-component fits of HCN/HCO+ 4-3 spectra (restored MS)",
+ "id": "20261029T212002-c592",
+ "team": "team-a",
+ "status": "done",
+ "submitted": "2026-10-29T21:20:02+00:00",
+ "large": false,
+ "queued": "2026-10-29T21:20:06+00:00",
+ "started": "2026-10-29T21:20:09+00:00",
+ "finished": "2026-10-29T21:20:55+00:00",
+ "returncode": 0,
+ "seconds": 46.6,
+ "log": "/workspace/scripts/q60c_uvspec.log"
+}

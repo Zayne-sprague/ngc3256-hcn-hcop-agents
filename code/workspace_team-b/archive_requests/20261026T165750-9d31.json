@@ -1,0 +1,42 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X879/X970",
+ "freq_ranges_ghz": [
+  [
+   262.83539867234236,
+   264.0543557132701
+  ],
+  [
+   264.48742193589106,
+   265.71404059849937
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xb93c37_X4c16"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": null,
+ "args": [],
+ "why": "Q34: 0.8 GB 7-m-like 2016.1.00965 EB (4.4\") with HCN/HCO+ 3-2: cheap test that a 2016-layout restore works and supplies short-spacing Band 6 for the matched uv test.",
+ "ok_evict": false,
+ "ok_long": false,
+ "bytes_estimate": 831973376,
+ "id": "20261026T165750-9d31",
+ "team": "team-b",
+ "status": "failed",
+ "submitted": "2026-10-26T16:57:50+00:00",
+ "bytes_to_fetch": 831973376,
+ "scratch_bytes": 4575853568,
+ "planned_evictions": [],
+ "estimated_hours": 0.18,
+ "large": true,
+ "queued": "2026-10-26T16:57:53+00:00",
+ "bytes_done": 0,
+ "started": "2026-10-26T17:32:54+00:00",
+ "path": "/archive/derived/team-b/20261026T165750-9d31",
+ "error": "raw error: NotImplementedError('no pipeline manifest: unknown delivery layout')",
+ "finished": "2026-10-26T17:32:59+00:00"
+}

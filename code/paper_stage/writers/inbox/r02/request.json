@@ -1,0 +1,6 @@
+{
+ "id": "r02",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Figure 2 (key result R1): left panel HCN/HCO+ 3-2 T_b ratio of N, S (and Bridge) versus beam size from 0.26\" (50 pc) to 6.5\" (50, 55, 120, 250 pc Xb4b; 250 pc Xb4d; 6.5\" Xb4d and Xb4f as separate symbols), error bars stat, grey band for 14% flux scale; annotate N/S contrast (2.1+-0.2 at 50-120 pc, 1.9 at 250 pc, 1.07-1.10 at 6.5\"). Right panel: peak T_b (K) of HCN and HCO+ at N and S vs beam (same x-axis), showing HCO+ equal and HCN 2x lower at S. Use the estimator behind s171_summary (aperture r=beam FWHM) and say so; mention estimator spread 1.9-2.3 in caption. Optionally inset: ratio vs radius in N (0.39 at 2-3\" to 0.97 inside 0.25\") and S (flat) at 0.30\"."
+}

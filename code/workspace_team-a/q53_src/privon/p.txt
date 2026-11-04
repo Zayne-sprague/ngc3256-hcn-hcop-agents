@@ -1,0 +1,1576 @@
+6102
+ceD
+8
+]AG.hp-ortsa[
+2v21570.9051:viXra
+Accepted for publicationin ApJ.
+PreprinttypesetusingLATEXstyleemulateapjv.5/2/11
+EXCITATION MECHANISMS FOR HCN (1–0) AND HCO+ (1–0) IN GALAXIES FROM THE GREAT
+OBSERVATORIES ALL-SKY LIRG SURVEY1
+G. C. Privon2,3.4, R. Herrero-Illana5, A. S. Evans2,6, K. Iwasawa7, M. A. Perez-Torres5, L. Armus8, T.
+D´ıaz-Santos8,9, E. J. Murphy10, S. Stierwalt2, S. Aalto11, J. M. Mazzarella10, L. Barcos-Mun˜oz2, H. J. Borish2,
+H. Inami13, D.-C. Kim6, E. Treister3, J. A. Surace8, S. Lord14, J. Conway11, D. T. Frayer12, and A. Alberdi5
+Accepted for publication inApJ.
+ABSTRACT
+We present new IRAM 30m spectroscopic observations of the 88 GHz band, including emission
+fromthe CCH(N= 1 0)multiplet, HCN(J =1 0),HCO+ ( ∼ J= 1 0), andHNC (J =1 0),
+→ → → →
+for a sample of 58 local luminous and ultraluminous infrared galaxies from the Great Observato-
+ries All-sky LIRG Survey (GOALS). By combining our new IRAM data with literature data and
+Spitzer/IRS spectroscopy, we study the correspondence between these putative tracers of dense gas
+and the relative contribution of active galactic nuclei (AGN) and star formation to the mid-infrared
+luminosity of each system. We find the HCN (1–0) emission to be enhanced in AGN-dominated sys-
+tems ( L′ /L′ =1.84), compared to composite and starburst-dominatedsystems
+h HCN(1–0) HCO+ (1–0) i
+( L′ /L′ =1.14,and0.88,respectively). However,some composite and starburst
+h HCN(1–0) HCO+ (1–0) i
+systems have L′ /L′ ratios comparable to those of AGN, indicating that enhanced
+HCN(1–0) HCO+ (1–0)
+HCN emission is not uniquely associated with energetically dominant AGN. After removing AGN-
+dominated systems from the sample, we find a linear relationship (within the uncertainties) between
+log (L′ )andlog (L ),consistentwithmostpreviousfindings. L′ /L ,typicallyin-
+10 HCN(1–0) 10 IR HCN(1–0) IR
+terpretedasthedensegasdepletiontime,appearstohavenosystematictrendwithL foroursample
+IR
+of luminous and ultraluminous infrared galaxies, and has significant scatter. The galaxy-integrated
+HCN (1–0) and HCO+ (1–0) emission do not appear to have a simple interpretation, in terms of the
+AGNdominanceorthestarformationrate,andarelikelydeterminedbymultipleprocesses,including
+density and radiative effects.
+Subject headings: galaxies: ISM — galaxies: starburst — galaxies: active
+1. INTRODUCTION Moleculargasis observationallylinkedto ongoingstar
+formationthroughobservedcorrelationsbetweenthestar
+formation rate surface density and the H surface den-
+2
+sity as inferred from CO observations (e.g., Bigiel et al.
+gprivon@astro-udec.cl 2008; Leroy et al. 2012). CO (1–0) has a relatively low
+1BasedonobservationscarriedoutwiththeIRAM30mTele-
+scope. IRAMissupportedbyINSU/CNRS(France),MPG(Ger- critical density (n crit 2 103 cm−3) and so traces the
+≈ ×
+many)andIGN(Spain). bulk of the molecular gas. Molecular transitions such
+2Department of Astronomy, University of Virginia, Char- as HCN (1–0) and HCO+ (1–0) have critical densities
+lot 3 te D sv e i p l a le r , ta V m A e , n U to SA de Astronom´ıa, Universidad de Concepcio´n, n crit ≈ 3 × 106 cm−3 and 2 × 105 cm−3, respectively,
+Concepcio´n, Chile at 30 K, and so they are associated with higher density
+4Visiting Graduate Student Research Fellow (2013), NASA molecular hydrogen. Early studies found a linear corre-
+InfraredProcessingandAnalysisCenter, CaliforniaInstitute of lationbetweenHCN(1–0)andtheinfraredluminosity—
+Technology, Pasadena,CA,USA
+5Instituto de Astrof´ısicade Andaluc´ıaa-CSIC, Glorietade la L IR [8 − 1000µm]—ofgalaxies(Solomonetal.1992;Gao
+Astronom´ıas/n,18008, Granada,Spain & Solomon 2004b). This relation, which is tighter than
+6NationalRadioAstronomyObservatory,Charlottesville,VA, that for CO (1–0) with L
+IR
+, was interpreted as evidence
+USA that HCN (1–0) traces the dense gas directly associ-
+7 ICREA and Institut de Ci`encies del Cosmos (ICC), Uni-
+ated with star formation. Revisiting the relationship
+versitat de Barcelona (IEEC-UB), Mart´ı i Franqu`es 1, 08028,
+between SFR and this molecular tracer, Garc´ıa-Burillo
+Barcelona,Spain
+8Spitzer Science Center, California Institute of Technology, et al. (2012) find L FIR to be a super-linear function of
+Pasadena, CA,USA HCN (1–0),suggestingthat there are other physicalfac-
+9UniversidadDiegoPortales,Chile
+10Infrared Processing and Analysis Center, California Insti- tors that are important for the HCN emission.
+tuteofTechnology, Pasadena, CA,USA Calling into questionthe use of HCN (1–0)as a tracer
+11Chalmers University of Technology, Department of Earth of dense gas, several studies of systems hosting active
+and Space Sciences, Onsala Space Observatory, 43992 Onsala, galactic nuclei (AGN) have found integrated (Graci´a-
+Sweden
+12NationalRadioAstronomyObservatory,GreenBank,WV, Carpio et al. 2006; Krips et al. 2008) and spatially-
+USA resolvedenhancements(Kohnoetal.2003;Imanishietal.
+13National Optical Astronomy Observatory, 950 North 2006,2007,2009;Daviesetal.2012)ofHCN(1–0)emis-
+CherryAvenue,Tucson,AZ85719,USA sion comparedto what is observedin starburst galaxies.
+14TheSETIInstitute,189BernardoAve,Suite100,Mountain
+Similar results have been found for HCN (4–3) (Iman-
+View,CA94043,USA
+
+=====PAGE=====
+2 Privon et al.
+ishi& Nakanishi2013,2014). These results suggestthat 2. SAMPLE,OBSERVATIONS,ANDDATA
+HCN emission is enhanced in the presence of AGN, po- 2.1. GOALS
+tentially invalidating the use of HCN as a tracer of the
+dense molecular gas associatedwith ongoing star forma- As noted, the data presented here were obtained as
+tion, particularly in systems with AGN. However it is part of a millimeter survey of (U)LIRGs selected from
+notable that some systems with a known AGN do not GOALS. The GOALS sample as a whole consists of all
+show this enhanced ratio (ARP 299, Imanishi & Nakan- the (U)LIRGs from the Revised Bright Galaxy Sample
+ishi 2006; I Zw 1, Evans et al. 2006), suggesting the (RBGS; i.e., 60 µm flux density greater than 5.24 Jy
+HCN(1–0)emissionenhancementobservedinsomeAGN and L IR > 1011 L⊙; Sanders et al. 2003). GOALS15 is
+hosts may have a more nuanced interpretation. a multi-wavelength survey aimed at understanding the
+Modeling by various authors suggests the HCN and physical conditions and activity in the most luminous
+HCO+ emission are affected by density, radiative, and galaxiesinthelocalUniverse. Thedatasetincludesspec-
+abundance/ionization effects which potentially compli- troscopic and imaging observations in the infrared from
+cates interpretation of the line ratios in both photon Spitzer (Petric et al. 2011; Inami et al. 2013; Stierwalt
+dominated and X-ray dominated regions (PDR and etal.2013,J.M.Mazzarellaetal. in prep) andHerschel
+XDR, respectively; e.g., Aalto et al. 1994, 1995; Huet- (Diaz-Santos et al. 2013, 2014; Lu et al. 2014), GALEX
+temeister et al. 1995; Lepp & Dalgarno 1996; Meijerink and HST UV, optical, and near-infrared imaging (How-
+etal.2007). ThepossibleinfluenceoftheXDRonmolec- ell et al. 2010; Haan et al. 2011; Kim et al. 2013, A.
+ular abundances has been used to argue that elevated S. Evans et al. in prep), Chandra X-ray observations
+HCN (1–0) is a signpost of an AGN, however Juneau (Iwasawaet al. 2011),and a suite of ground-basedradio
+etal.(2009)andCostagliolaetal.(2011)arguethe exci- and sub-millimeter observations (e.g., Leroy et al. 2011;
+tation of HCN and HCO+ is not solely driven by abun- Barcos-Mun˜ozet al. 2015,Herrero-Illanaet al. in prep).
+dance and so this ratio may not solely trace XDRs. The These observations collectively trace the obscured and
+relative influence of the other effects (infrared pumping, unobscuredactivityandconstrainthe structuralproper-
+source compactness) has not been fully established. ties and merger stages of these systems.
+In order to investigate the relation between the pres- The objects in this study were selected from two por-
+ence and strength of an AGN, and the HCN and HCO+ tionsofGOALS;ahigh-luminositysample (L IR 1011.4
+≥
+emission in a large sample of gas-rich galaxies, we have L⊙) to capture the most extreme star forming systems,
+observed 58 luminous and ultraluminous infrared galax- andasampleofLIRGswithL
+IR
+1011.4 L⊙ whichwere
+ies ((U)LIRGs; L
+IR
+>1011 L⊙), selected from the Great selected to be isolated or non-in ≤ teracting, on the basis
+Observatories All-sky LIRG Survey (GOALS; Armus of their stellar morphology (Stierwalt et al. 2013). The
+et al. 2009), with the Institut de Radioastronomie Mil- combinationofthesesubsetsofGOALSensuresthissam-
+lim´etrique (IRAM) 30m Eight Mixer Receiver (EMIR; ple spans the range of L and merger stage within the
+IR
+Carter et al. 2012). These new observations (Section 2) GOALS sample as a whole.
+of the molecular rotational transitions, HCN (1–0) and
+HCO+ (1–0), are used in combination with calibrated 2.2. Observations and Data Reduction
+AGN strengths determined from Spitzer/IRS (Houck The IRAM 30m Telescope was used with the EMIR
+et al. 2004) spectroscopy of the GOALS sample (Stier- receiver to observe an 8 GHz instantaneous bandwidth,
+walt et al. 2013; Inami et al. 2013) to assess the cor- tuned to simultaneously capture HCN (J = 1 0),
+relation of AGN strength with the global HCN (1–0) HCO+(J=1 0),theCCH(N=1 0)multiple → t,and
+and HCO+ (1–0) emission (Section 3). We then dis- HNC (J = 1 → 0), thus reducing sy → stematic uncertain-
+cuss the possible explanations for enhanced HCN (1–0) ties when com → paring the fluxes of these lines. The rest
+(Section 4). Finally, we explore the utility of HCN (1– frequencies16 forthese transitionsare: ν (HCN (1–0))
+0) and HCO+ (1–0) as tracers of the mass of dense gas = 88.631 GHz, ν (HCO+ (1–0)) = 8 r 9 e . s 1 t 89 GHz, and
+rest
+associated with star formation (Section 5). ν (HNC (1–0)) = 90.663 GHz. For CCH, we adopt a
+rest
+Thepowerofthisstudycomesfromtheincreasedsam- restfrequencywhichisthesimplearithmeticmeanofthe
+ple size of (U)LIRGs with measurements of these lines individual multiplet frequencies, ν (CCH) = 87.370
+rest
+and, particularly, from the large number of sources with GHz. The beam FWHM for these measurements is
+measured mid-infrared diagnostic of the relative contri- 28”, corresponding to a linear size of 16.8 kpc at the
+butions ofAGNandstarformationto the infraredlumi- ∼ mean redshift of our sample – thus we obtain galaxy-
+nosityofeachsystem(afactorof4increaseoverCostagli- integrated measurements. Observations were done in
+ola et al. 2011). The use of the mid-infrared diagnos- wobbler switching mode ( 1′ throw, 0.8 s switching) to
+tics facilitates a good estimation of the importance of improve the baseline calib ∼ ration. In Table 1 we list the
+an AGN to the mid-infrared emission (i.e., as opposed pointingcoordinates,assumedredshift,observingyear&
+to simply using rudimentary optical “AGN” and “star- month, integration times, system temperatures, and the
+burst” diagnostics to classify systems). This enables a backend used, for each source.
+direct investigationof the globalL′ HCN(1–0) /L′ HCO+ (1–0) Some of our observations use the FTS backend, which
+line ratio (hereafter, HCN/HCO+) as a function of the consists of 24 individual fourier transform spectrometer
+contribution of the AGN to the bolometric luminosity. units. In some scans, the FTS units exhibited gain vari-
+Throughout the paper we adopt a WMAP-5 cosmol- ations, resulting in offsets of the baselines for individual
+ogy (Hinshaw et al. 2009, H = 70 km s−1 Mpc−1,
+Ωvacuum = 0.72, Ωmatter = 0 0 .28), with velocities cor- 1
+1
+5
+6
+http
+o
+:
+b
+/
+t
+/
+a
+g
+i
+o
+n
+a
+e
+l
+d
+s.ipa
+f
+c
+ro
+.
+m
+caltec
+t
+h
+h
+.
+e
+edu
+Splatalogue database:
+rected for the 3-attractor model of Mould et al. (2000).
+http://splatalogue.net
+
+=====PAGE=====
+HCN (1–0) and HCO+ (1–0) in GOALS (U)LIRGs 3
+units. For thosescans,linearfits weremade to the base- (in prep).
+line of each unit (masking out the expected locations of In order to explore the influence of AGN on the
+spectrallines),andtheunitswerecorrectedtoacommon HCN(1–0)andHCO+ (1–0)emission,weusethe equiv-
+baseline. Scans were combined and exported using the alent width (EQW) of the 6.2 µm polycyclic aromatic
+GILDAS/CLASS software17. Further analysis, includ- hydrocarbon (PAH) measured from Spitzer/IRS low-
+ing a linear baseline subtraction, smoothing, and flux resolutionobservations(Stierwaltetal.2013). TheEQW
+measurement, was done using the pyspeckit software18 of the 6.2 µm PAH feature compares the strength of
+(Ginsburg & Mirocha 2011). The typical velocity reso- the PAH emission associated with star formation with
+lution of these smoothed data is 60 MHz, corresponding the strengthof the mid-infraredcontinuum(e.g., Genzel
+toroughly215kms−1. InFigure1we showthe reduced et al. 1998; Armus et al. 2004, 2007). The AGN is en-
+spectraforallsources,withtheexpectedpositionsofthe ergetically more important in systems with lower values
+CCH, HCN (1–0), HCO+ (1–0), and HNC (1–0) lines of the PAH EQW. Points in Figures 2–7 are color-coded
+marked. Lines were identified visually based on cata- by their 6.2 µm PAH EQW, to show the relationship
+loged optical redshifts and total fluxes were determined between AGN and starburst dominated systems.
+by integrating under the line. IRAS F16164-0746 had In addition to our new measurements, we incorporate
+spectra which were clearly shifted from the location ex- observations from Graci´a-Carpio et al. (2006), Costagli-
+pected based on the cataloged redshift. We measured a ola et al. (2011), and Garc´ıa-Burillo et al. (2012) in our
+new redshift of 0.0229 for IRAS F16164-0746 compared analysis. The combination of these three samples in-
+to the value from NED, 0.0272. cludes63individualgalaxieswithmeasured6.2µmPAH
+We determined uncertainties in the fluxes by calcu- EQWs and detections in at least one of HCN (1–0) or
+lating the RMS, σ , per channel of width dv, in the HCO+ (1–0), comprising roughly 25% of the objects in
+ch
+line-free regions of the spectrum and multiplying by the the GOALS sample.
+square root of the number of channels, N covered by We use L measurements from IRAS observations
+ch IR
+each line. We considered a line a detection if the mea- (Armus et al. 2009). For galaxies in pairs, we assign
+suredflux exceeded3σ dv√N . For non-detections we a portion of L to each component based on their 70
+ch ch IR
+calculated a 3σ upper limit by assuming a square line or 24 µm flux ratio, as described by Diaz-Santos et al.
+profile with a width half that of the detected HCN (1– (2013). Measurementsofthe[Cii]158µmlinearetaken
+0) or HCO+ (1–0) line, or 200 km s−1 if no lines were from Diaz-Santos et al. (2013).
+detected for that source.
+For IRAM 30m observations, temperatures are re- 2.2.1. Comparison with Previous Measurements
+ported on the T∗ A scale; these values were converted to Severalofthe sourcesobservedbyushavepre-existing
+a main beam temperature, T mb =T∗ A /(B eff /F eff ) us- published fluxes in the literature (e.g., Gao & Solomon
+ing the main beam efficiency, B eff = 0.81, and a for- 2004a; Graci´a-Carpio et al. 2006; Garc´ıa-Burillo et al.
+ward efficiency, F eff = 0.95, both measured by IRAM 2012). We compared our fluxes with those previous ef-
+staff on 26 August 201319. We use a Jy/K conversionof forts and found good agreement for some sources (e.g.,
+3.906(F eff /A eff )=6.185,where A eff =0.6, to convert ARP220,VV114,NGC 0034,IRAS15107+0724,IRAS
+the reported T∗ values to flux densities. Line luminosi- 23365+3604),but we measurefluxes for some individual
+A
+ties were computed according to Solomon et al. (1992, sources (NGC 2623, NGC 6701, UGC 5101, and NGC
+their Equation 3), in units of K km s−1 pc2. 7591)which are factors of 2 3 higher than those previ-
+−
+As noted, the wide EMIR bandwidth enables simul- ously published. There appears to be no trend of these
+taneous measurements of HCN (1–0), HCO+ (1–0), high fluxes with observing date or observing setup. De-
+HNC (1–0), and CCH. We had a detection rate of 78%, spite some differences in fluxes for some sources,we find
+76%, 35%, and 37%, for HCN (1–0), HCO+ (1–0), the HCN/HCO+ ratios for those sources are in good
+HNC (1–0), and CCH, respectively. For detected lines agreement with previously published ratios.
+the signal-to-noise weighted mean HNC (1–0)/HCN (1–
+0)andCCH/HCN(1–0)ratiosare0.5 0.3and0.8 0.3, 2.3. Distance and Aperture Effects
+± ±
+respectively. One source, NGC 6285 has detected CCH 2.3.1. Source Distance Effects
+emissionandnodetectionofHCN(1–0)orHCO+ (1–0);
+The 28′′ IRAM 30m beam FWHM coverslinear scales
+the CCHdetectionis 3.8σ and,ifconfirmed,wouldbe
+∼ of 6.1 46 kpc for these sources. Thus, these single-dish
+an interesting and rare example of a source with CCH
+−
+brighter than HCN or HCO+. Such elevated CCH emis- observations average together emission from many giant
+molecularclouds(GMCs)withineachsystem,likelywith
+sionmayindicate anoverabundanceof CCHor a lackof
+varying physical conditions and environments. This fac-
+dense molecular gas (Mart´ın et al. 2014). The HCN (1–
+0)/HCO+ (1–0) ratio is discussed in more detail in Sec- torof 8indistanceleadstopossibleconcernsaboutthe
+∼
+effects of beam size on the results, particularly if there
+tion 3. Integrated fluxes (or 3σ upper limits) are pro-
+are systematic variations in the GMC properties or en-
+vided for all lines, in Table 2, but we limit the analysis
+here to the HCN (1–0) and HCO+ (1–0) lines. Upper vironments as a function of distance from the nuclei.
+Previous interferometric observations with 5′′ reso-
+and lower limits in Figures use these 3σ limits. CO (1–
+lutionhavefoundtheHCN(1–0)andHCO+ ( ∼ 1–0)emis-
+0) observations were also obtained as part of this pro-
+sion to be unresolved in ULIRGs (Imanishi et al. 2007,
+gram; these will be presented in R. Herrero-Illana et al.
+2009). For the sources from their study that overlap
+17 http://www.iram.fr/IRAMFR/GILDAS with our sample, we find generalagreementbetween the
+18 http://pyspeckit.bitbucket.org fluxes, suggesting the amount of extended flux is mini-
+19http://www.iram.es/IRAMES/mainWiki/Iram30mEfficiencies mal and the HCN and HCO+ emission is confined to a
+
+=====PAGE=====
+4 Privon et al.
+2
+1
+0
+−1
+84 86 88 90
+]Km[
+∗T A
+NGC0034
+HCC NCH +OCH CNH
+2 MCG–02-01-052 MCG–02-01-051
+1
+1
+0
+0
+84 86 88 84 86 88
+8
+6
+4
+2
+0
+84 86 88 90
+]Km[
+∗T A
+IC1623 2 MCG–03-04-014 IRAS01364-1042
+1
+1
+0
+0
+80 82 84 86 88 82 84 86 88
+1
+0
+84 86 88
+]Km[
+∗T A
+IC214 2 NGC0958 1.0 ESO550-IG025
+1 0.5
+0 0.0
+−1 −0.5
+−1.0
+84 86 88 90 92 82 84 86 88 90
+1
+0
+84 86 88 90 92
+]Km[
+∗T A
+UGC03094 NGC1797 3 VIIZw031
+2 2
+1 1
+0
+0
+−1
+84 86 88 90 92 80 82 84 86 88
+2
+1
+0
+80 82 84 86 88
+]Km[
+∗T A
+IRASF05189-2524 IRASF05187-1017 IRASF06076-2139
+2 2
+1
+1
+0
+0
+−1
+82 84 86 88 82 84 86 88 90
+1.0
+0.5
+0.0
+−0.5
+84 86 88 90 92
+ν [GHz]
+obs
+]Km[
+∗T A
+NGC2341 NGC2342 1.0 IRAS07251-0248
+1
+0.5
+0.0
+0
+−0.5
+84 86 88 90 92 78 80 82 84 86
+ν [GHz] ν [GHz]
+obs obs
+Figure 1. IRAM30mEMIRspectraofthesystemsobservedaspartofthisprogram,sortedbyRightAscension. Inallpanelsweplotthe
+observedT∗ asafunctionoftheobservedfrequency. Thetypical velocityresolutionofthese smootheddatais60MHz,correspondingto
+A
+roughly215kms−1. Dashedverticallinesmark(fromlefttoright)theexpectedlocationsofCCH,HCN(1–0),HCO+(1–0),andHNC(1–
+0), based on optical redshifts from NED, except for IRAS F16164-0746, where we have used our new measured redshift. Information on
+the observing parameters are provided in Table 1. Integrated fluxes (or upper limits) for each line are given in Table 2. This figure is
+continued at the endof the manuscript, inthe Figures currently labeled 8–10.
+
+=====PAGE=====
+HCN (1–0) and HCO+ (1–0) in GOALS (U)LIRGs 5
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0.0
+0 50 100 150 200 250 300 350 400
+D [Mpc]
+L
++OCH
+′ L/
+NCH
+′ L
+0.8
+Thiswork
+Gracia-Carpio+2006
+Costagliola+2011
+Garcia-Burillo+2012
+0.6
+0.4
+0.2
+0
+]mµ[WQEmµ2.6HAP
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0.0
+1011 1012 1013
+L [L ]
+IR ⊙
+Figure 2. RatiooftheL′ andL′ luminosities
+HCN(1–0) HCO+ (1–0)
+versus luminosity distance. The lack of a significant correlation
+suggestsourresultsarenotbeingaffectedbythedistancestoeach
+system. Pointsarecolor-codedbythe6.2µmPAHEQW.
+region smaller than the 28′′ beam of these IRAM 30m
+observations.
+InFigure2wecomparetheHCN/HCO+ratiowiththe
+luminosity distance; there is no obvious trend with dis-
+tance,suggestingthattheprojectedbeamsizeisnotthe
+dominantfactorindeterminingtheHCN/HCO+ ratioin
+our sample.
+2.3.2. Spitzer vs IRAM 30m Telescope Aperture Comparison
+The6.2µmPAHEQWusedtoassesstherelativedom-
+inance of the AGN in the mid-infrared was measured
+froma 3.6′′ aperture (Stierwalt et al.2013). Thus, these
+measurements are upper limits to the large-scale influ-
+ence of the AGN, and we expect any systematic effect
+of this aperture difference between the mid-infrared and
+millimeter observations would serve to overestimate the
+importance of the AGN.
+Inotherwords,wewouldexpectanysignatureofAGN-
+dominated gas to be diluted with increasing source dis-
+tance. As will we shown (Section 3), the excitation
+of these molecular transitions does not appear to be
+solely a function of the AGN strength, thus we con-
+clude our results are not being significantly biased by
+the mis-match in aperture between the millimeter and
+mid-infrared datasets.
+3. ENHANCEDGLOBALHCN(1–0)EMISSIONDOESNOT
+UNIQUELYTRACEAGNACTIVITY
+Some of the initial claims that HCN (1–0) is
+enhanced in AGN were supported by plotting the
+L′ /L′ andL′ /L′ ratiosas HCN(1–0) CO(1–0) HCO+ (1–0) CO(1–0)
+a function of L . In Figure 3 we show the HCN (1–
+IR
+0)/HCO+ (1–0)ratio as a function of L 20, to compare
+IR
+20 Here we do not compare with CO (1–0) as this would po-
+tentially include molecular gas which is not physically associated
+withtheregionsemittinginHCN(1–0)andHCO+(1–0). Forthis
+study, we rely on the HCN/HCO+ ratio alone, to avoid concerns
+withmis-matchedapertures between theCO (1–0) measurements
++OCH
+′L/
+NCH
+′L
+0.8
+Thiswork
+Gracia-Carpio+2006
+Costagliola+2011
+Garcia-Burillo+2012
+0.6
+0.4
+0.2
+0
+]mµ[WQEmµ2.6HAP
+Figure 3. RatioofL′ toL′ luminositiesver-
+HCN(1–0) HCO+ (1–0)
+sus the total infrared luminosity. Points are color-coded by the
+6.2µmPAHEQW.
+we previous work. As in previous studies (e.g., Graci´a-
+Carpio et al. 2006), we find a relative dearth of sources
+at high L with low HCN/HCO+.
+IR
+However, our larger sample also contains a number of
+lower L systems with HCN/HCO+ ratios as high as
+IR
+those of ULIRGs (> 1), which suggests that increasing
+L (oranassociatedincreaseinAGNcontribution)may
+IR
+not be the sole driver of an increase in HCN/HCO+ ra-
+tios. A Spearman rank correlation analysis is consistent
+with the null hypothesis that HCN/HCO+ and L are
+IR
+uncorrelated (ρ=0.021 0.178, z-score=0.057 0.494;
+± ±
+Table 3). The coefficients were computed using a Monte
+Carloperturbationandbootstrappingmethod(with 105
+iterations), as described by Curran (2014) and imple-
+mented in Curran (2015).
+TheSpitzer/IRSobservationsofGOALSsystems,pre-
+sented by Stierwalt et al. (2013), provide a calibrated
+measurement of the AGN contribution to the mid-
+infrared emission in each system, via the 6.2 µm PAH
+EQW. In order to test claims that HCN (1–0) emis-
+sion is enhanced in systems with AGN, we explore the
+HCN/HCO+ ratio as a function of this AGN diagnos-
+tic. In Figure 4 (Left), we plot HCN/HCO+ against the
+relative contribution of AGN and star formation to the
+infraredluminosity;wherelowervaluesofthePAHEQW
+indicate the presence of more energetically important
+AGN.WeconsidersystemswithPAHEQW< 0.2µmto
+have energetically dominant AGN (L /L &
+MIR,AGN MIR
+60 %;) e.g., Petric et al. 2011), while systems with PAH
+EQW > 0.55 µm are considered starburst-dominated
+(Brandl et al. 2006), and systems with intermediate ra-
+tios as composites, where L is the mid-infrared lu- MIR
+minosity and L is the AGN contributionto the
+MIR,AGN
+mid-infrared luminosity.
+We find that systems dominated by the AGN in the
+mid-infrared show elevated HCN/HCO+ ratios, with a
+signal-to-noise ratio weighted mean ratio of 1.84 0.43.
+±
+and the HCN (1–0) and HCO+ (1–0) (a 30% difference in beam
+size).
+
+=====PAGE=====
+6 Privon et al.
+Starburstdominatedsystemshaveaweightedmeanratio appearthateitherthehardnessoftheX-rayspectrumor
+of 0.88 0.28, while composite systems have a weighted the total X-ray luminosity correlate with HCN/HCO+,
+±
+meanratioof1.14 0.49. However,forsystemswhichap- suggestinganXDRisnotgenerallyamajordriverinen-
+±
+pear to be star formation dominated, this ratio exhibits hancing HCN (1–0), for these systems, possibly because
+significant scatter. Several starburst and composite sys- the XDRs are spatially disconnected from the regions
+tems have HCN/HCO+ values which are comparable to that dominate the global line luminosity.
+the AGN dominated systems, suggesting that while en- A complication is that enhancement from X-rays may
+ergetically dominant AGN are associated with elevated be most effective in obscured AGN and diagnosing this
+HCN (1–0) emission alone, the converse is not true: en- activityisdifficultwithobservationsbelow10keV.Hard
+hancedHCN (1–0)emissiondoesnotimply the presence X-rayobservationswithNuSTAR(Harrisonetal.2013),
+of an AGN. We note that although these starburst and though time-consuming, would provide an interesting
+composite sources with enhanced HCN (1–0) emission test for the presence of obscured AGN in sources with
+have substantial uncertainties in their HCN/HCO+ ra- enhanced HCN emission.
+tios, it is unlikely that the HCN/HCO+ ratio is simulta-
+neouslyoverestimatedforallsixoftheseHCN-enhanced, 4.2. HCN/HCO+ Enhancements Through Source
+composite/starburstsources. Compactness
+A Spearman rank correlation analysis shows
+In compact environments HCO+ (1–0) appears to
+HCN/HCO+ and the PAH EQW to be moderately
+be more susceptible to self-absorption than HCN (1–0)
+anti-correlated,withρ= 0.512 0.127andaz-scoreof
+− ± (Aalto et al. 2015), which would lead to an increase in
+1.532 0.464(Table3). InFigure4(Right)weprovide
+− ± theobservedHCN/HCO+ratio. Totestifelevatedratios
+a “box plot” of the mean ratio, interquartile range, and
+areprimarilyassociatedwithdensesystems,wecompare,
+full range of the HCN/HCO+ values, separated by into
+in Figure 5, the HCN/HCO+ ratio with the [C ii]/L
+sourcetypes basedon the PAH EQW.The distributions ratios from the central Herschel spaxel (9′′.4 9′′.4) FI a R s
+ofHCN/HCO+ forpurestarburstsandAGN-dominated ×
+measured by Diaz-Santos et al. (2013). In local galax-
+systems show a clear offset, with the AGN-dominated
+ies, the [C ii]/L value decreases with increasing L
+systems show a relative enhancement of HCN (1–0) FIR FIR
+and dust temperature, T . That the “[C ii] deficit”
+emission over the pure starbursts. dust
+tracks T suggests the deficit is the result of compact
+It is worth noting there are fewer AGN-dominated dust
+nuclearactivity. Diaz-Santosetal.(2013)findthistrend
+sources than SB or composite sources; further observa-
+of a lower [C ii]/L ratio with decreasing source size
+tionsoflowPAHEQWsystemswouldbeusefultoensure FIR
+is present when considering only starbursts, suggesting
+the existing objects are representative.
+thatthe [C ii]deficitisdrivenbythe compactnessofthe
+4. WHATDRIVESTHEGLOBALHCN(1–0)/HCO+ (1–0) starburst, rather than dust heated by an AGN.
+RATIO? Therefore, if the HCN (1–0)/HCO+ (1–0) ratio is be-
+ingdrivenprimarilyby the density /compactness ofthe
+In Section 3 we demonstrated that globally enhanced
+HCN (1–0) emission (relative to HCO+ (1–0)) is not starburst, we should see a correlation between the two
+quantities. For sources with [C ii]/L > 10−3, the
+correlated with the presence of an AGN (Figure 4). FIR
+signal-to-noiseweighted mean L′ to L′
+Costagliola et al. (2011) found similar results for a HCN(1–0) HCO+ (1–0)
+smaller sample of starbursts. Is there a straight-forward is 1.0 0.4, while sources with [C ii]/L < 10−3
+FIR
+explanation for the observed global HCN (1–0) emis- (large[ ± C ii] deficits) have a mean ratioof 1.7 0.5. For-
+±
+sion in local (U)LIRGs? In the following subsections we mally, the ratio does not appear to vary as a function of
+explore a series of proposed explanations for enhanced [C ii]/L though a Spearman rank analysis suggests a
+FIR
+HCN, including X-ray induced chemistry (Section 4.1), moderate anti-correlation(ρ= 0.401 0.142, z-score=
+− ±
+the presence of a compact, high-density source (Section 1.165 0.458;Table 3), thoughsomewhatweakerthan
+4.2), and radiative pumping from absorption of mid- t − he ant ± i-correlation of HCN/HCO+ with PAH EQW.
+infrared photons (Section 4.3). We finish by discussing The majority of sources with [C ii]/L < 10−3 have
+FIR
+the possibility that the PAH EQWis notan idealtracer HCN/HCO+ ratios > 1, consistent with a scenario in
+of AGN (Section 4.4) and then mention future observa- whichacompactanddensestarburstcausesanenhance-
+tions which could be used to improveour understanding ment of HCN (1–0). On the other hand, a substantial
+of HCN enhancements (Section 4.5). numberofsystemswithoutsignificant[Cii]/L deficits
+FIR
+alsohaveHCN/HCO+ >1. Forcompositeandstarburst
+4.1. Comparison of HCN (1–0)/HCO+ (1–0) with systems(PAHEQW> 0.2µm)higherHCN/HCO+ ra-
+X-ray Properties
+tiosdonotappeartobeassociatedwithlower[Cii]/L
+FIR
+To consider the possible influence of XDRs resulting values. Based on the available data, we cannot directly
+from powerful AGN, we investigated the HCN/HCO+ linkthe[Cii]deficitwithenhancedHCN(1–0)emission.
+ratioasa functionofX-rayproperties,suchasthe hard- It is worth noting that HCN (1–0) can be enhanced
+ness ratio and the total 0.5–10 keV X-ray luminosity, in sources that do not show a strong [C ii] deficit; if
+from ChandraX-ray observationsof the GOALS sample a compact continuum source is surrounded by extended
+(Iwasawaetal.2011). TheHCN/HCO+ ratioshowedno disk-likestarformation,thesystemmayhavea“normal”
+correlation with either the hardness ratio or the X-ray [C ii]/L ratio, but still show enhanced HCN (1–0)
+FIR
+luminosity,albeitwithonly tensourcescommonto both associated with the compact starburst on scales which
+samples. Additional X-ray observations would be useful cannot be resolved by Herschel. See Diaz-Santos et al.
+to further investigate the influence of XDRs. However, (2014)foradiscussiononextended[Cii]emissioninthe
+based on the currently available X-ray data, it does not GOALSsample. Assessingthespatialdistributionofthe
+
+=====PAGE=====
+HCN (1–0) and HCO+ (1–0) in GOALS (U)LIRGs 7
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0.0 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8
+PAH6.2µm EQW[µm]
++OCH
+′ L/
+NCH
+′ L
+0.8
+Thiswork IncreasingAGN
+Gracia-Carpio+2006 dominance
+Costagliola+2011
+Garcia-Burillo+2012
+0.6
+0.4
+0.2
+0
+]mµ[WQEmµ2.6HAP
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0.0 AGN Composite Starburst
+(7sources) (15sources) (20sources)
++OCH
+′L/NCH
+′L
+Figure 4. Left: L′ /L′ as a function of the 6.2µm PAH EQW fromStierwalt et al.(2013). The points are colored
+HCN(1–0) HCO+ (1–0)
+bytheirPAHEQW.Thesymbolshapenotestheoriginofthemillimeterlinemeasurements;circlesarenewdata(seeTable2),diamonds
+are from Graci´a-Carpio et al. (2006) and squares are from Costagliola et al. (2011). Right: Box plot showing the median (red line),
+interquartile range (boxes) and full range up to 1.5× the interquartile range (IQR; black horizontal lines) for HCN/HCO+ of the AGN
+dominated, composite, and starburst systems. A flier (a point with a value > 1.5 × IQR) is plotted with a ’+’ symbol. Upper and
+lower limitswerenot included inthe box plot. HCN/HCO+ isenhanced for systems which areAGN dominated inthe mid-infrared,but
+somestarburstdominatedsystemsshowsimilarlyelevatedratios. Weightedbysignal-to-noiseratio,theaverageratioforAGNdominated
+systems (PAH EQW < 0.2 µm), pure starbursts (PAH EQW > 0.55 µm Brandl et al. 2006), and composite systems (0.2 µm < PAH
+EQW< 0.55µm)is1.84,0.88,and1.14,respectively.
+3.0
+2.5
+2.0
+1.5
+1.0
+0.5
+0.0
+10−4 10−3 10−2
+[CII] 158µm/L
+FIR
++OCH
+′ L/
+NCH
+′ L
+0.8
+Thiswork
+Gracia-Carpio+2006
+Costagliola+2011
+Garcia-Burillo+2012
+0.6
+0.4
+0.2
+0
+]mµ[WQEmµ2.6HAP
+Indeed, the L , the [C ii] deficit, and the 6.2 µm PAH IR
+EQWareinterrelated,inthatthemostluminoussources
+tend to have the strongest [C ii] deficits (Diaz-Santos
+et al. 2013, because both L and [C ii]/L correlate
+IR FIR
+withthedusttemperature;)andlowerPAHEQWs(Pet-
+ric et al. 2011; Stierwalt et al. 2013). However, the con-
+verse is not true; a normal [C ii]/L value does not
+FIR
+guarantee a high PAH EQW. Systems with low or in-
+termediate PAH EQWs are distributed across the range
+of L and [C ii]/L values seen for our sample (e.g.,
+IR FIR
+Figure 5 and Diaz-Santos et al. 2013).. In contrast,
+essentially all the high PAH EQW (starburst) systems
+have normal [C ii]/L
+FIR
+and L
+IR
+a few 1011 L⊙.
+∼ × Thus, while these quantities are generally related, sys-
+tems with low or intermediate PAH equivalent widths
+appear to have a range of compactness (as diagnosed
+by [C ii]/L ) and so the PAH EQW and [C ii] deficit
+FIR
+appear to be semi-independent. That the HCN (1–
+0)/HCO+ (1–0)ratiodoesnotcorrelatewellwitheither,
+suggeststheoriginofHCNenhancementcannotbeeasily
+Figure 5. A comparison of HCN/HCO+ with [C ii]/LFIR, as assigned solely to AGN or to the presence of a compact
+a proxy for the compactness of the source. Systems with signif- starburst.
+icant [C ii] deficits are located towards the left side of the plot.
+There is a dearth of sources with low [C ii]/LFIR values and low 4.3. HCN/HCO+ Enhancements Through Mid-infrared
+HCN/HCO+ratios,butthescatterissignificantandsomesystems
+Pumping
+with high [C ii]/LFIR values (less compact starbursts) still show
+elevated HCN/HCO+ ratios,consistent withthemeanofsystems The strong mid-infrared continuum present in many
+with substantial deficits ([C ii]/LFIR < 10−3). However there is (U)LIRGsmayalsoinfluencetheselineratios. TheHCN
+significant scatter. Points are color-coded by the 6.2 µm PAH molecule has degenerate bending modes in the infrared
+EQW. andcanabsorbmid-infraredphotons (14µm)to its first
+vibrationalstate. Thetransitionshavehighlevelenergies
+HCN (1–0)/HCO+ (1–0) would be a useful comparison (>1000 K) and mid-IR emission with a brightness tem-
+with [C ii]/L – do regions with “normal” [C ii]/L perature of at least 100 K is necessary to excite them
+FIR FIR
+correspondtoregionswithlowHCN(1–0)/HCO+(1–0)? (Aalto et al. 2007). A sign that infrared pumping of
+A possible concern with the above analysis is that the HCNistakingplaceisthepresenceoflineemissionfrom
+L , [C ii]/L , and the PAH EQW are all correlated. rotational transitions within the vibrational band (e.g.,
+IR FIR
+
+=====PAGE=====
+8 Privon et al.
+Sakamoto et al. 2010). However, it may be possible for IRAM 30m single-dish observations of AGN-dominated
+HCNtobeinfraredpumpedwithoutdetectableemission (U)LIRGs would be useful to study the dense-gas
+fromtheserotational-vibrationallines. Whenthebright- tracers in that population, particularly to see if
+nesstemperature is closeto the lowerlimitfor pumping, the absence of AGN-dominated sources with low
+the excitation of the rotational-vibrationalline is so low L′ /L′ ratios is truly representative or
+HCN(1–0) HCO+ (1–0)
+that it takes a very large column density to result in a
+merely reflects small number statistics.
+largeenoughopticaldepthforthisrotational-vibrational
+Spatially resolved comparisons of the HCN emission
+line to be detected. with CO or HCO+ have been undertaken for systems
+Severalsourcesin our sample do show evidence for in-
+known to host an AGN (e.g., Kohno et al. 2003; Iman-
+frared absorption at 14 µm which could be associated
+ishietal.2006,2007,2009;Daviesetal.2012;Imanishi&
+with pumping of HCN (Lahuis et al. 2007; Sakamoto
+Nakanishi2013,2014);itwouldbeinstructivetoperform
+et al. 2010), but none of the starburst systems with en-
+the same exercise on starburst dominated systems. The
+hanced HCN emission show 14 µm absorption in the
+Atacama Large Millimeter/sub-millimeter Array is the
+Spitzer/IRS observations from Inami et al. (2013).
+naturalinstrumentforthis,andsuchastudycouldinves-
+HCO+ issimilarlysusceptibletoinfraredpumping,via tigatethespatialvariationintheL′ /L′
+a 12 µm line; using the IRS high-resolution spec- HCN(1–0) HCO+ (1–0)
+∼ ratioforstarbursts. Iftheratiopeaksonthenucleusbut
+troscopy from Inami et al. (2013) we searched for a
+is low elsewhere (as in systems with AGN), does that
+12 µm absorption feature in those systems with high
+∼ correspond to a compact mid-infrared emitting region?
+ratios,where we postulated mid-infrared pumping could
+be important. We did not find any evidence for HCO+ Spatially resolving this ratio in starburst systems with
+both high and low ratios may enable a separation of the
+absorption.
+relative importance of source compactness and/or mid-
+However, it is not clear that existing mid-infrared ob-
+infrared pumping, in setting the ratio.
+servations are sensitive enough to establish firm upper
+Krips et al. (2008) studied the emission of multiple
+limits on the importance of infrared pumping. Existing
+HCN and HCO+ transitions for twelve systems, find-
+spectroscopymaynothavethesensitivitytoidentify ab-
+ing evidence for systematic differences in the HCN (1–
+sorption which is sufficient to affect level populations.
+0)/HCO+ (1–0) and HCN (3–2)/HCO+ (3–2) ratios be-
+4.4. Is the PAH EQW A Good Tracer of AGN Strength tweenAGNandstarbursts,withAGNhavingvalues>2
+for both ratios. They also found evidence that the (3–
+An obvious question is whether or not the PAH EQW 2)/(1–0) ratio for both HCN and HCO+ varies between
+isarobustmeasureofAGNstrengthin(U)LIRGs. Aalto
+AGN and starbursts. The number of GOALS objects
+et al. (2015) present interferometric observations of sev- with(3–2)measurementsofHCNandHCO+ iscurrently
+eralobjects, including the composite sourceCGCG 049-
+too small to draw conclusions regarding the (3–2)/(1–0)
+057, one of our sources with enhanced HCN emission.
+ratios as a function of AGN strength, but it would be
+The HCN (3–2) v = 0 and HCO+ (3–2) lines show ev-
+2 possibly illuminating to compare the higher J tran-
+upper
+idence for significant self absorption and the HCN (3–2)
+sitions with the AGN diagnostic used here.
+v = 1 ro-vibrational line is detected (consistent with
+2 Thediscoveryofmid-infraredpumping andassociated
+mid-infraredpumping). Aaltoetal.(2015)interpretthis
+high-column densities in enhanced HCN sources sug-
+asevidenceforaverycompact(tens ofpc)warm(>100
+geststhatevenmid-infrareddiagnosticssuchasthePAH
+K)regionsurroundedbyalargeenvelopeofcooler,more
+EQWmaymisshighlyembeddedAGN.Ifthisisthecase,
+diffuse gas. The total column density through these sys-
+hardX-rayobservationsmayprovidetheonlyconclusive
+tems is likely quite high (> 1024 cm−2). If the column
+evidence for AGN in sources with heavily obscured nu-
+densities are sufficiently high to support mid-infrared
+clei. However, the weakness of the > 10 keV X-rays in
+pumping, the opticaldepths in the infraredmay be high
+ULIRGAGN(e.g.,Mrk231;Tengetal.2014)maymake
+enough that the mid-infrared continuum level does not
+these observations difficult with existing facilities.
+trace the intrinsic energy source – thus the PAH EQW
+Finally,theinfluenceofinfraredpumpingisstilluncer-
+diagnostic may miss highly embedded AGN.
+tain. Future mid-infrared observations of these sources
+In Section 2.3.2 we note that the PAH EQWis an up-
+with The James Webb Space Telescope would provide
+perlimit tothe AGN’s influence onlargescales,butthis
+tighter constraints on the importance and ubiquity of
+measurementcouldalsobeconsideredasalowerlimitto mid-infrared pumping, for both HCN and HCO+. See
+the AGN’s influence on smaller scales. Thus, consistent
+also Aalto et al. (2007) for a discussion on using re-
+with results of Aalto et al. (2015) for CGCG 047-059,
+solvedobservations to distinguish mid-infrared pumping
+it is possible that these starburst or composite sources
+and XDR scenarios.
+with high HCN (1–0)/HCO+ (1–0) ratios host embed-
+ded AGN, and substantial mid-infrared optical depths 5. THERELATIONSHIPSBETWEENMOLECULARLINE
+resultinanunder-estimate ofthe AGN’s influence when LUMINOSITIES,STARFORMATIONRATES,ANDGAS
+using the PAH EQW. DEPLETIONTIMESCALES
+5.1. Star Formation Rates
+4.5. Future Observations
+We nowturntothe relationshipbetweentheHCN (1–
+Though we have shown in this study that
+0) emission and the star formation rates in (U)LIRGs.
+some starburst-dominated systems have global
+While HCN (1–0)is generallytakento trace the mass of
+L′ /L′ ratios in excess of unity,
+HCN(1–0) HCO+ (1–0) densemoleculargas,M dense ,previousstudieshavefound
+the starburst-dominated systems outnumber AGN- conflicting results for the relationship between L and
+IR
+dominated systems in the present sample. More L′ . In Figure 6 (Left) we plot the standard re-
+HCN(1–0)
+
+=====PAGE=====
+HCN (1–0) and HCO+ (1–0) in GOALS (U)LIRGs 9
+lation between L′ and L including additional In Figure 6 (Right) we perform the same compari-
+measurements fro H m CN G (1 a – o 0) & Solo I m R on (2004b, with val- son, but utilizing L′ HCO+ (1–0) instead of L′ HCN(1–0) . As
+ues corrected to our assumed cosmology and for the 3- HCO+ (1–0) has a higher critical density than CO (1–
+attractor model of Mould et al. (2000)). 0), but lower than HCN (1–0), it is useful to test if it is
+We fit the relationship using a maximum likelihood also linearly tracked by the SFR. The L′ –L
+technique, considering the errors in both L and HCO+ (1–0) IR
+IR relation is also consistent with linear:
+L′ (e.g., Sec 7 of Hogg et al. 2010). When un-
+HCN(1–0)
+certainties for mm-line fluxes were not quoted in the lit-
+erature, we assume 20%. Uncertainties on the fit pa- log L =(0.94+0.25)log L′ +(3.54+2.18)
+10 IR −0.19 10 HCO+(1−0) −2.20
+rameters were determined using Markov Chain Monte (2)
+Carlo(MCMC)sampling21 andquotedfitparameterun- Thus,ourresultsareconsistentwithscenariosinwhich
+certainties are for the 99% confidence interval. the HCN and HCO+ emission both trace the dense gas
+To this point, we have not considered systematic un- associatedwithongoingstarformation,albeitwithscat-
+certainties in our new observations, as the simultane- ter, likely the result of one or more of the excitation
+ous measurement of HCN and HCO+ should result mechanisms discussed in Section 4.
+in significantly reduced systematic uncertainties in the
+HCN/HCO+ ratio,in the HCN/HCO+ ratio, compared 5.2. The Lack of HCO+ Measurements for
+to non-simultaneous measurements. However, for the
+non-(U)LIRGs
+present comparison of L with these lines, the absolute
+IR
+Theinclusionofthe Gao&Solomon(2004a)HCN ob-
+flux of these lines may be subject to systematic uncer-
+servations adds in a substantial number of galaxies with
+tainties. We tested two approaches for dealing with sys-
+tematicuncertainties: 1)assigningadditionalsystematic
+L
+IR
+< 1011 L⊙, but corresponding HCO+ (1–0) obser-
+vations are not available. In order to assess the degree
+uncertainties (equal in magnitude to the statistical un-
+certainties) to each datapoint22 and fitting the relation- towhichtheselower-luminositysystemsinfluenceourfit-
+tingresults,wealsofittheHCN(1–0)–L relationwith-
+ship, or 2) including only statistical uncertainties23 and IR
+out the points from Gao & Solomon (2004a); this fit is
+allowing for additional uncertainties in the fitting pro-
+shownasthedot-dashlineinFig7(Left)andthebest-fit
+cess. In addition to fitting for the slope and intercept,
+relation is:
+we included an additional “nuisance” parameter, f, in
+the likelihood function to fit for the fractional amount
+by which the uncertainties areunderestimated (e.g., due log L =(1.09+0.48)log L′ +(2.30+3.37)
+10 IR −0.31 10 HCN(1−0) −3.64
+to notexplicitly including systematic uncertainties). Af-
+(3)
+ter the MCMC sampling, we marginalized over f when
+which is consistent with that for the full dataset.
+determining the final uncertainties for the slope and in-
+tercept. Both approaches yielded the same results for
+5.3. Dense Gas Depletion Times
+thebest-fitrelations,soweconcludethatourfittingpro-
+cessappropriatelyaccountsfornon-statisticaluncertain- The ratio L′ /L is often taken as
+HCN(1–0) IR ∝
+ties and present the numerical results from the latter M /SFR, which corresponds to the depletion time
+dense
+approach. For consistency, we show only the statistical (τ ) of the dense molecular gas. In Figure 7 (Left)
+dep
+uncertainties for values plotted in Figures 6 and 7. we show L′ /L as a function of L , exclud-
+Ourbestfitrelationtoournewdatacombinedwiththe HCN(1–0) IR IR
+ing sources which are AGN dominated (PAH EQW
+literaturedata (omitting bothAGN-dominated systems,
+< 0.2 µm). As in Figure 6 (Left), we include ob-
+in which L may not solely trace star formation, and
+IR servations from Gao & Solomon (2004a). The mean
+HCN (1–0)upper limits) between L and L′ is:
+IR HCN(1–0) log (L′ /L ) = 1 10−3 with a RMS scatter
+10 HCN(1–0) IR ×
+of 0.22 dex. The AGN and starburst dominated sys-
+log 10 L IR =(1.08+ − 0 0 . . 1 1 8 6 )log 10 L′ HCN(1−0) +(2.32+ − 1 1 . . 5 5 4 0 ) tems(astracedbythe6.2µmPAHfeature)havesimilar
+(1) L′ /L ratios.
+HCN(1–0) IR
+This fit is shown in Figure 6 (Left) as the solid line. Similarly, L′ /L shows no obvious trend
+We also fit L′ –L , fixing the slope to be lin- HCO+ (1–0) IR
+HCN(1–0) IR with L , but has substantial scatter. The mean
+IR
+ear, which we show in Figure 6 (Left) as a dashed log (L′ /L ) = 1 10−3 with a RMS scat-
+line. The slope of the L′ –L relation is con- 10 HCO+ (1–0) IR ×
+HCN(1–0) IR ter of 0.19 dex.
+t s h is a t t en G t a w rc it ´ı h a-B be u i r n i g llo li e n t ea a r l. a ( t 20 th 1 e 2) ∼ fo 1 u . n 3 d σ t l h ev e e L l. ′ We not – e The significant scatter in L′ HCN(1–0) /L′ HCO+ (1–0) can
+HCN(1–0) plausibly be attributed to the influence of multiple ex-
+L [40 400 µm] relation to be steeper than linear,
+FIR − citation mechanisms for these dense gas tracers, as de-
+with a slope of 1.23 0.05 (68 % confidence interval).
+± scribed above. These observations are consistent with
+21 Calculatedusingtheemceepythonlibrary(Foreman-Mackey a scenario in which molecular abundance (Lepp & Dal-
+etal.2013). garno 1996), density (Meijerink et al. 2007), and radia-
+22 The values quoted by Garc´ıa-Burillo et al. (2012) already tive effects (Aalto et al. 1995) all influence the global
+includesystematicuncertainties,sowedidnotincreasetheuncer- HCN (1–0) emission, obscuring a simple link between
+taintiesonthosepoints. L′ and the mass of dense gas directly associated
+23 In this case, we reduced the uncertainties on the Garc´ıa- HCN(1–0)
+Burillo et al. (2012) points to remove their estimate for the sys- with ongoingstar formation. Stated differently, the con-
+tematicuncertainties. version factor between L′ (or L′ ) and
+HCN(1–0) HCO+ (1–0)
+
+=====PAGE=====
+10 Privon et al.
+1012
+1011
+1010
+109
+107 108 109 1010
+L′ [Kkms−1 pc2]
+HCN
+]
+L[
+L
+⊙
+RI
+0.8
+Bestfit
+Linearslope
+Bestfit(noGS2004)
+Thiswork
+Gracia-Carpio+2006
+Gao&Solomon2004 0.6
+Garcia-Burillo+2012
+0.4
+0.2
+0
+]mµ[WQEmµ2.6HAP
+1012
+1011
+1010
+109
+107 108 109 1010
+L′
+HCO+
+[Kkms−1 pc2]
+]
+L[
+L
+⊙
+RI
+0.8
+Bestfit
+LinearSlope
+Thiswork
+Gracia-Carpio+2006
+Garcia-Burillo+2012
+0.6
+0.4
+0.2
+0
+]mµ[WQEmµ2.6HAP
+Figure 6. LIR plotted as a function of L′
+HCN(1–0)
+(Left) and L′
+HCO+ (1–0)
+(right). The points are color-coded by 6.2 µm EQW. The
+solidlinesintheleftandrightpanelsdenotethebestfitrelationsofequations1and2,respectively,whilethedashedlinesshowtherelation
+ifwefixtheslopetobelinear. Thefitsdonotincludeupper limits,butthe(solidanddashed)fitstotheLIR–L′
+HCN(1–0)
+relation(left)
+includesthedatafromGao&Solomon(2004b), correctedtoourcosmology. Intheleftpanel,weshowafitexcludingtheGao&Solomon
+(2004b) points, as the dot-dash line. We find a slope consistent with being linear, when considering LIR (L′
+HCN(1–0)
+) (Equation 1),
+consistent with Gao& Solomon (2004b). For LIR (L′
+HCO+ (1–0)
+)wefind aslopeconsistent withalinear relation(Equation 2). The fits
+donotincludeupperlimitsorAGN-dominatedsystems(PAHEQW< 0.2µm).
+10−3
+10−4
+1010 1011 1012
+L [L ]
+IR ⊙
+]1−
+⊙L
+2cp
+1−smkK[
+RI
+L/
+NCH
+′L
+0.8
+0.6
+0.4
+0.2
+Thiswork
+Gracia-Carpio+2006
+Gao&Solomon2004
+Garcia-Burillo+2012
+0
+]mµ[WQEmµ2.6HAP
+10−3
+10−4
+1010 1011 1012
+L [L ]
+IR ⊙
+]1−
+⊙L
+2cp
+1−smkK[
+RI
+L/+OCH
+′L
+0.8
+0.6
+0.4
+0.2
+Thiswork
+Gracia-Carpio+2006
+Garcia-Burillo+2012
+0
+]mµ[WQEmµ2.6HAP
+Figure 7. Left: L′
+HCN(1–0)
+/LIR versus LIR. The Gao & Solomon (2004a) points have been corrected to the cosmology assumed here.
+Right: L′
+HCO+ (1–0)
+/LIR versus LIR. Points arecolor-coded bythe 6.2 µm PAH EQW. We seeno clear trend of the gas depletion time
+withLIR.
+M likely depends on the relative HCN–H abun- for the HCN and HCO+ emission in (U)LIRGs.
+dense 2
+danceinadditiontotheoveralldensity,excitationsource
+(PDR vs XDR), and influence of infrared pumping. A 6. SUMMARY
+better understanding of the processes in (U)LIRGs con-
+We make use of new measurements of the putative
+tributing to L′ HCN(1–0) and L′ HCO+ (1–0) are needed to high density gas tracers HCN (1–0) and HCO+ (1–0)
+determine if the scatter in Figure 7 is due to differences in a sample of local (U)LIRGs. A comparison between
+in the consumption rates of molecular gas or a vary- the ratios of these lines and the 6.2 µm PAH EQW
+ing L′ –M conversion factor. Future obser- mid-infrared AGN indicator suggests enhancements in
+HCN(1–0) dense
+the global HCN (1–0) emission (relative to HCO+ (1–
+vations (Section 4.5), coupled with improved modeling,
+0)) does not uniquely trace the presence of an energeti-
+should be able to discriminate between these scenarios
+callydominantAGN.WhilewefindenhancedHCN(1–0)
+
+=====PAGE=====
+HCN (1–0) and HCO+ (1–0) in GOALS (U)LIRGs 11
+emissionrelativetoHCO+ (1–0)inobjectshostingdom- 2013),the cubehelixpythonlibrary24,andNASA’s As-
+inantAGN,wefindthesamemagnitudeofenhancement trophysics Data System. The Spitzer Space Telescope
+is also possible for systems which are dominated by star is operated by the Jet Propulsion Laboratory, Califor-
+formation. The HCN (1–0) and HCO+ (1–0) emission nia Institute of Technology, under NASA contract 1407.
+doesnotseemtobedrivenbyasingleprocess. Itislikely G.C.P. thanks Ina Evans for a critique of the comments
+that their emission is determined by the interplay of ra- of an earlier version of this manuscript.
+diationfield, gascolumn,andgasdensity. This hampers Facility: IRAM:30m (EMIR, WIMA, FTS)
+a simple interpretation of the line ratio. Existing data
+on the X-ray and mid-infrared properties of these sys- REFERENCES
+tems are not complete or deep enough (respectively) for
+ustopreferoneofXDRsormid-infraredpumpingasthe
+Aalto,S.,Booth,R.S.,Black,J.H.,&Johansson, L.E.B.1995,
+mechanism for enhancing the HCN (1–0) emission. A&A,300,369
+We compare the HCN (1–0) emission with the star Aalto,S.,Booth,R.S.,Black,J.H.,Koribalski,B.,&
+formation rate (L ) and find a linear relationship, con- Wielebinski,R.1994, A&A,286,365
+IR
+sistent with some previous studies (e.g., Solomon et al. Aalto,S.,Spaans,M.,Wiedner,M.C.,&Hu¨ttemeister, S.2007,
+A&A,464,193
+1992; Gao & Solomon 2004b). However, our result is
+Aalto,S.,etal.2015, ArXive-prints,astro-ph:1504.06824
+alsoconsistentwithasuperlinearrelationship,withinour Armus,L.,etal.2004,ApJS,154,178
+99% confidence interval, analogous to the recent study —.2007, ApJ,656,148
+utilizing L , by Garc´ıa-Burilloet al.(2012). The large Armus,L.,etal.2009,PASP,121,559
+FIR
+scatter in the L′/L ratios is consistent with a scenario Barcos-Mun˜oz,L.,etal.2015, ApJ,799,10
+IR Bigiel,F.,Leroy,A.,Walter,F.,Brinks,E.,deBlok,W.J.G.,
+in which these dense gas tracers can be influenced by
+Madore,B.,&Thornley,M.D.2008,AJ,136,2846
+density effects, infrared pumping, and/or XDRs. This Brandl,B.R.,etal.2006,ApJ,653,1129
+potentiallycomplicatesthedeterminationofglobaldense Carter,M.,etal.2012, A&A,538,A89
+gas masses and dense gas depletion times. Costagliola,F.,etal.2011, A&A,528,A30
+Curran,P.A.2014,ArXive-prints,astro-ph:1411.3816
+—.2015
+Davies,R.I.,Mark,D.,&Sternberg,A.2012,A&A,537,A133
+Diaz-Santos,T.,etal.2013,ApJ,774,68
+Wethanktheanonymousrefereefortheircarefulread- —.2014, ApJ,788,L17
+ingofourmanuscriptandfortheirhelpfulcommentsand Evans,A.S.,Solomon,P.M.,Tacconi,L.J.,Vavilkin,T.,&
+Downes,D.2006,AJ,132,2398
+suggestions, which improved the paper.
+Foreman-Mackey,D.,Hogg,D.W.,Lang,D.,&Goodman,J.
+G.C.P. and A.S.E. were supported by the NSF grant
+2013,PASP,125,306
+AST 1109475, and by NASA through grants HST- Gao,Y.,&Solomon,P.M.2004a, ApJS,152,63
+GO10592.01-A and HST-GO11196.01-A from the Space —.2004b, ApJ,606,271
+Telescope Science Institute, which is operated by the Garc´ıa-Burillo,S.,Usero,A.,Alonso-Herrero,A.,Graci´a-Carpio,
+J.,Pereira-Santaella,M.,Colina,L.,Planesas,P.,&Arribas,S.
+Association of Universities for Research in Astronomy,
+2012,A&A,539,A8
+Inc., under NASA contract NAS5-26555. G.C.P. and
+Genzel,R.,etal.1998,ApJ,498,579
+E.T. were supported by the CONICYT Anillo project Ginsburg,A.,&Mirocha,J.2011, AstrophysicsSourceCode
+ACT1101 (EMBIGGEN). G.C.P. was also supported Library,9001
+by a Visiting Graduate Research Fellowship at the In- Graci´a-Carpio,J.,Garc´ıa-Burillo,S.,Planesas,P.,&Colina,L.
+2006,ApJ,640,L135
+frared Processing and Analysis Center / Caltech and by
+Haan,S.,etal.2011,AJ,141,100
+a FONDECYT Postdoctoral Fellowship (No. 3150361). Harrison,F.A.,etal.2013,ApJ,770,103
+This work was supported in part by National Science Hinshaw,G.,etal.2009,ApJS,180,225
+Foundation Grant No. PHYS-1066293 and the hospi- Hogg,D.W.,Bovy,J.,&Lang,D.2010,ArXive-prints,
+tality of the Aspen Center for Physics. G.C.P. acknowl- astro-ph:1008.4686
+Houck,J.R.,etal.2004,ApJS,154,18
+edgesthehospitalityoftheNationalSocio-environmental
+Howell,J.H.,etal.2010,ApJ,715,572
+Synthesis Center (SESYNC), where portions of this Huettemeister,S.,Henkel,C.,Mauersberger,R.,Brouillet,N.,
+manuscript were written. A.S.E. was also supported Wiklind,T.,&Millar,T.J.1995,A&A,295,571
+by the Taiwan, R.O.C. Ministry of Science and tech- Imanishi,M.,&Nakanishi,K.2006,PASJ,58,813
+nology grant MoST 102-2119-M-001-MY3. KI acknowl- —.2013, AJ,146,91
+—.2014, AJ,148,9
+edges support by the Spanish MINECO under grant
+Imanishi,M.,Nakanishi,K.,&Kohno,K.2006,AJ,131,2888
+AYA2013-47447-C3-2-Pand MDM-2014-0369of ICCUB Imanishi,M.,Nakanishi,K.,Tamura,Y.,Oi,N.,&Kohno,K.
+(Unidad de Excelencia “Mar´ıa de Maeztu”). RHI, 2007,AJ,134,2366
+MAPT, and AA also acknowledge support from the Imanishi,M.,Nakanishi,K.,Tamura,Y.,&Peng,C.-H.2009,
+AJ,137,3581
+Spanish MINECO through grant AYA2012-38491-C02-
+Inami,H.,etal.2013,ApJ,777,156
+02. E.T. was also supported by the Center of Excellence
+Iwasawa,K.,etal.2011,A&A,528,A137
+in Astrophysics and Associated Technologies (PFB 06) Juneau,S.,Narayanan, D.T.,Moustakas,J.,Shirley,Y.L.,
+and by the FONDECYT regular grant 1120061. Bussmann,R.S.,Kennicutt,Jr.,R.C.,&VandenBout,P.A.
+This research has made use of the NASA/IPAC Ex- 2009,ApJ,707,1217
+Kim,D.-C.,etal.2013,ApJ,768,102
+tragalactic Database (NED) which is operated by the
+Klein,B.,Hochgu¨rtel,S.,Kr¨amer,I.,Bell,A.,Meyer,K.,&
+Jet Propulsion Laboratory, California Institute of Tech-
+Gu¨sten, R.2012,A&A,542,L3
+nology, under contract with the National Aeronautics Kohno,K.,Ishizuki,S.,Matsushita,S.,Vila-Vilar´o,B.,&
+and Space Administration. This research also made use Kawabe,R.2003, PASJ,55,L1
+of Astropy, a community-developed core Python pack-
+age for Astronomy (The Astropy Collaboration et al. 24 https://github.com/jradavenport/cubehelix
+
+=====PAGE=====
+12 Privon et al.
+Krips,M.,Neri,R.,Garc´ıaBurillo,S.,Mart´ın,S.,Combes,F., Petric,A.O.,etal.2011,ApJ,730,28
+Graci´aCarpio,J.,&Eckart,A.2008,ApJ,677,262 Sakamoto, K.,Aalto,S.,Evans,A.S.,Wiedner,M.C.,&Wilner,
+Lahuis,F.,etal.2007, ApJ,659,296 D.J.2010,ApJ,725,8
+Lepp,S.,&Dalgarno,A.1996,A&A,306,L21 Sanders,D.B.,Mazzarella,J.M.,Kim,D.-C.,Surace,J.A.,&
+Leroy,A.K.,etal.2011, ApJ,739,L25 Soifer,B.T.2003,AJ,126,1607
+Leroy,A.K.,etal.2012, AJ,144,3 Solomon,P.M.,Radford,S.J.E.,&Downes,D.1992,Nature,
+Lu,N.,etal.2014,ApJ,787,L23 356,318
+Mart´ın,S.,Verdes-Montenegro,L.,Aladro,R.,Espada,D., Stierwalt,S.,etal.2013, ApJ,206,1
+Argudo-Fern´andez, M.,Kramer,C.,&Scott, T.C.2014,A&A, Teng,S.H.,etal.2014,ApJ,785,19
+563,L6 TheAstropyCollaborationetal.2013,A&A,558,A33
+Meijerink,R.,Spaans,M.,&Israel,F.P.2007,A&A,461,793
+Mould,J.R.,etal.2000,ApJ,529,786
+
+=====PAGE=====
+HCN (1–0) and HCO+ (1–0) in GOALS (U)LIRGs 13
+Table 1
+IRAM30mObservingLog
+Source J2000RA J2000Dec z ObsMonth tint Tsys Backend
+[deg] [deg] [YYYY-MM] [min] [K]
+NGC0034 2.77729 –12.10775 0.0200 2011-09 276 116 WILMA
+MCG–02-01-052 4.70904 –10.36246 0.0274 2011-12 127 89 FTS
+MCG–02-01-051 4.71208 –10.37672 0.0270 2011-12 277 90 FTS
+IC1623 16.94804 –17.50721 0.0205 2011-12 95 88 FTS
+MCG–03-04-014 17.53733 –16.85272 0.0342 2011-12 223 86 FTS
+IRAS01364-1042 24.72050 –10.45317 0.0487 2011-09 117 98 WILMA
+IC214 33.52279 +5.17367 0.0300 2011-12 244 84 FTS
+NGC0958 37.67858 –2.93905 0.0193 2012-10 61 139 FTS
+ESO550-IG025 65.33333 –18.81094 0.0321 2013-08 298 105 WILMA
+UGC03094 68.89096 +19.17172 0.0247 2012-10 224 126 FTS
+NGC1797 76.93690 –8.01911 0.0149 2012-10 184 113 FTS
+VIIZw031 79.19333 +79.67028 0.0540 2010-06 42 137 WILMA
+IRASF05189-2524 80.25612 –25.36261 0.0435 2011-12 297 107 FTS
+IRASF05187-1017 80.27728 –10.24619 0.0283 2011-12 138 88 FTS
+IRASF06076-2139 92.44088 –21.67325 0.0376 2013-08 127 107 WILMA
+NGC2341 107.30000 +20.60278 0.0174 2014-03 61 89 FTS
+NGC2342 107.32525 +20.63622 0.0174 2012-10 326 107 FTS
+IRAS07251-0248 111.90646 –2.91503 0.0876 2013-08 255 113 WILMA
+NGC2623 129.60045 +25.75461 0.0185 2010-06 42 200 WILMA
+IRAS09111-1007W 138.40167 –10.32500 0.0564 2013-08 318 103 WILMA
+IRAS09111-1007E 138.41167 –10.32231 0.0550 2011-09 117 98 WILMA
+UGC05101 143.96500 +61.35328 0.0394 2010-06 191 116 WILMA
+CGCG011-076 170.30095 –2.98396 0.0247 2012-10 163 123 FTS
+IRASF12224-0624 186.26621 –6.68103 0.0257 2012-10 92 135 FTS
+CGCG043-099 195.46167 +4.33333 0.0374 2011-09 116 98 WILMA
+ESO507-G070 195.71812 –23.92158 0.0215 2011-12 180 110 FTS
+NGC5104 200.34627 +0.34248 0.0186 2012-10 153 121 FTS
+IC4280 203.22212 –24.20720 0.0165 2012-10 132 145 FTS
+NGC5257 204.97042 +0.84058 0.0227 2014-03 132 104 FTS
+NGC5258 204.98854 +0.82989 0.0226 2011-12 180 88 FTS
+UGC08739 207.30800 +35.25730 0.0172 2012-10 102 111 FTS
+NGC5331 208.06750 +2.10156 0.0330 2013-08 286 98 WILMA
+CGCG247-020 214.93007 +49.23666 0.0258 2014-03 122 153 FTS
+IRASF14348-1447 219.40975 –15.00633 0.0830 2011-09 223 139 WILMA
+CGCG049-057 228.30455 +7.22556 0.0127 2012-10 71 116 FTS
+NGC5936 232.50360 +12.98953 0.0134 2012-10 91 123 FTS
+ARP220 233.73854 +23.50323 0.0181 2010-06 53 159 WILMA
+IRASF16164-0746 244.79913 –7.90078 0.0229 2011-12 201 94 FTS
+CGCG052-037 247.73545 +4.08292 0.0248 2012-10 214 113 FTS
+IRASF16399-0937 250.66754 –9.72067 0.0270 2011-12 191 91 FTS
+NGC6285 254.59998 +58.95594 0.0186 2011-12 127 82 FTS
+NGC6286 254.63146 +58.93673 0.0185 2011-12 53 79 FTS
+IRASF17138-1017 259.14900 –10.34439 0.0175 2011-12 149 102 FTS
+UGC11041 268.71599 +34.77625 0.0161 2012-09 41 101 FTS
+CGCG141-034 269.23598 +24.01704 0.0199 2012-10 61 109 FTS
+IRAS18090+0130 272.91004 +1.52782 0.0293 2013-08 286 94 WILMA
+NGC6701 280.80208 +60.65312 0.0132 2012-10 163 165 FTS
+NGC6786 287.72500 +73.40992 0.0250 2011-09 265 95 WILMA
+UGC11415 287.76833 +73.42556 0.0252 2011-09 287 92 WILMA
+ESO593-IG008 288.62950 –21.31897 0.0487 2011-09 53 120 WILMA
+NGC6907 306.27750 –24.80893 0.0106 2012-09 102 171 FTS
+IRAS21101+5810 317.87667 +58.38422 0.0398 2013-08 308 89 WILMA
+ESO602-G025 337.85621 –19.03454 0.0247 2012-10 142 125 FTS
+UGC12150 340.30077 +34.24918 0.0216 2012-10 81 100 FTS
+IRASF22491-1808 342.95567 –17.87357 0.0760 2011-12 158 111 FTS
+CGCG453-062 346.23565 +19.55198 0.0248 2012-10 122 96 FTS
+NGC7591 349.56777 +6.58579 0.0165 2012-10 101 102 FTS
+IRASF23365+3604 354.75542 +36.35250 0.0645 2011-09 32 87 WILMA
+Note. —Col1: Sourcename, Col 2: RightAscension, Col3: Declination, Col4: redshift,Col
+5: Year and month of observation, Col 6: Total on-source time, Col 7: System temperature, Col
+8: Backend usedformeasurements (either theFourierTransformSpectrometer (FTS; Kleinetal.
+2012) ortheWidebandLineMultipleAutocorrelator (WILMA)).
+
+=====PAGE=====
+14 Privon et al.
+Table 2
+IRAM30mFluxes
+Source ΣTmbdv (CCH) ΣTmbdv (HCN(1–0)) ΣTmbdv (HCO+ (1–0)) ΣTmbdv (HNC(1–0))
+[Kkms−1 ] [Kkms−1 ] [Kkms−1 ] [Kkms−1 ]
+NGC0034 <0.35 0.71±0.12 1.14±0.15 <0.44
+MCG–02-01-052 <0.33 0.57±0.13 <0.27 <0.26
+MCG–02-01-051 <0.23 0.17±0.05 0.30±0.07 <0.16
+IC1623 1.40±0.14 1.51±0.15 4.00±0.15 0.64±0.13
+MCG–03-04-014 0.48±0.12 0.94±0.12 0.93±0.09 0.38±0.12
+IRAS01364-1042 <0.46 <0.71 <0.45 <0.54
+IC214 <0.15 0.36±0.10 0.56±0.12 <0.14
+NGC0958 <0.42 <0.71 <0.58 <0.69
+ESO550-IG025 <0.35 0.45±0.11 0.36±0.11 <0.39
+UGC03094 0.63±0.12 <0.42 0.74±0.14 <0.41
+NGC1797 <0.37 0.72±0.17 0.55±0.12 <0.43
+VIIZw031 <1.00 <0.98 1.26±0.40 <0.96
+IRASF05189-2524 <0.24 0.73±0.13 0.55±0.13 0.39±0.11
+IRASF05187-1017 0.49±0.12 0.75±0.11 0.76±0.14 <0.18
+IRASF06076-2139 <0.60 1.05±0.20 <0.59 <0.50
+NGC2341 0.65±0.21 <0.35 <0.43 <0.60
+NGC2342 0.55±0.11 0.68±0.11 0.75±0.13 <0.22
+IRAS07251-0248 <0.41 0.35±0.11 <0.33 <0.40
+NGC2623 <1.27 2.62±0.48 2.40±0.54 <1.23
+IRAS09111-1007W <0.36 0.60±0.08 0.83±0.16 <0.25
+IRAS09111-1007E 0.66±0.16a <0.36 <0.41 <0.35
+UGC05101 0.99±0.20 2.17±0.20 1.25±0.17 0.92±0.20
+CGCG011-076 <0.51 1.09±0.15 1.20±0.17 <0.35
+IRASF12224-0624 <0.69 <0.55 <0.67 <0.66
+CGCG043-099 <0.55 <0.54 <0.53 <0.53
+ESO507-G070 <0.48 1.22±0.19 1.87±0.21 0.49±0.13
+NGC5104 <0.67 1.23±0.22 0.74±0.20 <0.41
+IC4280 0.55±0.15 0.95±0.21 1.17±0.23 0.57±0.18
+NGC5257 <0.29 0.39±0.10 0.46±0.09 0.37±0.11
+NGC5258 <0.20 0.43±0.10 0.53±0.07 0.30±0.08
+UGC08739 <0.51 1.30±0.17 0.94±0.19 0.88±0.19
+NGC5331 <0.31 0.67±0.10 0.45±0.10 <0.43
+CGCG247-020 <0.38 0.96±0.15 0.57±0.12 0.35±0.09
+IRASF14348-1447 <0.46 <0.52 <0.37 <0.51
+CGCG049-057 1.57±0.36 3.21±0.32 1.48±0.20 1.70±0.28
+NGC5936 <0.48 1.21±0.16 0.81±0.11 <0.46
+ARP220 4.37±0.62 12.15±0.75 6.02±0.74 7.85±0.60
+IRASF16164-0746 0.65±0.12 0.54±0.11 0.93±0.12 0.32±0.09
+CGCG052-037 0.57±0.12 0.67±0.12 0.74±0.10 0.73±0.13
+IRASF16399-0937 0.66±0.14 0.77±0.10 0.68±0.10 0.38±0.11
+NGC6285 0.38±0.10 <0.36 <0.25 <0.35
+NGC6286 0.93±0.20 1.63±0.22 1.67±0.21 <0.40
+IRASF17138-1017 1.01±0.17 0.83±0.10 1.03±0.12 0.47±0.11
+UGC11041 <0.50 1.51±0.26 1.49±0.20 <0.59
+CGCG141-034 <0.51 1.01±0.20 <0.49 <0.69
+IRAS18090+0130 <0.30 0.67±0.10 0.78±0.11 0.28±0.08
+NGC6701 <0.48 2.77±0.22 2.26±0.22 1.16±0.22
+NGC6786 0.30±0.10 0.51±0.08 0.56±0.11 0.35±0.09
+UGC11415 <0.36 <0.28 0.54±0.12 <0.22
+ESO593-IG008 <0.77 <0.98 <1.22 <1.05
+NGC6907 <0.83 2.29±0.31 1.27±0.27 <0.65
+IRAS21101+5810 0.47±0.11 0.53±0.09 0.33±0.08 <0.22
+ESO602-G025 <0.57 0.84±0.21 0.75±0.12 0.74±0.20
+UGC12150 0.69±0.15 1.36±0.17 1.59±0.14 0.51±0.14
+IRASF22491-1808 <0.83 <0.82 <0.73 <0.71
+CGCG453-062 0.74±0.14 0.97±0.16 0.48±0.16 <0.42
+NGC7591 1.37±0.20 1.35±0.18 0.69±0.13 0.68±0.20
+IRASF23365+3604 <0.58 0.81±0.27 1.28±0.27 <0.88
+Note. —Col1: Sourcename,Col 2: CCH(N =1→0)fluxwith1σ errors,Col3: HCN(J= 1→0)fluxwith1σ
+errors,Col4: HCO+ (J=1→0)fluxwith1σ errors,Col5: HNC(J=1→0)fluxwith1σ errors. Thequotedupper
+limitsare3σ.
+a Though formally a detection (> 3σ), this CCH flux appears to be spurious as the signal at the location of CCH is
+significantlybroaderthanwouldbeexpected.
+
+=====PAGE=====
+HCN (1–0) and HCO+ (1–0) in GOALS (U)LIRGs 15
+Table 3
+SpearmanRankCoefficients
+Quantities ρ z-score
+L′
+HCN(1–0)
+/L′
+HCO+ (1–0)
+vslog10(LIR/L⊙)(Figure3) 0.021±0.178 0.057±0.494
+L′ /L′ vs6.2µmPAHEQW(Figure4,Left) −0.512±0.127 −1.532±0.464
+HCN(1–0) HCO+ (1–0)
+L′
+HCN(1–0)
+/L′
+HCO+ (1–0)
+vslog10([Cii]/LFIR)(Figure5) −0.401±0.142 −1.165±0.458
+Note. — Spearman rank coefficients for several relationships discussed in the text along with z-
+scores. Quantities and their 68% confidence intervals were computed according to the Monte Carlo
+perturbation plus bootstrapping method (1e5 iterations) discussed by Curran (2014) and using the
+associatedcode(Curran2015). UpperandlowerlimitsforL′ /L′ werenotincluded
+HCN(1–0) HCO+ (1–0)
+whencomputingthesecoefficients.
+
+=====PAGE=====
+16 Privon et al.
+8
+6
+4
+2
+0
+−2
+−4
+86 88 90 92
+]Km[
+∗T A
+NGC2623
+HCC NCH +OCH CNH
+2 IRAS09111-1007W 0.6 IRAS09111-1007E
+0.4
+1 0.2
+0.0
+0 −0.2
+−0.4
+−0.6
+80 82 84 86 88 80 82 84 86 88
+3
+2
+1
+0
+82 84 86 88 90
+]Km[
+∗T A
+UGC05101 CGCG011-076 2 IRASF12224-0624
+2
+1
+1
+0 0
+−1 −1
+84 86 88 90 92 84 86 88 90 92
+1.0
+0.5
+0.0
+−0.5
+82 84 86 88 90
+]Km[
+∗T A
+CGCG043-099 ESO507-G070 NGC5104
+2 2
+1
+1
+0
+0
+−1
+84 86 88 90 84 86 88 90 92
+2
+1
+0
+−1
+84 86 88 90 92
+]Km[
+∗T A
+IC4280 1.0 NGC5257 2 NGC5258
+0.5
+1
+0.0
+0
+−0.5
+84 86 88 90 92 82 84 86 88 90
+3
+2
+1
+0
+−1
+84 86 88 90 92
+]Km[
+∗T A
+UGC08739 NGC5331 CGCG247-020
+1 2
+1
+0
+0
+82 84 86 88 90 84 86 88 90 92
+1
+0
+−1
+78 80 82 84 86
+ν obs[GHz]
+]Km[
+∗T A
+7
+IRASF14348-1447 6 CGCG049-057 5 NGC5936
+5 4
+4 3
+3
+2
+2
+1 1
+0 0
+−1 −1
+84 86 88 90 92 84 86 88 90 92
+ν obs[GHz] ν obs[GHz]
+Figure 8. Figure1Continued
+
+=====PAGE=====
+HCN (1–0) and HCO+ (1–0) in GOALS (U)LIRGs 17
+20
+16
+12
+8
+4
+0
+−4
+84 86 88 90 92
+]Km[
+∗T A
+Arp220
+HCC NCH +OCH CNH
+2 IRASF16164-0746 2 CGCG052-037
+1
+1
+0 0
+−1
+82 84 86 88 84 86 88 90 92
+2
+1
+0
+82 84 86 88
+]Km[
+∗T A
+IRASF16399-0937 0.6 NGC6285 3 NGC6286
+0.4
+2 0.2
+0.0 1
+−0.2
+0
+−0.4
+−0.6
+82 84 86 88 90 82 84 86 88 90
+2
+1
+0
+84 86 88 90 92
+]Km[
+∗T A
+IRASF17138-1017 4 UGC11041 CGCG141-034
+2 3
+2 1
+1
+0
+0
+−1 −1
+84 86 88 90 92 84 86 88 90 92
+2
+1
+0
+82 84 86 88 90
+]Km[
+∗T A
+7
+IRAS18090+0130 6 NGC6701 NGC6786
+5 2
+4
+3
+1
+2
+1
+0 0
+−1
+84 86 88 90 92 82 84 86 88 90
+1
+0
+82 84 86 88 90
+]Km[
+∗T A
+7
+UGC11415 3 ESO593-IG008 6 NGC6907
+5
+2 4
+3
+1
+2
+0 1
+0
+−1 −1
+82 84 86 88 84 86 88 90 92
+1
+0
+82 84 86 88 90
+ν obs[GHz]
+]Km[
+∗T A
+4
+IRAS21101+5810 2 ESO602-G025 UGC12150
+3
+1 2
+1
+0
+0
+84 86 88 90 92 84 86 88 90 92
+ν obs[GHz] ν obs[GHz]
+Figure 9. Figure1Continued
+
+=====PAGE=====
+18 Privon et al.
+2
+1
+0
+−1
+76 78 80 82 84 86 88
+]Km[
+∗T A
+IRASF22491-1808
+HCC NCH +OCH CNH
+2 CGCG453-062 3 NGC7591
+2
+1
+1
+0
+0
+84 86 88 90 92 84 86 88 90 92
+ν [GHz] ν [GHz]
+obs obs
+4
+3
+2
+1
+0
+−1
+−2
+80 82 84 86 88
+ν [GHz]
+obs
+]Km[
+∗T A
+IRASF23365+3604
+Figure 10. Figure1Continued

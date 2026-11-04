@@ -1,0 +1,93 @@
+region,variant,quantity,p2p5,p16,p50,p84,p97p5
+N,ladder+R32+1-0 (q4c all),T,40.0,50.0,80.0,100.0,100.0
+N,ladder+R32+1-0 (q4c all),logn_H,4.25,4.5,5.0,5.25,5.5
+N,ladder+R32+1-0 (q4c all),logn_O,3.75,3.75,4.0,4.25,5.0
+N,ladder+R32+1-0 (q4c all),logNH,15.5,15.75,16.0,16.25,16.5
+N,ladder+R32+1-0 (q4c all),logNO,15.25,15.75,16.1126,16.25,16.25
+N,ladder+R32+1-0 (q4c all),logX,-0.75,-0.5,0.0,0.25,1.0
+N,ladder+R32+1-0 (q4c all),tau32H,3.0441,5.565,9.702,17.7313,31.54
+N,ladder+R32+1-0 (q4c all),tau32O,2.926,9.251,28.92,29.38,30.07
+N,ladder+R32+1-0 (q4c all),TexH,6.637,7.103,7.289,7.881,8.532
+N,ladder+R32+1-0 (q4c all),TexO,7.553,7.929,8.471,9.151,9.937
+N,ladder+R32+1-0 (q4c all),TexRatio,0.7981,0.8404,0.8627,0.8972,0.9198
+N,ladder+R32+1-0 (q4c all),etaH,0.915,1.0762,1.2745,1.3441,1.5738
+N,ladder+R32+1-0 (q4c all),etaO,0.7035,0.8174,0.9578,1.0934,1.2129
+N,ladder+R32+1-0 (q4c all),logP,6.25,6.5,6.8129,7.0629,7.199
+N,ladder+R32+1-0 (q4c all),kappa,1.0,1.0,1.0,1.0,1.0
+N,ladder+R32+1-0 (q4c all),"P(logX<0, N(HCN)<N(HCO+))",,,0.477,,
+N,ladder+R32+1-0 (q4c all),P(logX>=0.5),,,0.1584,,
+N,ladder+R32+1-0 (q4c all),P(Tex_HCN/Tex_HCO+<0.8),,,0.0282,,
+N,ladder+R32+1-0 (q4c all),P(log n_H<4.5),,,0.1089,,
+N,ladder+R32+1-0 (q4c all),P(log n_H>=5),,,0.5689,,
+N,ladder+R32+1-0 (q4c all),P(T<=40K),,,0.051,,
+N,ladder+R32+1-0 (q4c all),P(T>=80K),,,0.5293,,
+N,ladder+R32+1-0 (q4c all),P(tau32H<3),,,0.0043,,
+N,+ wing/core ratio constraint,T,40.0,50.0,80.0,100.0,100.0
+N,+ wing/core ratio constraint,logn_H,4.25,4.5,5.0,5.25,5.5
+N,+ wing/core ratio constraint,logn_O,3.75,3.75,4.0,4.25,5.0
+N,+ wing/core ratio constraint,logNH,15.5,15.75,16.0,16.25,16.5
+N,+ wing/core ratio constraint,logNO,15.25,15.75,16.25,16.25,16.3749
+N,+ wing/core ratio constraint,logX,-0.75,-0.5,-0.25,0.25,1.0
+N,+ wing/core ratio constraint,tau32H,3.075,5.458,9.702,17.26,30.7
+N,+ wing/core ratio constraint,tau32O,2.926,9.251,29.09,29.38,49.7143
+N,+ wing/core ratio constraint,TexH,6.6402,7.1086,7.289,7.881,8.532
+N,+ wing/core ratio constraint,TexO,7.553,7.929,8.534,9.151,9.937
+N,+ wing/core ratio constraint,TexRatio,0.8007,0.8404,0.8625,0.8999,0.9193
+N,+ wing/core ratio constraint,etaH,0.9132,1.0762,1.2745,1.3424,1.5567
+N,+ wing/core ratio constraint,etaO,0.703,0.8208,0.9578,1.0934,1.2129
+N,+ wing/core ratio constraint,logP,6.25,6.5,6.8129,7.0629,7.199
+N,+ wing/core ratio constraint,kappa,1.0,1.0,1.0,1.0,1.0
+N,+ wing/core ratio constraint,"P(logX<0, N(HCN)<N(HCO+))",,,0.5201,,
+N,+ wing/core ratio constraint,P(logX>=0.5),,,0.1278,,
+N,+ wing/core ratio constraint,P(Tex_HCN/Tex_HCO+<0.8),,,0.0248,,
+N,+ wing/core ratio constraint,P(log n_H<4.5),,,0.0771,,
+N,+ wing/core ratio constraint,P(log n_H>=5),,,0.6034,,
+N,+ wing/core ratio constraint,P(T<=40K),,,0.0524,,
+N,+ wing/core ratio constraint,P(T>=80K),,,0.5125,,
+N,+ wing/core ratio constraint,P(tau32H<3),,,0.0043,,
+S,ladder+R32+1-0 (q4c all),T,30.0,30.0,30.0,40.0,50.0
+S,ladder+R32+1-0 (q4c all),logn_H,4.25,4.5,4.75,5.25,5.75
+S,ladder+R32+1-0 (q4c all),logn_O,4.0,4.25,4.5,5.25,5.25
+S,ladder+R32+1-0 (q4c all),logNH,15.25,16.0,16.5,16.75,16.75
+S,ladder+R32+1-0 (q4c all),logNO,15.25,15.5,16.25,16.5,16.5
+S,ladder+R32+1-0 (q4c all),logX,-0.5,0.0,0.25,0.9797,1.25
+S,ladder+R32+1-0 (q4c all),tau32H,1.7111,9.799,30.98,57.0863,57.22
+S,ladder+R32+1-0 (q4c all),tau32O,2.9873,4.8613,26.04,49.64,51.73
+S,ladder+R32+1-0 (q4c all),TexH,6.139,6.3833,6.981,7.032,7.97
+S,ladder+R32+1-0 (q4c all),TexO,9.136,9.933,11.151,11.429,13.03
+S,ladder+R32+1-0 (q4c all),TexRatio,0.6108,0.612,0.6264,0.6436,0.6988
+S,ladder+R32+1-0 (q4c all),etaH,0.558,0.733,0.7453,0.9297,1.0212
+S,ladder+R32+1-0 (q4c all),etaO,0.4801,0.6114,0.6327,0.7771,0.9256
+S,ladder+R32+1-0 (q4c all),logP,5.8521,5.9771,6.2271,6.7271,7.2271
+S,ladder+R32+1-0 (q4c all),kappa,1.0,1.0,1.0,1.0,1.0
+S,ladder+R32+1-0 (q4c all),"P(logX<0, N(HCN)<N(HCO+))",,,0.1434,,
+S,ladder+R32+1-0 (q4c all),P(logX>=0.5),,,0.4394,,
+S,ladder+R32+1-0 (q4c all),P(Tex_HCN/Tex_HCO+<0.8),,,0.9992,,
+S,ladder+R32+1-0 (q4c all),P(log n_H<4.5),,,0.1057,,
+S,ladder+R32+1-0 (q4c all),P(log n_H>=5),,,0.4091,,
+S,ladder+R32+1-0 (q4c all),P(T<=40K),,,0.8928,,
+S,ladder+R32+1-0 (q4c all),P(T>=80K),,,0.0017,,
+S,ladder+R32+1-0 (q4c all),P(tau32H<3),,,0.0943,,
+S,+ wing/core ratio constraint,T,30.0,30.0,30.0,40.0,65.0
+S,+ wing/core ratio constraint,logn_H,4.25,4.5,5.0,5.5,5.75
+S,+ wing/core ratio constraint,logn_O,4.0,4.0,4.5,5.25,5.25
+S,+ wing/core ratio constraint,logNH,15.25,15.5,16.25,16.75,16.75
+S,+ wing/core ratio constraint,logNO,15.25,15.5,16.25,16.5,16.5
+S,+ wing/core ratio constraint,logX,-0.75,-0.25,0.0,0.5,1.25
+S,+ wing/core ratio constraint,tau32H,1.724,3.226,18.03,55.08,57.22
+S,+ wing/core ratio constraint,tau32O,2.987,4.8762,27.92,49.64,51.73
+S,+ wing/core ratio constraint,TexH,6.0736,6.375,6.981,7.032,7.9642
+S,+ wing/core ratio constraint,TexO,8.861,9.496,11.134,11.23,12.671
+S,+ wing/core ratio constraint,TexRatio,0.6112,0.6257,0.6367,0.6707,0.6988
+S,+ wing/core ratio constraint,etaH,0.558,0.733,0.7453,1.0164,1.0941
+S,+ wing/core ratio constraint,etaO,0.5111,0.6256,0.6331,0.8703,0.9639
+S,+ wing/core ratio constraint,logP,5.8521,6.0629,6.4771,6.9771,7.2271
+S,+ wing/core ratio constraint,kappa,1.0,1.0,1.0,1.0,1.0
+S,+ wing/core ratio constraint,"P(logX<0, N(HCN)<N(HCO+))",,,0.2971,,
+S,+ wing/core ratio constraint,P(logX>=0.5),,,0.2463,,
+S,+ wing/core ratio constraint,P(Tex_HCN/Tex_HCO+<0.8),,,0.9979,,
+S,+ wing/core ratio constraint,P(log n_H<4.5),,,0.0916,,
+S,+ wing/core ratio constraint,P(log n_H>=5),,,0.5509,,
+S,+ wing/core ratio constraint,P(T<=40K),,,0.8666,,
+S,+ wing/core ratio constraint,P(T>=80K),,,0.0022,,
+S,+ wing/core ratio constraint,P(tau32H<3),,,0.1187,,

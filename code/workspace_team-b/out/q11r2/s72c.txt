@@ -1,0 +1,112 @@
+# 1743 catalogue lines (Eu<900 K) of ['HDO', 'CH3CHO', 'c-C3H', 'l-C3H']
+  spw25: obs 264.565-266.429 GHz -> rest (VSYS) 267.042-268.923; shape (478, 266, 266)
+  spw27: obs 262.808-264.672 GHz -> rest (VSYS) 265.268-267.149; shape (478, 266, 266)
+  spw29: obs 250.738-252.602 GHz -> rest (VSYS) 253.085-254.966; shape (478, 266, 266)
+  spw31: obs 248.981-250.845 GHz -> rest (VSYS) 251.312-253.193; shape (478, 266, 266)
+  spw25: Soutflow aperture spectrum rms (random apertures, per channel, median) 1.05 mJy; channel width 3.907 MHz
+  spw27: Soutflow aperture spectrum rms (random apertures, per channel, median) 1.03 mJy; channel width 3.907 MHz
+  spw29: Soutflow aperture spectrum rms (random apertures, per channel, median) 0.83 mJy; channel width 3.907 MHz
+  spw31: Soutflow aperture spectrum rms (random apertures, per channel, median) 0.85 mJy; channel width 3.907 MHz
+
+Soutflow Xb4d@1.05" v_loc=0: k=0.525; HCN window 0.356, HCO+ window 0.195 -> E=0.253+-0.045 Jy km/s (random-aperture sigma, 200 apertures)
+
+## Species lines falling in the excess window (T-independent list; vloc=-29)
+  HDO    : 266.1611 GHz  2( 2, 0)- 3( 1, 3) Eu=157K u=-336
+  CH3CHO : 266.0446 GHz 36( 4,33)-35( 5,30) A, vt=0 Eu=654K u=-206; 266.0516 GHz 33( 6,28)-34( 4,31) E, vt=0 Eu=601K u=-214; 266.1268 GHz 39( 6,34)-40( 3,37) A, vt=0 Eu=804K u=-298; 266.1722 GHz 14( 7, 7)-13( 7, 6) E, vt=2 Eu=600K u=-348; 266.1758 GHz 20( 2,19)-20( 0,20) E, vt=1 Eu=407K u=-353; 266.2065 GHz 36( 4,33)-35( 5,30) A, vt=1 Eu=859K u=-387; 266.2133 GHz 12( 6, 6)-13( 5, 8) E, vt=0 Eu=153K u=-394
+  c-C3H  : 266.1755 GHz  4( 3, 1)- 4( 1, 4), J=7/2-9 Eu=32K u=-352; 266.2039 GHz  4( 3, 1)- 4( 1, 4), J=7/2-9 Eu=32K u=-384
+  l-C3H  : 266.1655 GHz N=19-20,  J=39/2-41/2,  F=20 Eu=244K u=-341; 266.1692 GHz N=19-20,  J=39/2-41/2,  F=19 Eu=244K u=-345; 266.1805 GHz N=19-20,  J=39/2-41/2,  F=20 Eu=244K u=-358
+
+## Companion test: s = (measured)/(predicted if the species alone carries E), stacked over spw25/27/29/31 (spw27 excludes lines within 400 km/s of window), sigma from 200 random apertures; f_max = s+2sigma = 95% upper limit on the fraction of E the species can carry
+  HDO     T= 60 vloc= +0 FWHM=100: no companion >=2% of E in the four spws -> untestable
+  HDO     T= 60 vloc= +0 FWHM=195: no companion >=2% of E in the four spws -> untestable
+  HDO     T= 60 vloc=-29 FWHM=100: no companion >=2% of E in the four spws -> untestable
+  HDO     T= 60 vloc=-29 FWHM=195: no companion >=2% of E in the four spws -> untestable
+  HDO     T=100 vloc= +0 FWHM=100: no companion >=2% of E in the four spws -> untestable
+  HDO     T=100 vloc= +0 FWHM=195: no companion >=2% of E in the four spws -> untestable
+  HDO     T=100 vloc=-29 FWHM=100: no companion >=2% of E in the four spws -> untestable
+  HDO     T=100 vloc=-29 FWHM=195: no companion >=2% of E in the four spws -> untestable
+  HDO     T=200 vloc= +0 FWHM=100: no companion >=2% of E in the four spws -> untestable
+  HDO     T=200 vloc= +0 FWHM=195: no companion >=2% of E in the four spws -> untestable
+  HDO     T=200 vloc=-29 FWHM=100: no companion >=2% of E in the four spws -> untestable
+  HDO     T=200 vloc=-29 FWHM=195: no companion >=2% of E in the four spws -> untestable
+  HDO     T=500 vloc= +0 FWHM=100: no companion >=2% of E in the four spws -> untestable
+  HDO     T=500 vloc= +0 FWHM=195: no companion >=2% of E in the four spws -> untestable
+  HDO     T=500 vloc=-29 FWHM=100: no companion >=2% of E in the four spws -> untestable
+  HDO     T=500 vloc=-29 FWHM=195: no companion >=2% of E in the four spws -> untestable
+  CH3CHO  T= 60 vloc= +0 FWHM=100: spw25 -0.005+-0.005(n=14) spw27 +0.009+-0.020(n=8) spw29 +0.000+-0.001(n=15) spw31 +0.002+-0.003(n=28) | stack s=+0.000+-0.001  f_max(95%)=0.001
+  CH3CHO  T= 60 vloc= +0 FWHM=195: spw25 -0.022+-0.015(n=15) spw27 +0.022+-0.052(n=8) spw29 +0.000+-0.001(n=16) spw31 +0.004+-0.005(n=31) | stack s=+0.000+-0.001  f_max(95%)=0.003
+  CH3CHO  T= 60 vloc=-29 FWHM=100: spw25 -0.008+-0.003(n=16) spw27 -0.002+-0.007(n=10) spw29 +0.000+-0.001(n=15) spw31 +0.001+-0.001(n=30) | stack s=+0.000+-0.001  f_max(95%)=0.001
+  CH3CHO  T= 60 vloc=-29 FWHM=195: spw25 -0.031+-0.012(n=16) spw27 -0.001+-0.014(n=10) spw29 +0.000+-0.001(n=15) spw31 +0.002+-0.002(n=30) | stack s=+0.000+-0.001  f_max(95%)=0.003
+  CH3CHO  T=100 vloc= +0 FWHM=100: spw25 -0.005+-0.011(n=22) spw27 +0.027+-0.065(n=15) spw29 +0.000+-0.002(n=27) spw31 +0.004+-0.006(n=36) | stack s=+0.000+-0.002  f_max(95%)=0.004
+  CH3CHO  T=100 vloc= +0 FWHM=195: spw25 -0.141+-0.068(n=23) spw27 +0.050+-0.157(n=16) spw29 +0.001+-0.003(n=27) spw31 +0.007+-0.009(n=37) | stack s=+0.001+-0.003  f_max(95%)=0.007
+  CH3CHO  T=100 vloc=-29 FWHM=100: spw25 -0.020+-0.009(n=23) spw27 -0.013+-0.028(n=17) spw29 +0.001+-0.002(n=23) spw31 +0.002+-0.004(n=37) | stack s=+0.000+-0.002  f_max(95%)=0.003
+  CH3CHO  T=100 vloc=-29 FWHM=195: spw25 -0.206+-0.056(n=23) spw27 -0.008+-0.050(n=17) spw29 +0.001+-0.004(n=23) spw31 +0.004+-0.006(n=37) | stack s=+0.001+-0.003  f_max(95%)=0.008
+  CH3CHO  T=200 vloc= +0 FWHM=100: spw25 -0.011+-0.045(n=23) spw27 +0.060+-0.268(n=18) spw29 +0.001+-0.010(n=28) spw31 +0.017+-0.020(n=45) | stack s=+0.004+-0.009  f_max(95%)=0.022
+  CH3CHO  T=200 vloc= +0 FWHM=195: spw25 -0.354+-0.150(n=24) spw27 +0.289+-0.631(n=18) spw29 +0.003+-0.018(n=30) spw31 +0.027+-0.030(n=46) | stack s=+0.006+-0.016  f_max(95%)=0.037
+  CH3CHO  T=200 vloc=-29 FWHM=100: spw25 -0.079+-0.038(n=23) spw27 -0.225+-0.120(n=20) spw29 +0.005+-0.011(n=25) spw31 +0.008+-0.016(n=46) | stack s=-0.000+-0.009  f_max(95%)=0.017
+  CH3CHO  T=200 vloc=-29 FWHM=195: spw25 -0.506+-0.140(n=24) spw27 -0.001+-0.249(n=20) spw29 +0.008+-0.024(n=26) spw31 +0.014+-0.024(n=47) | stack s=+0.004+-0.017  f_max(95%)=0.037
+  CH3CHO  T=500 vloc= +0 FWHM=100: spw25 -0.006+-0.066(n=23) spw27 -0.016+-0.363(n=18) spw29 +0.004+-0.037(n=26) spw31 +0.030+-0.035(n=47) | stack s=+0.014+-0.024  f_max(95%)=0.062
+  CH3CHO  T=500 vloc= +0 FWHM=195: spw25 -0.373+-0.172(n=25) spw27 +0.163+-0.823(n=19) spw29 +0.013+-0.067(n=28) spw31 +0.048+-0.052(n=48) | stack s=+0.013+-0.040  f_max(95%)=0.094
+  CH3CHO  T=500 vloc=-29 FWHM=100: spw25 -0.109+-0.059(n=23) spw27 -0.529+-0.305(n=20) spw29 +0.017+-0.040(n=23) spw31 +0.010+-0.030(n=48) | stack s=-0.007+-0.022  f_max(95%)=0.037
+  CH3CHO  T=500 vloc=-29 FWHM=195: spw25 -0.550+-0.161(n=25) spw27 -0.081+-0.933(n=22) spw29 +0.037+-0.089(n=24) spw31 +0.015+-0.051(n=49) | stack s=-0.020+-0.043  f_max(95%)=0.065
+  c-C3H   T= 60 vloc= +0 FWHM=100: spw25 n/a spw27 -0.001+-0.003(n=7) spw29 -0.002+-0.001(n=10) spw31 +0.000+-0.000(n=11) | stack s=+0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T= 60 vloc= +0 FWHM=195: spw25 n/a spw27 +0.000+-0.005(n=7) spw29 -0.002+-0.001(n=10) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T= 60 vloc=-29 FWHM=100: spw25 n/a spw27 -0.000+-0.003(n=6) spw29 -0.002+-0.001(n=13) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T= 60 vloc=-29 FWHM=195: spw25 n/a spw27 +0.000+-0.004(n=6) spw29 -0.002+-0.001(n=13) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=100 vloc= +0 FWHM=100: spw25 n/a spw27 -0.001+-0.003(n=7) spw29 -0.001+-0.001(n=10) spw31 +0.000+-0.000(n=11) | stack s=+0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=100 vloc= +0 FWHM=195: spw25 n/a spw27 +0.000+-0.005(n=7) spw29 -0.001+-0.001(n=10) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=100 vloc=-29 FWHM=100: spw25 n/a spw27 -0.000+-0.003(n=6) spw29 -0.001+-0.001(n=13) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=100 vloc=-29 FWHM=195: spw25 n/a spw27 +0.000+-0.004(n=6) spw29 -0.001+-0.001(n=13) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=200 vloc= +0 FWHM=100: spw25 n/a spw27 -0.001+-0.003(n=9) spw29 -0.001+-0.000(n=10) spw31 +0.000+-0.000(n=11) | stack s=+0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=200 vloc= +0 FWHM=195: spw25 n/a spw27 +0.000+-0.005(n=9) spw29 -0.001+-0.000(n=10) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=200 vloc=-29 FWHM=100: spw25 n/a spw27 -0.000+-0.003(n=8) spw29 -0.000+-0.000(n=13) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=200 vloc=-29 FWHM=195: spw25 n/a spw27 +0.000+-0.004(n=8) spw29 -0.001+-0.000(n=13) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=500 vloc= +0 FWHM=100: spw25 n/a spw27 -0.001+-0.003(n=9) spw29 -0.000+-0.000(n=10) spw31 +0.000+-0.000(n=11) | stack s=+0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=500 vloc= +0 FWHM=195: spw25 n/a spw27 +0.000+-0.005(n=9) spw29 -0.001+-0.000(n=10) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=500 vloc=-29 FWHM=100: spw25 n/a spw27 -0.000+-0.003(n=8) spw29 -0.000+-0.000(n=13) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  c-C3H   T=500 vloc=-29 FWHM=195: spw25 n/a spw27 +0.000+-0.004(n=8) spw29 -0.000+-0.000(n=13) spw31 -0.000+-0.000(n=11) | stack s=-0.000+-0.000  f_max(95%)=0.000
+  l-C3H   T= 60 vloc= +0 FWHM=100: spw25 n/a spw27 n/a spw29 n/a spw31 +0.000+-0.000(n=6) | stack s=+0.000+-0.000  f_max(95%)=0.000
+  l-C3H   T= 60 vloc= +0 FWHM=195: spw25 n/a spw27 n/a spw29 n/a spw31 +0.000+-0.000(n=6) | stack s=+0.000+-0.000  f_max(95%)=0.001
+  l-C3H   T= 60 vloc=-29 FWHM=100: spw25 n/a spw27 n/a spw29 n/a spw31 +0.000+-0.000(n=6) | stack s=+0.000+-0.000  f_max(95%)=0.000
+  l-C3H   T= 60 vloc=-29 FWHM=195: spw25 n/a spw27 n/a spw29 n/a spw31 +0.000+-0.000(n=6) | stack s=+0.000+-0.000  f_max(95%)=0.001
+  l-C3H   T=100 vloc= +0 FWHM=100: spw25 n/a spw27 n/a spw29 n/a spw31 +0.000+-0.000(n=6) | stack s=+0.000+-0.000  f_max(95%)=0.001
+  l-C3H   T=100 vloc= +0 FWHM=195: spw25 n/a spw27 n/a spw29 n/a spw31 +0.001+-0.001(n=6) | stack s=+0.001+-0.001  f_max(95%)=0.003
+  l-C3H   T=100 vloc=-29 FWHM=100: spw25 n/a spw27 n/a spw29 n/a spw31 +0.000+-0.000(n=6) | stack s=+0.000+-0.000  f_max(95%)=0.001
+  l-C3H   T=100 vloc=-29 FWHM=195: spw25 n/a spw27 n/a spw29 n/a spw31 +0.000+-0.001(n=6) | stack s=+0.000+-0.001  f_max(95%)=0.002
+  l-C3H   T=200 vloc= +0 FWHM=100: spw25 n/a spw27 n/a spw29 n/a spw31 +0.001+-0.001(n=6) | stack s=+0.001+-0.001  f_max(95%)=0.003
+  l-C3H   T=200 vloc= +0 FWHM=195: spw25 n/a spw27 n/a spw29 n/a spw31 +0.002+-0.002(n=6) | stack s=+0.002+-0.002  f_max(95%)=0.006
+  l-C3H   T=200 vloc=-29 FWHM=100: spw25 n/a spw27 n/a spw29 n/a spw31 +0.001+-0.001(n=6) | stack s=+0.001+-0.001  f_max(95%)=0.002
+  l-C3H   T=200 vloc=-29 FWHM=195: spw25 n/a spw27 n/a spw29 n/a spw31 +0.001+-0.001(n=6) | stack s=+0.001+-0.001  f_max(95%)=0.004
+  l-C3H   T=500 vloc= +0 FWHM=100: spw25 n/a spw27 n/a spw29 n/a spw31 +0.002+-0.002(n=6) | stack s=+0.002+-0.002  f_max(95%)=0.005
+  l-C3H   T=500 vloc= +0 FWHM=195: spw25 n/a spw27 n/a spw29 n/a spw31 +0.003+-0.003(n=6) | stack s=+0.003+-0.003  f_max(95%)=0.010
+  l-C3H   T=500 vloc=-29 FWHM=100: spw25 n/a spw27 n/a spw29 n/a spw31 +0.001+-0.001(n=6) | stack s=+0.001+-0.001  f_max(95%)=0.004
+  l-C3H   T=500 vloc=-29 FWHM=195: spw25 n/a spw27 n/a spw29 n/a spw31 +0.002+-0.002(n=6) | stack s=+0.002+-0.002  f_max(95%)=0.007
+
+## Strongest individual companion lines (T=100 K, v_loc=-29, FWHM 195; species alone carries E): predicted vs measured Jy km/s within +-100 km/s at Soutflow, high-pass baseline; sigma from random apertures
+  CH3CHO  254.8505 GHz 13( 2,11)-12( 2,10) A, vt=0 Eu=  94K (spw29): predicted    19.388  measured +0.032+-0.103 (+0.3s)  -> species can carry <= 1.23% of E
+  CH3CHO  254.8272 GHz 13( 2,11)-12( 2,10) E, vt=0 Eu=  94K (spw29): predicted    19.710  measured +0.024+-0.088 (+0.3s)  -> species can carry <= 1.02% of E
+  CH3CHO  251.4893 GHz 13( 3,10)-12( 3, 9) A, vt=0 Eu= 105K (spw31): predicted    16.245  measured -0.002+-0.045 (-0.0s)  -> species can carry <= 0.54% of E
+  CH3CHO  251.3637 GHz 13( 3,10)-12( 3, 9) E, vt=0 Eu= 105K (spw31): predicted    16.076  measured +0.090+-0.108 (+0.8s)  -> species can carry <= 1.91% of E
+  c-C3H   252.6974 GHz  5( 1, 4)- 4( 1, 3), J=11/2- Eu=  37K (spw31): predicted  3723.767  measured -0.021+-0.029 (-0.7s)  -> species can carry <= 0.00% of E
+  c-C3H   252.8816 GHz  5( 1, 4)- 4( 1, 3), J=9/2-7 Eu=  37K (spw31): predicted  3039.421  measured -0.018+-0.025 (-0.7s)  -> species can carry <= 0.00% of E
+  c-C3H   253.0811 GHz  5( 1, 4)- 4( 1, 3), J=9/2-9 Eu=  37K (spw29): predicted    36.232  measured -0.068+-0.077 (-0.9s)  -> species can carry <= 0.24% of E
+  c-C3H   253.0487 GHz  5( 1, 4)- 4( 1, 3), J=9/2-9 Eu=  37K (spw31): predicted    36.203  measured -0.015+-0.073 (-0.2s)  -> species can carry <= 0.36% of E
+  l-C3H   251.4339 GHz J=23/2-21/2, &Omega;=1/2,  F Eu=  75K (spw31): predicted   141.259  measured +0.051+-0.073 (+0.7s)  -> species can carry <= 0.14% of E
+
+## Shape test, HCN spw27, residual HCN-0.525*HCO+ (channel rms 1.03 mJy; 136 channels -700..-100; channels are correlated so chi2 are indicative): null chi2 209; free Gaussian (peak 1.62 mJy, centre -275, FWHM 225) chi2 113
+  HDO     vloc= +0 FWHM=100: template chi2 158 (amplitude fixed to E), best amplitude x0.77 chi2 153
+  HDO     vloc= +0 FWHM=195: template chi2 121 (amplitude fixed to E), best amplitude x1.05 chi2 121
+  HDO     vloc=-29 FWHM=100: template chi2 176 (amplitude fixed to E), best amplitude x0.66 chi2 164
+  HDO     vloc=-29 FWHM=195: template chi2 135 (amplitude fixed to E), best amplitude x0.93 chi2 134
+  CH3CHO  vloc= +0 FWHM=100: template chi2 171 (amplitude fixed to E), best amplitude x0.68 chi2 161
+  CH3CHO  vloc= +0 FWHM=195: template chi2 140 (amplitude fixed to E), best amplitude x0.87 chi2 138
+  CH3CHO  vloc=-29 FWHM=100: template chi2 213 (amplitude fixed to E), best amplitude x0.49 chi2 173
+  CH3CHO  vloc=-29 FWHM=195: template chi2 169 (amplitude fixed to E), best amplitude x0.66 chi2 155
+  c-C3H   vloc= +0 FWHM=100: template chi2 175 (amplitude fixed to E), best amplitude x0.67 chi2 163
+  c-C3H   vloc= +0 FWHM=195: template chi2 138 (amplitude fixed to E), best amplitude x0.90 chi2 137
+  c-C3H   vloc=-29 FWHM=100: template chi2 212 (amplitude fixed to E), best amplitude x0.49 chi2 174
+  c-C3H   vloc=-29 FWHM=195: template chi2 166 (amplitude fixed to E), best amplitude x0.69 chi2 154
+  l-C3H   vloc= +0 FWHM=100: template chi2 166 (amplitude fixed to E), best amplitude x0.72 chi2 158
+  l-C3H   vloc= +0 FWHM=195: template chi2 127 (amplitude fixed to E), best amplitude x1.00 chi2 127
+  l-C3H   vloc=-29 FWHM=100: template chi2 190 (amplitude fixed to E), best amplitude x0.58 chi2 170
+  l-C3H   vloc=-29 FWHM=195: template chi2 146 (amplitude fixed to E), best amplitude x0.82 chi2 143

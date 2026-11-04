@@ -1,0 +1,6 @@
+{
+ "id": "r03",
+ "to": "team-a",
+ "kind": "figure",
+ "text": "Figure 3 (key result R2): N/S contrast (ratio of N ratio to S ratio, with errors incl. window/estimator spread) in two panels. (a) HCN/HCO+ at J=1-0, 3-2 (12m+7m, matched 2.2\" and 1.0-1.5\"), 4-3 flagged as unresolved (1.6 vs 3.7), with D=1.00+-0.05 and p0060's 1.07+-0.05 marked and the superseded values (1.10, 0.71) shown hollow. (b) N/S per unit 1.3 mm continuum for HCN, HNC, CN and HCO+ at 1-0 (2.5\") and 3-2 (1.1-1.4\"), with the Td_N/Td_S caveat as a band. Give the exact numbers behind each bar in the caption table and the snapshot csv paths."
+}

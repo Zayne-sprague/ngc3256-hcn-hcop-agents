@@ -1,0 +1,35 @@
+# E1 PB/beam extra sigma per datum (HCN 2,3,4; HCO+ 2,3,4): 0.011 0.055 0.171 0.011 0.034 0.097
+# E1 stat S/N of the 10" |v|<350 km/s fluxes (s55a): HCN 2-1,3-2,4-3 = 93.1, 49.8, 11.2; HCO+ = 161.0, 146.3, 62.0  (stat only; the HCN 4-3 PB/A-B systematic is 34% at E1)
+
+# (i) ratio of ratios E1/centre(N). Columns: RR observed; ln-sigma from stat; from PB/A-B term; from recovery; total cal-cancelled; total if band(10%) + 7% per-line terms were NOT common (conservative); significance of |ln RR|
+   HCN   T21/T32: RR=1.46 (recovery-corrected 1.62);  stat 0.023  PB/AB 0.056  recovery 0.043  -> total(cancelled) 0.074 => |ln RR|/sigma=6.5;  if calibration NOT common: sigma 0.255 => 1.9 sigma
+   HCN   T43/T32: RR=0.48 (recovery-corrected 0.45);  stat 0.092  PB/AB 0.180  recovery 0.038  -> total(cancelled) 0.206 => |ln RR|/sigma=3.9;  if calibration NOT common: sigma 0.319 => 2.5 sigma
+   HCO+  T21/T32: RR=1.18 (recovery-corrected 1.31);  stat 0.010  PB/AB 0.035  recovery 0.043  -> total(cancelled) 0.057 => |ln RR|/sigma=4.8;  if calibration NOT common: sigma 0.251 => 1.1 sigma
+   HCO+  T43/T32: RR=0.76 (recovery-corrected 0.71);  stat 0.018  PB/AB 0.103  recovery 0.038  -> total(cancelled) 0.111 => |ln RR|/sigma=3.1;  if calibration NOT common: sigma 0.268 => 1.3 sigma
+   Reading: RR<1 for T43/T32 means E1 has weaker 4-3 relative to 3-2 than the centre; RR>1 for T21/T32 means stronger 2-1. T43/T32 HCN: factor ~2 deficit; it survives band calibration (cancels) but the E1 PB/A-B term at Xb47 for HCN is 17% (HCO+ 10%).
+
+# (ii) posterior contrast E1 vs centre(N): same band-scale draws applied to both positions; stat+PB(E1)+recovery (Q12 per position) always included; prior flat log Tk<=300 (and flat Tk<=500).
+   [shared band 10/10/10%] [both ] prior logT300: P(Tk_E1<Tk_centre)=0.94  P(n_E1>n_centre)=0.64   Tk_E1 32 [20,50]  Tk_centre(N) 141 [56,223]
+   [shared band 10/10/10%] [both ] prior linT500: P(Tk_E1<Tk_centre)=0.99  P(n_E1>n_centre)=0.61   Tk_E1 45 [28,63]  Tk_centre(N) 251 [141,397]
+   [shared band 10/10/10%] [HCN  ] prior logT300: P(Tk_E1<Tk_centre)=0.91  P(n_E1>n_centre)=0.54   Tk_E1 25 [14,45]  Tk_centre(N) 112 [35,223]
+   [shared band 10/10/10%] [HCN  ] prior linT500: P(Tk_E1<Tk_centre)=0.99  P(n_E1>n_centre)=0.55   Tk_E1 45 [25,71]  Tk_centre(N) 316 [158,446]
+   [shared band 10/10/10%] [HCO+ ] prior logT300: P(Tk_E1<Tk_centre)=0.64  P(n_E1>n_centre)=0.40   Tk_E1 56 [25,141]  Tk_centre(N) 89 [28,199]
+   [shared band 10/10/10%] [HCO+ ] prior linT500: P(Tk_E1<Tk_centre)=0.69  P(n_E1>n_centre)=0.26   Tk_E1 178 [63,397]  Tk_centre(N) 316 [141,446]
+   [shared band 15/10/15%] [both ] prior logT300: P(Tk_E1<Tk_centre)=0.92  P(n_E1>n_centre)=0.63   Tk_E1 32 [20,50]  Tk_centre(N) 126 [50,223]
+   [shared band 15/10/15%] [both ] prior linT500: P(Tk_E1<Tk_centre)=0.98  P(n_E1>n_centre)=0.60   Tk_E1 45 [28,71]  Tk_centre(N) 251 [141,397]
+   [shared band 15/10/15%] [HCN  ] prior logT300: P(Tk_E1<Tk_centre)=0.89  P(n_E1>n_centre)=0.53   Tk_E1 25 [14,45]  Tk_centre(N) 112 [32,223]
+   [shared band 15/10/15%] [HCN  ] prior linT500: P(Tk_E1<Tk_centre)=0.98  P(n_E1>n_centre)=0.53   Tk_E1 45 [25,71]  Tk_centre(N) 316 [158,446]
+   [shared band 15/10/15%] [HCO+ ] prior logT300: P(Tk_E1<Tk_centre)=0.63  P(n_E1>n_centre)=0.41   Tk_E1 50 [22,141]  Tk_centre(N) 79 [22,199]
+   [shared band 15/10/15%] [HCO+ ] prior linT500: P(Tk_E1<Tk_centre)=0.68  P(n_E1>n_centre)=0.28   Tk_E1 178 [63,397]  Tk_centre(N) 316 [141,446]
+   [shared band 10% + shared 7% per-line term (s_ind=0)] [both ] prior logT300: P(Tk_E1<Tk_centre)=1.00  P(n_E1>n_centre)=0.74   Tk_E1 40 [28,50]  Tk_centre(N) 223 [141,223]
+   [shared band 10% + shared 7% per-line term (s_ind=0)] [both ] prior linT500: P(Tk_E1<Tk_centre)=1.00  P(n_E1>n_centre)=0.70   Tk_E1 45 [32,56]  Tk_centre(N) 223 [199,397]
+   [shared band 10% + shared 7% per-line term (s_ind=0)] [HCN  ] prior logT300: P(Tk_E1<Tk_centre)=0.95  P(n_E1>n_centre)=0.59   Tk_E1 25 [14,45]  Tk_centre(N) 126 [45,223]
+   [shared band 10% + shared 7% per-line term (s_ind=0)] [HCN  ] prior linT500: P(Tk_E1<Tk_centre)=0.99  P(n_E1>n_centre)=0.57   Tk_E1 45 [25,63]  Tk_centre(N) 316 [158,446]
+   [shared band 10% + shared 7% per-line term (s_ind=0)] [HCO+ ] prior logT300: P(Tk_E1<Tk_centre)=0.76  P(n_E1>n_centre)=0.44   Tk_E1 45 [22,89]  Tk_centre(N) 100 [28,223]
+   [shared band 10% + shared 7% per-line term (s_ind=0)] [HCO+ ] prior linT500: P(Tk_E1<Tk_centre)=0.83  P(n_E1>n_centre)=0.29   Tk_E1 112 [50,281]  Tk_centre(N) 316 [158,446]
+   [no calibration error (stat+PB+recovery only)] [both ] prior logT300: P(Tk_E1<Tk_centre)=0.98  P(n_E1>n_centre)=0.63   Tk_E1 35 [25,50]  Tk_centre(N) 178 [100,223]
+   [no calibration error (stat+PB+recovery only)] [both ] prior linT500: P(Tk_E1<Tk_centre)=0.99  P(n_E1>n_centre)=0.63   Tk_E1 45 [32,63]  Tk_centre(N) 223 [158,397]
+   [no calibration error (stat+PB+recovery only)] [HCN  ] prior logT300: P(Tk_E1<Tk_centre)=0.96  P(n_E1>n_centre)=0.56   Tk_E1 28 [16,50]  Tk_centre(N) 141 [79,223]
+   [no calibration error (stat+PB+recovery only)] [HCN  ] prior linT500: P(Tk_E1<Tk_centre)=0.99  P(n_E1>n_centre)=0.60   Tk_E1 40 [22,63]  Tk_centre(N) 251 [141,446]
+   [no calibration error (stat+PB+recovery only)] [HCO+ ] prior logT300: P(Tk_E1<Tk_centre)=0.66  P(n_E1>n_centre)=0.37   Tk_E1 71 [35,158]  Tk_centre(N) 126 [50,223]
+   [no calibration error (stat+PB+recovery only)] [HCO+ ] prior linT500: P(Tk_E1<Tk_centre)=0.70  P(n_E1>n_centre)=0.27   Tk_E1 158 [63,354]  Tk_centre(N) 316 [141,446]

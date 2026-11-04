@@ -1,0 +1,49 @@
+error_model,X_range_12C13C,physical_prior,BF_Habun_over_Hexc
+errors halved,40-100,unconstrained,809.0
+errors halved,40-100,log n>=3.8,846.0
+errors halved,40-100,log n>=4.2,2200.0
+errors halved,40-100,log n 3-6 flat (alt prior),498.0
+errors halved,40-100,"log n>=3.8, L<=450pc, x<=1e-8",823.0
+errors halved,40-100,"log n>=3.8, L<=100pc (N core), x<=1e-8",794.0
+errors halved,40-100,"log n>=4.2, L<=100pc, x<=1e-8",2110.0
+errors halved,40-100,"log n>=3.8, L<=100pc, x<=3e-9 (tight)",764.0
+errors halved,20-200,unconstrained,603.0
+errors halved,20-200,log n>=3.8,686.0
+errors halved,20-200,log n>=4.2,2070.0
+errors halved,20-200,log n 3-6 flat (alt prior),371.0
+errors halved,20-200,"log n>=3.8, L<=450pc, x<=1e-8",667.0
+errors halved,20-200,"log n>=3.8, L<=100pc (N core), x<=1e-8",642.0
+errors halved,20-200,"log n>=4.2, L<=100pc, x<=1e-8",1980.0
+errors halved,20-200,"log n>=3.8, L<=100pc, x<=3e-9 (tight)",602.0
+default errors,40-100,unconstrained,41.0
+default errors,40-100,log n>=3.8,37.5
+default errors,40-100,log n>=4.2,43.8
+default errors,40-100,log n 3-6 flat (alt prior),25.2
+default errors,40-100,"log n>=3.8, L<=450pc, x<=1e-8",36.5
+default errors,40-100,"log n>=3.8, L<=100pc (N core), x<=1e-8",35.2
+default errors,40-100,"log n>=4.2, L<=100pc, x<=1e-8",41.9
+default errors,40-100,"log n>=3.8, L<=100pc, x<=3e-9 (tight)",33.8
+default errors,20-200,unconstrained,26.2
+default errors,20-200,log n>=3.8,23.5
+default errors,20-200,log n>=4.2,26.8
+default errors,20-200,log n 3-6 flat (alt prior),16.1
+default errors,20-200,"log n>=3.8, L<=450pc, x<=1e-8",22.9
+default errors,20-200,"log n>=3.8, L<=100pc (N core), x<=1e-8",21.8
+default errors,20-200,"log n>=4.2, L<=100pc, x<=1e-8",25.7
+default errors,20-200,"log n>=3.8, L<=100pc, x<=3e-9 (tight)",22.2
+errors doubled,40-100,unconstrained,6.85
+errors doubled,40-100,log n>=3.8,6.35
+errors doubled,40-100,log n>=4.2,6.93
+errors doubled,40-100,log n 3-6 flat (alt prior),4.24
+errors doubled,40-100,"log n>=3.8, L<=450pc, x<=1e-8",6.18
+errors doubled,40-100,"log n>=3.8, L<=100pc (N core), x<=1e-8",5.95
+errors doubled,40-100,"log n>=4.2, L<=100pc, x<=1e-8",6.63
+errors doubled,40-100,"log n>=3.8, L<=100pc, x<=3e-9 (tight)",5.69
+errors doubled,20-200,unconstrained,4.18
+errors doubled,20-200,log n>=3.8,4.26
+errors doubled,20-200,log n>=4.2,5.36
+errors doubled,20-200,log n 3-6 flat (alt prior),2.58
+errors doubled,20-200,"log n>=3.8, L<=450pc, x<=1e-8",4.15
+errors doubled,20-200,"log n>=3.8, L<=100pc (N core), x<=1e-8",3.94
+errors doubled,20-200,"log n>=4.2, L<=100pc, x<=1e-8",5.13
+errors doubled,20-200,"log n>=3.8, L<=100pc, x<=3e-9 (tight)",3.93

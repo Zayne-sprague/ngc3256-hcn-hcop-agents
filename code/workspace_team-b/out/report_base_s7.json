@@ -1,0 +1,1903 @@
+{
+ "datasets": [
+  {
+   "files": [
+    "/data/*Xb47*cube.I.pbcor.fits (spw16,18,20,22)",
+    "/data/*Xb47*mfs/cont*"
+   ],
+   "content": "Band 7, 338.9-354.2 GHz: HCN 4-3, HCO+ 4-3, CS 7-6, H13CN/CO 3-2 edge; beam 4.1-4.3x2.7-2.8\"",
+   "role": "line survey, regions, blends"
+  },
+  {
+   "files": [
+    "/data/*Xb4f*cube.I.pbcor.fits",
+    "/data/*Xb4d*cube.I.pbcor.fits",
+    "/data/*Xb4b*cube.I.pbcor.fits (spw25,27,29,31)"
+   ],
+   "content": "Band 6, 249-266 GHz, 5.7x3.5\", 0.94x0.74\", 0.25x0.24\": HCN 3-2, HCO+ 3-2, SO, NS-bump, HC3N",
+   "role": "line survey, regions, moment maps, wings"
+  },
+  {
+   "files": [
+    "/data/*Xb55*cube.I.pbcor.fits (spw16,18,20,22)"
+   ],
+   "content": "Band 5, 163-178 GHz, 8.6-9.4x6.0-6.3\": HCN 2-1, HCO+ 2-1, CH3OH 165.05",
+   "role": "line survey"
+  },
+  {
+   "files": [
+    "/data/*mfs.I.pbcor.fits",
+    "/data/*cont.I.pbcor.fits (all OUS)"
+   ],
+   "content": "continuum images",
+   "role": "continuum, line-contamination test"
+  },
+  {
+   "files": [
+    "/data/*Xb4d*cube.I.mask.fits"
+   ],
+   "content": "clean masks (Xb4d)",
+   "role": "clean-mask coverage check"
+  }
+ ],
+ "recipe": [
+  {
+   "order": 1,
+   "stage": "data_selection",
+   "description": "Line list: Splatalogue (CDMS+JPL) via astroquery for the rest ranges 164.4-179.8, 251.2-268.1, 341.9-357.3 GHz, curated species + hydrogen RRLs from the Rydberg formula",
+   "software": "astroquery",
+   "parameters": [
+    {
+     "name": "species",
+     "value": "extragalactic-relevant set"
+    },
+    {
+     "name": "ranges_GHz",
+     "value": "164.4-179.8; 251.2-268.1; 341.9-357.3"
+    }
+   ],
+   "scripts": [
+    "/workspace/scripts/s0_linelist.py"
+   ]
+  },
+  {
+   "order": 2,
+   "stage": "measurement",
+   "description": "Continuum survey of all 2D pbcor images: peaks >5 sigma, positions, rms (MAD)",
+   "software": "python3 (numpy, astropy, scipy)",
+   "parameters": [
+    {
+     "name": "noise",
+     "value": "MAD, 6-12 arcsec annulus (or 1.5-3 bmaj)"
+    },
+    {
+     "name": "aperture",
+     "value": "r=2.5 arcsec flux = sum/beam area"
+    }
+   ],
+   "scripts": [
+    "/workspace/scripts/s1_continuum.py",
+    "/workspace/scripts/s6_continuum.py",
+    "/workspace/scripts/s6b_cont_contam.py"
+   ]
+  },
+  {
+   "order": 3,
+   "stage": "preprocessing",
+   "description": "Spectra extraction from all pbcor cubes: N, S nominal pixels, beam aperture (diameter = geometric-mean FWHM), r=2.5\" and r=8\" flux densities, cube-peak pixel",
+   "software": "python3 (numpy, astropy, scipy)",
+   "parameters": [
+    {
+     "name": "N",
+     "value": "156.96346,-43.90388"
+    },
+    {
+     "name": "S",
+     "value": "156.96340,-43.90533"
+    },
+    {
+     "name": "VSYS",
+     "value": "2780 km/s radio LSRK"
+    }
+   ],
+   "scripts": [
+    "/workspace/scripts/s2_extract.py",
+    "/workspace/scripts/common.py"
+   ]
+  },
+  {
+   "order": 4,
+   "stage": "measurement",
+   "description": "Systemic velocity from HCN/HCO+ first moments and half-maximum midpoints",
+   "software": "python3 (numpy, astropy, scipy)",
+   "parameters": [],
+   "scripts": [
+    "/workspace/scripts/s3b_systemic.py"
+   ]
+  },
+  {
+   "order": 5,
+   "stage": "measurement",
+   "description": "Blind boxcar scan (300 and 100 km/s) at 5 sigma, forced photometry of all catalogue lines, overview and zoom plots; identification at |dv|<60 km/s with plausibility tiers",
+   "software": "python3 (numpy, astropy, scipy)",
+   "parameters": [
+    {
+     "name": "threshold",
+     "value": "5 sigma"
+    },
+    {
+     "name": "box",
+     "value": "300,100 km/s"
+    },
+    {
+     "name": "forced window",
+     "value": "+-150 km/s"
+    }
+   ],
+   "scripts": [
+    "/workspace/scripts/s3_linesearch.py",
+    "/workspace/scripts/s3c_scan.py",
+    "/workspace/scripts/s3d_forced.py",
+    "/workspace/scripts/s4_overview.py",
+    "/workspace/scripts/s4b_zoom.py",
+    "/workspace/scripts/s10_coverage.py"
+   ]
+  },
+  {
+   "order": 6,
+   "stage": "measurement",
+   "description": "Moment maps (core |v|<350, blue -400..-150, red 150..400 km/s, mom1 3-sigma clipped), peak finding (>8 sigma, >=1 beam apart) to define regions",
+   "software": "python3 (numpy, astropy, scipy)",
+   "parameters": [],
+   "scripts": [
+    "/workspace/scripts/s5_moments.py",
+    "/workspace/scripts/regions.py"
+   ]
+  },
+  {
+   "order": 7,
+   "stage": "measurement",
+   "description": "Region spectra (peak pixel within 0.6\" of the nominal position, beam aperture), 1- and 2-Gaussian fits (scipy curve_fit, constant baseline, noise from line-free channels, lag-1 correlation inflation), integrated intensity |v|<350 with empirical box-sum noise, Tb (Rayleigh-Jeans)",
+   "software": "python3 (numpy, astropy, scipy)",
+   "parameters": [
+    {
+     "name": "fit window",
+     "value": "+-900 km/s"
+    },
+    {
+     "name": "line-free",
+     "value": "|v|>450"
+    },
+    {
+     "name": "W window",
+     "value": "+-350 km/s (CH3OH +-250)"
+    }
+   ],
+   "scripts": [
+    "/workspace/scripts/s7a_extract_regions.py",
+    "/workspace/scripts/s7b_fit_lines.py"
+   ]
+  },
+  {
+   "order": 8,
+   "stage": "modelling",
+   "description": "Weak lines by matched filter with same-region HCN/HCO+ templates (limits 3 sigma); CS/H2CS/29SiO NNLS blend model; H13CN on CO wing",
+   "software": "python3 (numpy, astropy, scipy)",
+   "parameters": [],
+   "scripts": [
+    "/workspace/scripts/s7c_weak_lines.py",
+    "/workspace/scripts/s7d_blends.py"
+   ]
+  },
+  {
+   "order": 9,
+   "stage": "verification",
+   "description": "Wing fluxes; clean-mask coverage",
+   "software": "python3 (numpy, astropy, scipy)",
+   "parameters": [],
+   "scripts": [
+    "/workspace/scripts/s8_wings.py",
+    "/workspace/scripts/s9_maskcheck.py"
+   ]
+  },
+  {
+   "order": 10,
+   "stage": "other",
+   "description": "Report assembly",
+   "software": "python3 (numpy, astropy, scipy)",
+   "parameters": [],
+   "scripts": [
+    "/workspace/scripts/build_report.py"
+   ]
+  }
+ ],
+ "results": [
+  {
+   "quantity": "Systemic velocity from dense-gas lines",
+   "target": "NGC 3256 (whole)",
+   "value": "2780",
+   "uncertainty": "+-5 (spread between lines/regions)",
+   "unit": "km/s (radio, LSRK)",
+   "assumptions": [
+    {
+     "name": "definition",
+     "value": "v=c(1-nu/nu0), cube frame LSRK; nominal task value 2750 km/s is 30 km/s lower; optical-definition z=0.0094 corresponds to 2792 km/s radio"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s3b_systemic.py -> out/s3b_systemic.txt: first moment / half-maximum midpoint of HCN & HCO+ 2-1,3-2,4-3 in r=8\" integrated and N/S peak spectra: 2769-2790 km/s (mean 2781)"
+  },
+  {
+   "quantity": "Nuclear positions (continuum peaks, 0.24\" Band 6)",
+   "target": "N and S nuclei",
+   "value": "N: 156.96346,-43.90388 ; S: 156.96340,-43.90533 (ICRS deg); separation 5.2\"",
+   "uncertainty": "~0.05\" (pixel 0.047\")",
+   "unit": "deg / arcsec",
+   "assumptions": [
+    {
+     "name": "distance",
+     "value": "40 Mpc (Pereira-Santaella+2024) -> 194 pc/arcsec; 5.2\" ~ 1.0 kpc; 0.24\" ~ 47 pc"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s1_continuum.py, s6_continuum.py -> out/s1_continuum.txt"
+  },
+  {
+   "quantity": "Continuum peak (line-free cont image, pbcor) in the 4 bands/arrays",
+   "target": "N, S",
+   "value": "Xb4b 0.24\" 257.8 GHz: S 1.853, N 0.561, E1 0.389 mJy/beam (rms 0.020); Xb4d 0.94x0.74\" 257.8 GHz: N 3.594, S 4.257 (rms 0.069); Xb4f 5.8x3.5\" 257.7 GHz: N 19.35, S 13.95 (rms 0.61); Xb47 4.2x2.7\" 346.5 GHz: N 36.46, S 22.04 (rms 1.4); Xb55 9x6\" 170.7 GHz: single unresolved peak 14.95 (rms 0.29), N and S merged",
+   "uncertainty": "statistical only: rms above; flux scale 5-10%",
+   "unit": "mJy/beam",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s6_continuum.py -> out/s6_continuum.csv (rms = MAD in 6-12\" annulus, includes faint sources: slightly conservative)"
+  },
+  {
+   "quantity": "Continuum morphology: S compact, N extended",
+   "target": "N, S, E1, SE",
+   "value": "S/N peak ratio = 3.3 at 0.24\" but 1.2 at 0.94\" and 0.7 at 5.8\" (N brighter); r=2.5\" aperture flux (0.24\" mfs spw25): N 17.3, S 9.8 mJy; further sources E1 (156.96608,-43.90350; 0.39 mJy/beam at 0.24\", 1.5 at 0.94\"), SE (156.96685,-43.90635; 0.57 mJy/beam at 0.24\" and 0.85-1.1 at 0.94\": partly resolved; >5 sigma in all 4 Xb4b mfs) and ridge/bridge (156.96352,-43.90461; 0.9 mJy/beam at 0.94\")",
+   "uncertainty": null,
+   "unit": "mJy (r=2.5\") / mJy/beam",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "out/s6_continuum.csv; aperture flux of the 0.24\" map is affected by missing short spacings (negative bowls, e.g. SE r=2.5\" sum is negative)"
+  },
+  {
+   "quantity": "Line contamination of delivered mfs and cont images",
+   "target": "N, S, all bands",
+   "value": "none detected: residuals of every per-spw mfs from a power law through all images of the same OUS are <=0.7 mJy/beam at N (|resid|<=1 sigma), whereas inclusion of the lines would add 9.6 (HCN 4-3), 18.8 (HCO+ 4-3) mJy/beam in Xb47 N, 17 (HCO+ 3-2) in Xb4f N, 13.5 (HCO+ 2-1) in Xb55 N",
+   "uncertainty": null,
+   "unit": "mJy/beam",
+   "assumptions": [
+    {
+     "name": "bandwidth",
+     "value": "mfs bandwidth 1.5-1.9 GHz from headers"
+    },
+    {
+     "name": "power_law",
+     "value": "fitted per OUS/region over 5 images; alpha not constrained better than +-1 within one band"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s6b_cont_contam.py -> out/s6b_cont_contam.csv: expected = W_line(peak pixel)/bandwidth. mfs and cont are effectively line-free continuum images"
+  },
+  {
+   "quantity": "Targeted lines present in the data",
+   "target": "all files",
+   "value": "HCN & HCO+ J=2-1 (Xb55 spw16/spw18), 3-2 (Xb4f/Xb4d/Xb4b spw18-27/spw16-25), 4-3 (Xb47 spw16/spw18): all detected at >100 sigma in N and S. CS 7-6 (Xb47 spw22): detected (N 15 sigma, S 7.5 sigma). H13CN 4-3 (Xb47 spw20): only the low-frequency half of the profile is covered and it lies on the blue wing of CO 3-2 (band edge, rest 345.60 GHz): not separable (see below). SO(6_5-5_4) 219.949 GHz is NOT covered by any file; SO lines in the data are 5_6-4_5 (251.826, Band 6 spw22/spw31) and 8_8-7_7 (344.311, Xb47 spw20).",
+   "uncertainty": null,
+   "unit": null,
+   "assumptions": [
+    {
+     "name": "rest_frequencies",
+     "value": "Splatalogue/CDMS/JPL via astroquery (scripts/s0_linelist.py), rest = nu_obs/(1-2780/c)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s10_coverage.py -> out/s10_coverage.csv; s3c_scan.py -> out/s3c_scan.csv (5 sigma boxcar scan of all cubes)"
+  },
+  {
+   "quantity": "Rest-frame spectral coverage (at 2780 km/s)",
+   "target": null,
+   "value": "Band 5: 164.77-166.66 (spw22), 166.08-167.96 (spw20), 176.24-178.12 (spw16), 178.02-179.90 (spw18) GHz; Band 7: 342.04-343.86, 343.76-345.60, 353.90-355.72, 355.68-357.50; Band 6: 251.33-253.18, 253.10-254.95, 265.28-267.13, 267.06-268.91 GHz (all three Band-6 arrays identical)",
+   "uncertainty": null,
+   "unit": "GHz",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "out/s10_coverage.csv"
+  },
+  {
+   "quantity": "Spectral line inventory >5 sigma (blind boxcar scan of N, S, peak pixel, r=8\" spectra in all 20 cubes)",
+   "target": null,
+   "value": "HCN 2-1,3-2,4-3; HCO+ 2-1,3-2,4-3; CS 7-6 (blend with H2CS 10_0-9_0/29SiO 8-7 not required by the data); CH3OH J_-1-J_0 E series blend (165.05-165.10 GHz; 12.7 sigma N, 20 sigma S in Xb55 at pixel); CO 3-2 blue wing (rest 345.2-345.6, band edge; N 170, S 333 mJy/beam in the last channel); HOC+ 2-1 (178.972, Xb55: N 8.5 sigma); weak, extended, array-dependent: SO 5_6-4_5 (S, 5.7 sigma, Xb4f only), 253.85-254.15 GHz bump (S, 9.5 sigma, Xb4f only). Nothing else at >5 sigma. Not detected: HC15N 4-3, SO 8_8-7_7, HCN-vib, SiS 14-13, H41beta RRL (matched filter N <0.23, S <0.48 Jy/beam km/s 3 sigma; forced-photometry 5.7 sigma hint at N is not confirmed)",
+   "uncertainty": null,
+   "unit": "qualitative",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "out/s3c_scan.csv, out/s3d_forced.csv, out/s7c_weak_lines.csv, out/overview_*.png, out/zoom_candidates.png"
+  },
+  {
+   "quantity": "Vibrationally excited HCN",
+   "target": null,
+   "value": "not separable: HCN v2=1e J=4-3 (354.460), 3-2 (265.853), 2-1 (177.239) lie only 35-40 km/s (<< line width 150-300 km/s) from the ground-state lines; HCN v2=1f 3-2 (267.199) at the Xb4f/Xb4d/Xb4b spw16/25 edge has no blue-side baseline; HCN v2=1f 4-3 (356.256) not detected: W<0.29 (N), <0.44 (S) Jy/beam km/s (3 sigma)",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "out/s7c_weak_lines.csv"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 2-1 N (Xb55, beam 8.64x6.00\", peak pixel)",
+   "value": "peak(raw channel)=155.90, Tb_pk=0.12 K; 1G: A=166.13+-0.59 mJy/beam, v0=2782.1+-0.3 (dv_sys=+2), FWHM=155+-1 km/s, chi2r=5.6; 2G(blue/red): v=-51/+36, A=120.2/148.2 mJy/beam, chi2r=1.19; I=int(|v-vsys|<350 km/s)=26.953+-0.123 Jy/beam km/s (21 K km/s); rms/channel=2.55 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 2-1 S (Xb55, beam 8.64x6.00\", peak pixel)",
+   "value": "peak(raw channel)=141.35, Tb_pk=0.11 K; 1G: A=135.05+-0.65 mJy/beam, v0=2774.7+-0.3 (dv_sys=-5), FWHM=150+-1 km/s, chi2r=2.9; 2G(blue/red): v=-37/+14, A=60.0/98.9 mJy/beam, chi2r=1.07; I=int(|v-vsys|<350 km/s)=22.204+-0.130 Jy/beam km/s (17 K km/s); rms/channel=2.70 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 2-1 N (Xb55, beam 8.60x5.90\", peak pixel)",
+   "value": "peak(raw channel)=240.31, Tb_pk=0.18 K; 1G: A=256.10+-0.76 mJy/beam, v0=2782.7+-0.2 (dv_sys=+3), FWHM=155+-1 km/s, chi2r=13.2; 2G(blue/red): v=-48/+38, A=196.5/226.5 mJy/beam, chi2r=1.23; I=int(|v-vsys|<350 km/s)=41.186+-0.137 Jy/beam km/s (32 K km/s); rms/channel=2.86 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 2-1 S (Xb55, beam 8.60x5.90\", peak pixel)",
+   "value": "peak(raw channel)=249.39, Tb_pk=0.19 K; 1G: A=240.30+-0.75 mJy/beam, v0=2776.0+-0.2 (dv_sys=-4), FWHM=160+-1 km/s, chi2r=9.9; 2G(blue/red): v=-45/+15, A=104.8/189.4 mJy/beam, chi2r=1.64; I=int(|v-vsys|<350 km/s)=42.307+-0.134 Jy/beam km/s (33 K km/s); rms/channel=2.80 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "CH3OH Jk-1-Jk0 E blend (2,2 @165.061) N (Xb55, beam 9.36x6.28\", peak pixel)",
+   "value": "peak(raw channel)=12.30, Tb_pk=0.01 K; 1G: A=8.31+-0.72 mJy/beam, v0=2762.2+-5.9 (dv_sys=-18), FWHM=142+-15 km/s, chi2r=1.1; 2G(blue/red): v=-169/-13, A=2.6/8.8 mJy/beam, chi2r=1.03; I=int(|v-vsys|<250 km/s)=1.165+-0.092 Jy/beam km/s (1 K km/s); rms/channel=2.18 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "CH3OH Jk-1-Jk0 E blend (2,2 @165.061) S (Xb55, beam 9.36x6.28\", peak pixel)",
+   "value": "peak(raw channel)=19.28, Tb_pk=0.01 K; 1G: A=11.07+-0.70 mJy/beam, v0=2762.1+-4.6 (dv_sys=-18), FWHM=153+-11 km/s, chi2r=1.1; 2G(blue/red): v=-83/-13, A=2.6/9.7 mJy/beam, chi2r=1.10; I=int(|v-vsys|<250 km/s)=1.936+-0.095 Jy/beam km/s (2 K km/s); rms/channel=2.27 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 4-3 N (Xb47, beam 4.14x2.70\", peak pixel)",
+   "value": "peak(raw channel)=102.56, Tb_pk=0.09 K; 1G: A=93.13+-0.75 mJy/beam, v0=2779.1+-0.6 (dv_sys=-1), FWHM=163+-2 km/s, chi2r=5.3; 2G(blue/red): v=-59/+37, A=88.6/97.5 mJy/beam, chi2r=1.01; I=int(|v-vsys|<350 km/s)=14.679+-0.171 Jy/beam km/s (13 K km/s); rms/channel=3.55 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 4-3 S (Xb47, beam 4.14x2.70\", peak pixel)",
+   "value": "peak(raw channel)=45.14, Tb_pk=0.04 K; 1G: A=38.46+-0.81 mJy/beam, v0=2761.0+-1.4 (dv_sys=-19), FWHM=141+-4 km/s, chi2r=1.2; 2G(blue/red): v=-30/+75, A=41.0/12.3 mJy/beam, chi2r=1.01; I=int(|v-vsys|<350 km/s)=5.948+-0.172 Jy/beam km/s (5 K km/s); rms/channel=3.57 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 4-3 N (Xb47, beam 4.13x2.70\", peak pixel)",
+   "value": "peak(raw channel)=192.91, Tb_pk=0.17 K; 1G: A=182.06+-1.07 mJy/beam, v0=2778.1+-0.4 (dv_sys=-2), FWHM=156+-1 km/s, chi2r=11.4; 2G(blue/red): v=-59/+33, A=167.9/191.7 mJy/beam, chi2r=1.18; I=int(|v-vsys|<350 km/s)=28.725+-0.201 Jy/beam km/s (25 K km/s); rms/channel=4.18 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 4-3 S (Xb47, beam 4.13x2.70\", peak pixel)",
+   "value": "peak(raw channel)=150.82, Tb_pk=0.13 K; 1G: A=135.60+-0.90 mJy/beam, v0=2764.1+-0.5 (dv_sys=-16), FWHM=142+-1 km/s, chi2r=2.6; 2G(blue/red): v=-29/+69, A=144.5/50.3 mJy/beam, chi2r=1.19; I=int(|v-vsys|<350 km/s)=20.969+-0.197 Jy/beam km/s (18 K km/s); rms/channel=4.12 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "CS 7-6 (+H2CS 10-9, 29SiO 8-7 blend) N (Xb47, beam 4.31x2.79\", peak pixel)",
+   "value": "peak(raw channel)=26.16, Tb_pk=0.02 K; 1G: A=15.09+-0.87 mJy/beam, v0=2793.4+-4.2 (dv_sys=+13), FWHM=150+-10 km/s, chi2r=1.3; 2G(blue/red): v=-56/+41, A=12.4/18.6 mJy/beam, chi2r=1.06; I=int(|v-vsys|<350 km/s)=2.107+-0.153 Jy/beam km/s (2 K km/s); rms/channel=3.12 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "CS 7-6 (+H2CS 10-9, 29SiO 8-7 blend) S (Xb47, beam 4.31x2.79\", peak pixel)",
+   "value": "peak(raw channel)=12.06, Tb_pk=0.01 K; 1G: A=4.97+-0.70 mJy/beam, v0=2794.0+-12.9 (dv_sys=+14), FWHM=190+-32 km/s, chi2r=1.0; 2G(blue/red): v=-55/+54, A=5.3/4.9 mJy/beam, chi2r=0.98; I=int(|v-vsys|<350 km/s)=1.137+-0.151 Jy/beam km/s (1 K km/s); rms/channel=3.08 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 N (Xb4f, beam 5.72x3.54\", peak pixel)",
+   "value": "peak(raw channel)=126.59, Tb_pk=0.11 K; 1G: A=126.36+-0.68 mJy/beam, v0=2781.2+-0.4 (dv_sys=+1), FWHM=158+-1 km/s, chi2r=6.4; 2G(blue/red): v=-57/+33, A=97.6/123.2 mJy/beam, chi2r=1.34; I=int(|v-vsys|<350 km/s)=20.964+-0.152 Jy/beam km/s (18 K km/s); rms/channel=2.73 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 S (Xb4f, beam 5.72x3.54\", peak pixel)",
+   "value": "peak(raw channel)=79.58, Tb_pk=0.07 K; 1G: A=70.41+-0.70 mJy/beam, v0=2770.6+-0.7 (dv_sys=-9), FWHM=146+-2 km/s, chi2r=1.8; 2G(blue/red): v=-23/+77, A=74.0/24.5 mJy/beam, chi2r=1.16; I=int(|v-vsys|<350 km/s)=11.250+-0.157 Jy/beam km/s (10 K km/s); rms/channel=2.82 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 N (Xb4f, beam 5.73x3.54\", peak pixel)",
+   "value": "peak(raw channel)=215.70, Tb_pk=0.18 K; 1G: A=226.30+-0.62 mJy/beam, v0=2779.2+-0.2 (dv_sys=-1), FWHM=150+-0 km/s, chi2r=20.9; 2G(blue/red): v=-54/+33, A=179.4/215.7 mJy/beam, chi2r=1.37; I=int(|v-vsys|<350 km/s)=34.505+-0.140 Jy/beam km/s (30 K km/s); rms/channel=2.53 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 S (Xb4f, beam 5.73x3.54\", peak pixel)",
+   "value": "peak(raw channel)=200.32, Tb_pk=0.17 K; 1G: A=184.80+-0.73 mJy/beam, v0=2770.6+-0.3 (dv_sys=-9), FWHM=149+-1 km/s, chi2r=7.9; 2G(blue/red): v=-30/+64, A=186.3/81.0 mJy/beam, chi2r=1.50; I=int(|v-vsys|<350 km/s)=29.830+-0.147 Jy/beam km/s (26 K km/s); rms/channel=2.66 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 N (Xb4d, beam 0.94x0.74\", peak pixel)",
+   "value": "peak(raw channel)=34.93, Tb_pk=0.87 K; 1G: A=31.35+-0.19 mJy/beam, v0=2791.1+-0.5 (dv_sys=+11), FWHM=168+-1 km/s, chi2r=8.3; 2G(blue/red): v=-57/+44, A=23.5/34.2 mJy/beam, chi2r=1.18; I=int(|v-vsys|<350 km/s)=5.466+-0.041 Jy/beam km/s (139 K km/s); rms/channel=0.73 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 S (Xb4d, beam 0.94x0.74\", peak pixel)",
+   "value": "peak(raw channel)=15.85, Tb_pk=0.37 K; 1G: A=12.82+-0.23 mJy/beam, v0=2719.9+-1.0 (dv_sys=-60), FWHM=114+-2 km/s, chi2r=2.7; 2G(blue/red): v=-66/+52, A=14.4/5.5 mJy/beam, chi2r=1.09; I=int(|v-vsys|<350 km/s)=1.895+-0.040 Jy/beam km/s (48 K km/s); rms/channel=0.72 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 Bridge (Xb4d, beam 0.94x0.74\", peak pixel)",
+   "value": "peak(raw channel)=20.21, Tb_pk=0.49 K; 1G: A=18.66+-0.24 mJy/beam, v0=2794.4+-0.5 (dv_sys=+14), FWHM=76+-1 km/s, chi2r=1.3; 2G(blue/red): v=+13/+53, A=17.5/1.8 mJy/beam, chi2r=1.18; I=int(|v-vsys|<350 km/s)=1.693+-0.038 Jy/beam km/s (43 K km/s); rms/channel=0.69 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 E1 (Xb4d, beam 0.94x0.74\", peak pixel)",
+   "value": "peak(raw channel)=11.97, Tb_pk=0.30 K; 1G: A=11.01+-0.36 mJy/beam, v0=2836.9+-1.0 (dv_sys=+57), FWHM=63+-2 km/s, chi2r=1.1; 2G(blue/red): v=-86/+57, A=0.6/11.0 mJy/beam, chi2r=1.10; I=int(|v-vsys|<350 km/s)=0.839+-0.053 Jy/beam km/s (21 K km/s); rms/channel=0.95 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 E2 (Xb4d, beam 0.94x0.74\", peak pixel)",
+   "value": "peak(raw channel)=9.07, Tb_pk=0.23 K; 1G: A=8.02+-0.28 mJy/beam, v0=2867.9+-1.4 (dv_sys=+88), FWHM=82+-3 km/s, chi2r=1.1; 2G(blue/red): v=-24/+88, A=0.9/8.0 mJy/beam, chi2r=1.11; I=int(|v-vsys|<350 km/s)=0.630+-0.048 Jy/beam km/s (16 K km/s); rms/channel=0.86 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 Sblue (Xb4d, beam 0.94x0.74\", peak pixel)",
+   "value": "peak(raw channel)=5.72, Tb_pk=0.12 K; 1G: A=3.99+-0.17 mJy/beam, v0=2739.4+-4.1 (dv_sys=-41), FWHM=197+-10 km/s, chi2r=1.2; 2G(blue/red): v=-128/-28, A=0.8/3.5 mJy/beam, chi2r=1.24; I=int(|v-vsys|<350 km/s)=0.869+-0.045 Jy/beam km/s (22 K km/s); rms/channel=0.81 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 W (Xb4d, beam 0.94x0.74\", peak pixel)",
+   "value": "peak(raw channel)=6.41, Tb_pk=0.14 K; 1G: A=5.94+-0.39 mJy/beam, v0=2774.3+-1.9 (dv_sys=-6), FWHM=58+-4 km/s, chi2r=1.1; 2G(blue/red): v=-24/-3, A=2.0/5.5 mJy/beam, chi2r=1.05; I=int(|v-vsys|<350 km/s)=0.211+-0.056 Jy/beam km/s (5 K km/s); rms/channel=1.01 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "tentative",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 N (Xb4d, beam 0.93x0.74\", peak pixel)",
+   "value": "peak(raw channel)=41.78, Tb_pk=1.04 K; 1G: A=36.82+-0.17 mJy/beam, v0=2789.8+-0.4 (dv_sys=+10), FWHM=166+-1 km/s, chi2r=14.7; 2G(blue/red): v=-57/+43, A=28.8/40.8 mJy/beam, chi2r=1.14; I=int(|v-vsys|<350 km/s)=6.183+-0.039 Jy/beam km/s (157 K km/s); rms/channel=0.71 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 S (Xb4d, beam 0.93x0.74\", peak pixel)",
+   "value": "peak(raw channel)=36.80, Tb_pk=0.91 K; 1G: A=31.10+-0.21 mJy/beam, v0=2720.6+-0.4 (dv_sys=-59), FWHM=125+-1 km/s, chi2r=14.1; 2G(blue/red): v=-68/+50, A=36.5/15.6 mJy/beam, chi2r=1.59; I=int(|v-vsys|<350 km/s)=4.849+-0.042 Jy/beam km/s (123 K km/s); rms/channel=0.75 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 Bridge (Xb4d, beam 0.93x0.74\", peak pixel)",
+   "value": "peak(raw channel)=39.15, Tb_pk=0.97 K; 1G: A=38.07+-0.24 mJy/beam, v0=2783.1+-0.2 (dv_sys=+3), FWHM=82+-1 km/s, chi2r=1.1; 2G(blue/red): v=-18/+6, A=5.0/35.0 mJy/beam, chi2r=1.05; I=int(|v-vsys|<350 km/s)=3.358+-0.038 Jy/beam km/s (85 K km/s); rms/channel=0.69 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 E1 (Xb4d, beam 0.93x0.74\", peak pixel)",
+   "value": "peak(raw channel)=40.92, Tb_pk=1.03 K; 1G: A=41.09+-0.42 mJy/beam, v0=2833.3+-0.3 (dv_sys=+53), FWHM=58+-1 km/s, chi2r=1.7; 2G(blue/red): v=-89/+53, A=2.0/41.1 mJy/beam, chi2r=1.58; I=int(|v-vsys|<350 km/s)=2.584+-0.045 Jy/beam km/s (66 K km/s); rms/channel=0.81 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 E2 (Xb4d, beam 0.93x0.74\", peak pixel)",
+   "value": "peak(raw channel)=19.06, Tb_pk=0.46 K; 1G: A=16.03+-0.28 mJy/beam, v0=2865.4+-0.8 (dv_sys=+85), FWHM=93+-2 km/s, chi2r=1.6; 2G(blue/red): v=-52/+85, A=1.6/16.0 mJy/beam, chi2r=1.61; I=int(|v-vsys|<350 km/s)=1.486+-0.045 Jy/beam km/s (38 K km/s); rms/channel=0.82 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 Sblue (Xb4d, beam 0.93x0.74\", peak pixel)",
+   "value": "peak(raw channel)=6.08, Tb_pk=0.13 K; 1G: A=4.89+-0.20 mJy/beam, v0=2737.4+-4.5 (dv_sys=-43), FWHM=230+-12 km/s, chi2r=0.9; 2G(blue/red): v=-75/+22, A=3.9/2.6 mJy/beam, chi2r=0.85; I=int(|v-vsys|<350 km/s)=1.311+-0.048 Jy/beam km/s (33 K km/s); rms/channel=0.87 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 W (Xb4d, beam 0.93x0.74\", peak pixel)",
+   "value": "peak(raw channel)=17.70, Tb_pk=0.41 K; 1G: A=16.37+-0.37 mJy/beam, v0=2773.7+-0.7 (dv_sys=-6), FWHM=59+-2 km/s, chi2r=1.0; 2G(blue/red): v=-6/+119, A=16.4/2.1 mJy/beam, chi2r=0.97; I=int(|v-vsys|<350 km/s)=0.974+-0.054 Jy/beam km/s (25 K km/s); rms/channel=0.97 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 N (Xb4b, beam 0.25x0.24\", peak pixel)",
+   "value": "peak(raw channel)=8.38, Tb_pk=2.47 K; 1G: A=7.36+-0.09 mJy/beam, v0=2796.3+-1.0 (dv_sys=+16), FWHM=164+-2 km/s, chi2r=1.9; 2G(blue/red): v=-57/+43, A=4.1/7.6 mJy/beam, chi2r=1.12; I=int(|v-vsys|<350 km/s)=1.236+-0.021 Jy/beam km/s (374 K km/s); rms/channel=0.37 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 S (Xb4b, beam 0.25x0.24\", peak pixel)",
+   "value": "peak(raw channel)=4.43, Tb_pk=1.19 K; 1G: A=3.80+-0.11 mJy/beam, v0=2710.9+-1.6 (dv_sys=-69), FWHM=113+-4 km/s, chi2r=1.0; 2G(blue/red): v=-70/-51, A=3.5/0.4 mJy/beam, chi2r=0.96; I=int(|v-vsys|<350 km/s)=0.518+-0.022 Jy/beam km/s (157 K km/s); rms/channel=0.39 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 Bridge (Xb4b, beam 0.25x0.24\", peak pixel)",
+   "value": "peak(raw channel)=3.86, Tb_pk=1.08 K; 1G: A=3.66+-0.13 mJy/beam, v0=2796.3+-1.4 (dv_sys=+16), FWHM=84+-3 km/s, chi2r=1.3; 2G(blue/red): v=+16/+24, A=3.2/0.6 mJy/beam, chi2r=1.29; I=int(|v-vsys|<350 km/s)=0.303+-0.020 Jy/beam km/s (92 K km/s); rms/channel=0.36 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 E1 (Xb4b, beam 0.25x0.24\", peak pixel)",
+   "value": "peak(raw channel)=3.18, Tb_pk=0.84 K; 1G: A=2.64+-0.24 mJy/beam, v0=2829.4+-2.0 (dv_sys=+49), FWHM=45+-5 km/s, chi2r=1.1; 2G(blue/red): v=-109/+49, A=0.5/2.7 mJy/beam, chi2r=1.04; I=int(|v-vsys|<350 km/s)=0.239+-0.026 Jy/beam km/s (72 K km/s); rms/channel=0.48 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 E2 (Xb4b, beam 0.25x0.24\", peak pixel)",
+   "value": "peak(raw channel)=2.81, Tb_pk=0.73 K; 1G: A=2.04+-0.18 mJy/beam, v0=2854.6+-2.2 (dv_sys=+75), FWHM=49+-5 km/s, chi2r=1.2; 2G(blue/red): v=+69/+119, A=2.0/0.8 mJy/beam, chi2r=1.16; I=int(|v-vsys|<350 km/s)=0.197+-0.024 Jy/beam km/s (60 K km/s); rms/channel=0.43 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 Sblue (Xb4b, beam 0.25x0.24\", peak pixel)",
+   "value": "peak(raw channel)=2.04, Tb_pk=0.55 K; 1G: A=1.42+-0.13 mJy/beam, v0=2723.5+-5.0 (dv_sys=-56), FWHM=117+-12 km/s, chi2r=1.2; 2G(blue/red): v=-118/-48, A=0.4/1.2 mJy/beam, chi2r=1.17; I=int(|v-vsys|<350 km/s)=0.199+-0.023 Jy/beam km/s (60 K km/s); rms/channel=0.41 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCN 3-2 W (Xb4b, beam 0.25x0.24\", peak pixel)",
+   "value": "peak(raw channel)=1.55, Tb_pk=0.32 K; 1G: A=0.46+-0.14 mJy/beam, v0=2797.1+-30.7 (dv_sys=+17), FWHM=214+-77 km/s, chi2r=1.0; 2G(blue/red): v=-32/+27, A=0.7/0.4 mJy/beam, chi2r=0.97; I=int(|v-vsys|<350 km/s)=0.092+-0.032 Jy/beam km/s (28 K km/s); rms/channel=0.57 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "tentative",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 N (Xb4b, beam 0.25x0.23\", peak pixel)",
+   "value": "peak(raw channel)=9.48, Tb_pk=2.74 K; 1G: A=8.24+-0.11 mJy/beam, v0=2817.1+-0.8 (dv_sys=+37), FWHM=129+-2 km/s, chi2r=2.0; 2G(blue/red): v=-34/+54, A=3.1/8.0 mJy/beam, chi2r=0.95; I=int(|v-vsys|<350 km/s)=1.230+-0.022 Jy/beam km/s (375 K km/s); rms/channel=0.40 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 S (Xb4b, beam 0.25x0.23\", peak pixel)",
+   "value": "peak(raw channel)=9.02, Tb_pk=2.56 K; 1G: A=8.35+-0.12 mJy/beam, v0=2707.8+-0.8 (dv_sys=-72), FWHM=107+-2 km/s, chi2r=1.1; 2G(blue/red): v=-73/+44, A=8.5/1.8 mJy/beam, chi2r=0.95; I=int(|v-vsys|<350 km/s)=0.986+-0.022 Jy/beam km/s (301 K km/s); rms/channel=0.40 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 Bridge (Xb4b, beam 0.25x0.23\", peak pixel)",
+   "value": "peak(raw channel)=6.25, Tb_pk=1.75 K; 1G: A=5.71+-0.12 mJy/beam, v0=2803.2+-0.9 (dv_sys=+23), FWHM=92+-2 km/s, chi2r=1.0; 2G(blue/red): v=+10/+34, A=2.5/3.6 mJy/beam, chi2r=1.01; I=int(|v-vsys|<350 km/s)=0.564+-0.020 Jy/beam km/s (172 K km/s); rms/channel=0.37 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 E1 (Xb4b, beam 0.25x0.23\", peak pixel)",
+   "value": "peak(raw channel)=9.79, Tb_pk=2.89 K; 1G: A=9.30+-0.24 mJy/beam, v0=2831.7+-0.5 (dv_sys=+52), FWHM=41+-1 km/s, chi2r=1.0; 2G(blue/red): v=-24/+52, A=0.9/9.3 mJy/beam, chi2r=0.98; I=int(|v-vsys|<350 km/s)=0.427+-0.027 Jy/beam km/s (130 K km/s); rms/channel=0.49 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 E2 (Xb4b, beam 0.25x0.23\", peak pixel)",
+   "value": "peak(raw channel)=7.08, Tb_pk=2.06 K; 1G: A=6.09+-0.18 mJy/beam, v0=2851.0+-0.8 (dv_sys=+71), FWHM=54+-2 km/s, chi2r=1.2; 2G(blue/red): v=-105/+71, A=0.7/6.1 mJy/beam, chi2r=1.16; I=int(|v-vsys|<350 km/s)=0.387+-0.025 Jy/beam km/s (118 K km/s); rms/channel=0.46 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 Sblue (Xb4b, beam 0.25x0.23\", peak pixel)",
+   "value": "peak(raw channel)=2.63, Tb_pk=0.70 K; 1G: A=1.17+-0.13 mJy/beam, v0=2742.9+-8.5 (dv_sys=-37), FWHM=154+-21 km/s, chi2r=1.0; 2G(blue/red): v=-60/+13, A=1.0/2.1 mJy/beam, chi2r=0.92; I=int(|v-vsys|<350 km/s)=0.160+-0.027 Jy/beam km/s (49 K km/s); rms/channel=0.48 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Line properties (see value)",
+   "target": "HCO+ 3-2 W (Xb4b, beam 0.25x0.23\", peak pixel)",
+   "value": "peak(raw channel)=2.83, Tb_pk=0.75 K; 1G: A=2.28+-0.18 mJy/beam, v0=2780.5+-2.5 (dv_sys=+0), FWHM=66+-6 km/s, chi2r=1.3; 2G(blue/red): v=-316/+1, A=1.6/2.3 mJy/beam, chi2r=1.30; I=int(|v-vsys|<350 km/s)=0.168+-0.026 Jy/beam km/s (51 K km/s); rms/channel=0.46 mJy/beam",
+   "uncertainty": "formal fit errors in text; 1G is a poor model for double-horned N profiles (chi2r 5-20): use 2G/integral",
+   "unit": "mJy/beam, km/s, Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7a_extract_regions.py + s7b_fit_lines.py -> out/s7_line_fits.csv (beam-aperture rows spec=ap also there)"
+  },
+  {
+   "quantity": "Distinct emission regions (HCO+/HCN 3-2, 0.25-0.9\")",
+   "target": "regions",
+   "value": "N nucleus (156.96346,-43.90390): double-horned, 1G FWHM 165 km/s, v0=sys+10; S nucleus (156.96340,-43.90532): line centre sys-60..-70 km/s, FWHM 105-125; Bridge (156.96357,-43.90457, 1.4\" S of N): narrow 76-90 km/s, sys+3..+16; E1 (156.96606,-43.90353): 41-63 km/s wide, sys+50..+57; E2 (156.96548,-43.90540): 49-93 km/s, sys+71..+88; W (156.96114,-43.90590): 56-66 km/s, sys-6..0 (HCO+ only >5 sigma at 0.25\"); Sblue (156.96305,-43.90611, 3\" S of S nucleus): broad 117-230 km/s, centred at sys-37..-57, with blue wing: W_blue(-450..-150)=0.182+-0.010 (HCO+), 0.146+-0.017 (HCN) Jy/beam km/s at 0.94\"",
+   "uncertainty": null,
+   "unit": null,
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s5_moments.py -> out/mom_*.png, out/s5_moments.txt; out/s7_line_fits.csv; s8_wings.py -> out/s8_wings.csv"
+  },
+  {
+   "quantity": "Region contrast HCN/HCO+ 3-2 (I_HCN/I_HCO+, peak pixel, |v|<350)",
+   "target": "regions",
+   "value": "Xb4b 0.25\": N 1.00, S 0.53, Bridge 0.54, E1 0.56, E2 0.51, Sblue 1.24 (low S/N); Xb4d 0.94\": N 0.88, S 0.39, Bridge 0.50, E1 0.32, E2 0.42, Sblue 0.66, W 0.22; Xb4f 5.7x3.5\": N 0.61, S 0.38; (preliminary: Q1 owns the matched-beam ratios)",
+   "uncertainty": "~5-10% statistical for bright regions; flux scale cancels within a spw pair if same array",
+   "unit": "ratio",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "out/s7_line_fits.csv (ratio of W); beams differ per row; no common-beam convolution yet"
+  },
+  {
+   "quantity": "N and S separability per array",
+   "target": "all arrays",
+   "value": "N-S separation 5.2\" along PA~178; beam minor axis (N-S direction): Xb4b/Xb4d <=1\", Xb47 2.7\", Xb4f 3.5\", Xb55 6.0\". Beam cross-talk exp(-4ln2(5.2/theta)^2): Xb47 3e-5, Xb4f 2.5e-3, Xb55 0.12. N and S are independent in Bands 6/7 at all resolutions; in Band 5 (8.6x6.0\") they are only partly resolved (up to 12% mutual contamination; peak spectra at N and S are nearly identical)",
+   "uncertainty": null,
+   "unit": "fraction",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "computed from beam headers (scripts/s2_extract.py beams)"
+  },
+  {
+   "quantity": "Wing flux fractions (blue -450..-150, red 150..450 km/s) in beam apertures",
+   "target": "S, N, E2",
+   "value": "S nucleus: blue/core = 0.039 (HCO+ 3-2, Xb4d, 0.157+-0.006 Jy/beam km/s), 0.054 (HCN, 0.084+-0.012); Xb4b 0.037 (HCO+), 0.092 (HCN); N nucleus HCN 3-2 Xb4d red wing 0.112+-0.005 (2.4%), blue 0.055+-0.005; no wing at Bridge/E1/W (<2%); E2 red wing 0.091+-0.009 (HCO+, 7.6%), 0.069 (HCN, 13%)",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "caveat",
+     "value": "wing channels (|v|>160 km/s) lie outside the pipeline clean mask (out/s9_maskcheck.txt): uncleaned, dirty-beam-affected"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "out/s8_wings.csv (noise = scatter of box sums in line-free channels; baseline systematics at low resolution ~0.1-0.4 Jy km/s => only the Xb4d/Xb4b numbers are trusted)"
+  },
+  {
+   "quantity": "Clean-mask coverage",
+   "target": null,
+   "value": "pipeline clean mask (Xb4d) covers 0.4-0.65% of pixels and only 63-74 of 478 channels; at N/S 36-46% of the |v|<350 km/s channels, 0-7% of the wing channels (150-400 km/s) are masked. High-velocity emission is therefore uncleaned in the delivered products (restored image + dirty residual)",
+   "uncertainty": null,
+   "unit": "fraction",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s9_maskcheck.py -> out/s9_maskcheck.txt"
+  },
+  {
+   "quantity": "CS 7-6 integrated intensity (template fit, beam aperture, Xb47 4.3x2.8\")",
+   "target": "CS 7-6 N",
+   "value": "1.71+-0.08 Jy/beam km/s; blend limits (3 sigma): H2CS 10_0,10-9_0,9 (342.946) < 0.14, 29SiO 8-7 (342.981) < 0.10",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "template",
+     "value": "line profile of HCO+ 4-3 at same region/array; 3 lines are separated by only 31-56 km/s, so any blend is degenerate with the profile shape"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7d_blends.py -> out/s7d_blends.csv (NNLS, same-region HCO+ 4-3 profile as template; chi2r 1.17 N, 1.02 S; adding H2CS/29SiO does not improve the fit)"
+  },
+  {
+   "quantity": "CS 7-6 integrated intensity (template fit, beam aperture, Xb47 4.3x2.8\")",
+   "target": "CS 7-6 S",
+   "value": "0.63+-0.07 Jy/beam km/s; blend limits (3 sigma): H2CS 10_0,10-9_0,9 (342.946) < 0.14, 29SiO 8-7 (342.981) < 0.10",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "template",
+     "value": "line profile of HCO+ 4-3 at same region/array; 3 lines are separated by only 31-56 km/s, so any blend is degenerate with the profile shape"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7d_blends.py -> out/s7d_blends.csv (NNLS, same-region HCO+ 4-3 profile as template; chi2r 1.17 N, 1.02 S; adding H2CS/29SiO does not improve the fit)"
+  },
+  {
+   "quantity": "H13CN 4-3 (345.340 GHz)",
+   "target": "Xb47 spw20 N, S",
+   "value": "not separable from the CO 3-2 blue wing: N: I(low-frequency half of profile, +30..+300 km/s) = 1.19+-0.13 Jy/beam km/s, S: 0.65+-0.18 (these include CO wing => upper bounds on H13CN). With I(HCN 4-3, beam ap.) = 11.3 (N), 5.1 (S): HCN/H13CN > 7 (N), > 4 (S) (3 sigma); not a useful opacity constraint",
+   "uncertainty": null,
+   "unit": "ratio / Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "template",
+     "value": "HCN 4-3 profile of the same region"
+    }
+   ],
+   "confidence": "low",
+   "evidence": "scripts/s7d_blends.py (matched-filter on the low-frequency half) -> out/s7d_blends.csv; out/h13cn_cowing.png; high-frequency half and band edge (345.60) are dominated by CO 3-2 wing (S: 272 mJy/beam at 345.59)"
+  },
+  {
+   "quantity": "HC15N 4-3 integrated intensity",
+   "target": "N (Xb47)",
+   "value": "0.18+-0.08 Jy/beam km/s: not detected; 3 sigma limit < 0.24",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7c_weak_lines.py -> out/s7c_weak_lines.csv (matched filter, HCN 4-3 profile template, beam aperture)"
+  },
+  {
+   "quantity": "HC15N 4-3 integrated intensity",
+   "target": "S (Xb47)",
+   "value": "0.07+-0.07 Jy/beam km/s: not detected; 3 sigma limit < 0.22",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7c_weak_lines.py -> out/s7c_weak_lines.csv (matched filter, HCN 4-3 profile template, beam aperture)"
+  },
+  {
+   "quantity": "SO 8_8-7_7 integrated intensity",
+   "target": "N (Xb47)",
+   "value": "-0.01+-0.11 Jy/beam km/s: not detected; 3 sigma limit < 0.34",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7c_weak_lines.py -> out/s7c_weak_lines.csv (matched filter, HCN 4-3 profile template, beam aperture)"
+  },
+  {
+   "quantity": "SO 8_8-7_7 integrated intensity",
+   "target": "S (Xb47)",
+   "value": "-0.01+-0.11 Jy/beam km/s: not detected; 3 sigma limit < 0.33",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7c_weak_lines.py -> out/s7c_weak_lines.csv (matched filter, HCN 4-3 profile template, beam aperture)"
+  },
+  {
+   "quantity": "SO 5_6-4_5 (251.826 GHz; the only SO line in Band 6 data)",
+   "target": "S nucleus region",
+   "value": "Xb4f (5.7x3.5\"): S 0.332+-0.058 (5.7 sigma, marginally detected), N 0.071+-0.070 (<0.21); Xb4d (0.94x0.74\"): S 0.025+-0.016, N 0.004+-0.023 (3 sigma <0.05, <0.07); Xb4b: <0.024 (S), <0.033 (N): not detected at 1\" or 0.25\" => emission extended (>3\") or marginal artefact",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "tentative",
+   "evidence": "out/s7c_weak_lines.csv"
+  },
+  {
+   "quantity": "Unidentified feature 253.85-254.15 GHz (rest)",
+   "target": "S",
+   "value": "Xb4f S beam aperture: I=0.53+-0.056 Jy/beam km/s (9.5 sigma, template fit) at 253.968; NS 11/2-9/2 Omega=1/2 f is the nominal assignment, but its partner e component (253.571) is not seen (S: -0.12+-0.11, <0.32 3 sigma) => NS identification disfavoured at ~5 sigma; other candidates (SO2 253.957, c-HCCCH 254.013, SiS 14-13 254.103 [3.7 sigma]) all high excitation; absent in Xb4d (<0.042) and Xb4b (<0.022): diffuse",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "tentative",
+   "evidence": "out/s7c_weak_lines.csv, out/zoom_candidates.png (panel 1)"
+  },
+  {
+   "quantity": "HC3N 28-27 (254.700)",
+   "target": "N",
+   "value": "Xb4f N 0.207+-0.056 (3.7 sigma), Xb4d N 0.042+-0.013 (3.2 sigma): marginal, not confirmed at 0.25\" (<0.021 3 sigma); S: <0.37 (Xb4f)",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "tentative",
+   "evidence": "out/s7c_weak_lines.csv"
+  },
+  {
+   "quantity": "CH3OH J_-1-J_0 E series blend (165.050/165.061/165.099 GHz), Xb55 8.6x6.0\"",
+   "target": "N, S (Xb55)",
+   "value": "N I=1.17+-0.09, S I=1.94+-0.10 Jy/beam km/s (peak 12 and 19 mJy/beam, rms 2 mJy; 250 km/s window; apertures give 1.04/1.49); S/N intensity ratio 1.7 (N,S only 12% cross-talk); detected at 12.7 / 20 sigma",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "identification",
+     "value": "consistent with CH3OH 1_-1-1_0, 2_-1-2_0, 3_-1-3_0 E; other K ladders at 165.19-165.37 not checked individually"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "out/s7_line_fits.csv (spw22 rows); the three K lines are blended (spacing 11-40 MHz << line width), assignment from line list, centroid at sys-17 to -18 km/s relative to 165.061"
+  },
+  {
+   "quantity": "CO 3-2 blue wing at the Xb47 spw20 band edge",
+   "target": "N, S",
+   "value": "present: beam-aperture flux in the last channels (rest 345.60 GHz) N 170 mJy/beam, S 333 mJy/beam (CO 3-2 rest 345.796, i.e. -170 km/s) and still rising: the cube ends inside the CO line; the wing is relatively stronger toward S (S/N = 2.0 at the last channel vs 0.45 for HCN 4-3 and 0.7 for HCO+ 4-3) => S-nucleus/outflow CO likely; wing detectable down to about -450 km/s (345.28 GHz, ~3 sigma)",
+   "uncertainty": null,
+   "unit": "mJy/beam",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "out/h13cn_cowing.png, out/spectra/Xb47.spw20.cube.pbcor.npz"
+  },
+  {
+   "quantity": "HOC+ 2-1 (178.972 GHz) in Xb55 (8.6x5.9\", beam aperture)",
+   "target": "N (Xb55)",
+   "value": "N: I=0.84+-0.10 Jy/beam km/s (8.5 sigma, matched filter with HCO+ 2-1 profile); free Gaussian fit N: A=6.2+-0.6 mJy/beam, v=sys+4+-6, FWHM 133+-15 km/s (10 sigma, centroid and width consistent with the other lines); S: matched filter 0.25+-0.17 (1.5 sigma), Gaussian fit A=5.3+-0.9 mJy/beam, v=sys-21+-7, FWHM 86+-17 (6 sigma, narrower than the other lines): marginal. I(HOC+)/I(HCO+) ~ 0.020+-0.002 (N)",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "identification",
+     "value": "nearest catalogue species within +-60 km/s of rest 178.972: HOC+; others are complex organics with Eu>80 K"
+    },
+    {
+     "name": "template",
+     "value": "HCO+ 2-1 profile same region; N and S in Band 5 only partly resolved (12% cross-talk)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "scripts/s7c_weak_lines.py -> out/s7c_weak_lines.csv; inline fit in this turn (scripts/s7e_hocp_fit.py)"
+  },
+  {
+   "quantity": "H41beta RRL (Xb55 beam aperture)",
+   "target": "N (Xb55)",
+   "value": "0.12+-0.08 Jy/beam km/s (1.6 sigma): not detected; 3 sigma limit < 0.23",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "out/s7c_weak_lines.csv"
+  },
+  {
+   "quantity": "H41beta RRL (Xb55 beam aperture)",
+   "target": "S (Xb55)",
+   "value": "0.03+-0.16 Jy/beam km/s (0.2 sigma): not detected; 3 sigma limit < 0.48",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "out/s7c_weak_lines.csv"
+  },
+  {
+   "quantity": "CH3CN 9-8 K=0,1 (165.568) (Xb55 beam aperture)",
+   "target": "N (Xb55)",
+   "value": "0.20+-0.06 Jy/beam km/s (3.3 sigma): marginal (3-5 sigma); 3 sigma limit < 0.18",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "tentative",
+   "evidence": "out/s7c_weak_lines.csv"
+  },
+  {
+   "quantity": "CH3CN 9-8 K=0,1 (165.568) (Xb55 beam aperture)",
+   "target": "S (Xb55)",
+   "value": "0.19+-0.07 Jy/beam km/s (2.9 sigma): not detected; 3 sigma limit < 0.20",
+   "uncertainty": null,
+   "unit": "Jy/beam km/s",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "out/s7c_weak_lines.csv"
+  },
+  {
+   "quantity": "Exact numbers for apertures and other regions",
+   "target": null,
+   "value": "full table incl. beam-aperture rows, all regions, rms per channel: out/s7_line_fits.csv (88 rows), forced photometry of all catalogue lines: out/s3d_forced.csv; weak lines: out/s7c_weak_lines.csv",
+   "uncertainty": null,
+   "unit": "n/a",
+   "assumptions": [
+    {
+     "name": "systemic_velocity",
+     "value": "2780 km/s radio-LSRK (measured here, +-5)"
+    },
+    {
+     "name": "noise",
+     "value": "per-channel rms from line-free channels of the same spectrum; formal errors, adjacent-channel correlation (lag-1) included approximately"
+    },
+    {
+     "name": "flux_scale",
+     "value": "ALMA pbcor Jy/beam, no absolute calibration uncertainty included (typ. 10% Band 6/7, 5-10% Band 5)"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "scripts/s7b_fit_lines.py, s7c_weak_lines.py"
+  }
+ ],
+ "interpretation": "The survey finds that the spectral content of the dataset is dominated by only a handful of lines: HCN and HCO+ 2-1/3-2/4-3 (very high S/N at both nuclei), CS 7-6 (N 15 sigma, S 7.5 sigma, Xb47), a CH3OH J_-1-J_0 E blend in Band 5, and the blue wing of CO 3-2 at the Xb47 spw20 edge. Everything else (SO 5_6-4_5, 253.97 GHz bump, HC3N 28-27, HC15N, SO 8_8-7_7, HCN-vib, H13CN) is absent or only marginal, so shock/chemistry diagnostics beyond CS, HCN/HCO+ ratios and CH3OH will be limits (Q4, Q5). The proposal's SO(6_5-5_4) is not in the data. The system is resolved at 0.25-1\": N (double-horned, broad, extended continuum), S (compact continuum, line centre ~65 km/s blueward of systemic, narrower), a narrow Bridge component 1.4\" S of N, two eastern clumps (E1, E2, redshifted 50-90 km/s), a western clump, and a blue-shifted blob (Sblue) 3\" S-SW of S with a broad (120-230 km/s) blue-shifted profile and a blue wing; the S nucleus itself has a 4-9% blue wing. These match the picture of a dense-gas outflow near the S nucleus, but the high-velocity channels are outside the clean mask, so wing fluxes are lower limits/dirty. N and S are cleanly separable at Bands 6-7 (beam minor axes 2.7-3.5\" << 5.2\") and only partially in Band 5. HCN/HCO+ at matched J is already a regional discriminator (N 0.6-1.0, S 0.4-0.5 at J=3-2); this is handed to Q1 together with matched-beam convolution. The delivered mfs/cont images are line-free.",
+ "caveats": [
+  "Formal errors only; channel noise is correlated (lag-1 rho ~0.1-0.5), approximately corrected; no flux-scale uncertainty (10% typical) and no primary-beam model check (pbcor correctness at region E1 ~7\" from phase centre, pb~0.7 in Band 6, not verified).",
+  "Double-horned profiles at N: single-Gaussian fits are poor (chi2r up to 20); use the 2G or integrated numbers. Gaussian centroids at S differ between beams (2764 at 5.7\" vs 2710 at 0.25\") because the beam mixes components.",
+  "High-velocity wings are outside the pipeline clean mask (0-7% of wing channels masked): wing fluxes are uncleaned and may be biased; the Sblue structure and S blue wing need confirmation (e.g. in the manual/tapered cubes, Q2/Q8).",
+  "Peak-pixel regions are defined on HCO+ 3-2 moment maps of Xb4d; apertures for E1/E2/W/Sblue/Bridge exist only for the 1\" and 0.25\" arrays, lower resolution cubes blend them into N/S.",
+  "Line IDs are from the Splatalogue rest frequencies at one systemic velocity; blends with line separation < line width (HCN v2=1, CS/H2CS/29SiO, CH3OH series, H13CN/CO) cannot be resolved with the data; the NS assignment of the 253.97 GHz bump is disfavoured but no alternative simple species fits.",
+  "Weak-line limits use the HCN/HCO+ profile of the same region as template; real profiles of other species may differ (narrower => limit in Jy/beam km/s is conservative).",
+  "Distance 40 Mpc (Pereira-Santaella+2024), literature only; not measured here.",
+  "CO 3-2 is only partially covered; its wing amplitude depends on the band edge and no CO baseline exists, so H13CN opacity (Q4) cannot be constrained in this file; confirmation would need data covering 345.3-345.8 GHz rest."
+ ]
+}

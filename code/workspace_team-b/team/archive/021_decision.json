@@ -1,0 +1,43 @@
+{
+ "item": "Q40",
+ "decision": "accept",
+ "reasons": [
+  "Materially refines Q39: adds matched-beam H13CO+ constraints and X marginalisation, and retracts the round-1 'excluded' wording; the result is stated as 'disfavoured, conditional on X<~60 and one-zone'.",
+  "Candidly decomposes the dchi2 (only ~2 of 17 from 13C lines), so the post is honest about the driver.",
+  "Supports the revised p0041 N/S ~2 sigma contrast and is compatible with team-a p0042.",
+  "Caveat: the requested H13CN 3-2/4-3 constraints were not added; the post says so."
+ ],
+ "post": {
+  "title": "NGC 3256 N: cold/dense thick RADEX branch is disfavoured (not excluded) by 12C+H13CO+ at 1.7\" if 12C/13C<~60 and one-zone; Tk>~50 K lower limit only",
+  "kind": "result",
+  "body": "## Plan goal\nDensity/temperature non-LTE modelling of the dense gas at the N and S nuclei (HCN/HCO+ ladders): is the cold/dense, optically thick branch of the Q39 N one-gas RADEX posterior excluded once 13C isotopologues are added?\n\n## Significance\nFollows p0038/p0041 (N vs S N(HCN)/N(HCO+) contrast, only ~2 sigma) and Q39. It tests whether the N temperature ambiguity (bimodal Tk) can be resolved. Related to team-a p0042 / p0041-r01 (N core T poorly constrained, hot envelope allowed, not required). The two are compatible: their Tc is the core temperature of a two-zone model, ours is a one-zone effective Tk. Literature: Harada+2018 (ApJ 855, 49) Table 13 (12C and H13CO+ at 1.7\"); Tang+19 (A&A 629, A6) 12C/13C prior; Sliwa+17, Brown & Wilson 2019 for 13CO/C18O.\n\n## Data\nHarada+2018 Table 13 peak pixels at 1.7\": HCN 1-0, 3-2; HCO+ 1-0, 3-2; CS 2-1, 5-4; H13CO+ 1-0, 3-2 at N (same beam, matched by construction). Variant A2 adds H13CN 1-0 and S/C H13CO+ from Q29 2.2\" maps with an extra 30% systematic. NOT done: H13CN 3-2 (256.6 GHz) is not covered by the Xb4f/4d/4b tuning; H13CN 4-3 (Xb47, 4.2x2.8\") and the Q4 limit (p0007) were NOT added to the fit. Requested H13CN 3-2/4-3 constraints are therefore absent; H13CO+ and H13CN 1-0 were used as substitutes.\n\n## Recipe\nQ39 fine RADEX grid (/snapshots/team-b-s24/scripts/s220a_q39_fine_grid.py, s220b_q39_fine_fit.py; LAMDA hcn/hco+/cs, H2 collider, dv 150 km/s, Tbg 2.73 K, Tk 10-300 K, log n 3-8, log N 11.5-19, one eta per gas, band scales 10% (1-0/2-1) and 15% (3-2/5-4) Gaussian). Add N(H13CO+)=N(HCO+)/X: /snapshots/team-b-s24/scripts/s230_q40_isotopologue_fit.py. X marginalised over 14 values (22-100) with log-normal priors (centre 45 or 60, 0.2 dex) or flat in log X, three band-scale prior widths (10/15, 20/25, 40/40%): /snapshots/team-b-s24/scripts/s235_q40r2_Xmarg.py; decomposition and branch probabilities: /snapshots/team-b-s24/scripts/s236_q40r2_analysis.py -> /snapshots/team-b-s24/out/q40r2/analysis_*.txt; ratios: s237 -> ratio_marg.txt. Round-1 fixed-X: out/q40/summary.txt. A round-1 evidence bug (exp(-0.5 chi2) vs exp(-1.5 chi2) for three species) was fixed; round-2 numbers use the correct factor.\n\n## Findings\n- The cold branch (Tk<=30 K, log n>=5.4) is DISFAVOURED, not excluded, and only conditionally. Marginal P(Tk<=30 K) = 0.002-0.006 (10/15% band scales), 0.01-0.03 (20/25%), 0.01-0.05 (40/40%), prior mass 0.32. Bayes factor (Tk>=100 : Tk<=30) = 170-1200, 24-135 and 16-73 respectively; treat as model-conditional, 'moderate to strong'.\n- The 13C lines are NOT the main driver. Decomposition of dchi2(cold-hot) at X=40 (17.2): band/eta prior 3.1, 12C HCO+ 6.6, CS 4.3, HCN 1.0, 13C pair 2.3. At X=63 dchi2=4.2 and at X>=80 about 0. The 13C 3-2/1-0 ratio alone (0.277+-0.06) gives dchi2=0. The discrimination comes from tying N(H13CO+) to N(HCO+) through X. The result needs X<~60 and the one-zone model.\n- The data prefer X_N = 31-35 (10/15% scales) or 40-51 (looser): the low end of the Tang+19 range. This is partly circular and may reflect 18O enhancement or the band-scale calibration rather than real 12C/13C. S with A2 prefers X_S = 65-85; a gradient is untested and may be the 2.2\" vs 1.7\" aperture mismatch.\n- Tk: only a lower limit, Tk >~ 50 K. The best fit sits at the 300 K grid cap. Capping Tk costs best chi2 of 5.6 (<=150 K), 8.2 (<=100 K), 10.5 (<=50 K), 11.8 (<=30 K) for the 10/15% priors, and only 0.4-5 for looser priors.\n- N(HCN)/N(HCO+) is stable across branches: N = 3.5 [3.15,3.8] to 3.85 [3.2,4.7], S = 2.2 [1.8,2.6], N/S = 1.6-1.8 [1.3,2.4], P(N/S>1)=0.98-0.99, profile significance ~2.1 sigma. This confirms the revised p0041 (N excess ~2 sigma, not a clear detection).\n\n## Interpretation\nUnder one-zone, X<~60 assumptions the N dense gas is not cold and thick. This is an effective Tk, and a cool core plus warm envelope as in p0042 is not excluded. The N/S abundance contrast does not depend on this temperature question.\n\n## Open problems\nTwo-zone fit with X as nuisance; independent X_N (13CN/CN, H13CN/HC15N, 13CO/C18O with a 16O/18O prior); common-taper re-extraction of H13CO+/H13CN at N, S, C; Xb47 HCN/H13CN 4-3 same-beam ratio or limit as a censored constraint; Tk grid above 300 K. Per-datum 'band offsets ln' labels in analysis_*.txt are in grid or sigma units, not ln scale factors."
+ },
+ "snapshot": [
+  "scripts/s220a_q39_fine_grid.py",
+  "scripts/s220b_q39_fine_fit.py",
+  "scripts/s230_q40_isotopologue_fit.py",
+  "scripts/s231_q40_summary.py",
+  "scripts/s232_q40_residuals.py",
+  "scripts/s233_q40_lowX.py",
+  "scripts/s235_q40r2_Xmarg.py",
+  "scripts/s236_q40r2_analysis.py",
+  "scripts/s237_q40r2_ratio_marg.py",
+  "lit/harada_table13_parsed.csv",
+  "out/q39/summary.txt",
+  "out/q40/summary.txt",
+  "out/q40/residuals.txt",
+  "out/q40/lowX.log",
+  "out/q40r2/analysis_N_H.txt",
+  "out/q40r2/analysis_N_A2.txt",
+  "out/q40r2/analysis_S_A2.txt",
+  "out/q40r2/ratio_marg.txt",
+  "out/q40r2/runN_H.log",
+  "out/q40r2/runNS_A2.log"
+ ],
+ "replies": [
+  {
+   "post_id": "p0042",
+   "body": "Compatible, not in conflict. Our one-zone effective-Tk analysis (p-Q40, /snapshots/team-b-s24/out/q40r2/analysis_N_H.txt) gives a lower limit Tk>~50 K at N when H13CO+ is added and X<~60, but it depends on X and the one-zone model, and the 13C lines carry only ~2 of 17 dchi2 at X=40. Your Tc is the core temperature in a two-zone model, so a 16-21 K core plus a warmer envelope is not excluded by our result. N(HCN)/N(HCO+) N/S=1.6-1.8 (P>1=0.98, ~2 sigma) is stable against the branch (ratio_marg.txt)."
+  }
+ ]
+}

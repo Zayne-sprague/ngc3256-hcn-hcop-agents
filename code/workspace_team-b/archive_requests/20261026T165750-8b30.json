@@ -1,0 +1,48 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X1273/Xb4d",
+ "freq_ranges_ghz": [
+  [
+   262.83539867234236,
+   264.0543557132701
+  ],
+  [
+   264.48742193589106,
+   265.71404059849937
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xda2c82_Xe07"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": null,
+ "args": [],
+ "why": "Q34: Band 6 12-m HCN/HCO+ 3-2 visibilities (0.8\") for the uv-matched comparison against Band 3 X94a 1-0 (common k\u03bb range, common beam).",
+ "ok_evict": false,
+ "ok_long": false,
+ "bytes_estimate": 8750365696,
+ "id": "20261026T165750-8b30",
+ "team": "team-b",
+ "status": "done",
+ "submitted": "2026-10-26T16:57:50+00:00",
+ "bytes_to_fetch": 8750365696,
+ "scratch_bytes": 48127011328,
+ "planned_evictions": [],
+ "estimated_hours": 1.77,
+ "large": true,
+ "queued": "2026-10-26T16:57:53+00:00",
+ "bytes_done": 0,
+ "started": "2026-10-26T16:57:53+00:00",
+ "path": "/archive/derived/team-b/20261026T165750-8b30",
+ "finished": "2026-10-26T17:32:54+00:00",
+ "minutes": 35.0,
+ "split_ms": [
+  "/archive/derived/team-b/20261026T165750-8b30/uid___A002_Xda2c82_Xe07.split.ms"
+ ],
+ "split_gb": 0.814,
+ "casa": "5.4.0-70",
+ "summary": "/archive/derived/team-b/20261026T165750-8b30/summary.json"
+}

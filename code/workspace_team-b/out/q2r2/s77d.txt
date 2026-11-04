@@ -1,0 +1,49 @@
+M18 South-OF-Blue is at dE=-0.54", dN=-2.23" from the M18 South nucleus
+3-2 Xb4d@1.05" HCN   M18pos r=1.05" window -360..-180: 0.388 +- 0.040 Jy km/s
+3-2 Xb4d@1.05" HCN   M18pos r=1.5" window -360..-180: 0.476 +- 0.059 Jy km/s
+3-2 Xb4d@1.05" HCN   M18pos r=2.5" window -360..-180: 0.414 +- 0.083 Jy km/s
+3-2 Xb4d@1.05" HCN   lobe   r=1.05" window -360..-180: 0.402 +- 0.053 Jy km/s
+3-2 Xb4d@1.05" HCN   lobe   r=1.5" window -360..-180: 0.536 +- 0.058 Jy km/s
+3-2 Xb4d@1.05" HCN   lobe   r=2.5" window -360..-180: 0.487 +- 0.073 Jy km/s
+3-2 Xb4d@1.05" HCO+  M18pos r=1.05" window -360..-180: 0.292 +- 0.037 Jy km/s
+3-2 Xb4d@1.05" HCO+  M18pos r=1.5" window -360..-180: 0.360 +- 0.055 Jy km/s
+3-2 Xb4d@1.05" HCO+  M18pos r=2.5" window -360..-180: 0.412 +- 0.077 Jy km/s
+3-2 Xb4d@1.05" HCO+  lobe   r=1.05" window -360..-180: 0.229 +- 0.032 Jy km/s
+3-2 Xb4d@1.05" HCO+  lobe   r=1.5" window -360..-180: 0.322 +- 0.046 Jy km/s
+3-2 Xb4d@1.05" HCO+  lobe   r=2.5" window -360..-180: 0.357 +- 0.076 Jy km/s
+3-2 Xb4d@2.0" HCN   M18pos r=1.05" window -360..-180: 0.225 +- 0.024 Jy km/s
+3-2 Xb4d@2.0" HCN   M18pos r=1.5" window -360..-180: 0.342 +- 0.053 Jy km/s
+3-2 Xb4d@2.0" HCN   M18pos r=2.5" window -360..-180: 0.434 +- 0.081 Jy km/s
+3-2 Xb4d@2.0" HCN   lobe   r=1.05" window -360..-180: 0.238 +- 0.028 Jy km/s
+3-2 Xb4d@2.0" HCN   lobe   r=1.5" window -360..-180: 0.374 +- 0.044 Jy km/s
+3-2 Xb4d@2.0" HCN   lobe   r=2.5" window -360..-180: 0.455 +- 0.069 Jy km/s
+3-2 Xb4d@2.0" HCO+  M18pos r=1.05" window -360..-180: 0.169 +- 0.022 Jy km/s
+3-2 Xb4d@2.0" HCO+  M18pos r=1.5" window -360..-180: 0.264 +- 0.037 Jy km/s
+3-2 Xb4d@2.0" HCO+  M18pos r=2.5" window -360..-180: 0.366 +- 0.057 Jy km/s
+3-2 Xb4d@2.0" HCO+  lobe   r=1.05" window -360..-180: 0.140 +- 0.017 Jy km/s
+3-2 Xb4d@2.0" HCO+  lobe   r=1.5" window -360..-180: 0.228 +- 0.038 Jy km/s
+3-2 Xb4d@2.0" HCO+  lobe   r=2.5" window -360..-180: 0.329 +- 0.068 Jy km/s
+LADDER Xb55 J=2-1 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -405..-150: 0.509 +- 0.102 Jy km/s (field mean -0.048); channel width 3.3 km/s; native beam 8.6x6.0
+LADDER Xb55 J=2-1 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -360..-180: 0.293 +- 0.083 Jy km/s (field mean -0.041); channel width 3.3 km/s; native beam 8.6x6.0
+LADDER Xb55 J=2-1 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -205..95: 26.624 +- 0.835 Jy km/s (field mean -0.612); channel width 3.3 km/s; native beam 8.6x6.0
+LADDER Xb55 J=2-1 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -405..-150: 1.529 +- 0.201 Jy km/s (field mean -0.109); channel width 3.3 km/s; native beam 8.6x5.9
+LADDER Xb55 J=2-1 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -360..-180: 0.942 +- 0.118 Jy km/s (field mean -0.053); channel width 3.3 km/s; native beam 8.6x5.9
+LADDER Xb55 J=2-1 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -205..95: 49.215 +- 1.749 Jy km/s (field mean -0.736); channel width 3.3 km/s; native beam 8.6x5.9
+LADDER Xb4f J=3-2 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -405..-150: 0.474 +- 0.218 Jy km/s (field mean -0.065); channel width 4.4 km/s; native beam 5.7x3.5
+LADDER Xb4f J=3-2 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -360..-180: 0.401 +- 0.163 Jy km/s (field mean -0.046); channel width 4.4 km/s; native beam 5.7x3.5
+LADDER Xb4f J=3-2 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -205..95: 22.306 +- 1.017 Jy km/s (field mean -1.306); channel width 4.4 km/s; native beam 5.7x3.5
+LADDER Xb4f J=3-2 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -405..-150: 0.616 +- 0.276 Jy km/s (field mean -0.102); channel width 4.4 km/s; native beam 5.7x3.5
+LADDER Xb4f J=3-2 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -360..-180: 0.468 +- 0.175 Jy km/s (field mean -0.080); channel width 4.4 km/s; native beam 5.7x3.5
+LADDER Xb4f J=3-2 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -205..95: 54.143 +- 1.782 Jy km/s (field mean -1.685); channel width 4.4 km/s; native beam 5.7x3.5
+LADDER Xb4d J=3-2 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -405..-150: 0.161 +- 0.265 Jy km/s (field mean +0.152); channel width 4.4 km/s; native beam 0.9x0.7
+LADDER Xb4d J=3-2 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -360..-180: 0.089 +- 0.215 Jy km/s (field mean +0.061); channel width 4.4 km/s; native beam 0.9x0.7
+LADDER Xb4d J=3-2 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -205..95: 12.811 +- 1.140 Jy km/s (field mean +1.676); channel width 4.4 km/s; native beam 0.9x0.7
+LADDER Xb4d J=3-2 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -405..-150: 0.185 +- 0.287 Jy km/s (field mean -0.014); channel width 4.4 km/s; native beam 0.9x0.7
+LADDER Xb4d J=3-2 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -360..-180: 0.087 +- 0.215 Jy km/s (field mean -0.022); channel width 4.4 km/s; native beam 0.9x0.7
+LADDER Xb4d J=3-2 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -205..95: 35.176 +- 2.258 Jy km/s (field mean +2.147); channel width 4.4 km/s; native beam 0.9x0.7
+LADDER Xb47 J=4-3 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -405..-150: 0.386 +- 0.350 Jy km/s (field mean +0.152); channel width 3.3 km/s; native beam 4.1x2.7
+LADDER Xb47 J=4-3 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -360..-180: 0.296 +- 0.300 Jy km/s (field mean +0.035); channel width 3.3 km/s; native beam 4.1x2.7
+LADDER Xb47 J=4-3 HCN   @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -205..95: 12.401 +- 1.663 Jy km/s (field mean +0.358); channel width 3.3 km/s; native beam 4.1x2.7
+LADDER Xb47 J=4-3 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -405..-150: 0.510 +- 0.700 Jy km/s (field mean +0.039); channel width 3.3 km/s; native beam 4.1x2.7
+LADDER Xb47 J=4-3 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -360..-180: 0.364 +- 0.476 Jy km/s (field mean +0.118); channel width 3.3 km/s; native beam 4.1x2.7
+LADDER Xb47 J=4-3 HCO+  @10" point value at S+lobe midpoint (= total flux of a source compact vs 10"), window -205..95: 40.913 +- 2.350 Jy km/s (field mean +1.290); channel width 3.3 km/s; native beam 4.1x2.7

@@ -1,0 +1,7 @@
+{"item":"Q38","verdict":"pass",
+"checks":["Re-derived the clump/nucleus double ratio of R32/R21 from s244 values: E1 0.686/0.781=0.88+-0.25, W 0.87+-0.23 (0.5-0.6 sigma from 1) - agree with the worker.",
+"Read s243 (RADEX, uv-complete matched 2.2\" 1-0 + 3-2): P(Tk_E1<Tk_N)=0.17, logA differs; consistent with the retraction of the 10\" 'lower Tk' statement. Agree, with the stated caveat of only 4 data per position.",
+"Read entries 96, 99, 111, 133, 136, 217 in report.json: all now carry the revised statement (common 2-1->3-2 decline of ~30% in nuclei and clumps; no faster disk decline; 8-12\" annuli not measurable; 4-3 clump = limit). Self-consistent; earlier contradictory claims are flagged as revised/withdrawn. Entry 112 is only annotated - acceptable.",
+"NNLS de-contamination injection test (s242) recovers R21/R32 to 1-3% and R32/R21 to 0-3% for E1/W, so the method is not the source of the common decline; E2 correctly dropped. Agree with the conclusions about p0032 (confirmed) and p0033 (compatible)."],
+"fixes":[],
+"notes_for_questioner":"Remaining limits (stated in report, not blocking): no real-uv tapered common-uvrange Band 5/6 test; 4-3 clump only a limit (E1 R43/R21<0.17 vs 0.66 nuclear is suggestive, zero level/PB at Xb47 uncertain); 1-0 12m recovery at E2/W unquantified. Open question: the real clump-vs-nucleus difference is the 1-0 HCN/HCO+ ratio (0.49 vs 0.84) - is this abundance (HCN depletion/HCO+ enhancement by shocks/XDR) or opacity? A 13C isotopologue or HCN/H13CN constraint would settle it."}

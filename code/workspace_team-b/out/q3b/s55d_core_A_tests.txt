@@ -1,0 +1,49 @@
+core ladder population N: 11213 models (n 5.5-7, Tk 50-150, T_R(3-2)>=0.25" peak, HCN/HCO+ ratio 0.93+-15%); L=T(J)/T(3-2) 16/50/84%: L2 HCN 0.95/1.02/1.05, L4 HCN 0.85/0.95/0.97, L2 HCO+ 0.80/1.01/1.03, L4 HCO+ 0.91/0.97/1.01; fraction with tau(HCN3-2)>1: 0.94
+core ladder population S: 4982 models (n 5.5-7, Tk 50-150, T_R(3-2)>=0.25" peak, HCN/HCO+ ratio 0.41+-15%); L=T(J)/T(3-2) 16/50/84%: L2 HCN 0.79/1.07/1.29, L4 HCN 0.57/0.76/0.91, L2 HCO+ 0.72/0.95/1.03, L4 HCO+ 0.84/0.97/1.05; fraction with tau(HCN3-2)>1: 0.76
+
+## N: envelope + compact core (core 3-2 flux Xb4b r<0.5": HCN 5.78, HCO+ 6.28 Jy km/s)
+  single zone, no core:        log n 4.38 [68%: 3.50,4.88; 95%: 3.00,5.25]; Tk 135.66 [68%: 68.71,213.51; 95%: 24.77,300.00]; log A 0.40 [68%: 0.40,0.50; 95%: 0.30,0.60]; log N(HCO+)/dv 13.02 [68%: 11.82,13.92; 95%: 11.12,14.72]; log P/k 6.44 [68%: 5.61,7.01; 95%: 4.94,7.38]
+  envelope with core removed:  log n 4.38 [68%: 3.50,5.00; 95%: 3.00,5.75]; Tk 86.20 [68%: 31.07,190.62; 95%: 12.55,300.00]; log A 0.50 [68%: 0.30,0.50; 95%: 0.20,0.60]; log N(HCO+)/dv 13.02 [68%: 11.82,14.02; 95%: 11.12,14.92]; log P/k 6.33 [68%: 5.44,6.91; 95%: 4.67,7.35]
+  P(n>1e5)=0.13 P(n<1e4)=0.32 P(Tk>50)=0.69 P(Tk<30)=0.15 P(Tk<20)=0.09 P(A>1)=0.99 P(tau_HCN32>1)=0.62 | prior-edge mass: n_lo=0.03, T_hi=0.03
+  posterior on core scale g (g=1: measured Xb4b core): g=0: 0.23, g=0.5: 0.22, g=1: 0.20, g=1.5: 0.18, g=2: 0.07, g=2.5: 0.04, g=3: 0.06
+  core fraction of the 10" ladder at g=1: HCN 2-1/3-2/4-3 = 0.07/0.19/0.53 ; HCO+ = 0.05/0.10/0.21 (range over core ladders 0.02-0.65)
+  core fraction of the 10" ladder at g=3: HCN 2-1/3-2/4-3 = 0.48/0.57/0.49 ; HCO+ = 0.21/0.29/0.30 (range over core ladders 0.21-0.57)
+  g accepted by positivity (envelope >5% of the 10" flux in all 6 lines): g=0: 9/9 ladders, g=0.5: 9/9 ladders, g=1: 9/9 ladders, g=1.5: 8/9 ladders, g=2: 2/9 ladders, g=2.5: 1/9 ladders, g=3: 1/9 ladders
+
+## S: envelope + compact core (core 3-2 flux Xb4b r<0.5": HCN 2.02, HCO+ 4.94 Jy km/s)
+  single zone, no core:        log n 4.38 [68%: 3.50,4.88; 95%: 3.00,5.12]; Tk 135.66 [68%: 76.96,213.51; 95%: 31.07,300.00]; log A 0.40 [68%: 0.30,0.50; 95%: 0.30,0.50]; log N(HCO+)/dv 12.92 [68%: 11.82,13.82; 95%: 11.22,14.52]; log P/k 6.38 [68%: 5.61,6.94; 95%: 5.08,7.30]
+  envelope with core removed:  log n 4.12 [68%: 3.38,4.75; 95%: 3.00,5.12]; Tk 108.14 [68%: 48.90,170.19; 95%: 17.63,267.85]; log A 0.50 [68%: 0.40,0.50; 95%: 0.30,0.60]; log N(HCO+)/dv 13.02 [68%: 12.02,13.82; 95%: 11.22,14.52]; log P/k 6.13 [68%: 5.39,6.73; 95%: 4.82,7.18]
+  P(n>1e5)=0.04 P(n<1e4)=0.40 P(Tk>50)=0.82 P(Tk<30)=0.08 P(Tk<20)=0.04 P(A>1)=0.99 P(tau_HCN32>1)=0.63 | prior-edge mass: n_lo=0.05, T_hi=0.02
+  posterior on core scale g (g=1: measured Xb4b core): g=0: 0.16, g=0.5: 0.15, g=1: 0.15, g=1.5: 0.14, g=2: 0.14, g=2.5: 0.13, g=3: 0.13
+  core fraction of the 10" ladder at g=1: HCN 2-1/3-2/4-3 = 0.03/0.07/0.18 ; HCO+ = 0.03/0.08/0.17 (range over core ladders 0.01-0.27)
+  core fraction of the 10" ladder at g=3: HCN 2-1/3-2/4-3 = 0.09/0.22/0.53 ; HCO+ = 0.10/0.23/0.52 (range over core ladders 0.04-0.82)
+  g accepted by positivity (envelope >5% of the 10" flux in all 6 lines): g=0: 9/9 ladders, g=0.5: 9/9 ladders, g=1: 9/9 ladders, g=1.5: 9/9 ladders, g=2: 9/9 ladders, g=2.5: 9/9 ladders, g=3: 9/9 ladders
+
+## A tests at N (nominal calibration 15/10/15%, no recovery; fine grid: step 0.1 dex in A and Tk 0.05 dex, so intervals are not grid-pinned)
+[N] nominal: log n 4.38 [68%: 3.50,4.88; 95%: 3.00,5.25]; Tk 135.66 [68%: 68.71,213.51; 95%: 24.77,300.00]; log A 0.40 [68%: 0.40,0.50; 95%: 0.30,0.60]; log N(HCO+)/dv 13.02 [68%: 11.82,13.92; 95%: 11.12,14.72] ; P(n>1e5)=0.06 P(n<1e4)=0.32 P(Tk>50)=0.89 P(Tk<30)=0.04 P(Tk<20)=0.02 P(A>1)=0.99 P(tau_HCN32>1)=0.64 | prior-edge mass: n_lo=0.03, T_hi=0.03
+[S] nominal: log n 4.38 [68%: 3.50,4.88; 95%: 3.00,5.12]; Tk 135.66 [68%: 76.96,213.51; 95%: 31.07,300.00]; log A 0.40 [68%: 0.30,0.50; 95%: 0.30,0.50]; log N(HCO+)/dv 12.92 [68%: 11.82,13.82; 95%: 11.22,14.52] ; P(n>1e5)=0.04 P(n<1e4)=0.33 P(Tk>50)=0.93 P(Tk<30)=0.02 P(Tk<20)=0.01 P(A>1)=0.99 P(tau_HCN32>1)=0.60 | prior-edge mass: n_lo=0.03, T_hi=0.04
+[Bridge] nominal: log n 4.38 [68%: 3.50,4.88; 95%: 3.00,5.25]; Tk 135.66 [68%: 68.71,213.51; 95%: 24.77,300.00]; log A 0.40 [68%: 0.40,0.50; 95%: 0.30,0.60]; log N(HCO+)/dv 13.02 [68%: 11.92,13.92; 95%: 11.22,14.72] ; P(n>1e5)=0.06 P(n<1e4)=0.32 P(Tk>50)=0.89 P(Tk<30)=0.04 P(Tk<20)=0.02 P(A>1)=0.99 P(tau_HCN32>1)=0.65 | prior-edge mass: n_lo=0.03, T_hi=0.03
+# HCN more compact than HCO+: eta_HCN = q * eta_HCO+ (q<=1; HCN data shifted by -ln q)
+[N] q=1: log A 0.40 [68% 0.40,0.50; 95% 0.30,0.60], log n 4.38 [3.50,4.88], Tk 136 [69,214]; P(A>1)=0.99
+[N] q=0.5: log A 0.80 [68% 0.70,0.80; 95% 0.60,0.90], log n 4.75 [3.88,5.12], Tk 121 [55,214]; P(A>1)=1.00
+[N] q=0.25: log A 1.00 [68% 1.00,1.10; 95% 0.90,1.20], log n 4.88 [4.38,5.12], Tk 136 [69,214]; P(A>1)=1.00
+[N] q=0.1: log A 1.40 [68% 1.40,1.50; 95% 1.20,1.50], log n 4.88 [4.62,5.25], Tk 121 [77,191]; P(A>1)=1.00
+[N] q log-uniform 0.1-1: log A 0.70 [68% 0.50,1.10; 95% 0.40,1.40], log n 4.62 [3.75,5.12], Tk 121 [55,214]
+[N] q log-uniform 0.1-3 (HCN may fill more): log A 0.60 [68% 0.20,1.00; 95% -0.10,1.40], log n 4.62 [3.75,5.00], Tk 152 [69,239]
+[S] q=1: log A 0.40 [68% 0.30,0.50; 95% 0.30,0.50], log n 4.38 [3.50,4.88], Tk 136 [77,214]; P(A>1)=0.99
+[S] q=0.5: log A 0.70 [68% 0.70,0.80; 95% 0.60,0.90], log n 4.62 [3.75,5.00], Tk 108 [49,170]; P(A>1)=1.00
+[S] q=0.25: log A 1.00 [68% 0.90,1.10; 95% 0.90,1.20], log n 4.75 [4.25,5.12], Tk 121 [69,191]; P(A>1)=1.00
+[S] q=0.1: log A 1.40 [68% 1.30,1.50; 95% 1.30,1.50], log n 4.88 [4.50,5.25], Tk 108 [55,170]; P(A>1)=1.00
+[S] q log-uniform 0.1-1: log A 0.70 [68% 0.50,1.10; 95% 0.30,1.40], log n 4.62 [3.75,5.00], Tk 121 [55,191]
+[S] q log-uniform 0.1-3 (HCN may fill more): log A 0.50 [68% 0.10,1.00; 95% -0.10,1.40], log n 4.50 [3.62,5.00], Tk 136 [69,214]
+# Free line width w (the model flux is eta*w*T_R(N/dv); with N/dv free, w only changes the eta<=1 bound: ln eta_max = ln(w/150)); N is quoted per km/s so is unaffected
+[N] w=60 km/s: log n 4.25 [3.50,4.88], Tk 136 [61,214], log A 0.50 [0.40,0.50], log N(HCO+)/dv 13.12
+[N] w=100 km/s: log n 4.38 [3.50,4.88], Tk 136 [69,214], log A 0.40 [0.40,0.50], log N(HCO+)/dv 13.02
+[N] w=150 km/s: log n 4.38 [3.50,4.88], Tk 136 [69,214], log A 0.40 [0.40,0.50], log N(HCO+)/dv 13.02
+[N] w=200 km/s: log n 4.38 [3.50,4.88], Tk 136 [69,214], log A 0.40 [0.40,0.50], log N(HCO+)/dv 13.02
+[N] w=300 km/s: log n 4.38 [3.50,4.88], Tk 136 [69,214], log A 0.40 [0.40,0.50], log N(HCO+)/dv 12.92
+[S] w=60 km/s: log n 4.25 [3.38,4.75], Tk 136 [77,214], log A 0.40 [0.30,0.50], log N(HCO+)/dv 13.12
+[S] w=100 km/s: log n 4.25 [3.50,4.88], Tk 136 [77,214], log A 0.40 [0.30,0.50], log N(HCO+)/dv 13.02
+[S] w=150 km/s: log n 4.38 [3.50,4.88], Tk 136 [77,214], log A 0.40 [0.30,0.50], log N(HCO+)/dv 12.92
+[S] w=200 km/s: log n 4.38 [3.50,4.88], Tk 136 [77,214], log A 0.40 [0.30,0.50], log N(HCO+)/dv 12.92
+[S] w=300 km/s: log n 4.38 [3.50,4.88], Tk 136 [77,214], log A 0.40 [0.30,0.50], log N(HCO+)/dv 12.82

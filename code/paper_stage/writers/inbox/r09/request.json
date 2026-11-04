@@ -1,0 +1,6 @@
+{
+ "id": "r09",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Figure (supports R1): HCN/HCO+ 3-2 T_b ratio vs radius (annuli, same pipeline as s171, Xb4b convolved/native) for N and S, with HCN and HCO+ T_b profiles, errors, and the Xb4d profile over the overlapping radii as a uv/flux cross-check. The 0.39 (2-3\") -> 0.97 (<0.25\") N profile and the flat S profile have not been re-derived since the r07 error budget; give the numbers, annulus definitions, and state the Xb4b-vs-Xb4d difference at 0.5-1.5\"."
+}

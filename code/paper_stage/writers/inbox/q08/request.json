@@ -1,0 +1,6 @@
+{
+ "id": "q08",
+ "to": "team-a",
+ "kind": "question",
+ "text": "Give the direct N/S contrast of the optically thin lines, (H13CN/H13CO+)_N / (H13CN/H13CO+)_S, with errors, for each estimator (T, A, P) in the matched 2.2'' flux-complete 1-0 beam, and the implied N/S contrast of HCN/HCO+ if the 13C lines are thin and 12C/13C is the same at both nuclei. State the dof used to convert Delta chi2 = 5-8 into 1.7-2.1 sigma, and the source of the 12C/13C=80 adopted for N."
+}

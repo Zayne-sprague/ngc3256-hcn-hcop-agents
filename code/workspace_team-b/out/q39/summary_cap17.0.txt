@@ -1,0 +1,60 @@
+[one,sb_cap17.0] N N(HCN)/N(HCO+): median 2.95 [0.36,3.64] profile best 3.16, dchi2<1 range [3.16,3.55]
+[one,sb_cap17.0] S N(HCN)/N(HCO+): median 2.19 [1.86,2.61] profile best 2.00, dchi2<1 range [2.00,2.24]
+[one,sb_cap17.0] C N(HCN)/N(HCO+): median 2.27 [2.06,2.55] profile best 2.24, dchi2<1 range [2.00,2.24]
+   N/S contrast N(HCN)/N(HCO+): median 1.19 [0.17,1.78]  P(>1)=0.546 (gaussian-equivalent 0.1 sigma);  profile: best 1.58, dchi2(ratio=1)=4.40 -> 2.1 sigma
+   C/S contrast N(HCN)/N(HCO+): median 1.04 [0.85,1.28]  P(>1)=0.578 (gaussian-equivalent 0.2 sigma);  profile: best 1.12, dchi2(ratio=1)=0.16 -> 0.4 sigma
+[one,sb_cap17.0] N N(CS)/N(HCO+): median 0.43 [0.05,0.91] profile best 0.89, dchi2<1 range [0.79,0.89]
+[one,sb_cap17.0] S N(CS)/N(HCO+): median 0.66 [0.54,0.77] profile best 0.63, dchi2<1 range [0.63,0.71]
+[one,sb_cap17.0] C N(CS)/N(HCO+): median 0.76 [0.68,0.84] profile best 0.71, dchi2<1 range [0.71,0.79]
+   N/S contrast N(CS)/N(HCO+): median 0.75 [0.09,1.47]  P(>1)=0.446 (gaussian-equivalent 0.1 sigma);  profile: best 1.41, dchi2(ratio=1)=2.04 -> 1.4 sigma
+   C/S contrast N(CS)/N(HCO+): median 1.16 [0.96,1.46]  P(>1)=0.779 (gaussian-equivalent 0.8 sigma);  profile: best 1.12, dchi2(ratio=1)=0.33 -> 0.6 sigma
+[one,sb_cap17.0] N N(CS)/N(HCN): median 0.23 [0.14,0.28] profile best 0.28, dchi2<1 range [0.25,0.28]
+[one,sb_cap17.0] S N(CS)/N(HCN): median 0.30 [0.25,0.36] profile best 0.32, dchi2<1 range [0.28,0.35]
+[one,sb_cap17.0] C N(CS)/N(HCN): median 0.33 [0.30,0.37] profile best 0.32, dchi2<1 range [0.32,0.35]
+   N/S contrast N(CS)/N(HCN): median 0.72 [0.43,0.98]  P(>1)=0.140 (gaussian-equivalent 1.1 sigma);  profile: best 0.89, dchi2(ratio=1)=0.82 -> 0.9 sigma
+   C/S contrast N(CS)/N(HCN): median 1.11 [0.88,1.38]  P(>1)=0.677 (gaussian-equivalent 0.5 sigma);  profile: best 1.00, dchi2(ratio=1)=0.00 -> 0.0 sigma
+[one,sb_cap17.0] N N(HCO+)/N(CS): median 2.33 [1.10,18.50] profile best 1.12, dchi2<1 range [1.12,1.26]
+[one,sb_cap17.0] S N(HCO+)/N(CS): median 1.53 [1.30,1.85] profile best 1.58, dchi2<1 range [1.41,1.58]
+[one,sb_cap17.0] C N(HCO+)/N(CS): median 1.31 [1.19,1.46] profile best 1.41, dchi2<1 range [1.26,1.41]
+   N/S contrast N(HCO+)/N(CS): median 1.33 [0.68,11.58]  P(>1)=0.554 (gaussian-equivalent 0.1 sigma);  profile: best 0.71, dchi2(ratio=1)=2.04 -> 1.4 sigma
+   C/S contrast N(HCO+)/N(CS): median 0.86 [0.69,1.04]  P(>1)=0.221 (gaussian-equivalent 0.8 sigma);  profile: best 0.89, dchi2(ratio=1)=0.33 -> 0.6 sigma
+[one,sb_cap17.0] N N(HCN)/N(CS): median 4.42 [3.63,7.20] profile best 3.55, dchi2<1 range [3.55,3.98]
+[one,sb_cap17.0] S N(HCN)/N(CS): median 3.33 [2.75,4.02] profile best 3.16, dchi2<1 range [2.82,3.55]
+[one,sb_cap17.0] C N(HCN)/N(CS): median 3.01 [2.69,3.35] profile best 3.16, dchi2<1 range [2.82,3.16]
+   N/S contrast N(HCN)/N(CS): median 1.40 [1.02,2.32]  P(>1)=0.860 (gaussian-equivalent 1.1 sigma);  profile: best 1.12, dchi2(ratio=1)=0.82 -> 0.9 sigma
+   C/S contrast N(HCN)/N(CS): median 0.90 [0.73,1.14]  P(>1)=0.323 (gaussian-equivalent 0.5 sigma);  profile: best 1.00, dchi2(ratio=1)=0.00 -> 0.0 sigma
+[hh,sb_cap17.0] N N(HCN)/N(HCO+): median 5.09 [3.72,6.49] profile best 3.98, dchi2<1 range [3.55,7.08]
+[hh,sb_cap17.0] S N(HCN)/N(HCO+): median 2.42 [1.94,2.93] profile best 2.82, dchi2<1 range [1.78,3.16]
+[hh,sb_cap17.0] C N(HCN)/N(HCO+): median 3.00 [2.34,3.64] profile best 2.51, dchi2<1 range [2.00,3.98]
+   N/S contrast N(HCN)/N(HCO+): median 2.09 [1.44,2.92]  P(>1)=0.941 (gaussian-equivalent 1.6 sigma);  profile: best 1.41, dchi2(ratio=1)=1.86 -> 1.4 sigma
+   C/S contrast N(HCN)/N(HCO+): median 1.23 [0.92,1.66]  P(>1)=0.762 (gaussian-equivalent 0.7 sigma);  profile: best 0.89, dchi2(ratio=1)=0.03 -> 0.2 sigma
+[one,nosb_cap17.0] N N(HCN)/N(HCO+): median 3.45 [3.13,3.71] profile best 3.55, dchi2<1 range [3.16,3.55]
+[one,nosb_cap17.0] S N(HCN)/N(HCO+): median 2.22 [1.92,2.66] profile best 2.00, dchi2<1 range [2.00,2.51]
+[one,nosb_cap17.0] C N(HCN)/N(HCO+): median 2.23 [2.03,2.46] profile best 2.24, dchi2<1 range [2.00,2.24]
+   N/S contrast N(HCN)/N(HCO+): median 1.54 [1.27,1.83]  P(>1)=0.993 (gaussian-equivalent 2.5 sigma);  profile: best 1.78, dchi2(ratio=1)=4.58 -> 2.1 sigma
+   C/S contrast N(HCN)/N(HCO+): median 1.00 [0.83,1.19]  P(>1)=0.506 (gaussian-equivalent 0.0 sigma);  profile: best 1.12, dchi2(ratio=1)=0.06 -> 0.2 sigma
+[one,nosb_cap17.0] N N(CS)/N(HCO+): median 0.90 [0.85,0.98] profile best 0.89, dchi2<1 range [0.89,0.89]
+[one,nosb_cap17.0] S N(CS)/N(HCO+): median 0.68 [0.59,0.78] profile best 0.71, dchi2<1 range [0.63,0.71]
+[one,nosb_cap17.0] C N(CS)/N(HCO+): median 0.76 [0.68,0.83] profile best 0.71, dchi2<1 range [0.71,0.79]
+   N/S contrast N(CS)/N(HCO+): median 1.34 [1.15,1.57]  P(>1)=0.972 (gaussian-equivalent 1.9 sigma);  profile: best 1.26, dchi2(ratio=1)=2.64 -> 1.6 sigma
+   C/S contrast N(CS)/N(HCO+): median 1.12 [0.95,1.32]  P(>1)=0.741 (gaussian-equivalent 0.6 sigma);  profile: best 1.00, dchi2(ratio=1)=0.00 -> 0.0 sigma
+[one,nosb_cap17.0] N N(CS)/N(HCN): median 0.26 [0.24,0.29] profile best 0.25, dchi2<1 range [0.25,0.28]
+[one,nosb_cap17.0] S N(CS)/N(HCN): median 0.30 [0.25,0.36] profile best 0.35, dchi2<1 range [0.28,0.35]
+[one,nosb_cap17.0] C N(CS)/N(HCN): median 0.34 [0.30,0.38] profile best 0.32, dchi2<1 range [0.32,0.35]
+   N/S contrast N(CS)/N(HCN): median 0.88 [0.73,1.05]  P(>1)=0.244 (gaussian-equivalent 0.7 sigma);  profile: best 0.71, dchi2(ratio=1)=1.12 -> 1.1 sigma
+   C/S contrast N(CS)/N(HCN): median 1.12 [0.92,1.38]  P(>1)=0.711 (gaussian-equivalent 0.6 sigma);  profile: best 0.89, dchi2(ratio=1)=0.06 -> 0.2 sigma
+[one,nosb_cap17.0] N N(HCO+)/N(CS): median 1.11 [1.02,1.18] profile best 1.12, dchi2<1 range [1.12,1.12]
+[one,nosb_cap17.0] S N(HCO+)/N(CS): median 1.48 [1.29,1.69] profile best 1.41, dchi2<1 range [1.41,1.58]
+[one,nosb_cap17.0] C N(HCO+)/N(CS): median 1.32 [1.20,1.46] profile best 1.41, dchi2<1 range [1.26,1.41]
+   N/S contrast N(HCO+)/N(CS): median 0.75 [0.64,0.87]  P(>1)=0.028 (gaussian-equivalent 1.9 sigma);  profile: best 0.79, dchi2(ratio=1)=2.64 -> 1.6 sigma
+   C/S contrast N(HCO+)/N(CS): median 0.90 [0.76,1.05]  P(>1)=0.259 (gaussian-equivalent 0.6 sigma);  profile: best 1.00, dchi2(ratio=1)=0.00 -> 0.0 sigma
+[one,nosb_cap17.0] N N(HCN)/N(CS): median 3.82 [3.47,4.14] profile best 3.98, dchi2<1 range [3.55,3.98]
+[one,nosb_cap17.0] S N(HCN)/N(CS): median 3.33 [2.81,3.97] profile best 2.82, dchi2<1 range [2.82,3.55]
+[one,nosb_cap17.0] C N(HCN)/N(CS): median 2.97 [2.65,3.33] profile best 3.16, dchi2<1 range [2.82,3.16]
+   N/S contrast N(HCN)/N(CS): median 1.14 [0.95,1.38]  P(>1)=0.756 (gaussian-equivalent 0.7 sigma);  profile: best 1.41, dchi2(ratio=1)=1.12 -> 1.1 sigma
+   C/S contrast N(HCN)/N(CS): median 0.89 [0.72,1.09]  P(>1)=0.289 (gaussian-equivalent 0.6 sigma);  profile: best 1.12, dchi2(ratio=1)=0.06 -> 0.2 sigma
+[hh,nosb_cap17.0] N N(HCN)/N(HCO+): median 5.37 [3.95,6.59] profile best 3.98, dchi2<1 range [3.55,7.08]
+[hh,nosb_cap17.0] S N(HCN)/N(HCO+): median 2.48 [2.02,2.90] profile best 2.82, dchi2<1 range [1.78,3.16]
+[hh,nosb_cap17.0] C N(HCN)/N(HCO+): median 3.04 [2.34,3.65] profile best 2.51, dchi2<1 range [2.00,3.98]
+   N/S contrast N(HCN)/N(HCO+): median 2.14 [1.57,2.85]  P(>1)=0.999 (gaussian-equivalent 3.1 sigma);  profile: best 1.41, dchi2(ratio=1)=2.72 -> 1.6 sigma
+   C/S contrast N(HCN)/N(HCO+): median 1.22 [0.92,1.59]  P(>1)=0.760 (gaussian-equivalent 0.7 sigma);  profile: best 0.89, dchi2(ratio=1)=0.03 -> 0.2 sigma

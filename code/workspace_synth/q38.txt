@@ -1,0 +1,212 @@
+===== 96
+{
+ "quantity": "Matched-J HCN/HCO+ at a common circular 10\" beam: J=2-1 (Xb55), 3-2 (Xb4f and Xb4d), 4-3 (Xb47), N-S midpoint, r<8\" aperture, and clumps",
+ "target": "N-S midpoint (nuclear complex), r<8\" aperture, E1/E2/W clumps",
+ "value": "[Q38r2 REVISED: the E1/E2/W \"disk\" numbers are 10\" clump POSITION values blended with nuclear wings (R10 at E1 is 0.63 at 10\" vs 0.49 at uv-complete 2.2\"). Same-method ladder (de-contaminated totals): nucleus (N+S+bridge+halos) R21/R32/R43 = 0.58/0.45/0.38 (R32/R21 0.78+-0.12, R43/R21 0.66+-0.07); E1 0.35/0.24/<0.06 (R32/R21 0.69+-0.17); W 0.49/0.33/<0.33 (0.68+-0.15). Clump/nucleus double ratio of R32/R21 = 0.88+-0.25 (E1), 0.87+-0.23 (W) (0.5-0.6 sigma from 1; vs N alone 0.78+-0.23, 1.0 sigma): the 2-1 -> 3-2 decline is COMMON to nuclei and clumps. NO \"faster decline of the disk\" and NO disk-vs-nucleus excitation contrast is supported at 2-1/3-2. The 4-3 clump value is an upper limit (E1 R43/R21 < 0.17 vs nucleus 0.66+-0.07: formally lower, but it rests on Xb47 zero level and PB 0.5 at E1: suggestive only). See the Q38 entry.] midpoint (Jy ratio): R(2-1) 0.581+-0.03, R(3-2) 0.451+-0.023 (Xb4f) / 0.428+-0.021 (Xb4d), R(4-3) 0.331+-0.017; K km/s: 0.588, 0.456/0.434, 0.335. r<8\" aperture: 0.562, 0.415/0.377, 0.290. Ratio J(3)/J(2) = 0.74-0.78, J(4)/J(3) = 0.73-0.77. At the 10\" beam the N and S readings are blends (R(3-2) N 0.47/0.46, S 0.42/0.38; R(2-1) N 0.60, S 0.55; R(4-3) N 0.35, S 0.31) and should not be read as nuclear values. Clumps at 10\" (blended with the nuclear wings): R(2-1) E1 0.51, E2 0.53, W 0.50; R(3-2) E1 0.33/0.32, E2 0.33/0.27, W 0.33/0.25; R(4-3) E1 0.15+-0.02, E2 0.19+-0.01, W 0.05+-0.02 (S/N 3). The clump position ratios fall with J (E1 0.51->0.33->0.15) but this is NOT shown to be faster than the nuclear decline once nuclear-wing leakage is removed (R32/R21 clump/nucleus 0.88+-0.25; 4-3 an upper limit); the Band 7 primary-beam correction at r~8-10\" (PB~0.5) is not in the error budget [round-2 note: ratios R(J) are within one band, so absolute flux scale cancels (5% HCN-vs-HCO+ only); the differences R(J)/R(3-2) additionally depend on HCN and HCO+ being filtered alike by each array (p0003: <=9% at 3-2) -> add ~10%. These are NOT flux-ladder slopes; cross-band flux ladders carry a further 10-35% (see 'cross-band systematics' entry).] [Q38 REVISION: the \"disk\" 0.52/0.34/0.14 (2-1/3-2/4-3) are E1/E2/W clump POSITION values at a 10\" beam (7-8\" from the N-S midpoint), NOT 8-12\" annulus ratios (those are NO-GO for 3-2 and 4-3, see the disk-annuli entry). Robust: the sign and size of the 2-1 -> 3-2 step at E1 (R32/R21 = 0.64 at the position, 0.65-0.69+-0.15 from de-contaminated clump totals); insensitive to PB model (<2% on the ratio) and to zero level for Xb55/Xb4f (<3%). NOT robust: the 4-3 value 0.14 (E1 0.155, W 0.05; PB>=0.7 for a 12-m Gaussian PB excludes E1/E2/W; zero-level offsets of +-1x the far-field mean move E1 to 0.07-0.22; the de-contaminated E1 HCN 4-3 total is 0.00+-0.16 Jy km/s, R43<0.06): treat as an upper limit R43<~0.2. Not distinct from the nuclei: in uv-complete matched 2.2\" data (12m+7m 3-2, 12m 1-0) R32/R10 = 0.74+-0.07 (E1), 0.89+-0.06 (W), 0.63+-0.11 (E2) vs 0.75+-0.01 at N, so \"disk declines faster than the nuclei\" is NOT supported at 2.2\"; the stronger 10\" decline carries nuclear-wing leakage. See Q38 entry.]",
+ "uncertainty": "stat <=0.006 at the midpoint, 0.01-0.07 at clumps; 5% calibration; Xb4f vs Xb4d 5% (midpoint); Band 7 PB correction at the clumps uncalibrated",
+ "unit": "ratio",
+ "assumptions": [
+  {
+   "name": "line_windows",
+   "value": "core |v-VSYS|<350 km/s (VSYS=2780 radio-LSRK); w250/w500 windows change the ratios by <=3% (<=12% for faint clumps); per-pixel baseline from line-free channels (v<-600, 450-600)"
+  },
+  {
+   "name": "beam_matching",
+   "value": "cubes convolved with the analytic Fourier Gaussian (flux rescaled by beam-area ratio, as in s26) to a circular 6.5\" or 10\" beam; HCN and HCO+ always at the same beam; ratios are of Jy km/s per beam (flux units); multiply by (nu_HCO+/nu_HCN)^2 = 1.0126 (J=2), 1.0126 (J=3), 1.0126 (J=4) for K km/s"
+  },
+  {
+   "name": "flux_scale",
+   "value": "5% relative HCN-vs-HCO+ calibration (same OUS, adjacent windows) added in quadrature; filtering/recovery cancels in the ratio at N/S/Bridge (p0003) but not for faint clumps (factor 2)"
+  },
+  {
+   "name": "positions",
+   "value": "N, S, Bridge, E1, E2, W, Sblue from regions.py (0.24-1\" moment maps); midpoint = N-S midpoint"
+  }
+ ],
+ "confidence": "medium",
+ "evidence": "Q1: scripts/s30_matchedJ_ratios.py -> out/s30_ratios.txt/json (Xb55_J2_10as, Xb4f_J3_10as, Xb4d_J3_10as, Xb47_J4_10as)"
+}
+===== 99
+{
+ "quantity": "Disk (off-nuclear) HCN/HCO+ and its radial trend at a common 10\" beam with a go/no-go test per array and annulus (J=2-1 Xb55, 3-2 Xb4f/Xb4d, 4-3 Xb47)",
+ "target": "annuli about the N-S midpoint, 0-24\" (0-4.7 kpc)",
+ "value": "[Q38r2 REVISED: the E1/E2/W \"disk\" numbers are 10\" clump POSITION values blended with nuclear wings (R10 at E1 is 0.63 at 10\" vs 0.49 at uv-complete 2.2\"). Same-method ladder (de-contaminated totals): nucleus (N+S+bridge+halos) R21/R32/R43 = 0.58/0.45/0.38 (R32/R21 0.78+-0.12, R43/R21 0.66+-0.07); E1 0.35/0.24/<0.06 (R32/R21 0.69+-0.17); W 0.49/0.33/<0.33 (0.68+-0.15). Clump/nucleus double ratio of R32/R21 = 0.88+-0.25 (E1), 0.87+-0.23 (W) (0.5-0.6 sigma from 1; vs N alone 0.78+-0.23, 1.0 sigma): the 2-1 -> 3-2 decline is COMMON to nuclei and clumps. NO \"faster decline of the disk\" and NO disk-vs-nucleus excitation contrast is supported at 2-1/3-2. The 4-3 clump value is an upper limit (E1 R43/R21 < 0.17 vs nucleus 0.66+-0.07: formally lower, but it rests on Xb47 zero level and PB 0.5 at E1: suggestive only). See the Q38 entry.] GO only for Xb55 (J=2-1, Band 5, Gaussian PB model >=0.5 out to ~16\"): R(2-1) = 0.575+-0.002 (0-4\"), 0.554 (4-8\"), 0.489+-0.004 stat (8-12\"; +-0.03 incl. zero-level) [HCN 11.2, HCO+ 22.9 Jy km/s], i.e. a 12+-5% decline from 0.56 inside 8\" to 0.49 at 8-12\" (1.6-2.3 kpc). 12-17\" and 17-24\" annuli are NO-GO (net flux ~0 / negative: HCN -1.7/-10.3, HCO+ +1.1/-17.5 Jy km/s): negative bowl. Azimuthal sectors of Xb55 at 6-14\": 0.58 (N), 0.46 (E), 0.50 (S), 0.47 (W). The earlier s30 'annulus 8<r<20\" R=0.30' is an artefact of including the negative 17-24\" ring and is withdrawn. Xb4f 3-2: 0.442 (0-4\"), 0.398 (4-8\"), 8-12\" NO-GO (0.19, bowl-corrected 0.08+-0.08, 1-sigma bowl > flux); Xb4d 3-2 0.415/0.349 then NO-GO (0.30 PB, bowl 50%); Xb47 4-3 0.323/0.266 (0-4/4-8\") then NO-GO (negative HCN). So within r<8\" every array shows the ratio falling outward by 10-20% (2-1 0.575->0.554; 3-2 0.44->0.40; 4-3 0.32->0.27); a disk ratio proper (r>8\") exists only at J=2-1 (0.49+-0.03 +-~0.1 systematic), and only upper/lower limits for 3-2 (<~0.25 at 8-12\" if the bowl affects HCO+ and HCN equally, not reliable) and 4-3. Fraction of the r<8\" continuum flux in the 8-12\" annulus: 0.41 (Xb55), 0.27 (Xb4f), 0.27 (Xb4d), 0.14 (Xb47); HCO+ line fractions 0.33, 0.23, 0.20, 0.09: the same ordering, i.e. Band 6/7 annuli are increasingly resolved out. Clumps E1/E2/W at 10\" (blended with nuclear wings): R(2-1) 0.51-0.54, R(3-2) Xb4d 0.25-0.35, Xb4b E1 0.25+-0.06, which is NOT a faster decline than at the nuclei: the clump 2-1 -> 3-2 step (R32/R21 0.69+-0.17 E1, 0.68+-0.15 W from de-contaminated totals) equals the nuclear one (0.78+-0.12), double ratio 0.88+-0.25. Consequence: only the 2-1 annulus value (0.49+-0.03+-0.1 at 8-12\") is a disk measurement; it is 10-15% below the nuclear complex (modest, not a factor 2; the +-0.1 zero-level systematic makes it ~1 sigma); consistent with Harada+2018 that nuclear positions are not special; for 3-2 and 4-3 no disk ratio exists (NO-GO) and the 3-2 deficit cannot be separated from missing short spacings.",
+ "uncertainty": "stat 0.002-0.01; zero-level (far-field mean) bowl correction changes 8-12\" R(2-1) by <0.01 but the zero level is not flat (far-field mean is positive while the 17-24\" ring is negative), so a +-0.1 systematic is adopted for the disk ratio; PB: line-free rms of these pbcor cubes does not rise as 1/PB (flat to 17\" in Xb55), so the 12-m Gaussian model PB (FWHM 1.13 lam/D: 32.8\" B5, 21.9\" B6, 16.4\" B7) is used for the PB>=0.5 mask",
+ "unit": "ratio",
+ "assumptions": [
+  {
+   "name": "line_windows",
+   "value": "core |v-VSYS|<350 km/s (VSYS=2780 radio-LSRK), per-pixel baseline from line-free channels; ratios in Jy km/s (x1.0126 for K km/s at 3-2)"
+  },
+  {
+   "name": "beam_matching",
+   "value": "HCN and HCO+ cubes convolved with the analytic Fourier Gaussian (flux rescaled by beam-area ratio) to the same circular beam (10\" or 6.5\") or compared at native beams that agree to 1-2%"
+  },
+  {
+   "name": "noise",
+   "value": "per-pixel line-free rms; aperture sums: pixel-correlation (beam area) inflation, or empirical scatter at 300-400 random line-free positions"
+  },
+  {
+   "name": "distance",
+   "value": "40 Mpc, 194 pc/arcsec"
+  }
+ ],
+ "confidence": "low",
+ "evidence": "Q1r2: scripts/s36_disk_annuli.py -> out/s36_disk.txt/json"
+}
+===== 111
+{
+ "quantity": "Observed HCN and HCO+ J=2-1, 3-2, 4-3 ladders at the common 10\" beam (velocity-integrated Tb, K km/s, RJ, rest frame) and ladder ratios, at N, S, Bridge (N-S midpoint), disk positions E1/E2/W, Sblue and the r<8\" aperture",
+ "target": "10\" circular beam (1.9 kpc); position apertures = value of the smoothed map at the Q0 region position; disk = mean of E1,E2,W",
+ "value": "[Q38r2 REVISED: the E1/E2/W \"disk\" numbers are 10\" clump POSITION values blended with nuclear wings (R10 at E1 is 0.63 at 10\" vs 0.49 at uv-complete 2.2\"). Same-method ladder (de-contaminated totals): nucleus (N+S+bridge+halos) R21/R32/R43 = 0.58/0.45/0.38 (R32/R21 0.78+-0.12, R43/R21 0.66+-0.07); E1 0.35/0.24/<0.06 (R32/R21 0.69+-0.17); W 0.49/0.33/<0.33 (0.68+-0.15). Clump/nucleus double ratio of R32/R21 = 0.88+-0.25 (E1), 0.87+-0.23 (W) (0.5-0.6 sigma from 1; vs N alone 0.78+-0.23, 1.0 sigma): the 2-1 -> 3-2 decline is COMMON to nuclei and clumps. NO \"faster decline of the disk\" and NO disk-vs-nucleus excitation contrast is supported at 2-1/3-2. The 4-3 clump value is an upper limit (E1 R43/R21 < 0.17 vs nucleus 0.66+-0.07: formally lower, but it rests on Xb47 zero level and PB 0.5 at E1: suggestive only). See the Q38 entry.] HCN 2-1/3-2/4-3 | HCO+ 2-1/3-2/4-3 [K km/s]: N 12.4/4.8/1.6 | 20.3/10.0/4.5; S 11.7/4.3/1.4 | 20.9/10.0/4.3; Bridge 13.4/5.1/1.7 | 22.7/11.2/5.0; disk(E1,E2,W) 5.1/1.3/0.19 | 9.7/4.0/1.3; Sblue 7.8/2.6/0.69 | 14.4/6.4/2.4; r<8\" 7.7/2.6/0.71 | 13.6/6.2/2.4 (per 10\" beam, r<8\" is a total flux over the aperture). HCN/HCO+ (K) at J=2,3,4: N 0.61/0.48/0.36; S 0.56/0.43/0.32; Bridge 0.59/0.46/0.34; disk 0.52/0.34/0.14; Sblue 0.54/0.40/0.29. T(2-1)/T(3-2) is 2.6 (HCN) and 2.0 (HCO+) at N, 3.8 and 2.4 at the clump positions; T(4-3)/T(3-2) 0.34/0.45 at N, 0.14/0.33 at the clump positions (10\" blended values; the clump-vs-N differences are not established after de-contamination, see header). Disk 4-3 HCN is only 3-12 sigma per position (W 3 sigma). [Q38 REVISION: the \"disk\" 0.52/0.34/0.14 (2-1/3-2/4-3) are E1/E2/W clump POSITION values at a 10\" beam (7-8\" from the N-S midpoint), NOT 8-12\" annulus ratios (those are NO-GO for 3-2 and 4-3, see the disk-annuli entry). Robust: the sign and size of the 2-1 -> 3-2 step at E1 (R32/R21 = 0.64 at the position, 0.65-0.69+-0.15 from de-contaminated clump totals); insensitive to PB model (<2% on the ratio) and to zero level for Xb55/Xb4f (<3%). NOT robust: the 4-3 value 0.14 (E1 0.155, W 0.05; PB>=0.7 for a 12-m Gaussian PB excludes E1/E2/W; zero-level offsets of +-1x the far-field mean move E1 to 0.07-0.22; the de-contaminated E1 HCN 4-3 total is 0.00+-0.16 Jy km/s, R43<0.06): treat as an upper limit R43<~0.2. Not distinct from the nuclei: in uv-complete matched 2.2\" data (12m+7m 3-2, 12m 1-0) R32/R10 = 0.74+-0.07 (E1), 0.89+-0.06 (W), 0.63+-0.11 (E2) vs 0.75+-0.01 at N, so \"disk declines faster than the nuclei\" is NOT supported at 2.2\"; the stronger 10\" decline carries nuclear-wing leakage. See Q38 entry.]",
+ "uncertainty": "stat <1% per line; the ladder carries 7% per line + the band-scale systematics (10-35% across bands); same-J HCN/HCO+ ratios are free of the band scale (+-7-10%) | Q12 NOTE: these Q3 round-1 numbers used a symmetric band-scale nuisance (20/10/20%) common to all regions and the 12-m PB assumption; Q12 shows the recovery loss is one-sided (R_55>=R_4f>=R_47, ~4-16% on T21/T32, <=6% on T43/T32 within the model range), larger at the disk, and that Xb4f/Xb47/Xb55 are ACA (PB gain 0.83-0.97 at the clumps). The refit with the Q12 recovery budget is in the Q3r3 entries (s60); the disk numbers here are superseded.",
+ "unit": "K km/s; ratio",
+ "assumptions": [
+  {
+   "name": "distance",
+   "value": "40 Mpc (1\" = 194 pc), vsys 2750 km/s"
+  },
+  {
+   "name": "RADEX",
+   "value": "LAMDA hcn.dat, hco+.dat (H2 collisions), Tbg 2.73 K, expanding-sphere (LVG) geometry unless stated, N per 150 km/s"
+  },
+  {
+   "name": "beam",
+   "value": "all lines smoothed to a 10\" circular beam (Xb55 J=2, Xb4f J=3, Xb47 J=4), |v-vsys|<350 km/s, pbcor, continuum-subtracted"
+  },
+  {
+   "name": "calibration",
+   "value": "7% independent per line (flux scale+beam matching) + band-scale nuisance shared by HCN and HCO+ and by all regions: sigma 20%/10%/20% for Band 5/6/7 (baseline 'cal20'); 10%/10%/10% and 35%/15%/35% tested"
+  },
+  {
+   "name": "priors",
+   "value": "flat in log n 3-8, log Tk 10-300, log N(HCO+) 11.5-19, log A=log N(HCN)/N(HCO+) -1..1.5; common filling eta<=1 (flat in ln eta, analytic marginalisation)"
+  }
+ ],
+ "confidence": "medium",
+ "evidence": "Q3: scripts/s53_ladder_fit.py (grid from s52_radex_grid.py) -> out/q3/s53_ladder_fit.txt, s53_results.json, s53_nT_posteriors.png"
+}
+===== 112
+{
+ "quantity": "Does the 10\" ladder differ between regions? Bayesian and chi2 comparison of shared vs separate (n, Tk, N, A) for N vs S, deblended zone N vs zone S, N/S vs Bridge, and Bridge/N/S vs the disk; plus the model-free N/S ratio of HCN/HCO+ per J",
+ "target": "N, S, Bridge positions and deblended zones (s37) at the 10\" beam; disk = mean(E1,E2,W)",
+ "value": "N vs S: no difference is MEASURABLE at 10\" (Q3r4: not testable at 10\"; the ratios are within 8% because the apertures overlap). Same-J HCN/HCO+ ratio N/S = 1.09+-0.15, 1.12+-0.16, 1.13+-0.16 at J=2,3,4 (0.6-0.9 sigma, with 7% per line systematics; the stat error alone is 0.5%). Shared-parameter model: dchi2(shared - separate) = 2.1 for 4 extra parameters (p=0.72); ln Bayes factor (separate/shared) = -6.3 (an Occam penalty for 4 extra parameters on near-identical data, NOT evidence for equal conditions). Deblended zones N vs S: ratio 1.40+-0.41, 1.34+-0.46, 1.32+-0.71 (J=2,3,4), dchi2 = 3.0, p=0.56, ln B = -3.3. N or S vs Bridge: dchi2 0.2, ln B -7: identical. The same results hold for cal10 and ratios-only. Disk clump positions (E1,E2,W; 10\" blended) vs Bridge/N/S: DIFFERENT at 10\" in the 4-3 ratio and (weakly) 3-2, but [Q38r2] the same-method de-contaminated 2-1/3-2 ladder shows no clump-vs-nucleus difference (double ratio 0.88+-0.25) and the 4-3 clump value is an upper limit, so this 10\" difference is carried by 4-3 (Xb47 PB~0.5, zero level) and nuclear-wing leakage, not established as excitation. HCN/HCO+(4-3) Bridge/disk = 2.4+-0.3 (6.1 sigma), N/disk 2.5+-0.4 (6.6), S/disk 2.2+-0.3 (5.7); J=3: 1.36+-0.19 (2.2 sigma); J=2: 1.1+-0.16. Shared-parameter fit rejected: dchi2 = 116 (Bridge vs disk), 128 (N vs disk), 96 (S vs disk) for 4 extra parameters; ln B > +40; even with shared (n,Tk) and separate (N,A): dchi2 10.5-13.9 for 2 extra (p=0.001-0.005, ln B 3.7-5.1). (round-1 disk fit, superseded by the Q3r4 E1/E2/W entries) log n(H2) 5.25 [4.75,5.75], Tkin 20 [14,28] K, log N(HCO+)/150 km/s 14.00 [13.25,15.50], A=N(HCN)/N(HCO+) 10^0.50 (10^[0.25,0.50]), P(n>1e5)=0.66, P(Tk>50 K)=0.00, P(A>1)=0.93, chi2min 2.02 (chi2min 2.0 for 1 dof, eta~0.8: formally at the filling boundary, mild tension). Cold (Tk 14-28 K) holds when the Band 5 or Band 7 scale is left free (P(Tk>50)=0.01). The disk also has the lowest S/N (4-3: W 3 sigma, E1 11, E2 20, per position). N vs S differences visible at 0.25-1\" (HCN/HCO+ 3-2 0.83-1.0 vs 0.40, Q1) wash out at 10\": the N-core contributes only ~18% (HCN) and ~10% (HCO+) of the 10\" 3-2 flux at the N position, and the two nuclei are 5\" apart, so N and S beams share the same envelope. [SUPERSEDED in part by the Q3r4 entries: N vs S vs Bridge is not testable at 10\"; centre Tk is a lower limit; disk contrast tested on ratio-of-ratios]",
+ "uncertainty": "N vs S ratio +-0.15 (7% per line); chi2 and lnB depend on the 7%/band-scale model; coarse (n,T,N) grid for the Bayes factors | Q12 NOTE: these Q3 round-1 numbers used a symmetric band-scale nuisance (20/10/20%) common to all regions and the 12-m PB assumption; Q12 shows the recovery loss is one-sided (R_55>=R_4f>=R_47, ~4-16% on T21/T32, <=6% on T43/T32 within the model range), larger at the disk, and that Xb4f/Xb47/Xb55 are ACA (PB gain 0.83-0.97 at the clumps). The refit with the Q12 recovery budget is in the Q3r3 entries (s60); the disk numbers here are superseded.",
+ "unit": "ratio; chi2; ln B",
+ "assumptions": [
+  {
+   "name": "distance",
+   "value": "40 Mpc (1\" = 194 pc), vsys 2750 km/s"
+  },
+  {
+   "name": "RADEX",
+   "value": "LAMDA hcn.dat, hco+.dat (H2 collisions), Tbg 2.73 K, expanding-sphere (LVG) geometry unless stated, N per 150 km/s"
+  },
+  {
+   "name": "beam",
+   "value": "all lines smoothed to a 10\" circular beam (Xb55 J=2, Xb4f J=3, Xb47 J=4), |v-vsys|<350 km/s, pbcor, continuum-subtracted"
+  },
+  {
+   "name": "calibration",
+   "value": "7% independent per line (flux scale+beam matching) + band-scale nuisance shared by HCN and HCO+ and by all regions: sigma 20%/10%/20% for Band 5/6/7 (baseline 'cal20'); 10%/10%/10% and 35%/15%/35% tested"
+  },
+  {
+   "name": "priors",
+   "value": "flat in log n 3-8, log Tk 10-300, log N(HCO+) 11.5-19, log A=log N(HCN)/N(HCO+) -1..1.5; common filling eta<=1 (flat in ln eta, analytic marginalisation)"
+  }
+ ],
+ "confidence": "medium",
+ "evidence": "Q3: scripts/s53_ladder_fit.py (grid from s52_radex_grid.py) -> out/q3/s53_ladder_fit.txt, s53_results.json, s53_nT_posteriors.png; the pair comparison is pair_compare() in s53"
+}
+===== 133
+{
+ "quantity": "Disk (E1) vs centre excitation contrast tested on calibration-independent ratio-of-ratios and on the RADEX posteriors with common calibration",
+ "target": "E1 vs N (centre); E2, W unconstrained",
+ "value": "[Q38r2 DOWNGRADED] The E1-vs-centre Tk contrast below applies ONLY to the 10\" blended ladder and is NOT confirmed with uv-complete matched 2.2\" data. RADEX (s243, 1-0 X961 12m + 3-2 Q34 12m+7m, HCN and HCO+, K km/s at 2.2\", 5% per line, shared 10%/15% band scales, Tk<=300 K): N Tk 40 K [14,158]; E1 Tk 178 K [79,251], P(Tk_E1<Tk_N)=0.17 (W: 0.11); P(n_E1<n_N)=0.51; log A = log N(HCN)/N(HCO+): N 0.70 [0.50,0.70], E1 0.30 [0.20,0.40], P(A_E1<A_N)=1.00. Bayes factors vs free (N vs E1): same-Tk&n (abundance/column free) +1.00, same-A (excitation only) -2.10, same-A&N -1.31, same-Tk +0.01, same-n +0.94, all-equal -14.2. So at matched resolution E1 differs from N in HCN/HCO+ abundance/opacity (R10 0.49 vs 0.84 is already present at J=1-0) and not by lower Tk; the 10\" posterior P(Tk_E1<Tk_centre)=0.91-0.99 is withdrawn as evidence of cooler disk gas (only 4 data per position at 2.2\", Tk weakly constrained: the statement is \"no lower Tk at E1\", not \"E1 is warm\"). Matched 2.2\" r31=T(3-2)/T(1-0) clump/N: E1 HCN 0.80+-0.07, HCO+ 0.81+-0.03 (a 20% lower r31, not the factor 2 of 10\" T43/T32); E2 0.34/0.40 and W 0.55/0.46 depend on the 12m-only 3-2 recovery (E2 HCO+ 1.9 K km/s 12m vs 4.7 comb) and are lower limits on r31 recovery. The 10\" analysis follows (superseded in interpretation): Ratio-of-ratios E1/N (K km/s, 10\") with errors that include stat, the E1 primary-beam term (max(0.3(1-PB), 0.5|1-A/B|); A/B differs by 34% at Xb47 HCN, 19% HCO+) and the Q12 recovery difference (band scales and the per-line terms are the same cubes at both positions and cancel): HCN T21/T32 1.46 (recovery-corrected 1.62), sigma_ln 0.074 -> 6.5 sigma; HCN T43/T32 0.48 (0.45), sigma 0.206 (stat 0.092, PB 0.18) -> 3.9 sigma; HCO+ T21/T32 1.18 (1.31), sigma 0.057 -> 4.8 sigma; HCO+ T43/T32 0.76 (0.71), sigma 0.111 (PB 0.10) -> 3.1 sigma. If the calibration did NOT cancel (independent bands per position, 7% per line) the same ratios would be 1.9, 2.5, 1.1, 1.3 sigma: the contrast rests on the calibration being common to both positions. E1 detection (stat, 10\" |v|<350 km/s): HCN 2-1/3-2/4-3 93/50/11 sigma, HCO+ 161/146/62 sigma; the HCN 4-3 flux is a 11-sigma stat detection but carries the 34% PB/A-B systematic; W HCN 4-3 (2.7 sigma) is not used. Which survives: the HCN ratios (T21/T32 up 46%, T43/T32 down by a factor 2) survive any 10-15% band calibration; the HCO+ differences (18%, 24%) are 3-5 sigma only with the calibration common and recovery/PB as modelled. Posterior contrast with the same band-scale draws applied to E1 and N (analytic per-position terms, 256 Sobol draws): P(Tk_E1<Tk_centre)=0.94 for HCN+HCO+ (Tk_E1 32 K [20,50] vs 141 K [56,223]), 0.91 HCN alone, 0.64 HCO+ alone; flat-Tk-to-500 prior 0.99/0.99/0.69; band 15/10/15%: 0.92/0.89/0.63; with the 7% per-line term also common 1.00/0.95/0.76; no calibration error 0.98/0.96/0.66. P(n_E1>n_centre)=0.64/0.54/0.40: no density contrast. Interpretation: the contrast is carried by HCN (T43/T32 and T21/T32), not by HCO+ (P<0.8). Weak HCN 4-3 at E1 can be lower excitation (Tk<~55 K) or lower HCN/HCO+ abundance/opacity at 4-3, or a PB/recovery artefact at Xb47 (PB term 17%, A/B 0.66): these are not separated by the 10\" data; the Q12 de-contamination also shows the disk T21/T32 excess against the nuclear complex vanishes for E1 (E1 Xb4d/Xb4f recovery 1.0). E2 and W remain unconstrained (below). ",
+ "uncertainty": "10\" analysis: ratio-of-ratios sigma 0.057-0.21 (ln), P(Tk_E1<Tk_centre)=0.91-0.99 NOT supported at matched 2.2\" (P=0.17); matched 2.2\": stat 2-8% per datum plus 5% per line, Tk E1 [79,251], N [14,158]",
+ "unit": "ratio; probability",
+ "assumptions": [
+  {
+   "name": "distance",
+   "value": "40 Mpc (1\" = 194 pc)"
+  },
+  {
+   "name": "RADEX",
+   "value": "LAMDA hcn.dat, hco+.dat (H2 collisions), LVG, Tbg 2.73 K, N per 150 km/s (only N/dv matters); grid Tk 10-500 K (13 values), n(H2) 1e3-1e8, N 11.5-19; J=1-0..4-3; interpolated in ln T_R to 0.05 dex in Tk, 0.125 dex in n, 0.1 dex in N and A; converged (0.2 dex steps in N, A changes Tk 16% edge from 61 to 126 K, 0.05 dex steps change nothing)"
+  },
+  {
+   "name": "data",
+   "value": "Xb55 J=2, Xb4f J=3, Xb47 J=4 smoothed to a 10\" circular beam, |v-vsys|<350 km/s, pbcor, K km/s (RJ, rest frame); stat S/N 60-440 at the centre, 3-160 at the disk positions"
+  },
+  {
+   "name": "priors",
+   "value": "flat in log n 3-8, log Tk 1-2.48 (baseline), log N(HCO+) 11.5-19, log A=log N(HCN)/N(HCO+) -1..1.4; one filling eta<=1 per position (flat in ln eta, analytic marginalisation); variants: log Tk to 500, flat Tk to 500, flat n to 1e8/1e7/1e6"
+  },
+  {
+   "name": "calibration",
+   "value": "10% per band (Xb55, Xb4f, Xb47) shared by HCN and HCO+ and by all positions in the same fit (analytic, one set of band scales), 7% per line (independent per position unless stated), Q12 recovery (centre f2 U[.85,.95], f4 U[1.03,1.12]; E1 0.95-1.05; E2, W 0.6-1/1-1.5) as a shared mean shift and variance"
+  }
+ ],
+ "confidence": "low",
+ "evidence": "Q3r4: s65_disk_contrast.py -> out/q3d/s65_disk_contrast.txt/json (PB table out/q3b/s55a_pb_snr.json) ; Q38r2: scripts/s243_q38_radex_E1.py -> out/q38/s243.txt/json"
+}
+===== 136
+{
+ "quantity": "Disk positions E1, E2, W: n and Tk from the 10\" ladder, posterior against prior (which parameters the data constrain)",
+ "target": "E1, E2, W (PB and Q12 budgets; W HCN 4-3 dropped)",
+ "value": "[Q38r2: the E1 \"Tk<~56 K\" statement is from the 10\" blended ladder (HCN 4-3 weak) and is NOT reproduced with uv-complete matched 2.2\" 1-0+3-2 data (E1 Tk 178 K [79,251], P(Tk_E1<Tk_N)=0.17, see the disk-contrast entry): withdrawn as a physical temperature.] E1: Tk = 35 K [20,56] (5%: 14 K; P(Tk>50)=0.24 vs prior 0.42; P(Tk<30)=0.39 vs 0.42): an upper-limit-like statement, Tk<~56 K at 84%, with the lower end set by the prior edge (KL(Tk) 0.29 nats); log n 4.75 [3.75,5.38] (P(n>1e5)=0.34 vs prior 0.53; KL 0.41). E2: Tk 45 K [22,79], log n 5.0 [3.6,5.5] (KL 0.14, 0.35 nats): PRIOR-DOMINATED. W: Tk 63 K [25,141], log n 4.4 [3.5,5.1] (KL 0.11, 0.37 nats): PRIOR-DOMINATED (HCN 4-3 missing). Ratios-only (band scales free): n spans 10^3.5-10^6.0 at E1, E2 and W (KL <=0.14 nats); Tk E1 25 K [16,50], E2 32 K [16,63], W 40 K [18,112]. N for comparison: KL 0.65 (Tk), 0.51 (n). So only E1 carries a (HCN-driven) temperature statement; E2 and W are unconstrained, and no disk density statement is supported.",
+ "uncertainty": "E1 Tk <~56 K (84%); E2, W unconstrained (posterior ~ prior)",
+ "unit": "K; dex",
+ "assumptions": [
+  {
+   "name": "distance",
+   "value": "40 Mpc (1\" = 194 pc)"
+  },
+  {
+   "name": "RADEX",
+   "value": "LAMDA hcn.dat, hco+.dat (H2 collisions), LVG, Tbg 2.73 K, N per 150 km/s (only N/dv matters); grid Tk 10-500 K (13 values), n(H2) 1e3-1e8, N 11.5-19; J=1-0..4-3; interpolated in ln T_R to 0.05 dex in Tk, 0.125 dex in n, 0.1 dex in N and A; converged (0.2 dex steps in N, A changes Tk 16% edge from 61 to 126 K, 0.05 dex steps change nothing)"
+  },
+  {
+   "name": "data",
+   "value": "Xb55 J=2, Xb4f J=3, Xb47 J=4 smoothed to a 10\" circular beam, |v-vsys|<350 km/s, pbcor, K km/s (RJ, rest frame); stat S/N 60-440 at the centre, 3-160 at the disk positions"
+  },
+  {
+   "name": "priors",
+   "value": "flat in log n 3-8, log Tk 1-2.48 (baseline), log N(HCO+) 11.5-19, log A=log N(HCN)/N(HCO+) -1..1.4; one filling eta<=1 per position (flat in ln eta, analytic marginalisation); variants: log Tk to 500, flat Tk to 500, flat n to 1e8/1e7/1e6"
+  },
+  {
+   "name": "calibration",
+   "value": "10% per band (Xb55, Xb4f, Xb47) shared by HCN and HCO+ and by all positions in the same fit (analytic, one set of band scales), 7% per line (independent per position unless stated), Q12 recovery (centre f2 U[.85,.95], f4 U[1.03,1.12]; E1 0.95-1.05; E2, W 0.6-1/1-1.5) as a shared mean shift and variance"
+  }
+ ],
+ "confidence": "low",
+ "evidence": "Q3r4: s67_disk_positions.py -> out/q3d/s67_disk_positions.txt/json"
+}
+===== 217
+{
+ "quantity": "Q38: is the disk (E1/E2/W clump) HCN/HCO+ decline with J robust? PB mask, zero level, nuclear leakage, short spacings; 10\" ladder, de-contaminated clump totals and uv-complete matched 2.2\" 1-0/3-2",
+ "target": "clumps E1 (9\" E of N), E2, W; N for reference; team-a p0032/p0033/p0043 challenge",
+ "value": "PARTLY REVISED. (1) Agreement with team-a p0032: 8-12\" annulus ratios at 3-2 and 4-3 are not measurable (already NO-GO in our annulus entry); the 0.52/0.34/0.14 are clump-position values at 10\", not an annulus ladder. (2) 10\" ratios (K km/s) at E1/E2/W: 2-1 0.518/0.536/0.508; 3-2 Xb4f 0.329/0.339/0.338 (Xb4d 0.319/0.277/0.255); 4-3 0.155/0.191/0.048. Zero-level offsets (+-1x far-field mean): 2-1 <=0.013, Xb4f <=0.004; Xb4d 0.22-0.39 (E1; its far-field level is at PB~0.2, unreliable); Xb47 E1 0.07-0.22. PB-model effect on the ratio <=1.6%. (3) De-contaminated clump totals (NNLS, free constant): R21 E1 0.35+-0.04, W 0.49+-0.05, E2 0.44+-0.14; R32 E1 0.24+-0.05 (Xb4f) / 0.23+-0.04 (Xb4d), W 0.33+-0.05 (Xb4f), E2 <0.12 (Xb4f); R43 E1 <0.06, W <0.33, E2 <0.17 (2 sigma): R32/R21 = 0.69+-0.15 (E1 Xb4f), 0.65+-0.14 (Xb4d), 0.68+-0.13 (W). (4) uv-complete matched 2.2\" (X961 12m 1-0; Q34 12m+7m 3-2): R10 E1 0.49+-0.02, E2 0.46, W 0.49, N 0.84; R32 E1 0.365+-0.03, E2 0.29+-0.05, W 0.43+-0.03, N 0.63; R32/R10 E1 0.74+-0.07, E2 0.63+-0.11, W 0.89+-0.06, N 0.75+-0.01; r31 (HCN, HCO+) clump/N: E1 0.80+-0.07, 0.81+-0.03, E2 0.34, 0.40, W 0.55, 0.46 (12m-only 3-2 recovers much less at E2: HCO+ 1.9 vs 4.7 K km/s, so E2/W r31 are lower limits on recovery). (5) NEW, same-method nucleus (s244; s58d NNLS native-beam totals): nuc_total R21 0.58+-0.06, R32 0.45+-0.03, R43 0.38; R32/R21 0.78+-0.12, R43/R21 0.66+-0.07 (N alone 0.90/0.79/0.53: 0.88+-0.15, 0.59+-0.07; 10\" position N 0.78, 0.59). Clump/nucleus double ratio of R32/R21: E1 0.88+-0.25, W 0.87+-0.23 (vs N alone 0.78+-0.23, 0.77+-0.21), i.e. 0.5-1.1 sigma from 1: the 2-1->3-2 decline is common to nuclei and clumps. 4-3: E1 R43/R21<0.17 vs 0.66+-0.07 nucleus (formally lower, but E1 HCN 4-3 total is 0.00+-0.16 Jy km/s at PB~0.5, zero level moves the 10\" value 0.07-0.22: suggestive only). (6) NNLS injection test (s242; simulated skies = fitted nuclear+clump model + optional unmodelled 25\"/40\" extended component, ACA-like uv coverage 8.7-45 m, Hogbom clean, PB, native-beam maps refitted with the same design): recovered/true R(J) for E1 and W = 1.00-1.01 (R21), 1.01-1.03 (R32), 0.92-0.93 (R43), R32/R21 recovered 1.00-1.03 for a flat truth (0.70 -> 0.70-0.73 for a true decline 0.5/0.35), nuclear R ladder exact (+-1%); E2 is biased (R32/R21 1.02-1.12; R43 recovered 0.2-0.5 of truth) and is excluded. Caveat: identical morphology in both lines, no noise, assumed uv coverage, so this validates the fit machinery, not the real uv sampling. (7) E2: 12m-only vs comb 3-2 differ by a factor 2.5 (HCO+ 1.9 vs 4.7 K km/s; R32/R10 0.18+-0.23 vs 0.63+-0.11) and the NNLS E2 is biased: E2 is DROPPED from the ladder/double-ratio claims; E1 and W 12m-only and comb agree (R32/R10 0.72 vs 0.74; 0.89 vs 0.89). (8) RADEX with matched 2.2\" 1-0 + 3-2: no lower Tk at E1 (P(Tk_E1<Tk_N)=0.17), E1 differs from N by lower HCN/HCO+ abundance/column ratio (see the disk-contrast entry). CONCLUSION (CONFIRMED in part / REVISED for p0032 and p0033): p0032 is right that 8-12\" 3-2 and 4-3 disk annulus ratios are not measurable, and our 0.52/0.34/0.14 were clump-position values at 10\", not an annulus ladder (REVISED). Robust: HCN/HCO+ at the E1 and W clumps falls by ~30% from 2-1 (or 1-0) to 3-2 (R32/R21 0.69+-0.17 / 0.68+-0.15; R32/R10 0.74+-0.07 / 0.89+-0.06 at 2.2\"), the SAME decline as in the nuclei (0.78+-0.12; R32/R10 0.75+-0.01 at N). NOT supported: a faster disk decline, or disk excitation lower than the nucleus (matched 2.2\" r31 clump/N 0.80-0.81, RADEX P(Tk_E1<Tk_N)=0.17). The 4-3 clump ratio is an upper limit (<~0.2). The decline with J is therefore a property of HCN/HCO+ in all regions (a downgrade of the \"disk decline with J\" claim to \"common decline with J\", with the 1-0 disk ratio 0.49 (p0033: only 6-10% decline at 1-0 in the disk) being the real clump-vs-nucleus difference: 0.49 vs 0.84 at N).",
+ "uncertainty": "10\" positions: stat 0.003-0.02, zero level +-0.01 (Xb55/Xb4f), +-0.1 (Xb4d, Xb47), PB <2%, nuclear leakage biases the 10\" 1-0 and 2-1 ratios high by ~0.1-0.15 (R10 0.63 at 10\" vs 0.49 at 2.2\" for E1); clump totals: sign-flip + variant spread; 2.2\": stat only plus 12m-only 1-0 recovery unquantified; calibration 5-10% per band is common to same-band ratios but enters R32/R21 and R32/R10 (add ~10%); double ratios include 5% per line calibration on each ratio (10% on the ratio of ratios), sign-flip and model-variant spread; NNLS injection bias <=3% (R21,R32), 8% (R43) for E1/W under the assumed uv coverage",
+ "unit": "ratio",
+ "assumptions": [
+  {
+   "name": "positions",
+   "value": "E1/E2/W nominal positions of regions.py; 2.2\" apertures re-centred on the HCO+ peak within 1\""
+  },
+  {
+   "name": "zero_level",
+   "value": "additive offset = f x far-field mean of each line map (f=-1..1), per-pixel line-free baseline otherwise; clump totals with free-sign constant"
+  },
+  {
+   "name": "PB",
+   "value": "12-m Gaussian PB model and a 7-m-like (FWHM x1.7) model bracket the true PB; same-J ratios change <2%"
+  },
+  {
+   "name": "conversion",
+   "value": "RJ T_b; 2-1/3-2/4-3 Jy ratio x (nu_HCO+/nu_HCN)^2; 2.2\" ratios computed in K km/s from pbcor cubes"
+  }
+ ],
+ "confidence": "low",
+ "evidence": "Q38: scripts/s240_q38_disk_clumps.py -> out/q38/s240.txt/json; scripts/s241_update_report_q38.py; inputs s30 maps, q12b/clumpfit, q34 12m+7m cubes, 2015.1.00993.S X961; scripts/s242_q38_injection.py, s243_q38_radex_E1.py, s244_q38_clump_vs_nucleus.py, s245_update_report_q38r2.py"
+}

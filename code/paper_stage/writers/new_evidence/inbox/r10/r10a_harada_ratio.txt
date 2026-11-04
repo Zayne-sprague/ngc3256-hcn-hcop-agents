@@ -1,0 +1,7 @@
+N: HCN/HCO+ integrated = 0.961 +- 0.006; peak-intensity ratio = 0.947
+S: HCN/HCO+ integrated = 0.645 +- 0.013; peak-intensity ratio = 0.660
+N/S integrated = 1.490 +- 0.032; from 2-decimal ratios 0.96/0.65 = 1.477; N/S peak = 1.434
+team-a beam 1.0": N 1.059 S 0.731 N/S 1.449 +- 0.223
+team-a beam 1.4": N 0.974 S 0.693 N/S 1.406 +- 0.131
+team-a beam 1.9": N 0.933 S 0.654 N/S 1.426 +- 0.101
+team-a beam 2.5": N 0.899 S 0.623 N/S 1.443 +- 0.094

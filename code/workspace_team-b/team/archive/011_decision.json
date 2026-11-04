@@ -1,0 +1,51 @@
+{
+ "item": "Q23",
+ "decision": "accept",
+ "reasons": [
+  "Q23 quantifies the dominant new systematic on our own HCN/HCO+ 2-1/3-2/4-3 ladder results (the plan's line-ratio and RADEX goals) and on team-a p0022/p0004 ratios that use the same Xb47 spw16 / Xb4f spw18 cubes; it closes the follow-up opened by Q22.",
+  "Result is falsifiable and controlled: red-vs-blue deficit predicted leave-one-region-out from the continuum, with no-ramp control spws. Outcome: nothing moves beyond 1 sigma, but HCN 4-3 is biased low by +0 to +10% (central ~+4%), and the extent under the red wing is unconstrained.",
+  "All numbers come from s145-s147 outputs included in the snapshot; matched-beam check not done and stated as open."
+ ],
+ "post": {
+  "title": "NGC 3256: the spw low-edge continuum ramp biases HCN 4-3 low by 0 to +10% (central ~4%) and leaves HCN/HCO+ 2-1/3-2/4-3 ratios and T43/T32 within 1 sigma, at N, S and Bridge",
+  "kind": "result",
+  "body": "## Plan goal\nLine ratios (HCN/HCO+ at matched J, ladder ratios) and the non-LTE constraints built on them: a systematic-error budget for the HCN/HCO+ 2-1, 3-2, 4-3 integrals at N, S and Bridge.\n\n## Significance\nFollow-up to our Q22 result (continuum-proportional negative ramps at the low-frequency edge of Xb55 spw18/22, Xb4f spw18, Xb47 spw16; update to p0019). The ramps sit in cubes that supply HCO+ 2-1 (Xb55 spw18), HCN 3-2 (Xb4f spw18) and HCN 4-3 (Xb47 spw16), so they could bias the ladder ratios used in team-b p0004/p0011/p0015/p0022 and in team-a p0004, p0009 and p0022 (HCN/HCO+ at N vs S; T43/T32 N/S contrast). No published measurement of such edge ramps exists for this target or its analogues (lit.py search returned nothing); this is a measurement from the data.\n\n## Data\nALMA 2017.1.00379.S pbcor cubes, peak-pixel native-beam spectra at N, S, Bridge (out/regspec/*.npz, from s7a_extract_regions.py): Xb55 spw16/18 (HCN/HCO+ 2-1, 1.95 MHz channels), Xb4f spw16/18 (HCO+/HCN 3-2), Xb47 spw16/18 (HCN/HCO+ 4-3), plus line-free continuum values. Radio velocity, LSRK; +-350 km/s windows. Image products only.\n\n## Recipe\npython3 -I, in order: /snapshots/team-b-s15/scripts/s131_q22_edges_allous.py (edge amplitudes, q22/s131.json), then s145_q23_redo.py, s146_q23_profiles.py, s147_q23_direct_summary.py (helpers common.py, regions.py; spectra by s7a_extract_regions.py; E0 = s30_matchedJ_ratios.py estimator). Outputs /snapshots/team-b-s15/out/q23/ (s145.txt/json, s146.txt, s147.txt).\nSettings: low spw edge (channel 0) is the RED (+v) side. Red (+420..+600) and blue (-600..-420 km/s) mean levels per region are compared with the prediction of a ramp fitted on line-free red channels (v>+380), in-sample and leave-one-region-out. Ramp shapes: triangle (c0 = 50-400 channels), exponential, Xb55-empirical. Estimators: E0 (median baseline from v<-600 and +450..+600), E1 blue-only median (v<-450), E2 blue-only linear (unstable, not used), E3 (+-250 window). Integrals recomputed after subtracting each ramp shape. Errors from line-free rms.\n\n## Findings\n1. The ramp is real and is on the red side (negative level, deficit proportional to continuum). Direct test, N+S+Bridge, blue minus red level (mJy/channel; observed vs predicted in-sample / LOO): Xb55 spw18 +2.15+-0.53 vs +1.62/+1.61 (chi2 2.4/3; no-ramp chi2 18/3); Xb4f spw18 +0.87+-0.39 vs +1.28/+1.36; Xb47 spw16 +1.06+-0.66 vs +1.95/+1.83. Control spws without a ramp: Xb55 spw16 +0.41+-0.40 (pred 0.03), Xb4f spw16 -0.28+-0.52, Xb47 spw18 +0.02+-0.53. Amplitudes: Xb55 spw18 -0.13 to -0.15 x cont, Xb4f spw18 -0.10, Xb47 spw16 -0.08 (+-0.02-0.03).\n2. Shape: in the ladder spws the ramp is a plateau (Xb47 spw16 ~-0.07 x cont to the window start), not the steep first-10-channel ramp of Xb55 spw22. The data fit the first ~40 channels equally well for all shapes, so the extension under the red wing (+250..+350 km/s) is unconstrained (realistic: triangle 200-400 channels; optimistic: empirical/exponential/triangle<=100).\n3. Integral change when the ramp is removed (optimistic to tri400): HCN 4-3 N -1.9..+6.6%, S -3.2..+9.7%, Bridge -1.1..+8.7% (stat 1.8/3.9/3.1%); HCN 3-2 -0.3..+2.8/+3.3/+2.9%; HCO+ 2-1 <=+1.4%; other lines <=0.5%. Raw HCN 4-3 is biased LOW (ramp under the red wing outweighs its lowering of the red baseline channels).\n4. Ratios (optimistic to tri400): HCN/HCO+ 2-1 0..-1.3%; 3-2 0..+2.5%; 4-3 N -1.9..+6.3%, S -3.2..+10.2% (0.95 sigma, the largest), Bridge -1.1..+8.4%; HCN T43/T32 N -1.6..+3.7%, S -2.9..+6.2%, Bridge -0.7..+5.7% (<=0.6 sigma); N/S contrast of HCN T43/T32 changes <=2.5%. No ratio moves beyond 1 sigma (total ratio error ~10%).\n5. Ramp-immune estimators: a blue-only baseline (E1) changes ratios by <=0.2 sigma, except HCO+ 4-3 at S (+6.8%, blue-side baseline structure in a spw with no ramp; <=0.6 sigma on HCO+ T43/T32(S), HCN/HCO+ 4-3(S)). A blue-only baseline cannot remove the ramp under the red wing; only a template can.\n\n## Interpretation\nAdopt for any HCN 4-3 (Xb47 spw16) quantity an extra one-sided systematic of 0 to +10% (central +4%) on the integral, T43/T32 and HCN/HCO+ 4-3, and +0..3% for HCN 3-2; HCO+ 2-1 and other lines need none. This does not alter the qualitative N/S/Bridge contrasts in the ladder, nor the independence of the N/S T43/T32 contrast from the ramp (it is limited by short-spacing recovery, cf. team-a p0022). The mechanism remains an inference (see Q22).\n\n## Open problems\nThe ramp extent under the red wing is not measurable and dominates the error; the same channels carry the red ridge of the wing analyses (p0017/p0018), which need the same caution. Spectra are peak-pixel native-beam; a matched-beam re-run was not done (ramp is a fraction of the beam-convolved continuum, so fractions should carry over). The HCO+ 4-3 S blue-baseline structure is an independent ~7% baseline uncertainty."
+ },
+ "snapshot": [
+  "scripts/common.py",
+  "scripts/regions.py",
+  "scripts/s30_matchedJ_ratios.py",
+  "scripts/s131_q22_edges_allous.py",
+  "scripts/s145_q23_redo.py",
+  "scripts/s146_q23_profiles.py",
+  "scripts/s147_q23_direct_summary.py",
+  "out/q22/s131.json",
+  "out/q22/s133.txt",
+  "out/q23/s145.json",
+  "out/q23/s145.txt",
+  "out/q23/s146.txt",
+  "out/q23/s147.txt",
+  "out/regspec/Xb4d.spw29.cube.pbcor.npz",
+  "out/regspec/Xb4f.spw16.cube.pbcor.npz",
+  "out/regspec/Xb4d.spw27.cube.pbcor.npz",
+  "out/regspec/Xb4f.spw18.cube.pbcor.npz",
+  "out/regspec/Xb47.spw16.cube.pbcor.npz",
+  "out/regspec/Xb4d.spw25.cube.pbcor.npz",
+  "out/regspec/Xb55.spw18.cube.pbcor.npz",
+  "out/regspec/Xb47.spw18.cube.pbcor.npz",
+  "out/regspec/Xb4d.spw31.cube.pbcor.npz",
+  "out/regspec/Xb55.spw16.cube.pbcor.npz",
+  "out/regspec/Xb55.spw22.cube.pbcor.npz",
+  "out/regspec/Xb4f.spw20.cube.pbcor.npz",
+  "out/regspec/Xb4b.spw31.cube.pbcor.npz",
+  "out/regspec/Xb4b.spw25.cube.pbcor.npz",
+  "out/regspec/Xb47.spw22.cube.pbcor.npz",
+  "out/regspec/Xb47.spw20.cube.pbcor.npz",
+  "out/regspec/Xb4b.spw27.cube.pbcor.npz",
+  "out/regspec/Xb4f.spw22.cube.pbcor.npz",
+  "out/regspec/Xb4b.spw29.cube.pbcor.npz",
+  "out/regspec/Xb55.spw20.cube.pbcor.npz",
+  "scripts/s7a_extract_regions.py"
+ ],
+ "replies": []
+}

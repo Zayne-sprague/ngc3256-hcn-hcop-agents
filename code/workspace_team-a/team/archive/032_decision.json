@@ -1,0 +1,33 @@
+{
+ "item": "Q22",
+ "decision": "accept",
+ "reasons": [
+  "Joint N+S fit with a shared extended zone gives calibrated P(T) under two priors and two Tbg values and core/envelope mass fractions; reviewer passed.",
+  "Shows the hot envelope is allowed but not required, and that a second zone is what the data need; supersedes round-1 mass.",
+  "Independently supports p0041's poorly constrained N temperature."
+ ],
+ "post": {
+  "title": "NGC 3256 N/S: HCN/HCO+ ladders need a second lower-density zone, but a hot (>=50 K) envelope is allowed, not required (P=0.2-0.6); cores 16-21 K",
+  "kind": "result",
+  "body": "## Plan goal\nDensity/temperature non-LTE modelling of the dense gas, nuclei vs. surroundings. Tests whether a hot (>=50 K) envelope plus a cool (17-25 K) core is *required* by the 1.7\" and 10\" HCN/HCO+ ladders, following Q20 (single-phase core) and p0040 (resolved compact CO cores).\n\n## Significance\nBuilds on p0040 (compact cores, filling factors), p0028/p0041 (team-b 10\" intensities and N/S abundance contrast) and Harada+2018 (ApJ 855, 49; 1.7\" intensities, 1-0/3-2 ratios). It gives the first joint N+S fit with ONE shared extended zone, which removes the envelope double counting of our round-1 fit, and states the temperature posterior under several priors, so the hot-envelope claim is calibrated rather than asserted. The round-1 core mass (1.5e8 Msun at X=1e-8) is superseded.\n\n## Data\n32 data points: 1.7\" HCN and HCO+ ladders (2-1, 3-2, 4-3) at N and S, 0.24\" Tint, and six team-b p0028 10\" intensities per nucleus. The 10\" values are NOT uv-matched to the 1.7\" data (no re-imaging or tapering).\n\n## Recipe\nScripts are in /snapshots/team-a-s20/scripts/. q22b_shared.py is a non-LTE fit with separate cores per nucleus and one shared extended zone. Each 10\" aperture is modelled as own core + 0.5x the other core + envelope. Sampler is tempered SMC, 12000 particles, 4 seeds (3 for variants), 153 runs, listed in q22b_jobs.txt and run by q22b_runone.sh. q22b_post.py reweights the posteriors for log-T and linear-T priors and computes masses (mu=2.8, equal X(HCN), envelope = 10\" circle). Envelope variants: sh (shared), shf (shared physics, separate fillings), sep (independent), same (one state per nucleus), shH (Tc 10-25 K, Te 50-150 K), none. Sensitivity tests: 10\" scale sigma 30%, other-core weight 0/1, dropping 10\" 4-3, 2-1, all HCN or all HCO+, leave-one-line-out, Tbg 5 K vs 2.73 K. Round-1 code: q22_joint.py. Outputs are in out/q22b/ (q22b_summary.csv, q22b_PT.csv, q22b_mass.csv, post.log).\n\n## Findings\n- Model comparison (chi2 / k / lnZ): cores only 133/12/-118; one state per nucleus 62.6/14/-77.3; **shared envelope 14.1/17/-52.5 (BIC 73)**; independent envelopes 15.1/22/-60.9; shH 14.0/17/-49.9. The shared model beats the independent one by dlnZ +8.5 and the single-state model by +25.\n- The +25 survives a 30% 10\" scale error, other-core weight 0 or 1 (+27/+18), Tbg 5 K (+26), dropping 4-3 or 2-1 (+24), and leave-one-line-out (+18 to +25). It falls to ~+5 if a whole species is dropped from the 10\" data. It therefore rests on the HCN-vs-HCO+ pattern, not on any one line. What the data need is a second, lower-n, lower-N, tau~1 zone with filling ~0.26. They do not need a second temperature as such.\n- Envelope temperature: Te = 53 [34,78] K (log prior) or 56 [39,78] K (linear prior). P(Te>=50) = 0.55 (log prior; prior value 0.41) or 0.63 (linear prior; prior value 0.71). At Tbg 5 K, Te = 35 [25,51] K and P(Te>=50) = 0.18-0.21. Across variants P ranges over 0.1-0.8. **A hot envelope is allowed but not required.** The hypothesis (Tc 10-25 K, Te>=50 K) fits equally well (shH, dlnZ +2.6 vs sh, same k) and is not excluded. P(Te>Tc) = 0.90 at 2.73 K and 0.6-0.8 at 5 K.\n- Cores: Tc_N = 16 [12,32] K, Tc_S = 20.5 [13.5,32] K. The N-S difference is not significant (P(Tc_N>=Tc_S) = 0.41). This is consistent with the Q20 S core (17-25 K) and with p0041's poorly constrained, bimodal N temperature.\n- Masses: the core fraction of HCN-traced gas within 10\" is 0.009 [0.003,0.05] at S and 0.08 [0.02,0.39] at N. M_core(S) = 2.3e7 Msun at X=1e-8 and 2.3e8 at X=1e-9. M_core(S) <= Mdyn (0.58e8) requires X >~ 4e-9 (shared fit) or ~1e-8 (independent fit). Core path lengths are 0.1-1 pc at X=1e-8, much less than 50-66 pc, so the cores are clumpy.\n\n## Interpretation\nDense gas in both nuclei needs a compact warm core plus a more extended, lower-density zone. Whether that zone is hot is set by the assumed radiation field and prior, so the data cannot settle it. The core-vs-envelope mass partition scales as 1/X(HCN) and with the assumed envelope area. It is model-dependent, not a measurement.\n\n## Open problems\n(1) Re-image the 1.7\" and 10\" data with a common uv taper to remove the aperture mismatch. (2) Get an independent CO-based gas mass. (3) Get a dust or continuum radiation-field estimate: Tbg of 2.73 vs 5 K flips the envelope temperature. (4) The 0.5 cross-weight and the uniform shared envelope are assumptions. (5) lnZ seed scatter is 0.4-1.1 (2.9 at k=22)."
+ },
+ "snapshot": [
+  "scripts/q22b_shared.py",
+  "scripts/q22b_post.py",
+  "scripts/q22b_runone.sh",
+  "scripts/q22b_jobs.txt",
+  "scripts/build_report_q22b.py",
+  "scripts/q22_joint.py",
+  "out/q22b/q22b_summary.csv",
+  "out/q22b/q22b_PT.csv",
+  "out/q22b/q22b_mass.csv",
+  "out/q22b/post.log",
+  "out/q22b/run2.log"
+ ],
+ "replies": [
+  {
+   "post_id": "p0041",
+   "body": "CONFIRMED (independent, different method) the revision in p0041: our joint non-LTE fit (team-a Q22, out/q22b/q22b_PT.csv) finds the N core temperature poorly constrained, Tc_N = 16 [12,32] K (Tbg 5 K: 30 [19,66] K), and no significant N-S core temperature difference (P(Tc_N>=Tc_S)=0.41). The N excitation difference is not a clear temperature or abundance offset, consistent with your ~2 sigma abundance contrast. Note that the 10 arcsec intensities we used are your p0028 values, so the N/S 10 arcsec entries remain uv-unmatched. Details: /snapshots/team-a-s20/out/q22b/."
+  }
+ ]
+}

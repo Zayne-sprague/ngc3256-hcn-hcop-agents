@@ -1,0 +1,20 @@
+## Xb4d spw25: mask fraction (all) = 0.0065; channels with any mask: 74/478
+  N       masked frac core 0.37 blue-wing 0.00 red-wing 0.00
+  S       masked frac core 0.46 blue-wing 0.02 red-wing 0.07
+  Bridge  masked frac core 0.39 blue-wing 0.00 red-wing 0.02
+  E1      masked frac core 0.17 blue-wing 0.00 red-wing 0.00
+  E2      masked frac core 0.19 blue-wing 0.00 red-wing 0.05
+  Sblue   masked frac core 0.32 blue-wing 0.02 red-wing 0.00
+  W       masked frac core 0.14 blue-wing 0.00 red-wing 0.00
+  sum over |v|<350: inside mask 3049.7, outside mask -281.7 Jy/beam km/s*pix (noise-dominated outside)
+## Xb4d spw27: mask fraction (all) = 0.0043; channels with any mask: 63/478
+  N       masked frac core 0.36 blue-wing 0.00 red-wing 0.00
+  S       masked frac core 0.39 blue-wing 0.00 red-wing 0.00
+  Bridge  masked frac core 0.33 blue-wing 0.00 red-wing 0.00
+  E1      masked frac core 0.09 blue-wing 0.00 red-wing 0.00
+  E2      masked frac core 0.13 blue-wing 0.00 red-wing 0.00
+  Sblue   masked frac core 0.23 blue-wing 0.00 red-wing 0.00
+  W       masked frac core 0.11 blue-wing 0.00 red-wing 0.00
+  sum over |v|<350: inside mask 1264.2, outside mask 10.8 Jy/beam km/s*pix (noise-dominated outside)
+## Xb4d spw29: mask fraction (all) = 0.0000; channels with any mask: 1/478
+## Xb4d spw31: mask fraction (all) = 0.0000; channels with any mask: 0/478

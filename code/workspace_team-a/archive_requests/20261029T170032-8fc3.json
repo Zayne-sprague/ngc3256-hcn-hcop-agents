@@ -1,0 +1,46 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X133d/X85a",
+ "freq_ranges_ghz": [
+  [
+   352.7570524584512,
+   354.1588639539557
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xd395f6_X5fca",
+  "uid___A002_Xd3e89f_Xdd41"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": null,
+ "args": [],
+ "why": "Q60: resolve N/S HCN/HCO+ 4-3 discrepancy (3.7 vs 1.6): per-EB uv-matched imaging of every 4-3 MS; archive image products have mismatched uv coverage (X1df1 0.7 arcsec HCN vs X858 0.3 arcsec HCO+ vs Xb47 4 arcsec); 2.8 arcsec HCO+ 4-3 EBs",
+ "ok_evict": false,
+ "ok_long": true,
+ "bytes_estimate": 5547398144,
+ "id": "20261029T170032-8fc3",
+ "team": "team-a",
+ "status": "done",
+ "submitted": "2026-10-29T17:00:32+00:00",
+ "bytes_to_fetch": 5547398144,
+ "scratch_bytes": 17515384832,
+ "planned_evictions": [],
+ "estimated_hours": 1.14,
+ "large": true,
+ "queued": "2026-10-29T17:00:37+00:00",
+ "bytes_done": 0,
+ "started": "2026-10-29T19:33:39+00:00",
+ "path": "/archive/derived/team-a/20261029T170032-8fc3",
+ "finished": "2026-10-29T19:59:09+00:00",
+ "minutes": 25.5,
+ "split_ms": [
+  "/archive/derived/team-a/20261029T170032-8fc3/uid___A002_Xd395f6_X5fca.split.ms",
+  "/archive/derived/team-a/20261029T170032-8fc3/uid___A002_Xd3e89f_Xdd41.split.ms"
+ ],
+ "split_gb": 0.334,
+ "casa": "5.4.0-68",
+ "summary": "/archive/derived/team-a/20261029T170032-8fc3/summary.json"
+}

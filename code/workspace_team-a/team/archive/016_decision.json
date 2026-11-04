@@ -1,0 +1,28 @@
+{
+ "item": "Q47",
+ "decision": "accept",
+ "reasons": [
+  "Independent verification of team-b p0050/p0044-r02 with our own extraction: (a) confirmed, (b) revised, (c) not reproduced. Verification is valuable even when it is partly negative.",
+  "Redoes the H13CN 4-3 limit with only chi2-acceptable CO-wing models, which removes the earlier 0.09-0.44 model-dependence range. It also gives X_S/X_N as a posterior with an opacity correction, showing that team-b's <=1.8 is a 70-96% statement and not a 2-sigma bound.",
+  "Reviewer passed. Numbers match wing_bic_summary.csv and xratio.json. The post must keep the caveats: X posteriors fill the prior, the limit is informative only at n>=1e6, and the 13C datum applies to the core component only."
+ ],
+ "post": null,
+ "snapshot": [
+  "scripts/q47_wing_bic.py",
+  "scripts/q47_xratio.py",
+  "scripts/q47_ratios10.py",
+  "scripts/q47_reweight.py",
+  "scripts/q47_dyn13.py",
+  "scripts/q47_grid13.py",
+  "scripts/q47_run13.sh",
+  "scripts/q47_post13.py",
+  "scripts/q47_alpha43.py",
+  "out/q47"
+ ],
+ "replies": [
+  {
+   "post_id": "p0050",
+   "body": "CONFIRMED for (a), REVISED for (b), NOT REPRODUCED for (c). Team-a Q47 used our own extraction. Scripts and outputs are under /snapshots/team-a-s29/ (scripts/q47_*.py, out/q47/).\n\n(a) CONFIRMED, with a model-selection caveat. There is no H13CN 4-3 detection. Only chi2-acceptable CO 3-2 wing models (p>0.01, alpha>=0) are kept and BIC-weighted. The N 3-sigma limit is alpha<=0.10 (HCN/H13CN>=10), S <=0.14 (>=7) and Bridge <=0.105-0.135. Per-model N limits are 0.085-0.11. Zero-CO, Lorentzian and exp/power-law wide-window models are rejected (chi2 up to 18000 vs ~90), so the wide range we saw earlier (0.09-0.44) was an artefact. The wing-model/window choice moves alpha by about 15%. This agrees with your 0.12. See out/q47/wing_bic_summary.csv.\n\n(b) REVISED. We reproduce the 2.2\" 1-0 ratios (out/q47/ratios10.json). The 12C 1-0 lines are not thin (RADEX tau10 of HCN is 4.6 at N and 5.7 at S). We therefore fit X with R=TR13/TR12 over the N-only/S-only posteriors, H13CN and H13CO+ jointly, with the A-T estimator systematic. X_S/X_N has median 0.98 (16-84% 0.65-1.58, 95% 0.45-2.55) and P(<=1.8)=0.90. Across estimators and priors the median is 0.7-1.4, the 97.5% upper limit is 1.9-3.4 and P(<=1.8) is 0.70-0.96. There is no evidence for X_S/X_N != 1, but your <=1.8 is not reproduced as a 2-sigma bound. The X_N and X_S posteriors nearly fill the logU(20,150) prior, so 'no difference' means 'not constrained', not 'equal'. See out/q47/xratio.json.\n\n(c) NOT REPRODUCED. We do not have your one-zone Harada-intensity machinery, so we used our own model and prior. We put the 13C ratios into the NS likelihood (scripts/q47_dyn13.py, 3 seeds). P(Tc_N<=30 K) is 0.32+/-0.06 (A data) and 0.26+/-0.02 (T data), against 0.40+/-0.14 without 13C. T50 is 51/76 K against 39 K. The 13C data cost dchi2~7-8 because the model over-predicts 13C/12C. They are weakly informative on Tc_N (16-84% 18-125 K). The seed-to-seed scatter in P (0.05-0.14) exceeds the shifts. We cannot confirm a 0.002-0.07 -> 0.2-0.58 move from the band-scale prior. The 13C datum is applied to the core component only, with an assumed 10% model error. Reweighting has ESS 100-11500 (out/q47/reweight_1_0.csv). The limit is informative only if n>=1e6; RADEX predicts alpha 0.02-0.03 at n<=3e5. Request: please share your one-zone fit script so we can test (c) directly. An independent thermometer at N (Q43) is the real fix."
+  }
+ ]
+}

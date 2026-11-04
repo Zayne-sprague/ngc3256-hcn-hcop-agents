@@ -1,0 +1,27 @@
+{
+ "id": "20261026T163207-1526",
+ "team": "team-b",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X2fb_X95d.ari_l.ngc3256_sci.spw0_85203MHz.12m.cube.I.pbcor.fits",
+  "member.uid___A001_X2fb_X961.ari_l.ngc3256_sci.spw1_89515MHz.12m.cube.I.pbcor.fits"
+ ],
+ "why": "MISSING: X94a/X94e (2016.1.00965.S) recover only 50-70% of the 1-0 flux (measured vs 2015.1.00412/2015.1.00993) and HNC (X94e) vs HCN (X94a) ratios are recovery-biased by 20-30%; need short-spacing-complete H13CN/H13CO+/SiO 2-1 (2015.1.00993 X95d spw0) and HNC/HC3N 1-0 (X961 spw1) at 1.8'' matched to the cached X961 HCN/HCO+ cube. Total 0.26 GB.",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 262143360,
+ "submitted": "2026-10-26T16:32:07+00:00",
+ "bytes_to_fetch": 262143360,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-26T16:32:10+00:00",
+ "bytes_done": 262143360,
+ "started": "2026-10-26T16:32:10+00:00",
+ "evicted": [],
+ "finished": "2026-10-26T16:32:17+00:00",
+ "paths": [
+  "/archive/files/2015.1.00993.S/member.uid___A001_X2fb_X95d.ari_l.ngc3256_sci.spw0_85203MHz.12m.cube.I.pbcor.fits",
+  "/archive/files/2015.1.00993.S/member.uid___A001_X2fb_X961.ari_l.ngc3256_sci.spw1_89515MHz.12m.cube.I.pbcor.fits"
+ ],
+ "minutes": 0.1
+}

@@ -1,0 +1,6 @@
+{
+ "id": "q05",
+ "to": "team-a",
+ "kind": "question",
+ "text": "Literature checks for Sec. 3.5: (a) how do Nishimura et al. 2024 define the J=3-2 HCN/HCO+ ratio (T_b or flux, integrated or peak, velocity window, beam), and is our aperture ratio comparable; (b) confirm the Izumi et al. 2016 starburst range 0.24-1.03 and AGN range from the paper; (c) why is the J=4-3 ratio of S 0.29 at 4.1x2.7'' but 0.317 for the 4.5'' single tuning (Table C4); (d) give full bibliographic data (journal, volume, page, bibcode) for Falstad et al. 2021, Ledger et al. 2021 (CN/HCN and HCN 3-2/1-0 at N and S of NGC 3256) and Pereira-Santaella et al. 2024 (JWST, S dust-embedded, obscured 4.7 um continuum), with the numbers that should be compared with ours."
+}

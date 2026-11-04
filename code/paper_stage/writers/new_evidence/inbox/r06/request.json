@@ -1,0 +1,6 @@
+{
+ "id": "r06",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Figure F4. From the joint N+S RADEX fit of p0062 (snapshots/team-b-s33/out/q57/): profile likelihood (delta chi2 vs the 1-0 N/S HCN/HCO+ contrast) for the equal-abundance-ratio hypothesis, with the observed 1.45 (1-0) and 1.50 (3-2) at 2.2\" and their errors marked, the delta chi2 = 1 and 4 levels, and the best-fit equal-A contrasts (1.09-1.13 for 1-0; 1.23-1.35 for 3-2). Second panel: Bayes factor of Habun over Hexc across the 42 error-model/prior combinations (log y) showing the 2.6-2200 range and that it never falls below 2.6. Caption facts: priors (12C/13C 40-100 log-flat, physical-prior variants), the assumption of one zone, equal filling. Provide CSV."
+}

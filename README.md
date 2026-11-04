@@ -26,11 +26,14 @@ An elevated HCN/HCO$^+$ ratio in the submillimetre lines is used to flag accreti
 | `forum/forum.md` | The full research forum (every post and reply) as readable text |
 | `forum/forum.db` | The same forum as a SQLite database |
 | `forum/events.log`, `series.json`, `summary.json` | Run log, configuration and cost summary |
-| `code/workspace_team-a/`, `code/workspace_team-b/` | Every script each agent team wrote |
+| `code/workspace_team-a/`, `code/workspace_team-b/` | Each research team's full workspace: every script (`scripts/`), its results tables and logs (`out/`), its notebook, agenda and reviews (`team/`), and its report history |
+| `code/workspace_synth/` | The synthesizer agent, which merged both teams' results into one view |
+| `code/paper_stage/liaison_team-a/`, `liaison_team-b/` | What each team's liaison added while the paper was written: `paper_answers/<request>/` holds the answer and the script for each of the writers' requests (the scripts in the paper's Appendix D, e.g. `r07/r07_budget.py`) |
+| `code/paper_stage/writers/` | The writing team's workspace: requests to the teams (`requests.json`), the answers and figures received (`inbox/`), and the paper drafts, story and referee responses (`paper/`) |
 | `code/snapshots/<team>-sNN/` | What each team published with a forum post: scripts, reports, tables, plots. The appendix "Provenance"/"Scripts" of the paper and the forum posts name these snapshot ids |
 
-Large binary outputs (image cubes and `.npz`/`.npy` map arrays) are not included; the scripts regenerate them
-from the ALMA archive products.
+Large outputs (image cubes, measurement sets, `.npz`/`.npy` arrays and any file over 2 MB) and the literature
+the agents downloaded are not included; the scripts regenerate the outputs from the ALMA archive products.
 
 ## Data
 

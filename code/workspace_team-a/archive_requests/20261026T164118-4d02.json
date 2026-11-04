@@ -1,0 +1,27 @@
+{
+ "id": "20261026T164118-4d02",
+ "team": "team-a",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X879_X94a.NGC_3256_sci.spw29.cube.I.pbcor.fits",
+  "member.uid___A001_X879_X94a.NGC_3256_sci.spw29.mfs.I.pbcor.fits"
+ ],
+ "why": "Q10: H40alpha (98.10 GHz obs) at 0.65\" to compare with HCN/HCO+ 3-2 ratio at matched 1.05\" beam; H40a is not in Band 6 (only H26a at 4\" in Xb47)",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 774377280,
+ "submitted": "2026-10-26T16:41:18+00:00",
+ "bytes_to_fetch": 774377280,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-26T16:41:18+00:00",
+ "bytes_done": 774377280,
+ "started": "2026-10-26T16:41:21+00:00",
+ "evicted": [],
+ "finished": "2026-10-26T16:41:48+00:00",
+ "paths": [
+  "/archive/files/2016.1.00965.S/member.uid___A001_X879_X94a.NGC_3256_sci.spw29.cube.I.pbcor.fits",
+  "/archive/files/2016.1.00965.S/member.uid___A001_X879_X94a.NGC_3256_sci.spw29.mfs.I.pbcor.fits"
+ ],
+ "minutes": 0.5
+}

@@ -1,0 +1,13 @@
+{
+ "item": "Q49",
+ "verdict": "pass",
+ "checks": [
+  "Read result 219 and all flagged entries (200-205, 210, 212, 217, 218) in /output/report.json: each carries a '[SUPERSEDED/RESTATED...]' or 'DERIVED FROM SUPERSEDED SMC FIT' prefix, confidence low, superseded_by pointers. Agree.",
+  "Grepped interpretation, caveats, recipe and all results for the old values (0.45/0.37, 24-25/14-15 K, 18-31 K, 16 [12,32], 0.43+-0.20, Te=53, 0.009/0.08): the only remaining occurrences are in the retracted-entry text (explicitly marked) or the Q42/Q49 entries that name them as retracted. Caveat (d) '0.1-0.8 between variants' is consistent with the restatement.",
+  "Re-read out/q49_mass.log: the Q22e recomputed core fractions (S 0.019 [0.004,0.083], N 0.031 [0.012,0.096]; drop-1-0 S 0.010, N 0.067; M_env 3.9-5.5e10) match the text of 204. Agree that the SMC N>S core-fraction contrast is not reproduced.",
+  "Wording of 219 is now calibrated: the shift from dropping 1-0 (+23+/-12 K vs seed sd 11 K) is called 'may favour, not significant', not 'push to higher T' as the task text suggested; this is the right call, since Delta chi2<5 over 10-150 K. P(Te>=50) is stated as a range over variants/priors, with the sigma 0.25 values flagged as single-seed. Agree.",
+  "Forum: worker read p0042/p0044/p0046/p0048 and listed which statements need correction; no replies were posted (editor task)."
+ ],
+ "fixes": [],
+ "notes_for_questioner": "Not blocking, but for the editor: (1) post the retraction replies on p0048 (full), p0042 (Tc_N 16 [12,32], P=0.55/0.63, Tc_N-Tc_S p=0.41, Q22e fractions) and p0046 (P=0.43+-0.20, Tc_N 18-31 K), pointing to p0051 and result 219, before the report is final. (2) The 'quantity' headings of 202 (Q22b: 'P(Te>=50)=0.55/0.63...'), 205 (Q22f: 'P=0.2-0.6; Tc_S=20 [14,32]') and 203 still show the old SMC numbers in the title field; prefix them with '[SUPERSEDED]' like 204 so that a reader of titles alone is not misled. (3) The Q2 summary in 'interpretation' (N Tkin 25-100 K, S 15-50 K) predates the joint fit and is class-dependent; keep it labelled as single-zone. (4) Open scientific items: N-only/S-only fits, multi-seed runs at sigma 0.10/0.20, and an NS refit of the Q12c model and the P(M_core<=Mdyn) test (the S core path length drops from 4-22 pc to <2 pc without 1-0, so the clumpiness numbers depend on the 1-0 data as much as Tc_N does)."
+}

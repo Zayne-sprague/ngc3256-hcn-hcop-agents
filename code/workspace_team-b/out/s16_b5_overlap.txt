@@ -1,0 +1,4 @@
+overlap obs 164.536-165.110 GHz = rest 166.076-166.655 GHz at 2780.0
+  N: n=294 ch; mean(spw20)=-0.01 mean(spw22)=0.02 mJy/beam; diff mean -0.03 std 1.01 mJy (per-channel rms ~1.45); sum over overlap: -0.008 vs 0.016 Jy/beam km/s
+  S: n=294 ch; mean(spw20)=0.04 mean(spw22)=0.11 mJy/beam; diff mean -0.07 std 1.11 mJy (per-channel rms ~1.56); sum over overlap: 0.034 vs 0.104 Jy/beam km/s
+CH3OH 165.050/.061/.099 rest = obs [163.519, 163.53, 163.568] GHz: inside spw22 only (spw20 starts at 164.536 obs? no: CH3OH obs is 163.5 < 164.536) -> no independent overlap check possible

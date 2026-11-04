@@ -1,0 +1,6 @@
+{
+ "id": "q04",
+ "to": "team-b",
+ "kind": "question",
+ "text": "Three numbers in the draft lack support: (a) the CS 7-6/HCN 4-3 'uniform' and SO/HCO+ <0.014 shock claims: give values, beams and errors at N and S; (b) the velocity-flatness (0.95-1.09 N, 0.36-0.43 S) and three-observing-block (9%) statements: give the window, beam, per-channel-bin/per-block values and errors; (c) ratio versus continuum brightness within each nucleus (pixels at 0.26'' beam), with errors, so continuum independence can be tested rather than only 'equal HCO+'."
+}

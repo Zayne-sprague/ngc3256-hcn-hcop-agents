@@ -1,0 +1,19 @@
+===== native
+N r<0.25     FWHM HCN 149.0 HCO+ 136.6  ratio 1.091 +-0.018(noise) +-0.015(pix-boot) | nonpar 1.203+-0.074 | dv -3.5+-0.8+-0.3  S/N 32,37
+N 0.25-0.5   FWHM HCN 163.7 HCO+ 157.5  ratio 1.039 +-0.012(noise) +-0.005(pix-boot) | nonpar 1.033+-0.102 | dv 1.2+-0.9+-0.3  S/N 28,37
+N 0.5-1.0    FWHM HCN 158.0 HCO+ 152.3  ratio 1.037 +-0.010(noise) +-0.003(pix-boot) | nonpar 1.011+-0.033 | dv 1.7+-0.7+-0.4  S/N 29,54
+grid of r<0.15" apertures with S/N>=8 in both lines: n=167; width ratio median 1.034, 16-84% 0.978-1.092, mean 1.034; centroid diff median 0.2 km/s, 16-84% -1.2..1.5; fraction with ratio>=1.084: 0.23
+   apertures within 0.3" of the N peak (n=13): ratio [1.051, 1.11, 1.179, 1.056, 1.106, 1.046, 1.089, 1.091, 1.134, 0.994, 1.169, 1.122, 1.013] dv [1.5, 0.9, -1.2, -0.5, -2.6, -1.5, 4.7, -1.7, -4.8, 0.5, 7.5, -5.0, 3.1]
+===== common0.30
+N r<0.25     FWHM HCN 149.9 HCO+ 138.2  ratio 1.085 +-0.015(noise) +-0.013(pix-boot) | nonpar 1.211+-0.069 | dv -3.2+-0.8+-0.3  S/N 34,39
+N 0.25-0.5   FWHM HCN 164.2 HCO+ 158.2  ratio 1.038 +-0.010(noise) +-0.004(pix-boot) | nonpar 1.032+-0.018 | dv 1.5+-0.7+-0.3  S/N 34,41
+N 0.5-1.0    FWHM HCN 158.7 HCO+ 152.9  ratio 1.038 +-0.009(noise) +-0.002(pix-boot) | nonpar 1.056+-0.033 | dv 1.8+-0.7+-0.3  S/N 31,57
+grid of r<0.15" apertures with S/N>=8 in both lines: n=190; width ratio median 1.036, 16-84% 0.980-1.087, mean 1.030; centroid diff median 0.2 km/s, 16-84% -1.0..1.5; fraction with ratio>=1.084: 0.17
+   apertures within 0.3" of the N peak (n=13): ratio [1.052, 1.104, 1.138, 1.059, 1.111, 1.046, 1.077, 1.101, 1.126, 1.002, 1.121, 1.095, 1.01] dv [1.6, 0.7, -0.7, -0.4, -2.7, -1.3, 4.4, -1.8, -4.8, 0.3, 6.6, -4.5, 2.9]
+
+(c) spatial-weights null at the common 0.30" beam, N r<0.25"
+  HCO+ FWHM 138.2 v0 29.8; observed HCN FWHM 149.9 v0 26.6 (ratio 1.085); MODEL HCN (= HCO+ x R(x), identical local profiles) FWHM 138.7 v0 29.7 (ratio 1.003, dv -0.1)
+  nonpar widths: obs 1.211  model 1.001
+  R(v) obs   [ 0.031  1.19   1.044  0.948  1.252 -1.174] 
+  R(v) model [0.957 0.958 0.952 0.948 0.949 0.948]
+  HCO+ v-gradient inside r<0.5": dv/dx=-119, dv/dy=-10 km/s per arcsec; |grad|=119 km/s/arcsec (=> 36 km/s across the common beam)

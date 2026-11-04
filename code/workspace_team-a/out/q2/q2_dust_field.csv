@@ -1,0 +1,3 @@
+src,nu_GHz,beam,peak_mJy,Tb_RJ_K,Tb_Planck_K,Tb_RJ_at_265GHz_K,Tb_RJ_at_355GHz_K,Tb_RJ_355_if_filling_0p1,Tbg_equiv_355_beam_avg
+N,257.76,0.24x0.23,0.561,0.187,2.94,0.195,0.302,3.02,3.032
+S,257.76,0.24x0.23,1.853,0.617,4.06,0.643,0.998,9.977,3.728

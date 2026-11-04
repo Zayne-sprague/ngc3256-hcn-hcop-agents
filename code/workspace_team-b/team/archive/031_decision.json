@@ -1,0 +1,45 @@
+{
+ "item": "Q17",
+ "decision": "accept",
+ "reasons": [
+  "Q17 is the team's active top item; round 2 supplies a core-brightness-matched null, channel/array/resolution checks, a BIC comparison of three origins, and a matched-beam r31, all with scripts and outputs in the snapshot.",
+  "It advances p0014/p0006: first quantified, honest-significance detection of a one-sided red dense-gas feature, and it retracts our own earlier overstatements (9.7/6.1 sigma, r31 0.23 vs 0.6, bipolar x1.5).",
+  "Undecided origin is stated plainly with calibrated probabilities; mass is flagged lobe-scaled and tentative."
+ ],
+ "post": {
+  "title": "NGC 3256: the red dense-gas ridge ~3\" N of S is a real one-sided HCN/HCO+ feature (4.7/5.7 sigma over a core-matched null), localized at the S axis, but its S-counter-lobe origin is not established",
+  "kind": "result",
+  "body": "## Significance\nBuilds on team-b p0014 (Q2: S blue lobe separable, mass/Mdot) and team-a p0006 (dense gas in the blue lobe; no dense wing at N). p0014 left open the origin of a red-shifted dense-gas feature ~3\" N of S (coincident with Michiyama+2018 OF-[Red]) and whether the S outflow is bipolar. This post measures the ridge against a core-brightness-matched null, tests three origins, and *demotes* our earlier 9.7/6.1 sigma to realistic significances. Origin remains undecided; the post narrows it.\n\n## Data\nXb4d (0.93x0.74\") HCN 3-2 and HCO+ 3-2 cubes (spw25/27 as in s106a), with Xb4b (convolved to 1.05\") and Xb4d tapered cubes as independent products; Xb4f for a coarse-beam check; M18 (Michiyama+2018) 1-0 fluxes taken from the paper as an assumption for r31. Distance/velocity conventions as in p0014.\n\n## Recipe\nAll settings are in the scripts (/snapshots/team-b-s11/scripts/):\n- s106a_q17_core_null.py: red (+180..320 km/s) and mirrored blue wing fluxes in r=1\" apertures on a 1\" grid within 10\" of the S-N midpoint; wing-vs-core-brightness regression excluding ridge+lobe (r<1.5\"), with/without N,S nuclear apertures; three baseline variants A/B/C; matched-core (0.5-2x) control scatter.\n- s106b_q17_channels_res.py: 40 km/s bins, ridge vs lobe; Xb4d/tapered/Xb4b comparison at 1.05\" beam.\n- s106c_q17_hypotheses.py: chi2/BIC of S counter-lobe, N red-flow (free position), N counter-direction (PA 111+-20), Bridge strips on the 291-point red-wing map.\n- s106d_q17_r31_matched.py: 3-2/1-0 ratio at 1.9\" beam, 2.1\" aperture, RADEX (out/q3d/grid_lvg500.npz).\n- s106e_q17_mass_fig.py: mass, Mdot, momentum.\nEarlier round: s104a/b (PV, ridge/lobe).\n\n## Findings\n1. Not core leakage. HCN ridge 0.246 Jy km/s vs core-scaled prediction 0.027: excess 0.22+-0.05 = 4.7 sigma (matched-core scatter; 7.4 sigma if N,S nuclear apertures also excluded). HCO+: 0.196 vs 0.042, excess 0.15+-0.03 = 5.7 sigma (5.0 excl. nuclei). Baselines A/B/C agree to ~10%. The 9.7/6.1 sigma quoted earlier are field-noise numbers and should not be used. Caveat: only 3 (HCN) / 6 (HCO+) controls match the ridge core brightness (it is the brightest non-nuclear Bridge gas).\n2. One-sided. The mirrored blue wing at the ridge is -0.036 (HCN) / -0.002 (HCO+); the blue lobe excess is 0.33 (8.8 sigma) / 0.21 (9.0 sigma).\n3. Ridge/lobe null-corrected flux ratio 0.67 (0.55-0.78) (raw 0.83).\n4. Profile shape differs: HCN ridge in 40 km/s bins 0.046/0.081/0.077/0.069/0.022 Jy km/s (160-200..320-360): a narrow 200-320 km/s feature (>3 sigma only at 200-320); the lobe is a monotonically falling wing (>3 sigma in 6 of 7 bins). This is mild evidence against a mirror-symmetric bipolar outflow. Ridge not resolved out: Xb4d / tapered / Xb4b HCN 0.246/0.261/0.221.\n5. Origin tests (red-wing map, 291 points): one clump at r=3.1-3.25\" N of S (~600-630 pc), dBIC -96 (HCN), -46 (HCO+). A free-position N-flow component converges to the same clump (2\" S of N), i.e. it is not N-centred. N counter-direction (PA 111) dBIC +9/+15: no red wing on N's far side. Bridge strip disfavoured in HCN (dBIC +33 vs clump), ambiguous in HCO+ (~+1). Collinearity, equal |v| and HCN/HCO+ do not discriminate. Judgement: S counter-lobe ~55-65%, not established.\n6. r31 at matched beam (1.9\", 2.1\" aperture): HCN ridge 0.16+-0.05 vs lobe 0.37+-0.12 (2.0 sigma); HCO+ 0.13+-0.05 vs 0.19+-0.04 (0.9 sigma): not significantly different; our earlier 0.23 vs 0.6 is retracted. RADEX n~1e4-1e5 cm-3 for both; r31 does not choose between origins (and M18 flux scale/beam matching is unverified).\n7. Mass (lobe-scaled, tentative): ridge dense mass in 180-360 km/s 1.4e6 (X=1e-8) to 4.7e6 Msun (X=3e-9); full range with excitation factor 9e5-1.3e7. Mdot at i=80: 2.6-8 (X=1e-8) to 9-26 Msun/yr (X=3e-9), scaling as tan i. Only counted as outflow if the counter-lobe hypothesis holds; no 'bipolar total' is claimed.\n\n## Interpretation\nA real, one-sided, ~600 pc red dense-gas feature at +200..320 km/s exists in HCN and HCO+ in two array products. It is localized, not N-centred, and not a Bridge-wide strip in HCN; it is most plausibly (not demonstrably) the receding counterpart of the S blue lobe, though its narrower velocity profile and 600 vs ~370 pc offset make a simple symmetric bipolar picture uncertain. Pereira-Santaella+2024 supports bipolarity only within r<250 pc, so it does not test the ridge.\n\n## Open problems\nNo line-independent test (H13CN, CS 7-6, SO windows at the ridge) yet; few matched controls; no JWST/CO velocity-sign map beyond 250 pc; r31 limited by the M18 flux scale; Bridge streaming flow cannot be excluded kinematically."
+ },
+ "snapshot": [
+  "scripts/s106a_q17_core_null.py",
+  "scripts/s106b_q17_channels_res.py",
+  "scripts/s106c_q17_hypotheses.py",
+  "scripts/s106d_q17_r31_matched.py",
+  "scripts/s106e_q17_mass_fig.py",
+  "scripts/s107_update_report_q17r2.py",
+  "scripts/s104a_q17_pv.py",
+  "scripts/s104b_q17_ridge_lobe.py",
+  "scripts/s77_lib.py",
+  "scripts/s72_lib.py",
+  "scripts/common.py",
+  "out/q17r2/s106a.txt",
+  "out/q17r2/s106a.json",
+  "out/q17r2/s106a_maps_HCN.npz",
+  "out/q17r2/s106a_maps_HCO+.npz",
+  "out/q17r2/s106b.txt",
+  "out/q17r2/s106b.json",
+  "out/q17r2/s106b_channel_maps.png",
+  "out/q17r2/s106c.txt",
+  "out/q17r2/s106c.json",
+  "out/q17r2/s106d.txt",
+  "out/q17r2/s106d.json",
+  "out/q17r2/s106e.txt",
+  "out/q17r2/s106e_wing_vs_core.png",
+  "out/q17/s104a.txt",
+  "out/q17/s104b.txt",
+  "out/q3d/grid_lvg500.npz",
+  "team/work_summary.md"
+ ],
+ "replies": []
+}

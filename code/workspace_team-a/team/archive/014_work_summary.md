@@ -1,0 +1,6 @@
+# Q53 round 3 work summary
+Scripts: scripts/q53_context.py (literature table), q53b_matched32.py (3-2 matched beams), **q53d_matched43.py (new: 4-3 from archive cubes 2018.1.00493.S X1df1 spw29 HCN, 2018.1.00223.S X858 spw27 HCO+)**, q53c_radex_ratio.py.
+Outputs: out/q53/{lit_table.csv,matched32.csv,matched43.csv,radex_ratio.json,summary.json,ratio_vs_class.png}. report.json Q53 entries rewritten (backup report.pre_q53r3.json).
+Results (T_B, circular beams, 1"=188 pc): 4-3 N/S = 0.70/0.22 (188 pc), 0.64/0.25 (263), 0.60/0.25 (357), 0.57/0.24 (470). 3-2 N/S = 1.05/0.46 (56 pc), 0.83/0.39 (188), 0.72/0.37 (357). R43/R32: N 0.84, S 0.56-0.66. Core 4-3 extrapolated N 0.88+-0.05(+RADEX up to 1.0), S 0.26-0.30. N in Izumi SB range (P~0.9), AGN-like P<~0.03; S at SB-range bottom, fails as AGN. N/S contrast persists at 357 pc (1.9 at 3-2, 2.4 at 4-3). Q47 link: tau10~5-12, X ratio unconstrained -> not an abundance measure.
+Literature: Izumi+2016 Table 1, Imanishi 2013/14/16/19, Harada+2018, Michiyama+2018, Privon+2015 (abstract only), values transcribed not re-measured.
+Uncertain: HCN 4-3 native beam 0.87x0.69" prevents <1" common beam, so core 4-3 is extrapolated; stat errors only (~10% flux-scale systematic not included); S AGN class is X-ray based; S HCN 4-3 line velocity offset (2718 vs HCO+ 2743 km/s at 1.0") hints at low S/N/asymmetry in the fit.

@@ -1,0 +1,4 @@
+nominal     : P(Tk_disk < Tk_centre)=0.004; P(n_disk > n_centre)=0.765
+one-sided   : P(Tk_disk < Tk_centre)=0.500; P(n_disk > n_centre)=0.500
+stress      : P(Tk_disk < Tk_centre)=0.500; P(n_disk > n_centre)=0.500
+ratios-only : P(Tk_disk < Tk_centre)=0.116; P(n_disk > n_centre)=0.521

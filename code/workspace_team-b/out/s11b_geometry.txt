@@ -1,0 +1,3 @@
+line label area_arcsec2 flux_beams(Jy km/s sum/beam) cE cN r PA_centroid(deg E of N) PA_major FWHM_major FWHM_minor [arcsec relative to S]
+HCO+ 2 3.13 0.58 -0.27 -1.76 1.78 189 16 2.30 0.71
+HCN 1 3.58 0.75 -0.11 -1.98 1.98 183 14 1.83 0.82

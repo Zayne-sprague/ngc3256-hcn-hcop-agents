@@ -1,0 +1,5 @@
+ous,rad,pos,k,bin_kms,sig_bin_mJy,nbins,chi2_null,chi2_HDOtemplate,amp_HDOtemplate_mJy,e_amp,chi2_gauss,gauss_amp_mJy,gauss_v,gauss_sig,chi2_gauss_plus_HDO,HDO_amp_in_joint_mJy,chi2_HDO_broadGauss,chi2_HDO_narrowGauss,amp_narrow_mJy,template_peak_v,HDO_share_joint,e_HDO_share_joint,HDO_share_alone
+Xb4d,0.5,Soutflow,0.555,22.0,0.426,27,68.845,34.485,0.937,0.16,20.432,1.039,2500.077,93.138,20.264,-0.202,41.694,36.5,1.351,2512.578,-0.152,0.379,0.706
+Xb4d,1.0,Soutflow,0.541,22.0,0.213,27,122.25,42.812,0.734,0.082,22.209,0.696,2505.716,116.84,21.916,-0.154,56.426,61.932,0.922,2512.578,-0.16,0.296,0.764
+Xb4b,0.5,Soutflow,0.666,22.0,0.408,27,57.015,37.258,0.714,0.161,26.28,1.301,2523.147,30.278,25.365,0.213,49.236,36.882,1.021,2512.567,0.268,0.283,0.898
+Xb4b,1.0,Soutflow,0.626,22.0,0.244,27,55.406,46.452,0.291,0.097,33.097,0.667,2526.665,30.0,32.981,-0.047,54.064,44.897,0.44,2512.567,-0.185,0.557,1.139

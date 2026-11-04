@@ -1,0 +1,9 @@
+Q29 progress (before 2nd archive request):
+DONE: s180 (loader), s181 (explore), s182 (X94a/X94e measurements, template fit, Xb4d 3-2 same beams) -> s182.json; s183 (X94a vs X145[2015.1.00412] vs X961[2015.1.00993] flux scale, 1.5/1.7/2.2") -> s183.json; s184 tables -> out/q29/s184_tables.txt.
+KEY: X145 and X961 agree <=5% and match Harada Table 13 at 1.7"; X94a (2016.1.00965, 0.77") recovers only ~50-70% of 1-0 flux (resolved out) but HCN/HCO+ ratios agree within ~0.05. X94e HNC/HCN is recovery-biased (0.34-0.46 vs Harada 0.50-0.56).
+1-0 N/S contrast 1.6-1.66 (1.0-1.5") vs 3-2 1.8-1.94. S blue lobe 1-0 HCN/HCO+ 0.6+-0.1-0.25 vs 3-2 1.4; ridge 1-0 1.1-1.3 ~ 3-2.
+REQUESTED (2nd): X95d spw0 (H13CN/H13CO+/SiO at 1.76") and X961 spw1 (HNC, HC3N) for short-spacing-complete weak-line ratios.
+TODO after resume: s185 measure those at 2.2" circ beam (+Harada compare); s186 RADEX evidence test (Grid, H_exc vs H_abund) using 1.5" 1-0(X145)+3-2(Xb4d); opacity from HCO+/H13CO+; update /output/report.json (script s187); work_summary.md.
+
+UPDATE (still before resume): s186_q29_radex_evidence.py DONE -> out/q29/s186.txt/json (1.5" X145+Xb4d and 2.2" X961+Xb4d). Result: with 3-2 only all hypotheses indistinguishable (ln BF +-0.5); adding 1-0: H_Tn(same Tk,n; A/N free) +0.6..+1.3, H_A(same A) -1.2..0, H_ANO -1..+1, H_all(same everything but filling) -21/-14 (excluded). Mild (factor 3-6, systematics-dependent -> ~1) preference for common excitation + different A. N posterior log A 0.7 [0.6,0.8] vs S 0.4 [0.3,0.5]; but N posterior tau(HCO+ 1-0)~9-15 contradicts HCO+/H13CO+ = 22+-3 (Harada N) -> tau(HCO+)=1.4-4.6 for 12C/13C 40-100 -> NEXT: add H13CO+ ratio as likelihood term (s187, uses F.tauO[:,0] log10 tau 1-0; R=(1-e^-t)/(1-e^-t/X)), X log-flat 40-100.
+After resume also: s185 measure X95d spw0 + X961 spw1 (H13CN, H13CO+, SiO, HNC, HC3N at 2.2"), then report.json (s188) + work_summary.md.

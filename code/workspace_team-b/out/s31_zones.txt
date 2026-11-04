@@ -1,0 +1,24 @@
+## Xb4d 3-2 zone fluxes (Jy km/s, S/N>3 pixels, native beam, no bowl correction): zone HCN HCO+ R_Jy
+  N       22.05    39.50 0.558
+  S       15.31    40.79 0.375
+  Ext     32.81    46.10 0.712
+## Xb4f_J3_10: chi2r HCN 174.4 HCO+ 236.4; corr(N,S) of coefficients HCN -0.73 HCO+ -0.70
+  N    f_HCN 1.108+-0.174  f_HCO+ 1.262+-0.126  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=0.490+-0.091  [R_3(Xb4d)=0.558]
+  S    f_HCN 0.986+-0.275  f_HCO+ 1.123+-0.128  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=0.330+-0.099  [R_3(Xb4d)=0.375]
+  Ext  f_HCN 0.000+-0.293  f_HCO+ 0.000+-0.247  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=nan+-nan  [R_3(Xb4d)=0.712]
+## Xb4f_J3_6.5: chi2r HCN 52.6 HCO+ 88.5; corr(N,S) of coefficients HCN -0.53 HCO+ -0.51
+  N    f_HCN 1.118+-0.078  f_HCO+ 1.222+-0.070  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=0.511+-0.046  [R_3(Xb4d)=0.558]
+  S    f_HCN 1.171+-0.132  f_HCO+ 1.222+-0.069  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=0.360+-0.045  [R_3(Xb4d)=0.375]
+  Ext  f_HCN 0.000+-0.205  f_HCO+ 0.000+-0.187  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=nan+-nan  [R_3(Xb4d)=0.712]
+## Xb55_J2_10: chi2r HCN 64.4 HCO+ 153.8; corr(N,S) of coefficients HCN -0.70 HCO+ -0.69
+  N    f_HCN 1.263+-0.097  f_HCO+ 1.112+-0.109  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=0.634+-0.079  [R_3(Xb4d)=0.558]
+  S    f_HCN 1.571+-0.148  f_HCO+ 1.238+-0.099  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=0.476+-0.059  [R_3(Xb4d)=0.375]
+  Ext  f_HCN 0.000+-0.136  f_HCO+ 0.000+-0.159  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=nan+-nan  [R_3(Xb4d)=0.712]
+## Xb47_J4_10: chi2r HCN 62.6 HCO+ 183.9; corr(N,S) of coefficients HCN -0.73 HCO+ -0.72
+  N    f_HCN 0.672+-0.140  f_HCO+ 0.999+-0.160  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=0.375+-0.099  [R_3(Xb4d)=0.558]
+  S    f_HCN 0.347+-0.224  f_HCO+ 0.706+-0.155  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=nan+-nan  [R_3(Xb4d)=0.375]
+  Ext  f_HCN 0.000+-0.316  f_HCO+ 0.000+-0.404  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=nan+-nan  [R_3(Xb4d)=0.712]
+## Xb47_J4_6.5: chi2r HCN 35.2 HCO+ 109.6; corr(N,S) of coefficients HCN -0.52 HCO+ -0.53
+  N    f_HCN 0.758+-0.086  f_HCO+ 1.078+-0.102  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=0.392+-0.058  [R_3(Xb4d)=0.558]
+  S    f_HCN 0.535+-0.149  f_HCO+ 0.836+-0.102  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=0.240+-0.073  [R_3(Xb4d)=0.375]
+  Ext  f_HCN 0.000+-0.300  f_HCO+ 0.000+-0.375  (J/3-2 flux ratio incl. recovery)  R_J(Jy)=nan+-nan  [R_3(Xb4d)=0.712]

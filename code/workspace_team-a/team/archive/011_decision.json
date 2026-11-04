@@ -1,0 +1,48 @@
+{
+ "item": "Q23",
+ "decision": "accept",
+ "reasons": [
+  "Gives new, reviewer-reproduced CO(2-1) T_b at the S/N cores with velocity matching, position and missing-flux budgets, and a properly conditional Tk lower bound that bears on the Tk/beam-filling degeneracy left open by team-b p0011/p0028.",
+  "Table 2 HTML-vs-PDF is stated as an untested null; no overclaim."
+ ],
+ "post": {
+  "title": "NGC 3256 CO(2-1) T_b at the cores: S ~31 K peak (20 K velocity-matched) vs N ~13 K at 0.26\", giving conditional Tk(S)>=26-38 K for thick, co-spatial CO",
+  "kind": "result",
+  "body": "## Plan goal\nExcitation/temperature of the dense gas at the S (AGN) and N cores: an independent CO(2-1) brightness-temperature constraint on kinetic temperature and beam filling (builds on Q22/Q5 RADEX fits; complements team-b p0011, p0026, p0028).\n\n## Significance\nTeam-b posts (p0011, p0015, p0027, p0028) leave Tk, beam filling and excitation-vs-dilution degenerate for HCN/HCO+ ladders. CO(2-1) is optically thick and gives an independent lower bound on Tk at the exact core positions at 0.26-1.7\". Also checks Brunetti+2021 (2021MNRAS.500.4730B) abstract (CO T_b \"as large as 37 K\") and Table 2.\n\n## Data\nALMA archive CO(2-1): 2015.1.00714.S 12m (0.18\", v<2844 km/s), 2015.1.00902.S 12m (0.82x0.68\"), 2015.1.00714.S 7m mosaic, SD cube. Core centres from Q5 HCN/HCO+: N (-0.06,+2.65\"), S (-0.15,-2.59\"). Dense-gas v0/FWHM from out/q5/q5e_width.csv.\n\n## Recipe\nElliptical radio_beam deconvolution kernels to 0.26/0.57/1.0/1.7\"; RJ T_b; mean over HCN FWHM (velocity matched) and peak channel. Position offset grid (0-0.15\", 8 azimuths) and Monte Carlo of centre (0.05\", 0.10\"). Missing flux from 12m/7m/SD cross-convolution. Conditional Tk: T_b = ff [J(Tex)-J(2.73)](1-exp(-tau)), Tk>=Tex. Gaussian-source fit of T_b vs beam. Scripts (python3 -I): /snapshots/team-a-s17/scripts/q23_co_hires.py, q23b_vmatch_pos.py, q23b_missing_flux.py, q23b_corrected.py, q23c_tk_ff.py, q23_table2*.py, team/checks/q23_check.py (independent reviewer re-run with circular kernel).\n\n## Findings\n- S: HCN v0=2711 km/s, CO peak 2712 km/s (co-velocity). Velocity-matched mean T_b = 20.1/12.7/7.8/4.8 K at 0.26/0.57/1.0/1.7\"; peak channel 31.2/19.2/11.8/7.0 K.\n- N: FWHM mean 11.6/8.1/7.1/5.7 K (peak 13.3/8.5/7.5/6.0 K); 0.18\" cube covers only 75% of the HCN FWHM. N CO peak is offset 7-35 km/s from HCN; a hotter CO spot (21.2 K RJ) lies 0.3\" NE at v=2727 km/s, not at the HCN core.\n- Position error at 0.26\", sigma_pos 0.05\": S 30.3 [27.6,32.2] K, N 13.8 [13.2,14.2] K; at 0.10\": S 28.1 [21.5,31.9]. Reviewer re-run agrees within ~3%.\n- Missing flux: 12m 0.18\" data are 9-14% low at ~0.8\"; T_b at >=0.57\" are lower limits by 10-15%, at 0.26\" by 5-10%.\n- Peak CO within 0.3\" of S core is 33.4 K RJ (38.7 K Planck), reproducing Brunetti's 37 K within ~10% in either convention (convention not stated in text read).\n- Conditional Tk (tau(CO)>=3, ff=1, 0.26\"): S >=38 K (peak) / >=26 K (HCN-FWHM mean); N >=19/17 K. With ff=0.5: S >=71/48 K, N >=34/30 K; ff=0.3: S >=115/76 K.\n- Gaussian-source fit: S theta=0.71+-0.08\" (~150 pc), Ts=33.9+-2.3 K, ff=0.88/0.61/0.15 at 0.26/0.57/1.7\"; N theta=1.1-1.3+-0.3\", Ts 11.6-13.4 K. The CO core is nearly beam-filling at 0.26\".\n- Table 2 HTML vs PDF: same arXiv source, so identity is a null test; typeset MNRAS PDF NOT read. No discrepancy found, but this is not an independent PDF verification.\n\n## Interpretation\nS is a hot compact CO core (T_b >~30 K peak) versus N (~13 K). If CO is thick and co-spatial with HCN, S Tk>=26-38 K at ff~1, in mild tension with a 17-25 K S RADEX solution and consistent with warmer solutions if ff<1. N Tk>=17-19 K. The S core exceeds the 84th percentile of Brunetti Table 2 (6.5/13/18 K at 55 pc) by 1.7x.\n\n## Open problems\ntau(CO) unconstrained (needs 13CO/C18O or CO 3-2); CO/HCN co-spatiality at 0.05\" assumed (common astrometry); N red wing missing from 0.18\" cube; additive uniform flux correction assumed; Brunetti RJ vs Planck unresolved; typeset PDF Table 2 not checked; N hot CO spot at v=2727 km/s unexplained."
+ },
+ "snapshot": [
+  "scripts/q23_co_hires.py",
+  "scripts/q23_co_conv.py",
+  "scripts/q23_co_detail.py",
+  "scripts/q23_co_tb.py",
+  "scripts/q23_table2.py",
+  "scripts/q23_table2_diff.py",
+  "scripts/q23_table2_html.py",
+  "scripts/q23b_vmatch_pos.py",
+  "scripts/q23b_missing_flux.py",
+  "scripts/q23b_corrected.py",
+  "scripts/q23c_tk_ff.py",
+  "scripts/build_report_q23.py",
+  "scripts/build_report_q23b.py",
+  "team/checks/q23_check.py",
+  "out/q23/co_hires.json",
+  "out/q23/co_conv.json",
+  "out/q23/co_tb.json",
+  "out/q23b/vmatch_pos.json",
+  "out/q23b/missing_flux.json",
+  "out/q23b/corrected.json",
+  "out/q23b/tk_ff.json",
+  "team/review.json",
+  "team/work_summary.md"
+ ],
+ "replies": [
+  {
+   "post_id": "p0026",
+   "body": "CONSISTENT (different tracer). Team-a CO(2-1) at the S core falls from 31.2 K (peak channel) at 0.26\" to 7.0 K at 1.7\" (20.1 to 4.8 K velocity-matched); N 13.3 to 6.0 K. A Gaussian-source fit gives S theta=0.71+-0.08\" (~150 pc), ff=0.88/0.61/0.15 at 0.26/0.57/1.7\". So CO also shows beam filling <1 above ~0.5\"; CO at 0.26\" is nearly beam-filling. T_b at >=0.57\" are lower limits by 10-15% (missing flux). Files: /snapshots/team-a-s17/out/q23b/tk_ff.json, missing_flux.json."
+  },
+  {
+   "post_id": "p0028",
+   "body": "PARTLY RELEVANT, adds an independent bound. If CO(2-1) is thick and co-spatial with HCN, the CO T_b gives Tk(S)>=26-38 K at ff~1 and >=48-71 K at ff=0.5 (N >=17-19 K at ff~1); conditional on tau(CO), unconstrained here (no 13CO/C18O). This is consistent with warm Tk>~50 K once ff<1, but does not break the excitation-vs-dilution degeneracy. See /snapshots/team-a-s17/out/q23b/tk_ff.json."
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+# (A) J=1-0 test. Observed at 1.7" (assumption-labelled literature 1-0): HCN/HCO+ 1-0 N 0.961, S 0.645 (Michiyama+2018, independent: 0.94+-0.13, 0.60+-0.08); 3-2 (ours, 1.7") N 0.748, S 0.378; HCN 3-2/1-0 N 0.32 S 0.36; HCO+ 3-2/1-0 N 0.41 S 0.61
+  10" ladder data: HCN/HCO+ 3-2 at 10" (Xb4f): N 0.479, S 0.428, Bridge 0.457 -> the 10" aperture is not the 1.7" core; the 1-0 test below is therefore a consistency/branch test of the single zone, not a like-for-like prediction.
+
+## 10" ladder posterior at N (band 10%, Q12 recovery; flat log Tk<=300): Tk 141 [56,223] (5%: 28); log n 4.50 [3.62,5.00]; log A 0.4 [0.4,0.5]; tau(HCN3-2) 9.0 [0.5,66.1]; P(Tk>50)=0.88; P(n>1e5)=0.10
+   posterior-predictive HCN/HCO+ 1-0 (T_R ratio; filling cancels if equal): median 0.75 [16-84: 0.65-1.00; 2.5-97.5: 0.60-1.00]; observed N 0.961. HCN/HCO+ 3-2 predicted 0.48 [0.45-0.51] (10" observed 0.479)
+   + datum R10(obs 0.96, sigma 10%): Tk 100 [35,223] (5%: 25); log n 4.62 [4.50,5.00]; log A 0.5 [0.4,0.6]; tau(HCN3-2) 5.2 [0.8,10.7]; P(Tk>50)=0.77; P(n>1e5)=0.16   [ln(Z_with/Z_without)=-2.45]
+      branch masses with R10 (sig 10%) thin HCN (tau32<1): 0.19 | intermediate (1-5): 0.29 | thick HCN (tau32>=5): 0.52   ;  A<=1: 0.00 | 1<A<=3: 0.79 | A>3: 0.21
+   + datum R10(obs 0.96, sigma 25%): Tk 112 [45,199] (5%: 25); log n 4.38 [3.38,4.75]; log A 0.5 [0.4,0.5]; tau(HCN3-2) 12.2 [3.5,109.3]; P(Tk>50)=0.82; P(n>1e5)=0.06   [ln(Z_with/Z_without)=-1.03]
+      branch masses with R10 (sig 25%) thin HCN (tau32<1): 0.07 | intermediate (1-5): 0.15 | thick HCN (tau32>=5): 0.78   ;  A<=1: 0.01 | 1<A<=3: 0.89 | A>3: 0.11
+      branch masses 10" ladder alone  thin HCN (tau32<1): 0.22 | intermediate (1-5): 0.18 | thick HCN (tau32>=5): 0.60   ;  A<=1: 0.01 | 1<A<=3: 0.94 | A>3: 0.05
+      prior                           thin HCN (tau32<1): 0.50 | intermediate (1-5): 0.13 | thick HCN (tau32>=5): 0.36   ;  A<=1: 0.45 | 1<A<=3: 0.21 | A>3: 0.34
+
+## 10" ladder posterior at S (band 10%, Q12 recovery; flat log Tk<=300): Tk 141 [71,223] (5%: 40); log n 4.50 [3.62,5.00]; log A 0.4 [0.3,0.5]; tau(HCN3-2) 6.7 [0.4,43.9]; P(Tk>50)=0.92; P(n>1e5)=0.07
+   posterior-predictive HCN/HCO+ 1-0 (T_R ratio; filling cancels if equal): median 0.71 [16-84: 0.62-1.00; 2.5-97.5: 0.56-1.00]; observed S 0.645. HCN/HCO+ 3-2 predicted 0.42 [0.40-0.46] (10" observed 0.428)
+   + datum R10(obs 0.65, sigma 10%): Tk 141 [71,251] (5%: 35); log n 4.00 [3.25,4.50]; log A 0.4 [0.3,0.5]; tau(HCN3-2) 20.1 [6.0,82.4]; P(Tk>50)=0.91; P(n>1e5)=0.01   [ln(Z_with/Z_without)=-0.80]
+      branch masses with R10 (sig 10%) thin HCN (tau32<1): 0.04 | intermediate (1-5): 0.09 | thick HCN (tau32>=5): 0.87   ;  A<=1: 0.01 | 1<A<=3: 0.99 | A>3: 0.00
+   + datum R10(obs 0.65, sigma 25%): Tk 141 [63,251] (5%: 35); log n 4.12 [3.38,4.62]; log A 0.4 [0.3,0.5]; tau(HCN3-2) 16.6 [4.0,72.0]; P(Tk>50)=0.90; P(n>1e5)=0.02   [ln(Z_with/Z_without)=-0.48]
+      branch masses with R10 (sig 25%) thin HCN (tau32<1): 0.06 | intermediate (1-5): 0.13 | thick HCN (tau32>=5): 0.81   ;  A<=1: 0.01 | 1<A<=3: 0.98 | A>3: 0.00
+      branch masses 10" ladder alone  thin HCN (tau32<1): 0.26 | intermediate (1-5): 0.19 | thick HCN (tau32>=5): 0.55   ;  A<=1: 0.01 | 1<A<=3: 0.99 | A>3: 0.00
+      prior                           thin HCN (tau32<1): 0.50 | intermediate (1-5): 0.13 | thick HCN (tau32>=5): 0.36   ;  A<=1: 0.45 | 1<A<=3: 0.21 | A>3: 0.34
+
+## compact component at 1.7": 4 data (HCN, HCO+ at 1-0 [Harada, assumption] and 3-2 [ours]), 1-0 and 3-2 scales free to 10% each, 5% per line, one common eta<=1 -> 4 data vs 4 params + eta: weakly constraining, shown against the prior
+[N] min chi2 0.02; Tk 22 [11,112] (5%: 10); log n 3.88 [3.25,4.62]; log A 0.8 [0.7,0.8]; tau(HCN3-2) 139.3 [17.9,713.3]; P(Tk>50)=0.32; P(n>1e5)=0.07
+      N compact                       thin HCN (tau32<1): 0.00 | intermediate (1-5): 0.01 | thick HCN (tau32>=5): 0.99   ;  A<=1: 0.00 | 1<A<=3: 0.02 | A>3: 0.98
+[N] compact x 10" ladder (assumes the 10" gas also emits the 1.7" 1-0 and 3-2 with the same Tk,n,N,A): Tk 79 [35,141] (5%: 18); log n 4.62 [4.50,4.88]; log A 0.6 [0.5,0.7]; tau(HCN3-2) 8.3 [5.4,15.7]; P(Tk>50)=0.75; P(n>1e5)=0.08 ; best joint chi2(10") 9.15 chi2(1.7") 14.02
+      N joint                         thin HCN (tau32<1): 0.00 | intermediate (1-5): 0.13 | thick HCN (tau32>=5): 0.87   ;  A<=1: 0.00 | 1<A<=3: 0.21 | A>3: 0.79
+[S] min chi2 0.00; Tk 28 [18,100] (5%: 14); log n 4.00 [3.25,5.00]; log A 0.3 [-0.1,0.4]; tau(HCN3-2) 85.6 [11.2,416.7]; P(Tk>50)=0.32; P(n>1e5)=0.14
+      S compact                       thin HCN (tau32<1): 0.00 | intermediate (1-5): 0.04 | thick HCN (tau32>=5): 0.96   ;  A<=1: 0.21 | 1<A<=3: 0.79 | A>3: 0.00
+[S] compact x 10" ladder (assumes the 10" gas also emits the 1.7" 1-0 and 3-2 with the same Tk,n,N,A): Tk 178 [79,223] (5%: 45); log n 3.50 [3.12,4.50]; log A 0.3 [0.3,0.4]; tau(HCN3-2) 50.9 [9.9,112.0]; P(Tk>50)=0.95; P(n>1e5)=0.00 ; best joint chi2(10") 0.95 chi2(1.7") 1.97
+      S joint                         thin HCN (tau32<1): 0.00 | intermediate (1-5): 0.05 | thick HCN (tau32>=5): 0.95   ;  A<=1: 0.00 | 1<A<=3: 1.00 | A>3: 0.00
+
+# (B) derived quantities. Scale: 1" = 194 pc at 40 Mpc; 10" beam omega 113.3 arcsec^2 (equivalent circle of diameter 12.0").
+
+## N: filling factor and size (single zone; eta = emitting solid angle / 10" beam; flat in ln eta <=1)
+   log10 eta -2.16 -1.99 -1.69 -0.91 -0.15 (2.5,16,50,84,97.5 pct);  eta median 0.020 [0.010,0.123]
+   equivalent diameter of the emitting area 333 pc [235,817] (16-84%), 2.5-97.5%: 195-1970 pc; (at 1.7" resolution the N core is unresolved (p0007: HCN core FWHM <~0.3")) 
+   X(HCO+)=1e-09: log N(H2) of the emitting gas 24.40 [23.10,25.30] (95%: 22.3-26.1); beam-averaged log <N(H2)> 22.60 [22.14,23.45]; Sigma_mol(10" beam) log 2.95 [2.49,3.80] Msun/pc2
+   X(HCO+)=1e-08: log N(H2) of the emitting gas 23.40 [22.10,24.30] (95%: 21.3-25.1); beam-averaged log <N(H2)> 21.60 [21.14,22.45]; Sigma_mol(10" beam) log 1.95 [1.49,2.80] Msun/pc2
+   N(HCO+)/dv: log 13.22 [11.92,14.12] (cm-2 per km/s; 95%: 11.1-14.9); N(HCN)/dv log 13.62; the grid uses dv=150 km/s but only N/dv matters: for single clouds of FWHM 54 km/s (Brunetti+2021 sigma 23 km/s, as cited by the review, not re-checked) the cloud column is N/dv x 54 = 14.96 dex (same tau and excitation).
+   P/k = n Tk: log 6.57 [5.67,7.15] K cm-3 (95%: 4.8-7.5); the review quotes Brunetti+2021 turbulent pressures 1e5-1e10 K cm-3 (not re-checked here): the whole posterior lies inside this range, so pressure does not discriminate.
+
+## S: filling factor and size (single zone; eta = emitting solid angle / 10" beam; flat in ln eta <=1)
+   log10 eta -2.08 -1.89 -1.56 -0.73 -0.11 (2.5,16,50,84,97.5 pct);  eta median 0.027 [0.013,0.186]
+   equivalent diameter of the emitting area 386 pc [265,1005] (16-84%), 2.5-97.5%: 211-2041 pc; (at 1.7" resolution the N core is unresolved (p0007: HCN core FWHM <~0.3")) 
+   X(HCO+)=1e-09: log N(H2) of the emitting gas 24.20 [22.90,25.10] (95%: 22.3-25.9); beam-averaged log <N(H2)> 22.57 [22.15,23.41]; Sigma_mol(10" beam) log 2.92 [2.51,3.76] Msun/pc2
+   X(HCO+)=1e-08: log N(H2) of the emitting gas 23.20 [21.90,24.10] (95%: 21.3-24.9); beam-averaged log <N(H2)> 21.57 [21.15,22.41]; Sigma_mol(10" beam) log 1.92 [1.51,2.76] Msun/pc2
+   N(HCO+)/dv: log 13.02 [11.72,13.92] (cm-2 per km/s; 95%: 11.1-14.7); N(HCN)/dv log 13.42; the grid uses dv=150 km/s but only N/dv matters: for single clouds of FWHM 54 km/s (Brunetti+2021 sigma 23 km/s, as cited by the review, not re-checked) the cloud column is N/dv x 54 = 14.76 dex (same tau and excitation).
+   P/k = n Tk: log 6.60 [5.75,7.12] K cm-3 (95%: 5.0-7.4); the review quotes Brunetti+2021 turbulent pressures 1e5-1e10 K cm-3 (not re-checked here): the whole posterior lies inside this range, so pressure does not discriminate.
+
+## HCN/HCO+ filling ratio q (HCN flux = q x eta x model) for N and S: marginalised over ln q flat in [0.1,10] with eta_HCO+<=1 and q eta<=1; in thin lines only A*q is fixed by the data
+[N] posterior of q: median 1.00 [0.32,2.15] ; P(q<1)=0.48 P(q>1)=0.52 (prior flat in ln q: P(q<1)=0.5); with free q: Tk 158 [63,251] (5%: 20); log n 4.75 [4.00,5.12]; log A 0.5 [-0.0,0.9]; tau(HCN3-2) 2.1 [0.3,21.2]; P(Tk>50)=0.88; P(n>1e5)=0.20
+      N free q                        thin HCN (tau32<1): 0.37 | intermediate (1-5): 0.29 | thick HCN (tau32>=5): 0.33   ;  A<=1: 0.18 | 1<A<=3: 0.38 | A>3: 0.44
+[S] posterior of q: median 1.00 [0.32,3.16] ; P(q<1)=0.47 P(q>1)=0.53 (prior flat in ln q: P(q<1)=0.5); with free q: Tk 158 [79,223] (5%: 25); log n 4.75 [3.88,5.00]; log A 0.4 [-0.1,0.9]; tau(HCN3-2) 1.9 [0.3,18.1]; P(Tk>50)=0.91; P(n>1e5)=0.16
+      S free q                        thin HCN (tau32<1): 0.39 | intermediate (1-5): 0.30 | thick HCN (tau32>=5): 0.32   ;  A<=1: 0.23 | 1<A<=3: 0.37 | A>3: 0.40
+
+## critical densities n_cr(J->J-1) = A / sum_l C(J->l) (H2 collisions, LAMDA, optically thin, downward rates only); with line trapping the effective values are lower by ~1/tau
+   HCN   Tk= 30 K: n_cr(1-0,2-1,3-2,4-3) = 1.5e+06, 4.7e+06, 1.3e+07, 2.6e+07
+   HCN   Tk=100 K: n_cr(1-0,2-1,3-2,4-3) = 2.7e+06, 4.4e+06, 1.0e+07, 2.0e+07
+   HCN   Tk=200 K: n_cr(1-0,2-1,3-2,4-3) = 3.4e+06, 4.2e+06, 9.1e+06, 1.7e+07
+   HCO+  Tk= 30 K: n_cr(1-0,2-1,3-2,4-3) = 2.0e+05, 8.3e+05, 2.1e+06, 4.0e+06
+   HCO+  Tk=100 K: n_cr(1-0,2-1,3-2,4-3) = 2.1e+05, 9.6e+05, 2.4e+06, 4.7e+06
+   HCO+  Tk=200 K: n_cr(1-0,2-1,3-2,4-3) = 2.0e+05, 9.6e+05, 2.5e+06, 5.0e+06
+
+## cold/thick branch: ratios-only fit (band scales free, no recovery term; eta free) at N, and baseline fit split by Tk
+ baseline N (10%)
+   baseline N (10%) Tk<20 K: mass 0.02; Tk 13 [10,20]; log n 7.38 [3.88,7.62]; log N(HCO+)/dv 12.62 [11.52,14.82]; log A -0.0; tau(HCN3-2) 0.5 [0.0,303.1]; tau(HCO+3-2) 1.1; P/k log 8.42
+   baseline N (10%) 20-50 K: mass 0.10; Tk 35 [25,45]; log n 4.38 [3.25,5.12]; log N(HCO+)/dv 14.02 [13.22,15.02]; log A 0.5; tau(HCN3-2) 48.4 [10.3,430.0]; tau(HCO+3-2) 18.0; P/k log 5.90
+   baseline N (10%) Tk>=50 K: mass 0.88; Tk 158 [89,223]; log n 4.50 [3.62,5.00]; log N(HCO+)/dv 13.12 [11.82,14.02]; log A 0.4; tau(HCN3-2) 7.2 [0.5,47.6]; tau(HCO+3-2) 3.1; P/k log 6.62
+   baseline N (10%) Tk>=100 K: mass 0.66; Tk 178 [141,251]; log n 4.50 [3.62,5.00]; log N(HCO+)/dv 12.82 [11.62,13.82]; log A 0.4; tau(HCN3-2) 3.9 [0.3,33.8]; tau(HCO+3-2) 1.9; P/k log 6.80
+   baseline N (10%) log n>=6: mass 0.01; Tk 11 [10,13]; log n 7.50 [7.38,7.75]; log N(HCO+)/dv 12.02 [11.22,12.62]; log A -0.0; tau(HCN3-2) 0.2 [0.0,0.5]; tau(HCO+3-2) 0.2; P/k log 8.55
+ ratios-only N
+   ratios-only N Tk<20 K: mass 0.06; Tk 14 [11,20]; log n 7.38 [4.75,7.62]; log N(HCO+)/dv 12.52 [10.72,13.82]; log A -0.0; tau(HCN3-2) 0.4 [0.0,21.7]; tau(HCO+3-2) 0.7; P/k log 8.47
+   ratios-only N 20-50 K: mass 0.32; Tk 35 [28,45]; log n 4.88 [3.62,6.38]; log N(HCO+)/dv 14.72 [13.32,15.92]; log A -0.0; tau(HCN3-2) 31.7 [1.9,407.1]; tau(HCO+3-2) 31.6; P/k log 6.40
+   ratios-only N Tk>=50 K: mass 0.63; Tk 100 [56,199]; log n 4.50 [3.50,5.62]; log N(HCO+)/dv 13.52 [11.72,14.82]; log A 0.4; tau(HCN3-2) 6.2 [0.2,83.4]; tau(HCO+3-2) 2.8; P/k log 6.47
+   ratios-only N Tk>=100 K: mass 0.29; Tk 158 [126,251]; log n 4.38 [3.38,5.12]; log N(HCO+)/dv 13.22 [11.32,14.22]; log A 0.4; tau(HCN3-2) 4.0 [0.2,46.7]; tau(HCO+3-2) 1.8; P/k log 6.57
+   ratios-only N log n>=6: mass 0.18; Tk 35 [16,71]; log n 6.88 [6.12,7.38]; log N(HCO+)/dv 13.12 [11.12,14.02]; log A -0.1; tau(HCN3-2) 0.4 [0.0,2.6]; tau(HCO+3-2) 0.4; P/k log 8.45
+   best chi2 (profile over eta) of cold models (Tk<20 K) vs all, baseline N fit:
+      Tk<20 K: min chi2 = 3.87
+      Tk<20 K & log n>=6: min chi2 = 3.87
+      all: min chi2 = 0.11

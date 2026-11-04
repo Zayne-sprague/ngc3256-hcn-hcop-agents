@@ -1,0 +1,189 @@
+cubes used: X961_spw0, X961_spw1, X95d_spw0, X95d_spw1
+X961 spw0 channel 26.3 km/s, beam 2.10x1.67, convolved to 2.2"
+null candidates HCO+ +-350 aperture integral (K km/s) vs N=104:
+39 null apertures selected (HCO+ integral < 12 K km/s)
+
+== NULL apertures: scatter of fitted amplitude vs formal error (K km/s) ==
+ N       ('HNC', 'X961_spw1')         n=39 mean +0.27 std 0.77 formal 0.27 rms(S/N) 3.10 max|S/N| 6.9
+ N       ('HC3N', 'X961_spw1')        n=39 mean -0.01 std 0.29 formal 0.28 rms(S/N) 1.09 max|S/N| 2.3
+ N       ('H13CN', 'X95d_spw0')       n=39 mean -0.04 std 0.25 formal 0.30 rms(S/N) 0.86 max|S/N| 1.8
+ N       ('H13COp', 'X95d_spw0')      n=39 mean +0.07 std 0.35 formal 0.33 rms(S/N) 1.10 max|S/N| 2.4
+ N       ('H13COp', 'X95d_spw1')      n=39 mean +0.08 std 0.34 formal 0.30 rms(S/N) 1.19 max|S/N| 3.5
+ N       ('SiO', 'X95d_spw1')         n=39 mean -0.05 std 0.32 formal 0.30 rms(S/N) 1.08 max|S/N| 2.9
+ N       ('HN13C', 'X95d_spw1')       n=39 mean +0.01 std 0.25 formal 0.28 rms(S/N) 0.87 max|S/N| 1.7
+ N       ('CCHa', 'X95d_spw1')        n=39 mean +0.37 std 0.84 formal 0.27 rms(S/N) 3.43 max|S/N| 9.8
+ N       ('CCHb', 'X95d_spw1')        n=39 mean -0.03 std 0.43 formal 0.28 rms(S/N) 1.60 max|S/N| 3.8
+ N       ('H13COp', 'comb')           n=39 mean +0.07 std 0.29 formal 0.22 rms(S/N) 1.34 max|S/N| 3.4
+ S       ('HNC', 'X961_spw1')         n=39 mean +0.33 std 0.91 formal 0.29 rms(S/N) 3.44 max|S/N| 9.3
+ S       ('HC3N', 'X961_spw1')        n=39 mean -0.02 std 0.32 formal 0.30 rms(S/N) 1.08 max|S/N| 2.2
+ S       ('H13CN', 'X95d_spw0')       n=39 mean -0.04 std 0.27 formal 0.32 rms(S/N) 0.86 max|S/N| 2.2
+ S       ('H13COp', 'X95d_spw0')      n=39 mean +0.12 std 0.40 formal 0.36 rms(S/N) 1.19 max|S/N| 2.6
+ S       ('H13COp', 'X95d_spw1')      n=39 mean +0.09 std 0.43 formal 0.33 rms(S/N) 1.33 max|S/N| 3.8
+ S       ('SiO', 'X95d_spw1')         n=39 mean -0.04 std 0.33 formal 0.32 rms(S/N) 1.04 max|S/N| 2.7
+ S       ('HN13C', 'X95d_spw1')       n=39 mean +0.04 std 0.23 formal 0.30 rms(S/N) 0.76 max|S/N| 1.6
+ S       ('CCHa', 'X95d_spw1')        n=39 mean +0.44 std 1.00 formal 0.29 rms(S/N) 3.86 max|S/N| 12.6
+ S       ('CCHb', 'X95d_spw1')        n=39 mean -0.03 std 0.48 formal 0.30 rms(S/N) 1.63 max|S/N| 4.6
+ S       ('H13COp', 'comb')           n=39 mean +0.10 std 0.36 formal 0.24 rms(S/N) 1.53 max|S/N| 3.7
+ Bridge  ('HNC', 'X961_spw1')         n=39 mean +0.29 std 0.83 formal 0.28 rms(S/N) 3.24 max|S/N| 8.1
+ Bridge  ('HC3N', 'X961_spw1')        n=39 mean -0.01 std 0.30 formal 0.29 rms(S/N) 1.09 max|S/N| 2.3
+ Bridge  ('H13CN', 'X95d_spw0')       n=39 mean -0.04 std 0.25 formal 0.31 rms(S/N) 0.84 max|S/N| 1.9
+ Bridge  ('H13COp', 'X95d_spw0')      n=39 mean +0.09 std 0.37 formal 0.34 rms(S/N) 1.14 max|S/N| 2.5
+ Bridge  ('H13COp', 'X95d_spw1')      n=39 mean +0.08 std 0.38 formal 0.31 rms(S/N) 1.25 max|S/N| 3.6
+ Bridge  ('SiO', 'X95d_spw1')         n=39 mean -0.04 std 0.32 formal 0.31 rms(S/N) 1.06 max|S/N| 2.9
+ Bridge  ('HN13C', 'X95d_spw1')       n=39 mean +0.02 std 0.24 formal 0.29 rms(S/N) 0.82 max|S/N| 1.7
+ Bridge  ('CCHa', 'X95d_spw1')        n=39 mean +0.39 std 0.89 formal 0.28 rms(S/N) 3.58 max|S/N| 10.9
+ Bridge  ('CCHb', 'X95d_spw1')        n=39 mean -0.03 std 0.44 formal 0.28 rms(S/N) 1.59 max|S/N| 4.1
+ Bridge  ('H13COp', 'comb')           n=39 mean +0.09 std 0.32 formal 0.23 rms(S/N) 1.42 max|S/N| 3.6
+ Slobe   ('HNC', 'X961_spw1')         n=39 mean +0.04 std 0.21 formal 0.23 rms(S/N) 0.93 max|S/N| 3.1
+ Slobe   ('HC3N', 'X961_spw1')        n=39 mean -0.02 std 0.23 formal 0.23 rms(S/N) 1.04 max|S/N| 2.6
+ Slobe   ('H13CN', 'X95d_spw0')       n=39 mean -0.02 std 0.21 formal 0.23 rms(S/N) 0.97 max|S/N| 2.6
+ Slobe   ('H13COp', 'X95d_spw0')      n=39 mean +0.00 std 0.08 formal 0.10 rms(S/N) 0.76 max|S/N| 1.9
+ Slobe   ('H13COp', 'X95d_spw1')      n=39 mean -0.08 std 0.22 formal 0.22 rms(S/N) 1.10 max|S/N| 2.4
+ Slobe   ('SiO', 'X95d_spw1')         n=39 mean -0.10 std 0.28 formal 0.24 rms(S/N) 1.28 max|S/N| 3.3
+ Slobe   ('HN13C', 'X95d_spw1')       n=39 mean -0.02 std 0.27 formal 0.23 rms(S/N) 1.19 max|S/N| 2.8
+ Slobe   ('CCHa', 'X95d_spw1')        n=39 mean -0.06 std 0.33 formal 0.21 rms(S/N) 1.63 max|S/N| 3.4
+ Slobe   ('CCHb', 'X95d_spw1')        n=39 mean +0.01 std 0.20 formal 0.21 rms(S/N) 0.96 max|S/N| 2.5
+ Slobe   ('H13COp', 'comb')           n=39 mean -0.01 std 0.08 formal 0.09 rms(S/N) 0.83 max|S/N| 1.7
+ Ridge   ('HNC', 'X961_spw1')         n=39 mean -0.05 std 0.22 formal 0.21 rms(S/N) 1.15 max|S/N| 3.3
+ Ridge   ('HC3N', 'X961_spw1')        n=39 mean -0.02 std 0.27 formal 0.21 rms(S/N) 1.31 max|S/N| 2.7
+ Ridge   ('H13CN', 'X95d_spw0')       n=39 mean +0.01 std 0.23 formal 0.23 rms(S/N) 0.99 max|S/N| 2.4
+ Ridge   ('H13COp', 'X95d_spw0')      n=39 mean +0.08 std 0.24 formal 0.24 rms(S/N) 1.10 max|S/N| 2.5
+ Ridge   ('H13COp', 'X95d_spw1')      n=39 mean +0.01 std 0.09 formal 0.09 rms(S/N) 1.01 max|S/N| 2.4
+ Ridge   ('SiO', 'X95d_spw1')         n=39 mean +0.01 std 0.29 formal 0.22 rms(S/N) 1.33 max|S/N| 2.8
+ Ridge   ('HN13C', 'X95d_spw1')       n=39 mean -0.00 std 0.25 formal 0.21 rms(S/N) 1.17 max|S/N| 2.8
+ Ridge   ('CCHa', 'X95d_spw1')        n=39 mean -0.05 std 0.28 formal 0.23 rms(S/N) 1.27 max|S/N| 3.7
+ Ridge   ('CCHb', 'X95d_spw1')        n=39 mean +0.29 std 0.68 formal 0.21 rms(S/N) 3.63 max|S/N| 12.7
+ Ridge   ('H13COp', 'comb')           n=39 mean +0.02 std 0.09 formal 0.09 rms(S/N) 1.05 max|S/N| 2.7
+
+== WEAK LINES at 2.2" circular beam, aperture r=2.2", K km/s (RJ T_b); error = max(formal*null calibration, null std); DET>=5 sigma, marg 3-5, lim ==
+ N       HNC     X961_spw1    46.55 +-  0.80 ( 57.9 sig, DET , 3sig lim   2.4) [sig_ch 3.3 mK, null mean +0.27 std 0.77]
+ N       HC3N    X961_spw1     4.80 +-  0.29 ( 16.3 sig, DET , 3sig lim   0.9) [sig_ch 3.3 mK, null mean -0.01 std 0.29]
+ N       H13CN   X95d_spw0     1.88 +-  0.31 (  6.0 sig, DET , 3sig lim   0.9) [sig_ch 3.8 mK, null mean -0.04 std 0.25]
+ N       H13COp  X95d_spw0     2.55 +-  0.38 (  6.8 sig, DET , 3sig lim   1.1) [sig_ch 3.8 mK, null mean +0.07 std 0.35]
+ N       H13COp  X95d_spw1     2.42 +-  0.45 (  5.4 sig, DET , 3sig lim   1.4) [sig_ch 4.3 mK, null mean +0.08 std 0.34]
+ N       SiO     X95d_spw1     1.82 +-  0.40 (  4.5 sig, marg, 3sig lim   1.2) [sig_ch 4.3 mK, null mean -0.05 std 0.32]
+ N       HN13C   X95d_spw1     0.18 +-  0.35 (  0.5 sig, lim , 3sig lim   1.1) [sig_ch 4.3 mK, null mean +0.01 std 0.25]
+ N       CCHa    X95d_spw1    28.43 +-  1.17 ( 24.3 sig, DET , 3sig lim   3.5) [sig_ch 4.3 mK, null mean +0.37 std 0.84]
+ N       CCHb    X95d_spw1    13.36 +-  0.55 ( 24.3 sig, DET , 3sig lim   1.6) [sig_ch 4.3 mK, null mean -0.03 std 0.43]
+ N       H13COp  comb          2.50 +-  0.34 (  7.3 sig, DET , 3sig lim   1.0) [sig_ch 4.1 mK, null mean +0.07 std 0.29]
+ S       HNC     X961_spw1    24.42 +-  0.98 ( 24.9 sig, DET , 3sig lim   2.9) [sig_ch 3.4 mK, null mean +0.33 std 0.91]
+ S       HC3N    X961_spw1     3.57 +-  0.32 ( 11.2 sig, DET , 3sig lim   1.0) [sig_ch 3.4 mK, null mean -0.02 std 0.32]
+ S       H13CN   X95d_spw0     0.31 +-  0.32 (  1.0 sig, lim , 3sig lim   0.9) [sig_ch 3.6 mK, null mean -0.04 std 0.27]
+ S       H13COp  X95d_spw0     1.42 +-  0.42 (  3.4 sig, marg, 3sig lim   1.3) [sig_ch 3.6 mK, null mean +0.12 std 0.40]
+ S       H13COp  X95d_spw1     1.84 +-  0.43 (  4.3 sig, marg, 3sig lim   1.3) [sig_ch 3.2 mK, null mean +0.09 std 0.43]
+ S       SiO     X95d_spw1     2.41 +-  0.33 (  7.3 sig, DET , 3sig lim   1.0) [sig_ch 3.2 mK, null mean -0.04 std 0.33]
+ S       HN13C   X95d_spw1     0.89 +-  0.28 (  3.2 sig, marg, 3sig lim   0.8) [sig_ch 3.2 mK, null mean +0.04 std 0.23]
+ S       CCHa    X95d_spw1    21.48 +-  1.05 ( 20.5 sig, DET , 3sig lim   3.1) [sig_ch 3.2 mK, null mean +0.44 std 1.00]
+ S       CCHb    X95d_spw1    10.01 +-  0.48 ( 21.0 sig, DET , 3sig lim   1.4) [sig_ch 3.2 mK, null mean -0.03 std 0.48]
+ S       H13COp  comb          1.66 +-  0.36 (  4.6 sig, marg, 3sig lim   1.1) [sig_ch 3.4 mK, null mean +0.10 std 0.36]
+ Bridge  HNC     X961_spw1    36.69 +-  0.86 ( 42.9 sig, DET , 3sig lim   2.6) [sig_ch 3.3 mK, null mean +0.29 std 0.83]
+ Bridge  HC3N    X961_spw1     4.65 +-  0.30 ( 15.3 sig, DET , 3sig lim   0.9) [sig_ch 3.3 mK, null mean -0.01 std 0.30]
+ Bridge  H13CN   X95d_spw0     1.80 +-  0.34 (  5.3 sig, DET , 3sig lim   1.0) [sig_ch 4.1 mK, null mean -0.04 std 0.25]
+ Bridge  H13COp  X95d_spw0     1.91 +-  0.43 (  4.5 sig, marg, 3sig lim   1.3) [sig_ch 4.1 mK, null mean +0.09 std 0.37]
+ Bridge  H13COp  X95d_spw1     1.93 +-  0.40 (  4.8 sig, marg, 3sig lim   1.2) [sig_ch 3.5 mK, null mean +0.08 std 0.38]
+ Bridge  SiO     X95d_spw1     2.32 +-  0.33 (  7.0 sig, DET , 3sig lim   1.0) [sig_ch 3.5 mK, null mean -0.04 std 0.32]
+ Bridge  HN13C   X95d_spw1     0.66 +-  0.30 (  2.2 sig, lim , 3sig lim   0.9) [sig_ch 3.5 mK, null mean +0.02 std 0.24]
+ Bridge  CCHa    X95d_spw1    25.23 +-  1.02 ( 24.6 sig, DET , 3sig lim   3.1) [sig_ch 3.5 mK, null mean +0.39 std 0.89]
+ Bridge  CCHb    X95d_spw1    11.96 +-  0.46 ( 26.1 sig, DET , 3sig lim   1.4) [sig_ch 3.5 mK, null mean -0.03 std 0.44]
+ Bridge  H13COp  comb          1.92 +-  0.35 (  5.6 sig, DET , 3sig lim   1.0) [sig_ch 3.8 mK, null mean +0.09 std 0.32]
+ Slobe   HNC     X961_spw1    -0.25 +-  0.21 ( -1.2 sig, lim , 3sig lim   0.6) [sig_ch 3.2 mK, null mean +0.04 std 0.21]
+ Slobe   HC3N    X961_spw1    -0.47 +-  0.23 ( -2.0 sig, lim , 3sig lim   0.7) [sig_ch 3.2 mK, null mean -0.02 std 0.23]
+ Slobe   H13CN   X95d_spw0    -0.13 +-  0.22 ( -0.6 sig, lim , 3sig lim   0.7) [sig_ch 3.5 mK, null mean -0.02 std 0.21]
+ Slobe   H13COp  X95d_spw0     0.13 +-  0.10 (  1.4 sig, lim , 3sig lim   0.3) [sig_ch 3.5 mK, null mean +0.00 std 0.08]
+ Slobe   H13COp  X95d_spw1    -0.02 +-  0.22 ( -0.1 sig, lim , 3sig lim   0.7) [sig_ch 2.8 mK, null mean -0.08 std 0.22]
+ Slobe   SiO     X95d_spw1    -0.74 +-  0.28 ( -2.6 sig, lim , 3sig lim   0.8) [sig_ch 2.8 mK, null mean -0.10 std 0.28]
+ Slobe   HN13C   X95d_spw1    -0.59 +-  0.27 ( -2.2 sig, lim , 3sig lim   0.8) [sig_ch 2.8 mK, null mean -0.02 std 0.27]
+ Slobe   CCHa    X95d_spw1     2.02 +-  0.33 (  6.1 sig, DET , 3sig lim   1.0) [sig_ch 2.8 mK, null mean -0.06 std 0.33]
+ Slobe   CCHb    X95d_spw1    -0.38 +-  0.20 ( -1.9 sig, lim , 3sig lim   0.6) [sig_ch 2.8 mK, null mean +0.01 std 0.20]
+ Slobe   H13COp  comb          0.10 +-  0.08 (  1.2 sig, lim , 3sig lim   0.3) [sig_ch 3.2 mK, null mean -0.01 std 0.08]
+ Ridge   HNC     X961_spw1    -0.85 +-  0.22 ( -3.8 sig, lim , 3sig lim   0.7) [sig_ch 3.1 mK, null mean -0.05 std 0.22]
+ Ridge   HC3N    X961_spw1    -1.36 +-  0.27 ( -5.1 sig, lim , 3sig lim   0.8) [sig_ch 3.1 mK, null mean -0.02 std 0.27]
+ Ridge   H13CN   X95d_spw0    -0.25 +-  0.25 ( -1.0 sig, lim , 3sig lim   0.7) [sig_ch 4.0 mK, null mean +0.01 std 0.23]
+ Ridge   H13COp  X95d_spw0     0.48 +-  0.28 (  1.7 sig, lim , 3sig lim   0.8) [sig_ch 4.0 mK, null mean +0.08 std 0.24]
+ Ridge   H13COp  X95d_spw1    -0.14 +-  0.10 ( -1.4 sig, lim , 3sig lim   0.3) [sig_ch 3.7 mK, null mean +0.01 std 0.09]
+ Ridge   SiO     X95d_spw1     0.28 +-  0.31 (  0.9 sig, lim , 3sig lim   0.9) [sig_ch 3.7 mK, null mean +0.01 std 0.29]
+ Ridge   HN13C   X95d_spw1    -1.25 +-  0.27 ( -4.7 sig, lim , 3sig lim   0.8) [sig_ch 3.7 mK, null mean -0.00 std 0.25]
+ Ridge   CCHa    X95d_spw1    -0.33 +-  0.31 ( -1.1 sig, lim , 3sig lim   0.9) [sig_ch 3.7 mK, null mean -0.05 std 0.28]
+ Ridge   CCHb    X95d_spw1    18.26 +-  0.82 ( 22.4 sig, DET , 3sig lim   2.4) [sig_ch 3.7 mK, null mean +0.29 std 0.68]
+ Ridge   H13COp  comb         -0.06 +-  0.10 ( -0.6 sig, lim , 3sig lim   0.3) [sig_ch 3.8 mK, null mean +0.02 std 0.09]
+
+== reference integrals (X961 spw0, 2.2", |v|<500 km/s or Slobe/Ridge box): HCO+ and HCN K km/s ==
+ N: HCO+ 108.0+-0.6  HCN 91.2+-0.6
+ S: HCO+ 90.3+-0.7  HCN 53.5+-0.5
+ Bridge: HCO+ 104.0+-0.8  HCN 76.0+-0.5
+ Slobe: HCO+ 2.2+-0.2  HCN 1.2+-0.2
+ Ridge: HCO+ 2.8+-0.3  HCN 2.9+-0.2
+
+== BOX MOMENTS (local linear baseline fitted jointly; errors = max(formal*calib, null std)); ratios to HCO+ / HCN box integral in the same window, plus 8% cross-project scale ==
+ pm150 N      HNC      43.88+-0.84 (52.3 sig DET) / HCN   86.7 = 0.5063+-0.0416  (3sig lim 0.0291)
+ pm150 N      HC3N      4.21+-0.37 (11.5 sig DET) / HCN   86.7 = 0.0486+-0.0057  (3sig lim 0.0127)
+ pm150 N      H13CN     1.91+-0.37 ( 5.2 sig DET) / HCN   86.7 = 0.0220+-0.0046  (3sig lim 0.0127)
+ pm150 N      SiO       1.85+-0.46 ( 4.0 sig marg) / HCO+  103.9 = 0.0178+-0.0047  (3sig lim 0.0134)
+ pm150 N      HN13C     0.17+-0.42 ( 0.4 sig lim) / HCO+  103.9 = 0.0016+-0.0041  (3sig lim 0.0122)
+ pm150 N      CCHa     29.21+-1.41 (20.7 sig DET) / HCO+  103.9 = 0.2811+-0.0263  (3sig lim 0.0408)
+ pm150 N      CCHb     13.53+-0.64 (21.2 sig DET) / HCO+  103.9 = 0.1302+-0.0121  (3sig lim 0.0184)
+ pm150 N      H13COp    2.82+-0.46 ( 6.2 sig DET) / HCO+  103.9 = 0.0271+-0.0049  (3sig lim 0.0132)
+ pm150 S      HNC      21.53+-0.86 (25.0 sig DET) / HCN   50.0 = 0.4307+-0.0385  (3sig lim 0.0516)
+ pm150 S      HC3N      3.13+-0.37 ( 8.6 sig DET) / HCN   50.0 = 0.0627+-0.0089  (3sig lim 0.0220)
+ pm150 S      H13CN     0.24+-0.35 ( 0.7 sig lim) / HCN   50.0 = 0.0048+-0.0069  (3sig lim 0.0208)
+ pm150 S      SiO       2.18+-0.34 ( 6.3 sig DET) / HCO+   86.1 = 0.0253+-0.0045  (3sig lim 0.0120)
+ pm150 S      HN13C     0.70+-0.31 ( 2.2 sig lim) / HCO+   86.1 = 0.0082+-0.0037  (3sig lim 0.0109)
+ pm150 S      CCHa     20.57+-1.05 (19.6 sig DET) / HCO+   86.1 = 0.2390+-0.0227  (3sig lim 0.0366)
+ pm150 S      CCHb      9.25+-0.52 (17.8 sig DET) / HCO+   86.1 = 0.1075+-0.0105  (3sig lim 0.0181)
+ pm150 S      H13COp    1.29+-0.39 ( 3.3 sig marg) / HCO+   86.1 = 0.0150+-0.0047  (3sig lim 0.0135)
+ pm150 Bridge HNC      33.02+-0.83 (39.7 sig DET) / HCN   70.8 = 0.4662+-0.0391  (3sig lim 0.0352)
+ pm150 Bridge HC3N      3.84+-0.37 (10.5 sig DET) / HCN   70.8 = 0.0543+-0.0068  (3sig lim 0.0155)
+ pm150 Bridge H13CN     1.66+-0.39 ( 4.3 sig marg) / HCN   70.8 = 0.0234+-0.0058  (3sig lim 0.0163)
+ pm150 Bridge SiO       2.03+-0.38 ( 5.4 sig DET) / HCO+   99.2 = 0.0204+-0.0042  (3sig lim 0.0114)
+ pm150 Bridge HN13C     0.54+-0.34 ( 1.6 sig lim) / HCO+   99.2 = 0.0055+-0.0035  (3sig lim 0.0104)
+ pm150 Bridge CCHa     24.99+-1.16 (21.6 sig DET) / HCO+   99.2 = 0.2518+-0.0233  (3sig lim 0.0349)
+ pm150 Bridge CCHb     11.53+-0.52 (22.1 sig DET) / HCO+   99.2 = 0.1161+-0.0107  (3sig lim 0.0158)
+ pm150 Bridge H13COp    1.81+-0.43 ( 4.2 sig marg) / HCO+   99.2 = 0.0182+-0.0045  (3sig lim 0.0129)
+ pm150pk N      HNC      79.00+-0.80 (98.7 sig DET) / HCN  145.5 = 0.5428+-0.0438  (3sig lim 0.0165)
+ pm150pk N      HC3N      8.43+-0.83 (10.2 sig DET) / HCN  145.5 = 0.0579+-0.0073  (3sig lim 0.0170)
+ pm150pk N      H13CN     4.39+-0.77 ( 5.7 sig DET) / HCN  145.5 = 0.0302+-0.0058  (3sig lim 0.0160)
+ pm150pk N      SiO       3.81+-0.94 ( 4.1 sig marg) / HCO+  160.6 = 0.0237+-0.0061  (3sig lim 0.0175)
+ pm150pk N      HN13C     0.23+-0.78 ( 0.3 sig lim) / HCO+  160.6 = 0.0014+-0.0048  (3sig lim 0.0145)
+ pm150pk N      CCHa     47.78+-1.17 (40.7 sig DET) / HCO+  160.6 = 0.2975+-0.0249  (3sig lim 0.0219)
+ pm150pk N      CCHb     22.57+-0.99 (22.9 sig DET) / HCO+  160.6 = 0.1405+-0.0128  (3sig lim 0.0184)
+ pm150pk N      H13COp    5.97+-0.94 ( 6.4 sig DET) / HCO+  160.6 = 0.0372+-0.0066  (3sig lim 0.0176)
+ pm150pk S      HNC      29.55+-0.77 (38.3 sig DET) / HCN   63.2 = 0.4674+-0.0393  (3sig lim 0.0366)
+ pm150pk S      HC3N      4.58+-0.83 ( 5.5 sig DET) / HCN   63.2 = 0.0725+-0.0143  (3sig lim 0.0392)
+ pm150pk S      H13CN    -0.04+-0.82 (-0.0 sig lim) / HCN   63.2 = -0.0006+-0.0130  (3sig lim 0.0389)
+ pm150pk S      SiO       3.01+-0.94 ( 3.2 sig marg) / HCO+  108.6 = 0.0278+-0.0089  (3sig lim 0.0259)
+ pm150pk S      HN13C     1.34+-0.75 ( 1.8 sig lim) / HCO+  108.6 = 0.0123+-0.0070  (3sig lim 0.0207)
+ pm150pk S      CCHa     28.04+-1.17 (23.9 sig DET) / HCO+  108.6 = 0.2582+-0.0233  (3sig lim 0.0325)
+ pm150pk S      CCHb     13.95+-0.95 (14.6 sig DET) / HCO+  108.6 = 0.1284+-0.0135  (3sig lim 0.0263)
+ pm150pk S      H13COp    1.53+-0.95 ( 1.6 sig lim) / HCO+  108.6 = 0.0141+-0.0088  (3sig lim 0.0262)
+ pm150pk Bridge HNC      35.90+-0.77 (46.3 sig DET) / HCN   81.2 = 0.4422+-0.0366  (3sig lim 0.0286)
+ pm150pk Bridge HC3N      4.93+-0.83 ( 6.0 sig DET) / HCN   81.2 = 0.0607+-0.0113  (3sig lim 0.0305)
+ pm150pk Bridge H13CN     2.15+-0.93 ( 2.3 sig lim) / HCN   81.2 = 0.0265+-0.0117  (3sig lim 0.0344)
+ pm150pk Bridge SiO       2.61+-0.94 ( 2.8 sig lim) / HCO+  117.6 = 0.0222+-0.0082  (3sig lim 0.0240)
+ pm150pk Bridge HN13C     1.63+-0.74 ( 2.2 sig lim) / HCO+  117.6 = 0.0138+-0.0064  (3sig lim 0.0190)
+ pm150pk Bridge CCHa     28.51+-1.17 (24.3 sig DET) / HCO+  117.6 = 0.2424+-0.0218  (3sig lim 0.0300)
+ pm150pk Bridge CCHb     12.66+-0.95 (13.4 sig DET) / HCO+  117.6 = 0.1076+-0.0118  (3sig lim 0.0241)
+ pm150pk Bridge H13COp    2.62+-1.00 ( 2.6 sig lim) / HCO+  117.6 = 0.0222+-0.0087  (3sig lim 0.0254)
+ pm350 N      HNC      45.80+-0.93 (49.1 sig DET) / HCN   90.9 = 0.5038+-0.0416  (3sig lim 0.0308)
+ pm350 N      HC3N      4.06+-0.62 ( 6.5 sig DET) / HCN   90.9 = 0.0447+-0.0077  (3sig lim 0.0205)
+ pm350 N      H13CN     1.20+-0.63 ( 1.9 sig lim) / HCN   90.9 = 0.0132+-0.0070  (3sig lim 0.0206)
+ pm350 N      SiO       4.54+-1.22 ( 3.7 sig marg) / HCO+  107.7 = 0.0421+-0.0118  (3sig lim 0.0339)
+ pm350 N      HN13C     4.16+-1.02 ( 4.1 sig marg) / HCO+  107.7 = 0.0387+-0.0100  (3sig lim 0.0285)
+ pm350 N      CCHa     28.95+-1.39 (20.8 sig DET) / HCO+  107.7 = 0.2688+-0.0251  (3sig lim 0.0387)
+ pm350 N      CCHb     26.73+-1.87 (14.3 sig DET) / HCO+  107.7 = 0.2482+-0.0264  (3sig lim 0.0520)
+ pm350 N      H13COp    5.55+-0.56 ( 9.9 sig DET) / HCO+  107.7 = 0.0515+-0.0066  (3sig lim 0.0156)
+ pm350 S      HNC      22.47+-0.96 (23.5 sig DET) / HCN   53.1 = 0.4233+-0.0384  (3sig lim 0.0540)
+ pm350 S      HC3N      3.59+-0.62 ( 5.8 sig DET) / HCN   53.1 = 0.0677+-0.0129  (3sig lim 0.0352)
+ pm350 S      H13CN    -0.37+-0.59 (-0.6 sig lim) / HCN   53.1 = -0.0069+-0.0112  (3sig lim 0.0334)
+ pm350 S      SiO       4.48+-0.94 ( 4.8 sig marg) / HCO+   90.7 = 0.0494+-0.0111  (3sig lim 0.0311)
+ pm350 S      HN13C     4.33+-0.80 ( 5.4 sig DET) / HCO+   90.7 = 0.0477+-0.0096  (3sig lim 0.0264)
+ pm350 S      CCHa     20.22+-1.11 (18.2 sig DET) / HCO+   90.7 = 0.2228+-0.0216  (3sig lim 0.0367)
+ pm350 S      CCHb     18.66+-1.40 (13.4 sig DET) / HCO+   90.7 = 0.2056+-0.0225  (3sig lim 0.0462)
+ pm350 S      H13COp    3.09+-0.47 ( 6.6 sig DET) / HCO+   90.7 = 0.0341+-0.0059  (3sig lim 0.0155)
+ pm350 Bridge HNC      34.85+-0.92 (37.7 sig DET) / HCN   75.2 = 0.4632+-0.0390  (3sig lim 0.0368)
+ pm350 Bridge HC3N      4.04+-0.62 ( 6.5 sig DET) / HCN   75.2 = 0.0537+-0.0093  (3sig lim 0.0248)
+ pm350 Bridge H13CN     0.70+-0.66 ( 1.1 sig lim) / HCN   75.2 = 0.0092+-0.0088  (3sig lim 0.0263)
+ pm350 Bridge SiO       4.57+-0.99 ( 4.6 sig marg) / HCO+  104.2 = 0.0439+-0.0102  (3sig lim 0.0286)
+ pm350 Bridge HN13C     4.53+-0.83 ( 5.4 sig DET) / HCO+  104.2 = 0.0435+-0.0087  (3sig lim 0.0240)
+ pm350 Bridge CCHa     25.35+-1.14 (22.3 sig DET) / HCO+  104.2 = 0.2433+-0.0223  (3sig lim 0.0327)
+ pm350 Bridge CCHb     22.62+-1.53 (14.8 sig DET) / HCO+  104.2 = 0.2171+-0.0227  (3sig lim 0.0440)
+ pm350 Bridge H13COp    4.59+-0.52 ( 8.8 sig DET) / HCO+  104.2 = 0.0441+-0.0061  (3sig lim 0.0150)

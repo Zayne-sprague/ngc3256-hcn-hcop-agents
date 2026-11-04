@@ -1,0 +1,44 @@
+PV Xb4d_1.05 HCN: rms per channel (line-free, slit-averaged) 0.53 mJy/beam ; peak 42.0 mJy/beam
+PV Xb4d_1.05 HCO+: rms per channel (line-free, slit-averaged) 0.61 mJy/beam ; peak 56.9 mJy/beam
+PV Xb4b_0.5 HCN: rms per channel (line-free, slit-averaged) 0.40 mJy/beam ; peak 19.6 mJy/beam
+PV Xb4b_0.5 HCO+: rms per channel (line-free, slit-averaged) 0.45 mJy/beam ; peak 25.1 mJy/beam
+S|Xb4d_1.05|ap|HCN: rms/chan 0.66 mJy ; 1G: A=16.2 c=-21 FWHM=199 chi2=2392/326 ; 2G: A1=20.1 c1=-61 FWHM1=88 | A2=13.1 c2=56+-1 FWHM2=94 chi2=741/323 dchi2=1651
+S|Xb4d_1.05|ap|HCO+: rms/chan 0.82 mJy ; 1G: A=45.4 c=-23 FWHM=189 chi2=8819/311 ; 2G: A1=55.0 c1=-62 FWHM1=87 | A2=35.5 c2=52+-1 FWHM2=94 chi2=747/308 dchi2=8073
+S|Xb4d_nat|peak|HCN: rms/chan 0.60 mJy ; 1G: A=10.5 c=-51 FWHM=160 chi2=1341/326 ; 2G: A1=13.2 c1=-68 FWHM1=88 | A2=5.5 c2=50+-2 FWHM2=94 chi2=603/323 dchi2=738
+S|Xb4d_nat|peak|HCO+: rms/chan 0.77 mJy ; 1G: A=30.6 c=-57 FWHM=136 chi2=4604/311 ; 2G: A1=36.8 c1=-70 FWHM1=84 | A2=14.2 c2=49+-1 FWHM2=94 chi2=590/308 dchi2=4014
+S|Xb4b_0.5|ap|HCN: rms/chan 1.32 mJy ; 1G: A=15.9 c=-22 FWHM=212 chi2=1220/326 ; 2G: A1=17.0 c1=53 FWHM1=70 | A2=19.7 c2=-67+-1 FWHM2=94 chi2=559/323 dchi2=661
+S|Xb4b_0.5|ap|HCO+: rms/chan 1.55 mJy ; 1G: A=45.1 c=-23 FWHM=204 chi2=4222/311 ; 2G: A1=58.9 c1=-67 FWHM1=82 | A2=40.5 c2=54+-1 FWHM2=94 chi2=538/308 dchi2=3684
+S|Xb4b_0.5|peak|HCN: rms/chan 0.41 mJy ; 1G: A=9.0 c=-68 FWHM=104 chi2=769/326 ; 2G: A1=7.4 c1=-72 FWHM1=74 | A2=2.4 c2=-35+-6 FWHM2=226 chi2=476/323 dchi2=293
+S|Xb4b_0.5|peak|HCO+: rms/chan 0.50 mJy ; 1G: A=21.3 c=-68 FWHM=102 chi2=1739/311 ; 2G: A1=22.3 c1=-72 FWHM1=88 | A2=4.9 c2=44+-2 FWHM2=94 chi2=494/308 dchi2=1245
+Slobe|Xb4d_1.05|ap|HCN: rms/chan 0.86 mJy ; 1G: A=3.0 c=-132 FWHM=387 chi2=485/326 ; 2G: A1=3.6 c1=34 FWHM1=60 | A2=2.8 c2=-178+-10 FWHM2=334 chi2=367/323 dchi2=118
+Slobe|Xb4d_1.05|ap|HCO+: rms/chan 0.98 mJy ; 1G: A=6.7 c=-28 FWHM=223 chi2=608/311 ; 2G: A1=8.1 c1=36 FWHM1=63 | A2=4.9 c2=-89+-8 FWHM2=211 chi2=279/308 dchi2=328
+Slobe|Xb4d_nat|peak|HCN: rms/chan 0.74 mJy ; 1G: A=2.3 c=-140 FWHM=422 chi2=405/326 ; 2G: A1=2.3 c1=-6 FWHM1=162 | A2=1.9 c2=-252+-20 FWHM2=293 chi2=348/323 dchi2=57
+Slobe|Xb4d_nat|peak|HCO+: rms/chan 0.77 mJy ; 1G: A=4.5 c=-58 FWHM=190 chi2=354/311 ; 2G: A1=4.6 c1=-56 FWHM1=183 | A2=0.7 c2=-372+-27 FWHM2=229 chi2=322/308 dchi2=32
+Slobe|Xb4b_0.5|ap|HCN: rms/chan 1.46 mJy ; 1G: A=3.6 c=-76 FWHM=287 chi2=480/326 ; 2G: A1=4.7 c1=49 FWHM1=46 | A2=3.5 c2=-108+-12 FWHM2=235 chi2=427/323 dchi2=53
+Slobe|Xb4b_0.5|ap|HCO+: rms/chan 1.64 mJy ; 1G: A=4.9 c=-62 FWHM=249 chi2=393/311 ; 2G: A1=6.6 c1=-98 FWHM1=91 | A2=5.7 c2=41+-5 FWHM2=94 chi2=314/308 dchi2=79
+Slobe|Xb4b_0.5|peak|HCN: rms/chan 0.50 mJy ; 1G: A=1.2 c=-142 FWHM=473 chi2=422/326 ; 2G: A1=1.5 c1=35 FWHM1=83 | A2=1.1 c2=-212+-17 FWHM2=393 chi2=353/323 dchi2=69
+Slobe|Xb4b_0.5|peak|HCO+: rms/chan 0.58 mJy ; 1G: A=1.9 c=-50 FWHM=267 chi2=310/311 ; 2G: A1=1.8 c1=14 FWHM1=139 | A2=1.1 c2=-165+-56 FWHM2=299 chi2=260/308 dchi2=50
+Bridge_mid|Xb4d_1.05|ap|HCN: rms/chan 0.71 mJy ; 1G: A=28.8 c=-4 FWHM=84 chi2=897/326 ; 2G: A1=27.7 c1=-4 FWHM1=77 | A2=1.9 c2=68+-13 FWHM2=450 chi2=606/323 dchi2=292
+Bridge_mid|Xb4d_1.05|ap|HCO+: rms/chan 0.85 mJy ; 1G: A=67.5 c=-7 FWHM=86 chi2=800/311 ; 2G: A1=51.7 c1=-4 FWHM1=68 | A2=18.4 c2=-17+-2 FWHM2=138 chi2=335/308 dchi2=465
+Bridge_mid|Xb4d_nat|peak|HCN: rms/chan 0.60 mJy ; 1G: A=19.1 c=6 FWHM=76 chi2=474/326 ; 2G: A1=19.1 c1=5 FWHM1=75 | A2=0.7 c2=171+-22 FWHM2=175 chi2=439/323 dchi2=35
+Bridge_mid|Xb4d_nat|peak|HCO+: rms/chan 0.70 mJy ; 1G: A=38.1 c=3 FWHM=82 chi2=343/311 ; 2G: A1=34.3 c1=0 FWHM1=78 | A2=4.9 c2=28+-40 FWHM2=105 chi2=317/308 dchi2=27
+Bridge_mid|Xb4b_0.5|ap|HCN: rms/chan 1.31 mJy ; 1G: A=32.9 c=-1 FWHM=72 chi2=481/326 ; 2G: A1=29.7 c1=1 FWHM1=63 | A2=4.4 c2=-27+-9 FWHM2=173 chi2=412/323 dchi2=69
+Bridge_mid|Xb4b_0.5|ap|HCO+: rms/chan 1.53 mJy ; 1G: A=71.9 c=-3 FWHM=78 chi2=425/311 ; 2G: A1=65.2 c1=-2 FWHM1=70 | A2=8.6 c2=-27+-7 FWHM2=159 chi2=315/308 dchi2=111
+Bridge_mid|Xb4b_0.5|peak|HCN: rms/chan 0.39 mJy ; 1G: A=10.3 c=10 FWHM=75 chi2=468/326 ; 2G: A1=10.3 c1=10 FWHM1=75 | A2=0.4 c2=140+-16 FWHM2=94 chi2=453/323 dchi2=15
+Bridge_mid|Xb4b_0.5|peak|HCO+: rms/chan 0.44 mJy ; 1G: A=19.2 c=7 FWHM=82 chi2=379/311 ; 2G: A1=19.0 c1=7 FWHM1=81 | A2=0.2 c2=92+-144 FWHM2=942 chi2=360/308 dchi2=18
+Red3.3N|Xb4d_1.05|ap|HCN: rms/chan 0.67 mJy ; 1G: A=26.4 c=-5 FWHM=96 chi2=805/326 ; 2G: A1=26.5 c1=-5 FWHM1=95 | A2=2.0 c2=240+-7 FWHM2=182 chi2=530/323 dchi2=275
+Red3.3N|Xb4d_1.05|ap|HCO+: rms/chan 0.78 mJy ; 1G: A=60.5 c=-6 FWHM=90 chi2=557/311 ; 2G: A1=60.6 c1=-6 FWHM1=90 | A2=1.8 c2=229+-8 FWHM2=156 chi2=420/308 dchi2=138
+Red3.3N|Xb4d_nat|peak|HCN: rms/chan 0.69 mJy ; 1G: A=15.8 c=12 FWHM=69 chi2=465/326 ; 2G: A1=15.4 c1=11 FWHM1=65 | A2=0.8 c2=113+-31 FWHM2=451 chi2=397/323 dchi2=68
+Red3.3N|Xb4d_nat|peak|HCO+: rms/chan 0.79 mJy ; 1G: A=34.8 c=4 FWHM=76 chi2=260/311 ; 2G: A1=32.8 c1=4 FWHM1=72 | A2=2.2 c2=9+-10 FWHM2=142 chi2=250/308 dchi2=10
+Red3.3N|Xb4b_0.5|ap|HCN: rms/chan 1.32 mJy ; 1G: A=29.0 c=-1 FWHM=74 chi2=459/326 ; 2G: A1=29.0 c1=-1 FWHM1=74 | A2=1.9 c2=232+-13 FWHM2=164 chi2=399/323 dchi2=59
+Red3.3N|Xb4b_0.5|ap|HCO+: rms/chan 1.53 mJy ; 1G: A=63.2 c=-3 FWHM=79 chi2=310/311 ; 2G: A1=63.2 c1=-3 FWHM1=79 | A2=2.2 c2=243+-12 FWHM2=137 chi2=263/308 dchi2=47
+Red3.3N|Xb4b_0.5|peak|HCN: rms/chan 0.37 mJy ; 1G: A=8.3 c=8 FWHM=65 chi2=512/326 ; 2G: A1=8.3 c1=8 FWHM1=65 | A2=0.2 c2=280+-21 FWHM2=94 chi2=505/323 dchi2=7
+Red3.3N|Xb4b_0.5|peak|HCO+: rms/chan 0.46 mJy ; 1G: A=16.7 c=4 FWHM=72 chi2=263/311 ; 2G: A1=16.6 c1=4 FWHM1=71 | A2=0.1 c2=-105+-181 FWHM2=942 chi2=254/308 dchi2=9
+N|Xb4d_1.05|ap|HCN: rms/chan 0.74 mJy ; 1G: A=62.0 c=1 FWHM=165 chi2=9791/326 ; 2G: A1=53.3 c1=-58 FWHM1=73 | A2=62.5 c2=38+-0 FWHM2=94 chi2=722/323 dchi2=9069
+N|Xb4d_1.05|ap|HCO+: rms/chan 0.87 mJy ; 1G: A=87.2 c=-2 FWHM=159 chi2=14101/311 ; 2G: A1=75.8 c1=-59 FWHM1=68 | A2=86.8 c2=34+-0 FWHM2=94 chi2=652/308 dchi2=13450
+N|Xb4d_nat|peak|HCN: rms/chan 0.66 mJy ; 1G: A=31.4 c=11 FWHM=168 chi2=3602/326 ; 2G: A1=23.4 c1=-59 FWHM1=78 | A2=34.3 c2=43+-1 FWHM2=94 chi2=499/323 dchi2=3103
+N|Xb4d_nat|peak|HCO+: rms/chan 0.74 mJy ; 1G: A=35.7 c=-11 FWHM=170 chi2=4935/311 ; 2G: A1=38.0 c1=-60 FWHM1=71 | A2=32.3 c2=38+-1 FWHM2=96 chi2=380/308 dchi2=4555
+N|Xb4b_0.5|ap|HCN: rms/chan 1.44 mJy ; 1G: A=70.8 c=3 FWHM=166 chi2=2943/326 ; 2G: A1=56.7 c1=-58 FWHM1=74 | A2=71.2 c2=38+-1 FWHM2=98 chi2=549/323 dchi2=2394
+N|Xb4b_0.5|ap|HCO+: rms/chan 1.54 mJy ; 1G: A=98.9 c=-0 FWHM=161 chi2=4883/311 ; 2G: A1=91.6 c1=44 FWHM1=81 | A2=83.8 c2=-49+-1 FWHM2=94 chi2=823/308 dchi2=4059
+N|Xb4b_0.5|peak|HCN: rms/chan 0.42 mJy ; 1G: A=16.7 c=13 FWHM=171 chi2=1789/326 ; 2G: A1=17.2 c1=47 FWHM1=97 | A2=11.3 c2=-54+-2 FWHM2=94 chi2=512/323 dchi2=1277
+N|Xb4b_0.5|peak|HCO+: rms/chan 0.51 mJy ; 1G: A=18.4 c=24 FWHM=155 chi2=1931/311 ; 2G: A1=10.1 c1=-57 FWHM1=84 | A2=20.7 c2=47+-1 FWHM2=94 chi2=299/308 dchi2=1631

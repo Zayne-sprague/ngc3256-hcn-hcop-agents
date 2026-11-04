@@ -1,0 +1,150 @@
+# S outflow axis (S -> Sblue blob of Q0) PA = 198 deg E of N; Soutflow offset (-0.2,-1.85) is at PA 186 deg
+Xb4d@1.05": random-aperture sigma (Jy km/s) blue-half HCN 0.051 HCO+ 0.062; red-half 0.072/0.109; excess window HCN 0.038 HCO+ 0.039
+Xb4b@1.05": random-aperture sigma (Jy km/s) blue-half HCN 0.078 HCO+ 0.095; red-half 0.076/0.125; excess window HCN 0.061 HCO+ 0.068
+
+## 1. Grid of aperture centres (r=1") within 3" of S and of N (0.5" step, v_loc=0 windows blue -400..-100, red +100..+400), Xb4d@1.05"; criterion HCN blue half >=10 sigma and R_Tb(blue)>=1.3
+  grid around S: 113 centres (~9 independent r=1" apertures); HCN blue>=10 sigma at 7 centres; >=10s & R>=1.3: 0 centres; (HCN>=5s & HCO+>=3s & R>=1.3): 2; max HCN blue 13.3 sigma
+      centre offset (E -1.0", N -2.5") from S: HCN blue 0.433 (8.4s) HCO+ 0.589 (9.5s) R_Tb 0.74; red HCN +0.006 HCO+ +0.006
+      centre offset (E -0.5", N -2.5") from S: HCN blue 0.683 (13.3s) HCO+ 0.699 (11.3s) R_Tb 0.99; red HCN -0.005 HCO+ -0.006
+      centre offset (E -0.5", N -2.0") from S: HCN blue 0.666 (13.0s) HCO+ 0.701 (11.4s) R_Tb 0.96; red HCN -0.052 HCO+ -0.049
+      centre offset (E -0.5", N -1.5") from S: HCN blue 0.580 (11.3s) HCO+ 0.635 (10.3s) R_Tb 0.92; red HCN -0.048 HCO+ -0.084
+      centre offset (E -0.5", N -1.0") from S: HCN blue 0.486 (9.5s) HCO+ 0.669 (10.8s) R_Tb 0.74; red HCN +0.005 HCO+ -0.013
+      centre offset (E +0.0", N -3.0") from S: HCN blue 0.412 (8.0s) HCO+ 0.387 (6.3s) R_Tb 1.08; red HCN -0.030 HCO+ -0.035
+      centre offset (E +0.0", N -2.5") from S: HCN blue 0.635 (12.4s) HCO+ 0.550 (8.9s) R_Tb 1.17; red HCN -0.052 HCO+ -0.066
+      centre offset (E +0.0", N -2.0") from S: HCN blue 0.680 (13.2s) HCO+ 0.602 (9.7s) R_Tb 1.14; red HCN -0.066 HCO+ -0.093
+      centre offset (E +0.0", N -1.5") from S: HCN blue 0.620 (12.1s) HCO+ 0.611 (9.9s) R_Tb 1.03; red HCN -0.025 HCO+ -0.056
+      centre offset (E +0.0", N -1.0") from S: HCN blue 0.596 (11.6s) HCO+ 0.756 (12.3s) R_Tb 0.80; red HCN +0.090 HCO+ +0.116
+      centre offset (E +0.0", N -0.5") from S: HCN blue 0.511 (9.9s) HCO+ 0.971 (15.7s) R_Tb 0.53; red HCN +0.239 HCO+ +0.412
+      centre offset (E +0.0", N +0.0") from S: HCN blue 0.432 (8.4s) HCO+ 1.007 (16.3s) R_Tb 0.43; red HCN +0.310 HCO+ +0.564
+      centre offset (E +0.5", N -2.0") from S: HCN blue 0.443 (8.6s) HCO+ 0.304 (4.9s) R_Tb 1.48; red HCN -0.086 HCO+ -0.111
+      centre offset (E +0.5", N -1.5") from S: HCN blue 0.441 (8.6s) HCO+ 0.357 (5.8s) R_Tb 1.25; red HCN +0.008 HCO+ -0.032
+      centre offset (E +0.5", N -1.0") from S: HCN blue 0.432 (8.4s) HCO+ 0.470 (7.6s) R_Tb 0.93; red HCN +0.203 HCO+ +0.237
+      centre offset (E +0.5", N -0.5") from S: HCN blue 0.437 (8.5s) HCO+ 0.684 (11.1s) R_Tb 0.65; red HCN +0.429 HCO+ +0.664
+  grid around N: 113 centres (~9 independent r=1" apertures); HCN blue>=10 sigma at 0 centres; >=10s & R>=1.3: 0 centres; (HCN>=5s & HCO+>=3s & R>=1.3): 0; max HCN blue 8.0 sigma
+
+## 1b. Same grid with the OUTER windows (-405..-205 blue, +205..+405 red; >2.4 sigma_v from line centre so the line cores do not leak in); criterion: HCN>=8 sigma & HCO+>=3 sigma & R_Tb>=1.5
+  grid around S: 113 centres; HCN outer-blue >=8 sigma at 5; also HCO+>=3s & R>=1.5 at 4
+      (E -0.5", N -2.0"): HCN 0.329 (8.7s) HCO+ 0.215 (5.5s) R_Tb 1.55
+      (E +0.0", N -2.5"): HCN 0.338 (8.9s) HCO+ 0.178 (4.6s) R_Tb 1.92
+      (E +0.0", N -2.0"): HCN 0.378 (10.0s) HCO+ 0.180 (4.6s) R_Tb 2.12
+      (E +0.0", N -1.5"): HCN 0.341 (9.0s) HCO+ 0.159 (4.1s) R_Tb 2.17
+  grid around N: 113 centres; HCN outer-blue >=8 sigma at 0; also HCO+>=3s & R>=1.5 at 0
+
+  field-wide local maxima (r=1" aperture sums over the whole 48" field) with HCN blue-half (-400..-100) >= 5 sigma (0.051): 12
+     pixel offset from S (E -0.3", N -2.2"): HCN 0.654 (12.7s) HCO+ 0.629 (10.2s) R_Tb 1.05
+     pixel offset from S (E +14.6", N +2.7"): HCN 0.378 (7.4s) HCO+ 0.232 (3.8s) R_Tb 1.65
+     pixel offset from S (E -13.9", N -4.8"): HCN 0.378 (7.3s) HCO+ 0.399 (6.5s) R_Tb 0.96
+     pixel offset from S (E -0.4", N +5.1"): HCN 0.358 (7.0s) HCO+ 0.459 (7.4s) R_Tb 0.79
+     pixel offset from S (E +7.2", N -11.8"): HCN 0.341 (6.6s) HCO+ 0.031 (0.5s) R_Tb 11.13
+     pixel offset from S (E +0.9", N -13.2"): HCN 0.327 (6.4s) HCO+ -0.232 (-3.8s) R_Tb nan
+     pixel offset from S (E +10.8", N +13.7"): HCN 0.318 (6.2s) HCO+ 0.170 (2.8s) R_Tb 1.90
+     pixel offset from S (E -7.8", N +15.2"): HCN 0.298 (5.8s) HCO+ 0.155 (2.5s) R_Tb 1.95
+     pixel offset from S (E -11.1", N +10.2"): HCN 0.291 (5.7s) HCO+ 0.002 (0.0s) R_Tb 129.09
+     pixel offset from S (E +13.4", N -2.4"): HCN 0.287 (5.6s) HCO+ 0.092 (1.5s) R_Tb 3.15
+     pixel offset from S (E -1.9", N -12.6"): HCN 0.285 (5.6s) HCO+ -0.024 (-0.4s) R_Tb nan
+     pixel offset from S (E +6.3", N +12.8"): HCN 0.273 (5.3s) HCO+ 0.140 (2.3s) R_Tb 1.97
+
+## 2. Positions along the S outflow axis (PA 198); t>0 = SSW (blue-lobe side), t<0 = NNE (toward the Bridge/N); r=1" apertures, v_loc=0, Jy km/s (sigma HCN 0.051, HCO+ 0.062); R_Tb blue/red only if both lines >2 sigma
+   t=-4.0": OUTER blue HCN -0.025 (-0.7s) HCO+ +0.038 (+1.0s) R nan | OUTER red HCN +0.117 (+2.7s) HCO+ +0.088 (+2.4s) R 1.34
+   t=-4.0": blue HCN -0.021 (-0.4s) HCO+ +0.015 (+0.2s) R nan | red HCN +0.286 (+4.0s) HCO+ +0.218 (+2.0s) R nan
+   t=-3.5": OUTER blue HCN -0.035 (-0.9s) HCO+ +0.049 (+1.3s) R nan | OUTER red HCN +0.137 (+3.1s) HCO+ +0.091 (+2.5s) R 1.52
+   t=-3.5": blue HCN -0.025 (-0.5s) HCO+ +0.032 (+0.5s) R nan | red HCN +0.282 (+3.9s) HCO+ +0.212 (+1.9s) R nan
+   t=-3.0": OUTER blue HCN -0.021 (-0.5s) HCO+ +0.042 (+1.1s) R nan | OUTER red HCN +0.131 (+3.0s) HCO+ +0.067 (+1.8s) R nan
+   t=-3.0": blue HCN +0.013 (+0.3s) HCO+ +0.055 (+0.9s) R nan | red HCN +0.285 (+4.0s) HCO+ +0.205 (+1.9s) R nan
+   t=-2.5": OUTER blue HCN -0.020 (-0.5s) HCO+ +0.043 (+1.1s) R nan | OUTER red HCN +0.103 (+2.4s) HCO+ +0.046 (+1.3s) R nan
+   t=-2.5": blue HCN +0.042 (+0.8s) HCO+ +0.095 (+1.5s) R nan | red HCN +0.252 (+3.5s) HCO+ +0.196 (+1.8s) R nan
+   t=-2.0": OUTER blue HCN -0.047 (-1.2s) HCO+ +0.024 (+0.6s) R nan | OUTER red HCN +0.081 (+1.8s) HCO+ +0.040 (+1.1s) R nan
+   t=-2.0": blue HCN +0.029 (+0.6s) HCO+ +0.114 (+1.8s) R nan | red HCN +0.203 (+2.8s) HCO+ +0.195 (+1.8s) R nan
+   t=-1.5": OUTER blue HCN -0.057 (-1.5s) HCO+ -0.011 (-0.3s) R nan | OUTER red HCN +0.061 (+1.4s) HCO+ +0.044 (+1.2s) R nan
+   t=-1.5": blue HCN +0.037 (+0.7s) HCO+ +0.178 (+2.9s) R nan | red HCN +0.190 (+2.6s) HCO+ +0.281 (+2.6s) R 0.69
+   t=-1.0": OUTER blue HCN -0.034 (-0.9s) HCO+ -0.008 (-0.2s) R nan | OUTER red HCN +0.040 (+0.9s) HCO+ +0.046 (+1.3s) R nan
+   t=-1.0": blue HCN +0.140 (+2.7s) HCO+ +0.473 (+7.7s) R 0.30 | red HCN +0.265 (+3.7s) HCO+ +0.509 (+4.7s) R 0.53
+   t=-0.5": OUTER blue HCN +0.025 (+0.7s) HCO+ +0.034 (+0.9s) R nan | OUTER red HCN +0.024 (+0.6s) HCO+ +0.034 (+0.9s) R nan
+   t=-0.5": blue HCN +0.309 (+6.0s) HCO+ +0.836 (+13.5s) R 0.37 | red HCN +0.332 (+4.6s) HCO+ +0.644 (+5.9s) R 0.52
+   t=+0.0": OUTER blue HCN +0.086 (+2.3s) HCO+ +0.080 (+2.1s) R 1.08 | OUTER red HCN +0.018 (+0.4s) HCO+ +0.011 (+0.3s) R nan
+   t=+0.0": blue HCN +0.432 (+8.4s) HCO+ +1.007 (+16.3s) R 0.43 | red HCN +0.310 (+4.3s) HCO+ +0.564 (+5.2s) R 0.56
+   t=+0.5": OUTER blue HCN +0.151 (+4.0s) HCO+ +0.114 (+2.9s) R 1.35 | OUTER red HCN +0.000 (+0.0s) HCO+ -0.006 (-0.2s) R nan
+   t=+0.5": blue HCN +0.495 (+9.6s) HCO+ +0.986 (+16.0s) R 0.51 | red HCN +0.185 (+2.6s) HCO+ +0.337 (+3.1s) R 0.56
+   t=+1.0": OUTER blue HCN +0.247 (+6.5s) HCO+ +0.135 (+3.5s) R 1.85 | OUTER red HCN -0.011 (-0.3s) HCO+ -0.036 (-1.0s) R nan
+   t=+1.0": blue HCN +0.545 (+10.6s) HCO+ +0.767 (+12.4s) R 0.72 | red HCN +0.039 (+0.5s) HCO+ +0.052 (+0.5s) R nan
+   t=+1.5": OUTER blue HCN +0.291 (+7.7s) HCO+ +0.168 (+4.3s) R 1.75 | OUTER red HCN -0.020 (-0.5s) HCO+ -0.043 (-1.2s) R nan
+   t=+1.5": blue HCN +0.575 (+11.2s) HCO+ +0.639 (+10.4s) R 0.91 | red HCN -0.040 (-0.6s) HCO+ -0.079 (-0.7s) R nan
+   t=+2.0": OUTER blue HCN +0.294 (+7.7s) HCO+ +0.206 (+5.3s) R 1.44 | OUTER red HCN -0.022 (-0.5s) HCO+ -0.018 (-0.5s) R nan
+   t=+2.0": blue HCN +0.619 (+12.0s) HCO+ +0.682 (+11.1s) R 0.92 | red HCN -0.051 (-0.7s) HCO+ -0.049 (-0.4s) R nan
+   t=+2.5": OUTER blue HCN +0.238 (+6.3s) HCO+ +0.207 (+5.3s) R 1.17 | OUTER red HCN +0.004 (+0.1s) HCO+ +0.006 (+0.2s) R nan
+   t=+2.5": blue HCN +0.592 (+11.5s) HCO+ +0.687 (+11.1s) R 0.87 | red HCN -0.007 (-0.1s) HCO+ +0.003 (+0.0s) R nan
+   t=+3.0": OUTER blue HCN +0.125 (+3.3s) HCO+ +0.170 (+4.4s) R 0.74 | OUTER red HCN +0.024 (+0.6s) HCO+ +0.007 (+0.2s) R nan
+   t=+3.0": blue HCN +0.448 (+8.7s) HCO+ +0.588 (+9.5s) R 0.77 | red HCN +0.030 (+0.4s) HCO+ +0.010 (+0.1s) R nan
+   t=+3.5": OUTER blue HCN +0.029 (+0.8s) HCO+ +0.114 (+2.9s) R nan | OUTER red HCN +0.031 (+0.7s) HCO+ -0.004 (-0.1s) R nan
+   t=+3.5": blue HCN +0.281 (+5.5s) HCO+ +0.412 (+6.7s) R 0.69 | red HCN +0.048 (+0.7s) HCO+ -0.014 (-0.1s) R nan
+   t=+4.0": OUTER blue HCN -0.036 (-0.9s) HCO+ +0.041 (+1.0s) R nan | OUTER red HCN +0.003 (+0.1s) HCO+ -0.017 (-0.5s) R nan
+   t=+4.0": blue HCN +0.103 (+2.0s) HCO+ +0.157 (+2.6s) R 0.66 | red HCN +0.005 (+0.1s) HCO+ -0.074 (-0.7s) R nan
+
+## 3. Centroid sensitivity of the Soutflow excess; windows relative to the chosen frame centre. k = HCN/HCO+ (Jy) in the frame core -205..+95; E=HCN(-405..-205)-k*HCO+(-405..-205)
+  Xb4d: Gaussian centroid |v|<250: HCN -70+-7, HCO+ -29+-4; fit range |v|<120 (skirt excluded): HCN -28+-7, HCO+ -14+-4
+    v_loc=0 both                        : k=0.534  HCN win +0.368 HCO+ win +0.199  E=+0.262+-0.043 (+6.1s);  blue-half R_Tb (vloc-400..-100) 1.04
+    HCO+ centroid both (-29)            : k=0.553  HCN win +0.323 HCO+ win +0.132  E=+0.250+-0.044 (+5.7s);  blue-half R_Tb (vloc-400..-100) 1.33
+    HCN centroid both (-70)             : k=0.621  HCN win +0.246 HCO+ win +0.082  E=+0.195+-0.045 (+4.3s);  blue-half R_Tb (vloc-400..-100) 1.68
+    own centroids (HCN -70, HCO+ -29)   : k=0.513  HCN win +0.246 HCO+ win +0.132  E=+0.178+-0.043 (+4.2s);  blue-half R_Tb (vloc-400..-100) 1.15
+    own, skirt-free (|v|<120) centroids : k=0.545  HCN win +0.321 HCO+ win +0.160  E=+0.234+-0.043 (+5.4s);  blue-half R_Tb (vloc-400..-100) 1.11
+    Xb4d free-ish Gaussian to residual (centre bound -500..-150, fit -700..-100, chan rms 1.00 mJy): peak 1.66+-0.19 mJy centre -277+-13 FWHM 230+-32; chi2 120 vs null 227 for 136 chan (channels are correlated: smoothing, ~1.2 chan/ resolution element)
+    Xb4d free-ish Gaussian to residual (centre bound -700..100, fit -700..-100, chan rms 1.00 mJy): peak 1.66+-0.19 mJy centre -277+-13 FWHM 230+-32; chi2 120 vs null 227 for 136 chan (channels are correlated: smoothing, ~1.2 chan/ resolution element)
+  Xb4b: Gaussian centroid |v|<250: HCN -51+-6, HCO+ -37+-5; fit range |v|<120 (skirt excluded): HCN -53+-16, HCO+ -30+-9
+    v_loc=0 both                        : k=0.637  HCN win +0.214 HCO+ win +0.214  E=+0.078+-0.074 (+1.0s);  blue-half R_Tb (vloc-400..-100) 0.80
+    HCO+ centroid both (-29)            : k=0.632  HCN win +0.196 HCO+ win +0.161  E=+0.095+-0.074 (+1.3s);  blue-half R_Tb (vloc-400..-100) 0.86
+    HCN centroid both (-70)             : k=0.701  HCN win +0.104 HCO+ win +0.100  E=+0.034+-0.077 (+0.4s);  blue-half R_Tb (vloc-400..-100) 1.01
+    own centroids (HCN -70, HCO+ -29)   : k=0.568  HCN win +0.104 HCO+ win +0.161  E=+0.012+-0.072 (+0.2s);  blue-half R_Tb (vloc-400..-100) 0.68
+    own, skirt-free (|v|<120) centroids : k=0.614  HCN win +0.128 HCO+ win +0.161  E=+0.029+-0.074 (+0.4s);  blue-half R_Tb (vloc-400..-100) 0.74
+    Xb4b free-ish Gaussian to residual (centre bound -500..-150, fit -700..-100, chan rms 1.40 mJy): peak 2.52+-0.64 mJy centre -256+-5 FWHM 40+-12; chi2 126 vs null 149 for 136 chan (channels are correlated: smoothing, ~1.2 chan/ resolution element)
+    Xb4b free-ish Gaussian to residual (centre bound -700..100, fit -700..-100, chan rms 1.40 mJy): peak 2.52+-0.64 mJy centre -256+-5 FWHM 40+-12; chi2 126 vs null 149 for 136 chan (channels are correlated: smoothing, ~1.2 chan/ resolution element)
+
+## 3b. Soutflow Xb4d@1.05" spectra in 50 km/s bins (Jy km/s per bin; sigma per bin from random apertures), v_loc=0
+    -525: HCN +0.001 (+0.0s)  HCO+ +0.001 (+0.0s)  R_Tb nan
+    -475: HCN +0.042 (+2.9s)  HCO+ +0.046 (+2.7s)  R_Tb 0.93
+    -425: HCN +0.037 (+2.4s)  HCO+ +0.004 (+0.2s)  R_Tb nan
+    -375: HCN +0.054 (+2.9s)  HCO+ +0.014 (+0.7s)  R_Tb nan
+    -325: HCN +0.089 (+4.7s)  HCO+ +0.026 (+1.7s)  R_Tb nan
+    -275: HCN +0.102 (+6.6s)  HCO+ +0.078 (+5.3s)  R_Tb 1.33
+    -225: HCN +0.136 (+8.0s)  HCO+ +0.090 (+5.8s)  R_Tb 1.52
+    -175: HCN +0.154 (+8.4s)  HCO+ +0.168 (+12.5s)  R_Tb 0.93
+    -125: HCN +0.148 (+8.0s)  HCO+ +0.287 (+7.0s)  R_Tb 0.52
+     -75: HCN +0.194 (+6.3s)  HCO+ +0.339 (+5.3s)  R_Tb 0.58
+     -25: HCN +0.210 (+5.4s)  HCO+ +0.473 (+6.1s)  R_Tb 0.45
+     +25: HCN +0.232 (+6.1s)  HCO+ +0.516 (+5.6s)  R_Tb 0.46
+     +75: HCN +0.104 (+2.6s)  HCO+ +0.186 (+1.9s)  R_Tb nan
+    +125: HCN -0.026 (-0.8s)  HCO+ -0.017 (-0.2s)  R_Tb nan
+
+## 4. Xb4d vs Xb4b (both 1.05") Jy km/s, v_loc=0 windows
+  Soutflow HCN_blue : Xb4d +0.368+-0.038  Xb4b +0.214+-0.061  diff(Xb4b-Xb4d) -0.154+-0.071 (-2.2s)  Xb4b/Xb4d 0.58
+  Soutflow HCO_blue : Xb4d +0.199+-0.039  Xb4b +0.214+-0.068  diff(Xb4b-Xb4d) +0.015+-0.078 (+0.2s)  Xb4b/Xb4d 1.08
+  Soutflow HCN_b400 : Xb4d +0.684+-0.051  Xb4b +0.515+-0.078  diff(Xb4b-Xb4d) -0.169+-0.093 (-1.8s)  Xb4b/Xb4d 0.75
+  Soutflow HCO_b400 : Xb4d +0.664+-0.062  Xb4b +0.654+-0.095  diff(Xb4b-Xb4d) -0.010+-0.114 (-0.1s)  Xb4b/Xb4d 0.99
+  Soutflow HCN_r400 : Xb4d -0.065+-0.072  Xb4b -0.023+-0.076  diff(Xb4b-Xb4d) +0.042+-0.104 (+0.4s)  Xb4b/Xb4d nan
+  Soutflow HCO_r400 : Xb4d -0.082+-0.109  Xb4b -0.023+-0.125  diff(Xb4b-Xb4d) +0.059+-0.166 (+0.4s)  Xb4b/Xb4d nan
+  Bridge   HCN_blue : Xb4d -0.027+-0.038  Xb4b +0.032+-0.061  diff(Xb4b-Xb4d) +0.059+-0.071 (+0.8s)  Xb4b/Xb4d nan
+  Bridge   HCO_blue : Xb4d +0.024+-0.039  Xb4b -0.041+-0.068  diff(Xb4b-Xb4d) -0.065+-0.078 (-0.8s)  Xb4b/Xb4d -1.70
+  Bridge   HCN_b400 : Xb4d +0.061+-0.051  Xb4b +0.081+-0.078  diff(Xb4b-Xb4d) +0.020+-0.093 (+0.2s)  Xb4b/Xb4d 1.33
+  Bridge   HCO_b400 : Xb4d +0.129+-0.062  Xb4b +0.017+-0.095  diff(Xb4b-Xb4d) -0.111+-0.114 (-1.0s)  Xb4b/Xb4d 0.14
+  Bridge   HCN_r400 : Xb4d +0.386+-0.072  Xb4b +0.226+-0.076  diff(Xb4b-Xb4d) -0.160+-0.104 (-1.5s)  Xb4b/Xb4d 0.59
+  Bridge   HCO_r400 : Xb4d +0.264+-0.109  Xb4b +0.283+-0.125  diff(Xb4b-Xb4d) +0.019+-0.166 (+0.1s)  Xb4b/Xb4d 1.07
+  S        HCN_blue : Xb4d +0.086+-0.038  Xb4b -0.004+-0.061  diff(Xb4b-Xb4d) -0.090+-0.071 (-1.3s)  Xb4b/Xb4d -0.05
+  S        HCO_blue : Xb4d +0.080+-0.039  Xb4b +0.041+-0.068  diff(Xb4b-Xb4d) -0.040+-0.078 (-0.5s)  Xb4b/Xb4d 0.51
+  S        HCN_b400 : Xb4d +0.432+-0.051  Xb4b +0.381+-0.078  diff(Xb4b-Xb4d) -0.051+-0.093 (-0.5s)  Xb4b/Xb4d 0.88
+  S        HCO_b400 : Xb4d +1.007+-0.062  Xb4b +1.005+-0.095  diff(Xb4b-Xb4d) -0.002+-0.114 (-0.0s)  Xb4b/Xb4d 1.00
+  S        HCN_r400 : Xb4d +0.310+-0.072  Xb4b +0.212+-0.076  diff(Xb4b-Xb4d) -0.099+-0.104 (-0.9s)  Xb4b/Xb4d 0.68
+  S        HCO_r400 : Xb4d +0.564+-0.109  Xb4b +0.538+-0.125  diff(Xb4b-Xb4d) -0.026+-0.166 (-0.2s)  Xb4b/Xb4d 0.95
+  N        HCN_blue : Xb4d -0.009+-0.038  Xb4b +0.013+-0.061  diff(Xb4b-Xb4d) +0.022+-0.071 (+0.3s)  Xb4b/Xb4d nan
+  N        HCO_blue : Xb4d +0.006+-0.039  Xb4b +0.111+-0.068  diff(Xb4b-Xb4d) +0.104+-0.078 (+1.3s)  Xb4b/Xb4d 17.20
+  N        HCN_b400 : Xb4d +0.330+-0.051  Xb4b +0.395+-0.078  diff(Xb4b-Xb4d) +0.065+-0.093 (+0.7s)  Xb4b/Xb4d 1.20
+  N        HCO_b400 : Xb4d +0.404+-0.062  Xb4b +0.620+-0.095  diff(Xb4b-Xb4d) +0.216+-0.114 (+1.9s)  Xb4b/Xb4d 1.53
+  N        HCN_r400 : Xb4d +0.603+-0.072  Xb4b +0.654+-0.076  diff(Xb4b-Xb4d) +0.051+-0.104 (+0.5s)  Xb4b/Xb4d 1.08
+  N        HCO_r400 : Xb4d +0.489+-0.109  Xb4b +0.645+-0.125  diff(Xb4b-Xb4d) +0.157+-0.166 (+0.9s)  Xb4b/Xb4d 1.32
+  Xb4b ring 1.85" from S (E=HCN-0.534*HCO+ in -405..-205; sigma 0.071): 
+     az000: HCN -0.014 HCO+ -0.012  E -0.007
+     az045: HCN +0.078 HCO+ -0.017  E +0.087
+     az090: HCN -0.042 HCO+ -0.050  E -0.016
+     az135: HCN -0.112 HCO+ -0.083  E -0.067
+     az180: HCN +0.215 HCO+ +0.204  E +0.106
+     az225: HCN -0.037 HCO+ +0.018  E -0.047
+     az270: HCN -0.036 HCO+ -0.011  E -0.030
+     az315: HCN -0.159 HCO+ -0.063  E -0.125

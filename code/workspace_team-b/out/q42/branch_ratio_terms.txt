@@ -1,0 +1,32 @@
+--- N variant T, band priors (0.1, 0.15), X=45
+ cold Tk<=30  Tk=13 logn=6.9 total chi2 37.07: H13CO+(1-0) mod 0.0330 obs 0.0231 chi2 4.77 | H13CN(1-0) mod 0.0338 obs 0.0207 chi2 7.49
+ mid          Tk=93 logn=4.7 total chi2 30.91: H13CO+(1-0) mod 0.0268 obs 0.0231 chi2 0.81 | H13CN(1-0) mod 0.0331 obs 0.0207 chi2 6.81
+ hot >=100    Tk=300 logn=4.5 total chi2 12.40: H13CO+(1-0) mod 0.0276 obs 0.0231 chi2 1.19 | H13CN(1-0) mod 0.0302 obs 0.0207 chi2 4.33
+--- N variant T, band priors (0.1, 0.15), X=89
+ cold Tk<=30  Tk=11 logn=6.9 total chi2 15.36: H13CO+(1-0) mod 0.0259 obs 0.0231 chi2 0.47 | H13CN(1-0) mod 0.0251 obs 0.0207 chi2 1.08
+ mid          Tk=93 logn=4.9 total chi2 18.67: H13CO+(1-0) mod 0.0168 obs 0.0231 chi2 3.24 | H13CN(1-0) mod 0.0261 obs 0.0207 chi2 1.57
+ hot >=100    Tk=300 logn=4.6 total chi2 8.13: H13CO+(1-0) mod 0.0175 obs 0.0231 chi2 2.48 | H13CN(1-0) mod 0.0214 obs 0.0207 chi2 0.03
+--- N variant T, band priors (0.2, 0.25), X=45
+ cold Tk<=30  Tk=14 logn=7.0 total chi2 19.71: H13CO+(1-0) mod 0.0298 obs 0.0231 chi2 2.43 | H13CN(1-0) mod 0.0295 obs 0.0207 chi2 3.82
+ mid          Tk=93 logn=4.7 total chi2 27.55: H13CO+(1-0) mod 0.0268 obs 0.0231 chi2 0.81 | H13CN(1-0) mod 0.0331 obs 0.0207 chi2 6.81
+ hot >=100    Tk=267 logn=4.4 total chi2 9.60: H13CO+(1-0) mod 0.0258 obs 0.0231 chi2 0.45 | H13CN(1-0) mod 0.0274 obs 0.0207 chi2 2.33
+--- N variant T, band priors (0.2, 0.25), X=89
+ cold Tk<=30  Tk=13 logn=6.8 total chi2 6.40: H13CO+(1-0) mod 0.0231 obs 0.0231 chi2 0.00 | H13CN(1-0) mod 0.0233 obs 0.0207 chi2 0.39
+ mid          Tk=93 logn=4.9 total chi2 18.20: H13CO+(1-0) mod 0.0168 obs 0.0231 chi2 3.24 | H13CN(1-0) mod 0.0261 obs 0.0207 chi2 1.57
+ hot >=100    Tk=300 logn=4.7 total chi2 6.91: H13CO+(1-0) mod 0.0189 obs 0.0231 chi2 1.32 | H13CN(1-0) mod 0.0249 obs 0.0207 chi2 0.98
+--- N variant T32, band priors (0.1, 0.15), X=45
+ cold Tk<=30  Tk=11 logn=6.9 total chi2 39.25: H13CO+(1-0) mod 0.0294 obs 0.0231 chi2 2.20 | H13CN(1-0) mod 0.0309 obs 0.0207 chi2 4.93 | H13CO+(3-2) mod 0.0350 obs 0.0284 chi2 1.04
+ mid          Tk=93 logn=4.7 total chi2 32.34: H13CO+(1-0) mod 0.0268 obs 0.0231 chi2 0.81 | H13CN(1-0) mod 0.0331 obs 0.0207 chi2 6.81 | H13CO+(3-2) mod 0.0215 obs 0.0284 chi2 1.43
+ hot >=100    Tk=300 logn=4.5 total chi2 13.88: H13CO+(1-0) mod 0.0276 obs 0.0231 chi2 1.19 | H13CN(1-0) mod 0.0302 obs 0.0207 chi2 4.33 | H13CO+(3-2) mod 0.0213 obs 0.0284 chi2 1.48
+--- N variant T32, band priors (0.1, 0.15), X=89
+ cold Tk<=30  Tk=11 logn=6.8 total chi2 16.52: H13CO+(1-0) mod 0.0227 obs 0.0231 chi2 0.01 | H13CN(1-0) mod 0.0244 obs 0.0207 chi2 0.77 | H13CO+(3-2) mod 0.0324 obs 0.0284 chi2 0.41
+ mid          Tk=93 logn=4.9 total chi2 28.36: H13CO+(1-0) mod 0.0168 obs 0.0231 chi2 3.24 | H13CN(1-0) mod 0.0261 obs 0.0207 chi2 1.57 | H13CO+(3-2) mod 0.0112 obs 0.0284 chi2 9.68
+ hot >=100    Tk=300 logn=4.6 total chi2 18.29: H13CO+(1-0) mod 0.0175 obs 0.0231 chi2 2.48 | H13CN(1-0) mod 0.0214 obs 0.0207 chi2 0.03 | H13CO+(3-2) mod 0.0109 obs 0.0284 chi2 10.15
+--- N variant T32, band priors (0.2, 0.25), X=45
+ cold Tk<=30  Tk=14 logn=7.0 total chi2 22.25: H13CO+(1-0) mod 0.0275 obs 0.0231 chi2 1.15 | H13CN(1-0) mod 0.0269 obs 0.0207 chi2 2.05 | H13CO+(3-2) mod 0.0359 obs 0.0284 chi2 1.34
+ mid          Tk=93 logn=4.7 total chi2 28.98: H13CO+(1-0) mod 0.0268 obs 0.0231 chi2 0.81 | H13CN(1-0) mod 0.0331 obs 0.0207 chi2 6.81 | H13CO+(3-2) mod 0.0215 obs 0.0284 chi2 1.43
+ hot >=100    Tk=267 logn=4.4 total chi2 10.94: H13CO+(1-0) mod 0.0258 obs 0.0231 chi2 0.45 | H13CN(1-0) mod 0.0274 obs 0.0207 chi2 2.33 | H13CO+(3-2) mod 0.0217 obs 0.0284 chi2 1.34
+--- N variant T32, band priors (0.2, 0.25), X=89
+ cold Tk<=30  Tk=13 logn=6.8 total chi2 7.43: H13CO+(1-0) mod 0.0204 obs 0.0231 chi2 0.53 | H13CN(1-0) mod 0.0219 obs 0.0207 chi2 0.08 | H13CO+(3-2) mod 0.0318 obs 0.0284 chi2 0.29
+ mid          Tk=93 logn=5.0 total chi2 27.27: H13CO+(1-0) mod 0.0179 obs 0.0231 chi2 2.09 | H13CN(1-0) mod 0.0292 obs 0.0207 chi2 3.60 | H13CO+(3-2) mod 0.0123 obs 0.0284 chi2 8.45
+ hot >=100    Tk=300 logn=4.7 total chi2 15.91: H13CO+(1-0) mod 0.0189 obs 0.0231 chi2 1.32 | H13CN(1-0) mod 0.0249 obs 0.0207 chi2 0.98 | H13CO+(3-2) mod 0.0118 obs 0.0284 chi2 9.00

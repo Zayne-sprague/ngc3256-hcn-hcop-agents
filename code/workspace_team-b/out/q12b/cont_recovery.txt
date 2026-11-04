@@ -1,0 +1,15 @@
+Xb55 cont native beam 8.95x5.98": 10" aperture flux r<4/8/12" = 8.7 / 23.3 / 32.8 mJy ; peak 21.2 mJy/10"-beam
+Xb4f cont native beam 5.84x3.52": 10" aperture flux r<4/8/12" = 14.2 / 38.5 / 48.9 mJy ; peak 38.1 mJy/10"-beam
+Xb47 cont native beam 4.16x2.70": 10" aperture flux r<4/8/12" = 27.2 / 66.7 / 76.0 mJy ; peak 74.5 mJy/10"-beam
+Xb4d cont native beam 0.94x0.74": 10" aperture flux r<4/8/12" = 10.3 / 26.2 / 33.2 mJy ; peak 28.2 mJy/10"-beam
+Xb4b cont native beam 0.24x0.23": 10" aperture flux r<4/8/12" = 7.5 / 15.4 / 11.5 mJy ; peak 21.3 mJy/10"-beam
+
+## Band-6 12-m / ACA continuum at 10" (same band: pure array effect), and the line comparison (HCO+ 3-2 r<4/8/12": Xb4d/Xb4f 0.81/0.65/0.50; Xb4b/Xb4f 0.69/0.47/-0.01)
+cont Xb4d/Xb4f r<4/8/12": 0.73 / 0.68 / 0.68
+cont Xb4b/Xb4f r<4/8/12": 0.53 / 0.40 / 0.24
+cont Xb4b/Xb4d r<4/8/12": 0.73 / 0.59 / 0.35
+
+## ACA spectral indices of the continuum in the 10" aperture (S ~ nu^alpha); a loss growing with frequency would make alpha(4f->47) < alpha(55->4f) (curvature negative)
+r<4": alpha(55->4f)=1.20  alpha(4f->47)=2.20  curvature=+1.00 (+-0.48..0.34 from 10% calibration/band)
+r<8": alpha(55->4f)=1.22  alpha(4f->47)=1.86  curvature=+0.64 (+-0.48..0.34 from 10% calibration/band)
+r<12": alpha(55->4f)=0.97  alpha(4f->47)=1.49  curvature=+0.52 (+-0.48..0.34 from 10% calibration/band)

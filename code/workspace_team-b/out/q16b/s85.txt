@@ -1,0 +1,52 @@
+HCN   compact-core share of the Xb4f-beam 3-2 flux, rc=1.0": N 0.56  S 0.32   (Xb4d recovers ~0.8-0.9 of the Xb4f flux at the peaks (Q12), so the share is a lower limit by ~that factor)
+HCN   compact-core share of the Xb4f-beam 3-2 flux, rc=1.5": N 0.74  S 0.44   (Xb4d recovers ~0.8-0.9 of the Xb4f flux at the peaks (Q12), so the share is a lower limit by ~that factor)
+HCN   compact-core share of the Xb4f-beam 3-2 flux, rc=2.0": N 0.83  S 0.57   (Xb4d recovers ~0.8-0.9 of the Xb4f flux at the peaks (Q12), so the share is a lower limit by ~that factor)
+HCN   compact-core share of the Xb4f-beam 3-2 flux, rc=2.5": N 0.86  S 0.67   (Xb4d recovers ~0.8-0.9 of the Xb4f flux at the peaks (Q12), so the share is a lower limit by ~that factor)
+   HCN   S aperture 0.357; contaminants <= 0.45 ; core share f=0.38 (rc 1.0") -> S core ratio >= 0.203
+   HCN   S aperture 0.357; contaminants <= 0.45 ; core share f=0.52 (rc 1.5") -> S core ratio >= 0.272
+   HCN   S aperture 0.357; contaminants <= 0.45 ; core share f=0.67 (rc 2.0") -> S core ratio >= 0.311
+   HCN   S aperture 0.357; contaminants <= 0.45 ; core share f=0.78 (rc 2.5") -> S core ratio >= 0.331
+   HCN   S aperture 0.357; contaminants <= 0.55 ; core share f=0.38 (rc 1.0") -> S core ratio >= 0.038
+   HCN   S aperture 0.357; contaminants <= 0.55 ; core share f=0.52 (rc 1.5") -> S core ratio >= 0.180
+   HCN   S aperture 0.357; contaminants <= 0.55 ; core share f=0.67 (rc 2.0") -> S core ratio >= 0.261
+   HCN   S aperture 0.357; contaminants <= 0.55 ; core share f=0.78 (rc 2.5") -> S core ratio >= 0.304
+   HCN   S aperture 0.357; contaminants <= 0.65 ; core share f=0.38 (rc 1.0") -> S core ratio >= -0.126
+   HCN   S aperture 0.357; contaminants <= 0.65 ; core share f=0.52 (rc 1.5") -> S core ratio >= 0.089
+   HCN   S aperture 0.357; contaminants <= 0.65 ; core share f=0.67 (rc 2.0") -> S core ratio >= 0.212
+   HCN   S aperture 0.357; contaminants <= 0.65 ; core share f=0.78 (rc 2.5") -> S core ratio >= 0.276
+   HCN   Bridge subtraction w=0.0 (Bridge ladder 0.362): S core = 0.357;  with N-like contaminant (0.450): 0.357
+   HCN   Bridge subtraction w=0.1 (Bridge ladder 0.362): S core = 0.356;  with N-like contaminant (0.450): 0.347
+   HCN   Bridge subtraction w=0.2 (Bridge ladder 0.362): S core = 0.356;  with N-like contaminant (0.450): 0.334
+   HCN   Bridge subtraction w=0.3 (Bridge ladder 0.362): S core = 0.355;  with N-like contaminant (0.450): 0.317
+   HCN   contaminant share needed to bring S from 0.357 to team-a core: w=(ap-core)/(rho_c-core): rho_c=0.45: w=0.49, rho_c=0.55: w=0.31, rho_c=0.65: w=0.23
+HCO+  compact-core share of the Xb4f-beam 3-2 flux, rc=1.0": N 0.45  S 0.31   (Xb4d recovers ~0.8-0.9 of the Xb4f flux at the peaks (Q12), so the share is a lower limit by ~that factor)
+HCO+  compact-core share of the Xb4f-beam 3-2 flux, rc=1.5": N 0.65  S 0.45   (Xb4d recovers ~0.8-0.9 of the Xb4f flux at the peaks (Q12), so the share is a lower limit by ~that factor)
+HCO+  compact-core share of the Xb4f-beam 3-2 flux, rc=2.0": N 0.77  S 0.56   (Xb4d recovers ~0.8-0.9 of the Xb4f flux at the peaks (Q12), so the share is a lower limit by ~that factor)
+HCO+  compact-core share of the Xb4f-beam 3-2 flux, rc=2.5": N 0.82  S 0.65   (Xb4d recovers ~0.8-0.9 of the Xb4f flux at the peaks (Q12), so the share is a lower limit by ~that factor)
+   HCO+  S aperture 0.486; contaminants <= 0.57 ; core share f=0.37 (rc 1.0") -> S core ratio >= 0.350
+   HCO+  S aperture 0.486; contaminants <= 0.57 ; core share f=0.53 (rc 1.5") -> S core ratio >= 0.414
+   HCO+  S aperture 0.486; contaminants <= 0.57 ; core share f=0.66 (rc 2.0") -> S core ratio >= 0.444
+   HCO+  S aperture 0.486; contaminants <= 0.57 ; core share f=0.76 (rc 2.5") -> S core ratio >= 0.461
+   HCO+  S aperture 0.486; contaminants <= 0.67 ; core share f=0.37 (rc 1.0") -> S core ratio >= 0.179
+   HCO+  S aperture 0.486; contaminants <= 0.67 ; core share f=0.53 (rc 1.5") -> S core ratio >= 0.323
+   HCO+  S aperture 0.486; contaminants <= 0.67 ; core share f=0.66 (rc 2.0") -> S core ratio >= 0.392
+   HCO+  S aperture 0.486; contaminants <= 0.67 ; core share f=0.76 (rc 2.5") -> S core ratio >= 0.430
+   HCO+  S aperture 0.486; contaminants <= 0.77 ; core share f=0.37 (rc 1.0") -> S core ratio >= 0.009
+   HCO+  S aperture 0.486; contaminants <= 0.77 ; core share f=0.53 (rc 1.5") -> S core ratio >= 0.233
+   HCO+  S aperture 0.486; contaminants <= 0.77 ; core share f=0.66 (rc 2.0") -> S core ratio >= 0.339
+   HCO+  S aperture 0.486; contaminants <= 0.77 ; core share f=0.76 (rc 2.5") -> S core ratio >= 0.398
+   HCO+  Bridge subtraction w=0.0 (Bridge ladder 0.494): S core = 0.486;  with N-like contaminant (0.565): 0.486
+   HCO+  Bridge subtraction w=0.1 (Bridge ladder 0.494): S core = 0.485;  with N-like contaminant (0.565): 0.477
+   HCO+  Bridge subtraction w=0.2 (Bridge ladder 0.494): S core = 0.484;  with N-like contaminant (0.565): 0.466
+   HCO+  Bridge subtraction w=0.3 (Bridge ladder 0.494): S core = 0.482;  with N-like contaminant (0.565): 0.452
+   HCO+  contaminant share needed to bring S from 0.486 to team-a core: w=(ap-core)/(rho_c-core): rho_c=0.57: w=0.35, rho_c=0.67: w=0.20, rho_c=0.77: w=0.14
+
+# (d) p0012 component ladders predict the S aperture ratio (f = compact-core share /0.85 Xb4d recovery; rest = p0012 Outer .. Bridge ladder)
+  HCN   f=0.38: predicted S aperture T43/T32 0.275-0.327 vs observed 0.357+-0.011 (stat): shortfall 0.030 to 0.081
+  HCN   f=0.52: predicted S aperture T43/T32 0.274-0.314 vs observed 0.357+-0.011 (stat): shortfall 0.043 to 0.083
+  HCN   f=0.67: predicted S aperture T43/T32 0.272-0.299 vs observed 0.357+-0.011 (stat): shortfall 0.058 to 0.085
+  HCN   f=0.78: predicted S aperture T43/T32 0.271-0.289 vs observed 0.357+-0.011 (stat): shortfall 0.068 to 0.086
+  HCO+  f=0.38: predicted S aperture T43/T32 0.353-0.456 vs observed 0.486+-0.005 (stat): shortfall 0.030 to 0.132
+  HCO+  f=0.52: predicted S aperture T43/T32 0.373-0.453 vs observed 0.486+-0.005 (stat): shortfall 0.033 to 0.112
+  HCO+  f=0.67: predicted S aperture T43/T32 0.395-0.449 vs observed 0.486+-0.005 (stat): shortfall 0.036 to 0.091
+  HCO+  f=0.78: predicted S aperture T43/T32 0.411-0.447 vs observed 0.486+-0.005 (stat): shortfall 0.039 to 0.075

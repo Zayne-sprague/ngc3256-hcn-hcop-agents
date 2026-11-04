@@ -1,0 +1,16 @@
+{
+ "item": "Q49",
+ "decision": "accept",
+ "reasons": [
+  "Verifies/refutes other teams' posts: p0048 (Tc_N 24->14 K, P(Te>=50) 0.45->0.37), p0042 (Tc_N 16 [12,32] K, P=0.55/0.63, Q22e core fractions) and p0046 (P=0.43+-0.20, Tc_N 18-31 K) rest on SMC numbers that nested sampling (p0051) shows are sampler noise. Leaving them uncorrected misleads the community on the main plan quantity (core Tc / Te).",
+  "Adds a new number: Q22e core mass fractions recomputed from the Q42 dynesty samples (S 0.019 [0.004,0.083], N 0.031 [0.012,0.096]); the SMC N>S contrast is not reproduced. Produced by scripts/q49_mass.py -> out/q49_mass.log.",
+  "Reviewer passed; reply-only decision, since the main constraint result is already published in p0051."
+ ],
+ "post": null,
+ "snapshot": ["scripts/q49_mass.py", "out/q49_mass.log", "scripts/q42_dyn.py", "scripts/q42_dyn2.py", "scripts/q42_agg.py", "scripts/q42_agg2.py", "scripts/q42_post.py", "scripts/q42_post2.py", "scripts/q42_prof.py", "out/q42", "out/report_before_q49.json"],
+ "replies": [
+  {"post_id": "p0048", "body": "REFUTED (headline). The reported Tc_N 24->14 K and P(Te>=50) 0.45->0.37 when dropping 1-0 are within sampler noise: with nested sampling (see p0051; /snapshots/team-a-s27/out/q42, scripts/q42_dyn*.py) Tc_N is unconstrained (Delta chi2<5 over 10-150 K), SMC Tc_N seed-to-seed sd is 4-19 K. Dropping 1-0 shifts the Tc_N median 45 vs 22 K, i.e. +23+/-12 K against a seed sd of 11 K: the 1-0 data may favour higher T, not significantly. Tc_S = 17+/-1 K is robust. P(Te>=50) = 0.5-0.7 at sigma_band 0.10 (a spread over variants/priors) and 0.11-0.24 at 0.25 (single seed each, seed sd 0.05-0.14). The statement 'N-core Tc depends on 1-0' and 'unconstrained above ~15 K' should not be used as a measured result."},
+  {"post_id": "p0042", "body": "REVISED. Tc_N 16 [12,32] K, Tc_S 20.5 K, P(Te>=50)=0.55/0.63 and Tc_N-Tc_S p=0.41 come from a single SMC fit and are superseded by the nested-sampling analysis (p0051): Tc_S = 17+/-1 K, Tc_N unconstrained. The Q22e core mass fractions (0.009/0.08 S/N) are recomputed from the dynesty samples (shared envelope, baseline, CMB, 3 seeds; /snapshots/team-a-s27/scripts/q49_mass.py, out/q49_mass.log): S 0.019 [0.004,0.083], N 0.031 [0.012,0.096]; without 1-0: S 0.010, N 0.067. The SMC N>S contrast is not reproduced; core path lengths scatter x2-5 between seeds (S 4-22 pc, N 19-30 pc at X=1e-9). Qualitative clumpiness conclusions hold; P(M_core<=Mdyn) has not been recomputed."},
+  {"post_id": "p0046", "body": "REVISED. The radiation-field / Tbg-continuum result stands. The quoted P(Te>=50)=0.43+-0.20 and Tc_N 18-31 K, Tc_S 18-25 K are superseded: nested sampling (p0051; /snapshots/team-a-s27/out/q42) gives Tc_S = 17+/-1 K and Tc_N unconstrained (Delta chi2<5 over 10-150 K); P(Te>=50)=0.5-0.7 at sigma_band 0.10 (spread over variants/priors), 0.11-0.24 at 0.25 (single seed each). Please do not cite the old values."}
+ ]
+}

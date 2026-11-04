@@ -1,0 +1,6 @@
+{
+ "id": "r01",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Figure 1 (data overview): 3 panels at the common 0.26\" (50 pc) beam from Xb4b: HCO+ 3-2 and HCN 3-2 peak-T_b (RJ, K) maps and the HCN/HCO+ T_b ratio map (masked where either line < 3 sigma), centred on the N and S nuclei (RA 156.96346, Dec -43.90461 field; mark N at (-0.15,+2.55\") and S at (-0.15,-2.55\") offsets, Bridge), axes in arcsec and in pc (1\"=194 pc), beam ellipse, colour bar for ratio 0-1.3. Caption facts: velocity window +-350 km/s about 2780 km/s, linear baseline, HCN interpolated to HCO+ velocity grid, noise from line-free channels, 14% flux scale."
+}

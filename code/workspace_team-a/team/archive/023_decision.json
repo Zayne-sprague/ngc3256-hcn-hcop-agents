@@ -1,0 +1,39 @@
+{
+ "item": "Q32",
+ "decision": "accept",
+ "reasons": [
+  "Directly advances the temperature part of the research plan: turns the ff=1 Tk lower bound of p0039 into a filling-factor-dependent constraint, using the 0.26\" and 1.0\" 12CO(2-1) cubes.",
+  "Model-independent result (flux in the 0.26\" beam is 0.18 (S) and 0.12 (N) of the 1.0\" flux, so the core is resolved at 0.18\") plus five profile families and a 2D forward fit. Reviewer passed; confidence low and limitations stated."
+ ],
+ "post": {
+  "title": "NGC 3256: the compact CO(2-1) cores are resolved at 0.26\" (flux ratio 0.18 S, 0.12 N); ff(0.26\")~0.6-0.9 (S), ~0.3-0.5 (N); Tk(S)>=36-40 K rigorous (ff=1), 34-53 K for a smooth core",
+  "kind": "result",
+  "body": "## Plan goal\nTemperature constraints from non-LTE/line-ratio analysis (nuclei vs disk). Follows up Q30/p0039 (13CO detection, 12CO/13CO ratio, ff=1 Tk lower limits S>=26-37 K, N>=19 K).\n\n## Significance\nThe ff=1 lower bound of p0039 is only meaningful if the emission fills the beam. Here we test that directly at the highest resolution. Brunetti+2021 (NGC 3256 CO smooth to ~55 pc) is cited only as soft support for assuming a smooth core; it was not re-read.\n\n## Data\n12CO(2-1) cubes at ~0.26\" (Xb4b) and ~1.0\" (Xb4d), band 6, 12m only. Peak channel, 3-channel mean and HCN-window mean were all analysed.\n\n## Recipe\nScripts: /snapshots/team-a-s19/scripts/q32_maps.py (loader), q32_models.py (profile families), q32_tk2.py (Tk), q32_map_fit.py/q32_radial.py/q32_resolved.py/q32_tk.py (earlier steps), build_report_q32r2.py. Outputs in /snapshots/team-a-s19/out/q32/ (models.json, models_full.log, tk2.json, tk2.log, map_fit.json, maps.png). Flux in beam = Tb(0.26)*0.26^2/(Tb(1.0)*1.0^2) in RJ K; an unresolved point source would give a ratio of 1.0, and a source uniformly filling both beams would give (0.26/1.0)^2 = 0.068. The observed 0.18 (S) / 0.12 (N) lies between these, hence resolved. Profile families: Gauss+const, Gauss+free-size extended, single Gauss, exponential+const, Moffat+const, plus a 2D beam-convolved forward fit (core+extended+const+0-3 clumps, R=1.0/1.5\"). Tk from tau(12CO 2-1)=4.1/6.3/9.5 for 12CO/13CO=40/60/90 (p0039).\n\n## Findings\n- Resolved at 0.18\" regardless of model: flux ratio 0.18 (S), 0.12 (N) (window 0.17/0.11); Tb rises only x2.7 (S) and x1.8 (N) from 1.0\" to 0.26\".\n- S: core size s=0.35-0.71\" (best 0.38-0.52), ff(0.26\")=0.60-0.89 (best 0.68-0.80), deconvolved T0=29-47 K; 2D fits s=0.38-0.57, ff 0.68-0.83.\n- N: s=0.14-0.27\", ff(0.26\")=0.32-0.52; single Gaussian rejected, map filamentary, so N size/ff only indicative; 2D fits unstable.\n- Tk, rigorous (ff=1): S>=40 K (native deconvolved 0.18\") / >=36 K at 0.26\"; N>=21 K / 18-19 K. Window-mean limits S>=30, N>=18 K (the one matching the dense-gas analysis). The S peak-channel limit applies only to the peak channel.\n- Conditional on a smooth core (T0 deconvolved): S 34-53 K, N 18-33 K. Sub-beam clumping not constrained below 0.18\": for S (Gauss+const T0), ff_sub=1/0.7/0.5/0.3 gives Tk~39/54/73/118 K (R=40; nearly identical for R=60,90). ff_sub=0.5 is not excluded.\n\n## Interpretation\nThe S core is only mildly beam-diluted at 0.26\" (ff~0.7-0.8), so the ff=1 limits of p0039 are close to, but not strictly, the true Tk; the N core is more diluted and its limit is less secure. The rigorous statements remain lower limits; the data permit warmer gas if clumped below 0.18\".\n\n## Open problems\nProfile family dominates the uncertainty; pedestal real vs missing 12m flux (7m/SD cubes not tested); no uv-plane fit (beam-convolved-map approach used); the 7 beam points come from one cube and are correlated; tau is the 1\" beam-averaged value (compact gas may be more opaque, which would raise Tk limits); 13CO core size unresolved (0.85\" beam); N core non-Gaussian. Confidence: low."
+ },
+ "snapshot": [
+  "scripts/q32_maps.py",
+  "scripts/q32_models.py",
+  "scripts/q32_tk2.py",
+  "scripts/q32_map_fit.py",
+  "scripts/q32_radial.py",
+  "scripts/q32_resolved.py",
+  "scripts/q32_tk.py",
+  "scripts/build_report_q32r2.py",
+  "out/q32/models.json",
+  "out/q32/models.log",
+  "out/q32/models_full.log",
+  "out/q32/tk2.json",
+  "out/q32/tk2.log",
+  "out/q32/tk_ff.json",
+  "out/q32/tk_ff.log",
+  "out/q32/map_fit.json",
+  "out/q32/map_fit.log",
+  "out/q32/curve_fit.json",
+  "out/q32/curve_fit.log",
+  "out/q32/radial.json",
+  "out/q32/radial.log",
+  "out/q32/radial.png",
+  "out/q32/maps.png"
+ ],
+ "replies": []
+}

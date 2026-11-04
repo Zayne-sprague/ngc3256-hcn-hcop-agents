@@ -1,0 +1,34 @@
+
+######## beam 1.50" uv-matched 3-2 (comb). Data K km/s (x1.0093):
+  N: HCN1 146.9 HCN3 40.3 HCO1 157.1 HCO3 61.3
+  S: HCN1 65.8 HCN3 18.4 HCO1 113.7 HCO3 42.7
+  Bridge: HCN1 82.7 HCN3 20.8 HCO1 124.1 HCO3 38.1
+  [1-0+3-2] N: Tk 22 [11,112] P(Tk>50)=0.33; log n 4.00 [3.25,4.75]; log A 0.70 [0.60,0.80]; log N(HCO+)/150km/s 16.2; tau(HCN 1-0) 46.3
+     (old Xb4d-based: Tk 25 [11,126]; log n 3.88; log A 0.70 [0.60,0.80])
+  [1-0+3-2] S: Tk 112 [35,223] P(Tk>50)=0.77; log n 4.00 [3.50,4.38]; log A 0.40 [0.30,0.50]; log N(HCO+)/150km/s 15.8; tau(HCN 1-0) 12.4
+     (old Xb4d-based: Tk 112 [40,223]; log n 4.00; log A 0.40 [0.30,0.50])
+  [1-0+3-2] Bridge: Tk 112 [35,223] P(Tk>50)=0.75; log n 3.88 [3.50,4.25]; log A 0.50 [0.40,0.60]; log N(HCO+)/150km/s 15.7; tau(HCN 1-0) 14.3
+     (old Xb4d-based: Tk 112 [35,223]; log n 3.88; log A 0.50 [0.40,0.60])
+  ln BF vs free [N vs S, 3-2 only]: Tn +0.45  A +0.34  ANO +0.85  T +0.34  n +0.05  all -4.81   | old Xb4d: Tn +0.43  A +0.29  ANO +0.71  T +0.33  n +0.05  all -13.37
+  ln BF vs free [N vs S, 1-0 + 3-2]: Tn +0.26  A -0.42  ANO -0.10  T -0.27  n +0.79  all -9.80   | old Xb4d: Tn +0.61  A -1.20  ANO -1.04  T -0.22  n +0.86  all -21.29
+  ln BF vs free [N vs Bridge, 3-2 only]: Tn +0.47  A +0.41  ANO +1.07  T +0.36  n +0.05  all +2.26   | old Xb4d: Tn +0.45  A +0.35  ANO +0.89  T +0.35  n +0.04  all -2.20
+  ln BF vs free [N vs Bridge, 1-0 + 3-2]: Tn +0.10  A +1.10  ANO +1.75  T -0.23  n +0.77  all -0.18   | old Xb4d: Tn +0.49  A +0.59  ANO +1.57  T -0.18  n +0.85  all -11.40
+  ln BF vs free [S vs Bridge, 3-2 only]: Tn +0.46  A +0.42  ANO +1.05  T +0.32  n +0.07  all +1.44   | old Xb4d: Tn +0.45  A +0.44  ANO +1.07  T +0.30  n +0.08  all +1.39
+  ln BF vs free [S vs Bridge, 1-0 + 3-2]: Tn +1.98  A +1.59  ANO +3.37  T +0.49  n +1.25  all +3.44   | old Xb4d: Tn +1.87  A +1.64  ANO +3.14  T +0.53  n +1.18  all +3.12
+
+######## beam 2.20" uv-matched 3-2 (comb). Data K km/s (x1.0093):
+  N: HCN1 91.7 HCN3 24.1 HCO1 109.6 HCO3 38.5
+  S: HCN1 52.9 HCN3 13.8 HCO1 92.8 HCO3 31.8
+  Bridge: HCN1 75.6 HCN3 19.5 HCO1 106.3 HCO3 35.4
+  [1-0+3-2] N: Tk 40 [14,158] P(Tk>50)=0.44; log n 3.88 [3.25,4.50]; log A 0.70 [0.50,0.70]; log N(HCO+)/150km/s 16.0; tau(HCN 1-0) 30.7
+     (old Xb4d-based: Tk 40 [16,158]; log n 3.88; log A 0.70 [0.50,0.70])
+  [1-0+3-2] S: Tk 141 [45,251] P(Tk>50)=0.83; log n 4.00 [3.62,4.25]; log A 0.40 [0.30,0.50]; log N(HCO+)/150km/s 15.8; tau(HCN 1-0) 11.9
+     (old Xb4d-based: Tk 141 [50,251]; log n 3.88; log A 0.40 [0.30,0.50])
+  [1-0+3-2] Bridge: Tk 79 [28,199] P(Tk>50)=0.67; log n 4.00 [3.38,4.38]; log A 0.60 [0.50,0.60]; log N(HCO+)/150km/s 15.8; tau(HCN 1-0) 16.3
+     (old Xb4d-based: Tk 89 [28,199]; log n 3.88; log A 0.60 [0.40,0.60])
+  ln BF vs free [N vs S, 3-2 only]: Tn +0.45  A +0.36  ANO +0.89  T +0.33  n +0.06  all -2.47   | old Xb4d: Tn +0.44  A +0.33  ANO +0.77  T +0.31  n +0.06  all -8.35
+  ln BF vs free [N vs S, 1-0 + 3-2]: Tn +1.02  A +0.21  ANO +1.31  T +0.01  n +0.92  all -4.58   | old Xb4d: Tn +1.30  A -0.04  ANO +0.97  T +0.10  n +1.02  all -14.18
+  ln BF vs free [N vs Bridge, 3-2 only]: Tn +0.46  A +0.43  ANO +1.13  T +0.35  n +0.05  all +3.21   | old Xb4d: Tn +0.46  A +0.42  ANO +1.08  T +0.34  n +0.05  all +2.57
+  ln BF vs free [N vs Bridge, 1-0 + 3-2]: Tn +1.08  A +1.67  ANO +3.01  T +0.09  n +0.94  all +6.26   | old Xb4d: Tn +1.23  A +1.59  ANO +2.97  T +0.12  n +0.99  all +4.94
+  ln BF vs free [S vs Bridge, 3-2 only]: Tn +0.45  A +0.42  ANO +1.04  T +0.32  n +0.07  all +1.38   | old Xb4d: Tn +0.44  A +0.40  ANO +0.95  T +0.30  n +0.08  all -1.23
+  ln BF vs free [S vs Bridge, 1-0 + 3-2]: Tn +1.87  A +1.34  ANO +3.08  T +0.42  n +1.21  all +4.04   | old Xb4d: Tn +1.75  A +1.21  ANO +2.80  T +0.43  n +1.19  all +0.17

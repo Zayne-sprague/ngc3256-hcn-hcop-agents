@@ -1,0 +1,31 @@
+{
+ "id": "20261026T173708-617b",
+ "team": "team-a",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X2d6_Xae.ari_l.NGC_3256_sci.spw1_229288MHz.12m.cube.I.pbcor.fits",
+  "member.uid___A001_X2d6_Xb2.NGC_3256_sci.spw0_227531MHz.mos.7m.cube.I.pbcor.fits",
+  "member.uid___A001_X2d6_Xb2.NGC_3256_sci.spw1_229289MHz.mos.7m.cube.I.pbcor.fits",
+  "member.uid___A001_X2d6_Xb6.NGC_3256_sci.spw17.cube.I.sd.fits"
+ ],
+ "why": "Q23: Tb at the S/N cores at 0.16-0.25\" needs the 0.16\" CO(2-1) cube (spw1 covers v<2844 km/s incl. the S 2710 and N 2720-2820 peaks); the only CO cube in /data-archive at the 0.24\" matched resolution is not published at core positions (Brunetti+21 Table 2 gives mass-weighted percentiles only: MISSING). 7m+SD (small) test whether the 2775 km/s dip in the 0.73\" core spectra is missing short spacings/absorption",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 14243417280,
+ "submitted": "2026-10-26T17:37:08+00:00",
+ "bytes_to_fetch": 14243417280,
+ "planned_evictions": [],
+ "large": true,
+ "queued": "2026-10-26T17:37:09+00:00",
+ "bytes_done": 14243417280,
+ "started": "2026-10-26T17:37:10+00:00",
+ "evicted": [],
+ "finished": "2026-10-26T17:45:22+00:00",
+ "paths": [
+  "/archive/files/2015.1.00714.S/member.uid___A001_X2d6_Xae.ari_l.NGC_3256_sci.spw1_229288MHz.12m.cube.I.pbcor.fits",
+  "/archive/files/2015.1.00714.S/member.uid___A001_X2d6_Xb2.NGC_3256_sci.spw0_227531MHz.mos.7m.cube.I.pbcor.fits",
+  "/archive/files/2015.1.00714.S/member.uid___A001_X2d6_Xb2.NGC_3256_sci.spw1_229289MHz.mos.7m.cube.I.pbcor.fits",
+  "/archive/files/2015.1.00714.S/member.uid___A001_X2d6_Xb6.NGC_3256_sci.spw17.cube.I.sd.fits"
+ ],
+ "minutes": 8.2
+}

@@ -1,0 +1,31 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X1273/Xb4b",
+ "freq_ranges_ghz": [
+  [
+   262.8787390305081,
+   264.01062687682276
+  ],
+  [
+   264.5310347051563,
+   265.67003690921456
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xd271e2_Xb367"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": "paper_answers/q01/q01_casa_image.py",
+ "args": [],
+ "why": "paper request q01: uv-matched 12m+7m HCN/HCO+ 3-2 images at 0.6 and 1.0 arcsec. The 0.6 arcsec beam needs the Xb4b long baselines (restored so far: Xb4d 12m EB Xe07 and Xb4f 7m only, which cannot make 0.6 arcsec); ONE 12-m EB (19 GB) is enough for the N/S cores.",
+ "ok_evict": false,
+ "ok_long": false,
+ "bytes_estimate": 19407244288,
+ "id": "20261029T225427-9e07",
+ "team": "team-b-liaison",
+ "status": "submitted",
+ "submitted": "2026-10-29T22:54:27+00:00"
+}

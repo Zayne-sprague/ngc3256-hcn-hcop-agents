@@ -1,0 +1,29 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X879/X94a",
+ "freq_ranges_ghz": [
+  [
+   87.5,
+   88.7
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xb9f161_X4864"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": null,
+ "args": [],
+ "why": "Q34: X961 (2015.1.00993) raw restore failed (unknown delivery layout), so use the only other Band 3 HCN/HCO+ 1-0 12-m raw set, X94a (0.65\"), restricted to HCN+HCO+ 1-0; will be uvrange-limited to the common k\u03bb range with Band 6 Xb4d to test the 1-0 vs 3-2 N/S ratios and r31 at matched uv coverage (the item's core data).",
+ "ok_evict": false,
+ "ok_long": true,
+ "bytes_estimate": 57708024832,
+ "id": "20261026T165750-600b",
+ "team": "team-b",
+ "status": "failed",
+ "submitted": "2026-10-26T16:57:50+00:00",
+ "error": "57.7 GB of raw data is above the per-request limit (30 GB): ask for fewer EBs (--ebs)",
+ "finished": "2026-10-26T16:57:53+00:00"
+}

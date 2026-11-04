@@ -1,0 +1,24 @@
+== HCN32 (Xb4d spw27), 1.05" beam, r=1" apertures; channel dv 4.40 km/s; control apertures N=267
+   core (-150..150) mean-aperture Jy km/s: S 3.201 N 10.325 ridge 2.970 lobe 0.645
+   red 180-320 @ ridge: +0.2567 Jy km/s  (controls mean -0.0093, sd 0.0328) -> +8.1 sigma; 3-sigma UL 0.3645
+   blue -320..-180 @ lobe: +0.3253 Jy km/s  (controls mean -0.0053, sd 0.0343) -> +9.6 sigma; 3-sigma UL 0.4335
+   blue -320..-180 @ ridge (mirror): -0.0248 Jy km/s  (controls mean -0.0053, sd 0.0343) -> -0.6 sigma; 3-sigma UL 0.1029
+   red 180-320 @ lobe (mirror): +0.0068 Jy km/s  (controls mean -0.0093, sd 0.0328) -> +0.5 sigma; 3-sigma UL 0.1146
+   red 180-320 @ N: +0.1204 Jy km/s  (controls mean -0.0093, sd 0.0328) -> +3.9 sigma; 3-sigma UL 0.2281
+   red 180-320 @ S: +0.0279 Jy km/s  (controls mean -0.0093, sd 0.0328) -> +1.1 sigma; 3-sigma UL 0.1357
+== SO65 (Xb4d spw31), 1.05" beam, r=1" apertures; channel dv 4.65 km/s; control apertures N=267
+   core (-150..150) mean-aperture Jy km/s: S 0.075 N 0.049 ridge -0.001 lobe 0.021
+   red 180-320 @ ridge: -0.0230 Jy km/s  (controls mean +0.0019, sd 0.0274) -> -0.9 sigma; 3-sigma UL 0.0822
+   blue -320..-180 @ lobe: -0.0193 Jy km/s  (controls mean +0.0033, sd 0.0297) -> -0.8 sigma; 3-sigma UL 0.0892
+   blue -320..-180 @ ridge (mirror): -0.0249 Jy km/s  (controls mean +0.0033, sd 0.0297) -> -0.9 sigma; 3-sigma UL 0.0892
+   red 180-320 @ lobe (mirror): -0.0065 Jy km/s  (controls mean +0.0019, sd 0.0274) -> -0.3 sigma; 3-sigma UL 0.0822
+   red 180-320 @ N: +0.0100 Jy km/s  (controls mean +0.0019, sd 0.0274) -> +0.3 sigma; 3-sigma UL 0.0902
+   red 180-320 @ S: -0.0222 Jy km/s  (controls mean +0.0019, sd 0.0274) -> -0.9 sigma; 3-sigma UL 0.0822
+== HC3N28-27 (Xb4d spw29), 1.05" beam, r=1" apertures; channel dv 4.60 km/s; control apertures N=267
+   core (-150..150) mean-aperture Jy km/s: S -0.033 N 0.092 ridge 0.070 lobe -0.028
+   red 180-320 @ ridge: +0.0216 Jy km/s  (controls mean -0.0013, sd 0.0359) -> +0.6 sigma; 3-sigma UL 0.1306
+   blue -320..-180 @ lobe: +0.0080 Jy km/s  (controls mean -0.0009, sd 0.0362) -> +0.2 sigma; 3-sigma UL 0.1174
+   blue -320..-180 @ ridge (mirror): +0.0467 Jy km/s  (controls mean -0.0009, sd 0.0362) -> +1.3 sigma; 3-sigma UL 0.1562
+   red 180-320 @ lobe (mirror): -0.0032 Jy km/s  (controls mean -0.0013, sd 0.0359) -> -0.1 sigma; 3-sigma UL 0.1077
+   red 180-320 @ N: -0.0422 Jy km/s  (controls mean -0.0013, sd 0.0359) -> -1.1 sigma; 3-sigma UL 0.1077
+   red 180-320 @ S: +0.0037 Jy km/s  (controls mean -0.0013, sd 0.0359) -> +0.1 sigma; 3-sigma UL 0.1126

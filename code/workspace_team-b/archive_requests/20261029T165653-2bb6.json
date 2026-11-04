@@ -1,0 +1,17 @@
+{
+ "type": "casa",
+ "script": "scripts/s341_q56_casa_image.py",
+ "args": [],
+ "why": "Q56: uv-matched (12m+7m) Band6 3-2 HCN/HCO+ cubes at 2.5 and 3.5 arcsec circular beams to extend Q34 matched-uv R32/10 to the Q53 beam",
+ "id": "20261029T165653-2bb6",
+ "team": "team-b",
+ "status": "done",
+ "submitted": "2026-10-29T16:56:53+00:00",
+ "large": false,
+ "queued": "2026-10-29T16:56:54+00:00",
+ "started": "2026-10-29T16:56:54+00:00",
+ "finished": "2026-10-29T17:17:33+00:00",
+ "returncode": 0,
+ "seconds": 1239.1,
+ "log": "/workspace/scripts/s341_q56_casa_image.log"
+}

@@ -1,0 +1,46 @@
+base   N aper         chi2min   9.1 at T=100 K | dchi2<4: 65-150 K (4 grid pts) | dchi2(80)=0.4 dchi2(100)=0.0 dchi2(150)=2.1 dchi2(20)=12.4 dchi2(30)=6.0
+base   N base         chi2min  19.3 at T= 30 K | dchi2<4: 25-100 K (7 grid pts) | dchi2(80)=3.3 dchi2(100)=0.8 dchi2(150)=10.6 dchi2(20)=5.7 dchi2(30)=0.0
+base   N infl0.25     chi2min   8.4 at T= 65 K | dchi2<4: 20-150 K (7 grid pts) | dchi2(80)=0.6 dchi2(100)=2.1 dchi2(150)=3.6 dchi2(20)=3.9 dchi2(30)=0.4
+base   N ladders_off  chi2min   4.0 at T= 80 K | dchi2<4: 30-150 K (7 grid pts) | dchi2(80)=0.0 dchi2(100)=1.2 dchi2(150)=1.7 dchi2(20)=4.0 dchi2(30)=1.2
+base   N loo0         chi2min   9.8 at T= 65 K | dchi2<4: 30-100 K (4 grid pts) | dchi2(80)=1.2 dchi2(100)=2.7 dchi2(150)=6.7 dchi2(20)=7.6 dchi2(30)=0.9
+base   N loo1         chi2min  18.2 at T= 30 K | dchi2<4: 25-100 K (6 grid pts) | dchi2(80)=4.0 dchi2(100)=1.5 dchi2(150)=10.9 dchi2(20)=4.3 dchi2(30)=0.0
+base   N loo2         chi2min  14.5 at T= 65 K | dchi2<4: 30-100 K (6 grid pts) | dchi2(80)=1.7 dchi2(100)=2.1 dchi2(150)=7.2 dchi2(20)=7.9 dchi2(30)=2.2
+base   N loo3         chi2min  17.4 at T= 30 K | dchi2<4: 20-100 K (6 grid pts) | dchi2(80)=5.2 dchi2(100)=2.7 dchi2(150)=10.6 dchi2(20)=2.9 dchi2(30)=0.0
+base   N loo4         chi2min  19.2 at T= 65 K | dchi2<4: 20-100 K (8 grid pts) | dchi2(80)=3.3 dchi2(100)=0.5 dchi2(150)=6.6 dchi2(20)=2.8 dchi2(30)=0.0
+base   N loo5         chi2min  17.2 at T= 40 K | dchi2<4: 25-100 K (6 grid pts) | dchi2(80)=4.4 dchi2(100)=2.2 dchi2(150)=12.6 dchi2(20)=6.7 dchi2(30)=1.9
+base   N loo6         chi2min  18.9 at T= 30 K | dchi2<4: 25-100 K (7 grid pts) | dchi2(80)=3.2 dchi2(100)=0.6 dchi2(150)=9.5 dchi2(20)=5.2 dchi2(30)=0.0
+base   N loo7         chi2min  18.1 at T=100 K | dchi2<4: 25-100 K (6 grid pts) | dchi2(80)=3.4 dchi2(100)=0.0 dchi2(150)=10.7 dchi2(20)=4.4 dchi2(30)=0.4
+base   N mid          chi2min   9.4 at T= 65 K | dchi2<4: 30-150 K (5 grid pts) | dchi2(80)=0.7 dchi2(100)=1.4 dchi2(150)=3.9 dchi2(20)=8.0 dchi2(30)=2.5
+base   S aper         chi2min   9.3 at T= 65 K | dchi2<4: 25-80 K (6 grid pts) | dchi2(80)=2.7 dchi2(100)=4.5 dchi2(150)=18.2 dchi2(20)=4.9 dchi2(30)=0.8
+base   S base         chi2min   7.9 at T= 30 K | dchi2<4: 10-50 K (7 grid pts) | dchi2(80)=9.3 dchi2(100)=14.4 dchi2(150)=30.9 dchi2(20)=0.9 dchi2(30)=0.0
+base   S infl0.25     chi2min   6.9 at T= 30 K | dchi2<4: 10-80 K (9 grid pts) | dchi2(80)=3.6 dchi2(100)=7.8 dchi2(150)=11.8 dchi2(20)=0.4 dchi2(30)=0.0
+base   S ladders_off  chi2min   3.5 at T= 15 K | dchi2<4: 10-150 K (10 grid pts) | dchi2(80)=2.7 dchi2(100)=4.2 dchi2(150)=2.5 dchi2(20)=0.5 dchi2(30)=1.4
+base   S loo0         chi2min   7.6 at T= 30 K | dchi2<4: 10-50 K (7 grid pts) | dchi2(80)=9.1 dchi2(100)=14.5 dchi2(150)=30.3 dchi2(20)=1.0 dchi2(30)=0.0
+base   S loo1         chi2min   6.5 at T= 40 K | dchi2<4: 20-65 K (6 grid pts) | dchi2(80)=5.0 dchi2(100)=8.0 dchi2(150)=8.2 dchi2(20)=1.9 dchi2(30)=1.3
+base   S loo2         chi2min   4.1 at T= 15 K | dchi2<4: 10-40 K (6 grid pts) | dchi2(80)=9.6 dchi2(100)=15.9 dchi2(150)=30.4 dchi2(20)=2.6 dchi2(30)=1.3
+base   S loo3         chi2min   7.9 at T= 30 K | dchi2<4: 10-50 K (7 grid pts) | dchi2(80)=7.9 dchi2(100)=13.2 dchi2(150)=28.9 dchi2(20)=0.4 dchi2(30)=0.0
+base   S loo4         chi2min   7.5 at T= 30 K | dchi2<4: 10-50 K (7 grid pts) | dchi2(80)=7.4 dchi2(100)=12.1 dchi2(150)=19.8 dchi2(20)=0.7 dchi2(30)=0.0
+base   S loo5         chi2min   7.5 at T= 20 K | dchi2<4: 10-50 K (7 grid pts) | dchi2(80)=8.1 dchi2(100)=12.8 dchi2(150)=21.3 dchi2(20)=0.0 dchi2(30)=0.3
+base   S loo6         chi2min   7.0 at T= 30 K | dchi2<4: 10-65 K (8 grid pts) | dchi2(80)=9.2 dchi2(100)=13.8 dchi2(150)=29.1 dchi2(20)=0.9 dchi2(30)=0.0
+base   S loo7         chi2min   6.9 at T= 30 K | dchi2<4: 10-50 K (6 grid pts) | dchi2(80)=9.9 dchi2(100)=13.2 dchi2(150)=29.8 dchi2(20)=1.5 dchi2(30)=0.0
+base   S mid          chi2min   9.6 at T= 30 K | dchi2<4: 20-65 K (6 grid pts) | dchi2(80)=4.9 dchi2(100)=6.9 dchi2(150)=20.3 dchi2(20)=1.1 dchi2(30)=0.0
+base2  N aper32       chi2min   7.8 at T= 65 K | dchi2<4: 30-100 K (4 grid pts) | dchi2(80)=1.0 dchi2(100)=3.1 dchi2(150)=6.1 dchi2(20)=9.0 dchi2(30)=2.5
+base2  N aper43       chi2min  21.0 at T= 65 K | dchi2<4: 30-100 K (5 grid pts) | dchi2(80)=2.4 dchi2(100)=0.1 dchi2(150)=6.2 dchi2(20)=9.8 dchi2(30)=3.1
+base2  S aper32       chi2min   7.8 at T= 30 K | dchi2<4: 20-40 K (4 grid pts) | dchi2(80)=10.5 dchi2(100)=14.2 dchi2(150)=34.3 dchi2(20)=0.2 dchi2(30)=0.0
+base2  S aper43       chi2min   6.9 at T= 40 K | dchi2<4: 30-65 K (4 grid pts) | dchi2(80)=4.1 dchi2(100)=7.3 dchi2(150)=14.3 dchi2(20)=8.0 dchi2(30)=3.3
+tbg10  N aper         chi2min  21.7 at T= 80 K | dchi2<4: 30-100 K (5 grid pts) | dchi2(80)=0.0 dchi2(100)=2.6 dchi2(150)=5.8 dchi2(20)=6.1 dchi2(30)=3.1
+tbg10  N base         chi2min  41.6 at T= 30 K | dchi2<4: 20-30 K (3 grid pts) | dchi2(80)=7.3 dchi2(100)=12.8 dchi2(150)=19.9 dchi2(20)=0.2 dchi2(30)=0.0
+tbg10  N ladders_off  chi2min   7.5 at T=100 K | dchi2<4: 10-150 K (5 grid pts) | dchi2(80)=1.0 dchi2(100)=0.0 dchi2(150)=2.2 dchi2(20)=11.1 dchi2(30)=8.7
+tbg10  N mid          chi2min  23.1 at T= 80 K | dchi2<4: 25-100 K (6 grid pts) | dchi2(80)=0.0 dchi2(100)=2.5 dchi2(150)=6.1 dchi2(20)=4.0 dchi2(30)=2.0
+tbg10  S aper         chi2min  15.2 at T= 20 K | dchi2<4: 20-30 K (2 grid pts) | dchi2(80)=16.2 dchi2(100)=22.6 dchi2(150)=36.7 dchi2(20)=0.0 dchi2(30)=1.4
+tbg10  S base         chi2min  16.2 at T= 20 K | dchi2<4: 20-20 K (1 grid pts) | dchi2(80)=27.9 dchi2(100)=32.2 dchi2(150)=51.3 dchi2(20)=0.0 dchi2(30)=6.1
+tbg10  S ladders_off  chi2min   4.5 at T= 25 K | dchi2<4: 20-150 K (9 grid pts) | dchi2(80)=0.4 dchi2(100)=2.2 dchi2(150)=2.6 dchi2(20)=0.1 dchi2(30)=0.5
+tbg10  S mid          chi2min  17.1 at T= 20 K | dchi2<4: 20-30 K (2 grid pts) | dchi2(80)=15.8 dchi2(100)=22.4 dchi2(150)=32.8 dchi2(20)=0.0 dchi2(30)=2.0
+tbg5   N aper         chi2min  11.0 at T= 65 K | dchi2<4: 65-150 K (4 grid pts) | dchi2(80)=0.7 dchi2(100)=0.5 dchi2(150)=3.6 dchi2(20)=12.2 dchi2(30)=5.3
+tbg5   N base         chi2min  23.9 at T= 30 K | dchi2<4: 25-100 K (5 grid pts) | dchi2(80)=4.5 dchi2(100)=2.1 dchi2(150)=13.5 dchi2(20)=5.8 dchi2(30)=0.0
+tbg5   N ladders_off  chi2min   4.3 at T= 80 K | dchi2<4: 30-150 K (5 grid pts) | dchi2(80)=0.0 dchi2(100)=1.3 dchi2(150)=2.2 dchi2(20)=6.7 dchi2(30)=2.7
+tbg5   N mid          chi2min  11.4 at T= 65 K | dchi2<4: 30-100 K (4 grid pts) | dchi2(80)=1.1 dchi2(100)=2.0 dchi2(150)=5.2 dchi2(20)=8.7 dchi2(30)=2.7
+tbg5   S aper         chi2min  10.0 at T= 30 K | dchi2<4: 20-80 K (7 grid pts) | dchi2(80)=3.1 dchi2(100)=8.9 dchi2(150)=19.1 dchi2(20)=1.1 dchi2(30)=0.0
+tbg5   S base         chi2min   7.3 at T= 20 K | dchi2<4: 20-40 K (4 grid pts) | dchi2(80)=11.2 dchi2(100)=19.4 dchi2(150)=34.7 dchi2(20)=0.0 dchi2(30)=3.5
+tbg5   S ladders_off  chi2min   3.7 at T= 40 K | dchi2<4: 15-100 K (9 grid pts) | dchi2(80)=0.3 dchi2(100)=1.5 dchi2(150)=4.1 dchi2(20)=0.3 dchi2(30)=0.4
+tbg5   S mid          chi2min   9.8 at T= 20 K | dchi2<4: 20-65 K (6 grid pts) | dchi2(80)=6.1 dchi2(100)=12.0 dchi2(150)=21.6 dchi2(20)=0.0 dchi2(30)=1.8

@@ -1,0 +1,42 @@
+== HCN43 (Xb47 spw16) beam 4.14x2.70 PA 87, dv 3.30 km/s, v range -1019..504, pix 0.530"
+  S: peak pixel (45,40); peak 34.5 mJy/beam at v=-18
+  N: peak pixel (45,50); peak 99.4 mJy/beam at v=35
+  ridge: peak pixel (45,46); peak 58.3 mJy/beam at v=5
+  lobe: peak pixel (45,37); peak 22.3 mJy/beam at v=22
+  off-source rms/channel (9-14" annulus; median over chans) 5.24 mJy/beam
+== HCO+43 (Xb47 spw18) beam 4.13x2.70 PA 88, dv 3.28 km/s, v range -633..880, pix 0.530"
+  S: peak pixel (45,40); peak 118.8 mJy/beam at v=-36
+  N: peak pixel (45,50); peak 186.8 mJy/beam at v=40
+  ridge: peak pixel (45,46); peak 150.7 mJy/beam at v=10
+  lobe: peak pixel (45,37); peak 60.5 mJy/beam at v=-19
+  off-source rms/channel (9-14" annulus; median over chans) 5.96 mJy/beam
+== H13CN43 (Xb47 spw20) beam 4.26x2.77 PA 86, dv 3.39 km/s, v range -225..1359, pix 0.530"
+  S: peak pixel (45,40); peak 358.7 mJy/beam at v=-225
+  N: peak pixel (45,50); peak 156.3 mJy/beam at v=-225
+  ridge: peak pixel (45,46); peak 280.1 mJy/beam at v=-225
+  lobe: peak pixel (45,37); peak 115.1 mJy/beam at v=-225
+  off-source rms/channel (9-14" annulus; median over chans) 4.28 mJy/beam
+== CS76 (Xb47 spw22) beam 4.31x2.79 PA 87, dv 3.42 km/s, v range -844..728, pix 0.530"
+  S: peak pixel (45,40); peak 11.9 mJy/beam at v=-24
+  N: peak pixel (45,50); peak 23.3 mJy/beam at v=38
+  ridge: peak pixel (45,46); peak 13.1 mJy/beam at v=-20
+  lobe: peak pixel (45,37); peak 9.4 mJy/beam at v=314
+  off-source rms/channel (9-14" annulus; median over chans) 4.60 mJy/beam
+== SO65 (Xb4d spw31) beam 0.99x0.77 PA -86, dv 4.65 km/s, v range -1496..606, pix 0.150"
+  S: peak pixel (134,116); peak 1.9 mJy/beam at v=420
+  N: peak pixel (133,150); peak 2.1 mJy/beam at v=420
+  ridge: peak pixel (133,138); peak 2.0 mJy/beam at v=-1268
+  lobe: peak pixel (133,104); peak 2.2 mJy/beam at v=550
+  off-source rms/channel (9-14" annulus; median over chans) 1.29 mJy/beam
+== HCN32 (Xb4d spw27) beam 0.94x0.74 PA -86, dv 4.40 km/s, v range -1411..690, pix 0.150"
+  S: peak pixel (134,116); peak 15.9 mJy/beam at v=-63
+  N: peak pixel (133,150); peak 34.9 mJy/beam at v=47
+  ridge: peak pixel (133,138); peak 5.1 mJy/beam at v=3
+  lobe: peak pixel (133,104); peak 3.6 mJy/beam at v=25
+  off-source rms/channel (9-14" annulus; median over chans) 1.54 mJy/beam
+== HCO+32 (Xb4d spw25) beam 0.93x0.74 PA -86, dv 4.38 km/s, v range -1498..573, pix 0.150"
+  S: peak pixel (134,116); peak 36.7 mJy/beam at v=-58
+  N: peak pixel (133,150); peak 41.8 mJy/beam at v=47
+  ridge: peak pixel (133,138); peak 12.3 mJy/beam at v=4
+  lobe: peak pixel (133,104); peak 4.5 mJy/beam at v=52
+  off-source rms/channel (9-14" annulus; median over chans) 1.56 mJy/beam

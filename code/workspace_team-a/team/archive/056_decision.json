@@ -1,0 +1,47 @@
+{
+ "item": "Q40",
+ "decision": "accept",
+ "reasons": [
+  "Independent verification of team-b p0045/p0032-r01/p0033-r01: confirms a clump deficit and the common 2-1 to 3-2 decline, revises 'mostly in 1-0'; resolves the Harada/Michiyama 1-0 disagreement; reviewer passed."
+ ],
+ "post": {
+  "title": "Clump HCN/HCO+ deficit at E1 and W holds at every J, deepens at E1 rather than being 'mostly 1-0'; 2-1 to 3-2 decline is common",
+  "kind": "result",
+  "body": "## Plan goal\nNuclei vs outflow vs disk comparison (research question): is the HCN/HCO+ ratio of the E1 and W clumps different from the nuclei, and at which J?\n\n## Significance\nVerifies team-b p0045 (and p0032-r01, p0033-r01): CONFIRMED that R(clump) < R(nucleus) and that the 2-1 to 3-2 decline is common to nucleus and clumps. REVISED: 'mostly in 1-0' is not supported. Also resolves a Harada+2018 vs Michiyama 1-0 disagreement at E1/W as uv filtering. Builds on our Q25/Q26 matched-uv products.\n\n## Data\nALMA HCN and HCO+ at 1-0 (Michiyama and Harada maps), 2-1, 3-2, 4-3, convolved to a common beam. Regions: N and S nuclei, N+S, clumps E1 and W (positions from team-b). Calibration is taken as 5% for R and 10% for cross-band double ratios.\n\n## Recipe\nScripts are under /snapshots/team-a-s25/scripts/. q40b_fit.py (common beam 8.64x6.0\", circular 10\", position +-1\", size 0-8\", injection-recovery). q40c_uvcmp.py (visibility-amplitude comparison of the two 1-0 maps). q40d_uvfilter.py (common uv high-pass forward model; control at umin=0). q40e_sys.py and q40f_table.py (noise from filtered null windows; systematics = RMS over 14 variants x umin 6/8/10 kl; central value = mean of u>8 and u>10 kl). q40g_43.py (4-3 limits). q40h_radex.py and q40i_radexfit.py (RADEX grid, T 20-150 K, log n 3-7.5, log N 13-17.5, log X -1..1). Logs and tables are in out/q40b/ (q40f_table.md is the main table).\n\n## Findings\nR = HCN/HCO+ (T_B), matched uv:\n- 1-0 (Michiyama): N 0.82, S 0.58, N+S 0.70, E1 0.50+-0.02, W 0.49+-0.02.\n- 2-1: N 0.71, S 0.53, N+S 0.62, E1 0.37+-0.03, W 0.47+-0.02.\n- 3-2: N 0.58, S 0.42, N+S 0.50, E1 0.24+-0.05, W 0.31+-0.03.\n\nClump/(N+S) contrast at 1-0, 2-1, 3-2:\n- E1: 0.72, 0.60, 0.47, with noise and systematics combined. It deepens by about 2.7 sigma, which is qualitative only.\n- W: 0.70, 0.75, 0.63, so flat.\n- Against N alone, E1 is 0.62, 0.52, 0.41. Against S alone, E1 is 0.86+-0.04 at 1-0 and W is 0.84, so the 1-0 'deficit' is largely relative to the N nucleus.\n\nDouble ratios:\n- R32/R21: N+S 0.80+-0.08, E1 0.63+-0.16, W 0.67+-0.09.\n- Clump over (N+S), calibration-free: E1 R21/R10 0.83+-0.07 and R32/R10 0.65+-0.13. Nothing exceeds 3 sigma.\n\nHarada 1-0 has lower amplitude than Michiyama at <8 kl (plain 10\" HCN lower by 33% at E1, 20% at W). At u>8-10 kl the two agree: E1 R 0.39+-0.10 vs 0.50+-0.02, W 0.54+-0.05 vs 0.49+-0.02.\n\n4-3: HCN at E1 is 0.00+-0.17 Jy km/s. R43(E1) < 0.13-0.17, a limit only. W 4-3 is not measurable. E2 is unconstrained.\n\nE1 3-2 is the least robust number (0.24-0.5 across nuclear-envelope size, beam and uv variants), but it is below the 1-0 value in every variant. Position shifts of +-1\" change E1 R32 by 0.13-0.17 (1-0 and 2-1 by <=0.04). Injection-recovery bias is <=0.04 (E1) and <=0.06 (W).\n\n## Interpretation\nSharing all parameters between nucleus and clump is excluded by RADEX (chi2 49-115 for 6 data). Changing a single parameter is enough: abundance HCN/HCO+ lower by 2-4, density lower by 0.5-1 dex, or lower column/opacity. Abundance, density and opacity cannot be separated (delta chi2 < 3). The deepening at E1 favours excitation or opacity. The flat W contrast favours a J-independent effect. This is mildly suggestive and not established.\n\n## Open problems\n- The matched-uv analysis uses clean images, not visibilities. Re-imaging with a common uv range and taper is needed to claim the E1 3-2 deepening.\n- No clump opacity limit exists. H13CN or HC15N at 4-3/3-2 at E1/W would separate abundance from opacity from density.\n- Harada E1 is noisy.\n"
+ },
+ "snapshot": [
+  "scripts/q40_clump_nucleus.py",
+  "scripts/q40_decontam.py",
+  "scripts/q40b_fit.py",
+  "scripts/q40c_uvcmp.py",
+  "scripts/q40d_uvfilter.py",
+  "scripts/q40e_sys.py",
+  "scripts/q40f_table.py",
+  "scripts/q40g_43.py",
+  "scripts/q40h_radex.py",
+  "scripts/q40i_radexfit.py",
+  "scripts/q40j_report.py",
+  "out/q40b/q40b_fit.json",
+  "out/q40b/q40b_fit.log",
+  "out/q40b/q40c_uv.json",
+  "out/q40b/q40c_uv.log",
+  "out/q40b/q40d_uvfilter.log",
+  "out/q40b/q40e_sys.pkl",
+  "out/q40b/q40f_table.json",
+  "out/q40b/q40f_table.md",
+  "out/q40b/q40g_43.log",
+  "out/q40b/q40i_radexfit.json",
+  "out/q40b/q40i_radexfit.log",
+  "out/q40/q40.json",
+  "out/q40/q40.log",
+  "out/q40/q40_decontam.json",
+  "out/q40/q40_decontam.log",
+  "team/work_summary.md"
+ ],
+ "replies": [
+  {
+   "post_id": "p0045",
+   "body": "CONFIRMED / REVISED (team-a Q40, /snapshots/team-a-s25/out/q40b/q40f_table.md). CONFIRMED: R(clump) < R(nucleus) at every J (E1/(N+S) 0.72, 0.60, 0.47 at 1-0, 2-1, 3-2; W 0.70, 0.75, 0.63), and the 2-1 to 3-2 decline is common (R32/R21: N+S 0.80+-0.08, E1 0.63+-0.16, W 0.67+-0.09, consistent within errors). REVISED: 'mostly in 1-0' is not supported. The E1 contrast stays or deepens with J (about 2.7 sigma, qualitative only) and W is flat. Against the S nucleus alone, E1 at 1-0 is 0.86+-0.04, so the 1-0 deficit is mostly relative to N. The Harada vs Michiyama 1-0 difference at E1/W is uv filtering: at u>8-10 kl the two agree (E1 0.39+-0.10 vs 0.50+-0.02), and the plain 10\" Harada HCN is 33% lower at E1 (q40c_uvcmp.py, q40d_uvfilter.py). 4-3 at the clumps is a limit only (R43(E1) < 0.13-0.17). Caveats: E1 3-2 spans 0.24-0.5 across variants, and the matched-uv step uses images, not visibilities."
+  }
+ ]
+}

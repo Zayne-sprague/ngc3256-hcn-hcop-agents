@@ -1,0 +1,31 @@
+# (i) centroids (E,N offset arcsec) of the moment-0 peaks within 3" of N and S, at the common Xb4f beam
+  HCN   N: J3 centroid (0.15,1.94)  J4 (0.10,2.15)  J4-J3 = (-0.05,+0.21)"
+  HCN   S: J3 centroid (-0.45,-1.58)  J4 (-0.48,-1.65)  J4-J3 = (-0.03,-0.06)"
+  HCO+  N: J3 centroid (0.18,1.68)  J4 (0.25,1.88)  J4-J3 = (+0.08,+0.19)"
+  HCO+  S: J3 centroid (-0.38,-1.84)  J4 (-0.29,-1.76)  J4-J3 = (+0.10,+0.09)"
+
+# T43/T32 (Tb) sensitivity to a shift of the J4 map relative to J3 (arcsec; E,N): reading at the fixed position
+  HCN   N      T43/T32 0.450; changes for J4 shifted 0.5" E/W/N/S: -0.013 -0.014 -0.042 +0.001  -> |max| 0.042
+  HCN   S      T43/T32 0.357; changes for J4 shifted 0.5" E/W/N/S: -0.028 +0.013 +0.005 -0.011  -> |max| 0.028
+  HCN   Bridge T43/T32 0.361; changes for J4 shifted 0.5" E/W/N/S: -0.024 +0.006 +0.073 -0.050  -> |max| 0.073
+  HCO+  N      T43/T32 0.565; changes for J4 shifted 0.5" E/W/N/S: +0.002 -0.027 -0.055 +0.023  -> |max| 0.055
+  HCO+  S      T43/T32 0.485; changes for J4 shifted 0.5" E/W/N/S: -0.023 +0.009 +0.018 -0.044  -> |max| 0.044
+  HCO+  Bridge T43/T32 0.493; changes for J4 shifted 0.5" E/W/N/S: -0.023 +0.005 +0.043 -0.019  -> |max| 0.043
+
+# (ii) beam-mismatch test
+  HCN   N      Xb4f native 5.7x3.5 0.450  Xb55 native 8.6x6.0 0.382  circular 6.5" 0.401  circular 10" 0.336
+  HCN   S      Xb4f native 5.7x3.5 0.357  Xb55 native 8.6x6.0 0.308  circular 6.5" 0.347  circular 10" 0.318
+  HCN   Bridge Xb4f native 5.7x3.5 0.362  Xb55 native 8.6x6.0 0.347  circular 6.5" 0.369  circular 10" 0.327
+  HCN   N/S contrast: Xb4f native 5.7x3.5 1.262  Xb55 native 8.6x6.0 1.241  circular 6.5" 1.155  circular 10" 1.057   N/Bridge: Xb4f native 5.7x3.5 1.245  Xb55 native 8.6x6.0 1.103  circular 6.5" 1.086  circular 10" 1.025   S/Bridge: Xb4f native 5.7x3.5 0.987  Xb55 native 8.6x6.0 0.889  circular 6.5" 0.940  circular 10" 0.970
+  HCO+  N      Xb4f native 5.7x3.5 0.565  Xb55 native 8.6x6.0 0.494  circular 6.5" 0.510  circular 10" 0.449
+  HCO+  S      Xb4f native 5.7x3.5 0.486  Xb55 native 8.6x6.0 0.438  circular 6.5" 0.462  circular 10" 0.430
+  HCO+  Bridge Xb4f native 5.7x3.5 0.494  Xb55 native 8.6x6.0 0.475  circular 6.5" 0.500  circular 10" 0.447
+  HCO+  N/S contrast: Xb4f native 5.7x3.5 1.164  Xb55 native 8.6x6.0 1.128  circular 6.5" 1.104  circular 10" 1.043   N/Bridge: Xb4f native 5.7x3.5 1.145  Xb55 native 8.6x6.0 1.040  circular 6.5" 1.021  circular 10" 1.004   S/Bridge: Xb4f native 5.7x3.5 0.984  Xb55 native 8.6x6.0 0.922  circular 6.5" 0.925  circular 10" 0.962
+
+# (iii) contrast significance at the Xb4f native beam; stat from s72 errors; systematic terms added in quadrature on the ratio of ratios: differential recovery 0.05 (Q12: T43/T32 true/obs 1.03-1.12 at the centre; the N-S differential is taken as +-0.05), centring (max shift effect above), calibration cancels (same Xb4f and Xb47 data at both positions)
+  HCN   N/S: 1.262 +- 0.042 (stat) +- 0.05 (recovery) +- 0.061 (centring 0.2" rms) = +- 0.090 -> (0.262)/0.090 = 2.9 sigma from 1
+  HCN   N/Bridge: 1.245 +- 0.032 (stat) +- 0.05 (recovery) +- 0.110 (centring 0.2" rms) = +- 0.125 -> (0.245)/0.125 = 2.0 sigma from 1
+  HCN   S/Bridge: 0.987 +- 0.037 (stat) +- 0.05 (recovery) +- 0.086 (centring 0.2" rms) = +- 0.106 -> (-0.013)/0.106 = -0.1 sigma from 1
+  HCO+  N/S: 1.164 +- 0.016 (stat) +- 0.05 (recovery) +- 0.062 (centring 0.2" rms) = +- 0.081 -> (0.164)/0.081 = 2.0 sigma from 1
+  HCO+  N/Bridge: 1.145 +- 0.014 (stat) +- 0.05 (recovery) +- 0.060 (centring 0.2" rms) = +- 0.079 -> (0.145)/0.079 = 1.8 sigma from 1
+  HCO+  S/Bridge: 0.984 +- 0.013 (stat) +- 0.05 (recovery) +- 0.050 (centring 0.2" rms) = +- 0.072 -> (-0.016)/0.072 = -0.2 sigma from 1

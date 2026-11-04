@@ -1,0 +1,73 @@
+reg,mode,prior,cls,chi2,nd,BIC
+S,all_no21,grid,A ,6.1,6,15.0
+S,all_no21,grid,B ,6.3,6,17.1
+S,all_no21,grid,C ,34.1,6,43.0
+S,all_no21,grid,D ,52.8,6,61.8
+S,all_no21,grid,F ,3.6,6,16.1
+S,all_no21,grid,F2,3.6,6,14.4
+S,all_no21,physT30,A ,6.6,6,15.6
+S,all_no21,physT30,B ,9.5,6,20.2
+S,all_no21,physT30,C ,77.9,6,86.8
+S,all_no21,physT30,D ,70.9,6,79.8
+S,all_no21,physT30,F ,5.1,6,17.6
+S,all_no21,physT30,F2,5.1,6,15.8
+S,all,grid,A ,9.9,8,20.3
+S,all,grid,B ,11.1,8,23.6
+S,all,grid,C ,42.7,8,53.1
+S,all,grid,D ,58.3,8,68.7
+S,all,grid,F ,7.9,8,22.5
+S,all,grid,F2,7.9,8,20.4
+S,all,physT30,A ,9.9,8,20.3
+S,all,physT30,B ,12.4,8,24.9
+S,all,physT30,C ,87.2,8,97.6
+S,all,physT30,D ,74.9,8,85.3
+S,all,physT30,F ,7.9,8,22.5
+S,all,physT30,F2,7.9,8,20.4
+S,no_ladder_21_and_10,grid,A ,2.1,3,7.6
+S,no_ladder_21_and_10,grid,B ,2.5,3,9.0
+S,no_ladder_21_and_10,grid,C ,3.3,3,8.8
+S,no_ladder_21_and_10,grid,D ,4.0,3,9.5
+S,no_ladder_21_and_10,grid,F ,2.0,3,9.7
+S,no_ladder_21_and_10,grid,F2,2.0,3,8.6
+S,no_ladder_21_and_10,physT30,A ,2.1,3,7.6
+S,no_ladder_21_and_10,physT30,B ,4.3,3,10.9
+S,no_ladder_21_and_10,physT30,C ,42.2,3,47.7
+S,no_ladder_21_and_10,physT30,D ,6.8,3,12.3
+S,no_ladder_21_and_10,physT30,F ,2.0,3,9.7
+S,no_ladder_21_and_10,physT30,F2,2.0,3,8.6
+N,all_no21,grid,A ,9.2,6,18.1
+N,all_no21,grid,B ,6.9,6,17.7
+N,all_no21,grid,C ,179.2,6,188.1
+N,all_no21,grid,D ,177.0,6,185.9
+N,all_no21,grid,F ,4.6,6,17.2
+N,all_no21,grid,F2,4.6,6,15.4
+N,all_no21,physT30,A ,9.2,6,18.1
+N,all_no21,physT30,B ,6.9,6,17.7
+N,all_no21,physT30,C ,340.1,6,349.1
+N,all_no21,physT30,D ,283.5,6,292.5
+N,all_no21,physT30,F ,4.6,6,17.2
+N,all_no21,physT30,F2,4.6,6,15.4
+N,all,grid,A ,23.2,8,33.6
+N,all,grid,B ,19.3,8,31.7
+N,all,grid,C ,202.6,8,213.0
+N,all,grid,D ,195.0,8,205.4
+N,all,grid,F ,19.1,8,33.7
+N,all,grid,F2,19.3,8,31.8
+N,all,physT30,A ,23.2,8,33.6
+N,all,physT30,B ,19.3,8,31.7
+N,all,physT30,C ,374.5,8,384.9
+N,all,physT30,D ,304.0,8,314.4
+N,all,physT30,F ,19.1,8,33.7
+N,all,physT30,F2,19.3,8,31.8
+N,no_ladder_21_and_10,grid,A ,2.1,3,7.6
+N,no_ladder_21_and_10,grid,B ,2.1,3,8.7
+N,no_ladder_21_and_10,grid,C ,5.3,3,10.8
+N,no_ladder_21_and_10,grid,D ,4.2,3,9.7
+N,no_ladder_21_and_10,grid,F ,2.0,3,9.7
+N,no_ladder_21_and_10,grid,F2,2.0,3,8.6
+N,no_ladder_21_and_10,physT30,A ,2.1,3,7.6
+N,no_ladder_21_and_10,physT30,B ,2.1,3,8.7
+N,no_ladder_21_and_10,physT30,C ,91.7,3,97.2
+N,no_ladder_21_and_10,physT30,D ,11.9,3,17.4
+N,no_ladder_21_and_10,physT30,F ,2.0,3,9.7
+N,no_ladder_21_and_10,physT30,F2,2.0,3,8.6

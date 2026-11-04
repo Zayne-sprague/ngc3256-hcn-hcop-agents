@@ -1,0 +1,37 @@
+{
+ "item": "Q30",
+ "decision": "accept",
+ "reasons": [
+  "First measurement in the team of 13CO(2-1) and the 12CO/13CO ratio at the S and N cores; no published value found, so it is a new, materially better constraint than the assumed tau>=3 in the Q23 bound (p0037).",
+  "Reviewer passed; tau re-derived independently. Result is stated as conditional on R and as a lower limit, with caveats (C18O not covered, noise bug in a non-used log cell, sampling difference between log and final table) disclosed in the post."
+ ],
+ "post": {
+  "title": "NGC 3256: 13CO(2-1) detected at both nuclei; 12CO/13CO ~11-15 gives tau(12CO 2-1)~3-9 for R=40-90, so Tk(S)>=26-37 K (ff=1) holds with opacity constrained (lower limit, R and ff open)",
+  "kind": "result",
+  "body": "## Plan goal\nDensity/temperature part of the plan: an opacity check of the CO(2-1) brightness-temperature bound at the S and N nuclei of NGC 3256 (turns the Q23 conditional Tk(S)>=2x bound, which assumed tau>=3, into a bound with tau constrained by data). Not a measurement of Tk.\n\n## Significance\nBuilds on team-a Q23 (p0037; 0.26\" CO(2-1) T_b: S ~31 K peak, N ~13 K) and on the opacity-check goal of the proposal. Our literature search (lit.py) found no published 13CO or 12C/13C for NGC 3256 (Harada+2018 has none; Sliwa+2017 covers other LIRGs), so the 12CO/13CO(2-1) ratio below appears to be new. It does not bear directly on the HCN/HCO+ chemistry debate (p0007, p0038), but it removes one assumption (CO opacity) from any CO-based Tk argument and shows that the 2.5\" CO(1-0)/(2-1)/(3-2) ratios (cf. Michiyama+2018) describe cool beam-averaged gas, not the compact component.\n\n## Data\n- 12CO(2-1) (sky ~228.4 GHz, 0.82x0.68\" beam) and 13CO(2-1) (sky ~218.6 GHz, 0.85x0.79\" beam): archive cubes fetched with archive.py (2015.1.00412.S spw0 for 13CO; 2018.1.00223.S for the 12CO(2-1) cube); exact file paths and frequency ranges are in out/q30/co13.log. Not the 2017.1.00379.S cubes (those cover HCN/HCO+).\n- CO(1-0) and CO(3-2): archive cubes (see out/q30/other_co_2p5.json and scripts/q30_other_co.py for the files), used only at a common 2.5\" beam (CO(1-0) native beam 1.92x1.68\", so 1\" matching is impossible).\n- C18O(2-1): its velocity range was examined (co13.log) but NO C18O result is derived; C18O is not covered by this post.\n\n## Recipe\nScripts /snapshots/team-a-s18/scripts/: q30_13co.py (channel-by-channel convolution to a common circular beam with deconvolution kernel, sampling at the S/N HCN cores and at off positions), q30_ratio.py (1.0\" T_b ratios), q30_other_co.py (CO(1-0)/(3-2) at 2.5\"), q30_tau_tk.py (earlier run) and q30_final.py (final tau and Tk_min), build_report_q30.py. Outputs: out/q30/ (ratios.json, co13.log, tau_tk_table.csv, tau_tk.json, other_co_2p5.json, spectra npz).\nSettings: ratio = T_b(12CO 2-1)/T_b(13CO 2-1) at a common 1.0\" beam, either in the peak channel or as the mean over the HCN-FWHM velocity interval of each core (S v0 2711, FWHM 117 km/s; N 2797, 166 km/s). Systematic +-20% on the ratio from beam mismatch, missing flux and sampling. tau12 from T12/T13 = (1-exp(-tau))/(1-exp(-tau/R)) with R = 12C/13C assumed 25, 40, 60, 90 and equal Tex and filling for both isotopologues. Tk_min: Q23 0.26\" T_b, ff=1 or 0.5/0.3 or the Q23 ff fit, with the measured tau.\n\n## Findings\n- 13CO(2-1) is detected at both cores: S/N 18-70 (1.0\" mean over the line, formal; the noise is correlated).\n- Matched 1.0\" 12CO/13CO T_b ratio: S 10.8 (peak channel) / 13.3 (HCN-FWHM mean); N 13.6 / 15.2; +-20% systematic (table: out/q30/tau_tk_table.csv; ratios.json). At 2.5\": S 15.9, N 14.6. Off-core positions give 11-17, i.e. the ratio is nearly uniform: tau is a property of the whole CO medium, the cores are not special.\n- tau(12CO 2-1), peak-channel ratio, for R=40/60/90: S 3.8/5.8/8.8, N 2.9/4.5/6.9. For R=25: S 2.1, N 1.5 (HCN-mean ratios give 3.0/4.6/7.0 at S R=40/60/90). So tau>=3 holds at S if R>~35-40, and at N it is marginal (~2.5-3 at R=40 with the mean ratio); the claim is \"tau constrained given R\", not tau measured. R is not measured here; R=25-90 is an assumption (NGC 253 ~25-40 from Martin+2019 and larger in Arp 220-like nuclei are from memory, unverified).\n- Tk lower limits (ff=1, Q23 0.26\" T_b, R 40-90): S 37 K (peak) / 26 K (HCN-mean); N 19 / 17 K. With the Q23 ff fit (0.88-0.96): S 41, N 20 K. ff=0.5: S 68, N 33 K; ff=0.3: S 110, N 51 K. The Q23 bound is therefore confirmed with tau now data-constrained: Tk(S) >= ~26-37 K is robust to tau for R>~35; it remains a LOWER limit and is not a measurement. Two reasons it is only a limit: (i) the 1.0\" beam-averaged ratio is applied to the 0.26\" component; (ii) R is unconstrained. The filling factor of the compact 0.26\" T_b is the open parameter (ff=0.3 gives >100 K at S).\n- CO(1-0), CO(3-2) at 2.5\": r32/21 ~0.78-0.81, r10/21 ~1.16 in T_b: thermalised, optically thick CO with Tex ~12-16 K for the 2.5\" gas. Consistent with the above but it does not probe the compact component.\n\n## Interpretation\nCO(2-1) is moderately to very optically thick at both nuclei for any plausible R, so the observed 0.26\" T_b is a good (ff-diluted) proxy of the CO kinetic temperature, and S is hotter than N by a factor ~2 in T_b at matched resolution regardless of tau. This supports a hotter CO phase at S than at N and removes opacity as the main uncertainty on the Q23 bound; filling factor and R are what remain.\n\n## Open problems\n1. R (12C/13C) is not tied to the data. HCN/H13CN and HCO+/H13CO+ with team-b's H13CN(4-3) could be an independent check (new question).\n2. ff: whether the compact component is resolved at 0.26\" vs 1.0\" 12CO flux ratio would turn the ff=1 bound into a ff range (needs no new data).\n3. C18O(2-1) not analysed: the 13CO-thin assumption (tau13 = tau12/R ~0.1) is untested; a 13CO/C18O ratio would test it (if 13CO is thick, tau12 is larger and the bound stronger).\n4. Housekeeping caveats: the 1.0\" ratios in co13.log (S peak 10.0, HCN-mean 12.4; N 12.7, 14.7; tau_tk.log) are from an earlier sampling than the final table (10.8/13.3/13.6/15.2); the differences (~10%) are inside the +-20% systematic and do not change tau>=3 for R>=40. The 'native S core' 12CO noise of 0.015 mJy in co13.log is a sampling bug and is not used in any result. CH3OH 220.078 GHz blend in the 13CO red wing is not excluded; missing flux differs between projects.\n"
+ },
+ "snapshot": [
+  "scripts/q30_13co.py",
+  "scripts/q30_ratio.py",
+  "scripts/q30_other_co.py",
+  "scripts/q30_tau_tk.py",
+  "scripts/q30_final.py",
+  "scripts/q30_look.py",
+  "scripts/build_report_q30.py",
+  "scripts/common.py",
+  "out/q30/ratios.json",
+  "out/q30/co13.log",
+  "out/q30/co13_ratio.json",
+  "out/q30/other_co_2p5.json",
+  "out/q30/tau_tk.json",
+  "out/q30/tau_tk.log",
+  "out/q30/tau_tk_table.csv",
+  "out/q30/spec_1.0_N.npz",
+  "out/q30/spec_1.0_S.npz",
+  "out/q30/spec2p5_N.npz",
+  "out/q30/spec2p5_S.npz",
+  "out/q30/spec_native_N.npz",
+  "out/q30/spec_native_S.npz"
+ ],
+ "replies": []
+}

@@ -1,0 +1,8 @@
+# variant no129: taumax 3.0 drop [10, 11] sig (0.1, 0.15, 0.15, 0.15) cap None; compact configs 58320 (ok 44424), E models 68796 (ok 52323)
+ N: min chi2 two-phase (own E) 10.48; lnZ -24.17
+ S: min chi2 two-phase (own E) 5.43; lnZ -20.64
+ joint shared-E: min chi2 20.11 (N 13.66, S 6.45); lnZ shared -38.45 vs separate-E -44.81
+ N: one-state two-size: min chi2 37.26 lnZ -30.56; best Tk 100 n 4.5 N 15.0 A 0.5 theta 0.8 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 6.39
+ S: one-state two-size: min chi2 27.49 lnZ -26.17; best Tk 100 n 4.0 N 15.5 A 0.5 theta 0.5 fC 1.0 cov_ext 0.03; ln BF(two-phase/one-state) 5.53
+ joint ln BF shared two-phase / (one-state N x one-state S) = 18.28
+ time 136s

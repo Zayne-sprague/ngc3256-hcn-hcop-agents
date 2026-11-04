@@ -1,0 +1,1601 @@
+6102
+peS
+5
+]AG.hp-ortsa[
+1v19210.9061:viXra
+Draftversion November6,2018
+PreprinttypesetusingLATEXstyleemulateapjv.11/26/04
+ALMA HCN AND HCO+ J=3–2 OBSERVATIONS OF OPTICAL SEYFERT AND LUMINOUS INFRARED
+GALAXIES – CONFIRMATION OF ELEVATED HCN-TO-HCO+ FLUX RATIOS IN AGNS –
+Masatoshi Imanishi 1,2
+NationalAstronomicalObservatoryofJapan, NationalInstitutes ofNaturalSciences (NINS),2-21-1Osawa,Mitaka,Tokyo181-8588,
+Japan
+Kouichiro Nakanishi 2
+NationalAstronomicalObservatoryofJapan, NationalInstitutes ofNaturalSciences (NINS),2-21-1Osawa,Mitaka,Tokyo181-8588,
+Japan
+and
+Takuma Izumi
+InstituteofAstronomy,School ofScience, TheUniversityofTokyo,2-21-1Osawa,Mitaka,Tokyo181-0015, Japan
+Draft version November 6, 2018
+ABSTRACT
+We presenttheresultsofourALMAobservationsofthreeAGN-dominatednucleiinopticalSeyfert
+1 galaxies (NGC 7469, I Zw 1, and IC 4329 A) and eleven luminous infrared galaxies (LIRGs) with
+various levels of infrared estimated energetic contributions by AGNs at the HCN and HCO+ J=3–2
+emission lines. The HCN and HCO+ J=3–2 emission lines are clearly detected at the main nuclei of
+all sources, except for IC 4329 A. The vibrationally excited (v =1f) HCN J=3–2 and HCO+ J=3–2
+2
+emissionlines aresimultaneously covered,andHCN v =1fJ=3–2emissionline signaturesareseen in
+2
+the mainnuclei oftwo LIRGs, IRAS 12112+0305andIRAS 22491−1808,neither of whichshow clear
+buriedAGNsignaturesintheinfrared. Ifthevibrationalexcitationisdominatedbyinfraredradiative
+pumping, through the absorptionof infrared14 µm photons, primarily originating from AGN-heated
+hotdustemission,thenthesetwoLIRGsmaycontaininfrared-elusive,but(sub)millimeter-detectable,
+extremelydeeplyburiedAGNs. Thesevibrationallyexcitedemissionlinesarenotdetectedinthethree
+AGN-dominated optical Seyfert 1 nuclei. However, the observed HCN v =1f to v=0 flux ratios in
+2
+these optical Seyferts are still consistent with the intrinsic flux ratios in LIRGs with detectable HCN
+v =1f emission lines. The observed HCN-to-HCO+ J=3–2 flux ratios tend to be higher in galactic
+2
+nucleiwith luminous AGN signaturescomparedwith starburst-dominatedregions,as previouslyseen
+at J=1–0 and J=4–3.
+Subject headings: galaxies: active — galaxies: nuclei — quasars: general — galaxies: Seyfert —
+galaxies: starburst — submillimeter: galaxies
+1. INTRODUCTION tivity in gas-rich galaxy mergers.
+MolecularrotationalJ-transitionline flux ratiosinthe
+According to widely accepted cold dark matter-based
+(sub)millimeter wavelengthrangecanbe a powerfultool
+galaxy formation scenarios, small gas-rich galaxies col-
+for this purpose because dust extinction effects are usu-
+lide,merge,andthenevolveintomassivegalaxies,asseen
+allynegligible,unless obscurationisextremelyhighwith
+inthepresentdayuniverse(White&Rees1978). Recent
+a hydrogen column density N >> 1025 cm−2 (Hilde-
+observations have shown that supermassive black holes H
+brand 1983). In particular, interferometric observations
+(SMBHs)areubiquitouslypresentinthespheroidalcom-
+can probe the properties of nuclear molecular gas in
+ponents of present-day galaxies, and that there is a cor-
+the close vicinity of an AGN, by minimizing contamina-
+relationbetween the mass of SMBHs and the spheroidal
+tion from spatially extended (kpc-scale) starburst emis-
+stellar components (Magorrian et al. 1998; Ferrarese &
+sion in the host galaxy, and have provided an indica-
+Merritt 2000; Gultekin et al. 2009; McConnell & Ma
+tion, based on the observations of nearby bright star-
+2013). When gas-rich galaxies containing SMBHs at
+burst and Seyfert (= modestly luminous AGNs) galax-
+their center collide and merge, both active star forma-
+ies,thatenhancedHCNJ=1–0emissioncouldbeagood
+tion and mass accretion onto SMBHs (= active galactic
+AGN signature (Kohno 2005; Krips et al. 2008). Based
+nucleus(AGN)activity)arepredictedtooccur,butwhile
+on this, interferometric HCN and HCO+ J=1–0 obser-
+deeply embedded in dust and gas (Hopkins et al. 2005,
+vations have been extensively performed for nearby gas-
+2006). Observations at low dust extinction wavelengths
+richmergingluminousinfraredgalaxies(LIRGs;infrared
+are necessary to investigate these types of obscured ac-
+8–1000 µm luminosity L
+IR
+> 1011L⊙), and it has been
+Electronicaddress: masa.imanishi@nao.ac.jp confirmed that LIRGs with infrared-identified energeti-
+1Subaru Telescope, National Astronomical Observatory of cally important obscured AGN signatures tend to dis-
+Japan, National Institutes ofNaturalSciences (NINS), 650 North play higher HCN-to-HCO+ flux ratios than starburst-
+A’ohokuPlace,Hilo,Hawaii,96720, U.S.A.
+2Department of Astronomical Science, The Graduate Univer- dominatedLIRGs (Imanishiet al.2004,2006b;Imanishi
+sityforAdvancedStudies(SOKENDAI),Mitaka,Tokyo181-8588, & Nakanishi 2006; Imanishi et al. 2007a, 2009). HCN
+Japan and HCO+ have similar dipole moments (µ = 3.0 debye
+=====PAGE=====
+2 Imanishi et al.
+and 3.9 debye, respectively), so that they also have sim- interferometric observations of galactic nuclei where the
+ilar critical densities at the same J-transitions. It is ex- energetic roles of AGNs are reasonably well estimated
+pectedthatHCNandHCO+ emissionarisesfromsimilar are an important step toward better clarifying whether
+regions inside galaxies. Interpretations of the observed elevated HCN-to-HCO+ flux ratios can indeed operate
+HCN-to-HCO+ flux ratios are less ambiguous than the as good indicators of AGNs.
+flux comparison among molecules with largely different In light of this, we conducted ALMA Cycle 1 HCN
+dipole moments (e.g., HCN vs. CO). Using ALMA, a J=3–2 (with a rest-frame frequency of ν = 265.89
+rest
+similarenhancementofobservedHCN-to-HCO+ fluxra- GHz) and HCO+ J=3–2 (ν = 267.56 GHz) obser-
+rest
+tioswasalsofoundatJ=4–3forLIRGsthatareinfrared- vations of AGN-dominated nuclei in band 6 (211–275
+diagnosed to be AGN-important (Imanishi & Nakanishi GHz). Thesehigh-spatial-resolutionALMAobservations
+2013a,b,2014;Ionoetal.2013;Garcia-Burilloetal.2014; enable us to minimize the contamination from spatially
+Izumietal.2015,2016). Theseobservationssuggestthat extended starburst activity in host galaxies, and thus
+elevatedHCN-to-HCO+fluxratioscouldbeusedtoiden- provide a clearer view on whether AGNs indeed show
+tify AGNs, including deeply buried (= obscured in vir- enhanced HCN-to-HCO+ flux ratios, compared to star-
+tually all directions) ones. burst galaxies. As spatially resolved pre-ALMA HCN
+The physical origin of HCN flux enhancement in an and HCO+ J=3–2 data for galaxies are still very lim-
+AGN is not yet completely understood. Compared with ited in the literature (Sakamoto et al. 2010; Hsieh et al.
+a starburst (nuclear fusion), an AGN (mass accretion 2012;Aaltoetal.2015a),ourALMACycle2and3LIRG
+onto a SMBH) shows strongerX-rayemissionwhen nor- data,withvariousAGNandstarburstcontributions,are
+malized to the ultraviolet luminosity (Shang et al. 2011; alsoincludedsothatwecancomparetheHCN-to-HCO+
+Ranalli et al. 2003). This strong X-ray emission may J=3–2fluxratiosofAGN-dominatednucleitoregionsof
+enhance the HCN abundance, relative to HCO+ (Mei- strong starburst contributions.
+jerink & Spaans 2005; Lintott & Viti 2006), and may ObservationsofHCNandHCO+atJ=3–2haveseveral
+be responsibleforthe enhancedHCNemissioninAGNs. important advantages compared with other J-transition
+Next, because the radiative energy generation efficiency lines. First, our main targets are nearby LIRGs, AGNs,
+ofamass-accretingSMBHinanAGN(6–42%ofMc2)is and starbursts, whose redshifts are as large as z ∼ 0.3.
+muchhigherthanthenuclearfusionreactioninsidestars HCN and HCO+ J=3–2 lines can be observed simul-
+in a starburst (∼0.7% of Mc2), an AGN can produce taneously for these targets using ALMA. We note that
+much higher surface brightness emission, and thereby a (1) HCN and HCO+ J=1–0 lines cannot be covered by
+larger amount of hot dust (> 100 K) in its close vicin- ALMA if the target redshifts exceed z ∼ 0.06, because
+ity, thana starburst. HCN abundance enhancementdue these lines are shifted beyond the frequency coverage of
+to high gas/dust temperature chemistry (Harada et al. ALMA band 3 (84–116 GHz), and (2) HCN and HCO+
+2010) may also be the cause of the HCN flux enhance- J=2–1 line observations of nearby galaxies are impossi-
+ment in AGNs. It is also argued that the HCO+ abun- ble in ALMA Cycles 1, 2, and 3, because ALMA band
+dance can decrease in highly turbulent molecular gas in 5 (163–211 GHz) is not yet open. Second, compared
+the closevicinityofastronglyX-ray-emittingAGN(Pa- with HCN/HCO+ J=4–3observations in ALMA band 7
+padopouloset al.2007),which may resultin anelevated (275–373GHz) for nearby galaxies, HCN/HCO+ J=3–2
+HCN-to-HCO+ abundance ratio. In fact, Yamada et al. observationsinband6arelessaffectedbytheEarth’sat-
+(2007) and Izumi et al. (2016) made non-LTE calcula- mosphericbackgroundnoiseandthusenableustoobtain
+tionsofHCNandHCO+ emissionoverawideparameter higher quality, higher signal-to-noise (S/N) ratio data.
+rangeandfoundthatanenhancedHCNabundanceisre- Third, the effects of the precipitable water vapor value
+quiredtoaccountforthehighHCN-to-HCO+ fluxratios at the ALMA observing site are smaller in band 6 than
+observed in AGNs. HCN flux enhancement by infrared in band 7, so that the probability of observation execu-
+radiative pumping (Carrol & Goldsmith 1981; Ziurys & tion is expected to be higher for HCN/HCO+ J=3–2 in
+Turner1986;Aaltoetal.1995;Garcia-Burilloetal.2006; band 6 than HCN/HCO+ J=4–3 in band 7. Finally, in
+Sakamoto et al. 2010) is also suggested. Namely, HCN ALMAband6,inadditiontotheHCNJ=3–2andHCO+
+can be vibrationally excited by infrared 14 µm photons J=3–2 lines, vibrationally excited v =1, l=1f (hereafter
+2
+that are strongly emitted from AGN-heated hot dust, v =1f) emission lines of HCN (ν = 267.20 GHz) and
+2 rest
+and through its decay back to the vibrational ground HCO+ (ν = 268.69 GHz) can also be simultaneously
+rest
+level (v=0) the HCN rotational J-transition flux at v=0 coveredinoneshot,withthe5GHz-widecorrelatorunit.
+could be higher than that of collisional excitation alone Thesev =1femissionlinescanbeusedtoinvestigatehow
+2
+(Rangwala et al. 2011). However, chemical models also infrared radiative pumping works in observed galaxies
+predict that the HCN and HCO+ abundances around andaffectsrotationalexcitationatv=0(Sakamotoetal.
+an AGN can vary strongly, depending on the surround- 2010; Imanishi & Nakanishi 2013b; Aalto et al. 2015a,b;
+ingmoleculargasparameters(Meijerink &Spaans2005; Imanishi et al. 2016a; Martin et al. 2016). The simul-
+Harada et al. 2013). The proposed decrease in HCO+ taneous observations of all of these lines make their flux
+abundance could also occur in turbulent molecular gas ratios reliable, with the effect of possible systematic un-
+in a starburst with strong cosmic rays (Papadopoulos et certainties being minimized.
+al. 2007). In addition, HCO+, as well as HCN, can be Inthispaper,wereporttheresultsofourALMACycle
+vibrationally excited by absorbing infrared 12 µm pho- 1, 2, and 3 observations of AGN-dominated galactic nu-
+tons(Daviesetal.1984;Kawaguchietal.1985),andthe clei,starburst-dominatedregions,andthenucleiofAGN-
+HCO+ J-transition flux at v=0 could also be increased starburst composite LIRGs. Throughout this paper, we
+throughthe actionofinfraredradiativepumping. Given adopt H = 71 km s−1 Mpc−1, Ω = 0.27, and Ω =
+0 M Λ
+these remaining theoretical ambiguities, further detailed 0.73 (Komatsu et al. 2009). Molecular lines without the
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 3
+notationofv(thevibrationallevel)refertov=0(i.e.,the etal.2010). Itdisplayscircum-nuclearstarburstactivity
+vibrational ground level). HCN refers to H12C14N. at 1–2 arcsec (∼0.3–0.7 kpc) in radius around the cen-
+tral AGN (Soifer et al. 2003; Galliano et al. 2005; Diaz-
+2. TARGETS Santos et al. 2007;Reunanen et al. 2010). Although the
+Even though our high-spatial-resolution ALMA inter- 3.3 µm PAH emission feature, a signature of starbursts,
+ferometric observations can eliminate the effects of spa- isdetectedinlargeaperture(>4”)infraredspectroscopy
+tially extended (kpc-scale) circum-nuclear starburst ac- (Imanishi et al. 2010), ground-based infrared <1”-wide
+tivity in the host galaxies, emission from nuclear star- slit spectroscopy targeting the nuclear region shows no
+bursts at the central <200–300 pc of galaxies cannot be detectable 3.3 µm PAH emission feature (Imanishi &
+clearly separated. To purely probe the emission proper- Wada 2004), suggesting that nuclear starburst activity
+ties of AGN-affected molecular gas, we have to observe is veryweak andundetectable. The nuclear infrared3–4
+AGNs with the least contamination from nuclear star- µm flux of NGC 7469 is one of the highest among ob-
+burst activity. Infrared slit spectroscopy at >3 µm us- servedSeyfert1galaxieswithnodetectable3.3µmPAH
+ing ground-based telescopes is one of the most powerful emissionfeatures(Imanishi&Wada2004). Recentsensi-
+tools for selecting such almost pure AGNs, because the tiveground-based8–13µmspectroscopyhasshownsome
+presenceofnuclearstarburstactivitycanbeinvestigated signaturesof an 11.3µm PAH emissionfeature from the
+bypolycyclicaromatichydrocarbon(PAH)emissionfea- NGC7469nucleus(Honigetal.2010;Esquejetal.2014),
+tures,whicharenotemittedfromAGNs butcanbepro- but the estimated nuclear starburst luminosity is only
+ducedfromnuclearstarburstsoccurringatalocationsuf- ∼20%oftheAGNluminosity(Esquejetal.2014;Genzel
+ficiently shielded from the AGN’s X-ray radiation (Voit etal.1995). InterferometricCOJ=2–1andHCN/HCO+
+1992; Moorwood 1986; Genzel et al. 1998; Roche et al. J=4–3 observations of the NGC 7469 nucleus revealed
+1991; Imanishi & Dudley 2000; Esquej et al. 2014). We that molecular emission lines at the nuclear position are
+have performed extensive ground-basedinfrared 3–4 µm narrow with a full width at 10% intensity <400 km s−1
+(L-band)spectroscopyofopticalSeyfertnucleiusingnar- (Davies et al. 2004; Izumi et al. 2015). Detailed results
+row(<1.6′′)slits(Imanishi2002,2003;Rodriguez-Ardila of ALMA Cycle 2 sub-arcsec spatial-resolution observa-
+& Viegas 2003; Imanishi & Wada 2004; Imanishi 2006; tions of NGC 7469 at HCN J=4–3 and HCO+ J=4–3
+Imanishi et al. 2011a), and identified a large number of were reported by Izumi et al. (2015).
+AGNs with undetectable nuclear starburst signatures. I Zw 1 (z=0.0611) is included in the Palomar-Green
+Our next step is to further select nuclear-starburst- quasi-stellar objects (PG QSO) catalog and is classified
+free AGNs which, with ALMA, are expected to emit a optically as a Seyfert 1 (Schmidt & Green 1983). Iman-
+detectable amount of molecular emission lines. As our ishi et al. (2011a) performed infrared 3–4 µm (L-band)
+interest lies in AGN-affected molecular gas in the close 1′.′6-wide slit spectroscopy and did not detect a 3.3 µm
+vicinity of the central AGN engine, we have to estimate PAH emission feature in the nuclear region of I Zw 1.
+the amountofsuchnuclearAGN-affectedmoleculargas, Theobservednuclearinfrared3–4µmfluxishighamong
+rather than the entire amount of molecular gas in the PAH non-detected AGNs. No detectable 11.3 µm PAH
+host galaxy. Assuming that dense molecular gas and emissionfeatureisfoundatthe nucleus(Burtscheretal.
+dustspatiallyco-existinthedustymoleculartoriaround 2013). Single-dish CO J=1–0 and HCN J=1–0 obser-
+AGNs, AGNs with strong nuclear AGN-heated hot dust vations of I Zw 1 with the IRAM 30-m telescope show
+radiation in the infrared 3–10 µm are expected to ac- narrow molecular line emission with full width at 10%
+company bright AGN-affected nuclear molecular emis- intensity of <400 km s−1 (Evans et al. 2006).
+sion lines. IC 4329 A (z=0.0160) is an optical Seyfert 1 galaxy
+Finally, to clearly detect the vibrationally excited in the 12 µm Seyfert galaxy sample (Rush et al. 1993).
+(v =1f) HCN emission line without veiling by the much The nuclear 3–4 µm (L-band) spectrum taken with a
+2
+brighter HCO+ emission line at v=0 (only ∼400km s−1 1′.′6-wideslitisdominatedbyaPAH-freefeaturelesscon-
+separation)(Sakamoto etal.2010),AGN-dominatednu- tinuum, with one of the highest observed fluxes for this
+cleiwithsmall molecular line widthsareappropriatetar- class of object (Imanishi & Wada 2004). The 11.3 µm
+gets. AGNs whose molecular line full widths at 10% PAH emission is also not detected in the nuclear region
+intensity are <500 km s−1 are desirable. We target (Honig et al. 2010). The detection of molecular rota-
+Type 1 unobscured AGNs, because their dusty molec- tional J-transition emission lines in the (sub)millimeter
+ulartoriinthe closevicinityofAGNsareexpectedtobe wavelengthrange toward the IC 4329 A nucleus has not
+preferentially viewed from a face-on direction from our been reported in the published literature.
+line-of-sight,makingrotation-originatednuclearmolecu- As a comparison of these AGN-dominated optical
+lar line widths small. As long as turbulence-originated Seyfert 1 galactic nuclei, we observed nearby merging
+line widths are not very large, small observed nuclear LIRGs, because they often display starburst activity, in
+molecular line widths are expected. addition to deeply obscured AGNs. The relative ener-
+Insummary,Type1unobscuredAGNswithoutnuclear getic contributions from starbursts and obscured AGNs
+PAH emission features and with bright nuclear infrared vary greatly among different LIRGs, but are reason-
+3–10 µm continuum fluxes are suitable targets for our ably estimated based on infrared spectroscopy, as long
+purpose. NGC 7469, I Zw 1, and IC 4329 A meet these as emission from obscured AGNs contributes to the ob-
+criteria. served infrared flux.
+NGC 7469 (z=0.0164) is included in both the Center IRAS 08572+3915 (z = 0.0580) is an ultraluminous
+forAstrophysics(CfA)(Huchra&Burg1992)and12µm infrared galaxy (ULIRG; L
+IR
+&1012L⊙) with L
+IR
+∼
+(Rush et al. 1993) Seyfert galaxy samples, and is classi- 1012.1L⊙(Table1),classifiedopticallyasalow-ionization
+fied optically as a Seyfert 1 (Veilleux et al. 1995; Yuan nuclearemission-lineregion(LINER)galaxy(Veilleuxet
+=====PAGE=====
+4 Imanishi et al.
+al. 1999) or a Seyfert 2 (Yuan et al. 2010). It shows a is presentedinthat paper. Insummary,similar to IRAS
+mergingdoublenuclearmorphology(northwestern[NW] 12112+0305, the infrared spectra of IRAS 22491−1808
+and southeastern [SE]) with a separation of ∼5 arcsec at 3–35 µm are characterized by large equivalent width
+(Scoville et al. 2000; Kim et al. 2002; Imanishi & Saito PAH emission features (Imanishi et al. 2007b; Veilleux
+2014). The NW nucleus (IRAS 08572+3915 NW) is ar- et al. 2009; Imanishi et al. 2010). The observed in-
+gued to contain an energetically dominant buried AGN, frared emission at 3–35 µm is interpreted as originat-
+basedoninfraredspectroscopicandimagingenergydiag- ing from starburst activity, and any putative AGN in
+nostic methods (Dudley & Wynn-Williams 1997; Iman- this ULIRG must be particularly deeply embedded to
+ishi&Dudley 2000;Soiferet al.2000;Spoonetal.2006; elude infrared spectroscopic observations. Similar to
+Imanishi et al. 2006a; Armus et al. 2007; Imanishi et al. IRAS 12112+0305, the PAH-to-infrared luminosity ra-
+2007b; Veilleux et al. 2009; Nardini et al. 2010), and so tio is smaller than that expected from modestly ob-
+has been selected as a target to scrutinize elusive buried scured starburst-dominated galaxies by a factor of 3–
+AGNs through various methods (Imanishi et al. 2007a; 8, depending on the 3.3 µm, 6.2 µm, and 11.3 µm
+Teng et al. 2009, 2015). We conducted ALMA Cycle 0 PAH features (Imanishi et al. 2007b, 2010). The ob-
+observationsofIRAS08572+3915atHCN/HCO+/HNC served HCN-to-HCO+ J=4–3 flux ratios are substan-
+J=4–3lines and reported their molecular line flux ratios tially higher than those from starburst regions (Iman-
+(Imanishi&Nakanishi2014);detaileddescriptionsabout ishi&Nakanishi2014). Obtainingfurthermolecularline
+IRAS 08572+3915can be found in the paper cited. The data is desirablefor a better understanding of the origin
+COJ=1–0emissionlinewasdetectedinonlytheNWnu- of the observed molecular line emission in this ULIRG.
+cleus, based on pre-ALMA interferometric observations NGC1614(IRAS04315−0840)atz =0.0160isawell-
+(Evans et al. 2002). studiednearbyLIRGwithL
+IR
+∼1011.7L⊙ (Table1). We
+TheSuperantennae(IRAS19254−7245;z =0.0617)is observedNGC1614atHCN/HCO+/HNCJ=4–3linesin
+a ULIRG with L
+IR
+∼ 1012.1L⊙ (Table 1), classifiedopti- ALMACycle0,asrepresentativeofstarburst-dominated
+callyasaSeyfert2(Mirabeletal.1991). Infrared(Risal- galaxies (Imanishi & Nakanishi 2013a); detailed proper-
+itietal.2003;Imanishietal.2010)andX-ray(Braitoet ties of NGC 1614 can be found in the paper cited. In
+al. 2003, 2009) observations support the presence of an summary,NGC1614showsopticalandinfrared2–35µm
+energetically important obscured AGN. Due to its very spectrawhoseemissionpropertiesareexplainedsolelyby
+low declination(−72◦), no interferometricmoleculargas nuclear starburst activity, with a spatial extension of a
+observations were reported in the published literature few arcsec (Alonso-Herreroet al.2001;Miles etal. 1996;
+prior to ALMA. Soifer et al. 2001; Diaz-Santos et al. 2008; Imanishi et
+IRAS 12112+0305 (z = 0.0730) is a ULIRG with L al.2011b;Pereira-Santaellaetal.2012). Ingeneral,dust
+IR
+∼ 1012.3L⊙ (Table 1), classified optically as a LINER extinction is smaller in LIRGs than ULIRGs (Soifer et
+(Veilleux et al. 1999) or a Seyfert 2 (Yuan et al. 2010). al. 2000,2001),so that a quantitative discussion of star-
+It consists of two merging nuclei (northeastern[NE] and bursts and any putative AGNs is easier in LIRGs. The
+southwestern[SW]),withaseparationof∼3arcsec(Kim detectedstarburst-originemissionlineluminositiesinthe
+et al. 2002). Infrared spectra at 3–35 µm from nu- infraredarehighenoughtoaccountfortheobservedtotal
+clear emission, both combined and separately at indi- infrared luminosity (Imanishi et al. 2010), leaving little
+vidual nuclei, are dominated by strong PAH emission roomforthepresenceofanenergeticallysignificantAGN
+features (Imanishi et al. 2006a, 2007b; Nardini et al. in NGC 1614, unlike the ULIRGs, IRAS 12112+0305,
+2009; Veilleux et al. 2009; Imanishi et al. 2010). Such and IRAS 22491−1808. Low HCN-to-HCO+ J=4–3flux
+infrared spectral shapes are usually seen when the ob- ratios are found in our ALMA Cycle 0 data at multiple
+servedinfraredspectraaredominatedbystarburstemis- starburst regions in NGC 1614 (Imanishi & Nakanishi
+sion (Moorwood 1986; Genzel et al. 1998; Imanishi & 2013a)
+Dudley 2000). No clear observational AGN signatures The above five LIRGs were observed in ALMA Cycle
+are recognizable in infrared energy diagnostic methods. 2. In addition to them, six new LIRGs have been ob-
+If a luminous AGN is present in either of the nuclei, served in ALMA Cycle 3 at HCN/HCO+ J=3–2, and
+the AGN must be deeply buried in gas and dust so as their data have recently been sent to us. We include
+to be infrared elusive. The PAH-to-infrared luminosity these six LIRGs (IRAS 12127−1412,IRAS 15250+3609,
+ratio is smaller than that expected from modestly ob- PKS 1345+12, IRAS 06035−7102, IRAS 13509+0442,
+scured starburst-dominated galaxies by a factor of 3–6, and IRAS 20414−1651)in this paper.
+dependingonthe3.3µm,6.2µm,and11.3µmPAHfea- IRAS 12127−1412 (z = 0.1332) is a ULIRG with
+tures(Imanishietal.2007b,2010),suggestingthatPAH L
+IR
+∼ 1012.2L⊙ (Table 1). It shows two nuclei (NE
+emissionis more flux-attenuatedthan in the comparison and SW) with a separation of ∼10 arcsec (Kim et al.
+starburst galaxies, or that an elusive AGN contributes 2002; Imanishi & Saito 2014). The optical classifica-
+to the infraredluminosity without producingPAH emis- tion of this ULIRG is a LINER (Veilleux et al. 1999)
+sion. Interferometric observations detected CO J=1–0 or an HII-region (Yuan et al. 2010). The NE nucleus
+emission from both nuclei, with a flux approximately is thought to contain a luminous buried AGN, based on
+three times higher at the NE nucleus than at the SW various infrared energy diagnostic methods (Imanishi et
+nucleus (Evans et al. 2002). al. 2006a, 2007a; Veilleux et al. 2009; Imanishi et al.
+IRAS 22491−1808 (z = 0.0776) is a ULIRG with L 2010; Nardini et al. 2008, 2009, 2010). The results of
+IR
+∼ 1012.2L⊙ (Table 1). We reported the results of our ourALMACycle 0observationsofIRAS12127−1412at
+ALMA Cycle 0 observations of IRAS 22491−1808 at HCN/HCO+/HNC J=4–3 lines were reported in Iman-
+HCN/HCO+/HNCJ=4–3linesinImanishi&Nakanishi ishi & Nakanishi (2014). These molecular emission lines
+(2014),and detailed information relating to this ULIRG were detected at the NE nucleus, but not at the SW
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 5
+nucleus. PAH-emission-dominated infrared 2.5–35 µm spectrum
+IRAS15250+3609(z =0.0552)isaULIRGwithL ∼ of IRAS 20414−1651 (Imanishi et al. 2007b; Nardini et
+IR
+1012.0L⊙ (Table 1). It is classified optically as a LINER al. 2009; Veilleux et al. 2009; Imanishi et al. 2010) sug-
+(Veilleux et al. 1995) or an AGN-starburst composite gests that the observedinfrared 2.5–35 µm flux is domi-
+(Yuan et al. 2010). The presence of a luminous buried natedbystarburstactivity,withoutanydiscernibleAGN
+AGNissuggestedfrom(1)asteeply risingcontinuumat signatures in the infrared. Yet, the observed PAH-to-
+>3.5µm, mostlikely due to AGN-heated hot dust emis- infraredluminosity ratiois lowby a factorof 5–12,com-
+sion (Imanishi et al. 2010), (2) low equivalent widths pared to modestly obscured starburst-dominated galax-
+of PAH emission features at >5 µm (Spoon et al. 2002; ies (Imanishi et al. 2007b, 2010).
+Nardinietal.2010;Imanishietal.2011b;Stierwaltetal. Table 1 presents the basic properties of these three
+2013),and(3) a highemissionsurface brightness(Iman- optical Seyfert 1 galaxies and eleven LIRGs.
+ishi et al. 2011b). Nardini et al. (2010) estimated that
+∼50%ofthebolometricluminosityofIRAS15250+3609 3. OBSERVATIONSANDDATAANALYSIS
+is explained by the buried AGN. Ourobservationsofthe three AGN-dominatedSeyfert
+PKS 1345+12 (IRAS 13451+1232; z = 0.1215) is a 1galacticnuclei(NGC 7469,I Zw1,IC 4329A)inband
+ULIRG with L IR ∼ 1012.3L⊙ (Table 1). It is classified 6weremadewithinthescopeofourALMACycle1pro-
+optically as a Seyfert 2 (Veilleux et al. 1999;Yuan et al. gram 2012.1.00034.S (PI = M. Imanishi). Observations
+2010). It has two nuclei with a separation of ∼2 arc- of the eleven LIRGs were performed within our ALMA
+sec along the east-west (EW) direction (Scoville et al. Cycle2program2013.1.00032.S(PI =M.Imanishi)and
+2000; Kim et al. 2002; Imanishi & Saito 2014), and CO Cycle3program2015.1.00027.S(PI=M.Imanishi). Our
+J=1–0emissionisdetectedinthewesternnucleus(Evans Cycle 1 program was transferred to Cycle 2, and actual
+et al. 1999). Infrared ∼2 µm spectroscopy detected an observations were conducted during the ALMA Cycle 2
+AGN-originbroad(fullwidthathalfmaximum[FWHM] observingperiod. Observationdetailsaresummarizedin
+> 2000 km s−1) Paα (1.875 µm) emission line, due to Table 2. Although HCN/HCO+ J=4–3 and HNC J=3–
+smallerdustextinctioneffectscomparedwiththeoptical 2/J=4–3data were also takenfor LIRGs during our Cy-
+(Veilleuxetal.1997),suggestingthatthehiddenAGNis cle2and3programs,wefocusontheHCN/HCO+ J=3–
+only modestly obscured. Based on the luminosity of the 2 emission line properties in this paper, because only
+detected broad Paα emission line, Veilleux et al. (1997) HCN/HCO+ J=3–2 emission line data were obtained
+argued that the AGN could be responsible for the bulk for the AGN-dominated optical Seyfert 1 nuclei. The
+of the bolometric luminosity of PKS 1345+12. A ris- remaining emission lines of LIRGs will be discussed by
+ing infrared 2.5–5 µm spectrum with a non-detectable Imanishi et al. (2016c).
+3.3 µm PAH emission feature also supports the AGN- Weadoptedthewidest1.875-GHz-widthmodeineach
+dominated nature of this ULIRG (Imanishi et al. 2010). spectralwindowtocoveraswideafrequencyaspossible.
+PKS 1345+12 shows an excess of the radio-to-infrared To simultaneously observe our target lines, HCN J=3–
+luminosity ratio, compared with the majority of LIRGs 2 (ν = 265.89 GHz), HCO+ J=3–2 (ν = 267.56
+rest rest
+(Drake et al. 2004), suggesting that the AGN is radio- GHz), HCN v =1f J=3–2 (ν = 267.20 GHz), and
+2 rest
+loud. HCO+ v =1fJ=3–2(ν =268.69GHz),weusedthree
+2 rest
+IRAS06035−7102(z =0.0795)isaULIRGwithL IR ∼ spectralwindows,eachofwhichcovered(1)HCNJ=3–2,
+1012.2L⊙ (Table 1). It is classified optically as a LINER (2)HCNv
+2
+=1fJ=3–2andHCO+J=3–2,and(3)HCO+
+(Duc et al. 1997), although there are several indications v =1fJ=3–2,respectively. Becausetheinterferometerin
+2
+thatanopticallyelusiveluminousburiedAGNexistsdue ALMAband6cancover5GHzattheuppersidebandor
+to (1) low PAH emission equivalent widths and strong lowersideband,HCNandHCO+ atbothv=0(thevibra-
+absorptionfeatures by dust and ice at >3 µm (Spoon et tional ground level) and v =1 (the vibrationally excited
+2
+al.2002;Dartoisetal.2007;Farrahetal.2009;Imanishi level)couldbe observedsimultaneouslyatJ=3–2,which
+et al. 2010) and (2) a steeply rising continuum at >3.5 is not possible at J=4–3 in ALMA band 7.
+µm (Imanishi et al. 2010). Nardini et al. (2010) argued We began our data analysis from calibrated data pro-
+that the putative buried AGN accounts for ∼20%of the vided by the Joint ALMA Observatory, using CASA
+bolometric luminosity of IRAS 06035−7102. (https://casa.nrao.edu). We first checked the visibility
+IRAS13509+0442(z =0.1364)isaULIRGwithL IR ∼ plots to see if the signatures of the targetedbrightemis-
+1012.3L⊙ (Table 1). ItisclassifiedopticallyasanHII re- sion lines were visible. The presence of HCN J=3–2and
+gion(Veilleux et al.1999)oran AGN-starburstcompos- HCO+ J=3–2 emission lines was evident in the visibil-
+ite (Yuan et al. 2010). Its infrared 2.5–35 µm spectrum ity plots of all observed galaxies, except for IC 4329 A.
+is characterizedby large equivalent width PAH emission We estimated the continuum flux level using channels
+features(Imanishietal.2007b,2010),suggestingthatthe that were unaffected by strong emission lines. The esti-
+observed 2.5–35 µm infrared flux is dominated by star- mated continuum levels were subtracted using the task
+burst emission, with no obvious AGN signatures. How- “uvcontsub”; the task “clean” was then applied to cre-
+ever, the observed PAH-to-infrared luminosity ratio is a ate final continuum-subtracted molecular line data. The
+factor of 2–4 lower than that expected from modestly clean task was also applied to the extracted continuum
+obscured starburst-dominated galaxies (Imanishi et al. data themselves. For these clean procedures, 40-channel
+2007b, 2010). binning of velocity channel with ∼0.5 km s−1 spacing
+IRAS 20414−1651 (z =0.0870) is a ULIRG with L IR for each(resulting resolutionis ∼20kms−1) and a pixel
+∼ 1012.3L⊙ (Table 1), classified optically as an HII re- scale of 0′.′1 pixel−1 were basically utilized. For LIRGs
+gion(Veilleux et al.1999)oran AGN-starburstcompos- observed in ALMA Cycle 3, data were taken and deliv-
+ite (Yuanetal.2010). Similar to IRAS13509+0442,the ered with four channels binning (Spec Avg. = 4 in the
+=====PAGE=====
+6 Imanishi et al.
+ALMA Observing Tool) to reduce the ALMA data rate, ofthe ALMA continuum emissionpeak agreeswith that
+for which we used 20-channel spectral binning. The net of a VLBI radio emission peak (Ma et al. 1998), and we
+velocity resolution was ∼40 km s−1. Since these LIRGs regard that the detected continuum emission originates
+observedinALMACycle3showedlargelinewidthswith from the CO J=1–0 detected western nucleus (Evans et
+>200 km s−1 in FWHM for bright molecular emission al. 1999).
+lines (see §3), we can properly trace their emission line For IRAS 13509+0442 in Figure 3, continuum emis-
+profiles and estimate their fluxes based on Gaussian fit- sion is detected not only at the nucleus but also at (13
+ting. Assomeofourtargetsdisplayedspatiallyextended 53 31.66, +04 28 13.1)J2000, ∼1′′ east and 8–9′′ north
+structures,weappliedtheprimarybeamcorrectiontoall of the IRAS 13509+0442 nucleus. This source is de-
+data,althoughits effects arerelativelylimitedaslongas tected also in our band 7 continuum map at ∼313 GHz
+we discuss emission from the central few arcsec regions. at the same position with ∼3.6 mJy (Imanishi et al.
+Whenwecreatedthe∼20kms−1 resolutionspectrumof 2016c). In the Sloan Digital Sky Survey (SDSS) optical
+The Superantennae (the broadestmolecular line source) image,twosourcesweredetectedat∼10′′ northofIRAS
+fromthecleaneddata,itwasfoundthatcontinuumlevels 13509+0442, identified as SDSS J135331.89+042816.4
+in the spectral windows that contained the HCN J=3– (z=0.186 galaxy) and J135331.44+042813.8, but their
+2 and HCO+ J=3–2 emission lines were negative in our positions were significantly (>3′′) offset from our
+first continuum determination due to continuum over- ALMAcontinuum-detectedsource. Furtherhigh-spatial-
+subtraction. We thus re-determined the continuum lev- resolution multiple-frequency data will help to unravel
+els in these spectral windows using only a small number the nature of this optically faint, millimeter-bright
+of data points at the edge of each spectral window, suf- source.
+ficiently separated from the broad HCN/HCO+ J=3–2 In Figure 4, we show the full frequency coveragespec-
+emissionlinepeaks. Inthereviseddetermination,signals tra, within the beam size, at the nuclear positions of
+outside the emission lines in the continuum-subtracted three optical Seyfert 1 galaxies and three starburst re-
+spectra became almost zero. However, it was uncertain gions(SB1, SB2, and SB3)of NGC 7469. To investigate
+whether dataatthe edgeofthese spectralwindowswere the emission properties from the entire starburst ring of
+completelyline-free. ForTheSuperantennae,continuum NGC 7469, we also present an area-integratedspectrum
+determinationambiguitiescouldbe largerthanforother inFigure4e,by integratingsignalsatthe annularregion
+sources. According to the ALMA Cycle 1, 2, and 3 Pro- with 0′.′8–2′.′5 radius, centered at the nuclear position of
+poser’s Guides, the absolute calibration uncertainty of NGC 7469.
+our ALMA band 6 data should be <10%. The position The full frequency coverage spectra for the eleven
+reference frames are FK5 for objects observedin ALMA LIRGsareshowninFigure5. Spectraatthenuclearpo-
+Cycles 1 and 2, and ICRS for those observed in ALMA sitions are shown, within the beam size, with the excep-
+Cycle 3. tionofNGC1614. InthespectrumofIRAS15250+3609
+in Figure 5(j), a broad dip is visible at the higher fre-
+4. RESULTS quency side of the HCO+ J=3–2 emission. A similar
+Figure 1 displays continuum maps of the three optical profile was observed for HCO+ J=4–3 and J=3–2 emis-
+Seyfert 1 galaxies, NGC 7469, I Zw 1, and IC 4329 A. sionlines inthe ULIRGArp220(Sakamotoetal.2009),
+Continuumemissionat∼250–260GHz (observedframe) and was interpreted as the P Cygni profile due to out-
+is clearly detected at the nuclear regions in all sources. flow. It is likely that IRAS 15250+3609displays similar
+InNGC7469,continuumemissionisalsodetectedinthe HCO+ outflow activity. A similar dip, however, is not
+three starburst regions, which we denote as SB1, SB2, clearly evident at the higher frequency side of the HCN
+and SB3. The observed continuum emission properties J=3–2 emission line, suggesting that a larger fraction of
+are summarized in Table 3. HCO+ is in the outflow component than HCN. A nar-
+ContinuummapsoftheLIRGsobservedinALMACy- row dip at the lower frequency side of the HCO+ J=3–2
+cles 2 and 3 are shown in Figures 2 and 3, respectively. emission is interpreted to be of inflow origin, as seen in
+Continuumemissionisdetectedinthenucleiofallgalax- some fraction LIRGs (Veilleux et al. 2013). In Figure
+ies. In IRAS 12112+0305, the emission is seen both at 5(n),no significantmolecularemissionline wasobserved
+theNEandSWnuclei,withtheNEnucleusbrighterthan at the position of the NE source detected in the contin-
+thatoftheSW.InNGC1614,continuumemissionisspa- uum map of IRAS 13509+0442.
+tially extended, and arises primarily from two distinct Integratedintensity(moment0)mapswerecreatedfor
+regions. We investigate the possible continuum emission the HCN J=3–2 and HCO+ J=3–2 emission lines, by
+signal for the fainter IRAS 08572+3915 SE and IRAS summing velocity channels with discernible signal signs,
+12127−1412 SW nuclei, but detection is <3σ within 1” with no cut-off in signal-to-noise ratios. Because NGC
+around the near-infrared position defined by Kim et al. 7469 and NGC 1614 show morphologies with multiple
+(2002). ThefainternorthernnucleusofTheSuperanten- emission components, their moment 0 maps are pre-
+nae, located at ∼1′.′5 west and ∼8” north of the main sented in Figures 6 and 7, respectively. Figure 8 shows
+southernnucleus (Reunanen et al. 2007;Jia et al. 2012), the moment 0 maps of the remaining galaxies whose
+isalsoundetectedwith>3σinthecontinuummapwithin molecularemissionpredominantlyarisesfromnuclearre-
+1”aroundtheexpectedposition. ForIRAS22491−1808, gions only. The HCN J=3–2 and HCO+ J=3–2 emis-
+we attribute the detected nuclear position in the contin- sion line properties in these moment 0 maps are sum-
+uum to the easternnucleus (Kim etal.2002;Haanetal. marized in Tables 4 and 5, respectively. The peak po-
+2011). Thefaintersecondarywesternnucleus,∼2”sepa- sitions of the HCN J=3–2 and HCO+ J=3–2 emission
+ratedfromthemaineasternnucleus(Kimetal.2002),is lines spatially agree with the continuum emission peaks
+not clearly detected. For PKS 1345+12, the coordinate within one pixel (0′.′1) in both the RA and DEC direc-
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 7
+tions, with the exception of NGC 1614. The secondary J=3–2 emission lines, after normalizing the Gaussian-fit
+nuclei of IRAS 08572+3915, The Superantennae, IRAS peak flux for the main bright emission component. The
+22491−1808, IRAS 12127−1412 and PKS 1345+12 are emissionline flux ofthe sub-peakcomponent, relativeto
+not detected with >3σ in the moment 0 maps of the the main component, is higher for HCO+ J=3–2 than
+HCN J=3–2 and HCO+ J=3–2 emission lines. HCN J=3–2. Although this could be due partly to the
+For NGC 1614, the peak positions of the HCN J=3–2 contributionfromtheHCNv =1fJ=3–2emissiontothe
+2
+andHCO+ J=3–2moment0mapsinFigure7aresignifi- sub-peakcomponentofHCO+J=3–2,theexpectedHCN
+cantlyoffsetfromthecontinuumpeakpositionsinFigure v =1f J=3–2 emission peak for z =0.0552is slightly off-
+2
+2. The molecular gas emission peaks in the moment 0 set from the observed sub-peak component of HCO+ in
+maps of NGC 1614agreewithin one pixel between HCN velocity (Figure 11). It is more likely that the outflow-
+J=3–2andHCO+ J=3–2. We denote the northernpeak origin redshifted and blueshifted components, relative
+at(043400.00,−083444.4)J2000andsouthernpeakat to the main molecular emission component at the nu-
+(043359.98,−083445.2)J2000asSB1andSB2,respec- cleus,arestrongerforHCO+ thanHCN,whichproduces
+tively,basedonthe HCNJ=3–2moment0 mapofNGC stronger P Cygni profile for HCO+. A similar trend is
+1614. Full frequency coverage spectra of NGC 1614 at seenalsoattheJ=4–3dataofHCNandHCO+ forIRAS
+theSB1andSB2peaks,withinthebeamsize,areshown 15250+3690 (Imanishi et al. 2016c). We made moment
+in Figure 5(f) and 5(g), respectively. An area-integrated 0 maps of the sub-peak component of the HCN J=3–
+spectruminacircularregionwitharadiusof2′.′5around 2 (10 velocity channels) and HCO+ J=3–2 (7 velocity
+(04 34 00.03, −08 34 44.6)J2000 is also shown in Figure channels) and detected these emission lines with 0.70
+5(h). [Jy beam−1 km s−1] (5.8σ) and 0.72 [Jy beam−1 km
+Gaussian fits for the HCN J=3–2 and HCO+ J=3–2 s−1] (9.2σ) for HCN J=3–2 and HCO+ J=3–2, respec-
+emission lines in the spectra, within the beam size, at tively. The peak position of the HCO+ J=3–2 sub-peak
+the individualmultiple positionsofNGC 7469andNGC componentspatially coincides with the continuum peak,
+1614 are shown in Figures 6 and 7, respectively. Fig- but that of HCN J=3–2 is shifted to the north with 2
+ure 9 displays Gaussian fits for the remaining sources. pix(0′.′2). However,thepositiondeterminationaccuracy
+Estimates of the HCN J=3–2 and HCO+ J=3–2 emis- of the HCN J=3–2 sub-peak component is on the order
+sion line fluxes are based on the peak pixel values in of(beam-size)/(signal-to-noise-ratio)∼1.21/5.8∼0′.′21.
+the moment 0 maps and Gaussian fits within the beam We see no clear evidence that the sub-peak component
+size,andaresummarizedinTables4and5,respectively. is spatially offset from the continuum peak at the nu-
+Both estimates generally agree within ∼20%. We will cleus. If the sub-peak component is of outflow origin,
+adopt the fluxes estimated from Gaussian fits for these the outflow is compact and is located close to the nu-
+detected emission lines. For the area-integrated spectra cleus in the moment 0 maps. Since the continuum flux
+of NGC 7469 and NGC 1614, only flux estimates based at∼250GHz is ∼11mJy beam−1 (Table 3), the flux at-
+on Gaussian fits are available, and will be used for our tenuationbyoutflowofHCO+ gasatJ=3–2is∼20%,or
+discussion. an optical depth with τ ∼ 0.2, for the broad absorption
+Zoom-in spectra of the AGN-dominated nuclei of the component at v = 15800–16400 km s−1 (Figure 11).
+opt
+two optical Seyfert 1 galaxies with clearly detectable For the narrow absorption component at v ∼ 16800
+opt
+HCN and HCO+ J=3–2 emission lines (NGC 7469 and kms−1 (Figure11),whichis likelytobe ofinfloworigin,
+I Zw 1) are displayed in Figure 10, to better investigate the flux attenuation is >40%.
+the HCN and HCO+ v 2 =1f J=3–2 emission lines. Their For IRAS 08572+3915, IRAS 12112+0305 NE, IRAS
+presence is, however, unclear. We created their moment 22491−1808,andIRAS20414−1651,wecreatedtheinte-
+0mapsbysummingtenvelocitychannelsattheexpected gratedintensity (moment 0) maps by integrating signals
+frequencies of the HCN and HCO+ v 2 =1f J=3–2 lines, markedwiththehorizontalsolidstraightlines(bracketed
+but there is no signature of these emission lines at all. by the short vertical solid lines) in Figure 10, where the
+The 3σ upper limit, relative to the rms noise, is shown bulkofthepossibleHCNv =1fJ=3–2emissionlinesare
+2
+in Table 6. covered, while contamination from HCO+ J=3–2 emis-
+InthespectraofIRAS08572+3915,IRAS12112+0305 sionlines isminimized, basedonourGaussianfitsofthe
+NE,IRAS22491−1808,andIRAS20414−1651inFigure HCO+ J=3–2 emission lines. In the HCN v =1f J=3–2
+2
+5, anemissiontail is recognizableatthe lower frequency emission line moment 0 maps of IRAS 12112+0305 NE
+side of the HCO+ J=3–2 emission line. Figure 10 dis- and IRAS 22491−1808,the HCN v =1f J=3–2 emission
+2
+plays zoomed-in spectra around the HCO+ J=3–2 emis- line was detected with 4.5σ and 4σ, respectively (Ta-
+sionlinesforthesefoursources,tobetter distinguishthe ble 6), although a possible contribution from the bright
+emissiontails. Asthesetailsarenotvisibleatthehigher HCO+ v=0 J=3–2 emission line cannot completely be
+frequency side of the HCO+ J=3–2 emission lines, the ruled out. These moment 0 maps are shown in Figure
+most natural interpretation for the lower frequency side 12. For IRAS 08572+3915 and IRAS 20414−1651, we
+ofthetailsisthecontributionfromtheHCNv 2 =1fJ=3– barely see possible sign of HCN v 2 =1f J=3–2 emission
+2 emission line (Aalto et al. 2015a,b). at the position close to the continuum peak, but the de-
+IRAS 15250+3609shows a weak emission sub-peak at tectionsignificanceis∼2σ inthemoment0maps,partly
+the expected frequency of the HCN v 2 =1f J=3–2 line, because not all the HCN v 2 =1f J=3–2 emission compo-
+at the lower frequency side of the strong HCO+ J=3–2 nents can be used to create the moment 0 maps, due to
+emission (Figure 5). However, a similar weak emission thecontaminationfromthenearbymuchbrighterHCO+
+sub-peak is also observed at the lower frequency side of v=0J=3–2emissionline. Weseenodiscerniblesignature
+theHCNJ=3–2emissionline(Figure5). Figure11com- of the HCN v =1f J=3–2 emission line in the remaining
+2
+pares the velocity profile of the HCN J=3–2 and HCO+
+=====PAGE=====
+8 Imanishi et al.
+LIRGs. ThereisnoclearsignoftheHCO+ v =1fJ=3–2 were not clearly seen in our ALMA Cycle 0 band 7 data
+2
+emission line in any of the observed galaxies. (Imanishi & Nakanishi 2014); however, this is not sur-
+Thedeconvolved,intrinsicemissionsizes,estimatedus- prising due to the improved performance of ALMA Cy-
+ing the CASA task “imfit”, for spatially not-clearly re- cle 2 data and intrinsically lower noise in band 6 with
+solvedsourcesare shownin Table 7. The luminosities of lower background emission, than in band 7. For IRAS
+the vibrational ground (v=0) HCN/HCO+ J=3–2 emis- 12112+0305 NE, a similar signature of the HCN v =1f
+2
+sion lines are provided in Table 8. Table 9 tabulates the J=4–3emissionlineatthelowerfrequencysideofHCO+
+luminosities of vibrationally excited (v =1f) HCN J=3– v=0J=4–3wasobservedinourALMACycle2data,de-
+2
+2 emission lines for sources with >3σ detection (IRAS spitealowerdetectionsignificancethanJ=3–2,whileno
+12112+0305NE and IRAS 22491−1808). significant emission tail is recognizable at the lower fre-
+Intensity-weighted mean velocity (moment 1) and quency side of HCN v=0 J=4–3 (Imanishi et al. 2016c).
+intensity-weighted velocity dispersion (moment 2) maps While IRAS 08572+3915isclassifiedasaULIRGpos-
+for HCN/HCO+ J=3–2 (v=0) emission lines are shown sessingaluminousburiedAGNintheinfraredspectrum,
+in Figure 13. The similar emission morphology and dy- IRAS 12112+0305 NE, IRAS 22491−1808, and IRAS
+namicsinmoment0,1,and2mapsbetweenHCNJ=3–2 20414−1651 display no clear infrared buried AGN sig-
+and HCO+ J=3–2 support our previous view (§1) that natures. The signatures of the HCN v =1f J=3–2 emis-
+2
+these emission lines originate in spatially similar regions sionlinesinourdatasuggestthepresenceofstrongmid-
+within individual galaxies. infrared 14 µm continuum-emitting sources at the nu-
+clei of these two LIRGs. The HCN v =1f J=3–2 to in-
+2
+5. DISCUSSION frared luminosity ratios are >7 × 10−9 and ∼9 × 10−9
+5.1. Vibrationally excited HCN/HCO+ J=3–2 emission for IRAS 12112+0305 NE and IRAS 22491−1808, re-
+lines spectively. These ratios are several factors higher than
+5.1.1. Luminous infrared galaxies t ( h > a 1 t 0 i 7 n L⊙ th ) e s G ta a r l - a f c o t r i m c i a n c g tiv r e eg ( i > on 1 , 0 W L⊙ 4 / 9 M A ⊙ ( ) < a 1 n .2 d l × um 1 in 0 o − u 9 s )
+Because the energy levels of the vibrationally excited (Nagy et al. 2015; Imanishi et al. 2016a). A luminous
+(v =1)state for HCN (∼1030K)andHCO+ (∼1200K) buried AGN is a plausible origin, although the possibil-
+2
+aretoohightobeexcitedbycollisions,infraredradiative ity of a very compact extreme starburst cannot be com-
+pumping is thought to be necessary for vibrational exci- pletelyruledout(Aaltoetal.2015b). IRAS12112+0305
+tation (Sakamoto et al. 2010). Due to a large amount of NE and IRAS 22491−1808 are candidates that contain
+AGN-heatedhot(>few100K)dustemission,the14µm extremely deeply buried AGNs whose signatures are not
+luminosityinanAGNissignificantlyhigherthanthatin seenininfrared5–35µmspectroscopicenergydiagnostic
+astarburstforthesamebolometricluminosity(Marshall methods due to dust extinction, but are revealed by our
+etal.2007;Vegaetal.2008). Thus,HCNvibrationalex- (sub)millimeter method because of the reduced effects
+citation, through the absorption of infrared 14 µm pho- of dust extinction (Draine & Lee 1984). If this is the
+tons, is expected to occur more efficiently in an AGN case,(sub)millimeterobservationscouldbeanevenmore
+than in a starburst. In fact, the HCN v =1f emission powerful method for detecting extremely deeply buried
+2
+linesatJ=3–2and/orJ=4–3haverecentlybeendetected AGNs in LIRGs. IRAS 20414−1651may also belong to
+in gas/dust-rich LIRGs, which most likely, or plausibly, this class, but higher quality data are needed to quanti-
+containluminousAGNs,i.e.,NGC4418(Sakamotoetal. tatively better estimate the HCN v 2 =1f J=3–2 emission
+2010;Costagliolaet al. 2015),IRAS 20551−4250(Iman- line luminosity.
+ishi & Nakanishi 2013b; Imanishi et al. 2016a), Mrk 231 The HCO+ v 2 =1f J=3–2 emission line is not clearly
+(Aalto et al. 2015a), and a few further LIRGs (Aalto et detected in any of the observed three optical Seyfert 1s
+al. 2015b; Martin et al. 2016), demonstrating that this and eleven LIRGs. Like HCN, infrared radiative pump-
+infraredradiativepumping mechanismactually worksin ing should also work for HCO+, because HCO+ can be
+some AGNs. excited to the v 2 =1 level by absorbing infrared 12 µm
+As the frequencies of HCN v =1f and HCO+ v=0 are photons(Daviesetal.1984;Kawaguchietal.1985). The
+2
+veryclosetoeachotheratJ=3–2andJ=4–3,wecanonly infrared radiative pumping rate (P IR ) is
+clearlyseparatetheselinesforgalaxieswithsmallmolec-
+P IR ∝B v2=0−1,vib ×F ν(IR) ×N v=0 , (1)
+ular line widths, such as NGC 4418 (Sakamoto et al.
+2010), IRAS 20551−4250 (Imanishi & Nakanishi 2013b; where B v2=0−1,vib is the Einstein B coefficient from v=0
+Imanishi et al. 2016a), and IC 860 (Aalto et al. 2015b). tov 2 =1,F ν(IR) istheinfraredfluxin[Jy]usedforthein-
+For the majority of the other galaxies, these lines are fraredradiative pumping of HCN and HCO+, and N v=0
+blended. Even if the HCN v =1f J=3–2 or J=4–3 emis- is the column density at the v=0 level. Here, the pos-
+2
+sion line is detected, it is recognized as a tail at the sible difference in population between HCN and HCO+
+lower frequency side of the much brighter HCO+ v=0 at rotational J-levels within v=0 and v 2 =1 is not con-
+J=3–2orJ=4–3emissionline(Aaltoetal.2015a,b;Mar- sidered. As discussed in Imanishi et al. (2016a), the
+tin et al. 2016). The four ULIRGs, IRAS 08572+3915, B v2=0−1,vib values are comparable within 10% between
+IRAS 12112+0305 NE, IRAS 22491−1808, and IRAS HCNandHCO+. TheF valuesat12µmand14µm
+ν(IR)
+20414−1651, show these profiles. In particular, IRAS for the observed galaxies are derived from their Spitzer
+12112+0305 NE and IRAS 22491−1808 can be catego- IRS low-resolution spectra (Brandl et al. 2006; Imanishi
+rizedassourcesthatdisplaydetectableHCNv =1fJ=3– etal.2007b;Wuetal.2009). Forsourceswithstrong9.7
+2
+2 emission lines, giventhe >4σ detection in the moment µmsilicate dustabsorptionfeatures,powerlawcontinua
+0 maps (Figure 12). For IRAS 08572+3915 and IRAS determined from data points outside the broad 9.7 µm
+22491−1808, similar HCN v =1f J=4–3 emission tails absorption features are utilized to estimate the intrinsic
+2
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 9
+infrared flux at 14 µm and 12 µm, which are used for 231isclassifiedopticallyasaSeyfert1galaxyduetothe
+the vibrational excitation to v =1 of HCN and HCO+, detection of broad optical emission lines (Veilleux et al.
+2
+respectively. In none of the galaxies was the intrinsic 1999; Yuan et al. 2010), the AGN emission in Mrk 231
+14 µm flux >30% larger than the intrinsic 12 µm flux. is estimated to be highly obscuredin infraredand X-ray
+Therefore,atleastfortheobservedgalaxiesinthispaper, data (Armus et al. 2007; Teng et al. 2014). It is likely
+thetermB v2=0−1,vib ×F ν(IR) doesnotdiffergreatlybe- that Mrk 231 is not a bona fide unobscured Seyfert 1
+tweenHCN and HCO+ and thereby, under similar HCN galaxy, but rather an obscured AGN.
+and HCO+ abundance, the infrared radiative pumping For the obscuredAGN-hosting LIRGs with detectable
+rate is comparable between HCN and HCO+. If the HCN v 2 =1f emission lines, significant flux attenuation
+flux of the HCN v =1f J=3–2 emission line is signifi- by line opacity of the HCN v=0 emission is indicated
+2
+cantly higher than that of HCO+ v =1f J=3–2, HCN (Sakamoto et al. 2010; Aalto et al. 2015a,b; Imanishi et
+2
+should then have a significantly higher column density, al. 2016a; Martin et al. 2016). For NGC 4418, IRAS
+and thereby a higher abundance, than HCO+, unless 20551−4250,andMrk 231,the line-opacity-correctedin-
+excitation conditions at J=3 significantly differ between trinsic HCN v 2 =1f to v=0 flux ratios are quantitatively
+HCN and HCO+ (Imanishi et al. 2016a). estimatedtobe∼0.01(Sakamotoetal.2010;Aaltoetal.
+TheupperlimitoftheHCO+ v =1fJ=3–2flux(Table 2015a; Imanishi et al. 2016a). These ratios are smaller
+2
+6) is only 10–20%lower than the flux of the HCN v =1f thantheupperlimitsattheNGC7469andIZw1nuclei.
+2
+J=3–2emissionlines,evenforIRAS12112+0305NEand NGC7469andIZw1areclassifiedopticallyasSeyfert1
+IRAS 22491−1808. Thus, our only constraint is that (=unobscuredAGNs); thus,the directionalongourline
+the HCN abundance is at least comparable to HCO+ or of sight in front of the AGN is at least clear of gas and
+possibly higher. dust. It is likely thatmoleculargasand dustare present
+in the close vicinity of the AGNs in the direction per-
+5.1.2. Optical Seyfert galaxies
+pendicular to our sightline. If the ratio of rotational to
+The original science goal of our ALMA Cycle 1 pro- random velocity of molecular gas does not differ greatly
+gramwastodetecttheHCNv =1fJ=3–2emissionlines between unobscured optical Seyfert 1 AGNs and buried
+2
+from the AGN-dominated nuclear regions of the three AGNsinLIRGs,thecolumndensityratioalongthemax-
+Seyfert1galaxies,NGC 7469,I Zw1,andIC 4329A.In imumandminimumcolumndensitydirectionsisnotdis-
+NGC 7469 and I Zw 1, the clear detection of the HCN similar. Thepresenceofatransparentdirectionsuggests
+andHCO+ J=3–2emissionlinesatv=0suggeststhatat that the total amount of nuclear molecular gas in un-
+least a modest amount of dense molecular gas is present obscured AGNs is smaller than buried AGNs in LIRGs
+at the nuclei. If the infrared radiative pumping mecha- (Imanishietal.2007b,2010). Thus,thefluxattenuation
+nism is commonly working in AGNs, it is expected that of the HCN and HCO+ v=0 emission by line opacity is
+a number of HCN and HCO+ v =1f emission lines are also expected to be smaller in unobscured AGNs. Izumi
+2
+produced. We did not detect HCN/HCO+ v =1fJ=3–2 etal.(2015)estimatedthelineopacityfortheHCNv=0
+2
+emission lines in these AGN-dominated Seyfert 1 nuclei, J=4–3 emission to be <3.5 for the NGC 7469 nucleus.
+and this requires some quantitative consideration. For Even if unobscured AGNs and buried AGNs show in-
+the NGC 7469 nucleus, the HCN v 2 =1f J=4–3 emission trinsicallysimilarHCNv 2 =1fto v=0flux ratios,the ob-
+line was also undetected by ALMA observations (Izumi servedHCNv 2 =1ftov=0fluxratiosinburiedAGNscan
+et al. 2015). become larger due to higher HCN v=0 flux attenuation.
+For the non-detected v 2 =1f J=3–2 emission lines of The upper limits of the observed HCN v 2 =1f to v=0
+HCN and HCO+, we use the 3σ upper limits from the flux ratios at J=3–2at the NGC 7469and I Zw 1 nuclei
+moment 0 maps tabulated in Table 6 for our discussion. are still consistent with the scenario that the efficiency
+As there is no existing report for the detection of the ofinfraredradiativepumpingintheseunobscured-AGN-
+HCO+v =1fJ=3–2emissionlineinexternalgalaxies,we dominant nuclei is as high as that of buried AGNs with
+2
+focus here on the HCN v 2 =1f J=3–2 line. The observed detected HCN v 2 =1f emission lines. If this scenario is
+v 2 =1f to v=0 flux ratios at J=3–2 for HCN are <0.02 indeed the case, then HCN v 2 =1f J=3–2 emission lines
+and<0.04forNGC 7469andI Zw 1nuclei,respectively. should be detected from the nuclei of NGC 7469 and I
+For LIRGs with detected HCN v =1femission lines, the Zw1indatawithafactorof5–10bettersensitivity,even
+2
+observedHCNv =1ftov=0fluxratiosatJ=3–2orJ=4– in the case that the line opacity correction of HCN v=0
+2
+3are∼0.04inIRAS20551−4250andMrk231(Imanishi J=3–2 emission is negligible. Future higher sensitivity
+& Nakanishi 2013b; Aalto et al. 2015a; Imanishi et al. observationsandlineopacityestimatesfortheHCNv=0
+2016a), and 0.1–0.2 for the other sources (Sakamoto et J=3–2 emission line will help to quantify how infrared
+al. 2010; Aalto et al. 2015b; Martin et al. 2016). The radiative pumping works in various types of AGNs, in-
+observedratiosinNGC7469(<0.02)andIZw1(<0.04) cluding unobscured AGNs in optical Seyfert 1 galaxies
+are lower than these ratios. and buried AGNs in LIRGs.
+We consider that a plausible scenario for the non-
+detection of the HCN v 2 =1f J=3–2 emission line in 5.2. HCN to HCO+ J=3–2 flux ratios
+NGC 7469 and I Zw 1 is the small line opacity of the
+5.2.1. Observed ratios
+HCN v=0 J=3–2 emission. Thus far, the HCN v =1f
+2
+J=3–2 or J=4–3 emission lines have been detected in The HCN-to-HCO+ J=3–2 flux ratios at individual
+LIRGs with buried AGNs whose signatures are unclear positions in individual galaxies are displayed in Fig-
+intheopticalspectroscopicclassification,exceptforMrk ure 14. The NGC 7469 nucleus and I Zw 1 are clas-
+231 (Sakamoto et al. 2010;Imanishi & Nakanishi 2013b; sified as Seyfert 1s. In NGC 7469, SB1, SB2, SB3,
+Aalto et al. 2015a,b; Martin et al. 2016). Although Mrk and the SB ring (0′.′8–2′.′5 annular region) are taken
+=====PAGE=====
+10 Imanishi et al.
+to be starburst-dominated. For NGC 1614, all re- molecularabundance generally produces a higher flux of
+gions are regarded as starburst-dominated. Among that molecule in the optically thin regime. When line
+the other LIRGs, IRAS 08572+3915, The Superan- opacity becomes significant, the emission line flux does
+tennae, IRAS 12127−1412, IRAS 15250+3609, PKS not increase proportionally to the increased abundance.
+1345+12, and IRAS 06035−7102 are categorized as ob- However, adopting the widely accepted clumpy molec-
+scured AGNs, based on infrared spectroscopic energy ular gas model, where molecular clouds consist of ran-
+diagnostic methods (§2). IRAS 12112+0305 NE and domly moving clumps with a small volume filling factor
+IRAS 22491−1808are now classified as infrared-elusive, andthelineopacityisprimarilyinsideeachclump,rather
+but (sub)millimeter-detectable, extremely deeply buried thandifferentclumpsintheforegroundwithdifferentve-
+AGN candidates (§5.1.1). We tentatively include IRAS locities (Solomon et al. 1987), an increasing HCN abun-
+20414−1651 in this category as well, because its spec- dance will result in an increased HCN flux even in the
+trum in Figure 10shows a more clearlydiscernible HCN opticallythickregime,ifeachclumphasadecreasingra-
+v =1f J=3–2 emission signature at the lower frequency dialdensityprofile(Imanishietal.2007a). Thisbehavior
+2
+partofthebrightHCO+ v=0J=3–2emissionthanother differsfrommolecularcloudswithasmoothgasdistribu-
+ULIRGs (IRAS 12112+0305 SW, IRAS 12127−1412, tion, where the observedmolecular line flux saturates at
+PKS 1345+12, IRAS 06035−7102, IRAS 13509+0442). somepointwhentheopacityexceedsacertainthreshold.
+IRAS 12112+0305 SW and IRAS 13509+0442 show no Regardingscenario(2),thecriticaldensityofHCNisa
+AGN signature in either infrared or our new ALMA factorof∼5 higherthan HCO+ atthe sameJ-transition
+(sub)millimeter data. Our ALMA Cycle 2 results of the (Meijerinketal.2007;Greveetal.2009),underthesame
+buried-AGN-hosting ULIRG IRAS 20551−4250 (Iman- line opacity. For molecular gas with the same tempera-
+ishi et al. 2016a), and multiple AGN-dominated nuclear tureanddensity,HCO+ J=3–2ismoreeasilyexcited(to
+regionsoftheopticalSeyfert2galaxy,NGC1068(Iman- closetothethermalizedcondition)thanHCNJ=3–2. As
+ishi et al. 2016b), are also plotted. In addition to these the temperature of molecular gas in the close vicinity of
+ALMA data, HCN J=3–2 and HCO + J=3–2 simulta- anAGNcanbehigherthanthatinastarburstduetothe
+neousobservationaldataforNGC 4418(Sakamotoetal. AGN’s higher emission surface brightness (§1), if HCO+
+2010)andNGC1097(Hsiehetal.2012)takenwithSub- J=3–2is thermally excitedand HCN J=3–2is only sub-
+millimeter Array (SMA), and those for Mrk 231 (Aalto thermally excited in some starbursts, and if AGNs can
+etal.2015a)obtainedwithIRAMPlateaudeBureInter- excite HCN J=3–2closer to the thermal condition, then
+merometer (PdBI), are added, by classifying NGC 4418, the observed HCN-to-HCO+ J=3–2 flux ratios in AGNs
+the NGC 1097 nucleus, the NGC 1097 starburst ring, can show some excess, relative to those in starbursts,
+and Mrk 231 as a buried AGN, Seyfert 1, starburst,and even under similar abundance. Among the galaxies ob-
+an obscured AGN, respectively. served in our ALMA programs, HCN J=1–0 flux data
+In Figure 14, we see a clear trend for AGNs, includ- are available for IRAS 08572+3916by pre-ALMA inter-
+inginfrared-elusiveburiedAGNcandidates,toshowele- ferometric observations (Imanishi et al. 2007a) and for
+vated HCN-to-HCO+ J=3–2 flux ratios, compared with I Zw 1 by single-dish telescope observations (Evans et
+starburst regions. Multiple starburst regions in NGC al. 2006). The HCN J=3–2 to J=1–0 flux ratios are
+7469andNGC 1614,andotherstarburstgalaxies(IRAS ∼1.1 and ∼2.2 for IRAS 08572+3915 and I Zw 1, re-
+12112+0305SW, IRAS 13509+0442,andNGC 1097off- spectively. These valuesare substantiallylowerthan the
+nuclear starburst) consistently show low HCN-to-HCO+ ratio of nine, which is expected from thermally excited
+J=3–2 flux ratios. Hence, the low ratios are interpreted opticallythick moleculargas. The deviationis largerfor
+tobe ageneralpropertyofstarbursts,ratherthanaspe- IRAS 08572+3915 than I Zw 1. For IRAS 08572+3915,
+cific property of a particular starburst region. The ex- the J=4–3 to J=3–2 flux ratios are 1.3±0.1 for HCN
+cessofthe flux ratiosinAGN-dominantnucleiinoptical and 1.4±0.1 for HCO+ (Imanishi & Nakanishi 2014),
+SeyfertsandLIRGswithluminousobscuredAGNsigna- both of which are lower than the 1.8 (=16/9) expected
+tures, compared with starbursts, is taken to be a robust for thermally excited optically thick gas. The signifi-
+result. cantsub-thermalexcitationofIRAS08572+3915maybe
+A similar HCN-to-HCO+ flux enhancement in AGNs partly responsible for the relatively low observed HCN-
+at J=1–0 has been proposed (Kohno 2005; Krips et al. to-HCO+ J=3–2 flux ratio, compared with other AGNs
+2008; Costagliola et al. 2011; Privon et al. 2015; Izumi (Figure 14).
+et al. 2016), and was the basis for our ALMA obser- Ithas been arguedthat aninfraredradiative pumping
+vations. The enhanced HCN-to-HCO+ flux ratios in mechanism can enhance the observed HCN v=0 J=3–2
+AGNs appear to be common at different J-transition flux (Carrol& Goldsmith 1981;Aalto et al. 1995;Rang-
+lines. As mentioned in §1, the HCN-to-HCO+ flux com- wala et al. 2011). Although this is true, such infrared
+parisonatJ=3–2isapplicabletomanyinterestingnearby radiative pumping should also work for HCO+ (§1). As
+LIRGsatz=0.06–0.3(Kim&Sanders1998),whoseHCN describedin§5.1.1andImanishietal.(2016a),underthe
+and HCO+ observations at J=1–0 are not possible with same abundance, the rate of infrared radiative pump-
+ALMA. ing to the v =1 level does not differ a great deal be-
+2
+tween HCN and HCO+ for the observed galaxies. Even
+5.2.2. Interpretation
+though this infrared radiative pumping may work more
+The observed HCN-to-HCO+ flux enhancement in efficiently in AGNs than in starbursts and increase the
+AGNs, compared with starbursts, is naturally explained absolute fluxes of HCN and HCO+ v=0 J=3–2 emission
+if (1) the HCN abundance is enhanced and/or (2) HCN lines comparedwith collisionalexcitationalone,it is not
+excitationtoJ=3ishigher,asdiscussedbyImanishietal. clear whether this may be largely responsible for the el-
+(2016a). Regardingscenario(1),itisclearthatenhanced evated HCN-to-HCO+ v=0 J=3–2 flux ratios in AGNs.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 11
+5.2.3. Line opacity thanthoseofthesingleGaussianfitsby∼25%and∼50%
+forHCNJ=3–2andHCO+ J=3–2,respectively. Ifthese
+If HCN abundance enhancement is (at least partly) flux differences are due to self-absorption by foreground
+responsible for the elevated HCN-to-HCO+ J=3–2 flux moleculargasinsideIRAS12112+0305NE,thenitises-
+ratios in AGNs, the HCN line opacity could be higher timated that the HCN J=3–2 and HCO+ J=3–2 fluxes
+than HCO+. Even though some AGNs show high ob- are attenuated by a factor of ∼1.3 and ∼2, respectively.
+servedHCN-to-HCO+ flux ratios, other AGNs may not, ForIRAS20414−1651,thefluxesbasedonthetwoGaus-
+due to higher HCN flux attenuation than HCO+ by line sianfitsaresmallerthanthoseofthesingleGaussianfits
+opacity. Thus, the selection of AGN-important galaxies, byafactorof3–5forbothHCNJ=3–2andHCO+ J=3–
+based on the observed high HCN-to-HCO+ flux ratios, 2.
+may be incomplete and miss some fraction of AGNs un- For IRAS 12112+0305 NE and IRAS 20414−1651,
+less HCN line opacity is properly corrected for. H13CN J=3–2 data have been taken in ALMA Cycle 2
+In the widely accepted clumpy molecular gas model andbeenmarginallydetectedinthemoment0mapswith
+(Solomon et al. 1987) mentioned in §5.2.2, the opacity 0.28[Jybeam−1 kms−1](3.2σ)and0.20[Jybeam−1 km
+in a molecular cloud mostly comes from each clump. If s−1] (3.3σ) (Imanishi et al. 2016c), respectively, which
+the properties of each clump inside a molecular cloud correspond to the observed HCN-to-H13CN J=3–2 flux
+are assumed to be uniform (Solomon et al. 1987), the ratios with ∼30 and ∼20. Assuming that the intrinsic
+observedmolecularlinefluxfromamolecularcloudisat- 12C/13C abundance ratios in these ULIRGs are 50–100
+tenuatedwithoutsignificantlychangingthe observedve- (Henkel & Mauersberger 1993; Henkel et al. 1993; Mar-
+locityprofiles. AneffectivewaytoestimatetheHCNline tin et al. 2010; Henkel et al. 2014) and that H13CN
+opacityisthecomparisonofmolecularisotopologuessuch J=3–2 emission is optically thin, it is suggested that
+HCNandH13CN,assumingacertainintrinsic12C-to-13C HCN J=3–2 emission is flux-attenuated with a factor
+abundance ratio. The H13CN J=3–2 emission line was of 1.5–3 and 2.5–5 for IRAS 12112+0305 NE and IRAS
+detected for the AGN-hosting LIRG IRAS 20551−4250, 20414−1651,respectively. Hence, if the central dips de-
+and it was estimated that line opacity correction causes tected in the HCN J=3–2 and HCO+ J=3–2 emission
+the intrinsic HCN-to-HCO+ J=3–2flux ratio to be sub- inIRAS12112+0305NE andIRAS 20414−1651aredue
+stantially larger than the observed flux ratio (Imanishi to self-absorption, the flux attenuation estimated from
+et al. 2016a). Among obscured-AGN-classified LIRGs, the comparison of Gaussian fittings is smaller than that
+PKS 1345+12 and IRAS 06035−7102 also show not-as- derived from the HCN-to-H13CN J=3–2 flux compari-
+high observed HCN-to-HCO+ J=3–2 flux ratios in Fig- son by a factor of 1–2 for IRAS 12112+0305 NE, while
+ure 14. It is not clear at this stage whether the intrinsic these two estimates look comparable within uncertainty
+HCN-to-HCO+ J=3–2 flux ratios are similarly non-high for IRAS 20414−1651. However, despite limited signal-
+or higher than the observedratios for these two sources. to-noiseratios,double-peakedemissionline profileswith
+Lineopacitycorrectionisdefinitelyrequiredtorefinethe similar velocity peaks to the bright HCN J=3–2 and
+AGN selection based on the HCN-to-HCO+ J=3–2 flux HCO+ J=3–2 emission lines or top-flat type line pro-
+ratios. files,ratherthanacentrally-peakedsingleGaussianpro-
+In the nuclei of some LIRGs, the concentration of file, are seen for the H13CN J=3–2 and CS J=7–6 emis-
+moleculargascouldbeextreme,andsothevolumefilling sionlines in IRAS 12112+0305NE andfor H13CN J=3–
+factorofmoleculargasclumps inmolecularcloudscould 2 in IRAS 20414−1651 (Imanishi et al. 2016c). Since
+be large. The moleculargasgeometrymaybe better ap- the self-absorptioneffect is expected to be much smaller
+proximated by a spatially smooth distribution (Downes for the fainter H13CN J=3–2 emission line than HCN
+et al. 1993; Scoville et al. 2015) rather than the clumpy J=3–2andHCO+ J=3–2,it is notclearwhether the ob-
+structure. Inthiscase,double-peakedmolecularemission served double-peaked emission line profiles detected in
+lineprofilescouldbeproducedthroughself-absorptionby IRAS 12112+0305 NE and IRAS 20414−1651 are ex-
+foregroundmolecular gas, which works preferentially for plained solely by the self-absorption.
+the mostabundantcentralvelocitycomponent(Aalto et We nextconsiderthe secondrotatingdisk scenario. In
+al. 2015b). IRAS 12112+035NE and IRAS 20414−1651 the intensity-weighted mean velocity (moment 1) maps
+display such double-peaked emission line profiles for of IRAS 12112+0305NE and IRAS 22491−1651in Fig-
+HCN J=3–2 and HCO+ J=3–2 (Figures 5 and 9). For ure13,thesignatureofarotationalmotionismarginally
+IRAS 12112+0305 NE, a similar profile is also evident seen along the north-east to south-west direction, with
+atJ=4–3of HCN and HCO+, albeit at lowerS/Nratios a velocity difference of ∼200–300 km s−1 and ∼400 km
+(Imanishietal.2016c). Theoriginofthisdouble-peaked s−1, respectively. They are comparable to the observed
+line profile could be (1) self-absorption and/or (2) emis- velocitydifferenceofthedoublepeaksinFigure9. Figure
+sion being dominated by molecular gas in a prominent
+15showsthespectrawithinthebeamsize,at3pix(0′.′3)
+rotating disk.
+northand3pix(0′.′3)east(i.e., ∼0′.′4north-east),andat
+For case (1), we tried single Gaussian fits using data 3 pix (0′.′3) south and 3 pix (0′.′3) west (i.e., ∼0′.′4 south-
+not significantly affected by the central dips. These fits west),relativetothecontinuumpeakpositions,forIRAS
+are shown as dotted curved lines in the spectra of IRAS 12112+0305NEandIRAS22491−1651. Itisshownthat
+12112+0305NEandIRAS20414−1651inFigure9. The the red (blue) component is relatively strong at the 0′.′4
+estimated HCN J=3–2 and HCO+ J=3–2 emission line north-east(south-west)position,asis expectedfromthe
+fluxes, based on the single Gaussian component fits, are moment1 mapsof bothobjects. We interpretthat com-
+included in Tables 4 and 5, respectively. For IRAS pact rotating disks which are not clearly resolved with
+12112+0305 NE, the fluxes based on the two Gaussian our ALMA beam size (0′.′5–0′.′8) can also contribute sig-
+component fits of the double-peaked profiles are smaller nificantly to the observed double-peaked emission line
+=====PAGE=====
+12 Imanishi et al.
+profilesinIRAS12112+0305NEandIRAS20414−1651. clear spatially extended off-nuclear emission is detected
+In summary, AGNs tend to show elevated HCN-to- at infrared 10 µm (Asmus et al. 2014), this seems un-
+HCO+ J=3–2fluxratios,butsomeAGNshavenon-high likely. Regarding(2),becauseIC4329Acontainsalumi-
+observed HCN-to-HCO+ J=3–2 flux ratios. This could nous X-ray-emitting AGN (Brightman & Nandra 2011;
+be explained by a larger flux attenuation caused by line Brenneman et al. 2008), this also seems unlikely for nu-
+opacity for HCN than HCO+, if the HCN abundance clear molecular gas.
+is higher than HCO+. In this respect, although we may One scenario that could explain the weak HCN and
+beabletosaythattheelevatedobservedHCN-to-HCO+ HCO+ J=3–2emissioninIC4329Aisthattheobserved
+J=3–2fluxratiosaregoodAGNsignatures,notallAGNs featureless nuclear infrared L-band (3–4 µm) continuum
+are selected based on the observed high HCN-to-HCO+ is notdominated by AGN-heated hotdust emission,but
+J=3–2flux ratios. Line opacity correctionwill make our byotheremissionmechanismssuchassynchrotronemis-
+method even more powerful and complete by reducing sion. Figure 16 displays the spectral energy distribu-
+thenumberofmissingAGNs. Cleardouble-peakedHCN tions of NGC 7469, I Zw 1, and IC 4329 A in the in-
+J=3–2 and HCO+ J=3–2 emission line profiles are seen frared and radio wavelength ranges. The radio emission
+in IRAS 12112+0305 NE and IRAS 20414−1651,which at <20 GHz is usually dominated by synchrotron emis-
+we interpret that rotating disks contribute significantly, sion. Theq-value,definedasthedecimallogarithmofthe
+in addition to a possible self-absorption effect. far-infrared (40–500 µm) to radio flux ratio (Condon et
+al.1991),isoftenusedtodetectradio-loudAGNs,which
+5.3. Non-detection of molecular gas in IC 4329 A
+show stronger synchrotron emission than the majority
+Thenon-detectionoftheHCNJ=3–2andHCO+J=3– of radio-quiet AGNs. While the q-values of NGC 7469
+2 emission lines in IC 4329 A was unexpected. In this and I Zw 1 (Table 10) are within the range of starburst-
+subsection, we briefly consider its possible causes. The dominated galaxies and many radio-quiet AGNs (q ∼
+three Seyfert1galaxies,NGC 7469,I Zw 1,andIC 4329 2.3–2.4)(Condonetal.1991;Barvainisetal.1996;Craw-
+A, were selected because their nuclear infrared L-band ford et al. 1996; Roy et al. 1998), that of IC 4329 A (q
+(3–4 µm) emission is thought to be dominated by AGN- ∼ 1.5) (Table 10) is substantially lower, suggesting that
+heated hot dust emission and their observed fluxes are IC 4329A contains a radio-loudAGN. However,the ob-
+high (§2). If dust and molecular gas spatially coexist in served infrared L-band (3–4 µm or ∼105 GHz) flux is
+the nuclear region, strong collisionally excited molecular well above the extrapolationfrom the synchrotronemis-
+gasemissionisalsoexpectedthere. Theobservednuclear sioncomponentat <20GHz. The stronginfraredexcess
+L-band (3–4 µm) flux of IC 4329 A is about ∼5 times at 200–105 GHz in IC 4329 A, as well as NGC 7469 and
+higher than those of NGC 7469 and I Zw 1 (Imanishi I Zw 1, suggests that their infrared L-band (3–4 µm)
+& Wada 2004; Imanishi et al. 2011a). At a first-order emissionisdominatedbyAGN-heatedhotdustemission
+approximation, the HCN J=3–2 peak flux in IC 4329 (Alonso-Herreroetal.2011;Ichikawaetal.2015),rather
+A is expected to be higher than NGC 7469 and I Zw than synchrotron emission. Thus, this possibility also
+1. However, the observed HCN J=3–2 emission peak is seems unlikely.
+more than a factor of ten and five smaller than those of Asecondscenarioisthatthecolumndensityoftheob-
+NGC 7469 and I Zw 1, respectively (Figure 4). scuringgasand dustsurroundingthe centralAGN ofIC
+ThenuclearHCNJ=3–2emissionpeakisroughlypre- 4329Aisverysmall. TheinfraredL-band(3–4µm)con-
+dictedfromthenuclearinfraredemission,basedontheir tinuum emission primarily arises from hot dust with >a
+correlation (Imanishi & Nakanishi 2014). If we assume few100K,locatedattheinnermostregionoftheobscur-
+that the observed infrared luminosity in Table 1 origi- ingmaterial,withlimitedcontributionfromoutercooler
+nates from the nuclear region, then the expected HCN dust. On the other hand, collisionally excited HCN and
+J=1–0 emission peaks are ∼18 mJy, ∼3 mJy, and ∼4 HCO+ J=3–2emissionlines canstill be producedat the
+mJy for NGC 7469,I Zw 1,and IC 4329A, respectively. outer regions, whose gas/dust temperature is several 10
+IftheHCNJ=3–2emissionpeakisninetimeslargerthan Ktoafew 100K.Ifthe obscuringgas/dustcolumnden-
+that of HCN J=1–0, which is expected in thermally ex- sityaroundanAGNissubstantiallysmallerinIC4329A
+cited optically thick gas, then the expected HCN J=3–2 thaninNGC 7469andI Zw1,then the smallerthanex-
+flux peaks are ∼165 mJy, ∼25 mJy, and ∼35 mJy, for pectedHCNandHCO+ J=3–2emissionline fluxesfrom
+NGC 7469, I Zw 1, and IC 4329 A, respectively. For the infraredL-band(3–4µm)continuumflux couldthus
+NGC 7469, since it is estimated that about one third of be explained. From the infrared spectral energy distri-
+theinfraredluminosityoriginatesfromthenuclearregion bution, Ichikawa et al. (2015) estimated that the outer
+(Genzeletal.1995),the expected HCNJ=3–2fluxpeak toinnermostradiusratioofnuclear-obscuringdustinIC
+from the NGC 7469 nucleus is ∼55 mJy. For the NGC 4329 A is a factor of ∼3 smaller than NGC 7469, sug-
+7469nucleusandI Zw1,the observedHCN J=3–2peak gesting that this scenario is a possibility.
+fluxes (∼25 mJy and ∼10 mJy, respectively) agree with As a third possibility, if the molecular line widths of
+the above expected values within a factor of 2–3. How- IC 4329 A are much larger than those of NGC 7469 and
+ever,the observedHCNJ=3–2peakflux ofIC 4329Ais I Zw 1, the observed HCN/HCO+ J=3–2 emission peak
+morethananorderofmagnitudesmallerthanthe above couldbesmall,eveniftheirfluxesarelarge. IfIC4329A
+expectation. Possible explanations include (1) infrared followsthe similarHCN J=3–2to nuclear infraredlumi-
+emission is spatially extended, rendering the fraction of nosity correlation and has similar molecular line widths
+thenuclearcomponentsmall,and(2)HCNJ=3–2isonly to NGC 7469 and I Zw 1, the HCN J=3–2 flux peak
+sub-thermally excited, and the HCN J=3–2 to J=1–0 is then expected to be >15 mJy. To explain the actual
+flux ratio is thus considerably (more than an order of observed HCN J=3–2 flux peak with <1.5 mJy, molec-
+magnitude)smallerthan nine. With regardto (1), asno ular line widths >10 times larger than those of NGC
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 13
+7469 and I Zw 1, i.e., at least a FWHM ∼ 2000–3000 IRAS 20414−1651). Among the LIRGs, NGC 1614 is
+km s−1, are required. This is more than a factor of 2 dominatedbystarburstactivity;IRAS08572+3915,The
+larger than the highly turbulent ongoing major merger Superantennae, IRAS 12127−1412, IRAS 15250+3609,
+ULIRG, The Superantennae (Mirabel et al. 1991). Be- PKS 1345+12, and IRAS 06035−7102 show infrared
+cause IC 4329 A is classified as a fairly settled spiral or signatures of luminous obscured AGNs; and IRAS
+S0 galaxy with a nuclear dust lane, but with no obvious 12112+0305,IRAS22491−1808,IRAS13509+0442,and
+highly disturbed morphology (Malkan et al. 1998), such IRAS20414−1651displaynoobviousAGNsignaturesin
+an extremely large molecular line width seems unlikely. theinfrared. Ourprimaryscientificgoalsweretoinvesti-
+ForIC4329A,therehasbeennomoleculargasdetection gate(1)ifenhancedHCN-to-HCO+ fluxratiosatJ=3–2
+reported in the published literature, even for CO J=1–0 arefoundinAGNs,comparedtostarburst-dominatedre-
+and J=2–1. Future ALMA high-sensitivity observations gions,aspreviouslyseenatJ=1–0andJ=4–3,and(2)if
+ofbrightCOemissionattheIC4329Anucleusmayhelp vibrationallyexcitedv =1fJ=3–2emissionlinesofHCN
+2
+to test this scenario, if detection is realized. and HCO+ are detected in AGNs, as HCN v =1f emis-
+2
+In Figure 16,the observedflux increases with decreas- sion lines had been detected in several obscured AGNs.
+ingfrequencyfrom105 GHz(3µm)to104 GHz(30µm). We found the following main results:
+However, the spectral energy distribution is flatter in
+IC 4329 A than NGC 7469 and I Zw 1, which means 1. HCN and HCO+ J=3–2 emission lines at v=0
+thatthetemperatureofthedustthermalemissioninthis wereclearlydetectedinallobservedprimarygalac-
+frequency range is higher in IC 4329 A. For given dust tic nuclei, except for IC 4329 A. In NGC 7469,
+thermal radiation luminosity, if the dust temperature is these emission lines were also clearly detected at
+higher,then the requireddust mass can be smaller; con- three distinct starburst ring regions in the host
+sequently, the molecular mass becomes smaller, if dust galaxy. The spatially extended HCN J=3–2 and
+and molecular gas spatially coexist in a similar man- HCO+ J=3–2 emission was also detected in the
+ner. This could contribute to the observed weaker-than- starburst-dominated LIRG, NGC 1614. In IRAS
+expectedmoleculargasemissioninIC 4329A. The 2–10 12112+0305, the emission lines were detected in
+keV X-ray luminosities of NGC 7469, I Zw 1, and IC boththebrightermainNEnucleusandfaintersec-
+4329A are ∼2 × 1043 ergss−1, ∼8 × 1043 ergs s−1, and ondary SW nucleus.
+∼6 × 1043 ergs s−1, respectively (Pinoncelli et al. 2005; 2. The HCO+ J=3–2 emission lines of IRAS
+Brightman & Nandra 2011; Brenneman et al. 2008) 3.
+12112+0305NEandIRAS22491−1808showedsig-
+The high 2–10 keV X-ray luminosity of IC 4329 A in-
+nificant lower frequency tails, which we interpret
+dicates the presence of a luminous AGN. This luminous
+to be due to the contribution from vibrationally
+AGN, together with the estimated small outer-to-inner-
+excited (v =1f) HCN J=3–2 emission lines. In
+radiusratiofornucleardust,inIC4329Amayberelated 2
+the moment 0 maps, the HCN v =1f J=3–2 emis-
+to its higher dust effective temperature derivedfromthe 2
+sion lines were detected with >4σ in both objects.
+104–105 GHz (3–30 µm) data.
+The vibrational excitation of HCN is believed to
+In summary, the considerably smaller-than-expected
+originateininfraredradiativepumping,byabsorb-
+HCN and HCO+ J=3–2 emission line flux peak in IC
+ing infrared 14 µm photons. Because for given
+4329 A could be due to some combination of (1) a low
+bolometric luminosity, an AGN can produce much
+column density of obscuring gas/dust around an AGN
+stronger infrared 14 µm photons than a starburst,
+and/or (2) a small dust mass to infrared L-band (3–4
+an AGN is a plausible origin for the infrared 14
+µm) luminosity ratio, due to a high dust effective tem-
+µmcontinuum-emittingsource,eventhoughavery
+perature. In either scenario, our (sub)millimeter energy
+compact extreme starburst cannot be completely
+diagnostic method is not sensitive to almost bare AGNs
+ruled out. If the AGN scenario is the case, IRAS
+withaverylimitedamountofsurroundingmoleculargas,
+12112+0305 NE and IRAS 22491−1808 may con-
+such as IC 4329A, because at least a detectable amount
+tain extremely deeply buried AGNs whose signa-
+of molecular line emission is required for our method to
+tures were not seen in previous infrared spectro-
+be effective.
+scopic energy diagnostic methods, but were first
+detected in our ALMA (sub)millimeter data.
+6. SUMMARY
+3. The signature of a similar lower frequency tail
+WeconductedHCNandHCO+ J=3–2observationsin was recognizable for the HCO+ J=3–2 emission
+our ALMA Cycle 1, 2, and 3 programs, at both vibra-
+line of IRAS 08572+3915 and IRAS 20414−1651,
+tional ground (v=0) and vibrationally excited (v =1f)
+2 but its detection significance in the moment 0
+levels, of three optical Seyfert 1 galactic nuclei, di-
+maps is lower than the above two LIRGs. IRAS
+agnosed to be energetically dominated by unobscured
+15250+3609displaysanemissionsub-peakatclose
+AGNs (NGC 7469, I Zw 1, and IC 4329 A) and
+totheexpectedfrequencyoftheHCNv =1fJ=3–2
+eleven LIRGs with different levels of estimated ener- 2
+emissionline,butitseemsmorelikelythatoutflow
+getic contribution by an AGN (IRAS 08572+3915, The origin HCO+ v=0 J=3–2 emission is largely con-
+Superantennae, IRAS 12112+0305, IRAS 22491−1808,
+tributing to this sub-peak. The remaining LIRGs
+NGC 1614, IRAS 12127−1412,IRAS 15250+3609,PKS
+with infrared-obscured AGN signatures, The Su-
+1345+12, IRAS 06035−7102, IRAS 13509+0442, and
+perantennae, IRAS 12127−1412, PKS 1345+12
+andIRAS06035−7102,andthestarburst-classified
+3 For these Seyfert 1 galaxies, absorption-corrected and -
+LIRGs, NGC 1614, IRAS 12112+0305 SW, and
+uncorrected 2–10 keV X-ray luminosities are comparable, due to
+theestimatedlowX-ray-absorbinghydrogencolumndensity(NH). IRAS13509−0442,shownodiscerniblesignatureof
+=====PAGE=====
+14 Imanishi et al.
+the vibrationally excited HCN v =1f J=3–2 emis- in our ALMA spectra. The nature ofthis sourceis
+2
+sion line. still enigmatic.
+4. Vibrationally excited HCN v =1f J=3–2 emission
+2
+lines were not clearly seen in the two unobscured
+AGN-dominated Seyfert 1 nuclei, NGC 7469 and I We thank Dr. K. Saigo, Y. Ao, and A. Kawa-
+Zw 1, despite our original expectation for the de- mura for their support regarding analysis of the ALMA
+tection. TheupperlimitsoftheHCNv =1ftov=0 data, and K. Sakamoto for useful discussions. We are
+2
+J=3–2flux ratioswere lowerthan the observedra- grateful to the anonymous referee for his/her construc-
+tios in several LIRGs with detected HCN v =1f tive comment which has helped a lot to improve the
+2
+J=3–2 emission lines. However, when the intrinsic clarity of the descriptions of this manuscript. M.I.
+ratios after line opacity correction for HCN v=0 was supported by JSPS KAKENHI Grant Number
+J=3–2 emission were derived in these LIRGs, the 23540273, 15K05030 and the ALMA Japan Research
+upper limits in NGC 7469 and I Zw 1 were still Grant of the NAOJ Chile Observatory, NAOJ-ALMA-
+larger than the intrinsic ratios. We interpret that 0001, 0023, 0072. T.I. is thankful for the fellowship
+the line opacity and flux attenuation of HCN v=0 received from the Japan Society for the Promotion
+emissionlinesarerelativelysmallinopticalSeyfert of Science (JSPS). This paper makes use of the fol-
+1 AGNs, compared with deeply buried AGNs in lowingALMA data: ADS/JAO.ALMA#2012.1.00034.S,
+LIRGs. Currently,wedonotseeanyevidencethat 2013.1.00032.S, 2013.1.00188.S, and 2015.1.00027.S.
+the infrared radiative pumping efficiency is differ- ALMA is a partnership of ESO (representing its mem-
+ent between these two types of AGNs. ber states), NSF (USA) and NINS (Japan), together
+with NRC (Canada), NSC and ASIAA (Taiwan), and
+5. The vibrationally excited HCO+ v 2 =1f J=3–2 KASI (Republic of Korea), in cooperation with the Re-
+emission lines were not recognizable in any of the public of Chile. The Joint ALMA Observatory is op-
+observed galactic nuclei. erated by ESO, AUI/NRAO, and NAOJ. This research
+has made use of NASA’s Astrophysics Data System and
+6. We identified that galaxies that do (or may) con-
+the NASA/IPAC Extragalactic Database (NED) which
+tain AGNs tend to display higher HCN-to-HCO+
+is operated by the Jet Propulsion Laboratory, Califor-
+J=3–2 flux ratios than starburst regions, as pre-
+nia Institute of Technology,under contractwith the Na-
+viously argued at J=1–0 and J=4–3. However, a
+tional Aeronautics and Space Administration. This re-
+smallfractionofAGN-classifiedsourcesdonotnec-
+search has also made use of Sloan Digital Sky Survey
+essarily show very high observed HCN-to-HCO+
+(SDSS) data. Funding for the Sloan Digital Sky Sur-
+J=3–2 flux ratios. Line-opacity-corrected intrinsic
+vey (SDSS) has been provided by the Alfred P. Sloan
+flux ratios are needed for all sources to refine the
+Foundation, the Participating Institutions, the National
+AGN selection in this method.
+AeronauticsandSpaceAdministration,theNationalSci-
+7. IRAS 15250+3609 showed a significant dip at the ence Foundation, the U.S. Department of Energy, the
+higher frequency (blueshifted) side of the HCO+ JapaneseMonbukagakusho,andtheMaxPlanckSociety.
+J=3–2 emission line and a sub-emission-peak at The SDSS Web site is http://www.sdss.org/. The SDSS
+the lower frequency (redshifted) side of the HCO+ is managed by the Astrophysical Research Consortium
+J=3–2emissionline. Thesefeaturesareinterpreted (ARC)fortheParticipatingInstitutions. TheParticipat-
+tobeduetothePCygniprofilebyoutflowactivity ingInstitutionsareTheUniversityofChicago,Fermilab,
+of HCO+. the Institute for Advanced Study, the Japan Participa-
+tion Group, The Johns Hopkins University, Los Alamos
+8. In the continuum map of IRAS 13509+0442 at National Laboratory, the Max-Planck-Institute for As-
+∼235 GHz, a source even brighter than IRAS tronomy (MPIA), the Max-Planck-Institute for Astro-
+13509+0442wasdetectedat∼1′′ easternand8–9′′ physics(MPA),NewMexicoStateUniversity,University
+northern side. No obvious optical counterpart was of Pittsburgh, Princeton University, the United States
+identifiedinthe SDSS. Noemissionlines wereseen Naval Observatory,and the University of Washington.
+REFERENCES
+Aalto,S.,Booth, R.S.,Black,J. H.,&Johansson, L.E.B.1995, Brandl, B. R., Bernard-Salas, J., Spoon, H. W. W. et al. 2006,
+A&A,300,369 ApJ,653,1129
+Aalto, S., Garcia-Burillo, S., Muller, S., et al. 2015a, A&A, 574, Brenneman,L.W.,Madejski,G.,Fuerst,F.,etal.2014,ApJ,788,
+A85 61
+Aalto,S.,Costagliola,S.,MartinF.,etal.2015b, A&A,584,A42 Brightman,M.,&Nandra,K.2011,MNRAS,414,3084
+Alonso-Herrero, A., Engelbracht, C. W., Rieke, M. J., Rieke, G. Burtscher, L., Meisenheimer, K., Tristram, K. R. W. et al. 2013,
+H.,&Quillen,A.C.2001,ApJ,546,952 A&A,558,149
+Alonso-Herrero, A., Ramos Almeida, C., Mason, R., et al. 2011, Carrol,T.J.,&Goldsmith,P.F.,1981,ApJ,245,891
+ApJ,736,Engelbracht,C.W.,Rieke,M.J.,Rieke, Condon,J.J.,Anderson,M.L.,&Helou,G.1991,ApJ,376,95
+Armus,L.,Charmandaris,V.,Bernard-Salas,J.,etal.2007,ApJ, Condon,J.J.,Cotton,W.D.,Greisen,E.W.etal.1998,AJ,115,
+656,148 1693
+Asmus,D.,Honig,S.F.,Gandhi,P.,Smette, A.,&Duschl,W.J. Costagliola,F.,Aalto,S.,Rodriguez,M.I.,etal.2011,A&A,528,
+2014, MNRAS,439,1648 A30
+Barvainis,R.,Lonsdale,C.,&Antonucci, R.1996,AJ,111,1431 Costagliola, F., Sakamoto, K., Muller, S., et al. 2015, A&A, 582,
+Braito,V.,Franceschini,A.,DellaCeca,R.etal.2003,A&A,398, 91
+107 Crawford,T.,Marr,J.,Partridge,B.,&Strauss,M.A.1996,ApJ,
+Braito,V.,Reeves,J.N.,DellaCeca,R.etal.,2009,A&A,504,53 460,225
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 15
+Dartois,E.,&Munoz-Caro,G.M.2007,A&A,476,1235 Imanishi, M., Nakanishi, K., Tamura, Y., Oi, N., & Kohno, K.
+Davies,P.B.,Hamilton,P.A.,&Rothwell, W.J.1984, J.Chem. 2007a, AJ,134,2366
+Phys.,81,1598 Imanishi,M.,Nakanishi,K.,Tamura,Y.,&Peng,C.-H.2009,AJ,
+Davies,R.I.,Tacconi, L.J.,&Genzel, R.2004,ApJ,602,148 137,3581
+Diaz-Santos, T., Alonso-Herrero, A., Colina, L., Packham, C., Imanishi,M.,&Saito,Y.2014, ApJ,780,106
+Radomski,J.T.,&Telesco,C.M.2008,ApJ,685,211 Imanishi,M.,&Wada, K.2004,ApJ,617,214
+Diaz-Santos, T., Alonso-Herrero, A., Colina, L., Ryder, S. D., & Iono,D.,Saito,T.,Yun,M.S.,etal.2013,PASJ,65,L7
+Knapen, J.H.2007,ApJ,661,149 Izumi,T.,Kohno,K.,Aalto,S.,etal.2015,ApJ,811,39
+Downes, D.,Solomon, P. M.,& Radford,S. J. E.1993, ApJ, 414, Izumi,T.,Kohno,K.,Aalto,S.,etal.2016,ApJ,818,42
+L13 Jia, J., Ptak, A.,Heckman, T. M., Braito, V.,& Reeves, J. 2012,
+Drake, C.L.,McGregor, P. J.,Dopita, M. A.,&van Breugel, W. ApJ,759,41
+J.M.2003,AJ,126,2237 Kawaguchi,K.,Yamada,C.,Saito,S.,&Hirota,E.,1985,J.Chem.
+Draine,B.T.,&Lee,H.M.1984,ApJ,285,89 Phys,82,1750
+Duc,P.-A.,Mirabel,I.F.,&Maza,J.1997,A&AS,124,533 Kewley,L.J.,Heisler,C.A.,Dopita,M.A.,&Lumsden, S.2001,
+Dudley,C.C.,&Wynn-Williams,C.G.1997,ApJ,488,720 ApJS,132,37
+Esquej, P., Alonso-Herrero, A., Gonzalez-Martin, O., et al. 2014, Kim,D.-C.,&Sanders,D.B.,1998,ApJS,119,41
+ApJ,780,86 Kim, D. -C., Sanders, D. B., Veilleux, S., Mazzarella, J. M., &
+Evans,A.S.,Kim,D.C.,Mazzarella,J.M.etal.1999,ApJ,521, Soifer,B.T.1995,98,129
+107L Kim,D.-C.,Veilleux,S.,&Sanders,D.B.,2002,ApJS,143,277
+Evans, A. S., Mazzarella, J. M., Surace, J. A., & Sanders, D. B. Kohno, K. 2005, in AIP Conf. Ser. 783, The Evolution of
+2002, ApJ,580,749 Starbursts, ed. S. Hu¨ttemeister, E. Manthey, D. Bomans, & K.
+Evans, A. S., Solomon, P. M., Tacconi, L. J., Vavilkin, T., & Weis(NewYork:AIP),203(astro-ph/0508420)
+Downes,D.2006,AJ,132,2398 Komatsu, E., Dunkley, J., Nolta, M. R., et al. 2009, ApJS, 180,
+Farrah,D.,Connolly,B.,Connolly,N.etal.2009,ApJ,700,396 330
+Ferrarese,L.,&Merritt,D.2000,ApJ,539,L9 Krips, M., Neri, R., Garcia-Burillo, S., Martin, S., Combes, F.,
+Galliano,E.,Alloin,D.,Pantin,E.,Lagage,P.O.,&Marco,2005, Gracia-Carpio,J.,&Eckart,A.2008, ApJ,677,262
+A&A,438,803 Lintott,C.,&Viti,S.2006, ApJ,646,L37
+Garcia-Burillo,S.,Gracia-Carpio,J.,Guelin,M.,etal.2006,ApJ, Ma,C.,Arias,E.F.,Eubanks,T.M.etal.1998,AJ,116,516
+645,L17 Magorrian,J., Tremaine, S., Richstone, D., et al. 1998, ApJ, 115,
+Garcia-Burillo, S., Combes, F., Usero, A., et al. 2014, A&A, 567, 2285
+125 Malkan,M.A.,Gorjian,V.,&Tam,R.,1998, ApJS,117,25
+Genzel, R., Weitzel, L., Tacconi-Garman, L. E., et al. 1995, ApJ, Marco,O.,&Alloin,D.1998,A&A,336,823
+444,129 Marshall, J. A., Herter, T. L., Armus, L., et al. 2007, ApJ, 670,
+Genzel,R.,Lutz,D.,Sturm,E.etal.1998, ApJ,498,579 129
+Greve, T. R., Papadopoulos, P. P., Gao, Y., & Radford, S. J. E., Martin, S., Aladro, R., Martin-Pintado, J., & Mauersberger, R.
+2009, ApJ,692,1432 2010,A&A,522,A62
+Gultekin, K., Richstone, D. O., Gebhardt, K., et al. 2009, ApJ, Martin,S.,Aalto,S.,Sakamoto, K.,etal.2016,A&A,590,A25
+698,198 McConnell,N.J.&Ma,C-P.2013, ApJ,764,184
+Haan,S.,Armus,L.,Laine,S.etal.2011,ApJS,197,27 Meijerink,R.,&Spaans,M.2005,A&A,436,397
+Harada,N.,Herbst,E.,&Wakelam, V.2010,ApJ,721,1570 Meijerink,R.,Spaans, M.,&Israel,F.P.2007,A&A,461,793
+Harada,N.,Thompson,T.A.,&Herbst,V.2013, ApJ,765,108 Miles, J. W., Houck, J. R., Hayward, T. L., & Ashby, M. L. N.
+Henkel,C.,Asiri,H.,Ao,Y.,etal.2014,A&A,565,A3 1996,ApJ,465,191
+Henkel,C.,&Mauersberger,R.1993,A&A,274,730 Mirabel,I.F.,Lutz,D.,&Maza,J.1991, A&A,243,367
+Henkel,C.,Mauersberger,R.,Wiklind,T.,etal.1993,A&A,268, Moorwood,A.F.M.1986,A&A,166,4
+L17 Nagy, Z., van der Tak, F. F. S., Fuller, G. A., & Plume, R. 2015,
+Hildebrand,R.H.1983,QJRAS,24,267 A&A,577,A127
+Honig,S.F.,Kishimoto,M.,Gandhi,P.etal.2010,A&A,515,23 Nardini, E., Risaliti, G., Salvati, M., et al. 2008, MNRAS, 385,
+Hopkins,P.F.,Hernquist,L.,Cox,T.J.,etal.2005,ApJ,630,705 L130
+Hopkins,P.F.,Hernquist,L.,Cox,T.J.,etal.2006,ApJS,163,1 Nardini, E., Risaliti, G., Salvati, M., et al. 2009, MNRAS, 399,
+Hsieh, P-Y., Ho, P. T. P., Kohno, K., Hwang, C-Y., Matsushita, 1373
+S.2012,ApJ,747.90 Nardini,E.,Risaliti,G.,Watabe,Y.,Salvati,M.,&Sani,E.2010,
+Huchra,J.,&Burg,R.1992,ApJ,393,90 MNRAS,405,2505
+Ichikawa, K.,Packham, C.,Ramos Almeida,C.,et al. 2015, ApJ, Orienti,M.,&Prieto,M.A.2010,MNRAS,401,2599
+803,57 Papadopoulos,P.P.etal.2007,ApJ,656,792
+Imanishi,M.2002,ApJ,569,44 Pereira-Santaella, M., Colina, L., Alonso-Herrero, A. et al. 2015,
+Imanishi,M.2003,ApJ,599,918 MNRAS,454,3679
+Imanishi,M.2006,AJ,131,2406 Pinoncelli,E.,Jimenez-Bailon,E.,Guainazzi,M.,etal.2005,A&A,
+Imanishi,M.,&Dudley,C.C.2000,ApJ,545,701 432,15
+Imanishi, M., Dudley, C. C., & Maloney, P. R. 2006a, ApJ, 637, Privon, G. C., Herrero-Illana, R., Evans, A. S., et al. 2015, ApJ,
+114 814,39
+Imanishi, M., Dudley, C. C., Maiolino, R., Maloney, P. R., Ranalli,P.,Comastri,A.,&Setti,G.2003,A&A,399,39
+Nakagawa, T.,&Risaliti,G.2007b,ApJS,171,72 Rangwala,N.,Maloney,P.R.,Glenn,J.,etal.2011,ApJ,743,94
+Imanishi, M., Ichikawa, K., Takeuchi, T., et al. 2011a, PASJ, 63, Reunanen, J., Tacconi-Garman, L. E., & Ivanov, V. D. 2007,
+S447 MNRAS,382,951
+Imanishi, M., Imase, K., Oi, N., & Ichikawa, K. 2011b, AJ, 141, Reunanen, J., Prieto, M. A.,& Siebenmorgen, R. 2010, MNRAS,
+156 402,879
+Imanishi,M.,Nakagawa,T.,Shirahata,M.,Ohyama,Y.,&Onaka, Risaliti,G.,Maiolino,R.,Marconi,A.etal.2003, ApJ,595,L17
+T.2010, ApJ,721,1233 Roche, P. F., Aitken, D. K., Smith, C. H., & Ward, M. J., 1991,
+Imanishi,M.,&Nakanishi,K.2006,PASJ,58,813 MNRAS,248,606
+Imanishi,M.,&Nakanishi,K.2013a, AJ,146,47 Rodriguez-Ardila,A.,&Viegas,S.M.2003, MNRAS,340,L33
+Imanishi,M.,&Nakanishi,K.2013b,AJ,146,91 Roy, A. L., Norris, R. P., Kesteven, M. J., Troup, E. R., &
+Imanishi,M.,&Nakanishi,K.2014,AJ,148,9 Raynolds,J.E.1998, MNRAS,301,1019
+Imanishi,M.,&Nakanishi,K.etal.2016c, inpreparation Rush,B.,Malkan,M.A.,&Spinoglio,L.1993, ApJS,89,1
+Imanishi,M.,Nakanishi,K.,&Izumi,T.2016b, ApJL,822,L10 Sakamoto, K.,Aalto,S.,Evans,A.S.,Wiedner,M.,&Wilner,D.
+Imanishi,M.,Nakanishi,K.,&Izumi,T.2016a, ApJ,825,44 2010,ApJ,725,L228
+Imanishi,M.,Nakanishi,K.,Kuno,N.,&Kohno,K.2004,AJ,128, Sakamoto,K.,Aalto,S.,Wilner,D.J.,etal.2009,ApJ,700,L104
+2037 Sanders,D.B.,&Mirabel,I.F.1996, ARA&A,34,749
+Imanishi,M.,Nakanishi,K.,&Kohno,K.2006b, AJ,131,2888 Schmidt,M.,&Green,R.F.1983, ApJ,269,352
+=====PAGE=====
+16 Imanishi et al.
+Scoville, N. Z., Evans, A. S., Thompson, R., et al. 2000, AJ, 119, Teng,S.H.,Veilleux,S.,Anabuki,N.,etal.2009, ApJ,691,261
+991 White,S.D.M.,&Rees,M.J.1978,MNRAS,183,341
+Scoville,N.,Sheth,K.,Walter,F.,etal.2015,ApJ,800,70 Wilson, A. S., Helfer, T. T., Haniff, C. A., & Ward, M. J. 1991,
+Shang,Z.,Brotherton,M.S.,Wills,B.J.,etal,2011,ApJ,196,2 ApJ,381,79
+Soifer, B. T., Bock, J. J., Marsh, K., Neugebauer, G., Matthews, Yamada,M.,Wada,K.,&Tomisaka,K.2007,ApJ,671,73
+K.,Egami,E.,&Armus,L.2003,AJ,126,143 Vega,O.,Clemens,M.S.,Bressan,A.,etal.2008,A&A,484,631
+Soifer,B.T.,Neugebauer, G.,Matthews, K.,etal.2000,AJ,119, Veilleux,S.,Kim,D.-C.,&Sanders,D.B.1999, ApJ,522,113
+509 Veilleux, S., Kim, D. -C., Sanders, D. B., Mazzarella, J. M., &
+Soifer,B.T.,Sanders,D.B.,Madore,B.F.,etal.1987,ApJ,320, Soifer,B.T.1995,ApJS,98,171
+238 Veilleux,S.,Melendez,M.,Sturm,E.,etal.2013,ApJ,776,27
+Soifer,B. T., Neugebauer, G., Matthews, K.et al.2001, AJ, 122, Veilleux,S.,Sanders,D.B.,&Kim,D.-C.1997, ApJ,484,92
+1213 Veilleux, S., Rupke, D. S. N.,Kim, D.-C.,et al. 2009, ApJS, 182,
+Solomon, P. M., Rivolo, A. R., Barrett, J., et al. 1987, ApJ, 319, 628
+730 Voit,G.M.1992, MNRAS,258,841
+Spoon, H. W. W., Keane, J. V., Tielens, A. G. G. M., Lutz, D., Wu,Y.,Charmandaris,V.,Huang,J.,Spinoglio,L.,&Tommasin,
+Moorwood,A.F.M.,&Laurent,O.2002,A&A,385,1022 S.2009, ApJ,701,658
+Spoon, H. W. W., Tielens, A. G. G. M., Armus, L., et al. 2006, Yuan,T.-T.,Kewley,L.J.,&Sanders,D.B.2010,ApJ,709,884
+ApJ,638,759 Ziurys,L.M.,&Turner,B.E.1986, ApJ,300,L19
+Stierwalt,S.,Armus,L.,&Surace,J.A.,etal.2013,ApJS,206,1
+Strauss,M.A.,Huchra,J.P.,Davis,M.,etal.1992,ApJS,83,29
+Teng,S.H.,Rigby,J.R.,Stern,D,.etal.2015,ApJ,814,56
+Teng,S.H.,Brandt,W.N.,Harrison,F.A.etal.,2014,ApJ,785,
+19
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 17
+TABLE 1
+Basicproperties ofobserved galaxies
+Object Redshift Physicalscale f12 f25 f60 f100 logLIR Optical
+[kpc/′′] [Jy] [Jy] [Jy] [Jy] [L⊙] Class
+(1) (2) (3) (4) (5) (6) (7) (8) (9)
+NGC7469 0.0164 0.33 1.35 5.79 25.87 34.90 11.6 Sy1a
+IZw1 0.0611 1.2 0.51 1.21 2.24 2.63 11.9 Sy1b
+IC4329A 0.0160 0.32 1.08 2.21 2.03 1.66 10.9 Sy1c
+IRAS08572+3915 0.0580 1.1 0.32 1.70 7.43 4.59 12.1 LId(Sy2e)
+Superantennae (IRAS19254−7245) 0.0617 1.2 0.22 1.24 5.48 5.79 12.1 Sy2f
+IRAS12112+0305 0.0730 1.4 0.12 0.51 8.50 9.98 12.3 LId (Sy2e)
+IRAS22491−1808 0.0776A (0.076) 1.5 0.05 0.55 5.44 4.45 12.2 HIId,e
+NGC1614 0.0160 0.32 1.38 7.50 32.12 34.32 11.7 HIIa,g (Cpe)
+IRAS12127−1412 0.1332A (0.133) 2.3 <0.13 0.24 1.54 1.13 12.2 LId (HIIe)
+IRAS15250+3609 0.0552A (0.054) 1.1 0.16 1.31 7.10 5.93 12.0 LIa (Cpe)
+PKS1345+12(IRAS13451+1232) 0.1215A (0.122) 2.2 0.14 0.67 1.92 2.06 12.3 Sy2d,e
+IRAS06035−7102 0.0795 1.5 0.12 0.57 5.13 5.65 12.2 LIh
+IRAS13509+0442 0.1364A (0.136) 2.4 0.10 <0.23 1.56 2.53 12.3 HIId (Cpe)
+IRAS20414−1651 0.0870A (0.086) 1.6 <0.65 0.35 4.36 5.25 12.3 HIId (Cpe)
+Note. — Col.(1): Object name. The top three sources are optical Seyfert 1 galaxies. The next five and bottom six sources are LIRGs
+observedinALMACycle2andCycle3,respectively. Col.(2): Redshift. Col.(3): Physicalscalein[kpcarcsec−1]. Col.(4)–(7): f12,f25,f60,and
+f100 areIRASfluxesat12µm,25µm,60µm, and100µm, respectively,takenfromtheIRASFaintSourceCatalog(FSC).Col.(8): Decimal
+logarithmofinfrared(8−1000µm)luminosityinunitsofsolarluminosity(L⊙),calculatedwithLIR=2.1×1039×D(Mpc)2×(13.48×f12 +
+5.16×f25 +2.58×f60+f100)[ergss−1](Sanders&Mirabel1996). Col.(9): Opticalspectroscopicclassification. “Sy1”,“Sy2”,“LI”,“HII”,
+and“Cp”refertoSeyfert1,Seyfert2,LINER,HII-region,andstarburst+AGNcomposite,respectively. a: Veilleuxetal.(1995). b: Schmidt&
+Green(1983). c: Rushetal.(1993). d: Veilleuxetal.(1999). e: Yuanetal.(2010). f: Mirabeletal.(1991). g: Kewleyetal.(2001). h: Duc
+etal.(1997).
+A The observedpeak frequenciesof the detectedHCN J=3–2 and HCO+ J=3–2 emissionlinesin our ALMA spectraare significantlyoffset
+fromthoseexpectedfromoptically-derivedredshifts(Soiferetal.1987;Straussetal.1992;Kimetal.1995;Kim&Sanders1998;Veilleuxet
+al. 1999). Our high quality ALMA molecularlinedata provide accurateredshiftswith four effectivedigits, which are adoptedin this paper.
+Optically-derivedredshifts(Kimetal.1995;Kim&Sanders1998)areshowninparentheses.
+TABLE 2
+Log ofour ALMA observations
+Object Date Antenna Baseline Integration Calibrator
+[UT] Number [m] [min] Bandpass Flux Phase
+(1) (2) (3) (4) (5) (6) (7) (8)
+NGC7469 2014April29 35 21–558 25 J2148+0657 Neptune J2257+0743
+2014May3 31 17–532 25 J2148+0657 Neptune J2257+0743
+2014July22 34 18–784 24 J2253+1608 J2232+117 J2253+1608
+IZw1 2014May4 39 17–558 22 J2148+0657 Neptune J0121+1149
+2014May4 39 17–558 22 J0006−0623 Neptune J0121+1149
+2014July16 34 20–650 14 J0237+2848 J0238+166 J0121+1149
+IC4329A 2014April10 32 21–484 27 J1107−4449 Pallas J1342−2900
+IRAS08572+3915 2015June9 36 21–784 11 J0854+2006 Ganymede J0927+3902
+Superantennae 2015May18 37 21–555 10 J2056−4714 Ceres J1933−6942
+IRAS12112+0305 2015May14 37 23–558 5 J1058+0133 Ganymede J1229+0203
+IRAS22491−1808 2015May24 34 21–539 5 J2258−2758 Titan J2056−4714
+NGC1614 2015May24 36 21–539 5 J0423−0120 Callisto J0423−0120
+IRAS12127−1412 2016March3 41 15–396 29 J1256−0547 J1256−0547 J1215−1731
+IRAS15250+3609 2016March13 38 15–460 11 J1751+0939 Titan J1453+2648
+PKS1345+12 2016March3 41 15–396 18 J1229+0203 Titan J1415+1320
+IRAS06035−7102 2016March14 43 15–460 12 J0519−4546 J0519−4546 J0601−7036
+IRAS13509+0442 2016March3 39 15–396 24 J1256−0547 J1256−0547 J1359+0159
+IRAS20414−1651 2016March26 38 15–460 11 J1924−2914 Pallas J2011−1546
+Note. — Col.(1): Objectname. Col.(2): Observingdatein UT.Thebottomsix sourceswereobservedinALMA Cycle
+3. Col.(3): Numberofantennasusedforobservations. Col.(4): Baselinelengthinmeters. Minimumandmaximumbaseline
+lengthsareshown. Col.(5): Neton-sourceintegrationtimeinmin. Cols.(6),(7),and(8): Bandpass,flux,andphasecalibrator
+forthetargetsource,respectively.
+=====PAGE=====
+18 Imanishi et al.
+TABLE 3
+Continuumemission properties
+Object Position Frequency Flux PeakCoordinate rms Beam
+[GHz] [mJybeam−1] (RA,DEC)J2000 [mJybeam−1] [′′ ×′′](◦)
+(1) (2) (3) (4) (5) (6) (7)
+NGC7469 Nucleus 260.8–265.4 3.4(33σ) (230315.62,+085226.1) 0.10 0.57×0.52(72◦)
+SB1 260.8–265.4 1.2(12σ) (230315.52,+085225.1) 0.10 0.57×0.52(72◦)
+SB2 260.8–265.4 0.71(7σ) (230315.69,+085227.1) 0.10 0.57×0.52(72◦)
+SB3 260.8–265.4 0.86(8σ) (230315.58,+085227.4) 0.10 0.57×0.52(72◦)
+IZw1 Nucleus 249.7–254.2 1.2(21σ) (005334.94,+124136.0) 0.057 0.67×0.60(60◦)
+IC4329A Nucleus 260.7–265.4 13.0(69σ) (134919.26,−301834.2) 0.19 0.95×0.53(83◦)
+IRAS08572+3915 Nucleus 250.4–254.9 2.5(23σ) (090025.36,+390353.9) 0.11 0.89×0.47(−19◦)
+Superantennae Nucleus 249.5–254.4 5.0(29σ) (193121.41,−723921.6) 0.17 0.87×0.61(21◦)
+IRAS12112+0305 NE 246.8–251.3 8.3(46σ) (121346.06,+024841.5) 0.18 0.73×0.55(66◦)
+SW 246.8–251.3 0.80(4σ) (121345.94,+024839.1) 0.19 0.73×0.55(66◦)
+IRAS22491−1808 Nucleus 246.1–250.7 4.7(19σ) (225149.35,−175224.2) 0.25 0.92×0.59(67◦)
+NGC1614 S-peak 260.8–265.5 2.6(8σ) (043400.01,−083445.7) 0.31 1.06×0.58(−75◦)
+N-peak 260.8–265.5 2.5(8σ) (043359.99,−083444.7) 0.31 1.06×0.58(−75◦)
+IRAS12127−1412 Nucleus 233.7–238.4 1.4(25σ) (121519.13,−142941.7) 0.057 0.94×0.74(71◦)
+IRAS15250+3609 Nucleus 251.0–255.8 11(41σ) (152659.42,+355837.4) 0.27 1.21×0.72(−0◦)
+PKS1345+12 Nucleus 236.0–240.7 364(70σ) (134733.37,+121724.2) 5.2 0.92×0.85(−24◦)
+IRAS06035−7102 Nucleus 245.4–250.2 2.4(19σ) (060253.95,−710310.2) 0.13 1.12×0.78(49◦)
+IRAS13509+0442 Nucleus 233.1–237.7 1.5(20σ) (135331.57,+042804.8) 0.076 0.99×0.81(46◦)
+NEsource 233.1–237.7 1.9(26σ) (135331.66,+042813.1) 0.076 0.99×0.81(46◦)
+IRAS20414−1651 Nucleus 243.9–248.6 5.2(38σ) (204418.17,−164016.8) 0.14 0.76×0.66(−89◦)
+Note. — Col.(1): Objectname. Col.(2): Positioninsidegalaxy. Col.(3): Observedfrequencyusedforcontinuumextractionin[GHz].
+Frequenciesatobviousemissionlinesareremoved. Col.(4): Fluxin[mJybeam−1]attheemissionpeak. Thevalueatthehighestfluxpixel
+(0′.′1pixel−1)inthecontinuummapisadopted. Thedetectionsignificancerelativetothermsnoiseisshowninparentheses,wherepossible
+systematicuncertaintyisnotincluded. ThepossiblesystematicambiguityinTheSuperantennaecouldbelargerthantheremainingsources
+due to the very broad HCN/HCO+ J=3–2 emission line profiles, extending almost all frequency coverage of each of the corresponding
+spectralwindows. Col.(5): ThecoordinateofthecontinuumemissionpeakinJ2000. Col.(6): Thermsnoiselevel(1σ)in[mJybeam−1],
+derived from the standard deviationof sky signals in each continuummap. Col.(7): Synthesizedbeam in [arcsec × arcsec] and position
+anglein[degree]. Thepositionangleis0◦ alongthenorth–southdirectionandincreasesinthecounterclockwisedirection.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 19
+TABLE 4
+Flux of the HCNJ=3–2emission line
+Object Pos Integrated intensity(moment0)map Gaussianlinefit
+Peak rms Ch Beam Velocity Peak FWHM Flux
+[Jybeam−1 kms−1] Sum [′′ ×′′] [kms−1] [mJy] [kms−1] [Jykms−1]
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10)
+NGC7469 Nuc 5.4(59σ) 0.092 21 0.58×0.52 4909±2 24±1 220±3 5.5±0.1
+SB1 0.96(10σ) 0.092 21 0.58×0.52 4966±1 15±1 63±1 0.96±0.03
+SB2 0.70(8σ) 0.092 21 0.58×0.52 4916±1 11±1 65±2 0.72±0.03
+SB3 0.67(7σ) 0.092 21 0.58×0.52 5028±1 12±1 51±2 0.65±0.03
+ring — — — — 4952±5 45±2 214±12 10.1±1.0
+IZw1 Nuc 2.6(31σ) 0.086 21 0.69×0.63 18335±3 10±1 296±7 2.9±0.1
+08572+3915 Nuc 2.5(14σ) 0.18 27 0.91×0.47 17501±7 6.6±0.2 382±17 2.6±0.1
+Superant Nuc 9.6(20σ) 0.47 58 0.88×0.66 18540±7 12.8±0.2 821±17 10.6±0.3E
+12112+0305 NE 8.3(28σ) 0.30 34 0.73×0.54 21661±18,21958±20 15.0±1.4,14.6±1.2 283±34,273±46 8.1±1.2
+21807±4C 24±1C 431±14C 10.4±0.7C
+SW 0.72(4σ) 0.17B 16B 0.73×0.54 21970±34 2.0±0.5 323±75 0.64±0.22
+22491−1808 Nuc 7.3(26σ) 0.28 29 0.95×0.60 23309±6 18.0±0.5 458±13 8.1±0.3
+NGC1614 SB1 0.86(4σ) 0.21 16 1.07×0.58 4847±7 8.1±1.2 103±18 0.87±0.20
+SB2 1.0(5σ) 0.21 16 1.07×0.58 4763±8 7.2±1.0 128±23 0.85±0.22
+2′.′5 — — — — 4812±23 19.1±3.8 258±66 5.1±1.7
+12127−1412 Nuc 1.1(12σ) 0.087 14 0.94×0.74 39961±14 2.6±0.1 524±33 1.3±0.1
+15250+3609 Nuc 4.7(32σ) A 0.15A 9A 1.21×0.73 16575±5A 19±1A 274±10A 5.2±0.3A
+PKS1345 Nuc 2.3(20σ) 0.11 12 0.92×0.86 36456±15 6.0±0.4 480±34 2.7±0.3
+06035−7102 Nuc 4.4(25σ) 0.17 13 1.12×0.78 23853±5 14±1 367±12 4.9±0.2
+13509+0442 Nuc 0.96(13σ) 0.074 9 0.99×0.81 40937±6 4.5±0.2 268±15 1.1±0.2
+20414−1651 Nuc 3.9(26σ) 0.15 17 0.76×0.66 25829±11,26216±12 7.4,8.2 250±24,309±28 4.3±0.3
+26050±4 D 53±15D 336±20D 17±5D
+Note. — Col.(1): Object. Col.(2): Position. ForNGC7469,“ring”referstoanannularregionwitharadiusof0′.′8–2′.′5. ForNGC1614,“2′.′5”
+refers to a 2′.′5 radius circular region. Col.(3): Integrated intensity of the HCN J=3–2 emission line (νrest=265.89 GHz) in [Jy beam−1 km s−1]
+at the emissionpeak. The detectionsignificancerelativeto therms noise(1σ) in the moment0 mapis shown in parentheses. Possiblesystematic
+uncertaintyisnotincluded. Col.(4): rmsnoise(1σ) levelinthemoment0mapin[Jybeam−1 kms−1],derivedfromthestandarddeviationofsky
+signalsineachmoment0map. Col.(5): Thenumberofvelocitychannelssummedtocreatemoment0maps. Eachvelocitychannelhasawidthof
+∼20MHz(∼20kms−1)forobjectsobservedinALMACycles1and2,or∼40MHz(∼40kms−1)forthoseobservedinALMACycle3(bottomsix
+sources). Col.(6): Beamsizein[arcsec×arcsec]. Cols.(7)–(10): Gaussianfitsofemissionlinesinthespectraatthecontinuumpeakposition(except
+forNGC 1614), withinthebeamsize,or integratedstarburstregionsforNGC 7469andNGC1614. ForNGC1614, spectraaretakenat theHCN
+J=3–2emissionpeaks. Col.(7): Opticallocalstandardof rest(LSR) velocity(vopt) oftheemissionpeakin[kms−1]. Col.(8): Peakfluxin[mJy].
+Col.(9): ObservedFWHMin[kms−1]intheleftpanelsofFigure9. Col.(10): Fluxin[Jykms−1]. TheobservedFWHMin[kms−1]incolumn9is
+dividedby(1+z)toobtaintheintrinsicFWHMin[kms−1].
+A Onlythebrightmainemissioncomponentat251.8–252.2GHzinFigure5(j)isconsidered. Thefaintersub-peakcomponentat251.3–251.8GHz,
+whichislikelytobeofoutfloworigin,isnotincluded.
+BThefrequencyrangeofsignificantsignaldetectionisslightlydifferentbetweentheNEandSWnuclei. Wecreatedthemoment0mapoftheSW
+nucleusbysummingchannelswithsignificantsignaldetectionattheSWnucleus.
+CSingleGaussian fitafterremovingdatapointsaffectedbythecentraldips,basedontheassumptionofself-absorption. Dataat21360–21650 km
+s−1 and21970–22260kms−1 inFigure9areusedforthefit.
+D SingleGaussianfitafterremovingdatapointsaffectedbythecentraldips,basedontheassumptionofself-absorption. Dataat25200–25760km
+s−1 and26340–27000kms−1 inFigure9areusedforthefit.
+E BecausetheHCNJ=3–2emissionlineisextremelybroad,extendingalmostallfrequencycoverageoftheALMAspectralwindow,theambiguity
+ofthecontinuumdeterminationislarge. Thepossiblesystematicuncertaintyisexpectedtobelargerthanforotherobjects.
+=====PAGE=====
+20 Imanishi et al.
+TABLE 5
+Flux of the HCO+ J=3–2emission line
+Object Pos Integrated intensity(moment0)map Gaussianlinefit
+Peak rms Ch Beam Velocity Peak FWHM Flux
+[Jybeam−1 kms−1] Sum [′′ ×′′] [kms−1] [mJy] [kms−1] [Jykms−1]
+(1) (2) (3) (4) (5) (6) (7) (8) (9) (10)
+NGC7469 Nuc 4.6(49σ) 0.094 19 0.57×0.52 4914±2 21±1 217±3 4.8±0.1
+SB1 1.2(13σ) 0.094 19 0.57×0.52 4966±1 22±1 57±1 1.3±0.03
+SB2 0.97(10σ) 0.094 19 0.57×0.52 4914±1 15±1 63±1 0.96±0.03
+SB3 0.86(9σ) 0.094 19 0.57×0.52 5028±1 19±1 46±1 0.93±0.03
+ring — — — — 4948±6 63±3 217±12 14.4±1.0
+IZw1 Nuc 1.2(23σ) 0.053 18 0.66×0.59 18328±5 4.5±0.1 314±13 1.4±0.1
+08572+3915 Nuc 2.8(13σ) 0.21 19 0.89×0.47 17482±7 9.7±0.5 300±16 2.9±0.2
+Superant Nuc 6.6(19σ) 0.35 48 0.88×0.62 18555±10 9.9±0.3 767±23 7.6±0.3E
+12112+0305 NE 4.5(17σ) 0.26 25 0.76×0.62 21665±7,21979±6 11.1±0.7,12.4±0.8 185±18,208±20 4.6±0.4
+21829±5C 27±3C 331±19C 9.0±0.1C
+SW 1.4(7σ) 0.21B 18B 0.76×0.62 21888±17, 22071±16 4.5±0.5,4.3±0.8 186±37, 125±33 1.4±0.3
+22491−1808 Nuc 3.5(14σ) 0.25 26 0.95×0.60 23255±11 9.7±0.5 371±30 3.6±0.3
+NGC1614 SB1 2.0(7σ) 0.28 18 1.06×0.57 4846±1 27.3±1.2 65±4 1.9±0.1
+SB2 2.0(7σ) 0.28 18 1.06×0.57 4769±4 15.4±1.2 112±11 1.8±0.2
+2′.′5 — — — — 4766±13 57±4 263±18 15.7±1.5
+12127−1412 Nuc 0.80(11σ) 0.075 11 0.94×0.74 39980±16 2.3±0.2 457±32 0.97±0.09
+15250+3609 Nuc 2.0(21σ) A 0.094A 7A 1.21×0.72 16568±9A 11±1A 186±19A 2.0±0.3A
+PKS1345 Nuc 3.3(29σ) 0.12 12 0.92×0.85 36454±13 8.7±0.5 486±27 4.0±0.3
+06035−7102 Nuc 5.6(32σ) 0.18 13 1.12×0.78 23868±4 17±1 378±9 6.3±0.2
+13509+0442 Nuc 1.2(18σ) 0.063 7 0.97×0.80 40923±6 5.9±0.3 251±13 1.4±0.1
+20414−1651 Nuc 2.6(13σ) 0.21 15 0.76×0.67 25834±12,26259±12 5.8±0.5,6.3±0.5 235±31,273±32 3.0±0.3
+26055±3D 37±9D 348±17D 13±3D
+Note. — Col.(1): Object. Col.(2): Position. DefinitionsarethesameasthoseinTable4. Col.(3): IntegratedintensityoftheHCO+J=3–2emission
+(νrest =267.56GHz)in[Jybeam−1 kms−1]attheemissionpeak. Thedetectionsignificancerelativetothermsnoise(1σ) inthemoment0mapis
+shown in parentheses. Possible systematic uncertainty is not included. Col.(4): rms noise (1σ) level in the moment 0 map in [Jy beam−1 km s−1],
+derivedfromthestandarddeviationofskysignalsineachmoment0map. Col.(5): Thenumberofvelocitychannelssummedtocreatemoment0maps.
+Each velocity channelhas a width of ∼20 MHz (∼20 km s−1) for objectsobserved in ALMA Cycles 1 and 2, or ∼40 MHz (∼40 km s−1) for those
+observedinALMACycle3(bottomsixsources). Col.(6): Beamsizein[arcsec×arcsec]. Cols.(7)–(10): Gaussianfitsofemissionlinesinthespectra,
+madeinthesamewayasTable4. Col.(7): OpticalLSRvelocity(vopt)oftheemissionpeakin[kms−1]. Col.(8): Peakfluxin[mJy]. Col.(9): Observed
+FWHMin[kms−1]intherightpanelsofFigure9. Col.(10): Fluxin[Jykms−1].
+A Only thebrightmainemissioncomponentat 253.4–253.7 GHzin Figure5(j) isconsidered. The faintersub-peakcomponentat 253.0–253.3GHz,
+whichislikelytobeofoutfloworigin,isnotincluded.
+BThe frequencyrangeforsignificantsignaldetectionisslightlydifferentbetweentheNEandSW nuclei. Wecreatedthemoment0mapoftheSW
+nucleusbysummingchannelswithsignificantsignaldetectionattheSWnucleus.
+CSingleGaussianfitafterremovingdatapointsaffectedbythecentraldips,basedontheassumptionofself-absorption. Dataat21500–21660kms−1
+and21970–22130kms−1 inFigure9areusedforthefit.
+DSingleGaussianfitafterremovingdatapointsaffectedbythecentraldips,basedontheassumptionofself-absorption. Dataat25200–25760kms−1
+and26340–27000kms−1 inFigure9areusedforthefit.
+E Because the HCO+ J=3–2 emission line is extremely broad, extending across almost all frequency coverage of the ALMA spectral window, the
+ambiguityincontinuumdeterminationislarge. Thepossiblesystematicuncertaintyisexpectedtobelargerthanthatofotherobjects.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 21
+TABLE 6
+Flux of vibrationallyexcited (v2=1f) HCNandHCO+ J=3–2emission linesfor selected sources
+Object Line νrest Integrated intensity(moment0)map
+Peak rms Channels Beam
+[GHz] [Jybeam−1 kms−1] Summed [′′ ×′′](◦)
+(1) (2) (3) (4) (5) (6) (7)
+NGC7469(nucleus) HCNv2=1fJ=3–2 267.20 <0.10(<3σ) 0.032 10 0.57×0.52(78◦)
+HCO+ v2=1fJ=3–2 268.69 <0.11(<3σ) 0.034 10 0.56×0.50(54◦)
+IZw1 HCNv2=1fJ=3–2 267.20 <0.10(<3σ) 0.032 10 0.66×0.59(61◦)
+HCO+ v2=1fJ=3–2 268.69 <0.11(<3σ) 0.035 10 0.62×0.60(−31◦)
+IRAS08572+3915 HCNv2=1fJ=3–2 267.20 0.28(2.2σ){<0.38(<3σ)} 0.13 15 0.89×0.47(−19◦)
+HCO+ v2=1fJ=3–2 268.69 <0.21(<3σ) 0.067 10 0.88×0.46(−19◦)
+IRAS12112+0305 NE HCNv2=1fJ=3–2 267.20 0.52(4.5σ) 0.11 13 0.76×0.62(68◦)
+HCO+ v2=1fJ=3–2 268.69 <0.41(<3σ) 0.13 10 0.72×0.54(68◦)
+IRAS22491−1808 HCNv2=1fJ=3–2 267.20 0.45(4.0σ) 0.11 9 0.91×0.60(67◦)
+HCO+ v2=1fJ=3–2 268.69 <0.40(<3σ) 0.13 10 0.89×0.59(67◦)
+IRAS20414−1651 HCNv2=1fJ=3–2 267.20 0.13(2.0σ){<0.20(<3σ)} 0.064 4 0.76×0.67(−88◦)
+HCO+ v2=1fJ=3–2 268.69 <0.19(<3σ) 0.063 6 0.75×0.66(90◦)
+Note. — Col.(1): Object. Col.(2): Observedmolecularline. Col.(3): Rest-framefrequencyofeachmolecularlinein[GHz]. Col.(4):
+Integratedintensityin[Jybeam−1kms−1]attheemissionpeak. Detectionsignificancerelativetothermsnoise(1σ)inthemoment0
+mapisshowninparentheses. Possiblesystematicuncertaintyisnotincluded. Col.(5): rmsnoise(1σ)levelinthemoment0mapin[Jy
+beam−1kms−1],derivedfromthestandarddeviationofskysignalsineachmoment0map. Col.(6): Thenumberofvelocitychannels
+summedtocreatemoment0maps. Eachvelocitychannelhasawidthof∼20MHz(∼20kms−1)exceptforIRAS20414−1651,which
+hasawidthof∼40MHz(∼40kms−1). Col.(7): Beamsizein[arcsec×arcsec]andpositionanglein[degree]. Thepositionangleis
+0◦ alongthenorth-southdirection,andincreasescounterclockwise.
+TABLE 7
+Intrinsic emission size after deconvolution
+Object HCNJ=3–2 HCO+ J=3–2 continuum
+[mas×mas](◦) [mas×mas](◦) [mas×mas](◦)
+(1) (2) (3) (4)
+NGC7469nucleus 680±60, 510±50(48±17) 810±100,570±80(46±18) 2480±440, 710±150(53±4)
+IZw1 340±50, 190±90(37±22) 370±50, 290±60(40±55) 650±60,340±50(53±7)
+IC4329A — — 190±30, 110±60(42±21)
+IRAS08572+3915 490±150, 330±110(145±67) 540±160, 300±160(140±31) 500±80,360±90(125±28)
+Superantennae 310±70,100±160 (130±39) 520±80,130±60(143±13) 590±60,340±80(163±12)
+IRAS12112+0305NE 360±30,140±60(155±13) 370±90, 150±140(128±27) 250±40, 230±40(85±84)
+IRAS22491−1808 210±100,150±80(10±64) couldnotdeconvolve <430,<110(—)
+IRAS12127−1412 <370,<240(—) couldnotdeconvolve 360±90,230±130(66±62)
+IRAS15250+3609 380±100, 270±130(149±50) 280±130, 140±150(117±70) 270±100, 240±170(179±78)
+PKS1345+12 <430,<200(—) 340±60, 90±130(88±16) 150±30, 100±70(81±83)
+IRAS06035−7102 <380,<240(—) 540±50,480±90(148±73) 460±110, 380±200(103±66)
+IRAS13509+0442 <670,<270(—) 550±100, 320±200(174±23) 430±80,400±100(78±85)
+IRAS13509+0442NE — — <390,<230(—)
+IRAS20414−1651 470±60,300±110 (178±59) 520±120, 410±160(105±82) 400±40,320±50(168±25)
+Note. — Col.(1): Objectname. Cols.(2),(3),and(4): IntrinsicemissionsizeofHCNJ=3–2,HCO+J=3–2,andcontinuum
+in[mas],respectively,afterdeconvolutionusingtheCASAtask“imfit”. Thepositionanglein[degree]isshowninparentheses.
+=====PAGE=====
+22 Imanishi et al.
+TABLE 8
+Luminosity ofthe HCNandHCO+ v=0 J=3–2emission lines
+Object HCNJ=3–2 HCO+ J=3–2 HCNJ=3–2 HCO+ J=3–2
+104 [L⊙] 104 [L⊙] 107 [Kkms−1 pc2] 107 [Kkms−1 pc2]
+(1) (2) (3) (4) (5)
+NGC7469nucleus 0.74±0.01 0.65±0.01 1.2±0.1 1.1±0.1
+NGC7469SBring 1.33±0.01 1.92±0.01 2.2±0.1 3.1±0.1
+IZw1 5.5±0.2 2.7±0.2 9.2±0.3 4.4±0.3
+IRAS08572+3915 4.5±0.2 5.0±0.3 7.4±0.3 8.2±0.6
+Superantennae 17.9±0.8 10.8±0.6 29.7±1.3 17.5±1.0
+IRAS12112+0305 NE 16.7±0.2 9.5±0.8 27.8±4.1 15.6±1.4
+IRAS12112+0305 SW 1.8±0.6 3.9±0.8 2.9±1.0 6.3±1.3
+IRAS22491−1808 21.1±0.9 11.2±1.9 35.0±1.5 18.3±3.1
+NGC1614(2′.′5radius) 0.65±0.22 2.0±0.2 1.1±0.4 3.3±0.3
+IRAS12127−1412 12.1±0.9 9.1±0.8 20.2±1.6 14.9±1.4
+IRAS15250+3609 7.8±0.5 3.1±0.5 13.0±0.8 5.0±0.8
+PKS1345+12 21.1±2.4 31.5±2.4 35.1±3.9 51.4±3.9
+IRAS06035−7102 15.8±0.6 20.4±0.6 26.2±1.1 33.2±1.1
+IRAS13509+0442 10.8±2.0 13.8±1.0 17.9±3.3 22.5±1.6
+IRAS20414−1651 16.8±1.2 11.8±1.2 28.0±2.0 19.3±1.9
+Note. — Col.(1): Object name. Cols.(2) and (3): Luminosity of the HCN J=3–2 and HCO+ J=3–2
+emission linesin unitsof [L⊙], respectively. Cols.(4) and (5): Luminosity of the HCN J=3–2 and HCO+
+J=3–2emissionlinesinunitsof[Kkms−1 pc2],respectively.
+TABLE 9
+Luminosity of the HCN v2=1f J=3–2emission line
+Object L(HCNv2=1fJ=3–2) L’(HCNv2=1fJ=3–2)
+104 [L⊙] 107 [Kkms−1 pc2]
+(1) (2) (3)
+IRAS12112+0305 NE 1.4 2.3
+IRAS22491−1808 1.4 2.3
+Note. — Col.(1): Object name. Col.(2): Luminosity of the HCN J=3–2
+v2=1f emission line in units of [L⊙]. Col.(3): Luminosity of the HCN J=3–2
+v2=1femissionlineinunitsof[Kkms−1 pc2].
+TABLE 10
+Radio propertiesof
+NGC7469,IZw1,andIC
+4329A
+Object S1.4GHz q
+[mJy]
+(1) (2) (3)
+NGC7469 181 2.3
+IZw1 8.8 2.5
+IC4329A 66.8 1.5
+Note. — Col.(1): Object
+name. Col.(2): Radio1.4GHz
+flux in [mJy] (Condon et al.
+1998). Col.(3): Far-infrared-
+to-radiofluxratio,parameter-
+izedastheq-value(Condonet
+al.1991).
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 23
+Fig. 1.—ContinuummapsofNGC7469,IZw1,andIC4329A.ForNGC7469,5σ,10σ,20σ,and30σcontours,aswellasthelocations
+ofthestarburstknotsSB1,SB2,andSB3,areshown. Theplottedcontoursare5σ,10σ,20σ forIZw1,and20σ,40σ,60σ forIC4329A.
+=====PAGE=====
+24 Imanishi et al.
+Fig. 2.—ContinuummapsofLIRGsobservedinALMACycle2. Thedisplayedapparentscaledependsonthestructureoftheindividual
+objects andthebeam sizeoftheindividualdata. Thecontours are5σ, 10σ, 20σ forIRAS08572+3915, 10σ, 20σ forTheSuperantennae,
+3σ,10σ,20σ, 40σ forIRAS12112+0305, 5σ,10σ,15σ forIRAS22491−1808, and3σ,5σ,7σ forNGC1614.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 25
+Fig. 3.—ContinuummapsofLIRGsobservedinALMACycle3. Thedisplayedapparentscaledependsonthestructureoftheindividual
+objects and the beam size of the individual data. The contours are 4σ, 8σ, 16σ, 22σ for IRAS 12127−1412, 8σ, 16σ, 32σ for IRAS
+15250+3609, 15σ,30σ,60σ forPKS1345+12,5σ,10σ,15σ forIRAS06035−7102, 8σ,16σ,24σ forIRAS13509+0442, and15σ,25σ,35σ
+forIRAS20414−1651. IRAS13509+0442isthegalaxyseeninthelowerpartoftheimage,andthecontinuumemissionintheupperpart
+isfromanother opticallyfaintsource.
+=====PAGE=====
+26 Imanishi et al.
+Fig. 4.— Full frequency coverage spectra at interesting regions of optical Seyfert 1 galaxies. Spectra are taken within the beam size,
+except for (e). (a), (b), (c), and (d) are spectra at the NGC 7469 nucleus defined as the continuum emission peak, SB1, SB2, and SB3,
+respectively. (e) is the area-integrated spectrum of the annular region at 0′.′8–2′.′5 radius from the nucleus of NGC 7469. (f) and (g) are
+spectra of the nuclei of I Zw 1 and IC 4329 A (defined as the continuum emission peaks), respectively. Down arrows are shown at the
+expected observedfrequencyofsomeemissionlinesfortheadoptedredshifts(Table1).
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 27
+=====PAGE=====
+28 Imanishi et al.
+Fig. 5.—FullfrequencycoveragespectraofLIRGsatinterestingregions. Spectraaretakenwithinthebeamsize,exceptfor(h). TheSB1
+andSB2ofNGC1614aredefinedfromtheHCNJ=3–2emissionpeak(seetextin§4). Downarrowsareshownattheexpected observed
+frequencyofsomeemissionlinesfortheredshiftsshowninTable1. ThebinnedspectrumoftheNEsourcedetectedinthecontinuummap
+ofIRAS13509+0442 isalsoshown.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 29
+Fig. 6.— Integrated intensity (moment 0) maps of the HCN J=3–2 and HCO+ J=3–2 emission lines, and their Gaussian fits in the
+spectraatindividuallocations withinthebeam size,forNGC7469. Formoment 0mapsofHCNJ=3–2 andHCO+ J=3–2, thecontours
+representthe5σ,10σ,20σ, and40σ levels.
+=====PAGE=====
+30 Imanishi et al.
+Fig. 7.— Integrated intensity (moment 0) maps of the HCN J=3–2 and HCO+ J=3–2 emission lines, and their Gaussian fits in the
+spectraatindividuallocations withinthebeamsize,forNGC1614. Thecontours ofthemoment0mapsare3σ,4σ forHCNJ=3–2, and
+3σ,5σ,7σ forHCO+ J=3–2.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 31
+=====PAGE=====
+32 Imanishi et al.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 33
+=====PAGE=====
+34 Imanishi et al.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 35
+Fig. 8.— Integrated intensity (moment 0)maps of HCNJ=3–2 (left) andHCO+ J=3–2(right). For IZw 1, the contours are5σ, 10σ,
+20σforbothHCNJ=3–2andHCO+J=3–2. ForIRAS08572+3915,thecontoursare4σ,8σ,12σforbothHCNJ=3–2andHCO+J=3–2.
+For The Superantennae, the contours are 5σ, 10σ, 20σ forHCN J=3–2, and 5σ, 10σ, 15σ for HCO+ J=3–2. For IRAS 12112+0305 NE,
+the contours are3σ, 5σ, 10σ, 20σ for HCNJ=3–2, and 3σ, 5σ, 10σ, 15σ for HCO+ J=3–2. For IRAS12112+0305 SW, the contours are
+3σ,4σ forHCNJ=3–2,and4σ, 5σ,6σ forHCO+ J=3–2. ForIRAS22491−1808, thecontours are5σ, 10σ,20σ forHCNJ=3–2,and5σ,
+10σforHCO+ J=3–2. ForIRAS12127−1412,thecontoursare5σ,8σ,11σforHCNJ=3–2,and4σ,7σ,10σforHCO+ J=3–2. ForIRAS
+15250+3609, thecontoursare5σ,10σ,20σ,30σ forHCNJ=3–2,and5σ,10σ,20σ forHCO+ J=3–2. ForPKS1345+12,thecontoursare
+4σ, 8σ, 16σ for HCN J=3–2, and 6σ, 12σ, 24σ for HCO+ J=3–2. For IRAS 06035−7102, the contours are 6σ, 12σ, 24σ for both HCN
+J=3–2andHCO+ J=3–2. ForIRAS13509+0442, thecontours are4σ, 8σ, 12σ forHCNJ=3–2,and5σ, 10σ,15σ forHCO+ J=3–2. For
+IRAS20414−1651, thecontours are5σ,10σ, 20σ forHCNJ=3–2,and4σ,8σ,12σ forHCO+ J=3–2.
+=====PAGE=====
+36 Imanishi et al.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 37
+=====PAGE=====
+38 Imanishi et al.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 39
+Fig. 9.—GaussianfitstothedetectedHCNJ=3–2(left)andHCO+J=3–2(v=0)(right)emissionlines. ForNGC7469andNGC1614,
+Gaussian fits to the detected HCN J=3–2 and HCO+J=3–2 (v=0) emission lines from the integrated starburst regions, 0′.′8–2′.′5 radius
+annulusaroundthenucleusforNGC7469,andcircularregionwith2′.′5radiusaround(043400.03,−083444.6)J2000forNGC1614,are
+shownhere. Forthe IRAS22491−1808 HCO+ J=3–2emissionline,thefrequencywhichcanlargelybecontaminated bytheHCNv2=1f
+J=3–2emissionlineisexcludedfromtheGaussianfit. ForIRAS15250+3609, aGaussianfittothefaintersub-peakcomponent isadded,
+after fixing the best Gaussian fit to the maincomponent. For objects with clear double-peaked HCN J=3–2 and HCO+ J=3–2 emission
+line profiles (IRAS 12112+0305 NE and IRAS 20414−1651), single Gaussian fits using data points at the edge of the emissiontail, after
+removingdatapossiblyaffectedbythecentraldip(basedontheassumptionofself-absorption),arealsoshownwithcurveddashedlines.
+=====PAGE=====
+40 Imanishi et al.
+Fig. 10.—Zoomed-inspectraforselectedsourcestobetterdisplaypossiblevibrationallyexcited(v2=1f)HCNJ=3–2andHCO+J=3–2
+emissionlines. The horizontal solid straight lines, inserted by short vertical solidlines, are frequency ranges used to estimate the flux of
+theHCNv2=1fJ=3–2emissionline.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 41
+Fig. 11.—ComparisonofHCNJ=3–2andHCO+ J=3–2emissionlineprofilesforIRAS15250+3609, afternormalizingtheGaussian-fit
+peak flux for the brighter main component. Solid and dash-dotted lines represent HCN J=3–2 and HCO+ J=3–2 emission line profiles,
+respectively. The expected position in the abscissa, of the HCN v2=1f J=3–2 emission at z = 0.0552 is shown as a down arrow for the
+HCO+ J=3–2emissionlineprofile(dash-dotted line).
+Fig. 12.—Integratedintensity(moment0)mapsoftheHCNv2=1fJ=3–2emissionlineofIRAS12112+0305NEandIRAS22491−1808.
+Dataat thefrequency markedwithasolidstraightlineinsertedbytwovertical linesinFigure10, areused. Thecontours are3σ and4σ
+forIRAS12112+0305 NE,and3σ forIRAS22491−1808. Thecontinuum peakpositionsareindicatedwithwhitecrosses.
+=====PAGE=====
+42 Imanishi et al.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 43
+=====PAGE=====
+44 Imanishi et al.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 45
+Fig. 13.—Intensity-weightedmeanvelocity(moment1)andintensity-weightedvelocitydispersion(moment2)mapsoftheHCNJ=3–2
+andHCO+ J=3–2emissionlines. Anappropriatecut-offwasappliedsothattheresultingmapsarenotdominatedbynoise. Thelefttwo
+panelsaremoment1maps. Thecontoursrepresent4850,4925,5000kms−1 forNGC7469HCNJ=3–2andHCO+ J=3–2,nocontourfor
+I Zw 1 HCN J=3–2, 18335 km s−1 for I Zw 1HCO+ J=3–2, 17500 km s−1 for IRAS 08572+3915 HCN J=3–2, 17480 km s−1 for IRAS
+08572+3915HCO+ J=3–2,18300,18500,18700kms−1 forTheSuperantennaeHCNJ=3–2,18500,18700kms−1 forTheSuperantennae
+HCO+ J=3–2,21850kms−1 forIRAS12112+0305NEHCNJ=3–2andHCO+ J=3–2,23300kms−1 forIRAS22491−1808HCNJ=3–2
+and HCO+ J=3–2, 4750, 4850 km s−1 for NGC 1614 HCN J=3–2 and HCO+ J=3–2, 39960, 40000 km s−1 for IRAS 12127−1412 HCN
+J=3–2 and HCO+ J=3–2, 16600 km s−1 for IRAS 15250+3609 HCN J=3–2, 16560 km s−1 for IRAS 15250+3609 HCO+ J=3–2, 36460
+kms−1 forPKS1345+12HCNJ=3–2andHCO+ J=3–2,22090kms−1 forIRAS06035−7102HCNJ=3–2andHCO+ J=3–2,40930km
+s−1forIRAS13509+0442HCNJ=3–2andHCO+J=3–2,and26000,26060,26120kms−1forIRAS20414−1651HCNJ=3–2andHCO+
+J=3–2. Therighttwopanelsaremoment2maps. Thecontoursrepresent20,45,70kms−1forNGC7469HCNJ=3–2andHCO+J=3–2,
+50,70kms−1 forIZw1HCNJ=3–2, 70kms−1 forIZw1HCO+ J=3–2,78,96kms−1 forIRAS08572+3915 HCNJ=3–2, 66,81km
+s−1 forIRAS08572+3915 HCO+ J=3–2, 150, 210km s−1 forTheSuperantennae HCNJ=3–2andHCO+ J=3–2, 130 kms−1 forIRAS
+12112+0305 NE HCN J=3–2, 120 km s−1 for IRAS12112+0305 NE HCO+ J=3–2, 120 km s−1 forIRAS 22491−1808 HCN J=3–2, 100
+kms−1 forIRAS22491−1808HCO+ J=3–2,10kms−1 forNGC1614HCNJ=3–2,30kms−1 forNGC1614HCO+ J=3–2,110,125km
+s−1 forIRAS12127−1412 HCNJ=3–2, 102kms−1 forIRAS12127−1412 HCO+ J=3–2,90kms−1 forIRAS15250+3609 HCNJ=3–2,
+63kms−1 forIRAS15250+3609HCO+ J=3–2,118kms−1 forPKS1345+12HCNJ=3–2,120kms−1 forPKS1345+12HCO+ J=3–2,
+104kms−1 forIRAS06035−7102 HCNJ=3–2,110kms−1 forIRAS06035−7102 HCO+ J=3–2, 60kms−1 forIRAS13509+0442 HCN
+J=3–2, 62 km s−1 for IRAS 13509+0442 HCO+ J=3–2, 164, 174 km s−1 for IRAS 20414−1651 HCN J=3–2, and 170, 184 km s−1 for
+IRAS20414−1651 HCO+ J=3–2.
+=====PAGE=====
+46 Imanishi et al.
+Fig. 14.—TheHCNJ=3–2toHCO+ J=3–2fluxratioofobservedgalaxieswithinterferometry. Sourcesarecategorizedintostarburst-
+dominatedregions,denotedas“SB”(left),opticalSeyfert1galaxies,denotedas“Sy1”(secondleft),andLIRGswhichareinfrared-diagnosed
+tocontainluminousobscuredAGNs,denotedas“LIRG(IR-AGN)”(secondright). LIRGswhichhavenoobviousinfraredAGNindicators,
+but show signatures of vibrationally excited HCN v2=1f J=3–2 emission lines, are denoted as “IR elusive AGN (?)” (right). ALMA
+interferometric data for IRAS 20551−4250 (Imanishi et al. 2016a) and NGC 1068 (Imanishi et al. 2016b), SMA interferometric data for
+NGC1097(Hsiehetal.2012) andNGC4418(Sakamoto etal.2010), andPdBIinterferometricdata forMrk231(Aaltoetal.2015a) are
+included, in addition to the sources observed in this paper. For NGC 1068, data from the nuclear area-integrated emission within a 2′.′4
+radiuscircularregion(denotedas“N1068All”),moleculargasemissionpeakattheeasternsideoftheAGN(denotedas“N1068E”),and
+thecontinuum peakastheputativelocationofanAGN(denoted as“N1068C”)(Imanishietal.2016b), areshown.
+=====PAGE=====
+ALMA HCN/HCO+ J=3–2 observations of Seyferts and LIRGs 47
+Fig. 15.— Spectra withinthe beam size, at 3pix(0′.′3) east and 3pix(0′.′3)north fromthe continuum peak position(denoted as 0.4”
+NE and displayedwith the solidline), and at 3pix(0′.′3) westand 3 pix(0′.′3) south from the continuum peak position (denoted as 0.4”
+SW and displayed with the dash-dotted line) for IRAS 12112+0305 NE and IRAS 20414−1651. In the intensity-weighted mean velocity
+(moment1)mapsofbothobjects,thenorth-easternpartismoreredshiftedthanthesouth-westernpart.
+=====PAGE=====
+48 Imanishi et al.
+Fig. 16.—Spectralenergydistributionfrom3µm(105GHz)toradio(∼1GHz). FilledstarsarefromourALMACycle1observationsand
+filledsquaresarefromtheliterature. ForNGC7469,followingIzumietal.(2015), weadoptfluxmeasurementforthenuclearcomponent
+only(Marco&Alloin1998;Reunanenetal.2010;Izumietal.2015;Wilsonetal.1991;Orienti&Prieto2010),toremovethecontamination
+fromthespatiallyextendedstarburstring. ForIZw1andIC4329A,weusedatafromtheNASA/IPACExtragalacticDatabasetoderive
+thetotal fluxatanindividualfrequency.

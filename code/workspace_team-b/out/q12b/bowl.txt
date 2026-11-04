@@ -1,0 +1,17 @@
+HCO+  Xb55 J=2 10" r25  : peak 65.5 Jy/b km/s; R0=14" F_in=91.2 F_max=91.2@14" F_edge=78.1+-0.1  F_neg(edge-max)=-13.2+-0.2 [F_neg/F_max=-0.14, F_edge/F_max=0.86]  bowl=-2.29+-0.14 at 21" (bowl/peak -0.035); square-field integral 77.8+-0.2
+HCO+  Xb55 J=2 10" rfull: peak 65.5 Jy/b km/s; R0=14" F_in=91.2 F_max=91.2@14" F_edge=77.8+-0.2  F_neg(edge-max)=-13.5+-0.2 [F_neg/F_max=-0.15, F_edge/F_max=0.85]  bowl=-2.29+-0.13 at 21" (bowl/peak -0.035); square-field integral 77.8+-0.2
+HCO+  Xb4f J=3 10" r25  : peak 72.4 Jy/b km/s; R0=13" F_in=81.1 F_max=81.1@13" F_edge=75.7+-0.2  F_neg(edge-max)=-5.4+-0.2 [F_neg/F_max=-0.07, F_edge/F_max=0.93]  bowl=-2.39+-0.06 at 16" (bowl/peak -0.033); square-field integral 79.8+-0.2
+HCO+  Xb4f J=3 10" rfull: peak 72.4 Jy/b km/s; R0=13" F_in=81.1 F_max=81.1@13" F_edge=79.7+-0.2  F_neg(edge-max)=-1.4+-0.2 [F_neg/F_max=-0.02, F_edge/F_max=0.98]  bowl=-2.39+-0.05 at 16" (bowl/peak -0.033); square-field integral 79.8+-0.2
+HCO+  Xb47 J=4 10" r25  : peak 57.8 Jy/b km/s; R0=11" F_in=49.8 F_max=53.2@25" F_edge=53.2+-0.2  F_neg(edge-max)=0.0+-0.1 [F_neg/F_max=0.00, F_edge/F_max=1.00]  bowl=-1.02+-0.09 at 12" (bowl/peak -0.018); square-field integral 53.4+-0.2
+HCO+  Xb47 J=4 10" rfull: peak 57.8 Jy/b km/s; R0=11" F_in=49.8 F_max=53.2@25" F_edge=53.2+-0.2  F_neg(edge-max)=0.0+-0.1 [F_neg/F_max=0.00, F_edge/F_max=1.00]  bowl=-1.02+-0.09 at 12" (bowl/peak -0.018); square-field integral 53.4+-0.2
+HCN   Xb55 J=2 10" r25  : peak 38.5 Jy/b km/s; R0=13" F_in=49.0 F_max=49.0@13" F_edge=39.8+-0.1  F_neg(edge-max)=-9.2+-0.1 [F_neg/F_max=-0.19, F_edge/F_max=0.81]  bowl=-1.46+-0.04 at 20" (bowl/peak -0.038); square-field integral 39.0+-0.3
+HCN   Xb55 J=2 10" rfull: peak 38.5 Jy/b km/s; R0=13" F_in=49.0 F_max=49.0@13" F_edge=39.0+-0.3  F_neg(edge-max)=-9.9+-0.2 [F_neg/F_max=-0.20, F_edge/F_max=0.80]  bowl=-1.46+-0.04 at 20" (bowl/peak -0.038); square-field integral 39.0+-0.3
+HCN   Xb4f J=3 10" r25  : peak 33.0 Jy/b km/s; R0=11" F_in=31.2 F_max=31.2@11" F_edge=26.2+-0.2  F_neg(edge-max)=-5.0+-0.1 [F_neg/F_max=-0.16, F_edge/F_max=0.84]  bowl=-2.05+-0.06 at 14" (bowl/peak -0.062); square-field integral 29.7+-0.3
+HCN   Xb4f J=3 10" rfull: peak 33.0 Jy/b km/s; R0=11" F_in=31.2 F_max=31.2@11" F_edge=29.7+-0.2  F_neg(edge-max)=-1.5+-0.2 [F_neg/F_max=-0.05, F_edge/F_max=0.95]  bowl=-2.05+-0.06 at 14" (bowl/peak -0.062); square-field integral 29.7+-0.3
+HCN   Xb47 J=4 10" r25  : peak 19.8 Jy/b km/s; R0=9" F_in=14.0 F_max=15.6@25" F_edge=15.6+-0.3  F_neg(edge-max)=0.0+-0.2 [F_neg/F_max=0.00, F_edge/F_max=1.00]  bowl=-1.17+-0.13 at 12" (bowl/peak -0.059); square-field integral 15.6+-0.4
+HCN   Xb47 J=4 10" rfull: peak 19.8 Jy/b km/s; R0=9" F_in=14.0 F_max=15.6@25" F_edge=15.6+-0.3  F_neg(edge-max)=0.0+-0.2 [F_neg/F_max=0.00, F_edge/F_max=1.00]  bowl=-1.17+-0.13 at 12" (bowl/peak -0.059); square-field integral 15.6+-0.4
+
+## continuum (line-free spw16_18_20_22 cont.I.pbcor) at 10"
+cont Xb55: peak 21.2 mJy/b; R0=16" F_in=33.7 F_max=33.7@16" F_edge=30.1 mJy; F_neg/F_max=-0.11; bowl/peak -0.036 at 22"
+cont Xb4f: peak 38.1 mJy/b; R0=13" F_in=45.5 F_max=45.5@13" F_edge=38.1 mJy; F_neg/F_max=-0.16; bowl/peak -0.056 at 16"
+cont Xb47: peak 74.5 mJy/b; R0=11" F_in=68.8 F_max=69.0@25" F_edge=69.0 mJy; F_neg/F_max=0.00; bowl/peak -0.032 at 14"

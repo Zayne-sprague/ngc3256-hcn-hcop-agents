@@ -1,0 +1,41 @@
+Fractional change of the integral when the ramp is removed (corr/raw-1 = -bias/I), median [16,84], % ; narrow = ramp ends <=~120ch, wide = extends to 160-400 ch
+--- pix narrow
+  N      J2: HCN -0.0% HCO+ -0.2% | J3: HCN -0.2% HCO+ -0.1% | J4: HCN -0.2% HCO+ -0.0% || HCN 43/32 +0.0%  HCN 21/32 +0.2%  HCO+ 43/32 +0.1%  HCO+ 21/32 -0.1%
+  S      J2: HCN -0.0% HCO+ -0.2% | J3: HCN -0.3% HCO+ -0.2% | J4: HCN -0.9% HCO+ +0.0% || HCN 43/32 -0.6%  HCN 21/32 +0.3%  HCO+ 43/32 +0.2%  HCO+ 21/32 +0.0%
+  Bridge J2: HCN +0.0% HCO+ -0.0% | J3: HCN -0.4% HCO+ -0.0% | J4: HCN +0.4% HCO+ +0.0% || HCN 43/32 +0.8%  HCN 21/32 +0.4%  HCO+ 43/32 +0.0%  HCO+ 21/32 +0.0%
+  W      J2: HCN -0.0% HCO+ -0.1% | J3: HCN -0.1% HCO+ -0.3% | J4: HCN +6.7% HCO+ +0.0% || HCN 43/32 +6.8%  HCN 21/32 +0.1%  HCO+ 43/32 +0.3%  HCO+ 21/32 +0.1%
+--- pix wide
+  N      J2: HCN -0.0% HCO+ +0.4% | J3: HCN +1.6% HCO+ +0.6% | J4: HCN +2.6% HCO+ -0.0% || HCN 43/32 +1.0%  HCN 21/32 -1.5%  HCO+ 43/32 -0.6%  HCO+ 21/32 -0.1%
+  S      J2: HCN -0.0% HCO+ +0.3% | J3: HCN +2.4% HCO+ +0.4% | J4: HCN +3.3% HCO+ -0.5% || HCN 43/32 +0.9%  HCN 21/32 -2.4%  HCO+ 43/32 -0.9%  HCO+ 21/32 -0.1%
+  Bridge J2: HCN +0.0% HCO+ +0.6% | J3: HCN +1.5% HCO+ +0.5% | J4: HCN +3.8% HCO+ +0.0% || HCN 43/32 +2.3%  HCN 21/32 -1.5%  HCO+ 43/32 -0.5%  HCO+ 21/32 +0.0%
+  W      J2: HCN -0.0% HCO+ +0.3% | J3: HCN +1.7% HCO+ +0.1% | J4: HCN +57.6% HCO+ -0.4% || HCN 43/32 +55.0%  HCN 21/32 -1.7%  HCO+ 43/32 -0.5%  HCO+ 21/32 +0.2%
+--- ap narrow
+  N      J2: HCN -0.0% HCO+ -0.1% | J3: HCN -0.5% HCO+ +0.0% | J4: HCN -0.8% HCO+ -0.0% || HCN 43/32 -0.3%  HCN 21/32 +0.5%  HCO+ 43/32 -0.0%  HCO+ 21/32 -0.1%
+  S      J2: HCN -0.0% HCO+ -0.2% | J3: HCN -0.8% HCO+ -0.1% | J4: HCN -1.8% HCO+ +0.0% || HCN 43/32 -1.1%  HCN 21/32 +0.8%  HCO+ 43/32 +0.1%  HCO+ 21/32 -0.1%
+  Bridge J2: HCN +0.0% HCO+ -0.1% | J3: HCN -0.5% HCO+ +0.0% | J4: HCN -0.2% HCO+ -0.0% || HCN 43/32 +0.4%  HCN 21/32 +0.5%  HCO+ 43/32 -0.0%  HCO+ 21/32 -0.1%
+  W      J2: HCN +0.0% HCO+ -0.3% | J3: HCN -2.4% HCO+ -0.1% | J4: HCN +7.5% HCO+ +0.0% || HCN 43/32 +10.1%  HCN 21/32 +2.4%  HCO+ 43/32 +0.1%  HCO+ 21/32 -0.2%
+--- ap wide
+  N      J2: HCN -0.0% HCO+ +0.6% | J3: HCN +1.4% HCO+ +0.8% | J4: HCN +2.2% HCO+ -0.3% || HCN 43/32 +0.8%  HCN 21/32 -1.4%  HCO+ 43/32 -1.1%  HCO+ 21/32 -0.2%
+  S      J2: HCN -0.0% HCO+ +0.3% | J3: HCN +1.6% HCO+ +0.5% | J4: HCN +2.2% HCO+ -0.4% || HCN 43/32 +0.6%  HCN 21/32 -1.5%  HCO+ 43/32 -0.9%  HCO+ 21/32 -0.2%
+  Bridge J2: HCN +0.0% HCO+ +0.4% | J3: HCN +1.0% HCO+ +0.5% | J4: HCN +2.8% HCO+ -0.4% || HCN 43/32 +1.8%  HCN 21/32 -1.0%  HCO+ 43/32 -0.9%  HCO+ 21/32 -0.1%
+  W      J2: HCN +0.0% HCO+ +0.1% | J3: HCN -0.6% HCO+ +0.3% | J4: HCN +51.2% HCO+ -0.4% || HCN 43/32 +52.1%  HCN 21/32 +0.6%  HCO+ 43/32 -0.8%  HCO+ 21/32 -0.2%
+
+HCN/HCO+ ratio shifts and their size vs total 1-sigma (stat + 2x7% cal):
+  narrow J=2: N +0.2% [+0.1,+0.2] (+0.02sig)  S +0.2% [+0.1,+0.3] (+0.02sig)  Bridge +0.0% [-0.1,+0.1] (+0.00sig)
+  narrow J=3: N -0.1% [-0.3,+0.1] (-0.01sig)  S +0.1% [-0.1,+0.2] (+0.01sig)  Bridge -0.3% [-0.4,-0.1] (-0.03sig)
+  narrow J=4: N -0.2% [-1.1,+0.4] (-0.02sig)  S -0.9% [-2.1,-0.1] (-0.09sig)  Bridge +0.4% [-0.2,+1.1] (+0.04sig)
+  wide J=2: N -0.4% [-1.3,-0.1] (-0.05sig)  S -0.3% [-1.1,-0.0] (-0.03sig)  Bridge -0.6% [-1.4,-0.3] (-0.06sig)
+  wide J=3: N +0.9% [+0.3,+2.2] (+0.09sig)  S +1.9% [+0.8,+3.4] (+0.19sig)  Bridge +1.0% [+0.2,+2.2] (+0.10sig)
+  wide J=4: N +2.8% [+1.3,+5.7] (+0.28sig)  S +4.0% [+1.5,+8.6] (+0.37sig)  Bridge +3.8% [+2.1,+7.4] (+0.37sig)
+
+Direct test: mean level blue(-600..-420 km/s) minus red(420..600) in mJy/ch, pooled N,S,Bridge (peak pixel, raw spectra); expected from the ramp model ~ f*cont*shape at blue side
+  Xb55.spw16.HCN2        blue-red: N -0.46 S +1.46 Bridge +0.23; mean +0.41 +- 0.39 (rms/ch 2.72, 54 ch each side)
+  Xb55.spw18.HCO+2       blue-red: N +1.36 S +2.63 Bridge +2.46; mean +2.15 +- 0.53 (rms/ch 3.68, 55 ch each side)
+  Xb4f.spw18.HCN3        blue-red: N +0.48 S +1.01 Bridge +1.12; mean +0.87 +- 0.39 (rms/ch 2.37, 41 ch each side)
+  Xb4f.spw16.HCO+3       blue-red: N +0.19 S -0.64 Bridge -0.39; mean -0.28 +- 0.48 (rms/ch 2.89, 41 ch each side)
+  Xb47.spw16.HCN4        blue-red: N +2.34 S +0.34 Bridge +0.50; mean +1.06 +- 0.54 (rms/ch 3.72, 54 ch each side)
+  Xb47.spw18.HCO+4       blue-red: N +0.46 S -0.67 Bridge +0.28; mean +0.02 +- 0.62 (rms/ch 4.36, 55 ch each side)
+  Xb4d.spw27.HCN3        blue-red: N +0.21 S -0.12 Bridge -0.10; mean -0.00 +- 0.11 (rms/ch 0.67, 41 ch each side)
+  Xb4d.spw25.HCO+3       blue-red: N -0.39 S -0.12 Bridge -0.18; mean -0.23 +- 0.13 (rms/ch 0.78, 41 ch each side)
+  Xb4b.spw27.HCN3        blue-red: N -0.10 S -0.04 Bridge -0.02; mean -0.05 +- 0.06 (rms/ch 0.35, 41 ch each side)
+  Xb4b.spw25.HCO+3       blue-red: N -0.07 S -0.05 Bridge +0.03; mean -0.03 +- 0.07 (rms/ch 0.41, 41 ch each side)

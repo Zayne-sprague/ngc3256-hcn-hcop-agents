@@ -1,0 +1,48 @@
+## Xb4b.spw25 HCO+32: beam 0.25x0.23  dv=4.4 km/s
+   peak core mom0 1.203 Jy/b km/s (S/N 52) at 156.96346 -43.90388 ; blue 0.027 red -0.011
+   peak core mom0 0.990 Jy/b km/s (S/N 41) at 156.96339 -43.90533 ; blue 0.016 red 0.009
+   peak core mom0 0.682 Jy/b km/s (S/N 29) at 156.96393 -43.90402 ; blue -0.001 red 0.010
+   peak core mom0 0.682 Jy/b km/s (S/N 29) at 156.96324 -43.90406 ; blue 0.002 red 0.013
+   peak core mom0 0.605 Jy/b km/s (S/N 25) at 156.96364 -43.90387 ; blue -0.002 red -0.010
+   peak core mom0 0.602 Jy/b km/s (S/N 27) at 156.96326 -43.90393 ; blue -0.025 red 0.014
+   peak core mom0 0.583 Jy/b km/s (S/N 26) at 156.96377 -43.90449 ; blue -0.013 red 0.017
+   peak core mom0 0.538 Jy/b km/s (S/N 26) at 156.96389 -43.90426 ; blue 0.008 red 0.009
+## Xb4b.spw27 HCN32: beam 0.25x0.24  dv=4.4 km/s
+   peak core mom0 1.248 Jy/b km/s (S/N 64) at 156.96344 -43.90388 ; blue 0.003 red 0.006
+   peak core mom0 0.504 Jy/b km/s (S/N 26) at 156.96324 -43.90408 ; blue -0.009 red 0.006
+   peak core mom0 0.487 Jy/b km/s (S/N 25) at 156.96340 -43.90533 ; blue 0.045 red -0.006
+   peak core mom0 0.373 Jy/b km/s (S/N 19) at 156.96395 -43.90401 ; blue 0.011 red 0.011
+   peak core mom0 0.323 Jy/b km/s (S/N 18) at 156.96375 -43.90451 ; blue -0.020 red 0.012
+   peak core mom0 0.258 Jy/b km/s (S/N 13) at 156.96393 -43.90530 ; blue -0.000 red -0.006
+   peak core mom0 0.255 Jy/b km/s (S/N 14) at 156.96339 -43.90586 ; blue 0.142 red -0.008
+   peak core mom0 0.245 Jy/b km/s (S/N 13) at 156.96389 -43.90426 ; blue 0.011 red 0.019
+## Xb4d.spw25 HCO+32: beam 0.93x0.74  dv=4.4 km/s
+   peak core mom0 6.165 Jy/b km/s (S/N 127) at 156.96346 -43.90390 ; blue -0.033 red 0.060
+   peak core mom0 4.772 Jy/b km/s (S/N 106) at 156.96340 -43.90532 ; blue 0.169 red 0.003
+   peak core mom0 3.360 Jy/b km/s (S/N 81) at 156.96357 -43.90457 ; blue -0.024 red -0.012
+   peak core mom0 2.620 Jy/b km/s (S/N 57) at 156.96606 -43.90353 ; blue -0.026 red -0.012
+   peak core mom0 1.566 Jy/b km/s (S/N 30) at 156.96548 -43.90540 ; blue -0.002 red 0.119
+   peak core mom0 1.260 Jy/b km/s (S/N 26) at 156.96305 -43.90611 ; blue 0.182 red 0.037
+   peak core mom0 0.954 Jy/b km/s (S/N 17) at 156.96114 -43.90590 ; blue -0.058 red 0.006
+   peak core mom0 0.872 Jy/b km/s (S/N 20) at 156.96201 -43.90586 ; blue -0.022 red -0.027
+## Xb4d.spw27 HCN32: beam 0.94x0.74  dv=4.4 km/s
+   peak core mom0 5.425 Jy/b km/s (S/N 147) at 156.96346 -43.90390 ; blue 0.061 red 0.104
+   peak core mom0 1.914 Jy/b km/s (S/N 54) at 156.96340 -43.90532 ; blue 0.090 red 0.033
+   peak core mom0 1.678 Jy/b km/s (S/N 46) at 156.96369 -43.90453 ; blue 0.011 red 0.041
+   peak core mom0 0.908 Jy/b km/s (S/N 24) at 156.96271 -43.90528 ; blue 0.003 red -0.024
+   peak core mom0 0.891 Jy/b km/s (S/N 22) at 156.96305 -43.90611 ; blue 0.137 red 0.029
+   peak core mom0 0.786 Jy/b km/s (S/N 16) at 156.96606 -43.90353 ; blue -0.021 red 0.053
+   peak core mom0 0.619 Jy/b km/s (S/N 14) at 156.96548 -43.90540 ; blue -0.043 red 0.040
+   peak core mom0 0.464 Jy/b km/s (S/N 11) at 156.96201 -43.90599 ; blue 0.041 red -0.028
+## Xb4f.spw16 HCO+32: beam 5.73x3.54  dv=4.4 km/s
+   peak core mom0 34.229 Jy/b km/s (S/N 183) at 156.96346 -43.90403 ; blue -0.146 red 0.230
+## Xb4f.spw18 HCN32: beam 5.72x3.54  dv=4.4 km/s
+   peak core mom0 20.432 Jy/b km/s (S/N 165) at 156.96346 -43.90403 ; blue -0.138 red 0.479
+## Xb47.spw18 HCO+43: beam 4.13x2.70  dv=3.3 km/s
+   peak core mom0 28.504 Jy/b km/s (S/N 136) at 156.96346 -43.90402 ; blue 0.082 red 0.217
+## Xb47.spw16 HCN43: beam 4.14x2.70  dv=3.3 km/s
+   peak core mom0 14.092 Jy/b km/s (S/N 70) at 156.96346 -43.90402 ; blue -0.405 red -0.429
+## Xb55.spw16 HCN21: beam 8.64x6.00  dv=3.3 km/s
+   peak core mom0 28.871 Jy/b km/s (S/N 236) at 156.96346 -43.90428 ; blue 0.088 red 0.896
+## Xb55.spw18 HCO+21: beam 8.60x5.90  dv=3.3 km/s
+   peak core mom0 46.103 Jy/b km/s (S/N 235) at 156.96346 -43.90461 ; blue 0.579 red 0.730

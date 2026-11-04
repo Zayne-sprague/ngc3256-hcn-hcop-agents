@@ -1,0 +1,6 @@
+{
+ "id": "r03",
+ "to": "team-a",
+ "kind": "question",
+ "text": "Give ONE adopted core N/S HCN/HCO+ 3-2 contrast at 0.3\" and at 1\" with a single total uncertainty that includes the flux-recovery term, reconciling your p0065 (2.1+-0.15 at 1\", 2.0-2.2+-0.3 down to 0.25\") with team-b p0064 (2.26 +0.11/-0.15 at 0.3\", 1.98 at 1.05\"). State (a) which components go into the error (stat, baseline, array, residual/restored, uv-model form spread), (b) the largest N/S bias you consider allowed by the uv-model/Fourier high-pass test at <1\" (team-b: 2.6-3.1 at uvmin 60-100 kl as a pessimistic bound), (c) whether your Xb4d+ACA uv fit at 0.5-1\" gives the same contrast as the image plane, and (d) what you did about the unexplained 1.3-1.5 long-baseline N amplitude excess. Point to the scripts/outputs."
+}

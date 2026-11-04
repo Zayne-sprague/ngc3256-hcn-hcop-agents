@@ -1,0 +1,6 @@
+{
+ "id": "q01",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Dilution test for the compact contrast. Using the Xb4b (0.25 arcsec) data and exactly the Table C1/p0064 estimator (annulus sums r<0.25 arcsec for the core, and r<1 arcsec), convolve the HCN and HCO+ 3-2 moment-0 maps to circular beams of 0.3, 0.6, 1.05, 1.5, 2.2 arcsec (same baseline and window), and plot N/S vs beam alongside the 12-m+7-m uvtaper values 1.53 (1.5 arcsec) and 1.44 (2.2 arcsec) and the 1-0 values. Also give, at 1.5 arcsec, the Xb4b image-plane N/S with the same aperture as the uvtaper estimator, so that the 2.03 (team-a) vs 1.53/1.58 difference at the same beam is traced to estimator, aperture or array. Say what fraction of the 2.2 -> 1.45 drop dilution alone explains."
+}

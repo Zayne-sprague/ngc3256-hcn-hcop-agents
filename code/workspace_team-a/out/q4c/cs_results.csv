@@ -1,0 +1,49 @@
+kind,region,quantity,value,err,spread_halfwidth,cls,lo16,hi84,lo95,hi95,P_negative,sigma
+data,N,CS 7-6/HCO+ 3-2 (Tb),0.0515,0.0143,0.0123,,,,,,,
+data,N,CS 7-6/HCN 3-2 (Tb),0.077,0.0155,0.0112,,,,,,,
+data,S,CS 7-6/HCO+ 3-2 (Tb),0.0562,0.019,0.0173,,,,,,,
+data,S,CS 7-6/HCN 3-2 (Tb),0.1487,0.0497,0.0452,,,,,,,
+data,S/N,CS7-6/HCO+3-2 ratio S over N,1.0911,0.4775,,,,,,,,
+data,S/N,CS7-6/HCN3-2 ratio S over N,1.9305,0.7541,,,,,,,,
+model,N,fraction of draws where CS can be matched,1.0,,,"A both thick, kappa=1",,,,,,
+model,S,fraction of draws where CS can be matched,1.0,,,"A both thick, kappa=1",,,,,,
+model,N,log[N(HCN)/N(CS)],0.6212,,,"A both thick, kappa=1",0.4832,0.731,,,,
+model,S,log[N(HCN)/N(CS)],0.1126,,,"A both thick, kappa=1",-0.0249,0.2355,,,,
+model,S minus N,log[N(HCN)/N(CS)],-0.507,,,"A both thick, kappa=1",-0.6874,-0.3201,-0.8523,-0.1372,0.996,2.7727
+model,N,log[N(HCO+)/N(CS)],-0.1294,,,"A both thick, kappa=1",-0.2694,-0.019,,,,
+model,S,log[N(HCO+)/N(CS)],-0.3874,,,"A both thick, kappa=1",-0.5249,-0.2645,,,,
+model,S minus N,log[N(HCO+)/N(CS)],-0.2547,,,"A both thick, kappa=1",-0.4353,-0.0656,-0.6058,0.1481,0.9062,1.3367
+model,N,log[N(HCN)/N(HCO+)],0.75,,,"A both thick, kappa=1",0.75,0.75,,,,
+model,S,log[N(HCN)/N(HCO+)],0.5,,,"A both thick, kappa=1",0.5,0.5,,,,
+model,S minus N,log[N(HCN)/N(HCO+)],-0.25,,,"A both thick, kappa=1",-0.25,-0.25,-0.25,-0.25,1.0,7.5525
+model,N,log N(CS),15.4349,,,"A both thick, kappa=1",15.2842,15.8656,,,,
+model,S,log N(CS),16.5231,,,"A both thick, kappa=1",15.99,16.7398,,,,
+model,S minus N,log N(CS),0.9643,,,"A both thick, kappa=1",0.4285,1.3304,-0.1275,1.5551,0.0379,2.1624
+model,N,fraction of draws where CS can be matched,1.0,,,"B both thick, same Tex (0.8-1.25), kappa free",,,,,,
+model,S,fraction of draws where CS can be matched,1.0,,,"B both thick, same Tex (0.8-1.25), kappa free",,,,,,
+model,N,log[N(HCN)/N(CS)],0.6855,,,"B both thick, same Tex (0.8-1.25), kappa free",0.558,0.8101,,,,
+model,S,log[N(HCN)/N(CS)],0.5724,,,"B both thick, same Tex (0.8-1.25), kappa free",0.4232,0.7186,,,,
+model,S minus N,log[N(HCN)/N(CS)],-0.1108,,,"B both thick, same Tex (0.8-1.25), kappa free",-0.3134,0.0796,-0.515,0.2728,0.7192,0.5547
+model,N,log[N(HCO+)/N(CS)],-0.4705,,,"B both thick, same Tex (0.8-1.25), kappa free",-0.6085,-0.2497,,,,
+model,S,log[N(HCO+)/N(CS)],-0.4279,,,"B both thick, same Tex (0.8-1.25), kappa free",-0.5767,-0.2816,,,,
+model,S minus N,log[N(HCO+)/N(CS)],0.0194,,,"B both thick, same Tex (0.8-1.25), kappa free",-0.2411,0.2402,-0.5059,0.4367,0.4682,0.0801
+model,N,log[N(HCN)/N(HCO+)],1.25,,,"B both thick, same Tex (0.8-1.25), kappa free",1.0,1.25,,,,
+model,S,log[N(HCN)/N(HCO+)],1.0,,,"B both thick, same Tex (0.8-1.25), kappa free",1.0,1.0,,,,
+model,S minus N,log[N(HCN)/N(HCO+)],-0.25,,,"B both thick, same Tex (0.8-1.25), kappa free",-0.25,0.0,-0.25,0.25,0.5992,1.4156
+model,N,log N(CS),15.5187,,,"B both thick, same Tex (0.8-1.25), kappa free",15.3391,15.6614,,,,
+model,S,log N(CS),15.4283,,,"B both thick, same Tex (0.8-1.25), kappa free",15.2819,15.5775,,,,
+model,S minus N,log N(CS),-0.0776,,,"B both thick, same Tex (0.8-1.25), kappa free",-0.3034,0.1491,-0.555,0.3766,0.6377,0.3245
+model,N,fraction of draws where CS can be matched,1.0,,,"F2 separate n, kappa=1, both thick",,,,,,
+model,S,fraction of draws where CS can be matched,1.0,,,"F2 separate n, kappa=1, both thick",,,,,,
+model,N,log[N(HCN)/N(CS)],-0.2979,,,"F2 separate n, kappa=1, both thick",-0.7508,0.1818,,,,
+model,S,log[N(HCN)/N(CS)],-0.1866,,,"F2 separate n, kappa=1, both thick",-0.5911,0.5676,,,,
+model,S minus N,log[N(HCN)/N(CS)],0.1597,,,"F2 separate n, kappa=1, both thick",-0.5239,0.9162,-1.1994,1.6013,0.4103,0.2224
+model,N,log[N(HCO+)/N(CS)],-0.2062,,,"F2 separate n, kappa=1, both thick",-0.3361,-0.0638,,,,
+model,S,log[N(HCO+)/N(CS)],-0.4001,,,"F2 separate n, kappa=1, both thick",-0.5417,-0.2716,,,,
+model,S minus N,log[N(HCO+)/N(CS)],-0.1993,,,"F2 separate n, kappa=1, both thick",-0.3938,-0.0031,-0.5751,0.1942,0.843,1.0168
+model,N,log[N(HCN)/N(HCO+)],0.0,,,"F2 separate n, kappa=1, both thick",-0.5,0.25,,,,
+model,S,log[N(HCN)/N(HCO+)],0.25,,,"F2 separate n, kappa=1, both thick",0.0,1.0,,,,
+model,S minus N,log[N(HCN)/N(HCO+)],0.25,,,"F2 separate n, kappa=1, both thick",-0.25,1.0,-1.0,1.75,0.2114,0.3893
+model,N,log N(CS),16.327,,,"F2 separate n, kappa=1, both thick",15.9744,16.547,,,,
+model,S,log N(CS),16.4975,,,"F2 separate n, kappa=1, both thick",15.7911,16.8936,,,,
+model,S minus N,log N(CS),0.1711,,,"F2 separate n, kappa=1, both thick",-0.5672,0.6989,-0.9465,1.4012,0.4156,0.2799

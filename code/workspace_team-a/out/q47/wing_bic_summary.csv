@@ -1,0 +1,7 @@
+region,fmax,accepted,weights,best_BIC,alpha95,alpha9987,HCN_over_H13CN_ge_95,HCN_over_H13CN_ge_3sig
+N,342.28,log-quad+log-cubic,0.88/0.12,log-quad,0.0855,0.0994,11.6918,10.058
+N,342.2,exp+log-quad+log-cubic+power-law@CO,0.32/0.06/0.01/0.61,power-law@CO,0.0636,0.0856,15.7289,11.6831
+S,342.28,log-cubic,1.00,log-cubic,0.0838,0.1385,11.9298,7.2217
+S,342.2,log-quad+log-cubic,0.71/0.29,log-quad,0.0873,0.1443,11.4594,6.9322
+Bridge,342.28,log-quad+log-cubic,0.17/0.83,log-cubic,0.11,0.1347,9.0943,7.4233
+Bridge,342.2,exp+log-quad+log-cubic+power-law@CO,0.55/0.06/0.01/0.39,exp,0.0562,0.1049,17.7836,9.5338

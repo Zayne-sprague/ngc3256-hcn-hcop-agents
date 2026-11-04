@@ -1,0 +1,6 @@
+{
+ "id": "q02",
+ "to": "team-a",
+ "kind": "question",
+ "text": "Section 3.3 says the isotopologue data are consistent with abundance-only and with different 12C/13C, but Appendix A.7 gives double ratios (13/12)_N/(13/12)_S of 5.8 [2.1-13.5] for HCN (95% lower bound 1.2) and 3.1 [1.7-7.9] for HCO+. Which budget is correct, and does this exclude an abundance-only difference (which predicts 1)? Also give the 12C/13C implied at N by H13CN/HCN = 0.022 and H13CO+/HCO+ = 0.028 if the 13C lines are optically thin, and say what opacity of HCN and HCO+ at N this implies."
+}

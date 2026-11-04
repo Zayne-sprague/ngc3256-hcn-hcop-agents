@@ -1,0 +1,6 @@
+{
+ "id": "r04",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Figure 4 (key result R3): observed HCN/HCO+ N/S contrast at 2.2\" (1-0: 1.45, 3-2: 1.50, with errors) against the best-fit/profile-likelihood contrast allowed by excitation-only (Hexc), column-only (Hcol), abundance-only (Habun) and full (Hfull) hypotheses; left panel: delta-chi2 versus equal-abundance contrast (profile likelihood for 1-0; note 3-2 only best fit); right panel: table or bars of ln BF Habun/Hexc across error models (halved, default, doubled) and priors (X 40-100, 20-200, physical priors). Also give N(HCN)/N(HCO+) at N and S with intervals and the H13CN/HCN, H13CO+/HCO+ data used (p0061 values, 13C/12C N/S ratios)."
+}

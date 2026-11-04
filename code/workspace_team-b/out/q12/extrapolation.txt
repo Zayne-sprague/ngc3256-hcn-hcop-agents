@@ -1,0 +1,100 @@
+## 1. alpha_df (retained flux ~ MRS^alpha), Xb4d/Xb4f at 10" and 6.5"; median [16,84] incl. 7% scale error and MRS-ratio range
+HCO+ N      B=10   alpha_df= 0.27 [0.20,0.36]  (Xb4d/Xb4f=0.72)
+HCO+ N      B=6.5  alpha_df= 0.17 [0.11,0.25]  (Xb4d/Xb4f=0.81)
+HCO+ S      B=10   alpha_df= 0.32 [0.25,0.43]  (Xb4d/Xb4f=0.68)
+HCO+ S      B=6.5  alpha_df= 0.25 [0.18,0.34]  (Xb4d/Xb4f=0.74)
+HCO+ Bridge B=10   alpha_df= 0.27 [0.20,0.37]  (Xb4d/Xb4f=0.73)
+HCO+ Bridge B=6.5  alpha_df= 0.18 [0.12,0.26]  (Xb4d/Xb4f=0.80)
+HCO+ E1     B=10   alpha_df= 0.35 [0.27,0.47]  (Xb4d/Xb4f=0.65)
+HCO+ E1     B=6.5  alpha_df= 0.39 [0.30,0.52]  (Xb4d/Xb4f=0.62)
+HCO+ E2     B=10   alpha_df= 0.50 [0.39,0.65]  (Xb4d/Xb4f=0.55)
+HCO+ E2     B=6.5  alpha_df= 0.93 [0.75,1.21]  (Xb4d/Xb4f=0.33)
+HCO+ W      B=10   alpha_df= 0.39 [0.30,0.51]  (Xb4d/Xb4f=0.63)
+HCO+ W      B=6.5  alpha_df= 0.61 [0.49,0.79]  (Xb4d/Xb4f=0.48)
+HCN  N      B=10   alpha_df= 0.31 [0.23,0.41]  (Xb4d/Xb4f=0.69)
+HCN  N      B=6.5  alpha_df= 0.18 [0.12,0.26]  (Xb4d/Xb4f=0.80)
+HCN  S      B=10   alpha_df= 0.41 [0.32,0.54]  (Xb4d/Xb4f=0.61)
+HCN  S      B=6.5  alpha_df= 0.31 [0.23,0.41]  (Xb4d/Xb4f=0.69)
+HCN  Bridge B=10   alpha_df= 0.32 [0.24,0.42]  (Xb4d/Xb4f=0.69)
+HCN  Bridge B=6.5  alpha_df= 0.19 [0.13,0.28]  (Xb4d/Xb4f=0.79)
+HCN  E1     B=10   alpha_df= 0.39 [0.30,0.52]  (Xb4d/Xb4f=0.62)
+HCN  E1     B=6.5  alpha_df= 1.19 [0.93,1.57]  (Xb4d/Xb4f=0.24)
+HCN  E2     B=10   alpha_df= 0.65 [0.52,0.85]  (Xb4d/Xb4f=0.46)
+HCN  E2     B=6.5  alpha_df=  nan [nan,nan]  (Xb4d/Xb4f=-0.29)
+HCN  W      B=10   alpha_df= 0.68 [0.55,0.88]  (Xb4d/Xb4f=0.44)
+HCN  W      B=6.5  alpha_df= 2.33 [1.78,3.12]  (Xb4d/Xb4f=0.05)
+
+## 2. relative multipliers R_a/R_4f (loss-only, a=Xb55 for 2-1, Xb47 for 4-3) at 10", with the Xb4f absolute recovery R_4f (range from outer scale)
+HCO+ N       R55/R4f=1.06[1.02,1.13]  R47/R4f=0.98[0.95,0.99]  R4f(abs)=0.78[0.69,0.86]  R55=0.84  R47=0.76
+HCO+ S       R55/R4f=1.07[1.02,1.16]  R47/R4f=0.97[0.94,0.99]  R4f(abs)=0.75[0.65,0.83]  R55=0.81  R47=0.73
+HCO+ Bridge  R55/R4f=1.06[1.02,1.13]  R47/R4f=0.98[0.95,0.99]  R4f(abs)=0.79[0.69,0.86]  R55=0.84  R47=0.76
+HCO+ E1      R55/R4f=1.09[1.03,1.19]  R47/R4f=0.97[0.93,0.99]  R4f(abs)=0.72[0.62,0.81]  R55=0.79  R47=0.70
+HCO+ E2      R55/R4f=1.12[1.04,1.26]  R47/R4f=0.95[0.91,0.98]  R4f(abs)=0.64[0.52,0.75]  R55=0.72  R47=0.60
+HCO+ W       R55/R4f=1.09[1.03,1.20]  R47/R4f=0.96[0.93,0.99]  R4f(abs)=0.70[0.59,0.79]  R55=0.77  R47=0.67
+HCN  N       R55/R4f=1.07[1.02,1.15]  R47/R4f=0.97[0.94,0.99]  R4f(abs)=0.76[0.66,0.84]  R55=0.82  R47=0.73
+HCN  S       R55/R4f=1.10[1.03,1.21]  R47/R4f=0.96[0.93,0.99]  R4f(abs)=0.69[0.58,0.78]  R55=0.76  R47=0.66
+HCN  Bridge  R55/R4f=1.07[1.02,1.16]  R47/R4f=0.97[0.94,0.99]  R4f(abs)=0.75[0.65,0.83]  R55=0.81  R47=0.73
+HCN  E1      R55/R4f=1.10[1.03,1.20]  R47/R4f=0.96[0.93,0.99]  R4f(abs)=0.70[0.59,0.79]  R55=0.77  R47=0.67
+HCN  E2      R55/R4f=1.16[1.05,1.35]  R47/R4f=0.94[0.88,0.98]  R4f(abs)=0.55[0.42,0.67]  R55=0.65  R47=0.51
+HCN  W       R55/R4f=1.17[1.05,1.37]  R47/R4f=0.94[0.87,0.98]  R4f(abs)=0.53[0.41,0.66]  R55=0.64  R47=0.49
+
+## 3. brightness-temperature ladder ratios (T ~ S/nu^2 at the common 10" beam): observed vs recovery-corrected (median [16,84]); calibration 10%/band added
+HCN  N       T21/T32 obs  2.57 (+cal 2.24-2.97) -> corr 2.38[2.04,2.77]   T43/T32 obs  0.34 -> corr 0.35[0.30,0.40]   (S/N 4-3 121)
+HCN  S       T21/T32 obs  2.74 (+cal 2.38-3.14) -> corr 2.46[2.09,2.88]   T43/T32 obs  0.32 -> corr 0.33[0.29,0.38]   (S/N 4-3 84)
+HCN  Bridge  T21/T32 obs  2.62 (+cal 2.28-3.01) -> corr 2.40[2.06,2.81]   T43/T32 obs  0.33 -> corr 0.34[0.30,0.39]   (S/N 4-3 113)
+HCN  E1      T21/T32 obs  3.75 (+cal 3.26-4.32) -> corr 3.39[2.88,3.97]   T43/T32 obs  0.16 -> corr 0.17[0.15,0.20]   (S/N 4-3 11)
+HCN  E2      T21/T32 obs  3.59 (+cal 3.13-4.15) -> corr 3.06[2.49,3.64]   T43/T32 obs  0.20 -> corr 0.21[0.18,0.25]   (S/N 4-3 20)
+HCN  W       T21/T32 obs  4.08 (+cal 3.55-4.69) -> corr 3.43[2.81,4.11]   T43/T32 obs  0.04 -> corr 0.04[0.04,0.05]   (S/N 4-3 3)
+HCO+ N       T21/T32 obs  2.02 (+cal 1.75-2.32) -> corr 1.89[1.62,2.19]   T43/T32 obs  0.45 -> corr 0.46[0.40,0.53]   (S/N 4-3 265)
+HCO+ S       T21/T32 obs  2.10 (+cal 1.82-2.42) -> corr 1.93[1.64,2.26]   T43/T32 obs  0.43 -> corr 0.44[0.39,0.51]   (S/N 4-3 254)
+HCO+ Bridge  T21/T32 obs  2.03 (+cal 1.76-2.34) -> corr 1.89[1.63,2.19]   T43/T32 obs  0.45 -> corr 0.46[0.40,0.53]   (S/N 4-3 300)
+HCO+ E1      T21/T32 obs  2.38 (+cal 2.06-2.75) -> corr 2.16[1.84,2.53]   T43/T32 obs  0.34 -> corr 0.36[0.31,0.41]   (S/N 4-3 62)
+HCO+ E2      T21/T32 obs  2.27 (+cal 1.97-2.61) -> corr 2.00[1.67,2.36]   T43/T32 obs  0.35 -> corr 0.37[0.32,0.43]   (S/N 4-3 114)
+HCO+ W       T21/T32 obs  2.72 (+cal 2.36-3.15) -> corr 2.44[2.07,2.88]   T43/T32 obs  0.29 -> corr 0.30[0.26,0.35]   (S/N 4-3 55)
+
+## 6. disk/centre contrast of T21/T32 and T43/T32 (disk position / N), observed vs corrected (same calibration draws NOT shared between positions; recovery draws independent)
+HCN  E1 /N  T21/T32: obs 1.45[1.19,1.78] corr 1.43[1.14,1.78]   T43/T32: obs 0.48[0.39,0.59] corr 0.49[0.40,0.60]
+HCN  E2 /N  T21/T32: obs 1.40[1.15,1.70] corr 1.27[1.00,1.62]   T43/T32: obs 0.59[0.49,0.73] corr 0.62[0.50,0.76]
+HCN  W  /N  T21/T32: obs 1.58[1.30,1.92] corr 1.43[1.11,1.84]   T43/T32: obs 0.12[0.10,0.15] corr 0.13[0.10,0.16]
+HCO+ E1 /N  T21/T32: obs 1.18[0.97,1.44] corr 1.15[0.92,1.44]   T43/T32: obs 0.76[0.63,0.93] corr 0.77[0.63,0.94]
+HCO+ E2 /N  T21/T32: obs 1.12[0.92,1.38] corr 1.06[0.84,1.33]   T43/T32: obs 0.78[0.64,0.96] corr 0.80[0.65,0.98]
+HCO+ W  /N  T21/T32: obs 1.35[1.11,1.64] corr 1.30[1.04,1.62]   T43/T32: obs 0.64[0.52,0.78] corr 0.65[0.53,0.79]
+
+## 7. stress test (extreme corner: alpha at its 84th percentile, saturation 1, e=1.5, kJ=3 for 2-1 and 1.5 for 4-3): minimum corrected T21/T32 and maximum corrected T43/T32 (central observed ratio, no calibration error)
+HCN  N       alpha84=0.41  R55/R4f<=2.14  R47/R4f>=0.77   T21/T32 2.57 -> >= 1.20   T43/T32 0.34 -> <= 0.43
+HCN  S       alpha84=0.54  R55/R4f<=2.72  R47/R4f>=0.71   T21/T32 2.74 -> >= 1.01   T43/T32 0.32 -> <= 0.45
+HCN  Bridge  alpha84=0.42  R55/R4f<=2.19  R47/R4f>=0.77   T21/T32 2.62 -> >= 1.19   T43/T32 0.33 -> <= 0.43
+HCN  E1      alpha84=0.52  R55/R4f<=2.63  R47/R4f>=0.72   T21/T32 3.75 -> >= 1.42   T43/T32 0.16 -> <= 0.22
+HCN  E2      alpha84=0.85  R55/R4f<=4.87  R47/R4f>=0.59   T21/T32 3.59 -> >= 0.74   T43/T32 0.20 -> <= 0.34
+HCN  W       alpha84=0.88  R55/R4f<=5.20  R47/R4f>=0.57   T21/T32 4.08 -> >= 0.78   T43/T32 0.04 -> <= 0.07
+HCO+ N       alpha84=0.36  R55/R4f<=1.97  R47/R4f>=0.80   T21/T32 2.02 -> >= 1.03   T43/T32 0.45 -> <= 0.56
+HCO+ S       alpha84=0.43  R55/R4f<=2.21  R47/R4f>=0.76   T21/T32 2.10 -> >= 0.95   T43/T32 0.43 -> <= 0.56
+HCO+ Bridge  alpha84=0.37  R55/R4f<=1.98  R47/R4f>=0.79   T21/T32 2.03 -> >= 1.03   T43/T32 0.45 -> <= 0.56
+HCO+ E1      alpha84=0.47  R55/R4f<=2.42  R47/R4f>=0.74   T21/T32 2.38 -> >= 0.98   T43/T32 0.34 -> <= 0.46
+HCO+ E2      alpha84=0.65  R55/R4f<=3.34  R47/R4f>=0.67   T21/T32 2.27 -> >= 0.68   T43/T32 0.35 -> <= 0.53
+HCO+ W       alpha84=0.51  R55/R4f<=2.57  R47/R4f>=0.73   T21/T32 2.72 -> >= 1.06   T43/T32 0.29 -> <= 0.40
+
+## 4. same-J HCN/HCO+ ratio: factor by which the ACA-observed ratio could be low/high if HCN and HCO+ have different slopes (true/obs = (MRS_out/MRS_a)^(alpha_HCN-alpha_HCO+); MRS_out ln-U[40,100]", MRS_4f=25"):
+N       delta_alpha= 0.04 [-0.08,0.16]  true/obs HCN/HCO+ (Xb4f 3-2) = 1.03[0.93,1.15]
+S       delta_alpha= 0.09 [-0.05,0.24]  true/obs HCN/HCO+ (Xb4f 3-2) = 1.08[0.96,1.24]
+Bridge  delta_alpha= 0.05 [-0.07,0.17]  true/obs HCN/HCO+ (Xb4f 3-2) = 1.04[0.94,1.17]
+E1      delta_alpha= 0.04 [-0.10,0.18]  true/obs HCN/HCO+ (Xb4f 3-2) = 1.03[0.91,1.18]
+E2      delta_alpha= 0.15 [-0.03,0.37]  true/obs HCN/HCO+ (Xb4f 3-2) = 1.14[0.97,1.40]
+W       delta_alpha= 0.29 [0.12,0.50]  true/obs HCN/HCO+ (Xb4f 3-2) = 1.29[1.10,1.61]
+
+## 5. Primary beam: which dish? noise-map PB fits (pbcor noise ~ 1/PB), 12-m check with Xb4d/Xb4b and ACA candidates
+Xb4b (Band 6) crop noise-map FWHM_PB = 23.1" (rms resid 0.34); expected 1.13 lambda/D: 12 m 21.9", 7 m 37.6"
+Xb4d (Band 6) crop noise-map FWHM_PB = 21.9" (rms resid 0.22); expected 1.13 lambda/D: 12 m 21.9", 7 m 37.6"
+Xb4f (Band 6) crop noise-map FWHM_PB = 39.1" (rms resid 0.20); expected 1.13 lambda/D: 12 m 21.9", 7 m 37.6"
+Xb55: 12-m expectation 33.2", 7-m expectation 56.9"
+Xb4f: 12-m expectation 21.9", 7-m expectation 37.6"
+Xb47: 12-m expectation 16.6", 7-m expectation 28.4"
+
+pos      r_field["]  PB(Xb55)  PB(Xb4f)  PB(Xb47)  | PB(Xb47) if 12-m (17") | pbcor correction factor 1/PB: Xb47 fitted / 12-m
+N          2.6      0.99      0.99      0.98     |   0.94   |   1.02 / 1.07
+S          2.6      0.99      0.99      0.98     |   0.94   |   1.02 / 1.07
+Bridge     0.3      1.00      1.00      1.00     |   1.00   |   1.00 / 1.00
+E1         7.8      0.95      0.89      0.83     |   0.54   |   1.20 / 1.84
+E2         6.0      0.97      0.93      0.90     |   0.70   |   1.11 / 1.43
+W          7.6      0.95      0.89      0.84     |   0.56   |   1.19 / 1.79
+PB-model sensitivity: a 10% error in the FWHM changes the pbcor factor at E1 (r~8") of Xb47 by 3% (ACA) vs 12-m case would be a 11% effect

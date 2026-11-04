@@ -1,0 +1,6 @@
+{
+ "id": "q06",
+ "to": "team-b",
+ "kind": "question",
+ "text": "q01/q03 returned only CASA scripts and no numbers. Please run the uv-matched 12m+7m HCN and HCO+ 3-2 imaging (Xb4d + Xb4f; Xb4b if restorable) at the smallest beam where a matched-uv image works (1.0'' and 1.2'') plus 12-m-only 'c12' at the same beams. Give N, S, N/S for HCN, for HCO+ and for the HCN/HCO+ contrast (peak, ring-median and integrated; +/-350 km/s) with errors, and state the smallest beam with a flux-complete contrast. Tell us whether the Xb4b 12m-only vs 12m+7m difference at 1.0'' is about -0.06 or -0.2 to -0.3."
+}

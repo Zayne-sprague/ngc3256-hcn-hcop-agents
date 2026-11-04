@@ -1,0 +1,18 @@
+{
+ "type": "casa",
+ "script": "scripts/q26_uvdump.py",
+ "args": [],
+ "why": "Q26: dump line-integrated continuum-subtracted visibilities of HCN/HCO+ from the restored MSs to do a matched-uv amplitude-ratio analysis, because the 3-2 u>8kl 10-arcsec images show negative bowls",
+ "id": "20261028T065832-870e",
+ "team": "team-a",
+ "status": "failed",
+ "submitted": "2026-10-28T06:58:32+00:00",
+ "large": false,
+ "queued": "2026-10-28T06:58:35+00:00",
+ "started": "2026-10-28T06:58:37+00:00",
+ "finished": "2026-10-28T06:58:42+00:00",
+ "returncode": 1,
+ "seconds": 5.0,
+ "log": "/workspace/scripts/q26_uvdump.log",
+ "error": "exit 1; see /workspace/scripts/q26_uvdump.log"
+}

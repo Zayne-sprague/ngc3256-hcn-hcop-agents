@@ -1,0 +1,6 @@
+{
+ "id": "r05",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Figure F3b. N/S line-intensity ratio for HCO+, HCN, HNC, CN (1-0 at 2.5\" from p0058: 1.42, 2.21, 2.69, 2.98; 3-2 at 1.4\" where available) and the 1.1 mm continuum (1.25 at 1.4\", 1.54 at 2.5\"), and the per-continuum-normalised N/S (HCN, HNC, CN vs HCO+), with a shaded band showing the effect of a dust-temperature ratio Td_N/Td_S from 0.5 to 2 (team-a p0058-r01 caveat) and a note on possible non-dust continuum at S. Log y axis. Provide CSV, errors (stat; state systematics), beams, and caption facts. Say clearly which entries are not uv-matched."
+}

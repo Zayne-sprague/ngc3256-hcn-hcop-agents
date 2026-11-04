@@ -1,0 +1,25 @@
+{
+ "id": "20261026T162433-6453",
+ "team": "team-b",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X879_X94e.NGC_3256_sci.spw25.cube.I.pbcor.fits"
+ ],
+ "why": "MISSING: HNC 1-0 and HC3N 10-9 at N/S/Bridge/outflow not published at matched positions; needed for HNC/HCN and shock/chemistry diagnostics.",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 1058722560,
+ "submitted": "2026-10-26T16:24:33+00:00",
+ "bytes_to_fetch": 1058722560,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-26T16:24:33+00:00",
+ "bytes_done": 1058722560,
+ "started": "2026-10-26T16:24:35+00:00",
+ "evicted": [],
+ "finished": "2026-10-26T16:25:14+00:00",
+ "paths": [
+  "/archive/files/2016.1.00965.S/member.uid___A001_X879_X94e.NGC_3256_sci.spw25.cube.I.pbcor.fits"
+ ],
+ "minutes": 0.6
+}

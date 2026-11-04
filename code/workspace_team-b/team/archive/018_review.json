@@ -1,0 +1,32 @@
+{
+  "item": "Q40",
+  "verdict": "pass",
+  "checks": [
+    "Report validates against /task/output_schema.json (217 results; the round-1 'confidence' error is repaired, last entry confidence='low').",
+    "Re-derived the dchi2 decomposition from out/q40r2/analysis_N_H.txt by subtracting the cold (Tk<=30) and hot (Tk>=100) per-datum terms. X=40: 24.21-6.97=17.2 (prior 3.77-0.69=3.1, HCO+ 12C 11.0-4.4=6.6, CS 4.75-0.50=4.3, HCN 1.08-0.03=1.0, 13C 3.61-1.35=2.3). X=63: 17.39-13.18=4.2 with the prior term 9.31 in both branches, 13C 2.71-0.97=1.7. These match the summary and the report. I agree. The decomposition shows the discrimination is mostly carried by the 12C HCO+ and CS lines plus the band-scale/eta prior, with only about 2 of 17 coming from the 13C lines. This is stated candidly in the summary, but the report headline still reads as a '13C result'.",
+    "The ratio-only test (13C 3-2/1-0 = 0.277+-0.06) gives dchi2=0 between branches at every Tk. That is physically sensible, since a free (n, N13) can reproduce one ratio at any Tk, so the 13C data act only through the tie N(H13CO+)=N(HCO+)/X. I agree with this reading and with the withdrawal of the round-1 'excluded at >=4 sigma' and 'hot 170-300 K' wording.",
+    "The conclusion depends on X: dchi2 is 17 at X=40, 4 at X=63 and about 0 at X>=80. The data prefer X_N~31-35 (10/15% scales) or 40-51 (looser), which is at the low end of the Tang+19 range. The X prior is partly circular, because the data choose the X that favours the hot branch. The worker flags this (the conclusion needs X<~60). Treat the Bayes factors (15-1200) as model-conditional. The span across prior widths is the honest number: 'moderate to strong, one-zone, X<~60'.",
+    "Tk is only bounded from below (>~50 K), because the best solution sits at the 300 K grid cap. The worker states this and does not claim a hot temperature. I agree.",
+    "N(HCN)/N(HCO+) = 3.5-3.85 at N and 2.2 at S, N/S = 1.6-1.8, with P(N/S>1)~0.98 at about 2 sigma profile significance. This is stable against the branch and consistent with the team-a forum posts p0041/p0042. They find N core T poorly constrained, P(Tc_N>=Tc_S)=0.41, and a hot envelope allowed but not required. Our 'Tk>~50 K' and their 'hot allowed, not required' are not in conflict. Their Tc is the core temperature in a two-zone model, ours is a one-zone effective Tk. Say this explicitly.",
+    "The per-datum print-out labels 'band offsets ln' with values of -1.2 to -3.5. These cannot be ln scale factors with a 10% prior (chi2 would be hundreds), so they are presumably grid-index or sigma units. This is a labelling issue in s236, not a numerical error, because the quoted prior terms (0.3-13) are sensible. I did not edit the worker's files.",
+    "Aperture/beam: the primary result uses only the Harada 1.7 arcsec 12C+13C set, so the beam is matched by construction. The H13CN 1-0 / 2.2 arcsec variant carries an extra 30% systematic and gives the same N answer. I accept this."
+  ],
+  "fixes": [
+    {
+      "what": "Reword the report headline: the cold branch is disfavoured mainly by the 12C HCO+/CS fit once N(H13CO+) is tied to N(HCO+)/X. Only about 2 of 17 dchi2 at X=40 comes from the 13C lines themselves, and none at X>=80. Put the X<~60 condition and the one-zone caveat in the first sentence of the value field and keep confidence 'low'.",
+      "why": "A reader of the headline would take the 13C isotopologues as the decisive evidence. The worker's own decomposition shows they are not.",
+      "how_experts_do_it": "State the posterior probability together with its prior conditions (X prior, band-scale prior, one-zone) and the data terms that drive it. Do not quote a Bayes factor without them."
+    },
+    {
+      "what": "State in the report that the requested H13CN 3-2 / 4-3 constraints were NOT added. H13CN 3-2 (256.6 GHz observed) is not covered by the Xb4f/4d/4b tuning. H13CN 4-3 is in Xb47 spw20 at the 4.2x2.8 arcsec beam, and the earlier Q4 limit (p0007, HCN/H13CN > 8.3 at the N core) was not fed into the RADEX fit. Then run that follow-up: take the Xb47 HCN 4-3/H13CN 4-3 ratio (same cube and beam, so beam-matched) or its limit as an extra constraint, N(H13CN)=N(HCN)/X, with the same X nuisance.",
+      "why": "The item asked for H13CN, and the optically thick HCN branch is exactly what H13CN would test. The worker used H13CO+ and a 2.2 arcsec H13CN 1-0 instead, which is an acceptable substitute but not what was asked.",
+      "how_experts_do_it": "Use a same-cube, same-beam ratio of line to isotopologue as an opacity constraint, and include non-detections as censored likelihoods in the fit."
+    },
+    {
+      "what": "Correct the 'band offsets ln' label in the s236 output description and in the report if it is reproduced there. Optionally add the X_N=31-35 vs X_S=65-85 finding to the report as a possible but untested gradient, not as a result.",
+      "why": "Unclear units make the prior term hard to audit. The N/S X difference may come from the 2.2 vs 1.7 arcsec aperture mismatch.",
+      "how_experts_do_it": "Re-extract H13CO+ and H13CN at S and C at a common taper and compare with the 1.7 arcsec Harada values before reading a 12C/13C gradient into the data."
+    }
+  ],
+  "notes_for_questioner": "(1) A two-zone (core + envelope) fit with X as a nuisance, tested against the hot-envelope question in team-a p0042, would show whether 'Tk>~50 K' is an effective-temperature artefact of the one-zone model. (2) An independent X_N measurement (13CN/CN, H13CN/HC15N, 13CO/C18O with a 16O/18O prior) would remove the main condition on this result. (3) Is the low X_N~30-50 real? A common-taper re-extraction at N, S and C would test it against the S value of 65-85. (4) Q40 asked for H13CN 3-2/4-3, and only H13CN 4-3 exists in this tuning, so a follow-up should say that plainly."
+}

@@ -1,0 +1,6 @@
+{
+ "id": "q02",
+ "to": "team-a",
+ "kind": "question",
+ "text": "For the 1.05 arcsec data (Xb4d 12-m) and the combined 12-m+7-m (or 12-m+ACA) data, give N and S HCN/HCO+ separately (not just the N/S ratio-of-ratios) at a common 1.05 arcsec and 1.5 arcsec beam, the same uv range, weighting, window and baseline for both lines and both nuclei, with errors. We need to see whether the S ratio changes by 9% between arrays (A.1) and how large the N/S change is. Please also state the HCN/HCO+ N/S from the 3-2 line fluxes at 1.4 arcsec in A.6 (HCN 3.11, HCO+ 1.45, ratio 2.14) vs 1.578 in the 12-m-only 1.5 arcsec estimator, and which images each came from."
+}

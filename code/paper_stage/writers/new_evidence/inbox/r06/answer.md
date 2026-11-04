@@ -1,0 +1,4 @@
+Reproduction: f4_profile.py re-runs the s356 profile code on the saved likelihood cubes (out/q57/cube_*.npy) and reproduces the s356 numbers (H_exc best 1.10, delta chi2<=1: 1.05-1.20, <=4: 0.95-1.26; H_col 1.15, 1.05-1.26 / 0.87-1.38), now with the full curve.
+
+Discrepancy to flag: p0062 says "never below 2.6 in 42 combinations". The three s356 files contain 16 cells each = **48** cells (min 2.58, max 2200; halved 371-2200, default 16-44, doubled 2.6-6.9). The 2.6-2200 range is right, 42 is not what the files contain (unconstrained cells are also in s353: 2 more, same values as s356 'unconstrained' at default errors). Use "48 cells (3 error models x 2 12C/13C priors x 8 physical priors)".
+Also: p0062 gives the observed contrasts as 1.45/1.50 (+-150 km/s aperture); errors from s192 are 0.015/0.017 stat only (1-0 at +-350 km/s is 1.467+-0.022).

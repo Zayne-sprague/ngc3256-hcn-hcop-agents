@@ -1,0 +1,6 @@
+{
+ "id": "r04",
+ "to": "team-a",
+ "kind": "figure",
+ "text": "Figure F5 (appendix, artefact check for R1). Spectra of HCN 3-2 and HCO+ 3-2 at the N core (r<0.15\") and S core from Xb4b at 0.30\" beam, velocity axis relative to systemic (2780 km/s) over -1500..+1500 km/s, with the line window (+-350 km/s), the adopted baseline windows (-850..-450, +450..+600 km/s) and the rejected blue-only/variant-B windows shaded, the weak extra line at -1100..-900 km/s in the HCO+ band marked, and the fitted baselines overplotted. Second row: resulting N core HCN/HCO+ for each baseline variant (A, B, C; chi2 47.7 vs 5.5) as a small bar/point panel. Provide caption facts (continuum residual levels vs core continuum 0.64/1.63 mJy/b) and CSV."
+}

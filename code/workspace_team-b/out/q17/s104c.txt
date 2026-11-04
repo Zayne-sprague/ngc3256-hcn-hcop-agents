@@ -1,0 +1,23 @@
+HCN OF-Red [240,360] r=1.05": 3-2 flux 0.163+-0.021 Jy km/s; M18 1-0 0.08+-0.02; Tb ratio r31=0.23+-0.06
+HCN OF-Red [240,360] r=1.5": 3-2 flux 0.222+-0.033 Jy km/s; M18 1-0 0.08+-0.02; Tb ratio r31=0.31+-0.09
+HCN OF-Red [240,360] r=2.1": 3-2 flux 0.300+-0.051 Jy km/s; M18 1-0 0.08+-0.02; Tb ratio r31=0.42+-0.13
+HCN South-OF-Blue [-360,-180] r=1.05": 3-2 flux 0.392+-0.034 Jy km/s; M18 1-0 0.07+-0.02; Tb ratio r31=0.62+-0.19
+HCN South-OF-Blue [-360,-180] r=1.5": 3-2 flux 0.477+-0.050 Jy km/s; M18 1-0 0.07+-0.02; Tb ratio r31=0.76+-0.23
+HCN South-OF-Blue [-360,-180] r=2.1": 3-2 flux 0.461+-0.074 Jy km/s; M18 1-0 0.07+-0.02; Tb ratio r31=0.73+-0.24
+HCO+ OF-Red [240,360] r=1.05": 3-2 flux 0.126+-0.028 Jy km/s; M18 1-0 0.08+-0.02; Tb ratio r31=0.18+-0.06
+HCO+ OF-Red [240,360] r=1.5": 3-2 flux 0.186+-0.045 Jy km/s; M18 1-0 0.08+-0.02; Tb ratio r31=0.26+-0.09
+HCO+ OF-Red [240,360] r=2.1": 3-2 flux 0.267+-0.069 Jy km/s; M18 1-0 0.08+-0.02; Tb ratio r31=0.37+-0.13
+HCO+ South-OF-Blue [-360,-180] r=1.05": 3-2 flux 0.293+-0.036 Jy km/s; M18 1-0 0.1+-0.02; Tb ratio r31=0.33+-0.08
+HCO+ South-OF-Blue [-360,-180] r=1.5": 3-2 flux 0.362+-0.058 Jy km/s; M18 1-0 0.1+-0.02; Tb ratio r31=0.40+-0.10
+HCO+ South-OF-Blue [-360,-180] r=2.1": 3-2 flux 0.393+-0.089 Jy km/s; M18 1-0 0.1+-0.02; Tb ratio r31=0.44+-0.13
+HCN: matched-window (|v|=180..320) ridge/lobe flux ratio 0.77+-0.10
+HCO+: matched-window (|v|=180..320) ridge/lobe flux ratio 0.95+-0.21
+weighted mean ridge/lobe (HCN,HCO+; treats the two as independent, flux scale systematic +-8% not included) = 0.80+-0.09
+ridge dense mass in |v|=180..360 window (X(HCO+)=1e-8): 1.68e+06 Msun (lobe window 2.1e+06 x 0.80); bipolar total in the window = 3.78e+06; x1.9 if both counted (S-lobe+ridge)
+ridge dense mass in |v|=180..360 window (X(HCO+)=3e-9): 5.61e+06 Msun (lobe window 7.0e+06 x 0.80); bipolar total in the window = 1.26e+07; x1.9 if both counted (S-lobe+ridge)
+i=70: X=1e-8: Mdot lobe 4.1 Msun/yr, ridge 1.9 (ratio 0.46); Pdot ~ M v^2 tan^2... momentum (los) p_lobe=5.31e+08 p_ridge=4.32e+08 Msun km/s (ratio 0.81); t_dyn(proj/(v tan i)) lobe 0.51 ridge 0.89 Myr
+i=70: X=3e-9: Mdot lobe 13.6 Msun/yr, ridge 6.3 (ratio 0.46); Pdot ~ M v^2 tan^2... momentum (los) p_lobe=1.77e+09 p_ridge=1.44e+09 Msun km/s (ratio 0.81); t_dyn(proj/(v tan i)) lobe 0.51 ridge 0.89 Myr
+i=80: X=1e-8: Mdot lobe 8.4 Msun/yr, ridge 3.9 (ratio 0.46); Pdot ~ M v^2 tan^2... momentum (los) p_lobe=5.31e+08 p_ridge=4.32e+08 Msun km/s (ratio 0.81); t_dyn(proj/(v tan i)) lobe 0.25 ridge 0.43 Myr
+i=80: X=3e-9: Mdot lobe 28.2 Msun/yr, ridge 13.1 (ratio 0.46); Pdot ~ M v^2 tan^2... momentum (los) p_lobe=1.77e+09 p_ridge=1.44e+09 Msun km/s (ratio 0.81); t_dyn(proj/(v tan i)) lobe 0.25 ridge 0.43 Myr
+i=85: X=1e-8: Mdot lobe 17.0 Msun/yr, ridge 7.9 (ratio 0.46); Pdot ~ M v^2 tan^2... momentum (los) p_lobe=5.31e+08 p_ridge=4.32e+08 Msun km/s (ratio 0.81); t_dyn(proj/(v tan i)) lobe 0.12 ridge 0.21 Myr
+i=85: X=3e-9: Mdot lobe 56.8 Msun/yr, ridge 26.3 (ratio 0.46); Pdot ~ M v^2 tan^2... momentum (los) p_lobe=1.77e+09 p_ridge=1.44e+09 Msun km/s (ratio 0.81); t_dyn(proj/(v tan i)) lobe 0.12 ridge 0.21 Myr

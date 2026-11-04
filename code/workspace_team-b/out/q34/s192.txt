@@ -1,0 +1,60 @@
+beam 1.5" comb: peaks done
+beam 1.5" c12: peaks done
+beam 2.2" comb: peaks done
+beam 2.2" c12: peaks done
+
+################ beam 1.5"  (1-0: 2015.1.00412 X145|1.5; Xb4d image-plane convolved 3-2 for reference)
+ comb w350 N/S: 1-0 1.616+-0.059 | 3-2 matched-uv 1.532+-0.026 (Xb4d image 1.809) | D=0.948+-0.038 (-1.3 sig)
+ comb w350 N/Bridge: 1-0 1.403+-0.045 | 3-2 matched-uv 1.207+-0.022 (Xb4d image 1.423) | D=0.861+-0.032 (-4.4 sig)
+ comb w350 S/Bridge: 1-0 0.868+-0.037 | 3-2 matched-uv 0.788+-0.018 (Xb4d image 0.787) | D=0.907+-0.043 (-2.1 sig)
+ comb w350 r31 HCN: N 0.275+-0.004 (Xb4d 0.275; flux/Xb4d 0.998) | S 0.279+-0.009 (Xb4d 0.223; flux/Xb4d 1.251) | Bridge 0.252+-0.007 (Xb4d 0.203; flux/Xb4d 1.242) | N/S 0.984+-0.034 (Xb4d 1.234)
+ comb w350 r31 HCO+: N 0.390+-0.005 (Xb4d 0.374; flux/Xb4d 1.044) | S 0.376+-0.006 (Xb4d 0.339; flux/Xb4d 1.108) | Bridge 0.307+-0.005 (Xb4d 0.279; flux/Xb4d 1.102) | N/S 1.038+-0.022 (Xb4d 1.102)
+ comb h150 N/S: 1-0 1.616+-0.041 | 3-2 matched-uv 1.634+-0.020 (Xb4d image 1.843) | D=1.011+-0.029 (0.4 sig)
+ comb h150 N/Bridge: 1-0 1.336+-0.030 | 3-2 matched-uv 1.292+-0.016 (Xb4d image 1.449) | D=0.967+-0.025 (-1.3 sig)
+ comb h150 S/Bridge: 1-0 0.827+-0.025 | 3-2 matched-uv 0.791+-0.012 (Xb4d image 0.786) | D=0.956+-0.032 (-1.4 sig)
+ comb h150 r31 HCN: N 0.288+-0.003 (Xb4d 0.285; flux/Xb4d 1.009) | S 0.273+-0.006 (Xb4d 0.227; flux/Xb4d 1.205) | Bridge 0.249+-0.005 (Xb4d 0.207; flux/Xb4d 1.203) | N/S 1.054+-0.026 (Xb4d 1.259)
+ comb h150 r31 HCO+: N 0.396+-0.003 (Xb4d 0.384; flux/Xb4d 1.033) | S 0.380+-0.004 (Xb4d 0.348; flux/Xb4d 1.094) | Bridge 0.331+-0.004 (Xb4d 0.302; flux/Xb4d 1.098) | N/S 1.043+-0.015 (Xb4d 1.104)
+ c12 w350 N/S: 1-0 1.616+-0.059 | 3-2 matched-uv 1.578+-0.027 (Xb4d image 1.809) | D=0.977+-0.040 (-0.6 sig)
+ c12 w350 N/Bridge: 1-0 1.403+-0.045 | 3-2 matched-uv 1.218+-0.025 (Xb4d image 1.423) | D=0.869+-0.033 (-4.0 sig)
+ c12 w350 S/Bridge: 1-0 0.868+-0.037 | 3-2 matched-uv 0.772+-0.018 (Xb4d image 0.787) | D=0.889+-0.043 (-2.6 sig)
+ c12 w350 r31 HCN: N 0.264+-0.004 (Xb4d 0.275; flux/Xb4d 0.958) | S 0.257+-0.008 (Xb4d 0.223; flux/Xb4d 1.152) | Bridge 0.229+-0.006 (Xb4d 0.203; flux/Xb4d 1.130) | N/S 1.026+-0.035 (Xb4d 1.234)
+ c12 w350 r31 HCO+: N 0.373+-0.005 (Xb4d 0.374; flux/Xb4d 0.999) | S 0.355+-0.006 (Xb4d 0.339; flux/Xb4d 1.048) | Bridge 0.282+-0.005 (Xb4d 0.279; flux/Xb4d 1.009) | N/S 1.050+-0.023 (Xb4d 1.102)
+ c12 h150 N/S: 1-0 1.616+-0.041 | 3-2 matched-uv 1.666+-0.020 (Xb4d image 1.843) | D=1.031+-0.029 (1.1 sig)
+ c12 h150 N/Bridge: 1-0 1.336+-0.030 | 3-2 matched-uv 1.309+-0.018 (Xb4d image 1.449) | D=0.979+-0.026 (-0.8 sig)
+ c12 h150 S/Bridge: 1-0 0.827+-0.025 | 3-2 matched-uv 0.785+-0.013 (Xb4d image 0.786) | D=0.950+-0.032 (-1.5 sig)
+ c12 h150 r31 HCN: N 0.277+-0.003 (Xb4d 0.285; flux/Xb4d 0.973) | S 0.255+-0.006 (Xb4d 0.227; flux/Xb4d 1.126) | Bridge 0.227+-0.004 (Xb4d 0.207; flux/Xb4d 1.098) | N/S 1.088+-0.026 (Xb4d 1.259)
+ c12 h150 r31 HCO+: N 0.380+-0.003 (Xb4d 0.384; flux/Xb4d 0.990) | S 0.360+-0.004 (Xb4d 0.348; flux/Xb4d 1.036) | Bridge 0.304+-0.004 (Xb4d 0.302; flux/Xb4d 1.009) | N/S 1.055+-0.016 (Xb4d 1.104)
+ r=6" aperture N HCN32: comb 7 K km/s, c12 6 -> c12/comb 0.855; r=beam aperture c12/comb 0.960
+ r=6" aperture N HCOp32: comb 14 K km/s, c12 12 -> c12/comb 0.857; r=beam aperture c12/comb 0.957
+ r=6" aperture S HCN32: comb 7 K km/s, c12 6 -> c12/comb 0.895; r=beam aperture c12/comb 0.921
+ r=6" aperture S HCOp32: comb 14 K km/s, c12 12 -> c12/comb 0.879; r=beam aperture c12/comb 0.946
+ r=6" aperture Bridge HCN32: comb 8 K km/s, c12 7 -> c12/comb 0.853; r=beam aperture c12/comb 0.910
+ r=6" aperture Bridge HCOp32: comb 16 K km/s, c12 13 -> c12/comb 0.853; r=beam aperture c12/comb 0.916
+
+################ beam 2.2"  (1-0: 2015.1.00993 X961|2.2; Xb4d image-plane convolved 3-2 for reference)
+ comb w350 N/S: 1-0 1.467+-0.022 | 3-2 matched-uv 1.441+-0.023 (Xb4d image 1.650) | D=0.983+-0.022 (-0.8 sig)
+ comb w350 N/Bridge: 1-0 1.178+-0.015 | 3-2 matched-uv 1.136+-0.016 (Xb4d image 1.186) | D=0.965+-0.018 (-1.9 sig)
+ comb w350 S/Bridge: 1-0 0.803+-0.013 | 3-2 matched-uv 0.788+-0.014 (Xb4d image 0.719) | D=0.982+-0.024 (-0.8 sig)
+ comb w350 r31 HCN: N 0.263+-0.002 (Xb4d 0.247; flux/Xb4d 1.064) | S 0.261+-0.004 (Xb4d 0.194; flux/Xb4d 1.341) | Bridge 0.258+-0.003 (Xb4d 0.225; flux/Xb4d 1.148) | N/S 1.007+-0.020 (Xb4d 1.271)
+ comb w350 r31 HCO+: N 0.351+-0.002 (Xb4d 0.330; flux/Xb4d 1.066) | S 0.343+-0.003 (Xb4d 0.292; flux/Xb4d 1.174) | Bridge 0.333+-0.003 (Xb4d 0.303; flux/Xb4d 1.102) | N/S 1.025+-0.010 (Xb4d 1.130)
+ comb h150 N/S: 1-0 1.448+-0.015 | 3-2 matched-uv 1.503+-0.017 (Xb4d image 1.675) | D=1.038+-0.016 (2.4 sig)
+ comb h150 N/Bridge: 1-0 1.176+-0.010 | 3-2 matched-uv 1.168+-0.011 (Xb4d image 1.191) | D=0.993+-0.013 (-0.5 sig)
+ comb h150 S/Bridge: 1-0 0.812+-0.009 | 3-2 matched-uv 0.777+-0.010 (Xb4d image 0.711) | D=0.957+-0.016 (-2.7 sig)
+ comb h150 r31 HCN: N 0.269+-0.002 (Xb4d 0.252; flux/Xb4d 1.066) | S 0.253+-0.003 (Xb4d 0.194; flux/Xb4d 1.302) | Bridge 0.259+-0.002 (Xb4d 0.231; flux/Xb4d 1.124) | N/S 1.063+-0.014 (Xb4d 1.299)
+ comb h150 r31 HCO+: N 0.357+-0.002 (Xb4d 0.338; flux/Xb4d 1.055) | S 0.349+-0.002 (Xb4d 0.301; flux/Xb4d 1.157) | Bridge 0.342+-0.002 (Xb4d 0.313; flux/Xb4d 1.091) | N/S 1.024+-0.007 (Xb4d 1.123)
+ c12 w350 N/S: 1-0 1.467+-0.022 | 3-2 matched-uv 1.451+-0.027 (Xb4d image 1.650) | D=0.989+-0.024 (-0.5 sig)
+ c12 w350 N/Bridge: 1-0 1.178+-0.015 | 3-2 matched-uv 1.148+-0.019 (Xb4d image 1.186) | D=0.975+-0.020 (-1.2 sig)
+ c12 w350 S/Bridge: 1-0 0.803+-0.013 | 3-2 matched-uv 0.791+-0.016 (Xb4d image 0.719) | D=0.986+-0.026 (-0.5 sig)
+ c12 w350 r31 HCN: N 0.247+-0.002 (Xb4d 0.247; flux/Xb4d 0.999) | S 0.232+-0.004 (Xb4d 0.194; flux/Xb4d 1.195) | Bridge 0.235+-0.003 (Xb4d 0.225; flux/Xb4d 1.045) | N/S 1.062+-0.022 (Xb4d 1.271)
+ c12 w350 r31 HCO+: N 0.327+-0.002 (Xb4d 0.330; flux/Xb4d 0.993) | S 0.305+-0.003 (Xb4d 0.292; flux/Xb4d 1.044) | Bridge 0.304+-0.002 (Xb4d 0.303; flux/Xb4d 1.006) | N/S 1.074+-0.013 (Xb4d 1.130)
+ c12 h150 N/S: 1-0 1.448+-0.015 | 3-2 matched-uv 1.518+-0.020 (Xb4d image 1.675) | D=1.049+-0.017 (2.8 sig)
+ c12 h150 N/Bridge: 1-0 1.176+-0.010 | 3-2 matched-uv 1.179+-0.013 (Xb4d image 1.191) | D=1.003+-0.014 (0.2 sig)
+ c12 h150 S/Bridge: 1-0 0.812+-0.009 | 3-2 matched-uv 0.776+-0.011 (Xb4d image 0.711) | D=0.956+-0.017 (-2.5 sig)
+ c12 h150 r31 HCN: N 0.254+-0.002 (Xb4d 0.252; flux/Xb4d 1.005) | S 0.226+-0.003 (Xb4d 0.194; flux/Xb4d 1.161) | Bridge 0.238+-0.002 (Xb4d 0.231; flux/Xb4d 1.029) | N/S 1.125+-0.016 (Xb4d 1.299)
+ c12 h150 r31 HCO+: N 0.333+-0.002 (Xb4d 0.338; flux/Xb4d 0.983) | S 0.310+-0.002 (Xb4d 0.301; flux/Xb4d 1.030) | Bridge 0.312+-0.002 (Xb4d 0.313; flux/Xb4d 0.996) | N/S 1.073+-0.008 (Xb4d 1.123)
+ r=6" aperture N HCN32: comb 7 K km/s, c12 6 -> c12/comb 0.846; r=beam aperture c12/comb 0.940
+ r=6" aperture N HCOp32: comb 13 K km/s, c12 11 -> c12/comb 0.828; r=beam aperture c12/comb 0.932
+ r=6" aperture S HCN32: comb 7 K km/s, c12 6 -> c12/comb 0.833; r=beam aperture c12/comb 0.891
+ r=6" aperture S HCOp32: comb 14 K km/s, c12 12 -> c12/comb 0.814; r=beam aperture c12/comb 0.890
+ r=6" aperture Bridge HCN32: comb 8 K km/s, c12 7 -> c12/comb 0.848; r=beam aperture c12/comb 0.911
+ r=6" aperture Bridge HCOp32: comb 15 K km/s, c12 13 -> c12/comb 0.830; r=beam aperture c12/comb 0.913

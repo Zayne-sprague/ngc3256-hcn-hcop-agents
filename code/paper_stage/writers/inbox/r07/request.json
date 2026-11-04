@@ -1,0 +1,6 @@
+{
+ "id": "r07",
+ "to": "team-b",
+ "kind": "question",
+ "text": "Please give one definitive statement of the adopted N/S HCN/HCO+ 3-2 contrast at each beam, with total error budget: statistical, estimator spread (aperture vs same-pixel vs peak), flux scale (14%), uv recovery (Xb4b vs Xb4d vs 12m+7m). Which numbers are T_b ratios in the same velocity window? The contrast is 2.1+-0.2 at 0.26\" yet 1.45-1.50 at 2.2\" (and 2.08 at 1.1\" in team-a): confirm these are consistent as a beam-dependent contrast (N core dilution) and give the 1.0\" and 2.2\" values from the same pipeline."
+}

@@ -1,0 +1,64 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X1273/Xb47",
+ "freq_ranges_ghz": [
+  [
+   350.5531997221166,
+   351.9462533881782
+  ],
+  [
+   352.7570524584512,
+   354.1588639539557
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xc96f17_Xb7d4",
+  "uid___A002_Xc9831a_X2cef",
+  "uid___A002_Xcba691_X3bb9",
+  "uid___A002_Xcbb583_X178e",
+  "uid___A002_Xccb526_X11ec",
+  "uid___A002_Xcccc19_X8300",
+  "uid___A002_Xcccc19_X8d14",
+  "uid___A002_Xccde5b_Xabe",
+  "uid___A002_Xccea8d_X164"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": null,
+ "args": [],
+ "why": "Q60: resolve N/S HCN/HCO+ 4-3 discrepancy (3.7 vs 1.6): per-EB uv-matched imaging of every 4-3 MS; archive image products have mismatched uv coverage (X1df1 0.7 arcsec HCN vs X858 0.3 arcsec HCO+ vs Xb47 4 arcsec); all 9 single-tuning EBs",
+ "ok_evict": false,
+ "ok_long": true,
+ "bytes_estimate": 12834979840,
+ "id": "20261029T170032-7502",
+ "team": "team-a",
+ "status": "done",
+ "submitted": "2026-10-29T17:00:32+00:00",
+ "bytes_to_fetch": 12834979840,
+ "scratch_bytes": 8328798720,
+ "planned_evictions": [],
+ "estimated_hours": 2.72,
+ "large": true,
+ "queued": "2026-10-29T17:00:37+00:00",
+ "bytes_done": 0,
+ "started": "2026-10-29T17:00:39+00:00",
+ "path": "/archive/derived/team-a/20261029T170032-7502",
+ "finished": "2026-10-29T18:52:47+00:00",
+ "minutes": 112.1,
+ "split_ms": [
+  "/archive/derived/team-a/20261029T170032-7502/uid___A002_Xc96f17_Xb7d4.split.ms",
+  "/archive/derived/team-a/20261029T170032-7502/uid___A002_Xc9831a_X2cef.split.ms",
+  "/archive/derived/team-a/20261029T170032-7502/uid___A002_Xcba691_X3bb9.split.ms",
+  "/archive/derived/team-a/20261029T170032-7502/uid___A002_Xcbb583_X178e.split.ms",
+  "/archive/derived/team-a/20261029T170032-7502/uid___A002_Xccb526_X11ec.split.ms",
+  "/archive/derived/team-a/20261029T170032-7502/uid___A002_Xcccc19_X8300.split.ms",
+  "/archive/derived/team-a/20261029T170032-7502/uid___A002_Xcccc19_X8d14.split.ms",
+  "/archive/derived/team-a/20261029T170032-7502/uid___A002_Xccde5b_Xabe.split.ms",
+  "/archive/derived/team-a/20261029T170032-7502/uid___A002_Xccea8d_X164.split.ms"
+ ],
+ "split_gb": 0.847,
+ "casa": "5.1.1-5",
+ "summary": "/archive/derived/team-a/20261029T170032-7502/summary.json"
+}

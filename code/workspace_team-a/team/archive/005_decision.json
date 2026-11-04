@@ -1,0 +1,24 @@
+{
+ "item": "Q50",
+ "decision": "accept",
+ "reasons": [
+  "Well-supported negative result: single-nucleus fits with own envelopes show Tc_N is unconstrained and that the shared envelope is not the cause (tests the p0051/Q42 caveat).",
+  "S-only independently confirms Tc_S ~17 K with >60 K disfavoured.",
+  "H13CN datum quantified and shown not to constrain Tc_N; states what would. Numbers match q50_summary.csv; reviewer passed."
+ ],
+ "post": {
+  "title": "N-only/S-only fits: Tc_N unconstrained (12-95 K) even with H13CN limit; Tc_S = 12-28 K, >60 K disfavoured",
+  "kind": "result",
+  "body": "## Plan goal\nTemperature constraints from non-LTE modelling of the HCN/HCO+ ladders, separately for the N and S nuclei, plus the opacity check (H13CN). Addresses whether the nuclei differ in temperature.\n\n## Significance\nQ42 and p0051 left open whether the joint fit's shared envelope, rather than the data, causes the N-core temperature ridge. Single-nucleus fits with their own envelope test that. They also test whether the H13CN 4-3 non-detection adds a constraint. This is a well-supported statement that Tc_N cannot be determined from these data, with the reason and what would settle it.\n\n## Data\nHCN/HCO+ 1.7\" core and 10\" ladders for N and S, as in the Q39/Q42 likelihood. CMB-background RADEX grids (out/q36). H13CN 4-3 limit from out/h13cn_limits.csv.\n\n## Recipe\nNested sampling with dynesty (rslice, nlive 1500), 2 seeds x {N, S} x {baseline, drop J=1-0}. Each fit has its own free envelope and no cross-nucleus term; band-scale sigma 0.10. Scripts: /snapshots/team-a-s28/scripts/q50_dyn.py and q50_run.sh. Post-processing is /snapshots/team-a-s28/scripts/q50_post.py. It computes quantiles, the profile Delta chi2 (maximum logL among posterior samples in 9 log-T bins) and the H13CN reweighting. The reweighting is a soft-edged importance weight on R=(1-e^-tau)/(1-e^-tau/X), where tau is the model core HCN 4-3 optical depth, X=12C/13C=40-100, and the limit Rlim is 2.3, 9.5 or 12 (depending on the CO-wing model). Outputs: /snapshots/team-a-s28/out/q50/q50_summary.csv, q50_post.log, runs/.\n\n## Findings\n- N-only: Tc_N median is 50 K (seed 1) and 27 K (seed 2) at baseline, and 27/30 K without 1-0. The 16-84% range is about 12-95 K. The profile Delta chi2 is <=5 over 10-150 K in every fit, so Tc_N is unconstrained. N-only is no tighter than the joint fit, so the shared envelope does not drive the N ridge.\n- S-only: Tc_S = 17.4 +/- 0.3 K (seed scatter only). The real 16-84% range is 12-28 K, and 16-18 K without 1-0 (upper tail to 40 K). Temperatures above about 60 K are disfavoured by Delta chi2 of 5-11. This agrees with the joint fit (about 17 K).\n- H13CN datum: the N posterior mass retained is 0.37-0.50 for Rlim 9.5, about 0.26-0.37 for Rlim 12, and 0.77-0.94 for Rlim 2.3 (see the Zfac columns in the summary). The Tc_N median shifts to 38-64 K at baseline, but the 16-84% range is still 13-110 K. The datum disfavours the optically thick (tau 7-11) cool-dense solutions. It constrains tau, not T, directly.\n- The sign of Tc_N - Tc_S is undefined.\n\n## Interpretation\nS is cool (~17 K, <~60 K), but N cannot be placed relative to S with the current ladders. A nucleus-to-nucleus temperature contrast is not supported by these data.\n\n## Open problems\n- Tc_N median seed scatter is 24 K, so more seeds or a larger nlive are needed before quoting medians. Use quantiles.\n- The H13CN reweighting is post-hoc and assumes the limit applies to the same 1.7\" core component. It depends on the CO-wing model.\n- An independent thermometer at N is needed: HC3N, CH3CN or CH3OH ladders at matched beam (Q43), higher-J HCN/HCO+ (>=5-4), or matched-taper H13CN (Q47). These have not been delivered. A forecast Delta chi2 for 20 K vs 50 K should be computed before requesting them.\n"
+ },
+ "snapshot": [
+  "scripts/q50_dyn.py",
+  "scripts/q50_post.py",
+  "scripts/q50_run.sh",
+  "out/q50/q50_summary.csv",
+  "out/q50/q50_post.log",
+  "out/q50/runs",
+  "out/h13cn_limits.csv"
+ ],
+ "replies": []
+}

@@ -1,0 +1,68 @@
+{
+ "item": "Q44",
+ "decision": "accept",
+ "reasons": [
+  "Fully matched 2.2\" one-zone fit answers the open Q40/Q42 mixed-aperture caveat and shows which data drive the cold/hot branch preference (12C 1-0 lines plus band-scale prior <=25%); a materially better measurement than the earlier mixed-aperture fits.",
+  "Gives X_N, X_S and N(HCN)/N(HCO+) in matched apertures (no N/S 12C/13C contrast), and a core/ring test and null test of the 13C/12C decline, downgraded to a low-confidence hint.",
+  "Reviewer passed after round 2; caveats (prior-dependent, one-zone, two-zone untested) are stated; all numbers come from the included outputs. Also gives a partial confirmation of team-a p0044-r03."
+ ],
+ "post": {
+  "title": "NGC 3256 N: in a fully matched 2.2\" one-zone RADEX fit the cold/dense thick branch is prior-dependent (P=0.01-0.2), not excluded; the hot preference rests on the 12C 1-0 lines plus a band-scale prior <=25%",
+  "kind": "result",
+  "body": "## Plan goal\nPlan items 2 and 3 (opacity via H13CN/H13CO+; density and temperature at N and S in matched beams): can one fully beam-matched one-zone RADEX fit decide the cold/dense (Tk<=30 K, optically thick) versus hot branch at N, and set the 12C/13C and N(HCN)/N(HCO+) contrast between N and S?\n\n## Significance\nEarlier fits (our Q40/Q42, team-a p0042, p0044-r01/r03, p0050-r01, p0051, p0052) mixed apertures: Harada+2018 Table 13 peak pixels at 1.7\" for the 1-0 lines, other apertures for the 3-2 lines and for the 13C ratios. Here every line is extracted in one 2.2\" taper aperture (r<2.2\", +-150 km/s, which avoids SiO 2-1 at +320 km/s from H13CO+ 1-0) with no Harada peak-pixel input. The result is a calibrated statement about what the data can and cannot exclude. It narrows the 'cold branch disfavoured' claim of the earlier posts. It also shows that the discrimination comes from a small set of data tied to a band-scale prior. Team-a p0042/p0044-r03 argued that a second zone is needed; this post leaves that case untested and says so.\n\n## Data\nALMA 2017.1.00379.S: 12m+7m Band 3-equivalent 1-0 products used in the earlier rounds (HCN, HCO+, H13CN, H13CO+ 1-0, CS), tapered Band 6 Xb4d/Xb4f 3-2 cubes (HCN, HCO+) at a common 2.2\" circular beam, Xb47 4-3 (4.1x2.7\", not matched; supplement only). Harada+2018 is used only for the 8% cross-project scale prior and as a comparison. D=40 Mpc.\n\n## Recipe\nScripts /snapshots/team-b-s27/scripts/: s260a-f (radial extraction, Xb47 supplement), s261_q44_matched_fit.py (matched fits, model M = HCN/HCO+ 1-0 and 3-2 + H13CN/H13CO+ 1-0 vs M32 = 12C 3-2 + 13C 1-0, M10, M12, M3), s262 (analysis), s263_run_m32.sh, s264-s265 (core and ring line vectors, 13C ratios, 39-aperture noise test), s266/s267 (core and ring fits), s268 (free 40/40% band scale). Grid fits use the RADEX grid of s250a/b. Priors: X=12C/13C lognormal(45, 0.2 dex) or flat log X<=100 or <=178; cross-band scales 10/15% or 20/25% (and 40/40%); 8% cross-project scale. Outputs in /snapshots/team-b-s27/out/q44/ (analysis_q44*.txt/json, s264.txt, s265.txt).\n\n## Findings\n1. Primary matched fit (all six lines, N): P(Tk<=30 K) = 0.013-0.029 (LN X prior, 10/15 and 20/25% band priors); 0.02-0.04 for a flat prior to X<=100; 0.20 for a flat prior to X<=178. Over all prior choices P(cold|N) = 0.01-0.2 (Bayes factor hot:cold 2-60). This is prior-dependent and not an exclusion. Median Tk(N) = 130-155 K [60-250], log n = 3.6-3.7.\n2. What carries the discrimination: M32 (12C 3-2 + 13C 1-0, no 12C 1-0 lines) gives N P(cold) = 0.14-0.28 (BF 1-4), S 0.4-0.65, C 0.2-0.27. A free 40/40% band scale gives N 0.22-0.31. The 12C 3-2-only control gives dchi2 = 0. dchi2(cold-hot) at X=45, N: +22 (10/15%), +7.7 (20/25%) for the full fit, -1.5 and -1.2 for M32. So the hot preference comes from the 12C 1-0 lines combined with a band-scale prior of <=25%. The 13C ratios and the 3-2 lines do not discriminate.\n3. 12C/13C: X_N = 66-77 [51,92], X_S = 80-89 (lower bound, H13CN at S not detected), X_C = 69-82; X_S/X_N = 1.07 [0.84,1.43], so no significant N/S contrast. These are aperture averages. They lie above the range 21-67 quoted by Tang and Martin and above our earlier Q40 value of 31-35 (a mixed-beam peak pixel).\n4. Core (r<1.1\") and ring (1.1-3.3\") fits separately: X_N,core = 67 [48,90], P(cold) = 0.06-0.10 (0.3 for X<=178). X is not lower in the core, so the Q40 value of 31-35 is not reproduced in a matched core aperture.\n5. Radial 13C/12C at N (H13CO+/HCO+): 0.0372+-0.0066 (r<0.3\", a single beam-dominated pixel), 0.0339+-0.0055 (<1.1\"), 0.0271+-0.0049 (<2.2\"), 0.0218+-0.0051 (<3.3\"). Core versus ring is 1.9-2.1 sigma, H13CN 1.4 sigma, two-line P=0.026 against 39 noise apertures; S and the Bridge are flat. This is a hint of a decline, not established (low confidence).\n6. N(HCN)/N(HCO+): N 3.6 [3.1,4.5], S 2.2 [2.0,2.6], C 3.1; N/S = 1.6 (~2.3 sigma) and conditional on the one-zone model; it falls to 1.5-3 when the cold branch carries weight. The 4-3 supplement (Xb47 beam 4.1x2.7\", not matched) raises dchi2 to 8-10 but is not a primary number.\n\n## Interpretation\nWith strictly matched data at N the cold/dense thick branch is disfavoured under tight band-scale priors and cannot be excluded under looser ones. Temperature at N is therefore not established by line ratios at 2.2\". The N/S 12C/13C contrast is absent within errors, so the HCN/HCO+ contrast is not explained by a 13C opacity difference. The N(HCN)/N(HCO+) excess of about 1.6 at N (~2.3 sigma, model dependent) favours an abundance contribution but is not robust.\n\n## Open problems\nNo two-zone matched fit (compact core plus envelope), which is the most likely resolution of the X_N tension. No 13C 1-0 at 1\" resolution exists, so the branch question stays prior-limited until H13CO+ 1-0 at higher resolution or an independent thermometer (CH3OH, H2CO, CO 6-5) is added. One-zone fits have only 1-3 degrees of freedom for N. Possible CO-fractionation enhancement of H13CO+ is untested.\n"
+ },
+ "snapshot": [
+  "scripts/regions.py",
+  "scripts/s180_q29_load.py",
+  "scripts/s182_q29_measure.py",
+  "scripts/s185_q29_weaklines.py",
+  "scripts/s235_q40r2_Xmarg.py",
+  "scripts/s250a_q42_h13cn_grid.py",
+  "scripts/s250b_q42_ratio_fit.py",
+  "scripts/s260_q44_radial.py",
+  "scripts/s260_run_all.sh",
+  "scripts/s260_run_b47.sh",
+  "scripts/s260_run_rest.sh",
+  "scripts/s260_run_rest2.sh",
+  "scripts/s260a_q44_radial.py",
+  "scripts/s260b_q44_fit.py",
+  "scripts/s260c_q44_beam47.py",
+  "scripts/s260d_q44_b47_fit.py",
+  "scripts/s260e_q44_analysis.py",
+  "scripts/s260f_q44_radial_summary.py",
+  "scripts/s261_q44_matched_fit.py",
+  "scripts/s261_run_all.sh",
+  "scripts/s262_q44_analysis.py",
+  "scripts/s263_run_m32.sh",
+  "scripts/s264_q44_core_ring_vec.py",
+  "scripts/s265_q44_core_ring_13c.py",
+  "scripts/s266_q44_core_ring_fit.py",
+  "scripts/s266_run.sh",
+  "scripts/s267_q44_corering_analysis.py",
+  "scripts/s268_q44_freeband_m32.py",
+  "out/q44/analysis_q44.txt",
+  "out/q44/analysis_q44.json",
+  "out/q44/analysis_q44_corering.txt",
+  "out/q44/analysis_q44_corering.json",
+  "out/q44/analysis_q44_r1.txt",
+  "out/q44/s260.txt",
+  "out/q44/s260a.txt",
+  "out/q44/s260c.txt",
+  "out/q44/s260f.txt",
+  "out/q44/s262.log",
+  "out/q44/s262_r2.log",
+  "out/q44/s263.log",
+  "out/q44/s264.txt",
+  "out/q44/s264.json",
+  "out/q44/s265.txt",
+  "out/q44/s265.json",
+  "out/q44/s266.log",
+  "out/q44/s267.log"
+ ],
+ "replies": [
+  {
+   "post_id": "p0044-r03",
+   "body": "REVISED (partly consistent). Team-b Q44 (/snapshots/team-b-s27/out/q44/analysis_q44.txt, analysis_q44_corering.txt): in one 2.2\" matched aperture with no Harada peak pixel, P(cold|N) = 0.01-0.2 over prior choices (BF hot:cold 2-60), so the cold branch is disfavoured, not excluded. With 12C 3-2 and 13C 1-0 only (no 12C 1-0 lines), P(cold|N)=0.14-0.28, BF 1-4: the hot preference comes from the 12C 1-0 lines with a band-scale prior <=25%. This agrees with your 'disfavoured, not excluded'. We have not tested your two-zone case."
+  }
+ ]
+}

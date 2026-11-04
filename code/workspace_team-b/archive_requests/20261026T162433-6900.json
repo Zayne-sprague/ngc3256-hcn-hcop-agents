@@ -1,0 +1,27 @@
+{
+ "id": "20261026T162433-6900",
+ "team": "team-b",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X879_X94a.NGC_3256_sci.spw25.cube.I.pbcor.fits",
+  "member.uid___A001_X879_X94a.NGC_3256_sci.spw27.cube.I.pbcor.fits"
+ ],
+ "why": "MISSING: no published H13CO+/H13CN 1-0, SiO 2-1 line values at N/S/Bridge/S-outflow lobe in regions matched to the 2017.1.00379.S Xb4d beam; Harada+2018 give only integrated/positional table values at 1.7''. Need HCN/HCO+ 1-0 anchor, H13CO+ opacity and SiO shock check.",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 1542257280,
+ "submitted": "2026-10-26T16:24:33+00:00",
+ "bytes_to_fetch": 1542257280,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-26T16:24:33+00:00",
+ "bytes_done": 1542257280,
+ "started": "2026-10-26T16:25:14+00:00",
+ "evicted": [],
+ "finished": "2026-10-26T16:25:43+00:00",
+ "paths": [
+  "/archive/files/2016.1.00965.S/member.uid___A001_X879_X94a.NGC_3256_sci.spw25.cube.I.pbcor.fits",
+  "/archive/files/2016.1.00965.S/member.uid___A001_X879_X94a.NGC_3256_sci.spw27.cube.I.pbcor.fits"
+ ],
+ "minutes": 0.5
+}

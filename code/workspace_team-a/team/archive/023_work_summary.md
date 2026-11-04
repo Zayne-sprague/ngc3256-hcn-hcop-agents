@@ -1,0 +1,18 @@
+# Q2 work summary (round 2, worker team-a)
+
+## What was done (reviewer fixes, in priority order)
+1. **T floor removed/tested** (`scripts/q2_sens.py`, `run_q2_sens.sh`; `q4c_joint.py` got env switches `Q2_TMIN`, `Q2_GRIDSUF`; default behaviour unchanged). Floors 0/15/20/30 K, full grid 10-150 K, per class A/B/F2 + pooled, profile chi2(T).
+   - **S**: floors 0/15/20 identical: Tkin 20-30 K (median 25), one-sided 95% lower ~19 K, P(T>=80)=0.001. The old "30-40 K" was the floor. Profile chi2 (F2): 7.9@30, 8.8@20, 11.2@15, 19.3@10, 11.0@40, 11.6@50, 12.8@65, 17.2@80, 22@100 -> T 15-50 K (dchi2<4); >=80 K excluded at >3 sigma.
+   - **N**: floor irrelevant (median 80 K; P(T>=80)=0.52) but class dependent (A 55-100, F2 50-100, B 25-50 K); profile chi2 flat 19-31 for 20-100 K, T<=15 K and 150 K disfavoured. So **"N warmer than S" is only suggestive** (N class B sits at 30 K at the global chi2 minimum); S>=80 K is excluded.
+2. **Tbg / model sensitivity** (`q2_grid_tbg.py` -> `out/q4c/grid4_*_tbg{5,10,20}.npz`; `q2_dust.py` -> `out/q2/q2_dust_field.csv`).
+   - 0.24" 258 GHz continuum peak: N 0.56, S 1.85 mJy/beam -> RJ Tb 0.19/0.62 K; at 355 GHz 0.30/1.0 K -> Tbg,eff = 3.0 (N), 3.7 K (S) beam-averaged. So Tbg 2.73-5 K is the relevant range (10 K would need dust filling <~0.1 of the beam, sub-5 pc).
+   - S: chi2min 7.9/7.3/16.2/24.0 at Tbg 2.7/5/10/20; low-Tex(HCN) branch vs equal-Tex (class A) 9.9 vs 97 (2.7 K), 8.9 vs 59 (5 K) but 27.7 vs 18.9 (10 K), 127 vs 28 (20 K): **the S low-Tex branch survives only for Tbg<=5 K** (now stated as conditional). N: chi2min 19.3/23.9/41.6/17.0; Tbg 5 K moves median T 80->65 K, log X -0.25; Tbg 10 K disfavoured (dchi2 22); Tbg 20 K fits only with Tkin=10 K (unphysical).
+   - IR pumping/hyperfine: not modelled. HCN v2=1 3-2 not detected (vib/gnd Tb<0.06 N, <0.08 S, 3 sigma; Q4 `out/q4/hcn_vib.csv`). Stated as a model caveat.
+3. **Regions** (`q2_regions.py` -> `out/q2/q2_regions_R32.csv`, `q2_regions_ladder.csv`). R32 alone (N, S, Bridge, N wings, S-outflow blue lobe, outer disk): n>=1e5 (log n>=5.0-5.5 for X>=1), T unconstrained, except low density allowed only if X<=0.3 at S/Bridge; outer disk uninformative. Single-molecule ladders (Xb4f deblend): all regions are bands (T 10-150, 2.5-5 dex in n); marginal medians N T 50-100 K/log n ~4, S 15-50 K, Bridge HCN 20-80 K, outer 20-50 K log n~4 (flux-recovery dependent). Bridge HCO+ 3-2/2-1=2.05 is non-physical (deblend failure). Conclusion written into the report: only N and S admit a joint fit; the others have a density lower limit and no temperature.
+4. **Physical scales made conditional** (`q2_scales_cond.py` -> `out/q2/q2_scales_cond.csv`, per class + pooled). N(H2), Sigma, L are given as functions of X(HCN); the CO tension is a lower limit on X(HCN): >~1.5e-7 (N) / 5e-7 (S) for Sigma_max=470; 7e-8/2e-7 for 1e3; 2.4e-8/8e-8 for 3e3; 7e-9/2e-8 for 1e4 Msun/pc2. The "fills <1-3% of the cloud" statement is withdrawn. Per-class ranges are in `out/q2/sens/sens_tbg2.7_T0.csv`; pooling equal-weight is a stated choice.
+
+## Outputs
+`out/q2/sens/` (sens_*, prof_*), `out/q2/q2_dust_field.csv`, `q2_regions_*.csv`, `q2_scales_cond.csv`; old `q2_ranges.py` outputs retained (floor-30 K; wing/core, branch, H13CN/CS entries rely on them). `/output/report.json` rebuilt by `scripts/build_report_q2.py` (109 results; backup `out/report.backup.q2r2pre.json`).
+
+## Uncertain
+N fit poor (chi2 19-23/8). Class weighting (A/B/F2) changes N T and X. One-zone RADEX with blackbody Tbg; no dust-field/IR-pumping/hyperfine/two-phase model. X(HCN), dv and Sigma_max assumed/literature. Wing/core and H13CN/CS entries still use the old 30 K-floor posterior (conclusions class- and T-independent). Bridge/disk/outflow: no temperature constraint.

@@ -1,0 +1,18 @@
+# HCN (template = Xb4d HCN 3-2). team-a: N 0.395 S 0.268
+  template clip baseline None      errors formal: N 0.370 [0.367,0.395]  S 0.275 [0.274,0.300]  Bridge 0.280 [0.260,0.294]   (median [min,max] over Rfit, rc, outer)
+  template clip baseline None      errors emp   : N 0.397 [0.394,0.443]  S 0.294 [0.292,0.345]  Bridge 0.284 [0.249,0.318]   (median [min,max] over Rfit, rc, outer)
+  template clip baseline (12, 22)  errors formal: N 0.321 [0.315,0.384]  S 0.230 [0.225,0.296]  Bridge 0.298 [0.283,0.335]   (median [min,max] over Rfit, rc, outer)
+  template clip baseline (12, 22)  errors emp   : N 0.358 [0.354,0.444]  S 0.251 [0.248,0.348]  Bridge 0.287 [0.271,0.339]   (median [min,max] over Rfit, rc, outer)
+  template mask baseline None      errors formal: N 0.372 [0.367,0.502]  S 0.275 [0.274,0.447]  Bridge 0.280 [0.233,0.367]   (median [min,max] over Rfit, rc, outer)
+  template mask baseline None      errors emp   : N 0.398 [0.394,0.566]  S 0.294 [0.293,0.529]  Bridge 0.286 [0.244,0.414]   (median [min,max] over Rfit, rc, outer)
+  template mask baseline (12, 22)  errors formal: N 0.323 [0.315,0.506]  S 0.236 [0.226,0.494]  Bridge 0.317 [0.278,0.427]   (median [min,max] over Rfit, rc, outer)
+  template mask baseline (12, 22)  errors emp   : N 0.361 [0.354,0.583]  S 0.265 [0.248,0.583]  Bridge 0.287 [0.274,0.470]   (median [min,max] over Rfit, rc, outer)
+# HCO+ (template = Xb4d HCO+ 3-2). team-a: N 0.482 S 0.442
+  template clip baseline None      errors formal: N 0.436 [0.420,0.678]  S 0.383 [0.362,0.639]  Bridge 0.487 [0.429,0.638]   (median [min,max] over Rfit, rc, outer)
+  template clip baseline None      errors emp   : N 0.505 [0.492,0.777]  S 0.427 [0.407,0.694]  Bridge 0.509 [0.460,0.639]   (median [min,max] over Rfit, rc, outer)
+  template clip baseline (12, 22)  errors formal: N 0.389 [0.368,0.670]  S 0.346 [0.319,0.665]  Bridge 0.573 [0.437,0.894]   (median [min,max] over Rfit, rc, outer)
+  template clip baseline (12, 22)  errors emp   : N 0.474 [0.454,0.832]  S 0.407 [0.375,0.785]  Bridge 0.545 [0.457,0.727]   (median [min,max] over Rfit, rc, outer)
+  template mask baseline None      errors formal: N 0.450 [0.420,0.738]  S 0.414 [0.362,0.739]  Bridge 0.547 [0.429,0.661]   (median [min,max] over Rfit, rc, outer)
+  template mask baseline None      errors emp   : N 0.525 [0.492,0.816]  S 0.478 [0.407,0.757]  Bridge 0.513 [0.460,0.681]   (median [min,max] over Rfit, rc, outer)
+  template mask baseline (12, 22)  errors formal: N 0.406 [0.368,0.782]  S 0.393 [0.320,0.878]  Bridge 0.653 [0.437,0.892]   (median [min,max] over Rfit, rc, outer)
+  template mask baseline (12, 22)  errors emp   : N 0.493 [0.454,0.868]  S 0.464 [0.375,0.867]  Bridge 0.563 [0.457,0.787]   (median [min,max] over Rfit, rc, outer)

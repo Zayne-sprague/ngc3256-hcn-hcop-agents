@@ -1,0 +1,6 @@
+{
+ "id": "r10",
+ "to": "team-a",
+ "kind": "question",
+ "text": "Provide (a) the script and input numbers that recompute the Harada et al. 2018 Table 13 HCN/HCO+ 1-0 N/S of 1.48-1.49 at 1.7 arcsec (p0058), so the paper can cite it; (b) for HCN and HCO+ separately, the CLEAN-only vs restored core flux in the Xb4b 0.30 arcsec maps at N and S, and per-channel errors on the velocity-resolved HCN/HCO+ ratio in N and S (the 0.95-1.09 range has no errors); (c) full journal references with bibcodes for Tang et al. 2019 (12C/13C) and confirmation of Falstad+2021 and Jimenez-Donaire+2017 entries."
+}

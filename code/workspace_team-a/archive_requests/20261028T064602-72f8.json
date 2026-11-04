@@ -1,0 +1,17 @@
+{
+ "type": "casa",
+ "script": "scripts/q26_image.py",
+ "args": [],
+ "why": "Q26: rerun of the common u>6/8 kl, 8\" taper, 10\" restoring beam imaging (first run failed on a uvrange syntax error, now fixed) for HCN/HCO+ 2-1 (Xb55) and 3-2 (Xb4f, Xb4d)",
+ "id": "20261028T064602-72f8",
+ "team": "team-a",
+ "status": "done",
+ "submitted": "2026-10-28T06:46:02+00:00",
+ "large": false,
+ "queued": "2026-10-28T06:46:04+00:00",
+ "started": "2026-10-28T06:46:06+00:00",
+ "finished": "2026-10-28T06:56:47+00:00",
+ "returncode": 0,
+ "seconds": 640.7,
+ "log": "/workspace/scripts/q26_image.log"
+}

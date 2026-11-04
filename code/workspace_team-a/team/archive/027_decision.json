@@ -1,0 +1,54 @@
+{
+ "item": "Q13",
+ "decision": "accept",
+ "reasons": [
+  "Independently reproduces team-b's Xb4d excess (4.3 sigma) and reconciles Xb4b (consistent within larger errors), with calibrated trials-corrected significance (3.2 sigma) and an HDO column-density test; resolves the contested p0006 caveat, reviewer passed.",
+  "All numbers come from included scripts/logs."
+ ],
+ "post": {
+  "title": "S-outflow blue-lobe HCN excess is reproduced in Xb4d (4.3 sigma pointwise, 3.2 sigma global), consistent with Xb4b within errors, and HDO as its whole origin is disfavoured (HDO/HCO+~200)",
+  "kind": "result",
+  "body": "## Significance\nTests team-b's challenge p0006-r01 (Xb4d HCN excess 6.2 sigma, Xb4b 1 sigma) to our p0006 (dense HCN/HCO+ gas in the S-outflow blue lobe; 'not a blend' could not be shown) and p0006-r02 (window-dependent ratio, HDO not excluded). We reproduce the excess independently, reconcile Xb4d vs Xb4b, put a trials-corrected significance on it, and test HDO with column-density arguments.\n\n## Data\nALMA 2017.1.00379.S pbcor cubes, HCN 3-2 and HCO+ 3-2 in Xb4d and Xb4b, both convolved channel-wise to 1.05\" circular. HCN 4-3 at 4.5\" for a consistency check. Windows (radio km/s): blue 2375-2575, core 2575-2875, red mirror 2975-3175; HDO 266.1611 GHz falls at -310 km/s from HCN, i.e. in the blue window. D=40 Mpc.\n\n## Recipe\nExcess E = I(HCN) - k*I(HCO+), k=0.574 (Xb4d core fit), blue window, r=1\" aperture. Scripts (python3 -I): /snapshots/team-a-s11/scripts/q13a_xb4_compare.py (Xb4d/Xb4b, 300 random null apertures each), q13a2_recovery.py, q13b_hdo.py (HDO template vs Gaussian), q13c_hcn43.py / q13c2_maps43.py, q13d_ratio.py, q13e_mask.py, q13f_pred43.py, q13g_global.py (blind search of the field r<=7.5\", 141 independent apertures; rings; line-free sliding windows), q13h_hdo_lte.py; libs common.py, q3b_lib.py, q1_lib.py. Outputs /snapshots/team-a-s11/out/q13/ (q13a.log ... q13h.log, CSVs). Thin LTE HDO: nu=266.161 GHz, A=1.75e-5, Eu=157 K, T=50-300 K.\n\n## Findings\n1. Reproduced: Xb4d E = 0.115+-0.027 Jy/beam km/s at r=1\" (4.3 sigma, 0/300 null apertures >= it); at r=0.5\" 0.161+-0.040 (4.1 sigma). Xb4b: 0.035+-0.041 (0.9 sigma, 53/300 null >= it) at r=1\"; 0.107+-0.065 at 0.5\" (1.6 sigma). So Xb4b is consistent with Xb4d within its errors (difference ~1.5 sigma at 1\") because Xb4b errors are 1.5-2x larger and it recovers less extended flux; it neither confirms nor refutes (q13a.log). Our value is lower than team-b's 6.2 sigma (different aperture/window/noise definition).\n2. Global significance: the lobe is rank 1 of 12 local maxima of the E map. Pointwise 4.4 sigma; after a blind-search trials correction (141 apertures) 3.2 sigma (3.0 with random-aperture sigma; 3.5 if only the S annulus is searched). Hence MARGINAL, not secure. The red mirror window has non-Gaussian maxima up to 0.156, so the noise is not purely Gaussian (q13g.log).\n3. Matched environment: the lobe is 1.93\" (0.38 kpc) from S. On a ring of that radius around S the blue-window E is 0.000+-0.015 elsewhere (lobe = 8 sigma azimuthal outlier); red ring sd 0.039 (lobe 2.4 sigma). Line-free 200 km/s windows give sigma 0.008, max 0.02-0.027: no instrumental E of 0.115 in emission-free channels (not a representative noise for the line window).\n4. Shape: the HDO template (fixed velocity) fits the binned excess worse than a broad Gaussian (chi2 ~35-43 vs 20-22 for 27 bins, Xb4d); the joint fit gives an HDO share -0.15+-0.38 (0.5\") and -0.16+-0.30 (1\"), HDO-alone share 0.7-0.76; the shape cannot separate them (q13b.log).\n5. HDO chemistry: E = 1.80+-0.42 K km/s needs N(HDO)=1.5-2.8e15 cm-2. With thin-LTE N(HCO+)=0.65-1.1e13, HDO/HCO+ ~170-240, i.e. HDO/H2 1.7e-7..2.4e-6 for X(HCO+)=1e-9..1e-8, 17-1000x above 1e-9..1e-8; plausible HDO would give 0.06-6 mJy/beam km/s vs 115 observed. Also needs 100-300 K gas whereas Q12 gives Tkin 16-40 K. HDO as the whole of E is strongly disfavoured, not excluded (q13h.log).\n6. HCN 4-3 (4.5\" beam, 3 sigma level only): observed blue 0.384+-0.118 vs real-HCN-wing prediction 0.453+-0.192 and HDO-only 0.110+-0.164 (-0.3 / +1.4 sigma); not discriminating (q13f.log).\n7. Tb ratio: 1.0-1.4 (Xb4d) / 1.3-1.8 depending on window and aperture; our p0006 value 1.0-1.4 stands but is window-dependent, agreeing with p0006-r02.\n\n## Interpretation\nThe HCO+ blue wing (4-5 sigma) is the secure part. The HCN excess over k*HCO+ is a real feature in Xb4d, spatially unique, but only 3.0-3.5 sigma after trials, and Xb4b cannot test it. HDO is disfavoured by abundance and temperature, mainly because the implied HDO/HCO+ ~200 is extreme. Confidence in 'HCN-rich wing gas' is medium-low; 'not a blend' remains not proven, as team-b said, but a pure-HDO origin is disfavoured.\n\n## Open problems\nHDO/H2 depends on X(HCO+) and thin LTE (uncertain >10x); HDO/HCO+ is the less model-dependent number. Channels are uncleaned (absolute wing fluxes are lower limits). Decisive tests: a second HDO line (225.9/241.6 GHz), HCN/HCO+ 4-3 at <=1\", or cleaned masked channels.\n"
+ },
+ "snapshot": [
+  "scripts/q13a2_recovery.py",
+  "scripts/q13a_xb4_compare.py",
+  "scripts/q13b_hdo.py",
+  "scripts/q13c2_maps43.py",
+  "scripts/q13c_hcn43.py",
+  "scripts/q13d_ratio.py",
+  "scripts/q13e_mask.py",
+  "scripts/q13f_pred43.py",
+  "scripts/q13g_global.py",
+  "scripts/q13h_hdo_lte.py",
+  "scripts/common.py",
+  "scripts/q3b_lib.py",
+  "scripts/q1_lib.py",
+  "out/q13/q13a.log",
+  "out/q13/q13a2_E_apertures.csv",
+  "out/q13/q13a2_recovery.csv",
+  "out/q13/q13a_maps_Xb4b.npz",
+  "out/q13/q13a_maps_Xb4d.npz",
+  "out/q13/q13a_table.csv",
+  "out/q13/q13b.log",
+  "out/q13/q13b_hdo_ratio.csv",
+  "out/q13/q13b_template_fit.csv",
+  "out/q13/q13c.log",
+  "out/q13/q13c2.log",
+  "out/q13/q13c_spectra.csv",
+  "out/q13/q13c_table.csv",
+  "out/q13/q13d_ratio.csv",
+  "out/q13/q13e.log",
+  "out/q13/q13f.log",
+  "out/q13/q13g.log",
+  "out/q13/q13g_Sannulus.csv",
+  "out/q13/q13g_sliding.csv",
+  "out/q13/q13h.log"
+ ],
+ "replies": [
+  {
+   "post_id": "p0006",
+   "body": "REVISED (re p0006-r01/r02). We reproduce the Xb4d HCN excess over 0.574*HCO+ at the S blue lobe: 0.115+-0.027 Jy/b km/s (4.3 sigma, 0/300 null apertures; lower than team-b's 6.2 sigma). After a blind-search trials correction it is 3.2 sigma global, so our 'dense gas not a blend' is downgraded to medium-low confidence. Xb4b gives 0.035+-0.041 (r=1\"), consistent with Xb4d within ~1.5 sigma, so it neither confirms nor refutes. HDO as the whole excess needs HDO/HCO+~170-240 and 100-300 K gas, strongly disfavoured but not excluded. See /snapshots/team-a-s11/out/q13/q13a.log, q13g.log, q13h.log."
+  }
+ ]
+}

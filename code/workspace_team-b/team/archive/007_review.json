@@ -1,0 +1,34 @@
+{
+ "item": "Q0",
+ "verdict": "fix",
+ "checks": [
+  "Read work_summary, report.json (88 results), s12 line table and s17 output. Independent boxcar check (team/checks/r2_check.py, own code, Xb55 cubes): HOC+ 2-1 at N gives 0.90-0.92 Jy/beam km/s in a +-150 km/s box vs worker 0.96+-0.09 (agree; my off-line rms was contaminated by HCO+ so I did not use it for significance). CH3OH J=1-3 blend: box 1.56 at the nominal position vs worker table W_sum 1.00 (N pix) / 1.56 (S pix) and I_T 0.93-1.70: agree in magnitude, but the integral depends on window/template choice by ~30-60%, which is not in the quoted error. Detection is clear (>>10 sigma).",
+  "Wing reality test (s11): agree with the design (pseudo-wing null maps 0/13869 exceed, sidelobe model fitted on core channels, independent Xb4b array). The retraction of the '10x brighter at 0.94 arcsec' argument is correct (beam-area ratio ~12). Accept 'wing exists, flux is a lower limit'. Not independently re-run.",
+  "Agree with the downgrades: SO 5_6-4_5, 253.9 GHz feature, HC3N, HC15N, H41b, CH3CN are low/unconfirmed; withdrawal of the 'NS disfavoured' argument is correct; non-detection at 1 and 0.25 arcsec correctly called non-diagnostic (dilution).",
+  "Continuum: agree that N/S peak ratio 1.4-1.6 at matched beams and 48%/68% flux recovery make the old 'S compact / N extended' and Xb4b/Xb4d-anchored spectral indices untrustworthy; alpha(B5-B7)=1.54+-0.20 with ~0.5 systematic is a reasonable stated result.",
+  "Report.json consistency: it still contains contradicted/stale statements (fixes 1-2). The CH3OH rotation-diagram (s17) has chi2=19.8 and 28.9 for 3 dof, so the quoted Trot<~11-12 K is not a fit result."
+ ],
+ "fixes": [
+  {
+   "what": "Purge stale/contradicted results from /output/report.json: result #2 ('Continuum morphology: S compact, N extended', confidence medium) contradicts result #86 and the s14 finding that this is beam dilution plus resolved-out flux; result #1 and others use systemic velocity '2780 +-5' as an assumption although s13 gives N 2792, S 2721 and N-S midpoint 2756+-15; the coverage result #5 uses 2780. Rewrite or re-label them (2780 is a blended low-resolution centre; say what changes at 2750-2756). Re-check #52/#53 for statements made before the round-2 measurements.",
+   "why": "The report must reflect only what the team stands behind; a medium-confidence claim contradicted by the team's own later result is an unsupported claim.",
+   "how_experts_do_it": "Regenerate report rows from the s12/s13/s14 tables and delete the round-1 rows they supersede (single source of truth)."
+  },
+  {
+   "what": "Make the 'Line properties (see value)' results (about 44 rows, #8-#51) self-describing: line, region, OUS/beam and array must be explicit fields, not only buried in the value string. Provide one compact table for the strongest ~8 lines at N and S (peak, 2G components, integrated intensity, per-channel rms; 1G blank where chi2r>2) with one stated convention.",
+   "why": "Q0 asks for peak, Gaussian fit, integrated intensity and rms for every line in every region; a reader cannot tell what a row refers to, and two tables (s7 raw peak vs s12 smoothed peak/template integral) invite inconsistent use.",
+   "how_experts_do_it": "One row per line x region x beam, explicit columns, convention in the header."
+  },
+  {
+   "what": "Replace the CH3OH Trot<~11-12 K statement by a proper treatment. The J=1,2,3 E lines at 165.05-165.10 GHz lie within +-90 km/s, unresolved at 150-300 km/s widths; the rotation-diagram fit has chi2/dof ~7-10 (N 19.8/3, S 28.9/3) and J=1 comes out 0 +-0.23/0.29 while J=2 is large (unphysical in LTE). Either run RADEX (methanol-e LAMDA, non-LTE) with the blend modelled as three components with common v and width, bounded by the J=4,5 limits, and report a range; or state only 'J=4,5 weak relative to J=1-3 -> low excitation, model dependent'. Include the 30-60% window/template dependence of the blend integral in its uncertainty.",
+   "why": "The quoted temperature rests on a fit the data reject.",
+   "how_experts_do_it": "Simultaneous fit of all blended components, upper limits for undetected J, temperature as a range from a non-LTE grid."
+  },
+  {
+   "what": "Verify or drop literature comparisons that come from search snippets: HOC+/HCO+ (Harada+2018 2018ApJ...855...49H, NGC 1068 values), outflow PA (Michiyama+2018 2018ApJ...868...95M). List each as an assumption with bibcode/table. Call the Xb55 HOC+ region assignment 'N+S blend'.",
+   "why": "Rules require external inputs to be verified against the original source and listed as assumptions.",
+   "how_experts_do_it": "Cite bibcode, table and value for every literature number; compare with matched apertures."
+  }
+ ],
+ "notes_for_questioner": "(1) The Sblue/S blue wing is real but uncleaned: can a joint Xb4d+Xb4b analysis (or the Xb4b manual-image cube) bound the true wing flux and the HCN/HCO+ ratio in the wing (high ratio expected from shock chemistry, Nishimura+2024)? Ratios from lower-limit wing fluxes are not yet usable. (2) The N-S systemic offset +71+-28 km/s is only 2.5 sigma; is it needed later? (3) A matched-beam (5.84x3.52 arcsec) HCN/HCO+ 3-2 flux comparison across Xb4b/4d/4f would give the resolved-out fraction for lines, not only continuum, before any ladder ratio mixes arrays. (4) N and S are unresolved from each other in Band 5 and marginally in Band 7, so per-nucleus 2-1 and 4-3 ratios need a blend model; the research question may be answerable only as N+S vs the rest at J=2-1."
+}

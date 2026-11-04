@@ -1,0 +1,81 @@
+['cont', 'lo', 'lo_ref', 'hi', 'hi_ref', 'rms', 'f0', 'f1']
+
+Xb55 spw16 HCN 2-1: line at ch 517, ramp fit f=-0.037+-0.019 x cont, c0=123+-62 ch (rms resid 2.56)
+  W350 N      I_raw=  27.243 I_corr=  27.243 bias=+0.000 (+0.0%) stat=0.169 bias/stat=+0.00  baseline raw -0.05 corr -0.05; side levels blue(-600..-420) -0.32 red(420..600) +0.14 mJy rms/ch 2.71
+  W350 S      I_raw=  22.346 I_corr=  22.346 bias=+0.000 (+0.0%) stat=0.169 bias/stat=+0.00  baseline raw -0.15 corr -0.15; side levels blue(-600..-420) +0.32 red(420..600) -1.14 mJy rms/ch 2.70
+  W350 Bridge I_raw=  27.929 I_corr=  27.929 bias=-0.000 (-0.0%) stat=0.171 bias/stat=-0.00  baseline raw +0.07 corr +0.07; side levels blue(-600..-420) -0.22 red(420..600) -0.45 mJy rms/ch 2.74
+  W350 E1     I_raw=   6.719 I_corr=   6.719 bias=+0.000 (+0.0%) stat=0.186 bias/stat=+0.00  baseline raw +0.22 corr +0.22; side levels blue(-600..-420) -0.74 red(420..600) +0.24 mJy rms/ch 2.97
+  W350 E2     I_raw=  -1.080 I_corr=  -1.080 bias=+0.000 (-0.0%) stat=0.214 bias/stat=+0.00  baseline raw +0.05 corr +0.05; side levels blue(-600..-420) +0.04 red(420..600) +0.15 mJy rms/ch 3.43
+  W350 W      I_raw=   8.666 I_corr=   8.666 bias=+0.000 (+0.0%) stat=0.158 bias/stat=+0.00  baseline raw -0.17 corr -0.17; side levels blue(-600..-420) -0.07 red(420..600) -0.19 mJy rms/ch 2.53
+
+Xb55 spw18 HCO+ 2-1: line at ch 182, ramp fit f=-0.127+-0.032 x cont, c0=236+-505 ch (rms resid 2.71)
+  W350 N      I_raw=  40.876 I_corr=  41.114 bias=-0.239 (-0.6%) stat=0.237 bias/stat=-1.01  baseline raw -0.44 corr -0.32; side levels blue(-600..-420) -0.22 red(420..600) -1.58 mJy rms/ch 3.80
+  W350 S      I_raw=  41.909 I_corr=  42.084 bias=-0.176 (-0.4%) stat=0.226 bias/stat=-0.78  baseline raw -0.40 corr -0.24; side levels blue(-600..-420) +1.14 red(420..600) -1.49 mJy rms/ch 3.63
+  W350 Bridge I_raw=  46.325 I_corr=  46.642 bias=-0.316 (-0.7%) stat=0.225 bias/stat=-1.41  baseline raw -0.32 corr -0.28; side levels blue(-600..-420) +0.63 red(420..600) -1.83 mJy rms/ch 3.62
+  W350 E1     I_raw=  14.023 I_corr=  14.023 bias=+0.000 (+0.0%) stat=0.210 bias/stat=+0.00  baseline raw +0.24 corr +0.24; side levels blue(-600..-420) -0.48 red(420..600) -0.62 mJy rms/ch 3.37
+  W350 E2     I_raw=  -1.260 I_corr=  -1.260 bias=+0.000 (-0.0%) stat=0.258 bias/stat=+0.00  baseline raw +0.27 corr +0.27; side levels blue(-600..-420) -0.00 red(420..600) +0.42 mJy rms/ch 4.15
+  W350 W      I_raw=  17.479 I_corr=  17.551 bias=-0.073 (-0.4%) stat=0.214 bias/stat=-0.34  baseline raw +0.03 corr +0.07; side levels blue(-600..-420) +0.46 red(420..600) -0.55 mJy rms/ch 3.44
+
+Xb4f spw18 HCN 3-2: line at ch 153, ramp fit f=-0.104+-0.033 x cont, c0=214+-443 ch (rms resid 3.24)
+  W350 N      I_raw=  20.557 I_corr=  20.889 bias=-0.332 (-1.6%) stat=0.173 bias/stat=-1.93  baseline raw -0.18 corr -0.07; side levels blue(-600..-420) -0.59 red(420..600) -1.06 mJy rms/ch 2.39
+  W350 S      I_raw=  11.170 I_corr=  11.406 bias=-0.236 (-2.1%) stat=0.172 bias/stat=-1.37  baseline raw -0.06 corr +0.02; side levels blue(-600..-420) -0.51 red(420..600) -1.52 mJy rms/ch 2.38
+  W350 Bridge I_raw=  13.627 I_corr=  13.809 bias=-0.183 (-1.3%) stat=0.170 bias/stat=-1.07  baseline raw -0.13 corr -0.02; side levels blue(-600..-420) -0.38 red(420..600) -1.50 mJy rms/ch 2.36
+  W350 E1     I_raw=   2.181 I_corr=   2.181 bias=+0.000 (+0.0%) stat=0.165 bias/stat=+0.00  baseline raw -0.40 corr -0.40; side levels blue(-600..-420) +0.36 red(420..600) -0.28 mJy rms/ch 2.29
+  W350 E2     I_raw=   1.508 I_corr=   1.508 bias=+0.000 (+0.0%) stat=0.200 bias/stat=+0.00  baseline raw +0.03 corr +0.03; side levels blue(-600..-420) -0.17 red(420..600) -0.15 mJy rms/ch 2.77
+  W350 W      I_raw=   2.776 I_corr=   2.822 bias=-0.046 (-1.6%) stat=0.189 bias/stat=-0.24  baseline raw +0.16 corr +0.18; side levels blue(-600..-420) +0.62 red(420..600) +0.36 mJy rms/ch 2.62
+
+Xb4f spw16 HCO+ 3-2: line at ch 127, ramp fit f=-0.054+-0.031 x cont, c0=400+-6330 ch (rms resid 2.13)
+  W350 N      I_raw=  34.304 I_corr=  34.617 bias=-0.313 (-0.9%) stat=0.232 bias/stat=-1.35  baseline raw -0.11 corr +0.15; side levels blue(-600..-420) -0.44 red(420..600) -0.63 mJy rms/ch 3.23
+  W350 S      I_raw=  29.290 I_corr=  29.501 bias=-0.211 (-0.7%) stat=0.198 bias/stat=-1.07  baseline raw -0.08 corr +0.12; side levels blue(-600..-420) -1.28 red(420..600) -0.65 mJy rms/ch 2.76
+  W350 Bridge I_raw=  29.682 I_corr=  29.908 bias=-0.226 (-0.8%) stat=0.192 bias/stat=-1.18  baseline raw -0.24 corr -0.11; side levels blue(-600..-420) -1.16 red(420..600) -0.77 mJy rms/ch 2.67
+  W350 E1     I_raw=   8.136 I_corr=   8.136 bias=+0.000 (+0.0%) stat=0.204 bias/stat=+0.00  baseline raw -0.10 corr -0.10; side levels blue(-600..-420) +0.38 red(420..600) +0.13 mJy rms/ch 2.84
+  W350 E2     I_raw=   7.040 I_corr=   7.040 bias=+0.000 (+0.0%) stat=0.200 bias/stat=+0.00  baseline raw +0.05 corr +0.05; side levels blue(-600..-420) -0.30 red(420..600) -0.41 mJy rms/ch 2.78
+  W350 W      I_raw=   7.906 I_corr=   7.932 bias=-0.026 (-0.3%) stat=0.195 bias/stat=-0.13  baseline raw +0.07 corr +0.14; side levels blue(-600..-420) +0.18 red(420..600) -0.45 mJy rms/ch 2.72
+
+Xb47 spw16 HCN 4-3: line at ch 153, ramp fit f=-0.061+-0.035 x cont, c0=400+-9559 ch (rms resid 3.51)
+  W350 N      I_raw=  14.481 I_corr=  15.274 bias=-0.793 (-5.2%) stat=0.254 bias/stat=-3.12  baseline raw -0.55 corr -0.32; side levels blue(-600..-420) -0.56 red(420..600) -2.90 mJy rms/ch 4.07
+  W350 S      I_raw=   5.752 I_corr=   6.210 bias=-0.459 (-7.4%) stat=0.227 bias/stat=-2.02  baseline raw -0.50 corr -0.32; side levels blue(-600..-420) -0.79 red(420..600) -1.13 mJy rms/ch 3.63
+  W350 Bridge I_raw=   6.909 I_corr=   7.390 bias=-0.482 (-6.5%) stat=0.217 bias/stat=-2.22  baseline raw -0.10 corr -0.04; side levels blue(-600..-420) -0.21 red(420..600) -0.71 mJy rms/ch 3.47
+  W350 E1     I_raw=  -0.006 I_corr=  -0.006 bias=+0.000 (-0.0%) stat=0.286 bias/stat=+0.00  baseline raw +0.59 corr +0.59; side levels blue(-600..-420) -0.96 red(420..600) -0.11 mJy rms/ch 4.57
+  W350 E2     I_raw=  -0.107 I_corr=  -0.107 bias=+0.000 (-0.0%) stat=0.272 bias/stat=+0.00  baseline raw -0.13 corr -0.13; side levels blue(-600..-420) -0.82 red(420..600) -0.43 mJy rms/ch 4.34
+  W350 W      I_raw=   0.046 I_corr=   0.099 bias=-0.053 (-53.7%) stat=0.302 bias/stat=-0.18  baseline raw +0.15 corr +0.15; side levels blue(-600..-420) +0.49 red(420..600) +1.90 mJy rms/ch 4.83
+
+Xb47 spw18 HCO+ 4-3: line at ch 268, ramp fit f=0.098+-0.052 x cont, c0=10+-5 ch (rms resid 4.29)
+  W350 N      I_raw=  29.282 I_corr=  29.282 bias=+0.000 (+0.0%) stat=0.305 bias/stat=+0.00  baseline raw -1.11 corr -1.11; side levels blue(-600..-420) -0.26 red(420..600) -0.72 mJy rms/ch 4.89
+  W350 S      I_raw=  20.302 I_corr=  20.302 bias=-0.000 (-0.0%) stat=0.265 bias/stat=-0.00  baseline raw +0.25 corr +0.25; side levels blue(-600..-420) -1.00 red(420..600) -0.32 mJy rms/ch 4.26
+  W350 Bridge I_raw=  18.682 I_corr=  18.682 bias=-0.000 (-0.0%) stat=0.245 bias/stat=-0.00  baseline raw -1.26 corr -1.26; side levels blue(-600..-420) -0.43 red(420..600) -0.71 mJy rms/ch 3.94
+  W350 E1     I_raw=   5.024 I_corr=   5.024 bias=+0.000 (+0.0%) stat=0.313 bias/stat=+0.00  baseline raw +0.44 corr +0.44; side levels blue(-600..-420) -0.07 red(420..600) -0.04 mJy rms/ch 5.03
+  W350 E2     I_raw=   2.633 I_corr=   2.633 bias=+0.000 (+0.0%) stat=0.284 bias/stat=+0.00  baseline raw -0.13 corr -0.13; side levels blue(-600..-420) -0.49 red(420..600) -0.38 mJy rms/ch 4.56
+  W350 W      I_raw=   1.961 I_corr=   1.961 bias=-0.000 (-0.0%) stat=0.242 bias/stat=-0.00  baseline raw -0.14 corr -0.14; side levels blue(-600..-420) +0.65 red(420..600) -0.30 mJy rms/ch 3.89
+
+Xb4d spw27 HCN 3-2: line at ch 157, ramp fit f=0.081+-0.074 x cont, c0=16+-16 ch (rms resid 0.88)
+  W350 N      I_raw=   5.448 I_corr=   5.448 bias=+0.000 (+0.0%) stat=0.047 bias/stat=+0.00  baseline raw -0.03 corr -0.03; side levels blue(-600..-420) -0.06 red(420..600) -0.27 mJy rms/ch 0.65
+  W350 S      I_raw=   1.891 I_corr=   1.891 bias=-0.000 (-0.0%) stat=0.048 bias/stat=-0.00  baseline raw +0.03 corr +0.03; side levels blue(-600..-420) -0.09 red(420..600) +0.03 mJy rms/ch 0.66
+  W350 Bridge I_raw=   1.657 I_corr=   1.657 bias=-0.000 (-0.0%) stat=0.050 bias/stat=-0.00  baseline raw +0.03 corr +0.03; side levels blue(-600..-420) -0.10 red(420..600) +0.00 mJy rms/ch 0.69
+  W350 E1     I_raw=   0.894 I_corr=   0.894 bias=+0.000 (+0.0%) stat=0.066 bias/stat=+0.00  baseline raw -0.15 corr -0.15; side levels blue(-600..-420) +0.17 red(420..600) -0.10 mJy rms/ch 0.91
+  W350 E2     I_raw=   0.707 I_corr=   0.707 bias=+0.000 (+0.0%) stat=0.056 bias/stat=+0.00  baseline raw -0.13 corr -0.13; side levels blue(-600..-420) +0.20 red(420..600) -0.18 mJy rms/ch 0.78
+  W350 W      I_raw=   0.257 I_corr=   0.257 bias=+0.000 (+0.0%) stat=0.061 bias/stat=+0.00  baseline raw +0.08 corr +0.08; side levels blue(-600..-420) +0.02 red(420..600) +0.06 mJy rms/ch 0.84
+
+Xb4d spw25 HCO+ 3-2: line at ch 131, ramp fit f=0.102+-0.056 x cont, c0=15+-9 ch (rms resid 0.65)
+  W350 N      I_raw=   6.144 I_corr=   6.162 bias=-0.018 (-0.3%) stat=0.061 bias/stat=-0.29  baseline raw +0.03 corr +0.00; side levels blue(-600..-420) -0.23 red(420..600) +0.15 mJy rms/ch 0.85
+  W350 S      I_raw=   4.795 I_corr=   4.810 bias=-0.015 (-0.3%) stat=0.056 bias/stat=-0.27  baseline raw -0.03 corr -0.05; side levels blue(-600..-420) -0.15 red(420..600) -0.03 mJy rms/ch 0.78
+  W350 Bridge I_raw=   3.284 I_corr=   3.284 bias=-0.000 (-0.0%) stat=0.052 bias/stat=-0.00  baseline raw +0.11 corr +0.11; side levels blue(-600..-420) -0.02 red(420..600) +0.17 mJy rms/ch 0.73
+  W350 E1     I_raw=   2.595 I_corr=   2.595 bias=+0.000 (+0.0%) stat=0.063 bias/stat=+0.00  baseline raw +0.04 corr +0.04; side levels blue(-600..-420) -0.02 red(420..600) -0.01 mJy rms/ch 0.88
+  W350 E2     I_raw=   1.531 I_corr=   1.531 bias=+0.000 (+0.0%) stat=0.065 bias/stat=+0.00  baseline raw +0.05 corr +0.05; side levels blue(-600..-420) +0.04 red(420..600) +0.03 mJy rms/ch 0.90
+  W350 W      I_raw=   0.972 I_corr=   0.972 bias=-0.000 (-0.0%) stat=0.068 bias/stat=-0.00  baseline raw -0.03 corr -0.03; side levels blue(-600..-420) +0.19 red(420..600) -0.18 mJy rms/ch 0.95
+
+Xb4b spw27 HCN 3-2: line at ch 157, ramp fit f=0.054+-0.080 x cont, c0=41+-63 ch (rms resid 0.50)
+  W350 N      I_raw=   1.231 I_corr=   1.231 bias=-0.000 (-0.0%) stat=0.024 bias/stat=-0.00  baseline raw +0.02 corr +0.02; side levels blue(-600..-420) -0.09 red(420..600) +0.01 mJy rms/ch 0.34
+  W350 S      I_raw=   0.499 I_corr=   0.502 bias=-0.003 (-0.6%) stat=0.027 bias/stat=-0.11  baseline raw -0.02 corr -0.02; side levels blue(-600..-420) -0.07 red(420..600) -0.03 mJy rms/ch 0.37
+  W350 Bridge I_raw=   0.292 I_corr=   0.292 bias=+0.000 (+0.0%) stat=0.024 bias/stat=+0.00  baseline raw +0.03 corr +0.03; side levels blue(-600..-420) +0.06 red(420..600) +0.08 mJy rms/ch 0.34
+  W350 E1     I_raw=   0.143 I_corr=   0.143 bias=+0.000 (+0.0%) stat=0.032 bias/stat=+0.00  baseline raw +0.02 corr +0.02; side levels blue(-600..-420) -0.10 red(420..600) +0.06 mJy rms/ch 0.44
+  W350 E2     I_raw=   0.219 I_corr=   0.219 bias=+0.000 (+0.0%) stat=0.031 bias/stat=+0.00  baseline raw -0.05 corr -0.05; side levels blue(-600..-420) +0.13 red(420..600) -0.08 mJy rms/ch 0.42
+  W350 W      I_raw=   0.129 I_corr=   0.129 bias=-0.000 (-0.0%) stat=0.036 bias/stat=-0.00  baseline raw -0.04 corr -0.04; side levels blue(-600..-420) +0.06 red(420..600) +0.03 mJy rms/ch 0.50
+
+Xb4b spw25 HCO+ 3-2: line at ch 131, ramp fit f=0.071+-0.066 x cont, c0=57+-145 ch (rms resid 0.35)
+  W350 N      I_raw=   1.239 I_corr=   1.241 bias=-0.002 (-0.1%) stat=0.030 bias/stat=-0.05  baseline raw -0.05 corr -0.05; side levels blue(-600..-420) -0.03 red(420..600) +0.04 mJy rms/ch 0.41
+  W350 S      I_raw=   0.988 I_corr=   0.993 bias=-0.004 (-0.4%) stat=0.030 bias/stat=-0.15  baseline raw -0.00 corr -0.01; side levels blue(-600..-420) +0.00 red(420..600) +0.06 mJy rms/ch 0.41
+  W350 Bridge I_raw=   0.566 I_corr=   0.568 bias=-0.002 (-0.3%) stat=0.030 bias/stat=-0.06  baseline raw +0.02 corr +0.01; side levels blue(-600..-420) +0.00 red(420..600) -0.03 mJy rms/ch 0.41
+  W350 E1     I_raw=   0.429 I_corr=   0.429 bias=+0.000 (+0.0%) stat=0.037 bias/stat=+0.00  baseline raw +0.02 corr +0.02; side levels blue(-600..-420) +0.08 red(420..600) -0.09 mJy rms/ch 0.51
+  W350 E2     I_raw=   0.352 I_corr=   0.352 bias=+0.000 (+0.0%) stat=0.034 bias/stat=+0.00  baseline raw -0.01 corr -0.01; side levels blue(-600..-420) -0.09 red(420..600) -0.01 mJy rms/ch 0.48
+  W350 W      I_raw=   0.203 I_corr=   0.203 bias=+0.000 (+0.0%) stat=0.039 bias/stat=+0.00  baseline raw -0.01 corr -0.01; side levels blue(-600..-420) +0.10 red(420..600) -0.08 mJy rms/ch 0.54

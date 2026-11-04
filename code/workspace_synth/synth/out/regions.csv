@@ -1,0 +1,11 @@
+region,dRA_arcsec,dDec_arcsec,RA_deg,Dec_deg,description
+N,0.0,2.55,156.96346,-43.90390166666666,northern nucleus (HCO+/HCN 3-2 Xb4d peak; 1.1mm cont. source N)
+S,-0.15,-2.55,156.96340216941374,-43.90531833333333,southern (obscured AGN) nucleus; compact 1.1mm continuum peak
+Bridge,0.3,0.15,156.9635756611725,-43.90456833333333,"clump midway between nuclei (HCO+ 3-2 peak, S/N 96 in Xb4d), red-wing peak at (0,+1)"
+NEclump,6.75,3.9,156.96606237638187,-43.90352666666666,"NE clump; continuum + dense-gas source 7.8"" from N"
+Eclump,5.25,-2.85,156.9654840705192,-43.90540166666666,"E clump 5.9"" E of S"
+Soutflow,-0.15,-4.5,156.96340216941374,-43.90586,blue-wing (-450..-150 km/s) peak S of S nucleus: outflow base candidate
+Sext,-1.05,-5.4,156.96305518589617,-43.90611,"S extension HCO+/HCN peak, 2.9"" S of S nucleus"
+SWarm,-3.75,-4.5,156.96201423534342,-43.90586,SW arm HCO+ clump
+Wclump,-1.8,-2.4,156.96276603296482,-43.905276666666666,"HCN-only 3-2 peak (Xb4d S/N 15) coincident with CH3OH 2(0)-1(-1) peak (5.8 sigma); 3"" W of S nucleus"
+Disk,-1.84,-0.87,156.96275061147517,-43.904851666666666,"EXTENDED DISK: mask, not a point: Xb55 HCO+ 2-1 S/N>5 pixels at r>8"" (136 pixels, 196 arcsec^2); pixel list out/disk_mask_Xb55.npz; centroid listed"

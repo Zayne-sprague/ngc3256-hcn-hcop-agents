@@ -1,0 +1,38 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X133d/X1df1",
+ "freq_ranges_ghz": [
+  [
+   350.5531997221166,
+   351.9462533881782
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xd98580_X2ad8"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": null,
+ "args": [],
+ "why": "Q60: resolve N/S HCN/HCO+ 4-3 discrepancy (3.7 vs 1.6): per-EB uv-matched imaging of every 4-3 MS; archive image products have mismatched uv coverage (X1df1 0.7 arcsec HCN vs X858 0.3 arcsec HCO+ vs Xb47 4 arcsec); 0.7 arcsec HCN EB behind the 3.7",
+ "ok_evict": false,
+ "ok_long": true,
+ "bytes_estimate": 12331926528,
+ "id": "20261029T170032-82b1",
+ "team": "team-a",
+ "status": "failed",
+ "submitted": "2026-10-29T17:00:32+00:00",
+ "bytes_to_fetch": 12331926528,
+ "scratch_bytes": 67825595904,
+ "planned_evictions": [],
+ "estimated_hours": 2.48,
+ "large": true,
+ "queued": "2026-10-29T17:00:37+00:00",
+ "bytes_done": 0,
+ "started": "2026-10-29T18:52:48+00:00",
+ "path": "/archive/derived/team-a/20261029T170032-82b1",
+ "error": "raw error: RuntimeError('uid___A002_Xd98580_X2ad8: restore failed (exit 137; 137 = out of memory); see /Volumes/T9/alma_cache/derived/team-a/20261029T170032-82b1/restore.log and /Volumes/T9/alma_cache/derived/team-a/20261029T170032-82b1/uid___A002_Xd98580_X2ad8.casa-*.log')",
+ "finished": "2026-10-29T19:33:39+00:00"
+}

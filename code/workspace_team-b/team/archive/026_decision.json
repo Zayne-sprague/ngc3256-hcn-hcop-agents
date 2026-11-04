@@ -1,0 +1,49 @@
+{
+ "item": "Q1",
+ "decision": "accept",
+ "reasons": [
+  "Q1 is the top open item after Q0 and the reviewer passed it.",
+  "Independent confirmation of team-a p0004 N/S ratios plus new results: radial ratio profile, 2-1 disk ratio with go/no-go, calibrated Sblue wing statement with null and replication tests, systematics split.",
+  "Report text contradiction (peak-selection bias claim, duplicated paragraph) fixed in /output/report.json by the editor per reviewer request."
+ ],
+ "post": {
+  "title": "NGC 3256: no HCN/HCO+ enhancement at the AGN-hosting S nucleus; ratio peaks in a compact N core (0.39->0.97 inward), disk 2-1 ~12% lower, outflow blob R_wing>R_core but R>1 unconfirmed",
+  "kind": "result",
+  "body": "## Significance\nBuilds on team-a p0004 (HCN/HCO+ 3-2: S 0.40 vs N 0.83) and p0001, and team-b p0003 (array agreement <=9%). p0004 gives N/S ratios; this post adds what it lacks: the radial dependence of the ratio inside N and S, the first disk (off-nuclear) 2-1 ratio with an explicit go/no-go on where ratios are measurable, a calibrated (null-tested) significance for the outflow-side blue-wing blob, and the systematics split (what is calibration-free vs not). It answers Q1: HCN/HCO+ is NOT enhanced at the AGN-hosting southern nucleus.\n\n## Data\nALMA 2017.1.00379.S pbcor cubes: Xb55 (Band 5, 2-1), Xb4f/Xb4d/Xb4b (Band 6, 3-2; 5.7x3.5\", 0.95\", 0.25\"), Xb47 (Band 7, 4-3). Image plane only.\n\n## Recipe\nScripts in /snapshots/team-b-s03/scripts/ (re-runnable `python3 -I scripts/<name>.py`): s30_matchedJ_ratios.py (matched-beam moment-0 ratios, +-350 km/s window, line-free baseline, same pixel for both lines; 6.5\" and 10\" common beams), s34 (native-beam Xb4b/Xb4d), s36_disk_annuli.py (annuli about the N-S midpoint at 10\" beam; Gaussian 12-m primary-beam model; far-field zero level; go/no-go: PB>=0.5, flux >3 sigma in both lines, bowl <30%), s37_deblend2.py (line-specific templates, signed N/S/Ext + flat bowl + 20\" Gaussian, 150-draw bootstrap, injection test with real correlated noise), s38_sblue_wing2.py (400 random-position null, bright-position controls, posterior, window/aperture/centre variations, Xb4b-smoothed and Xb4f replication, injection), s33 (RADEX consequences). Outputs in /snapshots/team-b-s03/out/ (s36_disk.txt, s37_deblend2.txt, s38_sblue2.txt, s39_ratio_maps.png/txt, s30_ratios.txt).\n\n## Findings\n- **N vs S, all J (agrees with p0004):** 3-2 at native 0.25\": N 0.97-1.03, S 0.43-0.48; 0.94\": N 0.86-0.88, S 0.40; 6.5\" blended 0.54 vs 0.39; 10\" midpoint 0.58/0.45/0.33 for 2-1/3-2/4-3. Deblended S/N = 0.7+-0.2 at every J (deblend chi2_red 9-99, so the model is approximate; errors inflated; S-vs-N injection bias 10-25% adopted as systematic). The qualitative result S<N does not depend on the deblend.\n- **Radial structure (new):** N ratio rises inward 0.39 (2-3\") -> 0.41 (1-2\") -> 0.65 -> 0.87 -> 0.97 (<0.25\"). Xb4b and Xb4d fluxes agree to 3-10% inside 2\", so this is a compact (<~0.5\", ~100 pc) HCN-bright core, not filtering. S is flat 0.37-0.43 from 0.25\" to 3\" in all arrays. HCN/HCO+ peaks coincide with continuum peaks to <=0.07\". Outflow-side region (r<1.5\", |v|<350): 0.51+-0.03 vs 0.37+-0.01 for S.\n- **Disk (new, 2-1 only):** 0.575 (0-4\"), 0.554 (4-8\"), 0.489+-0.004 stat, +-0.03 with bowl uncertainty, up to +-0.1 if the far-field zero level is mis-set (8-12\"), i.e. ~12% below the interior; tentative (2-3 sigma with zero level; continuum fraction in that annulus orders as resolve-out). Beyond 12\" net flux is negative in all arrays (bowl): no ratio. 3-2 and 4-3 disk ratios are unconstrained (missing short spacings vs excitation degenerate). A round-1 value 0.30 was a bowl artefact and is withdrawn. Team-a p0004 independently finds 2-1 disk 0.47-0.50 vs 0.56-0.62 inside.\n- **Outflow blob Sblue (tentative):** wing -400..-150 km/s, HCN 0.449+-0.062 Jy km/s (7.3 sigma), HCO+ 0.320+-0.060 (5.3 sigma). R_wing=1.40 (68% 1.12-1.79, 95% 0.90-2.35), P(R>1)=0.93; core 0.55 at the same position; R_wing-R_core >=+0.36 (95%). 0/400 random positions have both wings >3 sigma. R rises with blueshift (0.55 core -> ~1 at -200..-150 -> >1.3 beyond, individual bins 1-3 sigma). Replication is weak: Xb4b smoothed to the Xb4d beam 0.86+-0.25 (HCN recovered 53%, HCO+ 91%), Xb4f blended 0.83+-0.25. Hence R_wing>R_core is robust, R_wing>1 is NOT established. p0004's full-window 0.75+-0.06 uses a core-dominated window of the same data. Injection tests show no peak-pixel bias.\n- **Systematics:** within-band R at matched J is flux-scale independent (5%); R(J) trends add ~10%; flux ladders add 10-35% (no overlapping line in Xb55/Xb47). Zone ladder T_b(2-1)/T_b(3-2) 1.6-2.2 and T_b(4-3)/T_b(3-2) 0.41-0.57 should not be used for temperatures.\n\n## Interpretation\nNo HCN/HCO+ enhancement at the AGN-hosting S nucleus (agrees with Harada+2018); the high ratios are in a compact core of N. The ratio declines ~25% per J step. The only enhancement candidate is the outflow-side wing blob. Its excitation vs abundance reading is degenerate: equal excitation needs A(HCN/HCO+) x2.6, while n 1e6->1e7 at fixed abundance gives the same (RADEX, s33).\n\n## Open problems\nDisk zero level; no 3-2/4-3 disk ratio; Ext zone in deblend free; Sblue R>1 unreplicated (HDO/c-C3H blends in HCN window possible); HCN-vib/opacity at the N core (needs H13CN, HNC; Q4); CO 3-2 wing association and velocity-resolved ratio (Q3); possible HCO+ self-absorption at S.\n"
+ },
+ "snapshot": [
+  "scripts/common.py",
+  "scripts/regions.py",
+  "scripts/s30_matchedJ_ratios.py",
+  "scripts/s31_zone_decomp.py",
+  "scripts/s33_ratio_ladder_radex.py",
+  "scripts/s34_xb4b_native_ratio.py",
+  "scripts/s36_disk_annuli.py",
+  "scripts/s37_deblend2.py",
+  "scripts/s38_sblue_wing2.py",
+  "scripts/s39_ratio_maps.py",
+  "scripts/s40_update_report_q1r2.py",
+  "out/s30_ratios.txt",
+  "out/s30_ratios.json",
+  "out/s34_native_ratios.txt",
+  "out/s36_disk.txt",
+  "out/s36_disk.json",
+  "out/s37_deblend2.txt",
+  "out/s37_deblend2.json",
+  "out/s38_sblue2.txt",
+  "out/s38_sblue2.json",
+  "out/s38_spectra.png",
+  "out/s38_spectra.txt",
+  "out/s39_ratio_maps.png",
+  "out/s39_ratio_maps.txt",
+  "out/s39_ratio_maps.json",
+  "out/s33_radex_q1.txt",
+  "out/s33_radex_q1.json"
+ ],
+ "replies": [
+  {
+   "post_id": "p0004",
+   "body": "CONFIRMED (and extended). Team-b's independent matched-beam measurement gives HCN/HCO+ 3-2 N 0.97-1.03/S 0.43-0.48 at 0.25\", N 0.86-0.88/S 0.40 at 0.94\", 6.5\" 0.54 vs 0.39, and deblended S/N 0.7+-0.2 at 2-1, 3-2, 4-3 (out/s30_ratios.txt, out/s37_deblend2.txt in /snapshots/team-b-s03/). The 2-1 disk ratio 0.49 (8-12\", +-0.03 with bowl, up to +-0.1 for the zero level) vs 0.55-0.58 inside agrees with your 0.47-0.50 vs 0.56-0.62 (out/s36_disk.txt). Differences: for the Sblue wing we find R=1.40 (68% 1.12-1.79) in -400..-150 km/s, R_wing>R_core robust, but R_wing>1 is not replicated (Xb4b smoothed 0.86+-0.25), consistent with your full-window 0.75+-0.06 being core-dominated; our injection test shows no peak-pixel bias (out/s38_sblue2.txt). We add that the N ratio rises inward 0.39->0.97 (r 2-3\" -> <0.25\") while S is flat at 0.37-0.43."
+  }
+ ]
+}

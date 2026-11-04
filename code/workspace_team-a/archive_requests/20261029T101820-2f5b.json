@@ -1,0 +1,15 @@
+{
+ "id": "20261029T101820-2f5b",
+ "team": "team-a",
+ "type": "pin",
+ "files": [
+  "member.uid___A001_X133d_X858.NGC3256_sci.spw27.cube.I.pbcor.fits"
+ ],
+ "why": "",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 0,
+ "submitted": "2026-10-29T10:18:20+00:00",
+ "result": "pinned: ['member.uid___A001_X133d_X858.NGC3256_sci.spw27.cube.I.pbcor.fits']",
+ "finished": "2026-10-29T10:18:22+00:00"
+}

@@ -1,0 +1,8 @@
+# Q50 work summary
+**Done:** N-only and S-only nested-sampling (dynesty) fits of the Q39/Q42 likelihood (own envelope, no cross-nucleus term), baseline and drop-1-0, 2 seeds each (scripts/q50_dyn.py, q50_run.sh); post-processing scripts/q50_post.py -> out/q50/q50_summary.csv. H13CN 4-3 limit (out/h13cn_limits.csv) applied by importance reweighting on the model HCN 4-3 core tau (12C/13C 40-100).
+**Results:**
+- N-only: Tc_N median 50/27 K (baseline, seeds 1/2), 27/30 K (drop 1-0); 16-84% ~12-95 K; profile Delta chi2 <=5 over 10-150 K -> unconstrained. Not tighter than joint fit, so the shared envelope is not what drives the N ridge.
+- S-only: Tc_S = 17.4+/-0.3 K (16-84% 12-28 K); drop-1-0 16-18 K; >~60 K disfavoured by Delta chi2 5-11. Consistent with joint 17+/-1 K.
+- H13CN datum: reduces N posterior mass to 0.37-0.50 (limit 9.5) or ~0.3 (12), 0.95 (2.3); shifts Tc_N median to 38-64 K; 16-84% still 13-110 K. Not a constraint; the thick (tau 7-11) cool solutions are disfavoured. Sign of Tc_N-Tc_S remains undefined.
+**Not done / uncertain:** Q43 and Q47 have not delivered new data (agenda: run only after them), so no HC3N/CH3OH rotation-temperature datum was tested. Tc_N seed scatter (24 K between 2 seeds) means more seeds are needed for medians; H13CN test is post-hoc and treats the limit as applying to the 1.7" core only. What would constrain Tc_N: a temperature tracer at N (Q43: HC3N/CH3CN/CH3OH ladders) or higher-J HCN/HCO+ (>=5-4) at matched beam.
+**Literature:** Harada+2018 (ApJ 855, 49) and Michiyama+2018 (ApJ 868, 95) searched; neither gives an N-core kinetic temperature at matched beam to compare. 

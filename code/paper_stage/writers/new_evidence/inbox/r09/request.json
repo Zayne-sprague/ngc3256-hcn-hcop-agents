@@ -1,0 +1,6 @@
+{
+ "id": "r09",
+ "to": "team-b",
+ "kind": "question",
+ "text": "R2 claims the N/S HCN/HCO+ contrast is J-independent (D = 1.00 +/- 0.05, 1-0 vs 3-2 at 2.2\"), but ACA 4-3 N/S is 1.62/1.49/1.32 at 4.5/5.5/7\" (p0066) while ACA 3-2 is 1.07 at 6.5\" (p0031, Xb4f). Using only ACA data (Xb4f 3-2, Xb47 4-3, same circular beam of 7\" or the coarsest common beam, same aperture/blending treatment of N and S, same window and baseline recipe), give N/S for HCN/HCO+ at 3-2 and 4-3 with errors, and the ratio N/S(4-3)/N/S(3-2). Say whether it is consistent with 1 and whether the N+S blending explains any difference. No new fits beyond this; point to scripts/outputs."
+}

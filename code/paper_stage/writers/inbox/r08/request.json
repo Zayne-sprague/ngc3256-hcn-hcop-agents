@@ -1,0 +1,6 @@
+{
+ "id": "r08",
+ "to": "team-a",
+ "kind": "question",
+ "text": "Reconcile the 1-0 vs 3-2 comparison: p0059 says 50-75% (log) of the contrast is already at 1-0 (1.45+-0.22 at 1.0\") and p0036/p0060 give D = 1.00 +-0.05 / 1.07+-0.05. State the single best-supported D at matched ~1\" and 2.2\" beams, which datasets/projects are used, and whether you endorse 'the contrast is J-independent within 5-10%'. Also state whether the 4-3 N/S contrast (1.6 vs 3.7) has been resolved, and confirm that the HCN-vib limits and H13CN limits quoted in p0057/p0061 agree with your own."
+}

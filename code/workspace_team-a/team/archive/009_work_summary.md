@@ -1,0 +1,10 @@
+# Q53 work summary (worker, team-a)
+**Did:** lit.py search/read of Izumi+2016 (2016ApJ...818...42I), Imanishi+2013/2014/2016/2018/2019/2023, Privon+2017, Harada+2018, Michiyama+2018, Ledger+2021, Butterworth+2022, Saito+2022; web for Privon+2015. Transcribed ratios (PDF tables garbled; columns re-assembled by order, checked against object lists and Izumi's text) into a table, compared with our own matched-beam ratios from report.json (Q1, Q1b, Q4c, Q10).
+**Scripts/outputs:** scripts/q53_context.py -> out/q53/lit_table.csv, summary.json, ratio_vs_class.png. report.json: 4 new Q53 entries (224->228).
+**Results**
+- Izumi+2016 Table 1 (4-3, Tb): high-res (<500 pc) AGN 1.11-3.19 (median 2.6); SB 0.24-1.03 (median 0.48). Only an empirical separation near 1; no numeric threshold in the text. NGC 3256 whole-galaxy APEX = 0.39.
+- **"1.84" is Privon+2015's 1-0 mean for AGN-dominated GOALS galaxies (composite 1.14, SB 0.88; galaxy-integrated kpc), not an Izumi 4-3 threshold.** Item text corrected.
+- Imanishi+2019 3-2 ULIRG nuclear peaks (Jy): median 1.3 (16-84% 1.0-1.85); NGC1614 at 1 kpc: 0.56/0.38/0.31 (2-1/3-2/4-3). Privon+2017 IRAS 13120 4-3: 2.8 nucleus, 1.77 integrated.
+- NGC 3256 (K km/s; Jy ratio = Tb/1.0126): 1-0 N 0.96 / S 0.645 (1.7"=320 pc, Harada), 0.94/0.60 (Michiyama). 3-2 N core 0.98 (56 pc), 0.81 (200 pc), 0.52 (1.2 kpc); S 0.42, 0.40, 0.42. 4-3 (620 pc, deblended) N 0.47, S 0.25; extrapolated to core scale ~0.7 / ~0.29.
+- Verdict: S (AGN) is below SB values at all J: diagnostic fails (false negative). N is SB-like at 4-3 (not AGN region); at 3-2/1-0 its <=200 pc core reaches ~0.8-1.0 (overlaps AGN/ULIRG low end, Izumi SB top NGC253 1.03). N ratio halves with beam, S flat: opposite to AGN behaviour of Izumi+2016. Same sign as Harada 2018.
+**Uncertain:** literature values are transcribed not re-measured; Privon+2015 numbers from abstract only; the core-scale 4-3 is an extrapolation (needs 4-3 at <200 pc: no such data); S AGN may be energetically minor; no sharp published threshold; opacity (Q47) and beam definitions differ between papers (Jy vs K; Gaussian-fit vs aperture).

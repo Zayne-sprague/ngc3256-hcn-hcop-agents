@@ -1,0 +1,5 @@
+ln BF(Habun/Hexc) (from s356 files):
+  X 40-100       halved 6.70 (BF 809.0)  default 3.71 (BF 41.0)  doubled 1.92 (BF 6.8)
+  X 40-100 phys. halved 6.68 (BF 794.0)  default 3.56 (BF 35.2)  doubled 1.78 (BF 6.0)
+  X 20-200       halved 6.40 (BF 603.0)  default 3.27 (BF 26.2)  doubled 1.43 (BF 4.2)
+  X 20-200 phys. halved 6.46 (BF 642.0)  default 3.08 (BF 21.8)  doubled 1.37 (BF 3.9)

@@ -1,0 +1,26 @@
+
+######## beam 1.50" (2015.1.00412 X145 vs Xb4d)
+ +-350 N/S: 1-0 1.616+-0.059 | 3-2 1.809+-0.020, recovery-bound-corrected 3-2 1.714 | D=3-2/1-0 1.120 (corrected 1.061)
+ +-350 N/Bridge: 1-0 1.403+-0.045 | 3-2 1.423+-0.016, recovery-bound-corrected 3-2 1.440 | D=3-2/1-0 1.015 (corrected 1.027)
+ +-350 S/Bridge: 1-0 0.868+-0.037 | 3-2 0.787+-0.010, recovery-bound-corrected 3-2 0.840 | D=3-2/1-0 0.906 (corrected 0.968)
+ +-150 N/S: 1-0 1.616+-0.041 | 3-2 1.843+-0.014, recovery-bound-corrected 3-2 1.746 | D=3-2/1-0 1.140 (corrected 1.080)
+ +-150 N/Bridge: 1-0 1.336+-0.030 | 3-2 1.449+-0.011, recovery-bound-corrected 3-2 1.466 | D=3-2/1-0 1.085 (corrected 1.097)
+ +-150 S/Bridge: 1-0 0.827+-0.025 | 3-2 0.786+-0.007, recovery-bound-corrected 3-2 0.840 | D=3-2/1-0 0.951 (corrected 1.015)
+ r31 HCN +-350: N 0.275+-0.004 (rec-bound 0.319) | S 0.223+-0.007 (rec-bound 0.302) | Bridge 0.203+-0.005 (rec-bound 0.238) | N/S 1.234 (rec-bound 1.055)
+ r31 HCO+ +-350: N 0.374+-0.005 (rec-bound 0.437) | S 0.339+-0.006 (rec-bound 0.440) | Bridge 0.279+-0.004 (rec-bound 0.335) | N/S 1.102 (rec-bound 0.994)
+ r31 HCN +-150: N 0.285+-0.003 (rec-bound 0.330) | S 0.227+-0.005 (rec-bound 0.307) | Bridge 0.207+-0.003 (rec-bound 0.243) | N/S 1.259 (rec-bound 1.076)
+ r31 HCO+ +-150: N 0.384+-0.003 (rec-bound 0.449) | S 0.348+-0.004 (rec-bound 0.450) | Bridge 0.302+-0.003 (rec-bound 0.362) | N/S 1.104 (rec-bound 0.996)
+
+######## beam 2.20" (2015.1.00993 X961 vs Xb4d)
+ +-350 N/S: 1-0 1.467+-0.022 | 3-2 1.650+-0.017, recovery-bound-corrected 3-2 1.564 | D=3-2/1-0 1.125 (corrected 1.066)
+ +-350 N/Bridge: 1-0 1.178+-0.015 | 3-2 1.186+-0.011, recovery-bound-corrected 3-2 1.200 | D=3-2/1-0 1.007 (corrected 1.019)
+ +-350 S/Bridge: 1-0 0.803+-0.013 | 3-2 0.719+-0.008, recovery-bound-corrected 3-2 0.767 | D=3-2/1-0 0.895 (corrected 0.956)
+ +-150 N/S: 1-0 1.448+-0.015 | 3-2 1.675+-0.012, recovery-bound-corrected 3-2 1.587 | D=3-2/1-0 1.157 (corrected 1.096)
+ +-150 N/Bridge: 1-0 1.176+-0.010 | 3-2 1.191+-0.007, recovery-bound-corrected 3-2 1.205 | D=3-2/1-0 1.013 (corrected 1.025)
+ +-150 S/Bridge: 1-0 0.812+-0.009 | 3-2 0.711+-0.005, recovery-bound-corrected 3-2 0.759 | D=3-2/1-0 0.876 (corrected 0.935)
+ r31 HCN +-350: N 0.247+-0.002 (rec-bound 0.286) | S 0.194+-0.003 (rec-bound 0.263) | Bridge 0.225+-0.002 (rec-bound 0.264) | N/S 1.271 (rec-bound 1.086)
+ r31 HCO+ +-350: N 0.330+-0.002 (rec-bound 0.385) | S 0.292+-0.002 (rec-bound 0.378) | Bridge 0.303+-0.002 (rec-bound 0.363) | N/S 1.130 (rec-bound 1.019)
+ r31 HCN +-150: N 0.252+-0.001 (rec-bound 0.292) | S 0.194+-0.002 (rec-bound 0.263) | Bridge 0.231+-0.002 (rec-bound 0.271) | N/S 1.299 (rec-bound 1.110)
+ r31 HCO+ +-150: N 0.338+-0.001 (rec-bound 0.395) | S 0.301+-0.002 (rec-bound 0.390) | Bridge 0.313+-0.002 (rec-bound 0.376) | N/S 1.123 (rec-bound 1.013)
+
+Budget summary at 2.2" (X961 vs Xb4d), N/S contrast of HCN/HCO+: see lines above. Absolute-flux-scale: cancels (see docstring).

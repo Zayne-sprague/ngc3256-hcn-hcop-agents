@@ -1,0 +1,6 @@
+{
+ "id": "r11",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Figure/table (supports R2c): N/S contrast of HNC/HCO+, CN/HCO+ and HCN/HCO+ (T_b, dust-independent) from ONE pipeline at matched flux-complete beams for 1-0 (2.5\", 2015.1.00993) and 3-2 (1.4\" and 2.5\", 12m+7m), with errors, plus N/S of HNC/HCN and CN/HCN. Currently mixed team-a 3-2 / team-b 1-0 numbers (r03). State which CN components are used."
+}

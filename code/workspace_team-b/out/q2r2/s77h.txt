@@ -1,0 +1,68 @@
+## (1) lobe wing flux (-405..-150, r=1.0", baseline B field-subtracted) in independent imagings (Jy km/s), all at 1.05" circular beam
+  HCN   std_Xb4d     : 0.473 +- 0.038
+  HCN   tap_Xb4d     : 0.554 +- 0.050
+  HCN   std_Xb4b     : 0.263 +- 0.052
+  HCN: Xb4d std/tapered mean 0.513 (spread +-8%); Xb4b products mean 0.263; Xb4b/Xb4d = 0.51
+  HCO+  std_Xb4d     : 0.327 +- 0.039
+  HCO+  tap_Xb4d     : 0.359 +- 0.038
+  HCO+  std_Xb4b     : 0.317 +- 0.054
+  HCO+  man_Xb4b     : 0.283 +- 0.040
+  HCO+  manflat_Xb4b : 0.247 +- 0.036
+  HCO+: Xb4d std/tapered mean 0.343 (spread +-5%); Xb4b products mean 0.282; Xb4b/Xb4d = 0.82
+## (2) CO(1-0) L' of South-OF-Blue [-360,-180] (Michiyama+2018 Tab.3 / text): inner 2.1": 3.10e+06, whole wing map: 8.53e+06 K km/s pc^2; HCN(1-0) L': 4.59e+05 / 7.87e+05
+   alpha_CO=0.4: M_mol(lobe, window) = 1.24e+06 (inner) .. 3.41e+06 (map) Msun
+   alpha_CO=0.8: M_mol(lobe, window) = 2.48e+06 (inner) .. 6.82e+06 (map) Msun
+   alpha_CO=2.1: M_mol(lobe, window) = 6.51e+06 (inner) .. 1.79e+07 (map) Msun
+   alpha route for the dense gas (what p-b/p0006 used): alpha_HCN=10 x L'HCN(1-0)=7.87e+06 Msun (map) vs M_mol(alpha_CO=0.8)=6.82e+06: ratio 1.15 -> alpha_HCN=10 gives dense > total molecular (unphysical in an unbound outflow)
+  broad component HCN Cs: centroid -178 sigma 142 -> mean|v| 192, mean v of v<0 part -206 km/s
+  broad component HCO+ Cs: centroid -89 sigma 90 -> mean|v| 104, mean v of v<0 part -115 km/s
+  broad component common C0: centroid -118 sigma 110 -> mean|v| 134, mean v of v<0 part -147 km/s
+  mass option HCO+ X=1e-8 (low): 7.75e+06 Msun
+  mass option central (geometric mean of low and CO cap, X(HCO+)~5e-9): 1.42e+07 Msun
+  mass option HCO+ X=3e-9 (CO cap: ~ Sakamoto M_mol(HV,S)=2.5e7 X20=1): 2.58e+07 Msun
+  mass option HCO+ X=1e-9 / HCN X=1e-8 (high): 7.75e+07 Msun
+  mass option HCN X=1e-8, HDO195 scenario: 5.39e+07 Msun
+  mass option HCN X=1e-8, own kinematics: 7.34e+07 Msun
+## dense fraction in the Michiyama window: fraction of the broad component inside -360..-180 km/s: common C0 (-118,110): 0.27, HCO+ Cs (-89,90): 0.15, HCN Cs (-178,142): 0.39
+  M_dense(window)=2.1e+06 [HCO+ X=1e-8 (low)] / M_CO(window, inner2.1, alpha_CO=0.4)=1.2e+06 -> f_dense=1.71
+  M_dense(window)=2.1e+06 [HCO+ X=1e-8 (low)] / M_CO(window, inner2.1, alpha_CO=0.8)=2.5e+06 -> f_dense=0.85
+  M_dense(window)=2.1e+06 [HCO+ X=1e-8 (low)] / M_CO(window, inner2.1, alpha_CO=2.1)=6.5e+06 -> f_dense=0.33
+  M_dense(window)=2.1e+06 [HCO+ X=1e-8 (low)] / M_CO(window, map, alpha_CO=0.4)=3.4e+06 -> f_dense=0.62
+  M_dense(window)=2.1e+06 [HCO+ X=1e-8 (low)] / M_CO(window, map, alpha_CO=0.8)=6.8e+06 -> f_dense=0.31
+  M_dense(window)=2.1e+06 [HCO+ X=1e-8 (low)] / M_CO(window, map, alpha_CO=2.1)=1.8e+07 -> f_dense=0.12
+  M_dense(window)=7.1e+06 [HCO+ X=3e-9 (CO cap: ~] / M_CO(window, inner2.1, alpha_CO=0.4)=1.2e+06 -> f_dense=5.70
+  M_dense(window)=7.1e+06 [HCO+ X=3e-9 (CO cap: ~] / M_CO(window, inner2.1, alpha_CO=0.8)=2.5e+06 -> f_dense=2.85
+  M_dense(window)=7.1e+06 [HCO+ X=3e-9 (CO cap: ~] / M_CO(window, inner2.1, alpha_CO=2.1)=6.5e+06 -> f_dense=1.09
+  M_dense(window)=7.1e+06 [HCO+ X=3e-9 (CO cap: ~] / M_CO(window, map, alpha_CO=0.4)=3.4e+06 -> f_dense=2.07
+  M_dense(window)=7.1e+06 [HCO+ X=3e-9 (CO cap: ~] / M_CO(window, map, alpha_CO=0.8)=6.8e+06 -> f_dense=1.04
+  M_dense(window)=7.1e+06 [HCO+ X=3e-9 (CO cap: ~] / M_CO(window, map, alpha_CO=2.1)=1.8e+07 -> f_dense=0.39
+  luminosity ratio L'(HCO+ 1-0)/L'(CO 1-0) = 0.20+-0.04 at South-OF-Blue vs 0.08+-0.01 at the S nucleus (Michiyama+2018 Table 4)
+## (3) budget rows: mass option | v_los (km/s) | R_proj (pc) | i (deg from LOS) | formula -> v_true, R_true, t[Myr], Mdot[Msun/yr], Pdot[dyn], Edot[erg/s]
+  HCO+ X=1e-8 (low)                     | v= 283 (window-mean ) | R=365 | i=70 | lobe M v/R -> vt=  827 R= 388 t=0.46 Mdot=  16.9 Pdot=8.8e+34 Edot=3.6e+42
+  HCO+ X=1e-8 (low)                     | v= 283 (window-mean ) | R=365 | i=80 | lobe M v/R -> vt= 1630 R= 371 t=0.22 Mdot=  34.9 Pdot=3.6e+35 Edot=2.9e+43
+  HCO+ X=1e-8 (low)                     | v= 283 (window-mean ) | R=365 | i=85 | lobe M v/R -> vt= 3247 R= 366 t=0.11 Mdot=  70.3 Pdot=1.4e+36 Edot=2.3e+44
+  HCO+ X=1e-8 (low)                     | v= 134 (broad |v|, c) | R=365 | i=70 | lobe M v/R -> vt=  393 R= 388 t=0.97 Mdot=   8.0 Pdot=2.0e+34 Edot=3.9e+41
+  HCO+ X=1e-8 (low)                     | v= 134 (broad |v|, c) | R=365 | i=80 | lobe M v/R -> vt=  773 R= 371 t=0.47 Mdot=  16.5 Pdot=8.1e+34 Edot=3.1e+42
+  HCO+ X=1e-8 (low)                     | v= 134 (broad |v|, c) | R=365 | i=85 | lobe M v/R -> vt= 1540 R= 366 t=0.23 Mdot=  33.3 Pdot=3.2e+35 Edot=2.5e+43
+  central (geometric mean of low and CO cap, X(HCO+)~5e-9)| v= 283 (window-mean ) | R=365 | i=70 | lobe M v/R -> vt=  827 R= 388 t=0.46 Mdot=  30.8 Pdot=1.6e+35 Edot=6.7e+42
+  central (geometric mean of low and CO cap, X(HCO+)~5e-9)| v= 283 (window-mean ) | R=365 | i=80 | lobe M v/R -> vt= 1630 R= 371 t=0.22 Mdot=  63.6 Pdot=6.5e+35 Edot=5.3e+43
+  central (geometric mean of low and CO cap, X(HCO+)~5e-9)| v= 283 (window-mean ) | R=365 | i=85 | lobe M v/R -> vt= 3247 R= 366 t=0.11 Mdot= 128.3 Pdot=2.6e+36 Edot=4.3e+44
+  central (geometric mean of low and CO cap, X(HCO+)~5e-9)| v= 134 (broad |v|, c) | R=365 | i=70 | lobe M v/R -> vt=  393 R= 388 t=0.97 Mdot=  14.6 Pdot=3.6e+34 Edot=7.1e+41
+  central (geometric mean of low and CO cap, X(HCO+)~5e-9)| v= 134 (broad |v|, c) | R=365 | i=80 | lobe M v/R -> vt=  773 R= 371 t=0.47 Mdot=  30.2 Pdot=1.5e+35 Edot=5.7e+42
+  central (geometric mean of low and CO cap, X(HCO+)~5e-9)| v= 134 (broad |v|, c) | R=365 | i=85 | lobe M v/R -> vt= 1540 R= 366 t=0.23 Mdot=  60.9 Pdot=5.9e+35 Edot=4.5e+43
+  HCO+ X=3e-9 (CO cap: ~ Sakamoto M_mol(HV,S)=2.5e7 X20=1)| v= 283 (window-mean ) | R=365 | i=70 | lobe M v/R -> vt=  827 R= 388 t=0.46 Mdot=  56.3 Pdot=2.9e+35 Edot=1.2e+43
+  HCO+ X=3e-9 (CO cap: ~ Sakamoto M_mol(HV,S)=2.5e7 X20=1)| v= 283 (window-mean ) | R=365 | i=80 | lobe M v/R -> vt= 1630 R= 371 t=0.22 Mdot= 116.2 Pdot=1.2e+36 Edot=9.7e+43
+  HCO+ X=3e-9 (CO cap: ~ Sakamoto M_mol(HV,S)=2.5e7 X20=1)| v= 283 (window-mean ) | R=365 | i=85 | lobe M v/R -> vt= 3247 R= 366 t=0.11 Mdot= 234.2 Pdot=4.8e+36 Edot=7.8e+44
+  HCO+ X=3e-9 (CO cap: ~ Sakamoto M_mol(HV,S)=2.5e7 X20=1)| v= 134 (broad |v|, c) | R=365 | i=70 | lobe M v/R -> vt=  393 R= 388 t=0.97 Mdot=  26.7 Pdot=6.6e+34 Edot=1.3e+42
+  HCO+ X=3e-9 (CO cap: ~ Sakamoto M_mol(HV,S)=2.5e7 X20=1)| v= 134 (broad |v|, c) | R=365 | i=80 | lobe M v/R -> vt=  773 R= 371 t=0.47 Mdot=  55.1 Pdot=2.7e+35 Edot=1.0e+43
+  HCO+ X=3e-9 (CO cap: ~ Sakamoto M_mol(HV,S)=2.5e7 X20=1)| v= 134 (broad |v|, c) | R=365 | i=85 | lobe M v/R -> vt= 1540 R= 366 t=0.23 Mdot= 111.1 Pdot=1.1e+36 Edot=8.3e+43
+  HCO+ X=1e-9 / HCN X=1e-8 (high)       | v= 283 (window-mean ) | R=365 | i=70 | lobe M v/R -> vt=  827 R= 388 t=0.46 Mdot= 168.9 Pdot=8.8e+35 Edot=3.6e+43
+  HCO+ X=1e-9 / HCN X=1e-8 (high)       | v= 283 (window-mean ) | R=365 | i=80 | lobe M v/R -> vt= 1630 R= 371 t=0.22 Mdot= 348.6 Pdot=3.6e+36 Edot=2.9e+44
+  HCO+ X=1e-9 / HCN X=1e-8 (high)       | v= 283 (window-mean ) | R=365 | i=85 | lobe M v/R -> vt= 3247 R= 366 t=0.11 Mdot= 702.6 Pdot=1.4e+37 Edot=2.3e+45
+  HCO+ X=1e-9 / HCN X=1e-8 (high)       | v= 134 (broad |v|, c) | R=365 | i=70 | lobe M v/R -> vt=  393 R= 388 t=0.97 Mdot=  80.1 Pdot=2.0e+35 Edot=3.9e+42
+  HCO+ X=1e-9 / HCN X=1e-8 (high)       | v= 134 (broad |v|, c) | R=365 | i=80 | lobe M v/R -> vt=  773 R= 371 t=0.47 Mdot= 165.4 Pdot=8.1e+35 Edot=3.1e+43
+  HCO+ X=1e-9 / HCN X=1e-8 (high)       | v= 134 (broad |v|, c) | R=365 | i=85 | lobe M v/R -> vt= 1540 R= 366 t=0.23 Mdot= 333.3 Pdot=3.2e+36 Edot=2.5e+44
+  all 144 combinations: Mdot range 2.8 .. 2108 Msun/yr, median 60
+  CENTRAL (M=1.4e+07, v_los=134, R_proj=365, i=80, M v/R): Mdot=30 Msun/yr, Pdot=1.5e+35 dyn, Edot=5.7e+42 erg/s, t=0.47 Myr, v_true=773 km/s
+  one-at-a-time Mdot from the central case: M_low=17; M_capCO=55; M_high_uncapped=165; v_283=64; R700=16; i70=15; i85=61; shell3=91
+  Literature: Sakamoto+2014 CO Mdot_S = 50 X20 (i=80) / 25 X20 (i=70); Michiyama+2018 Table 2: CO 40-104, HCN 1-48 Msun/yr; GOALS-JWST cold <=33 (warm 2.0+-0.8); SFR total 49+-2 (Michiyama+2020), S nucleus 1-6.8.

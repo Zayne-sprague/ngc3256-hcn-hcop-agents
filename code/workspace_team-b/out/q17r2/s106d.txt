@@ -1,0 +1,20 @@
+HCN OF-Red 240..360 @1.9" beam, d=2.1" aperture: 3-2 flux 0.112 (control sd 0.015; matched-core sd 0.015; core-scaled leakage model +0.033; core 3.6); shifts +-0.5": 0.089..0.121; M18 1-0 0.08+-0.02; r31 = 0.16+-0.05 (after leakage subtraction 0.11); shifted-aperture r31 range 0.12..0.17
+HCN South-OF-Blue -360..-180 @1.9" beam, d=2.1" aperture: 3-2 flux 0.235 (control sd 0.029; matched-core sd 0.033; core-scaled leakage model -0.011; core 0.7); shifts +-0.5": 0.147..0.245; M18 1-0 0.07+-0.02; r31 = 0.37+-0.12 (after leakage subtraction 0.39); shifted-aperture r31 range 0.23..0.39
+HCO+ OF-Red 240..360 @1.9" beam, d=2.1" aperture: 3-2 flux 0.097 (control sd 0.019; matched-core sd 0.019; core-scaled leakage model -0.022; core 6.6); shifts +-0.5": 0.080..0.096; M18 1-0 0.08+-0.02; r31 = 0.13+-0.05 (after leakage subtraction 0.17); shifted-aperture r31 range 0.11..0.13
+HCO+ South-OF-Blue -360..-180 @1.9" beam, d=2.1" aperture: 3-2 flux 0.173 (control sd 0.018; matched-core sd 0.022; core-scaled leakage model -0.018; core 1.5); shifts +-0.5": 0.135..0.163; M18 1-0 0.1+-0.02; r31 = 0.19+-0.04 (after leakage subtraction 0.21); shifted-aperture r31 range 0.15..0.18
+HCN: r31(ridge)/r31(lobe) = 0.42; ln-difference -0.88+-0.45 -> 2.0 sigma (1-0 errors from M18 table 3 included; positive-covariance of beam/aperture systematics not included)
+HCO+: r31(ridge)/r31(lobe) = 0.70; ln-difference -0.35+-0.41 -> 0.9 sigma (1-0 errors from M18 table 3 included; positive-covariance of beam/aperture systematics not included)
+RADEX OF-Red: allowed cells 17; log n(H2) 16/50/84% = 4.0/4.2/4.5; Tk 16/50/84 = 40/40/40; f_HCN(N per 3-2 K km/s) median 1.50e+14 [8.3e+13,2.5e+14]
+South-OF-Blue: no RADEX solution with chi2<4 for both lines
+RADEX South-OF-Blue: allowed cells 94; log n(H2) 16/50/84% = 4.0/4.5/5.0; Tk 16/50/84 = 14/28/40; f_HCN(N per 3-2 K km/s) median 1.04e+14 [5.8e+13,5.2e+14]
+  mass-per-unit-3-2-flux (HCN): ridge/lobe median 1.45 (16-84% ranges: ridge 0.81..2.43 of lobe median)
+  mass-per-unit-3-2-flux (HCO+): ridge/lobe median 1.66 (16-84% ranges: ridge 0.94..2.67 of lobe median)
+  RADEX Tk=10 K, log n=4.0, N/dv=1e13: r31(HCN)=0.02 r31(HCO+)=0.05
+  RADEX Tk=10 K, log n=5.0, N/dv=1e13: r31(HCN)=0.04 r31(HCO+)=0.18
+  RADEX Tk=10 K, log n=6.0, N/dv=1e13: r31(HCN)=0.16 r31(HCO+)=0.58
+  RADEX Tk=14 K, log n=4.0, N/dv=1e13: r31(HCN)=0.03 r31(HCO+)=0.07
+  RADEX Tk=14 K, log n=5.0, N/dv=1e13: r31(HCN)=0.06 r31(HCO+)=0.26
+  RADEX Tk=14 K, log n=6.0, N/dv=1e13: r31(HCN)=0.26 r31(HCO+)=0.84
+  RADEX Tk=40 K, log n=4.0, N/dv=1e13: r31(HCN)=0.07 r31(HCO+)=0.17
+  RADEX Tk=40 K, log n=5.0, N/dv=1e13: r31(HCN)=0.17 r31(HCO+)=0.55
+  RADEX Tk=40 K, log n=6.0, N/dv=1e13: r31(HCN)=0.75 r31(HCO+)=2.26

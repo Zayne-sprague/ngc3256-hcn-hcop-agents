@@ -1,0 +1,48 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X1273/Xb55",
+ "freq_ranges_ghz": [
+  [
+   175.0,
+   177.5
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xcda49e_Xa02e",
+  "uid___A002_Xcdb7b8_X89d"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": "scripts/q26_image.py",
+ "args": [],
+ "why": "Q26: need Xb55 2-1 7-m visibilities (HCN and HCO+ 2-1 in band) to re-image with the same u>6 kl / taper / restoring beam as the already-restored Xb4f 3-2 7-m and Xb4d EBs; runs the imaging script right after (scripts/q26_image.py).",
+ "ok_evict": false,
+ "ok_long": false,
+ "bytes_estimate": 3322330112,
+ "id": "20261028T061838-8b57",
+ "team": "team-a",
+ "status": "done",
+ "submitted": "2026-10-28T06:18:38+00:00",
+ "bytes_to_fetch": 3322330112,
+ "scratch_bytes": 10491695104,
+ "planned_evictions": [],
+ "estimated_hours": 0.7,
+ "large": true,
+ "queued": "2026-10-28T06:18:42+00:00",
+ "bytes_done": 0,
+ "started": "2026-10-28T06:18:45+00:00",
+ "path": "/archive/derived/team-a/20261028T061838-8b57",
+ "finished": "2026-10-28T06:45:28+00:00",
+ "minutes": 26.7,
+ "split_ms": [
+  "/archive/derived/team-a/20261028T061838-8b57/uid___A002_Xcda49e_Xa02e.split.ms",
+  "/archive/derived/team-a/20261028T061838-8b57/uid___A002_Xcdb7b8_X89d.split.ms"
+ ],
+ "split_gb": 0.222,
+ "casa": "5.1.1-5",
+ "summary": "/archive/derived/team-a/20261028T061838-8b57/summary.json",
+ "then_returncode": 1,
+ "then_log": "/workspace/scripts/q26_image.log"
+}

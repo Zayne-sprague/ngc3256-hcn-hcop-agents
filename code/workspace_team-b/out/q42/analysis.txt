@@ -1,0 +1,160 @@
+  N  H0    bandprior (0.1, 0.15) Xprior flat logX     : X=31 [26,39]  P(Tk<=30)=0.0036 P(30-100)=0.024 P(>=100)=0.973 P(<=150)=0.09  BF(hot:cold)=273  N(HCN)/N(HCO+)=3.49 [3.15,3.80]
+  N  H0    bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=33 [27,41]  P(Tk<=30)=0.0021 P(30-100)=0.026 P(>=100)=0.972 P(<=150)=0.09  BF(hot:cold)=457  N(HCN)/N(HCO+)=3.49 [3.15,3.82]
+      dchi2(cold-hot) at X: 22:35.2 32:24.9 45:12.6 63:4.2 89:-1.1; chi2min(best X) 5.11
+  N  H0    bandprior (0.2, 0.25) Xprior flat logX     : X=42 [30,59]  P(Tk<=30)=0.0305 P(30-100)=0.154 P(>=100)=0.815 P(<=150)=0.32  BF(hot:cold)=27  N(HCN)/N(HCO+)=3.65 [3.22,4.47]
+  N  H0    bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=42 [31,55]  P(Tk<=30)=0.0159 P(30-100)=0.144 P(>=100)=0.840 P(<=150)=0.30  BF(hot:cold)=53  N(HCN)/N(HCO+)=3.64 [3.22,4.44]
+      dchi2(cold-hot) at X: 22:30.3 32:22.6 45:10.7 63:5.9 89:-2.0; chi2min(best X) 4.59
+  N  H0    bandprior (0.4, 0.4) Xprior flat logX     : X=48 [34,64]  P(Tk<=30)=0.0472 P(30-100)=0.223 P(>=100)=0.730 P(<=150)=0.43  BF(hot:cold)=15  N(HCN)/N(HCO+)=3.76 [3.27,4.67]
+  N  H0    bandprior (0.4, 0.4) Xprior LN(45,0.2dex) : X=47 [35,59]  P(Tk<=30)=0.0247 P(30-100)=0.202 P(>=100)=0.773 P(<=150)=0.39  BF(hot:cold)=31  N(HCN)/N(HCO+)=3.74 [3.26,4.64]
+      dchi2(cold-hot) at X: 22:17.1 32:14.4 45:10.9 63:5.5 89:-2.5; chi2min(best X) 2.32
+  N  H4c   bandprior (0.1, 0.15) Xprior flat logX     : X=32 [27,41]  P(Tk<=30)=0.0044 P(30-100)=0.028 P(>=100)=0.968 P(<=150)=0.10  BF(hot:cold)=218  N(HCN)/N(HCO+)=3.49 [3.15,3.83]
+  N  H4c   bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=33 [28,42]  P(Tk<=30)=0.0026 P(30-100)=0.029 P(>=100)=0.968 P(<=150)=0.10  BF(hot:cold)=380  N(HCN)/N(HCO+)=3.49 [3.15,3.85]
+      dchi2(cold-hot) at X: 22:35.2 32:24.9 45:12.7 63:4.3 89:-1.0; chi2min(best X) 5.78
+  N  H4c   bandprior (0.2, 0.25) Xprior flat logX     : X=44 [31,60]  P(Tk<=30)=0.0340 P(30-100)=0.165 P(>=100)=0.801 P(<=150)=0.34  BF(hot:cold)=24  N(HCN)/N(HCO+)=3.66 [3.23,4.51]
+  N  H4c   bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=43 [33,56]  P(Tk<=30)=0.0173 P(30-100)=0.151 P(>=100)=0.831 P(<=150)=0.32  BF(hot:cold)=48  N(HCN)/N(HCO+)=3.65 [3.22,4.47]
+      dchi2(cold-hot) at X: 22:31.4 32:22.6 45:10.9 63:6.0 89:-1.9; chi2min(best X) 4.93
+  N  H4c   bandprior (0.4, 0.4) Xprior flat logX     : X=49 [36,65]  P(Tk<=30)=0.0503 P(30-100)=0.232 P(>=100)=0.718 P(<=150)=0.44  BF(hot:cold)=14  N(HCN)/N(HCO+)=3.79 [3.28,4.69]
+  N  H4c   bandprior (0.4, 0.4) Xprior LN(45,0.2dex) : X=47 [36,60]  P(Tk<=30)=0.0258 P(30-100)=0.208 P(>=100)=0.766 P(<=150)=0.40  BF(hot:cold)=30  N(HCN)/N(HCO+)=3.75 [3.26,4.65]
+      dchi2(cold-hot) at X: 22:17.9 32:15.3 45:11.0 63:5.7 89:-2.4; chi2min(best X) 2.45
+  N  H4g   bandprior (0.1, 0.15) Xprior flat logX     : X=31 [26,39]  P(Tk<=30)=0.0029 P(30-100)=0.022 P(>=100)=0.975 P(<=150)=0.08  BF(hot:cold)=331  N(HCN)/N(HCO+)=3.49 [3.15,3.78]
+  N  H4g   bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=32 [27,40]  P(Tk<=30)=0.0018 P(30-100)=0.024 P(>=100)=0.974 P(<=150)=0.09  BF(hot:cold)=537  N(HCN)/N(HCO+)=3.48 [3.15,3.80]
+      dchi2(cold-hot) at X: 22:35.2 32:24.9 45:12.5 63:4.1 89:-1.3; chi2min(best X) 5.20
+  N  H4g   bandprior (0.2, 0.25) Xprior flat logX     : X=41 [29,57]  P(Tk<=30)=0.0274 P(30-100)=0.146 P(>=100)=0.827 P(<=150)=0.30  BF(hot:cold)=30  N(HCN)/N(HCO+)=3.63 [3.22,4.43]
+  N  H4g   bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=41 [31,55]  P(Tk<=30)=0.0146 P(30-100)=0.138 P(>=100)=0.847 P(<=150)=0.29  BF(hot:cold)=58  N(HCN)/N(HCO+)=3.63 [3.21,4.42]
+      dchi2(cold-hot) at X: 22:30.6 32:22.5 45:10.5 63:5.8 89:-2.2; chi2min(best X) 4.88
+  N  H4d   bandprior (0.1, 0.15) Xprior flat logX     : X=31 [26,40]  P(Tk<=30)=0.0036 P(30-100)=0.024 P(>=100)=0.972 P(<=150)=0.09  BF(hot:cold)=267  N(HCN)/N(HCO+)=3.49 [3.15,3.80]
+  N  H4d   bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=33 [28,41]  P(Tk<=30)=0.0021 P(30-100)=0.027 P(>=100)=0.971 P(<=150)=0.09  BF(hot:cold)=460  N(HCN)/N(HCO+)=3.49 [3.15,3.82]
+      dchi2(cold-hot) at X: 22:35.2 32:24.9 45:12.6 71:2.3; chi2min(best X) 5.19
+  N  H4d   bandprior (0.2, 0.25) Xprior flat logX     : X=40 [29,55]  P(Tk<=30)=0.0314 P(30-100)=0.154 P(>=100)=0.814 P(<=150)=0.32  BF(hot:cold)=26  N(HCN)/N(HCO+)=3.65 [3.22,4.47]
+  N  H4d   bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=40 [30,53]  P(Tk<=30)=0.0159 P(30-100)=0.144 P(>=100)=0.840 P(<=150)=0.30  BF(hot:cold)=53  N(HCN)/N(HCO+)=3.64 [3.22,4.45]
+      dchi2(cold-hot) at X: 22:30.5 45:10.7 89:-2.0; chi2min(best X) 4.80
+  N  T     bandprior (0.1, 0.15) Xprior flat logX     : X=61 [50,74]  P(Tk<=30)=0.0104 P(30-100)=0.001 P(>=100)=0.989 P(<=150)=0.03  BF(hot:cold)=96  N(HCN)/N(HCO+)=3.43 [3.11,3.70]
+  N  T     bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=58 [48,68]  P(Tk<=30)=0.0046 P(30-100)=0.000 P(>=100)=0.995 P(<=150)=0.02  BF(hot:cold)=218  N(HCN)/N(HCO+)=3.44 [3.12,3.69]
+      dchi2(cold-hot) at X: 22:29.1 45:24.7 89:7.2; chi2min(best X) 5.82
+   [X grid extended to 178]
+  N  T     bandprior (0.1, 0.15) Xprior flat logX     : X=64 [51,103]  P(Tk<=30)=0.1459 P(30-100)=0.001 P(>=100)=0.853 P(<=150)=0.17  BF(hot:cold)=6  N(HCN)/N(HCO+)=3.38 [2.98,3.68]
+  N  T     bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=58 [48,69]  P(Tk<=30)=0.0137 P(30-100)=0.000 P(>=100)=0.986 P(<=150)=0.03  BF(hot:cold)=72  N(HCN)/N(HCO+)=3.43 [3.11,3.69]
+      dchi2(cold-hot) at X: 22:29.1 45:24.7 89:7.2 141:-4.0; chi2min(best X) 5.82
+  N  T     bandprior (0.2, 0.25) Xprior flat logX     : X=66 [50,90]  P(Tk<=30)=0.3192 P(30-100)=0.000 P(>=100)=0.680 P(<=150)=0.33  BF(hot:cold)=2  N(HCN)/N(HCO+)=3.27 [1.46,3.67]
+  N  T     bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=58 [47,76]  P(Tk<=30)=0.2016 P(30-100)=0.000 P(>=100)=0.798 P(<=150)=0.22  BF(hot:cold)=4  N(HCN)/N(HCO+)=3.40 [1.65,3.70]
+      dchi2(cold-hot) at X: 22:12.0 45:10.1 89:-0.5; chi2min(best X) 5.46
+   [X grid extended to 178]
+  N  T     bandprior (0.2, 0.25) Xprior flat logX     : X=108 [60,154]  P(Tk<=30)=0.6696 P(30-100)=0.001 P(>=100)=0.330 P(<=150)=0.68  BF(hot:cold)=0  N(HCN)/N(HCO+)=1.57 [1.15,3.48]
+  N  T     bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=60 [48,91]  P(Tk<=30)=0.2756 P(30-100)=0.000 P(>=100)=0.724 P(<=150)=0.29  BF(hot:cold)=3  N(HCN)/N(HCO+)=3.36 [1.49,3.69]
+      dchi2(cold-hot) at X: 22:12.0 45:10.1 89:-0.5 141:-4.6; chi2min(best X) 3.68
+  N  Tp    bandprior (0.1, 0.15) Xprior flat logX     : X=43 [34,59]  P(Tk<=30)=0.0942 P(30-100)=0.001 P(>=100)=0.905 P(<=150)=0.12  BF(hot:cold)=10  N(HCN)/N(HCO+)=3.40 [3.04,3.69]
+  N  Tp    bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=41 [34,53]  P(Tk<=30)=0.0414 P(30-100)=0.001 P(>=100)=0.958 P(<=150)=0.06  BF(hot:cold)=23  N(HCN)/N(HCO+)=3.42 [3.09,3.69]
+      dchi2(cold-hot) at X: 22:27.3 45:14.0 89:-2.7; chi2min(best X) 6.17
+   [X grid extended to 178]
+  N  Tp    bandprior (0.1, 0.15) Xprior flat logX     : X=48 [36,122]  P(Tk<=30)=0.3136 P(30-100)=0.001 P(>=100)=0.685 P(<=150)=0.33  BF(hot:cold)=2  N(HCN)/N(HCO+)=3.24 [1.17,3.65]
+  N  Tp    bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=42 [34,54]  P(Tk<=30)=0.0598 P(30-100)=0.001 P(>=100)=0.939 P(<=150)=0.08  BF(hot:cold)=16  N(HCN)/N(HCO+)=3.41 [3.07,3.69]
+      dchi2(cold-hot) at X: 22:27.3 45:14.0 89:-2.7 141:-9.6; chi2min(best X) 6.17
+  N  Tp    bandprior (0.2, 0.25) Xprior flat logX     : X=62 [39,89]  P(Tk<=30)=0.5981 P(30-100)=0.001 P(>=100)=0.401 P(<=150)=0.61  BF(hot:cold)=1  N(HCN)/N(HCO+)=1.66 [1.17,3.55]
+  N  Tp    bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=50 [36,73]  P(Tk<=30)=0.4670 P(30-100)=0.001 P(>=100)=0.532 P(<=150)=0.48  BF(hot:cold)=1  N(HCN)/N(HCO+)=3.03 [1.27,3.62]
+      dchi2(cold-hot) at X: 22:11.6 45:3.1 89:-3.6; chi2min(best X) 4.10
+   [X grid extended to 178]
+  N  Tp    bandprior (0.2, 0.25) Xprior flat logX     : X=103 [51,150]  P(Tk<=30)=0.8027 P(30-100)=0.001 P(>=100)=0.196 P(<=150)=0.81  BF(hot:cold)=0  N(HCN)/N(HCO+)=1.33 [0.94,3.18]
+  N  Tp    bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=52 [37,86]  P(Tk<=30)=0.5127 P(30-100)=0.001 P(>=100)=0.486 P(<=150)=0.53  BF(hot:cold)=1  N(HCN)/N(HCO+)=2.04 [1.21,3.60]
+      dchi2(cold-hot) at X: 22:11.6 45:3.1 89:-3.6 141:-7.4; chi2min(best X) 3.90
+  N  T32   bandprior (0.1, 0.15) Xprior flat logX     : X=52 [45,65]  P(Tk<=30)=0.0625 P(30-100)=0.000 P(>=100)=0.937 P(<=150)=0.08  BF(hot:cold)=15  N(HCN)/N(HCO+)=3.42 [3.07,3.68]
+  N  T32   bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=50 [43,59]  P(Tk<=30)=0.0219 P(30-100)=0.000 P(>=100)=0.978 P(<=150)=0.03  BF(hot:cold)=45  N(HCN)/N(HCO+)=3.44 [3.11,3.69]
+      dchi2(cold-hot) at X: 22:33.1 45:25.4 89:-1.8; chi2min(best X) 10.79
+   [X grid extended to 178]
+  N  T32   bandprior (0.1, 0.15) Xprior flat logX     : X=108 [48,158]  P(Tk<=30)=0.5634 P(30-100)=0.000 P(>=100)=0.437 P(<=150)=0.57  BF(hot:cold)=1  N(HCN)/N(HCO+)=1.86 [1.30,3.54]
+  N  T32   bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=51 [44,62]  P(Tk<=30)=0.0688 P(30-100)=0.000 P(>=100)=0.931 P(<=150)=0.08  BF(hot:cold)=14  N(HCN)/N(HCO+)=3.42 [3.07,3.68]
+      dchi2(cold-hot) at X: 22:33.1 45:25.4 89:-1.8 141:-15.2; chi2min(best X) 10.74
+  N  T32   bandprior (0.2, 0.25) Xprior flat logX     : X=74 [49,93]  P(Tk<=30)=0.6822 P(30-100)=0.000 P(>=100)=0.318 P(<=150)=0.69  BF(hot:cold)=0  N(HCN)/N(HCO+)=1.69 [1.40,3.52]
+  N  T32   bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=56 [44,85]  P(Tk<=30)=0.4625 P(30-100)=0.000 P(>=100)=0.537 P(<=150)=0.47  BF(hot:cold)=1  N(HCN)/N(HCO+)=3.08 [1.48,3.66]
+      dchi2(cold-hot) at X: 22:17.2 45:11.3 89:-8.5; chi2min(best X) 7.21
+   [X grid extended to 178]
+  N  T32   bandprior (0.2, 0.25) Xprior flat logX     : X=124 [83,160]  P(Tk<=30)=0.9194 P(30-100)=0.000 P(>=100)=0.081 P(<=150)=0.92  BF(hot:cold)=0  N(HCN)/N(HCO+)=1.54 [1.25,1.94]
+  N  T32   bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=66 [46,106]  P(Tk<=30)=0.5772 P(30-100)=0.000 P(>=100)=0.423 P(<=150)=0.58  BF(hot:cold)=1  N(HCN)/N(HCO+)=1.83 [1.41,3.60]
+      dchi2(cold-hot) at X: 22:17.2 45:11.3 89:-8.5 141:-13.5; chi2min(best X) 4.64
+  N  T432  bandprior (0.1, 0.15) Xprior flat logX     : X=52 [45,65]  P(Tk<=30)=0.0647 P(30-100)=0.000 P(>=100)=0.935 P(<=150)=0.08  BF(hot:cold)=14  N(HCN)/N(HCO+)=3.42 [3.07,3.68]
+  N  T432  bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=50 [44,59]  P(Tk<=30)=0.0227 P(30-100)=0.000 P(>=100)=0.977 P(<=150)=0.03  BF(hot:cold)=43  N(HCN)/N(HCO+)=3.43 [3.11,3.69]
+      dchi2(cold-hot) at X: 22:34.2 45:25.7 89:-1.7; chi2min(best X) 11.02
+  N  T432  bandprior (0.2, 0.25) Xprior flat logX     : X=75 [49,94]  P(Tk<=30)=0.6899 P(30-100)=0.000 P(>=100)=0.310 P(<=150)=0.69  BF(hot:cold)=0  N(HCN)/N(HCO+)=1.68 [1.40,3.50]
+  N  T432  bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=57 [44,85]  P(Tk<=30)=0.4696 P(30-100)=0.000 P(>=100)=0.530 P(<=150)=0.48  BF(hot:cold)=1  N(HCN)/N(HCO+)=3.06 [1.47,3.66]
+      dchi2(cold-hot) at X: 22:18.0 45:11.6 89:-8.4; chi2min(best X) 7.36
+  S  T     bandprior (0.1, 0.15) Xprior flat logX     : X=89 [74,96]  P(Tk<=30)=0.0102 P(30-100)=0.044 P(>=100)=0.946 P(<=150)=0.25  BF(hot:cold)=93  N(HCN)/N(HCO+)=2.08 [1.88,2.36]
+  S  T     bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=84 [70,95]  P(Tk<=30)=0.0113 P(30-100)=0.041 P(>=100)=0.948 P(<=150)=0.24  BF(hot:cold)=84  N(HCN)/N(HCO+)=2.08 [1.89,2.36]
+      dchi2(cold-hot) at X: 22:-8.0 45:-0.8 89:6.1; chi2min(best X) 3.57
+   [X grid extended to 178]
+  S  T     bandprior (0.1, 0.15) Xprior flat logX     : X=124 [100,157]  P(Tk<=30)=0.0212 P(30-100)=0.107 P(>=100)=0.872 P(<=150)=0.35  BF(hot:cold)=41  N(HCN)/N(HCO+)=2.08 [1.83,2.43]
+  S  T     bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=99 [76,119]  P(Tk<=30)=0.0129 P(30-100)=0.064 P(>=100)=0.923 P(<=150)=0.28  BF(hot:cold)=72  N(HCN)/N(HCO+)=2.08 [1.86,2.38]
+      dchi2(cold-hot) at X: 22:-8.0 45:-0.8 89:6.1 141:3.9; chi2min(best X) 2.90
+  S  T     bandprior (0.2, 0.25) Xprior flat logX     : X=85 [70,96]  P(Tk<=30)=0.0912 P(30-100)=0.055 P(>=100)=0.854 P(<=150)=0.35  BF(hot:cold)=9  N(HCN)/N(HCO+)=2.17 [1.85,2.54]
+  S  T     bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=78 [62,93]  P(Tk<=30)=0.1126 P(30-100)=0.052 P(>=100)=0.836 P(<=150)=0.37  BF(hot:cold)=7  N(HCN)/N(HCO+)=2.17 [1.81,2.55]
+      dchi2(cold-hot) at X: 22:8.8 45:-5.7 89:1.9; chi2min(best X) 3.36
+   [X grid extended to 178]
+  S  T     bandprior (0.2, 0.25) Xprior flat logX     : X=118 [92,154]  P(Tk<=30)=0.0783 P(30-100)=0.099 P(>=100)=0.822 P(<=150)=0.40  BF(hot:cold)=11  N(HCN)/N(HCO+)=2.10 [1.77,2.50]
+  S  T     bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=91 [67,111]  P(Tk<=30)=0.0947 P(30-100)=0.065 P(>=100)=0.840 P(<=150)=0.37  BF(hot:cold)=9  N(HCN)/N(HCO+)=2.15 [1.80,2.53]
+      dchi2(cold-hot) at X: 22:8.8 45:-5.7 89:1.9 141:0.6; chi2min(best X) 2.85
+  S  Tp    bandprior (0.1, 0.15) Xprior flat logX     : X=84 [67,96]  P(Tk<=30)=0.0077 P(30-100)=0.102 P(>=100)=0.890 P(<=150)=0.35  BF(hot:cold)=115  N(HCN)/N(HCO+)=2.12 [1.89,2.47]
+  S  Tp    bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=76 [60,93]  P(Tk<=30)=0.0079 P(30-100)=0.093 P(>=100)=0.899 P(<=150)=0.33  BF(hot:cold)=113  N(HCN)/N(HCO+)=2.11 [1.89,2.46]
+      dchi2(cold-hot) at X: 22:-3.6 45:4.6 89:6.2; chi2min(best X) 2.38
+   [X grid extended to 178]
+  S  Tp    bandprior (0.1, 0.15) Xprior flat logX     : X=129 [97,161]  P(Tk<=30)=0.0161 P(30-100)=0.168 P(>=100)=0.816 P(<=150)=0.43  BF(hot:cold)=51  N(HCN)/N(HCO+)=2.14 [1.89,2.53]
+  S  Tp    bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=92 [65,116]  P(Tk<=30)=0.0098 P(30-100)=0.118 P(>=100)=0.872 P(<=150)=0.37  BF(hot:cold)=89  N(HCN)/N(HCO+)=2.12 [1.89,2.49]
+      dchi2(cold-hot) at X: 22:-3.6 45:4.6 89:6.2 141:5.4; chi2min(best X) 1.10
+  S  Tp    bandprior (0.2, 0.25) Xprior flat logX     : X=82 [63,95]  P(Tk<=30)=0.0670 P(30-100)=0.101 P(>=100)=0.832 P(<=150)=0.41  BF(hot:cold)=12  N(HCN)/N(HCO+)=2.19 [1.89,2.59]
+  S  Tp    bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=72 [57,91]  P(Tk<=30)=0.0788 P(30-100)=0.092 P(>=100)=0.829 P(<=150)=0.41  BF(hot:cold)=11  N(HCN)/N(HCO+)=2.20 [1.88,2.60]
+      dchi2(cold-hot) at X: 22:-6.8 45:-1.1 89:2.4; chi2min(best X) 2.17
+   [X grid extended to 178]
+  S  Tp    bandprior (0.2, 0.25) Xprior flat logX     : X=125 [92,160]  P(Tk<=30)=0.0554 P(30-100)=0.154 P(>=100)=0.790 P(<=150)=0.45  BF(hot:cold)=14  N(HCN)/N(HCO+)=2.18 [1.86,2.59]
+  S  Tp    bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=85 [60,111]  P(Tk<=30)=0.0696 P(30-100)=0.110 P(>=100)=0.820 P(<=150)=0.42  BF(hot:cold)=12  N(HCN)/N(HCO+)=2.19 [1.88,2.59]
+      dchi2(cold-hot) at X: 22:-6.8 45:-1.1 89:2.4 141:2.2; chi2min(best X) 1.04
+  S  T432  bandprior (0.1, 0.15) Xprior flat logX     : X=89 [74,96]  P(Tk<=30)=0.0101 P(30-100)=0.044 P(>=100)=0.946 P(<=150)=0.25  BF(hot:cold)=94  N(HCN)/N(HCO+)=2.08 [1.88,2.36]
+  S  T432  bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=84 [70,95]  P(Tk<=30)=0.0111 P(30-100)=0.041 P(>=100)=0.948 P(<=150)=0.24  BF(hot:cold)=85  N(HCN)/N(HCO+)=2.08 [1.89,2.36]
+      dchi2(cold-hot) at X: 22:-7.5 45:-0.7 89:6.1; chi2min(best X) 3.57
+  S  T432  bandprior (0.2, 0.25) Xprior flat logX     : X=85 [70,96]  P(Tk<=30)=0.0901 P(30-100)=0.055 P(>=100)=0.855 P(<=150)=0.35  BF(hot:cold)=9  N(HCN)/N(HCO+)=2.17 [1.86,2.54]
+  S  T432  bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=78 [62,94]  P(Tk<=30)=0.1108 P(30-100)=0.051 P(>=100)=0.838 P(<=150)=0.37  BF(hot:cold)=8  N(HCN)/N(HCO+)=2.17 [1.82,2.55]
+      dchi2(cold-hot) at X: 22:10.1 45:-5.6 89:1.9; chi2min(best X) 3.36
+  C  T     bandprior (0.1, 0.15) Xprior flat logX     : X=55 [46,67]  P(Tk<=30)=0.0000 P(30-100)=0.021 P(>=100)=0.979 P(<=150)=0.17  BF(hot:cold)=139911  N(HCN)/N(HCO+)=2.28 [2.07,2.57]
+  C  T     bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=52 [45,64]  P(Tk<=30)=0.0000 P(30-100)=0.018 P(>=100)=0.982 P(<=150)=0.16  BF(hot:cold)=326568  N(HCN)/N(HCO+)=2.28 [2.08,2.56]
+      dchi2(cold-hot) at X: 22:33.8 45:34.2 89:17.4; chi2min(best X) 1.82
+   [X grid extended to 178]
+  C  T     bandprior (0.1, 0.15) Xprior flat logX     : X=55 [46,68]  P(Tk<=30)=0.0000 P(30-100)=0.022 P(>=100)=0.978 P(<=150)=0.17  BF(hot:cold)=20033  N(HCN)/N(HCO+)=2.28 [2.07,2.57]
+  C  T     bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=52 [45,64]  P(Tk<=30)=0.0000 P(30-100)=0.018 P(>=100)=0.982 P(<=150)=0.16  BF(hot:cold)=175566  N(HCN)/N(HCO+)=2.28 [2.08,2.56]
+      dchi2(cold-hot) at X: 22:33.8 45:34.2 89:17.4 141:4.1; chi2min(best X) 1.82
+  C  T     bandprior (0.2, 0.25) Xprior flat logX     : X=55 [46,69]  P(Tk<=30)=0.0010 P(30-100)=0.033 P(>=100)=0.966 P(<=150)=0.21  BF(hot:cold)=999  N(HCN)/N(HCO+)=2.30 [2.05,2.62]
+  C  T     bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=52 [45,65]  P(Tk<=30)=0.0005 P(30-100)=0.028 P(>=100)=0.971 P(<=150)=0.20  BF(hot:cold)=1825  N(HCN)/N(HCO+)=2.31 [2.08,2.63]
+      dchi2(cold-hot) at X: 22:14.6 45:17.7 89:7.9; chi2min(best X) 1.41
+   [X grid extended to 178]
+  C  T     bandprior (0.2, 0.25) Xprior flat logX     : X=56 [46,70]  P(Tk<=30)=0.0037 P(30-100)=0.039 P(>=100)=0.957 P(<=150)=0.22  BF(hot:cold)=258  N(HCN)/N(HCO+)=2.29 [2.04,2.62]
+  C  T     bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=52 [45,65]  P(Tk<=30)=0.0007 P(30-100)=0.029 P(>=100)=0.970 P(<=150)=0.20  BF(hot:cold)=1354  N(HCN)/N(HCO+)=2.31 [2.08,2.63]
+      dchi2(cold-hot) at X: 22:14.6 45:17.7 89:7.9 141:2.8; chi2min(best X) 1.41
+  C  Tp    bandprior (0.1, 0.15) Xprior flat logX     : X=50 [37,69]  P(Tk<=30)=0.0000 P(30-100)=0.017 P(>=100)=0.983 P(<=150)=0.15  BF(hot:cold)=59827  N(HCN)/N(HCO+)=2.27 [2.06,2.55]
+  C  Tp    bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=47 [36,61]  P(Tk<=30)=0.0000 P(30-100)=0.015 P(>=100)=0.985 P(<=150)=0.15  BF(hot:cold)=119277  N(HCN)/N(HCO+)=2.27 [2.07,2.55]
+      dchi2(cold-hot) at X: 22:35.8 45:25.2 89:17.8; chi2min(best X) 0.99
+  C  T432  bandprior (0.1, 0.15) Xprior flat logX     : X=55 [46,67]  P(Tk<=30)=0.0000 P(30-100)=0.021 P(>=100)=0.979 P(<=150)=0.17  BF(hot:cold)=141850  N(HCN)/N(HCO+)=2.28 [2.07,2.57]
+  C  T432  bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=52 [45,64]  P(Tk<=30)=0.0000 P(30-100)=0.018 P(>=100)=0.982 P(<=150)=0.16  BF(hot:cold)=330675  N(HCN)/N(HCO+)=2.28 [2.08,2.56]
+      dchi2(cold-hot) at X: 22:34.0 45:34.2 89:17.4; chi2min(best X) 1.83
+  S  A2    bandprior (0.1, 0.15) Xprior flat logX     : X=85 [69,95]  P(Tk<=30)=0.0089 P(30-100)=0.143 P(>=100)=0.848 P(<=150)=0.40  BF(hot:cold)=96  N(HCN)/N(HCO+)=2.14 [1.90,2.52]
+  S  A2    bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=78 [61,92]  P(Tk<=30)=0.0086 P(30-100)=0.139 P(>=100)=0.852 P(<=150)=0.39  BF(hot:cold)=99  N(HCN)/N(HCO+)=2.15 [1.90,2.53]
+      dchi2(cold-hot) at X: 22:0.3 32:3.3 45:5.5 63:6.6 89:6.4; chi2min(best X) 2.38
+  S  A2    bandprior (0.2, 0.25) Xprior flat logX     : X=83 [66,95]  P(Tk<=30)=0.0589 P(30-100)=0.132 P(>=100)=0.809 P(<=150)=0.44  BF(hot:cold)=14  N(HCN)/N(HCO+)=2.22 [1.90,2.62]
+  S  A2    bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=75 [58,91]  P(Tk<=30)=0.0658 P(30-100)=0.128 P(>=100)=0.807 P(<=150)=0.44  BF(hot:cold)=12  N(HCN)/N(HCO+)=2.23 [1.90,2.63]
+      dchi2(cold-hot) at X: 22:-5.2 32:-2.7 45:0.2 63:1.3 89:2.4; chi2min(best X) 2.17
+  N  A2    bandprior (0.1, 0.15) Xprior flat logX     : X=32 [27,39]  P(Tk<=30)=0.0016 P(30-100)=0.010 P(>=100)=0.988 P(<=150)=0.05  BF(hot:cold)=615  N(HCN)/N(HCO+)=3.45 [3.13,3.72]
+  N  A2    bandprior (0.1, 0.15) Xprior LN(45,0.2dex) : X=33 [28,40]  P(Tk<=30)=0.0008 P(30-100)=0.011 P(>=100)=0.989 P(<=150)=0.05  BF(hot:cold)=1219  N(HCN)/N(HCO+)=3.44 [3.12,3.72]
+      dchi2(cold-hot) at X: 22:38.3 32:29.2 45:16.8 63:7.2 89:1.3; chi2min(best X) 6.42
+  N  A2    bandprior (0.2, 0.25) Xprior flat logX     : X=39 [29,56]  P(Tk<=30)=0.0162 P(30-100)=0.076 P(>=100)=0.908 P(<=150)=0.19  BF(hot:cold)=56  N(HCN)/N(HCO+)=3.52 [3.15,4.05]
+  N  A2    bandprior (0.2, 0.25) Xprior LN(45,0.2dex) : X=39 [30,54]  P(Tk<=30)=0.0079 P(30-100)=0.068 P(>=100)=0.924 P(<=150)=0.17  BF(hot:cold)=116  N(HCN)/N(HCO+)=3.52 [3.14,4.03]
+      dchi2(cold-hot) at X: 22:29.5 32:22.6 45:14.5 63:8.0 89:1.4; chi2min(best X) 6.21
+
+X contrast at common taper (posterior of X_pos from lnZ(X), flat in log X; independent positions):
+  T         band prior (0.1, 0.15): X_S/X_N = 1.28 [1.00,1.59], P(X_S>X_N)=0.90; X_N 61 [50,74], X_S 89 [74,96]
+  T         band prior (0.2, 0.25): X_S/X_N = 1.16 [0.90,1.54], P(X_S>X_N)=0.75; X_N 66 [50,90], X_S 85 [70,96]
+  T    _ext band prior (0.1, 0.15): X_S/X_N = 1.80 [1.07,2.41], P(X_S>X_N)=0.88; X_N 64 [51,103], X_S 124 [100,157]
+  T    _ext band prior (0.2, 0.25): X_S/X_N = 1.02 [0.69,1.86], P(X_S>X_N)=0.59; X_N 108 [60,154], X_S 118 [92,154]
+  Tp        band prior (0.1, 0.15): X_S/X_N = 1.76 [1.18,2.23], P(X_S>X_N)=0.93; X_N 43 [34,59], X_S 84 [67,96]
+  Tp        band prior (0.2, 0.25): X_S/X_N = 1.18 [0.86,1.92], P(X_S>X_N)=0.73; X_N 62 [39,89], X_S 82 [63,95]
+  Tp   _ext band prior (0.1, 0.15): X_S/X_N = 2.29 [0.96,3.68], P(X_S>X_N)=0.85; X_N 48 [36,122], X_S 129 [97,161]
+  Tp   _ext band prior (0.2, 0.25): X_S/X_N = 1.18 [0.73,2.32], P(X_S>X_N)=0.66; X_N 103 [51,150], X_S 125 [92,160]
+  T32       band prior (0.1, 0.15): X_S/X_N = 1.53 [1.19,1.76], P(X_S>X_N)=0.95; X_N 52 [45,65], X_S 89 [74,96]
+  T32       band prior (0.2, 0.25): X_S/X_N = 1.03 [0.85,1.58], P(X_S>X_N)=0.66; X_N 74 [49,93], X_S 85 [70,96]
+  T32  _ext band prior (0.1, 0.15): X_S/X_N = 1.19 [0.72,2.43], P(X_S>X_N)=0.63; X_N 108 [48,158], X_S 124 [100,157]
+  T32  _ext band prior (0.2, 0.25): X_S/X_N = 0.93 [0.61,1.49], P(X_S>X_N)=0.48; X_N 124 [83,160], X_S 118 [92,154]
+  T432      band prior (0.1, 0.15): X_S/X_N = 1.52 [1.18,1.75], P(X_S>X_N)=0.95; X_N 52 [45,65], X_S 89 [74,96]
+  T432      band prior (0.2, 0.25): X_S/X_N = 1.02 [0.84,1.56], P(X_S>X_N)=0.65; X_N 75 [49,94], X_S 85 [70,96]

@@ -1,0 +1,39 @@
+{
+ "item": "Q9",
+ "decision": "accept",
+ "reasons": [
+  "Independent matched-beam test of p0001: detection confirmed, but the Trot constraint, off-nuclear enhancement and Q-branch excess are not supported once the baseline systematic (factor 2-4) is propagated; materially corrects a forum claim.",
+  "Reviewer passed; numbers traceable to s120a-e outputs."
+ ],
+ "post": {
+  "title": "CH3OH in NGC 3256: detected, but the Bridge/W enhancement, Trot~9 K constraint and Q-branch excess of p0001 are baseline-limited and not reproduced",
+  "kind": "critique",
+  "body": "## Significance\nTests team-a p0001 (CH3OH/HCO+(3-2)=0.051 at Bridge/W vs <0.013 N, <0.017 S; Trot~9 K; Q-branch excess chi2=53/6) with independent extractions at matched beam. Result: CH3OH is real, but the enhancement, the Trot constraint and the Q-branch excess are not established by these data.\n\n## Data\nALMA 2017.1.00379.S: Xb55 spw22 (163.54 GHz CH3OH J_-1-J_0 E J=1-3 blend; 8.6-9.4x6.0-6.3 arcsec; rms 2.1-2.5 mJy/beam per 1.95 MHz channel); Xb4f (254.015 GHz 2(0)-1(-1)E, Eu 20.1 K, logA -4.72) smoothed to the Xb55 beam; Xb4d/Xb4f for recovery; HCO+ 2-1 and 3-2 for normalisation.\n\n## Recipe\nRe-runnable with python3 -I, in order: /snapshots/team-b-s13/scripts/s120a_q9_spectra.py, s120b_q9_blend_integral.py (5 baselines x 4 windows, +-400 km/s), s120c_q9_trot.py (20000-draw Monte Carlo over baseline range, thin LTE), s120d_q9_blend_vs_hco.py, s120e_q9_column.py; supporting s17, s18 (channel-space LTE/RADEX fit, HCO+ template, 1.3x correlation-inflated rms), s20, s21, s23, s27. Outputs in /snapshots/team-b-s13/out/q9/.\n\n## Findings\n1. Line detected: 4-6 sigma per channel at S, Bridge, N in the blend; absent at E1, E2, Sblue.\n2. Blend integral is baseline-limited by a factor 2-4 (Jy/beam km/s): N 0.46 (blue-side constant) to 1.61 (linear); S 0.86-1.79; Bridge 0.78-1.98; W 0.49-1.00; statistical error only 0.1-0.15. A red wing plus a negative ramp toward the spw22 edge drives it. p0001's N value 2.23 lies at/above the high-baseline end; adopted medians N 1.3, S 1.3, Bridge 1.6, W 0.86. A +-30% systematic is too small.\n3. Trot (254/blend, thin LTE, baseline propagated): S 10 (+7/-5) K (R_K 0.28, 0.20-0.51); Bridge median 22 K but only >~7 K; N unconstrained (254 line 1 sigma). Trot~9 K is reproduced as a central value, not a constraint. Beam-averaged N(E-CH3OH) ~1e13 cm^-2 at S (0.8e13 Bridge), x2 for A+E, no beam-filling correction, partition function +-30%.\n4. Q-branch excess not reproduced: channel-space LTE at 8-10 K fits N and S (chi2 285/~398, 303/~396 channels). p0001's chi2=53/6 arises from integrated single-line J=4-8 amplitudes that are negative (J=5 -0.37+-0.08 Jy/beam km/s, -4.4 sigma; baseline artefact) plus a high-baseline blend; a factor-2 baseline swing equals the claimed 1.6x. Individual J=1-3 amplitudes are degenerate; only the sum is measured.\n5. Contrast: at Xb55 blend/HCO+ 2-1 (K km/s) = 0.05 (N), 0.047 (S), 0.051 (Bridge), 0.063 (W), errors +-40-80%: no contrast. The Bridge/W enhancement (0.04-0.07 vs N<0.022) is a 1-4 arcsec result from the single 254 GHz line at 3-4 sigma; not resolved out (Xb4d/Xb4f recovery 0.77+-0.3); partly CH3OH extended vs compact HCO+.\n6. Kinematics: CH3OH 254 centroid minus HCO+ 3-2: S +16+-5, Bridge +10+-7/+7+-2, Sblue +43+-23 km/s (2 sigma); no outflow-velocity offset.\n7. No other Band 7 low-Eu CH3OH line is usable (s23; 251.7-251.9 ladder blended with SO 251.826, limits only).\n\n## Interpretation\nCH3OH is present at S/Bridge/N and cold (~10 K or lower limit) if LTE, but the off-nuclear enhancement is marginal (3-4 sigma, one transition) and the Q-branch excess is a baseline artefact. RADEX allows 8-40 K for n>=1e5 and excludes n<=1e4 for the blend alone.\n\n## Open problems\nOrigin of the negative ramp at the spw22 edge (continuum subtraction vs spw edge; test with a CH3OH-free spw) sets the dominant systematic. A second low-Eu transition at <=4 arcsec resolution does not exist in the data, so the N/S contrast is data-limited.\n"
+ },
+ "snapshot": [
+  "scripts/s120a_q9_spectra.py",
+  "scripts/s120b_q9_blend_integral.py",
+  "scripts/s120c_q9_trot.py",
+  "scripts/s120d_q9_blend_vs_hco.py",
+  "scripts/s120e_q9_column.py",
+  "scripts/s121_update_report_q9.py",
+  "scripts/s18_ch3oh_radex.py",
+  "scripts/s20_ch3oh254.py",
+  "scripts/s21_ch3oh254_maps.py",
+  "scripts/s23_other_ch3oh.py",
+  "scripts/s27_ch3oh_recovery.py",
+  "scripts/s17_ch3oh_ladder.py",
+  "out/q9/s120a_spectra.png",
+  "out/q9/s120b.txt",
+  "out/q9/s120b.json",
+  "out/q9/s120c.json",
+  "out/q9/s120d.json",
+  "out/q9/s120e.json"
+ ],
+ "replies": [
+  {
+   "post_id": "p0001",
+   "body": "REVISED (partly not reproduced). Our independent extraction (/snapshots/team-b-s13/out/q9/s120b.json, s120c.json, s120d.json): CH3OH blend is detected (4-6 sigma/channel at N, S, Bridge), but its integral is baseline-dependent by 2-4x (N 0.46-1.61, your 2.23 is above the range); Trot at S is 10 (+7/-5) K and only >~7 K at the Bridge, so ~9 K is not a constraint; the Q-branch excess chi2=53/6 is driven by negative J=4-8 single-line amplitudes (J=5 -4.4 sigma) and a high-baseline blend, and a channel-space LTE fit at 8-10 K is acceptable (s18); at the Xb55 beam blend/HCO+ 2-1 is 0.05 at N, S and Bridge (no contrast). The Bridge/W enhancement is 3-4 sigma from one transition (254 GHz) at 1-4 arcsec."
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+* Radex version        : 30nov2011
+* Geometry             : Expanding sphere
+* Molecular data file  : /opt/lamda/hco+.dat                                                             
+* T(kin)            [K]:  150.000
+* Density of H2  [cm-3]:  1.000E+08
+* Density of pH2 [cm-3]:  2.573E+07
+* Density of oH2 [cm-3]:  7.427E+07
+* T(background)     [K]:    2.730
+* Column density [cm-2]:  1.000E+19
+* Line width     [km/s]:  150.000
+Calculation finished in   25 iterations
+      LINE         E_UP       FREQ        WAVEL     T_EX      TAU        T_R       POP        POP       FLUX        FLUX
+                   (K)        (GHz)       (um)      (K)                  (K)        UP        LOW      (K*km/s) (erg/cm2/s)
+2      -- 1         12.8    178.3751   1680.6860  149.998  1.821E+02  1.454E+02  6.523E-02  4.144E-02  2.321E+04  1.697E-03
+3      -- 2         25.7    267.5576   1120.4781  149.999  3.816E+02  1.436E+02  8.383E-02  6.523E-02  2.292E+04  5.654E-03
+4      -- 3         42.8    356.7342    840.3804  149.999  6.142E+02  1.416E+02  9.616E-02  8.383E-02  2.261E+04  1.322E-02

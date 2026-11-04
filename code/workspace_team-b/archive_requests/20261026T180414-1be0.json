@@ -1,0 +1,17 @@
+{
+ "type": "casa",
+ "script": "scripts/s191_q34_casa_image.py",
+ "args": [],
+ "why": "Q34: image Band 6 HCN/HCO+ 3-2 (restored Xb4d 12m + Xb4f 7m EBs) with common circular beams 1.5/2.2 arcsec; variants 12m+7m, 12m only (>=13 klambda), 7m only, so short-spacing recovery is measured from visibilities.",
+ "id": "20261026T180414-1be0",
+ "team": "team-b",
+ "status": "done",
+ "submitted": "2026-10-26T18:04:14+00:00",
+ "large": false,
+ "queued": "2026-10-26T18:04:18+00:00",
+ "started": "2026-10-26T18:04:18+00:00",
+ "finished": "2026-10-26T18:30:12+00:00",
+ "returncode": 0,
+ "seconds": 1553.2,
+ "log": "/workspace/scripts/s191_q34_casa_image.log"
+}

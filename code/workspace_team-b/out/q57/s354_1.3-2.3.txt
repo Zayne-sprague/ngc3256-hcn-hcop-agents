@@ -1,0 +1,40 @@
+-- Hfull best
+  N: Tk=188 log n=3.0 logN(HCO+)=16.3 A=3.16 X=79 eta=0.12 chi2=0.9
+     obs  HCN1,HCN3,HCO1,HCO3,H13CN1,H13CO1 =  87.40  23.51 105.58  37.69   1.92   2.84
+     mod   83.49  22.41 102.97  35.84   1.73   2.70
+  S: Tk=267 log n=3.6 logN(HCO+)=15.8 A=2.00 X=158 eta=0.09 chi2=1.0
+     obs  HCN1,HCN3,HCO1,HCO3,H13CN1,H13CO1 =  50.25  12.72  87.90  30.64   0.24   1.30
+     mod   48.22  12.19  86.91  30.62   0.52   1.18
+  model contrast N/S of HCN/HCO+: 1-0 1.46, 3-2 1.57  (obs 1.45, 1.50)
+-- Hexc best (same A, N(HCO+), X; Tk, n free)
+  N: Tk=13 log n=5.0 logN(HCO+)=15.9 A=3.16 X=200 eta=0.07 chi2=6.8
+     obs  HCN1,HCN3,HCO1,HCO3,H13CN1,H13CO1 =  87.40  23.51 105.58  37.69   1.92   2.84
+     mod   75.08  20.04  99.67  43.00   2.36   3.03
+  S: Tk=52 log n=4.0 logN(HCO+)=15.9 A=3.16 X=200 eta=0.07 chi2=3.0
+     obs  HCN1,HCN3,HCO1,HCO3,H13CN1,H13CO1 =  50.25  12.72  87.90  30.64   0.24   1.30
+     mod   54.80  13.61  87.86  30.95   0.75   1.24
+  model contrast N/S of HCN/HCO+: 1-0 1.21, 3-2 1.06  (obs 1.45, 1.50)
+-- Hcol best (same A, X; N(HCO+), Tk, n free)
+  N: Tk=16 log n=4.6 logN(HCO+)=16.0 A=3.98 X=200 eta=0.07 chi2=1.7
+     obs  HCN1,HCN3,HCO1,HCO3,H13CN1,H13CO1 =  87.40  23.51 105.58  37.69   1.92   2.84
+     mod   81.87  22.68 107.26  42.28   2.16   2.82
+  S: Tk=36 log n=4.4 logN(HCO+)=15.6 A=3.98 X=200 eta=0.07 chi2=5.6
+     obs  HCN1,HCN3,HCO1,HCO3,H13CN1,H13CO1 =  50.25  12.72  87.90  30.64   0.24   1.30
+     mod   58.43  13.21  86.36  29.40   0.90   1.06
+  model contrast N/S of HCN/HCO+: 1-0 1.13, 3-2 1.19  (obs 1.45, 1.50)
+-- HcolX best (same A; N(HCO+), X, Tk, n free)
+  N: Tk=188 log n=3.0 logN(HCO+)=16.3 A=3.16 X=79 eta=0.12 chi2=0.9
+     obs  HCN1,HCN3,HCO1,HCO3,H13CN1,H13CO1 =  87.40  23.51 105.58  37.69   1.92   2.84
+     mod   83.49  22.41 102.97  35.84   1.73   2.70
+  S: Tk=65 log n=4.0 logN(HCO+)=15.8 A=3.16 X=200 eta=0.07 chi2=2.3
+     obs  HCN1,HCN3,HCO1,HCO3,H13CN1,H13CO1 =  50.25  12.72  87.90  30.64   0.24   1.30
+     mod   51.06  12.57  82.75  29.03   0.66   1.05
+  model contrast N/S of HCN/HCO+: 1-0 1.31, 3-2 1.44  (obs 1.45, 1.50)
+-- Habun best (same Tk,n,N(HCO+),X; A free)
+  N: Tk=267 log n=3.8 logN(HCO+)=15.6 A=3.16 X=100 eta=0.12 chi2=3.2
+     obs  HCN1,HCN3,HCO1,HCO3,H13CN1,H13CO1 =  87.40  23.51 105.58  37.69   1.92   2.84
+     mod   87.75  25.79 116.52  41.24   1.72   2.31
+  S: Tk=267 log n=3.8 logN(HCO+)=15.6 A=2.00 X=100 eta=0.09 chi2=3.6
+     obs  HCN1,HCN3,HCO1,HCO3,H13CN1,H13CO1 =  50.25  12.72  87.90  30.64   0.24   1.30
+     mod   48.95  12.17  86.32  30.55   0.80   1.71
+  model contrast N/S of HCN/HCO+: 1-0 1.33, 3-2 1.57  (obs 1.45, 1.50)

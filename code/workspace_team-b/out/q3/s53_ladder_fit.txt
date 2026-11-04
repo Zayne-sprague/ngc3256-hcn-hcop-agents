@@ -1,0 +1,147 @@
+grid (11, 21, 31, 31) models; usable (finite RADEX, A in prior): 59771/221991 (27%)
+N core flux (Xb4b r<0.5", |v|<350): HCN 5.78, HCO+ 6.28 Jy km/s
+
+# Observed ladders at the 10" beam: K km/s (RJ, rest frame) [HCN 2-1,3-2,4-3 | HCO+ 2-1,3-2,4-3] and R_K=HCN/HCO+
+N                  12.38    4.81    1.62   20.27   10.04    4.51 | R_K 0.611 0.479 0.358  | T(J)/T(3-2): HCN 2.57,0.34  HCO+ 2.02,0.45
+S                  11.66    4.26    1.35   20.89    9.95    4.28 | R_K 0.558 0.428 0.316  | T(J)/T(3-2): HCN 2.74,0.32  HCO+ 2.10,0.43
+Bridge             13.40    5.12    1.68   22.73   11.21    5.01 | R_K 0.589 0.457 0.335  | T(J)/T(3-2): HCN 2.62,0.33  HCO+ 2.03,0.45
+E1                  4.37    1.16    0.19    8.43    3.54    1.21 | R_K 0.518 0.329 0.155  | T(J)/T(3-2): HCN 3.75,0.16  HCO+ 2.38,0.34
+E2                  5.79    1.61    0.32   10.80    4.76    1.68 | R_K 0.536 0.339 0.191  | T(J)/T(3-2): HCN 3.59,0.20  HCO+ 2.27,0.35
+W                   5.07    1.24    0.05    9.98    3.67    1.05 | R_K 0.508 0.338 0.048  | T(J)/T(3-2): HCN 4.08,0.04  HCO+ 2.72,0.29
+Sblue               7.76    2.59    0.69   14.42    6.43    2.43 | R_K 0.539 0.403 0.285  | T(J)/T(3-2): HCN 3.00,0.27  HCO+ 2.24,0.38
+ap<8"               7.73    2.61    0.71   13.59    6.21    2.43 | R_K 0.569 0.420 0.294  | T(J)/T(3-2): HCN 2.97,0.27  HCO+ 2.19,0.39
+ap<4"              12.24    4.21    1.36   21.03    9.41    4.17 | R_K 0.582 0.448 0.327  | T(J)/T(3-2): HCN 2.91,0.32  HCO+ 2.24,0.44
+disk(E1,E2,W)       5.08    1.34    0.19    9.74    3.99    1.32 | R_K 0.521 0.336 0.142  | T(J)/T(3-2): HCN 3.79,0.14  HCO+ 2.44,0.33
+zoneN               8.33    4.66    2.13   12.84    7.98    4.59 | R_K 0.649 0.584 0.463  | T(J)/T(3-2): HCN 1.79,0.46  HCO+ 1.61,0.58
+zoneS               7.06    3.27    1.37   15.22    7.49    3.91 | R_K 0.464 0.437 0.349  | T(J)/T(3-2): HCN 2.16,0.42  HCO+ 2.03,0.52
+
+# Posteriors (median [16,84]) single zone LVG; flat priors; scenarios of band-to-band calibration (sigma per band 2-1,3-2,4-3)
+[cal20      ] N               chi2min= 0.20 (dof<=1) log n 4.25 [3.50,5.00]  Tk 112 [56,112]  logN(HCO+) 15.25 [14.25,16.50]  logA 0.50 [0.50,0.50]  log10 eta -1.47  logP/k 6.3 [5.4,6.8] | P(n>1e5)=0.08 P(Tk>50)=0.86 P(A>1)=0.96 P(tau3>1)=0.69
+[cal20      ] S               chi2min= 0.33 (dof<=1) log n 4.25 [3.50,5.00]  Tk 80 [56,224]  logN(HCO+) 15.25 [14.00,16.00]  logA 0.50 [0.25,0.50]  log10 eta -1.34  logP/k 6.3 [5.5,6.9] | P(n>1e5)=0.05 P(Tk>50)=0.89 P(A>1)=0.98 P(tau3>1)=0.62
+[cal20      ] Bridge          chi2min= 0.58 (dof<=1) log n 4.25 [3.50,5.00]  Tk 112 [56,112]  logN(HCO+) 15.25 [14.25,16.25]  logA 0.50 [0.50,0.50]  log10 eta -1.42  logP/k 6.3 [5.4,6.8] | P(n>1e5)=0.08 P(Tk>50)=0.85 P(A>1)=0.97 P(tau3>1)=0.68
+[cal20      ] disk(E1,E2,W)   chi2min= 2.02 (dof<=1) log n 5.25 [4.75,5.75]  Tk 20 [14,28]  logN(HCO+) 14.00 [13.25,15.50]  logA 0.50 [0.25,0.50]  log10 eta -1.13  logP/k 6.7 [6.1,6.9] | P(n>1e5)=0.66 P(Tk>50)=0.00 P(A>1)=0.93 P(tau3>1)=0.26
+[cal20      ] Sblue           chi2min= 0.18 (dof<=1) log n 4.25 [3.50,4.75]  Tk 80 [56,112]  logN(HCO+) 15.00 [14.00,15.75]  logA 0.50 [0.50,0.50]  log10 eta -1.33  logP/k 6.2 [5.4,6.7] | P(n>1e5)=0.05 P(Tk>50)=0.86 P(A>1)=0.97 P(tau3>1)=0.57
+[cal20      ] ap<8"           chi2min= 0.06 (dof<=1) log n 4.25 [3.50,5.00]  Tk 80 [56,112]  logN(HCO+) 15.00 [14.00,16.00]  logA 0.50 [0.50,0.50]  log10 eta -1.41  logP/k 6.2 [5.3,6.7] | P(n>1e5)=0.06 P(Tk>50)=0.84 P(A>1)=0.97 P(tau3>1)=0.60
+[cal20      ] zoneN           chi2min= 0.12 (dof<=1) log n 4.50 [3.50,5.75]  Tk 40 [14,160]  logN(HCO+) 16.25 [15.00,17.50]  logA 0.50 [0.00,0.50]  log10 eta -2.26  logP/k 6.5 [5.2,7.6] | P(n>1e5)=0.33 P(Tk>50)=0.50 P(A>1)=0.78 P(tau3>1)=0.86
+[cal20      ] zoneS           chi2min= 0.35 (dof<=1) log n 4.50 [3.50,5.25]  Tk 160 [28,300]  logN(HCO+) 15.50 [14.00,16.75]  logA 0.25 [0.25,0.50]  log10 eta -1.84  logP/k 6.6 [5.6,7.4] | P(n>1e5)=0.18 P(Tk>50)=0.77 P(A>1)=0.89 P(tau3>1)=0.63
+
+[cal10      ] N               chi2min= 0.57 (dof<=1) log n 4.50 [3.75,4.75]  Tk 112 [80,112]  logN(HCO+) 15.25 [14.00,16.00]  logA 0.50 [0.50,0.50]  log10 eta -1.45  logP/k 6.5 [5.7,6.8] | P(n>1e5)=0.04 P(Tk>50)=0.93 P(A>1)=0.98 P(tau3>1)=0.70
+[cal10      ] S               chi2min= 0.46 (dof<=1) log n 4.50 [3.75,4.75]  Tk 80 [56,112]  logN(HCO+) 15.25 [14.25,15.75]  logA 0.50 [0.50,0.50]  log10 eta -1.46  logP/k 6.4 [5.7,6.8] | P(n>1e5)=0.02 P(Tk>50)=0.91 P(A>1)=0.99 P(tau3>1)=0.69
+[cal10      ] Bridge          chi2min= 0.91 (dof<=1) log n 4.50 [3.75,4.75]  Tk 80 [56,112]  logN(HCO+) 15.25 [14.25,16.25]  logA 0.50 [0.50,0.50]  log10 eta -1.50  logP/k 6.4 [5.6,6.8] | P(n>1e5)=0.04 P(Tk>50)=0.90 P(A>1)=0.99 P(tau3>1)=0.73
+[cal10      ] disk(E1,E2,W)   chi2min= 2.49 (dof<=1) log n 5.25 [5.00,5.50]  Tk 28 [20,28]  logN(HCO+) 13.75 [13.25,14.75]  logA 0.50 [0.50,0.50]  log10 eta -0.87  logP/k 6.7 [6.4,6.8] | P(n>1e5)=0.75 P(Tk>50)=0.00 P(A>1)=0.94 P(tau3>1)=0.14
+[cal10      ] Sblue           chi2min= 0.21 (dof<=1) log n 4.50 [3.75,4.75]  Tk 80 [56,80]  logN(HCO+) 15.00 [13.75,15.75]  logA 0.50 [0.50,0.50]  log10 eta -1.33  logP/k 6.3 [5.7,6.7] | P(n>1e5)=0.03 P(Tk>50)=0.90 P(A>1)=0.98 P(tau3>1)=0.56
+[cal10      ] ap<8"           chi2min= 0.07 (dof<=1) log n 4.50 [3.75,5.00]  Tk 80 [56,112]  logN(HCO+) 15.00 [13.75,15.75]  logA 0.50 [0.50,0.50]  log10 eta -1.36  logP/k 6.4 [5.7,6.7] | P(n>1e5)=0.04 P(Tk>50)=0.90 P(A>1)=0.98 P(tau3>1)=0.56
+[cal10      ] zoneN           chi2min= 0.17 (dof<=1) log n 4.50 [3.50,5.50]  Tk 56 [14,160]  logN(HCO+) 16.00 [15.00,17.25]  logA 0.50 [0.25,0.50]  log10 eta -2.22  logP/k 6.5 [5.2,7.5] | P(n>1e5)=0.30 P(Tk>50)=0.52 P(A>1)=0.85 P(tau3>1)=0.88
+[cal10      ] zoneS           chi2min= 0.39 (dof<=1) log n 4.50 [3.50,5.00]  Tk 160 [40,300]  logN(HCO+) 15.25 [14.00,16.25]  logA 0.25 [0.25,0.50]  log10 eta -1.74  logP/k 6.7 [5.7,7.4] | P(n>1e5)=0.15 P(Tk>50)=0.81 P(A>1)=0.94 P(tau3>1)=0.59
+
+[cal35      ] N               chi2min= 0.08 (dof<=1) log n 4.25 [3.25,5.25]  Tk 112 [40,160]  logN(HCO+) 15.50 [14.25,16.75]  logA 0.50 [0.25,0.50]  log10 eta -1.69  logP/k 6.3 [5.2,7.1] | P(n>1e5)=0.17 P(Tk>50)=0.77 P(A>1)=0.91 P(tau3>1)=0.71
+[cal35      ] S               chi2min= 0.22 (dof<=1) log n 4.25 [3.50,5.00]  Tk 112 [56,224]  logN(HCO+) 15.25 [14.25,16.50]  logA 0.50 [0.25,0.50]  log10 eta -1.48  logP/k 6.3 [5.4,7.4] | P(n>1e5)=0.11 P(Tk>50)=0.85 P(A>1)=0.95 P(tau3>1)=0.63
+[cal35      ] Bridge          chi2min= 0.30 (dof<=1) log n 4.25 [3.25,5.00]  Tk 112 [40,224]  logN(HCO+) 15.50 [14.25,16.75]  logA 0.50 [0.25,0.50]  log10 eta -1.58  logP/k 6.3 [5.3,7.2] | P(n>1e5)=0.15 P(Tk>50)=0.79 P(A>1)=0.92 P(tau3>1)=0.69
+[cal35      ] disk(E1,E2,W)   chi2min= 1.86 (dof<=1) log n 5.25 [4.00,6.00]  Tk 20 [14,28]  logN(HCO+) 14.50 [13.50,16.25]  logA 0.50 [0.25,0.50]  log10 eta -1.45  logP/k 6.6 [5.3,7.3] | P(n>1e5)=0.59 P(Tk>50)=0.01 P(A>1)=0.88 P(tau3>1)=0.42
+[cal35      ] Sblue           chi2min= 0.14 (dof<=1) log n 4.25 [3.25,5.00]  Tk 80 [56,224]  logN(HCO+) 15.25 [14.00,16.25]  logA 0.50 [0.25,0.50]  log10 eta -1.39  logP/k 6.2 [5.4,7.0] | P(n>1e5)=0.09 P(Tk>50)=0.84 P(A>1)=0.95 P(tau3>1)=0.58
+[cal35      ] ap<8"           chi2min= 0.05 (dof<=1) log n 4.25 [3.25,5.00]  Tk 80 [40,112]  logN(HCO+) 15.25 [14.00,16.25]  logA 0.50 [0.25,0.50]  log10 eta -1.58  logP/k 6.2 [5.2,7.0] | P(n>1e5)=0.12 P(Tk>50)=0.79 P(A>1)=0.94 P(tau3>1)=0.61
+[cal35      ] zoneN           chi2min= 0.08 (dof<=1) log n 4.75 [3.50,6.25]  Tk 40 [20,160]  logN(HCO+) 16.25 [15.00,17.75]  logA 0.25 [-0.25,0.50]  log10 eta -2.40  logP/k 6.6 [5.3,7.8] | P(n>1e5)=0.37 P(Tk>50)=0.50 P(A>1)=0.68 P(tau3>1)=0.85
+[cal35      ] zoneS           chi2min= 0.33 (dof<=1) log n 4.50 [3.50,5.50]  Tk 112 [28,224]  logN(HCO+) 15.75 [14.25,17.00]  logA 0.25 [0.00,0.50]  log10 eta -2.10  logP/k 6.5 [5.5,7.5] | P(n>1e5)=0.25 P(Tk>50)=0.71 P(A>1)=0.74 P(tau3>1)=0.70
+
+[ratios-only] N               chi2min= 0.01 (dof<=1) log n 4.75 [3.50,6.25]  Tk 80 [28,160]  logN(HCO+) 16.00 [14.75,17.50]  logA 0.25 [-0.25,0.50]  log10 eta -2.40  logP/k 6.5 [5.4,8.0] | P(n>1e5)=0.37 P(Tk>50)=0.65 P(A>1)=0.61 P(tau3>1)=0.80
+[ratios-only] S               chi2min= 0.08 (dof<=1) log n 4.50 [3.50,6.00]  Tk 80 [40,224]  logN(HCO+) 16.00 [14.75,17.50]  logA 0.25 [-0.25,0.50]  log10 eta -2.39  logP/k 6.5 [5.4,7.9] | P(n>1e5)=0.33 P(Tk>50)=0.75 P(A>1)=0.60 P(tau3>1)=0.77
+[ratios-only] Bridge          chi2min= 0.08 (dof<=1) log n 4.75 [3.50,6.00]  Tk 80 [40,160]  logN(HCO+) 16.00 [14.75,17.50]  logA 0.25 [-0.25,0.50]  log10 eta -2.33  logP/k 6.5 [5.4,8.0] | P(n>1e5)=0.35 P(Tk>50)=0.68 P(A>1)=0.62 P(tau3>1)=0.79
+[ratios-only] disk(E1,E2,W)   chi2min= 0.04 (dof<=1) log n 5.25 [3.75,6.25]  Tk 20 [14,28]  logN(HCO+) 16.00 [14.00,17.50]  logA 0.00 [-0.50,0.50]  log10 eta -2.45  logP/k 6.6 [5.1,7.8] | P(n>1e5)=0.57 P(Tk>50)=0.05 P(A>1)=0.44 P(tau3>1)=0.64
+[ratios-only] Sblue           chi2min= 0.05 (dof<=1) log n 4.50 [3.50,6.00]  Tk 80 [40,224]  logN(HCO+) 15.75 [14.50,17.25]  logA 0.25 [-0.25,0.50]  log10 eta -2.47  logP/k 6.5 [5.4,7.9] | P(n>1e5)=0.34 P(Tk>50)=0.72 P(A>1)=0.60 P(tau3>1)=0.74
+[ratios-only] ap<8"           chi2min= 0.03 (dof<=1) log n 4.75 [3.50,6.00]  Tk 80 [28,160]  logN(HCO+) 15.75 [14.50,17.25]  logA 0.25 [-0.25,0.50]  log10 eta -2.37  logP/k 6.5 [5.4,7.9] | P(n>1e5)=0.34 P(Tk>50)=0.66 P(A>1)=0.64 P(tau3>1)=0.74
+[ratios-only] zoneN           chi2min= 0.00 (dof<=1) log n 5.00 [3.75,7.25]  Tk 56 [20,160]  logN(HCO+) 16.25 [14.75,17.75]  logA 0.25 [-0.25,0.50]  log10 eta -2.51  logP/k 6.9 [5.5,8.7] | P(n>1e5)=0.48 P(Tk>50)=0.54 P(A>1)=0.52 P(tau3>1)=0.77
+[ratios-only] zoneS           chi2min= 0.01 (dof<=1) log n 5.25 [3.75,7.50]  Tk 80 [28,224]  logN(HCO+) 16.00 [14.50,17.50]  logA 0.00 [-0.50,0.25]  log10 eta -2.55  logP/k 7.2 [5.7,9.1] | P(n>1e5)=0.53 P(Tk>50)=0.71 P(A>1)=0.35 P(tau3>1)=0.63
+
+# Band-7 (4-3) or Band-5 (2-1) absolute scale left free (sigma=1000%)
+[B7free] N               chi2min=0.02 log n 4.25 [3.25,5.00] Tk 112 [40,160] logA 0.50 [0.25,0.50] | P(n>1e5)=0.13 P(Tk>50)=0.82 P(A>1)=0.93
+[B7free] S               chi2min=0.27 log n 4.25 [3.50,5.00] Tk 112 [56,300] logA 0.50 [0.25,0.50] | P(n>1e5)=0.08 P(Tk>50)=0.88 P(A>1)=0.96
+[B7free] Bridge          chi2min=0.42 log n 4.25 [3.50,5.00] Tk 112 [40,160] logA 0.50 [0.25,0.50] | P(n>1e5)=0.12 P(Tk>50)=0.83 P(A>1)=0.94
+[B7free] disk(E1,E2,W)   chi2min=1.60 log n 5.25 [3.50,5.75] Tk 20 [14,28] logA 0.50 [0.25,0.50] | P(n>1e5)=0.58 P(Tk>50)=0.01 P(A>1)=0.93
+[B5free] N               chi2min=0.11 log n 4.25 [3.25,5.25] Tk 80 [28,160] logA 0.50 [0.25,0.50] | P(n>1e5)=0.21 P(Tk>50)=0.72 P(A>1)=0.89
+[B5free] S               chi2min=0.24 log n 4.25 [3.50,5.00] Tk 112 [40,224] logA 0.50 [0.25,0.50] | P(n>1e5)=0.13 P(Tk>50)=0.82 P(A>1)=0.93
+[B5free] Bridge          chi2min=0.08 log n 4.25 [3.50,5.25] Tk 112 [28,224] logA 0.50 [0.25,0.50] | P(n>1e5)=0.19 P(Tk>50)=0.75 P(A>1)=0.90
+[B5free] disk(E1,E2,W)   chi2min=1.64 log n 5.25 [4.00,6.25] Tk 20 [14,28] logA 0.25 [0.00,0.50] | P(n>1e5)=0.58 P(Tk>50)=0.01 P(A>1)=0.84
+
+# Profile chi2 vs n(H2) and vs Tk (min over the others), cal20; allowed cell fraction = (Tk,n) cells with profile chi2 < min+4
+[cal20] N               chi2min 0.20; allowed (Tk,n) cells 17% of 231
+    d chi2 vs log n (best Tk): 3.0:1.6(T80)  4.0:0.2(T112)  5.0:1.7(T80)  6.0:13.3(T14)  7.0:12.0(T14)  8.0:6.1(T10)
+    d chi2 vs Tk (best log n): 10:3.0(n7.5)  14:7.5(n7.2)  20:4.5(n5.5)  28:3.9(n4.2)  40:3.0(n4.0)  56:2.2(n3.8)  80:0.9(n4.2)  112:0.0(n4.5)  160:3.5(n4.2)  224:7.0(n5.2)  300:5.0(n5.0)
+    best log A, log N(HCO+) at fixed log n: 3.0:A+0.50,N16.75  4.0:A+0.50,N15.50  5.0:A+0.50,N15.00  6.0:A+0.50,N15.25  7.0:A+0.00,N15.00  8.0:A-0.25,N15.00
+[cal20] S               chi2min 0.33; allowed (Tk,n) cells 19% of 231
+    d chi2 vs log n (best Tk): 3.0:2.0(T56)  4.0:1.2(T112)  5.0:2.2(T56)  6.0:14.7(T20)  7.0:12.1(T14)  8.0:6.5(T10)
+    d chi2 vs Tk (best log n): 10:4.7(n7.2)  14:8.6(n7.2)  20:5.9(n5.2)  28:3.3(n5.2)  40:2.3(n5.0)  56:1.4(n4.8)  80:0.0(n4.2)  112:1.1(n4.5)  160:8.3(n5.2)  224:4.0(n5.0)  300:2.4(n3.5)
+    best log A, log N(HCO+) at fixed log n: 3.0:A+0.50,N17.00  4.0:A+0.50,N15.25  5.0:A+0.50,N15.25  6.0:A+0.25,N15.50  7.0:A+0.00,N14.75  8.0:A-0.25,N15.00
+[cal20] disk(E1,E2,W)   chi2min 2.02; allowed (Tk,n) cells 5% of 231
+    d chi2 vs log n (best Tk): 3.0:4.0(T14)  4.0:5.3(T28)  5.0:1.7(T28)  6.0:3.0(T14)  7.0:6.8(T10)  8.0:33.2(T10)
+    d chi2 vs Tk (best log n): 10:1.6(n6.8)  14:2.2(n4.8)  20:1.4(n5.5)  28:0.0(n5.2)  40:5.4(n5.0)  56:12.9(n5.5)  80:14.7(n3.5)  112:12.8(n3.0)  160:23.3(n3.0)  224:42.3(n3.5)  300:40.9(n3.2)
+    best log A, log N(HCO+) at fixed log n: 3.0:A+0.25,N17.75  4.0:A+0.50,N15.50  5.0:A+0.50,N14.25  6.0:A+0.25,N15.00  7.0:A-0.25,N15.00  8.0:A-1.00,N15.75
+[ratios-only] N               chi2min 0.01; allowed (Tk,n) cells 61% of 231
+    d chi2 vs log n (best Tk): 3.0:0.2(T112)  4.0:0.1(T300)  5.0:0.0(T300)  6.0:0.3(T160)  7.0:1.7(T112)  8.0:2.3(T10)
+    d chi2 vs Tk (best log n): 10:0.1(n7.5)  14:1.0(n7.2)  20:1.1(n7.2)  28:1.0(n5.2)  40:0.3(n3.2)  56:0.0(n5.8)  80:0.0(n4.8)  112:0.0(n4.5)  160:0.2(n4.2)  224:0.2(n4.0)  300:0.0(n5.0)
+    best log A, log N(HCO+) at fixed log n: 3.0:A+0.50,N16.25  4.0:A+0.25,N16.25  5.0:A+0.25,N15.25  6.0:A+0.00,N15.75  7.0:A-0.25,N13.75  8.0:A-0.25,N15.00
+[ratios-only] S               chi2min 0.08; allowed (Tk,n) cells 56% of 231
+    d chi2 vs log n (best Tk): 3.0:0.3(T112)  4.0:0.1(T160)  5.0:0.1(T224)  6.0:0.2(T80)  7.0:0.7(T80)  8.0:1.6(T10)
+    d chi2 vs Tk (best log n): 10:0.6(n7.8)  14:1.3(n7.2)  20:2.1(n7.2)  28:1.4(n5.5)  40:0.3(n4.5)  56:0.3(n4.8)  80:0.1(n4.5)  112:0.0(n6.5)  160:0.1(n4.0)  224:0.1(n5.0)  300:0.2(n3.5)
+    best log A, log N(HCO+) at fixed log n: 3.0:A+0.50,N15.50  4.0:A+0.25,N16.50  5.0:A+0.25,N15.25  6.0:A+0.00,N15.75  7.0:A-0.25,N13.00  8.0:A-0.25,N15.00
+[ratios-only] disk(E1,E2,W)   chi2min 0.04; allowed (Tk,n) cells 25% of 231
+    d chi2 vs log n (best Tk): 3.0:0.8(T20)  4.0:1.4(T28)  5.0:0.8(T20)  6.0:0.2(T20)  7.0:1.2(T14)  8.0:4.0(T10)
+    d chi2 vs Tk (best log n): 10:1.4(n7.0)  14:0.0(n6.8)  20:0.1(n3.5)  28:0.8(n4.2)  40:2.5(n6.0)  56:2.3(n6.0)  80:4.8(n3.8)  112:5.2(n5.8)  160:9.7(n5.8)  224:11.1(n4.0)  300:14.2(n3.8)
+    best log A, log N(HCO+) at fixed log n: 3.0:A+0.25,N17.75  4.0:A+0.25,N16.75  5.0:A+0.00,N16.50  6.0:A+0.00,N15.50  7.0:A-1.00,N16.00  8.0:A-1.00,N15.75
+
+# Derived with assumed X(HCO+)=1e-9 (factor 3-10 uncertain): N(H2)=N(HCO+)/X per 150 km/s and path L=N(H2)/n(H2) [pc], cal20
+  N               log N(H2)/150km/s [23.25, 24.25, 25.5]  log L[pc] [0.01, 1.51, 3.26]
+  S               log N(H2)/150km/s [23.0, 24.25, 25.0]  log L[pc] [-0.24, 1.26, 3.01]
+  Bridge          log N(H2)/150km/s [23.25, 24.25, 25.25]  log L[pc] [0.01, 1.26, 3.26]
+  disk(E1,E2,W)   log N(H2)/150km/s [22.25, 23.0, 24.5]  log L[pc] [-1.74, -0.74, 1.26]
+# With the Q4 H13CN limit on tau(HCN 4-3) of the zone (X=12C/13C=30,50,100 -> <3.8,6.4,12.8), cal20
+  X= 30 N               log n 4.50 [3.75,5.00] Tk 112 [80,160] logA 0.50 [0.50,0.50] logNHCO 15.00 | P(n>1e5)=0.10 P(A>1)=0.95
+  X= 30 S               log n 4.50 [3.75,5.00] Tk 112 [80,224] logA 0.50 [0.25,0.50] logNHCO 15.00 | P(n>1e5)=0.06 P(A>1)=0.98
+  X= 30 Bridge          log n 4.50 [4.00,5.00] Tk 112 [80,112] logA 0.50 [0.50,0.50] logNHCO 15.00 | P(n>1e5)=0.10 P(A>1)=0.96
+  X= 30 disk(E1,E2,W)   log n 5.25 [5.00,6.00] Tk 28 [14,28] logA 0.50 [0.25,0.50] logNHCO 14.00 | P(n>1e5)=0.72 P(A>1)=0.92
+  X= 50 N               log n 4.50 [3.75,5.00] Tk 112 [80,160] logA 0.50 [0.50,0.50] logNHCO 15.00 | P(n>1e5)=0.10 P(A>1)=0.95
+  X= 50 S               log n 4.50 [3.75,5.00] Tk 112 [80,224] logA 0.50 [0.25,0.50] logNHCO 15.00 | P(n>1e5)=0.06 P(A>1)=0.98
+  X= 50 Bridge          log n 4.50 [4.00,5.00] Tk 112 [80,112] logA 0.50 [0.50,0.50] logNHCO 15.00 | P(n>1e5)=0.09 P(A>1)=0.96
+  X= 50 disk(E1,E2,W)   log n 5.25 [5.00,6.00] Tk 28 [14,28] logA 0.50 [0.25,0.50] logNHCO 14.00 | P(n>1e5)=0.70 P(A>1)=0.92
+  X=100 N               log n 4.50 [3.75,5.00] Tk 112 [80,160] logA 0.50 [0.50,0.50] logNHCO 15.00 | P(n>1e5)=0.10 P(A>1)=0.95
+  X=100 S               log n 4.50 [3.75,5.00] Tk 112 [80,224] logA 0.50 [0.25,0.50] logNHCO 15.00 | P(n>1e5)=0.06 P(A>1)=0.98
+  X=100 Bridge          log n 4.50 [3.75,5.00] Tk 112 [80,112] logA 0.50 [0.50,0.50] logNHCO 15.00 | P(n>1e5)=0.09 P(A>1)=0.96
+  X=100 disk(E1,E2,W)   log n 5.25 [4.75,5.75] Tk 28 [14,28] logA 0.50 [0.25,0.50] logNHCO 14.00 | P(n>1e5)=0.69 P(A>1)=0.93
+
+# Geometry: plane-parallel slab (radex_slab) instead of expanding sphere, cal20
+  N               chi2min=0.34 log n 3.75 [3.00,4.75] Tk 80 [28,112] logA 0.50 [0.50,0.50] | P(n>1e5)=0.08 P(A>1)=0.94
+  S               chi2min=0.49 log n 3.75 [3.00,4.75] Tk 80 [28,224] logA 0.50 [0.25,0.50] | P(n>1e5)=0.04 P(A>1)=0.97
+  Bridge          chi2min=0.48 log n 3.75 [3.00,4.75] Tk 80 [28,112] logA 0.50 [0.50,0.50] | P(n>1e5)=0.06 P(A>1)=0.96
+  disk(E1,E2,W)   chi2min=2.46 log n 4.25 [3.50,5.50] Tk 28 [10,40] logA 0.50 [0.25,0.50] | P(n>1e5)=0.31 P(A>1)=0.90
+
+# N envelope after subtracting the compact core (Xb4b r<0.5") at the 10" beam; core K-ladder L(4-3/3-2),L(2-1/3-2)
+  core thick: env R_K 0.59 0.43 0.20  log n 4.50 [3.50,5.25] Tk 40 [20,80] logA 0.50 [0.50,0.50] | P(n>1e5)=0.25 P(A>1)=0.95
+  core mid  : env R_K 0.59 0.43 0.24  log n 4.50 [3.50,5.25] Tk 40 [20,80] logA 0.50 [0.50,0.50] | P(n>1e5)=0.19 P(A>1)=0.96
+  core thin : env R_K 0.59 0.43 0.28  log n 4.50 [3.50,5.00] Tk 56 [28,80] logA 0.50 [0.50,0.50] | P(n>1e5)=0.12 P(A>1)=0.97
+
+# Region-to-region comparison: shared (n,Tk,N,A) [H0] vs shared (n,Tk) with separate (N,A) [H1] vs all separate [H2]; band-scale nuisance common to both regions; eta separate; coarse grid
+[cal20      ] N        vs S               lnB(sep/shared)= -6.31  lnB(sep/sharedTn)= -2.64  dchi2(shared-sep)=  2.11 (4 extra pars; p=0.716)  dchi2(sharedTn-sep)=  1.33 (2 extra; p=0.514)
+[cal20      ] zoneN    vs zoneS           lnB(sep/shared)= -3.29  lnB(sep/sharedTn)= -0.71  dchi2(shared-sep)=  3.01 (4 extra pars; p=0.556)  dchi2(sharedTn-sep)=  0.27 (2 extra; p=0.873)
+[cal20      ] N        vs Bridge          lnB(sep/shared)= -7.30  lnB(sep/sharedTn)= -3.30  dchi2(shared-sep)=  0.20 (4 extra pars; p=0.995)  dchi2(sharedTn-sep)=  0.20 (2 extra; p=0.905)
+[cal20      ] S        vs Bridge          lnB(sep/shared)= -7.09  lnB(sep/sharedTn)= -3.19  dchi2(shared-sep)=  0.21 (4 extra pars; p=0.995)  dchi2(sharedTn-sep)=  0.21 (2 extra; p=0.902)
+[cal20      ] Bridge   vs disk(E1,E2,W)   lnB(sep/shared)= 49.90  lnB(sep/sharedTn)=  3.73  dchi2(shared-sep)=115.62 (4 extra pars; p=0.000)  dchi2(sharedTn-sep)= 10.53 (2 extra; p=0.005)
+[cal20      ] N        vs disk(E1,E2,W)   lnB(sep/shared)= 56.03  lnB(sep/sharedTn)=  5.09  dchi2(shared-sep)=127.57 (4 extra pars; p=0.000)  dchi2(sharedTn-sep)= 13.87 (2 extra; p=0.001)
+[cal20      ] S        vs disk(E1,E2,W)   lnB(sep/shared)= 40.13  lnB(sep/sharedTn)=  4.02  dchi2(shared-sep)= 95.73 (4 extra pars; p=0.000)  dchi2(sharedTn-sep)= 10.90 (2 extra; p=0.004)
+[cal10      ] N        vs S               lnB(sep/shared)= -6.29  lnB(sep/sharedTn)= -2.65  dchi2(shared-sep)=  1.55 (4 extra pars; p=0.817)  dchi2(sharedTn-sep)=  1.55 (2 extra; p=0.460)
+[cal10      ] zoneN    vs zoneS           lnB(sep/shared)= -3.46  lnB(sep/sharedTn)= -0.71  dchi2(shared-sep)=  3.08 (4 extra pars; p=0.544)  dchi2(sharedTn-sep)=  0.28 (2 extra; p=0.869)
+[cal10      ] Bridge   vs disk(E1,E2,W)   lnB(sep/shared)= 49.07  lnB(sep/sharedTn)=  3.33  dchi2(shared-sep)=114.52 (4 extra pars; p=0.000)  dchi2(sharedTn-sep)= 11.15 (2 extra; p=0.004)
+[ratios-only] N        vs S               lnB(sep/shared)= -5.91  lnB(sep/sharedTn)= -3.25  dchi2(shared-sep)=  1.75 (4 extra pars; p=0.782)  dchi2(sharedTn-sep)=  0.78 (2 extra; p=0.677)
+[ratios-only] zoneN    vs zoneS           lnB(sep/shared)= -2.75  lnB(sep/sharedTn)= -1.71  dchi2(shared-sep)=  2.89 (4 extra pars; p=0.576)  dchi2(sharedTn-sep)=  0.20 (2 extra; p=0.907)
+[ratios-only] Bridge   vs disk(E1,E2,W)   lnB(sep/shared)= 51.19  lnB(sep/sharedTn)=  4.04  dchi2(shared-sep)=118.96 (4 extra pars; p=0.000)  dchi2(sharedTn-sep)= 13.27 (2 extra; p=0.001)
+
+# HCN/HCO+ (K km/s) ratio per J and ratio N/S, errors = stat + 7% independent per line (same-band calibration cancels)
+  N       /S               J=2: 0.61/0.56=1.09+-0.15 (0.6sig)  J=3: 0.48/0.43=1.12+-0.16 (0.8sig)  J=4: 0.36/0.32=1.13+-0.16 (0.9sig)
+  zoneN   /zoneS           J=2: 0.65/0.46=1.40+-0.41 (1.1sig)  J=3: 0.58/0.44=1.34+-0.46 (0.8sig)  J=4: 0.46/0.35=1.32+-0.71 (0.5sig)
+  N       /Bridge          J=2: 0.61/0.59=1.04+-0.15 (0.3sig)  J=3: 0.48/0.46=1.05+-0.15 (0.3sig)  J=4: 0.36/0.33=1.07+-0.15 (0.5sig)
+  S       /Bridge          J=2: 0.56/0.59=0.95+-0.13 (-0.4sig)  J=3: 0.43/0.46=0.94+-0.13 (-0.5sig)  J=4: 0.32/0.33=0.94+-0.13 (-0.4sig)
+  Bridge  /disk(E1,E2,W)   J=2: 0.59/0.52=1.13+-0.16 (0.9sig)  J=3: 0.46/0.34=1.36+-0.19 (2.2sig)  J=4: 0.33/0.14=2.36+-0.33 (6.1sig)
+  N       /disk(E1,E2,W)   J=2: 0.61/0.52=1.17+-0.17 (1.1sig)  J=3: 0.48/0.34=1.43+-0.20 (2.5sig)  J=4: 0.36/0.14=2.52+-0.36 (6.6sig)
+  S       /disk(E1,E2,W)   J=2: 0.56/0.52=1.07+-0.15 (0.5sig)  J=3: 0.43/0.34=1.28+-0.18 (1.7sig)  J=4: 0.32/0.14=2.23+-0.31 (5.7sig)
+
+# Posterior of T_R(3-2) of the 10" zone vs observed 0.25" peak T_b (N: HCN 1.46, HCO+ 1.56 K; S: HCN 0.79, HCO+ 1.87 K); cal20
+  N: T_R(HCO+ 3-2) [0.28, 1.881, 6.953] K, T_R(HCN 3-2) [0.129, 0.876, 3.39] K; P(T_R(HCO+)>=1.556) = 0.60, P(T_R(HCN)>=1.461) = 0.43, both 0.43
+  S: T_R(HCO+ 3-2) [0.171, 1.388, 5.373] K, T_R(HCN 3-2) [0.073, 0.6, 2.316] K; P(T_R(HCO+)>=1.869) = 0.43, P(T_R(HCN)>=0.792) = 0.44, both 0.42

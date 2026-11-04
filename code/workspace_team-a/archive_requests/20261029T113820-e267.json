@@ -1,0 +1,25 @@
+{
+ "id": "20261029T113820-e267",
+ "team": "team-a",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X33e_X149.NGC_3256_sci.spw25.cube.I.pbcor.fits"
+ ],
+ "why": "Q54: HNC 1-0 at 1.1\" with HCN 1-0 (2015.1.00412 X145 cached) for HNC/HCN at matched beams; the 2016.1.00965 cubes resolve out flux",
+ "ok_evict": true,
+ "status": "done",
+ "bytes_estimate": 264689280,
+ "submitted": "2026-10-29T11:38:20+00:00",
+ "bytes_to_fetch": 264689280,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-29T11:38:20+00:00",
+ "bytes_done": 264689280,
+ "started": "2026-10-29T11:38:21+00:00",
+ "evicted": [],
+ "finished": "2026-10-29T11:38:31+00:00",
+ "paths": [
+  "/archive/files/2015.1.00412.S/member.uid___A001_X33e_X149.NGC_3256_sci.spw25.cube.I.pbcor.fits"
+ ],
+ "minutes": 0.2
+}

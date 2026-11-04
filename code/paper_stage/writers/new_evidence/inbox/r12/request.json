@@ -1,0 +1,6 @@
+{
+ "id": "r12",
+ "to": "team-b",
+ "kind": "question",
+ "text": "Recompute the J = 1-0 HCN/HCO+ N/S contrast on the short-spacing-complete cubes (2015.1.00993 X961 and 2015.1.00412 X145) at 1.5, 2.2 and 2.5 arcsec circular beams with the same estimators as r11 (peak pixel at the HCO+ peak; apertures r = 0.25, 0.5, 0.75 arcsec; r = beam), window +/-350 km/s and +/-150 km/s, so that J-independence D = C(3-2)/C(1-0) can be quoted with overlap-free apertures and so we know whether Harada et al. 2018 Table 13 (1.49, 1.43 from peaks at 1.7 arcsec) is overlap-lowered. Also give statistical errors for the 49/55/120/250 pc peak T_b values of HCN and HCO+ at N and S (out/q26/s171_summary.txt) so that the HCO+ N/S = 0.98 and HCN N/S = 2.25 can carry errors."
+}

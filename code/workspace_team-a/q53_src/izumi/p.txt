@@ -1,0 +1,1928 @@
+5102
+ceD
+01
+]AG.hp-ortsa[
+1v83430.2151:viXra
+ACCEPTEDFORPUBLICATIONINASTROPHYSICALJOURNALONDECEMBER8,2015
+PreprinttypesetusingLATEXstyleemulateapjv.05/12/14
+SUBMILLIMETER-HCNDIAGRAMFORANENERGYDIAGNOSTICSINTHECENTERSOFGALAXIES
+TAKUMAIZUMI1,KOTAROKOHNO1,2,SUSANNEAALTO3,DANIELESPADA4,5,6,KAMBIZFATHI7,NANASEHARADA8,BUNYO
+HATSUKADE5,PEI-YINGHSIEH8,9,MASATOSHIIMANISHI10,5,6,MELANIEKRIPS11,SERGIOMARTÍN11,12,4,SATOKIMATSUSHITA8,
+DAVIDS.MEIER13,NAOMASANAKAI14,KOUICHIRONAKANISHI4,5,6,EVASCHINNERER15,KARTIKSHETH16,YUICHITERASHIMA17,
+ANDJEANL.TURNER18
+1InstituteofAstronomy,SchoolofScience,TheUniversityofTokyo,2-21-1Osawa,Mitaka,Tokyo181-0015,Japan;takumaizumi@ioa.s.u-tokyo.ac.jp
+2ResearchCenterfortheEarlyUniverse,TheUniversityofTokyo,7-3-1Hongo,Bunkyo,Tokyo113-0033
+3DepartmentofEarthandSpaceSciences,ChalmersUniversityofTechnology,OnsalaObservatory,43994Onsala,Sweden
+4JointALMAObservatory,AlonsodeCórdova,3107,Vitacura,Santiago763-0355,Chile
+5NationalAstronomicalObservatoryofJapan,2-21-1Osawa,Mitaka,Tokyo181-8588,Japan
+6SOKENDAI(TheGraduateUniversityforAdvancedStudies),2-21-1Osawa,Mitaka,Tokyo181-8588,Japan
+7StockholmObservatory,DepartmentofAstronomy,StockholmUniversity,AlbaNovaCentre,10691Stockholm,Sweden
+8AcademiaSinica,InstituteofAstronomy&Astrophysics,P.O.Box23-141,Taipei10617,Taiwan
+9InstituteofAstronomy,NationalCentralUniversity,No.300,JhongdaRoad,JhongliCity,TaoyuanCounty32001,Taiwan,RepublicofChina
+10SubaruTelescope,NAOJ,650NorthA’ohokuPlace,Hilo,HI96720,USA
+11InstitutdeRadioAstronomieMillimétrique,300ruedelaPiscine,DomaineUniversitaire,38406St.Martind’Hères,France
+12EuropeanSouthernObservatory,AlonsodeCórdova,3107,Vitacura,Santiago,Chile
+13DepartmentofPhysics,NewMexicoInstituteofMiningandTechnology,801LeroyPlace,Soccoro,NM87801,USA
+14DepartmentofPhysics,FacultyofPureandAppliedSciences,UniversityofTsukuba,1-1-1Ten-nodai,Tsukuba,Ibaraki305-8571,Japan
+15MaxPlanckInstituteforAstronomy,Königstuhl17,Heidelberg69117,Germany
+16NASA,300EStreetSW,Washington,DC20546,USA
+17DepartmentofPhysics,EhimeUniversity,2-5Bunkyo-cho,Matsuyama,Ehime790-8577,Japanand
+18DepartmentofPhysicsandAstronomy,UCLA,430PortolaPlaza,LosAngeles,CA90095-1547,USA
+AcceptedforpublicationinAstrophysicalJournalonDecember8,2015
+ABSTRACT
+Compiling data from literature and the ALMA archive, we show enhanced HCN(4-3)/HCO+(4-3) and/or
+HCN(4-3)/CS(7-6) integrated intensity ratios in circumnuclear molecular gas around active galactic nuclei
+(AGNs)comparedtothoseinstarburst(SB)galaxies(submillimeterHCN-enhancement).Thenumberofsam-
+plegalaxiesissignificantlyincreasedfromourpreviouswork. Weexpectthisfeaturecouldpotentiallybean
+extinction-freeenergy diagnostic tool of nuclear regions of galaxies. Non-LTE radiative transfer modelings
+oftheabovemolecularemissionlinesinvolvingbothcollisionalandradiativeexcitation,aswellasa photon
+trappingeffectwereconductedtoinvestigatethecauseofthehighlineratiosinAGNs. Asaresult,wefound
+that enhancedabundanceratios of HCN-to-HCO+ and HCN-to-CS in AGNs as comparedto SB galaxies by
+afactorofafewtoeven&10isaplausibleexplanationforthesubmillimeterHCN-enhancement. However,
+a counterargumentofa systematicallyhighergasdensityinAGNsthanin SBgalaxiescanalso bea plausi-
+blescenario. Althoughwecouldnotfullydiscriminatethesetwoscenariosatthismomentduetoinsufficient
+amountofmulti-transition,multi-speciesdata,theformerscenarioequivalentlyclaimsforabnormalchemical
+compositionin AGNs. Regardingthe actual mechanismto realize the composition, we suggestit is difficult
+withconventionalgasphaseX-raydominatedregion(XDR)ionizationmodelstoreproducetheobservedhigh
+lineratios. Wemighthavetotakeintoaccountothermechanismssuchasneutral-neutralreactionsthatareef-
+ficientlyactivatedathightemperatureenvironmentsand/ormechanicallyheatedregionstofurtherunderstand
+thehighlineratiosinAGNs.
+Keywords:galaxies:active—galaxies:ISM—ISM:molecules
+1. INTRODUCTION regions(XDRs), which are larger in volume than PDRs due
+to the higherpenetratingcapabilityof the X-ray, are formed
+The dense molecular medium in the centers of galaxies
+at the vicinity of AGNs (e.g., Maloney et al. 1996; Hollen-
+plays a key role in their evolutionbecause it is the reservoir
+bach&Tielens1997,1999;Meijerink&Spaans2005;Mei-
+of fuel for active galactic nuclei (AGNs), as well as the site
+jerink et al. 2006, 2007; Bayet et al. 2008, 2009). Cosmic
+ofmassivestarformation(starburst=SB).Ontheotherhand,
+raysfromfrequentsupernovae(SNe)andtheinjectionofme-
+theseheatingsourcescanconverselyalterthechemicalcom-
+chanicalenergyduetoSNe orAGN jet/outflow(mechanical
+positionoftheirsurroundingmediuminradiativeand/orme-
+heating)arealso importantinshapingchemicalcomposition
+chanicalways. Thus,investigatingsuchdensemoleculargas
+(e.g., Meijerink et al. 2011;Bayet et al. 2011;Loenen et al.
+canbe essentialtostudythe natureof thenuclearregionac-
+2008;Kazandjianetal.2012,2015;Rosenbergetal.2014a,b;
+companyingtheseactivities.
+Matsushitaetal.2015).Inadditiontothegasphasereactions,
+Recent chemical modelings of interstellar medium (ISM)
+inclusionofdustgrainchemistrywillinfluencethechemistry
+predictthatthevariousheatingmechanismswillproducedif-
+aswell(e.g.,Charnley&Rodgers2005;Garrodetal.2008).
+ferent signatures in molecular gas composition. For exam-
+Itisnoteworthythatthe temperatureofthegasisessentially
+ple,intenseUVradiationfrommassivestarsformsphotodis-
+importantfortheefficiencyofchemicalreactions,especially
+sociationregions(PDRs)aroundthem,andX-raydominated
+
+=====PAGE=====
+2 T.IZUMIETAL.
+at the vicinity of powerfulheating sources (e.g., Rodgers & simultaneouslyobservedwith ALMA, whichisnecessaryto
+Charnley 2001;Nomura & Millar 2004;Harada et al. 2010, obtain accurate line ratios, in terms of both little systematic
+2013); for example, under the high temperature conditions, flux uncertaintyand, to a lesser extent, differencesin the uv
+wecanexpectanenhancedabundanceofHCNduetotheac- coverage. In addition, since these transitions have orders of
+tivatedneutral-neutralreactionsfromCN. magnitude higher critical densities (n ∼ 106- 7 cm- 3) than
+Based on the above descriptions, we can deduce that it theJ =1–0transitions(n ∼104- 5cm
+H2-
+3),theyarelesscon-
+would be possible to construct a diagnostic method of the taminatedby the foregrou H n 2 dand/ordisk emission, thussuit-
+dominant energy source in galaxies such as an AGN and a abletoprobethedensestgasintheobscurednuclearregions
+SB by utilizing the potential chemical differences between ofgalaxies.
+them. To do so, millimeter/submillimeter spectroscopic ob- However, despite the above advantages, the proposeddia-
+servationsareofgreatimportancebecausethesewavelengths gramofI13wasverytentativeas(1)itwasbasedonassmall
+do notsuffer fromdustextinction, which is criticalto probe as 5 galaxy sample, and (2) they mixed galaxies observed
+dustynuclearregions. Inaddition,ahighspatialandspectral at a wide range of spatial resolutions (∼ 100 pc to 1 kpc),
+resolutionprovidedbymillimeter/submillimeterinterferome- which would combine flux contributions from various com-
+terscanalsogiveuscriticalinformationongaskinematicsin ponents. Inordertoassess thepotentialofthesubmm-HCN
+thecentral.100pcscaleregion,whichisnecessarytostudy diagram,weneedhighspatialresolutionobservationsallow-
+feedingmechanismsofcentralsupermassiveblackholes(e.g., ingustoisolatetheAGNemissionfromlikelycontamination
+Fathietal.2013). duetoco-existingSB,togetherwithSBsamplesobservedat
+Withthesethingsinmind,manykeymoleculeshavebeen matchedspatial resolutions. Indeed,Schleicheretal. (2010)
+raisedsofarasusefulobservationaldiagnostictools. Among predictedthat a distance outto which AGN-heatingwith X-
+them,anenhancedintensityofHCN(1-0),whosecriticalden- ray luminosity of ∼ 1043 erg s- 1 (a typical value for lumi-
+r s e it s y pe (n ct cr t ) o fo H r C c O ol + l ( is 1 i - o 0 n ) a a l n e d x / c o i r ta C ti O on (1 i - s 0 n ) H h 2 a ∼ s b 1 e 0 e 4 n - 5 p c ro m p - o 3 s , e w d i a th s c n m ou - s 3) S w ey i f th ert a g s a o l f a t x U ie V s) d ra o d m ia i t n i a o t n es fi i e n ld de o n f s ∼ e g 1 a 0 s 0 (n G H2 1 ∼ is 1 o 0 n 4 l - y 5
+a unique feature to AGNs (e.g., Jackson et al. 1993; Tac- 0
+. 100 pc (see also Appendix-A of Izumi et al. 2015). Fur-
+coni et al. 1994; Sternberg et al. 1994; Kohno et al. 2001;
+thermore,highresolutionobservationsofthenuclearregions
+Useroetal. 2004;Kohno2005;Imanishietal. 2007b;Krips
+ofnearbySeyfertgalaxiesrevealedthattheresometimesisa
+et al. 2008; Davies et al. 2012). Using these line ratios,
+hundreds-to-kpcscale ring-like SB region, which surrounds
+Kohno et al. (2001) constructed a potential diagnostic dia-
+100 pc scale dense molecular gas concentrations at the nu-
+gram(mm-HCNdiagram;seealsoKohno2005).Butthereare
+cleusbothinluminousAGNs(e.g.,García-Burilloetal.2014;
+somecounterargumentstothisdiagnosticsthathighHCN(1-
+Izumi et al. 2015) and low-luminosity AGNs (I13; Martín
+0)/HCO+(1-0) ratios are observed in non-AGNs (Costagli-
+etal.2015).Wehereaftercallthelatterkindof(100pcscale)
+ola et al. 2011; Snell et al. 2011), as well as low HCN(1-
+centralmolecularconcentrationacircumnucleardisk (CND)
+0)/HCO+(1-0) in AGNs (e.g., Sani et al. 2012). The latter
+ingeneral.
+inconsistency could be due to strong spectral contamination
+In this paper, we compile literature and archival data of
+fromthe likely coexistingSB activities thatdilutesemission HCN(4-3), HCO+(4-3), and CS(7-6) emission lines of vari-
+from an AGN-influenced region such as an XDR (see also
+ous AGNs and SB galaxies to improve the statistics of the
+Section4.6). Furthermore,thecauseoftheenhancementhas
+submm-HCNdiagram,andtoexplorethecauseoftheHCN-
+notbeen clear because many differentmechanismscan con-
+enhancement. Section2describesthecollecteddata. Anup-
+tribute to this enhancement; higher gas opacities, densities,
+datedsubmm-HCNdiagramisshowninSection3. Section4
+and temperatures (excitation conditions), and/or abundance
+presentssimplenon-localthermodynamicalequilibrium(non-
+variations caused by different heating mechanisms. A non- LTE)radiativetransfermodelsinvolvingHCN(4-3),HCO+(4-
+collisional excitation, such as infrared (IR)-pumpingcaused
+3), and CS(7-6). We examine the impact of both excitation
+bythere-radiationfromUV/X-rayheateddust,couldalsobe
+andmolecularabundanceonthelineratiosthere. InSection
+important(e.g., Aaltoet al. 2002,2007;Graciá-Carpioetal.
+5,wediscusspossiblechemicalscenariostorealizethepoten-
+2006; Sakamoto et al. 2010; Imanishi & Nakanishi 2013a;
+tial abundancevariationsuggestedin Section 4. At last, our
+Matsushitaetal.2015),especiallyin(ultra)luminousinfrared
+mainconclusionsofthisworkaresummarizedinSection6.
+galaxies=(U)LIRGs.
+Similar to the abovementionedJ = 1–0transitions, Izumi
+et al. (2013) (hereafter I13) found that HCN(4-3)/HCO+(4- 2. DATA
+In this work, we first compiled interferometricdata of the
+3) andHCN(4-3)/CS(7-6)integratedintensityratiosseem to
+targetemissionlinesofextragalacticobjectsfromliteratures.
+behigherinAGNsthaninSBgalaxies(submillimeterHCN-
+We refertodataobtainedwithspatialresolutionsbetterthan
+enhancement), and proposed a diagnostic diagram hereafter
+500 pc as the high resolution sample. The thresholdresolu-
+referred to as a “submm-HCN diagram” using these line ra-
+tionof500pcislargeenoughtofullyencompassthetypical
+tios.Oneadvantageofthesubmm-HCNdiagramoverthepre-
+size ofCNDs innearbygalaxies, aswellas smallenoughto
+vious diagnosticsusing HCN(1-0) line would be that higher
+excludelineemissionfromnon-CNDcomponentssuchascir-
+angular resolution is easily achievable at higher-J compared
+cumnuclear SB rings in most cases. These data are further
+to J = 1–0 transitions, which is essentially important to ex-
+compared with rather lower resolution interferometric data
+clude contamination from SB activity to the line emission
+(spatialresolution>500pc)andsingledishdata(typicalspa-
+fromAGN-heatedgas. Moreover,itismuchmoreapplicable
+to high-redshift galaxies by using high-J lines because sub-
+tialresolution>1kpc)withfirmdetectionsofemissionlines
+(>5σ). Thesedataarecalledlowresolutionsample,andwill
+millimeter lines can be covered by Atacama Large Millime-
+ter/submillimeterArray(ALMA)upto,e.g.,z∼3forthecase beusedtoinvestigatetheimpactofdifferentspatialresolution
+ofJ =4–3transitionsofHCNandHCO+. Theselinescanbe
+11G0=1.6×10- 3ergs- 1cm- 2
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FOR AN ENERGYDIAGNOSTICS IN GALAXIES 3
+on our diagnostics. As a result, we compiled line emission obtainhighresolutionvaluesoftheR HCN/HCO+ andR HCN/CS ,
+dataofNGC1068,NGC1097,NGC1365,NGC4945,NGC since the exact values of these ratios are not presented in
+7469, NGC 4418, IRAS12127-1412, M82, NGC 253, NGC García-Burilloetal.(2014),andtheratiosinVitietal.(2014)
+1614,NGC3256,NGC3628,NGC7552,IRAS13242-5713, wereaveragedoneswitha100pcaperture.WeusedMIRIAD
+N113(LMC), and N159(LMC). Moreover,in the case with (Sault et al. 1995) for this analysis. The synthesized beams
+sufficiently high resolution data, we measured line ratios at and the rms noises in channel maps of the target emission
+differentrepresentativepositionswithinthesamegalaxy.The linesweretypically0′′.5×0′′.4(correspondsto35pc×28
+name of each position such as NGC 1097 (AGN) and NGC pc at the assumed distance of NGC 1068 = 14.4 Mpc) and
+1097(SBring)isusedhereafter.Notethatweclassifythedata 2.5mJybeam- 1, respectively. Thermsnoisesandmeasured
+of NGC4945obtainedwith APEX ∼ 450pc (18′′) aperture fluxesoftheselinesareingoodagreementwiththepublished
+into the low resolution sample, because it hosts a relatively data.Weassumetheabsolutefluxuncertaintytobe15%.
+compactcircumnuclearSB ring with a radiusof 2′′.5 (∼ 60 At the end of this Section and before constructing an up-
+pc)insidethebeam. Ontheotherhand,thespatialresolution dated submm-HCN diagram, we mention the likely-limited
+ofthetwoLMCobjectsareordersofmagnitudehigherthan applicability of our molecular diagnostics to some buried-
+the other high resolution sample due to their proximity. We AGNs. Recent high resolution observations of both vibra-
+neverthelesskeep using their ratios considering the rarity of tionally ground (v = 0) and excited (v = 1) HCN emission
+high resolution extragalactic measurements of the emission lines towards heavily obscured nuclei of ULIRGs revealed
+lines used in this work. We emphasize that excluding these severe self- and/or continuum-absorption features at v = 0
+LMCobjectsdoesnotchangeourconclusionatall. (Aaltoetal.2015b).Inthecaseofself-absorption,itishardto
+Then, the total number of data points is 16 and 9 for the extractphysical/chemicalinformationfromlineratios. Thus,
+highandthelow resolutionsample,respectively. Hence,we anykindofenergydiagnosticsemployingsuchabsorbedlines
+improvedthestatisticssignificantly(afactorof5forthecom- will have a limited power. So far, such self-absorption fea-
+binedsample)fromI13. TheresultantHCN(4-3)/HCO+(4-3) turesinourtargetemissionlineshavebeenobservedonlyin
+and HCN(4-3)/CS(7-6) line ratios of each data point (here- heavily obscured nuclei for the case of extragalactic objects
+afterwedenoteasR HCN/HCO+ andR HCN/CS ,respectively),are (e.g., Arp 220Wwith the line-of-sightH 2 columndensity is
+summarizedinTable1withrelevantinformation. N >1025cm- 2;Scovilleetal.2015).Therefore,thiscanbe
+Wecategorizedthetargetgalaxiesintothreeclassesofnu- a H c 2 entralissueinburied-AGNswithsteeptemperaturegradi-
+clearactivities,namelyAGN, buried-AGN,andSB,basedon entingas,whoseline-of-sighthydrogencolumndensitiesare
+thefollowingcriteria. extremelylarge(&1025- 26cm- 2;e.g.,Sakamotoetal.2013).
+Contraryto these galaxies, we considersuch self-absorption
+- AGN: galaxies with clear broad Balmer lines (includ-
+willnotbeasevereprobleminComptonthinAGNsprimar-
+ingpolarizedones),orthosewithprominenthardX-ray
+ilybecauseofthelowopticaldepthofHCN(4-3)emission(∼
+(> 2 keV) point sources with time variability. There-
+a fewin NGC 1097andNGC 7469,I13; Izumietal. 2015).
+fore,galaxieswithconventionalAGNsignaturesnatu-
+This is in clear contrast to the extremely high optical depth
+rallybelongtothiscategory.
+(& 100) in Arp 220W (Scoville et al. 2015). Moreover, no
+- buried-AGN:galaxiesshowinglittle (orno)AGN sig- suchabsorptionfeaturewasfoundevenintheComptonthick
+naturesatX-rayandopticalwavelengths,buthavebeen AGN of NGC 1068 (total hydrogen column density derived
+claimedto possess AGNswhicharedeeplyembedded byX-rayobservationsN H ∼1025cm- 2;Marinuccietal.2012,
+industalongvirtuallyallsight-lines.Thesegalaxiesare 2015)3observedatashighas35pcresolution(thedataused
+identifiedatinfraredwavelengthbydetectionsof,e.g., inthiswork).Clearly,veryextremeconditionsarerequiredto
+continuumemissionfromahot(&200K)dustcompo- yieldthatfeature.
+nent,deepsilicateabsorptionfeature,andsmallequiv- Withcarefullypayingattentiontothesefacts,westillkeep
+alentwidthofpolycyclicaromatichydrocarbon(PAH) using ourburied-AGNsamplesin this work because we can
+emission(e.g.,Imanishietal.2007a). notidentifysuchabsorptionfeaturesintheirspectrumatthis
+moment(Sakamotoetal.2010,2013;Imanishi&Nakanishi
+- SB:galaxieswithnoAGNsignaturebuthostprominent 2014). These galaxies are not used for a detailed quantita-
+starburstsattheirnuclearregions. tive discussion, but are used only to see an overall trend of
+lineratios. Ontheotherhand,ourdiscussioninthefollowing
+Brief descriptions of each galaxy relating the above criteria
+is mostly based on the high resolution sample of AGNs and
+arepresentedinAppendix-A.Inthisclassification,wedonot
+SB galaxies. Therefore, inclusion of our buried-AGN sam-
+take into account the dominance of AGN and SB activities
+ples will not harm our conclusion. Of course, we admit it
+ofeachgalaxyinmoleculargasheating. InTable1,onecan
+is plausible that these buried-AGNs would show absorption
+find some high resolution sample only exhibit lower limits
+in R because of the non-detections (< 3σ) of CS(7-
+HCN/CS
+6) emission line. However, we include them in our sample 3 Themulti-lineanalysisbyVitietal.(2014)suggestedCOcolumnden-
+takingtherarityofextragalacticinterferometricobservations sitytovelocitywidthratiotobe3×1017cm- 2 (kms- 1)- 1(seetheirTable
+ofsubmillimeterdensegastracersintoaccount.
+6).Withthelinewidthof∼200kms- 1(García-Burilloetal.2014)andthe
+assumptionofCOfractionalabundanceof10- 4(e.g.,Blakeetal.1987),this
+Se A yf s er f t o g r a N la G x C y, 1 w 0 e 6 u 8 s , e w d h A ic L h M is A th b e an n d ea 7 r d b a y ta be re st t - r s ie tu v d ed ie f d ro ty m pe th -2 e ∼ res o u n lt e c o o r r d re e s r p o o f n m ds ag to ni H tu 2 de co s l m um all n er d t e h n a s n ity th o at f o ∼ ft 6 he × X 1 - 0 ra 2 y 3 d cm er - iv 2 e . d T t h o i t s al v h al y u d e ro is -
+ALMA Science Archive2 (ID = 2011.0.00083.S). Although gencolumndensity(Marinuccietal.2012,2015).However,wesuggestthis
+thisdatawasalreadypresentedextensivelyinGarcía-Burillo inconsistencywouldnotbeaproblembecausetheaveragedcolumndensity
+overthe∼100pcbeamemployedbyVitietal.(2014)wouldshowthelower
+etal.(2014)andVitietal.(2014),were-analyzedthedatato
+limitofthenuclear (X-ray)obscuration operating atamuchsmaller scale
+(seealsoJaffeetal.(2004)fortheexpectedsizeofthedustytorusofNGC
+2http://almascience.nao.ac.jp/aq/ 1068).
+
+=====PAGE=====
+4 T.IZUMIETAL.
+featureswhentheyareobservedathigherspatialresolutions, ofmassivestarformingregions)thanacompactCNDaround
+butaquantitativeassessmentofthispointisbeyondthescope anAGN.
+of this paper. Note that optically thinner emission and their Considering the above, we suggest from Figures 1 and 2
+ratios (e.g., H13CN/H13CO+ ratio) seem to elucidate the nu- that(1)galaxiesenergeticallydominatedbyAGNsshowen-
+clearphysical/chemicalconditionsmorestraightforwardlyin hancedR HCN/HCO+ and/orR HCN/CS ,and(2)thosebySBshow
+thecaseofobscuredsystems.Weleavethesecaveatstofuture lowervaluesinbothratiosthanAGNs. Wealsopointoutthat
+highresolutionobservationswithALMA. theburied-AGNsofoursampletendtoexhibitrelativelyhigh
+3. UP-DATEDSUBMILLIMETER-HCNDIAGRAM R HCN/HCO+ (& 1.5) but rather low R HCN/CS (∼ a few) which
+iscomparabletoSBgalaxies. Theseburied-AGNsbelongto
+BasedonthedatainTable1,wehereup-datethesubmm- ourlowresolutionsample. Thus,oneconcernisthattheline
+HCN diagramproposedbyI13. We firstshow the result us- ratioswillchangewhenobservedatahigherresolution.How-
+ingonlythehighresolutionsample(spatialresolution<500 ever,atleastforNGC4418,wesupposethatsuchasituation
+pc) in Figure 1, to avoid strong contaminationfrom the sur- would be unlikely because ∼ 100 pc scale observations of
+roundingSBregionsasmuchaspossible.Asaresult,onecan HCN(4-3)andHCO+(4-3)revealedthatthedensemolecular
+findacleartrendthatAGNsexhibithigherR HCN/HCO+ and/or gasiswellconfinedinthecentral∼100pcregion(Sakamoto
+R HCN/CS thanSBgalaxies,whichsupportsourpreviousclaim etal.2013;Costagliolaetal.2015).Therefore,thelocationof
+inI13. thisgalaxywillmoreorlessholdinFigure2evenwhenob-
+Theinfluenceofspatialresolutiononthislinediagnosticsis servedat ∼ 100 pc resolution, althoughwe needto increase
+investigatedinFigure2,withsuperposingthelowresolution the highresolutionsample of buried-AGNsto examinetheir
+sample (spatial resolution > 500 pc). We found SB galax- overalltrend in this diagram. In the following Sections, we
+iescontinuetoshowlowerR HCN/HCO+ andR HCN/CS thanmost willinvestigatepossiblecausesfortheHCN-enhancementin
+AGNs. On the other hand, NGC 1365andNGC 4945(both AGNs,fromtheperspectivesofbothlineexcitationandabun-
+areAGNs)showlineratiosfullycomparabletoSBgalaxies, dance(ISMchemistry). Thelineratiosofthehighresolution
+which is in contrastto the trend of the highresolution AGN samplesshowninFigure1shouldbethereferenceforthedis-
+sample. We suspect that in these two Seyfert galaxies, con- cussion in the followingas those of the low resolution sam-
+tamination from co-existingSB regionsin line fluxes would ples (especially AGNs) are highly likely to be contaminated
+be substantial when observed at the APEX 18′′ beam. In- by various other components. We should note that the ob-
+deed, both NGC 1365 and NGC 4945 host a prominentcir- servedline ratiosarethe integratedonesovernotonlysome
+cumnuclearSBringwitharadiusof5′′–10′′(NGC1365)and
+areasbutalsotheline-of-sightcolumns,thus,allphysicaland
+2′′.5(NGC4945)associatinglargeamountofmoleculargas
+chemicalgradientsareintegrated.
+(Marconietal. 2000;Gallianoetal.2005;Chouetal.2007;
+Sakamotoetal.2007;Alonso-Herreroetal.2012b). Regard- 4. NON-LTEEXCITATIONANALYSIS
+ingtheenergetics,theequivalentwidthsofthe11.3µmPAH In order to investigate the physical origin of the HCN-
+feature are 432 nm (with 20′′.4 × 15′′.3 aperture; Wu et al. enhancement,werannon-LTEradiativetransfermodelswith
+2009)inNGC1365and358nm(with3′′.7slit;Esquejetal.
+theRADEXcode(vanderTaketal.2007).TheRADEXuses
+2014) in NGC 4945, respectively. These widths are signifi- anescapeprobabilityapproximationtotreatopticaldepthef-
+cantlylargerthanthose ofNGC 1068(9nm with 0′′.36slit, fectsandsolvesstatisticalequilibriuminahomogeneous(i.e.,
+i.e.,similartotheALMAbeam)andNGC7469(31nmwith single temperature and density), one-phase medium. There-
+0′′.75slit,i.e.,similartotheALMAbeam),forexample(Es- fore,allHCN(4-3),HCO+(4-3),andCS(7-6)linesareemitted
+quejetal.2014).Moreover,the25µm-to-60µmIRAScolors fromthesamevolumeinourmodels.Thisassumptionwould
+inNGC1365andNGC4945are0.14and0.04,respectively. notbe very crudeconsideringthe relativelynarrowrange of
+TheseequivalentwidthsandIR-colorsareclearlycategorized the n (Table 2) and similar velocity profiles of these lines
+cr
+in the SB regime (Wu et al. 2009). Therefore, the low line (e.g., Zhanget al. 2014). As forthe cloudgeometry,we as-
+ratios in NGC 1365 and NGC 4945 compared to the high sumed a sphericalone. Other relevantexcitation parameters
+resolution AGN samples would highlight the importance of ofthetargetlinesaresummarizedinTable2.Wehereafterex-
+highspatialresolution(likelytobe.50–100pcscaleinthese presslinestrengthsinthebrightnesstemperaturescale. Note
+cases)torobustlyidentifylowluminosityAGNsaccompany- thatwe do notintend to mimic an environmentof a specific
+ingprominentcircumnuclearSBbasedonthisdiagram. This galaxy here. Moreover, one line ratio can be reproducedby
+wouldreflectthelimitedspatialextentofenergeticinfluence various combinations of parameters. Hence the model de-
+of AGNs such as XDRs (Schleicheret al. 2010;Izumiet al. scribed below is the result of an educated guess of the pa-
+2015). rameters,whichshouldbefurtherinvestigatedwithfutureob-
+Ontheotherhand,onceweachievethehighresolution,we servations.
+shouldcarefullytreatthespatiallyresolvedmeasurementsof
+the line ratios because they would reflect very local physics 4.1. Modeldescription
+and/orunderlyingchemistryevenwithinasingleAGNenvi-
+InourRADEXsimulation,weinvestigatedhowthefollow-
+ronment(Vitietal.2014).ThisisclearlymanifestedbyNGC
+ingparametersaffectthelineratiosofourinterest.
+1068(Figure2);bothR HCN/HCO+ andR HCN/CS measuredwith
+ALMA(0′′.5beam)atthedifferentpositionswithintheCND • Kinetictemperature(T )ofthemoleculargas:thisaf-
+kin
+are different from those with APEX (18′′ beam). Contrary fectstherateofthecollisionalexcitationwiththetarget
+tothiscase,spatialresolutionseemsnottoplayanimportant molecules. The cases of 50, 100, and 200 K are in-
+role for the ratios of SB galaxies because both the high and vestigated. ThisrangemostlycoverstheT suggested
+kin
+the low resolution samples exhibit comparableline ratios as fornearbyAGNsandSBgalaxies(e.g.,Mauersberger
+already mentioned (see also Table 1). This could be recon- et al. 2003;Krips et al. 2008;Davies et al. 2012; Viti
+ciledifaSBregionhasamoreextendednature(=ensemble etal.2014).
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FOR AN ENERGYDIAGNOSTICS IN GALAXIES 5
+Table1
+R HCN/HCO+andR
+HCN/CS
+inAGNs,buried-AGNs,andSBgalaxies
+Objecta Distanceb Typec Telescoped Spatialresolutione R HCN/HCO+f R
+HCN/CS
+g Referenceh
+[Mpc] [pc]
+Highresolution(<500pc)sample
+NGC1068(AGN) 14.4 AGN ALMA 35 1.53±0.34 8.84±2.51 (1)
+NGC1068(E-knot) 14.4 AGN ALMA 35 2.84±0.60 8.04±1.72 (1)
+NGC1068(W-knot) 14.4 AGN ALMA 35 3.19±0.71 11.97±3.45 (1)
+NGC1068(CND-N) 14.4 AGN ALMA 35 3.14±0.72 12.79±4.48 (1)
+NGC1068(CND-S) 14.4 AGN ALMA 35 2.58±0.19 >4.21 (1)
+NGC1097(AGN) 14.5 AGN ALMA 94 2.01±0.29 >12.66 (2)
+NGC7469(AGN) 70.8 AGN ALMA 154 1.11±0.13 9.50±3.02 (3)
+M82 5.2 SB JCMT 353 0.41±0.12 4.09±1.14 (2)
+NGC253 3.0 SB JCMT,APEX 262 1.03±0.22 3.40±0.73 (2)
+NGC1097(SBring) 14.5 SB ALMA 94 0.82±0.17 >1.38 (2)
+NGC1614 69.1 SB ALMA 468 0.24±0.06 >3.54 (4)
+NGC7469(SBringposition-B) 70.8 SB ALMA 154 0.75±0.14 >3.65 (3)
+NGC7469(SBringposition-C) 70.8 SB ALMA 154 0.45±0.08 2.50±1.16 (3)
+NGC7469(SBringposition-D) 70.8 SB ALMA 154 0.48±0.06 3.03±1.19 (3)
+N113(LMC) 0.05 SB ASTE 5.3 0.21±0.06 1.30±0.58 (5)
+N159(LMC) 0.05 SB ASTE 5.3 0.11±0.03 2.16±0.60 (6)
+Lowresolution(>500pc)sample
+NGC1068(APEX) 14.4 AGN APEX 1257 1.85±0.42 5.00±1.47 (7)
+NGC1365 16.9 AGN APEX 1475 0.59±0.15 2.83±1.17 (7)
+NGC4418 31.3 buried-AGN SMA 790 1.64±0.25 1.98±0.30 (2)
+NGC4945 5.2 AGN APEX 454 0.78±0.17 3.21±0.70 (7)
+IRAS12127-1412 627.4 buried-AGN ALMA 1667 1.58±0.58 4.32±2.17 (8)
+NGC3256 37.4 SB APEX 3265 0.39±0.11 1.38±0.51 (7)
+NGC3628 7.7 SB APEX 672 0.36±0.11 1.80±0.90 (7)
+NGC7552 19.5 SB APEX 1702 0.54±0.15 2.17±0.92 (7)
+IRAS13242-5713 42.0 SB APEX 3667 1.23±0.29 2.39±0.66 (7)
+Note.— (a)ForNGC1068,welistthedataobtainedwithbothALMA(archivaldata:ID=2011.0.00083.S)andAPEX.TheratiosofALMAdataareextracted
+atthepositionsoftheAGN,E-knot,W-knot,itCND-N,anditCND-S.(seetheircoordinatesinGarcía-Burilloetal.(2014)orVitietal.(2014)). ForNGC1097
+andNGC7469,theratiosextractedbothattheAGNpositionandthecircumnuclearSBringarelisted. SeetheirlocationsinI13andIzumietal.(2015). Brief
+descriptionsofeachobjectarepresentedinAppendix-A.(b)WeadoptdistancesdeterminedbytheTully-Fisherrelation(Tully1988)formostcasessincethelocal
+gravitationalpotentialscandominatetheHubbleflowinthenearbyuniverse.ForNGC4418,NGC7469,IRAS12127-1412,NGC1614,andIRAS13242-5713,
+distancesarecalculatedbasedontheirredshiftrecordedinNASA/IPACExtragalacticDatabase(NED,http://ned.ipac.caltech.edu).WeadoptH0=
+70kms- 1Mpc- 1,Ω M=0.27,andΩ Λ=0.73cosmologyhere.ForN113andN159,theCepheid-baseddistancetotheLMC(Macrietal.2006)isused.(c)Type
+ofatargetgalaxy(seealsoSection2andAppendix-A).(d)Thetelescopesusedfortheobservations. (e)Weseparatedthesampleintotwoclassesbasedonthe
+spatialresolutionofeachobservation.Theresolutionof500pcisemployedhereasthethreshold,whichissufficienttofullyencompassthetypicalsizeofCNDs
+ofnearbyAGNs.InthecaseofNGC4945,weclassifieditintothelowresolutionsampledespitethemoderatespatialresolutiontomeasureitslineratios(18′′
+∼450pc),becausethisgalaxyhostsarelativelycompactcircumnuclearSBring(2′′.5radius). Forinterferometricdata,welistthegeometricalmeanofthe
+FWHMofthemajorandminoraxesofthesynthesizedbeams.(f)(g)IntegratedintensityratiosofHCN(4-3)/HCO+(4-3)andHCN(4-3)/CS(7-6)inthebrightness
+temperaturescale.Thesystematicerrorsaretakenintoaccount.Weassume15%systematicerrorifitisnotmentionedinthereferences.AsfortheR HCN/HCO+
+inNGC4418,wementionthat0′′.5observationsofSakamotoetal.(2013)foundittobe∼2. (h)ReferencesfortheR HCN/HCO+ andR HCN/CS ;(1)Thiswork,
+butalsoseeGarcía-Burilloetal.(2014)andVitietal.(2014)forNGC1068,(2)I13andreferencestherein,(3)Izumietal.(2015),(4)Imanishi&Nakanishi
+(2013b),(5)Paronetal.(2014),(6)Paronetal.(2015)(7)Zhangetal.(2014),(8)Imanishi&Nakanishi(2014).
+Table2
+TheexcitationparametersofHCN(4-3),HCO+(4-3),andCS(7-6)lineemissions
+Linenamea νrest[GHz]b µ[Debye]c Eu/kB[K]d ∆Eul[K]e Aul[s- 1]f ncr,thin[cm- 3]g
+Tkin=50K Tkin=100K Tkin=200K
+HCN(J=4-3) 354.505 2.99 42.5 17.0 2.054×10- 3 1.4×107 9.1×106 6.1×106
+HCO+(J=4-3) 356.734 3.93 42.8 17.1 3.627×10- 3 2.6×106 2.0×106 1.6×106
+CS(J=7-6) 342.883 1.96 65.8 16.4 8.395×10- 4 3.4×106 2.6×106 2.2×106
+Note. — (a)Fullnameoftheline. (b)(c)(d)(e)(f)Therestfrequency,dipolemoment,upperlevelenergy,energygapbetweentheupperandlowerlevels,and
+EinsteinA-coefficientofthetransition,respectively. ThesevaluesareextractedfromtheLeidenAtomicandMolecularDatabase(LAMDA:Schöieretal.2005).
+(g)Criticaldensityofthelineintheopticallythinlimitwithoutanybackgroundradiation,whichiscalculatedforthekinetictemperature(Tkin)of50,100,and
+200K,usingncr,thin=Ajk/[Σ i<jγji+Σ i>j(gi/gj)γijexp(-(Ei-Ej)/Tkin)]forthe j→ktransition.Here,γjkindicatesthecollisionrateofthe j→ktransition.We
+adoptonlyH2forthecollisionpartnerandincludecollisionalde-excitationaswellfromJupperupto25.Valuesforthecollisionrateγularealsoextractedfrom
+LAMDA.
+
+=====PAGE=====
+6 T.IZUMIETAL.
+Figure1. Submillimeter-HCN diagramusingHCN(4-3)/HCO+(4-3)andHCN(4-3)/CS(7-6)integrated intensityratios(R HCN/HCO+ andR HCN/CS inthetext,
+respectively)inthebrightnesstemperaturescale. Onlythedataobtainedwithhighresolutionobservations(spatialresolution<500pc,exceptforNGC4945)
+areused.TheredcirclesandthebluesquaresindicateAGNsandSBgalaxies,respectively. TheabbreviatednamesofAGNsareshown.Here,theterm“AGN”
+simplymeansthatthegalaxyhostsanAGN,regardlessofitsdominanceinthetotalenergybudgetofthegalaxy. SeeTable1forthedetailsofthedata. The
+systematicerrorsarealsoincludedhere.
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FOR AN ENERGYDIAGNOSTICS IN GALAXIES 7
+Figure2. SameasFigure1,butthewholesampleincludingboththehighresolution(spatialresolution<500pc;filledsymbol)andthelowresolution(spatial
+resolution>500pc;emptysymbol)dataareplotted. Theredcircles,greendiamonds,andthebluesquaresindicateAGNs,buried-AGNs,andSBgalaxies,
+respectively(seealsoTable1). TheabbreviatednamesofAGNsandburied-AGNsareshown. SeeTable1forthedetailsofthedata. Thesystematicerrorsare
+includedhere.
+• Molecular gas density (n ): this also affects the rate thetargetmoleculetoavelocitygradientratio)areem-
+H2
+o × f 1 c 0 o 6 lli c s m io - n 3 a w le il x l c b it e at e i x o a n m . i T n w ed o . c T a h se e s se o v f a n l H u 2 es = a 1 re 05 ty a p n i d ca 5 l o p f lo -s y i e g d ht to co te lu st m th n is de e n ff s e it c y t. a H n e d re a , l N in m e ol v a e n lo d c d it V y a w r i e d a th l , in r e e - -
+onessuggestedinnuclearregionsofgalaxies(e.g.,I13; spectively. N HCO+/dV (or N CS /dV) = 5.0 × 1012, 5.0
+Viti et al. 2014), which is also supportedby the com- × 1013, 5.0 × 1014, and 5.0 × 1015 cm- 2 (km s- 1)- 1
+monly sub-thermal excitation of our target lines (e.g., are studied. The N /dV is equated to the above
+HCN
+I13;Knudsenetal.2007;Vitietal.2014). N HCO+/dV (orN
+CS
+/dV),orenhancedby10-times,since
+X HCN /X HCO+ (orX HCN /X CS )=1and10asalreadymen-
+• Ratiosofmolecularfractionalabundanceswithrespect tioned.
+to H (X , mol = HCN, HCO+, and CS): we will
+2 mol
+show two cases for simplicity, where X HCN /X HCO+ (or
+X /X )=1and10. Under these conditions, we ran the RADEX for each set
+HCN CS
+of (T
+kin
+, n
+H2
+, X
+HCN
+/X HCO+, T
+bg
+, N HCO+/dV) or (T
+kin
+, n
+H2
+,
+• Backgroundradiationtemperature(T bg ): molecularro- X HCN /X CS , T bg , N CS /dV) and took line ratios of R HCN/HCO+
+tational levels can be radiatively excited through ab- andR . Transitionsbetweenvibrationallevelsthrough
+HCN/CS
+sorbingphotons. Inthisperspective,itishighlylikely IR-pumpingare notincludedin the modelssince there is no
+thatthebackgroundradiationisstrongeraroundAGNs detectionofvibrationallyexcitedHCN emissioninoursam-
+thaninSBenvironments. Infact,thedusttemperature ple galaxies except for NGC 4418 (Sakamoto et al. 2010),
+atFIRtosubmillimeter(i.e.,Rayleigh-Jeansregime)is althoughitcanbeabitinappropriatetreatmentinsomecases
+ashighas46Kinthecentral∼400pcregionofNGC (Section5). Regardingthegasdensity,weherementionthat
+1068 (AGN; García-Burillo et al. 2014), but 29 K in Kripsetal. (2008)suggestedlowern in AGNs thanin SB
+H2
+thecentral1.2kpcregionofNGC253(SB;Weißetal. galaxies, but their measurements were based on single dish
+2008), for example. The cases of 2.73 (Cosmic Mi- observationsof, e.g., HCN(3-2) to HCN(1-0) line ratio. On
+crowaveBackground=CMB),5,10,20,30,40,50,and the other hand, we need spatially resolved measurements of
+60Karestudied. Wesimplyadopttheblackbodyap- line ratios to accurately assess n or line excitation (Viti
+H2
+proximationtocalculatethebackgroundradiationfield. et al. 2014). One may expect that an increase in n natu-
+H2
+rally leads to higher line ratios since n of HCN(4-3) is the
+cr
+• Optical depth of the line emission (τ): models with highestamongthe targetlines. However,thisis actuallynot
+differentN /dV (orequivalentlya volumedensityof sostraightforwardasshownlater.
+mol
+
+=====PAGE=====
+8 T.IZUMIETAL.
+Inthemodelingbelow,wefirstfixn tobe105 cm- 3 and ofthebackgroundradiationandsolvetheirradiativetransfer
+H2
+investigatethe dependenceoftheline ratiosontheotherpa- individuallytoachievethelocalspectralenergydistribution,
+rameters. The case of n = 5 × 106 cm- 3 will be shown werepresentthembyasinglePlanckfunctionthroughoutthis
+H2
+subsequently. Note that our modellingis fundamentallydif- paperforsimplicity. Thephotonescapeprobabilityfromthe
+ferentfromtheLTEmodelingsby,e.g.,I13,Vitietal.(2014), modelcloudisdenotesasβ ν ,whichisafunctionoftheline
+andMartínetal.(2015),inthesensethatnon-LTEprocesses opticaldepthτ as
+aretreatedhere. Moreover,wealsoexaminethedependence
+1.5 2 2 2
+o n f on th -L e T l E in m e o ra d t e io li s ng o s n b T y b , g e , .g w ., h K ic r h ip h s a e s t n al o . t (2 b 0 ee 1 n 1) s a tu n d d ie V d iti in et t a h l e . β ν = τ (cid:20) 1- τ2 + (cid:18)τ + τ2(cid:19) e - τ (cid:21) , (4)
+(2014). Hence,inadditiontothepreviouskeyworks,weex-
+forasphericalcloud(e.g.,Osterbrock&Ferland2006). The
+pect that our analysis will provide some insight on the un-
+valueofβ alsodependsontheassumedgeometry. InEqua-
+derlying physical and chemical conditions in the centers of ν
+tion(1),A isreducedbyβ ,whichmeansaneffectiven of
+galaxies. ul ν cr
+theline(n )islowerthanthen attheopticallythinlimit
+cr,eff cr
+(n ;Table2)duetothephotontrappingeffect,i.e.,n
+4.2. Molecularlineexcitationwithphotontrapping =
+c
+β
+r,th
+×
+in
+n . The backgroundradiationfield is included
+cr,e
+in
+ff
+ν cr,thin
+Excitationstatesofthetargetlinesunderthefixedgasden- Equation(1) as η. We show the η of HCN(4-3)in Figure 5,
+sityofn =105cm- 3aredescribedhere.HCN(4-3)ismainly whichisalmostidenticaltothoseofHCO+(4-3)andCS(7-6).
+usedasa
+H2
+representativecase,butthesameargumentcanhold Byintroducingthen cr,eff ,Equation(1)isreducedto
+forHCO+(4-3)andCS(7-6)aswell.Figure3showsexcitation
+n ∆E
+t
+l
+e
+in
+m
+e
+p
+e
+e
+m
+ra
+i
+t
+s
+u
+s
+r
+io
+e
+n
+(T
+i
+e
+s
+x
+o
+)
+p
+o
+t
+f
+ic
+H
+a
+C
+lly
+N
+t
+(
+h
+4
+i
+-
+n
+3)
+o
+a
+r
+s
+m
+a
+o
+f
+d
+u
+e
+n
+r
+c
+a
+t
+t
+i
+e
+o
+l
+n
+y
+o
+th
+f
+i
+T
+c
+b
+k
+g .
+(p
+W
+an
+h
+e
+e
+l
+n
+s-
+t
+(
+h
+a
+e
+) exp -
+∆E
+ul =
+η+
+(cid:18)n cr
+H
+,e
+2
+ff (cid:19)
+exp
+(cid:18)
+-
+T kin
+ul
+(cid:19)
+and(b)inFigure3), onecanfindthattheexcitationis dom- (cid:18) T ex (cid:19) (1+η)+ n H2
+e in s a p t e e c d ia b ll y y r a a t d T iati & ve 1 p 0 ro K c . e N ss o e t s e , t s h i a n t c ∆ e E T ex o is fH ve C ry N( c 4 lo -3 s ) e is to 17 T b .0 g (cid:18)n cr,eff (cid:19)
+K(Table2). T b h g eexcitationstatesofHC ul O+(4-3)andCS(7-6) η+ n H2
+arepresentedinAppendix-B.Theopticaldepthsofthetarget ∼ (cid:18)n cr,eff (cid:19) . (5)
+lines calculated by the RADEX are shown in Figure 4 as a n
+(1+η)+ H2
+functionofT .
+bg (cid:18)n (cid:19)
+cr,eff
+TheexcitationstateshowninFigure3canbebetterunder-
+stood through a two-level (e.g., HCN J = 3 and 4) analytic Here exp(-∆E /T ) commonly takes ∼ 1 for HCN(4-3),
+ul kin
+treatment. Althoughwe conductedfull-levelstatisticalequi- HCO+(4-3),andCS(7-6)atanyT inourmodels. Withthis
+kin
+libriumcalculationwiththeRADEXhere,thisanalytictreat- formula,themolecularexcitationinthetwoextremecasesof
+ment providesus fruitful insights on what is influencing the β , i.e., β →1 (optically thin limit) and β →0 (optically
+ν ν ν
+molecularexcitation. Similarapproachcanbefoundin,e.g., thicklimit),arediscussedinthefollowing.
+Scovilleetal.(2015)andScoville&Solomon(1974),butwe (i) optically thin limit—in this limit, we expect n /n
+H2 cr,eff
+includebackgroundradiationintotheanalysisaswell,which = n /n ∼ 10- 2 for HCN(4-3), for example (Table 2).
+hasbeenusuallyomitted. Tak H in 2 gF c i r, g th u in re 5 into accountas well, onecan find both col-
+Theratiooftheuppertolowerlevelmolecularpopulation lisionalandradiativeexcitationcancontributetothemolecu-
+withtheenergygapof∆E ul canbewrittenas, lar excitationespecially when T bg . 5 K. In this range, η .
+n /n . On the other hand, the right-hand-side of Equa-
+n u = B lu J ν +C lu = g u ηA ul β ν +C ul exp (cid:18) - ∆ T k E in ul (cid:19) t t i i H v o 2 e n ly (5 c e ) r, x e r f c e f i d te u d c . es T to hi e s x t p re (- n ∆ d E st u a l n / d T s bg o ), u i t .e e . s , p m ec o i l a e l c ly ule w s h a e r n e T ra b d g i & a-
+n A +B J +C g (1+η)A β +C 10K,whichcanbeclearlyseeninFigure3(a). Therefore,as
+l ul ul ν ul l ul ν ul
+g ∆E ageneralmanner,wesuggestthatradiativeexcitationshould
+= uexp - ul , (1) beconsideredseriouslywhenwetreatopticallythintomoder-
+g l (cid:18) T ex (cid:19) atelythicklineemissionsfromAGNs,wherehighT islikely
+bg
+expectable.
+with
+(ii) optically thick limit—in this limit, by substituting β
+ν
+1 → 0 (or n → 0) to Equation(5), one can find that T is
+η≡ . (2) cr,eff ex
+∆E nowidenticaltoT andthusindependentofT . Indeed,T
+exp ul - 1 kin bg ex
+is less dependent on T and also differs a lot according to
+(cid:18) T (cid:19) bg
+bg
+T (panels-(c) and (d) in Figure 3), as HCN(4-3) becomes
+kin
+Here,theA ,B ,andC indicatetheEinsteincoefficientsof opticallythicker(seealsoFigure4). We notethattheoutput
+ul ul ul
+spontaneous decay, stimulated emission, and collisional de- parametershavealimitedmeaningathighopticaldepthsuch
+excitation, respectively. The upwards and downwards colli- asτ & 100in theRADEX code, sincethe changeofoptical
+sionratesarerelatedassumingadetailedbalanceinthether- depthoverthe line profileis nottaken into account(van der
+modynamic equilibrium state. The g and g are statistical Taketal.2007).
+u l
+weightsofthe upperandlower levels. The frequencyof the
+lineisrepresentedasν. TheinternalradiationJ ν is 4.3. TheR HCN/HCO+ andR HCN/CS undernon-LTE
+J =(1- β )B (T )+β B (T ), (3) We then calculated R HCN/HCO+ and R HCN/CS based on our
+ν ν ν ex ν ν bg
+non-LTEmodelingsas a functionof T . Severalcases with
+bg
+where B (T) is the Planck function at temperature T. Al- differentT ,N /dV (orτ),andmolecularabundanceratios,
+ν kin mol
+thoughwe shouldincludevariousmechanismsas thesource areshowninFigure6.Here,wediscussadependenceofeach
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FOR AN ENERGYDIAGNOSTICS IN GALAXIES 9
+Figure3. Excitationtemperature(Tex)ofHCN(4-3)asafunctionofbackgroundtemperature(Tbg). Thered,orange,bluesymbolsindicatethemodelswith
+gaskinetictemperature(Tkin)of200,100,and50K,respectively. WeherefixedgasvolumedensityasnH2 =105cm- 3. Fourcasesoftheline-of-sightcolumn
+densitytovelocitywidthratio(NHCN/dV)of(a)5×1012,(b)5×1013,(c)5×1014,and(d)5×1015cm- 2(kms- 1)- 1areshownhere. Notethatthescaleof
+they-axisinthepanel-(d)isdifferentfromtheothers.ThedashedlineineachpanelindicatestheTex=Tbg.OnecanfindthatTexapproachestoTbgwhenTbg&
+10Kinthepanels-(a)and(b).Inthepanel-(d),opticaldepthissolarge(seealsoFigure4)thatwecanexpectTexbecomesindependentofTbg,andapproaches
+toTkinduetoanenhancedphotontrappingeffect. NotethatHCN(5-4)(notJ=4-3)lineshowsamaserfeature(Tex<0)atTbg=2.73Kinthepanel-(d),and
+HCN(4-3)isalsoamaseratTbg=5Kinthesamepanel,whenTkin=200K.Thesetwoextremecasesareexcludedfromtheplot.
+Figure4. LineopticaldepthsofHCN(4-3),HCO+(4-3),andCS(7-6),asafunctionofTbg calculated withtheRADEX.TheH2 gasdensityandthekinetic
+temperaturewerefixedtonH2 =105cm- 3andTkin=100K,respectively. Thecaseswherethemolecularcolumndensitytothevelocitywidthratio(Nmol/dV,
+mol=HCN,HCO+,andCS)of(a)5.0×1012,(b)5.0×1013,(c)5.0×1014,and(d)5.0×1015cm- 2(kms- 1)- 1arepresented. Ineachpanel,wealsoshow
+theopticaldepthofHCN(4-3)calculatedafterenhancingtheabundanceofHCNby10times(filleddiamond)foreasiercomparisonwiththesubsequentfigures.
+Thedashedlineindicatesτ=1.0foraneye-guide.
+tioisnotsosensitivetoT ,whichisclosetoT whentheex-
+bg ex
+citationisdominatedbytheradiativeprocesses(seealsoFig-
+ure 3). To furtherexaminethis trend, we rewrite R HCN/HCO+
+analyticallyas
+T T e e x x , , H H C C O N + ( ( 4 4 - - 3 3 ) ) - - T T b b g g · 1 1 - - e e x x p p ( ( - - τ τ H H C C O N + ( ( 4 4 - - 3 3 ) ) ) ) ≡ξ HCN/HCO+ ·ζ HCN/HCO+,
+(6)
+whereξ HCN/HCO+ andζ HCN/HCO+ correspondtotheformerand
+the latter term of the left hand side of Equation (6), respec-
+tively.Also,werewritetheopticaldepthas
+c3 g N ∆E
+τ = uA l 1- exp - ul , (7)
+ul 8πν3 g ul dV (cid:18) (cid:18) T (cid:19)(cid:19)
+l ex
+Figure5. Dependence ofη ≡1/(exp(∆Eul/Tbg)-1)ofHCN(4-3)onTbg. whereN
+l
+istheline-of-sightcolumndensityattheloweren-
+ThevalueofηisalmostidenticalamongHCN(4-3),HCO+(4-3),andCS(7- ergylevel.Theresultantξ HCN/HCO+ andζ HCN/HCO+ areplotted
+6),reflectingtheirsimilarenergygapsbetweentheupperandthelowerlevels
+(Table2).
+inFigure7(a)fortherepresentativecaseofN HCO+/dV =5×
+1013 cm- 2 (km s- 1)- 1. At this N HCO+/dV with X HCN /X HCO+
+lineratioontheparametersinourmodels. Weguidereaders = 1, HCN(4-3) as well as HCO+(4-3) are moderately opti-
+to Martín et al. (2015) for these line ratios calculated under callythick,whereasHCN(4-3)canbeheavilyopticallythick
+theLTEcondition. whenX HCN /X HCO+ =10(seealsoFigure4).FromFigure7(a),
+(i)R HCN/HCO+—onewillfindinFigure6(a)-(d)thatthisra- onemayfindthatξ HCN/HCO+ andζ HCN/HCO+ varytowardsthe
+
+=====PAGE=====
+10 T. IZUMIETAL.
+Figure6. TheR HCN/HCO+ (toppanels)andtheR HCN/CS (bottompanels)asafunctionofTbg,calculated byourRADEXmodels. Theratioofline-of-sight
+molecularcolumndensitytovelocitywidth(Nmol/dV)variesfrom5×1012to5×1015cm- 2 (kms- 1)- 1forthecasesofmol=HCO+andCS,respectively.
+Asaresult, thepanels (a)and(e)displaythecasewhereeachemissionisoptically thin, whereasthepanels (d)and(h)showheavilyoptically thickcases.
+TheopacitiesoftheselinesareshowninFigure4forthecaseofTkin=100K.ThefilledandemptysymbolsindicateXHCN/X HCO+ (orXHCN/XCS)=10or1,
+respectively.Thecolorsindicatethegaskinetictemperature(Tkin)asblue=50K,orange=100K,andred=200K.
+opposite direction at T . 10 K (the range where both col- required for AGNs (& 10) are significantly higher than that
+bg
+lisionalandradiativeprocessescaninfluencetheexcitation), required to reproduce the R HCN/HCO+ in SB galaxies, which
+which compensates with each other to keep the R HCN/HCO+ is typically X HCN /X HCO+ ∼ 3. Therefore, the boosting fac-
+more or less constant. At T & 10 K where T ∼ T , on torof the abundanceratio in AGNs overthat in SB galaxies
+bg ex bg
+theotherhand,bothξ HCN/HCO+ andζ HCN/HCO+ themselvesare is at least ∼ 3. This factor can even increase to & 10 (i.e.,
+not so sensitive to T bg anymore. Note that we can expect X HCN /X HCO+ & 30) to account for the high-end values ob-
+R HCN/HCO+ ∼ 1 when both lines are thermalized and at the servedinAGNs(e.g.,NGC1068(W-knot)inTable1)based
+opticallythicklimit. onourmodelings.Foraconvenientdiscussion,weheredefine
+As for the dependence on T , one can see that the theboostingfactoras
+kin
+t
+i R
+h
+n H
+e
+g C
+c
+N th
+a
+/
+s
+e H
+e
+C h O
+o
+i + g
+f
+h i
+X
+n e
+H
+c r
+C
+r n e
+N
+a cr s
+=
+e o s
+X
+f a
+H
+H s
+C
+C
+O
+T
++
+k N in
+i
+(
+n
+4 g -
+F
+e 3 t
+i
+s )
+gu
+h th
+r
+ig
+e
+a h n
+6
+e
+(
+H r
+d
+i C
+)
+n
+.
+O e
+In
++ a ( c 4
+t
+h
+h
+-
+a
+3 p
+t
+) a ,
+e
+n
+x
+e e x
+c
+l,
+e
+c r
+p
+e e p
+t
+fl
+i
+t
+o
+e
+n
+f c o
+a
+t r -
+l
+BF HCN/HCO+ = (
+(
+X
+X
+H
+H
+C
+C
+N
+N
+/
+/
+X
+X
+H
+H
+C
+C
+O
+O
++
++
+)
+)
+A
+S
+G
+B
+N , (8)
+case,wherebothlinesarequiteopticallythick,HCO+(4-3)is
+fullythermalizedbecauseofthewellreducedn (≪n =
+where (X
+HCN
+/X HCO+)
+AGN
+and (X
+HCN
+/X HCO+)
+SB
+denote the
+cr,eff H2 molecularfractionalabundanceratiosinAGNandSBgalax-
+105 cm- 3)duetothephotontrapping(seealsoAppendix-B),
+ies,respectively.Thesamenotationisalsousedforthecaseof
+whereasHCN(4-3)isstillsub-thermallyexcited,andT ex /T kin X HCN /X CS . Notethat,fortheextremecaselikeNGC1068(W-
+ofHCN(4-3)ismaximizedatT kin =50K. knot),werequireN HCO+/dV .5×1013 cm- 2 (kms- 1)- 1 be-
+Regarding the molecular abundance ratio, we find causeR HCN/HCO+ willeventuallyconvergeto unityforlarger
+X HCN /X HCO+ & 10 is necessary to reproduce R HCN/HCO+ opticaldepthsandneverreachessuchhighvaluesobservedas
+> 1 observed in AGNs in any T and N /dV studied ∼3.
+kin mol
+here. EnhancingX
+HCN
+(equivalently enhancing N
+HCN
+in our (ii)R
+HCN/CS
+—AsisnotthecaseoftheR HCN/HCO+,R
+HCN/CS
+models) will increase τ HCN(4- 3) and T ex (photon trapping), shows a steep dive in Figure 6(e)(f) as increasing T bg from
+both of which will result in subsequent enhancement of the 2.73K to 10 K, when X /X = 10. Thisfeature is more
+HCN CS
+R HCN/HCO+. The required X HCN /X HCO+ is consistent with prominentatlowerT kin . Allothercasesshowalmostconstant
+our previous multi-transitional non-LTE modeling of HCN R againstT . FollowingthesamemannerinEquation
+and HCO+ in NGC 1097 (I13). We should also mention (6 H ) C , N w / e CS expressthe bg R as
+HCN/CS
+that Yamada et al. (2007) concluded, based on their three-
+dimensionalradiativetransfersimulations,thatX HCN mustbe T ex,HCN(4- 3) - T bg· 1- exp(- τ HCN(4- 3) ) ≡ξ ·ζ .
+anorderofmagnitudehigherthanX HCO+ inordertoaccount T ex,CS(7- 6) - T bg 1- exp(- τ CS(7- 6) ) HCN/CS HCN/CS
+for the observed high HCN(1-0)/HCO+(1-0) ratios in AGNs (9)
+(e.g.,∼2inNGC1068;Kohnoetal.2008).Ourresultsseem Theresultantξ andζ areplottedinFigure7(b)
+HCN/CS HCN/CS
+tobeconsistentwiththeirmodelings,althoughwehereuseJ forthecaseofN /dV =5×1013 cm- 2 (kms- 1)- 1 asarep-
+CS
+=4–3transitions.Moreoverandimportantly,theX HCN /X HCO+ resentativeexample.
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FORAN ENERGYDIAGNOSTICS IN GALAXIES 11
+In Figure 7(b), a rapid drop in ζ (by a factor of ∼ pecially prominent in R (this ratio is sensitive to the
+HCN/CS HCN/CS
+5 when X /X = 10) stands out, which dampsthe varia- opticaldepth;Section4.3).Therefore,althoughitdependson
+HCN CS
+tion of ξ HCN/CS . We can attribute this dive to the quite dif- thelineopacity,highern H2 doesnotnecessarilycorrespondto
+ferent τ between HCN(4-3) and CS(7-6); τ HCN(4- 3) = 19.5- higherR HCN/HCO+ norR HCN/CS .
+41.8,whereasτ CS(7- 6) =0.06-0.45forthecaseofFigure7(b). Then, let us speculate more in detail about three cases of
+In this case, ζ HCN/CS mostly reflects the variation of τ CS(7- 6) gasdensitiesinthefollowing:(i)n AGN =n SB ,(ii)n AGN <n SB ,
+since ζ HCN/CS is now ∼ 1/τ CS(7- 6) . Then, considering the τ and(iii)n AGN >n SB . Here,n AGN andn SB denoterepresenta-
+ofHCN(4-3)andCS(7-6)showninFigure4,wecandeduce tivegasdensitiesinAGNandSBenvironments,respectively.
+t C h S a ( t 7 t - h 6 e ) c i o s n o d p it t i i o ca n ll o y f, th “ i H n C ,” N w (4 o - u 3 l ) d is be op th ti e ca k ll e y y th to ick re , a w li h z e e re th a e s c W m e - f 3 o ) c a u n s d o 8 n (5 tw × o 1 c 0 a 6 se c s m o - f 3) n , H a 2 n a d s a a ls re o s u h s o e w on n ly in R F H i C g N u / r H e C s O 6 + ( d 1 u 0 r 5 -
+high R & 10 observed in some AGNs. This scenario ingthis speculation, forsimplicity. Then, the higherdensity
+HCN/CS
+can explain the dependence of R on T , as we can betweenn andn correspondsto5×106cm- 3,whereas
+HCN/CS kin AGN SB
+expectlargerτ CS(7- 6) (higherT ex,CS(7- 6) ) at higher T kin , while theloweroneis105cm- 3hereafter.Followingthesameman-
+τ HCN(4- 3) is already substantially large regardlessof any T kin ner,anessentiallysimilarargumentforabundanceratioscan
+inourmodels. NotethatR HCN/CS naturallyconvergesto∼1 beachievedforthecaseofX HCN /X CS aswell. Notethat,how-
+asbothHCN(4-3)andCS(7-6)reachopticallythicklimitand ever,wecanonlyarguefortheroughtrendofrelativediffer-
+fullythermalized. ence in the abundanceratio between AGNs and SB galaxies
+Then,wesuggestthatN /dV .5×1013cm- 2(kms- 1)- 1 inthefollowing,becauseofthissimpletreatment.Morecom-
+CS
+andX /X &10wouldbenecessaryconditionstorepro- prehensiveandquantitativecomparisonrequireshighresolu-
+HCN CS
+ducethe observedhighR in AGNs. Theseconditions tion,multi-line, andmulti-speciesanalysisto restrictthe gas
+HCN/CS
+becomemoretighteronesifAGNshaveT &20KandT & excitation. Suchananalysisshouldbeconductedwithfuture
+bg kin
+100K(Figure6). Theformerassumptioncanbejustifiedby observations.
+thehighdusttemperatureinNGC1068(46K;García-Burillo (i) n = n : in the case of n = 105 cm- 3 (Figure 6),
+AGN SB H2
+etal.2014). Asforthe latterone, ithasbeensuggestedthat X HCN /X HCO+ is∼ a few forSBgalaxies(Section4.3). Then,
+T kin in AGN environmentsis as high as several hundreds K we request for the boosting factor BF HCN/HCO+ to be at least
+evenin a molecularphase (e.g., I13; Matsushita et al. 1998; ∼3toexplaintheobservedR HCN/HCO+ inAGNs. Regarding
+Krips et al. 2008; Davies et al. 2012; Viti et al. 2014), thus the high-endvalue such as R HCN/HCO+ & 3 (e.g., NGC 1068
+is highly likely to be satisfied. The required X HCN /X CS for (W-knot)),BF HCN/HCO+ evenreaches& 10 (i.e., X HCN /X HCO+
+AGNs (& 10) is again significantly higher than that for SB & 30). When n is increased to 5 × 106 cm- 3 (Figure 8),
+galaxies (∼ 3). Hence the estimated BF is at least ∼ H2
+3. ThisBF canincreaseto ∼10( H i. C e N ., / X CS /X ∼30 X HCN /X HCO+ = 1 is sufficient to reproduce the R HCN/HCO+ in
+HCN/CS HCN CS SB galaxies (Figure 8). On the other hand, we still need
+inAGNs)toreproducethehigh-endvaluesofR HCN/CS &12 BF HCN/HCO+ tobeafewtoeven∼10(dependingontheline
+(Figure1)undertheconditionsofmoderatelyhighdusttem- opacity)in orderto accountforthe R HCN/HCO+ in AGNs, es-
+peratureof&10KandhighT kin suchas200K.Theseboost- pecially the high-end values. In either case, we require the
+ingfactorsareroughlyconsistentwithBF HCN/HCO+.
+enhancedHCN abundancein AGNs to reproducethe obser-
+vations.
+4.4. Dependenceofthelineratiosongasdensity
+(ii)n AGN <n SB : Asshownabove,X HCN /X HCO+ ∼1issuf-
+Recently, Viti et al. (2014) reported that n would vary
+H2 ficient to reproduce the observed R HCN/HCO+ in SB galaxies
+even inside a single CND around an AGN. Therefore, the when n = 5 × 106 cm- 3 (Figure 8). However, we need to
+impact of different densities on the line ratios of our inter- H2
+estshouldbeinvestigatedasasubsequentanalysistoSection enhance the X HCN /X HCO+ up to ∼ 10 (& 30 for the case of
+4.2-4.3.Tothisend,weconductedthesameanalysisasshown thehigh-endvalue)toexplaintheR HCN/HCO+ inAGNswhen
+T in h t i h s e de p n re si v t i y o r u o s u p g a h r l t y s c b o u r t r f e o s r po th n e ds ca to se th o e f h n i H g 2 he = st 5 o × ne 1 p 0 r 6 ed c i m ct - e 3 d . X n H H 2 CN = /X 1 H 0 C 5 O c + m in - 3 A . G H N e s nc w e i , th ag B a F in HC i N t / i H n C d O ic + a o t f es as su h b ig s h ta a n s ti & all 1 y 0 h – i 3 g 0 h .
+byVitietal.(2014)intheCNDofNGC1068. Theresultant (iii)n AGN >n SB :inthecaseofn H2 =105cm- 3,X HCN /X HCO+
+(model-predicted)lineratiosandopticaldepthsarepresented ∼3is sufficienttoreproducetheobservedR HCN/HCO+ inSB
+inFigures8and9,respectively. galaxies (Figure 6). For AGNs having higher gas density
+R
+H
+F
+C
+r
+N
+o
+/
+m
+CS
+t t h e a n t d F to ig s u h r o e, w w h e igh f e o r un v d alu t e h s at th b a o n th tho R s H e CN in /H F C i O g + ur a e n 6 d s o e f lv n e H s 2 t = o 5 N
+H
+×
+CO
+1 +/ 0 d 6 V cm . - 3 5 ( × Fig 1 u 0 r 1 e 3 8 cm ), - w 2 e (k h m av s e - 1 t ) o - 1 re a s t tr fi ic r t st o b u e r- -
+when N mol /dV ≤ 5 × 1013 cm- 2 (km s- 1)- 1 (mol = HCO+ cause R HCN/HCO+ convergesto unity for higher column den-
+andCS), i.e., caseswhenemissionlinesareopticallythinor sity (or τ) and thus never reaches & 2. Under these condi-
+moderately thick. Especially, R HCN/HCO+ in Figure 8(a) ex- tions, we found X HCN /X HCO+ ∼ 3–5 can indeed yield a high
+ceeds 2.5 at T kin ≥ 100 K and X HCN /X HCO+ = 10, which is R HCN/HCO+ of ∼ 1.5–2.5 especially when N HCO+/dV ∼ 5 ×
+comparable to the observed high-end ratios in Table 1. The 1012 cm- 2 (kms- 1)- 1 andT &100K(Figure8(a)). Inthis
+highervaluesthan the formercases with n H2 = 105 cm- 3 di- case, BF HCN/HCO+ is only ∼ kin 1–1.5, i.e., no abundancevaria-
+rectly reflects the highest n cr of HCN(4-3) among the lines tion between AGNs and SB galaxies. Note that, even with
+usedhere.However,whenN mol /dV isincreased,onecanalso thishighn H2 ,itisstillabitchallengingtoreproducetheob-
+seethatthelineratiosconvergetounitymorequicklythanfor servedhighestR HCN/HCO+ of&3. Todoso,wemightneedto
+thecases inFigure6. Enhancedexcitationduetothe higher requireBF HCN/HCO+ to be ∼ a few evenwith the highn H2 in
+n H2 makeseachemissionlinebeingthermalizedandoptically AGNs. Ontheotherhand,whenN HCO+/dV ∼5×1013cm- 2
+t
+t
+h
+h
+e
+ick
+tr
+,
+e
+l
+n
+e
+d
+ad
+t
+i
+h
+n
+a
+g
+t
+t
+b
+o
+ot
+t
+h
+his
+lin
+c
+e
+on
+r
+v
+a
+e
+ti
+r
+o
+g
+s
+en
+a
+c
+re
+e.
+le
+T
+s
+h
+s
+is
+de
+is
+pe
+a
+n
+ls
+d
+o
+en
+m
+t
+a
+o
+n
+n
+if
+T
+este
+,
+d
+b
+i
+u
+n
+t
+(kms- 1)- 1,wecannotavoidincreasingBF HCN/HCO+ &afew
+moresensitivetoT thanthecasesinFigure6,which
+bg
+ises-
+toyieldthehigh-endR HCN/HCO+ inAGNs(Figure8(b)).
+kin
+
+=====PAGE=====
+12 T. IZUMIETAL.
+Figure7. Dependenceof(a)ξ HCN/HCO+ andζ HCN/HCO+,and(b)ξ HCN/CS andζ HCN/CS onTbg. Forthedefinitionofξandζ,seeEquations(6)and(9)inthe
+text.Thecaseof(Tkin,nH2 )=(50K,105cm- 3)withNmol/dV=5×1013cm- 2(kms- 1)- 1areshown(mol=HCO+orCS)astherepresentativeones.Thecolors
+indicate(a)red=ξ HCN/HCO+,blue=ζ HCN/HCO+,and(b)orange=ξ HCN/CS ,green=ζ HCN/CS ,respectively. ThefilledandemptysymbolsdenoteXHCN/X HCO+
+(orXHCN/XCS)=10and1,respectively.
+Asthe summaryofournon-LTEmodelingswith bothn paredtootherAGNsandSBgalaxies,becauseofthesimpli-
+= 105 cm- 3 and 5 × 106 cm- 3, we suggestthat X HCN /X HCO H + 2 fiedanalysisanddiscussioninthiswork.
+wouldbeenhancedinAGNsascomparedtoSB galaxiesby
+several times to & 10 times when n H2 in AGNs are compa- 4.5. Comparisonwithrealgalaxies:
+rable to or lower than those in SB galaxies in order to re- CasestudyofNGC1097,NGC1068,andNGC4418
+producetheir observedR HCN/HCO+. Anotherplausible origin
+InthisSection,webrieflycompareourmodelcalculations
+mightbethesystematicallyhighergasdensityinAGNsthan
+inSBgalaxies,whichshouldbecoupledtothelowopacityof withtheobservedR HCN/HCO+ and/orR HCN/CS oftwoinstruc-
+tive AGNs and one buried-AGN, namely NGC 1097, NGC
+the emission lines from AGNs, to yield the highR HCN/HCO+.
+1068, and NGC 4418. The characteristics of these galaxies
+In this case, an almost comparable X HCN /X HCO+ is expected are presented in Appendix-A. Models with n = 105 cm- 3
+betweenAGNsandSB galaxies. However,the feasibilityof H2
+(Figure 6) are employed here, but those with n = 5 ×
+such a systematic differencein gas density is unclear at this 106 cm- 3 yield essentially the same (qualitative) a H rg 2 uments.
+moment. Although Viti et al. (2014) suggested such differ-
+Asthese modelswere notconstructedto mimicthe environ-
+ences between the kpc scale SB ring and the 100 pc scale
+mentofa specific galaxy,ourimmediateobjectivehereisto
+CND of NGC 1068, what we are treating here is the rather
+roughlychecktheconsistencyofthetrendbetweenthemodel-
+smaller, circumnuclear scale (likely to be . 100 pc scale)
+predictedlineratiosandtheactualobservedvalues.
+componentslocatedatthecentersofbothAGNandSBgalax-
+ForNGC1097(AGN),Hsiehetal.(2008)estimatedN =
+i r e e s s ; ol r u e t c io a n ll s t a h m at p w le e in m T ad ab e le Fi 1 g . ure H 1 en o ce n , ly th b e as c e o d nt o ra n st th in e h d i e g n h - 5.9× 1022 cm- 2 fromCO interferometricobservations. H A 2 s-
+sitybetweenAGNandcircumnuclearSBenvironmentswould suming X CS = 2.5 × 10- 9 (the value of OMC-1 Extended
+b en e v s i m ro a n l m le e r n t t h s a . n M in o t r h e e ov c e a r s , e ∼ bet 3 w 0 ee p n c A sc G a N le a m n e d a k su p r c em sc e a n le ts S o B f R lin id e g w e i w dt h h er o e f N 25 H 0 2 = km 3× s- 1 1 ( 0 F 23 W c Z m I - o 2; f B H l C ak N e (4 et -3 a ) l ; .1 I1 9 3 8 ) 7 , ) N and /d th V e
+CS
+HCN(4-3) and HCN(1-0) revealed HCN(4-3)/HCN(1-0) in- is estimated to be ∼ 6 × 1011 cm- 2 (kms- 1)- 1. Then, judg-
+tegrated intensity ratio is ∼ 0.7–1.0 in the central region of ingfromFigure4,wecanexpectCS(7-6)emissionistotally
+NGC 253 (the brightnesstemperaturescale, Sakamotoet al. optically thin (τ CS(7- 6) ≪ 0.1). This is consistent with the
+2011;Meieretal.2015),whichvalueiscomparabletothose non-detection of CS(7-6) emission in our previous observa-
+obtained within the CND of NGC 1068 (Viti et al. 2014). tionswithALMA(I13).EvenifweincreaseX by10times,
+CS
+Knudsen et al. (2007) also proposed that the line excitation the situation is the same. On the other hand, non-LTEanal-
+is independent of galaxy types, although this argument was ysis by I13suggested N /dV in NGC 1097is ∼ a few ×
+HCN
+based on single dish measurementsof the HCN spectral en- 1013 cm- 2 (km s- 1)- 1, thus HCN(4-3) would be moderately
+ergy distribution (SLED). These results suggest that the de- optically thick (Figure 4). The resultant X in this case
+HCN
+greeoflineexcitationatthenuclearregionofagalaxywould is ∼ 10- 7, which is close to the value observed in Galactic
+notdependonthespecifictypeofthatgalaxy. Likelyhigher hot cores and is significantly higher than that observed in,
+T kin inAGNswouldleadtolowern H2 thanSBgalaxiesifthey e.g.,OMC-1ExtendedRidge(5.0×10- 9;Blakeetal.1987).
+sharethesamelineexcitation. Therefore,wehereafterprefer
+Therefore, the situation is similar to the panel-(e) of Figure
+thescenariothatthevariationofunderlyingmolecularabun-
+6 with a high X /X of & 10. Indeed, our model using
+dancesbetweenAGNsandSBgalaxiesastheprimecauseof HCN CS
+theabovevaluesshowsR &20,whichmatchestheob-
+theHCN-enhancement.However,weshouldmentionthatwe HCN/CS
+servedvalue(R >12.7).Furthermore,anopticaldepth
+cannotdiscardthepossibilityofsystematicallyhighern in HCN/CS
+AGNsthaninSBgalaxies,northepossibilitythattheCN H D 2 of ofHCN(1-0)estimatedfromtheabovenumberisτ HCN(1- 0) &
+0.1 (T = 100 K is assumed), which is consistent with the
+NGC1068hasspecificallyandremarkablyhighn ascom- kin
+H2 estimationbyMartínetal.(2015).
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FORAN ENERGYDIAGNOSTICS IN GALAXIES 13
+Figure8. SameasFigure6,butthemodelswithnH2 =5×106cm- 3areshown.
+Figure9. SameasFigure4,butthemodelswithnH2 =5×106cm- 3areshown.Thedashedlineindicatesτ=1.0foraneye-guide.
+However, our estimated abundance ratios such as InthecaseofNGC1068,boththeratiosofR HCN/HCO+ and
+X HCN /X HCO+ ∼10aresignificantlyhigherthanthoseobtained R HCN/CS atthepreciseAGNpositionarelowerthanthoseof
+byMartínetal.(2015)throughLTEanalysis,whichare∼3. NGC 1097(AGN). We suppose this is due likely to a larger
+Aslongasweadoptagasdensitythatisnothighenoughto N thanthatofNGC1097(AGN),i.e.,thelinesareoptically
+mol
+thermalize all of HCN(4-3), HCO+(4-3), and CS(7-6) emis- thickerthanthoseofNGC1097(AGN).Actually,theN to-
+sion lines (e.g.., n H2 = 105 cm- 3 in Figure 6), we should re- wardsthisAGNcanbe∼6×1023cm- 2 byusingthere H s 2 ults
+quirehighlyenhancedabundanceratiostoovercometheinef- of the CO multi-line non-LTE analysis by Viti et al. (2014)
+ficientexcitationoftheHCN(4-3)line(thislinehasthehigh- (seealsothefootnoteinSection2fortheestimation),whichis
+estn
+cr
+amongthetargetlines;Table2)andyieldthehighline ∼10timeslargerthanthatofNGC1097(AGN).Inthiscase,
+c ra m ti - o 3 s , t o h b e se r r e v q e u d ir . ed In ab th u e nd c a a n se ce o r f at h i i o gh ca e n r n b H e 2 a s s u l c o h w a a s s 5 ∼ × 3 1 f 0 o 6 r a a g n a d in dV by ∼ ap 2 p 0 l 0 yi k n m g t s h - e 1 X (G CS ar = cí 2 a- .5 Bu × ril 1 lo 0- e 9 t ( a B l. la 2 k 0 e 1 e 4 t ), a w l. e 19 e 8 st 7 i- )
+optically thin emission lines (Figure 8-(a)(e)). This ratio is mateN /dV ∼1×1013 cm- 2 (kms- 1)- 1. ForthisN /dV,
+CS CS
+consistentwith the measured valuesby Martín et al. (2015), CS(7-6)emissionisstillmoderatelyopticallythin(τ ∼0.1;
+CS
+becausenowthe conditionsof(i) LTEand(ii) opticallythin Figure 4), but is significantly optically thicker than the case
+emissionaremostlysatisfied. Foropticallythickercases,we of NGC 1097 (AGN).The same speculationcan also be ap-
+willagainseediscrepancybetweenourmodelpredictionsand pliedtoHCN(4-3)andHCO+(4-3)emissionlines. Asshown
+thosebyMartínetal.(2015). Therefore,whetherourmodel- in Figure 6, it is natural for line ratios to converge to unity
+predictionsareconsistentornotwiththepreviousLTEresults when the paired lines get optically thicker. Moreover, since
+stronglydependsontheassumedn H2 andlineopticaldepth. R HCN/CS issensitivetoT bg ,wecanexpectlowervalueofthis
+
+=====PAGE=====
+14 T. IZUMIETAL.
+ratio in NGC 1068 (AGN) than in NGC 1097 (AGN) even CS(7-6)). Wehereaftercallthistypeofdiagramasaspectral
+when they share the same X /X considering the much ratiodistribution(SRD).Notethatwedonotintendtopredict
+HCN CS
+higherAGNluminosityoftheformerthanthe latter(Marin- alineratioofaspecificgalaxyinFigure10,buttounderstand
+uccietal.2012;Liuetal.2014).Therefore,despitetherather aqualitativefeatureoftheseratiosatvarioustransitions.
+lower R HCN/HCO+ and R HCN/CS than NGC 1097 (AGN), we By inspecting the SRD, one can see that enhanced
+still expect underlying X HCN /X HCO+ and X HCN /X CS are high X HCN /X HCO+ (orX HCN /X CS )correspondinglyproduceshigher
+(∼10)inNGC1068(AGN).Notethatthelineopticaldepths line ratios at any transition. Therefore, if X HCN /X HCO+ and
+ofHCN(4-3)are40–60evenwhenN HCN /dV =1×1015cm- 2 X HCN /X CS are truly enhanced in AGNs than in SB galaxies,
+(kms- 1)- 1, which are still smaller than thatobservedin Arp andiftheysharethecomparableexcitation(e.g.,n H2 andT kin ),
+220W(asystemofself-absorption;Scovilleetal.2015). wepredictAGNswouldshowhigherlineratiosnotonlyata
+As for the knots of the CND of NGC 1068, panels- single transition but also at other transitions than SB galax-
+(a)(b)(e)(f) of Figure 6 would be good approximations for ies. Indeed,NGC1097andNGC1068showhigherHCN(1-
+theirsituationsifweadopttheestimatedcolumndensitiesby
+0)/HCO+(1-0)andHCN(1-0)/CS(2-1)ratiosthanSBgalaxies
+Vitietal.(2014). InthosecaseswithT >100K,weneed (e.g., Kohno et al. 2008;Nakajima et al. 2011;Martín et al.
+kin
+the abundance ratios to be & 30 when n = 105 cm- 3. As 2015).
+stated before, we can not discard the pos H si 2 bility of no abun- From this perspective, remarkable inconsistency can stem
+dance enhancement in the case of the panels-(a) and (e) in
+fromNGC7469,whichshowsHCN(1-0)/HCO+(1-0)ratioof
+Figure8. However,ifN /dV &5×1013cm- 2(kms- 1)- 1is ∼ 0.6 when observed with Nobeyama Millimeter Array (∼
+mol 6′′=2kpcaperture;Kohno2005),whereasitshowsHCN(4-
+true,westillneedtoenhancetheabundanceratiostobe&30
+evenwithn =5×106cm- 3 toreproducethehigh-endval-
+3)/HCO+(4-3)=1.1(∼150pcaperture;Table1).Thisincon-
+H2 sistencycanbereconciledwhenwemeasureJ=1–0linesata
+uesobservedintheseknots(e.g.,R HCN/HCO+ &3). Notethat
+higherresolutiontoselectivelyprobetheCNDofNGC7469
+wecanfindconsistentabundanceratioswiththosesuggested
+as much as possible, because this galaxy hosts a prominent
+aboveinpreviousworksofmulti-line,multi-speciesnon-LTE
+SBringwith∼1kpcindiameterthatcanbeastrongsource
+analysis(e.g.,Table8ofVitietal.2014). Ontheotherhand,
+ofspectralcontamination;HCN(4-3)/HCO+(4-3)ratio atthe
+there seems to be an inconsistency with the predicted abun-
+SB ringis as low as ∼ 0.5. In fact, ∼ 150pc aperturemea-
+danceratios fromLTE analysis (Table 5 of Viti et al. 2014),
+surementsofJ =1–0transitionsnewlyobtainedwithALMA
+1 w 0 h 5 ic c h m a - r 3 e ( ∼ Fig 5 u f r o e r 6 b ) o , th ag X a H in CN w /X e H s C h O o + u a ld nd en X h H a C n N c / e X X CS . Fo t r o n o H v 2 e o r f - revealsHCN(1-0)/HCO+(1-0)>1attheAGNposition(Izumi
+HCN etal. inpreparation). Thisimprovedspatialresolutionisstill
+come the inefficientexcitation of HCN(4-3). For the higher
+largerthan,butmoreclosetotheexpectedsizeoftheXDRin
+n H2 of 5 × 106 cm- 3 (Figure 8), our results are consistent NGC7469(∼80pcindiameter;Izumietal.2015).Withthis
+with those from the LTE analysis as long as emission lines in mind, we here suppose that the low HCN(1-0)/HCO+(1-
+areopticallythinormoderatelythick(seealsoFigure9),but
+0) ratio (< 1) observed in NGC 2273 and NGC 4051 (Sani
+thediscrepancybecomesprominentforopticallythickercases
+et al. 2012) would be (at least partly) due to severe spectral
+becausenowtheconditionofopticallythinemissionassumed
+contaminationfromthesurroundingSBregions. Thiscanbe
+in the LTE analysis (Viti et al. 2014) breaks. In such cases,
+the same situation as we discussed for NGC 1365 and NGC
+weeventuallyrequireenhanced,e.g.,X HCN /X HCO+ of&30as 4945 in Section 3. These low line ratios were measured in
+alreadyaddressed. thecentral3′′regions(Sanietal.2012),whichcorrespondto
+InthecaseofNGC4418,thesameargumentoftheoptical
+390pcforNGC2273and150pcforNGC4051,respectively.
+depth effect as for NGC 1068 (AGN) holds with a stronger
+Indeed, the equivalentwidths of the 11.3µm PAH emission
+basis, because this galaxyhosts a heavily obscured compact in NGC 2273 (330 nm with ∼ 500 pc slit; Alonso-Herrero
+nucleus(N H2 & 1026 cm- 2; Sakamoto et al. 2013). The dis- et al. 2014)and NGC 4051 (95 nm with 25 pc slit; Alonso-
+tinctivelylowerR HCN/CS thannormalAGNsfavorsthisview Herreroetal.2016)aresignificantlylargerthanthoseofNGC
+as this ratio is highly sensitive to the optical depth of CS(7- 7469or NGC 1068(Section3). Moreover,the 2-10keV X-
+6) emission line (Figure7). RegardingR HCN/HCO+, we men- ray luminosity of NGC 2273 (log (L 2- 10keV /erg s- 1) = 42.7;
+0 ti ′ o ′. n 5 t ∼ his 8 r 0 at p io c i r s es s o li l g u h ti t o ly n i ( n S c a r k e a a m se o d to to et ∼ al 2 . 2 w 0 h 1 e 3 n ), o w bs h e i r c v h ed is a a t M =4 a 1 ri . n 1 u ; c L c i i u e e t t a a l l . . 2 2 0 0 1 1 2 4 ) ) a a n r d e∼ NG 3 C an 4 d 0 ∼ 51 1 ( 3 lo 0 g ti ( m L e 2- s 1 s 0k m eV a / l e le r r g t s h - a 1 n )
+comparablevalue to other AGNs. However, whether an en- that of NGC 7469 (log (L 2- 10keV /erg s- 1) = 43.2; Liu et al.
+hancedX HCN /X HCO+ suchas10isreallynecessarytoaccount 2014),respectively. Therefore,wecanexpectthattheextent
+forthisrelativelyhighratioisunclear,becausethisgalaxyex-
+ofthehypothesizedXDRsaremuchsmallerinNGC2273and
+hibitsprominentv=1stateHCNemissionline(IR-pumping;
+NGC4051thanthatofNGC7469(Izumietal.2015),hence,
+Sakamotoetal.2010).Radiativetransfermodelingsinvolving thantheabovementioned3′′areaswherethelineratioswere
+theIR-pumpingarethusinevitabletoelucidatethevalidityof
+measured. On the other hand, again we cannot discard the
+ourdiagraminsucha deeplyembeddednucleusthattheIR-
+possibilitythatthesegalaxieshavelessdensegasthanAGNs
+pumpingmustaffecttheratio.
+withhighlineratios(seealsoSection4.4). Multi-line,multi-
+species modelings are indeed required to disentangle these
+4.6. ImplicationtogenericHCN-diagrams
+scenarios.
+As the last of Section 4, we here predict HCN-to-HCO+
+andHCN-to-CSintegratedintensityratiosatothertransitions 5. POSSIBLECHEMICALCAUSESFORTHEMOLECULAR
+based on our RADEX modelings, by varying X HCN /X HCO+ ABUNDANCEVARIATION
+and X /X . Illustrative cases are shown in Figure 10 as In this last Section, we present various scenarios for the
+HCN CS
+a function of the upper rotational state (J ) of HCN. As for molecular abundance variation (or, HCN-enhancement in
+u
+CS,wecoupledatransitionwiththeclosestfrequencytoeach AGNs)assuggestedinSection4,fromtheperspectiveofISM
+HCNtransition(e.g.,HCN(1-0)andCS(2-1),HCN(4-3)and chemistry. WeherefocusontheR HCN/HCO+ ofAGNsandSB
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FORAN ENERGYDIAGNOSTICS IN GALAXIES 15
+Figure10. Anexampleofspectralratiodistributionof(a)HCNtoHCO+and(b)HCNtoCSintegratedintensityratiosinthebrightnesstemperaturescale,asa
+T fu b n g c = tio 1 n 0 o K f . t T he he u c p a p s e e r o ro f t N at H io C n O a + l / s d t V ate (o J r u N o C f S H / C d N V . ) T = h 5 e × val 1 u 0 e 13 of cm ea - c 2 h ( r k a m tio s- is 1) c - a 1 lc is ul s a h te o d wn b . as W ed e o se n t o m u o r l R ec A u D la E r X ab s u i n m d u a l n a c ti e o r n a , ti a o s s su to m b in e g X n H H C 2 N = /X 1 H 0 C 5 O c + m ( - o 3 r , X T H ki C n N = /X 10 C 0 S) K = ,
+20(redsquare),10(orangediamond),3(greencircle),and1(bluetriangle),respectively.AsforCS,thetransitionwiththeclosestfrequencytoeachHCN(Ju-Jl)
+isused.Atanytransition,enhancedXHCNcorrespondinglyproduceshigherlineratios(i.e.,blue<green<orange<red).
+galaxiesforsimplicity,sincethisratioislesssensitivetoex- Daviesetal.2012). Atthattemperature,X HCO+ canbesome-
+citation than R (Figures 6 and 8). Hence, we discuss whatreduceddue to an activated reactionwith H O to form
+HCN/CS 2
+possiblechemicalcausesforenhancingX
+HCN
+/X HCO+hereafter. H
+3
+O+. What is importantis that this chemistrycan be com-
+Line ratios of buried-AGNs are not discussed because they plementedtoconventionalXDR(ionization)models(Harada
+wouldbe(atleastpartly)affectedbyIR-pumping. However, etal. 2013),wherewecanexpectmuchhighergastempera-
+even focusing on the X HCN /X HCO+ only, it is still difficult to ture due to efficient X-ray heating than in SB environments
+tightly constrain the various possibilities due to insufficient (PDR). Interestingly, recent high resolution VLA observa-
+amount of data. We hope future high resolution, multi-line, tions revealed a higher fractional abundance of NH in the
+3
+andmulti-speciesobservationswillsettletheissue. verynuclearregionofNGC3079(atype-2AGN;Miyamoto
+etal.2015)thaninSBgalaxies(Takanoetal.2013,andref-
+5.1. XDR,PDR,andhightemperaturechemistry
+erences therein). NH is also a typical molecule efficiently
+3
+It has been suggested that the enhanced HCN(1-0) inten- formed in high temperature environments. We should note
+sityobservedinAGNsisduetoabnormalchemistryrealized thatevaporationfromdustgraincanalsoincreasetheX es-
+in XDRs (e.g., Kohno2005;Krips et al. 2008). The molec- peciallyatlowertemperature(.100K;Rodgers&Ch N a H r 3 nley
+ular abundancesand the resultant column-integratedline in- 2001),whichwillenhancetheX viasubsequentnitrogen
+HCN
+tensitiesofourtargetmoleculesundersteadystategas-phase reactions. However,atlowtemperature,ion-neutralreactions
+XDRs and PDRs were extensively modeled by Meijerink & aresoquickthatwecanenvision,e.g.,C+ +H O→HCO+ +
+2
+Spaans(2005)andMeijerinketal.(2007).IntheirXDRmod- H,willefficientlyenhancetheX HCO+ (O-bearingspeciessuch
+els, R HCN/HCO+ can exceed unity only at the surface (N H . asH 2 Oshouldalsobeejectedfromdust). Thiswouldreduce
+1022.5cm- 2)oflow-to-moderatedensitygas(n
+H
+.105cm- 3), X
+HCN
+/X HCO+, which seems to be inconsistent with the high
+wherea highX-ray flux(e.g., F X & 10 ergs- 1 cm- 2) can be X HCN /X HCO+ suggested in this Section 4, thus the dust grain
+expected. However, for a larger N where F is attenuated, reactionswillnotbeverycritical.
+H X
+theypredictedR HCN/HCO+ <1. Thisisduetothefactthatthe Keepingthesemodelsinmind,wehereafterpresentpossi-
+rangeoftheionizationrateoverwhichX HCO+ ishighismuch bleinterpretationoftheR HCN/HCO+ inthreeinstructiveAGNs
+wider than that of HCN under X-ray ionization chemistry and two SB galaxies, namely NGC 7469, NGC 1068, NGC
+(Lepp & Dalgarno 1996). Note that one weak point in this 1097,NGC253,andM82.
+modelwouldbethatthepredictedlineintensitiesareconsid- (i)NGC7469—WefirstdiscusstheR HCN/HCO+ measuredat
+erablylowattheregionofN .1022.5cm- 2(Meijerinketal. theAGNpositionofNGC7469(denotedasN7469(AGN)in
+H
+Figure1),whichiscomparabletothoseofsomeSBgalaxies
+2006,2007),whichseemstobeinconsistenttotheprominent
+HCN(4-3)andHCO+(4-3)emissionsobservedinAGNs. suchasNGC253despiteitsordersofmagnitudehigherX-ray
+Anotherpossiblescenarioisahightemperaturechemistry, luminosity(logL 2- 10keV =43.2;Liuetal.2014).Nomorpho-
+logicalandkinematicsignaturesofa jet-ISMinteractionhas
+underwhichneutral-neutralreactionswithhighreactionbar-
+beenfoundintheCNDofNGC7469throughthehighreso-
+riersareenhancedingeneral(e.g.,Haradaetal.2010). This
+kind of chemistry is efficient in, e.g., hot core-like regions
+lutionobservationsofH
+2
+andBrγ emissionlines(Hicksetal.
+2009;Müller-Sánchezetal.2011)andthenmechanicalheat-
+and mechanically dominated regions. For example, a for-
+mation path of CN + H → HCN + H has a barrier of ingmightnotplayanimportantroleinthisgalaxy,although
+2
+∼ 960 K (KIDA4). This reaction can be efficient at T & Lonsdaleetal. (2003)founda corejet-like structureat a ra-
+kin
+dio wavelength. Regarding the origin of the relatively low
+300 K (Harada et al. 2010). Indeed, such a high tempera-
+turecanlikelybe expectedin AGNs(e.g.,Kripsetal. 2008;
+R HCN/HCO+, Izumi et al. (2015) pointed out the compactness
+oftheXDR.TheyestimatedthespatialextentoftheXDRand
+4http://kida.obs.u-bordeaux1.fr theregionwhereF &10ergs- 1cm- 2(Meijerinketal.2007)
+X
+
+=====PAGE=====
+16 T. IZUMIETAL.
+tobe∼42pcand∼35pcinradius,respectively. Therefore, cm- 2 evenat30pcawayfromthenucleus. Accordingtothe
+notapoorbutastillrelativelylargeobservingbeamemployed modelcalculationbyMeijerinketal.(2007),thishighX-ray
+intheNGC7469observations(∼150pc;Table1)mighthave fluxcanheatupthegaswithn =105- 6cm- 3to≫100K.
+H2
+pickeduplinefluxesemanatingfromtheextendedSBregion, On the other hand, the radial expansion of the CND of
+whichwouldhaveresultedinreducingtheR HCN/HCO+ ofthis NGC1068(Kripsetal.2011;Barbosaetal.2014)wouldsup-
+AGN. port the existence of shocks and/or a jet-ISM (and possibly,
+(ii) NGC 1068—The X-ray luminosity of this AGN (log outflow-ISM)interaction,whichcanalsocontributetoexcite
+L 2- 10keV =43.0;Marinuccietal.2012)isquitecomparableto the H 2 molecule. We especially mentionthat García-Burillo
+thatofNGC7469. ThedegreeofcontaminationfromPDRs et al. (2014) suggested that as much as ∼ 50% of CO(3-2)
+and SNe (i.e., stellar feedback) to the observed line ratio is emission stems from the outflowing component, which ex-
+unclear, althoughwe expect it is relatively low by consider- tends out to ∼ 400 pc away from the nucleus. Hence, there
+ing the moderate stellar age inside the CND (200-300 Myr; isatleastacertainportionofaregiondominatedbymechan-
+Daviesetal.2007). ThisageismucholderthanthoseofSB ical heating (MDR; e.g., Meijerink et al. 2011; Kazandjian
+galaxies,e.g.,NGC253(∼6Myr;Fernández-Ontiverosetal. et al. 2012, 2015) in the CND. Again high gas temperature
+2009)andM82(∼10Myr;FörsterSchreiberetal.2003).We chemistrywouldberesponsibleforthehighR HCN/HCO+ inthis
+f p o o u s n it d io a n r ( e d l e a n ti o v t e e l d y a h s ig N h 1 R 0 H 6 C 8 N ( / A H G CO N + ) o in f∼ Fig 1 u .5 re a 1 t ) i , ts w p h r i e c c h is v e a A lu G e N is c = a 1 se 0 . 5 I c n m de - 3 ed g , a w s e sh c o a u n ld ex re p a e c c h tt a h s e h m ig a h xi a m s u ∼ m 2 t 5 e 0 m 0 p K er f a o tu r r C e - o sh f o n c H k 2
+wellconsistentwiththeresultsinGarcía-Burilloetal.(2014). when the shock velocity is > 20 km s- 1 (Flower & Pineau
+Theratiowasmeasuredwithasinglesynthesizedbeamof35
+desForêts2013),whichishighenoughtoproduceprominent
+pc.García-Burilloetal.(2014)alsoreportedacorrelationbe-
+H emission. Suchahightemperatureiswellbeyondthere-
+2
+tweenthespatiallyresolvedHCN(4-3)toCO(3-2)integrated
+actionbarrierofHCNformationfromCN,thusHCNcanbe
+intensity ratio (≡ R ) and the 6-8 keV X-ray flux (≡
+HCN/CO abnormallyabundant. Accordingtothemodelcalculationof
+R X- ray/CO )acrosstheCNDofNGC1068.Thesametrendcan molecularabundancesinMDRsbyKazandjianetal.(2012),
+alsobefoundinHCO+(4-3),SiO(2-1),andCN(2-1)(García-
+X HCN /X HCO+ canwellexceed100whentheinputmechanical
+Burilloetal.2010,2014),whichsuggeststhatthewholeCND energyis&10- 18ergs- 1 cm- 3,whichislargeenoughtopro-
+isagiantXDR.However,againaccordingtoMeijerinketal.
+duce high R HCN/HCO+. Interestingly, the R HCN/CO -R X- ray/CO
+(2007),to reproduceR HCN/HCO+ > 1 atthis AGN positionis correlationinNGC1068haslargescatteratlowerR X- ray/CO ,
+quitedifficultsincetheN H2 towardtheAGNpositionexpected i.e., away from the AGN (García-Burillo et al. 2014), sug-
+fromtheresultsoftheCOmulti-linenon-LTEanalysisbyViti gestingtheimportanceofotherheatingmechanismsthanX-
+etal.(2014)is∼6×1023cm- 2(seethefootnoteofSection2
+ray radiation for driving the underlying chemistry. Indeed,
+fortheassumptionsinthisestimation). Tointerpretthehigh the line velocity dispersion is high at the East/West-knots
+R HCN/HCO+ ofN1068(AGN)isthusnotstraightforwardatall. (García-Burilloetal.2014).Inthisscenario,itwouldalsobe
+We might have to add some other mechanismssuch as high probablethatthe outflow/shockvelocityisso highatN1068
+temperaturechemistry(Haradaetal. 2010,2013)toforcibly (AGN) that the shock wave provides ionized gas to increase
+enhanceX HCN . ions(e.g.,Dickinsonetal.1980;Elitzur1983;Koo&Moon
+AsfortheR HCN/HCO+ measuredatotherpositions,e.g.,the 1997;Rawlingsetal.2004),whichwouldpotentiallyresultin
+East/West-knotsoftheCNDofNGC1068(namelyN1068(E- adepressedX HCN /X HCO+ nearthenucleus.
+knot)andN1068(W-knot)inFigure1),wefoundtheyare2- (iii) NGC 1097—Another remarkable example is the
+timeshigherthanthatofN1068(AGN).Thisisabitsurprising R HCN/HCO+ measured at the AGN position of NGC 1097
+resultsincetheratioincreasesasrecedingfromthenucleus(= (N1097(AGN)inFigure1). AswestatedinSection4.5,we
+theX-raypeak). Wespeculatethecauseofthisenhancement wouldneedenhancedX
+HCN
+/X HCO+comparedtoSBgalaxiesto
+µ at m th H eE 2 / e W m - i k ss n i o o t n si t s he li r k e e ( l e y .g re ., la M te ü d ll t e o r th S a á t n f c o h r e t z he et p a r l o . m 20 in 0 e 9 n ) t . 2 T .1 h 2 e y ev ie e l r d ,j t u h d is gi h n i g gh fro R m HC t N h / e H v C e O r + y w lo h w en X n - H ra 2 y ∼ lu 1 m 0 i 5 n c o m sit - y 3 ( ( l I o 1 g 3 L ). 2- H 10 o k w eV -
+R HCN/CO -R X- ray/CO correlationshownaboveandtheveryuni- =40.8;Liuetal.2014),theXDRchemistryseemsnottoplay
+formdistributionofthe H 2 λ2.25 µm/λ2.12µm ratio across animportantroleinNGC1097(I13).Rather,consideringthe
+theCND(Riffeletal.2014)seemsupportascenariothatthese
+currentspatial resolution(94 pc) for the observations(Table
+emissionsareprimarilydueto(non-directional)X-rayheating
+1),thereisanotherpossibilitythatthelineemittingregionis
+(seealso Gallianoetal. 2003). NotethattheH lineratioat
+2 very close to the AGN where we can still expect a high X-
+the CND (∼ 0.1) is a typicalvalue for thermalprocessesby
+ray flux, or a high energy deposition rate per particle (e.g.,
+X-ray and/or shock heating (Mouri 1994). In this scenario, Maloneyetal.1996). Indeed,thelineluminosityofHCN(4-
+we might be observing HCN and HCO+ emissions emerged 3) in NGC 1097is totally comparableto thatof the individ-
+from molecular clouds directly illuminated by X-ray radia- ual molecular clump seen at the center of NGC 253 (∼ 20
+tion(i.e.,cloudsdirectlyseenbytheAGNitself,notstrongly pc in size; Sakamoto et al. 2011), suggesting the similarly
+interceptedby a dusty torus)at the East/West-knots, consid- smallsizeofthelineemittingregioninNGC1097.Radiative
+ering the geometryof the type-2 nucleus(the position angle feedbackfromSBactivitywouldbediscardedconsideringthe
+ofthealmostedge-onH 2 Omaserdiskis-45◦;Greenhilletal. highgastemperature(&100K)suggestedforthemolecular
+1996) and the surrounding CND (the inclination angle is ∼ phase(I13;Beirãoetal.2012). Ontheotherhand,mechani-
+41◦; García-Burillo et al. 2014). If so, the X-ray fluxes re- calheatingcanbeanotherchoice,whichissupportedbythe
+ceivedatthe East/West-knotsarequitehighbecauseoflittle detectionofacompactradiojet(largestbeam-convolvedand
+attenuation, which can result in efficient X-ray heating and projected size is ∼ 90 pc; Thean et al. 2000). A tentative
+thushighX HCN /X HCO+ dueto,e.g.,hightemperatureneutral- gradient of HCN(1-0)/HCO+(1-0) line ratio inside the CND
+neutralreactions(Haradaetal.2010,2013). Indeed,ifthere (lowertowardsthecenter,andhighertowardstheouteredge
+isnoattenuation,wecanexpectF X isashighas∼100ergs- 1 oftheCND;Martínetal.2015)wouldalsosupportthissce-
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FORAN ENERGYDIAGNOSTICS IN GALAXIES 17
+nario, althoughMartín etal. (2015)didnotfully resolvethe NGC4418(Sakamotoetal.2010).Meanwhile,HCN(v =11f,
+2
+CND.NotethataninferredSNe rateisquitelowasO(10- 4) J=4-3)emissionwasnotdetectedinNGC7469(Izumietal.
+yr- 1(Daviesetal.2007),thuswecanneglectitsinfluenceon 2015)inspiteofitshighIRluminosityofL 8- 1000µm =1011.4
+thechemistry. L ⊙ ,whichiscomparabletothatofNGC4418(Sandersetal.
+(iv) NGC 253 and M82—Asfor the SB galaxies, the pre- 2003). Thiswouldbeduetotheopticaldeptheffect;wecan
+dictedR HCN/HCO+ inMeijerinketal.(2007)isalmostconsis- notdetectafullyopticallythinemissionevenifitsurelyex-
+tentwith,butseemstobeafactorofafewhigherthantheob- ists. The columndensity of HCN(v 2 =11f, J=4-3)would not
+servedvalues. Thiscanbeexplainedbyanenhancedcosmic besolargealongthelineofsighttowardsthe CND ofNGC
+ray ionization rate due to frequentsupernovae(SNe), which 7469 that the emission is optically thin. We speculate that
+wouldincreaseX HCO+ evenin a densemolecularcloud(e.g., thevibrationallyexcitedlinescanonlybevisibleincompact
+Bayetetal.2011;Meijerinketal.2011;Aladroetal. 2013). (i.e.,closetoawarmIR-source),heavilyobscured(i.e.,high
+Ifthisistrue,R HCN/HCO+ canreflecttheevolutionaryphaseof columndensity)nucleisuchas in NGC4418,where we can
+SB activity. The lowerR HCN/HCO+ in M82 thanin NGC 253 expectHCN(v 2 =11f,J=4-3)lineemissionis(moderately)op-
+follows this scenario well (I13; Krips et al. 2008), although ticallythick.
+wemightbeabletoconstructsomecounterargumentsaswell
+(Papadopoulos 2007; Zhang et al. 2014). We mention that 5.4. Time-dependentchemistry
+mechanicalheatingseemstoberesponsiblefortherelatively ThiscanbeimportantsincetheX HCN /X HCO+ ispredictedto
+high R HCN/HCO+ in youngSB galaxyNGC 253(SB age ∼ 6 be highly time-dependent with possible variations of orders
+Myr;Fernández-Ontiverosetal.2009),whoseratioistotally of magnitudeespecially when ≥ 104 yr has passed fromthe
+comparabletothoseofN7469(AGN) andN1068(AGN).In- ignition of chemical reactions (Meijerink et al. 2013). This
+deed, this heating mechanism is claimed to be important in mechanismwouldinfluencethechemistrymoreinnuclearre-
+NGC253(Rosenbergetal.2014a). gionsof galaxiesthan in quiescentregions,since the former
+region is more dynamic than the latter. The time-evolution
+5.2. Effectsofmetallicityandelementalabundance is typically studied via time clock molecules such as sulfur
+The chemistry of PDRs in high metallicity (i.e., Z ≥ Z ⊙ bearingspecies. Indeed,whileN CS /N SO intheCNDsofNGC
+where Z denotes the solar metallicity) environments was 1097 and NGC 1068 estimated in LTE analysis are ∼ 2-3
+⊙
+modeledby,e.g.,Bayetetal.(2012). TheyshowedX in- (Martín et al. 2015; Nakajima et al. 2015), it is just ∼ 0.2
+HCN
+creaseswith metallicity, whereasX HCO+ andX CS are insensi- intheOrionhotcore(Table2inEspluguesetal.2014).Ifwe
+tivetothevariation,whenFUVradiationfieldandcosmicray regard the above CNDs are influenced by mechanical heat-
+ionization(mimickingX-rayionization)ratearefixed. From ing, and the abundances of these species in NGC 1097 and
+the observational side, Davis et al. (2013) found a positive NGC1068dependontheevolutionofhotcore-likesystems,
+correlation between gas-phase metallicity and N /N in thisresultindicatesthatNGC1097andNGC1068aremore
+HCN CS
+thesample ofearlytype galaxies,metal-richspirals, and SB evolved systems than Orion hot core (e.g., Esplugues et al.
+galaxies,whichsupportedtheBayetetal.’sprediction. How- 2014;Charnley1997). Futuresensitiveandsystematicstudy
+ever, if we regard 12 + log [O/H] as an indicator of the gas of time clock species will help us understand the chemical
+phasemetallicity,NGC1068,NGC1097,NGC253,andM82 evolutioninAGNs.
+showalmostthesamevalue(Gallianoetal.2008,andrefer-
+6. SUMMARYANDCONCLUSION
+encestherein). Thus,wesuggestthatthemetallicityisnotan
+importantfactor for the submm-HCN diagramat least when In this paper, we aim at up-dating the submm-HCN dia-
+wetreatalreadychemicallyevolvedsystemssuchasthecen- gram which was tentatively proposed by I13 and investigat-
+tralregionsofgalaxiesstudiedinthiswork. ing the potential origin of the enhanced HCN(4-3) intensity
+On the other hand, it seems likely that an overabun-
+withrespecttoHCO+(4-3)andCS(7-6)inAGNs(i.e.,HCN-
+danceofelementalnitrogenobservedinAGNs(e.g.,Storchi- enhancement).Themainresultsandconclusionsaresumma-
+Bergmann 1991) can contribute to the HCN-enhancement, rizedasfollows:
+since X dependson the elementalabundanceof nitrogen
+HCN
+(Bayet et al. 2008). Interestingly, the HCN(1-0)/HCO+(1-0) - Compiling data from the literature and the ALMA
+lineratiois∼4-timeslowerintheLMCthaninnearbymas- archive,weup-datedthesubmm-HCNdiagram(Figure
+1),firstproposedbyI13. Thenumberofthedatapoint
+siveSBgalaxies(Andersonetal.2014).Althoughthiscanbe
+is significantly increased by ∼ 5 times (Figure 2). As
+partlyreconciledbythe differentgasdensityin eachgalaxy,
+we can also expect ∼ 2-3 times lower N/O elemental abun- wassupposedbyI13,wefoundacleartrendthatAGNs
+danceratiointheLMCthaninthesolarmetallicityGalactic tendtoshowhigherR HCN/HCO+ and/orR HCN/CS thanSB
+galaxieswhenthese samplesare observedat highres-
+environment(Hunter et al. 2009) would have influenced the
+olutionsenoughtoseparateregionsenergeticallydom-
+X
+HCN
+/X HCO+.
+inatedby AGNs(e.g., XDR) fromthose contaminated
+byco-existingSBactivities. WhenAGNsareobserved
+5.3. IR-pumping
+atlow resolutions(& 1 kpc),the energeticswithinthe
+Thismechanismmustbevitalforvibrationallyexcitedlines
+beamseemstobedominatedbysurroundingSBactiv-
+ofthesedensegastracerssuchasHCN(v 2 =11f,J=4-3),since ities,whichwouldresultinreducedlineratios.
+their energy levels (∼ 1000 K) are too high to be collision-
+allyexcited. Althoughthelimitedextragalacticdetectionsof - Simplenon-LTEradiativetransfermodelingsinvolving
+the vibrationally excited lines (Sakamoto et al. 2010; Iman- bothcollisionalandradiativeexcitationwereconducted
+ishi & Nakanishi 2013a; Aalto et al. 2015a) limits our dis- with the RADEX code. Underthe constantdensity of
+cussion on this topic, it would be at least influencing the n H2 =105cm- 3,wefoundR HCN/HCO+ isnotsosensitive
+rotational population and thus the line intensity of HCN in toexcitation,whereasR stronglydependsonit,
+HCN/CS
+
+=====PAGE=====
+18 T. IZUMIETAL.
+especiallywhenCS(7-6)isopticallythinandHCN(4-3) AUI/NRAO,andNAOJ.TheNationalRadioAstronomyOb-
+isthick. servatoryisafacilityoftheNationalScienceFoundationop-
+erated under cooperative agreement by Associated Univer-
+- From the above non-LTE modelings, we suggest that sities, Inc. In addition, this research has made use of the
+bothX HCN /X HCO+ andX HCN /X CS wouldbesignificantly NASA/IPAC Extragalactic Database (NED) which is oper-
+enhanced in AGNs by several to even & 10 times atedbythe JetPropulsionLaboratory,CaliforniaInstituteof
+than those in SB galaxies, to reproduce their line ra- Technology,undercontractwiththeNationalAeronauticsand
+tios. From this perspective, we suggest that the vari- Space Administration. T. I. was supported by the ALMA
+ation of molecular abundances would drive the HCN- Japan Research Grant of NAOJ Chile Observatory, NAOJ-
+enhancementinAGNs. ALMA-0029 and -0075. T. I. is thankful for the fellowship
+receivedfromtheJapanSocietyforthePromotionofScience
+- Ontheotherhand,we couldnotfullydiscardthepos- (JSPS).
+sibility that the systematically higher gas density in
+AGNs than in SB galaxies is a cause of the HCN- REFERENCES
+enhancement, which was revealedby varyingn to a
+highervalue(here5×106cm- 3),althoughthefe H a 2 sibil- Aalto,S.,Polatidis,A.G.,Hüttemeister,S.,&Curran,S.J.2002,A&A,
+ity ofsuchadifferenceisunclearwithinthecentral∼ 381,783
+Aalto,S.,Spaans,M.,Wiedner,M.C.,&Hüttemeister,S.2007,A&A,464,
+100pcregionsofgalaxies.
+193
+Aalto,S.,Garcia-Burillo,S.,Muller,S.,etal.2015a,A&A,574,A85
+- WealsoinvestigatedHCN/HCO+ andHCN/CSlinera- Aalto,S.,Costagliola,S.M.F.,Gonzalez-Alfonso,E.,etal.2015b,ArXiv
+tios at other transitions based on our RADEX mod- e-prints,arXiv:1504.06824
+els. As a result, we found enhancedX HCN /X HCO+ and Ala 2 d 0 r 1 o 1 , , R A ., & M A a , r 5 tí 2 n 5 -P ,A in 8 ta 9 do,J.,Martín,S.,Mauersberger,R.,&Bayet,E.
+X /X subsequentlyresultinhighlineratiosatany
+HCN CS Aladro,R.,Viti,S.,Bayet,E.,etal.2013,A&A,549,A39
+transition, that seems to be consistent with observa- Alexander,D.M.,Bauer,F.E.,Chapman,S.C.,etal.2005,ApJ,632,736
+tions. Alonso-Herrero,A.,Engelbracht,C.W.,Rieke,M.J.,Rieke,G.H.,&
+Quillen,A.C.2001,ApJ,546,952
+- Various possible chemical scenarios for the high Alonso-Herrero,A.,Pereira-Santaella,M.,Rieke,G.H.,&Rigopoulou,D.
+2012a,ApJ,744,2
+X HCN /X HCO+ inAGNsarediscussed.Althoughitisstill Alonso-Herrero,A.,Rieke,G.H.,Rieke,M.J.,&Scoville,N.Z.2002,AJ,
+farfrombeingwellunderstood,wesupposeitwouldbe 124,166
+difficultto explainthe highline ratiosin AGNs solely Alonso-Herrero,A.,Sánchez-Portal,M.,RamosAlmeida,C.,etal.2012b,
+byconventionalX-rayionizationmodels. Weconclude MNRAS,425,311
+Alonso-Herrero,A.,RamosAlmeida,C.,Esquej,P.,etal.2014,MNRAS,
+that some additional mechanisms, e.g., high tempera-
+443,2766
+ture chemistry (likely related to mechanical heating),
+Alonso-Herrero,A.,Esquej,P.,Roche,P.F.,etal.2016,MNRAS,455,563
+seemtobenecessarytofullyexplaintheobservations. Anderson,C.N.,Meier,D.S.,Ott,J.,etal.2014,ApJ,793,37
+Antonucci,R.1993,ARA&A,31,473
+Antonucci,R.R.J.,&Miller,J.S.1985,ApJ,297,621
+In this work, we preferredthe scenario of enhanced HCN
+abundance with respect to HCO+ and CS, rather than a sys- Armus,L.,Heckman,T.M.,&Miley,G.K.1989,ApJ,347,727
+Barbosa,F.K.B.,Storchi-Bergmann,T.,McGregor,P.,Vale,T.B.,&
+tematically higher gas density in AGNs than SB galaxies RogemarRiffel,A.2014,MNRAS,445,2353
+(Section4.4). However,thelatterscenariowasnotfullydis- Barth,A.J.,Ho,L.C.,Filippenko,A.V.,&Sargent,W.L.1995,AJ,110,
+cardedbecauseofthesimplifiedmodelingsinthiswork. In- 1009
+Bayet,E.,Davis,T.A.,Bell,T.A.,&Viti,S.2012,MNRAS,424,2646
+deed,theobservedlineratiosareobtainableusingawidepa-
+Bayet,E.,Viti,S.,Williams,D.A.,&Rawlings,J.M.C.2008,ApJ,676,
+rameterspace of physicaland chemicalconditions. To fully
+978
+solve this problem, we have to conduct multi-line, multi- Bayet,E.,Viti,S.,Williams,D.A.,Rawlings,J.M.C.,&Bell,T.2009,
+species non-LTE modelings of both AGNs and SB galax- ApJ,696,1466
+ieswithsufficientlyhighresolutionstospatiallyresolvetheir Bayet,E.,Williams,D.A.,Hartquist,T.W.,&Viti,S.2011,MNRAS,414,
+1583
+CNDs,aswasrecentlyconductedbyVitietal.(2014).More-
+Beirão,P.,Armus,L.,Helou,G.,etal.2012,ApJ,751,144
+over, as presented in Section 6, there are still various com-
+Blake,G.A.,Sutton,E.C.,Masson,C.R.,&Phillips,T.G.1987,ApJ,315,
+peting chemical interpretations for the HCN-enhancement. 621
+Higher resolution observations of not only typical and rela- Blustin,A.J.,Kriss,G.A.,Holczer,T.,etal.2007,A&A,466,107
+tivelybrightdense moleculargastracers(e.g., HCN, HCO+, Bolatto,A.D.,Jackson,J.M.,Israel,F.P.,Zhang,X.,&Kim,S.2000,ApJ,
+545,234
+HNC,andCS),butalsorarerspecieswhicharemoresuscep-
+Bolatto,A.D.,Warren,S.R.,Leroy,A.K.,etal.2013,Nature,499,450
+tible to the variationof theunderlyingchemistry(e.g., NH 3 , Bonatto,C.J.,&Pastoriza,M.G.1990,ApJ,353,445
+CH 3 CN, HNCO,CH 3 OH,andSiO)willbeinevitabletotest Brandl,B.R.,Martín-Hernández,N.L.,Schaerer,D.,Rosenberg,M.,&van
+them. derWerf,P.P.2012,A&A,543,A61
+Brandl,B.R.,Bernard-Salas,J.,Spoon,H.W.W.,etal.2006,ApJ,653,
+1129
+Bregman,J.N.,Schulman,E.,&Tomisaka,K.1995,ApJ,439,155
+We appreciatethe anonymousrefereeforthecarefulread-
+Brooks,K.J.,&Whiteoak,J.B.1997,MNRAS,291,395
+ing and for the very kind comments to improve this pa-
+Carlson,L.R.,Sewiło,M.,Meixner,M.,Romita,K.A.,&Lawton,B.2012,
+per. This paper makes use of the following ALMA data: A&A,542,A66
+ADS/JAO.ALMA#2011.0.00083.S. ALMA is a partnership Charnley,S.B.1997,ApJ,481,396
+of ESO (representing its member states), NSF (USA), and Charnley,S.B.,&Rodgers,S.D.2005,inIAUSymposium,Vol.231,
+Astrochemistry:RecentSuccessesandCurrentChallenges,ed.D.C.Lis,
+NINS (Japan), together with NRC (Canada) and NSC and
+G.A.Blake,&E.Herbst,237–246
+ASIAA (Taiwan), in cooperation with the Republic of
+Chen,C.-H.R.,Indebetouw,R.,Chu,Y.-H.,etal.2010,ApJ,721,1206
+Chile. The Joint ALMA Observatory is operated by ESO, Chou,R.C.Y.,Peck,A.B.,Lim,J.,etal.2007,ApJ,670,116
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FORAN ENERGYDIAGNOSTICS IN GALAXIES 19
+Collier,S.J.,Horne,K.,Kaspi,S.,etal.1998,ApJ,500,162 Knudsen,K.K.,Walter,F.,Weiss,A.,etal.2007,ApJ,666,156
+Condon,J.J.,Condon,M.A.,Gisler,G.,&Puschell,J.J.1982,ApJ,252, Kohno,K.2005,inAmericanInstituteofPhysicsConferenceSeries,Vol.
+102 783,TheEvolutionofStarbursts,ed.S.Hüttmeister,E.Manthey,
+Costagliola,F.,Aalto,S.,Rodriguez,M.I.,etal.2011,A&A,528,A30 D.Bomans,&K.Weis,203–208
+Costagliola,F.,Sakamoto,K.,Muller,S.,etal.2015,A&A,582,A91 Kohno,K.,Ishizuki,S.,Matsushita,S.,Vila-Vilaró,B.,&Kawabe,R.2003,
+Cunningham,M.R.,&Whiteoak,J.B.2005,MNRAS,364,37 PASJ,55,L1
+Davies,R.,Mark,D.,&Sternberg,A.2012,A&A,537,A133 Kohno,K.,Matsushita,S.,Vila-Vilaró,B.,etal.2001,inAstronomical
+Davies,R.I.,MüllerSánchez,F.,Genzel,R.,etal.2007,ApJ,671,1388 SocietyofthePacificConferenceSeries,Vol.249,TheCentral
+Davis,T.A.,Bayet,E.,Crocker,A.,Topal,S.,&Bureau,M.2013, KiloparsecofStarburstsandAGN:TheLaPalmaConnection,ed.J.H.
+MNRAS,433,1659 Knapen,J.E.Beckman,I.Shlosman,&T.J.Mahoney,672
+Díaz-Santos,T.,Alonso-Herrero,A.,Colina,L.,Ryder,S.D.,&Knapen, Kohno,K.,Nakanishi,K.,Tosaki,T.,etal.2008,Ap&SS,313,279
+J.H.2007,ApJ,661,149 Koo,B.-C.,&Moon,D.-S.1997,ApJ,485,263
+Dickinson,D.F.,RodriguezKuiper,E.N.,Dinger,A.S.C.,&Kuiper, Kotilainen,J.K.,Moorwood,A.F.M.,Ward,M.J.,&Forbes,D.A.1996,
+T.B.H.1980,ApJ,237,L43 A&A,305,107
+Durret,F.,&Bergeron,J.1988,A&AS,75,273 Krips,M.,Neri,R.,García-Burillo,S.,etal.2008,ApJ,677,262
+Elitzur,M.1983,ApJ,267,174 Krips,M.,Martín,S.,Eckart,A.,etal.2011,ApJ,736,37
+Esplugues,G.B.,Viti,S.,Goicoechea,J.R.,&Cernicharo,J.2014,A&A, Lepp,S.,&Dalgarno,A.1996,A&A,306,L21
+567,A95 Lindblad,P.O.1999,A&ARev.,9,221
+Esquej,P.,Alonso-Herrero,A.,González-Martín,O.,etal.2014,ApJ,780, Lípari,S.,Díaz,R.,Taniguchi,Y.,etal.2000,AJ,120,645
+86 Lira,P.,Ward,M.,Zezas,A.,Alonso-Herrero,A.,&Ueno,S.2002,
+Fathi,K.,Lundgren,A.A.,Kohno,K.,etal.2013,ApJ,770,L27 MNRAS,330,259
+Fernández-Ontiveros,J.A.,Prieto,M.A.,&Acosta-Pulido,J.A.2009, Liu,J.-F.,&Bregman,J.N.2005,ApJS,157,59
+MNRAS,392,L16 Liu,T.,Wang,J.-X.,Yang,H.,Zhu,F.-F.,&Zhou,Y.-Y.2014,ApJ,783,106
+Flower,D.R.,&PineaudesForêts,G.2013,MNRAS,436,2143 Loenen,A.F.,Spaans,M.,Baan,W.A.,&Meijerink,R.2008,A&A,488,
+Forbes,D.A.,Kotilainen,J.K.,&Moorwood,A.F.M.1994,ApJ,433,L13 L5
+FörsterSchreiber,N.M.,Genzel,R.,Lutz,D.,&Sternberg,A.2003,ApJ, Lonsdale,C.J.,Lonsdale,C.J.,Smith,H.E.,&Diamond,P.J.2003,ApJ,
+599,193 592,804
+Fukui,Y.,Kawamura,A.,Minamidani,T.,etal.2008,ApJS,178,56 Macri,L.M.,Stanek,K.Z.,Bersier,D.,Greenhill,L.J.,&Reid,M.J.2006,
+Galliano,E.,Alloin,D.,Granato,G.L.,&Villar-Martín,M.2003,A&A, ApJ,652,1133
+412,615 Maiolino,R.,Comastri,A.,Gilli,R.,etal.2003,MNRAS,344,L59
+Galliano,E.,Alloin,D.,Pantin,E.,Lagage,P.O.,&Marco,O.2005,A&A, Maloney,P.R.,Hollenbach,D.J.,&Tielens,A.G.G.M.1996,ApJ,466,
+438,803 561
+Galliano,F.,Dwek,E.,&Chanial,P.2008,ApJ,672,214 Marconi,A.,Oliva,E.,vanderWerf,P.P.,etal.2000,A&A,357,24
+García-Burillo,S.,Usero,A.,Fuente,A.,etal.2010,A&A,519,A2 Marinucci,A.,Bianchi,S.,Nicastro,F.,Matt,G.,&Goulding,A.D.2012,
+García-Burillo,S.,Combes,F.,Usero,A.,etal.2014,A&A,567,A125 ApJ,748,130
+Garrod,R.T.,Weaver,S.L.W.,&Herbst,E.2008,ApJ,682,283 Marinucci,A.,Bianchi,S.,Matt,G.,etal.2015,ArXive-prints,
+Genzel,R.,Weitzel,L.,Tacconi-Garman,L.E.,etal.1995,ApJ,444,129 arXiv:1511.03503
+González-Alfonso,E.,Fischer,J.,Graciá-Carpio,J.,etal.2012,A&A,541, Martín,S.,Mauersberger,R.,Martín-Pintado,J.,Henkel,C.,&
+A4 García-Burillo,S.2006,ApJS,164,450
+Graciá-Carpio,J.,García-Burillo,S.,Planesas,P.,&Colina,L.2006,ApJ, Martín,S.,Kohno,K.,Izumi,T.,etal.2015,A&A,573,A116
+640,L135 Mason,R.E.,Levenson,N.A.,Packham,C.,etal.2007,ApJ,659,241
+Greenhill,L.J.,Gwinn,C.R.,Antonucci,R.,&Barvainis,R.1996,ApJ, Matsushita,S.,Kohno,K.,Vila-Vilaro,B.,Tosaki,T.,&Kawabe,R.1998,
+472,L21 ApJ,495,267
+Guainazzi,M.,Matt,G.,Brandt,W.N.,etal.2000,A&A,356,463 Matsushita,S.,Trung,D.-V.,Boone,F.,etal.2015,ApJ,799,26
+Harada,N.,Herbst,E.,&Wakelam,V.2010,ApJ,721,1570 Matt,G.,Fabian,A.C.,Guainazzi,M.,etal.2000,MNRAS,318,173
+Harada,N.,Thompson,T.A.,&Herbst,E.2013,ApJ,765,108 Mauersberger,R.,Henkel,C.,Weiß,A.,Peck,A.B.,&Hagiwara,Y.2003,
+Hicks,E.K.S.,Davies,R.I.,Malkan,M.A.,etal.2009,ApJ,696,448 A&A,403,561
+Hollenbach,D.J.,&Tielens,A.G.G.M.1997,ARA&A,35,179 Meier,D.S.,Walter,F.,Bolatto,A.D.,etal.2015,ApJ,801,63
+—.1999,ReviewsofModernPhysics,71,173 Meijerink,R.,&Spaans,M.2005,A&A,436,397
+Hsieh,P.-Y.,Ho,P.T.P.,Kohno,K.,Hwang,C.-Y.,&Matsushita,S.2012, Meijerink,R.,Spaans,M.,&Israel,F.P.2006,ApJ,650,L103
+ApJ,747,90 —.2007,A&A,461,793
+Hsieh,P.-Y.,Matsushita,S.,Lim,J.,Kohno,K.,&Sawada-Satoh,S.2008, Meijerink,R.,Spaans,M.,Kamp,I.,etal.2013,JournalofPhysical
+ApJ,683,70 ChemistryA,117,9593
+Hunter,I.,Brott,I.,Langer,N.,etal.2009,A&A,496,841 Meijerink,R.,Spaans,M.,Loenen,A.F.,&vanderWerf,P.P.2011,A&A,
+Imanishi,M.,Dudley,C.C.,Maiolino,R.,etal.2007a,ApJS,171,72 525,A119
+Imanishi,M.,Dudley,C.C.,&Maloney,P.R.2006,ApJ,637,114 Melo,V.P.,Muñoz-Tuñón,C.,Maíz-Apellániz,J.,&Tenorio-Tagle,G.
+Imanishi,M.,Nakagawa,T.,Shirahata,M.,Ohyama,Y.,&Onaka,T.2010, 2005,ApJ,619,270
+ApJ,721,1233 Minamidani,T.,Mizuno,N.,Mizuno,Y.,etal.2008,ApJS,175,485
+Imanishi,M.,&Nakanishi,K.2013a,AJ,146,91 Minamidani,T.,Tanaka,T.,Mizuno,Y.,etal.2011,AJ,141,73
+—.2013b,AJ,146,47 Miyamoto,Y.,Nakai,N.,Seta,M.,etal.2015,PASJ,67,5
+—.2014,AJ,148,9 Mizuno,Y.,Kawamura,A.,Onishi,T.,etal.2010,PASJ,62,51
+Imanishi,M.,Nakanishi,K.,Kuno,N.,&Kohno,K.2004,AJ,128,2037 Mouri,H.1994,ApJ,427,777
+Imanishi,M.,Nakanishi,K.,Tamura,Y.,Oi,N.,&Kohno,K.2007b,AJ, MüllerSánchez,F.,Davies,R.I.,Genzel,R.,etal.2009,ApJ,691,749
+134,2366 Müller-Sánchez,F.,Prieto,M.A.,Hicks,E.K.S.,etal.2011,ApJ,739,69
+Izumi,T.,Kohno,K.,Martín,S.,etal.2013,PASJ,65,100 Nakajima,T.,Takano,S.,Kohno,K.,&Inoue,H.2011,ApJ,728,L38
+Izumi,T.,Kohno,K.,Aalto,S.,etal.2015,ApJ,811,39 Nakajima,T.,Takano,S.,Kohno,K.,etal.2015,PASJ,67,8
+Jackson,J.M.,Paglione,T.A.D.,Ishizuki,S.,&Nguyen-Q-Rieu.1993, Nandra,K.,Le,T.,George,I.M.,etal.2000,ApJ,544,734
+ApJ,418,L13 Nomura,H.,&Millar,T.J.2004,A&A,414,409
+Jaffe,W.,Meisenheimer,K.,Röttgering,H.J.A.,etal.2004,Nature,429, Norris,R.P.,&Forbes,D.A.1995,ApJ,446,594
+47 O’Connell,R.W.,&Mangano,J.J.1978,ApJ,221,62
+Jenkins,L.P.,Roberts,T.P.,Ward,M.J.,&Zezas,A.2004,MNRAS,352, Ohyama,Y.,Taniguchi,Y.,Iye,M.,etal.2002,PASJ,54,891
+1335 Okada,Y.,Requena-Torres,M.A.,Güsten,R.,etal.2015,A&A,580,A54
+Kazandjian,M.V.,Meijerink,R.,Pelupessy,I.,Israel,F.P.,&Spaans,M. Oliveira,J.M.,vanLoon,J.T.,Stanimirovic´,S.,&Zijlstra,A.A.2006,
+2012,A&A,542,A65 MNRAS,372,1509
+—.2015,A&A,574,A127 Olsson,E.,Aalto,S.,Thomasson,M.,&Beswick,R.2010,A&A,513,A11
+Kennicutt,Jr.,R.C.1998,ApJ,498,541 Osterbrock,D.E.,&Ferland,G.J.2006,Astrophysicsofgaseousnebulae
+Kim,D.-C.,Veilleux,S.,&Sanders,D.B.2002,ApJS,143,277 andactivegalacticnuclei
+
+=====PAGE=====
+20 T. IZUMIETAL.
+Paglione,T.A.D.,Tosaki,T.,&Jackson,J.M.1995,ApJ,454,L117 Soifer,B.T.,Bock,J.J.,Marsh,K.,etal.2003,AJ,126,143
+Pan,H.-A.,Lim,J.,Matsushita,S.,Wong,T.,&Ryder,S.2013,ApJ,768, Spoon,H.W.W.,&Holt,J.2009,ApJ,702,L42
+57 Spoon,H.W.W.,Keane,J.V.,Tielens,A.G.G.M.,Lutz,D.,&Moorwood,
+Papadopoulos,P.P.2007,ApJ,656,792 A.F.M.2001,A&A,365,L353
+Paron,S.,Ortega,M.E.,Cunningham,M.,etal.2014,A&A,572,A56 Sternberg,A.,Genzel,R.,&Tacconi,L.1994,ApJ,436,L131
+Paron,S.,Ortega,M.E.,Fariña,C.,etal.2015,ArXive-prints, Storchi-Bergmann,T.1991,MNRAS,249,404
+arXiv:1510.01246 Storchi-Bergmann,T.,Eracleous,M.,TeresaRuiz,M.,etal.1997,ApJ,489,
+Pasham,D.R.,Strohmayer,T.E.,&Mushotzky,R.F.2014,Nature,513,74 87
+Patruno,A.,PortegiesZwart,S.,Dewi,J.,&Hopman,C.2006,MNRAS, Storchi-Bergmann,T.,Nemmen,R.S.,Spinelli,P.F.,etal.2005,ApJ,624,
+370,L6 L13
+Peterson,B.M.,Grier,C.J.,Horne,K.,etal.2014,ApJ,795,149 Strickland,D.K.,Colbert,E.J.M.,Heckman,T.M.,etal.2001,ApJ,560,
+Puccetti,S.,Comastri,A.,Fiore,F.,etal.2014,ApJ,793,26 707
+Rawlings,J.M.C.,Redman,M.P.,Keto,E.,&Williams,D.A.2004, Strickland,D.K.,Heckman,T.M.,Colbert,E.J.M.,Hoopes,C.G.,&
+MNRAS,351,1054 Weaver,K.A.2004,ApJ,606,829
+Rieke,G.H.,Loken,K.,Rieke,M.J.,&Tamblyn,P.1993,ApJ,412,99 Tacconi,L.J.,Genzel,R.,Blietz,M.,etal.1994,ApJ,426,L77
+Riffel,R.A.,Vale,T.B.,Storchi-Bergmann,T.,&McGregor,P.J.2014, Takano,S.,Takano,T.,Nakai,N.,Kawaguchi,K.,&Schilke,P.2013,A&A,
+MNRAS,442,656 552,A34
+Rodgers,S.D.,&Charnley,S.B.2001,ApJ,546,324 Takano,S.,Nakajima,T.,Kohno,K.,etal.2014,PASJ,66,75
+Rosenberg,M.J.F.,Kazandjian,M.V.,vanderWerf,P.P.,etal.2014a, Telesco,C.M.,&Decher,R.1988,ApJ,334,573
+A&A,564,A126 Telesco,C.M.,&Harper,D.A.1980,ApJ,235,392
+Rosenberg,M.J.F.,Meijerink,R.,Israel,F.P.,etal.2014b,A&A,568,A90 Thean,A.,Pedlar,A.,Kukula,M.J.,Baum,S.A.,&O’Dea,C.P.2000,
+Sakamoto,K.,Aalto,S.,Costagliola,F.,etal.2013,ApJ,764,42 MNRAS,314,573
+Sakamoto,K.,Aalto,S.,Evans,A.S.,Wiedner,M.C.,&Wilner,D.J.2010, Tsai,A.-L.,Matsushita,S.,Kong,A.K.H.,Matsumoto,H.,&Kohno,K.
+ApJ,725,L228 2012,ApJ,752,38
+Sakamoto,K.,Ho,P.T.P.,Mao,R.-Q.,Matsushita,S.,&Peck,A.B.2007, Tully,R.B.1988,Nearbygalaxiescatalog
+ApJ,654,782 Ulvestad,J.S.,&Antonucci,R.R.J.1997,ApJ,488,621
+Sakamoto,K.,Ho,P.T.P.,&Peck,A.B.2006a,ApJ,644,862 Usero,A.,García-Burillo,S.,Fuente,A.,Martín-Pintado,J.,&
+Sakamoto,K.,Mao,R.-Q.,Matsushita,S.,etal.2011,ApJ,735,19 Rodríguez-Fernández,N.J.2004,A&A,419,897
+Sakamoto,K.,Ho,P.T.P.,Iono,D.,etal.2006b,ApJ,636,685 vanderTak,F.F.S.,Black,J.H.,Schöier,F.L.,Jansen,D.J.,&van
+Sanders,D.B.,Mazzarella,J.M.,Kim,D.-C.,Surace,J.A.,&Soifer,B.T. Dishoeck,E.F.2007,A&A,468,627
+2003,AJ,126,1607 Veilleux,S.,Kim,D.-C.,&Sanders,D.B.1999,ApJ,522,113
+Sani,E.,Davies,R.I.,Sternberg,A.,etal.2012,MNRAS,424,1963 Veilleux,S.,Kim,D.-C.,Sanders,D.B.,Mazzarella,J.M.,&Soifer,B.T.
+Sault,R.J.,Teuben,P.J.,&Wright,M.C.H.1995,inAstronomicalSociety 1995,ApJS,98,171
+ofthePacificConferenceSeries,Vol.77,AstronomicalDataAnalysis Véron-Cetty,M.-P.,&Véron,P.2010,A&A,518,A10
+SoftwareandSystemsIV,ed.R.A.Shaw,H.E.Payne,&J.J.E.Hayes, Viti,S.,García-Burillo,S.,Fuente,A.,etal.2014,A&A,570,A28
+433 Walton,D.J.,Risaliti,G.,Harrison,F.A.,etal.2014,ApJ,788,76
+Schinnerer,E.,Eckart,A.,Quirrenbach,A.,etal.1997,ApJ,488,174 Wang,M.,Chin,Y.-N.,Henkel,C.,Whiteoak,J.B.,&Cunningham,M.
+Schinnerer,E.,Eckart,A.,Tacconi,L.J.,Genzel,R.,&Downes,D.2000, 2009,ApJ,690,580
+ApJ,533,850 Weaver,K.A.,Heckman,T.M.,Strickland,D.K.,&Dahlem,M.2002,
+Schleicher,D.R.G.,Spaans,M.,&Klessen,R.S.2010,A&A,513,A7 ApJ,576,L19
+Schöier,F.L.,vanderTak,F.F.S.,vanDishoeck,E.F.,&Black,J.H.2005, Weiß,A.,Kovács,A.,Güsten,R.,etal.2008,A&A,490,77
+A&A,432,369 Wu,Y.,Charmandaris,V.,Huang,J.,Spinoglio,L.,&Tommasin,S.2009,
+Scott,J.E.,Kriss,G.A.,Lee,J.C.,etal.2005,ApJ,634,193 ApJ,701,658
+Scoville,N.,Sheth,K.,Walter,F.,etal.2015,ApJ,800,70 Yamada,M.,Wada,K.,&Tomisaka,K.2007,ApJ,671,73
+Scoville,N.Z.,Soifer,B.T.,Neugebauer,G.,etal.1985,ApJ,289,129 Zepf,S.E.,Ashman,K.M.,English,J.,Freeman,K.C.,&Sharples,R.M.
+Scoville,N.Z.,&Solomon,P.M.1974,ApJ,187,L67 1999,AJ,118,752
+Seale,J.P.,Looney,L.W.,Chu,Y.-H.,etal.2009,ApJ,699,150 Zhang,Z.-Y.,Gao,Y.,Henkel,C.,etal.2014,ApJ,784,L31
+Seale,J.P.,Looney,L.W.,Wong,T.,etal.2012,ApJ,751,42 Zhao,J.-H.,Anantharamaiah,K.R.,Goss,W.M.,&Viallefond,F.1997,
+Snell,R.L.,Narayanan,G.,Yun,M.S.,etal.2011,AJ,141,38 ApJ,482,186
+APPENDIX
+A.NOTESONINDIVIDUALGALAXIES
+This Appendix provides some basic information on the individual galaxies collected in Table 1 and Figure 1, reported in
+previousstudies. TheinformationwascompiledmainlyfromtheperspectiveofnuclearenergeticsasmentionedinSection2.
+NGC1068
+UndoubtedlythisisoneofthebeststudiedSeyfertgalaxieshostingaluminoustype-2AGN(L 2- 10keV =1043.0ergs- 1;Marinucci
+etal.2012). BroadBalmeremissionlinesareobservedinthepolarizedlight(Antonucci&Miller1985),whichisasupportive
+evidence for the unified model of AGNs (Antonucci1993). In X-rays, this AGN is known to be substantially Compton thick
+with N ∼ 1025 cm- 2 along the line of sight (e.g., Matt et al. 2000; Marinucci et al. 2012, 2015). NGC 1068 also hosts a
+H
+ring- or arm-like SB region with a diameter of ∼ 30′′ (Telesco & Decher 1988). Several unbiased line surveys with single
+dishtelescopesand/orinterferometricobservationsofindividualmolecularlineemissionsatmillimeter/submillimeterhavebeen
+conductedtowardsthisAGN (e.g., Usero etal. 2004;Kripsetal. 2011;Aladroetal. 2013;Takanoetal. 2014;García-Burillo
+etal.2014;Nakajimaetal.2015). TheCNDisbrightnotonlyinCObutalso,andmoredistinctively,indensegastracerssuch
+asHCNandHCO+ lines(e.g.,Schinnereretal.2000;Kohnoetal.2008;García-Burilloetal.2014). ThisCNDmainlyconsists
+oftwobrightknots,namely,EastandWestknots,whichare∼100pcawayfromtheexactlocationoftheAGN.Interestingly,
+HCN(4-3)/HCO+(4-3)lineratioistwotimeshigherattheseknotsthanattheAGNlocation(García-Burilloetal.2014). NGC
+1068isalsoknowntopossessaradiojet,ionizedoutflow,andprominentmolecularoutflow,whichmightbeinteractingwiththe
+CND(e.g.,Kripsetal.2011).
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FORAN ENERGYDIAGNOSTICS IN GALAXIES 21
+NGC1097
+Thisgalaxyhostsalowluminositytype-1AGN(LLAGN,L 2- 10keV =1040.8 ergs- 1;Liuetal.2014)asevidencedbydouble-
+peakedbroadBalmeremissionlineswithtimevariability(FWHM∼7500kms- 1;Storchi-Bergmannetal.1997).Interestingly,
+NGC 1097 also showed a transient phenomenon from a LINER nucleus to a type-1 AGN. This LLAGN and the CND are
+surroundedby a circumnuclearSB ring with a radiusof ∼ 10′′ = 700pc (Barth et al. 1995). At infrared, Mason et al. (2007)
+reported the absence of 3.3 µm PAH feature at sub-arcsec scale in the CND, which is typical for strong radiation field. But
+attemptstofittheIR-datawithclumpytorusmodelsfailed,whichledMasonetal.(2007)toconcludethatthetorusisabsentor
+weak. Alternatively,theyarguedanuclearstar-formingcluster,whichislikelyco-existingwiththeLLAGN(Storchi-Bergmann
+etal.2005)wouldbedominantatleastinMIRenergetics.BoththeCNDandtheSBringaccompanylargeamountofmolecular
+gasprominentine.g.,CO,HCN,HCO+emissions(e.g.,I13;Hsiehetal.2008,2012;Kohnoetal.2003).Ithasbeenclaimedthat
+the CND is warm evenin the molecularphase (∼severalhundredsK; I13; Beirão etal. 2012), whichwouldbe heatedbythe
+AGNthroughradiativelyand/ormechanically.
+NGC1365
+This archetypal barred spiral galaxy hosts both a Seyfert 1.5 nucleus (L 2- 10keV = 1042.3 erg s- 1; Liu et al. 2014) with time
+variability(Waltonetal.2014)andacircumnuclearSBringwitharadiusof5′′-10′′. Severalstarclustersareembeddedinside
+the SB ring (Galliano et al. 2005). A comprehensivereview of this galaxycan be foundin Lindblad(1999). Alonso-Herrero
+etal.(2012b)estimatedthattheAGNcontributesonly∼5%ofthetotalIRemissioninthecentral∼5kpc,althoughitseems
+todominatetheenergeticsatλ.24µm. PreviousCOmulti-transitionobservationsrevealedthatmostoftheiremissionscomes
+fromthe SB ring, andlittle is fromaroundthe Seyfertnucleus(Sakamotoet al. 2007). Thissuggeststhatthe primaryheating
+sourceofmoleculargasistheSBactivityinthering,ratherthantheAGN,althoughthespatialdistributionofdensegastracers
+suchasHCNandHCO+ iscurrentlyunknown.Highresolutionobservationsofthemarethusdesirable.
+NGC4945
+ThisgalaxycontainsanAGNasevidencedbyitsstrongandrapidlyvariableX-rayemission(Guainazzietal.2000;Puccetti
+etal.2014). Theintrinsic2-10keVluminosityisestimatedtobeL 2- 10keV =1042.5 ergs- 1 (Guainazzietal.2000). TheAGNis
+classifiedasSeyfert2withahugeamountofobscuringmaterial(N =1024.5cm- 2;Puccettietal.2014). Ithasalsobeenfound
+H
+thatNGC4945exhibitsa prominentSB activityincludinga largeIRluminosityandIRAScolorsimilar to a giantHIIregion,
+butalmostanedge-onview(i=78◦)haspreventeddetailedstudyatopticalwavelengths.Marconietal.(2000)reportedthatthe
+spatialdistributionofthestarburstingregionisring-likewitharadiusof∼2.5′′(50pc),whichisvisiblemostclearlyinaPaα
+map. Chouetal.(2007)arguedthatthisSBactivity,ratherthantheAGN,isthedominantheatingsourcefordustinthenuclear
+region. Furthermore,interferometricHCN(1-0), HCO+(1-0), and HNC(1-0) observationsrevealedthat these dense gas tracers
+areemittedfromaninclinedrotatingdisk-likecomponentwitharadiusof∼4′′(Cunningham&Whiteoak2005),i.e.,emanating
+frombotharoundtheAGNandtheSBring.Higherresolutionobservationsarethusnecessarytoobtainreliablespectrumofeach
+component.
+NGC7469
+Theexistenceofatype-1AGN(L 2- 10keV =1043.2ergs- 1;Liuetal.2014)inthisgalaxyisevidencedbybroadBalmeremission
+lines(FWHM∼4370kms- 1;Petersonetal.2014)withtimevariability(Bonatto&Pastoriza1990;Collieretal.1998). Time
+variabilityisalsoconfirmedbyUVandX-rayobservations(e.g.,Nandraetal.2000;Scottetal.2005). Acorejet-likestructure
+(Lonsdale et al. 2003) and ionized outflows (Blustin et al. 2007) have been found, although high resolution H observations
+2
+could not detect any signature of jet-ISM (or outflow-ISM) interaction in the CND (e.g., Hicks et al. 2009). Similar to some
+otherSeyfertgalaxies,theAGNandtheCND ofNGC7469aresurroundedbyaprominentSBringwitharadiusof1.5′′-2.5′′
+(Soiferetal.2003;Díaz-Santosetal. 2007),whichaccountsfortwo-thirdsofthebolometricluminosityofthegalaxy(Genzel
+etal.1995). Insidethenuclearr.130pcregion,Daviesetal.(2007)reportedanexistenceofstarclusterswithmodestagesof
+110-190Myr. Asforthemolecularphase,Izumietal.(2015)reportedthesignificantconcentrationofHCN(4-3),HCO+(4-3),
+andCS(7-6)lineemissionstowardstheCND.
+NGC4418
+Thisisa luminousinfraredgalaxy(LIRG)with an infraredluminosityofL 8- 1000µm ∼ 1011 L ⊙ (Imanishietal. 2004). NGC
+4418showsnoclearAGNsignatureatopticalandX-ray(Armusetal.1989;Maiolinoetal.2003),However,the5-23µmMIR
+spectrumshowsa typicalfeatureof an obscuredAGN (Spoonetal. 2001). Furthermore,Imanishietal. (2004)foundthatthe
+nuclearstarformingactivityestimatedfromPAH emissioncanaccountforonly1/50ofthetotalIRluminosity,suggestingthe
+primaryenergysourceisdeeplyembeddedindustandgas.Indeed,Sakamotoetal.(2013)estimatedthedustcontinuumopacity
+at860µmissurprisinglyaslargeasτ ∼1,suggestingaconcordantlylargehydrogencolumndensityofN ∼1026cm- 2. As
+860µm H
+forthehiddenenergysource,Imanishietal.(2004)alsosuggestedthattheobservedlargeequivalentwidthofH emissionanda
+2
+highHCN(1-0)/HCO+(1-0)ratioatthenucleuscanbewellexplainedbythepresenceofastrongX-raysourcesuchasanAGN.
+Note that shock heating due to in/outflowsdetected by molecular observations(e.g., González-Alfonsoet al. 2012;Sakamoto
+etal. 2013)wouldalsoinfluencethesefeatures. Consideringtheabove,weclassifythisgalaxyasaburied-AGNinthispaper,
+althoughtheevidenceisstilltentative.
+
+=====PAGE=====
+22 T. IZUMIETAL.
+IRAS12127-1412
+Thisis a ULIRG with L 8- 1000µm = 1012.1 L ⊙ (Imanishiet al. 2006), consists of two nucleiwith a separationof ∼ 10′′ (Kim
+et al. 2002). Optical spectroscopy classified this object as a non-Seyfert(LINER or HII region; Veilleux et al. 1999), but the
+nuclearsourceisobscuredasindicatedbyalargesilicateopticaldepthof∼2.5-3.0(Imanishietal.2007a). IRobservations,on
+theotherhand,suggestthattheenergysourceoftheNorth-Eastnucleusisverycompact,whichisfurthercharacterizedbyweak
+PAHemissionsandasteeptemperaturegradient(Imanishietal.2006,2007a).Thesearecharacteristicfeaturestoburied-AGNs,
+thusweclassifythisobjectassuch.NotethatIRAS12127-1412hasa1.4GHzradioluminositywhichis∼4timesbrighterthan
+thevalueexpectedforastarforminggalaxy(Spoon&Holt2009),suggestingtheexistenceofanAGN-jet. Thishypothesized
+jetmayexplaintheobservedoutflowsignaturesin[NeIII]line(Spoon&Holt2009)aswell.
+M82
+Thisgalaxy,aswellasNGC253,isoneofthemoststudiedgalaxiesafterMilkyWay.Itisfamousforitsintensestarformation
+(SFR∼10M yr- 1;FörsterSchreiberetal.2003)andaprominentsuperwindatmanywavelengths(e.g.,Bregmanetal.1995;
+⊙
+Ohyamaetal.2002).ThecurrentSBregionextendsover∼500pccenteredonthenucleus(SBcore),whichconsistsoffourhigh
+surfacebrightnessclumpsdenotedasA,C,D,andEinO’Connell&Mangano(1978).ThebolometricluminosityoftheSBcore
+is ∼1010.8 L , halfof whichis emanatingfromOBstars (FörsterSchreiberet al. 2003). HigherresolutionHST observations
+⊙
+revealed that ∼ 200 super star clusters exist in that nuclear region (e.g., Melo et al. 2005). The SB history was extensively
+modeledbyRiekeetal.(1993)andFörsterSchreiberetal.(2003),whopredictedthattheburstsoccurred∼10and5Myrago
+eachlastingforafewMyr.TheestimatedageisconsistenttotheobservedmolecularpropertiessuggestingM82hostsanevolved
+SBwhoseenergeticsisdominatedbyradiativeprocesses(i.e.,PDRs) ratherthanshocks(e.g.,Aladroetal.2011). Notethatit
+hasbeenpostulatedthatM82hostsan intermediatemass blackholelocated at∼ 600pc awayfromthe nucleus(e.g., Patruno
+etal.2006;Pashametal.2014).
+NGC253
+The star formingregion of this nearest and IR-brightestSB galaxyis located in the central r . 500 pc (e.g., Scoville et al.
+1985). High resolution millimeter/submillimeter observations revealed that molecular gas in the nuclear region is distributed
+alonga700×200pcbar-likestructurecontainingseveraldenseclumps(e.g.,Paglioneetal.1995;Sakamotoetal.2006b,2011).
+TheSBactivityhasbeentakingplaceforatleastafewMyr,producinganIRluminosityof∼1010.5L (Telesco&Harper1980),
+⊙
+oraSFRof∼5M yr- 1 assumingaKennicutt-Schmidtrelation(Kennicutt1998). Thenuclearregionconsistsofanumberof
+⊙
+massivestellarclusters(e.g.,Fernández-Ontiverosetal.2009),someofwhichhavearadiocounterpart(Ulvestad&Antonucci
+1997). AssuminganinstantaneousSB,theageofthestellarclustersisestimatedtobe∼6Myr,whereastheywouldconsistof
+young(.4Myr)andold(∼10Myr)populationsinactual(Fernández-Ontiverosetal.2009).Prominentionizedandmolecular
+outflowsareemergingfromthisregionaswell(e.g.,Weaveretal.2002;Bolattoetal.2013). Consideringtherelativelyyoung
+stellarage,NGC253wouldbeinanearlyphaseofaSBevolution. Indeed,Martínetal.(2006)suggestedthatthelow-velocity
+shocksratherthanUVradiationwoulddominatethemolecularchemistryinNGC253.
+NGC1614
+The mergingsystem NGC 1614 is classified as a LIRG (L 8- 1000µm = 1011.6 L ⊙ ; Imanishi& Nakanishi2013b), which has a
+brightopticalcenterandtwospiralarmsatscalesofafewkpc. Atopticalwavelengths,itisclassifiedasaSBgalaxy(Veilleux
+etal.1995;Véron-Cetty&Véron2010). Indeed,2.5-30µmIRspectrum,prominent3.3µm PAH emission and4.05µmBrα
+emission(andtheir ratiosto IRluminosity),2.3µm stellar CO absorptionfeature,are typicalof a SBgalaxy(Alonso-Herrero
+etal.2001;Brandletal.2006;Imanishietal.2010),andthereisnoclearindicationofanAGNactivity.Thestarformingactivity
+issignificantlyconcentratedtowardsthenuclearregionasindicatedbyaSBringwitharadiusof∼300pcclearlyvisibleatPaα
+emission(Alonso-Herreroetal. 2001)andradioemission(e.g., Olsson et al. 2010). A low HCN(1-0)/HCO+(1-0)ratiois also
+supportiveofdominanceofSBactivity(Costagliolaetal.2011).
+NGC3256
+The late-stage mergingsystem NGC 3256is the most luminousgalaxywithin 40 Mpc with L 8- 1000µm = 1011.6 L ⊙ (Sanders
+et al. 2003), which has a double nucleus with a separation of ∼ 5′′ = 850 pc. The existence of the double nucleus has been
+revealedatradio,NIR,X-ray,aswellasmolecularlineemission(Norris&Forbes1995;Kotilainenetal.1996;Liraetal.2002;
+Sakamotoetal.2006a). AlthoughNGC3256isluminousinX-ray(L 0.5- 10keV ∼1042 ergs- 1;Liraetal.2002),thepresenceof
+anAGNisnotsupportedbyaconsiderableamountofobservationalevidence(Líparietal.2000;Liraetal.2002;Jenkinsetal.
+2004). TherelativelystrongX-rayemissionwouldbestellaroriginsincehundredsofyoungstellarclustershavebeenfoundin
+thecentralregionofthissystem(Zepfetal.1999;Alonso-Herreroetal.2002). Indeed,theabovementionedX-rayluminosity
+isconsistentwith the boundaryto separateAGNsfromSB galaxiesfoundin deepX-raysurveys(e.g.,Alexanderetal.2005).
+Therefore,weclassifythisobjectasaSBgalaxyinthispaper.
+NGC3628
+StarburstgalaxyNGC3628(L 8- 1000µm =1010.3 L ⊙ ;Sandersetal.2003)isamemberoftheLeoTriplet(Arp317),including
+NGC3627andNGC3623aswell. Radioobservationsofbothcontinuumandhydrogenrecombinationlineemissionsrevealed
+this galaxy shows a SB activity in its central ∼ 500 pc region (Condon et al. 1982; Zhao et al. 1997). A large scale galactic
+wind,relatingthisSB,hasbeendetectedinX-rayandHαemissions(Stricklandetal.2001,2004). Inaddition,asub-kpcscale
+
+=====PAGE=====
+SUBMM-HCN DIAGRAM FORAN ENERGYDIAGNOSTICS IN GALAXIES 23
+Figure11. Excitationtemperature(Tex)ofHCO+(4-3)asafunctionofbackgroundtemperature(Tbg).Theredsquare,orangecircle,andbluediamondsymbols
+indicatethemodelswithgaskinetictemperature(Tkin)of200,100,and50K,respectively. Weherefixedgasvolumedensity(nH2 )to105cm- 3. Fourcasesof
+theline-of-sightcolumndensitytothevelocitywidthratio(N HCO+/dV)of(a)5×1012,(b)5×1013,(c)5×1014,and(d)5×1015cm- 2(kms- 1)- 1areshown.
+Notethatthescaleofthey-axisinthepanel-(d)isdifferentfromtheothers. ThedashedlineineachpanelindicatestheTex=Tbg. Somecaseswheretheline
+emissionshowsamaserfeatureareexcluded.TheoveralltrendissimilartothatofHCN(4-3)asshowninFigure3.
+molecularoutflowisalsofound(Tsaietal.2012).NotethatanX-raypointsource(L 0.3- 8.0keV ∼1040ergs- 1),whichisacandidate
+ofanintermediatemassblackhole,wasdiscoveredinthisgalaxy(Stricklandetal.2001).Butthelocationoftheobjectisatleast
+20′′awayfromthenucleus.Thus,itwouldhavenocontributiontothemolecularlineobservationswithAPEX18′′beamusedin
+thispaper(Zhangetal.2014).
+NGC7552
+Anearlyface-onbarredspiralgalaxyNGC7552(L 8- 1000µm =1010.9 L ⊙ ;Sandersetal.2003)hasbeenclassifiedasaLINER
+galaxy due to its weak [OI] emission (Durret & Bergeron 1988). It hosts a prominentcircumnuclear ring with a radius of ∼
+2.5′′ or250pc,whichisthepoweringsourceofaSBactivity(e.g.,Schinnereretal.1997;Brandletal.2012). ThisSBringis
+occupiedbyanumberofyoungstellarclusters(Brandletal.2012),whichwouldbeformedabout10Myrago(Schinnereretal.
+1997). InsidetheSB ring,neitherX-ray(Liu&Bregman2005)norNIR(Forbesetal.1994)observationshaveshowna clear
+evidenceofanuclearactivity. Therefore,thisgalaxyisgenuinelyaSBgalaxy. Highresolutionobservationsrevealedthatdense
+moleculargasismainlyconcentratedtotheSBring(Panetal.2013).
+IRAS13242-5713
+Unlikeothersamplegalaxies,observationalinformationonthisLIRG(L 8- 1000µm =1011.0L ⊙ ;Sandersetal.2003)iscurrently
+verylimited. However,basedontheMIRobservationswithSpitzerIRS,Alonso-Herreroetal.(2012a)reportedthatanAGN,if
+itexists,hasalmostnocontributiontotheMIRspectrum. Indeed,[NeV]14.32µm,whichisanindicatorofanexistenceofan
+AGN,wasnotdetected(Alonso-Herreroetal.2012a). Then,althoughtheobservationalevidenceislacked,weconcludethatan
+AGNisabsent,oratleastnegligibletotheenergybudgetinthisgalaxy,andclassifyitasaSBgalaxy.
+N113
+ThisisanHIIregionintheLargeMagellanicCloud(LMC)associatedwithaclumpymolecularcloud(Sealeetal.2012)with
+amassofafew×105 M intotal(Wangetal.2009). Themolecularcloudisasiteofmassivestarformation,asevidencedby
+⊙
+severalembeddedyoungstellarobjects(YSOs)(e.g.,Sealeetal.2009,2012;Carlsonetal.2012). N113hoststhemostintense
+H OmaseroftheMagellanicClouds(e.g.,Oliveiraetal.2006)andOHmaseraswell(Brooks&Whiteoak1997). Thisregion
+2
+(andtheLMCaswell) ischaracterizedbyitslow-metallicityISM(Z ∼1/3Z ; e.g.,Hunteretal.2009). Therefore,thisisan
+⊙
+appropriateobjecttoinvestigatetheeffectofmetallicityonmolecularchemistry.
+N159
+Thisisalsothebest-studiedHIIregionintheLMC,closetotheevolvedstarburstof30Doradus.TheN159complexisatype-
+IIIgiantmolecularcloudasclassifiedbyFukuietal.(2008),i.e.,aGMCwithHIIregionsandyoungstarclusters. Indeed,this
+regionisknowntohostmanyYSOs,OHmasersources,andultra-compactHIIregions(e.g.,Chenetal.2010).Extensivestudies
+ofmolecularmaterialhavebeenconductedforthisregion(e.g.,Bolattoetal.2000;Mizunoetal.2010;Minamidanietal.2011;
+Okadaetal. 2015;Paronetal. 2015). Thetotalmassof clumpsvisibleat 12CO(3-2)emission is∼ 6 ×105 M (Minamidani
+⊙
+etal.2008).Recentnon-LTEmodelingsofhighdensitygastracerssuchasHCN,HCO+ andCSrevealedtheexistenceofwarm
+(T ∼80K)anddense(n ∼5×105 cm- 3)gas(Paronetal.2015). AsisthecaseofN113(andLMC),thisregionisalsoa
+kin H2
+sitewithlow-metallicity.
+B.EXCITATIONOFHCO+(4-3)ANDCS(7-6)UNDERNON-LTEWITHPHOTONTRAPPING
+The molecularexcitation temperature(T ) of HCO+(4-3)and CS(7-6) are shownin Figures11 and 12, as a functionof the
+ex
+backgroundradiation temperature(T ), respectively. The overalltrend is totally similar to the case of HCN(4-3) as shown in
+bg
+Figure3;T approachesT atT &10K,whenthelineisopticallythintomoderatelythick(lefttwopanels).Ontheotherhand,
+ex bg bg
+in the opticallythick cases, T is gettingclose to the gaskinetictemperature(T ) and independentof T , due to an efficient
+ex kin bg
+photontrappingeffect.
+
+=====PAGE=====
+24 T. IZUMIETAL.
+Figure12. SameasFigure11,butforthecasesofCS(7-6).

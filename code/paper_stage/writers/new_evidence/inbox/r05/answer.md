@@ -1,0 +1,6 @@
+Numbers: out/q52/s320.json (line integrals), s322.txt (continuum), recomputed in f3b_plot.py; they reproduce p0058 (1-0 2.5": 1.42/2.21/2.69/2.98; continuum 1.25/1.54). The 3-2 line N/S at 2.5" are also in s322.txt (HCO+ 1.49, HCN 2.87, HNC 3.36, CN 4.46) but are not plotted.
+
+Two points to correct or flag (not changes to published numbers):
+1. **Sign of the non-dust-continuum caveat.** p0058 (Open problems) says non-dust emission at S "would enlarge the deficit". Line/continuum N/S = (line N/S)/(cont N/S). Removing a non-dust part from the S continuum lowers cont_S, so the dust N/S rises and (line/dust) N/S falls: the deficit **shrinks**. (Derivation only; no extra data. The sign would flip only for non-dust emission at N.)
+2. **Td convention.** team-a p0058-r01 says the factor "nearly vanishes" at Td_N/Td_S = 2. With continuum ~ dust column x Td (RJ), line-per-dust-column N/S scales as x (Td_N/Td_S): it grows by 2 for Td_N/Td_S = 2 and halves for 0.5 (HCN 3-2 2.49 -> 1.24). It nearly vanishes at Td_N/Td_S = 0.5 (N colder), or at 2 if Td_S/Td_N was meant. Figure uses Td_N/Td_S as in the request. Comparing species with HCO+ removes the dependence.
+Also note team-a's own 1.4" normalised values (HCN 2.56, HNC 2.37, CN 2.98) differ from ours (2.49, 2.14, 2.98) by up to 10% (different pixel/HNC data; same sign).

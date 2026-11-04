@@ -1,0 +1,6 @@
+{
+ "id": "r11",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Resolve the estimator spread at 1.5 arcsec (peak pixel 1.91 from team-a 12m+ACA tapered images vs aperture r=1.5 arcsec 1.53 in s192 12m+7m). On the s192 12m+7m (and 12m-only) uv-tapered 1.5 and 2.2 arcsec HCN and HCO+ images give N/S with (i) peak pixel, (ii) apertures of radius 0.25, 0.5, 0.75 and 1.5 arcsec, same window/baseline, so N-S aperture overlap (1.45 arcsec separation) can be separated from dilution. Also confirm that the 12-m-only 1.5 arcsec value 1.578 in s192 is a 3-2 uv-taper result (team-a notes that 1-0 at 2.5 arcsec N/S is also 1.577) and give its N and S ratios. If feasible, taper the Xb4b data in the image plane with a uv-equivalent Gaussian weighting to test the convolution-vs-taper term (0.2-0.3) at 1.05 and 1.5 arcsec."
+}

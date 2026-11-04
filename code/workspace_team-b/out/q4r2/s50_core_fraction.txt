@@ -1,0 +1,48 @@
+Xb4b HCN 3-2 flux (Jy km/s): r<0.5 core 5.78; r<1.7 total (Xb4b) 15.97 -> f3(Xb4b)=0.36
+  HCN 3-2 flux r<1.7" Xb4d 0.94x0.74": 17.03 Jy km/s
+  HCN 3-2 flux r<2.5" Xb4d 0.94x0.74": 20.18 Jy km/s
+  HCN 3-2 flux r<3.5" Xb4d 0.94x0.74": 21.77 Jy km/s
+  HCN 3-2 flux r<1.7" Xb4f 5.7x3.5": 6.87 Jy km/s
+  HCN 3-2 flux r<2.5" Xb4f 5.7x3.5": 12.68 Jy km/s
+  HCN 3-2 flux r<3.5" Xb4f 5.7x3.5": 19.15 Jy km/s
+-> f3 referred to Xb4d total r<1.7" = 0.34 (Xb4b-only: 0.36); a core flux of 5.8 Jy km/s is 0.46 of the Xb4f r<2.5" flux
+L_tot = Tb(4-3)/Tb(3-2) at 6.5" (N, pos): {'HCN': 0.496, 'HCO+': 0.635} ; flux-scale (Band 6 vs 7) systematic ~15% on this ratio
+
+f4 = core fraction of the HCN 4-3 flux (central L_tot):
+Lc    mid 0.9  thick L_c=1.0  thin 0.57
+f3                                     
+0.15     0.27           0.30       0.17
+0.20     0.36           0.40       0.23
+0.25     0.45           0.50       0.29
+0.30     0.54           0.61       0.35
+0.36     0.65           0.73       0.41
+0.40     0.73           0.81       0.46
+0.50     0.91           1.00       0.58
+
+tau_core(HCN 4-3) upper limit [median over LH13 8.3/9.5; central L_tot]; rows f3, cols (core type, X):
+Lc   mid 0.9             thick L_c=1.0             thin 0.57            
+X        30    50    100           30    50    100       30    50    100
+f3                                                                      
+0.15    11.8  22.4  49.2          10.6  19.8  43.1      20.6  41.1  93.9
+0.20     8.7  16.2  34.8           7.9  14.4  30.8      14.3  27.6  61.3
+0.25     7.0  12.7  27.0           6.4  11.4  24.1      11.2  21.0  45.9
+0.30     5.9  10.6  22.2           5.4   9.5  19.9       9.2  17.1  36.9
+0.36     5.0   8.8  18.3           4.6   8.0  16.5       7.7  14.0  29.9
+0.40     4.6   8.0  16.5           4.2   7.3  14.8       6.9  12.6  26.6
+0.50     3.8   6.5  13.2           3.5   6.0  12.0       5.6  10.0  21.0
+
+whole band (f3 0.15-0.50, Ltot +-15%, L_c types, X 30-100, LH13 8.3-9.5): tau_core,max range & fraction of scenarios in which a tau>=10 core is allowed
+  mid 0.9: tau_max min 3.2  median 11.3  max 64.7; tau>=10 allowed in 55% of scenarios
+  thick L_c=1.0: tau_max min 3.2  median 10.4  max 56.2; tau>=10 allowed in 52% of scenarios
+  thin 0.57: tau_max min 4.5  median 18.8  max 137.3; tau>=10 allowed in 79% of scenarios
+  X=30: tau_max median 6.6; thick(>=10) allowed 22%
+  X=50: tau_max median 12.0; thick(>=10) allowed 63%
+  X=100: tau_max median 25.3; thick(>=10) allowed 100%
+
+thick-core (L_c=1.0) tau_max by f3 and X at LH13=9.5 (central):
+X     30    50    100
+f3                   
+0.20  7.1  13.2  28.2
+0.36  4.2   7.4  15.2
+0.50  3.2   5.5  11.1
+and f3 referred to Xb4d total (0.34), Xb4b-only (0.36)

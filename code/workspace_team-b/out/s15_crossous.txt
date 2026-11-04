@@ -1,0 +1,17 @@
+continuum peak (mJy/beam): region  Xb4b-conv  Xb4d  ratio
+  N 3.342 3.594 0.930
+  S 3.930 4.257 0.923
+  E1 1.431 1.486 0.963
+  E2 0.739 0.723 1.023
+HCO+ 3-2 core moment-0 (Jy/beam km/s, Xb4d beam): region Xb4b-conv Xb4d ratio
+  N 6.220 6.145 1.012
+  S 4.548 4.813 0.945
+  Bridge 3.153 3.436 0.918
+  E1 2.425 2.573 0.942
+  E2 1.539 1.514 1.016
+HCN 3-2 core moment-0 (Jy/beam km/s, Xb4d beam): region Xb4b-conv Xb4d ratio
+  N 5.402 5.521 0.978
+  S 1.839 1.929 0.953
+  Bridge 1.550 1.708 0.908
+  E1 0.622 0.839 0.741
+  E2 0.897 0.671 1.338

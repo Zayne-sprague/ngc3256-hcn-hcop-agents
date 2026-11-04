@@ -1,0 +1,27 @@
+{
+ "id": "20261029T101025-bee8",
+ "team": "team-a",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X133d_X1df1.NGC3256_sci.spw29.cube.I.pbcor.fits",
+  "member.uid___A001_X133d_X858.NGC3256_sci.spw27.cube.I.pbcor.fits"
+ ],
+ "why": "MISSING for Q53: no published or in-hand HCN/HCO+ 4-3 ratio at N/S finer than our 4.1x2.7\" (620 pc) Xb47 data, while Izumi+2016 AGN/SB groups are at 35-470 pc. HCN 4-3 at 0.70\" (2018.1.00493.S, spw29, 349.9-351.8 GHz covers the line) and HCO+ 4-3 at 0.30\" (2018.1.00223.S X858 spw27, 352.15-354.03 GHz) allow a matched 0.7-1\" (130-190 pc) 4-3 ratio at N and S to test the extrapolation; 1.64 GB total.",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 1637377920,
+ "submitted": "2026-10-29T10:10:25+00:00",
+ "bytes_to_fetch": 1637377920,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-29T10:10:29+00:00",
+ "bytes_done": 1637377920,
+ "started": "2026-10-29T10:10:31+00:00",
+ "evicted": [],
+ "finished": "2026-10-29T10:11:47+00:00",
+ "paths": [
+  "/archive/files/2018.1.00493.S/member.uid___A001_X133d_X1df1.NGC3256_sci.spw29.cube.I.pbcor.fits",
+  "/archive/files/2018.1.00223.S/member.uid___A001_X133d_X858.NGC3256_sci.spw27.cube.I.pbcor.fits"
+ ],
+ "minutes": 1.3
+}

@@ -1,0 +1,18 @@
+39 null apertures
+N      core  HCO+  142.9 HCN  126.4 | H13CO+ 4.84+-0.69 ratio 0.0339+-0.0048 | H13CN 3.46+-0.56 ratio 0.0273+-0.0044
+N      ring  HCO+   63.4 HCN   47.7 | H13CO+ 1.17+-0.34 ratio 0.0184+-0.0054 | H13CN 0.82+-0.27 ratio 0.0172+-0.0057
+S      core  HCO+  101.6 HCN   59.0 | H13CO+ 1.51+-0.68 ratio 0.0149+-0.0067 | H13CN 0.07+-0.61 ratio 0.0011+-0.0104
+S      ring  HCO+   67.1 HCN   39.6 | H13CO+ 1.01+-0.31 ratio 0.0150+-0.0046 | H13CN 0.53+-0.27 ratio 0.0133+-0.0069
+Bridge core  HCO+  112.0 HCN   78.1 | H13CO+ 2.20+-0.73 ratio 0.0196+-0.0065 | H13CN 2.05+-0.71 ratio 0.0262+-0.0091
+Bridge ring  HCO+   80.3 HCN   57.4 | H13CO+ 1.43+-0.33 ratio 0.0178+-0.0041 | H13CN 0.88+-0.27 ratio 0.0153+-0.0046
+
+core-minus-ring ratio difference (independent apertures; 8% scale cancels), formal significance and noise-injection false-gradient rate (null positions)
+  N      H13COp : core-ring = +0.0154 +- 0.0072 (2.1 sigma); empirical null sigma 0.0056; P(null >= obs) = 0.000 (39 nulls)
+  N      H13CN  : core-ring = +0.0101 +- 0.0072 (1.4 sigma); empirical null sigma 0.0071; P(null >= obs) = 0.128 (39 nulls)
+  N      weighted two-line mean: +0.0128 +- 0.0051 (2.5 sigma); null P = 0.026 (lines share apertures; the two H13C amplitudes are independent measurements of different species)
+  S      H13COp : core-ring = -0.0001 +- 0.0081 (-0.0 sigma); empirical null sigma 0.0068; P(null >= obs) = 0.513 (39 nulls)
+  S      H13CN  : core-ring = -0.0122 +- 0.0125 (-1.0 sigma); empirical null sigma 0.0116; P(null >= obs) = 0.897 (39 nulls)
+  S      weighted two-line mean: -0.0037 +- 0.0068 (-0.6 sigma); null P = 0.667 (lines share apertures; the two H13C amplitudes are independent measurements of different species)
+  Bridge H13COp : core-ring = +0.0018 +- 0.0077 (0.2 sigma); empirical null sigma 0.0061; P(null >= obs) = 0.333 (39 nulls)
+  Bridge H13CN  : core-ring = +0.0109 +- 0.0102 (1.1 sigma); empirical null sigma 0.0085; P(null >= obs) = 0.154 (39 nulls)
+  Bridge weighted two-line mean: +0.0051 +- 0.0061 (0.8 sigma); null P = 0.154 (lines share apertures; the two H13C amplitudes are independent measurements of different species)

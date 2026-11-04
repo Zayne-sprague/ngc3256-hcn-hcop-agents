@@ -1,0 +1,51 @@
+## Xb4d HCO+: beam 0.93x0.74, ap diameter 0.83", dv=4.4, v range -946..573
+  Sblue_nominal  blue=+0.1806  red=+0.0395  pseudoB=+0.0150
+  Sblue_peak     blue=+0.2445  red=+0.0275  pseudoB=+0.0015
+  S              blue=+0.1558  red=+0.0265  pseudoB=-0.0212
+  pseudoB: field rms(MAD) 0.0177 (n=13869, 99.9% |x|=0.0664, max 0.0825, min -0.0597); annulus 1.5-6" of S: sigma 0.0161, max 0.0578, min -0.0582
+  Sblue blue-wing(ap, peak pix)=0.2445 Jy/beam km/s; fraction of pseudo-wing pixels >= this: 0.00e+00 (n=13869); N-sigma (MAD) = 13.8
+  T2 blue wing: Sblue obs=+0.1822+-0.0222, sidelobe-model (a*S+b*N from core fit a=0.075,b=0.087) predicts +0.0087; ratio wing/core: Sblue 0.217 vs S 0.035 vs N -0.004
+  T2 red wing: Sblue obs=+0.0223+-0.0222, sidelobe-model (a*S+b*N from core fit a=0.075,b=0.087) predicts +0.0054; ratio wing/core: Sblue 0.027 vs S 0.003 vs N 0.009
+     a 10% sidelobe-level copy of S would give a blue-wing flux 0.0140, of N -0.0020 Jy/beam km/s
+  T3 Xb4d HCO+ Sblue blue-wing = 6.21 K km/s ; S-core(-150..150, ap) = 102.06 K km/s
+## Xb4d HCN: beam 0.94x0.74, ap diameter 0.83", dv=4.4, v range -948..690
+  Sblue_nominal  blue=+0.1424  red=+0.0342  pseudoR=+0.0087  pseudoB=+0.0191
+  Sblue_peak     blue=+0.3457  red=-0.0311  pseudoR=+0.0097  pseudoB=-0.0191
+  S              blue=+0.0744  red=+0.0231  pseudoR=-0.0113  pseudoB=+0.0105
+  pseudoR: field rms(MAD) 0.0187 (n=13869, 99.9% |x|=0.0640, max 0.0786, min -0.0706); annulus 1.5-6" of S: sigma 0.0170, max 0.0564, min -0.0530
+  pseudoB: field rms(MAD) 0.0173 (n=13869, 99.9% |x|=0.0591, max 0.0651, min -0.0626); annulus 1.5-6" of S: sigma 0.0147, max 0.0403, min -0.0560
+  Sblue blue-wing(ap, peak pix)=0.3457 Jy/beam km/s; fraction of pseudo-wing pixels >= this: 0.00e+00 (n=27738); N-sigma (MAD) = 19.2
+  T2 blue wing: Sblue obs=+0.1387+-0.0206, sidelobe-model (a*S+b*N from core fit a=0.230,b=0.050) predicts +0.0220; ratio wing/core: Sblue 0.223 vs S 0.055 vs N 0.010
+  T2 red wing: Sblue obs=+0.0305+-0.0206, sidelobe-model (a*S+b*N from core fit a=0.230,b=0.050) predicts +0.0131; ratio wing/core: Sblue 0.049 vs S 0.022 vs N 0.023
+     a 10% sidelobe-level copy of S would give a blue-wing flux 0.0085, of N 0.0049 Jy/beam km/s
+  T3 Xb4d HCN Sblue blue-wing = 8.79 K km/s ; S-core(-150..150, ap) = 39.43 K km/s
+## Xb4b HCO+: beam 0.25x0.23, ap diameter 0.24", dv=4.4, v range -946..573
+  Sblue_nominal  blue=+0.0044  red=+0.0031  pseudoB=+0.0088
+  Sblue_peak     blue=+0.0779  red=+0.0074  pseudoB=+0.0019
+  S              blue=+0.0148  red=+0.0025  pseudoB=-0.0093
+  pseudoB: field rms(MAD) 0.0097 (n=141556, 99.9% |x|=0.0368, max 0.0527, min -0.0478); annulus 1.5-6" of S: sigma 0.0080, max 0.0323, min -0.0351
+  Sblue blue-wing(ap, peak pix)=0.0779 Jy/beam km/s; fraction of pseudo-wing pixels >= this: 0.00e+00 (n=141556); N-sigma (MAD) = 8.1
+  T2 blue wing: Sblue obs=+0.0352+-0.0118, sidelobe-model (a*S+b*N from core fit a=0.098,b=0.053) predicts +0.0035; ratio wing/core: Sblue 0.231 vs S 0.030 vs N 0.016
+  T2 red wing: Sblue obs=-0.0188+-0.0118, sidelobe-model (a*S+b*N from core fit a=0.098,b=0.053) predicts +0.0009; ratio wing/core: Sblue -0.124 vs S 0.010 vs N 0.001
+     a 10% sidelobe-level copy of S would give a blue-wing flux 0.0026, of N 0.0017 Jy/beam km/s
+  T3 Xb4b HCO+ Sblue blue-wing = 23.74 K km/s ; S-core(-150..150, ap) = 265.65 K km/s
+  T4 Xb4b convolved to 0.93x0.74 (beam-area factor 12.1); Sblue-peak window values (Jy/beam km/s):
+     blue: at Sblue peak +0.1537; at S +0.1144; field MAD-sigma 0.0343
+     red: at Sblue peak +0.0086; at S +0.0294; field MAD-sigma 0.0350
+     pseudoB: at Sblue peak -0.0055; at S -0.0164; field MAD-sigma 0.0197
+## Xb4b HCN: beam 0.25x0.24, ap diameter 0.24", dv=4.4, v range -948..690
+  Sblue_nominal  blue=+0.0275  red=+0.0040  pseudoR=+0.0162  pseudoB=-0.0025
+  Sblue_peak     blue=+0.1129  red=+0.0127  pseudoR=-0.0081  pseudoB=-0.0045
+  S              blue=+0.0322  red=+0.0016  pseudoR=+0.0114  pseudoB=+0.0063
+  pseudoR: field rms(MAD) 0.0094 (n=141556, 99.9% |x|=0.0346, max 0.0448, min -0.0452); annulus 1.5-6" of S: sigma 0.0083, max 0.0342, min -0.0333
+  pseudoB: field rms(MAD) 0.0085 (n=141556, 99.9% |x|=0.0322, max 0.0410, min -0.0400); annulus 1.5-6" of S: sigma 0.0072, max 0.0363, min -0.0294
+  Sblue blue-wing(ap, peak pix)=0.1129 Jy/beam km/s; fraction of pseudo-wing pixels >= this: 0.00e+00 (n=283112); N-sigma (MAD) = 12.6
+  T2 blue wing: Sblue obs=+0.0163+-0.0100, sidelobe-model (a*S+b*N from core fit a=0.315,b=0.020) predicts +0.0116; ratio wing/core: Sblue 0.115 vs S 0.089 vs N 0.004
+  T2 red wing: Sblue obs=+0.0036+-0.0100, sidelobe-model (a*S+b*N from core fit a=0.315,b=0.020) predicts -0.0015; ratio wing/core: Sblue 0.025 vs S -0.012 vs N 0.005
+     a 10% sidelobe-level copy of S would give a blue-wing flux 0.0037, of N 0.0004 Jy/beam km/s
+  T3 Xb4b HCN Sblue blue-wing = 34.12 K km/s ; S-core(-150..150, ap) = 123.33 K km/s
+  T4 Xb4b convolved to 0.93x0.74 (beam-area factor 11.8); Sblue-peak window values (Jy/beam km/s):
+     blue: at Sblue peak +0.2151; at S +0.0871; field MAD-sigma 0.0385
+     red: at Sblue peak +0.0231; at S +0.0372; field MAD-sigma 0.0334
+     pseudoR: at Sblue peak -0.0064; at S +0.0067; field MAD-sigma 0.0186
+     pseudoB: at Sblue peak -0.0265; at S +0.0184; field MAD-sigma 0.0185

@@ -1,0 +1,6 @@
+CO10_X77   beam 13.8x8.2  S(20" ap)=     698 Jy km/s  (nfree 1260)
+CO10_Xd5   beam 12.9x8.6  S(20" ap)=     695 Jy km/s  (nfree 1259)
+CO10_X4f   beam 13.7x8.2  S(20" ap)=     787 Jy km/s  (nfree 630)
+CO21_7m    beam 7.5x4.5  S(20" ap)=    2769 Jy km/s  (nfree 315)
+CO32_X67   beam 4.7x2.8  S(20" ap)=    3845 Jy km/s  (nfree 250)
+CO32_X85a  beam 5.0x2.6  S(20" ap)=    4223 Jy km/s  (nfree 250)

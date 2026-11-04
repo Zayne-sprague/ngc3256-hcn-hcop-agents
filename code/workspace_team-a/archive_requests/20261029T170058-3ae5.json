@@ -1,0 +1,44 @@
+{
+ "type": "raw",
+ "ous": "uid://A001/X133d/X398b",
+ "freq_ranges_ghz": [
+  [
+   350.5531997221166,
+   351.9462533881782
+  ]
+ ],
+ "spws": null,
+ "ebs": [
+  "uid___A002_Xd64dca_X3cae"
+ ],
+ "field": null,
+ "timebin": "30s",
+ "width": 1,
+ "then": null,
+ "args": [],
+ "why": "Q60: 0.3 arcsec HCN 4-3 from 2018.1.01246 (same observing block Xd64dca as 00223 X858 HCO+ cube, which is 40 GB and cannot be restored); gives uv-matched HCN vs the archive X858 HCO+ cube",
+ "ok_evict": false,
+ "ok_long": true,
+ "bytes_estimate": 11609543680,
+ "id": "20261029T170058-3ae5",
+ "team": "team-a",
+ "status": "done",
+ "submitted": "2026-10-29T17:00:58+00:00",
+ "bytes_to_fetch": 11609543680,
+ "scratch_bytes": 63852490240,
+ "planned_evictions": [],
+ "estimated_hours": 2.34,
+ "large": true,
+ "queued": "2026-10-29T17:01:02+00:00",
+ "bytes_done": 0,
+ "started": "2026-10-29T20:33:39+00:00",
+ "path": "/archive/derived/team-a/20261029T170058-3ae5",
+ "finished": "2026-10-29T21:13:39+00:00",
+ "minutes": 40.0,
+ "split_ms": [
+  "/archive/derived/team-a/20261029T170058-3ae5/uid___A002_Xd64dca_X3cae.split.ms"
+ ],
+ "split_gb": 0.844,
+ "casa": "5.4.0-68",
+ "summary": "/archive/derived/team-a/20261029T170058-3ae5/summary.json"
+}

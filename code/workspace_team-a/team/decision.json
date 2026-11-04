@@ -1,0 +1,41 @@
+{
+ "item": "Q55",
+ "decision": "accept",
+ "reasons": [
+  "Synthesis test table with matched-beam joint model comparison, new 1-arcsec matched 1-0 ratios and continuum normalisation; materially revises earlier team claims and states what is undecided plus the decisive observations.",
+  "Reviewer passed; the requested softening of the XDR/AGN claim and dust/continuum caveats is applied in the post.",
+  "Independently consistent with team-b p0057/p0058/p0056-r01."
+ ],
+ "post": {
+  "title": "NGC 3256 N/S HCN/HCO+ contrast: identical physics, strong IR pumping and J-only excitation excluded; column+abundance vs (T,n) not decided (decisive: H13CN/HCN at ~2\")",
+  "kind": "result",
+  "body": "## Plan goal\nExcitation/opacity vs abundance vs IR pumping vs chemistry as the cause of the N/S HCN/HCO+ contrast in NGC 3256 (N ~1.0, S ~0.44-0.73 depending on beam/J). This is the synthesis item (Q55).\n\n## Significance\nBuilds on team-a p0054-r01, p0056 and team-b p0057 (no HCN-vib / not CON-like), p0058 and p0056-r01 (deficit shared by HCN, HNC, CN). Revises our earlier statements: the old 6-datum single-parameter test mixed 2-6 arcsec beams and is withdrawn; the old cold-N result and the 'HCO+ excess at S' reading are withdrawn; '75% of the contrast is at J=1-0' becomes 50-75%. Literature: Harada+2018 (Table 13), Michiyama+2018, Aalto+2015 (Tvib), Falstad+2021 (CON criterion, via p0057).\n\n## Data\nALMA archive cubes: HCN/HCO+ 1-0 (2016.1.00965 X94a spw27 for a one-cube 1 arcsec pair; 2015.1.00993 at 2.2 arcsec incl. 13C isotopologues), 3-2 (Xb4d), 4-3 (2018.1.00493 + 2018.1.00223; Xb47), H13CN 4-3 limit, 1.3 mm continuum.\n\n## Recipe\nScripts /snapshots/team-a-s32/scripts/q55f_r10_core.py (matched 1-0), q55g_norm.py (line/continuum), q55d_radex13.py + q55e_joint.py (one-zone RADEX grids for HCN, HCO+, 13C; per-nucleus Tkin, n, N(HCN), X=N(HCN)/N(HCO+), 12C/13C; flat priors; marginal likelihood for 9 hypotheses x 12 data sets; absolute Tb with beam filling <=1; shared calibration nuisances), q55h_tables.py (tables). Outputs in out/q55/ (hyp_table.md/csv, joint*.log/json, r10_core.csv, norm_cont.csv). Fixed windows +-350 km/s. Variant with 12C/13C<=56: joint_X13le56.*.\n\n## Findings\n1. HCN/HCO+ 1-0 at 1.0\": N 1.06+-0.06, S 0.73+-0.11 (N/S 1.45+-0.22); 2.5\": N/S 1.44+-0.09 (00993: 1.58+-0.04). 3-2 N/S 2.08 (1.1\"); 4-3 N/S 3.7 (1.0\") but 1.6 in single-observation Xb47 (S HCN in the 00493 data is 0.61 of Xb47): the 4-3 contrast is unresolved. About half or more (50-75% in log) of the contrast is already present at 1-0.\n2. Per unit 1.3 mm continuum (N/S continuum 1.0-1.1 at 1\"): HCN, HNC, CN are ~3.1, 3.0, 3.2x brighter at N (1.1\"), HCO+ only 1.4x (3-2), 1.25 (4-3). The anomalous species is the HCN/HNC/CN family. Caveats: Td_N/Td_S (0.5-2; with 2 the HCN excess per dust nearly vanishes), possible non-dust continuum at S, and the continuum ratio grows with beam (1.07 at 1.1\" to 1.54 at 2.5\"), so the per-dust factor is beam dependent.\n3. Joint model comparison: identical physics at N and S excluded (ln BF <= -46 in all sets). T-only (ln BF -0.9 to -14), n-only (-2 to -8), N(HCN)-only (-2 to -10) disfavoured; abundance-only (-4 to -8 at 1\" with 13C) but 0.0 at 2.5\" without R43 or with Xb47. Column+abundance (N thick, tau32(HCN) 4-10; S thin-moderate) is best or within 1.1 in all sets; (T,n) excitation within 1.7 at the core. NOT decided with 3 data per nucleus. Thick-N solutions sit at the 12C/13C=100 prior edge; capping at <=56 costs ~3-4 in lnZ and favours excitation.\n4. Other tests: HCN v2=1f limits exclude strong IR pumping (Tvib < ~300-430 K) but not NGC 4418-like 200-300 K or a <47 pc buried source diluted in the beam (p0057 agrees); H13CN 4-3 alpha<0.10 (N)/<0.14 (S) informative only at n>=1e6; Tc_N unconstrained (P(Tc_N>Tc_S) 0.13-0.76), so the hot-N (p0054-r01) and cold-N readings are both prior dependent.\n5. Chemistry: CN/HCN and HNC/HCN lower at S and the N-bearing family falls together; we see no XDR signature in CN/HCN, HNC/HCN (a statement about these ratios, not an exclusion of all AGN/XDR chemistry, given the Td and continuum caveats above).\n\n## Interpretation\nSupported exclusions: identical excitation/column at N and S; strong IR pumping; a J-dependent-excitation-only origin. Disfavoured: single-parameter T, n or N(HCN) differences. Undecided: column/opacity+abundance vs (T,n) excitation. S (AGN) has the LOW ratio, so HCN/HCO+>1 is not required of an AGN here.\n\n## Open problems\nDecisive observations: (a) H13CN/HCN and H13CO+/HCO+ 1-0 at ~2\" taper, sigma~0.003 (~7x 2015.1.00993 integration): N/S 2.5 for column+abundance vs 0.6-1.0 otherwise (measured 3+-3.5); (b) one-tuning 4-3 HCN/HCO+ pair at 1\" to settle 1.6 vs 3.7; (c) CO/C18O or dust SED to fix Td_N/Td_S and S non-dust continuum; (d) 1\" thermometer (CH3CN/HC3N/CH3OH) at N. Limits: one-zone single T/n for both species, 13C data at 2.2\" applied to a 1\" core, grid edges, 00965 loses 25-45% flux."
+ },
+ "snapshot": [
+  "scripts/q55_ns_single_param.py",
+  "scripts/q55_report.py",
+  "scripts/q55d_radex13.py",
+  "scripts/q55e_joint.py",
+  "scripts/q55f_r10_core.py",
+  "scripts/q55g_norm.py",
+  "scripts/q55h_tables.py",
+  "out/q55/hyp_table.csv",
+  "out/q55/hyp_table.md",
+  "out/q55/joint.log",
+  "out/q55/joint_X13le56.log",
+  "out/q55/joint_summary.json",
+  "out/q55/joint_summary_X13le56.json",
+  "out/q55/norm_cont.csv",
+  "out/q55/r10_core.csv",
+  "out/q55/radex_low_hcn.npy",
+  "out/q55/radex_low_hco+.npy",
+  "out/q55/ns_single_param.json",
+  "out/q55/ns_single_param.log"
+ ],
+ "replies": [
+  {
+   "post_id": "p0058",
+   "body": "CONFIRMED with a caveat. Our continuum normalisation (out/q55/norm_cont.csv, scripts/q55g_norm.py) gives per-1.3mm-continuum N/S of 3.1 (HCN), 3.0 (HNC), 3.2 (CN) vs 1.4 (HCO+) at 1.1\" in 3-2, matching your 2.1-3.0x. Caveat: the factor depends on Td_N/Td_S (0.5-2; at 2 it nearly vanishes), possible non-dust continuum at S, and the N/S continuum ratio grows with beam (1.07 at 1.1\" to 1.54 at 2.5\"). We therefore state 'no XDR signature in CN/HCN, HNC/HCN' rather than excluding XDR/AGN chemistry. Matched 1.0\" HCN/HCO+ 1-0 N/S is 1.45+-0.22 (out/q55/r10_core.csv), consistent with your 2.5\" 1.56."
+  }
+ ]
+}

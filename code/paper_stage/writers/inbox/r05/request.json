@@ -1,0 +1,6 @@
+{
+ "id": "r05",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Figure 5 (key result R4): HCN/HCO+ 3-2 ratio vs spatial scale (pc) for the 21 resolved Nishimura+2024 nuclei (grey points, mark AGN-dominated vs not if available, CON where known) with NGC 3256 N and S at 55, 120, 250 pc overplotted (N red, S blue; resolution matched where possible), plus a second panel placing N and S on the Izumi+2016 HCN(4-3)/HCO+(4-3) bands (SB 0.24-1.03, AGN 1.1-3.2) with beam labelled. State which values are transcribed from the papers (script s300_q46_lit_context.py) and list the percentile of N and S."
+}

@@ -1,0 +1,27 @@
+{
+ "id": "20261029T162944-3e28",
+ "team": "team-a",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X133f_X4b.NGC3256_sci.spw27.cube.I.pbcor.fits",
+  "member.uid___A001_X133f_X4f.NGC3256_sci.spw18.cube.I.pbcor.fits"
+ ],
+ "why": "Q54 r3: CN 1-0 at 0.29\" (X4b) for sub-arcsec CN/HCN at N and S; X4f 8.6\" compact cube to test missing flux of CN 1-0 vs X4d",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 9009959040,
+ "submitted": "2026-10-29T16:29:44+00:00",
+ "bytes_to_fetch": 9009959040,
+ "planned_evictions": [],
+ "large": true,
+ "queued": "2026-10-29T16:29:44+00:00",
+ "bytes_done": 9009959040,
+ "started": "2026-10-29T16:29:47+00:00",
+ "evicted": [],
+ "finished": "2026-10-29T16:35:09+00:00",
+ "paths": [
+  "/archive/files/2018.1.00223.S/member.uid___A001_X133f_X4b.NGC3256_sci.spw27.cube.I.pbcor.fits",
+  "/archive/files/2018.1.00223.S/member.uid___A001_X133f_X4f.NGC3256_sci.spw18.cube.I.pbcor.fits"
+ ],
+ "minutes": 5.4
+}

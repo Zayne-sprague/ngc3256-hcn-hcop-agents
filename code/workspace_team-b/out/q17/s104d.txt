@@ -1,0 +1,6 @@
+HCN ridge: wing flux (mean-over-aperture Jy/b km/s) 120-200: 0.039+-0.005, 200-280: 0.063+-0.005, 280-360: 0.039+-0.006; (120-200)/(200-280)=0.62+-0.10
+HCN lobe: wing flux (mean-over-aperture Jy/b km/s) 120-200: 0.082+-0.007, 200-280: 0.075+-0.007, 280-360: 0.055+-0.007; (120-200)/(200-280)=1.08+-0.14
+HCN shape difference (120-200)/(200-280): ridge 0.62+-0.10 vs lobe 1.08+-0.14: 2.6 sigma (white noise)
+HCO+ ridge: wing flux (mean-over-aperture Jy/b km/s) 120-200: 0.035+-0.005, 200-280: 0.054+-0.006, 280-360: 0.024+-0.005; (120-200)/(200-280)=0.66+-0.12
+HCO+ lobe: wing flux (mean-over-aperture Jy/b km/s) 120-200: 0.103+-0.007, 200-280: 0.054+-0.007, 280-360: 0.011+-0.007; (120-200)/(200-280)=1.91+-0.28
+HCO+ shape difference (120-200)/(200-280): ridge 0.66+-0.12 vs lobe 1.91+-0.28: 4.1 sigma (white noise)

@@ -1,0 +1,35 @@
+{
+ "item": "Q53",
+ "verdict": "fix",
+ "checks": [
+  "Read s330/s331 scripts, outputs and the 4 report entries. Core |v|<100 and all-velocity numbers (HCN/HCO+ N 0.846, S 0.627; HCO+ wings 7.6% of flux at N, 21% at S) follow the Q52 recipe; agree.",
+  "Independent re-derivation (checks/q53r1.py): own baseline (|v| 600-1200), all lines interpolated onto ONE common velocity grid, 2.5 arcsec J=1-0, 8 bins. HCN/HCO+ N 0.86-0.92 for |v|<100, 1.1-1.35 in weak wings; S 0.47-0.69 for |v|<100 and ~0.5 in red wing 100-200. N/S in core bins ~1.5-1.9. Qualitatively agrees: S wings are HCN-poor and the HCO+ boost is modest.",
+  "DISAGREE with one output: s330.txt core50 (|v|<50) gives HCN/HCO+ N 0.665, S 0.815, N/S 0.82 (contrast inverted; HNC 1.21, CN 1.59). On a common grid I get N ~0.87, S ~0.63 (N/S ~1.4) for the same range. core50 is not mentioned in the report although it contradicts 'the contrast is in the line core'. Likely cause: X and HCO+ cubes have different channel grids (different spws, ~13 km/s channels) and spec() selects channels per line with vs>=a & vs<=c, so numerator and denominator cover different velocity ranges; matters for narrow bins and steep edges at +-100.",
+  "N wing ratios (N/S ~4 for HCN, CN) rest on N HCO+ wing fluxes of 5-11 K km/s (3-2: 0.3-2.6) with a linear baseline over +-1200 km/s. Wing X/HCO+ of 1.7-5 at N against 0.85 in the core points to baseline/blend error rather than a physically N-rich wing. CN G1 wing at N (N/S 6) overlaps the neighbouring hyperfine group within +-350 km/s. Labelled low confidence, but the text still uses 'N wings N-rich' as a result.",
+  "The 'HCO+ boost <=15%' test is the right one but assumes HCO+ at |v|<100 is free of outflow/shock gas and that v_sys (N 2785, S 2750) is the right centre. S profile is asymmetric (red 17.5 vs blue 4.6 K km/s). No sensitivity to v_sys or bin edges is given.",
+  "13CO(2-1) reference reproduces the continuum pattern (arithmetic agrees) but has different uv coverage and is sensitive to Tk/opacity. 'Depletion' is not established: HCN, HNC, CN and HCO+ 1-0 are optically thick or subthermal, so the contrast mixes abundance, excitation and opacity."
+ ],
+ "fixes": [
+  {
+   "what": "Redo the velocity binning on a common velocity grid for all lines (regrid every spectrum to the HCO+ channel grid, or use fractional-channel weights), then recompute core (|v|<150, <100, <50), wings and N/S for 1-0 and 3-2. Explain or remove the core50 inversion (N/S 0.82), or show it is real.",
+   "why": "Numerator and denominator must cover identical velocity ranges; the core50 output contradicts the headline claim and is unreported.",
+   "how_experts_do_it": "Regrid to a shared velocity axis before velocity-resolved ratios; show X/HCO+ vs v profiles at N and S with error bars instead of three boxes."
+  },
+  {
+   "what": "Show the ratio-vs-velocity profile and N/S per bin, only for bins with both lines >5 sigma (limits otherwise). Test sensitivity to v_sys (+-20 km/s), bin edges (+-50 km/s) and baseline order/range. Add a null test for the N wings (same-width bins at line-free velocities).",
+   "why": "N wing numbers are noise/baseline limited; 'N wings N-rich' needs a null distribution and a baseline systematic before it is a result.",
+   "how_experts_do_it": "Quote ratios only where both lines exceed 3-5 sigma per bin; give limits otherwise; estimate the null-bin scatter."
+  },
+  {
+   "what": "Quantify the HCO+ excess explicitly: decompose HCO+ at S into core plus broad outflow component (two-Gaussian joint fit with shared kinematics, or scale the wing to the 13CO/CO wing fraction), then recompute the N/S contrast with the outflow HCO+ removed, bracketing the assumption (e.g. outflow gas has S-wing HCN/HCO+ ~0.43). Mask or drop CN G1 wings.",
+   "why": "Turns the qualitative 'boost <=15%' into a bracketed number and covers outflow HCO+ hidden under core velocities.",
+   "how_experts_do_it": "Fit multi-component profiles jointly in all lines and report the ratio of the narrow component."
+  },
+  {
+   "what": "Soften 'depletion' to 'N/S line-ratio deficit' unless an opacity/excitation step is added: 3-2/1-0 per nucleus in the core at matched beam for HCN and HCO+, and the CN N=1 G1/G2 hyperfine ratio at N and S as an opacity check.",
+   "why": "A core-present contrast does not separate abundance from opacity/excitation; the CN hyperfine ratio is available in the data and unused (worker table gives core G1/G2 of ~0.42 at N and ~0.45 at S).",
+   "how_experts_do_it": "Use hyperfine ratios as opacity diagnostics and express the contrast in column (RADEX/LVG) rather than intensity."
+  }
+ ],
+ "notes_for_questioner": "If the |v|<50 inversion is real, are S line cores self-absorbed or optically thick in HCO+, or does HCN/HCO+ at S have velocity-dependent excitation? Ask for HCN/HCO+ and CN hyperfine opacity profiles vs velocity at N and S, and whether the S-wing HCN/HCO+ ~0.43 matches Michiyama+2018 S-outflow values, to decide if outflow gas itself is HCN-poor."
+}

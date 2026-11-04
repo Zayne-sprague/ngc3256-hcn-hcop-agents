@@ -1,0 +1,32 @@
+{
+ "item": "Q20",
+ "decision": "accept",
+ "reasons": [
+  "Reviewer passed; numbers match outputs included in the snapshot.",
+  "Well-calibrated limiting result: independent-line test marginal (~3 sigma, template-dependent), ratios non-discriminating, weak-line limits uninformative. This establishes what the data cannot answer about the ridge origin and should stop further effort on it."
+ ],
+ "post": {
+  "title": "NGC 3256 red ridge: HCN/HCO+ 4-3 shows only a marginal (~3 sigma, template-dependent) counterpart, and line ratios cannot separate counter-lobe from Bridge gas",
+  "kind": "result",
+  "body": "## Significance\nFollows p0017 (NGC 3256: red dense-gas ridge ~3\" N of S is a one-sided HCN/HCO+ 3-2 feature at 4.7/5.7 sigma). Q20 asks whether independent lines (HCN/HCO+ 4-3, CS 7-6, SO, H13CN, HC3N) show it and whether line ratios separate an S counter-lobe from Bridge streaming gas. Short answer: only marginally in HCN/HCO+ 4-3, and the ratios do not discriminate. Weak lines give limits too shallow to test anything. This bounds what these data can say about the ridge origin.\n\n## Data\nXb4d (Band 6, ~0.95\" beam) HCN/HCO+ 3-2 and SO 6_5-5_4, HC3N 28-27. Xb47 (Band 7, 4.1x2.7\" beam) HCN/HCO+ 4-3, CS 7-6, H13CN 4-3. Image products only.\n\n## Recipe\nScripts, run in order with `python3 -I`: /snapshots/team-b-s12/scripts/s110a_q20_spectra.py (native peak-pixel spectra, per-channel noise), s110b_q20_maps.py (4.5x3.0\" matched-beam window and 40 km/s bin maps), s110c_q20_templatefit.py [taper 1.5 or 2.5\"] (fit of the 4-3 wing map as a*core + b + s_R*T_R + s_L*T_L; templates are the 1.05\" 3-2 excess, shifted-template null, mirror controls), s110d_q20_so_hc3n_1arcsec.py (SO and HC3N at 1.05\" with 1\" aperture null, 267 control apertures), s110e_q20_summary.py (ratios, stacks, upper limits, shape statistics). Outputs are in /snapshots/team-b-s12/out/q20/ (s110c.txt, s110d.txt, s110e.txt). Error = max(OLS, shifted-template null sd). Upper limits are 3 sigma = max(best,0)+3 se.\n\n## Findings\n- Band 7 cannot separate the ridge from N (1.9\") and S (3.3\") at 4.5x3.0\", so the test depends on assuming the 3-2 spatial shape. This is a template-dependent result.\n- Ridge excess relative to the 3-2 template (s): HCN 4-3 1.64+-0.73 (2.3 sigma), HCO+ 4-3 3.6+-1.2 (2.9 sigma). The 3-2 fit recovers s about 1.3+-0.4. Mirror controls are null. The result is unchanged for taper 1.5\" vs 2.5\". The HCN+HCO+ stack (3.4 sigma) is a consistency statement only. The two lines share template, baseline and pixels, so it is not independent evidence. Quote this as marginal, about 3 sigma, template-dependent. It is not a confirmation.\n- The HCO+ 4-3 ridge Tb ratio is above the thermal limit by about 1 sigma, and the HCN 4-3 core coefficient is negative. Both point to unmodelled systematics, so the errors are probably underestimated.\n- Profile: the 4-3 ridge starts at about 200 km/s (fraction in 160-200 km/s: HCO+ -0.05, HCN 0.18+-0.17). The HCO+ lobe falls from the lowest |v| (centroid 179 +30/-55 vs ridge 282 +31/-22, about 2 sigma). In HCN the shapes are not distinguishable. This is mild support only for the p0017 shape difference.\n- Ratios: r43/32 (Tb) HCN ridge 0.72 (+0.51/-0.34) vs lobe 0.80 (+0.38/-0.29). HCO+ ridge 1.31 (+1.06/-0.54) vs lobe 0.50 (+0.24/-0.22). HCN/HCO+ of the 3-2 excess is 1.26 (+0.97/-0.52) at the ridge and 0.96 (+0.31/-0.25) at the lobe. Both are well above the core ratio of 0.4-0.5, but the Bridge-like alternative is excluded at only about 1.4 sigma.\n- Weak lines are non-detections at 9-74x the core line ratio, so they are uninformative. CS 7-6 ridge s<2.96, SO ridge <0.082 Jy km/s (<0.32 of the HCN 3-2 excess), HC3N ridge <0.131. H13CN 4-3 s<7.6 is dominated by a CO 3-2 tail on the baseline, and H13CN 3-2 is not covered.\n\n## Interpretation\nThe ridge origin stays undecided: S counter-lobe about 55-65% (judgement, not a measurement), Bridge streaming not excluded. No line-ratio test discriminates them with these data.\n\n## Open problems\nA template-free matched-beam comparison (Xb4f 5.7x3.5\" vs Xb47 convolved) has not been done. A CO or JWST velocity-sign map beyond 250 pc would decide the origin, and it is not in this dataset. Suggest closing the ridge origin as data-limited.\n"
+ },
+ "snapshot": [
+  "scripts/s110a_q20_spectra.py",
+  "scripts/s110b_q20_maps.py",
+  "scripts/s110c_q20_templatefit.py",
+  "scripts/s110d_q20_so_hc3n_1arcsec.py",
+  "scripts/s110e_q20_summary.py",
+  "scripts/s111_update_report_q20.py",
+  "out/q20/s110a.txt",
+  "out/q20/s110a_spectra.png",
+  "out/q20/s110b.txt",
+  "out/q20/s110c.txt",
+  "out/q20/s110c.json",
+  "out/q20/s110c_sig2.5.txt",
+  "out/q20/s110c_sig2.5.json",
+  "out/q20/s110d.txt",
+  "out/q20/s110d.json",
+  "out/q20/s110e.txt"
+ ],
+ "replies": []
+}

@@ -1,0 +1,6 @@
+# Q54 round 3 progress (worker)
+DONE: scripts/q54i_radex_post.py -> out/q54/radex_post.json (joint HCN/HNC/CN non-LTE posterior N,S).
+ - Shared (T,n,ff) slab fails (chi2min 20-27, 1 dof). Allow filling-factor ratio 2x (ff2x): N(HNC)/N(HCN) ~1 (+-0.25 dex) both nuclei; N(CN)/N(HCN) ~0.6-1; S-N differences <0.3dex not significant. tau10(HCN) 4-11. T_N~85 (68-95), T_S~30 (22-51) ff2x.
+ - HNC/HCN 1-0 discrepancy: 00993 same-MS (spw0/1 of X961) => primary 0.52/0.42; 00412 0.44/0.36 (HCN +5%, HNC -12% -> parallel offset 15% at all beams 2.2-7": flux-scale/bandpass, plus HNC extended flux loss growing with beam 12->21%). N/S=1.24 in both datasets (2.5"), robust. Adopt N 0.48(+0.05/-0.08), S 0.39 (+0.04/-0.05).
+ - Lit (via lit.py): Bemis+2019 passage 26 (quotes Loenen+2008: XDR HNC/HCN never <1; mech heating suppresses); Oteo+2017 p17-18 (local ULIRG HCN/HNC~2 needs mech heating); Wilson+2018 (Meijerink07 CN/HCN column up in XDR); Krieger+2020 p45.
+TODO after archive: requested 2018.1.00223 X4b spw27 (CN1-0 0.29") + X4f spw18 (CN 1-0 8.6" compact) -> CN/HCN(1-0) at 0.7-1.0" (HCN: 2016.1.00965 spw27 0.76"x0.63", missing flux vs 00993) + CN missing-flux check; then report.json Q54a-d update + work_summary.md.

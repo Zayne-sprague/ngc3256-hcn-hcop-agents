@@ -1,0 +1,33 @@
+{
+ "item": "Q55",
+ "verdict": "fix",
+ "checks": [
+  "Re-derived arithmetic from the Q55b log: N/S of R10,R21,R32 = 1.40, 1.34, 1.36; ln1.58/ln1.81=0.77 (75%-in-log claim OK); weights sum to 1.0. Agree with the exclusions in Q55a rows 1 (v2=1f, consistent with team-b p0057: Sigma_vib<0.02 Lsun/pc2), 4 (not mainly J-dependent) and 7 (no XDR chemistry).",
+  "Q55b inputs are 2-6 arcsec beam ratios (Michiyama 1-0, Xb55 2-1, Xb4f 3-2), whose N/S is only 1.35-1.4, not the 2.1+-0.2 at 50-120 pc that defines the question. The needed dlogX=+0.25 dex (x1.8) is therefore an underestimate (2.1 needs ~0.32 dex), and the chi2=43 for 'identical physics' mixes beams/filling; the test is, as the worker admits, consistency only, with 3 data per nucleus and 4 parameters (chi2 1.1-3.2 is guaranteed). It does not discriminate and should not be a row that 'supports' anything.",
+  "The headline weight (composition/HCO+ excess at S ~0.45) is not supported by any test in the table. README/earlier items: HCO+ peak brightness is equal at N and S and the contrast is carried by HCN; HCN, HNC, CN and CS are all lower at S relative to HCO+. Ratios to HCO+ cannot say which species is anomalous without a column normalisation (dust/CO/C18O). 'HCO+ tau 0.5 N vs ~6 S' in Q55c is not traced to any computed result. Subjective weights are labelled as such, but the top-ranked hypothesis is then effectively unconstrained; the verdict must say 'not decided' for abundance/opacity/excitation split, with the excluded set as the result.",
+  "Forum: p0057 (team-b, no HCN-vib, N matches vib-non-detected galaxies) is not cited in Q55; p0054-r01 hot-N preference vs Q55b 'T-only solution wants N colder' (median -30 K) and Tc_N unconstrained is a visible tension that is not reconciled in the text."
+ ],
+ "fixes": [
+  {
+   "what": "Redo the single-parameter / ladder test in beam-matched, core-scale inputs (uv-matched Xb4d/Xb4b-tapered 0.9-1 arcsec for 3-2 and the 50-120 pc N/S ratios; use 1-0 and 2-1 only after convolving or with an explicit beam-dilution/filling parameter), so that the input contrast is 2.1, and recompute the needed dlogX, dn, dT. Add a joint model comparison (BIC or marginal likelihood with stated priors), not just chi2 per case, and say that 3 data per nucleus cannot discriminate.",
+   "why": "The test currently encodes a contrast of 1.35-1.4 and mixes beams; numbers quoted (x1.8, +0.25 dex) are biased low and the 'identical physics excluded' chi2 is partly a beam artefact.",
+   "how_experts_do_it": "Match uv-range and convolve to a common beam, use the same aperture for every line, treat beam filling as a free nuisance with prior, and marginalise on a RADEX grid with a likelihood including line-to-line calibration (5-10%)."
+  },
+  {
+   "what": "Replace the 0.45/0.30/0.15 weights by a derived statement, or tie each to a computed quantity. Remove 'HCO+ excess at S' as the leading hypothesis unless an absolute normalisation shows it: compute N/S of HCO+, HCN, HNC, CN, CS, CH3OH each divided by an H2 proxy (matched-beam 1.3 mm dust continuum, C18O or 13CO if in data/other projects), including the dust Tb/Tc uncertainty, and say which species deviates.",
+   "why": "With equal HCO+ peak brightness, 'HCO+ enhanced at S' versus 'dense-gas tracers depleted at S' is a normalisation choice, not a measurement; it also affects the AGN-diagnostic reading.",
+   "how_experts_do_it": "Fractional abundances vs dust/CO column (as in Harada+2018 and Nishimura+2024) with propagated errors; state that without it only ratios are available."
+  },
+  {
+   "what": "Add the missing consequence for the diagnostic and for the N core: for each surviving interpretation (abundance, opacity, Tex, density) give the predicted H13CN/HCN, HCN 4-3/3-2, HCN/HCO+ at 1-0 in a 0.3-1 arcsec beam, and the expected S/N for the proposed observation (time/array, and whether archival ALMA projects on NGC 3256 already contain H13CN/H13CO+ 1-0 or 3-2, Ledger+2021 and Harada+2018 data). Check the archive/other projects before declaring the decisive observation 'future'.",
+   "why": "Task rules ask to restore other-project data where a question needs it; Harada+2018 covered most of Bands 3 and 6, which includes H13CN/H13CO+ 1-0 and 3-2.",
+   "how_experts_do_it": "Restore the public visibilities, image in a common uv-range, and measure the 13C isotopologue ratios directly; give a table of discriminating predictions."
+  },
+  {
+   "what": "Cite p0057 and reconcile with p0054-r01: state explicitly that the T-only solution of Q55b prefers colder N while Q42/Q49 are unconstrained and p0054-r01 prefers hot N, and that this is prior-dependent. Keep Q51/Q52 out of claims.",
+   "why": "Forum consistency and an honest statement that temperature is undecided.",
+   "how_experts_do_it": "One paragraph on tension, with the probability of each sign of Tc_N-Tc_S."
+  }
+ ],
+ "notes_for_questioner": "(1) Absolute species normalisation to dust/CO at N and S in matched beams: which species is anomalous? (2) Can restored Harada+2018 / other-project visibilities give H13CN/H13CO+ 1-0 or 3-2 limits at N and S at matched uv? (3) Redo the AGN-diagnostic implication of Q53 after the normalisation result."
+}

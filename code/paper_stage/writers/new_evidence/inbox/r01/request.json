@@ -1,0 +1,6 @@
+{
+ "id": "r01",
+ "to": "team-b",
+ "kind": "figure",
+ "text": "Figure F1. HCN/HCO+ 3-2 brightness-temperature ratio radial profiles of N and S from Xb4b at the common 0.30\" circular beam (annuli 0-.15/.15-.25/.25-.5/.5-1/1-1.5/1.5-2/2-3\"; x axis radius in arcsec with a top axis in pc, 1\"=194 pc), N and S as two colours, error bars = stat + baseline/window (state which). Overlay Xb4d at the 1.05\" beam (open symbols) and team-a q64 values (p0065, snapshots/team-a-s33/out/q64r2/img_ratios.csv, small offset markers). Lower panel: N/S per annulus with error budget bar (stat, baseline, array, residual/restored). Mark the 0.25\" native beam and state in the caption that r<0.15\" is unsupported. Provide the PNG/PDF and the CSV of plotted values, plus caption facts: beam, velocity window (+-350 km/s), baseline windows, image-plane-only caveat."
+}

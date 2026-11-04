@@ -1,0 +1,25 @@
+{
+ "id": "20261028T051527-da5f",
+ "team": "team-a",
+ "type": "fetch",
+ "files": [
+  "member.uid___A001_X33e_X155.ari_l.ngc_3256_sci.spw0_218561MHz.12m.cube.I.pbcor.fits"
+ ],
+ "why": "Q30: 217.6-219.5 GHz window contains 13CO(2-1) (sky ~218.4 GHz at v~2750) at 0.745\" beam; compare with archived 0.82x0.68\" CO(2-1) (2015.1.00902.S) at S/N cores to constrain tau(CO). Also covers C18O(2-1) wing edge.",
+ "ok_evict": false,
+ "status": "done",
+ "bytes_estimate": 331234560,
+ "submitted": "2026-10-28T05:15:27+00:00",
+ "bytes_to_fetch": 331234560,
+ "planned_evictions": [],
+ "large": false,
+ "queued": "2026-10-28T05:15:29+00:00",
+ "bytes_done": 331234560,
+ "started": "2026-10-28T05:15:29+00:00",
+ "evicted": [],
+ "finished": "2026-10-28T05:15:43+00:00",
+ "paths": [
+  "/archive/files/2015.1.00412.S/member.uid___A001_X33e_X155.ari_l.ngc_3256_sci.spw0_218561MHz.12m.cube.I.pbcor.fits"
+ ],
+ "minutes": 0.2
+}

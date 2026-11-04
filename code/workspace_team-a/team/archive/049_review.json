@@ -1,0 +1,40 @@
+{
+ "item": "Q40",
+ "verdict": "fix",
+ "checks": [
+  "Read work_summary, q40.log and q40_decontam.log and the head of q40_decontam.py. Re-derived from the log the plain 10-arcsec ratios: E1/N = 0.623/0.702=0.89 (Michiyama 1-0), 0.520/0.620=0.84 (Xb55), 0.313/0.478=0.65 (Xb4f). These match the summary. Note that Harada 1-0 gives 0.528/0.709=0.74, so the 1-0 contrast depends on which 1-0 image is used; the summary quotes only Michiyama in the plain-map line.",
+  "Zero-level (+-1x far-field mean) and PB-width tests are done and are negligible for R at 1-0, 2-1 and Xb4f. Xb4d is correctly rejected (R changes 0.31->0.22 at E1). Agree. The PB-width test is nearly vacuous for a single pointing at r<8 arcsec, and the summary says so.",
+  "Decomposition design (NNLS, fixed-position beam-shaped components, free-sign constant, null windows added and refit for noise, six model variants) is a reasonable approach. Weaknesses: (a) clump and nuclear components are assumed unresolved at 5.7x3.5 and 8.6x6.0 arcsec. The 1-0 maps are smoothed to 5.7x3.5 while 2-1 is fitted at 8.6x6.0, so the three J are not at a common resolution, and extended clumps would bias the double ratios. (b) The N-S pair is 5 arcsec apart, close to the minor axis of the 3-2 beam, so the N/S split has degeneracy. (c) E1/E2/W positions are fixed from team-b, with no position-shift test.",
+  "The headline conclusion has an internal tension. The decontaminated E1/(N+S) values fall monotonically with J: 0.79 (or 0.62 Harada), 0.64, 0.49 (0.41 Xb4d). The plain 10-arcsec maps give 0.89, 0.84, 0.65. So E1's deficit grows with J, which is the opposite of team-b's 'mostly 1-0' and not simply 'common at all J'. The double ratio R32/R21 clump/nucleus = 0.77+-0.14 is only -1.6 sigma, which is not significant but is not 'consistent with 1' in an informative way either. W is flat (0.69-0.76). The summary should say clump-dependent: E1 and W behave differently.",
+  "'Nucleus' = N+S is arbitrary because N and S differ strongly (R10 0.82 vs 0.58, R32 0.59 vs 0.41). Against S alone, E1 is not deficient at 1-0 (0.55 vs 0.58) and W is only slightly deficient (0.48 vs 0.58), and the 'clump deficit' there depends on the comparison. This ambiguity is not exploited; the clump/nucleus ratios must be given against N and S separately.",
+  "The Harada vs Michiyama 1-0 discrepancy at E1 (HCN 1.47+-0.24 vs 1.81+-0.04, R 0.44 vs 0.55) is flagged but not tested. It decides whether the 1-0 contrast is 0.62 or 0.79, which is the point of the question. The Harada far-field mean is large (0.46/0.73 Jy/beam km/s, i.e. 3-4x its sigma), and the fitted constants differ in sign between the two sets (-0.15 vs +0.22/+0.43)."
+ ],
+ "fixes": [
+  {
+   "what": "Compute the clump/nucleus contrast for E1 and W against N and S separately and against N+S, for each J, in a single table with errors, in the decontaminated and the plain maps. Show the J-trend explicitly (R vs J for N, S, E1, W). Reword the conclusion accordingly (E1 deficit grows with J; W flat; contrast vs S at 1-0 is ~1).",
+   "why": "The verdict 'real at all J / not mostly 1-0' depends on the nuclear reference and on one 1-0 dataset; the decontaminated trend 0.79->0.64->0.49 contradicts both team-b and the summary wording.",
+   "how_experts_do_it": "Tabulate the ratio of ratios against each reference region and propagate noise, variant spread and 10% calibration per band; state which comparisons are significant (>3 sigma) and which are not."
+  },
+  {
+   "what": "Resolve Harada vs Michiyama at E1 and W: compare the two 1-0 maps after common smoothing and after matching zero level (subtract a fitted constant over the same null window), check for uv-coverage differences (shortest baselines, the largest recoverable scale, from the headers) and for a pointing/position offset. If unresolved, restore the 1-0 visibilities (the archive request path exists) and re-image with a common uv range and taper to the Xb4f beam.",
+   "why": "The 1-0 clump value is the crux, and the two sources differ by 25% in R and 20% in HCN at E1 with a quoted error of 0.012 for one of them. A stat-only error is not credible.",
+   "how_experts_do_it": "Match the uv range (e.g. 15-100 klambda), taper to a common circular beam, and re-image both transitions. The same restored uv range for HCN and HCO+ of each J is the standard route to ratio maps."
+  },
+  {
+   "what": "Do a common-resolution test: fit all J at one common beam (8.6x6.0 arcsec, or the circularised 10-arcsec beam) and, separately, at the native beams. Add a position-shift test of the E1/E2/W components (+-1 arcsec) and a free size (one resolved Gaussian) test for the clumps. Report how R(E1)/R(N+S) and the double ratio change.",
+   "why": "The double ratios mix beams of 2-1 (8.6x6.0) and 3-2/1-0 (5.7x3.5); if the clumps are extended the amplitude of each band depends on the beam, and the 'unresolved' assumption was never tested.",
+   "how_experts_do_it": "Match beams exactly (convolve to a common beam) before ratioing, and fit with components of free size; compare the fit with injection and recovery of synthetic clumps of known size and ratio, with the real wings."
+  },
+  {
+   "what": "Carry the result to a physical quantity. At least with RADEX (the LAMDA HCN and HCO+ files), give which combinations of n, T_kin and N/dv (and the HCN/HCO+ abundance ratio) reproduce R10, R21 and R32 for N, S, E1 and W, and say whether the 0.5-0.8 factor can be an abundance ratio, opacity or density effect. Use the stated lack of H13CN to state a limit on the opacity, not 'needs data'.",
+   "why": "The summary stops at line ratios; the Uncertain section declares the abundance-vs-opacity question not answerable without computing what the existing data permit.",
+   "how_experts_do_it": "A grid of RADEX models with the HCN/HCO+ abundance ratio as a free parameter; use the H13CN(4-3)/HCN(4-3) upper limit or the stacked H13CN at the clump positions to bound tau; present allowed regions with the calibration errors."
+  },
+  {
+   "what": "Report E2 and the 4-3 clump limit properly (E2 R at 1-0 differs 0.04 vs 0.34 between the two datasets, which shows E2 is unconstrained), and say that explicitly in the reply to team-b rather than leaving it nan.",
+   "why": "The reply must address all of team-b's claims, including the 4-3 limit.",
+   "how_experts_do_it": "Give a 3-sigma upper limit for the HCN flux and a lower limit on R, or a clear 'not measurable' with the noise numbers."
+  }
+ ],
+ "notes_for_questioner": "Does the E1 deficit that grows with J (0.79->0.64->0.49) persist when beams are matched and clump sizes are free, and does it imply a lower HCN excitation (density) in E1 rather than an abundance difference? Also: why do Harada and Michiyama 1-0 images differ by 20% at E1 (uv coverage or zero level)? A restored-visibility 1-0 test would settle it."
+}

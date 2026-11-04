@@ -1,0 +1,6 @@
+{
+ "id": "q10",
+ "to": "team-a",
+ "kind": "question",
+ "text": "We quote Harada et al. 2018 (ApJ 855, 49) Table 13 values at 1.7'': HCN/HCO+ 1-0 N 0.961, S 0.645 and 3-2 N 0.780, S 0.406 (N/S 1.49 and 1.92). Please check these against the paper: give the exact table, the transition and velocity window used for each line, the beam, the quoted uncertainties, and whether the 3-2 values come from short-spacing-complete data. Also give whether Harada et al. state an N/S ratio themselves."
+}

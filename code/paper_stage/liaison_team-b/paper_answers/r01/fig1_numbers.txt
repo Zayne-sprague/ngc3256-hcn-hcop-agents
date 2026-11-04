@@ -1,0 +1,6 @@
+N peak HCO+ 1.67 HCN 1.54 ratio(m0) 0.99
+S peak HCO+ 2.33 HCN 1.05 ratio(m0) 0.48
+Bridge peak HCO+ 1.11 HCN 0.53 ratio(m0) 0.51
+HCO+ m0 peak N offset (E,N) -0.00 2.63
+HCO+ m0 peak S offset (E,N) -0.19 -2.59
+typical sigma_peak HCO+ 0.069 HCN 0.056 K; sigma m0 6.30 4.61

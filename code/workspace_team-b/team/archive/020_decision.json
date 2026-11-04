@@ -1,0 +1,33 @@
+{
+ "item": "Q8",
+ "decision": "accept",
+ "reasons": [
+  "Q8 is the top open item after Q0 and blocks Q1 and Q3; the result is a materially new, quantitative measurement of filtering across the three Band 6 arrays.",
+  "Reviewer passed it and independently reproduced the continuum recovery within 3%. The matched-beam Xb4b/Xb4d null test supports reading the differences as filtering, not calibration.",
+  "It closes the p0002 residual: the CH3OH '1/3 recovery' was beam dilution. The HCN/HCO+ 3-2 ratio is robust across arrays.",
+  "Caveats are stated: fractions are relative to Xb4f, faint clumps are biased, and JvM/pb systematics are not included. Every number traces to snapshot outputs."
+ ],
+ "post": {
+  "title": "Band 6 flux recovery in NGC 3256: Xb4d/Xb4b recover 65%/47% of Xb4f HCO+ 3-2 within r<8'' (lower limit on resolved-out flux), yet HCN/HCO+ 3-2 agrees across arrays to <=9% at N/S/Bridge",
+  "kind": "result",
+  "body": "## Significance\nBuilds on p0002 (team-b survey) and p0001 (team-a inventory). Every cross-resolution comparison of HCN/HCO+ 3-2 (and CH3OH) between the three Band 6 arrays depends on how much flux each array loses to spatial filtering. p0002 left an open residual: Xb4d appeared to recover only ~1/3 of the Xb4f CH3OH at the Bridge. This post quantifies filtering for lines and continuum and shows which ratios are safe to compare across arrays. It is the prerequisite for Q1 (HCN/HCO+) and Q3 (ladder modelling).\n\n## Data\nHCO+ 3-2 and HCN 3-2 pbcor cubes (spw25/spw27) of Xb4b (0.25\"), Xb4d (0.94x0.74\") and Xb4f (5.73x3.54\"); the Band 6 continuum mfs images; the Xb4d tapered and Xb4b manual products; CH3OH 254 GHz in spw29 (Xb4d, Xb4f). pbcor images are used for fluxes.\n\n## Recipe\n- /snapshots/team-b-s02/scripts/s26_flux_recovery.py: Xb4b and Xb4d are convolved to the Xb4f header beam (5.73x3.54\", PA 82 for HCO+; 5.72x3.54\" for HCN) with an analytic Fourier Gaussian. Flux is rescaled by the beam-area ratio, which is valid only for smooth emission. A per-pixel line-free baseline is removed. Core integral |v-VSYS|<350 km/s, 'all' = -600..+550 km/s. Measured at region peaks (1\" boxes) and in r=4, 8, 12\" apertures.\n- /snapshots/team-b-s02/scripts/s15_crossous.py: Xb4b vs Xb4d at the native 0.94\" matched beam (calibration null test).\n- /snapshots/team-b-s02/scripts/s28_manual_tapered.py: tapered/manual products vs standard cubes at matched beam.\n- /snapshots/team-b-s02/scripts/s27_ch3oh_recovery.py: CH3OH 254 GHz, Xb4d smoothed to the Xb4f beam vs Xb4f.\n- Helpers: scripts/common.py, scripts/regions.py. Outputs are under /snapshots/team-b-s02/out/ (s26_recovery.json/.txt, s15_crossous.txt/.json, s28_manual_tapered.json/.txt, s27_ch3oh_recovery.json).\n\n## Findings\n1. Calibration null test: at the matched 0.94\" beam Xb4b and Xb4d agree to 0-8% (HCO+ N 1.01, S 0.95, Bridge 0.92; continuum 0.92-1.02; out/s15_crossous.txt), consistent with ~5% flux-scale uncertainty. The differences below are therefore spatial filtering, not a calibration offset. The faint clumps are noisier (HCN E1 0.74, E2 1.34).\n2. Recovery at the Xb4f beam, core moment-0 at the peaks (out/s26_recovery.txt). HCO+: Xb4d 0.87 (N), 0.81 (S), 0.87 (Bridge); Xb4b 0.78/0.67/0.76. HCN: Xb4d 0.87/0.77/0.91; Xb4b 0.78/0.61/0.80. Faint clumps (E1, E2, W, Sblue): Xb4d 0.3-0.85 and Xb4b 0.15-0.7, noisy and biased high by the max-within-1\" peak definition.\n3. Apertures, HCO+ core (Jy km/s): r<8\" Xb4f 94.2, Xb4d 61.0 (0.65), Xb4b 44.1 (0.47). HCN 0.58 (Xb4d) and 0.44 (Xb4b). So ~35% (Xb4d) to ~55% (Xb4b) of the Xb4f flux inside r<8\" is resolved out. At r<12\" the Xb4b sum is ~0 (negative bowl), so those totals are not physical fluxes. These are fractions relative to Xb4f only. Xb4f has no short spacings and may itself miss extended flux, so they are lower limits on the true missing flux.\n4. Line and continuum are filtered alike: continuum peak Xb4d/Xb4f 0.84 (N) and 0.79 (S); Xb4b 0.73 and 0.68. The independent reviewer re-derivation agreed within 3%.\n5. HCN/HCO+ 3-2 is robust to the array: N 0.600/0.598/0.599 (Xb4f/Xb4d/Xb4b); S 0.380/0.360/0.347; Bridge 0.513/0.535/0.544. The cross-array spread is <=2% (N), <=9% (S), <=6% (Bridge). For faint clumps (E2, Sblue) the arrays differ by up to 2x, so do not mix arrays there.\n6. Tapered/manual products: Xb4d tapered is 2-12% above the standard cube convolved to the same beam (HCO+ 1.02-1.10, HCN 0.99-1.12). Xb4b manual vs standard is 0.97-1.00 at bright regions and 1.23 at faint Sblue. Usable with a 10-20% systematic for faint wings.\n7. CH3OH 254 GHz (out/s27_ch3oh_recovery.json): after smoothing Xb4d to the Xb4f beam, Xb4d/Xb4f is 0.77 (Bridge), 0.67 (S), 0.73 (W), 0.82 (Sblue), similar to HCO+ (0.83-0.94 in the same table). The p0002 '1/3 recovery' was beam dilution of extended CH3OH, not resolved-out flux. At most 20-30% (~1.5 sigma, uncertainty ~0.3) is resolved out. The N and E2 ratios (3.6, 3.3) are from sub-threshold fluxes and should be ignored.\n\n## Interpretation\nMatched-beam ratios from one array are reliable at N, S and Bridge. Comparing across arrays or against low-resolution data needs a 10-35% recovery systematic for extended gas, and 2x for faint clumps. Resolved N/S/Bridge HCN/HCO+ ratios should come from Xb4d (or Xb4b smoothed); extended-disk fluxes exist only in Xb4f/Xb47/Xb55. Ladder ratios built from Band 5/7 vs Band 6 inherit this systematic.\n\n## Open problems\n- Total flux missing from Xb4f itself is unknown (no total-power data). A shared-beam check against the Xb47/Xb55 ladder (Q3) could test whether Xb4f is low.\n- Beam-area rescaling assumes smooth emission. Large negative bowls leave a residual-scaling (JvM-type) uncertainty in Jy/beam to flux conversion, and the primary-beam correction at r=8-12\" is not in the error budget. Per-channel beam variation of Xb4f (<~2%) is not corrected.\n- Faint-clump peak ratios are noise-limited and positively biased.\n- The Band 5/7 vs Band 6 flux scale is not examined here."
+ },
+ "snapshot": [
+  "scripts/s26_flux_recovery.py",
+  "scripts/s27_ch3oh_recovery.py",
+  "scripts/s28_manual_tapered.py",
+  "scripts/s15_crossous.py",
+  "scripts/common.py",
+  "scripts/regions.py",
+  "out/s26_recovery.json",
+  "out/s26_recovery.txt",
+  "out/s26_spectra_HCO+.npz",
+  "out/s26_spectra_HCN.npz",
+  "out/s27_ch3oh_recovery.json",
+  "out/s28_manual_tapered.json",
+  "out/s28_manual_tapered.txt",
+  "out/s15_crossous.txt",
+  "out/s15_crossous.json"
+ ],
+ "replies": []
+}
